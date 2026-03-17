@@ -1,0 +1,468 @@
+
+
+
+
+
+
+🍁
+CANADIAN OPTIMIZER
+CanadianOptimizer.com
+
+Standard Operating Procedures
+Website Strategy, Design System & Content Operations
+
+
+
+
+Version 1.0
+Last Updated: March 16, 2026
+Owner: Andrew Carrothers
+Contact: andrew@canadianoptimizer.com
+
+TABLE OF CONTENTS
+
+
+1.  Brand Overview & Mission
+2.  Content Strategy & Categories
+3.  Site Architecture & Page Structure
+4.  Visual Identity & Design System
+5.  Typography & Hierarchy
+6.  Component Standards
+7.  Technical Stack & Infrastructure
+8.  Content Pipeline & AI Workflow
+9.  SEO & LLM Optimization
+10. Monetization Strategy
+11. Email & Newsletter Strategy
+12. Mobile-First Requirements
+13. Version Control & Deployment
+14. Launch Checklist
+
+1. Brand Overview & Mission
+
+
+Brand Name: Canadian Optimizer
+URL: CanadianOptimizer.com
+Owner: Andrew Carrothers
+Contact: andrew@canadianoptimizer.com
+
+Mission Statement
+Canadian Optimizer provides Canadians with actionable strategies and tips to optimize their financial life with the goal of maximizing wealth. The site focuses on specific optimization strategies around each financial topic, going beyond basic explainers to deliver tactics readers can implement immediately.
+
+Differentiation
+The core differentiator is the optimization angle. Unlike general Canadian personal finance sites that explain concepts, Canadian Optimizer assumes readers understand the basics and focuses on extracting maximum value. Every piece of content should answer the question: “How do I optimize this specific aspect of my finances?”
+
+Target Audience
+	•	Canadians seeking to maximize their financial outcomes
+	•	Readers who understand basic financial concepts and want advanced strategies
+	•	Individuals looking for specific, actionable optimization tactics
+	•	Canadians navigating tax optimization, investment strategy, and wealth building
+
+2. Content Strategy & Categories
+
+
+The website organizes content across nine financial optimization categories. Each category focuses on specific strategies to optimize around that topic area.
+
+Category
+Focus Area
+Example Topics
+Personal Finance
+Overall financial optimization and planning
+Net worth tracking, financial goal setting, optimizing cash flow
+Investing
+Portfolio optimization and wealth building
+TFSA vs RRSP strategies, ETF optimization, dividend investing
+Taxes
+Tax optimization and minimization strategies
+Tax-loss harvesting, income splitting, deduction maximization
+Real Estate
+Property investment and homeownership optimization
+Mortgage optimization, rental income strategies, FHSA
+Credit Cards
+Rewards maximization and credit optimization
+Points hacking, card churning, travel rewards optimization
+Retirement Planning
+Retirement income and withdrawal optimization
+RRSP meltdown, CPP optimization, pension income splitting
+Budgeting
+Spending optimization and financial tracking
+Zero-based budgeting, expense optimization, automation
+Saving Money
+Cost reduction and savings optimization
+High-interest savings accounts, grocery hacks, subscription audits
+Making Money
+Income optimization and side income strategies
+Side hustles, freelancing, passive income streams
+
+Content Naming Convention
+Category names should signal the optimization angle in navigation and URLs. Use the optimization framing in page titles and meta descriptions (e.g., “Tax Optimization Strategies” rather than just “Taxes”) while keeping navigation labels concise.
+
+3. Site Architecture & Page Structure
+
+
+Primary Pages
+
+Home Page
+	•	Hero section with primary value proposition
+	•	Core focus areas grid displaying all 9 content categories
+	•	Latest blog posts section (3 featured articles)
+	•	Featured ebook section with single highlighted product
+	•	Newsletter signup section with free lead magnet offer
+	•	Sticky header with navigation, category dropdown, and “Join Free” CTA
+
+Blog Page
+	•	Lists latest blog posts in reverse chronological order
+	•	Each post displayed as a card with: featured image (16:9), title, excerpt, author name, publication date, and category tag
+	•	Pagination or infinite scroll for older posts
+	•	Category filter functionality
+
+Content Category Pages (x9)
+	•	Individual landing page for each of the 9 content categories
+	•	Category description and optimization focus area at the top
+	•	Lists all blog posts specific to that category
+	•	Same card format as the main blog page
+
+Ebooks Page
+	•	Grid display of all available ebooks for digital download
+	•	Each ebook has an individual product landing page
+	•	Product pages include: cover image (3:4 ratio), description, pricing in CAD, and purchase button
+	•	Purchase flow integrated with Stripe checkout
+
+About Page
+	•	Personal story and background of the site owner
+	•	Credentials and experience relevant to financial optimization
+	•	Personal examples of strategies implemented
+	•	Critical for E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) in YMYL content
+
+Contact Page
+	•	Simple contact form sending to andrew@canadianoptimizer.com
+	•	Name, email, subject, and message fields
+
+Legal Pages
+	•	Privacy Policy page
+	•	Terms of Service page
+	•	Disclaimer page (required for financial content and affiliate links)
+
+Navigation Structure
+The header navigation should include: all 9 content categories (via a “Categories” dropdown menu to conserve space), Blog, Ebooks, About, and a “Join Free” CTA button. The footer should include: all category links, quick links (About, Contact, Blog, Ebooks), legal links (Privacy Policy, Terms of Service, Disclaimer), and social media icons.
+
+4. Visual Identity & Design System
+
+
+The goal is a “Modern National” aesthetic — clean, patriotic without being kitschy, and trustworthy.
+
+Color Palette
+
+Color
+Hex Code
+Usage
+Primary White
+#FFFFFF
+90% of backgrounds. Maximum readability and breathable feel.
+Canadian Red
+#D80621
+Action items ONLY: primary buttons, active nav links, logo maple leaf, section headings.
+Charcoal Grey
+#333333
+Primary body text. Avoid pure black to reduce eye strain.
+Light Slate
+#F8F9FA
+Section backgrounds for subtle visual separation (e.g., category grid, ebook section).
+Dark Red (Hover)
+#B0051B
+Hover state for Canadian Red elements. 10% darker for tactile feedback.
+
+Logo
+The logo consists of a red maple leaf icon paired with “Canadian Optimizer” in bold sans-serif. The maple leaf uses Canadian Red (#D80621). The wordmark uses Charcoal Grey (#333333) or white on dark backgrounds.
+
+5. Typography & Hierarchy
+
+
+Typography must be web-safe and highly legible for accessibility.
+
+Element
+Typeface
+Size (Desktop)
+Weight
+Purpose
+H1
+Inter / Roboto
+48px
+Bold
+Main value proposition
+H2
+Sans-Serif
+32px
+Bold
+Section headings
+H3
+Sans-Serif
+22px
+Semi-Bold
+Article & product titles
+Body
+Serif or Sans-Serif
+18px
+Regular
+Paragraph and body content
+
+6. Component Standards
+
+
+Buttons
+Primary Button
+	•	Solid Canadian Red (#D80621) background with white text
+	•	Rounded corners: 4px to 8px border radius
+	•	Hover state: darken red by 10% (#B0051B)
+
+Secondary Button (Ghost)
+	•	Red outline border, red text, transparent background
+	•	Hover state: light red background tint (#FFF0F2)
+
+Cards (Blog & Ebooks)
+	•	No borders. Use subtle drop shadow or 1px Light Slate border
+	•	Blog images: 16:9 aspect ratio
+	•	Ebook covers: 3:4 aspect ratio
+	•	Minimum 24px internal padding
+	•	Hover state on blog cards: subtle scale-up on image (1.05x) and red title text
+
+Blog Post Card Structure
+	•	Featured image (16:9)
+	•	Category tag (pill format, Light Slate background)
+	•	Post title (H3)
+	•	Excerpt (2 lines max, truncated)
+	•	Author name
+	•	Publication date
+
+7. Technical Stack & Infrastructure
+
+
+Component
+Technology
+Framework
+Next.js (React-based, supports static generation for SEO)
+Styling
+Tailwind CSS
+Language
+TypeScript
+Hosting
+Hostinger.com
+Image Handling
+Next.js Image component with optimized loading
+Payment Processing
+Stripe (for ebook purchases)
+Email Service
+TBD (for newsletter delivery)
+Content Pipeline AI
+Grok API or Gemini API (for research and drafting)
+
+Hosting Considerations
+Hostinger is the selected hosting provider. Confirm that the hosting plan supports the intended Next.js rendering strategy (static export vs. server-side rendering). If SSR is required, evaluate whether a VPS plan or alternative provider (Vercel) would provide better Next.js compatibility.
+
+8. Content Pipeline & AI Workflow
+
+
+Pipeline Overview
+Blog posts are generated using AI through a content pipeline, with mandatory human review before publication. No post is published automatically — all posts enter “Draft” status and require manual approval.
+
+Pipeline Process
+
+Step 1: Topic Input
+A topic is submitted to the content pipeline for blog post creation.
+
+Step 2: Research & Validation
+	•	Grok API or Gemini API performs research on the topic
+	•	Research is validated for accuracy and current information
+	•	All specific numbers, CRA references, and tax rules are verified against official sources
+	•	Provincial differences are identified where applicable
+
+Step 3: Content Generation
+The AI generates a blog post based on the validated research. The post must meet the following requirements:
+
+	•	Hook: Opening includes an interesting data point or provocative statement to capture attention and increase retention
+	•	Structure: Organized into logical sections that take the reader through a coherent storyline and flow
+	•	Tone: Engaging and educational, focused on specific optimization strategies
+	•	Formatting: Uses headings, subheadings, and visual separation between content sections
+	•	Value: Includes specific data, insights, strategies, examples, and use cases
+	•	Media: Includes relevant data tables, charts, diagrams, and images
+	•	SEO: Optimized for search engines with proper keyword usage
+	•	Length: Minimum 1,000 words
+
+Step 4: Human Review (Mandatory)
+All AI-generated posts enter “Draft” status. The owner reviews each post before publication using the following checklist:
+
+	•	Verify all specific numbers and statistics against primary sources
+	•	Check CRA references against actual CRA pages
+	•	Confirm all strategies apply for the current tax year
+	•	Verify provincial regulations where mentioned
+	•	Review tone and ensure optimization angle is clear
+	•	Check that content adds genuine value beyond what free competitors offer
+	•	Verify all images have descriptive alt text
+
+Step 5: Publication
+Once approved, the post is published to the website under the correct content category. The pipeline automatically assigns the post to the appropriate category page.
+
+9. SEO & LLM Optimization
+
+
+Since this site is built for the AI era, the invisible design is as important as the visual one.
+
+Semantic HTML
+	•	Wrap main content in <main> element
+	•	Use <article> for blog posts
+	•	Use <aside> for sidebars
+	•	Use proper heading hierarchy (H1 → H2 → H3)
+
+Alt Text Strategy
+Every image must have descriptive alt text. Examples:
+	•	“Ebook cover for The Canadian Mortgage Strategy Guide”
+	•	“Chart showing TFSA contribution room growth from 2009 to 2026”
+	•	“Comparison table of top Canadian high-interest savings accounts”
+
+Breadcrumbs
+Implement breadcrumb navigation to help LLMs and search engines understand site structure. Example: Home > Investing > TFSA Optimization Strategies
+
+Schema Markup (JSON-LD)
+	•	“Article” schema for all blog posts (includes author, date, headline)
+	•	“Product” schema for ebook pages (includes pricing and availability)
+	•	“BreadcrumbList” schema for navigation paths
+	•	“Organization” schema for the site
+
+YMYL & E-E-A-T Considerations
+As a financial content site, Canadian Optimizer falls under Google’s YMYL (Your Money, Your Life) guidelines. This means E-E-A-T signals are critical:
+	•	Experience: About page must demonstrate personal experience with financial optimization
+	•	Expertise: Author bio with real credentials on every blog post
+	•	Authoritativeness: Cite official sources (CRA, Bank of Canada, OSFI) in content
+	•	Trustworthiness: Clear disclaimers, transparent affiliate disclosures, accurate information
+
+10. Monetization Strategy
+
+
+Revenue Streams
+
+1. Google AdSense
+Display advertising integrated throughout the site. Ad placements should not compromise user experience or content readability.
+
+2. Affiliate Links
+Affiliate partnerships with Canadian financial products and services. All affiliate relationships must be disclosed clearly per Canadian advertising standards and FTC guidelines.
+
+3. Digital Ebook Downloads
+Paid ebooks sold directly through the website via Stripe checkout. Pricing in CAD. Each ebook has a dedicated product landing page with purchase flow.
+
+Disclosure Requirements
+	•	All pages with affiliate links must include a visible affiliate disclosure
+	•	Ebook product pages must clearly display pricing in CAD before checkout
+	•	A general disclaimer page must be accessible from the footer
+
+11. Email & Newsletter Strategy
+
+
+Lead Magnet
+A free ebook offered in exchange for email signup. The free ebook should be genuinely useful and reference-worthy (e.g., “The Canadian Tax Optimization Checklist” or “5-Day Optimization Starter Guide”). This builds trust and drives newsletter engagement more effectively than a generic overview.
+
+Email Capture Placements
+	•	Sticky header “Join Free” button (always visible)
+	•	Dedicated newsletter section on the homepage (red background CTA)
+	•	End-of-blog-post signup prompt
+	•	Exit-intent popup (optional, high conversion)
+	•	Sidebar widget on blog posts (if sidebar is implemented)
+
+Newsletter Content
+Regular newsletter delivering optimization tips directly to subscribers. Content should drive traffic back to the website and promote new blog posts and ebook releases.
+
+12. Mobile-First Requirements
+
+
+Touch Targets
+All buttons and interactive links must be at least 44x44 pixels to meet accessibility and usability standards.
+
+Navigation
+	•	Sticky header on mobile with hamburger menu and “Join Free” button always accessible
+	•	Mobile menu expands to show all 9 content categories, Blog, Ebooks, and About links
+
+Layout Stacking
+	•	Desktop: up to 4-column grid layouts for content categories
+	•	Tablet: 2-column grid
+	•	Mobile: 1-column vertical stack for all content
+	•	The 9 category cards on the homepage must collapse into a scrollable or stacked mobile layout
+
+Performance
+	•	Next.js Image component with lazy loading for all images
+	•	Optimized image formats (WebP with fallbacks)
+	•	Minimal JavaScript bundle for initial page load
+
+13. Version Control & Deployment
+
+
+Git Repository
+Repository URL: https://github.com/drewbotcarrothers/canadianoptimizer
+Hosting Provider: Hostinger.com
+Deployment Method: GitHub Actions → FTP to Hostinger
+
+Branch Strategy
+	•	main — Production branch. Merges to main trigger automatic deployment to Hostinger via FTP.
+	•	develop — Development branch for staging and testing changes before merging to main.
+	•	feature/* — Feature branches for individual changes (e.g., feature/ebook-checkout, feature/new-category-page).
+
+GitHub Actions Deployment Workflow
+A GitHub Actions workflow is configured at .github/workflows/deploy.yml that automatically builds and deploys the Next.js site to Hostinger via FTP whenever code is pushed to the main branch.
+
+Workflow Steps
+	•	Trigger: Push to main branch
+	•	Checkout repository code
+	•	Set up Node.js environment
+	•	Install dependencies (npm ci)
+	•	Build the Next.js project (npm run build / next export for static)
+	•	Deploy built output to Hostinger via FTP using lftp or ftp-deploy action
+
+Required GitHub Secrets
+The following secrets must be configured in the GitHub repository settings under Settings → Secrets and variables → Actions:
+
+Secret Name
+Description
+FTP_SERVER
+Hostinger FTP server hostname (e.g., ftp.canadianoptimizer.com or provided by Hostinger)
+FTP_USERNAME
+FTP username for the Hostinger hosting account
+FTP_PASSWORD
+FTP password for the Hostinger hosting account
+
+Workflow File Reference
+The deploy.yml workflow file should be placed at .github/workflows/deploy.yml in the repository. It uses the SamKirkland/FTP-Deploy-Action or equivalent to sync the built output directory to the Hostinger public_html directory via FTP/FTPS.
+
+Deployment Checklist
+	•	GitHub repository created and accessible
+	•	FTP credentials obtained from Hostinger control panel
+	•	GitHub Secrets configured (FTP_SERVER, FTP_USERNAME, FTP_PASSWORD)
+	•	deploy.yml workflow file committed to repository
+	•	Test deployment triggered and verified on live site
+	•	Confirm Next.js build output structure matches Hostinger’s expected directory (public_html)
+	•	Verify HTTPS/SSL certificate is active on Hostinger for canadianoptimizer.com
+
+14. Launch Checklist
+
+
+Pre-Launch
+	•	All 9 content category pages created and functional
+	•	Home page, Blog page, Ebooks page, About page, Contact page built
+	•	Privacy Policy, Terms of Service, and Disclaimer pages published
+	•	Newsletter signup functional with lead magnet delivery
+	•	Stripe checkout tested end-to-end for ebook purchases
+	•	At least 3–5 blog posts published per category for initial content depth
+	•	Google Analytics and Search Console configured
+	•	Schema markup validated via Google Rich Results Test
+	•	Mobile responsiveness tested across iOS Safari and Android Chrome
+	•	Page speed tested via Google PageSpeed Insights (target: 90+ score)
+	•	About page written with personal story and credentials
+	•	Affiliate disclosures and disclaimers in place
+	•	GitHub Actions FTP deployment workflow tested and operational
+	•	SSL certificate active on canadianoptimizer.com
+
+Post-Launch
+	•	Submit sitemap to Google Search Console
+	•	Set up Google AdSense and await approval
+	•	Begin content pipeline with regular publishing cadence
+	•	Develop distribution strategy for initial traffic (social media, Reddit r/PersonalFinanceCanada, partnerships)
+	•	Monitor analytics and iterate on content strategy based on performance data
+
+
+End of Document
