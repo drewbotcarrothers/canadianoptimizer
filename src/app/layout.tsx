@@ -22,11 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased min-h-screen flex flex-col font-sans text-charcoal bg-white`}>
-        {/* Header will be placed here */}
+        <Header />
         <main className="flex-grow">
           {children}
         </main>
-        {/* Footer will be placed here */}
+        <Footer />
       </body>
     </html>
   );
