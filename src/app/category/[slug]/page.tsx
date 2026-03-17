@@ -5,15 +5,15 @@ import { notFound } from "next/navigation";
 
 // Define all valid categories for static generation
 const CATEGORY_MAP: Record<string, { name: string; desc: string }> = {
-  'personal-finance': { name: 'Personal Finance', desc: 'Overall financial optimization and planning strategies.' },
-  'investing': { name: 'Investing', desc: 'Portfolio optimization and wealth building strategies.' },
-  'taxes': { name: 'Taxes', desc: 'Tax optimization and minimization strategies.' },
-  'real-estate': { name: 'Real Estate', desc: 'Property investment and homeownership optimization.' },
-  'credit-cards': { name: 'Credit Cards', desc: 'Rewards maximization and credit optimization tactics.' },
-  'retirement-planning': { name: 'Retirement Planning', desc: 'Retirement income and withdrawal optimization.' },
-  'budgeting': { name: 'Budgeting', desc: 'Spending optimization and financial tracking systems.' },
-  'saving-money': { name: 'Saving Money', desc: 'Cost reduction and savings optimization frameworks.' },
-  'making-money': { name: 'Making Money', desc: 'Income optimization and side income strategies.' }
+  'investing': { name: 'Investing', desc: 'Portfolio optimization, asset allocation, and wealth building strategies for Canadians.' },
+  'taxes': { name: 'Taxes', desc: 'Advanced tax planning, deductions, and minimization strategies to keep more of your hard-earned money.' },
+  'real-estate': { name: 'Real Estate', desc: 'Residential and investment property optimization, mortgage strategies, and homeownership tactics.' },
+  'credit-cards': { name: 'Credit Cards', desc: 'Maximizing rewards, travel hacking, and strategic credit management for maximum value.' },
+  'retirement': { name: 'Retirement', desc: 'Optimizing retirement income, withdrawal strategies (RRSP/TFSA/CPP/OAS), and long-term planning.' },
+  'budgeting-saving': { name: 'Budgeting & Saving', desc: 'High-performance cash flow management, cost reduction, and automated saving frameworks.' },
+  'earning-more': { name: 'Earning More', desc: 'Income optimization, side hustles, career leverage, and business growth strategies for Canadians.' },
+  'insurance': { name: 'Insurance', desc: 'Optimizing risk management through life, health, disability, and property insurance strategies.' },
+  'government-benefits': { name: 'Government Benefits', desc: 'Maximizing your entitlement to Canadian federal and provincial grants, credits, and programs.' }
 };
 
 export function generateStaticParams() {

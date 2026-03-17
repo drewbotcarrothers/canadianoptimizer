@@ -1,15 +1,15 @@
 import Link from 'next/link';
 
 const CATEGORIES = [
-  { name: 'Personal Finance', slug: '/category/personal-finance' },
   { name: 'Investing', slug: '/category/investing' },
   { name: 'Taxes', slug: '/category/taxes' },
   { name: 'Real Estate', slug: '/category/real-estate' },
   { name: 'Credit Cards', slug: '/category/credit-cards' },
-  { name: 'Retirement Planning', slug: '/category/retirement-planning' },
-  { name: 'Budgeting', slug: '/category/budgeting' },
-  { name: 'Saving Money', slug: '/category/saving-money' },
-  { name: 'Making Money', slug: '/category/making-money' },
+  { name: 'Retirement', slug: '/category/retirement' },
+  { name: 'Budgeting & Saving', slug: '/category/budgeting-saving' },
+  { name: 'Earning More', slug: '/category/earning-more' },
+  { name: 'Insurance', slug: '/category/insurance' },
+  { name: 'Government Benefits', slug: '/category/government-benefits' },
 ];
 
 export default function Footer() {

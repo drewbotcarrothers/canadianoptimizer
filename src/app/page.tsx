@@ -5,15 +5,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const FOCUS_AREAS = [
-  { name: 'Personal Finance', icon: '📈', desc: 'Overall financial optimization and planning', slug: '/category/personal-finance' },
-  { name: 'Investing', icon: '🏦', desc: 'Portfolio optimization and wealth building', slug: '/category/investing' },
-  { name: 'Taxes', icon: '🧾', desc: 'Tax optimization and minimization strategies', slug: '/category/taxes' },
-  { name: 'Real Estate', icon: '🏠', desc: 'Property investment and homeownership', slug: '/category/real-estate' },
-  { name: 'Credit Cards', icon: '💳', desc: 'Rewards maximization and credit optimization', slug: '/category/credit-cards' },
-  { name: 'Retirement Planning', icon: '🏖️', desc: 'Retirement income and withdrawal optimization', slug: '/category/retirement-planning' },
-  { name: 'Budgeting', icon: '📊', desc: 'Spending optimization and financial tracking', slug: '/category/budgeting' },
-  { name: 'Saving Money', icon: '💰', desc: 'Cost reduction and savings optimization', slug: '/category/saving-money' },
-  { name: 'Making Money', icon: '🚀', desc: 'Income optimization and side income strategies', slug: '/category/making-money' },
+  { name: 'Investing', icon: '🏦', desc: 'Portfolio optimization and long-term wealth building', slug: '/category/investing' },
+  { name: 'Taxes', icon: '🧾', desc: 'Advanced tax minimization and planning strategies', slug: '/category/taxes' },
+  { name: 'Real Estate', icon: '🏠', desc: 'Property investment and mortgage optimization', slug: '/category/real-estate' },
+  { name: 'Credit Cards', icon: '💳', desc: 'Strategic travel hacking and rewards maximization', slug: '/category/credit-cards' },
+  { name: 'Retirement', icon: '🏖️', desc: 'Secure your future with withdrawal and income strategies', slug: '/category/retirement' },
+  { name: 'Budgeting & Saving', icon: '📊', desc: 'High-performance cash flow and cost reduction', slug: '/category/budgeting-saving' },
+  { name: 'Earning More', icon: '🚀', desc: 'Income optimization and career leverage tactics', slug: '/category/earning-more' },
+  { name: 'Insurance', icon: '🛡️', desc: 'Optimizing risk management and protection', slug: '/category/insurance' },
+  { name: 'Government Benefits', icon: '🇨🇦', desc: 'Maximizing grants, credits, and provincial programs', slug: '/category/government-benefits' },
 ];
 
 export default function Home() {
