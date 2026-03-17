@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Canadian Optimizer',
   description: 'Canadian Optimizer provides Canadians with actionable strategies and tips to optimize their financial life with the goal of maximizing wealth.',
+  verification: {
+    google: 'uKSOZZKDif-3svSxtPibw_otl90IZ__U4dDMe-L03IM',
+  },
 };
 
 export default function RootLayout({
