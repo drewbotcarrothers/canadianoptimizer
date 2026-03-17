@@ -1,4 +1,6 @@
 import ArticleCard from "@/components/ui/ArticleCard";
+import Breadcrumbs from "@/components/ui/Breadcrumbs";
+import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { notFound } from "next/navigation";
 
 // Define all valid categories for static generation
@@ -32,6 +34,14 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     <div className="bg-light-slate min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-6xl">
         <header className="mb-12 text-center md:text-left bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
+          <SchemaMarkup 
+            type="WebSite" 
+            data={{
+              name: `${categoryData.name} Optimization | Canadian Optimizer`,
+              description: categoryData.desc,
+            }} 
+          />
+          <Breadcrumbs items={[{ label: categoryData.name }]} />
           <div className="inline-block bg-light-slate text-charcoal font-semibold px-4 py-2 rounded-full border border-gray-200 mb-6">
             Optimization Category
           </div>

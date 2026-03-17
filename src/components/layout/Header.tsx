@@ -99,25 +99,28 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-4 shadow-lg absolute w-full">
-           <Link href="/blog" className="block font-medium text-charcoal hover:text-canadian-red" onClick={() => setIsMenuOpen(false)}>
-            Blog
-          </Link>
-          <Link href="/ebooks" className="block font-medium text-charcoal hover:text-canadian-red" onClick={() => setIsMenuOpen(false)}>
-            Ebooks
-          </Link>
-          <Link href="/about" className="block font-medium text-charcoal hover:text-canadian-red" onClick={() => setIsMenuOpen(false)}>
-            About
-          </Link>
-          <div className="border-t border-gray-100 pt-3">
-            <span className="text-sm text-gray-500 font-medium mb-2 block">Categories</span>
-            <div className="grid grid-cols-1 gap-2 pl-2">
+      <div className={`md:hidden bg-white border-t border-gray-100 overflow-hidden transition-all duration-300 ease-in-out absolute w-full shadow-xl ${isMenuOpen ? 'max-h-[80vh] opacity-100 py-6' : 'max-h-0 opacity-0 py-0'}`}>
+        <div className="px-6 space-y-6">
+          <div className="flex flex-col gap-4">
+            <Link href="/blog" className="text-lg font-bold text-charcoal hover:text-canadian-red transition-colors" onClick={() => setIsMenuOpen(false)}>
+              Blog
+            </Link>
+            <Link href="/ebooks" className="text-lg font-bold text-charcoal hover:text-canadian-red transition-colors" onClick={() => setIsMenuOpen(false)}>
+              Ebooks
+            </Link>
+            <Link href="/about" className="text-lg font-bold text-charcoal hover:text-canadian-red transition-colors" onClick={() => setIsMenuOpen(false)}>
+              About
+            </Link>
+          </div>
+          
+          <div className="pt-6 border-t border-gray-100">
+            <span className="text-xs text-gray-400 font-bold uppercase tracking-widest mb-4 block">Optimization Strategies</span>
+            <div className="grid grid-cols-1 gap-4">
               {CATEGORIES.map((cat) => (
                 <Link 
                   key={cat.slug} 
                   href={cat.slug}
-                  className="block text-charcoal hover:text-canadian-red"
+                  className="text-gray-700 hover:text-canadian-red font-medium transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {cat.name}
@@ -125,15 +128,18 @@ export default function Header() {
               ))}
             </div>
           </div>
-          <Link 
-            href="#newsletter" 
-            className="block w-full text-center bg-canadian-red text-white py-3 mt-4 rounded hover:bg-canadian-red-hover"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Join Free
-          </Link>
+          
+          <div className="pt-4">
+            <Link 
+              href="#newsletter" 
+              className="block w-full text-center bg-canadian-red text-white py-4 rounded-xl font-bold shadow-lg shadow-red-100 hover:bg-canadian-red-hover transition-all"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Get Free Optimization Guide
+            </Link>
+          </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
