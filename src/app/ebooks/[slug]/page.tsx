@@ -27,8 +27,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function EbookPage({ params }: { params: { slug: string } }) {
-  const ebook = ebooks.find(e => e.slug === params.slug) || ebooks[0];
+export default async function EbookPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const ebook = ebooks.find(e => e.slug === resolvedParams.slug) || ebooks[0];
 
   return (
     <div className="pb-20">
