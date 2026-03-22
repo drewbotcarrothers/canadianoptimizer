@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const NAV_LINKS = [
@@ -30,10 +31,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-100 shadow-sm">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
-          <span className="text-canadian-red text-2xl" aria-hidden="true">🍁</span>
-          <span className="font-bold text-xl text-charcoal tracking-tight group-hover:text-canadian-red transition-colors flex items-center">
-            Canadian Optimizer
-          </span>
+          <Image 
+            src="/assets/logo.png" 
+            alt="Canadian Optimizer Logo" 
+            width={180} 
+            height={40} 
+            className="h-10 w-auto"
+            priority
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">

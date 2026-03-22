@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const CATEGORIES = [
   { name: 'Investing', slug: '/category/investing' },
@@ -20,12 +21,13 @@ export default function Footer() {
         {/* Brand Col */}
         <div className="w-full md:w-1/3">
           <Link href="/" className="inline-flex items-center gap-2 mb-4 group">
-            <div className="text-canadian-red text-2xl group-hover:text-canadian-red-hover transition-colors">
-              🍁
-            </div>
-            <span className="font-bold text-xl text-white tracking-tight">
-              Canadian Optimizer
-            </span>
+            <Image 
+              src="/assets/logo.png" 
+              alt="Canadian Optimizer Logo" 
+              width={160} 
+              height={36} 
+              className="h-9 w-auto brightness-0 invert" 
+            />
           </Link>
           <p className="text-gray-400 text-sm leading-relaxed mb-6">
             Actionable strategies and tips to optimize your financial life, minimize taxes, and maximize wealth in Canada.
