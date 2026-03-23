@@ -5,22 +5,22 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const NAV_LINKS = [
+  { name: 'Topics', href: '#', isDropdown: true },
+  { name: 'Ebooks', href: '/ebooks' },
+  { name: 'Blog', href: '/blog' },
+  { name: 'About', href: '/about' },
+];
+
+const TOPICS_LINKS = [
   { name: 'Investing', href: '/category/investing' },
   { name: 'Taxes', href: '/category/taxes' },
   { name: 'Real Estate', href: '/category/real-estate' },
   { name: 'Credit Cards', href: '/category/credit-cards' },
   { name: 'Retirement', href: '/category/retirement' },
-  { name: 'More', href: '#', isDropdown: true },
-  { name: 'Ebooks', href: '/ebooks' },
-  { name: 'About', href: '/about' },
-];
-
-const SECONDARY_LINKS = [
   { name: 'Budgeting & Saving', href: '/category/budgeting-saving' },
   { name: 'Earning More', href: '/category/earning-more' },
   { name: 'Insurance', href: '/category/insurance' },
   { name: 'Government Benefits', href: '/category/government-benefits' },
-  { name: 'Blog', href: '/blog' },
 ];
 
 export default function Header() {
@@ -60,11 +60,12 @@ export default function Header() {
                       onMouseEnter={() => setIsCategoriesOpen(true)}
                       onMouseLeave={() => setIsCategoriesOpen(false)}
                     >
-                      {SECONDARY_LINKS.map((sLink) => (
+                      {TOPICS_LINKS.map((sLink) => (
                         <Link 
                           key={sLink.name} 
                           href={sLink.href}
-                          className="block px-6 py-2.5 text-sm text-gray-700 hover:bg-light-slate hover:text-canadian-red transition-colors font-medium"
+                          className="block px-6 py-2.5 text-sm text-gray-700 hover:bg-light-slate hover:text-canadian-red transition-colors font-medium border-l-2 border-transparent hover:border-canadian-red"
+                          onClick={() => setIsCategoriesOpen(false)}
                         >
                           {sLink.name}
                         </Link>
@@ -110,29 +111,36 @@ export default function Header() {
       {/* Mobile Menu */}
       <div className={`md:hidden bg-white border-t border-gray-100 overflow-hidden transition-all duration-300 ease-in-out absolute w-full shadow-2xl ${isMenuOpen ? 'max-h-[90vh] opacity-100 py-8' : 'max-h-0 opacity-0 py-0'}`}>
         <div className="px-6 space-y-8">
-          <div className="flex flex-col gap-2">
-            <span className="text-xs text-gray-400 font-bold uppercase tracking-widest mb-2 block">Core Strategies</span>
+          <div className="flex flex-col gap-5">
             {NAV_LINKS.filter(l => !l.isDropdown).map((link) => (
               <Link 
                 key={link.name}
                 href={link.href}
-                className="text-lg font-bold text-charcoal hover:text-canadian-red transition-colors py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ))}
-            {SECONDARY_LINKS.map((link) => (
-              <Link 
-                key={link.name}
-                href={link.href}
-                className="text-lg font-bold text-charcoal hover:text-canadian-red transition-colors py-2"
+                className="text-2xl font-extrabold text-charcoal hover:text-canadian-red transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
               </Link>
             ))}
           </div>
+
+          <div className="pt-6 border-t border-gray-100">
+            <span className="text-[10px] text-gray-400 font-black uppercase tracking-widest mb-6 block">Topic Libraries</span>
+            <div className="grid grid-cols-1 gap-5">
+              {TOPICS_LINKS.map((link) => (
+                <Link 
+                  key={link.name}
+                  href={link.href}
+                  className="text-lg font-bold text-charcoal/80 hover:text-canadian-red transition-colors flex items-center gap-3"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-canadian-red"></span>
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
           
           <div className="pt-4">
             <Link 
