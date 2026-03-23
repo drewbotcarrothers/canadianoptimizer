@@ -140,12 +140,10 @@ export default function Header() {
               ))}
             </div>
           </div>
-        </div>
-          
-          <div className="pt-4">
+          <div className="pt-8 border-t border-gray-100">
             <Link 
               href="#newsletter" 
-              className="block w-full text-center bg-canadian-red text-white py-4 rounded-xl font-bold shadow-lg shadow-red-100 hover:bg-canadian-red-hover transition-all uppercase tracking-widest"
+              className="block w-full text-center bg-canadian-red text-white py-4 rounded-xl font-bold shadow-lg shadow-red-100 hover:bg-canadian-red-hover transition-all uppercase tracking-widest text-sm"
               onClick={() => setIsMenuOpen(false)}
             >
               JOIN FREE
