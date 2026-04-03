@@ -6,7 +6,7 @@ import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 const ebooks = [
   {
-    slug: 'reduce-taxes-maximize-refund-2026',
+    slug: 'tax-guide',
     title: 'How To Reduce Your Taxes & Maximize Your Refund',
     price: '$39 CAD',
     description: 'The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income.',
@@ -17,48 +17,6 @@ const ebooks = [
       'Small business & Incorporation roadmap',
       'FHSA & $60k Home Buyers\' Plan mastery',
       'Advanced RRSP vs Mortgage frameworks'
-    ]
-  },
-  {
-    slug: 'tax-checklist',
-    title: 'The Canadian Tax Optimization Checklist',
-    price: '$29 CAD',
-    description: 'Stop leaving money on the table. A comprehensive 50-step checklist to ensure you are utilizing every deduction, credit, and strategy allowed by the CRA.',
-    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2000&auto=format&fit=crop',
-    features: [
-      'Over 50 specific tax strategies',
-      'Small business owner optimizations',
-      'End-of-year action plan',
-      'Step-by-step implementation guide',
-      'Lifetime updates included'
-    ]
-  },
-  {
-    slug: 'smith-maneuver-guide',
-    title: 'The Definitive Smith Maneuver Guide',
-    price: '$49 CAD',
-    description: 'A step-by-step masterclass on how to convert your non-deductible mortgage interest into tax deductions.',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop',
-    features: [
-      'Mortgage conversion mechanics',
-      'Investment loan structuring',
-      'Tax deduction optimization',
-      'Risk management strategies',
-      'Portfolio building framework'
-    ]
-  },
-  {
-    slug: 'credit-card-churning-system',
-    title: 'The Automated Churning System',
-    price: '$19 CAD',
-    description: 'Travel hacking for busy professionals. How to earn hundreds of thousands of points per year with minimal effort.',
-    image: 'https://images.unsplash.com/photo-1589758438368-0c5348a954dc?q=80&w=2000&auto=format&fit=crop',
-    features: [
-      'Top 10 high-value card rotation',
-      'Meeting minimum spend hacks',
-      'Credit score protection tips',
-      'Points valuation matrix',
-      'Booking first class for free'
     ]
   }
 ];

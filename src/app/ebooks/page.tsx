@@ -5,40 +5,19 @@ export default function Ebooks() {
     <div className="bg-light-slate min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-6xl">
         <header className="mb-12 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">Digital eBook Guides</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">How To Reduce Your Taxes & Maximize Your Tax Refund</h1>
           <p className="text-xl text-gray-600 max-w-2xl">
-            Deep-dive frameworks and comprehensive tools to help you execute specific financial strategies.
+            A Canadian’s complete guide to keeping more of your hard-earned money. 2026 Tax Year Edition.
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 text-left">
           <EbookCard 
-            slug="reduce-taxes-maximize-refund-2026"
+            slug="tax-guide"
             title="How To Reduce Your Taxes & Maximize Your Refund"
-            description="The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket and maximize every credit."
+            description="The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income."
             price={39.00}
             imageUrl="/assets/images/tax-ebook-2026.png"
-          />
-          <EbookCard 
-            slug="tax-checklist"
-            title="The Canadian Tax Optimization Checklist"
-            description="50+ strategies to minimize your tax burden and retain more of your income. Updated for the current tax year."
-            price={29.00}
-            imageUrl="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop"
-          />
-           <EbookCard 
-            slug="smith-maneuver-guide"
-            title="The Definitive Smith Maneuver Guide"
-            description="A step-by-step masterclass on how to convert your non-deductible mortgage interest into tax deductions."
-            price={49.00}
-            imageUrl="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop"
-          />
-           <EbookCard 
-            slug="credit-card-churning-system"
-            title="The Automated Churning System"
-            description="Travel hacking for busy professionals. How to earn hundreds of thousands of points per year with minimal effort."
-            price={19.00}
-            imageUrl="https://images.unsplash.com/photo-1589758438368-0c5348a954dc?q=80&w=800&auto=format&fit=crop"
           />
         </div>
       </div>
