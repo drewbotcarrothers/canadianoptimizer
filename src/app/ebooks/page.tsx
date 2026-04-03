@@ -5,13 +5,20 @@ export default function Ebooks() {
     <div className="bg-light-slate min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-6xl">
         <header className="mb-12 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">Premium Guides & Checklists</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">Digital eBook Guides</h1>
           <p className="text-xl text-gray-600 max-w-2xl">
             Deep-dive frameworks and comprehensive tools to help you execute specific financial strategies.
           </p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <EbookCard 
+            slug="reduce-taxes-maximize-refund-2026"
+            title="How To Reduce Your Taxes & Maximize Your Refund"
+            description="The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket and maximize every credit."
+            price={39.00}
+            imageUrl="/assets/images/tax-ebook-2026.png"
+          />
           <EbookCard 
             slug="tax-checklist"
             title="The Canadian Tax Optimization Checklist"

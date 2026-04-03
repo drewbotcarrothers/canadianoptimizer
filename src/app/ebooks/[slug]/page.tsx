@@ -6,6 +6,20 @@ import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 const ebooks = [
   {
+    slug: 'reduce-taxes-maximize-refund-2026',
+    title: 'How To Reduce Your Taxes & Maximize Your Refund',
+    price: '$39 CAD',
+    description: 'The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income.',
+    image: '/assets/images/tax-ebook-2026.png',
+    features: [
+      'Updated for the 2026 Tax Year',
+      'Leveraging the new 14% Federal bracket',
+      'Small business & Incorporation roadmap',
+      'FHSA & $60k Home Buyers\' Plan mastery',
+      'Advanced RRSP vs Mortgage frameworks'
+    ]
+  },
+  {
     slug: 'tax-checklist',
     title: 'The Canadian Tax Optimization Checklist',
     price: '$29 CAD',
