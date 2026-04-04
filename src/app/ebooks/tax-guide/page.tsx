@@ -43,7 +43,7 @@ export default function TaxEbookLandingPage() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button variant="primary" className="px-10 py-5 text-xl">
+                <Button variant="primary" href="https://buy.stripe.com/tax-guide-2026" className="px-10 py-5 text-xl">
                   Download the Guide — $49 CAD
                 </Button>
                 <Link href="#value" className="px-8 py-5 border-2 border-gray-200 rounded-xl font-bold text-gray-700 hover:bg-gray-50 transition-colors">
@@ -208,10 +208,13 @@ export default function TaxEbookLandingPage() {
               <span className="text-gray-400 line-through text-2xl font-bold">$99</span>
               <span className="text-6xl font-black text-canadian-red">$49 CAD</span>
             </div>
-            <Button variant="primary" className="w-full text-2xl py-6 mb-6">
+            <Button variant="primary" href="https://buy.stripe.com/tax-guide-2026" className="w-full text-2xl py-6 mb-6">
               Get Instant Access Now
             </Button>
-            <p className="text-gray-500 text-sm">One-time payment. Secure checkout via Stripe.</p>
+            <p className="text-gray-500 text-sm">
+              One-time payment. Secure checkout via Stripe. <br/>
+              Includes: <span className="font-semibold text-charcoal">How-To-Reduce-Your-Taxes-Maximize-Your-Tax-Refund-2026.pdf</span>
+            </p>
           </div>
         </div>
       </section>

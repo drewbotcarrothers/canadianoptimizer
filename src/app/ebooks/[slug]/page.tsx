@@ -11,6 +11,7 @@ const ebooks = [
     price: '$49 CAD',
     description: 'The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income.',
     image: '/assets/images/tax-ebook-2026.png',
+    paymentLink: 'https://buy.stripe.com/tax-guide-2026',
     features: [
       'Updated for the 2026 Tax Year',
       'Leveraging the new 14% Federal bracket',
@@ -84,7 +85,7 @@ export default async function EbookPage({ params }: { params: Promise<{ slug: st
                   <span className="text-charcoal font-bold text-lg">One-time Investment</span>
                   <span className="text-3xl font-black text-canadian-red">{ebook.price}</span>
                 </div>
-                <Button variant="primary" className="w-full text-center py-4 text-xl">
+                <Button variant="primary" href={ebook.paymentLink} className="w-full text-center py-4 text-xl">
                   Get Instant Access
                 </Button>
                 <p className="text-center text-xs text-gray-500 mt-4">Safe & Secure Payment via Stripe</p>
