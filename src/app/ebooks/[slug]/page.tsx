@@ -11,7 +11,7 @@ const ebooks = [
     price: '$49 CAD',
     description: 'The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income.',
     image: '/assets/images/tax-ebook-2026.png',
-    paymentLink: 'https://buy.stripe.com/tax-guide-2026',
+    paymentLink: 'https://buy.stripe.com/aFa8wPejNdIy4jK1Z89oc01',
     features: [
       'Updated for the 2026 Tax Year',
       'Leveraging the new 14% Federal bracket',
