@@ -8,7 +8,7 @@ const ebooks = [
   {
     slug: 'tax-guide',
     title: 'How To Reduce Your Taxes & Maximize Your Refund',
-    price: '$39 CAD',
+    price: '$49 CAD',
     description: 'The definitive 2026 guide to Canadian tax optimization. Learn how to leverage the new 14% bracket, maximize the $60k HBP, and retain more of your income.',
     image: '/assets/images/tax-ebook-2026.png',
     features: [
