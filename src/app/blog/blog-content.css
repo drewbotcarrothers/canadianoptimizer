@@ -3,6 +3,51 @@
 .blog-content {
   color: var(--color-charcoal);
   line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-content header {
+  margin-bottom: 50px;
+  border-bottom: 3px solid var(--color-canadian-red);
+  padding-bottom: 30px;
+}
+
+.blog-content .breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.blog-content .breadcrumb a {
+  color: var(--color-canadian-red);
+  text-decoration: none;
+}
+
+.blog-content .breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.blog-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-charcoal);
+  line-height: 1.2;
+}
+
+.blog-content .byline {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.blog-content .byline .date {
+  background-color: #f8f8f8;
+  padding: 4px 10px;
+  border-radius: 4px;
 }
 
 .blog-content .hook {

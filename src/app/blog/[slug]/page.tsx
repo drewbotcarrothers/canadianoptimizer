@@ -33,6 +33,50 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
 
+  const isTaxPost = post.categorySlug === 'taxes';
+
+  if (isTaxPost) {
+    return (
+      <article className="pb-20">
+        <SchemaMarkup 
+          type="Article" 
+          data={{
+            headline: post.title,
+            description: post.excerpt,
+            image: [post.image],
+            datePublished: post.date,
+            author: {
+              '@type': 'Person',
+              name: post.author,
+              url: 'https://canadianoptimizer.com/about'
+            }
+          }} 
+        />
+        
+        {/* Full-width, Exact Source Formatting Layout */}
+        <div className="container mx-auto px-4 py-16">
+          <div 
+            className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg blog-content"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
+
+          <div className="max-w-4xl mx-auto">
+            <hr className="my-12 border-gray-100" />
+            
+            <AuthorBio 
+              name="Andrew Carrothers"
+              role="Strategy Lead & Founder"
+              bio="Andrew is a financial strategist dedicated to helping Canadians optimize every dollar. With over 15 years of experience in personal finance and portfolio optimization, he focuses on tactical wealth building."
+              imageUrl="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop"
+            />
+            
+            <EndOfPostNewsletter />
+          </div>
+        </div>
+      </article>
+    );
+  }
+
   return (
     <article className="pb-20">
       <SchemaMarkup 
