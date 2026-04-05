@@ -1,0 +1,184 @@
+/* Elegant Blog Formatting for Canadian Optimizer */
+
+.blog-content {
+  color: var(--color-charcoal);
+  line-height: 1.8;
+}
+
+.blog-content .hook {
+  background-color: #f9f9f9;
+  border-left: 5px solid var(--color-canadian-red);
+  padding: 2rem;
+  margin: 2.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #1a1a2e;
+  border-radius: 4px;
+}
+
+.blog-content .tip-box {
+  background-color: #f0f8ff;
+  border-left: 5px solid var(--color-canadian-red);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+}
+
+.blog-content .tip-box strong {
+  color: var(--color-canadian-red);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.blog-content .example-box {
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.blog-content .example-box strong {
+  color: #1a1a2e;
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.blog-content .example-box .calculation {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  line-height: 1.8;
+  color: #333;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.blog-content .example-box .result {
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  font-weight: 600;
+  border-left: 3px solid #ffc107;
+}
+
+.blog-content .currency {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  font-weight: 700;
+  color: var(--color-canadian-red);
+}
+
+.blog-content .highlight {
+  background-color: #fff3cd;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Table Styling Overrides for Prose */
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.blog-content thead {
+  background-color: #1a1a2e !important;
+  color: white !important;
+}
+
+.blog-content th {
+  padding: 1rem !important;
+  text-align: left;
+  font-weight: 700;
+  color: white !important;
+}
+
+.blog-content td {
+  padding: 1rem !important;
+  border-bottom: 1px solid #efefef;
+}
+
+.blog-content tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.blog-content tbody tr:hover {
+  background-color: #f8f8f8;
+}
+
+/* Callout Utility */
+.blog-content .callout {
+  background-color: #fff9e6;
+  border-left: 5px solid #f39c12;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.blog-content .callout h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+/* Charts / Bars visualization */
+.blog-content .chart-container {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.blog-content .bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blog-content .bar-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog-content .bar-label {
+  width: 80px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.blog-content .bar-wrapper {
+  flex: 1;
+  background-color: white;
+  border-radius: 4px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.blog-content .bar {
+  background: linear-gradient(90deg, var(--color-canadian-red), #e74c3c);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 12px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  transition: width 1s ease-out;
+}

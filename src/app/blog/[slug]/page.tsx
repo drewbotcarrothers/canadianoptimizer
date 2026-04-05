@@ -7,8 +7,11 @@ import AuthorBio from '@/components/ui/AuthorBio';
 import EndOfPostNewsletter from '@/components/ui/EndOfPostNewsletter';
 import Button from '@/components/ui/Button';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
+import '../blog-content.css';
+
 
 import { posts } from "@/data/posts";
+
 
 export function generateStaticParams() {
   return posts.map((post) => ({
@@ -84,10 +87,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             
             <AffiliateDisclosure />
             
-            <div 
-              className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl"
+<div 
+              className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
+
 
             <hr className="my-12 border-gray-100" />
             
