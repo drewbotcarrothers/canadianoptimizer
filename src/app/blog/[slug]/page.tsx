@@ -56,11 +56,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         {/* Full-width, Exact Source Formatting Layout */}
         <div className="container mx-auto px-4 py-16">
           <div 
-            className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg blog-content"
+            className="blog-content-exact"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
           <div className="max-w-4xl mx-auto">
+
             <hr className="my-12 border-gray-100" />
             
             <AuthorBio 

@@ -1,211 +1,223 @@
-/* Elegant Blog Formatting for Canadian Optimizer */
+/* High-Fidelity Blog Formatting for Canadian Optimizer */
 
-.blog-content {
-  color: var(--color-charcoal);
-  line-height: 1.8;
+/* The Exact Mirroring Layer for Tax Posts */
+.blog-content-exact {
+  color: #1a1a2e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.blog-content header {
+.blog-content-exact header {
   margin-bottom: 50px;
   border-bottom: 3px solid var(--color-canadian-red);
   padding-bottom: 30px;
 }
 
-.blog-content .breadcrumb {
-  font-size: 14px;
+.blog-content-exact .breadcrumb {
+  font-size: 0.875rem;
   color: #666;
   margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.blog-content .breadcrumb a {
-  color: var(--color-canadian-red);
+.blog-content-exact .breadcrumb a {
+  color: #c0392b;
   text-decoration: none;
+  font-weight: 600;
 }
 
-.blog-content .breadcrumb a:hover {
-  text-decoration: underline;
-}
-
-.blog-content h1 {
-  font-size: 42px;
+.blog-content-exact h1 {
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--color-charcoal);
   line-height: 1.2;
+  margin-bottom: 20px;
+  color: #1a1a2e;
 }
 
-.blog-content .byline {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  font-size: 14px;
+.blog-content-exact .byline {
+  font-size: 0.95rem;
   color: #666;
+  margin-bottom: 30px;
 }
 
-.blog-content .byline .date {
-  background-color: #f8f8f8;
-  padding: 4px 10px;
-  border-radius: 4px;
+.blog-content-exact .byline span {
+  margin-right: 20px;
 }
 
-.blog-content .hook {
-  background-color: #f9f9f9;
-  border-left: 5px solid var(--color-canadian-red);
-  padding: 2rem;
-  margin: 2.5rem 0;
-  font-size: 1.25rem;
+.blog-content-exact .hook {
+  background-color: #f5f5f5;
+  border-left: 4px solid #c0392b;
+  padding: 25px;
+  margin: 40px 0;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.7;
   color: #1a1a2e;
+}
+
+.blog-content-exact h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  color: #1a1a2e;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.blog-content-exact h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #1a1a2e;
+}
+
+.blog-content-exact p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.blog-content-exact a {
+  color: #c0392b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog-content-exact a:hover {
+  text-decoration: underline;
+}
+
+.blog-content-exact .tip-box {
+  background-color: #f0f8ff;
+  border-left: 4px solid #c0392b;
+  padding: 20px;
+  margin: 25px 0;
   border-radius: 4px;
 }
 
-.blog-content .tip-box {
-  background-color: #f0f8ff;
-  border-left: 5px solid var(--color-canadian-red);
-  padding: 1.5rem;
-  margin: 2rem 0;
-  border-radius: 6px;
-}
-
-.blog-content .tip-box strong {
-  color: var(--color-canadian-red);
+.blog-content-exact .tip-box strong {
+  color: #c0392b;
   display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 1rem;
 }
 
-.blog-content .example-box {
-  background-color: #fafafa;
-  border: 1px solid #e0e0e0;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  border-radius: 8px;
+.blog-content-exact table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.blog-content-exact th {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
   font-size: 0.95rem;
 }
 
-.blog-content .example-box strong {
+.blog-content-exact td {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-content-exact tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.blog-content-exact tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.blog-content-exact .currency {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #c0392b;
+}
+
+.blog-content-exact .chart-container {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.blog-content-exact .example-box {
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.blog-content-exact .example-box strong {
   color: #1a1a2e;
   display: block;
-  margin-bottom: 0.75rem;
-  font-size: 1.1rem;
-  font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 1rem;
 }
 
-.blog-content .example-box .calculation {
-  font-family: var(--font-mono, 'Courier New', monospace);
+.blog-content-exact .example-box .calculation {
+  font-family: 'Courier New', monospace;
   line-height: 1.8;
   color: #333;
-  margin: 0.5rem 0;
-  padding: 1rem;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+  margin: 10px 0;
 }
 
-.blog-content .example-box .result {
+.blog-content-exact .example-box .result {
   background-color: #fff3cd;
-  padding: 1rem;
-  border-radius: 4px;
-  margin-top: 1rem;
-  font-weight: 600;
-  border-left: 3px solid #ffc107;
+  padding: 12px;
+  border-radius: 3px;
+  margin-top: 12px;
+  font-weight: 500;
 }
 
-.blog-content .currency {
-  font-family: var(--font-mono, 'Courier New', monospace);
-  font-weight: 700;
-  color: var(--color-canadian-red);
+.blog-content-exact ul {
+  margin: 20px 0 20px 30px;
+  line-height: 1.8;
 }
 
-.blog-content .highlight {
+.blog-content-exact li {
+  margin-bottom: 10px;
+}
+
+.blog-content-exact .highlight {
   background-color: #fff3cd;
   padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: 600;
+  border-radius: 3px;
+  font-weight: 500;
 }
 
-/* Table Styling Overrides for Prose */
-.blog-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #eee;
-}
-
-.blog-content thead {
-  background-color: #1a1a2e !important;
-  color: white !important;
-}
-
-.blog-content th {
-  padding: 1rem !important;
-  text-align: left;
-  font-weight: 700;
-  color: white !important;
-}
-
-.blog-content td {
-  padding: 1rem !important;
-  border-bottom: 1px solid #efefef;
-}
-
-.blog-content tbody tr:nth-child(even) {
-  background-color: #fcfcfc;
-}
-
-.blog-content tbody tr:hover {
-  background-color: #f8f8f8;
-}
-
-/* Callout Utility */
-.blog-content .callout {
-  background-color: #fff9e6;
-  border-left: 5px solid #f39c12;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  border-radius: 4px;
-}
-
-.blog-content .callout h4 {
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  color: #1a1a2e;
-}
-
-/* Charts / Bars visualization */
-.blog-content .chart-container {
-  margin: 2.5rem 0;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  border: 1px solid #eee;
-}
-
-.blog-content .bar-chart {
+.blog-content-exact .bar-chart {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  text-align: left;
 }
 
-.blog-content .bar-item {
+.blog-content-exact .bar-item {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.blog-content .bar-label {
+.blog-content-exact .bar-label {
   width: 80px;
   font-weight: 700;
   font-size: 0.85rem;
 }
 
-.blog-content .bar-wrapper {
+.blog-content-exact .bar-wrapper {
   flex: 1;
   background-color: white;
   border-radius: 4px;
@@ -215,8 +227,8 @@
   border: 1px solid #ddd;
 }
 
-.blog-content .bar {
-  background: linear-gradient(90deg, var(--color-canadian-red), #e74c3c);
+.blog-content-exact .bar {
+  background: linear-gradient(90deg, #c0392b, #e74c3c);
   height: 100%;
   display: flex;
   align-items: center;
@@ -225,5 +237,23 @@
   color: white;
   font-weight: 700;
   font-size: 0.8rem;
-  transition: width 1s ease-out;
+}
+
+.blog-content-exact .toc {
+  background-color: #f9f9f9;
+  border: 1px solid #efefef;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 4px;
+}
+
+.blog-content-exact .toc h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.blog-content-exact .toc ul {
+  margin: 0;
+  padding-left: 20px;
 }
