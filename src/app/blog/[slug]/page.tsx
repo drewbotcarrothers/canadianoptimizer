@@ -8,35 +8,7 @@ import EndOfPostNewsletter from '@/components/ui/EndOfPostNewsletter';
 import Button from '@/components/ui/Button';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
-// Placeholder data - in a real app this would come from a CMS or local markdown
-const posts = [
-  {
-    slug: 'optimizing-canadian-taxes-2026',
-    title: 'Optimizing Canadian Taxes: The 2026 Advanced Guide',
-    excerpt: 'Stop leaving money on the table. Discover the advanced tactics high-net-worth Canadians are using to minimize their tax burden this year.',
-    category: 'Taxes',
-    categorySlug: 'taxes',
-    date: 'March 15, 2026',
-    author: 'Andrew Carrothers',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2000&auto=format&fit=crop',
-    content: `
-      <p class="lead">Tax optimization is not about evasion; it's about using the rules the CRA has provided to your maximum advantage. In this guide, we break down the three-pillar strategy for 2026.</p>
-      
-      <h2>1. The Corporate Integration Trap</h2>
-      <p>Many business owners fail to properly integrate their personal and corporate tax strategies. By balancing dividends and salary effectively, you can keep your marginal rate significantly lower.</p>
-      
-      <h2>2. Advanced RRSP Timing</h2>
-      <p>It's not just about contributing; it's about <em>when</em> you claim the deduction. If you expect your income to rise significantly next year, consider deferring the deduction claim while making the contribution today.</p>
-      
-      <blockquote>
-        "The most expensive advice is the tax advice you didn't seek until April."
-      </blockquote>
-      
-      <h2>3. TFSA Multipliers</h2>
-      <p>Using your TFSA for high-growth, high-yield investments rather than simple 'safe' interest is one of the fastest ways to build tax-free wealth in Canada.</p>
-    `
-  }
-];
+import { posts } from "@/data/posts";
 
 export function generateStaticParams() {
   return posts.map((post) => ({
@@ -46,7 +18,17 @@ export function generateStaticParams() {
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const post = posts.find(p => p.slug === resolvedParams.slug) || posts[0];
+  const post = posts.find(p => p.slug === resolvedParams.slug);
+
+  if (!post) {
+    return (
+      <div className="container mx-auto py-20 text-center">
+        <h1 className="text-2xl font-bold">Post not found</h1>
+        <Link href="/blog" className="text-canadian-red hover:underline mt-4 inline-block">Back to Blog</Link>
+      </div>
+    );
+  }
+
 
   return (
     <article className="pb-20">

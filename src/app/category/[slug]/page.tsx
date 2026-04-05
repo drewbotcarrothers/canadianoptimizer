@@ -2,6 +2,7 @@ import ArticleCard from "@/components/ui/ArticleCard";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import { notFound } from "next/navigation";
+import { posts } from "@/data/posts";
 
 // Define all valid categories for static generation
 const CATEGORY_MAP: Record<string, { name: string; desc: string }> = {
@@ -30,6 +31,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     notFound();
   }
 
+  // Filter posts for this category
+  const categoryPosts = posts.filter(p => p.categorySlug === resolvedParams.slug)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
   return (
     <div className="bg-light-slate min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-6xl">
@@ -51,27 +56,28 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           </p>
         </header>
 
-        {/* Placeholder grid for category posts */}
+        {/* Dynamic grid for category posts */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-           <ArticleCard 
-            slug="example-post"
-            title={`Example Optimization Strategy for ${categoryData.name}`}
-            excerpt="This is a placeholder for a dynamic article that would fall under this specific strategic category."
-            category={categoryData.name}
-            author="Andrew Carrothers"
-            date="March 16, 2026"
-            imageUrl="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop"
-          />
-           <ArticleCard 
-             slug="example-post-2"
-             title={`Advanced ${categoryData.name} Techniques`}
-             excerpt="Detailed breakdown of how high net-worth individuals approach this specific component of wealth management."
-             category={categoryData.name}
-             author="Andrew Carrothers"
-             date="March 10, 2026"
-             imageUrl="https://images.unsplash.com/photo-1579621970588-a3f5ce599fac?q=80&w=800&auto=format&fit=crop"
-           />
+          {categoryPosts.length > 0 ? (
+            categoryPosts.map((post) => (
+              <ArticleCard 
+                key={post.slug}
+                slug={post.slug}
+                title={post.title}
+                excerpt={post.excerpt}
+                category={post.category}
+                author={post.author}
+                date={post.date}
+                imageUrl={post.image}
+              />
+            ))
+          ) : (
+            <div className="col-span-full py-20 text-center">
+              <p className="text-gray-500 italic">No strategies published in this category yet. Stay tuned.</p>
+            </div>
+          )}
         </div>
+
       </div>
     </div>
   );
