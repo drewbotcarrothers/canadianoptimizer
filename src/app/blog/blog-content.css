@@ -499,3 +499,343 @@
   border-radius: 6px;
 }
 
+
+/* Automatically Extracted & Merged Custom Classes (Articles 1-21) */
+.blog-content-exact .currency {
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+            color: #c0392b;
+        }
+
+.blog-content-exact .footer-note {
+            color: #999;
+            font-size: 0.85rem;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+@media (max-width: 640px) {
+        }
+
+.blog-content-exact .intro-text {
+            font-size: 18px;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+@media (max-width: 768px) {
+        }
+
+.blog-content-exact .footer-content {
+            max-width: 750px;
+            margin: 0 auto;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+.blog-content-exact .checkbox {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            border: 2px solid #c0392b;
+            border-radius: 4px;
+            margin-right: 15px;
+            flex-shrink: 0;
+            background-color: white;
+        }
+
+.blog-content-exact .urgency-box {
+            background: linear-gradient(135deg, #fff5f5 0%, #ffe6e6 100%);
+            border: 2px solid #c0392b;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+.blog-content-exact .urgency-box h3 {
+            margin-top: 0;
+            color: #c0392b;
+        }
+
+.blog-content-exact .footer-info {
+            font-size: 0.9rem;
+            color: #7a7a8e;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #f0f0f0;
+            text-align: center;
+        }
+
+/* Container & Layout */
+
+/* Header */
+
+/* Article Content */
+
+/* Summary Box - Key Facts */
+
+/* Callout Boxes */
+
+/* Calculation Box */
+
+/* Tables */
+
+/* List Styling */
+
+/* Links */
+
+/* Chart Container */
+
+/* CTA Banner */
+
+/* Footer */
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+        }
+
+.blog-content-exact .footnote {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+.blog-content-exact .divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #c0392b, transparent);
+            margin: 40px 0;
+        }
+
+.blog-content-exact .intro-hook {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #c0392b;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #c0392b;
+            border-radius: 4px;
+        }
+
+/* Header and Typography */
+
+/* Hook/Intro */
+
+/* Example/Scenario Boxes */
+
+/* Lists */
+
+/* Decision Framework */
+
+.blog-content-exact .income-tier {
+            background-color: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+.blog-content-exact .income-tier-title {
+            font-weight: 700;
+            color: #c0392b;
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+        }
+
+/* Flowchart */
+
+/* Responsive */
+
+/* Callout/Tip Boxes */
+
+/* Example Boxes */
+
+/* Warning Boxes */
+
+/* Intro Hook */
+
+.blog-content-exact .credit-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+
+.blog-content-exact .risk-low {
+            color: #27ae60;
+            font-weight: 600;
+        }
+
+.blog-content-exact .risk-medium {
+            color: #f39c12;
+            font-weight: 600;
+        }
+
+.blog-content-exact .risk-high {
+            color: #c0392b;
+            font-weight: 600;
+        }
+
+/* Main container */
+
+/* Typography */
+
+/* Callout boxes */
+
+/* Decision flowchart */
+
+.blog-content-exact .decision-flow {
+            background-color: #f5f5f5;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+.blog-content-exact .flow-box {
+            background-color: white;
+            border: 2px solid #1a1a2e;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+.blog-content-exact .flow-box.yes {
+            border-color: #27ae60;
+            background-color: #f0fdf4;
+        }
+
+.blog-content-exact .flow-box.no {
+            border-color: #e74c3c;
+            background-color: #fef2f2;
+        }
+
+.blog-content-exact .flow-box.decision {
+            border-color: #c0392b;
+            background-color: #fef5f5;
+            font-style: italic;
+        }
+
+/* Example box */
+
+/* Cost summary */
+
+.blog-content-exact .cost-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #e8d4b0;
+        }
+
+@media (max-width: 768px) {
+
+            .blog-content-exact .cost-item {
+                flex-direction: column;
+            }
+        }
+
+/* Print styles */
+
+@media print {
+        }
+
+.blog-content-exact .footer {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+      color: #666;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+@media (max-width: 600px) {
+    }
+
+/* Container and Layout */
+
+/* Header Styles */
+
+/* Content Styles */
+
+/* Callout and Tip Boxes */
+
+/* Checklist */
+
+.blog-content-exact .section-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #c0392b;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 20px;
+        }
+
+.blog-content-exact .section-title {
+            display: flex;
+            align-items: center;
+        }
+
+/* Header & Navigation */
+
+/* Article Header */
+
+/* Hook Section */
+
+/* Body Content */
+
+/* Comparison Box */
+
+/* Tax Example Breakdown */
+
+.blog-content-exact .strong {
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+
+.blog-content-exact .return-home {
+            color: #c0392b;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+.blog-content-exact .return-home:hover {
+            text-decoration: underline;
+        }
+
+.blog-content-exact .did-you-know {
+            background-color: #eef2f7;
+            border-left: 4px solid #2c3e50;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+
+.blog-content-exact .did-you-know strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+.blog-content-exact .section-intro {
+            font-size: 1.05em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+@media (max-width: 768px) { }
+
+.blog-content-exact .term { margin-bottom: 22px; padding-bottom: 12px; border-bottom: 1px solid #f0f0f0; }
+
+.blog-content-exact .term-def { margin-top: 4px; line-height: 1.8; }
