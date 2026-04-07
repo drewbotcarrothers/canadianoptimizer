@@ -11359,7 +11359,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation a...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/federal-tax-brackets-2026.png",
     content: `<header>
     <div class="container">
         <h1>2026 Canadian Federal Tax Brackets — Complete Rate Table</h1>
@@ -11562,7 +11562,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "This table ranks all 13 provinces and territories by their combined federal + provincial top marginal tax rate for 2026. The federal top rate is 33%.",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/provincial-tax-rates-2026.png",
     content: `<header>
     <div class="container">
         <h1>2026 Provincial & Territorial Tax Rates — All 13 Jurisdictions</h1>
