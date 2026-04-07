@@ -8,7 +8,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Maximize Your Tax Savings",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/federal-tax-brackets-2026.png",
     content: `<header>
     <div class="container">
         <h1>2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work</h1>
@@ -317,7 +317,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "BC's lowest bracket rate increased from 5.06% to 5.60% — a notable change for entry-level earners. This represents the most significant provincial ...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/provincial-tax-rates-2026.png",
     content: `<header>
     <div class="container">
         <h1>2026 Provincial Tax Rates — Every Province & Territory Compared</h1>
@@ -1720,7 +1720,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Most people think of taxes as a mystery. You earn money, the government takes some of it, and you hope you're not paying too much. That's not under...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/how-canadian-taxes-work.png",
     content: `<header>
     <div class="container">
         <h1>How Canadian Taxes Actually Work — A Plain-English Guide</h1>
@@ -2088,7 +2088,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "H&amp;R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/biggest-tax-mistake-canadians.png",
     content: `<header>
     <div class="container">
         <h1>The Biggest Tax Mistake Canadians Make (And How to Fix It)</h1>
@@ -2365,7 +2365,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "A single $10,000 RRSP contribution can save you between $1,400 and $3,300 in taxes — depending entirely on when and how you make it. Yet most Canad...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/rrsp-playbook-2026.png",
     content: `<header>
     <div class="container">
         <h1>The RRSP Playbook — Strategies to Maximize Your 2026 Contribution</h1>
@@ -2955,7 +2955,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Ready to optimize your entire tax strategy?",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/tfsa-strategies-2026.png",
     content: `<header>
     <div class="container">
         <h1>TFSA Strategies Most Canadians Don't Know About</h1>
@@ -3422,7 +3422,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Since the First Home Savings Account launched in 2023, it's quietly become one of the most powerful wealth-building tools available to first-time h...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/fhsa-guide-2026.png",
     content: `<header>
     <div class="container">
         <h1>The Complete Guide to Canada's First Home Savings Account (FHSA) in 2026</h1>
@@ -3990,7 +3990,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Recommendation:",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/rrsp-vs-tfsa-vs-fhsa-2026.png",
     content: `<header>
     <div class="container">
         <h1>RRSP vs. TFSA vs. FHSA — Which Account Should You Prioritize?</h1>
@@ -4540,7 +4540,7 @@ export const posts = [
     author: "Andrew Carrothers",
     date: "2026-04-06",
     excerpt: "Being an employed Canadian doesn't mean you're locked out of tax planning. In fact, the CRA allows dozens of deductions and credits specifically de...",
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+    image: "/images/blog/tax-deductions-employees-2026.png",
     content: `<header>
     <div class="container">
         <h1>Every Tax Deduction Canadian Employees Should Claim in 2026</h1>
