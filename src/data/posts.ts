@@ -6,7 +6,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-01",
     excerpt: "Maximize Your Tax Savings",
     image: "/images/blog/federal-tax-brackets-2026.png",
     content: `<header>
@@ -315,7 +315,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-01",
     excerpt: "BC's lowest bracket rate increased from 5.06% to 5.60% — a notable change for entry-level earners. This represents the most significant provincial ...",
     image: "/images/blog/provincial-tax-rates-2026.png",
     content: `<header>
@@ -1718,7 +1718,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-04",
     excerpt: "Most people think of taxes as a mystery. You earn money, the government takes some of it, and you hope you're not paying too much. That's not under...",
     image: "/images/blog/how-canadian-taxes-work.png",
     content: `<header>
@@ -2086,7 +2086,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-05",
     excerpt: "H&amp;R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
     image: "/images/blog/biggest-tax-mistake-canadians.png",
     content: `<header>
@@ -2363,7 +2363,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-06",
     excerpt: "A single $10,000 RRSP contribution can save you between $1,400 and $3,300 in taxes — depending entirely on when and how you make it. Yet most Canad...",
     image: "/images/blog/rrsp-playbook-2026.png",
     content: `<header>
@@ -2953,7 +2953,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-10",
     excerpt: "Ready to optimize your entire tax strategy?",
     image: "/images/blog/tfsa-strategies-2026.png",
     content: `<header>
@@ -3420,7 +3420,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-12",
     excerpt: "Since the First Home Savings Account launched in 2023, it's quietly become one of the most powerful wealth-building tools available to first-time h...",
     image: "/images/blog/fhsa-guide-2026.png",
     content: `<header>
@@ -3988,7 +3988,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-13",
     excerpt: "Recommendation:",
     image: "/images/blog/rrsp-vs-tfsa-vs-fhsa-2026.png",
     content: `<header>
@@ -4538,7 +4538,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-14",
     excerpt: "Being an employed Canadian doesn't mean you're locked out of tax planning. In fact, the CRA allows dozens of deductions and credits specifically de...",
     image: "/images/blog/tax-deductions-employees-2026.png",
     content: `<header>
@@ -5029,7 +5029,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-19",
     excerpt: "What she claimed previously: Only basic personal amount. Tax owing: ~$1,200.",
     image: "/images/blog/missed-tax-credits-2026.png",
     content: `<header>
@@ -5386,7 +5386,7 @@ export const posts = [
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-20",
     excerpt: "Self-employed Canadians have access to more than 40 legitimate tax deductions that salaried employees can only dream of — from home office costs to...",
     image: "/images/blog/self-employed-tax-guide-2026.png",
     content: `<header>
@@ -6084,7 +6084,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-24",
     excerpt: "At 9% federal tax on the first $500,000 of active business income, a Canadian corporation pays less than one-third the rate of the lowest personal ...",
     image: "/images/blog/should-you-incorporate-2026.png",
     content: `<header>
@@ -6719,7 +6719,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-25",
     excerpt: "Miss a single quarterly instalment payment and the CRA starts charging interest immediately — at a prescribed rate that currently sits around 10% a...",
     image: "/images/blog/quarterly-tax-instalments-2026.png",
     content: `<header>
@@ -7032,7 +7032,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-02-27",
     excerpt: "A Canadian family with two children under 6 could receive up to $15,994 per year in Canada Child Benefit payments alone — completely tax-free. Add ...",
     image: "/images/blog/tax-tips-families-2026.png",
     content: `<header>
@@ -7484,7 +7484,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-02",
     excerpt: "Life happens. Weddings, births, career changes, relocations, separations, and loss are all inevitable parts of the human experience. What's less ob...",
     image: "/images/blog/life-events-tax-implications-2026.png",
     content: `<header>
@@ -7950,7 +7950,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-04",
     excerpt: "You bought 100 shares of ABC Corp at $50/share ($5,000 total). You sell them at $70/share ($7,000 total).",
     image: "/images/blog/tax-efficient-investing-2026.png",
     content: `<header>
@@ -8638,7 +8638,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-05",
     excerpt: "Ready to Optimize Your Retirement Income Plan?",
     image: "/images/blog/retirement-income-planning-2026.png",
     content: `<header>
@@ -9173,7 +9173,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-06",
     excerpt: "Did you know? Canadians who use the right tax software can save an average of 1–3 hours on filing and potentially uncover hundreds of dollars in mi...",
     image: "/images/blog/best-tax-software-2026.png",
     content: `<header>
@@ -9553,7 +9553,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-09",
     excerpt: "The CRA audits approximately 0.5–1% of individual tax returns annually, but when you're selected, the uncertainty can feel overwhelming. A CRA audi...",
     image: "/images/blog/cra-audit-guide-2026.png",
     content: `<header>
@@ -9912,7 +9912,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-10",
     excerpt: "Did you know? 47% of Canadian taxpayers make mistakes on their tax returns due to missing or disorganized records. The CRA receives over 2 million ...",
     image: "/images/blog/tax-record-keeping-2026.png",
     content: `<header>
@@ -10246,7 +10246,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-16",
     excerpt: "Canadians leave an average of $1,200 on the table annually because they miss key tax planning windows. A simple calendar that tracks CRA deadlines ...",
     image: "/images/blog/tax-planning-calendar-2026.png",
     content: `<header>
@@ -10757,7 +10757,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-19",
     excerpt: "Every spring, millions of Canadians face the same question: should I file my own taxes, or pay someone to do it? The answer depends on your situati...",
     image: "/images/blog/working-with-tax-professional-2026.png",
     content: `<header>
@@ -11061,7 +11061,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-28",
     excerpt: "This is the checklist you bookmark and open every tax season. It covers over 60 deductions, credits, and tax-saving opportunities available to Cana...",
     image: "/images/blog/tax-deduction-checklist-2026.png",
     content: `<header>
@@ -11357,7 +11357,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-28",
     excerpt: "The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation a...",
     image: "/images/blog/federal-tax-brackets-2026.png",
     content: `<header>
@@ -11560,7 +11560,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-29",
     excerpt: "This table ranks all 13 provinces and territories by their combined federal + provincial top marginal tax rate for 2026. The federal top rate is 33%.",
     image: "/images/blog/provincial-tax-rates-2026.png",
     content: `<header>
@@ -11949,7 +11949,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-29",
     excerpt: "The following table covers every key deadline for the 2026 tax year, organized chronologically. Dates marked with an asterisk (*) apply to the 2025...",
     image: "/images/blog/cra-deadlines-2026.png",
     content: `<header>
@@ -12148,7 +12148,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-03-30",
     excerpt: "The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year ...",
     image: "/images/blog/contribution-limits-2026.png",
     content: `<header>
@@ -12441,7 +12441,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
-    date: "2026-04-06",
+    date: "2026-04-03",
     excerpt: "This glossary is excerpted from How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition. For detailed strategies behind each concept...",
     image: "/images/blog/tax-glossary-2026.png",
     content: `<header>
