@@ -13,8 +13,8 @@ export const posts = [
     <div class="container">
         <h1>2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -303,7 +303,7 @@ export const posts = [
                 Data sources: Canada Revenue Agency (CRA), 2026 tax year information and indexation factors published as of April 2026.
             </p>
 <div class="footer-note">
-                Published: April 5, 2026 | Category: Taxes | Author: Andrew Carrothers
+                Published: February 1, 2026 | Category: Taxes | Author: Andrew
             </div>
     </div>
 
@@ -322,8 +322,8 @@ export const posts = [
     <div class="container">
         <h1>2026 Provincial Tax Rates — Every Province & Territory Compared</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>11 min read</span>
         </div>
     </div>
@@ -1725,8 +1725,8 @@ export const posts = [
     <div class="container">
         <h1>How Canadian Taxes Actually Work — A Plain-English Guide</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -2093,8 +2093,8 @@ export const posts = [
     <div class="container">
         <h1>The Biggest Tax Mistake Canadians Make (And How to Fix It)</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>10 min read</span>
         </div>
     </div>
@@ -2370,8 +2370,8 @@ export const posts = [
     <div class="container">
         <h1>The RRSP Playbook — Strategies to Maximize Your 2026 Contribution</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -2941,7 +2941,7 @@ export const posts = [
         <div class="container">
 <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, tax, or legal advice. RRSP rules, contribution limits, and tax rates change periodically. Consult a qualified tax professional or financial advisor before making investment decisions. The examples and calculations shown are illustrative and based on 2026 tax rates and rules.</p>
 <p><strong>About the Author:</strong> Andrew Carrothers is a financial educator and author focused on Canadian tax optimization and wealth-building strategies. Canadian Optimizer provides evidence-based financial guidance for Canadian earners at all income levels.</p>
-<p style="margin-top: 20px; border-top: 1px solid #e8e8e8; padding-top: 20px;">Published: April 5, 2026 | Category: Taxes | Reading Time: ~12 minutes</p>
+<p style="margin-top: 20px; border-top: 1px solid #e8e8e8; padding-top: 20px;">Published: February 6, 2026 | Category: Taxes | Reading Time: ~12 minutes</p>
 </div>
     </div>
 
@@ -2960,8 +2960,8 @@ export const posts = [
     <div class="container">
         <h1>TFSA Strategies Most Canadians Don't Know About</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -3409,7 +3409,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, investment, or tax advice. Consult a qualified financial advisor or tax professional before making any investment decisions. Individual circumstances vary, and what works for one person may not work for another.</p>
-<p>Published: April 5, 2026 | Author: Andrew Carrothers | Category: <a href="https://canadianoptimizer.com/category/taxes">Taxes</a></p>
+<p>Published: February 10, 2026 | Author: Andrew | Category: <a href="https://canadianoptimizer.com/category/taxes">Taxes</a></p>
     </div>
 
 </div>`
@@ -3427,8 +3427,8 @@ export const posts = [
     <div class="container">
         <h1>The Complete Guide to Canada's First Home Savings Account (FHSA) in 2026</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -3995,8 +3995,8 @@ export const posts = [
     <div class="container">
         <h1>RRSP vs. TFSA vs. FHSA — Which Account Should You Prioritize?</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -4545,8 +4545,8 @@ export const posts = [
     <div class="container">
         <h1>Every Tax Deduction Canadian Employees Should Claim in 2026</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>8 min read</span>
         </div>
     </div>
@@ -5036,8 +5036,8 @@ export const posts = [
     <div class="container">
         <h1>Canadian Tax Credits You're Probably Missing</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>9 min read</span>
         </div>
     </div>
@@ -5393,8 +5393,8 @@ export const posts = [
     <div class="container">
         <h1>Self-Employed Tax Guide — Everything You Need to Know for 2026</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>10 min read</span>
         </div>
     </div>
@@ -6091,8 +6091,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Should You Incorporate? A Guide for Canadian Freelancers & Consultants</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>13 min read</span>
         </div>
     </div>
@@ -6726,8 +6726,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Quarterly Tax Instalments in Canada</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>8 min read</span>
         </div>
     </div>
@@ -7021,7 +7021,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p>This article is for informational purposes only and should not be considered professional tax or legal advice. For personalized guidance on your instalment obligations, consult with a qualified accountant or tax professional.</p>
-<p>Published: April 5, 2026 | Category: Taxes | Author: Andrew Carrothers</p>
+<p>Published: February 25, 2026 | Category: Taxes | Author: Andrew</p>
     </div>
 
 </div>`
@@ -7039,8 +7039,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Tax Tips for Canadian Families — Credits, Benefits & Income Splitting</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published February 2026</span> |
             <span>14 min read</span>
         </div>
     </div>
@@ -7491,8 +7491,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Major Life Events & Their Tax Implications in Canada</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>14 min read</span>
         </div>
     </div>
@@ -7957,8 +7957,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Tax-Efficient Investing for Canadians — A Beginner's Guide</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>15 min read</span>
         </div>
     </div>
@@ -8645,8 +8645,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Retirement Income Tax Planning for Canadians</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>11 min read</span>
         </div>
     </div>
@@ -9180,8 +9180,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Best Canadian Tax Software in 2026</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>45 min read</span>
         </div>
     </div>
@@ -9560,8 +9560,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>What to Do If the CRA Audits You — A Canadian's Guide</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>15 min read</span>
         </div>
     </div>
@@ -9919,8 +9919,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>The Essential Tax Record-Keeping Guide for Canadians</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>30 min read</span>
         </div>
     </div>
@@ -10253,8 +10253,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Your 12-Month Canadian Tax Planning Calendar (2026)</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>8 min read</span>
         </div>
     </div>
@@ -10764,8 +10764,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Working with a Tax Professional — Is It Worth It?</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>8 min read</span>
         </div>
     </div>
@@ -11068,8 +11068,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>The Ultimate 2026 Canadian Tax Deduction Checklist</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>12 min read</span>
         </div>
     </div>
@@ -11364,8 +11364,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>2026 Canadian Federal Tax Brackets — Complete Rate Table</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>5 min read</span>
         </div>
     </div>
@@ -11567,8 +11567,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>2026 Provincial & Territorial Tax Rates — All 13 Jurisdictions</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>15 min read</span>
         </div>
     </div>
@@ -11956,8 +11956,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Key CRA Deadlines for 2026 — Every Date You Need to Know</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>6 min read</span>
         </div>
     </div>
@@ -12155,8 +12155,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>2026 RRSP, TFSA, FHSA, RESP & CPP Limits — All Key Figures</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
-            <span>Published April 2026</span> |
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
             <span>6 min read</span>
         </div>
     </div>
@@ -12448,7 +12448,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="container">
         <h1>Canadian Tax Glossary — 75+ Terms Every Taxpayer Should Know</h1>
         <div class="meta">
-            <span>By Andrew Carrothers</span> |
+            <span>By Andrew</span> |
             <span>Published April 2026</span> |
             <span>20 min read</span>
         </div>
