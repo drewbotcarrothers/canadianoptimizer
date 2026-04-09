@@ -1,7 +1,7 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 export const posts = [
   {
-    title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds &amp; How They Work",
+    title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
     slug: "federal-tax-brackets-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -310,7 +310,7 @@ export const posts = [
 </div>`
   },
   {
-    title: "2026 Provincial Tax Rates — Every Province &amp; Territory Compared",
+    title: "2026 Provincial Tax Rates — Every Province & Territory Compared",
     slug: "provincial-tax-rates-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -377,7 +377,7 @@ export const posts = [
 <tbody>
 <tr>
 <td>1</td>
-<td><strong>Newfoundland &amp; Labrador</strong></td>
+<td><strong>Newfoundland & Labrador</strong></td>
 <td>25.50%</td>
 <td>29.30%</td>
 <td class="top-rate">54.80%</td>
@@ -472,7 +472,7 @@ export const posts = [
         <div class="callout">
 <h4>Key Insight</h4>
 <p>
-                    The spread between the highest (Newfoundland &amp; Labrador at 54.80%) and lowest (Nunavut at 44.50%) combined top rates is <strong>10.30 percentage points</strong>. On a $100,000 salary, that's a difference of roughly $10,300 in annual taxes — a significant number for relocation or career decisions.
+                    The spread between the highest (Newfoundland & Labrador at 54.80%) and lowest (Nunavut at 44.50%) combined top rates is <strong>10.30 percentage points</strong>. On a $100,000 salary, that's a difference of roughly $10,300 in annual taxes — a significant number for relocation or career decisions.
                 </p>
 </div>
 
@@ -781,7 +781,7 @@ export const posts = [
 </div>
 
         <div class="province-section">
-<h3>Newfoundland &amp; Labrador</h3>
+<h3>Newfoundland & Labrador</h3>
 <div class="province-stats">
 <div class="callout">
 <div class="stat-label">Tax Brackets</div>
@@ -800,7 +800,7 @@ export const posts = [
 <div class="stat-value">54.80%</div>
 </div>
 </div>
-<button class="collapsible">2026 Newfoundland &amp; Labrador Tax Brackets</button>
+<button class="collapsible">2026 Newfoundland & Labrador Tax Brackets</button>
 <div class="content">
 <table class="bracket-table">
 <thead>
@@ -833,9 +833,9 @@ export const posts = [
 </tbody>
 </table>
 </div>
-<h4>Newfoundland &amp; Labrador Overview</h4>
+<h4>Newfoundland & Labrador Overview</h4>
 <p>
-                    Newfoundland &amp; Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The province's top provincial rate of 25.50% significantly exceeds all other provinces. This makes NL particularly challenging for high-income professionals and executives, though the entry-level rate of 8.70% is reasonable. The sharp rate progression reflects the province's fiscal situation.
+                    Newfoundland & Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The province's top provincial rate of 25.50% significantly exceeds all other provinces. This makes NL particularly challenging for high-income professionals and executives, though the entry-level rate of 8.70% is reasonable. The sharp rate progression reflects the province's fiscal situation.
                 </p>
 </div>
 
@@ -1304,10 +1304,10 @@ export const posts = [
                 </p>
 </div>
 
-        <h2 id="changes-2026">Notable 2026 Changes &amp; Updates</h2>
+        <h2 id="changes-2026">Notable 2026 Changes & Updates</h2>
 
         <div class="changes-section">
-<h3>Key 2026 Provincial &amp; Federal Tax Changes</h3>
+<h3>Key 2026 Provincial & Federal Tax Changes</h3>
 <ul class="changes-list">
 <li><strong>British Columbia:</strong> The lowest provincial bracket rate increased from 5.06% to 5.60% — the most significant provincial change in 2026. This affects all BC earners in the lowest bracket.</li>
 <li><strong>Federal Top Rate Drop:</strong> The federal top marginal rate decreased to 28.30% from the previous 33%, benefiting high earners across all provinces. This drop was effective June 25, 2024, and continues into 2026.</li>
@@ -1400,7 +1400,7 @@ export const posts = [
 <td>16.63%</td>
 </tr>
 <tr>
-<td><strong>Newfoundland &amp; Labrador</strong></td>
+<td><strong>Newfoundland & Labrador</strong></td>
 <td>$12,676</td>
 <td>16.90%</td>
 </tr>
@@ -1479,7 +1479,7 @@ export const posts = [
 <td>17.14%</td>
 </tr>
 <tr>
-<td><strong>Newfoundland &amp; Labrador</strong></td>
+<td><strong>Newfoundland & Labrador</strong></td>
 <td>$17,426</td>
 <td>17.43%</td>
 </tr>
@@ -1558,7 +1558,7 @@ export const posts = [
 <td>19.51%</td>
 </tr>
 <tr>
-<td><strong>Newfoundland &amp; Labrador</strong></td>
+<td><strong>Newfoundland & Labrador</strong></td>
 <td>$30,048</td>
 <td>20.03%</td>
 </tr>
@@ -1570,7 +1570,7 @@ export const posts = [
         <div class="callout">
 <h4>The $100K Example</h4>
 <p>
-                    At $100,000 income, the difference between the lowest (Nunavut at $14,330) and highest (Newfoundland &amp; Labrador at $17,426) tax burden is <strong>$3,096 annually</strong> — supporting the hook that province selection meaningfully impacts take-home pay.
+                    At $100,000 income, the difference between the lowest (Nunavut at $14,330) and highest (Newfoundland & Labrador at $17,426) tax burden is <strong>$3,096 annually</strong> — supporting the hook that province selection meaningfully impacts take-home pay.
                 </p>
 </div>
 
@@ -1651,7 +1651,7 @@ export const posts = [
             </p>
 
         <ul>
-<li><strong>Combined top rates range from 44.50% (Nunavut) to 54.80% (Newfoundland &amp; Labrador)</strong> — a difference of over 10 percentage points on high earner income.</li>
+<li><strong>Combined top rates range from 44.50% (Nunavut) to 54.80% (Newfoundland & Labrador)</strong> — a difference of over 10 percentage points on high earner income.</li>
 <li><strong>Alberta and Saskatchewan are most competitive for high earners</strong> with combined rates of 48.00% and 47.50% respectively.</li>
 <li><strong>Ontario has the lowest entry-level rate (5.05%) but applies surtaxes</strong> that significantly increase effective rates for high earners.</li>
 <li><strong>BC's lowest bracket increased in 2026</strong> from 5.06% to 5.60%, the most significant provincial tax change.</li>
@@ -1836,7 +1836,7 @@ export const posts = [
 <div class="diagram-arrow">↓</div>
 <div class="diagram-step light">
 <strong>Step 6: Apply Credits</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Non-refundable &amp; Refundable</span>
+<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Non-refundable & Refundable</span>
 </div>
 <div class="diagram-arrow">↓</div>
 <div class="diagram-step">
@@ -1849,13 +1849,13 @@ export const posts = [
 
         <p><strong>Step 1: Total Income.</strong> Add up all four types of income: your employment income (from your T4), any self-employment net income, investment income (interest, dividends, capital gains), and other income. This is your gross income before any tax relief.</p>
 
-        <p><strong>Step 2 &amp; 3: Deductions to Net Income.</strong> Some deductions come before calculating Net Income. The main one is your RRSP (Registered Retirement Savings Plan) contribution. If you contributed $6,000 to your RRSP, you deduct that from Total Income. Other deductions at this stage include child support or spousal support you paid, and carrying charges on investments. This gives you your Net Income.</p>
+        <p><strong>Step 2 & 3: Deductions to Net Income.</strong> Some deductions come before calculating Net Income. The main one is your RRSP (Registered Retirement Savings Plan) contribution. If you contributed $6,000 to your RRSP, you deduct that from Total Income. Other deductions at this stage include child support or spousal support you paid, and carrying charges on investments. This gives you your Net Income.</p>
 
         <p><strong>Step 4: Taxable Income.</strong> From Net Income, you subtract more deductions. These are mainly employment-related deductions (like union dues or professional membership fees) and net capital loss carryforwards (if you had investment losses in previous years). This gives you Taxable Income — the amount that actually gets taxed.</p>
 
         <p><strong>Step 5: Calculate Tax.</strong> This is where the tax brackets apply. Take your Taxable Income and apply the federal and provincial bracket rates. This produces your "federal tax" and "provincial tax" before credits. Add these together for your "total tax before credits."</p>
 
-        <p><strong>Steps 6 &amp; 7: Apply Credits and Get Your Final Bill.</strong> You then apply tax credits, which reduce your tax (and sometimes generate a refund). This produces your final Tax Payable or Refund.</p>
+        <p><strong>Steps 6 & 7: Apply Credits and Get Your Final Bill.</strong> You then apply tax credits, which reduce your tax (and sometimes generate a refund). This produces your final Tax Payable or Refund.</p>
 
         <p>The key insight: <strong>deductions reduce the amount of income that gets taxed, while credits reduce the tax itself.</strong> These are completely different, and that distinction is worth thousands of dollars.</p>
 
@@ -2087,7 +2087,7 @@ export const posts = [
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-02-05",
-    excerpt: "H&amp;R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
+    excerpt: "H&R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
     image: "/images/blog/biggest-tax-mistake-canadians.png",
     content: `<header>
     <div class="container">
@@ -2103,14 +2103,14 @@ export const posts = [
 <div class="container">
 
     <div class="hook">
-        <p>H&amp;R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly <span class="data-point">$3,000 per client</span> in missed deductions and credits. Multiply that across millions of Canadians, and we're talking <strong>billions left on the table every single year.</strong></p>
+        <p>H&R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly <span class="data-point">$3,000 per client</span> in missed deductions and credits. Multiply that across millions of Canadians, and we're talking <strong>billions left on the table every single year.</strong></p>
 <p>Here's the problem: Canadians are phenomenal at filing taxes. We follow the rules, we meet deadlines, we report our income. But we're terrible at <em>optimizing</em> them. Most people file their taxes and never think about it again — completely missing hundreds or thousands of dollars they're legally entitled to claim.</p>
 <p>This isn't about being clever or aggressive. It's about knowing what you can claim. And the system makes that surprisingly hard.</p>
     </div>
 
     <div class="callout">
 <span class="big-number">$3,000</span>
-<p>The average amount H&amp;R Block clients recover per return when claiming missed deductions and credits</p>
+<p>The average amount H&R Block clients recover per return when claiming missed deductions and credits</p>
 </div>
 
         <h2>The #1 Mistake: Not Claiming What You're Owed</h2>
@@ -2325,7 +2325,7 @@ export const posts = [
 
         <p>When you file a T1 Adjustment, CRA reviews your claim against the documentation you provide. They're not trying to deny you — they just want proof that you're eligible. If everything checks out, you'll see an updated Notice of Assessment and your refund will be processed.</p>
 
-        <p>The amount you recover depends on what you claim, but based on H&amp;R Block's data, the average is around <span class="data-point">$3,000 per person.</span> Some people get $500. Others get $5,000 or more. It all depends on your situation.</p>
+        <p>The amount you recover depends on what you claim, but based on H&R Block's data, the average is around <span class="data-point">$3,000 per person.</span> Some people get $500. Others get $5,000 or more. It all depends on your situation.</p>
 
         <p>One more important point: <strong>CRA won't challenge legitimate claims.</strong> If you have receipts and you're eligible, you'll get your money. The only reason a claim gets denied is if you lack documentation or genuinely don't qualify.</p>
 
@@ -3917,7 +3917,7 @@ export const posts = [
         <div class="timeline">
 <div class="timeline-item">
 <div class="timeline-content">
-<div class="timeline-year">Year 1: Open &amp; Contribute Maximum</div>
+<div class="timeline-year">Year 1: Open & Contribute Maximum</div>
 <p><strong>Action:</strong> Open FHSA immediately. Contribute $8,000 (or more if you have carry-forward). Set up automatic monthly contributions if possible.</p>
 <p><strong>Investment:</strong> If buying in 4 years, consider 70% balanced ETF / 30% bonds.</p>
 <p><strong>Tax:</strong> Claim the deduction on your tax return. You should receive a tax refund of $2,400–$4,000 (depending on tax bracket).</p>
@@ -3925,7 +3925,7 @@ export const posts = [
 </div>
 <div class="timeline-item">
 <div class="timeline-content">
-<div class="timeline-year">Year 2: Continue &amp; Re-Invest Refunds</div>
+<div class="timeline-year">Year 2: Continue & Re-Invest Refunds</div>
 <p><strong>Action:</strong> Contribute another $8,000. Consider using your prior year's tax refund to boost contributions.</p>
 <p><strong>Investment:</strong> Rebalance if needed. Maintain your asset allocation strategy.</p>
 <p><strong>Monitoring:</strong> Track your balance. You should be approaching $20,000 in total contributions + growth.</p>
@@ -3949,7 +3949,7 @@ export const posts = [
 </div>
 <div class="timeline-item">
 <div class="timeline-content">
-<div class="timeline-year">Year 5: Buy &amp; Withdraw</div>
+<div class="timeline-year">Year 5: Buy & Withdraw</div>
 <p><strong>Action:</strong> Make final contribution ($8,000). Your FHSA should now hold $40,000+ (contributions + growth).</p>
 <p><strong>Investment:</strong> Shift remaining funds to HISA or money market. No equity exposure.</p>
 <p><strong>Withdrawal:</strong> When you're ready to buy (before closing), withdraw your FHSA balance tax-free and use it toward your down payment.</p>
@@ -3970,7 +3970,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Take Control of Your Down Payment</strong></p>
             <p>The FHSA can be the difference between saving for 10 years and becoming a homeowner in 5. But only if you use it strategically.</p>
-            <p>Download our exclusive <strong>FHSA Contribution &amp; Investment Playbook</strong> for a complete 5-year plan, customized contribution schedules, and a downloadable spreadsheet to track your progress toward homeownership.</p>
+            <p>Download our exclusive <strong>FHSA Contribution & Investment Playbook</strong> for a complete 5-year plan, customized contribution schedules, and a downloadable spreadsheet to track your progress toward homeownership.</p>
             <a href="https://canadianoptimizer.com/fhsa-playbook" class="cta-button">Get the Playbook (Free PDF)</a>
         </div>
 
@@ -4273,9 +4273,9 @@ export const posts = [
 </div>
 
         <div class="example-box">
-<div class="example-title">Scenario: David &amp; Sarah (combined $180,000, first-time buyers, Alberta)</div>
+<div class="example-title">Scenario: David & Sarah (combined $180,000, first-time buyers, Alberta)</div>
 <p>
-<strong>Their situation:</strong> David earns $95,000 (oil &amp; gas), Sarah earns $85,000 (nonprofit). Combined household income $180,000. Both are first-time home buyers and plan to buy in the next 2 years in Alberta.
+<strong>Their situation:</strong> David earns $95,000 (oil & gas), Sarah earns $85,000 (nonprofit). Combined household income $180,000. Both are first-time home buyers and plan to buy in the next 2 years in Alberta.
                 </p>
 <p>
 <strong>Their priority order (for the next 2 years):</strong>
@@ -4933,7 +4933,7 @@ export const posts = [
 <td>$1,500–$5,000 (depending on business % and km)</td>
 </tr>
 <tr>
-<td><strong>Work Supplies &amp; Tools (T2200)</strong></td>
+<td><strong>Work Supplies & Tools (T2200)</strong></td>
 <td>Employees required to purchase supplies/uniforms</td>
 <td>T2200 form + receipts</td>
 <td>$300–$1,500</td>
@@ -4951,7 +4951,7 @@ export const posts = [
 <td>$1,000–$5,000+</td>
 </tr>
 <tr>
-<td><strong>Union &amp; Professional Dues</strong></td>
+<td><strong>Union & Professional Dues</strong></td>
 <td>Employees paying mandatory union or professional fees</td>
 <td>Receipts or T4 Box 81 statement</td>
 <td>20–40% of dues paid</td>
@@ -4991,7 +4991,7 @@ export const posts = [
 
         <h3>2. Claim What You Can, Then Get a Second Look</h3>
 
-        <p>After filing your own return, consider having it reviewed by a tax accountant. Many Canadian tax preparers (through services like H&amp;R Block's Second Look program) find an average of $3,000 in missed deductions per client. The cost ($200–$500) usually pays for itself.</p>
+        <p>After filing your own return, consider having it reviewed by a tax accountant. Many Canadian tax preparers (through services like H&R Block's Second Look program) find an average of $3,000 in missed deductions per client. The cost ($200–$500) usually pays for itself.</p>
 
         <h3>3. Coordinate with Your Spouse</h3>
 
@@ -5522,7 +5522,7 @@ Total CPP Contribution: $9,181
 
         <p>This is where self-employed people shine. The CRA allows a wide range of legitimate business expense deductions. The golden rule: <strong>the expense must be directly related to earning business income</strong>. Personal expenses are never deductible, even if you use them partially for business.</p>
 
-        <h3>Office &amp; Supplies</h3>
+        <h3>Office & Supplies</h3>
 
         <ul>
 <li>Office supplies (pens, paper, folders, binders)</li>
@@ -5533,7 +5533,7 @@ Total CPP Contribution: $9,181
 <li>Desk lamps and office equipment</li>
 </ul>
 
-        <h3>Professional Fees &amp; Services</h3>
+        <h3>Professional Fees & Services</h3>
 
         <ul>
 <li>Accounting and bookkeeping services</li>
@@ -5543,7 +5543,7 @@ Total CPP Contribution: $9,181
 <li>Professional association memberships</li>
 </ul>
 
-        <h3>Advertising &amp; Marketing</h3>
+        <h3>Advertising & Marketing</h3>
 
         <ul>
 <li>Website design and hosting</li>
@@ -5555,7 +5555,7 @@ Total CPP Contribution: $9,181
 <li>Business photography</li>
 </ul>
 
-        <h3>Technology &amp; Software</h3>
+        <h3>Technology & Software</h3>
 
         <ul>
 <li>Software subscriptions (Slack, Asana, Adobe, etc.)</li>
@@ -5567,7 +5567,7 @@ Total CPP Contribution: $9,181
 <li>Business phone apps and tools</li>
 </ul>
 
-        <h3>Travel &amp; Transportation</h3>
+        <h3>Travel & Transportation</h3>
 
         <ul>
 <li>Airfare for business trips</li>
@@ -5582,7 +5582,7 @@ Total CPP Contribution: $9,181
 <p><strong>Documentation rule:</strong> For travel expenses, keep receipts and document the business purpose. The CRA expects to see proof that the trip was business-related, not personal. A quick note on your receipt ("Client meeting in Toronto") can make all the difference.</p>
 </div>
 
-        <h3>Meals &amp; Entertainment (50% Deductible)</h3>
+        <h3>Meals & Entertainment (50% Deductible)</h3>
 
         <ul>
 <li>Business meals with clients or partners</li>
@@ -5602,10 +5602,10 @@ Total CPP Contribution: $9,181
 <li>Professional indemnity insurance</li>
 <li>Business property insurance</li>
 <li>Vehicle insurance (business-use portion)</li>
-<li>Errors &amp; omissions insurance</li>
+<li>Errors & omissions insurance</li>
 </ul>
 
-        <h3>Subcontractors &amp; Outsourcing</h3>
+        <h3>Subcontractors & Outsourcing</h3>
 
         <ul>
 <li>Payments to independent contractors or freelancers</li>
@@ -5618,7 +5618,7 @@ Total CPP Contribution: $9,181
 <p><strong>Reporting requirement:</strong> If you pay a contractor $500 or more in a calendar year for services, you may need to issue a T4A slip. Keep records of all contractor payments for CRA compliance.</p>
 </div>
 
-        <h3>Bank Fees &amp; Business Account Charges</h3>
+        <h3>Bank Fees & Business Account Charges</h3>
 
         <ul>
 <li>Monthly business account fees</li>
@@ -5628,7 +5628,7 @@ Total CPP Contribution: $9,181
 <li>Merchant services fees (Stripe, Square, etc.)</li>
 </ul>
 
-        <h3>Phone &amp; Internet (Business-Use Portion)</h3>
+        <h3>Phone & Internet (Business-Use Portion)</h3>
 
         <ul>
 <li>Mobile phone plan (business-use percentage)</li>
@@ -5686,7 +5686,7 @@ Total CPP Contribution: $9,181
 <td><span class="risk-medium">Medium</span></td>
 </tr>
 <tr>
-<td>Meals &amp; entertainment (50%)</td>
+<td>Meals & entertainment (50%)</td>
 <td>Yes, 50%</td>
 <td>Receipt + attendee names + purpose</td>
 <td><span class="risk-high">High</span></td>
@@ -5706,7 +5706,7 @@ Total CPP Contribution: $9,181
 <tr>
 <td>Business insurance</td>
 <td>Yes</td>
-<td>Insurance policy &amp; receipts</td>
+<td>Insurance policy & receipts</td>
 <td><span class="risk-low">Low</span></td>
 </tr>
 <tr>
@@ -5740,7 +5740,7 @@ Total CPP Contribution: $9,181
 <td><span class="risk-high">High</span></td>
 </tr>
 <tr>
-<td>Health &amp; dental premiums</td>
+<td>Health & dental premiums</td>
 <td>Yes</td>
 <td>Premium receipts</td>
 <td><span class="risk-low">Low</span></td>
@@ -6079,7 +6079,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Should You Incorporate? A Guide for Canadian Freelancers &amp; Consultants",
+    title: "Should You Incorporate? A Guide for Canadian Freelancers & Consultants",
     slug: "should-you-incorporate-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -6153,7 +6153,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td><strong>CPP (2026)</strong></td>
-<td>Both employee &amp; employer (15.8% total)</td>
+<td>Both employee & employer (15.8% total)</td>
 <td>Only if you take salary; same rate</td>
 </tr>
 <tr>
@@ -6537,15 +6537,15 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <span class="cost-value"><strong>$1,000-$3,000</strong></span>
 </div>
 <div class="cost-item" style="margin-top: 15px; padding-top: 15px; border-top: 2px solid #e8d4b0;">
-<span class="cost-label">Annual Accounting &amp; Tax Return</span>
+<span class="cost-label">Annual Accounting & Tax Return</span>
 <span class="cost-value">$1,200-$2,500</span>
 </div>
 <div class="cost-item">
-<span class="cost-label">HST/GST Filing &amp; Compliance</span>
+<span class="cost-label">HST/GST Filing & Compliance</span>
 <span class="cost-value">$300-$800</span>
 </div>
 <div class="cost-item">
-<span class="cost-label">Corporate Records &amp; Maintenance</span>
+<span class="cost-label">Corporate Records & Maintenance</span>
 <span class="cost-value">$200-$500</span>
 </div>
 <div class="cost-item">
@@ -7027,7 +7027,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Tax Tips for Canadian Families — Credits, Benefits &amp; Income Splitting",
+    title: "Tax Tips for Canadian Families — Credits, Benefits & Income Splitting",
     slug: "tax-tips-families-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -7479,7 +7479,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Major Life Events &amp; Their Tax Implications in Canada",
+    title: "Major Life Events & Their Tax Implications in Canada",
     slug: "life-events-tax-implications-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -7655,7 +7655,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p><strong>Strategy Tip:</strong> If you have FHSA room, maximize it before using the HBP. FHSA withdrawals are completely tax-free and don't need to be repaid. HBP withdrawals must be repaid, and if you don't, the amount is added back to your taxable income. Many first-time buyers should prioritize FHSA over HBP for this reason.</p>
 </div>
 
-        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="https://canadianoptimizer.com/articles/article-7-fhsa-hbp-strategies">Article 7: FHSA &amp; HBP Strategies</a>.</p>
+        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="https://canadianoptimizer.com/articles/article-7-fhsa-hbp-strategies">Article 7: FHSA & HBP Strategies</a>.</p>
 
         <h2><span class="section-title"><span class="section-icon">⚖️</span> Getting Divorced or Separated</span></h2>
 
@@ -7906,7 +7906,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tbody>
 </table>
 
-        <h2>Key Takeaways &amp; Planning Principles</h2>
+        <h2>Key Takeaways & Planning Principles</h2>
 
         <p>As you navigate major life events, keep these principles in mind:</p>
 
@@ -8036,7 +8036,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td><strong>Eligible Canadian Dividends</strong></td>
-<td>~28% (after gross-up &amp; credit)</td>
+<td>~28% (after gross-up & credit)</td>
 <td>$906</td>
 <td>~9.06%</td>
 </tr>
@@ -8048,7 +8048,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td><strong>Non-Eligible Dividends</strong></td>
-<td>~60% (after gross-up &amp; credit)</td>
+<td>~60% (after gross-up & credit)</td>
 <td>$1,863</td>
 <td>~18.63%</td>
 </tr>
@@ -9068,7 +9068,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td><strong>4th</strong></td>
-<td>CPP &amp; OAS (Deferred)</td>
+<td>CPP & OAS (Deferred)</td>
 <td>Maximize lifetime benefit by deferring; increases monthly amount</td>
 <td>If possible, defer to 70 or 75</td>
 </tr>
@@ -9168,7 +9168,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Best Canadian Tax Software 2026 | Free &amp; Paid Options",
+    title: "Best Canadian Tax Software 2026 | Free & Paid Options",
     slug: "best-tax-software-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -9269,7 +9269,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>TurboTax is Canada's most popular tax software, powering over 50 million returns annually. It excels at guiding first-time filers through a step-by-step process and includes robust support options. The software offers multiple editions to match your tax complexity, from simple returns to self-employment and investment income.</p>
 
-        <p><strong>Editions &amp; Pricing:</strong></p>
+        <p><strong>Editions & Pricing:</strong></p>
 
         <ul>
 <li><strong>Free Edition:</strong> $0 — for simple returns with basic deductions</li>
@@ -9297,11 +9297,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>If you're 25 or younger, TurboTax offers every package (including Self-Employed) for just $20. No income caps, no forced upsells.</p>
 </div>
 
-        <h3>H&amp;R Block: User-Friendly with Flexible Pricing</h3>
+        <h3>H&R Block: User-Friendly with Flexible Pricing</h3>
 
         <p><strong>Price:</strong> <span class="price-highlight">Free to $80 depending on edition</span></p>
 
-        <p>H&amp;R Block Canada offers both online and desktop versions, with pricing that's generally 20–40% cheaper than TurboTax for comparable tiers. The company is known for user-friendly interfaces and comprehensive features, including the Deduction Maximizer tool and integrated expense tracking.</p>
+        <p>H&R Block Canada offers both online and desktop versions, with pricing that's generally 20–40% cheaper than TurboTax for comparable tiers. The company is known for user-friendly interfaces and comprehensive features, including the Deduction Maximizer tool and integrated expense tracking.</p>
 
         <p><strong>Key Features:</strong></p>
 
@@ -9380,7 +9380,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <td>Step-by-step interface, comprehensive support</td>
 </tr>
 <tr>
-<td><strong>H&amp;R Block</strong></td>
+<td><strong>H&R Block</strong></td>
 <td><span class="price-highlight">Free–$80</span></td>
 <td>Those wanting value pricing, self-employed</td>
 <td>Deduction Maximizer, 20–40% cheaper than TurboTax</td>
@@ -9453,9 +9453,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>If You Have Significant Investment Income</h3>
 
         <div class="tip-box">
-<h4>Recommendation: TurboTax Premier or H&amp;R Block Premier</h4>
+<h4>Recommendation: TurboTax Premier or H&R Block Premier</h4>
 <p><strong>Why:</strong> These editions include advanced investment income reporting, capital gains tracking, and dividend optimization. Essential for managing multiple investment accounts and complex transactions.</p>
-<p><strong>Cost:</strong> TurboTax Premier ($100–$120) or H&amp;R Block Premier (~$70–$80)</p>
+<p><strong>Cost:</strong> TurboTax Premier ($100–$120) or H&R Block Premier (~$70–$80)</p>
 </div>
 
         <h3>If You Rent Out Property</h3>
@@ -9477,9 +9477,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>If You're 25 or Younger</h3>
 
         <div class="tip-box">
-<h4>Recommendation: TurboTax or H&amp;R Block</h4>
+<h4>Recommendation: TurboTax or H&R Block</h4>
 <p><strong>Why:</strong> Both offer <strong>all</strong> packages (including Self-Employed and Premier) for just $20. Exceptional value for comprehensive features.</p>
-<p><strong>Cost:</strong> $20 for any TurboTax or H&amp;R Block package</p>
+<p><strong>Cost:</strong> $20 for any TurboTax or H&R Block package</p>
 </div>
 
         <h3>If Privacy is Your Priority</h3>
@@ -9496,11 +9496,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ol>
 <li><strong>Do you want completely free software?</strong> → Wealthsimple Tax or GenuTax</li>
-<li><strong>Are you 25 or younger?</strong> → TurboTax or H&amp;R Block (all packages for $20)</li>
-<li><strong>Do you have a complex tax situation (self-employment, investments, rental property)?</strong> → Wealthsimple Tax (free) or TurboTax/H&amp;R Block (paid tier)</li>
+<li><strong>Are you 25 or younger?</strong> → TurboTax or H&R Block (all packages for $20)</li>
+<li><strong>Do you have a complex tax situation (self-employment, investments, rental property)?</strong> → Wealthsimple Tax (free) or TurboTax/H&R Block (paid tier)</li>
 <li><strong>Is privacy your main concern?</strong> → StudioTax</li>
 <li><strong>Are you filing for the first time or want step-by-step guidance?</strong> → TurboTax</li>
-<li><strong>Do you want the cheapest paid option?</strong> → H&amp;R Block (20–40% less than TurboTax)</li>
+<li><strong>Do you want the cheapest paid option?</strong> → H&R Block (20–40% less than TurboTax)</li>
 </ol>
 
         <h2>Key Takeaways</h2>
@@ -9519,13 +9519,13 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul>
 <li><a href="https://canadianoptimizer.com/articles/article-23-tax-filing-checklist/">Tax Filing Checklist: Everything You Need Before April 30</a> — a comprehensive pre-filing checklist to ensure you don't miss deductions</li>
-<li><a href="https://canadianoptimizer.com/articles/article-21-canada-tax-calendar/">Canada's Tax Calendar 2026: Key Deadlines &amp; Milestones</a> — important tax dates and filing deadlines</li>
+<li><a href="https://canadianoptimizer.com/articles/article-21-canada-tax-calendar/">Canada's Tax Calendar 2026: Key Deadlines & Milestones</a> — important tax dates and filing deadlines</li>
 <li><a href="https://canadianoptimizer.com/articles/self-employed-tax-deductions/">Self-Employed Tax Deductions: A Complete Guide</a> — maximize deductions if you run a business or are a freelancer</li>
 <li><a href="https://canadianoptimizer.com/articles/rrsp-contribution-guide/">RRSP Contribution Guide: Maximize Your Deduction Room</a> — optimize your retirement savings and tax deductions</li>
 </ul>
 
         <div class="final-cta">
-<p><strong>This article is adapted from</strong> <em>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</em>, a comprehensive 100+ page guide covering every strategy in this article and more. The guide includes advanced deduction strategies, tax deferral tactics, incorporation planning, and year-round optimization techniques.</p>
+<p><strong>This article is adapted from</strong> <em>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</em>, a comprehensive 100+ page guide covering every strategy in this article and more. The guide includes advanced deduction strategies, tax deferral tactics, incorporation planning, and year-round optimization techniques.</p>
 <p><strong><a href="https://canadianoptimizer.com/ebooks/">Get the full playbook →</a></strong></p>
 </div>
 
@@ -10241,7 +10241,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Canadian Tax Calendar 2026: Deadlines &amp; Planning Guide",
+    title: "Canadian Tax Calendar 2026: Deadlines & Planning Guide",
     slug: "tax-planning-calendar-2026",
     category: "Taxes",
     categorySlug: "taxes",
@@ -10317,7 +10317,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>
 <div class="month-card">
 <h4>April</h4>
-<p><strong>T1 Filing &amp; Instalment Deadline</strong></p>
+<p><strong>T1 Filing & Instalment Deadline</strong></p>
 <ul>
 <li><span class="deadline">April 30 (2027): T1 Individual return filing deadline</span></li>
 <li>All employed individuals must file by this date</li>
@@ -10338,7 +10338,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>
 <div class="month-card">
 <h4>June</h4>
-<p><strong>Self-Employed Filing &amp; Q2 Instalment</strong></p>
+<p><strong>Self-Employed Filing & Q2 Instalment</strong></p>
 <ul>
 <li><span class="deadline">June 15 (2027): Self-employed filing deadline</span></li>
 <li><span class="deadline">April 30 (2027): Balance owing deadline for self-employed</span></li>
@@ -10481,7 +10481,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="callout">
 <h4>Key Dates to Mark</h4>
-<p><strong>Mark these in your calendar NOW:</strong> March 1 (RRSP), April 30 (T1 &amp; Q1), June 15 (Self-employed &amp; Q2), September 15 (Q3), December 15 (Q4), and December 31 (TFSA/FHSA). Set phone reminders two weeks before each date.</p>
+<p><strong>Mark these in your calendar NOW:</strong> March 1 (RRSP), April 30 (T1 & Q1), June 15 (Self-employed & Q2), September 15 (Q3), December 15 (Q4), and December 31 (TFSA/FHSA). Set phone reminders two weeks before each date.</p>
 </div>
 
         <h2>Quarterly Tax Check-Ins: What to Review Each Quarter</h2>
@@ -10489,7 +10489,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>Q1 Review (Jan–Mar)</h3>
 
         <div class="quarter-section">
-<h4>Focus: Income Verification &amp; RRSP Maximization</h4>
+<h4>Focus: Income Verification & RRSP Maximization</h4>
 <ul>
 <li>Gather T4 and T4A slips</li>
 <li>Verify RRSP contribution room on CRA's MyAccount</li>
@@ -10502,7 +10502,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>Q2 Review (Apr–Jun)</h3>
 
         <div class="quarter-section">
-<h4>Focus: Filing Confirmation &amp; Self-Employed Planning</h4>
+<h4>Focus: Filing Confirmation & Self-Employed Planning</h4>
 <ul>
 <li>Confirm T1 filed before April 30</li>
 <li>Track refund status on CRA MyAccount</li>
@@ -10515,7 +10515,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>Q3 Review (Jul–Sep)</h3>
 
         <div class="quarter-section">
-<h4>Focus: Mid-Year Projection &amp; Year-End Planning</h4>
+<h4>Focus: Mid-Year Projection & Year-End Planning</h4>
 <ul>
 <li>Project year-end income and tax liability</li>
 <li>Assess whether adjustments are needed to withholding or instalments</li>
@@ -10528,7 +10528,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>Q4 Review (Oct–Dec)</h3>
 
         <div class="quarter-section">
-<h4>Focus: Year-End Optimization &amp; Tax-Loss Harvesting</h4>
+<h4>Focus: Year-End Optimization & Tax-Loss Harvesting</h4>
 <ul>
 <li>Execute tax-loss harvesting (settlement by December 27)</li>
 <li>Finalize charitable donations</li>
@@ -10563,7 +10563,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>Donating appreciated securities (rather than selling first) lets you avoid capital gains tax while claiming the full donation amount—a double tax benefit.</p>
 
-        <h3>4. Max Out TFSA &amp; FHSA Contributions</h3>
+        <h3>4. Max Out TFSA & FHSA Contributions</h3>
 
         <p>Both accounts have December 31 deadlines:</p>
 
@@ -10650,8 +10650,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td>December</td>
-<td>Final contributions &amp; Q4 instalment</td>
-<td><strong>Dec 27, 31 &amp; Dec 15</strong></td>
+<td>Final contributions & Q4 instalment</td>
+<td><strong>Dec 27, 31 & Dec 15</strong></td>
 </tr>
 </tbody>
 </table>
@@ -10688,10 +10688,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul>
 <li>T-Slips (T4, T5, T4A, etc.)</li>
-<li>Investment statements &amp; gains/losses</li>
-<li>Business expenses &amp; receipts</li>
+<li>Investment statements & gains/losses</li>
+<li>Business expenses & receipts</li>
 <li>Charitable donations</li>
-<li>Medical &amp; childcare expenses</li>
+<li>Medical & childcare expenses</li>
 </ul>
 
         <h3>Step 3: Schedule Quarterly Reviews</h3>
@@ -10732,7 +10732,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>This article covers the deadlines and calendar. For deeper optimization strategies:</p>
 
         <ul>
-<li><a href="https://canadianoptimizer.com/article-5-rrsp/">Read Article 5: RRSP Contribution Strategy &amp; Room Calculation</a></li>
+<li><a href="https://canadianoptimizer.com/article-5-rrsp/">Read Article 5: RRSP Contribution Strategy & Room Calculation</a></li>
 <li><a href="https://canadianoptimizer.com/article-13-instalments/">Read Article 13: Tax Instalments Explained (Quarterly Payments)</a></li>
 <li><a href="https://canadianoptimizer.com/article-16-investing/">Read Article 16: Tax-Efficient Investing for Canadians</a></li>
 </ul>
@@ -11039,7 +11039,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For a comprehensive checklist of every deduction and credit you should be discussing with your tax professional, see our <a href="article-23-tax-deduction-checklist-2026.html">Ultimate 2026 Canadian Tax Deduction Checklist</a>.</p>
 
     <div class="cta-section">
-            <p><em>This article is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide covering every strategy in this article and more. Chapter 21 includes the full evaluation framework and interview questions for finding the right tax professional.</em></p>
+            <p><em>This article is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide covering every strategy in this article and more. Chapter 21 includes the full evaluation framework and interview questions for finding the right tax professional.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -11132,7 +11132,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Professional Development and Training</strong> — Courses, conferences, workshops, certifications, and professional books related to your business. Travel to conferences is also deductible.</li>
 <li><strong>Advertising and Marketing</strong> — Website hosting, business cards, online advertising, social media marketing, and promotional materials.</li>
 <li><strong>Professional Fees</strong> — Accounting fees for preparing your T2125, legal fees for business matters, and consulting fees. <span class="form-ref">Form T2125</span></li>
-<li><strong>Business Insurance</strong> — Liability insurance, errors and omissions (E&amp;O) insurance, and business property insurance.</li>
+<li><strong>Business Insurance</strong> — Liability insurance, errors and omissions (E&O) insurance, and business property insurance.</li>
 <li><strong>Meals and Entertainment</strong> — Business meals and entertainment are 50% deductible. You must have a clear business purpose and document the business relationship. <span class="form-ref">Form T2125</span></li>
 <li><strong>Bad Debts</strong> — If clients owe you money and the debt has become uncollectible, you can write it off as a business expense.</li>
 <li><strong>Health and Dental Insurance Premiums</strong> — Self-employed individuals can deduct premiums paid for private health and dental coverage for themselves and their family. <span class="form-ref">Line 33099</span></li>
@@ -11330,7 +11330,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </ol>
 
     <div class="cta-section">
-            <p><em>This checklist is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide that includes detailed explanations, examples, and case studies for every item on this list and more.</em></p>
+            <p><em>This checklist is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide that includes detailed explanations, examples, and case studies for every item on this list and more.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -11537,7 +11537,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For a deeper explanation of how the Canadian tax system works, including the different types of income and how credits reduce your tax bill, see our <a href="article-01-federal-tax-brackets-2026.html">detailed federal tax brackets article</a> and our <a href="article-03-how-canadian-taxes-work.html">plain-English guide to Canadian taxes</a>.</p>
 
     <div class="cta-section">
-            <p><em>This reference table is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>. For the full breakdown of how brackets interact with provincial rates and planning strategies, get the complete guide.</em></p>
+            <p><em>This reference table is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. For the full breakdown of how brackets interact with provincial rates and planning strategies, get the complete guide.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -11613,7 +11613,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <tbody>
 <tr>
 <td>1</td>
-<td>Newfoundland &amp; Labrador</td>
+<td>Newfoundland & Labrador</td>
 <td>21.80%</td>
 <td><strong>54.80%</strong></td>
 </tr>
@@ -11761,7 +11761,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>New Brunswick's combined top rate of 52.50% places it in the middle tier. The province offers moderate entry-level rates with gradual bracket progression.</p>
 
-        <h2 id="nl">Newfoundland &amp; Labrador</h2>
+        <h2 id="nl">Newfoundland & Labrador</h2>
 
         <table>
 <thead>
@@ -11778,7 +11778,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tbody>
 </table>
 
-        <p>Newfoundland &amp; Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The entry-level rate of 8.70% is reasonable, but the seven-bracket system climbs steeply.</p>
+        <p>Newfoundland & Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The entry-level rate of 8.70% is reasonable, but the seven-bracket system climbs steeply.</p>
 
         <h2 id="ns">Nova Scotia</h2>
 
@@ -11926,7 +11926,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For a detailed breakdown of the federal brackets, see our <a href="article-24-federal-tax-brackets-2026.html">2026 Federal Tax Brackets table</a>. For all key contribution limits, see our <a href="article-27-contribution-limits-2026.html">2026 Contribution Limits reference</a>.</p>
 
     <div class="cta-section">
-            <p><em>This reference is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes strategies for optimizing your tax position based on your province, including interprovincial move planning.</em></p>
+            <p><em>This reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes strategies for optimizing your tax position based on your province, including interprovincial move planning.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -11997,7 +11997,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr class="deadline-critical">
 <td><strong>April 30, 2026*</strong></td>
-<td>T1 filing deadline &amp; balance owing due (for 2025 tax year)</td>
+<td>T1 filing deadline & balance owing due (for 2025 tax year)</td>
 <td>Most individual taxpayers</td>
 <td><span class="penalty-note">5% of balance + 1%/month (up to 12 months)</span></td>
 </tr>
@@ -12076,7 +12076,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr class="deadline-critical">
 <td><strong>April 30, 2027</strong></td>
-<td>T1 filing deadline &amp; balance owing due (for 2026 tax year)</td>
+<td>T1 filing deadline & balance owing due (for 2026 tax year)</td>
 <td>Most individual taxpayers</td>
 </tr>
 <tr>
@@ -12125,7 +12125,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For a complete month-by-month planning guide, see our <a href="article-21-tax-planning-calendar-2026.html">12-Month Tax Planning Calendar</a>.</p>
 
     <div class="cta-section">
-            <p><em>This deadline reference is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes a detailed 12-month tax planning calendar with action items for employed, self-employed, and retired Canadians.</em></p>
+            <p><em>This deadline reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes a detailed 12-month tax planning calendar with action items for employed, self-employed, and retired Canadians.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -12416,7 +12416,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For strategies on how to optimize contributions across all registered accounts, see our <a href="article-08-rrsp-vs-tfsa-vs-fhsa-2026.html">RRSP vs. TFSA vs. FHSA comparison</a>.</p>
 
     <div class="cta-section">
-            <p><em>This reference is adapted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>. The complete guide explains how to optimize contributions across all accounts with personalized decision frameworks.</em></p>
+            <p><em>This reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The complete guide explains how to optimize contributions across all accounts with personalized decision frameworks.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
@@ -12442,7 +12442,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-04-03",
-    excerpt: "This glossary is excerpted from How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition. For detailed strategies behind each concept...",
+    excerpt: "This glossary is excerpted from How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition. For detailed strategies behind each concept...",
     image: "/images/blog/tax-glossary-2026.png",
     content: `<header>
     <div class="container">
@@ -12668,7 +12668,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Home Buyers' Plan (HBP)</span>
-<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="article-07-fhsa-guide-2026.html">[FHSA &amp; HBP Guide]</a></p>
+<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="article-07-fhsa-guide-2026.html">[FHSA & HBP Guide]</a></p>
 </div>
 
         <h2 id="i">I</h2>
@@ -12913,7 +12913,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>
 
     <div class="cta-section">
-            <p><em>This glossary is excerpted from <strong>How To Reduce Your Taxes &amp; Maximize Your Tax Refund — 2026 Edition</strong>. For detailed strategies behind each concept, get the complete 2026 tax optimization ebook.</em></p>
+            <p><em>This glossary is excerpted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. For detailed strategies behind each concept, get the complete 2026 tax optimization ebook.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
