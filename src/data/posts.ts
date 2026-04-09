@@ -1811,37 +1811,37 @@ export const posts = [
         <div class="diagram">
 <div class="diagram-step">
 <strong>Step 1: Total Income</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Employment + Self-Employment + Investment + Other</span>
+<span>Employment + Self-Employment + Investment + Other</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step light">
 <strong>Step 2: Subtract Deductions</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">RRSP contributions, child support paid, etc.</span>
+<span>RRSP contributions, child support paid, etc.</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step">
 <strong>Step 3: Net Income</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Total Income - Deductions</span>
+<span>Total Income − Deductions</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step light">
 <strong>Step 4: Taxable Income</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Net Income - More Deductions</span>
+<span>Net Income − Additional Deductions</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step">
 <strong>Step 5: Calculate Tax</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Apply federal and provincial rates</span>
+<span>Apply federal and provincial bracket rates</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step light">
 <strong>Step 6: Apply Credits</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Non-refundable & Refundable</span>
+<span>Non-refundable & Refundable credits</span>
 </div>
-<div class="diagram-arrow">↓</div>
+<div class="diagram-arrow"></div>
 <div class="diagram-step">
 <strong>Step 7: Tax Payable or Refund</strong><br/>
-<span style="font-size: 0.85rem; font-weight: normal; color: #666;">Your final tax bill (or refund)</span>
+<span>Your final tax bill (or refund)</span>
 </div>
 </div>
 

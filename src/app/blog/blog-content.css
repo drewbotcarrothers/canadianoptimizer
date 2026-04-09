@@ -441,6 +441,113 @@
     margin-top: 20px;
 }
 
+/* ===== DIAGRAM / FLOWCHART ===== */
+.blog-content-exact .diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 32px 0;
+    padding: 0;
+}
+
+.blog-content-exact .diagram-step {
+    width: 100%;
+    max-width: 520px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.blog-content-exact .diagram-step strong {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.blog-content-exact .diagram-step span {
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.blog-content-exact .diagram-step.light {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.blog-content-exact .diagram-step.light strong {
+    color: #333;
+}
+
+.blog-content-exact .diagram-step.light span {
+    color: #6b7280 !important;
+}
+
+.blog-content-exact .diagram-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    position: relative;
+}
+
+.blog-content-exact .diagram-arrow::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 16px;
+    background-color: #d80621;
+}
+
+.blog-content-exact .diagram-arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #d80621;
+}
+
+/* Example Calculation Layout */
+.blog-content-exact .example-calculation {
+    margin: 16px 0;
+}
+
+.blog-content-exact .example-calculation .line {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    font-size: 0.95rem;
+}
+
+.blog-content-exact .example-calculation .line:last-child {
+    border-bottom: none;
+}
+
+.blog-content-exact .example-calculation .line.total {
+    border-top: 2px solid #333;
+    font-weight: 700;
+    margin-top: 4px;
+    padding-top: 10px;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .blog-content-exact header { padding: 40px 16px; }
@@ -454,4 +561,6 @@
     .blog-content-exact .cta-section { padding: 30px 20px; }
     .blog-content-exact .province-stats { flex-direction: column; }
     .blog-content-exact .stat-box { min-width: 100%; }
+    .blog-content-exact .diagram-step { padding: 16px 18px; }
+    .blog-content-exact .diagram-step strong { font-size: 0.95rem; }
 }
