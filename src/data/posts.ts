@@ -5094,8 +5094,7 @@ export const posts = [
         <h2>The 10 Most Overlooked Credits — and Why You're Leaving Money on the Table</h2>
 
         <div class="credit-card">
-<div class="credit-card-number">1</div>
-<div class="credit-title">Canada Workers Benefit (CWB)</div>
+<h3><span class="credit-card-number">1</span> Canada Workers Benefit (CWB)</h3>
 <div class="credit-amount">Up to $1,633 (singles) / $2,813 (families)</div>
 <div class="credit-description">
                     A <strong>refundable credit</strong> designed to support working Canadians with modest incomes. This is one of the most powerful credits in the system, yet Statistics Canada found $212 million of it went unclaimed in a single year.
@@ -5106,8 +5105,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">2</div>
-<div class="credit-title">Disability Tax Credit (DTC)</div>
+<h3><span class="credit-card-number">2</span> Disability Tax Credit (DTC)</h3>
 <div class="credit-amount">Up to $10,138 per year (+ $5,914 for dependents under 18)</div>
 <div class="credit-description">
                     A powerful non-refundable credit for people with severe and prolonged physical or mental impairments. Conditions qualifying include ADHD, diabetes requiring insulin, anxiety disorders, depression, arthritis, hearing loss, and mobility challenges.
@@ -5118,8 +5116,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">3</div>
-<div class="credit-title">Medical Expense Tax Credit (METC)</div>
+<h3><span class="credit-card-number">3</span> Medical Expense Tax Credit (METC)</h3>
 <div class="credit-amount">15% of expenses exceeding 3% of net income (minimum $2,834)</div>
 <div class="credit-description">
                     Covers medical expenses you paid that exceed a threshold. Qualifying expenses include: prescriptions, therapy (physiotherapy, psychology), dental work, hearing aids, glasses, travel 40+ km for medical treatment, and gluten-free food for those with celiac disease.
@@ -5130,8 +5127,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">4</div>
-<div class="credit-title">Charitable Donation Tax Credit</div>
+<h3><span class="credit-card-number">4</span> Charitable Donation Tax Credit</h3>
 <div class="credit-amount">14% on first $200 | 29% on $200–$235,930 | 33% above $235,930</div>
 <div class="credit-description">
                     A non-refundable credit for donations to registered charities. The credit percentage increases with donation size, meaning larger donations receive higher tax credits. Unused donations can be carried forward for up to 5 years.
@@ -5142,8 +5138,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">5</div>
-<div class="credit-title">Home Buyers' Amount</div>
+<h3><span class="credit-card-number">5</span> Home Buyers' Amount</h3>
 <div class="credit-amount">Up to $1,500 ($10,000 in eligible expenses)</div>
 <div class="credit-description">
                     A non-refundable credit available to first-time home buyers. Applies to eligible expenses like property taxes, home inspection, legal fees, and land transfer tax. Only available in the year of purchase.
@@ -5154,8 +5149,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">6</div>
-<div class="credit-title">Home Accessibility Tax Credit</div>
+<h3><span class="credit-card-number">6</span> Home Accessibility Tax Credit</h3>
 <div class="credit-amount">Up to $2,900 (15% of $20,000 in eligible expenses)</div>
 <div class="credit-description">
                     For seniors (65+) or those approved for the Disability Tax Credit, this non-refundable credit covers home modifications like ramps, grab bars, accessible bathrooms, widened doorways, and stair lifts.
@@ -5166,8 +5160,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">7</div>
-<div class="credit-title">Canada Caregiver Credit</div>
+<h3><span class="credit-card-number">7</span> Canada Caregiver Credit</h3>
 <div class="credit-amount">Up to $8,375 in eligible expenses</div>
 <div class="credit-description">
                     A non-refundable credit for those supporting a dependent with an infirmity (physical or mental impairment). Applies if you're caring for a spouse, parent, or other dependent unable to care for themselves.
@@ -5178,8 +5171,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">8</div>
-<div class="credit-title">GST/HST Credit</div>
+<h3><span class="credit-card-number">8</span> GST/HST Credit</h3>
 <div class="credit-amount">Up to $519 per adult, $171 per child (quarterly)</div>
 <div class="credit-description">
                     A <strong>refundable credit</strong> paid quarterly to lower and modest-income households to offset sales tax. Payments continue throughout the year, making it consistent cash flow support rather than a lump-sum refund.
@@ -5190,8 +5182,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">9</div>
-<div class="credit-title">Pension Income Amount</div>
+<h3><span class="credit-card-number">9</span> Pension Income Amount</h3>
 <div class="credit-amount">$300 per person (15% of first $2,000 in eligible pension income)</div>
 <div class="credit-description">
                     A non-refundable credit for retirees and those receiving eligible pension income. Eligible income includes CPP, OAS, registered pension plan payments, and RRIF withdrawals.
@@ -5202,8 +5193,7 @@ export const posts = [
 </div>
 
         <div class="credit-card">
-<div class="credit-card-number">10</div>
-<div class="credit-title">Digital News Subscription Credit</div>
+<h3><span class="credit-card-number">10</span> Digital News Subscription Credit</h3>
 <div class="credit-amount">15% of subscription costs (up to $500/year = max $75 credit)</div>
 <div class="credit-description">
                     A non-refundable credit introduced to support Canadian digital journalism. Applies to subscriptions to qualifying Canadian news outlets and journalism organizations.
