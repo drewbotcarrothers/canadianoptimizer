@@ -292,7 +292,7 @@ export const posts = [
             <p>
                 Understanding tax brackets is the foundation, but smart tax planning goes deeper. Download our complete Canadian tax optimization guide and discover how to keep more of what you earn.
             </p>
-            <a href="#" class="cta-button">Get the Free Guide</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Guide</a>
         </div>
 
     <div class="article-footer">
@@ -1697,7 +1697,7 @@ export const posts = [
             <p>
                     This guide covers provincial rates, but comprehensive tax planning requires understanding deductions, credits, investment income treatment, and province-specific incentives. Get the Canadian Optimizer tax planning ebook for 2026 — complete with bracket comparisons, relocation impact calculations, and optimization strategies for your income level.
                 </p>
-            <a href="https://canadianoptimizer.com/ebook/tax-planning-2026" class="cta-button">Download the Ebook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download the Ebook</a>
         </div>
 
     <div class="article-footer">
@@ -2067,7 +2067,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Taxes?</strong></p>
             <p>Understanding how taxes work is the first step. The next step is finding the deductions and credits that actually apply to your situation. Download our free ebook on Canadian tax strategies for business owners and high-income earners.</p>
-            <a href="https://canadianoptimizer.com/ebook" class="cta-button">Get the Free Ebook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Ebook</a>
         </div>
 
     <div class="article-footer">
@@ -2347,7 +2347,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to Recover Your Missing Deductions?</strong></p>
             <p>We've created a free ebook with detailed checklists for all 400+ Canadian tax credits and deductions. Find out exactly which ones apply to you — and how much money you might recover.</p>
-            <a href="https://canadianoptimizer.com/" class="cta-button">Explore Canadian Optimizer →</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Canadian Optimizer →</a>
         </div>
 
     <div class="article-footer">
@@ -2934,7 +2934,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to Optimize Your RRSP Strategy?</strong></p>
             <p>Download our free RRSP Planning Worksheet — a step-by-step guide to calculating your contribution room, estimating your tax refund, and coordinating with your spouse's retirement savings.</p>
-            <a href="https://canadianoptimizer.com/resources/rrsp-planning-worksheet/" class="cta-button">Download Free Worksheet</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Free Worksheet</a>
         </div>
 
     <div class="article-footer">
@@ -3404,7 +3404,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to optimize your entire tax strategy?</strong></p>
             <p>Download our free guide: "The Canadian Wealth Builder's Tax Playbook" — a complete framework for TFSA, RRSP, and corporate tax strategies.</p>
-            <a href="https://canadianoptimizer.com/resources/tax-playbook-ebook" class="cta-button">Get the Free Ebook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Ebook</a>
         </div>
 
     <div class="article-footer">
@@ -3971,7 +3971,7 @@ export const posts = [
             <p><strong>Take Control of Your Down Payment</strong></p>
             <p>The FHSA can be the difference between saving for 10 years and becoming a homeowner in 5. But only if you use it strategically.</p>
             <p>Download our exclusive <strong>FHSA Contribution & Investment Playbook</strong> for a complete 5-year plan, customized contribution schedules, and a downloadable spreadsheet to track your progress toward homeownership.</p>
-            <a href="https://canadianoptimizer.com/fhsa-playbook" class="cta-button">Get the Playbook (Free PDF)</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Playbook (Free PDF)</a>
         </div>
 
     <div class="article-footer">
@@ -4518,7 +4518,7 @@ export const posts = [
             <p>
                     Download our free "Registered Account Checklist for Canadians" to get a customized priority order based on your specific income, goals, and situation. Plus: tax-saving strategies for maximizing all three accounts.
                 </p>
-            <a href="#" class="cta-button">Get the Free Checklist</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Checklist</a>
         </div>
 
     <div class="article-footer">
@@ -5013,7 +5013,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to Cut Your Taxes?</strong></p>
             <p>Get our complete 2026 Canadian tax planning eBook—including deduction checklists, CRA forms, and real-world scenarios to maximize your refund.</p>
-            <a href="https://canadianoptimizer.com/resources/tax-planning-ebook-2026/" class="cta-button">Download Your Free eBook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Your Free eBook</a>
         </div>
 
     <div class="article-footer">
@@ -5354,7 +5354,7 @@ export const posts = [
             <p>
                     Want a complete checklist of credits you might qualify for? Download our free "2026 Canadian Tax Credits Checklist" and discover which of the 400+ credits apply to your situation.
                 </p>
-            <a href="https://canadianoptimizer.com/resources/tax-credits-checklist" class="cta-button">Get the Free Checklist</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Checklist</a>
         </div>
 
     <div class="article-footer">
@@ -6050,7 +6050,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Self-Employment Taxes?</strong></p>
             <p>Discover a proven framework for tax deduction tracking, CPP planning, and HST compliance. Download our free Self-Employed Tax Planning Checklist — used by hundreds of Canadian freelancers and business owners to save thousands in taxes.</p>
-            <a href="#" class="cta-button">Get Free Checklist</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get Free Checklist</a>
         </div>
 
     <div class="article-footer">
@@ -6693,7 +6693,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Want a Complete Tax Strategy for Your Freelance Business?</strong></p>
             <p>Download our free ebook: "The Canadian Freelancer's Tax Optimization Guide" — including incorporation decision trees, salary/dividend models, and a 12-month tax planning calendar.</p>
-            <a href="https://canadianoptimizer.com/" class="cta-button">Explore Canadian Optimizer →</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Canadian Optimizer →</a>
         </div>
 
     <div class="article-footer">
@@ -7006,7 +7006,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Get the Complete Self-Employed Tax Checklist</strong></p>
             <p>Download our free ebook for self-employed Canadians. It covers instalments, expense deductions, GST/HST obligations, and the April 30 deadline — everything you need to file with confidence.</p>
-            <a href="https://canadianoptimizer.com/" class="cta-button">Explore Canadian Optimizer →</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Canadian Optimizer →</a>
         </div>
 
     <div class="article-footer">
@@ -7459,7 +7459,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Ready to Take Control of Your Family's Taxes?</strong></p>
             <p>Download our free eBook: "Canadian Family Tax Optimization — 2026 Edition." Learn the exact strategies used by high-income families to reduce their tax burden and maximize benefits.</p>
-            <a href="#" class="cta-button">Download Free eBook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Free eBook</a>
         </div>
 
     <div class="article-footer">
@@ -7923,7 +7923,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Tax Position?</strong></p>
             <p>Life events are predictable. Tax planning shouldn't be. Download our comprehensive tax planning ebook to learn strategies for every major life stage, plus a personal tax calendar to help you stay on top of deadlines and opportunities all year long.</p>
-            <a href="https://canadianoptimizer.com/ebook" class="cta-button">Get the Free Ebook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Ebook</a>
         </div>
 
     <div class="article-footer">
@@ -8607,7 +8607,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <p>
                 This guide covers the essentials of tax-efficient investing. But there's much more: advanced strategies for small business owners, tax-loss harvesting with margin accounts, integrating real estate into your tax plan, and more.
             </p>
-            <a href="https://canadianoptimizer.com/ebook" class="cta-button">Download the Complete Tax & Investment Ebook</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download the Complete Tax & Investment Ebook</a>
         </div>
 
     <div class="article-footer">
@@ -9140,7 +9140,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <p>
                 We've created a comprehensive guide that walks through 2026 tax rules, income-splitting strategies, and account sequencing for every retirement scenario. Download our free ebook: "The Canadian Retiree's Tax Optimization Playbook."
             </p>
-            <a href="https://canadianoptimizer.com/" class="cta-button">Explore Canadian Optimizer →</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Canadian Optimizer →</a>
         </div>
 
     <div class="article-footer">
@@ -9522,7 +9522,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="cta-section">
             <p><strong>Ready to file your taxes accurately and maximize your refund?</strong></p>
             <p>Explore our detailed tax-filing walkthrough and optimization checklist for step-by-step guidance tailored to your situation.</p>
-            <a href="https://canadianoptimizer.com/tax-filing-guide/" class="cta-button">Get the Full Tax-Filing Guide →</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Tax-Filing Guide →</a>
         </div>
 
     <div class="article-footer">
