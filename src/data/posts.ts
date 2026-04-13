@@ -1,5 +1,18 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
-export const posts = [
+
+export interface Post {
+  title: string;
+  slug: string;
+  category: string;
+  categorySlug: string;
+  author: string;
+  date: string;
+  excerpt: string;
+  image: string;
+  content: string;
+}
+
+export const posts: Post[] = [
   {
     title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
     slug: "federal-tax-brackets-2026",
@@ -12919,7 +12932,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     </div>
 
 </div>`
-  },,
+  },
   {
     title: "How Much Money Do You Need to Retire in Canada? The Real Numbers for 2026",
     slug: "how-much-money-retire-canada",

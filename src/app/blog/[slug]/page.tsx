@@ -15,14 +15,16 @@ import { posts } from "@/data/posts";
 
 
 export function generateStaticParams() {
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  return posts
+    .filter((post) => post !== undefined)
+    .map((post) => ({
+      slug: post.slug,
+    }));
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const post = posts.find(p => p.slug === resolvedParams.slug);
+  const post = posts.find(p => p !== undefined && p.slug === resolvedParams.slug);
 
   if (!post) {
     return (

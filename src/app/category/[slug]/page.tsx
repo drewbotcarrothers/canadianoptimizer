@@ -32,7 +32,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   }
 
   // Filter posts for this category
-  const categoryPosts = posts.filter(p => p.categorySlug === resolvedParams.slug)
+  const categoryPosts = posts
+    .filter((p) => p !== undefined)
+    .filter((p) => p.categorySlug === resolvedParams.slug)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
