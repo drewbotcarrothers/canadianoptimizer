@@ -12931,6 +12931,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/how-much-money-retire-canada.png",
     content: `<header>
     <div class="container">
+        <h1>How Much Money Do You Need to Retire in Canada? The Real Numbers for 2026</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13028,6 +13029,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/retirement-planning-by-age.png",
     content: `<header>
     <div class="container">
+        <h1>Retirement Planning by Age: What to Do in Your 30s, 40s, 50s & 60s</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13112,6 +13114,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/cpp-when-to-take-canada.png",
     content: `<header>
     <div class="container">
+        <h1>Cpp When To Take Canada</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13171,6 +13174,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/oas-gis-clawback-canada.png",
     content: `<header>
     <div class="container">
+        <h1>Oas Gis Clawback Canada</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13239,6 +13243,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/db-vs-dc-pensions-canada.png",
     content: `<header>
     <div class="container">
+        <h1>Db Vs Dc Pensions Canada</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13290,6 +13295,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/rrsp-meltdown-strategy.png",
     content: `<header>
     <div class="container">
+        <h1>The RRSP Meltdown Strategy: Why Drawing Down Early Could Save You Thousands</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -13720,6 +13726,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/tfsa-retirement-strategy.png",
     content: `<header>
     <div class="container">
+        <h1>TFSA for Retirement: Why It Might Be More Powerful Than Your RRSP</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14243,6 +14250,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/retirement-withdrawal-strategy.png",
     content: `<header>
     <div class="container">
+        <h1>The Retirement Withdrawal Strategy That Could Save You $100K+ in Taxes</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14302,6 +14310,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/investing-bucket-strategy.png",
     content: `<header>
     <div class="container">
+        <h1>Investing in Retirement: The Bucket Strategy & How to Protect Your Portfolio</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14363,6 +14372,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/healthcare-costs-retirement.png",
     content: `<header>
     <div class="container">
+        <h1>Healthcare Costs in Canadian Retirement: What's Covered and What You'll Pay</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14442,6 +14452,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/long-term-care-costs.png",
     content: `<header>
     <div class="container">
+        <h1>Long-Term Care in Canada: Costs, Options & How to Plan Ahead</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14517,6 +14528,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/housing-decisions-retirement.png",
     content: `<header>
     <div class="container">
+        <h1>Should You Downsize, Rent, or Stay? Housing Decisions for Canadian Retirees</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14613,6 +14625,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/how-to-enjoy-retirement.png",
     content: `<header>
     <div class="container">
+        <h1>How to Actually Enjoy Retirement: Purpose, Health & Beating Isolation</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14679,6 +14692,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/estate-planning-wills-poa.png",
     content: `<header>
     <div class="container">
+        <h1>Estate Planning Wills Poa</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14726,6 +14740,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/tax-efficient-wealth-transfer.png",
     content: `<header>
     <div class="container">
+        <h1>Tax Efficient Wealth Transfer</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14773,6 +14788,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/retirement-legacy-digital-assets.png",
     content: `<header>
     <div class="container">
+        <h1>Retirement Legacy Digital Assets</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14829,6 +14845,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/build-retirement-plan-7-steps.png",
     content: `<header>
     <div class="container">
+        <h1>Build Retirement Plan 7 Steps</h1>
         
         <div class="meta">
             <span>By Andrew</span> |
@@ -14874,6 +14891,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/biggest-retirement-mistakes.png",
     content: `<header>
     <div class="container">
+        <h1>Biggest Retirement Mistakes</h1>
         
         <div class="meta">
             <span>By Andrew</span> |

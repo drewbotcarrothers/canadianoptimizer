@@ -34,9 +34,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
 
-  const isTaxPost = post.categorySlug === 'taxes';
+  const isExactLayout = post.categorySlug === 'taxes' || post.categorySlug === 'retirement';
 
-  if (isTaxPost) {
+  if (isExactLayout) {
     return (
       <article className="pb-20">
         <SchemaMarkup 
