@@ -25,11 +25,12 @@ export default function CollapsibleHandler() {
       }
     };
 
-    document.addEventListener('click', handleGlobalClick);
+    // Use capture phase (true) to ensure we catch the event before it's stopped/intercepted
+    document.addEventListener('click', handleGlobalClick, true);
     
     // Cleanup listeners on unmount
     return () => {
-      document.removeEventListener('click', handleGlobalClick);
+      document.removeEventListener('click', handleGlobalClick, true);
     };
   }, []);
 
