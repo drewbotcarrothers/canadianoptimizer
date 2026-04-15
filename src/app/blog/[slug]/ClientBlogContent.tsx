@@ -19,12 +19,14 @@ export default function ClientBlogContent({ content }: ClientBlogContentProps) {
     if (!container) return;
 
     const handleInternalClick = (e: MouseEvent) => {
+      // Use capture phase and closest() for robust target identification
       const target = e.target as HTMLElement;
-      
-      // Find the closest parent with the .collapsible class within this container
       const collapsible = target.closest('.collapsible');
       
       if (collapsible && container.contains(collapsible)) {
+        // Prevent event from triggering unwanted side effects or multiple toggles
+        e.preventDefault();
+        
         collapsible.classList.toggle('active');
         const contentArea = collapsible.nextElementSibling as HTMLElement;
         
@@ -34,13 +36,13 @@ export default function ClientBlogContent({ content }: ClientBlogContentProps) {
       }
     };
 
-    // Attach listener directly to this specific container in the capture phase
+    // Use capture phase (true) for high priority event handling
     container.addEventListener('click', handleInternalClick, true);
     
     return () => {
       container.removeEventListener('click', handleInternalClick, true);
     };
-  }, [content]); // Re-attach if content updates (e.g. on navigation)
+  }, [content]); // Re-attach only if content significantly changes
 
   return (
     <div 

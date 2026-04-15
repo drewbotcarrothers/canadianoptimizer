@@ -365,8 +365,33 @@
     text-align: center;
 }
 
-.blog-content-exact .stat-label { font-size: 0.8rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px; }
-.blog-content-exact .stat-value { font-size: 1.2rem; font-weight: 700; color: #333; }
+/* Premium Layout for Province Overview Content */
+.blog-content-exact .province-overview {
+    padding: 35px 45px;
+    background-color: #fafbfc;
+}
+
+.blog-content-exact .province-overview h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    border-bottom: 2px solid #f3f4f6;
+    padding-bottom: 8px;
+}
+
+.blog-content-exact .province-overview p {
+    margin-bottom: 20px;
+}
+
+.blog-content-exact .province-overview .callout {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 24px;
+}
+
+
 
 /* Checklist Style */
 .blog-content-exact .checklist { list-style: none; margin-left: 0; padding-left: 0; }

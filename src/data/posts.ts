@@ -593,10 +593,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Alberta Overview</h4>
 <p>
                     Alberta maintains <strong>Canada's lowest provincial top marginal rate</strong> at 15%, resulting in a combined rate of just 48.00% — attracting high earners across the country. The province has a straightforward bracket structure with no surtaxes, making tax planning more predictable. Alberta's competitive tax environment is a key factor in the province's appeal to entrepreneurs, professionals, and executives.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -660,6 +662,7 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>British Columbia Overview</h4>
 <p>
                     BC features one of Canada's <strong>lowest entry-level provincial rates at 5.60%</strong>, though this benefit erodes as income climbs. The province uses <strong>seven brackets</strong> for gradual progression, and the 2026 lowest bracket increased from 5.06% to 5.60%. BC's top rate of 20.50% is among the highest in the country, pushing the combined rate to 53.50%. This makes BC favorable for middle-income earners but challenging for high-income professionals.
@@ -667,6 +670,7 @@ export const posts = [
 <div class="callout">
 <h4>2026 Change</h4>
 <p><strong>BC's lowest bracket rate increased from 5.06% to 5.60%</strong> — a notable change for entry-level earners. This represents the most significant provincial tax change announced for 2026.</p>
+</div>
 </div>
 </div>
 
@@ -715,10 +719,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Manitoba Overview</h4>
 <p>
                     Manitoba offers a <strong>simple three-bracket system</strong> with reasonable progression. The combined top rate of 50.40% is below the Atlantic averages and competitive with other Prairie provinces. The province is particularly attractive for middle-income earners earning between $36,000 and $105,000, where the effective rate is relatively balanced.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -774,10 +780,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>New Brunswick Overview</h4>
 <p>
                     New Brunswick's <strong>combined top rate of 52.50%</strong> places it in the middle tier of Canadian provinces. The province offers moderate entry-level rates and a gradual bracket progression. New Brunswick is one of the Atlantic provinces, where combined top rates tend to cluster in the 52-55% range.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -833,10 +841,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Newfoundland & Labrador Overview</h4>
 <p>
                     Newfoundland & Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The province's top provincial rate of 25.50% significantly exceeds all other provinces. This makes NL particularly challenging for high-income professionals and executives, though the entry-level rate of 8.70% is reasonable. The sharp rate progression reflects the province's fiscal situation.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -896,10 +906,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Nova Scotia Overview</h4>
 <p>
                     Nova Scotia has the <strong>second-highest combined top rate in Canada at 54.00%</strong>, with a provincial top rate of 25.70%. The province features six brackets and steep rate increases at higher income levels. Nova Scotia's tax environment is considerably heavier than the Prairies, making it a challenging jurisdiction for high-income earners.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -958,6 +970,7 @@ export const posts = [
 <strong>Plus: Ontario Surtax (detailed in Surtaxes section below)</strong>
 </p>
 </div>
+<div class="province-overview">
 <h4>Ontario Overview</h4>
 <p>
                     Ontario has <strong>Canada's lowest entry-level provincial rate at 5.05%</strong>, making it highly competitive for middle-class earners. However, Ontario applies a <strong>surtax</strong> to high earners that significantly increases the effective rate at the top. The combined top rate of 53.53% is in the upper-middle range, but Ontario's advantage for entry-level and middle-income earners is substantial.
@@ -965,6 +978,7 @@ export const posts = [
 <p>
                     Ontario is Canada's most populous province, and its tax structure reflects a focus on lower and middle-income relief with higher taxes on top earners.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -1023,10 +1037,12 @@ export const posts = [
 <strong>Plus: PEI Surtax (detailed in Surtaxes section below)</strong>
 </p>
 </div>
+<div class="province-overview">
 <h4>Prince Edward Island Overview</h4>
 <p>
                     PEI offers the <strong>lowest combined top rate in the Atlantic provinces at 51.37%</strong>, though it still ranks above most Prairie provinces. The province applies a surtax to high earners similar to Ontario's mechanism. The relatively low top provincial rate of 16.70% (before surtax) makes PEI competitive in the Atlantic region.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -1078,6 +1094,7 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Quebec Overview</h4>
 <p>
                     Quebec has <strong>Canada's highest entry-level provincial rate at 14.00%</strong> — higher than the federal baseline. This reflects Quebec's unique tax structure and role as a separate jurisdiction. While the combined top rate of 53.31% is in the upper-middle range, Quebec's entry-level burden is steeper than most provinces. The federal rate dropped to 14% in 2026, aligning with Quebec's entry-level rate.
@@ -1085,6 +1102,7 @@ export const posts = [
 <div class="callout">
 <h4>2026 Federal Change</h4>
 <p>The federal top marginal income tax rate dropped from 33% to 29.30% in 2026, benefiting higher earners across all provinces. This federal change impacts Quebec's overall tax competitiveness.</p>
+</div>
 </div>
 </div>
 
@@ -1133,10 +1151,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Saskatchewan Overview</h4>
 <p>
                     Saskatchewan offers <strong>the simplest tax structure in Canada with just three brackets</strong> and is highly competitive for high-income earners. The combined top rate of 47.50% is the <strong>second-lowest in Canada</strong> (after Nunavut). Saskatchewan's flat, easy-to-understand bracket structure and low top rates make it attractive for professionals and entrepreneurs seeking tax efficiency.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -1188,10 +1208,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Northwest Territories Overview</h4>
 <p>
                     The Northwest Territories is highly competitive for high earners with the <strong>second-lowest combined top rate in Canada at 47.05%</strong>. The territory offers a low entry-level rate and gradual bracket progression. However, limited economic opportunities and extreme remoteness mean NT attracts relatively few high-income earners despite favorable tax rates.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -1243,10 +1265,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Nunavut Overview</h4>
 <p>
                     Nunavut has <strong>Canada's lowest combined top marginal rate at 44.50%</strong> and the lowest entry-level rate at 4.00%. The territory's favorable tax environment reflects its remote location and focus on attracting skilled workers for challenging positions. However, the extremely limited job market, high cost of living, and extreme climate mean Nunavut's tax advantage is rarely a decisive factor in relocation decisions.
                 </p>
+</div>
 </div>
 
         <div class="province-section">
@@ -1298,10 +1322,12 @@ export const posts = [
 </tbody>
 </table>
 </div>
+<div class="province-overview">
 <h4>Yukon Overview</h4>
 <p>
                     Yukon matches Alberta's combined top rate of 48.00%, making it competitive for high-income earners. The territory offers a low entry-level rate and reasonable bracket progression. Yukon is more accessible than Nunavut and has a stronger economy, though still limited job opportunities outside specific sectors.
                 </p>
+</div>
 </div>
 
         <h2 id="changes-2026">Notable 2026 Changes & Updates</h2>
@@ -1664,33 +1690,6 @@ export const posts = [
 <strong>Disclaimer:</strong> This article presents 2026 provincial tax rates as of April 2026. Tax rates change, and this information is for educational and planning purposes. For personalized tax advice, consult a qualified tax professional or accountant familiar with your specific situation, province, and income sources.
             </p>
 
-        <script>
-        // Collapsible functionality
-        const collapsibles = document.querySelectorAll('.collapsible');
-        collapsibles.forEach(button => {
-            button.addEventListener('click', function() {
-                const content = this.nextElementSibling;
-                this.classList.toggle('active');
-                if (content.classList.contains('show')) {
-                    content.classList.remove('show');
-                } else {
-                    content.classList.add('show');
-                }
-            });
-        });
-
-        // Smooth scroll for TOC links
-        document.querySelectorAll('.toc a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-    </script>
 
     <div class="cta-section">
             <p><strong>Get the Complete 2026 Tax Planning Ebook</strong></p>
