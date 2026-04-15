@@ -7,7 +7,7 @@ import AuthorBio from '@/components/ui/AuthorBio';
 import EndOfPostNewsletter from '@/components/ui/EndOfPostNewsletter';
 import Button from '@/components/ui/Button';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
-import CollapsibleHandler from './CollapsibleHandler';
+import ClientBlogContent from './ClientBlogContent';
 import '../blog-content.css';
 
 
@@ -15,8 +15,13 @@ import { posts } from "@/data/posts";
 
 
 export function generateStaticParams() {
+  const seenSlugs = new Set<string>();
   return posts
-    .filter((post) => post !== undefined)
+    .filter((post) => {
+      if (!post || seenSlugs.has(post.slug)) return false;
+      seenSlugs.add(post.slug);
+      return true;
+    })
     .map((post) => ({
       slug: post.slug,
     }));
@@ -58,11 +63,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         
         {/* Full-width, Exact Source Formatting Layout */}
         <div className="container mx-auto px-4 py-16">
-          <div 
-            className="blog-content-exact"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-          <CollapsibleHandler />
+          <ClientBlogContent content={post.content} />
 
           <div className="max-w-4xl mx-auto">
 
