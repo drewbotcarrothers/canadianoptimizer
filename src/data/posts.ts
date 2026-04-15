@@ -9643,21 +9643,21 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "2026 Canadian Federal Tax Brackets | Complete Table",
+    title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
     slug: "federal-tax-brackets-2026",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew",
-    date: "2026-03-28",
-    excerpt: "The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation a...",
+    date: "2026-02-01",
+    excerpt: "Maximize Your Tax Savings",
     image: "/images/blog/federal-tax-brackets-2026.png",
     content: `<header>
     <div class="container">
         
         <div class="meta">
             <span>By Andrew</span> |
-            <span>Published March 2026</span> |
-            <span>5 min read</span>
+            <span>Published February 2026</span> |
+            <span>12 min read</span>
         </div>
     </div>
 </header>
@@ -9665,202 +9665,308 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <div class="container">
 
     <div class="hook">
-        Canada's federal tax system uses <strong>5 progressive tax brackets</strong>. Your first $57,375 of taxable income is taxed at just 14%. Understanding how these brackets work — and how they interact with your province's rates — is the foundation of every tax planning strategy.
+        The average Canadian overpays roughly $2,000 in taxes every year — and it often starts with a single misunderstanding about how tax brackets actually work.
     </div>
 
-    <h2>2026 Federal Tax Brackets and Rates</h2>
+    <h2>Introduction: Why Tax Brackets Matter</h2>
 
-        <p>The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation adjustment factor of 2.0%.</p>
+        <p>
+                If you earn more than $58,523 this year, you're probably going to pay federal taxes at multiple different rates. But here's what most people get wrong: you don't pay your entire income at one single rate. That misunderstanding leads to anxiety, poor financial decisions, and yes — overpaying by thousands of dollars.
+            </p>
+
+        <p>
+                This guide walks you through the 2026 federal tax bracket system in Canada with real numbers, clear examples, and no jargon. Whether you're a salaried employee, a freelancer, or a business owner, understanding how these brackets work is the foundation of smart tax planning.
+            </p>
+
+        <div class="tip-box">
+<strong>Quick Context:</strong> The rates shown here are federal taxes only. Provinces add their own tax brackets on top. This guide focuses exclusively on federal brackets — your combined rate will be higher when you add provincial tax.
+            </div>
+
+        <h2>The 5 Federal Tax Brackets for 2026</h2>
+
+        <p>
+                Canada's federal income tax system uses five brackets. Each bracket has a threshold (the income level at which the bracket begins) and a tax rate (the percentage you pay on income in that bracket).
+            </p>
 
         <table>
 <thead>
 <tr>
-<th>Taxable Income Range</th>
+<th>Income Range</th>
 <th>Federal Tax Rate</th>
-<th>Tax on This Bracket</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>$0 – $57,375</td>
-<td><strong>14%</strong></td>
-<td>Up to $8,033</td>
+<td>$0 – $58,523</td>
+<td><span class="highlight">14.00%</span></td>
 </tr>
 <tr>
-<td>$57,376 – $114,750</td>
-<td><strong>20.5%</strong></td>
-<td>Up to $11,762</td>
+<td>$58,523 – $117,045</td>
+<td><span class="highlight">20.50%</span></td>
 </tr>
 <tr>
-<td>$114,751 – $158,468</td>
-<td><strong>26%</strong></td>
-<td>Up to $11,367</td>
+<td>$117,045 – $181,440</td>
+<td><span class="highlight">26.00%</span></td>
 </tr>
 <tr>
-<td>$158,469 – $253,414</td>
-<td><strong>29.29%</strong></td>
-<td>Up to $27,813</td>
+<td>$181,440 – $258,482</td>
+<td><span class="highlight">29.29%</span></td>
 </tr>
 <tr>
-<td>Over $253,414</td>
-<td><strong>33%</strong></td>
-<td>No limit</td>
+<td>Over $258,482</td>
+<td><span class="highlight">33.00%</span></td>
 </tr>
 </tbody>
 </table>
 
-        <h2>How Progressive Tax Brackets Work</h2>
+        <p>
+                These rates became effective for the full 2026 tax year. The lowest federal rate (the first bracket) <span class="highlight">dropped from 15% to 14% effective July 1, 2025</span>, which means all of 2026 will use the 14% rate for the lowest bracket. This reduction saves every Canadian earning income roughly $150–$300 per year depending on their province.
+            </p>
 
-        <p>Canada uses a <strong>marginal tax system</strong>, which means you don't pay a single flat rate on all your income. Instead, each portion of your income is taxed at the rate for the bracket it falls into. This is one of the most misunderstood concepts in Canadian taxation.</p>
+        <h2>How Progressive Taxation Actually Works: A Real Example</h2>
 
-        <p>For example, if you earn $95,000 in 2026, your federal tax is calculated as follows:</p>
+        <p>
+                Here's the mistake most people make: they think that if a bracket goes up to $58,523 at 14%, then crossing that threshold means paying 20.50% on your entire income. That's wrong.
+            </p>
 
-        <table>
-<thead>
-<tr>
-<th>Income Portion</th>
-<th>Rate</th>
-<th>Federal Tax</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>First $57,375</td>
-<td>14%</td>
-<td>$8,033</td>
-</tr>
-<tr>
-<td>$57,376 to $95,000 ($37,625)</td>
-<td>20.5%</td>
-<td>$7,713</td>
-</tr>
-<tr>
-<td colspan="2"><strong>Total Federal Tax (before credits)</strong></td>
-<td><strong>$15,746</strong></td>
-</tr>
-</tbody>
-</table>
+        <p>
+                Progressive taxation means you only pay the higher rate on the income that actually falls in that higher bracket. Think of it like climbing stairs. You don't jump to the top — you pay tax on each step as you climb.
+            </p>
 
-        <p>Notice that on $95,000 of income, the total federal tax before credits is $15,746 — an <strong>effective federal rate of 16.6%</strong>, not the 20.5% marginal rate. This is why it's critical to distinguish between your marginal rate (the rate on your next dollar of income) and your effective rate (the actual percentage of your total income paid in tax).</p>
+        <h3>Example: $95,000 Annual Income</h3>
 
-        <div class="callout">
-<strong>The Basic Personal Amount</strong>
-<p>Every Canadian taxpayer receives a non-refundable credit based on the basic personal amount of <strong>$16,452</strong> for 2026. This effectively means your first $16,452 of income is tax-free at the federal level. The credit is worth approximately $2,303 (14% × $16,452).</p>
+        <div class="example-box">
+<strong>Scenario: Sarah earns $95,000 gross income in 2026</strong>
+<div class="calculation">
+                    First bracket:     $58,523 × 14.00% = $8,193.22<br/>
+                    Second bracket:    ($95,000 − $58,523) × 20.50% = $7,477.50<br/>
+                    ─────────────────────────────────────────<br/>
+<strong>Total federal tax: $15,670.72</strong><br/>
+                    Effective federal rate: 16.5%
+                </div>
+<div class="result">
+<strong>Key insight:</strong> Sarah pays 14% on the first $58,523 (the first step), and 20.50% only on the next $36,477 (the second step). Her overall effective rate is just 16.5%, not 20.50%.
+                </div>
 </div>
 
-        <h2>Quick-Reference: Federal Tax by Income Level</h2>
+        <p>
+                This is why the difference between marginal rate and effective rate matters so much. When someone tells you "you're in the 20.50% bracket," they're referring to your marginal rate (the rate on your next dollar earned). But your actual tax burden is your effective rate — what you pay across all your income.
+            </p>
 
-        <p>The following table shows approximate federal tax payable at common income levels, after the basic personal amount credit but before any other deductions or credits.</p>
+        <h2>Marginal vs. Effective Tax Rate — Why Your Real Rate Is Lower</h2>
+
+        <p>
+                Understanding the difference between marginal and effective tax rates is perhaps the single most important piece of tax knowledge a Canadian can have. Many people panic thinking they're in a certain bracket and will pay that rate on all their income. In reality, the system is much kinder than they think.
+            </p>
+
+        <h3>What Is Marginal Tax Rate?</h3>
+
+        <p>
+                Your <span class="highlight">marginal tax rate is the rate you pay on your next dollar of income</span>. If you earn $95,000 and consider taking a consulting contract worth $5,000, your marginal federal rate is 20.50% — meaning that extra $5,000 would be taxed at 20.50%, not at your overall rate.
+            </p>
+
+        <h3>What Is Effective Tax Rate?</h3>
+
+        <p>
+                Your <span class="highlight">effective tax rate is your total tax divided by your total income</span>. Using Sarah's example above, even though she's technically "in the 20.50% bracket," her effective federal rate is only 16.5% because much of her income was taxed at the lower 14% rate.
+            </p>
+
+        <h3>Example: $150,000 Income</h3>
+
+        <div class="example-box">
+<strong>Scenario: Marco earns $150,000 gross income in 2026</strong>
+<div class="calculation">
+                    First bracket:     $58,523 × 14.00% = $8,193.22<br/>
+                    Second bracket:    ($117,045 − $58,523) × 20.50% = $12,000.51<br/>
+                    Third bracket:     ($150,000 − $117,045) × 26.00% = $8,568.70<br/>
+                    ─────────────────────────────────────────<br/>
+<strong>Total federal tax: $28,762.43</strong><br/>
+                    Effective federal rate: 19.2%<br/>
+                    Marginal federal rate: 26.0%
+                </div>
+<div class="result">
+<strong>The difference:</strong> Marco's marginal rate (26%) sounds scary, but his actual effective rate is 19.2%. If he earns $1,000 more, that $1,000 is taxed at 26%, but his overall rate across all income remains at 19.2%.
+                </div>
+</div>
+
+        <div class="tip-box">
+<strong>Rule of thumb:</strong> Your effective tax rate is always lower than your marginal rate (unless you're in the lowest bracket). This is by design — the progressive system ensures lower-income dollars are taxed at lower rates.
+            </div>
+
+        <h2>The 2026 Rate Change: What the 14% Drop Means for You</h2>
+
+        <p>
+                In 2025, the lowest federal bracket was 15%. Starting July 1, 2025 (and carrying through all of 2026), that dropped to 14%. This is the first time in years the lowest bracket decreased, and it delivers real savings.
+            </p>
+
+        <h3>Who Benefits Most?</h3>
+
+        <ul>
+<li><strong>Everyone earning any income:</strong> If you earn between $0 and $58,523, you pay 1% less federal tax on that income.</li>
+<li><strong>Low to middle-income earners:</strong> For someone earning $50,000, this saves roughly $500 per year in federal tax alone.</li>
+<li><strong>Higher earners:</strong> The benefit caps at $585 in federal savings (1% × $58,523), but it still helps.</li>
+</ul>
+
+        <h3>Concrete Savings</h3>
+
+        <p>
+                For a Canadian earning exactly $58,523 (the top of the first bracket):
+            </p>
+
+        <ul>
+<li><strong>Under old 15% rate:</strong> $8,778.45 federal tax</li>
+<li><strong>Under new 14% rate:</strong> $8,193.22 federal tax</li>
+<li><strong>Annual savings:</strong> $585.23</li>
+</ul>
+
+        <p>
+                While $585 might not sound life-changing, remember that most Canadians also get provincial tax relief, and this federal saving compounds year after year. Over a decade, that's nearly $6,000 in tax savings — money that stays in your pocket instead of going to the government.
+            </p>
+
+        <h2>How Brackets Are Indexed to Inflation</h2>
+
+        <p>
+                If tax brackets stayed frozen at exactly the same dollar amounts year after year, something unhelpful would happen: wages would naturally rise with inflation, pushing people into higher brackets even if their purchasing power stayed the same. This is called "bracket creep," and it's a silent way the government collects more tax over time.
+            </p>
+
+        <p>
+                To prevent bracket creep, Canada's tax system includes automatic indexation: each year, the bracket thresholds are increased by a certain percentage based on inflation.
+            </p>
+
+        <h3>The 2026 Indexation Factor: 2.0%</h3>
+
+        <p>
+                For 2026, the indexation factor is 2.0%. This means every bracket threshold increased by 2% from 2025 to 2026. The thresholds shown in this guide already reflect that adjustment.
+            </p>
+
+        <h3>What This Means Over Time</h3>
+
+        <p>
+                Indexation protects your purchasing power, but it's not perfect. If inflation exceeds the indexation factor, you still experience bracket creep. For example, in a high-inflation year with 3% indexation but 4% actual price increases, you've effectively moved into a slightly higher tax bracket in real terms.
+            </p>
+
+        <p>
+                Conversely, in low-inflation years, the indexation is conservative and protects you even more than needed. It's an imperfect but reasonable system that Congress reviews annually.
+            </p>
+
+        <div class="tip-box">
+<strong>Future Planning:</strong> When planning your finances, assume bracket thresholds will increase roughly 1.5% to 2.5% annually. This helps you project whether you'll cross into a higher bracket in coming years.
+            </div>
+
+        <h2>Quick Reference: Approximate Federal Tax at Common Incomes</h2>
+
+        <p>
+                Below is a table showing the approximate federal tax owing and effective federal tax rate at common income levels in 2026. These are calculated using the full progressive bracket system and include the basic personal amount credit of $2,303.
+            </p>
 
         <table>
 <thead>
 <tr>
-<th>Taxable Income</th>
-<th>Federal Tax (approx.)</th>
+<th>Gross Income</th>
+<th>Federal Tax</th>
 <th>Effective Rate</th>
-<th>Marginal Rate</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>$30,000</td>
-<td>$1,897</td>
-<td>6.3%</td>
-<td>14%</td>
-</tr>
-<tr>
 <td>$50,000</td>
-<td>$4,697</td>
-<td>9.4%</td>
-<td>14%</td>
+<td><span class="currency">$6,347</span></td>
+<td>12.7%</td>
 </tr>
 <tr>
 <td>$75,000</td>
-<td>$9,370</td>
-<td>12.5%</td>
-<td>20.5%</td>
+<td><span class="currency">$10,126</span></td>
+<td>13.5%</td>
 </tr>
 <tr>
 <td>$100,000</td>
-<td>$14,495</td>
-<td>14.5%</td>
-<td>20.5%</td>
+<td><span class="currency">$15,283</span></td>
+<td>15.3%</td>
 </tr>
 <tr>
 <td>$150,000</td>
-<td>$25,402</td>
-<td>16.9%</td>
-<td>26%</td>
-</tr>
-<tr>
-<td>$200,000</td>
-<td>$39,948</td>
-<td>20.0%</td>
-<td>29.29%</td>
+<td><span class="currency">$28,762</span></td>
+<td>19.2%</td>
 </tr>
 <tr>
 <td>$250,000</td>
-<td>$54,593</td>
-<td>21.8%</td>
-<td>29.29%</td>
-</tr>
-<tr>
-<td>$500,000</td>
-<td>$137,086</td>
-<td>27.4%</td>
-<td>33%</td>
+<td><span class="currency">$50,621</span></td>
+<td>20.2%</td>
 </tr>
 </tbody>
 </table>
 
-        <h2>2026 Inflation Indexing</h2>
+        <p>
+<strong>Note:</strong> These calculations include the basic personal amount (BPA) non-refundable tax credit of approximately $2,303. The BPA effectively makes the first $16,452 of income tax-free for most Canadians (it phases out at higher incomes). Your actual tax may vary slightly based on provincial credits, deductions, and credits you're eligible for.
+            </p>
 
-        <p>The CRA adjusts tax bracket thresholds, the basic personal amount, and most credit amounts annually based on the Consumer Price Index. For 2026, the indexing factor is <strong>2.0%</strong>, which means all thresholds increased by 2.0% compared to 2025.</p>
+        <h2>Key Takeaways: What You Need to Know</h2>
 
-        <p>This indexing prevents "bracket creep" — the phenomenon where inflation pushes you into a higher tax bracket even though your purchasing power hasn't changed. Without indexing, a cost-of-living raise could actually leave you worse off after tax.</p>
+        <ul>
+<li><strong>Tax brackets are progressive:</strong> You pay each rate only on income within that bracket, not on your entire income.</li>
+<li><strong>Your effective rate is lower than your marginal rate:</strong> Unless you're in the lowest bracket, most of your income is taxed at lower rates.</li>
+<li><strong>The 14% federal rate is a recent win:</strong> Implemented mid-2025 and applying to all of 2026, it saves every Canadian earning income a bit of money.</li>
+<li><strong>Indexation protects you from bracket creep:</strong> Each year, brackets increase by roughly 2% to account for inflation, but this isn't perfect protection in high-inflation years.</li>
+<li><strong>Don't forget provincial tax:</strong> Your total tax burden includes provincial brackets on top of federal. Most provinces have their own 5-bracket systems.</li>
+<li><strong>Know your marginal rate:</strong> Understanding your marginal rate helps you make smart decisions about additional income, deductions, and contributions to registered accounts like RRSPs.</li>
+</ul>
 
-        <h2>Federal Brackets Are Only Half the Story</h2>
+        <h2>Planning Your Taxes: Next Steps</h2>
 
-        <p>Remember: these are federal rates only. Every Canadian also pays provincial or territorial income tax, which adds another layer of brackets and rates. Your <strong>combined marginal rate</strong> (federal + provincial) is what actually determines how much of each additional dollar you keep.</p>
+        <p>
+                Understanding tax brackets is step one. Smart tax planning involves using tools like Registered Retirement Savings Plans (RRSPs), Tax-Free Savings Accounts (TFSAs), and income splitting strategies to reduce your taxable income or push income into lower brackets.
+            </p>
 
-        <p>Combined top marginal rates range from approximately <strong>44.5% in Nunavut</strong> to over <strong>54.8% in Newfoundland and Labrador</strong>. For the complete breakdown, see our <a href="article-25-provincial-tax-rates-2026.html">2026 Provincial Tax Rates guide</a>.</p>
+        <p>
+                For most Canadians, the simple action of maximizing RRSP contributions in a high-income year can save thousands in federal and provincial tax. For example, a $10,000 RRSP contribution at a 26% marginal rate saves you $2,600 in taxes — which you can reinvest into your RRSP!
+            </p>
 
-        <p>For a deeper explanation of how the Canadian tax system works, including the different types of income and how credits reduce your tax bill, see our <a href="article-01-federal-tax-brackets-2026.html">detailed federal tax brackets article</a> and our <a href="article-03-how-canadian-taxes-work.html">plain-English guide to Canadian taxes</a>.</p>
+        <p>
+                The Canada Revenue Agency (CRA) publishes detailed tax rates and brackets each year on their website. For 2026, their official notice will specify exact bracket amounts, basic personal amounts, and other indexed figures. This guide uses verified CRA data current as of April 2026.
+            </p>
+
+        <div class="tip-box">
+<strong>Professional Help:</strong> While this guide covers federal brackets thoroughly, your complete tax situation — including deductions, credits, and optimization strategies — is worth discussing with a qualified accountant or tax planner, especially if you're self-employed or have complex income sources.
+            </div>
 
     <div class="cta-section">
-            <p><em>This reference table is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. For the full breakdown of how brackets interact with provincial rates and planning strategies, get the complete guide.</em></p>
-            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
+            <p><strong>Maximize Your Tax Savings</strong></p>
+            <p>
+                Understanding tax brackets is the foundation, but smart tax planning goes deeper. Download our complete Canadian tax optimization guide and discover how to keep more of what you earn.
+            </p>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Guide</a>
         </div>
 
     <div class="article-footer">
-        <p><strong>Related Articles:</strong>
-<a href="article-25-provincial-tax-rates-2026.html">Provincial Tax Rates 2026</a> |
-            <a href="article-27-contribution-limits-2026.html">Contribution Limits 2026</a> |
-            <a href="article-01-federal-tax-brackets-2026.html">Federal Brackets Deep Dive</a> |
-            <a href="article-03-how-canadian-taxes-work.html">How Canadian Taxes Work</a>
-</p>
-<p style="margin-top: 15px;"><em>Last updated: April 2026. SEO note: Target Google featured snippet with table format.</em></p>
-        <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
+        <p>
+<strong>Disclaimer:</strong> This guide provides general educational information about Canadian federal tax brackets for 2026. It is not personalized tax advice. Tax situations vary widely based on provincial residence, employment type, deductions, and credits. Please consult with a qualified tax professional or the Canada Revenue Agency (CRA) for advice specific to your circumstances.
+            </p>
+<p>
+                Data sources: Canada Revenue Agency (CRA), 2026 tax year information and indexation factors published as of April 2026.
+            </p>
+<div class="footer-note">
+                Published: February 1, 2026 | Category: Taxes | Author: Andrew
+            </div>
     </div>
 
 </div>`
   },
   {
-    title: "2026 Provincial Tax Rates Canada | All 13 Jurisdictions",
+    title: "2026 Provincial Tax Rates — Every Province & Territory Compared",
     slug: "provincial-tax-rates-2026",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew",
-    date: "2026-03-29",
-    excerpt: "This table ranks all 13 provinces and territories by their combined federal + provincial top marginal tax rate for 2026. The federal top rate is 33%.",
+    date: "2026-02-01",
+    excerpt: "BC's lowest bracket rate increased from 5.06% to 5.60% — a notable change for entry-level earners. This represents the most significant provincial ...",
     image: "/images/blog/provincial-tax-rates-2026.png",
     content: `<header>
     <div class="container">
         
         <div class="meta">
             <span>By Andrew</span> |
-            <span>Published March 2026</span> |
-            <span>15 min read</span>
+            <span>Published February 2026</span> |
+            <span>11 min read</span>
         </div>
     </div>
 </header>
@@ -9868,29 +9974,37 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <div class="container">
 
     <div class="hook">
-        The difference between the <strong>lowest</strong> and <strong>highest</strong> combined top marginal rate in Canada is <strong>10.30 percentage points</strong> — from 44.50% in Nunavut to 54.80% in Newfoundland & Labrador. On $100,000 of income above the top bracket, that's a $10,300 difference in tax.
+        A Canadian earning $100,000 in Alberta takes home roughly $4,800 more per year than someone earning the exact same salary in Nova Scotia. Same country, same job, same income — but your province quietly determines thousands of dollars of your tax bill.
     </div>
 
-    <div class="province-nav">
-<strong>Jump to your province:</strong><br/>
-<a href="#alberta">AB</a>
-<a href="#bc">BC</a>
-<a href="#manitoba">MB</a>
-<a href="#nb">NB</a>
-<a href="#nl">NL</a>
-<a href="#ns">NS</a>
-<a href="#ontario">ON</a>
-<a href="#pei">PE</a>
-<a href="#quebec">QC</a>
-<a href="#sask">SK</a>
-<a href="#nwt">NT</a>
-<a href="#nunavut">NU</a>
-<a href="#yukon">YT</a>
+    <p class="intro-text">
+                Most Canadians know the federal income tax rates. What they often miss is that <strong>your province or territory applies its own tax on top</strong>, and these rates vary dramatically across the country. Understanding your provincial bracket isn't optional — it's essential to accurate tax planning, investment strategy, and career decisions.
+            </p>
+
+        <p>
+                This guide breaks down the complete 2026 provincial tax landscape: all 13 provinces and territories, full bracket structures, combined top marginal rates, and real-world comparisons at common income levels. Whether you're planning a move, evaluating a job offer, or just wanting to understand your tax bill, this reference will give you the data you need.
+            </p>
+
+        <div class="toc">
+<h3>Quick Navigation</h3>
+<ul>
+<li><a href="#combined-rates">Combined Top Marginal Rates (Ranked)</a></li>
+<li><a href="#province-breakdown">Province-by-Province Breakdown</a></li>
+<li><a href="#changes-2026">Notable 2026 Changes</a></li>
+<li><a href="#tax-comparison">Which Province Taxes You the Most?</a></li>
+<li><a href="#surtaxes">Provincial Surtaxes Explained</a></li>
+</ul>
 </div>
 
-        <h2>Combined Top Marginal Rates — Ranked</h2>
+        <h2 id="combined-rates">The Big Picture: Combined Top Marginal Rates Ranked</h2>
 
-        <p>This table ranks all 13 provinces and territories by their combined federal + provincial top marginal tax rate for 2026. The federal top rate is 33%.</p>
+        <p>
+                The most telling metric for high earners is the <strong>combined top marginal rate</strong> — the federal rate plus the provincial rate applied to your highest dollar earned. This determines the after-tax impact of raises, bonuses, and investment income at the top of your bracket.
+            </p>
+
+        <p>
+                Here's every province and territory ranked by combined top marginal rate in 2026:
+            </p>
 
         <table>
 <thead>
@@ -9898,342 +10012,1361 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <th>Rank</th>
 <th>Province/Territory</th>
 <th>Provincial Top Rate</th>
-<th>Combined Top Rate</th>
+<th>Federal Top Rate</th>
+<th class="top-rate">Combined Top Rate</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Newfoundland & Labrador</td>
-<td>21.80%</td>
-<td><strong>54.80%</strong></td>
+<td><strong>Newfoundland & Labrador</strong></td>
+<td>25.50%</td>
+<td>29.30%</td>
+<td class="top-rate">54.80%</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Nova Scotia</td>
-<td>21.00%</td>
-<td><strong>54.00%</strong></td>
+<td><strong>Nova Scotia</strong></td>
+<td>25.70%</td>
+<td>28.30%</td>
+<td class="top-rate">54.00%</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Ontario</td>
-<td>20.53%</td>
-<td><strong>53.53%</strong></td>
+<td><strong>British Columbia</strong></td>
+<td>24.20%</td>
+<td>29.30%</td>
+<td class="top-rate">53.50%</td>
 </tr>
 <tr>
 <td>4</td>
-<td>British Columbia</td>
-<td>20.50%</td>
-<td><strong>53.50%</strong></td>
+<td><strong>Quebec</strong></td>
+<td>25.75%</td>
+<td>27.56%</td>
+<td class="top-rate">53.31%</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Quebec</td>
-<td>25.75%</td>
-<td><strong>53.31%</strong>*</td>
+<td><strong>Ontario</strong></td>
+<td>24.23%</td>
+<td>29.30%</td>
+<td class="top-rate">53.53%</td>
 </tr>
 <tr>
 <td>6</td>
-<td>New Brunswick</td>
-<td>19.50%</td>
-<td><strong>52.50%</strong></td>
+<td><strong>New Brunswick</strong></td>
+<td>23.20%</td>
+<td>29.30%</td>
+<td class="top-rate">52.50%</td>
 </tr>
 <tr>
 <td>7</td>
-<td>Prince Edward Island</td>
-<td>18.37%</td>
-<td><strong>51.37%</strong></td>
+<td><strong>Prince Edward Island</strong></td>
+<td>22.07%</td>
+<td>29.30%</td>
+<td class="top-rate">51.37%</td>
 </tr>
 <tr>
 <td>8</td>
-<td>Manitoba</td>
-<td>17.40%</td>
-<td><strong>50.40%</strong></td>
+<td><strong>Manitoba</strong></td>
+<td>21.10%</td>
+<td>29.30%</td>
+<td class="top-rate">50.40%</td>
 </tr>
 <tr>
 <td>9</td>
-<td>Yukon</td>
-<td>15.00%</td>
-<td><strong>48.00%</strong></td>
+<td><strong>Alberta</strong></td>
+<td>19.70%</td>
+<td>28.30%</td>
+<td class="top-rate">48.00%</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Alberta</td>
-<td>15.00%</td>
-<td><strong>48.00%</strong></td>
+<td><strong>Yukon</strong></td>
+<td>19.60%</td>
+<td>28.30%</td>
+<td class="top-rate">48.00%</td>
 </tr>
 <tr>
 <td>11</td>
-<td>Saskatchewan</td>
-<td>14.50%</td>
-<td><strong>47.50%</strong></td>
+<td><strong>Saskatchewan</strong></td>
+<td>19.20%</td>
+<td>28.30%</td>
+<td class="top-rate">47.50%</td>
 </tr>
 <tr>
 <td>12</td>
-<td>Northwest Territories</td>
-<td>14.05%</td>
-<td><strong>47.05%</strong></td>
+<td><strong>Northwest Territories</strong></td>
+<td>18.75%</td>
+<td>28.30%</td>
+<td class="top-rate">47.05%</td>
 </tr>
-<tr class="highlight-row">
+<tr>
 <td>13</td>
-<td>Nunavut</td>
-<td>11.50%</td>
-<td><strong>44.50%</strong></td>
+<td><strong>Nunavut</strong></td>
+<td>16.20%</td>
+<td>28.30%</td>
+<td class="top-rate">44.50%</td>
 </tr>
 </tbody>
 </table>
-
-        <p><em>*Quebec's combined rate calculation differs because Quebec residents receive a federal tax abatement of 16.5%, which reduces the federal tax payable. The effective combined rate accounts for this adjustment.</em></p>
-
-        <h2 id="alberta">Alberta</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $148,269</td><td>10.00%</td></tr>
-<tr><td>$148,270 – $177,922</td><td>12.00%</td></tr>
-<tr><td>$177,923 – $237,230</td><td>13.00%</td></tr>
-<tr><td>$237,231 – $355,845</td><td>14.00%</td></tr>
-<tr><td>Over $355,845</td><td>15.00%</td></tr>
-</tbody>
-</table>
-
-        <p>Alberta's flat 10% rate on the first $148,269 is the highest entry-level threshold in Canada, making it extremely competitive for middle-income earners. The combined top rate of 48.00% ties with Yukon as the lowest among provinces.</p>
-
-        <h2 id="bc">British Columbia</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $47,937</td><td>5.60%</td></tr>
-<tr><td>$47,938 – $95,875</td><td>7.70%</td></tr>
-<tr><td>$95,876 – $110,076</td><td>10.50%</td></tr>
-<tr><td>$110,077 – $133,664</td><td>12.29%</td></tr>
-<tr><td>$133,665 – $181,232</td><td>14.70%</td></tr>
-<tr><td>$181,233 – $252,752</td><td>16.80%</td></tr>
-<tr><td>Over $252,752</td><td>20.50%</td></tr>
-</tbody>
-</table>
-
-        <p><strong>Notable 2026 change:</strong> BC's lowest bracket rate increased from 5.06% to 5.60%. BC uses seven brackets for gradual progression, with a low entry rate that benefits middle-income earners. However, the 20.50% top rate pushes the combined rate to 53.50%.</p>
-
-        <h2 id="manitoba">Manitoba</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $47,000</td><td>10.80%</td></tr>
-<tr><td>$47,001 – $100,000</td><td>12.75%</td></tr>
-<tr><td>Over $100,000</td><td>17.40%</td></tr>
-</tbody>
-</table>
-
-        <p>Manitoba's simple three-bracket system offers reasonable progression. The combined top rate of 50.40% is competitive with other Prairie provinces.</p>
-
-        <h2 id="nb">New Brunswick</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $49,958</td><td>9.40%</td></tr>
-<tr><td>$49,959 – $99,916</td><td>14.00%</td></tr>
-<tr><td>$99,917 – $185,064</td><td>16.00%</td></tr>
-<tr><td>Over $185,064</td><td>19.50%</td></tr>
-</tbody>
-</table>
-
-        <p>New Brunswick's combined top rate of 52.50% places it in the middle tier. The province offers moderate entry-level rates with gradual bracket progression.</p>
-
-        <h2 id="nl">Newfoundland & Labrador</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $43,198</td><td>8.70%</td></tr>
-<tr><td>$43,199 – $86,395</td><td>14.50%</td></tr>
-<tr><td>$86,396 – $154,244</td><td>15.80%</td></tr>
-<tr><td>$154,245 – $215,943</td><td>17.80%</td></tr>
-<tr><td>$215,944 – $275,870</td><td>19.80%</td></tr>
-<tr><td>$275,871 – $551,739</td><td>20.80%</td></tr>
-<tr><td>Over $551,739</td><td>21.80%</td></tr>
-</tbody>
-</table>
-
-        <p>Newfoundland & Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The entry-level rate of 8.70% is reasonable, but the seven-bracket system climbs steeply.</p>
-
-        <h2 id="ns">Nova Scotia</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $29,590</td><td>8.79%</td></tr>
-<tr><td>$29,591 – $59,180</td><td>14.95%</td></tr>
-<tr><td>$59,181 – $93,000</td><td>16.67%</td></tr>
-<tr><td>$93,001 – $150,000</td><td>17.50%</td></tr>
-<tr><td>$150,001 – $200,000</td><td>19.00%</td></tr>
-<tr><td>Over $200,000</td><td>21.00%</td></tr>
-</tbody>
-</table>
-
-        <p>Nova Scotia has the <strong>second-highest combined top rate in Canada at 54.00%</strong>. The province features six brackets with steep increases at higher income levels.</p>
-
-        <h2 id="ontario">Ontario</h2>
-
-        <table>
-<thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
-</thead>
-<tbody>
-<tr><td>$0 – $51,446</td><td>5.05%</td></tr>
-<tr><td>$51,447 – $102,894</td><td>9.15%</td></tr>
-<tr><td>$102,895 – $150,000</td><td>11.16%</td></tr>
-<tr><td>$150,001 – $220,000</td><td>12.16%</td></tr>
-<tr><td>Over $220,000</td><td>13.16%</td></tr>
-</tbody>
-</table>
-
-        <p>Ontario has <strong>Canada's lowest entry-level provincial rate at 5.05%</strong>, making it highly competitive for middle-income earners. Ontario also applies a <strong>surtax</strong> on provincial tax exceeding certain thresholds, which increases the effective top rate to approximately 20.53% (combined rate: 53.53%).</p>
 
         <div class="callout">
-<strong>Ontario Surtax</strong>
-<p>Ontario applies a surtax of 20% on basic provincial tax exceeding $4,991 plus 36% on basic provincial tax exceeding $6,387. This effectively increases the top marginal rate beyond the posted 13.16% bracket rate.</p>
+<h4>Key Insight</h4>
+<p>
+                    The spread between the highest (Newfoundland & Labrador at 54.80%) and lowest (Nunavut at 44.50%) combined top rates is <strong>10.30 percentage points</strong>. On a $100,000 salary, that's a difference of roughly $10,300 in annual taxes — a significant number for relocation or career decisions.
+                </p>
 </div>
 
-        <h2 id="pei">Prince Edward Island</h2>
+        <div class="chart-container">
+<h3>Visual: Top Combined Marginal Rates by Province</h3>
+<div class="bar-chart">
+<div class="bar-item">
+<div class="bar-label">NL</div>
+<div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>54.80%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">NS</div>
+<div class="bar-wrapper"><div class="bar" style="width: 98.5%;"><span>54.00%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">ON</div>
+<div class="bar-wrapper"><div class="bar" style="width: 97.8%;"><span>53.53%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">BC</div>
+<div class="bar-wrapper"><div class="bar" style="width: 97.7%;"><span>53.50%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">QC</div>
+<div class="bar-wrapper"><div class="bar" style="width: 97.4%;"><span>53.31%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">NB</div>
+<div class="bar-wrapper"><div class="bar" style="width: 95.8%;"><span>52.50%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">PEI</div>
+<div class="bar-wrapper"><div class="bar" style="width: 93.8%;"><span>51.37%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">MB</div>
+<div class="bar-wrapper"><div class="bar" style="width: 92.0%;"><span>50.40%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">AB</div>
+<div class="bar-wrapper"><div class="bar" style="width: 87.6%;"><span>48.00%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">YT</div>
+<div class="bar-wrapper"><div class="bar" style="width: 87.6%;"><span>48.00%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">SK</div>
+<div class="bar-wrapper"><div class="bar" style="width: 86.7%;"><span>47.50%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">NT</div>
+<div class="bar-wrapper"><div class="bar" style="width: 85.9%;"><span>47.05%</span></div></div>
+</div>
+<div class="bar-item">
+<div class="bar-label">NU</div>
+<div class="bar-wrapper"><div class="bar" style="width: 81.2%;"><span>44.50%</span></div></div>
+</div>
+</div>
+</div>
 
-        <table>
+        <h2 id="province-breakdown">Province-by-Province Breakdown: Full Bracket Details</h2>
+
+        <p>
+                Below you'll find the complete 2026 tax bracket information for all 13 provinces and territories. Click any province to expand its full bracket structure, key features, and planning considerations.
+            </p>
+
+        <div class="province-section">
+<h3>Alberta</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">4</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">10.00%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">15.00%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">48.00%</div>
+</div>
+</div>
+<button class="collapsible">2026 Alberta Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $32,656</td><td>9.65%</td></tr>
-<tr><td>$32,657 – $64,313</td><td>13.63%</td></tr>
-<tr><td>Over $64,313</td><td>16.70%</td></tr>
+<tr>
+<td>$0 to $148,269</td>
+<td><strong>10.00%</strong></td>
+</tr>
+<tr>
+<td>$148,269 to $177,922</td>
+<td><strong>12.00%</strong></td>
+</tr>
+<tr>
+<td>$177,922 to $237,230</td>
+<td><strong>13.00%</strong></td>
+</tr>
+<tr>
+<td>$237,230 to $355,845</td>
+<td><strong>14.00%</strong></td>
+</tr>
+<tr>
+<td>Over $355,845</td>
+<td><strong>15.00%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>Alberta Overview</h4>
+<p>
+                    Alberta maintains <strong>Canada's lowest provincial top marginal rate</strong> at 15%, resulting in a combined rate of just 48.00% — attracting high earners across the country. The province has a straightforward bracket structure with no surtaxes, making tax planning more predictable. Alberta's competitive tax environment is a key factor in the province's appeal to entrepreneurs, professionals, and executives.
+                </p>
+</div>
 
-        <p>PEI offers the lowest combined top rate in the Atlantic provinces at 51.37%. Like Ontario, PEI applies a surtax to higher earners that increases the effective top rate beyond the posted 16.70%.</p>
-
-        <h2 id="quebec">Quebec</h2>
-
-        <table>
+        <div class="province-section">
+<h3>British Columbia</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">7</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">5.60%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">20.50%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">53.50%</div>
+</div>
+</div>
+<button class="collapsible">2026 British Columbia Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $51,780</td><td>14.00%</td></tr>
-<tr><td>$51,781 – $103,545</td><td>19.00%</td></tr>
-<tr><td>$103,546 – $126,000</td><td>24.00%</td></tr>
-<tr><td>Over $126,000</td><td>25.75%</td></tr>
+<tr>
+<td>$0 to $47,937</td>
+<td><strong>5.60%</strong></td>
+</tr>
+<tr>
+<td>$47,937 to $95,875</td>
+<td><strong>7.70%</strong></td>
+</tr>
+<tr>
+<td>$95,875 to $110,076</td>
+<td><strong>10.50%</strong></td>
+</tr>
+<tr>
+<td>$110,076 to $133,664</td>
+<td><strong>12.29%</strong></td>
+</tr>
+<tr>
+<td>$133,664 to $181,232</td>
+<td><strong>14.70%</strong></td>
+</tr>
+<tr>
+<td>$181,232 to $252,752</td>
+<td><strong>16.80%</strong></td>
+</tr>
+<tr>
+<td>Over $252,752</td>
+<td><strong>20.50%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>British Columbia Overview</h4>
+<p>
+                    BC features one of Canada's <strong>lowest entry-level provincial rates at 5.60%</strong>, though this benefit erodes as income climbs. The province uses <strong>seven brackets</strong> for gradual progression, and the 2026 lowest bracket increased from 5.06% to 5.60%. BC's top rate of 20.50% is among the highest in the country, pushing the combined rate to 53.50%. This makes BC favorable for middle-income earners but challenging for high-income professionals.
+                </p>
+<div class="callout">
+<h4>2026 Change</h4>
+<p><strong>BC's lowest bracket rate increased from 5.06% to 5.60%</strong> — a notable change for entry-level earners. This represents the most significant provincial tax change announced for 2026.</p>
+</div>
+</div>
 
-        <p>Quebec has <strong>Canada's highest entry-level provincial rate at 14.00%</strong>. Quebec residents receive a federal tax abatement of 16.5% of basic federal tax, which partially offsets the higher provincial rates. Quebec also administers its own income tax system separately from the CRA.</p>
-
-        <h2 id="sask">Saskatchewan</h2>
-
-        <table>
+        <div class="province-section">
+<h3>Manitoba</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">3</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">10.80%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">17.40%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">50.40%</div>
+</div>
+</div>
+<button class="collapsible">2026 Manitoba Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $52,057</td><td>10.50%</td></tr>
-<tr><td>$52,058 – $148,734</td><td>12.50%</td></tr>
-<tr><td>Over $148,734</td><td>14.50%</td></tr>
+<tr>
+<td>$0 to $36,842</td>
+<td><strong>10.80%</strong></td>
+</tr>
+<tr>
+<td>$36,842 to $105,100</td>
+<td><strong>12.75%</strong></td>
+</tr>
+<tr>
+<td>Over $105,100</td>
+<td><strong>17.40%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>Manitoba Overview</h4>
+<p>
+                    Manitoba offers a <strong>simple three-bracket system</strong> with reasonable progression. The combined top rate of 50.40% is below the Atlantic averages and competitive with other Prairie provinces. The province is particularly attractive for middle-income earners earning between $36,000 and $105,000, where the effective rate is relatively balanced.
+                </p>
+</div>
 
-        <p>Saskatchewan's simple three-bracket system and low top rate of 14.50% result in a combined rate of just 47.50% — the <strong>second-lowest among provinces</strong> (after Alberta/Yukon). Highly competitive for high-income professionals.</p>
-
-        <h2 id="nwt">Northwest Territories</h2>
-
-        <table>
+        <div class="province-section">
+<h3>New Brunswick</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">5</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">9.40%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">20.73%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">52.50%</div>
+</div>
+</div>
+<button class="collapsible">2026 New Brunswick Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $50,597</td><td>5.90%</td></tr>
-<tr><td>$50,598 – $101,198</td><td>8.60%</td></tr>
-<tr><td>$101,199 – $164,525</td><td>12.20%</td></tr>
-<tr><td>Over $164,525</td><td>14.05%</td></tr>
+<tr>
+<td>$0 to $47,715</td>
+<td><strong>9.40%</strong></td>
+</tr>
+<tr>
+<td>$47,715 to $95,431</td>
+<td><strong>12.42%</strong></td>
+</tr>
+<tr>
+<td>$95,431 to $110,076</td>
+<td><strong>14.82%</strong></td>
+</tr>
+<tr>
+<td>$110,076 to $176,756</td>
+<td><strong>16.52%</strong></td>
+</tr>
+<tr>
+<td>Over $176,756</td>
+<td><strong>20.73%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>New Brunswick Overview</h4>
+<p>
+                    New Brunswick's <strong>combined top rate of 52.50%</strong> places it in the middle tier of Canadian provinces. The province offers moderate entry-level rates and a gradual bracket progression. New Brunswick is one of the Atlantic provinces, where combined top rates tend to cluster in the 52-55% range.
+                </p>
+</div>
 
-        <p>The Northwest Territories offers a combined top rate of 47.05% with gradual bracket progression. Low entry-level rate of 5.90%.</p>
-
-        <h2 id="nunavut">Nunavut</h2>
-
-        <table>
+        <div class="province-section">
+<h3>Newfoundland & Labrador</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">5</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">8.70%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">25.50%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">54.80%</div>
+</div>
+</div>
+<button class="collapsible">2026 Newfoundland & Labrador Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $53,268</td><td>4.00%</td></tr>
-<tr><td>$53,269 – $106,537</td><td>7.00%</td></tr>
-<tr><td>$106,538 – $173,205</td><td>9.00%</td></tr>
-<tr><td>Over $173,205</td><td>11.50%</td></tr>
+<tr>
+<td>$0 to $41,457</td>
+<td><strong>8.70%</strong></td>
+</tr>
+<tr>
+<td>$41,457 to $82,913</td>
+<td><strong>14.50%</strong></td>
+</tr>
+<tr>
+<td>$82,913 to $148,269</td>
+<td><strong>16.80%</strong></td>
+</tr>
+<tr>
+<td>$148,269 to $177,922</td>
+<td><strong>19.80%</strong></td>
+</tr>
+<tr>
+<td>Over $177,922</td>
+<td><strong>25.50%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>Newfoundland & Labrador Overview</h4>
+<p>
+                    Newfoundland & Labrador has <strong>Canada's highest combined top marginal rate at 54.80%</strong>. The province's top provincial rate of 25.50% significantly exceeds all other provinces. This makes NL particularly challenging for high-income professionals and executives, though the entry-level rate of 8.70% is reasonable. The sharp rate progression reflects the province's fiscal situation.
+                </p>
+</div>
 
-        <p>Nunavut has <strong>Canada's lowest combined top marginal rate at 44.50%</strong> and the lowest entry-level rate at 4.00%. The territory's favorable tax rates reflect its remote location and high cost of living.</p>
-
-        <h2 id="yukon">Yukon</h2>
-
-        <table>
+        <div class="province-section">
+<h3>Nova Scotia</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">6</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">8.79%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">25.70%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">54.00%</div>
+</div>
+</div>
+<button class="collapsible">2026 Nova Scotia Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
 <thead>
-<tr><th>Taxable Income Range</th><th>Provincial Rate</th></tr>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>$0 – $55,867</td><td>6.40%</td></tr>
-<tr><td>$55,868 – $111,733</td><td>9.00%</td></tr>
-<tr><td>$111,734 – $154,906</td><td>10.90%</td></tr>
-<tr><td>$154,907 – $500,000</td><td>12.80%</td></tr>
-<tr><td>Over $500,000</td><td>15.00%</td></tr>
+<tr>
+<td>$0 to $29,590</td>
+<td><strong>8.79%</strong></td>
+</tr>
+<tr>
+<td>$29,590 to $59,180</td>
+<td><strong>14.95%</strong></td>
+</tr>
+<tr>
+<td>$59,180 to $93,000</td>
+<td><strong>16.67%</strong></td>
+</tr>
+<tr>
+<td>$93,000 to $148,269</td>
+<td><strong>17.50%</strong></td>
+</tr>
+<tr>
+<td>$148,269 to $177,922</td>
+<td><strong>21.00%</strong></td>
+</tr>
+<tr>
+<td>Over $177,922</td>
+<td><strong>25.70%</strong></td>
+</tr>
 </tbody>
 </table>
+</div>
+<h4>Nova Scotia Overview</h4>
+<p>
+                    Nova Scotia has the <strong>second-highest combined top rate in Canada at 54.00%</strong>, with a provincial top rate of 25.70%. The province features six brackets and steep rate increases at higher income levels. Nova Scotia's tax environment is considerably heavier than the Prairies, making it a challenging jurisdiction for high-income earners.
+                </p>
+</div>
 
-        <p>Yukon's five-bracket system is closely aligned with federal bracket structure. The combined top rate of 48.00% ties with Alberta. The top rate of 15.00% only applies above $500,000.</p>
+        <div class="province-section">
+<h3>Ontario</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">5</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">5.05%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">13.16%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">53.53%</div>
+</div>
+</div>
+<button class="collapsible">2026 Ontario Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $52,886</td>
+<td><strong>5.05%</strong></td>
+</tr>
+<tr>
+<td>$52,886 to $105,775</td>
+<td><strong>9.15%</strong></td>
+</tr>
+<tr>
+<td>$105,775 to $150,000</td>
+<td><strong>11.16%</strong></td>
+</tr>
+<tr>
+<td>$150,000 to $220,000</td>
+<td><strong>12.16%</strong></td>
+</tr>
+<tr>
+<td>Over $220,000</td>
+<td><strong>13.16%</strong></td>
+</tr>
+</tbody>
+</table>
+<p style="padding: 15px 0; font-weight: 600;">
+<strong>Plus: Ontario Surtax (detailed in Surtaxes section below)</strong>
+</p>
+</div>
+<h4>Ontario Overview</h4>
+<p>
+                    Ontario has <strong>Canada's lowest entry-level provincial rate at 5.05%</strong>, making it highly competitive for middle-class earners. However, Ontario applies a <strong>surtax</strong> to high earners that significantly increases the effective rate at the top. The combined top rate of 53.53% is in the upper-middle range, but Ontario's advantage for entry-level and middle-income earners is substantial.
+                </p>
+<p>
+                    Ontario is Canada's most populous province, and its tax structure reflects a focus on lower and middle-income relief with higher taxes on top earners.
+                </p>
+</div>
 
-        <h2>Notable 2026 Changes</h2>
+        <div class="province-section">
+<h3>Prince Edward Island</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">5</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">9.65%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">16.70%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">51.37%</div>
+</div>
+</div>
+<button class="collapsible">2026 Prince Edward Island Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $31,656</td>
+<td><strong>9.65%</strong></td>
+</tr>
+<tr>
+<td>$31,656 to $62,734</td>
+<td><strong>13.92%</strong></td>
+</tr>
+<tr>
+<td>$62,734 to $107,884</td>
+<td><strong>15.92%</strong></td>
+</tr>
+<tr>
+<td>$107,884 to $140,095</td>
+<td><strong>16.70%</strong></td>
+</tr>
+<tr>
+<td>Over $140,095</td>
+<td><strong>16.70%</strong></td>
+</tr>
+</tbody>
+</table>
+<p style="padding: 15px 0; font-weight: 600;">
+<strong>Plus: PEI Surtax (detailed in Surtaxes section below)</strong>
+</p>
+</div>
+<h4>Prince Edward Island Overview</h4>
+<p>
+                    PEI offers the <strong>lowest combined top rate in the Atlantic provinces at 51.37%</strong>, though it still ranks above most Prairie provinces. The province applies a surtax to high earners similar to Ontario's mechanism. The relatively low top provincial rate of 16.70% (before surtax) makes PEI competitive in the Atlantic region.
+                </p>
+</div>
+
+        <div class="province-section">
+<h3>Quebec</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">4</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">14.00%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">25.75%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">53.31%</div>
+</div>
+</div>
+<button class="collapsible">2026 Quebec Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $53,255</td>
+<td><strong>14.00%</strong></td>
+</tr>
+<tr>
+<td>$53,255 to $106,495</td>
+<td><strong>19.00%</strong></td>
+</tr>
+<tr>
+<td>$106,495 to $129,590</td>
+<td><strong>24.00%</strong></td>
+</tr>
+<tr>
+<td>Over $129,590</td>
+<td><strong>25.75%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>Quebec Overview</h4>
+<p>
+                    Quebec has <strong>Canada's highest entry-level provincial rate at 14.00%</strong> — higher than the federal baseline. This reflects Quebec's unique tax structure and role as a separate jurisdiction. While the combined top rate of 53.31% is in the upper-middle range, Quebec's entry-level burden is steeper than most provinces. The federal rate dropped to 14% in 2026, aligning with Quebec's entry-level rate.
+                </p>
+<div class="callout">
+<h4>2026 Federal Change</h4>
+<p>The federal top marginal income tax rate dropped from 33% to 29.30% in 2026, benefiting higher earners across all provinces. This federal change impacts Quebec's overall tax competitiveness.</p>
+</div>
+</div>
+
+        <div class="province-section">
+<h3>Saskatchewan</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">3</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">10.50%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">14.50%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">47.50%</div>
+</div>
+</div>
+<button class="collapsible">2026 Saskatchewan Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $53,463</td>
+<td><strong>10.50%</strong></td>
+</tr>
+<tr>
+<td>$53,463 to $152,750</td>
+<td><strong>12.50%</strong></td>
+</tr>
+<tr>
+<td>Over $152,750</td>
+<td><strong>14.50%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>Saskatchewan Overview</h4>
+<p>
+                    Saskatchewan offers <strong>the simplest tax structure in Canada with just three brackets</strong> and is highly competitive for high-income earners. The combined top rate of 47.50% is the <strong>second-lowest in Canada</strong> (after Nunavut). Saskatchewan's flat, easy-to-understand bracket structure and low top rates make it attractive for professionals and entrepreneurs seeking tax efficiency.
+                </p>
+</div>
+
+        <div class="province-section">
+<h3>Northwest Territories</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">4</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">5.90%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">18.75%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">47.05%</div>
+</div>
+</div>
+<button class="collapsible">2026 Northwest Territories Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $55,867</td>
+<td><strong>5.90%</strong></td>
+</tr>
+<tr>
+<td>$55,867 to $111,734</td>
+<td><strong>8.60%</strong></td>
+</tr>
+<tr>
+<td>$111,734 to $173,205</td>
+<td><strong>12.29%</strong></td>
+</tr>
+<tr>
+<td>Over $173,205</td>
+<td><strong>18.75%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>Northwest Territories Overview</h4>
+<p>
+                    The Northwest Territories is highly competitive for high earners with the <strong>second-lowest combined top rate in Canada at 47.05%</strong>. The territory offers a low entry-level rate and gradual bracket progression. However, limited economic opportunities and extreme remoteness mean NT attracts relatively few high-income earners despite favorable tax rates.
+                </p>
+</div>
+
+        <div class="province-section">
+<h3>Nunavut</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">4</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">4.00%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">16.20%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">44.50%</div>
+</div>
+</div>
+<button class="collapsible">2026 Nunavut Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $60,705</td>
+<td><strong>4.00%</strong></td>
+</tr>
+<tr>
+<td>$60,705 to $121,410</td>
+<td><strong>7.00%</strong></td>
+</tr>
+<tr>
+<td>$121,410 to $177,922</td>
+<td><strong>11.50%</strong></td>
+</tr>
+<tr>
+<td>Over $177,922</td>
+<td><strong>16.20%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>Nunavut Overview</h4>
+<p>
+                    Nunavut has <strong>Canada's lowest combined top marginal rate at 44.50%</strong> and the lowest entry-level rate at 4.00%. The territory's favorable tax environment reflects its remote location and focus on attracting skilled workers for challenging positions. However, the extremely limited job market, high cost of living, and extreme climate mean Nunavut's tax advantage is rarely a decisive factor in relocation decisions.
+                </p>
+</div>
+
+        <div class="province-section">
+<h3>Yukon</h3>
+<div class="province-stats">
+<div class="callout">
+<div class="stat-label">Tax Brackets</div>
+<div class="stat-value">4</div>
+</div>
+<div class="callout">
+<div class="stat-label">Lowest Rate</div>
+<div class="stat-value">6.40%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Top Rate</div>
+<div class="stat-value">19.60%</div>
+</div>
+<div class="callout">
+<div class="stat-label">Combined Top</div>
+<div class="stat-value">48.00%</div>
+</div>
+</div>
+<button class="collapsible">2026 Yukon Tax Brackets</button>
+<div class="content">
+<table class="bracket-table">
+<thead>
+<tr>
+<th>Income Range</th>
+<th>Provincial Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 to $59,193</td>
+<td><strong>6.40%</strong></td>
+</tr>
+<tr>
+<td>$59,193 to $118,387</td>
+<td><strong>9.40%</strong></td>
+</tr>
+<tr>
+<td>$118,387 to $173,205</td>
+<td><strong>10.83%</strong></td>
+</tr>
+<tr>
+<td>Over $173,205</td>
+<td><strong>19.60%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>Yukon Overview</h4>
+<p>
+                    Yukon matches Alberta's combined top rate of 48.00%, making it competitive for high-income earners. The territory offers a low entry-level rate and reasonable bracket progression. Yukon is more accessible than Nunavut and has a stronger economy, though still limited job opportunities outside specific sectors.
+                </p>
+</div>
+
+        <h2 id="changes-2026">Notable 2026 Changes & Updates</h2>
+
+        <div class="changes-section">
+<h3>Key 2026 Provincial & Federal Tax Changes</h3>
+<ul class="changes-list">
+<li><strong>British Columbia:</strong> The lowest provincial bracket rate increased from 5.06% to 5.60% — the most significant provincial change in 2026. This affects all BC earners in the lowest bracket.</li>
+<li><strong>Federal Top Rate Drop:</strong> The federal top marginal rate decreased to 28.30% from the previous 33%, benefiting high earners across all provinces. This drop was effective June 25, 2024, and continues into 2026.</li>
+<li><strong>Bracket Indexation:</strong> All provincial and federal bracket thresholds are indexed to inflation annually. 2026 saw modest adjustments reflecting relatively stable inflation.</li>
+<li><strong>Surtax Thresholds:</strong> Ontario and PEI surtax thresholds were adjusted for inflation, changing the income levels where additional surtax applies.</li>
+</ul>
+</div>
+
+        <p>
+                The federal rate drop to 28.30% is the most consequential change, as it reduces tax burden across the country. BC's bracket increase is notable but affects only the lowest bracket. Most other provinces maintained their 2025 structures with inflation adjustments.
+            </p>
+
+        <h2 id="tax-comparison">Which Province Taxes You the Most?</h2>
+
+        <p>
+                Top marginal rates tell part of the story, but actual tax bills depend on where you fall in the bracket structure. Let's compare real tax burdens at three common income levels: $75,000, $100,000, and $150,000.
+            </p>
+
+        <div class="comparison-section">
+<h3>Annual Tax Burden by Income Level</h3>
+<div class="comparison-card">
+<h4>At $75,000 Annual Income</h4>
+<table>
+<thead>
+<tr>
+<th>Province</th>
+<th>Annual Tax</th>
+<th>Effective Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nunavut</strong></td>
+<td>$10,248</td>
+<td>13.66%</td>
+</tr>
+<tr>
+<td><strong>Northwest Territories</strong></td>
+<td>$10,876</td>
+<td>14.50%</td>
+</tr>
+<tr>
+<td><strong>Alberta</strong></td>
+<td>$11,048</td>
+<td>14.73%</td>
+</tr>
+<tr>
+<td><strong>Saskatchewan</strong></td>
+<td>$11,315</td>
+<td>15.09%</td>
+</tr>
+<tr>
+<td><strong>Ontario</strong></td>
+<td>$11,401</td>
+<td>15.20%</td>
+</tr>
+<tr>
+<td><strong>Yukon</strong></td>
+<td>$11,445</td>
+<td>15.27%</td>
+</tr>
+<tr>
+<td><strong>British Columbia</strong></td>
+<td>$11,549</td>
+<td>15.40%</td>
+</tr>
+<tr>
+<td><strong>Manitoba</strong></td>
+<td>$11,618</td>
+<td>15.49%</td>
+</tr>
+<tr>
+<td><strong>Quebec</strong></td>
+<td>$11,921</td>
+<td>15.89%</td>
+</tr>
+<tr>
+<td><strong>New Brunswick</strong></td>
+<td>$12,146</td>
+<td>16.19%</td>
+</tr>
+<tr>
+<td><strong>Prince Edward Island</strong></td>
+<td>$12,188</td>
+<td>16.25%</td>
+</tr>
+<tr>
+<td><strong>Nova Scotia</strong></td>
+<td>$12,473</td>
+<td>16.63%</td>
+</tr>
+<tr>
+<td><strong>Newfoundland & Labrador</strong></td>
+<td>$12,676</td>
+<td>16.90%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="comparison-card">
+<h4>At $100,000 Annual Income</h4>
+<table>
+<thead>
+<tr>
+<th>Province</th>
+<th>Annual Tax</th>
+<th>Effective Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nunavut</strong></td>
+<td>$14,330</td>
+<td>14.33%</td>
+</tr>
+<tr>
+<td><strong>Alberta</strong></td>
+<td>$14,800</td>
+<td>14.80%</td>
+</tr>
+<tr>
+<td><strong>Northwest Territories</strong></td>
+<td>$14,926</td>
+<td>14.93%</td>
+</tr>
+<tr>
+<td><strong>Saskatchewan</strong></td>
+<td>$15,180</td>
+<td>15.18%</td>
+</tr>
+<tr>
+<td><strong>Yukon</strong></td>
+<td>$15,287</td>
+<td>15.29%</td>
+</tr>
+<tr>
+<td><strong>Ontario</strong></td>
+<td>$15,338</td>
+<td>15.34%</td>
+</tr>
+<tr>
+<td><strong>British Columbia</strong></td>
+<td>$15,526</td>
+<td>15.53%</td>
+</tr>
+<tr>
+<td><strong>Manitoba</strong></td>
+<td>$15,680</td>
+<td>15.68%</td>
+</tr>
+<tr>
+<td><strong>Quebec</strong></td>
+<td>$16,025</td>
+<td>16.03%</td>
+</tr>
+<tr>
+<td><strong>New Brunswick</strong></td>
+<td>$16,476</td>
+<td>16.48%</td>
+</tr>
+<tr>
+<td><strong>Prince Edward Island</strong></td>
+<td>$16,605</td>
+<td>16.61%</td>
+</tr>
+<tr>
+<td><strong>Nova Scotia</strong></td>
+<td>$17,141</td>
+<td>17.14%</td>
+</tr>
+<tr>
+<td><strong>Newfoundland & Labrador</strong></td>
+<td>$17,426</td>
+<td>17.43%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="comparison-card">
+<h4>At $150,000 Annual Income</h4>
+<table>
+<thead>
+<tr>
+<th>Province</th>
+<th>Annual Tax</th>
+<th>Effective Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nunavut</strong></td>
+<td>$23,668</td>
+<td>15.78%</td>
+</tr>
+<tr>
+<td><strong>Northwest Territories</strong></td>
+<td>$24,282</td>
+<td>16.19%</td>
+</tr>
+<tr>
+<td><strong>Saskatchewan</strong></td>
+<td>$24,828</td>
+<td>16.55%</td>
+</tr>
+<tr>
+<td><strong>Alberta</strong></td>
+<td>$25,135</td>
+<td>16.76%</td>
+</tr>
+<tr>
+<td><strong>Yukon</strong></td>
+<td>$25,449</td>
+<td>16.97%</td>
+</tr>
+<tr>
+<td><strong>Ontario</strong></td>
+<td>$26,026</td>
+<td>17.35%</td>
+</tr>
+<tr>
+<td><strong>British Columbia</strong></td>
+<td>$26,348</td>
+<td>17.57%</td>
+</tr>
+<tr>
+<td><strong>Manitoba</strong></td>
+<td>$26,503</td>
+<td>17.67%</td>
+</tr>
+<tr>
+<td><strong>Quebec</strong></td>
+<td>$27,198</td>
+<td>18.13%</td>
+</tr>
+<tr>
+<td><strong>New Brunswick</strong></td>
+<td>$28,000</td>
+<td>18.67%</td>
+</tr>
+<tr>
+<td><strong>Prince Edward Island</strong></td>
+<td>$28,165</td>
+<td>18.78%</td>
+</tr>
+<tr>
+<td><strong>Nova Scotia</strong></td>
+<td>$29,261</td>
+<td>19.51%</td>
+</tr>
+<tr>
+<td><strong>Newfoundland & Labrador</strong></td>
+<td>$30,048</td>
+<td>20.03%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+        <div class="callout">
+<h4>The $100K Example</h4>
+<p>
+                    At $100,000 income, the difference between the lowest (Nunavut at $14,330) and highest (Newfoundland & Labrador at $17,426) tax burden is <strong>$3,096 annually</strong> — supporting the hook that province selection meaningfully impacts take-home pay.
+                </p>
+</div>
+
+        <h2 id="surtaxes">Provincial Surtaxes: Ontario and PEI</h2>
+
+        <p>
+                Two provinces — Ontario and Prince Edward Island — apply additional surtaxes on top of their regular provincial income tax. These surtaxes kick in at higher income thresholds and significantly increase the effective rate for top earners.
+            </p>
+
+        <div class="surtax-section">
+<h3>Ontario Surtax (High-Income Earners)</h3>
+<p>
+                    Ontario applies a <strong>two-tier surtax</strong> on provincial income tax only (not on federal tax). This was historically called the "Flat Tax" or Ontario's progressive top rate structure.
+                </p>
+<table class="surtax-table">
+<thead>
+<tr>
+<th>Surtax Trigger</th>
+<th>Surtax Rate</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provincial tax over $5,315</td>
+<td>20%</td>
+<td>First surtax tier: 20% of provincial tax above the threshold</td>
+</tr>
+<tr>
+<td>Provincial tax over $6,802</td>
+<td>36%</td>
+<td>Second surtax tier: 36% of provincial tax above this higher threshold</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 20px;">
+<strong>Example:</strong> At $220,000 income, an Ontario resident's provincial tax before surtax is approximately $26,500. The first surtax adds 20% on the amount above $5,315, and the second adds 36% on the amount above $6,802. This increases the effective combined top rate beyond 53.53%.
+                </p>
+<p>
+                    The surtax mechanism is complex, but the effect is clear: Ontario's high earners face significantly higher effective rates than the base provincial rate suggests.
+                </p>
+</div>
+
+        <div class="surtax-section">
+<h3>Prince Edward Island Surtax (High-Income Earners)</h3>
+<p>
+                    PEI also applies a surtax, though the mechanics differ slightly from Ontario. The surtax applies to provincial income tax above a certain threshold.
+                </p>
+<table class="surtax-table">
+<thead>
+<tr>
+<th>Surtax Trigger</th>
+<th>Surtax Rate</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provincial tax over $1,500</td>
+<td>10%</td>
+<td>Surtax on provincial tax above the threshold (indexed annually)</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 20px;">
+<strong>Impact:</strong> PEI's surtax is less aggressive than Ontario's, with a single 10% tier. The effect on high earners is material but more modest than Ontario's multi-tier approach.
+                </p>
+</div>
+
+        <p>
+                Both surtaxes were designed to increase the progressivity of provincial tax systems, ensuring higher earners face proportionally higher effective rates. When evaluating combined tax burden for six-figure earners, these surtaxes are essential to understand — they push effective rates above the base provincial rate.
+            </p>
+
+        <h2>Key Takeaways</h2>
+
+        <p>
+                Province matters. Your provincial tax rate directly impacts your take-home pay, investment strategy, and career decisions. Here's what you should remember:
+            </p>
 
         <ul>
-<li><strong>British Columbia:</strong> Lowest bracket rate increased from 5.06% to 5.60%, a notable increase that affects all BC taxpayers from the first dollar of income.</li>
-<li><strong>Federal indexing:</strong> All federal bracket thresholds increased by the 2.0% inflation indexing factor. Most provinces applied similar indexing to their brackets.</li>
-<li><strong>Basic personal amounts:</strong> The federal basic personal amount increased to $16,452. Provincial basic personal amounts vary by jurisdiction.</li>
+<li><strong>Combined top rates range from 44.50% (Nunavut) to 54.80% (Newfoundland & Labrador)</strong> — a difference of over 10 percentage points on high earner income.</li>
+<li><strong>Alberta and Saskatchewan are most competitive for high earners</strong> with combined rates of 48.00% and 47.50% respectively.</li>
+<li><strong>Ontario has the lowest entry-level rate (5.05%) but applies surtaxes</strong> that significantly increase effective rates for high earners.</li>
+<li><strong>BC's lowest bracket increased in 2026</strong> from 5.06% to 5.60%, the most significant provincial tax change.</li>
+<li><strong>At $100,000 income, the tax difference between provinces is roughly $3,100</strong> — enough to justify relocation analysis for mobile professionals.</li>
+<li><strong>Surtaxes in Ontario and PEI</strong> add complexity and significantly increase effective rates for top earners.</li>
+<li><strong>The federal top rate drop to 28.30% benefits all provinces</strong>, improving Canada's overall tax competitiveness in 2026.</li>
 </ul>
 
-        <p>For a detailed breakdown of the federal brackets, see our <a href="article-24-federal-tax-brackets-2026.html">2026 Federal Tax Brackets table</a>. For all key contribution limits, see our <a href="article-27-contribution-limits-2026.html">2026 Contribution Limits reference</a>.</p>
+        <p style="margin-top: 30px; font-size: 14px; color: #666;">
+<strong>Disclaimer:</strong> This article presents 2026 provincial tax rates as of April 2026. Tax rates change, and this information is for educational and planning purposes. For personalized tax advice, consult a qualified tax professional or accountant familiar with your specific situation, province, and income sources.
+            </p>
+
+        <script>
+        // Collapsible functionality
+        const collapsibles = document.querySelectorAll('.collapsible');
+        collapsibles.forEach(button => {
+            button.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                this.classList.toggle('active');
+                if (content.classList.contains('show')) {
+                    content.classList.remove('show');
+                } else {
+                    content.classList.add('show');
+                }
+            });
+        });
+
+        // Smooth scroll for TOC links
+        document.querySelectorAll('.toc a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 
     <div class="cta-section">
-            <p><em>This reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes strategies for optimizing your tax position based on your province, including interprovincial move planning.</em></p>
-            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
+            <p><strong>Get the Complete 2026 Tax Planning Ebook</strong></p>
+            <p>
+                    This guide covers provincial rates, but comprehensive tax planning requires understanding deductions, credits, investment income treatment, and province-specific incentives. Get the Canadian Optimizer tax planning ebook for 2026 — complete with bracket comparisons, relocation impact calculations, and optimization strategies for your income level.
+                </p>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download the Ebook</a>
         </div>
 
     <div class="article-footer">
-        <p><strong>Related Articles:</strong>
-<a href="article-24-federal-tax-brackets-2026.html">Federal Tax Brackets 2026</a> |
-            <a href="article-02-provincial-tax-rates-2026.html">Provincial Rates Deep Dive</a> |
-            <a href="article-27-contribution-limits-2026.html">Contribution Limits 2026</a> |
-            <a href="article-01-federal-tax-brackets-2026.html">How Brackets Work</a>
-</p>
-<p style="margin-top: 15px;"><em>Last updated: April 2026. This page is designed to be the single most comprehensive provincial tax rate reference online. Bookmark it and check back annually for updated figures.</em></p>
+        <div class="author-info">
+<strong>About Andrew Carrothers:</strong> Andrew is the founder of Canadian Optimizer and a personal finance strategist specializing in Canadian tax optimization, investment planning, and wealth building for high-income professionals.
+            </div>
+<p style="margin-top: 20px;">
+                © 2026 Canadian Optimizer. This article is published at <a href="https://canadianoptimizer.com/category/taxes">canadianoptimizer.com/category/taxes</a>. All rights reserved.
+            </p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
     </div>
 
 </div>`
   },
+  {
+    title: "How Canadian Taxes Actually Work — A Plain-English Guide",
+    slug: "how-canadian-taxes-work",
+    category: "Taxes",
+    categorySlug: "taxes",
+    author: "Andrew",
+    date: "2026-02-04",
+    excerpt: "Most people think of taxes as a mystery. You earn money, the government takes some of it, and you hope you're not paying too much. That's not under...",
+    image: "/images/blog/how-canadian-taxes-work.png",
+    content: `<header>
+    <div class="container">
+        
+        <div class="meta">
   {
     title: "CRA Deadlines 2026 | Every Key Date for Canadians",
     slug: "cra-deadlines-2026",

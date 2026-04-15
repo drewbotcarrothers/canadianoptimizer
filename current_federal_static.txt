@@ -1,0 +1,203 @@
+  {
+    title: "2026 Canadian Federal Tax Brackets | Complete Table",
+    slug: "federal-tax-brackets-2026",
+    category: "Taxes",
+    categorySlug: "taxes",
+    author: "Andrew",
+    date: "2026-03-28",
+    excerpt: "The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation a...",
+    image: "/images/blog/federal-tax-brackets-2026.png",
+    content: `<header>
+    <div class="container">
+        
+        <div class="meta">
+            <span>By Andrew</span> |
+            <span>Published March 2026</span> |
+            <span>5 min read</span>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="hook">
+        Canada's federal tax system uses <strong>5 progressive tax brackets</strong>. Your first $57,375 of taxable income is taxed at just 14%. Understanding how these brackets work — and how they interact with your province's rates — is the foundation of every tax planning strategy.
+    </div>
+
+    <h2>2026 Federal Tax Brackets and Rates</h2>
+
+        <p>The following table shows the five federal income tax brackets for the 2026 taxation year. All thresholds have been indexed by the 2026 inflation adjustment factor of 2.0%.</p>
+
+        <table>
+<thead>
+<tr>
+<th>Taxable Income Range</th>
+<th>Federal Tax Rate</th>
+<th>Tax on This Bracket</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0 – $57,375</td>
+<td><strong>14%</strong></td>
+<td>Up to $8,033</td>
+</tr>
+<tr>
+<td>$57,376 – $114,750</td>
+<td><strong>20.5%</strong></td>
+<td>Up to $11,762</td>
+</tr>
+<tr>
+<td>$114,751 – $158,468</td>
+<td><strong>26%</strong></td>
+<td>Up to $11,367</td>
+</tr>
+<tr>
+<td>$158,469 – $253,414</td>
+<td><strong>29.29%</strong></td>
+<td>Up to $27,813</td>
+</tr>
+<tr>
+<td>Over $253,414</td>
+<td><strong>33%</strong></td>
+<td>No limit</td>
+</tr>
+</tbody>
+</table>
+
+        <h2>How Progressive Tax Brackets Work</h2>
+
+        <p>Canada uses a <strong>marginal tax system</strong>, which means you don't pay a single flat rate on all your income. Instead, each portion of your income is taxed at the rate for the bracket it falls into. This is one of the most misunderstood concepts in Canadian taxation.</p>
+
+        <p>For example, if you earn $95,000 in 2026, your federal tax is calculated as follows:</p>
+
+        <table>
+<thead>
+<tr>
+<th>Income Portion</th>
+<th>Rate</th>
+<th>Federal Tax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First $57,375</td>
+<td>14%</td>
+<td>$8,033</td>
+</tr>
+<tr>
+<td>$57,376 to $95,000 ($37,625)</td>
+<td>20.5%</td>
+<td>$7,713</td>
+</tr>
+<tr>
+<td colspan="2"><strong>Total Federal Tax (before credits)</strong></td>
+<td><strong>$15,746</strong></td>
+</tr>
+</tbody>
+</table>
+
+        <p>Notice that on $95,000 of income, the total federal tax before credits is $15,746 — an <strong>effective federal rate of 16.6%</strong>, not the 20.5% marginal rate. This is why it's critical to distinguish between your marginal rate (the rate on your next dollar of income) and your effective rate (the actual percentage of your total income paid in tax).</p>
+
+        <div class="callout">
+<strong>The Basic Personal Amount</strong>
+<p>Every Canadian taxpayer receives a non-refundable credit based on the basic personal amount of <strong>$16,452</strong> for 2026. This effectively means your first $16,452 of income is tax-free at the federal level. The credit is worth approximately $2,303 (14% × $16,452).</p>
+</div>
+
+        <h2>Quick-Reference: Federal Tax by Income Level</h2>
+
+        <p>The following table shows approximate federal tax payable at common income levels, after the basic personal amount credit but before any other deductions or credits.</p>
+
+        <table>
+<thead>
+<tr>
+<th>Taxable Income</th>
+<th>Federal Tax (approx.)</th>
+<th>Effective Rate</th>
+<th>Marginal Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$30,000</td>
+<td>$1,897</td>
+<td>6.3%</td>
+<td>14%</td>
+</tr>
+<tr>
+<td>$50,000</td>
+<td>$4,697</td>
+<td>9.4%</td>
+<td>14%</td>
+</tr>
+<tr>
+<td>$75,000</td>
+<td>$9,370</td>
+<td>12.5%</td>
+<td>20.5%</td>
+</tr>
+<tr>
+<td>$100,000</td>
+<td>$14,495</td>
+<td>14.5%</td>
+<td>20.5%</td>
+</tr>
+<tr>
+<td>$150,000</td>
+<td>$25,402</td>
+<td>16.9%</td>
+<td>26%</td>
+</tr>
+<tr>
+<td>$200,000</td>
+<td>$39,948</td>
+<td>20.0%</td>
+<td>29.29%</td>
+</tr>
+<tr>
+<td>$250,000</td>
+<td>$54,593</td>
+<td>21.8%</td>
+<td>29.29%</td>
+</tr>
+<tr>
+<td>$500,000</td>
+<td>$137,086</td>
+<td>27.4%</td>
+<td>33%</td>
+</tr>
+</tbody>
+</table>
+
+        <h2>2026 Inflation Indexing</h2>
+
+        <p>The CRA adjusts tax bracket thresholds, the basic personal amount, and most credit amounts annually based on the Consumer Price Index. For 2026, the indexing factor is <strong>2.0%</strong>, which means all thresholds increased by 2.0% compared to 2025.</p>
+
+        <p>This indexing prevents "bracket creep" — the phenomenon where inflation pushes you into a higher tax bracket even though your purchasing power hasn't changed. Without indexing, a cost-of-living raise could actually leave you worse off after tax.</p>
+
+        <h2>Federal Brackets Are Only Half the Story</h2>
+
+        <p>Remember: these are federal rates only. Every Canadian also pays provincial or territorial income tax, which adds another layer of brackets and rates. Your <strong>combined marginal rate</strong> (federal + provincial) is what actually determines how much of each additional dollar you keep.</p>
+
+        <p>Combined top marginal rates range from approximately <strong>44.5% in Nunavut</strong> to over <strong>54.8% in Newfoundland and Labrador</strong>. For the complete breakdown, see our <a href="article-25-provincial-tax-rates-2026.html">2026 Provincial Tax Rates guide</a>.</p>
+
+        <p>For a deeper explanation of how the Canadian tax system works, including the different types of income and how credits reduce your tax bill, see our <a href="article-01-federal-tax-brackets-2026.html">detailed federal tax brackets article</a> and our <a href="article-03-how-canadian-taxes-work.html">plain-English guide to Canadian taxes</a>.</p>
+
+    <div class="cta-section">
+            <p><em>This reference table is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. For the full breakdown of how brackets interact with provincial rates and planning strategies, get the complete guide.</em></p>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
+        </div>
+
+    <div class="article-footer">
+        <p><strong>Related Articles:</strong>
+<a href="article-25-provincial-tax-rates-2026.html">Provincial Tax Rates 2026</a> |
+            <a href="article-27-contribution-limits-2026.html">Contribution Limits 2026</a> |
+            <a href="article-01-federal-tax-brackets-2026.html">Federal Brackets Deep Dive</a> |
+            <a href="article-03-how-canadian-taxes-work.html">How Canadian Taxes Work</a>
+</p>
+<p style="margin-top: 15px;"><em>Last updated: April 2026. SEO note: Target Google featured snippet with table format.</em></p>
+        <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
+    </div>
+
+</div>`
+  },
