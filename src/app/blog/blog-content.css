@@ -662,6 +662,8 @@
 .blog-content-exact .content.show {
     display: block;
     padding: 35px 45px;
+    background-color: #fafbfc;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
 }
 
 .blog-content-exact .content h4 {
