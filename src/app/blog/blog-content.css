@@ -573,11 +573,116 @@
     padding-top: 10px;
 }
 
+/* ===== PREMIUM FLOWCHART SYSTEM ===== */
+.blog-content-exact .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 40px 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-content-exact .flow-node {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    padding: 20px 24px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+    font-weight: 600;
+    color: #111;
+    position: relative;
+    z-index: 2;
+}
+
+.blog-content-exact .flow-node.decision {
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+    border-color: #d1d5db;
+}
+
+.blog-content-exact .flow-node.result {
+    background-color: #d80621;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 15px rgba(216, 6, 33, 0.2);
+}
+
+.blog-content-exact .flow-node.option {
+    background-color: #eef4ff;
+    color: #2c5aa0;
+    border-color: #d1e2ff;
+}
+
+.blog-content-exact .flow-arrow {
+    height: 40px;
+    width: 2px;
+    background-color: #d80621;
+    position: relative;
+}
+
+.blog-content-exact .flow-arrow::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #d80621;
+}
+
+.blog-content-exact .flow-branch-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.blog-content-exact .flow-branch-container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    right: 25%;
+    height: 2px;
+    background-color: #d80621;
+}
+
+.blog-content-exact .flow-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+    .blog-content-exact .flow-branch-container,
+    .blog-content-exact .flow-grid-3 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .blog-content-exact .flow-branch-container::before {
+        display: none;
+    }
+}
+
 /* ===== CHARTS & VISUALS ===== */
 .blog-content-exact .chart-container {
     margin: 40px 0;
     padding: 30px;
     background-color: #f9fafb;
+
     border-radius: 8px;
     border: 1px solid #e5e7eb;
 }

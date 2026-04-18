@@ -4440,59 +4440,69 @@ export const posts = [
         <h2>Quick Flowchart: What Account Should You Use?</h2>
 
         <div class="flowchart">
-<div class="flowchart-step">
-                    Are you a first-time home buyer?
+            <!-- Root Decision -->
+            <div class="flow-node decision">
+                Are you a first-time home buyer?
+            </div>
+            
+            <div class="flow-arrow"></div>
+
+            <!-- Branching Yes/No -->
+            <div class="flow-branch-container">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="flow-node result" style="margin-bottom: 20px;">
+                        Yes → FHSA First
+                    </div>
                 </div>
-<div class="flowchart-arrow">↓</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
-<div>
-<div class="flowchart-step" style="background-color: #d80621; color: white; margin-bottom: 12px;">
-                            Yes → FHSA First
-                        </div>
-<div class="flowchart-arrow">↓</div>
-<div class="flowchart-step">What's your income?</div>
-</div>
-<div>
-<div class="flowchart-step" style="background-color: #666; color: white; margin-bottom: 12px;">
-                            No → Skip FHSA
-                        </div>
-<div class="flowchart-arrow">↓</div>
-<div class="flowchart-step">What's your income?</div>
-</div>
-</div>
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 16px;">
-<div>
-<div class="flowchart-step" style="background-color: #eef4ff; color: #2c5aa0;">
-                            Under $50K
-                        </div>
-<div class="flowchart-arrow">↓</div>
-<div class="flowchart-step" style="background-color: #d80621; color: white;">
-                            TFSA First
-                        </div>
-</div>
-<div>
-<div class="flowchart-step" style="background-color: #eef4ff; color: #2c5aa0;">
-                            $50K–$100K
-                        </div>
-<div class="flowchart-arrow">↓</div>
-<div class="flowchart-step" style="background-color: #d80621; color: white;">
-                            RRSP or TFSA<br/>(depends on goals)
-                        </div>
-</div>
-<div>
-<div class="flowchart-step" style="background-color: #eef4ff; color: #2c5aa0;">
-                            Over $100K
-                        </div>
-<div class="flowchart-arrow">↓</div>
-<div class="flowchart-step" style="background-color: #d80621; color: white;">
-                            RRSP First
-                        </div>
-</div>
-</div>
-<p style="margin-top: 24px; text-align: center; color: #666; font-size: 0.95rem;">
-<strong>After selecting your primary account:</strong> Use remaining capacity in the other accounts.
-                </p>
-</div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="flow-node" style="background-color: #666; color: white; border: none; margin-bottom: 20px;">
+                        No → Skip FHSA
+                    </div>
+                </div>
+            </div>
+
+            <div class="flow-arrow"></div>
+            
+            <div class="flow-node decision">
+                What's your income?
+            </div>
+
+            <!-- 3-Column Results -->
+            <div class="flow-grid-3">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="flow-node option">
+                        Under $50K
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node result">
+                        TFSA First
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="flow-node option">
+                        $50K–$100K
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node result">
+                        RRSP or TFSA (depends on goals)
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="flow-node option">
+                        Over $100K
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-node result">
+                        RRSP First
+                    </div>
+                </div>
+            </div>
+
+            <p style="margin-top: 32px; text-align: center; color: #666; font-size: 0.95rem;">
+                <strong>After selecting your primary account:</strong> Use remaining capacity in the other accounts.
+            </p>
+        </div>
+
 
         <h2>The Bottom Line</h2>
 
