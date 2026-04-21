@@ -2390,24 +2390,24 @@ export const posts = [
 
         <h3>2026 RRSP Limits at a Glance</h3>
 
-        <div class="summary-content">
-<div class="summary-item">
-<div class="summary-label">Annual Contribution Limit</div>
-<div class="summary-value">$33,810</div>
-</div>
-<div class="summary-item">
-<div class="summary-label">Earned Income Required</div>
-<div class="summary-value">$187,833</div>
-</div>
-<div class="summary-item">
-<div class="summary-label">Carry-Forward Limit</div>
-<div class="summary-value">Indefinite (No Expiry)</div>
-</div>
-<div class="summary-item">
-<div class="summary-label">2025 Tax Year Deadline</div>
-<div class="summary-value">March 2, 2026</div>
-</div>
-</div>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <div class="summary-label">Annual Contribution Limit</div>
+                <div class="summary-value">$33,810</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Earned Income Required</div>
+                <div class="summary-value">$187,833</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">Carry-Forward Limit</div>
+                <div class="summary-value">Indefinite</div>
+            </div>
+            <div class="summary-item">
+                <div class="summary-label">2025 Tax Year Deadline</div>
+                <div class="summary-value">March 2, 2026</div>
+            </div>
+        </div>
 
         <h2>Understanding 2026 RRSP Contribution Limits</h2>
 
