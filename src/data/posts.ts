@@ -2369,7 +2369,7 @@ export const posts = [
     <div class="container">
         
         <div class="meta">
-            <span>By Andrew</span> |
+            <span>By Andrew Carrothers</span> |
             <span>Published February 2026</span> |
             <span>12 min read</span>
         </div>
@@ -2941,7 +2941,7 @@ export const posts = [
     <div class="cta-section">
             <p><strong>Ready to Optimize Your RRSP Strategy?</strong></p>
             <p>Download our free RRSP Planning Worksheet — a step-by-step guide to calculating your contribution room, estimating your tax refund, and coordinating with your spouse's retirement savings.</p>
-            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Free Worksheet</a>
+            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Free Worksheet →</a>
         </div>
 
     <div class="article-footer">
