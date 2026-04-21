@@ -175,16 +175,16 @@
 .blog-content-exact .did-you-know {
     padding: 24px;
     margin: 32px 0;
-    border-radius: 6px;
-    border-left: 5px solid transparent;
+    border-radius: 4px;
+    border-left: 4px solid transparent;
 }
 
 /* Specific Callout Variants */
 .blog-content-exact .callout { background-color: #f8f9fa; border-left-color: #d80621; }
-.blog-content-exact .example-box { background-color: #f4f6f9; border-left-color: #4a5565; }
-.blog-content-exact .tip-box { background-color: #ecfdf5; border-left-color: #0d9488; }
-.blog-content-exact .warning-box { background-color: #fffbeb; border-left-color: #d97706; }
-.blog-content-exact .did-you-know { background-color: #f3f4f6; border-left-color: #364153; }
+.blog-content-exact .example-box { background-color: #eef2f7; border-left-color: #4a5565; }
+.blog-content-exact .tip-box { background-color: #e8f4f4; border-left-color: #0d9488; }
+.blog-content-exact .warning-box { background-color: #fef9ee; border-left-color: #d97706; }
+.blog-content-exact .did-you-know { background-color: #eef2f7; border-left-color: #364153; }
 
 /* Titles inside callouts */
 .blog-content-exact .callout strong:first-child, .blog-content-exact .callout-title { color: #d80621; display: block; margin-bottom: 10px; font-weight: 700; font-size: 1rem; }

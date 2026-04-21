@@ -2474,35 +2474,35 @@ export const posts = [
 <li><strong>You invest the refund.</strong> CRA (or your employer, if you adjust your payroll) returns the tax savings as a refund, which you can reinvest or use for other goals.</li>
 </ol>
 
-        <div class="calculation-box">
-<h4>Real Example: $90,000 Salary + $10,000 RRSP Contribution</h4>
-<div class="calc-line">
-<span class="calc-line-label">Gross Income (2026)</span>
-<span class="calc-line-value">$90,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">RRSP Deduction</span>
-<span class="calc-line-value">−$10,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Taxable Income</span>
-<span class="calc-line-value">$80,000</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line">
-<span class="calc-line-label">Federal Tax (15% on first $58,523 + 20.5% on remainder)</span>
-<span class="calc-line-value">$12,889</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Provincial Tax (varies by province; using Ontario 15% + 5.05%)</span>
-<span class="calc-line-value">$3,079</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line calc-total">
-<span class="calc-line-label">Total Tax Savings on $10,000 Contribution</span>
-<span class="calc-line-value">~$2,965</span>
-</div>
-</div>
+        <div class="example-box">
+            <strong>Example — $90,000 Salary + $10,000 RRSP Contribution</strong>
+            <div class="example-calculation">
+                <div class="line">
+                    <span>Gross Income (2026)</span>
+                    <span>$90,000</span>
+                </div>
+                <div class="line">
+                    <span>RRSP Deduction</span>
+                    <span>−$10,000</span>
+                </div>
+                <div class="line">
+                    <span>Taxable Income</span>
+                    <span>$80,000</span>
+                </div>
+                <div class="line">
+                    <span>Federal Tax</span>
+                    <span>$12,889</span>
+                </div>
+                <div class="line">
+                    <span>Provincial Tax (Ontario)</span>
+                    <span>$3,079</span>
+                </div>
+                <div class="line total">
+                    <span>Total Tax Savings on $10,000 Contribution</span>
+                    <span>~$2,965</span>
+                </div>
+            </div>
+        </div>
 
         <p>In this scenario, a $10,000 contribution nets you a tax refund of approximately $2,965 — a combined marginal rate of 29.65%. When you reinvest that refund, you've increased your invested capital to $12,965 using the same out-of-pocket amount.</p>
 
@@ -2554,34 +2554,35 @@ export const posts = [
 
         <p>Why would you do this? Because deductions are most valuable when your marginal tax rate is highest. If you're expecting a significant income increase, you can contribute now and claim the deduction when you're in a higher tax bracket.</p>
 
-        <div class="calculation-box">
-<h4>Example: Timing Your Deduction</h4>
-<div class="calc-line">
-<span class="calc-line-label">2026 Salary</span>
-<span class="calc-line-value">$55,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Marginal Tax Rate</span>
-<span class="calc-line-value">20.05%</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Tax Savings if Claimed in 2026</span>
-<span class="calc-line-value">$2,005</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line">
-<span class="calc-line-label">2027 Expected Salary (promotion)</span>
-<span class="calc-line-value">$95,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Marginal Tax Rate</span>
-<span class="calc-line-value">29.65%</span>
-</div>
-<div class="calc-line calc-total">
-<span class="calc-line-label">Tax Savings if Claimed in 2027</span>
-<span class="calc-line-value">$2,965</span>
-</div>
-</div>
+        <div class="example-box">
+            <strong>Example — Timing Your Deduction (2026 vs. 2027)</strong>
+            <div class="example-calculation">
+                <div class="line">
+                    <span>2026 Salary (Lower Bracket)</span>
+                    <span>$55,000</span>
+                </div>
+                <div class="line">
+                    <span>Marginal Tax Rate</span>
+                    <span>20.05%</span>
+                </div>
+                <div class="line">
+                    <span>Tax Savings if Claimed in 2026</span>
+                    <span>$2,005</span>
+                </div>
+                <div class="line">
+                    <span>2027 Expected Salary (Promotion)</span>
+                    <span>$95,000</span>
+                </div>
+                <div class="line">
+                    <span>Marginal Tax Rate</span>
+                    <span>29.65%</span>
+                </div>
+                <div class="line total">
+                    <span>Tax Savings if Claimed in 2027</span>
+                    <span>$2,965</span>
+                </div>
+            </div>
+        </div>
 
         <p>By deferring the deduction from 2026 to 2027, you gain an additional $960 in tax savings on the same $10,000 contribution. The money grows inside your RRSP during 2026, and you get the larger deduction when you need it more.</p>
 
@@ -2611,45 +2612,48 @@ export const posts = [
 
         <p>However, there's a 3-year attribution rule: if the lower-earning spouse withdraws funds within three calendar years of contribution, the withdrawn amount is attributed back to the contributing spouse for tax purposes, and they must pay the tax.</p>
 
-        <div class="calculation-box">
-<h4>Example: Spousal RRSP Income Splitting</h4>
-<div class="calc-line">
-<span class="calc-line-label">Higher Earner Salary</span>
-<span class="calc-line-value">$120,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Lower Earner Salary</span>
-<span class="calc-line-value">$45,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Spousal RRSP Contribution</span>
-<span class="calc-line-value">$10,000</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line">
-<span class="calc-line-label">Higher Earner's Tax Savings (38.29%)</span>
-<span class="calc-line-value">$3,829</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Lower Earner Withdraws in Retirement</span>
-<span class="calc-line-value">$10,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Tax on Withdrawal (20% rate if still lower earner)</span>
-<span class="calc-line-value">$2,000</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line calc-total">
-<span class="calc-line-label">Household Tax Savings</span>
-<span class="calc-line-value">$1,829+</span>
-</div>
-</div>
+        <div class="example-box">
+            <strong>Example — Spousal RRSP Income Splitting</strong>
+            <div class="example-calculation">
+                <div class="line">
+                    <span>Higher Earner Salary</span>
+                    <span>$120,000</span>
+                </div>
+                <div class="line">
+                    <span>Lower Earner Salary</span>
+                    <span>$45,000</span>
+                </div>
+                <div class="line">
+                    <span>Spousal RRSP Contribution</span>
+                    <span>$10,000</span>
+                </div>
+                <div class="line">
+                    <span>Higher Earner's Tax Savings (38.29%)</span>
+                    <span>$3,829</span>
+                </div>
+                <div class="line">
+                    <span>Lower Earner Withdraws in Retirement</span>
+                    <span>$10,000</span>
+                </div>
+                <div class="line">
+                    <span>Tax on Withdrawal (20% rate)</span>
+                    <span>$2,000</span>
+                </div>
+                <div class="line total">
+                    <span>Net Household Tax Savings per $10k</span>
+                    <span>$1,829+</span>
+                </div>
+            </div>
+        </div>
 
         <h3>The 3-Year Attribution Rule</h3>
 
         <p>If your spouse withdraws within three calendar years of contribution, the attributed amount is added back to your taxable income. This rule exists to prevent abuse, but it's easy to manage: <strong>just wait 3+ years before your spouse withdraws</strong>.</p>
 
-        <p>Example: You contribute to a spousal RRSP in 2026. Your spouse can safely withdraw in 2030 (2026 + 3 calendar years) without attribution. If they withdraw in 2029, attribution applies.</p>
+        <div class="example-box">
+            <strong>Example — The 3-Year Attribution Rule in Action</strong>
+            <p>You contribute to a spousal RRSP in 2026. Your spouse can safely withdraw in 2030 (2026 + 3 calendar years) without attribution. If they withdraw in 2029, attribution applies and you pay the tax at your higher rate.</p>
+        </div>
 
         <div class="callout">
 <strong>Spousal RRSPs Don't Reduce Your Room</strong>
@@ -2705,30 +2709,31 @@ export const posts = [
 <p style="font-size: 14px; color: #666; margin-top: 10px;">Over 30 years with 6% annual growth and reinvested refunds, the difference is dramatic.</p>
 </div>
 
-        <div class="calculation-box">
-<h4>Refund Recycling Math (30-Year Projection)</h4>
-<div class="calc-line">
-<span class="calc-line-label">Annual RRSP Contribution</span>
-<span class="calc-line-value">$10,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Tax Refund (30% marginal rate)</span>
-<span class="calc-line-value">$3,000</span>
-</div>
-<div class="calc-line">
-<span class="calc-line-label">Total Invested Annually</span>
-<span class="calc-line-value">$13,000</span>
-</div>
-<div class="calc-separator"></div>
-<div class="calc-line">
-<span class="calc-line-label">After 30 years (6% growth, no recycling)</span>
-<span class="calc-line-value">~$790,000</span>
-</div>
-<div class="calc-line calc-total">
-<span class="calc-line-label">After 30 years (6% growth, WITH recycling)</span>
-<span class="calc-line-value">~$1,250,000</span>
-</div>
-</div>
+        <div class="example-box">
+            <strong>Example — Refund Recycling Math (30-Year Projection)</strong>
+            <div class="example-calculation">
+                <div class="line">
+                    <span>Annual RRSP Contribution</span>
+                    <span>$10,000</span>
+                </div>
+                <div class="line">
+                    <span>Tax Refund (30% marginal rate)</span>
+                    <span>$3,000</span>
+                </div>
+                <div class="line">
+                    <span>Total Invested Annually</span>
+                    <span>$13,000</span>
+                </div>
+                <div class="line">
+                    <span>After 30 years (6% growth, no recycling)</span>
+                    <span>~$790,000</span>
+                </div>
+                <div class="line total">
+                    <span>After 30 years (6% growth, WITH recycling)</span>
+                    <span>~$1,250,000</span>
+                </div>
+            </div>
+        </div>
 
         <p>That $460,000 difference is the pure power of reinvesting the tax refund. It's not complex, but it requires discipline: you must actually invest the refund rather than spend it.</p>
 
@@ -2799,7 +2804,10 @@ export const posts = [
 
         <p>You withdraw $10,000 from your RRSP to pay for a vacation or to cover an emergency. Sounds simple, but CRA withholds tax immediately (20-30% depending on province and amount). You never see that money. Worse, the full $10,000 is added to your taxable income, so you may owe additional tax at year-end.</p>
 
-        <p>Example: Withdraw $10,000, pay 20% withholding ($2,000), receive $8,000. Later, the full $10,000 is added to your income. If you're in a 30% bracket, you owe another $3,000 at tax time. Total cost: $5,000 for a $10,000 withdrawal.</p>
+        <div class="example-box">
+            <strong>Example — The True Cost of Early RRSP Withdrawing</strong>
+            <p>Withdraw $10,000, pay 20% withholding ($2,000), receive $8,000. Later, the full $10,000 is added to your income. If you're in a 30% bracket, you owe another $3,000 at tax time. Total out-of-pocket cost: $5,000 for a $10,000 withdrawal.</p>
+        </div>
 
         <p><strong>Fix:</strong> Treat your RRSP as truly locked in. Use a TFSA or non-registered account for money you might need before retirement.</p>
 
@@ -2937,11 +2945,8 @@ export const posts = [
         </div>
 
     <div class="article-footer">
-        <div class="container">
-<p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, tax, or legal advice. RRSP rules, contribution limits, and tax rates change periodically. Consult a qualified tax professional or financial advisor before making investment decisions. The examples and calculations shown are illustrative and based on 2026 tax rates and rules.</p>
-<p><strong>About the Author:</strong> Andrew Carrothers is a financial educator and author focused on Canadian tax optimization and wealth-building strategies. Canadian Optimizer provides evidence-based financial guidance for Canadian earners at all income levels.</p>
-<p style="margin-top: 20px; border-top: 1px solid #e8e8e8; padding-top: 20px;">Published: February 6, 2026 | Category: Taxes | Reading Time: ~12 minutes</p>
-</div>
+        <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, tax, or legal advice. RRSP rules, contribution limits, and tax rates change periodically. Consult a qualified tax professional or financial advisor before making investment decisions. The examples and calculations shown are illustrative and based on 2026 tax rates and rules.</p>
+        <p><em>Last updated: February 6, 2026. Based on CRA rules and rates for the 2026 tax year.</em></p>
     </div>
 
 </div>`
