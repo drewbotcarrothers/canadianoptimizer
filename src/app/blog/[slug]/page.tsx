@@ -42,15 +42,20 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
 
   const isExactLayout = post.categorySlug === 'taxes' || post.categorySlug === 'retirement';
-
+  
   if (isExactLayout) {
     const publishDate = new Date(post.date);
     const formattedDate = `Published ${publishDate.toLocaleString('default', { month: 'long' })} ${publishDate.getFullYear()}`;
-    const words = post.content.split(/\s+/).length;
+    const words = post.content ? post.content.split(/\s+/).length : 0;
     const readTime = Math.ceil(words / 225);
+    const displayAuthor = post.author === 'Andrew' || post.author === 'Andrew Carrothers' ? 'Andrew Carrothers' : post.author;
 
     return (
-      <article className="pb-20 blog-content-exact">
+      <article 
+        className="pb-20 blog-content-exact" 
+        data-post-slug={post.slug} 
+        data-post-category={post.categorySlug}
+      >
         <SchemaMarkup 
           type="Article" 
           data={{
@@ -60,18 +65,20 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             datePublished: post.date,
             author: {
               '@type': 'Person',
-              name: post.author === 'Andrew' ? 'Andrew Carrothers' : post.author,
+              name: displayAuthor,
               url: 'https://canadianoptimizer.com/about'
             }
           }} 
         />
         
         {/* Standardized Header for Taxes/Retirement Posts */}
-        <header className="exact-header">
+        <header className="exact-header" data-testid="blog-header">
           <div className="container mx-auto">
-            <h1 className="text-white">{post.title}</h1>
+            <h1 className="text-white" style={{ color: '#ffffff !important', display: 'block !important' }}>
+              {post.title}
+            </h1>
             <div className="meta">
-              <span>By {post.author === 'Andrew' ? 'Andrew Carrothers' : post.author}</span> | 
+              <span>By {displayAuthor}</span> | 
               <span> {formattedDate}</span> | 
               <span> {readTime} min read</span>
             </div>
