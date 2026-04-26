@@ -44,8 +44,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const isExactLayout = post.categorySlug === 'taxes' || post.categorySlug === 'retirement';
 
   if (isExactLayout) {
+    const publishDate = new Date(post.date);
+    const formattedDate = `Published ${publishDate.toLocaleString('default', { month: 'long' })} ${publishDate.getFullYear()}`;
+
     return (
-      <article className="pb-20">
+      <article className="pb-20 blog-content-exact">
         <SchemaMarkup 
           type="Article" 
           data={{
@@ -55,18 +58,28 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             datePublished: post.date,
             author: {
               '@type': 'Person',
-              name: post.author,
+              name: post.author === 'Andrew' ? 'Andrew Carrothers' : post.author,
               url: 'https://canadianoptimizer.com/about'
             }
           }} 
         />
         
-        {/* Full-width, Exact Source Formatting Layout */}
-        <div className="container mx-auto px-4 py-16">
+        {/* Standardized Header for Taxes/Retirement Posts */}
+        <header className="exact-header">
+          <div className="container mx-auto">
+            <h1>{post.title}</h1>
+            <div className="meta">
+              <span>By {post.author === 'Andrew' ? 'Andrew Carrothers' : post.author}</span> | 
+              <span> {formattedDate}</span> | 
+              <span> 12 min read</span>
+            </div>
+          </div>
+        </header>
+
+        <div className="container mx-auto py-16">
           <ClientBlogContent content={post.content} />
 
           <div className="max-w-4xl mx-auto">
-
             <hr className="my-12 border-gray-100" />
             
             <AuthorBio 

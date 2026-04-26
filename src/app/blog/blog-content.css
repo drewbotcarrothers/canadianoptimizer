@@ -19,17 +19,35 @@
 }
 
 /* ===== HEADER ===== */
-.blog-content-exact header {
+.blog-content-exact header,
+.exact-header {
     background: linear-gradient(135deg, #d80621 0%, #b0051b 100%);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    width: 100%;
 }
 
-.blog-content-exact header h1 {
-    font-size: 2.4rem;
-    font-weight: 700;
+.exact-header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exact-header .meta {
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
     margin-bottom: 12px;
     line-height: 1.2;
     color: #fff;
