@@ -64,7 +64,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             datePublished: post.date,
             author: {
               '@type': 'Person',
-              name: displayAuthor,
+              name: post.author,
               url: 'https://canadianoptimizer.com/about'
             }
           }} 
