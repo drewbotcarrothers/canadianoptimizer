@@ -46,6 +46,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   if (isExactLayout) {
     const publishDate = new Date(post.date);
     const formattedDate = `Published ${publishDate.toLocaleString('default', { month: 'long' })} ${publishDate.getFullYear()}`;
+    const words = post.content.split(/\s+/).length;
+    const readTime = Math.ceil(words / 225);
 
     return (
       <article className="pb-20 blog-content-exact">
@@ -67,11 +69,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         {/* Standardized Header for Taxes/Retirement Posts */}
         <header className="exact-header">
           <div className="container mx-auto">
-            <h1>{post.title}</h1>
+            <h1 className="text-white">{post.title}</h1>
             <div className="meta">
               <span>By {post.author === 'Andrew' ? 'Andrew Carrothers' : post.author}</span> | 
               <span> {formattedDate}</span> | 
-              <span> 12 min read</span>
+              <span> {readTime} min read</span>
             </div>
           </div>
         </header>
