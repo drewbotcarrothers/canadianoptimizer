@@ -48,7 +48,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     const formattedDate = `Published ${publishDate.toLocaleString('default', { month: 'long' })} ${publishDate.getFullYear()}`;
     const words = post.content ? post.content.split(/\s+/).length : 0;
     const readTime = Math.ceil(words / 225);
-    const displayAuthor = post.author === 'Andrew' || post.author === 'Andrew Carrothers' ? 'Andrew Carrothers' : post.author;
 
     return (
       <article 
@@ -74,11 +73,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         {/* Standardized Header for Taxes/Retirement Posts */}
         <header className="exact-header" data-testid="blog-header">
           <div className="container mx-auto">
-            <h1 className="text-white" style={{ color: '#ffffff !important', display: 'block !important' }}>
-              {post.title}
+            <h1 id="blog-post-title" className="text-white">
+              {post.title || "Canadian Tax Strategy"}
             </h1>
             <div className="meta">
-              <span>By {displayAuthor}</span> | 
+              <span>By {post.author}</span> | 
               <span> {formattedDate}</span> | 
               <span> {readTime} min read</span>
             </div>
