@@ -9,7 +9,7 @@ export const posts = [
     date: "2026-02-01",
     excerpt: "Maximize Your Tax Savings",
     image: "/images/blog/federal-tax-brackets-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         The average Canadian overpays roughly $2,000 in taxes every year — and it often starts with a single misunderstanding about how tax brackets actually work.
@@ -307,7 +307,7 @@ export const posts = [
     date: "2026-02-01",
     excerpt: "BC's lowest bracket rate increased from 5.06% to 5.60% — a notable change for entry-level earners. This represents the most significant provincial ...",
     image: "/images/blog/provincial-tax-rates-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         A Canadian earning $100,000 in Alberta takes home roughly $4,800 more per year than someone earning the exact same salary in Nova Scotia. Same country, same job, same income — but your province quietly determines thousands of dollars of your tax bill.
@@ -1698,7 +1698,7 @@ export const posts = [
     date: "2026-02-04",
     excerpt: "Most people think of taxes as a mystery. You earn money, the government takes some of it, and you hope you're not paying too much. That's not under...",
     image: "/images/blog/how-canadian-taxes-work.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Canada's tax code contains over 400 deductions and credits — yet Statistics Canada found that in a single year, Canadians left $212 million of just one benefit (the Canada Workers Benefit) unclaimed. The problem isn't that taxes are too complicated. It's that nobody explains them in plain English.
@@ -2055,7 +2055,7 @@ export const posts = [
     date: "2026-02-05",
     excerpt: "H&R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
     image: "/images/blog/biggest-tax-mistake-canadians.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>H&R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly <span class="data-point">$3,000 per client</span> in missed deductions and credits. Multiply that across millions of Canadians, and we're talking <strong>billions left on the table every single year.</strong></p>
@@ -2321,7 +2321,7 @@ export const posts = [
     date: "2026-02-06",
     excerpt: "A single $10,000 RRSP contribution can save you between $1,400 and $3,300 in taxes — depending entirely on when and how you make it. Yet most Canad...",
     image: "/images/blog/rrsp-playbook-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>A single $10,000 RRSP contribution can save you between $1,400 and $3,300 in taxes — depending entirely on when and how you make it. Yet most Canadians treat their RRSP like a savings account they top up in February. That's not a strategy. It's a missed opportunity.</p>
@@ -2905,7 +2905,7 @@ export const posts = [
     date: "2026-02-10",
     excerpt: "Ready to optimize your entire tax strategy?",
     image: "/images/blog/tfsa-strategies-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         If you've been using your TFSA to hold a savings account earning 2% interest, you're using a Ferrari to drive to the mailbox. The Tax-Free Savings Account is arguably the most flexible and underrated wealth-building tool in Canada — and most Canadians barely scratch the surface of what it can do.
@@ -3361,7 +3361,7 @@ export const posts = [
     date: "2026-02-12",
     excerpt: "Since the First Home Savings Account launched in 2023, it's quietly become one of the most powerful wealth-building tools available to first-time h...",
     image: "/images/blog/fhsa-guide-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <strong>The FHSA is the only account in Canada that gives you a tax deduction when you put money in, tax-free growth while it's invested, AND tax-free withdrawals when you take it out.</strong> That's a triple tax advantage — something no RRSP or TFSA can match. If you're planning to buy your first home, ignoring this account is like leaving free money on the sidewalk.
@@ -3918,7 +3918,7 @@ export const posts = [
     date: "2026-02-13",
     excerpt: "Recommendation:",
     image: "/images/blog/rrsp-vs-tfsa-vs-fhsa-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Ask five financial advisors whether you should prioritize your RRSP or TFSA, and you'll get five different answers. That's because the "right" answer depends entirely on your income, your goals, and your tax bracket. Here's how to figure it out for yourself — no advisor needed.
@@ -4467,7 +4467,7 @@ export const posts = [
     date: "2026-02-14",
     excerpt: "Being an employed Canadian doesn't mean you're locked out of tax planning. In fact, the CRA allows dozens of deductions and credits specifically de...",
     image: "/images/blog/tax-deductions-employees-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         If you're a salaried employee in Canada, you might assume there's nothing you can do about your tax bill—your employer deducts everything at source, and that's that. But CRA data shows that employed Canadians collectively leave hundreds of millions of dollars in unclaimed deductions on the table every single year. Here are the ones you're probably missing.
@@ -4947,7 +4947,7 @@ export const posts = [
     date: "2026-02-19",
     excerpt: "What she claimed previously: Only basic personal amount. Tax owing: ~$1,200.",
     image: "/images/blog/missed-tax-credits-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <strong>Here's a sobering fact:</strong> Canada's tax system contains over 400 credits and deductions — and Statistics Canada found that $212 million of just one credit (the Canada Workers Benefit) went unclaimed in a single year. If that kind of money is left on the table for a single credit, imagine what's being missed across all 400. Recent surveys show that 4 in 10 Canadians believe they have unclaimed benefits, yet they don't pursue them. The H&R Block "Second Look" program found an average of $3,000 per client in missed refunds. This isn't about tax loopholes — it's about credits the government explicitly wants you to claim.
@@ -5283,7 +5283,7 @@ export const posts = [
     date: "2026-02-20",
     excerpt: "Self-employed Canadians have access to more than 40 legitimate tax deductions that salaried employees can only dream of — from home office costs to...",
     image: "/images/blog/self-employed-tax-guide-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>Self-employed Canadians have access to more than 40 legitimate tax deductions that salaried employees can only dream of — from home office costs to vehicle expenses to business meals. But here's the catch: if you don't know the rules, you'll either leave money on the table or accidentally trigger a CRA audit. This guide covers both sides.</p>
@@ -5970,7 +5970,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-02-24",
     excerpt: "At 9% federal tax on the first $500,000 of active business income, a Canadian corporation pays less than one-third the rate of the lowest personal ...",
     image: "/images/blog/should-you-incorporate-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>At 9% federal tax on the first $500,000 of active business income, a Canadian corporation pays less than one-third the rate of the lowest personal bracket. That sounds like a slam dunk — so why doesn't every freelancer incorporate? <strong>Because the real math is more complicated than the headline rate suggests.</strong></p>
@@ -6594,7 +6594,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-02-25",
     excerpt: "Miss a single quarterly instalment payment and the CRA starts charging interest immediately — at a prescribed rate that currently sits around 10% a...",
     image: "/images/blog/quarterly-tax-instalments-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>Miss a single quarterly instalment payment and the CRA starts charging interest immediately — at a prescribed rate that currently sits around <span class="stat">10% annually, compounded daily</span>. For self-employed Canadians, understanding the instalment system isn't optional. It's the difference between a smooth tax season and an ugly surprise.</p>
@@ -6896,7 +6896,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-02-27",
     excerpt: "A Canadian family with two children under 6 could receive up to $15,994 per year in Canada Child Benefit payments alone — completely tax-free. Add ...",
     image: "/images/blog/tax-tips-families-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p>A Canadian family with two children under 6 could receive up to $15,994 per year in Canada Child Benefit payments alone — completely tax-free. Add in childcare deductions, RESP grants, spousal RRSPs, and pension splitting, and the tax code becomes one of the most powerful tools in a Canadian family's financial arsenal. But only if you know how to use it.</p>
@@ -7337,7 +7337,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-02",
     excerpt: "Life happens. Weddings, births, career changes, relocations, separations, and loss are all inevitable parts of the human experience. What's less ob...",
     image: "/images/blog/life-events-tax-implications-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Getting married, having a baby, buying a home, changing jobs, getting divorced, losing a spouse — life doesn't pause for tax season. But every major life event triggers tax consequences that most Canadians don't see coming. A divorce can shift tens of thousands in tax liability. A death can trigger a six-figure deemed disposition. And a simple move for work can unlock one of Canada's most generous deductions.
@@ -7792,7 +7792,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-04",
     excerpt: "You bought 100 shares of ABC Corp at $50/share ($5,000 total). You sell them at $70/share ($7,000 total).",
     image: "/images/blog/tax-efficient-investing-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <strong>Two Canadian investors each earn $10,000 from their portfolios.</strong> One pays $2,965 in tax. The other pays just $906. Same return, same income level, same province — the only difference is the type of investment income. Understanding how different investment returns are taxed is the single most impactful thing you can do for your after-tax wealth.
@@ -8469,7 +8469,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-05",
     excerpt: "Ready to Optimize Your Retirement Income Plan?",
     image: "/images/blog/retirement-income-planning-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Here's a number every Canadian approaching retirement needs to know: <strong>$95,323</strong>. That's the income threshold where the government starts clawing back your Old Age Security — at a rate of 15 cents for every dollar above the line. For a couple with pensions, RRSPs, and investment income, crossing that threshold without a plan can cost you over <strong>$7,500 per year</strong> in lost OAS benefits.
@@ -8993,7 +8993,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-06",
     excerpt: "Did you know? Canadians who use the right tax software can save an average of 1–3 hours on filing and potentially uncover hundreds of dollars in mi...",
     image: "/images/blog/best-tax-software-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p><strong>Did you know?</strong> Canadians who use the right tax software can save an average of 1–3 hours on filing and potentially uncover hundreds of dollars in missed deductions. With over 30 CRA-certified options available, choosing the wrong tool can cost you in both time and refund.</p>
@@ -9362,7 +9362,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-09",
     excerpt: "The CRA audits approximately 0.5–1% of individual tax returns annually, but when you're selected, the uncertainty can feel overwhelming. A CRA audi...",
     image: "/images/blog/cra-audit-guide-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p><strong>The CRA audits approximately 0.5–1% of individual tax returns annually</strong>, but when you're selected, the uncertainty can feel overwhelming. A CRA audit doesn't automatically mean you've done something wrong—yet knowing your rights, understanding the process, and preparing proper documentation can make all the difference between a smooth review and a costly reassessment. This guide walks you through every stage of a CRA audit, from what triggers one to how to respond effectively.</p>
@@ -9710,7 +9710,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-10",
     excerpt: "Did you know? 47% of Canadian taxpayers make mistakes on their tax returns due to missing or disorganized records. The CRA receives over 2 million ...",
     image: "/images/blog/tax-record-keeping-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p><strong>Did you know?</strong> 47% of Canadian taxpayers make mistakes on their tax returns due to missing or disorganized records. The CRA receives over 2 million tax adjustments annually because individuals cannot properly document their deductions. <em>This guide ensures you'll never be caught without the evidence you need.</em></p>
@@ -10033,7 +10033,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-16",
     excerpt: "Canadians leave an average of $1,200 on the table annually because they miss key tax planning windows. A simple calendar that tracks CRA deadlines ...",
     image: "/images/blog/tax-planning-calendar-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         <p><strong>Canadians leave an average of $1,200 on the table annually</strong> because they miss key tax planning windows. A simple calendar that tracks CRA deadlines month by month can recover that money—plus identify year-end opportunities you'd otherwise overlook.</p>
@@ -10533,7 +10533,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-19",
     excerpt: "Every spring, millions of Canadians face the same question: should I file my own taxes, or pay someone to do it? The answer depends on your situati...",
     image: "/images/blog/working-with-tax-professional-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         A CPA charges <strong>$200–$400</strong> to prepare the average Canadian tax return. That same CPA routinely finds <strong>$1,000–$5,000</strong> in missed deductions and credits. The math isn't close — yet most Canadians still file on their own and leave money on the table every single year.
@@ -10826,7 +10826,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-28",
     excerpt: "This is the checklist you bookmark and open every tax season. It covers over 60 deductions, credits, and tax-saving opportunities available to Cana...",
     image: "/images/blog/tax-deduction-checklist-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         The CRA estimates that Canadians leave <strong>over $1 billion</strong> in unclaimed tax benefits on the table every year. This isn't money hidden behind obscure loopholes — it's standard deductions and credits that people simply don't know about or forget to claim. This checklist is designed to fix that.
@@ -11111,7 +11111,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-29",
     excerpt: "The following table covers every key deadline for the 2026 tax year, organized chronologically. Dates marked with an asterisk (*) apply to the 2025...",
     image: "/images/blog/cra-deadlines-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Miss your RRSP deadline by one day and you lose an entire year of tax-deductible contribution room. File your return late and the CRA charges <strong>5% of your balance owing plus 1% per month</strong>, up to 12 months. These dates aren't suggestions — they're the architecture of your tax year.
@@ -11299,7 +11299,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-30",
     excerpt: "The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year ...",
     image: "/images/blog/contribution-limits-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         Between your RRSP, TFSA, FHSA, and RESP, you could shelter over <strong>$58,000</strong> in contributions in a single year — generating thousands in tax savings and government grants. Here's every number you need for 2026.
@@ -11581,7 +11581,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-03",
     excerpt: "This glossary is excerpted from How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition. For detailed strategies behind each concept...",
     image: "/images/blog/tax-glossary-2026.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
     <div class="hook">
         The Canadian tax system has its own language. Understanding these terms isn't just academic — it's the difference between <strong>claiming every dollar you're owed</strong> and leaving money on the CRA's table. This glossary translates tax jargon into plain English.
@@ -12065,7 +12065,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-01",
     excerpt: "The average Canadian couple will spend approximately $1.",
     image: "/images/blog/how-much-money-retire-canada.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>The average Canadian couple will spend approximately \$1.7 million over a 25-year retirement, yet 32% of Canadians have saved less than \$100,000.</strong> That gap feels paralyzing—but here's the good news: it doesn't have to be. The real question isn't "How much did someone else need?" but "What does *your* retirement actually cost?" This guide cuts through the noise and shows you how to calculate your exact number.</p></div>
 
@@ -12151,7 +12151,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-04",
     excerpt: "A 30-year-old saving $400/month retires with $714,000.",
     image: "/images/blog/retirement-planning-by-age.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>A 30-year-old saving \$400/month retires with \$714,000. A 40-year-old needs to save \$1,030/month to match that outcome. Every decade of delay roughly doubles the price.</strong> Yet the actions you take at each age are wildly different—what matters most at 30 is irrelevant at 50, and vice versa. This guide walks you through the exact priorities for each decade, so you're always working on what actually moves the needle.</p></div>
 
@@ -12224,7 +12224,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-06",
     excerpt: "Taking CPP at 60 instead of 70 costs you $1,064 per month — forever.",
     image: "/images/blog/cpp-when-to-take-canada.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Taking CPP at 60 instead of 70 costs you \$1,064 per month — forever.</strong> That's a lifetime difference of hundreds of thousands of dollars. If this feels overwhelming, you're not alone — CPP decisions are among the most consequential you'll make in retirement, and the stakes are real.</p></div>
 
@@ -12272,7 +12272,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-09",
     excerpt: "For every dollar above $90,997 in net income, the government takes back 15 cents of your OAS — on top of your regular income tax.",
     image: "/images/blog/oas-gis-clawback-canada.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>For every dollar above \$90,997 in net income, the government takes back 15 cents of your OAS — on top of your regular income tax.</strong> That means a <strong>15% additional tax rate</strong> on income in the clawback zone, reducing an already tight retirement budget. For high-income retirees, this can escalate quickly: hit \$148,000 net income, and you've lost 100% of your OAS, permanently.</p></div>
 
@@ -12329,7 +12329,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-11",
     excerpt: "Your employer offers you a $54,000-per-year pension for life OR a $780,000 lump sum.",
     image: "/images/blog/db-vs-dc-pensions-canada-high-fidelity.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Your employer offers you a \$54,000-per-year pension for life OR a \$780,000 lump sum.</strong> Choose wrong, and you could lose hundreds of thousands of dollars — or worse, run out of money in your 90s. This decision hits differently than any other retirement choice because it's often irreversible and involves trusting either your employer's solvency or your own investment skill.</p></div>
 
@@ -12369,7 +12369,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-14",
     excerpt: "Optimize your Canadian retirement strategy.",
     image: "/images/blog/rrsp-meltdown-strategy.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 
 
@@ -12788,7 +12788,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-16",
     excerpt: "Optimize your Canadian retirement strategy.",
     image: "/images/blog/tfsa-retirement-strategy.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 
 
@@ -13300,7 +13300,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-19",
     excerpt: "Drawing from the wrong account in the wrong year can cost a Canadian retiree over $100,000 in unnecessary taxes over a 25-year retirement.",
     image: "/images/blog/retirement-withdrawal-strategy.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Drawing from the wrong account in the wrong year can cost a Canadian retiree over \$100,000 in unnecessary taxes over a 25-year retirement.</strong> Most people spend decades carefully accumulating wealth, yet never plan their withdrawal sequence at all. The good news? With a deliberate strategy, you can legally keep tens of thousands more.</p></div>
 
@@ -13348,7 +13348,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-21",
     excerpt: "A 30% market crash in your first year of retirement can permanently destroy your portfolio — even if markets fully recover the next year.",
     image: "/images/blog/investing-bucket-strategy.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>A 30% market crash in your first year of retirement can permanently destroy your portfolio — even if markets fully recover the next year.</strong> It's called sequence-of-returns risk, and it's the #1 threat retirees never plan for. Yet most retirement plans ignore it entirely.</p></div>
 
@@ -13398,7 +13398,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-24",
     excerpt: "Provincial health insurance covers doctor visits and hospital stays — but it won't pay for the $4,800/year in prescription drugs, $2,000 in dental work, or the $200,000 medical emergency in Florida.",
     image: "/images/blog/healthcare-costs-retirement.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Provincial health insurance covers doctor visits and hospital stays — but it won't pay for the \$4,800/year in prescription drugs, \$2,000 in dental work, or the \$200,000 medical emergency in Florida.</strong> Most Canadians assume provincial healthcare means "fully covered in retirement." The reality? Significant gaps that can derail your retirement budget if you're not prepared.</p></div>
 
@@ -13466,7 +13466,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-26",
     excerpt: "One in three Canadians over 65 will need long-term care — and a private room in a nursing facility can cost over $8,000/month.",
     image: "/images/blog/long-term-care-costs.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>One in three Canadians over 65 will need long-term care — and a private room in a nursing facility can cost over \$8,000/month. Fewer than 5% of Canadians have a plan to pay for it.</strong> Most retirees assume they'll never need care, or that it will be cheap because "Canada has public healthcare." Reality check: most care is private, and the costs are staggering.</p></div>
 
@@ -13530,7 +13530,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-29",
     excerpt: "Selling a $700,000 home and buying a $450,000 condo should free up $250,000 — right? After commissions, land transfer tax, legal fees, and moving costs, you'll net closer to $185,000.",
     image: "/images/blog/housing-decisions-retirement.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Selling a \$700,000 home and buying a \$450,000 condo should free up \$250,000 — right? After commissions, land transfer tax, legal fees, and moving costs, you'll net closer to \$185,000.</strong> Housing is often retirees' biggest asset, and the assumption is simple: sell the house, pocket the difference, invest it for income. But the hidden costs of buying and selling real estate are staggering.</p></div>
 
@@ -13615,7 +13615,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-03-31",
     excerpt: "The happiest retirees aren't the wealthiest — they're the ones with the strongest sense of purpose.",
     image: "/images/blog/how-to-enjoy-retirement.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>The happiest retirees aren't the wealthiest — they're the ones with the strongest sense of purpose. Research shows retirees without a plan for their time are 40% more likely to experience depression in the first two years.</strong> You've spent 40+ years defining yourself by your job, schedule, and productivity. Retirement strips all that away simultaneously. If you haven't planned for what comes next, you'll spend the first year lost and the next decade slowly declining.</p></div>
 
@@ -13670,7 +13670,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-03",
     excerpt: "If you die without a will in Ontario, your spouse may not inherit everything — even if you've been married for 30 years.",
     image: "/images/blog/estate-planning-wills-poa.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>If you die without a will in Ontario, your spouse may not inherit everything — even if you've been married for 30 years.</strong> In some provinces, your common-law partner could inherit <strong>nothing at all</strong>. Most Canadians assume their family will automatically get what they're owed. The reality is harsher: intestacy laws vary drastically by province, and without proper planning, your family could spend months in court and tens of thousands of dollars fighting over your estate. This guide walks you through the legal tools that actually protect your family.</p></div>
 
@@ -13706,7 +13706,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-05",
     excerpt: "When you die, the CRA treats you as if you sold every investment you own.",
     image: "/images/blog/tax-efficient-wealth-transfer.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>When you die, the CRA treats you as if you sold every investment you own.</strong> A <strong>\$500,000</strong> RRSP and <strong>\$300,000</strong> in unrealized capital gains could generate a tax bill exceeding <strong>\$200,000</strong>. But with proper planning, it doesn't have to. Most Canadians know they'll pay tax on death, but few understand which taxes apply, which assets trigger the biggest bills, or how to redirect wealth to heirs with minimal government erosion. This guide maps the tax landscape at death and shows you the strategies that actually work.</p></div>
 
@@ -13742,7 +13742,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-08",
     excerpt: "Your family will inherit more than money — they'll inherit your values, your stories, and 247 online accounts they don't know the passwords to.",
     image: "/images/blog/retirement-legacy-digital-assets.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Your family will inherit more than money — they'll inherit your values, your stories, and 247 online accounts they don't know the passwords to.</strong> When you die, your digital footprint remains: email accounts, social media profiles, banking apps, cryptocurrency wallets, subscription services, and photo libraries sit locked behind passwords. Your family struggles to access them, memorial pages conflict with your wishes, and private photos could be lost forever. Meanwhile, an ethical will—a letter expressing your values and life lessons—often becomes the most treasured part of your legacy. This guide covers both the intangible wisdom you want to pass on and the practical steps to protect your digital life.</p></div>
 
@@ -13787,7 +13787,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-10",
     excerpt: "You've learned the pieces—CPP, OAS, RRSPs, TFSAs, withdrawal strategies, estate planning.",
     image: "/images/blog/build-retirement-plan-7-steps.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>You've learned the pieces—CPP, OAS, RRSPs, TFSAs, withdrawal strategies, estate planning.</strong> But knowing the ingredients doesn't make you a chef. Now it's time to assemble them into a single, unified plan. Here are the seven steps that separate a hope from a strategy.</p></div>
 
@@ -13821,7 +13821,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     date: "2026-04-13",
     excerpt: "Mistake #7 alone—paying 2% in investment fees instead of 0.",
     image: "/images/blog/biggest-retirement-mistakes.png",
-    content: \`<div class="container">
+    content: `<div class="container">
 
 <div class="hook"><p><strong>Mistake #7 alone—paying 2% in investment fees instead of 0.2%—can cost you \$340,000 over a 25-year retirement on a \$500,000 portfolio.</strong> That's enough to add five years of travel or cover a serious health crisis. Yet thousands of Canadians are making it right now without knowing the cost. Here are the 15 most expensive retirement mistakes Canadians make—and how to avoid them.</p></div>
 
