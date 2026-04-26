@@ -55,6 +55,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         data-post-slug={post.slug} 
         data-post-category={post.categorySlug}
       >
+        <div style={{ display: 'none' }} id="diagnostic-data" data-metadata={JSON.stringify({ title: post.title, author: post.author, categorySlug: post.categorySlug })}></div>
         <SchemaMarkup 
           type="Article" 
           data={{
