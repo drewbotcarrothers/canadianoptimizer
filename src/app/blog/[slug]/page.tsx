@@ -49,6 +49,15 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     const words = post.content ? post.content.split(/\s+/).length : 0;
     const readTime = Math.ceil(words / 225);
 
+    // Transform content to inject the featured image after the hook
+    let contentWithImage = post.content;
+    if (post.image && post.content.includes('class="hook"')) {
+      contentWithImage = post.content.replace(
+        /(<div class="hook">[\s\S]*?<\/div>)/,
+        `$1<img src="${post.image}" alt="${post.title}" class="post-featured-image" />`
+      );
+    }
+
     return (
       <article 
         className="pb-20 blog-content-exact" 
@@ -85,7 +94,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </header>
 
         <div className="container mx-auto py-16">
-          <ClientBlogContent content={post.content} />
+          <ClientBlogContent content={contentWithImage} />
 
           <div className="max-w-4xl mx-auto">
             <hr className="my-12 border-gray-100" />
