@@ -2324,7 +2324,7 @@ export const posts = [
     content: `<div class="container">
 
     <div class="hook">
-        <p>A single $10,000 RRSP contribution can save you between $1,800 and $5,480 in taxes — depending entirely on when and how you make it. Yet most Canadians treat their RRSP like a savings account they top up in February. That's not a strategy. It's a missed opportunity.</p>
+        A single $10,000 RRSP contribution can save you between $1,800 and $5,480 in taxes — depending entirely on when and how you make it. Yet most Canadians treat their RRSP like a savings account they top up in February. That's not a strategy. It's a missed opportunity.
     </div>
 
     <p>If you're earning an income in Canada, you have access to one of the most powerful tax-reduction tools available: the Registered Retirement Savings Plan. Yet most people get it wrong.</p>
