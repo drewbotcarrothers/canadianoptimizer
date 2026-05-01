@@ -3048,58 +3048,68 @@ export const posts = [
 
         <div class="chart-container">
 <div>
-<svg viewbox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 340" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; padding: 10px;">
 <!-- Title -->
 <text fill="#333" font-size="18" font-weight="bold" text-anchor="middle" x="300" y="25">
-                            TFSA Growth: GICs vs. Index ETFs Over 20 Years
-                        </text>
-<text fill="#666" font-size="12" text-anchor="middle" x="300" y="45">
-                            Starting with $109,000 capital
-                        </text>
-<!-- Y-axis label -->
-<text fill="#666" font-size="11" x="15" y="80">$900K</text>
-<text fill="#666" font-size="11" x="15" y="130">$700K</text>
-<text fill="#666" font-size="11" x="15" y="180">$500K</text>
-<text fill="#666" font-size="11" x="15" y="230">$300K</text>
-<text fill="#666" font-size="11" x="15" y="280">$100K</text>
-<!-- Axes -->
-<line stroke="#333" stroke-width="2" x1="40" x2="40" y1="60" y2="290"></line>
-<line stroke="#333" stroke-width="2" x1="40" x2="580" y1="290" y2="290"></line>
-<!-- Grid lines -->
-<line stroke="#e0e0e0" stroke-width="1" x1="40" x2="580" y1="80" y2="80"></line>
-<line stroke="#e0e0e0" stroke-width="1" x1="40" x2="580" y1="130" y2="130"></line>
-<line stroke="#e0e0e0" stroke-width="1" x1="40" x2="580" y1="180" y2="180"></line>
-<line stroke="#e0e0e0" stroke-width="1" x1="40" x2="580" y1="230" y2="230"></line>
-<!-- Bars for GICs (3% return) -->
-<!-- 5 year: $126,436 -->
-<rect fill="#3f51b5" height="50" opacity="0.8" width="35" x="80" y="240"></rect>
-<text fill="#333" font-size="11" text-anchor="middle" x="97.5" y="310">5yr</text>
-<!-- 10 year: $146,544 -->
-<rect fill="#3f51b5" height="75" opacity="0.8" width="35" x="130" y="215"></rect>
-<text fill="#333" font-size="11" text-anchor="middle" x="147.5" y="310">10yr</text>
-<!-- 15 year: $170,011 -->
-<rect fill="#3f51b5" height="100" opacity="0.8" width="35" x="180" y="190"></rect>
-<text fill="#333" font-size="11" text-anchor="middle" x="197.5" y="310">15yr</text>
-<!-- 20 year: $197,748 -->
-<rect fill="#3f51b5" height="125" opacity="0.8" width="35" x="230" y="165"></rect>
-<text fill="#333" font-size="11" text-anchor="middle" x="247.5" y="310">20yr</text>
-<!-- Bars for Index ETFs (7% return) -->
-<!-- 5 year: $152,753 -->
-<rect fill="#d80621" height="65" opacity="0.8" width="35" x="290" y="225"></rect>
-<!-- 10 year: $214,200 -->
-<rect fill="#d80621" height="135" opacity="0.8" width="35" x="340" y="155"></rect>
-<!-- 15 year: $300,500 -->
-<rect fill="#d80621" height="210" opacity="0.8" width="35" x="390" y="80"></rect>
-<!-- 20 year: $420,759 -->
-<rect fill="#d80621" height="290" opacity="0.8" width="35" x="440" y="0"></rect>
+    TFSA Growth: GICs vs. Index ETFs Over 20 Years
+</text>
+<text fill="#666" font-size="13" text-anchor="middle" x="300" y="45">
+    Starting with $109,000 maximum contribution room
+</text>
+
 <!-- Legend -->
-<rect fill="#3f51b5" height="20" opacity="0.8" width="20" x="470" y="70"></rect>
-<text fill="#333" font-size="12" x="500" y="85">3% GIC Returns</text>
-<rect fill="#d80621" height="20" opacity="0.8" width="20" x="470" y="100"></rect>
-<text fill="#333" font-size="12" x="500" y="115">7% ETF Returns</text>
-<!-- Values on bars -->
-<text fill="white" font-size="10" font-weight="bold" text-anchor="middle" x="247.5" y="155">$198K</text>
-<text fill="white" font-size="10" font-weight="bold" text-anchor="middle" x="440" y="240">$421K</text>
+<rect fill="#3f51b5" height="15" opacity="0.85" width="15" x="140" y="65"></rect>
+<text fill="#333" font-size="12" font-weight="bold" x="160" y="77">GICs (3%)</text>
+<rect fill="#d80621" height="15" opacity="0.85" width="15" x="350" y="65"></rect>
+<text fill="#333" font-size="12" font-weight="bold" x="370" y="77">Index ETFs (7%)</text>
+
+<!-- Grid lines & Y-axis labels ($0 to $500K) -->
+<text fill="#666" font-size="11" text-anchor="end" x="35" y="244">$100K</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="40" x2="580" y1="240" y2="240"></line>
+
+<text fill="#666" font-size="11" text-anchor="end" x="35" y="194">$200K</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="40" x2="580" y1="190" y2="190"></line>
+
+<text fill="#666" font-size="11" text-anchor="end" x="35" y="144">$300K</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="40" x2="580" y1="140" y2="140"></line>
+
+<text fill="#666" font-size="11" text-anchor="end" x="35" y="94">$400K</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="40" x2="580" y1="90" y2="90"></line>
+
+<text fill="#666" font-size="11" text-anchor="end" x="35" y="44">$500K</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="40" x2="580" y1="40" y2="40"></line>
+
+<!-- Axes -->
+<line stroke="#333" stroke-width="2" x1="40" x2="40" y1="40" y2="290"></line>
+<line stroke="#333" stroke-width="2" x1="40" x2="580" y1="290" y2="290"></line>
+
+<!-- Group 1: 5 Years -->
+<rect fill="#3f51b5" height="63" opacity="0.85" width="40" x="65" y="227"></rect>
+<text fill="#333" font-size="11" font-weight="bold" text-anchor="middle" x="85" y="222">$126K</text>
+<rect fill="#d80621" height="76" opacity="0.85" width="40" x="110" y="214"></rect>
+<text fill="#d80621" font-size="11" font-weight="bold" text-anchor="middle" x="130" y="209">$153K</text>
+<text fill="#333" font-size="13" font-weight="bold" text-anchor="middle" x="107.5" y="315">5 Years</text>
+
+<!-- Group 2: 10 Years -->
+<rect fill="#3f51b5" height="73" opacity="0.85" width="40" x="200" y="217"></rect>
+<text fill="#333" font-size="11" font-weight="bold" text-anchor="middle" x="220" y="212">$147K</text>
+<rect fill="#d80621" height="107" opacity="0.85" width="40" x="245" y="183"></rect>
+<text fill="#d80621" font-size="11" font-weight="bold" text-anchor="middle" x="265" y="178">$214K</text>
+<text fill="#333" font-size="13" font-weight="bold" text-anchor="middle" x="242.5" y="315">10 Years</text>
+
+<!-- Group 3: 15 Years -->
+<rect fill="#3f51b5" height="85" opacity="0.85" width="40" x="335" y="205"></rect>
+<text fill="#333" font-size="11" font-weight="bold" text-anchor="middle" x="355" y="200">$170K</text>
+<rect fill="#d80621" height="150" opacity="0.85" width="40" x="380" y="140"></rect>
+<text fill="#d80621" font-size="11" font-weight="bold" text-anchor="middle" x="400" y="135">$301K</text>
+<text fill="#333" font-size="13" font-weight="bold" text-anchor="middle" x="377.5" y="315">15 Years</text>
+
+<!-- Group 4: 20 Years -->
+<rect fill="#3f51b5" height="99" opacity="0.85" width="40" x="470" y="191"></rect>
+<text fill="#333" font-size="11" font-weight="bold" text-anchor="middle" x="490" y="186">$198K</text>
+<rect fill="#d80621" height="210" opacity="0.85" width="40" x="515" y="80"></rect>
+<text fill="#d80621" font-size="11" font-weight="bold" text-anchor="middle" x="535" y="75">$421K</text>
+<text fill="#333" font-size="13" font-weight="bold" text-anchor="middle" x="512.5" y="315">20 Years</text>
 </svg>
 </div>
 </div>
