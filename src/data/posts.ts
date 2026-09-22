@@ -1,6 +1,848 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 export const posts = [
   {
+    title: "Meeting Minimum Spends Without Buying Junk or Freezing Cash Flow",
+    slug: "card-churning-minimum-spend",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-18",
+    excerpt: "How to clear a Canadian welcome-bonus minimum with spending you already have — without junk purchases, frozen cash flow, or a carried balance.",
+    image: "/images/blog/card-churning-minimum-spend.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A welcome bonus is not a discount on stuff you were never going to buy. On a Canadian card, the bonus is usually locked behind a minimum spend — often a few thousand dollars inside roughly three months — and the people who come out ahead are the ones who <span class="highlight">route spending they already had</span>, not the ones who invent new spending to “hit the offer.”
+    </div>
+
+    <p>Card churning, done properly, is a cash-flow problem with a deadline. You are trying to move ordinary household spend onto one card before a date, pay the statement in full, and keep enough unused credit that the next application is not a mess. You are not trying to become a person who owns three air fryers and a frozen float of prepaid cards.</p>
+
+    <p>This is the operating system we use. Offers, annual fees, and what counts as eligible spend change constantly. Nothing below is a current bonus amount or a rate. Confirm the offer on the issuer’s own page the day you apply, and read the exclusions.</p>
+
+    <div class="callout">
+        <strong>The only number that matters first:</strong>
+        <p>Bonus value, after a realistic redemption, minus annual fee, minus any fee you pay to force spend through, minus interest if you fail to pay in full. If that result is not clearly positive, skip the card. A bonus you finance at credit-card interest is not a strategy.</p>
+    </div>
+
+    <h2>Map the spend you already have before you apply</h2>
+
+    <p>Open the last three months of chequing and credit-card statements. You are looking for charges that are real, timed, and unlikely to be excluded. Typical Canadian candidates:</p>
+
+    <ul>
+        <li><strong>Groceries, fuel, pharmacies, and restaurants</strong> you will buy anyway. These almost always count, but merchant category codes are messy — a big-box grocer can code as a general retailer or a wholesale club.</li>
+        <li><strong>Insurance premiums</strong> (home, auto, tenant) if the insurer accepts the card without a surcharge that eats the bonus. Annual policies that renew inside the window are ideal because they are large and non-optional.</li>
+        <li><strong>Property tax, utilities, daycare, and telecom</strong> only when the payee takes cards directly and does not add a convenience fee larger than the bonus is worth.</li>
+        <li><strong>Planned purchases already in the budget</strong> — tires, a laptop you were replacing, a flight you were booking in cash. Pull them forward only if you would have bought them inside the year regardless.</li>
+        <li><strong>Medical, dental, and professional fees</strong> you are paying out of pocket and will not put on a payment plan.</li>
+    </ul>
+
+    <p>Add it up. If organic spend inside the offer window already clears the minimum with a buffer of 10 to 15 percent, you do not need a trick. If it does not, you either wait for a month when spend is naturally higher (insurance renewal, property tax installment, a known trip) or you do not apply yet.</p>
+
+    <div class="tip-box">
+        <strong>Buffer, not bravado:</strong>
+        <p>Returns, cancelled bookings, and merchants that delay posting can leave you short on the last day. Aim to cross the threshold at least two weeks before the deadline, and keep the issuer’s spend tracker — if they publish one — next to your own spreadsheet. The issuer’s definition of “posted” is the one that counts.</p>
+    </div>
+
+    <h2>What actually counts, and what quietly does not</h2>
+
+    <p>Canadian card agreements are not uniform. Before you move a large payment, search the offer terms for exclusions. The patterns that show up again and again:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction</th>
+                <th>Usually counts?</th>
+                <th>The catch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ordinary retail, grocery, travel, dining</td>
+                <td><span class="highlight">Yes</span></td>
+                <td>Posted date, not purchase date, must fall inside the window.</td>
+            </tr>
+            <tr>
+                <td>Balance transfers and cash advances</td>
+                <td>No</td>
+                <td>Interest starts immediately. Never use these to manufacture a bonus.</td>
+            </tr>
+            <tr>
+                <td>Cash-like instruments (some money orders, some prepaid loads, some wire products)</td>
+                <td>Often excluded</td>
+                <td>May be treated as a cash advance even when the terminal looks like a purchase.</td>
+            </tr>
+            <tr>
+                <td>Refunds and reversed charges</td>
+                <td>They subtract</td>
+                <td>A return after you “hit” the spend can drop you back under the line and forfeit the bonus.</td>
+            </tr>
+            <tr>
+                <td>Third-party bill payment (rent, CRA, property tax)</td>
+                <td>Sometimes</td>
+                <td>You pay a percentage fee. Only worth it when bonus value clearly exceeds that fee.</td>
+            </tr>
+            <tr>
+                <td>Supplementary card spend</td>
+                <td>Often yes</td>
+                <td>Confirm in the terms. The primary cardholder is still liable for the balance.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>American Express acceptance is the other Canadian constraint. A large share of minimum-spend plans die at Loblaw-banner stores, Costco (Mastercard only), and smaller merchants that stopped taking Amex. If your organic spend is concentrated there, a Visa or Mastercard offer is the honest choice even when the Amex headline looks larger.</p>
+
+    <h2>Hitting a high minimum without freezing cash</h2>
+
+    <p>The failure mode is not “I bought junk.” It is “I prepaid three months of life and now the chequing account is thin, so the statement balance sits and starts accruing interest.” Interest will erase a welcome bonus in a single cycle. Protect cash flow in this order.</p>
+
+    <h3>1. Concentrate, do not create</h3>
+
+    <p>For the length of the offer, every eligible purchase in the household goes on that one card. Pause category cards, pause the debit tap, and tell a partner the deadline. Two people spending normally on one card often clears a mid-size minimum with nothing artificial.</p>
+
+    <h3>2. Pull forward only non-refundable obligations</h3>
+
+    <p>Paying an annual insurance premium in the first month of the window is clean: you owed it, the insurer keeps it, and you have not parked cash in a gift card. Prepaying a refundable hotel rate “just to hit spend,” then cancelling, is the opposite. Issuers claw bonuses back when the qualifying spend reverses, and repeated patterns can get the account shut.</p>
+
+    <div class="warning-box">
+        <strong>Do not manufacture spend:</strong>
+        <p>Buying gift cards you will not use, cycling payments through your own accounts, or inflating spend you intend to reverse breaches the spirit and often the letter of the cardholder agreement. It is also how people end up with a shutdown and a useless pile of plastic. If the organic math does not work, wait.</p>
+    </div>
+
+    <h3>3. Price the bill-pay fee before you use it</h3>
+
+    <p>Services that let you pay rent, property tax, or a CRA balance by credit card charge a percentage. That fee is real money. A rough test: if you are paying about 2 percent to move $5,000, you have spent about $100 for the privilege. The bonus has to be worth more than $100 <em>after</em> you subtract the annual fee and after you assume a redemption you will actually make — not a fantasy valuation of a point. Confirm the current fee on the service’s site. Do not pay the CRA or a landlord this way by default.</p>
+
+    <h3>4. Keep the float inside the statement cycle</h3>
+
+    <p>A large purchase early in the cycle gives you the statement period plus the grace period before cash leaves the account, provided you pay in full. A large purchase the day before the due date does not. If a single charge would push you to carry a balance, split the plan: smaller organic spend now, and apply for the card in a month when cash is thicker.</p>
+
+    <div class="example-box">
+        <strong>Example: a three-month window, no junk</strong>
+        <p>A household already spends about $2,200 a month on groceries, fuel, telecom, and restaurants. An auto policy renews in month one for $1,800 and the insurer takes Visa without a surcharge. That is roughly $8,400 of spend that was going to happen anyway. A minimum in the $5,000 range is cleared in month two, with room for a return. Nothing was bought to “make the bonus work,” and the chequing account only has to cover the statement, not a pile of prepaid cards.</p>
+    </div>
+
+    <h2>The application rules that protect the next card</h2>
+
+    <p>Churning is a sequence, not a single offer. The minimum-spend plan fails in slow motion if the next issuer declines you or if you torch the relationship with the current one.</p>
+
+    <ul>
+        <li><strong>Pay in full, on time, every time.</strong> Carrying a balance to “keep utilization looking active” is a myth that costs 20 percent-class interest. If you need reported utilization lower before another application, pay the balance down before the statement cuts.</li>
+        <li><strong>Space applications.</strong> Each hard inquiry is visible to the next lender. A tight cluster of applications is a common reason a later, better offer is declined. One card in play — fully under its spend deadline — is enough.</li>
+        <li><strong>Read the once-per-lifetime and repeat-bonus language.</strong> American Express in particular has long reserved the right not to award a welcome bonus to people who have held the card before. Bank Aeroplan and Avion-style offers have their own repeat rules. If you have had the product, assume you might not get the bonus and do not centre a plan on it.</li>
+        <li><strong>Do not close the card the week the bonus posts</strong> if you care about the relationship or the credit history. Product-change rules differ by bank. When a fee comes due on a card you will not use, decide then — downgrade where that exists, or close — with the annual-fee date on a calendar.</li>
+        <li><strong>Supplementary cards</strong> can help a couple pool spend, but the primary holder owns the debt. Do not add a cardholder who will not follow the “pay in full” rule.</li>
+    </ul>
+
+    <h2>A simple tracker that prevents the expensive mistakes</h2>
+
+    <p>Keep one row per card. If you will not maintain it, you should not be churning.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Why you write it down</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Application date and bonus deadline</td>
+                <td>The window is calendar math, not a feeling.</td>
+            </tr>
+            <tr>
+                <td>Minimum spend and issuer exclusions</td>
+                <td>Paste the clause. Do not trust memory.</td>
+            </tr>
+            <tr>
+                <td>Posted spend to date</td>
+                <td>Update when charges post, not when you tap.</td>
+            </tr>
+            <tr>
+                <td>Statement due date and “paid in full” checkbox</td>
+                <td>The bonus is worthless if interest starts.</td>
+            </tr>
+            <tr>
+                <td>Annual-fee date</td>
+                <td>So you are not surprised eleven months later.</td>
+            </tr>
+            <tr>
+                <td>Repeat-bonus restriction</td>
+                <td>So you do not apply for a card you cannot be bonused on again.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>When the right move is to skip the offer</h2>
+
+    <p>Skip it if organic spend will not clear the minimum without a fee-heavy bill-pay service or a purchase you would otherwise delay. Skip it if you are about to apply for a mortgage — several recent inquiries and new trade lines are a needless complication in underwriting. Skip it if you are already carrying balances elsewhere. And skip it if the redemption you are counting on requires a specific airline or hotel you do not actually use. A point you will never book is not a point.</p>
+
+    <div class="tip-box">
+        <strong>Pair this with the category decision:</strong>
+        <p>Minimum spend is how you earn a bonus once. The card you keep is a different question — travel points versus cash back, and which categories you actually spend in. Those are covered in the 2026 travel-rewards and cash-back comparisons on this site. Run the keep-or-cancel decision on the annual-fee date, not on the day the bonus posts.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Inventory three months of real spending</strong> before you apply. If it does not cover the minimum with a buffer, wait.</li>
+        <li><strong>Concentrate household spend</strong> on the new card. Do not buy inventory you will not use.</li>
+        <li><strong>Refunds reverse qualifying spend.</strong> Do not rely on cancellable bookings.</li>
+        <li><strong>Bill-pay services are a fee,</strong> not a loophole. They only make sense when the bonus still wins after the fee.</li>
+        <li><strong>Pay the statement in full.</strong> Interest is the tax that makes churning irrational.</li>
+        <li><strong>Confirm the live offer</strong> on the issuer’s site. Welcome bonuses and exclusions change without notice.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Rewards are one lever. Tax is the other.</strong></p>
+        <p>A welcome bonus does not fix a sloppy RRSP, TFSA, or deduction year. The 2026 tax guide is the longer play: bracket management, the Home Buyers’ Plan, and the credits people still miss.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how Canadian credit-card welcome offers tend to work. It is not a recommendation to apply for any specific card, and it is not credit, tax, or investment advice. Card offers, fees, earn rates, insurance, and what counts as qualifying spend change and differ by issuer. Read the current cardholder agreement and offer terms before you apply. Paying interest, or spending money you would not otherwise spend, can erase any benefit.</p>
+        <div class="footer-note">Published: September 18, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Best Travel Rewards Cards for Canadians in 2026",
+    slug: "best-travel-rewards-cards-canada-2026",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-20",
+    excerpt: "Choose a 2026 travel-rewards structure — Aeroplan, flexible points, or no foreign fee — based on how you actually fly and which merchants take the card.",
+    image: "/images/blog/best-travel-rewards-cards-canada-2026.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        There is no single best travel card in Canada in 2026. There is a best <span class="highlight">structure</span> for how you actually fly, where your merchants sit, and whether a foreign-transaction fee will quietly tax every trip. Pick the structure first. The logo is the last decision.
+    </div>
+
+    <p>Travel rewards writing on the Canadian internet is mostly a leaderboard of welcome bonuses. Bonuses change monthly, they are often once-per-product, and they tell you nothing about the card you still hold in year three. This guide is the year-three question: which family of cards is worth keeping, for which spending pattern, once the bonus is gone.</p>
+
+    <p>We are not quoting live earn rates, annual fees, or point valuations. Those figures move, and a stale number is worse than no number. Use the Financial Consumer Agency of Canada’s credit-card comparison tool and the issuer’s current page before you apply. What follows is the map.</p>
+
+    <div class="callout">
+        <strong>Offers change:</strong>
+        <p>Welcome bonuses, annual fees, transfer partners, and earn rates are marketing. Treat every specific number you see in an ad as expired until you confirm it on the issuer’s site the day you apply.</p>
+    </div>
+
+    <h2>The four structures that cover almost everyone</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Structure</th>
+                <th>You are optimizing for</th>
+                <th>Typical Canadian examples</th>
+                <th>The constraint</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aeroplan co-brand</td>
+                <td>Air Canada and Star Alliance award seats</td>
+                <td>TD, CIBC, and American Express Aeroplan cards</td>
+                <td>Points are stuck in one programme. A devaluation hits you directly.</td>
+            </tr>
+            <tr>
+                <td>Flexible bank or Membership Rewards points</td>
+                <td>The option to transfer, or to book travel in a portal</td>
+                <td>Amex Membership Rewards cards such as Cobalt, Gold, and Platinum; RBC Avion; some MBNA, BMO, and Scene+ products</td>
+                <td>Transfer partners and portal pricing change. Amex is not accepted everywhere.</td>
+            </tr>
+            <tr>
+                <td>No-foreign-fee travel card</td>
+                <td>Spending outside Canada without a 2.5% skim</td>
+                <td>Cards marketed with no foreign-transaction fee, historically including Scotiabank Passport and a handful of no-fee fintech cards</td>
+                <td>The earn rate on everyday Canadian spend is often ordinary. This card wins abroad, not at Loblaws.</td>
+            </tr>
+            <tr>
+                <td>Flat cash back</td>
+                <td>You book travel in cash and want a simple rebate</td>
+                <td>See the cash-back category guide</td>
+                <td>You give up award-seat leverage. Sometimes that is the correct trade.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>If you fly Air Canada a few times a year and you can use Aeroplan sweet spots without contorting a trip, a co-brand card is coherent. If you fly whoever is cheapest, or you mostly take the train and book hotels in cash, a locked airline currency is a hobby, not an optimization. Flexible points, or plain cash back, will usually dominate.</p>
+
+    <h2>Start with acceptance, not the earn rate</h2>
+
+    <p>The highest theoretical earn rate in Canada is useless at the merchants that refuse the network. Three patterns decide more outcomes than any bonus category:</p>
+
+    <ul>
+        <li><strong>American Express</strong> still earns well on grocery and dining cards in this market, and still fails at many Loblaw-banner stores, at Costco, and at a long list of independent merchants. If those stores are your life, Amex is a second card at most.</li>
+        <li><strong>Costco</strong> is Mastercard only. A Visa “grocery” accelerator often does not touch that spend, and Costco’s own merchant coding is not the same as a supermarket.</li>
+        <li><strong>Foreign transactions</strong> on a typical Canadian bank card still attract a fee around 2.5 percent. A card that earns a modest rebate but charges that fee is a loss on every euro and US dollar. Carry a no-foreign-fee card for trips even if your daily driver is something else.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>The two-card travel kit:</strong>
+        <p>One card for Canadian category spend you can actually place on that network, and one no-foreign-fee card that lives in the travel wallet. Adding a third card is justified only when a specific programme (usually Aeroplan) matches flights you already take.</p>
+    </div>
+
+    <h2>How to choose inside each structure</h2>
+
+    <h3>Aeroplan, if Air Canada is the product</h3>
+
+    <p>TD Aeroplan Visa Infinite, CIBC Aeroplan Visa Infinite, and the American Express Aeroplan lineup are the usual doors into the same currency. The optimization is not “which logo.” It is:</p>
+
+    <ul>
+        <li>Whether the card’s insurance certificate covers the trips you take (trip cancellation ceilings, who counts as a covered person, and whether a medical condition is excluded). Read the certificate, not the marketing tile.</li>
+        <li>Whether you will pay the annual fee after year one. A co-brand card you do not fly on is an expensive debit card.</li>
+        <li>Whether a repeat welcome bonus is even available to you. Many of these products restrict bonuses for recent or former cardholders.</li>
+    </ul>
+
+    <p>Aeroplan is a frequent-flyer programme with its own award chart politics. Points can be devalued. Do not stockpile a decade of spend in a single airline currency unless you have a redemption you can actually book.</p>
+
+    <h3>Flexible points, if you want an exit</h3>
+
+    <p>American Express Cobalt has been the workhorse of Canadian points writing for years because grocery and dining multipliers, plus Membership Rewards transfer partners, beat most bank portals <em>when the merchant takes Amex</em>. Amex Gold and Platinum sit above it with higher fees and travel credits that only pay off if you would have spent that money anyway. Credits you force yourself to use are not income.</p>
+
+    <p>RBC Avion, and bank ecosystems such as BMO Rewards, MBNA Rewards, and Scene+, solve a different problem: Visa or Mastercard acceptance, with points that sometimes transfer and sometimes only make sense in that bank’s travel portal. Portal redemptions should be compared with the cash price of the same ticket. A “1 cent per point” portal that sells you a marked-up fare is a discount code, not a travel hack.</p>
+
+    <div class="example-box">
+        <strong>Example: same household, two honest answers</strong>
+        <p>Household A flies Toronto–Vancouver on Air Canada four times a year, buys groceries at a store that takes Amex, and rarely leaves the country. An Aeroplan co-brand or a Membership Rewards card with an Aeroplan transfer is coherent, plus a no-foreign-fee card in a drawer for the occasional US trip. Household B flies whoever is cheapest, shops at Costco and a Loblaw banner, and spends a month in Europe. They should ignore Amex grocery multipliers, put Canadian spend on a Visa or Mastercard cash-back or flexible-points card, and put every foreign tap on a no-foreign-fee card. The “best card of 2026” list that ranks Household A’s answer first is wrong for Household B.</p>
+    </div>
+
+    <h3>No foreign fee, if the trip is the spend</h3>
+
+    <p>On a two-week trip, foreign-transaction fees compound across hotels, transit, and restaurants. A card with no foreign-transaction fee beats a richer domestic earn rate the moment you are outside Canada. Historically this group has included Scotiabank’s Passport Visa Infinite and several no-annual-fee fintech cards. The list changes. Confirm “no foreign transaction fee” in the current fee schedule, not in a 2024 blog post — including this one, after the month it was published.</p>
+
+    <div class="warning-box">
+        <strong>Dynamic currency conversion:</strong>
+        <p>Even a no-foreign-fee card loses if you accept a merchant’s offer to charge you in Canadian dollars at their rate. Always pay in the local currency. The card’s network rate is the one you meant to buy.</p>
+    </div>
+
+    <h2>Insurance, fees, and the keep-or-cancel date</h2>
+
+    <p>Premium travel cards in Canada are sold on insurance: emergency medical, trip cancellation, trip interruption, baggage, car-rental collision. The optimization is boring and specific.</p>
+
+    <ul>
+        <li>Check the maximum age, the pre-existing-condition clause, and the number of days covered. A policy that ends on day 15 is not coverage for a 21-day trip.</li>
+        <li>Check whether the full fare had to be charged to the card. Partial payment with points sometimes voids the coverage.</li>
+        <li>Subtract the annual fee from the insurance you would otherwise have bought, not from a fantasy. If you already have a workplace travel-medical plan, you may be paying twice.</li>
+    </ul>
+
+    <p>Put the annual-fee date in the same tracker you use for minimum spend. Thirty days before it posts, ask one question: in the last year, did the earn plus insurance you actually used exceed the fee versus a no-fee card? If you cannot show that on a scrap of paper, downgrade or close. Loyalty to a piece of plastic is not a strategy.</p>
+
+    <h2>What not to do with travel cards in 2026</h2>
+
+    <ul>
+        <li><strong>Do not value a point at the number in an affiliate headline.</strong> Value it at the redemption you will book in the next 18 months, after taxes and fees on the award ticket.</li>
+        <li><strong>Do not hold three annual-fee travel cards</strong> “for the insurance” if the certificates overlap and you fly twice a year.</li>
+        <li><strong>Do not ignore income and credit requirements.</strong> Infinite and World Elite products have minimums. A declined application is a hard inquiry for nothing.</li>
+        <li><strong>Do not churn a travel card in the months before a mortgage.</strong> New credit is a distraction you do not need in underwriting.</li>
+        <li><strong>Do not pay interest.</strong> A carried balance dominates any earn rate available on a Canadian consumer card.</li>
+    </ul>
+
+    <h2>A decision you can finish this week</h2>
+
+    <ol>
+        <li>List last year’s travel: airline, rough spend abroad, and whether you used award seats or cash.</li>
+        <li>Circle the merchants that will not take Amex. If they dominate, drop Amex from the daily-driver slot.</li>
+        <li>Pick one structure from the table. Ignore every other offer for this decision.</li>
+        <li>Open the issuer’s current fee and earn schedule. If the annual fee is not covered by a redemption you can name, choose a cheaper card in the same structure.</li>
+        <li>Add a no-foreign-fee card if the one you picked charges a foreign fee and you leave the country at all.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Minimum spend is a separate problem:</strong>
+        <p>If the card you want comes with a high spend requirement, do not invent purchases to clear it. Use the minimum-spend playbook: concentrate spending you already have, or wait. A travel card that pushes you into interest is the most expensive way to buy a flight.</p>
+    </div>
+
+    <div class="cta-section">
+        <p><strong>Points do not shelter investment income.</strong></p>
+        <p>The card decision is a few hundred dollars a year. Asset location — what sits in the TFSA versus a taxable account — is larger. The 2026 tax guide is the companion piece.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article compares categories of Canadian travel rewards cards in general terms. It is not a ranking of current offers and not a recommendation to apply for any product. Annual fees, earn rates, welcome bonuses, transfer partners, insurance wording, and eligibility change without notice. Confirm every figure with the issuer and, where useful, the Financial Consumer Agency of Canada before you apply. This is not credit advice.</p>
+        <div class="footer-note">Published: September 20, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Best Cash-Back Credit Cards by Spending Category for 2026",
+    slug: "best-cash-back-credit-cards-canada-2026",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-22",
+    excerpt: "Build a two- or three-card Canadian cash-back stack by spending category, and run the annual-fee test before you pay for an accelerator.",
+    image: "/images/blog/best-cash-back-credit-cards-canada-2026.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Cash back is the only rewards currency with an honest price: one cent is one cent. The 2026 optimization is not a single “best card.” It is a <span class="highlight">two- or three-card stack</span> matched to the categories you actually spend in — groceries, gas, recurring bills, foreign spend, and everything else — after annual fees.
+    </div>
+
+    <p>Category bonuses in Canada are real, and they are also a trap. A card that pays more at “grocery stores” may pay the base rate at Walmart, Costco, or a Superstore, because the merchant category code is not what you call the store. A card that looks rich on a Rogers, Fido, or Shaw bill only wins if you are the customer who can redeem that way. Earn rates, fee waivers, and bonus categories change. This guide gives you the decision frame and the names of the usual contenders. It does not give you a rate to memorize.</p>
+
+    <div class="callout">
+        <strong>Verify before you apply:</strong>
+        <p>Check the issuer’s current earn table and the annual fee on the day you apply. The Financial Consumer Agency of Canada publishes a credit-card comparison tool that is a better source than any roundup, including this one, once numbers are involved.</p>
+    </div>
+
+    <h2>The five spending buckets that decide the stack</h2>
+
+    <p>Export a year of transactions, or at least a honest month, and sort spend into these buckets. The percentages are yours, not the card’s.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bucket</th>
+                <th>What usually wins</th>
+                <th>Canadian catch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Groceries at a traditional supermarket</td>
+                <td>A grocery accelerator (Scotia Momentum, CIBC Dividend, Amex SimplyCash-style cards, Tangerine or Simplii category picks)</td>
+                <td>Loblaw banners often refuse Amex. The accelerator may not apply.</td>
+            </tr>
+            <tr>
+                <td>Costco and many Walmart shops</td>
+                <td>Often your flat-rate card, not the “grocery” card</td>
+                <td>Costco is Mastercard. Coding is frequently warehouse or discount store, not grocery.</td>
+            </tr>
+            <tr>
+                <td>Gas and transit</td>
+                <td>A gas category card, or a flat card if the category is thin</td>
+                <td>Wholesale-club fuel and some EV charging do not code as gas stations.</td>
+            </tr>
+            <tr>
+                <td>Recurring bills (telecom, insurance, streaming, utilities)</td>
+                <td>Cards that still pay a bonus on recurring payments, or a Rogers-family card if redemption against that bill is enhanced</td>
+                <td>Enhanced Rogers, Fido, and Shaw redemption has been a real edge for those customers. Confirm the current redemption rate; it has changed before.</td>
+            </tr>
+            <tr>
+                <td>Foreign spend</td>
+                <td>A no-foreign-transaction-fee card</td>
+                <td>A 2.5% fee wipes out a typical cash-back rate and then some.</td>
+            </tr>
+            <tr>
+                <td>Everything else</td>
+                <td>The best flat rate you can get after the fee</td>
+                <td>This bucket is usually the largest. Do not optimize groceries and ignore it.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Flat rate versus category accelerators</h2>
+
+    <p>A flat-rate card pays the same on almost every purchase. A category card pays more in one or two aisles and something forgettable everywhere else. The math is personal, and it is the whole game.</p>
+
+    <div class="example-box">
+        <strong>Example: fee versus incremental cash back</strong>
+        <p>Suppose a no-fee flat card returns roughly one percent, and a fee card returns a higher rate only on groceries. You spend $12,000 a year at stores that actually qualify as grocery. The fee card has to beat the no-fee card by enough dollars, on that $12,000 alone, to cover its annual fee — because the rest of your spend may be no better than the free card. If the fee is in the $100–$140 range that premium Canadian cash-back cards often charge, you need a meaningful gap, not a rounding error. Plug in the live rates. If the gap does not cover the fee, keep the no-fee card and stop reading rankings.</p>
+    </div>
+
+    <p>That is why “best cash-back card” lists that ignore your grocery merchant and your annual fee are not actionable. Run the fee test on your numbers, not on a sample budget from a bank’s landing page.</p>
+
+    <h2>The usual contenders, by the job they do</h2>
+
+    <p>These are categories of product Canadians actually use. They are not a ranking, and a name appearing here is not a claim about this month’s earn rate.</p>
+
+    <h3>Grocery and recurring-bill accelerators</h3>
+
+    <p>Scotiabank Momentum Visa Infinite and CIBC Dividend Visa Infinite have long been the bank cards people compare when groceries and recurring payments are the fat part of the budget. They are Visa, so they work in more places than Amex, and they charge an annual fee that must be earned back. Confirm which merchant codes the current terms include. “Grocery” is a defined list, not a feeling.</p>
+
+    <h3>Pick-your-category cards</h3>
+
+    <p>Tangerine Money-Back and Simplii Cash Back have been the no-fee (or low-friction) way to aim a higher rate at two or three categories you choose, with a lower rate on everything else. They suit someone who will not pay an annual fee and whose spend is concentrated. They are the wrong only-card if “everything else” is most of your life, unless the flat alternative is no better.</p>
+
+    <h3>Flat-rate cards, including Amex</h3>
+
+    <p>American Express SimplyCash and SimplyCash Preferred are the usual flat cash-back Amex products: simple, and blind at merchants that do not take Amex. A flat Visa or Mastercard with no fee is the comparison they have to beat on the spend you can actually place on Amex. If you cannot put Costco and your Loblaw store on it, discount the earn rate by the share of spend that never touches the card.</p>
+
+    <h3>Store ecosystems</h3>
+
+    <p>PC Financial World Elite pays inside the President’s Choice and Loblaw world, which is exactly where Amex grocery cards fail. Triangle World Elite (Canadian Tire) matters if Canadian Tire, Sport Chek, and the related gas network are a real share of spend, not a nostalgic one. Store cards are optimizers for a merchant, not for a life. Hold one only when the statement proves the merchant.</p>
+
+    <h3>Telecom redemption</h3>
+
+    <p>The Rogers World Elite Mastercard has, for Rogers, Fido, and Shaw customers, often been the strongest simple cash-back setup in the country because redemption against the Rogers bill has been boosted above the base earn. That boost is a commercial decision Rogers can change. If you are not a Rogers-family customer, do not assume you get the interesting version of the card. If you are, check the current redemption percentage before you treat it as the everything-card.</p>
+
+    <h3>No-foreign-fee cash back</h3>
+
+    <p>A cash-back card that charges a foreign-transaction fee is the wrong card the moment you leave Canada. Pair the domestic stack with one no-foreign-fee card. Several fintech and bank travel cards fill this role. The earn rate can be ordinary. Beating a 2.5 percent fee is the job.</p>
+
+    <div class="warning-box">
+        <strong>Fintech categories move:</strong>
+        <p>Neo and similar app-based cards have offered merchant-specific boosts that appear and disappear. Treat a boosted rate as a promotion with an end date. Do not build the year’s plan on a tile in an app.</p>
+    </div>
+
+    <h2>A stack that stays small</h2>
+
+    <p>Three cards is the maximum we would bother tracking. More than that and people mis-tap, miss a payment, and donate the cash back back to the bank as interest.</p>
+
+    <ul>
+        <li><strong>Card A — domestic accelerator.</strong> Groceries and any recurring category that truly codes in your favour. This is the fee card, and only if the fee test passes.</li>
+        <li><strong>Card B — flat everything-else.</strong> The no-fee or low-fee Visa or Mastercard that catches Costco, the places that refuse Amex, and the long tail.</li>
+        <li><strong>Card C — foreign.</strong> No foreign-transaction fee. It can stay at home between trips.</li>
+    </ul>
+
+    <p>If Card A fails the fee test, you do not have a stack. You have Card B, and that is a respectable outcome. Optimization includes refusing a product.</p>
+
+    <div class="tip-box">
+        <strong>One payment rule:</strong>
+        <p>Every card in the stack is paid in full by pre-authorized debit from chequing. A single missed payment on a “2 percent” card is a year of cash back gone. Set the pre-authorized amount to the full statement balance, not the minimum.</p>
+    </div>
+
+    <h2>Redemption details that change the winner</h2>
+
+    <ul>
+        <li><strong>Automatic statement credit versus points you must remember to redeem.</strong> Cash back that expires or sits in a portal is not cash. Prefer products that credit the statement or the linked bank account on a schedule you do not have to babysit.</li>
+        <li><strong>Minimum redemption thresholds.</strong> A card that will not pay out until you bank $25 or $50 can strand a balance if you close it. Know the rule before you product-switch.</li>
+        <li><strong>Annual-fee refunds on downgrade.</strong> Some issuers rebate a fee if you cancel or downgrade inside a short window, and some do not. Ask before you assume.</li>
+        <li><strong>Income tests.</strong> World Elite and Visa Infinite cash-back cards have personal or household income minimums. Applying when you do not qualify is a wasted inquiry.</li>
+    </ul>
+
+    <h2>How this interacts with welcome bonuses</h2>
+
+    <p>A cash-back welcome bonus is usually a small, honest number. A travel-points welcome bonus can be larger and harder to redeem. If you are willing to manage a minimum-spend window, read the churning guide before you apply — and still keep the long-term cash-back stack for the spending that remains after the bonus card is done. Do not let a one-time bonus replace Card B. The bonus ends. Groceries do not.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Sort a real year of spend</strong> into grocery, warehouse, gas, recurring, foreign, and everything else.</li>
+        <li><strong>Check merchant coding,</strong> not the sign on the door. Costco and many Loblaw stores break grocery accelerators.</li>
+        <li><strong>Run the annual-fee test</strong> against a no-fee card using your numbers. If the fee is not covered, do not pay it.</li>
+        <li><strong>Rogers-family redemption</strong> can be the best simple setup for those customers. Confirm the live rate.</li>
+        <li><strong>Foreign spend needs a no-foreign-fee card.</strong> Cash-back math does not survive a 2.5 percent skim.</li>
+        <li><strong>Pay every card in full.</strong> Interest dominates earn rates.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Cash back is a basis point. Tax is a bracket.</strong></p>
+        <p>Squeeze the card stack, then put the larger effort into the return you file. The 2026 tax guide covers the bracket, the registered accounts, and the deductions that dwarf a grocery multiplier.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> Card names are used to identify well-known Canadian product families, not to quote a current offer. Earn rates, annual fees, income requirements, merchant exclusions, and redemption bonuses change. Confirm them with the issuer before you apply. This article is general education, not a recommendation of any card and not credit advice. Illustrative fee ranges are described as typical of the market, not as a rate on a specific product today.</p>
+        <div class="footer-note">Published: September 22, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "TFSA Contribution Optimization Strategy for 2026",
+    slug: "tfsa-contribution-optimization-2026",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-09-15",
+    excerpt: "When to fund 2026 TFSA room, which assets belong inside, and the overcontribution and in-kind mistakes that quietly cost more than the contribution.",
+    image: "/images/blog/tfsa-contribution-optimization-2026.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The TFSA is not a savings account with a nicer name. It is permanent shelter. The optimization in 2026 is getting the <span class="highlight">right dollars in on the right date</span>, in the right assets, without tripping the 1 percent monthly overcontribution tax — and without parking cash you will need to pull back out before next January.
+    </div>
+
+    <p>Most Canadians already know the TFSA exists. The expensive mistakes are smaller: contributing in kind and denying a capital loss, holding US dividend stocks where the withholding tax is unrecoverable, withdrawing in November and “putting it back” in December, or contributing on January 2nd with money that should have been inside on January 1st. None of those show up as a dramatic CRA letter. They show up as tax you did not have to pay, compounded for decades.</p>
+
+    <div class="callout">
+        <strong>Confirm your room before you move money:</strong>
+        <p>TFSA room is personal. It is not “the limit you saw in an article.” Log into CRA My Account and read your available room. CRA’s figure can lag contributions and withdrawals you made this year, so add those yourself. This site’s 2026 planning figures, consistent with our deduction checklist, are <span class="highlight">$7,000 of new room</span> and about <span class="highlight">$109,000 of cumulative room</span> for someone who was 18 or older and resident in Canada every year since 2009 and has never contributed. If that is not you, those numbers are not your numbers.</p>
+    </div>
+
+    <h2>How 2026 room is actually built</h2>
+
+    <p>Unused room carries forward. New room arrives on January 1. Withdrawals from the prior calendar year are added back on January 1, not the day you withdraw. There is no $2,000 cushion of the kind the RRSP overcontribution rules allow. Excess TFSA contributions are taxed at <strong>1 percent per month</strong> on the highest excess in each month until you remove it.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Piece</th>
+                <th>When it counts</th>
+                <th>Optimization note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unused room from prior years</td>
+                <td>Already yours</td>
+                <td>Do not “catch up” with borrowed money you cannot repay without withdrawing.</td>
+            </tr>
+            <tr>
+                <td>New annual limit</td>
+                <td>January 1</td>
+                <td>Indexed and rounded. Use the CRA figure for the year, not a forecast.</td>
+            </tr>
+            <tr>
+                <td>Withdrawals made in 2025</td>
+                <td>Added back January 1, 2026</td>
+                <td>A 2025 withdrawal is 2026 room. A 2026 withdrawal is 2027 room.</td>
+            </tr>
+            <tr>
+                <td>2026 withdrawals</td>
+                <td>Not room until January 1, 2027</td>
+                <td>Recontributing the same dollars in 2026 is a classic overcontribution.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>The December trap:</strong>
+        <p>You withdraw $8,000 in November to cover a house repair, the repair comes in lower, and you put $8,000 back in December because “it’s my money.” Unless you had unused room covering that $8,000, you have overcontributed. The room from that withdrawal does not exist until January 1. Wait, or contribute only the room CRA already shows plus the new-year limit you have not used.</p>
+    </div>
+
+    <h2>January 1 is a timing tool, not a personality</h2>
+
+    <p>A dollar contributed on January 1 has a full year of tax-free compounding that a dollar contributed in December does not. Over a career that gap is real. It is not a reason to contribute money you will need in March.</p>
+
+    <p>Use January 1 when all three are true: you know your room, the cash is not required for an emergency or a near-term registered-account priority that outranks the TFSA, and you will not withdraw it the same year. If you are choosing between a high-interest TFSA deposit in January and an RRSP contribution that produces a refund at a high marginal rate, run the comparison. The TFSA is not automatically first. At a high marginal rate, the RRSP refund reinvested can win. At a low rate, or when you expect to be in a higher bracket later, the TFSA usually wins. Our RRSP, TFSA, and FHSA comparison walks through that choice in more detail.</p>
+
+    <div class="tip-box">
+        <strong>Automate the known room, not a guess:</strong>
+        <p>If new 2026 room is $7,000 and you have no catch-up to do, a $583 monthly transfer lands you on the limit without a single large cash hit. If you have a large unused balance and the cash is sitting in a taxable account earning interest you are reporting, moving the catch-up earlier dominates a slow drip. Interest outside the TFSA is taxed every year. The same interest inside is not.</p>
+    </div>
+
+    <h2>What belongs inside the shelter</h2>
+
+    <p>Room is scarce relative to a lifetime of saving. Fill it with the assets that would otherwise be taxed most harshly, subject to one treaty exception.</p>
+
+    <ul>
+        <li><strong>Interest and foreign income</strong> are fully taxed outside a registered account. They are the first candidates for the TFSA if you hold them.</li>
+        <li><strong>Canadian dividend stocks and growth equities</strong> are excellent TFSA holdings. The dividend tax credit is wasted inside the TFSA, but the shelter on gains and on future reinvestment is usually worth more than the credit you give up, especially if the alternative is a taxable account you will not touch for years.</li>
+        <li><strong>US-listed dividend stocks are the exception.</strong> The Canada–US tax treaty shelters US dividends from the 15 percent withholding tax inside an RRSP. It does not do that for a TFSA. Withholding tax inside a TFSA is gone. Hold those US dividend payers in the RRSP when you have the choice, and use the TFSA for Canadian equities, growth holdings with little yield, or fixed income.</li>
+        <li><strong>Cash</strong> is a temporary holding, not a strategy, unless you need the liquidity inside the account. A TFSA full of chequing-rate cash while a taxable account holds equities is backwards for anyone with a long horizon.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example: same $7,000, different location</strong>
+        <p>You have $7,000 of new room and you also hold a US dividend ETF in a non-registered account. Contributing cash and buying a Canadian equity ETF inside the TFSA, while leaving the US dividend ETF to be moved toward the RRSP over time, avoids unrecoverable withholding. Contributing by transferring the US dividend ETF in kind does two worse things at once: it can trigger a taxable gain on the transfer, and it parks the withholding-tax problem inside the one account that cannot recover it.</p>
+    </div>
+
+    <h2>In-kind contributions: gains are real, losses disappear</h2>
+
+    <p>You may transfer shares you already own into a TFSA. CRA treats that as a disposition at fair market value.</p>
+
+    <ul>
+        <li>If the shares are in a <strong>gain</strong>, you report the capital gain on your return. That can still be sensible when the position belongs in the shelter and you have the tax cash.</li>
+        <li>If the shares are in a <strong>loss</strong>, the loss is denied. The superficial-loss rules stop you from crystallizing a loss on a transfer into your own TFSA. Sell on the market, wait, and contribute cash — and do not repurchase the identical security inside the TFSA during the superficial-loss window if you want the loss to stand. The usual window is 30 days before or after the sale.</li>
+    </ul>
+
+    <p>Do not “clean up” a losing taxable position by dumping it into the TFSA in December. You keep the loss off your return and you use room to do it.</p>
+
+    <h2>Withdrawals, successors, and the estate default</h2>
+
+    <p>A withdrawal is tax-free. The planning issues are timing and who inherits the account.</p>
+
+    <ul>
+        <li><strong>Name a successor holder</strong> if you have a spouse or common-law partner. The account can continue as their TFSA. A beneficiary designation that is not a successor holder is a different, usually worse, outcome: the survivor or the estate receives the value, but the shelter does not simply roll on in the same way.</li>
+        <li><strong>Do not leave the designation blank</strong> at the institution. The will is a slow path for an account that could have transferred by form.</li>
+        <li><strong>Growth after death</strong> can be taxable if the account is not transferred promptly to a qualifying survivor. Tell your executor the TFSA exists.</li>
+    </ul>
+
+    <h2>Behaviour CRA has already challenged</h2>
+
+    <p>A TFSA is allowed to hold investments that grow. It is not a free pass to run a trading business. CRA has reassessed some very active TFSA traders and taxed the income as business income. You do not need to be afraid of rebalancing an ETF portfolio. You should be afraid of day-trading inside the account, especially with leverage-like turnover. If the activity looks like a business, the shelter can be set aside. Keep the TFSA boring.</p>
+
+    <p>The other behavioural error is treating the TFSA as a revolving door for annual spending. Every withdrawal you do not need costs you the compounding on that capital until January 1, and it creates an overcontribution risk if you change your mind. Build the emergency fund in a taxable high-interest account if you know you will raid it. Use the TFSA for money that can stay invested.</p>
+
+    <h2>A 2026 contribution sequence</h2>
+
+    <ol>
+        <li>Read TFSA room in CRA My Account. Adjust for contributions and withdrawals made since the figure was updated.</li>
+        <li>Decide RRSP versus TFSA versus FHSA for this year’s marginal dollar. High rate and a long horizon can favour the RRSP. Low rate, or a need for flexibility, favours the TFSA. A first home still in play puts the FHSA ahead of both for the deductible slice.</li>
+        <li>Contribute cash, not a losing in-kind position. Schedule it for early January if the cash is truly surplus.</li>
+        <li>Place Canadian growth and interest inside. Leave US dividend payers for the RRSP when you have that room.</li>
+        <li>File a successor-holder form. Turn on full-balance pre-authorized savings for next year’s new room so December is not a scramble.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Couples:</strong>
+        <p>You cannot contribute directly to a spouse’s TFSA, but you can give them money and they can contribute it. Income inside their TFSA is not attributed back to you. That is one of the cleanest income-splitting moves available, and it is covered alongside the spousal RRSP and the prescribed-rate loan in our couples guide. The gift still has to be money they can leave invested. A gift they withdraw in June did not split anything.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Room is personal.</strong> Use CRA My Account. The $7,000 and $109,000 figures are planning totals for a full-history resident, not a promise about your file.</li>
+        <li><strong>Withdrawals return as room the next January 1,</strong> not sooner. Recontributing the same year is how the 1 percent monthly tax starts.</li>
+        <li><strong>January 1 wins</strong> when the cash can stay. It loses when you will need the money back.</li>
+        <li><strong>Do not hold US dividend stocks in the TFSA</strong> if the RRSP can hold them instead. Withholding tax is not recoverable.</li>
+        <li><strong>In-kind losses are denied.</strong> Sell, wait out the superficial-loss window, contribute cash.</li>
+        <li><strong>Name a successor holder.</strong> Then leave the account alone and let it compound.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The TFSA is one chapter of the return.</strong></p>
+        <p>Brackets, the RRSP refund, the FHSA, and the credits that never show up on a T-slip are the rest. The 2026 tax guide is the full sequence, not a single account.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the Tax-Free Savings Account for the 2026 planning year. It is not tax advice for your file. Contribution limits are set by the Department of Finance and administered by the Canada Revenue Agency; confirm your room in CRA My Account before you contribute. Dollar figures cited as this site’s planning totals should be checked against the CRA’s official TFSA dollar limit for 2026. Rules on attribution, superficial losses, withholding tax, and successor holders are summarized, not reproduced in full.</p>
+        <div class="footer-note">Published: September 15, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Income Splitting Strategies for High- and Low-Earner Couples",
+    slug: "income-splitting-strategies-couples",
+    category: "Taxes",
+    categorySlug: "taxes",
+    author: "Andrew Carrothers",
+    date: "2026-09-12",
+    excerpt: "Spousal RRSPs, pension splitting, CPP sharing, and prescribed-rate loans — the legal ways a high- and low-earner couple actually move income.",
+    image: "/images/blog/income-splitting-strategies-couples.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A couple with one income at a high marginal rate and one income near the bottom is paying a combined tax bill the <span class="highlight">Income Tax Act</span> will not let you fix by simply moving the paycheque. The legal openings are specific: spousal RRSPs, pension income splitting after the right birthday, CPP sharing, a prescribed-rate loan that is actually documented, and the unglamorous habit of having the higher earner pay the household bills so the lower earner can invest their own money.
+    </div>
+
+    <p>Income splitting is not a vibe and it is not a joint bank account. Attribution rules exist so that the person who earned the capital still reports the income. Every strategy below is either an explicit exception Parliament wrote down, or a way of never triggering attribution in the first place. If a tactic needs you to pretend a gift was a loan, it is not a tactic. It is a reassessment.</p>
+
+    <div class="callout">
+        <strong>What “splitting” cannot do:</strong>
+        <p>You generally cannot assign employment income to a spouse. You cannot sprinkle private-company dividends to a spouse who does not meet the Tax on Split Income exclusions and expect 2017 rules to still apply. And shifting income between spouses does not reduce family net income for the Canada Child Benefit — CCB looks at the household. Know which tax you are actually trying to lower.</p>
+    </div>
+
+    <h2>Why the gap is expensive</h2>
+
+    <p>Canada taxes individuals, on progressive brackets, federally and provincially. Two people earning $80,000 each pay less combined tax than one person earning $160,000 and one person earning nothing, because the second earner’s dollars are pushed into higher brackets and, later, can create OAS clawback on one return while the other return has unused low brackets. The planning target is lifetime tax, not a clever current year. A spousal RRSP that is withdrawn too early is taxed back to the contributor. A pension split that waits until 65 may be worth more than a sloppy split at 58.</p>
+
+    <h2>Strategy 1: The higher earner pays the bills</h2>
+
+    <p>This is the strategy that does not require a form. Household expenses — mortgage, groceries, property tax, childcare — are paid from the higher earner’s account. The lower earner’s paycheque is what gets invested, in their name, in a non-registered account or their own TFSA and RRSP.</p>
+
+    <p>Attribution applies to income from property transferred to a spouse. It does not apply to income the lower earner earned and invested themselves. You are not gifting capital. You are stopping the higher earner’s expenses from consuming the lower earner’s capital. Keep the paper trail obvious: separate accounts, the lower earner’s pay deposited to their account, investments bought from that account. A joint account where everything is mixed is how this strategy becomes unprovable.</p>
+
+    <div class="tip-box">
+        <strong>TFSA version, even cleaner:</strong>
+        <p>You may gift cash to a spouse for them to contribute to their own TFSA. Investment income inside the TFSA is not attributed back. This is the first split to fill, because the shelter removes the tax argument entirely. You still cannot contribute directly into their TFSA as if it were yours, and a withdrawal they spend is not a split. See the 2026 TFSA contribution guide for room and timing.</p>
+    </div>
+
+    <h2>Strategy 2: Spousal RRSP</h2>
+
+    <p>The higher earner contributes to a spousal RRSP and claims the deduction at their marginal rate. The spouse is the annuitant. Later withdrawals are taxed to the spouse — unless the attribution rule for spousal plans applies.</p>
+
+    <p>That rule is narrow and brutal if you ignore it. Amounts withdrawn in the year of a contribution, or in the next two calendar years, are taxed to the contributor, up to the amount of those recent contributions. A contribution in December 2026 can taint withdrawals in 2026, 2027, and 2028. Plan the last spousal contribution at least three calendar years before the spouse needs the cash.</p>
+
+    <div class="example-box">
+        <strong>Example: why it still matters before 65</strong>
+        <p>Pat earns $180,000. Robin earns $45,000 and intends to stop full-time work at 58, while Pat works to 65. Pension income splitting of RRIF withdrawals is generally not available to Robin before 65, because RRIF income is not “eligible pension income” under 65 the way a registered pension plan annuity can be. A spousal RRSP, with contributions stopped well before Robin’s withdrawals, lets Robin withdraw in the low bracket through their early sixties. Waiting for age-65 pension splitting leaves those years unsplit. The contribution still has to make sense at Pat’s current marginal rate versus Pat’s own RRSP room and their expected rate in retirement.</p>
+    </div>
+
+    <p>Do not open a spousal RRSP if both of you will be in the same bracket in retirement and neither will retire early. You have added paperwork to move income from one identical rate to another.</p>
+
+    <h2>Strategy 3: Pension income splitting and CPP sharing</h2>
+
+    <p>These are two different mechanisms. People mix them up and then split the wrong slip.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tool</th>
+                <th>What can move</th>
+                <th>Age and limit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pension income splitting (joint election)</td>
+                <td>Eligible pension income</td>
+                <td>Up to 50 percent. Under 65, generally lifetime annuity payments from a registered pension plan — not RRSP or RRIF withdrawals. At 65 and older, RRIF payments and certain annuities qualify.</td>
+            </tr>
+            <tr>
+                <td>CPP sharing (assignment)</td>
+                <td>Canada Pension Plan retirement pension</td>
+                <td>Based on the years you lived together while contributors. It is not a free 50 percent of the whole pension, and it is not the same election as pension splitting.</td>
+            </tr>
+            <tr>
+                <td>OAS</td>
+                <td>Cannot be split</td>
+                <td>Clawback is computed on individual net income, which is why pension splitting can still reduce clawback by moving eligible pension income onto the lower-income return.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>At 65, splitting RRIF income can pull the higher earner down and fill the lower earner’s bracket, and it can reduce Old Age Security recovery tax. Before 65, if you do not have eligible RPP income, this election will not save you. That is the gap the spousal RRSP is for. OAS itself stays on the recipient’s return no matter how you feel about fairness.</p>
+
+    <h2>Strategy 4: The prescribed-rate loan</h2>
+
+    <p>If the higher earner wants to move a large pool of non-registered capital, a gift does not work. Income and capital gains attribute back. A loan can work, if it is a real loan at the CRA prescribed interest rate in force on the day the loan is made.</p>
+
+    <ul>
+        <li>The rate must be at least the prescribed rate at the time of the loan. That rate can then be locked for the life of the loan even if CRA’s rate rises later. The prescribed rate is set quarterly. Look up the current rate on the CRA site the week you document the loan. Do not use a number from memory or from this article — we are not quoting one, because publishing a stale rate would make the loan invalid in your head and expensive in an audit.</li>
+        <li>Interest must be paid by January 30 of the following year, every year. If a payment is late, attribution applies for that year and all subsequent years. Set a December reminder and pay from the borrower’s own resources.</li>
+        <li>Document it: promissory note, amount, rate, demand or term, and a record of each interest payment. “We meant it to be a loan” is not a note.</li>
+        <li>The lender reports the interest as income. The borrower may deduct the interest if the borrowed money was used to earn income from property. The spread — investment return above the locked rate, taxed to the lower-income spouse — is the point of the structure.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>When the loan is a bad idea:</strong>
+        <p>If the prescribed rate is high relative to what a conservative portfolio can earn, there is no spread and you have built a machine that loses to a simple TFSA gift. If you will miss an interest payment, you have built an attribution problem with extra steps. This structure fits a large non-registered pool and a spouse who will administer it. It does not fit $15,000 and a handshake.</p>
+    </div>
+
+    <h2>Strategy 5: What incorporation does not do for a couple anymore</h2>
+
+    <p>Since the Tax on Split Income rules were tightened, paying dividends to a spouse who does not work in the business, or who does not meet an excluded-share test, is often taxed at the top rate. “Add them as a shareholder” is not income splitting. Exclusions exist — meaningful labour in the business, and for some shareholders 25 and older an excluded-shares test that itself has conditions on the type of business and the votes they hold. Those tests are factual and easy to fail. If you are considering a family corporation, the salary-versus-dividend decision and TOSI are a paid engagement with someone who will sign the return, not a blog tactic. Our incorporation piece covers the threshold question. It is not a DIY dividend-sprinkle guide, because that guide would be wrong for most readers.</p>
+
+    <h2>What you are not optimizing</h2>
+
+    <ul>
+        <li><strong>Canada Child Benefit and the GST/HST credit</strong> use family income. Moving investment income from one spouse to the other does not lower the household total, so it does not raise those benefits.</li>
+        <li><strong>Spousal RRSPs and attribution</strong> if you need the money inside three calendar years. You deducted at the high rate and may be taxed at the high rate anyway.</li>
+        <li><strong>Joint accounts with unclear contributions.</strong> If both names are on a taxable account funded by the higher earner, expect attribution to follow the money, not the signature card.</li>
+    </ul>
+
+    <h2>A practical order for a high-earner / low-earner couple</h2>
+
+    <ol>
+        <li>Both TFSAs, funded to the room each person actually has. Gifts into the lower earner’s TFSA are allowed. This is the clean split.</li>
+        <li>The higher earner’s RRSP if their marginal rate justifies the deduction, and a spousal RRSP if retirement ages or future brackets will differ — with the three-year withdrawal rule on a calendar.</li>
+        <li>FHSA ahead of extra RRSP if a first home is still the plan. Either spouse’s FHSA is about that spouse’s home-buyer status and room, not about splitting a salary.</li>
+        <li>Household bills from the higher earner so the lower earner invests paycheque dollars in their own name.</li>
+        <li>A prescribed-rate loan only after the registered rooms are full and the capital is large enough that the spread, net of paperwork, is obvious at the current CRA rate.</li>
+        <li>At 65, model pension income splitting and CPP sharing before you draw RRIF income on autopilot. OAS clawback is an individual calculation. Use it.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Write the plan down once a year:</strong>
+        <p>One page: each person’s expected taxable income, marginal rate, RRSP and TFSA room, and the date of the last spousal RRSP contribution. If you cannot explain which return will report the investment income, you do not have a split. You have a joint account and a hope.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Attribution is the default.</strong> Gifts of taxable investments to a spouse do not move the tax.</li>
+        <li><strong>TFSA gifts and “higher earner pays the bills”</strong> are the everyday tools. Use them before anything clever.</li>
+        <li><strong>Spousal RRSPs</strong> matter most when retirement timing differs, and they backfire if you withdraw inside the three-calendar-year window.</li>
+        <li><strong>Pension splitting and CPP sharing are different.</strong> RRIF income generally waits until 65. OAS cannot be split, but splitting eligible pension income can still ease clawback.</li>
+        <li><strong>Prescribed-rate loans</strong> must use the CRA rate on the day of the loan, in writing, with interest paid by January 30. Miss a year and the structure can fail going forward.</li>
+        <li><strong>Dividend sprinkling</strong> through a corporation is constrained by TOSI. Do not treat it as a couple’s routine.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Splitting only works if the rest of the return is clean.</strong></p>
+        <p>Brackets, deductions, and the order of RRSP, TFSA, and FHSA contributions decide whether there is anything worth splitting. The 2026 tax guide is that sequence, written for people who already know the vocabulary.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian income-splitting rules for couples. It is not tax, legal, or financial advice. Attribution, spousal RRSP withdrawals, eligible pension income, CPP assignment, prescribed interest rates, and the Tax on Split Income are technical rules that depend on facts and on the year. The prescribed rate changes quarterly — confirm it with the Canada Revenue Agency before any loan. Have a qualified tax professional review a spousal loan or a corporation before you implement either.</p>
+        <div class="footer-note">Published: September 12, 2026 | Category: Taxes | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
     title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
     slug: "federal-tax-brackets-2026",
     category: "Taxes",
@@ -7383,7 +8225,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p><strong>Strategy Tip:</strong> If you have FHSA room, maximize it before using the HBP. FHSA withdrawals are completely tax-free and don't need to be repaid. HBP withdrawals must be repaid, and if you don't, the amount is added back to your taxable income. Many first-time buyers should prioritize FHSA over HBP for this reason.</p>
 </div>
 
-        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="https://canadianoptimizer.com/articles/article-7-fhsa-hbp-strategies">Article 7: FHSA & HBP Strategies</a>.</p>
+        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="/blog/fhsa-guide-2026/">Article 7: FHSA & HBP Strategies</a>.</p>
 
         <h2><span class="section-title"><span class="section-icon">⚖️</span> Getting Divorced or Separated</span></h2>
 
@@ -9213,10 +10055,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For more information on optimizing your tax situation, explore these related articles:</p>
 
         <ul>
-<li><a href="https://canadianoptimizer.com/articles/article-23-tax-filing-checklist/">Tax Filing Checklist: Everything You Need Before April 30</a> — a comprehensive pre-filing checklist to ensure you don't miss deductions</li>
-<li><a href="https://canadianoptimizer.com/articles/article-21-canada-tax-calendar/">Canada's Tax Calendar 2026: Key Deadlines & Milestones</a> — important tax dates and filing deadlines</li>
-<li><a href="https://canadianoptimizer.com/articles/self-employed-tax-deductions/">Self-Employed Tax Deductions: A Complete Guide</a> — maximize deductions if you run a business or are a freelancer</li>
-<li><a href="https://canadianoptimizer.com/articles/rrsp-contribution-guide/">RRSP Contribution Guide: Maximize Your Deduction Room</a> — optimize your retirement savings and tax deductions</li>
+<li><a href="/blog/tax-deduction-checklist-2026/">Tax Filing Checklist: Everything You Need Before April 30</a> — a comprehensive pre-filing checklist to ensure you don't miss deductions</li>
+<li><a href="/blog/tax-planning-calendar-2026/">Canada's Tax Calendar 2026: Key Deadlines & Milestones</a> — important tax dates and filing deadlines</li>
+<li><a href="/blog/self-employed-tax-guide-2026/">Self-Employed Tax Deductions: A Complete Guide</a> — maximize deductions if you run a business or are a freelancer</li>
+<li><a href="/blog/rrsp-playbook-2026/">RRSP Contribution Guide: Maximize Your Deduction Room</a> — optimize your retirement savings and tax deductions</li>
 </ul>
 
         <div class="final-cta">
@@ -9895,8 +10737,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </p>
 
         <ul>
-<li><a href="https://canadianoptimizer.com/article-19-cra-audits">Article 19: Surviving a CRA Audit—What to Expect and How to Respond</a></li>
-<li><a href="https://canadianoptimizer.com/article-21-tax-calendar">Article 21: The Complete 2026 Canadian Tax Calendar—Deadlines You Cannot Miss</a></li>
+<li><a href="/blog/cra-audit-guide-2026/">Article 19: Surviving a CRA Audit—What to Expect and How to Respond</a></li>
+<li><a href="/blog/tax-planning-calendar-2026/">Article 21: The Complete 2026 Canadian Tax Calendar—Deadlines You Cannot Miss</a></li>
 </ul>
 
     <div class="cta-section">
@@ -9974,7 +10816,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li>Maximize contributions to reduce taxable income</li>
 <li>Current RRSP limit: $33,810</li>
 <li>Consider spousal RRSP for income splitting</li>
-<li><a href="https://canadianoptimizer.com/article-5-rrsp/">Learn RRSP optimization strategies</a></li>
+<li><a href="/blog/rrsp-playbook-2026/">Learn RRSP optimization strategies</a></li>
 </ul>
 </div>
 <div class="month-card">
@@ -10006,7 +10848,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><span class="deadline">April 30 (2027): Balance owing deadline for self-employed</span></li>
 <li>June 15: Q2 instalment payment due</li>
 <li>Self-employed: Note balance due 6 weeks before filing deadline</li>
-<li><a href="https://canadianoptimizer.com/article-13-instalments/">Understand instalment requirements</a></li>
+<li><a href="/blog/quarterly-tax-instalments-2026/">Understand instalment requirements</a></li>
 </ul>
 </div>
 <div class="month-card">
@@ -10330,7 +11172,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>Instalment dates are consistent: <strong>March 15, June 15, September 15, and December 15</strong>.</p>
 
-        <p><a href="https://canadianoptimizer.com/article-13-instalments/">Learn more about tax instalments and payment strategies here.</a></p>
+        <p><a href="/blog/quarterly-tax-instalments-2026/">Learn more about tax instalments and payment strategies here.</a></p>
 
         <h2>Building Your Personal Tax Planning System</h2>
 
@@ -10394,9 +11236,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>This article covers the deadlines and calendar. For deeper optimization strategies:</p>
 
         <ul>
-<li><a href="https://canadianoptimizer.com/article-5-rrsp/">Read Article 5: RRSP Contribution Strategy & Room Calculation</a></li>
-<li><a href="https://canadianoptimizer.com/article-13-instalments/">Read Article 13: Tax Instalments Explained (Quarterly Payments)</a></li>
-<li><a href="https://canadianoptimizer.com/article-16-investing/">Read Article 16: Tax-Efficient Investing for Canadians</a></li>
+<li><a href="/blog/rrsp-playbook-2026/">Read Article 5: RRSP Contribution Strategy & Room Calculation</a></li>
+<li><a href="/blog/quarterly-tax-instalments-2026/">Read Article 13: Tax Instalments Explained (Quarterly Payments)</a></li>
+<li><a href="/blog/tax-efficient-investing-2026/">Read Article 16: Tax-Efficient Investing for Canadians</a></li>
 </ul>
 
     <div class="cta-section">
@@ -10434,7 +11276,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>When DIY Tax Filing Makes Sense</h2>
 
-        <p>Let's start with the good news: if your tax situation is straightforward, you absolutely can — and probably should — file on your own. Modern <a href="article-18-best-tax-software-2026.html">Canadian tax software</a> has made self-filing remarkably accessible, and the CRA's Auto-fill My Return (AFR) feature pulls your T-slips directly into your tax software.</p>
+        <p>Let's start with the good news: if your tax situation is straightforward, you absolutely can — and probably should — file on your own. Modern <a href="/blog/best-tax-software-2026/">Canadian tax software</a> has made self-filing remarkably accessible, and the CRA's Auto-fill My Return (AFR) feature pulls your T-slips directly into your tax software.</p>
 
         <p>DIY filing is a great fit if your situation matches most of these criteria:</p>
 
@@ -10462,7 +11304,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>Self-Employment or Freelance Income</h3>
 
-        <p>If you earn income through a sole proprietorship or freelance work, you're filing a T2125 and need to track dozens of potential deductions — home office, vehicle expenses, supplies, professional development, and more. A CPA familiar with <a href="article-11-self-employed-tax-guide-2026.html">self-employment tax rules</a> will typically find deductions worth far more than their fee. They'll also ensure your deductions are defensible if the CRA comes calling.</p>
+        <p>If you earn income through a sole proprietorship or freelance work, you're filing a T2125 and need to track dozens of potential deductions — home office, vehicle expenses, supplies, professional development, and more. A CPA familiar with <a href="/blog/self-employed-tax-guide-2026/">self-employment tax rules</a> will typically find deductions worth far more than their fee. They'll also ensure your deductions are defensible if the CRA comes calling.</p>
 
         <h3>Rental Property Income</h3>
 
@@ -10470,19 +11312,19 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>Significant Investment Activity</h3>
 
-        <p>Capital gains and losses, <a href="article-16-tax-efficient-investing-2026.html">tax-loss harvesting</a>, the superficial loss rule (30-day rule), adjusted cost base calculations for mutual funds and ETFs, and foreign dividend withholding credits all require precision. A missed capital loss carry-forward could cost you years of tax savings.</p>
+        <p>Capital gains and losses, <a href="/blog/tax-efficient-investing-2026/">tax-loss harvesting</a>, the superficial loss rule (30-day rule), adjusted cost base calculations for mutual funds and ETFs, and foreign dividend withholding credits all require precision. A missed capital loss carry-forward could cost you years of tax savings.</p>
 
         <h3>Major Life Events</h3>
 
-        <p>Marriage, divorce, the birth of a child, a death in the family, immigration or emigration, and major property transactions all trigger tax implications that most Canadians aren't aware of. A professional ensures you claim every credit and deduction available during these transitions. See our <a href="article-15-life-events-tax-implications-2026.html">life events tax guide</a> for an overview of what's at stake.</p>
+        <p>Marriage, divorce, the birth of a child, a death in the family, immigration or emigration, and major property transactions all trigger tax implications that most Canadians aren't aware of. A professional ensures you claim every credit and deduction available during these transitions. See our <a href="/blog/life-events-tax-implications-2026/">life events tax guide</a> for an overview of what's at stake.</p>
 
         <h3>Incorporation Decisions</h3>
 
-        <p>If you're considering <a href="article-12-should-you-incorporate-2026.html">whether to incorporate</a>, or you already operate through a corporation, the salary-vs-dividend decision alone can swing your tax bill by thousands of dollars. Corporate tax planning is not a DIY exercise.</p>
+        <p>If you're considering <a href="/blog/should-you-incorporate-2026/">whether to incorporate</a>, or you already operate through a corporation, the salary-vs-dividend decision alone can swing your tax bill by thousands of dollars. Corporate tax planning is not a DIY exercise.</p>
 
         <h3>Previous CRA Issues</h3>
 
-        <p>If you've received a CRA review letter, a notice of reassessment, or any correspondence suggesting an <a href="article-19-cra-audit-guide-2026.html">audit</a>, hire a professional immediately. The cost of representation is almost always less than the cost of a poorly handled CRA interaction.</p>
+        <p>If you've received a CRA review letter, a notice of reassessment, or any correspondence suggesting an <a href="/blog/cra-audit-guide-2026/">audit</a>, hire a professional immediately. The cost of representation is almost always less than the cost of a poorly handled CRA interaction.</p>
 
         <h2>Types of Tax Professionals in Canada</h2>
 
@@ -10687,7 +11529,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>The bottom line: if your tax situation involves any meaningful complexity — self-employment, rental income, investments, or major life changes — a good tax professional almost always pays for themselves. The key word is "good." Take the time to find someone who specializes in your situation, communicates clearly, and thinks strategically about your tax position, not just this year's return.</p>
 
-        <p>For a comprehensive checklist of every deduction and credit you should be discussing with your tax professional, see our <a href="article-23-tax-deduction-checklist-2026.html">Ultimate 2026 Canadian Tax Deduction Checklist</a>.</p>
+        <p>For a comprehensive checklist of every deduction and credit you should be discussing with your tax professional, see our <a href="/blog/tax-deduction-checklist-2026/">Ultimate 2026 Canadian Tax Deduction Checklist</a>.</p>
 
     <div class="cta-section">
             <p><em>This article is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide covering every strategy in this article and more. Chapter 21 includes the full evaluation framework and interview questions for finding the right tax professional.</em></p>
@@ -10696,10 +11538,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="article-18-best-tax-software-2026.html">Best Canadian Tax Software 2026</a> |
-            <a href="article-11-self-employed-tax-guide-2026.html">Self-Employed Tax Guide</a> |
-            <a href="article-19-cra-audit-guide-2026.html">CRA Audit Guide</a> |
-            <a href="article-23-tax-deduction-checklist-2026.html">Tax Deduction Checklist</a>
+<a href="/blog/best-tax-software-2026/">Best Canadian Tax Software 2026</a> |
+            <a href="/blog/self-employed-tax-guide-2026/">Self-Employed Tax Guide</a> |
+            <a href="/blog/cra-audit-guide-2026/">CRA Audit Guide</a> |
+            <a href="/blog/tax-deduction-checklist-2026/">Tax Deduction Checklist</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified CPA for advice specific to your situation.</em></p>
     </div>
@@ -10730,11 +11572,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p class="section-intro">These are the big-ticket items. Maximizing your registered account contributions is the single most impactful tax strategy for most Canadians.</p>
 
         <ul class="checklist">
-<li><strong>RRSP Contributions</strong> — Deduct contributions up to your limit ($33,810 for 2026 or 18% of prior-year earned income, whichever is less). Check your Notice of Assessment for your exact room. Deadline: March 1, 2027 for the 2026 tax year. <span class="form-ref">Schedule 7</span> <a href="article-05-rrsp-playbook-2026.html">[RRSP Guide]</a></li>
+<li><strong>RRSP Contributions</strong> — Deduct contributions up to your limit ($33,810 for 2026 or 18% of prior-year earned income, whichever is less). Check your Notice of Assessment for your exact room. Deadline: March 1, 2027 for the 2026 tax year. <span class="form-ref">Schedule 7</span> <a href="/blog/rrsp-playbook-2026/">[RRSP Guide]</a></li>
 <li><strong>Spousal RRSP Contributions</strong> — Contribute to your spouse's RRSP using your own contribution room. The contributor claims the deduction, but the funds belong to the spouse. Powerful for income splitting in retirement. Be aware of the 3-year attribution rule. <span class="form-ref">Schedule 7</span></li>
-<li><strong>FHSA Contributions</strong> — First Home Savings Account contributions are deductible up to $8,000 per year ($40,000 lifetime). There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you're a first-time home buyer, this should be your top priority. <span class="form-ref">Schedule 15</span> <a href="article-07-fhsa-guide-2026.html">[FHSA Guide]</a></li>
-<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your $7,000 annual room ($109,000 cumulative since 2009) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="article-06-tfsa-strategies-2026.html">[TFSA Guide]</a></li>
-<li><strong>RESP Contributions</strong> — Not deductible, but the government matches 20% of your contribution through the Canada Education Savings Grant (CESG) up to $500/year per child ($7,200 lifetime per child). <a href="article-14-tax-tips-families-2026.html">[Family Tax Guide]</a></li>
+<li><strong>FHSA Contributions</strong> — First Home Savings Account contributions are deductible up to $8,000 per year ($40,000 lifetime). There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you're a first-time home buyer, this should be your top priority. <span class="form-ref">Schedule 15</span> <a href="/blog/fhsa-guide-2026/">[FHSA Guide]</a></li>
+<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your $7,000 annual room ($109,000 cumulative since 2009) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="/blog/tfsa-strategies-2026/">[TFSA Guide]</a></li>
+<li><strong>RESP Contributions</strong> — Not deductible, but the government matches 20% of your contribution through the Canada Education Savings Grant (CESG) up to $500/year per child ($7,200 lifetime per child). <a href="/blog/tax-tips-families-2026/">[Family Tax Guide]</a></li>
 </ul>
 
         <div class="did-you-know">
@@ -10748,7 +11590,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul class="checklist">
 <li><strong>Union and Professional Dues</strong> — Annual union dues, professional association fees, and malpractice insurance premiums required for your job. Usually reported on your T4 in Box 44. <span class="form-ref">Line 21200</span></li>
-<li><strong>Employment Expenses (T2200)</strong> — If your employer requires you to pay for expenses as a condition of employment (and signs a T2200 form), you can deduct: supplies, vehicle expenses, travel costs, and certain home office costs. <span class="form-ref">Form T777</span> <a href="article-09-tax-deductions-employees-2026.html">[Employee Deductions Guide]</a></li>
+<li><strong>Employment Expenses (T2200)</strong> — If your employer requires you to pay for expenses as a condition of employment (and signs a T2200 form), you can deduct: supplies, vehicle expenses, travel costs, and certain home office costs. <span class="form-ref">Form T777</span> <a href="/blog/tax-deductions-employees-2026/">[Employee Deductions Guide]</a></li>
 <li><strong>Home Office Expenses (Employees)</strong> — If you work from home and your employer has signed a T2200 or T2200S, you can claim a proportionate share of rent, utilities, internet, and maintenance. Calculate using the detailed method (work-space square footage as a percentage of total home area). <span class="form-ref">Form T777 / T777S</span></li>
 <li><strong>Vehicle Expenses (Employees)</strong> — If you're required to use your personal vehicle for work, claim fuel, insurance, maintenance, parking, and CCA. You must keep a mileage logbook. CCA Class 10.1 ceiling: $39,000 for vehicles acquired in 2026. <span class="form-ref">Form T777</span></li>
 <li><strong>Moving Expenses</strong> — If you moved at least 40 km closer to a new job, new business location, or post-secondary school, you can deduct moving costs including transportation, travel, temporary lodging, lease-breaking costs, and legal fees on your new home. <span class="form-ref">Form T1-M, Line 21900</span></li>
@@ -10763,7 +11605,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Self-Employment Deductions</h2>
 
-        <p class="section-intro">If you report self-employment income on a T2125, these deductions reduce your business income. <a href="article-11-self-employed-tax-guide-2026.html">See our full self-employed guide</a> for detailed strategies.</p>
+        <p class="section-intro">If you report self-employment income on a T2125, these deductions reduce your business income. <a href="/blog/self-employed-tax-guide-2026/">See our full self-employed guide</a> for detailed strategies.</p>
 
         <ul class="checklist">
 <li><strong>Home Office (Self-Employed)</strong> — Claim a proportionate share of rent/mortgage interest, property taxes, utilities, insurance, and maintenance based on the square footage used for business. Self-employed individuals can claim mortgage interest (employees cannot). <span class="form-ref">Form T2125</span></li>
@@ -10781,12 +11623,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="callout">
 <strong>Incorporation Decision</strong>
-<p>If your net self-employment income consistently exceeds $80,000–$100,000, it may be time to consider <a href="article-12-should-you-incorporate-2026.html">whether incorporation makes sense</a>. The small business tax rate on the first $500,000 of active business income is just 12.2% federally (9% federal + provincial rates vary), compared to personal rates that can exceed 50% at higher income levels.</p>
+<p>If your net self-employment income consistently exceeds $80,000–$100,000, it may be time to consider <a href="/blog/should-you-incorporate-2026/">whether incorporation makes sense</a>. The small business tax rate on the first $500,000 of active business income is just 12.2% federally (9% federal + provincial rates vary), compared to personal rates that can exceed 50% at higher income levels.</p>
 </div>
 
         <h2>Investment Income Deductions</h2>
 
-        <p class="section-intro">Investment income is taxed differently depending on the type. These deductions and strategies can significantly reduce the tax on your investment returns. <a href="article-16-tax-efficient-investing-2026.html">See our tax-efficient investing guide</a>.</p>
+        <p class="section-intro">Investment income is taxed differently depending on the type. These deductions and strategies can significantly reduce the tax on your investment returns. <a href="/blog/tax-efficient-investing-2026/">See our tax-efficient investing guide</a>.</p>
 
         <ul class="checklist">
 <li><strong>Carrying Charges and Interest Expense</strong> — Interest paid on money borrowed to earn investment income (margin accounts, investment loans), investment management and counselling fees, accounting fees for investment income, and safety deposit box fees. <span class="form-ref">Line 22100</span></li>
@@ -10804,7 +11646,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Family Credits and Benefits</h2>
 
-        <p class="section-intro">Families with children, dependants, or elderly parents have access to significant credits and benefits. <a href="article-14-tax-tips-families-2026.html">See our complete family tax guide</a>.</p>
+        <p class="section-intro">Families with children, dependants, or elderly parents have access to significant credits and benefits. <a href="/blog/tax-tips-families-2026/">See our complete family tax guide</a>.</p>
 
         <ul class="checklist">
 <li><strong>Canada Child Benefit (CCB)</strong> — Tax-free monthly payments of up to $8,157/year per child under 6 and $6,883/year per child aged 6–17 (2026–2027 benefit year). Income-tested — ensure both spouses file their returns to receive payments. <em>Automatic based on filing.</em></li>
@@ -10848,7 +11690,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Charitable Donations</h2>
 
-        <p class="section-intro">Charitable donations receive generous tax treatment, especially at higher income levels. <a href="article-10-missed-tax-credits-2026.html">See our guide to commonly missed credits</a>.</p>
+        <p class="section-intro">Charitable donations receive generous tax treatment, especially at higher income levels. <a href="/blog/missed-tax-credits-2026/">See our guide to commonly missed credits</a>.</p>
 
         <ul class="checklist">
 <li><strong>Charitable Donation Tax Credit</strong> — The first $200 of donations receives a 15% federal credit. Amounts above $200 receive a 29% credit (or 33% if your income exceeds the top tax bracket threshold of ~$253,414). Provincial credits are added on top. You can carry forward unclaimed donations for up to 5 years. <span class="form-ref">Schedule 9, Line 34900</span></li>
@@ -10965,8 +11807,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Check your RRSP room</strong> — Log into CRA My Account or check your latest Notice of Assessment.</li>
 <li><strong>Collect receipts</strong> — Medical expenses, charitable donations, childcare receipts, moving expenses, and professional dues.</li>
 <li><strong>Review this checklist</strong> — Go through each category above and check off every item that applies to your situation.</li>
-<li><strong>Consider professional help</strong> — If your return involves self-employment, rental income, investments, or major life changes, a <a href="article-22-working-with-tax-professional-2026.html">tax professional</a> will almost certainly find more than they cost.</li>
-<li><strong>File on time</strong> — April 30, 2027 for most Canadians. June 15, 2027 for self-employed individuals (but any balance owing is still due April 30). See our <a href="article-21-tax-planning-calendar-2026.html">full tax calendar</a> for all deadlines.</li>
+<li><strong>Consider professional help</strong> — If your return involves self-employment, rental income, investments, or major life changes, a <a href="/blog/working-with-tax-professional-2026/">tax professional</a> will almost certainly find more than they cost.</li>
+<li><strong>File on time</strong> — April 30, 2027 for most Canadians. June 15, 2027 for self-employed individuals (but any balance owing is still due April 30). See our <a href="/blog/tax-planning-calendar-2026/">full tax calendar</a> for all deadlines.</li>
 </ol>
 
     <div class="cta-section">
@@ -10976,15 +11818,15 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="article-05-rrsp-playbook-2026.html">RRSP Playbook</a> |
-            <a href="article-06-tfsa-strategies-2026.html">TFSA Strategies</a> |
-            <a href="article-07-fhsa-guide-2026.html">FHSA Guide</a> |
-            <a href="article-09-tax-deductions-employees-2026.html">Employee Deductions</a> |
-            <a href="article-10-missed-tax-credits-2026.html">Missed Tax Credits</a> |
-            <a href="article-11-self-employed-tax-guide-2026.html">Self-Employed Guide</a> |
-            <a href="article-14-tax-tips-families-2026.html">Family Tax Tips</a> |
-            <a href="article-16-tax-efficient-investing-2026.html">Tax-Efficient Investing</a> |
-            <a href="article-22-working-with-tax-professional-2026.html">Tax Professionals</a>
+<a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
+            <a href="/blog/tfsa-strategies-2026/">TFSA Strategies</a> |
+            <a href="/blog/fhsa-guide-2026/">FHSA Guide</a> |
+            <a href="/blog/tax-deductions-employees-2026/">Employee Deductions</a> |
+            <a href="/blog/missed-tax-credits-2026/">Missed Tax Credits</a> |
+            <a href="/blog/self-employed-tax-guide-2026/">Self-Employed Guide</a> |
+            <a href="/blog/tax-tips-families-2026/">Family Tax Tips</a> |
+            <a href="/blog/tax-efficient-investing-2026/">Tax-Efficient Investing</a> |
+            <a href="/blog/working-with-tax-professional-2026/">Tax Professionals</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. This checklist is for informational purposes only and does not constitute professional tax advice. Consult a qualified CPA for advice specific to your situation.</em></p>
     </div>
@@ -11128,7 +11970,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>You're required to make quarterly instalment payments if your net tax owing (federal and provincial combined) exceeds $3,000 in the current year and in either of the two preceding years. The CRA will send you an instalment reminder if they determine you need to pay.</p>
 
-        <p>There are three methods for calculating your instalment amounts. You can use whichever method results in the lowest payments, as long as you don't underpay. For a detailed breakdown of the three methods and cash flow strategies, see our <a href="article-13-quarterly-tax-instalments-2026.html">quarterly instalments guide</a>.</p>
+        <p>There are three methods for calculating your instalment amounts. You can use whichever method results in the lowest payments, as long as you don't underpay. For a detailed breakdown of the three methods and cash flow strategies, see our <a href="/blog/quarterly-tax-instalments-2026/">quarterly instalments guide</a>.</p>
 
         <div class="callout">
 <strong>Self-Employed: The April 30 Trap</strong>
@@ -11151,7 +11993,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>The last quarter of the year (October–December) is when the most impactful tax planning happens. Here are the key actions to consider before December 31:</p>
 
         <ul>
-<li><strong>Tax-loss harvesting:</strong> Review your non-registered investment portfolio for unrealized losses that can offset capital gains. Remember the superficial loss rule (30-day rule) and sell by approximately December 27 for T+1 settlement. <a href="article-16-tax-efficient-investing-2026.html">[Investing Guide]</a></li>
+<li><strong>Tax-loss harvesting:</strong> Review your non-registered investment portfolio for unrealized losses that can offset capital gains. Remember the superficial loss rule (30-day rule) and sell by approximately December 27 for T+1 settlement. <a href="/blog/tax-efficient-investing-2026/">[Investing Guide]</a></li>
 <li><strong>TFSA and FHSA contributions:</strong> Maximize contributions before December 31 to shelter the maximum growth from tax.</li>
 <li><strong>Charitable donations:</strong> Make donations by December 31 to claim the credit on your 2026 return. Consider donating appreciated securities for a double tax benefit.</li>
 <li><strong>RESP contributions:</strong> Contribute at least $2,500 per child to receive the full $500 CESG match.</li>
@@ -11159,7 +12001,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>RRSP planning:</strong> While the deadline extends to March 1, 2027, contributing before December 31 gives your money an extra two months of tax-sheltered growth.</li>
 </ul>
 
-        <p>For a complete month-by-month planning guide, see our <a href="article-21-tax-planning-calendar-2026.html">12-Month Tax Planning Calendar</a>.</p>
+        <p>For a complete month-by-month planning guide, see our <a href="/blog/tax-planning-calendar-2026/">12-Month Tax Planning Calendar</a>.</p>
 
     <div class="cta-section">
             <p><em>This deadline reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes a detailed 12-month tax planning calendar with action items for employed, self-employed, and retired Canadians.</em></p>
@@ -11168,10 +12010,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="article-21-tax-planning-calendar-2026.html">12-Month Tax Calendar</a> |
-            <a href="article-13-quarterly-tax-instalments-2026.html">Quarterly Instalments Guide</a> |
-            <a href="article-05-rrsp-playbook-2026.html">RRSP Playbook</a> |
-            <a href="article-27-contribution-limits-2026.html">Contribution Limits 2026</a>
+<a href="/blog/tax-planning-calendar-2026/">12-Month Tax Calendar</a> |
+            <a href="/blog/quarterly-tax-instalments-2026/">Quarterly Instalments Guide</a> |
+            <a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
+            <a href="/blog/contribution-limits-2026/">Contribution Limits 2026</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. High search volume every January–April. Bookmark this page for quick reference.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
@@ -11241,7 +12083,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="callout">
 <strong>FHSA Carry-Forward Rules</strong>
-<p>The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year is $16,000 ($8,000 current year + $8,000 carry-forward). There is <strong>no first-year catch-up provision</strong> — in the year you open your FHSA, your contribution room is $8,000. <a href="article-07-fhsa-guide-2026.html">[Full FHSA Guide]</a></p>
+<p>The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year is $16,000 ($8,000 current year + $8,000 carry-forward). There is <strong>no first-year catch-up provision</strong> — in the year you open your FHSA, your contribution room is $8,000. <a href="/blog/fhsa-guide-2026/">[Full FHSA Guide]</a></p>
 </div>
 
         <h2>TFSA Cumulative Room by Year of Eligibility</h2>
@@ -11439,7 +12281,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>FHSA room:</strong> Track manually based on your contributions since account opening. The CRA will eventually reflect this in My Account as well.</li>
 </ul>
 
-        <p>For strategies on how to optimize contributions across all registered accounts, see our <a href="article-08-rrsp-vs-tfsa-vs-fhsa-2026.html">RRSP vs. TFSA vs. FHSA comparison</a>.</p>
+        <p>For strategies on how to optimize contributions across all registered accounts, see our <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP vs. TFSA vs. FHSA comparison</a>.</p>
 
     <div class="cta-section">
             <p><em>This reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The complete guide explains how to optimize contributions across all accounts with personalized decision frameworks.</em></p>
@@ -11448,12 +12290,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="article-05-rrsp-playbook-2026.html">RRSP Playbook</a> |
-            <a href="article-06-tfsa-strategies-2026.html">TFSA Strategies</a> |
-            <a href="article-07-fhsa-guide-2026.html">FHSA Guide</a> |
-            <a href="article-08-rrsp-vs-tfsa-vs-fhsa-2026.html">RRSP vs TFSA vs FHSA</a> |
-            <a href="article-24-federal-tax-brackets-2026.html">Federal Brackets 2026</a> |
-            <a href="article-26-cra-deadlines-2026.html">CRA Deadlines 2026</a>
+<a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
+            <a href="/blog/tfsa-strategies-2026/">TFSA Strategies</a> |
+            <a href="/blog/fhsa-guide-2026/">FHSA Guide</a> |
+            <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP vs TFSA vs FHSA</a> |
+            <a href="/blog/federal-tax-brackets-2026/">Federal Brackets 2026</a> |
+            <a href="/blog/cra-deadlines-2026/">CRA Deadlines 2026</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. Extremely high search volume in January. Bookmark this page for quick reference.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
@@ -11504,7 +12346,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Adjusted Cost Base (ACB)</span>
-<p class="term-def">The original cost of an investment plus any additional costs (commissions, reinvested distributions) and minus any return of capital. Your ACB is used to calculate your capital gain or loss when you sell. Tracking ACB accurately is essential for mutual fund and ETF investors. <a href="article-16-tax-efficient-investing-2026.html">[Tax-Efficient Investing Guide]</a></p>
+<p class="term-def">The original cost of an investment plus any additional costs (commissions, reinvested distributions) and minus any return of capital. Your ACB is used to calculate your capital gain or loss when you sell. Tracking ACB accurately is essential for mutual fund and ETF investors. <a href="/blog/tax-efficient-investing-2026/">[Tax-Efficient Investing Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11514,7 +12356,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Age Amount</span>
-<p class="term-def">A non-refundable tax credit available to individuals aged 65 or older. For 2026, the maximum amount is $9,028, but it's reduced when your net income exceeds $45,522 and eliminated entirely at approximately $105,291. <a href="article-17-retirement-income-planning-2026.html">[Retirement Guide]</a></p>
+<p class="term-def">A non-refundable tax credit available to individuals aged 65 or older. For 2026, the maximum amount is $9,028, but it's reduced when your net income exceeds $45,522 and eliminated entirely at approximately $105,291. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11534,7 +12376,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Auto-fill My Return (AFR)</span>
-<p class="term-def">A CRA feature that automatically populates your tax software with information from your T-slips and other tax documents already on file with the CRA. Available through most NETFILE-certified software. <a href="article-18-best-tax-software-2026.html">[Tax Software Guide]</a></p>
+<p class="term-def">A CRA feature that automatically populates your tax software with information from your T-slips and other tax documents already on file with the CRA. Available through most NETFILE-certified software. <a href="/blog/best-tax-software-2026/">[Tax Software Guide]</a></p>
 </div>
 
         <h2 id="b">B</h2>
@@ -11553,7 +12395,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Canada Child Benefit (CCB)</span>
-<p class="term-def">A tax-free monthly payment to eligible families with children under 18. For the 2026–2027 benefit year: up to $8,157 per child under 6 and $6,883 per child aged 6–17. Amounts are reduced based on adjusted family net income. <a href="article-14-tax-tips-families-2026.html">[Family Tax Guide]</a></p>
+<p class="term-def">A tax-free monthly payment to eligible families with children under 18. For the 2026–2027 benefit year: up to $8,157 per child under 6 and $6,883 per child aged 6–17. Amounts are reduced based on adjusted family net income. <a href="/blog/tax-tips-families-2026/">[Family Tax Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11563,7 +12405,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Canada Pension Plan (CPP)</span>
-<p class="term-def">A mandatory contributory pension plan for employed and self-employed Canadians. Both employees and employers contribute. The maximum monthly benefit at age 65 is approximately $1,508 (2026). You can defer CPP to age 70 for a 42% increase or start as early as age 60 for a 36% reduction. <a href="article-17-retirement-income-planning-2026.html">[Retirement Guide]</a></p>
+<p class="term-def">A mandatory contributory pension plan for employed and self-employed Canadians. Both employees and employers contribute. The maximum monthly benefit at age 65 is approximately $1,508 (2026). You can defer CPP to age 70 for a 42% increase or start as early as age 60 for a 36% reduction. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11578,12 +12420,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Capital Cost Allowance (CCA)</span>
-<p class="term-def">The tax term for depreciation of business assets. Instead of deducting the full cost of an asset in the year of purchase, you claim a percentage each year based on the asset's CCA class. Common classes: Class 10/10.1 for vehicles ($39,000 ceiling in 2026), Class 50 for computers (55% rate). <a href="article-11-self-employed-tax-guide-2026.html">[Self-Employed Guide]</a></p>
+<p class="term-def">The tax term for depreciation of business assets. Instead of deducting the full cost of an asset in the year of purchase, you claim a percentage each year based on the asset's CCA class. Common classes: Class 10/10.1 for vehicles ($39,000 ceiling in 2026), Class 50 for computers (55% rate). <a href="/blog/self-employed-tax-guide-2026/">[Self-Employed Guide]</a></p>
 </div>
 
         <div class="term">
 <span class="term-name">Capital Gain</span>
-<p class="term-def">The profit from selling a capital property (investments, real estate, etc.) for more than its adjusted cost base. In Canada, only 50% of capital gains are included in your taxable income (the "inclusion rate"). A proposal to increase this to 66.67% was cancelled in March 2025. <a href="article-16-tax-efficient-investing-2026.html">[Tax-Efficient Investing]</a></p>
+<p class="term-def">The profit from selling a capital property (investments, real estate, etc.) for more than its adjusted cost base. In Canada, only 50% of capital gains are included in your taxable income (the "inclusion rate"). A proposal to increase this to 66.67% was cancelled in March 2025. <a href="/blog/tax-efficient-investing-2026/">[Tax-Efficient Investing]</a></p>
 </div>
 
         <div class="term">
@@ -11608,7 +12450,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">CPP2 (Second Additional CPP Contribution)</span>
-<p class="term-def">Introduced in 2024, a second tier of CPP contributions on earnings between the first ceiling ($71,300) and second ceiling ($81,200) for 2026. The employee rate is 4.00%. Designed to enhance CPP retirement benefits. <a href="article-27-contribution-limits-2026.html">[Contribution Limits]</a></p>
+<p class="term-def">Introduced in 2024, a second tier of CPP contributions on earnings between the first ceiling ($71,300) and second ceiling ($81,200) for 2026. The employee rate is 4.00%. Designed to enhance CPP retirement benefits. <a href="/blog/contribution-limits-2026/">[Contribution Limits]</a></p>
 </div>
 
         <h2 id="d">D</h2>
@@ -11637,7 +12479,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Effective Tax Rate</span>
-<p class="term-def">The actual percentage of your total income paid in tax, calculated as total tax payable divided by total income. Always lower than your marginal rate due to progressive brackets. For example, someone earning $100,000 might have a marginal rate of 20.5% but an effective federal rate of only 14.5%. <a href="article-24-federal-tax-brackets-2026.html">[Federal Brackets Table]</a></p>
+<p class="term-def">The actual percentage of your total income paid in tax, calculated as total tax payable divided by total income. Always lower than your marginal rate due to progressive brackets. For example, someone earning $100,000 might have a marginal rate of 20.5% but an effective federal rate of only 14.5%. <a href="/blog/federal-tax-brackets-2026/">[Federal Brackets Table]</a></p>
 </div>
 
         <div class="term">
@@ -11654,7 +12496,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">First Home Savings Account (FHSA)</span>
-<p class="term-def">A registered account introduced in 2023 for first-time home buyers. Contributions are tax-deductible (up to $8,000/year, $40,000 lifetime), growth is tax-free, and withdrawals for a qualifying home purchase are tax-free. There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you don't buy a home, funds can be transferred to an RRSP. <a href="article-07-fhsa-guide-2026.html">[Complete FHSA Guide]</a></p>
+<p class="term-def">A registered account introduced in 2023 for first-time home buyers. Contributions are tax-deductible (up to $8,000/year, $40,000 lifetime), growth is tax-free, and withdrawals for a qualifying home purchase are tax-free. There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you don't buy a home, funds can be transferred to an RRSP. <a href="/blog/fhsa-guide-2026/">[Complete FHSA Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11683,7 +12525,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Home Buyers' Plan (HBP)</span>
-<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="article-07-fhsa-guide-2026.html">[FHSA & HBP Guide]</a></p>
+<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="/blog/fhsa-guide-2026/">[FHSA & HBP Guide]</a></p>
 </div>
 
         <h2 id="i">I</h2>
@@ -11705,7 +12547,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Instalment Payments</span>
-<p class="term-def">Quarterly tax payments required when your net tax owing exceeds $3,000 in the current year and either of the two preceding years. Due dates: March 15, June 15, September 15, December 15. Interest is charged on late or insufficient instalments. <a href="article-13-quarterly-tax-instalments-2026.html">[Instalments Guide]</a></p>
+<p class="term-def">Quarterly tax payments required when your net tax owing exceeds $3,000 in the current year and either of the two preceding years. Due dates: March 15, June 15, September 15, December 15. Interest is charged on late or insufficient instalments. <a href="/blog/quarterly-tax-instalments-2026/">[Instalments Guide]</a></p>
 </div>
 
         <h2 id="l">L</h2>
@@ -11719,19 +12561,19 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Marginal Tax Rate</span>
-<p class="term-def">The tax rate applied to your next dollar of income. In a progressive system, your marginal rate is higher than your effective rate. Your combined marginal rate (federal + provincial) determines how much of each additional dollar you keep, and is the key rate for tax planning decisions. <a href="article-01-federal-tax-brackets-2026.html">[Brackets Explained]</a></p>
+<p class="term-def">The tax rate applied to your next dollar of income. In a progressive system, your marginal rate is higher than your effective rate. Your combined marginal rate (federal + provincial) determines how much of each additional dollar you keep, and is the key rate for tax planning decisions. <a href="/blog/federal-tax-brackets-2026/">[Brackets Explained]</a></p>
 </div>
 
         <div class="term">
 <span class="term-name">Medical Expense Tax Credit (METC)</span>
-<p class="term-def">A non-refundable credit for eligible medical expenses exceeding the lesser of 3% of your net income or $2,759 (2026). Expenses can be claimed for yourself, your spouse, and your dependent children. Best claimed by the lower-income spouse to minimize the income threshold. <a href="article-10-missed-tax-credits-2026.html">[Missed Credits Guide]</a></p>
+<p class="term-def">A non-refundable credit for eligible medical expenses exceeding the lesser of 3% of your net income or $2,759 (2026). Expenses can be claimed for yourself, your spouse, and your dependent children. Best claimed by the lower-income spouse to minimize the income threshold. <a href="/blog/missed-tax-credits-2026/">[Missed Credits Guide]</a></p>
 </div>
 
         <h2 id="n">N</h2>
 
         <div class="term">
 <span class="term-name">NETFILE</span>
-<p class="term-def">The CRA's electronic tax filing system. Most Canadians file their returns through NETFILE using certified software. Filing electronically is faster (refunds typically arrive in 2 weeks vs. 8 weeks for paper) and reduces errors. <a href="article-18-best-tax-software-2026.html">[Tax Software Guide]</a></p>
+<p class="term-def">The CRA's electronic tax filing system. Most Canadians file their returns through NETFILE using certified software. Filing electronically is faster (refunds typically arrive in 2 weeks vs. 8 weeks for paper) and reduces errors. <a href="/blog/best-tax-software-2026/">[Tax Software Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11751,14 +12593,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Notice of Objection</span>
-<p class="term-def">A formal dispute filed with the CRA when you disagree with an assessment or reassessment. Must be filed within 90 days of the date on the notice. The CRA's Appeals Division reviews your objection independently from the original assessment. <a href="article-19-cra-audit-guide-2026.html">[CRA Audit Guide]</a></p>
+<p class="term-def">A formal dispute filed with the CRA when you disagree with an assessment or reassessment. Must be filed within 90 days of the date on the notice. The CRA's Appeals Division reviews your objection independently from the original assessment. <a href="/blog/cra-audit-guide-2026/">[CRA Audit Guide]</a></p>
 </div>
 
         <h2 id="o">O</h2>
 
         <div class="term">
 <span class="term-name">Old Age Security (OAS)</span>
-<p class="term-def">A monthly pension available to most Canadians aged 65 or older who meet residency requirements. The maximum monthly benefit is approximately $742 (2026). OAS is clawed back (reduced) when your net income exceeds $95,323 (the "OAS clawback" or OAS recovery tax), at a rate of 15 cents per dollar of excess income. <a href="article-17-retirement-income-planning-2026.html">[Retirement Guide]</a></p>
+<p class="term-def">A monthly pension available to most Canadians aged 65 or older who meet residency requirements. The maximum monthly benefit is approximately $742 (2026). OAS is clawed back (reduced) when your net income exceeds $95,323 (the "OAS clawback" or OAS recovery tax), at a rate of 15 cents per dollar of excess income. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11790,7 +12632,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Progressive Tax System</span>
-<p class="term-def">A system where tax rates increase as income rises, with income taxed in layers ("brackets"). Canada uses a progressive federal system with 5 brackets (14% to 33%) and each province adds its own progressive brackets. This means your marginal rate is always higher than your effective rate. <a href="article-03-how-canadian-taxes-work.html">[How Canadian Taxes Work]</a></p>
+<p class="term-def">A system where tax rates increase as income rises, with income taxed in layers ("brackets"). Canada uses a progressive federal system with 5 brackets (14% to 33%) and each province adds its own progressive brackets. This means your marginal rate is always higher than your effective rate. <a href="/blog/how-canadian-taxes-work/">[How Canadian Taxes Work]</a></p>
 </div>
 
         <h2 id="q">Q</h2>
@@ -11829,7 +12671,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Registered Retirement Savings Plan (RRSP)</span>
-<p class="term-def">A tax-deferred savings account. Contributions are tax-deductible (reducing your current tax bill), growth is tax-sheltered, and withdrawals are taxed as income. 2026 limit: $33,810 or 18% of prior-year earned income. Unused room carries forward indefinitely. <a href="article-05-rrsp-playbook-2026.html">[RRSP Playbook]</a></p>
+<p class="term-def">A tax-deferred savings account. Contributions are tax-deductible (reducing your current tax bill), growth is tax-sheltered, and withdrawals are taxed as income. 2026 limit: $33,810 or 18% of prior-year earned income. Unused room carries forward indefinitely. <a href="/blog/rrsp-playbook-2026/">[RRSP Playbook]</a></p>
 </div>
 
         <div class="term">
@@ -11846,7 +12688,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Small Business Deduction (SBD)</span>
-<p class="term-def">A deduction that reduces the federal corporate tax rate to 9% on the first $500,000 of active business income earned by a Canadian-Controlled Private Corporation (CCPC). Combined with provincial rates, the total small business rate ranges from approximately 11% to 12.2% depending on the province. <a href="article-12-should-you-incorporate-2026.html">[Incorporation Guide]</a></p>
+<p class="term-def">A deduction that reduces the federal corporate tax rate to 9% on the first $500,000 of active business income earned by a Canadian-Controlled Private Corporation (CCPC). Combined with provincial rates, the total small business rate ranges from approximately 11% to 12.2% depending on the province. <a href="/blog/should-you-incorporate-2026/">[Incorporation Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11856,7 +12698,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Superficial Loss Rule</span>
-<p class="term-def">A CRA rule that denies a capital loss if you (or an affiliated person) buy back the same or identical investment within 30 days before or after the sale. The denied loss is added to the ACB of the repurchased property. Critical to understand for tax-loss harvesting strategies. <a href="article-16-tax-efficient-investing-2026.html">[Investing Guide]</a></p>
+<p class="term-def">A CRA rule that denies a capital loss if you (or an affiliated person) buy back the same or identical investment within 30 days before or after the sale. The denied loss is added to the ACB of the repurchased property. Critical to understand for tax-loss harvesting strategies. <a href="/blog/tax-efficient-investing-2026/">[Investing Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11868,7 +12710,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">T1 (General Income Tax Return)</span>
-<p class="term-def">The main personal income tax return filed by Canadian individuals. Due April 30 for most taxpayers (June 15 for self-employed, but balance owing is still due April 30). <a href="article-26-cra-deadlines-2026.html">[CRA Deadlines]</a></p>
+<p class="term-def">The main personal income tax return filed by Canadian individuals. Due April 30 for most taxpayers (June 15 for self-employed, but balance owing is still due April 30). <a href="/blog/cra-deadlines-2026/">[CRA Deadlines]</a></p>
 </div>
 
         <div class="term">
@@ -11878,7 +12720,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">T2125 (Statement of Business Activities)</span>
-<p class="term-def">The form used to report self-employment or professional income and expenses. Attached to your T1 return. Where you claim business deductions including home office, vehicle, supplies, and other expenses. <a href="article-11-self-employed-tax-guide-2026.html">[Self-Employed Guide]</a></p>
+<p class="term-def">The form used to report self-employment or professional income and expenses. Attached to your T1 return. Where you claim business deductions including home office, vehicle, supplies, and other expenses. <a href="/blog/self-employed-tax-guide-2026/">[Self-Employed Guide]</a></p>
 </div>
 
         <div class="term">
@@ -11893,7 +12735,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Tax-Free Savings Account (TFSA)</span>
-<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. Cumulative room since 2009: $109,000. Withdrawals restore contribution room on January 1 of the following year. <a href="article-06-tfsa-strategies-2026.html">[TFSA Strategies]</a></p>
+<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. Cumulative room since 2009: $109,000. Withdrawals restore contribution room on January 1 of the following year. <a href="/blog/tfsa-strategies-2026/">[TFSA Strategies]</a></p>
 </div>
 
         <div class="term">
@@ -11934,10 +12776,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="article-03-how-canadian-taxes-work.html">How Canadian Taxes Work</a> |
-            <a href="article-24-federal-tax-brackets-2026.html">Federal Brackets 2026</a> |
-            <a href="article-27-contribution-limits-2026.html">Contribution Limits 2026</a> |
-            <a href="article-23-tax-deduction-checklist-2026.html">Tax Deduction Checklist</a>
+<a href="/blog/how-canadian-taxes-work/">How Canadian Taxes Work</a> |
+            <a href="/blog/federal-tax-brackets-2026/">Federal Brackets 2026</a> |
+            <a href="/blog/contribution-limits-2026/">Contribution Limits 2026</a> |
+            <a href="/blog/tax-deduction-checklist-2026/">Tax Deduction Checklist</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. Each glossary definition is a potential featured snippet. Bookmark this page for quick tax term lookups.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>

@@ -77,11 +77,11 @@ export default function Home() {
             <ArticleCard 
               slug="tfsa-contribution-optimization-2026"
               title="TFSA Contribution Optimization Strategy for 2026"
-              excerpt="Discover the mathematically optimal way to deploy your new TFSA contribution room on January 1st to maximize tax-free compounding."
+              excerpt="When to fund 2026 TFSA room, which assets belong inside, and the overcontribution mistakes that cost more than the contribution."
               category="Investing"
               author="Andrew Carrothers"
-              date="March 15, 2026"
-              imageUrl="https://images.unsplash.com/photo-1579621970588-a3f5ce599fac?q=80&w=800&auto=format&fit=crop"
+              date="September 15, 2026"
+              imageUrl="/images/blog/tfsa-contribution-optimization-2026.png"
             />
             <ArticleCard 
               slug="card-churning-minimum-spend"
@@ -89,8 +89,8 @@ export default function Home() {
               excerpt="How to hit high minimum spend requirements without buying things you don't need or tying up your cash flow."
               category="Credit Cards"
               author="Andrew Carrothers"
-              date="March 10, 2026"
-              imageUrl="https://images.unsplash.com/photo-1589758438368-0c5348a954dc?q=80&w=800&auto=format&fit=crop"
+              date="September 18, 2026"
+              imageUrl="/images/blog/card-churning-minimum-spend.png"
             />
             <ArticleCard 
               slug="income-splitting-strategies-couples"
@@ -98,8 +98,8 @@ export default function Home() {
               excerpt="Spousal RRSPs, prescribed rate loans, and other CRA-approved methods to equalize income and lower your combined tax bill."
               category="Taxes"
               author="Andrew Carrothers"
-              date="March 1, 2026"
-              imageUrl="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop"
+              date="September 12, 2026"
+              imageUrl="/images/blog/income-splitting-strategies-couples.png"
             />
           </div>
         </div>
@@ -111,24 +111,24 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-12 bg-charcoal rounded-2xl overflow-hidden p-8 lg:p-12 text-white">
             <div className="lg:w-1/2">
               <span className="text-canadian-red font-bold tracking-wider uppercase text-sm mb-4 block">Featured Ebook</span>
-              <h2 className="text-3xl md:text-5xl font-bold mb-6">The Canadian Tax Optimization Checklist</h2>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6">How To Reduce Your Taxes & Maximize Your Refund</h2>
               <p className="text-gray-300 mb-8 text-lg">
-                Stop leaving money on the table. A comprehensive 50-step checklist to ensure you are utilizing every deduction, credit, and strategy allowed by the CRA.
+                The 2026 guide to Canadian tax optimization: the 14% federal bracket, the $60,000 Home Buyers&apos; Plan, FHSA planning, and the deductions most people still miss.
               </p>
               <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> Over 50 specific tax strategies</li>
-                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> Small business owner optimizations</li>
-                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> End-of-year action plan</li>
+                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> Updated for the 2026 tax year</li>
+                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> RRSP, TFSA, and FHSA frameworks</li>
+                <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> Small-business and incorporation roadmap</li>
               </ul>
               <div className="flex items-center gap-6">
-                 <Button variant="primary" href="/ebooks/tax-checklist" className="px-8 font-semibold">Get it Now for $29 CAD</Button>
+                 <Button variant="primary" href="/ebooks/tax-guide" className="px-8 font-semibold">Get it Now for $49 CAD</Button>
               </div>
             </div>
             <div className="lg:w-1/2 flex justify-center">
                <div className="relative w-full max-w-sm aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                  <Image 
-                    src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop" 
-                    alt="Ebook Cover" 
+                    src="/assets/images/tax-ebook-2026.png" 
+                    alt="Cover of How To Reduce Your Taxes and Maximize Your Refund, 2026 edition" 
                     fill 
                     className="object-cover"
                  />
