@@ -1060,7 +1060,801 @@ export const posts = [
 
 </div>`
   },
+  {
+    title: "Annual Fee vs No-Fee: When a Credit Card Fee Pays for Itself in Canada",
+    slug: "credit-card-annual-fee-vs-no-fee-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-10-01",
+    excerpt: "A Canadian break-even framework for annual-fee cards — statement credits, insurance, earn-rate gaps, lounges — using illustrative math only, not invented offers.",
+    image: "/images/blog/credit-card-annual-fee-vs-no-fee-canada.png",
+    content: `<div class="container">
 
+    <div class="hook">
+        An annual fee is not a status symbol. It is a <span class="highlight">recurring cost that must clear a break-even test</span> against the no-fee card you already understand. Credits, insurance you would otherwise buy, earn-rate gaps, and lounge access can tip the math — invented “value” you will never use cannot.
+    </div>
+
+    <p>Canadian premium cards often sit in a fee band that looks small next to a travel fantasy and large next to a flat 1 percent cash-back product. This article gives the worksheet. It does not invent a current welcome bonus, earn rate, or lounge network roster. Confirm fees, credits, and insurance schedules on the issuer’s page before you pay for year two.</p>
+
+    <div class="callout">
+        <strong>Year one and year two are different problems:</strong>
+        <p>A first-year fee waiver or a welcome bonus can make residual look great once. The keep-or-cancel decision is whether the card still clears the fee <em>without</em> that one-time residual. Price them separately — the same discipline as the <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome-bonus math framework</a>.</p>
+    </div>
+
+    <h2>The break-even equation</h2>
+
+    <div class="example-box">
+        <strong>Fee pays for itself when:</strong>
+        <p>Net annual benefit ≥ annual fee. Net benefit ≈ statement credits you will actually claim + insurance premiums you would otherwise pay + (earn on this card − earn on your best no-fee alternative) on spend you can place here + lounge / travel perks you would otherwise buy − friction (acceptance gaps, time, opportunity cost).</p>
+    </div>
+
+    <p>If the inequality is not clearly true with a buffer, keep the no-fee card. A close call usually means you are counting lounge visits you will not take or insurance you already have elsewhere.</p>
+
+    <h2>Line items that count — and ones that do not</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Benefit type</th>
+                <th>When it counts toward break-even</th>
+                <th>When it does not</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Statement credits (travel, dining, rideshare, streaming)</td>
+                <td>You already spend in that category and will claim the credit every year.</td>
+                <td>You invent spend to “use” the credit, or the credit requires a partner you do not use.</td>
+            </tr>
+            <tr>
+                <td>Travel / purchase insurance</td>
+                <td>You would buy comparable coverage out of pocket, or the card’s cover is primary where you need it.</td>
+                <td>You already have better coverage through work, a travel policy, or another card.</td>
+            </tr>
+            <tr>
+                <td>Higher earn rate</td>
+                <td>Only on merchants that accept the network and code into the bonus category.</td>
+                <td>Headline grocery earn that dies at Costco, Loblaw banners that refuse Amex, or MCC mismatches.</td>
+            </tr>
+            <tr>
+                <td>Lounge / priority services</td>
+                <td>You value a visit at the cash price you would pay, times visits you will actually make.</td>
+                <td>You count unlimited theoretical visits for a household that flies twice a year.</td>
+            </tr>
+            <tr>
+                <td>Welcome bonus</td>
+                <td>Year-one residual only — after fee, minimum-spend friction, and realistic redemption.</td>
+                <td>You use it to justify year-two and year-three fees.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Pair with category reality:</strong>
+        <p>Earn-rate gaps only exist on spend you can place. Run the same merchant and MCC honesty as the <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a> and the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards structure guide</a> before you treat a “2× groceries” line as free money.</p>
+    </div>
+
+    <h2>Illustrative math (structural examples only)</h2>
+
+    <p>These are worksheets, not live offers. Plug in the issuer’s current fee and credits the day you decide.</p>
+
+    <div class="example-box">
+        <strong>Example A — credits clear the fee</strong>
+        <p>Suppose a card charges an annual fee in a mid-hundreds premium band and includes a travel or dining statement credit that, for your household, is fully used every year because you already book that category. If the credit alone matches or exceeds the fee, and you pay in full, the earn rate can be ordinary and the card still clears break-even. If you would not spend in that category without the credit, do not count it.</p>
+    </div>
+
+    <div class="example-box">
+        <strong>Example B — earn-rate gap must cover the fee</strong>
+        <p>Suppose a no-fee flat card returns roughly one percent, and a fee card returns a higher effective rate only on a subset of spend. You place $10,000 a year on merchants that actually qualify. Illustrative only: a one-percentage-point gap on that $10,000 is about $100 of extra rewards. If the annual fee is higher than $100 (plus any credits you will not use), the fee card loses on steady-state math. Scale the same structure to your numbers.</p>
+    </div>
+
+    <div class="example-box">
+        <strong>Example C — lounge arithmetic</strong>
+        <p>Illustrative only: if a pay-per-visit lounge day costs you something in a mid-tens to low-hundreds cash band, and you take three visits a year you would otherwise pay for, that is a real input. Two visits you would skip because the terminal food court is fine are not. Guest policies matter — a “free” guest who still requires a day pass can erase the story. See the lounge and portal framework on this site for Canadian access patterns.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Interest is a veto:</strong>
+        <p>Any plan that carries a balance to “keep the rewards flowing” fails the break-even test. Canadian consumer card interest can erase years of fee optimization in a single cycle. Autopay the statement balance.</p>
+    </div>
+
+    <h2>Insurance — price the policy you would buy</h2>
+
+    <p>Card insurance is valuable when it replaces a purchase. It is marketing when it duplicates coverage you already have or when exclusions make the claim path unrealistic for how you travel.</p>
+
+    <ul>
+        <li><strong>Read primary vs secondary.</strong> Secondary coverage that pays after your employer plan may still be useful — but do not double-count the full retail price of a standalone policy.</li>
+        <li><strong>Trip cancellation and interruption</strong> help only if you book on the card and follow the documentation rules.</li>
+        <li><strong>Car rental collision</strong> can replace a counter waiver on trips where you would otherwise buy one — confirm country exclusions and vehicle classes.</li>
+        <li><strong>Mobile device insurance</strong> often has deductibles and caps. Count the expected claim value, not the sticker price of a new phone every year.</li>
+    </ul>
+
+    <h2>Acceptance and friction subtract from benefit</h2>
+
+    <p>American Express earn that you cannot place at Costco or many Loblaw banners is not earn. A Visa Infinite income test you fail is not a card. Supplementary cards that let a partner spend into a fee product help only if the household pays in full and tracks the annual-fee date — the same discipline as the <a href="/blog/card-churning-minimum-spend/">minimum-spend playbook</a>.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Friction</th>
+                <th>How to treat it in the math</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Network acceptance gaps</td>
+                <td>Haircut earn by the share of spend that never posts on the card.</td>
+            </tr>
+            <tr>
+                <td>Foreign-transaction fees on a “premium” card</td>
+                <td>A 2.5%-class fee can wipe out rewards abroad — keep a no-foreign-fee companion.</td>
+            </tr>
+            <tr>
+                <td>Time to track credits and caps</td>
+                <td>If you will not claim the credit, it is worth zero.</td>
+            </tr>
+            <tr>
+                <td>Credit inquiries and utilization before a mortgage</td>
+                <td>Fee math is irrelevant if the application timing is wrong — see the <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization and applications guide</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Keep, product-change, or cancel</h2>
+
+    <ul>
+        <li><strong>Keep</strong> when year-two net benefit clearly exceeds the fee on spend and perks you already use.</li>
+        <li><strong>Product-change</strong> when the issuer offers a lower-fee sibling that preserves history without a new inquiry — confirm repeat-bonus and insurance changes first.</li>
+        <li><strong>Cancel</strong> when the fee is due and break-even fails. Do it before the fee posts when the issuer’s rules allow; calendar the date eleven months after approval.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Business fee cards:</strong>
+        <p>A corporation or sole-prop product still needs this worksheet — and a clear read of any personal guarantee. The <a href="/blog/business-credit-cards-sole-prop-corporation-canada/">business-card guide</a> covers entity and bookkeeping; it does not waive break-even.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Break-even is a formula,</strong> not a feeling about metal cards.</li>
+        <li><strong>Count credits and insurance you would use anyway</strong> — not aspirational lounge calendars.</li>
+        <li><strong>Earn gaps only count on accepted, correctly coded spend.</strong></li>
+        <li><strong>Separate year-one bonus math from year-two keep math.</strong></li>
+        <li><strong>Interest or manufactured spend</strong> voids the exercise.</li>
+        <li><strong>Verify live fees and benefits</strong> with the issuer before renewal.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Card fees are small. Tax drag is large.</strong></p>
+        <p>Clear the annual-fee test, then put the serious hours into brackets, registered accounts, and deductions. The 2026 tax guide is the longer play.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about evaluating Canadian credit-card annual fees. It is not a recommendation to apply for or keep any product, and not credit, insurance, tax, or investment advice. Fees, credits, insurance schedules, earn rates, and lounge access change without notice. Illustrative ranges are structural examples only. Confirm every figure with the issuer and read the certificate of insurance before you rely on a benefit. Paying interest can erase any advantage.</p>
+        <div class="footer-note">Published: October 1, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Airport Lounge and Travel Portal Optimization for Canadian Cardholders",
+    slug: "credit-card-airport-lounge-travel-portal-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-10-03",
+    excerpt: "Canadian-relevant lounge access patterns, guest-policy concepts, and when issuer travel portals beat booking direct — structural guidance, not fake portal rates.",
+    image: "/images/blog/credit-card-airport-lounge-travel-portal-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A lounge photo on an application page is not a travel strategy. Canadian cardholders win when they treat lounge access and travel portals as <span class="highlight">priced tools</span> — guest rules, network coverage at YYZ, YVR, and YUL, and whether the portal’s cash or points price beats the airline’s own site after taxes and bag fees.
+    </div>
+
+    <p>This guide is structural. It does not invent current lounge-network rosters, day-pass prices, or portal “member rates.” Those change. Confirm access lists and booking rules with the issuer and the lounge operator the week you fly.</p>
+
+    <div class="callout">
+        <strong>Fee first, perk second:</strong>
+        <p>Lounge access that you will use three times a year can help a premium card clear break-even. Unlimited theoretical visits for a household that flies once do not. Run the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual-fee vs no-fee framework</a> before you pay for metal.</p>
+    </div>
+
+    <h2>How Canadians typically get lounge access</h2>
+
+    <p>Patterns recur across issuers even when product names change. Know which pattern you are buying.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Access pattern</th>
+                <th>What it usually means</th>
+                <th>Canadian catch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unlimited visits for the primary cardholder on a named network</td>
+                <td>You show the card (or membership) at participating lounges.</td>
+                <td>Not every terminal at a major Canadian hub is covered. Domestic vs international legs can differ.</td>
+            </tr>
+            <tr>
+                <td>Limited visits per year</td>
+                <td>A capped number of entries; extras are paid.</td>
+                <td>Count only the visits you will take inside the card year — not the cap.</td>
+            </tr>
+            <tr>
+                <td>Airline status or co-brand threshold</td>
+                <td>Access tied to Aeroplan-style status or a co-brand elite path.</td>
+                <td>Status is earned and lost. Do not capitalize a year of lounge access you have not secured.</td>
+            </tr>
+            <tr>
+                <td>Day-pass credits or statement credits</td>
+                <td>The card funds a pass rather than granting membership.</td>
+                <td>Only worth the cash price of passes you would buy anyway.</td>
+            </tr>
+            <tr>
+                <td>Priority boarding / security lanes without a lounge</td>
+                <td>Useful, but not lounge economics.</td>
+                <td>Do not mix these into lounge break-even math.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Guest policies — where the math breaks</h2>
+
+    <p>Households travel in pairs. Guest rules decide whether the “free lounge” story survives contact with a spouse, child, or client.</p>
+
+    <ul>
+        <li><strong>Primary only.</strong> Guests pay a day rate. Price that rate into the trip before you celebrate.</li>
+        <li><strong>One guest included.</strong> Better for couples; still check age rules for children and whether the guest must fly the same itinerary.</li>
+        <li><strong>Paid memberships for guests.</strong> Sometimes available; sometimes not. Confirm before you buy a second premium card “for the partner.”</li>
+        <li><strong>Crowding and capacity.</strong> Even valid access can be turned away at peak times. Have a backup plan at large hubs.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Do not double-count:</strong>
+        <p>If both partners hold premium cards for lounge access, you may be paying two fees for one waiting room. One membership pattern plus a guest rule — or one day-pass budget — is often enough. Stack cards for earn categories, not duplicate lounge keys.</p>
+    </div>
+
+    <h2>Canadian hubs and itinerary reality</h2>
+
+    <p>Toronto Pearson, Vancouver, Montréal-Trudeau, Calgary, and Ottawa do not offer identical lounge density on every side of security. A card that looks strong for a US connection through a Priority Pass–style network can be thin on a domestic YYZ–YVR hop depending on which lounges participate and whether your ticket is domestic or international.</p>
+
+    <div class="tip-box">
+        <strong>Before you fly:</strong>
+        <p>Check the issuer’s lounge finder for your exact terminal and departure type. Screenshot the eligibility notes. Same-day surprises at security are expensive in stress, not just dollars.</p>
+    </div>
+
+    <h2>When the issuer travel portal beats booking direct</h2>
+
+    <p>Portals exist to move points and to capture booking margin. Sometimes they win. Often they do not. Compare all-in prices.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Compare</th>
+                <th>Portal</th>
+                <th>Airline / hotel direct</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cash price</td>
+                <td>Member rate after any card credit</td>
+                <td>Public fare including bundles you actually need</td>
+            </tr>
+            <tr>
+                <td>Points price</td>
+                <td>Points required in the portal</td>
+                <td>Award chart or dynamic award on the carrier site / aeroplan.com-style booking</td>
+            </tr>
+            <tr>
+                <td>Taxes and carrier surcharges</td>
+                <td>Still owed in cash on many awards</td>
+                <td>Same — do not ignore them in either channel</td>
+            </tr>
+            <tr>
+                <td>Elite credit / status earn</td>
+                <td>Often reduced or absent</td>
+                <td>Usually fuller credit when booked in the airline’s own channels</td>
+            </tr>
+            <tr>
+                <td>Changes and cancellations</td>
+                <td>Portal intermediary rules</td>
+                <td>Carrier contract of carriage</td>
+            </tr>
+            <tr>
+                <td>Seat selection and bags</td>
+                <td>May be more awkward post-booking</td>
+                <td>Usually cleaner in the airline app</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Example: structural portal test (illustrative, not a live rate)</strong>
+        <p>You can book a Toronto–Calgary flight three ways: cash on the airline site, cash via the issuer portal (perhaps with a travel credit applied), or points via the portal versus transferring to an airline partner. Build one spreadsheet row with all-in cash out the door and a second with points required ÷ cash alternative = cents per point. If the portal cash price after credit is still higher than direct, skip the portal. If the portal points redemption implies a weak cents-per-point versus transferring out, transfer — or pay cash and keep the points. The <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">points valuation guide</a> covers that arithmetic.</p>
+    </div>
+
+    <h2>Transfer partners vs portal — a Canadian travel-card fork</h2>
+
+    <p>Flexible currencies (Avion-style, Membership Rewards-style) often let you book in a portal <em>or</em> transfer to Aeroplan and other partners. Co-brand Aeroplan cards lean you toward Air Canada award space. Neither path is automatically “better.”</p>
+
+    <ul>
+        <li><strong>Use the portal</strong> when the cash-equivalent or points price is competitive, you value simplicity, and you do not need airline elite credit.</li>
+        <li><strong>Transfer out</strong> when a specific award routing on Aeroplan (or another partner) beats the portal on cents-per-point <em>and</em> you accept transfer irrevigibility.</li>
+        <li><strong>Book direct with cash</strong> when both points paths are mediocre and your no-foreign-fee or travel card’s insurance still attaches because you charged the fare.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Insurance trigger:</strong>
+        <p>Many trip-cancellation and interruption benefits require charging the fare to the card. Portal vs direct can both qualify — confirm the certificate. Do not assume a points-only booking without a cash residual still triggers every benefit.</p>
+    </div>
+
+    <h2>Building the travel side of a stack</h2>
+
+    <p>A coherent Canadian travel setup usually looks like:</p>
+
+    <ol>
+        <li>One earn structure aligned to how you fly — see the <a href="/blog/best-travel-rewards-cards-canada-2026/">2026 travel-rewards guide</a>.</li>
+        <li>One no-foreign-fee card for taps abroad (even if earn is ordinary).</li>
+        <li>Lounge access only if break-even survives guest math.</li>
+        <li>Portal literacy so you are not defaulting to the worst redemption path.</li>
+    </ol>
+
+    <p>Welcome-bonus trips still need organic minimum-spend discipline — the <a href="/blog/card-churning-minimum-spend/">minimum-spend guide</a> and <a href="/blog/credit-card-welcome-bonus-math-canada/">bonus-math framework</a> apply before you chase a lounge for a single itinerary.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Price lounge access by visits and guests you will actually take,</strong> not by marketing unlimited language.</li>
+        <li><strong>Check the specific Canadian terminal</strong> before you rely on a network logo.</li>
+        <li><strong>Compare portal vs direct all-in</strong> — cash, points, taxes, bags, change rules, elite credit.</li>
+        <li><strong>Transfer partners can beat portals</strong> on the right award — and lose on the wrong one.</li>
+        <li><strong>Do not buy a second premium card</strong> only to duplicate lounge keys.</li>
+        <li><strong>Verify access lists and portal terms</strong> the week you book and the week you fly.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Lounges are comfort. Tax is compounding.</strong></p>
+        <p>Optimize the trip, then put the larger effort into brackets and registered accounts. The 2026 tax guide is the longer play.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about lounge access and travel-portal decision frames for Canadian credit-card holders. It is not a recommendation of any card, lounge network, or booking channel, and not travel, insurance, or credit advice. Access lists, guest fees, portal prices, award charts, and insurance certificates change without notice. Confirm details with the issuer, lounge operator, and carrier before you travel.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Credit Card Points Valuations in Plain Numbers: Aeroplan, Avion, and Amex MR",
+    slug: "credit-card-points-valuations-aeroplan-avion-amex-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-10-05",
+    excerpt: "Value Aeroplan, Avion, and Amex Membership Rewards with cents-per-point math and transfer considerations — illustrative ranges only, always verify with the issuer.",
+    image: "/images/blog/credit-card-points-valuations-aeroplan-avion-amex-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A point is not worth what a blog’s leaderboard says. It is worth <span class="highlight">the cash you avoid spending on a trip you will actually take</span>, divided by the points you burn — after taxes, surcharges, and transfer friction. Aeroplan, Avion, and Amex Membership Rewards each need that honesty, not a branded fantasy number.
+    </div>
+
+    <p>This article teaches the cents-per-point (CPP) framework Canadians can run on a spreadsheet. Illustrative ranges below are labelled as such. They are not current bonuses, earn rates, or guaranteed redemption values. Verify award prices, transfer ratios, and portal rates with Aeroplan, RBC Avion, American Express, and your issuer the day you book.</p>
+
+    <div class="callout">
+        <strong>Offers and charts change:</strong>
+        <p>Dynamic Aeroplan pricing, portal markups, and transfer bonuses appear and disappear. Treat every specific valuation you have memorized — including anything in this article after publication — as stale until re-checked.</p>
+    </div>
+
+    <h2>The only formula that matters</h2>
+
+    <div class="example-box">
+        <strong>Cents per point ≈</strong>
+        <p>((Cash price of the same itinerary you would book − cash taxes/fees still owed on the award) ÷ points redeemed) × 100.</p>
+    </div>
+
+    <p>If you would not pay the cash price — because you would take a cheaper routing, a different date, or not travel — use the cash price of the trip you would actually buy, or skip the redemption. Inflated cash “comparables” invent CPP.</p>
+
+    <h2>Floor, target, and aspirational — three different numbers</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>What it means</th>
+                <th>How to use it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Floor</td>
+                <td>Statement credit, gift card, or portal cash-out style redemption.</td>
+                <td>The value you get if you never find a good award. Often well under 1¢ per point for many travel currencies — confirm live.</td>
+            </tr>
+            <tr>
+                <td>Target</td>
+                <td>Economy or reasonable premium awards you will book in the next 12–18 months.</td>
+                <td>The number that should drive keep-or-cancel and transfer decisions.</td>
+            </tr>
+            <tr>
+                <td>Aspirational</td>
+                <td>Perfect business-class sweet spots on peak dates.</td>
+                <td>Interesting for education. Dangerous as an application thesis.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Haircut optimism:</strong>
+        <p>If your plan requires aspirational CPP to clear a welcome-bonus residual or an annual fee, the plan is wrong. Revisit the <a href="/blog/credit-card-welcome-bonus-math-canada/">bonus-math framework</a> and the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">fee break-even test</a> with target CPP only.</p>
+    </div>
+
+    <h2>Aeroplan — airline currency with dynamic prices</h2>
+
+    <p>Aeroplan is most valuable when Air Canada award space (and partner space you can book through Aeroplan) replaces a cash ticket you would buy. It is least valuable when you redeem for merchandise or weak fixed-value options.</p>
+
+    <ul>
+        <li><strong>Search the award before you transfer or commit spend.</strong> Dynamic pricing means two Toronto–Vancouver dates can imply very different CPP.</li>
+        <li><strong>Subtract carrier surcharges and taxes</strong> still paid in cash. A “cheap” award with heavy surcharges can lose to a sale fare.</li>
+        <li><strong>Partner awards</strong> can be strong or poor; judge each routing on CPP, not on the partner logo.</li>
+        <li><strong>Co-brand vs flexible transfer in</strong> — a co-brand Aeroplan card earns the currency directly; flexible points transfer in only when the award beats the flexible program’s own portal.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustrative Aeroplan range (not a quote):</strong>
+        <p>Many ordinary domestic economy redemptions Canadians actually book land in a broad band that is often discussed around the neighbourhood of roughly 1–2¢ per point when the cash alternative is a typical retail fare — sometimes less on expensive dynamic days, sometimes more when you replace a steep last-minute cash ticket. Long-haul premium cabins can print higher CPP on the right date and worse CPP when surcharges dominate. Verify with a live award search; do not memorize a blog’s single number.</p>
+    </div>
+
+    <h2>Avion — flexible bank points</h2>
+
+    <p>RBC Avion-style points are flexible: bank travel bookings, transfers to partners (when offered), and other redemptions. Flexibility is the feature; mediocre default redemptions are the floor.</p>
+
+    <ul>
+        <li><strong>Portal / travel bookings</strong> often imply a relatively stable cents-per-point. Treat that as a floor-to-target band until you confirm the live ticket.</li>
+        <li><strong>Transfers to Aeroplan or other partners</strong> only when the post-transfer award CPP beats staying in Avion — after transfer time lag and irrevigibility.</li>
+        <li><strong>Do not assume transfer bonuses.</strong> When they appear, recalculate; when they vanish, your old math is wrong.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustrative Avion range (not a quote):</strong>
+        <p>Flexible bank currencies in Canada are often discussed in a conservative band around roughly 1¢ per point for straightforward travel redemptions, with upside when a transfer unlocks a strong Aeroplan (or other partner) award and downside when you burn points on merchandise. Confirm the live travel booking rate and transfer ratio on RBC’s current pages.</p>
+    </div>
+
+    <h2>Amex Membership Rewards — earn flexible, redeem carefully</h2>
+
+    <p>Canadian Membership Rewards are powerful when you can earn them — and constrained by where Amex is accepted. Valuation and earn are separate problems.</p>
+
+    <ul>
+        <li><strong>Acceptance haircut first.</strong> If a large share of household spend never posts on Amex, your effective earn collapses before CPP matters. See the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards structure guide</a>.</li>
+        <li><strong>Transfer partners</strong> (including Aeroplan when available on your product) are usually where MR prints its best CPP.</li>
+        <li><strong>Statement credits and fixed travel options</strong> set a lower floor — useful, rarely optimal.</li>
+        <li><strong>Once-per-lifetime bonus language</strong> still governs applications; valuation does not create a second welcome bonus.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustrative MR range (not a quote):</strong>
+        <p>Canadian MR is often discussed as roughly similar to other flexible currencies at the floor (around the 1¢ neighbourhood for simple redemptions) with higher realized CPP when transferred into a strong airline award you would buy in cash. Aspirational 2¢+ stories require specific award space. If you cannot name the flight, do not use 2¢ in your spreadsheet.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>No fabricated transfer bonuses:</strong>
+        <p>This site will not invent a “transfer bonus this month” or a guaranteed partner ratio beyond what you verify yourself. Screenshot the issuer’s transfer page before you move points. Transfers are typically irreversible.</p>
+    </div>
+
+    <h2>Worked comparison — same trip, three currencies</h2>
+
+    <p>Pick one itinerary your household will fly. Price it four ways: cash, Aeroplan award, Avion portal or transfer path, MR transfer path. Fill the table with live numbers.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Path</th>
+                <th>Points (or $)</th>
+                <th>Cash still owed</th>
+                <th>Implied CPP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pay cash</td>
+                <td>$ — all-in</td>
+                <td>$0 beyond fare</td>
+                <td>n/a (baseline)</td>
+            </tr>
+            <tr>
+                <td>Aeroplan award</td>
+                <td>Live miles</td>
+                <td>Taxes / surcharges</td>
+                <td>Calculate</td>
+            </tr>
+            <tr>
+                <td>Avion (portal or transfer)</td>
+                <td>Live points</td>
+                <td>Taxes / residual</td>
+                <td>Calculate</td>
+            </tr>
+            <tr>
+                <td>Amex MR (transfer or portal)</td>
+                <td>Live points</td>
+                <td>Taxes / residual</td>
+                <td>Calculate</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Highest CPP wins <em>only among paths you can execute</em> — enough points, transferable, award space exists, and you accept the change rules. A theoretical Aeroplan sweet spot you cannot book is worth zero.</p>
+
+    <h2>Cash back vs points — when to stop converting</h2>
+
+    <p>If your realistic CPP on travel currencies sits near 1¢ and your cash-back stack returns about 1–2% with less friction, points are a hobby tax unless you value specific flights. The <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a> is the honest alternative for households that will not award-search. Mix stacks when travel is occasional: cash back for groceries, points for a planned trip — without carrying balances to chase either.</p>
+
+    <div class="tip-box">
+        <strong>Minimum spend still applies:</strong>
+        <p>Earning a pile of points through a welcome bonus does not change CPP math on the redemption side. Clear spend cleanly with the <a href="/blog/card-churning-minimum-spend/">minimum-spend playbook</a>, protect your score with the <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization guide</a>, and only then optimize how you burn the balance.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>CPP = cash avoided ÷ points burned,</strong> after taxes and surcharges.</li>
+        <li><strong>Use target redemptions you will book,</strong> not aspirational leaderboards.</li>
+        <li><strong>Aeroplan is search-dependent;</strong> dynamic prices demand live checks.</li>
+        <li><strong>Avion and MR floors are flexible-program defaults;</strong> transfers are optional upside.</li>
+        <li><strong>Amex earn requires acceptance;</strong> haircut before you celebrate CPP.</li>
+        <li><strong>Verify every ratio and award</strong> with the issuer and program before transferring.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Points are a rebate. Tax is the system.</strong></p>
+        <p>Squeeze redemption math, then put the serious optimization into brackets and registered accounts. The 2026 tax guide is the longer play.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about valuing Canadian travel-rewards currencies. It is not a recommendation to collect or redeem any point currency, and not credit, tax, or investment advice. Award charts, dynamic pricing, transfer ratios, portal rates, and card earn structures change without notice. Illustrative ranges are structural examples only — always verify with Aeroplan, RBC, American Express, and your card issuer before you transfer or book. Paying interest to earn points is irrational.</p>
+        <div class="footer-note">Published: October 5, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Canadian Credit Card Stack Templates by Persona",
+    slug: "canadian-credit-card-stack-templates",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-10-07",
+    excerpt: "Role-based Canadian card-stack templates for families, freelancers, landlords, and high-spender travellers — linked to earlier Credit Cards guides, without invented welcome bonuses.",
+    image: "/images/blog/canadian-credit-card-stack-templates.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The right Canadian card setup is not a ranked list of “best cards.” It is a <span class="highlight">small stack matched to how you earn and spend</span> — family groceries, freelance invoices, rental operations, or heavy travel — after fees, acceptance, and the discipline to pay in full.
+    </div>
+
+    <p>These templates are role-based schematics. They name jobs for cards (grocery earner, no-foreign-fee companion, business ledger), not live welcome-bonus dollar amounts or invented earn rates. Plug in current issuer terms. Cross-link the detailed guides already on this site when you need the underlying math.</p>
+
+    <div class="callout">
+        <strong>Shared rules for every persona:</strong>
+        <p>Pay every statement in full. Space applications. Run fee break-even before you keep a premium product. Confirm offers with the issuer. Interest voids the stack.</p>
+    </div>
+
+    <h2>How to use a template</h2>
+
+    <ol>
+        <li>Pick the persona closest to your household — not the one that sounds aspirational.</li>
+        <li>Fill each “slot” with a product that clears the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual-fee test</a> on your spend.</li>
+        <li>If you chase a welcome bonus, clear it with organic spend using the <a href="/blog/card-churning-minimum-spend/">minimum-spend playbook</a> and price residual with the <a href="/blog/credit-card-welcome-bonus-math-canada/">bonus-math framework</a>.</li>
+        <li>Protect Equifax / TransUnion hygiene with the <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization and applications guide</a> before you add the next card.</li>
+    </ol>
+
+    <h2>Template A — Family household</h2>
+
+    <p>Two adults, kids or dependents, heavy grocery and recurring bills, occasional travel. Optimization is category coverage and simplicity — not six open applications.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Slot</th>
+                <th>Job</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Card 1 — Grocery / drugstore earner</td>
+                <td>Highest practical earn where you actually shop</td>
+                <td>Match network to Loblaw / Costco / Walmart reality. See the <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Card 2 — Flat / catch-all</td>
+                <td>Everything that misses Card 1’s bonus codes</td>
+                <td>No-fee is the default until fee break-even is obvious.</td>
+            </tr>
+            <tr>
+                <td>Card 3 — No foreign fee (drawer or wallet)</td>
+                <td>US and international taps</td>
+                <td>Earn can be ordinary; beating a ~2.5% FX fee is the job.</td>
+            </tr>
+            <tr>
+                <td>Optional — One travel earner</td>
+                <td>If the family takes one meaningful trip a year</td>
+                <td>Use the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards guide</a> and <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">points CPP math</a>. Skip lounges unless guest math works.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Family anti-patterns:</strong>
+        <p>Two premium annual-fee cards for duplicate lounge access; Amex as the only grocery card when the supermarket refuses it; manufacturing spend to hit overlapping welcome bonuses while a mortgage application is months away.</p>
+    </div>
+
+    <h2>Template B — Freelancer / sole proprietor</h2>
+
+    <p>Variable income, mix of business and personal spend, bookkeeping that must survive a T2125. Separation beats branding.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Slot</th>
+                <th>Job</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Business ledger card</td>
+                <td>Every supplier, software, and client-travel tap</td>
+                <td>Often a dedicated personal card used only for business — see the <a href="/blog/business-credit-cards-sole-prop-corporation-canada/">sole-prop vs corporation guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Personal catch-all</td>
+                <td>Household spend off the business ledger</td>
+                <td>Cash-back simplicity reduces year-end archaeology.</td>
+            </tr>
+            <tr>
+                <td>No foreign fee</td>
+                <td>Conferences, App Store / SaaS billed in USD, travel</td>
+                <td>Keep FX fees off both ledgers.</td>
+            </tr>
+            <tr>
+                <td>Optional — Corporation card</td>
+                <td>Only if incorporated and controls matter</td>
+                <td>Read the personal guarantee. Fee must clear break-even on business spend alone.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Autopay from the right account:</strong>
+        <p>Business taps should clear from the operating account; personal from personal chequing. Mixed floats create both interest risk and weak books.</p>
+    </div>
+
+    <h2>Template C — Landlord / rental operator</h2>
+
+    <p>Property tax, insurance, contractors, and utilities dominate. Rewards matter less than payment acceptance, float timing, and clean records for each property.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Slot</th>
+                <th>Job</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Operations card</td>
+                <td>Contractors, supplies, listing tools</td>
+                <td>Prefer wide Visa/Mastercard acceptance over Amex-heavy earn.</td>
+            </tr>
+            <tr>
+                <td>Insurance / large annual pays</td>
+                <td>Route renewals when card-friendly and surcharge-free</td>
+                <td>Useful inside a welcome-bonus window — never via interest.</td>
+            </tr>
+            <tr>
+                <td>Property-tax caution lane</td>
+                <td>Only if a municipality or bill-pay path is worth the fee</td>
+                <td>Price percentage fees against residual; often skip.</td>
+            </tr>
+            <tr>
+                <td>Entity card (if Holdco / corp)</td>
+                <td>Segregate rental expenses</td>
+                <td>Same guarantee and bookkeeping rules as other business cards.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>Do not float capital repairs on revolving credit:</strong>
+        <p>A roof or furnace on a 20%-class interest card is not “optimization.” Use reserves or appropriate financing. Rewards never catch up to interest.</p>
+    </div>
+
+    <h2>Template D — High-spender traveller (optional)</h2>
+
+    <p>Significant discretionary spend, multiple trips a year, willingness to award-search. Complexity is earned — not cosplayed.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Slot</th>
+                <th>Job</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Core flexible or Aeroplan earner</td>
+                <td>Points on categories you can place</td>
+                <td>Structure from the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel guide</a>; value with <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">CPP math</a>.</td>
+            </tr>
+            <tr>
+                <td>Companion cash-back / flat card</td>
+                <td>Merchants that refuse Amex or miss travel bonuses</td>
+                <td>Prevents forcing spend onto the wrong network.</td>
+            </tr>
+            <tr>
+                <td>No foreign fee daily driver abroad</td>
+                <td>Every foreign tap</td>
+                <td>Non-negotiable for this persona.</td>
+            </tr>
+            <tr>
+                <td>Lounge access (one pattern)</td>
+                <td>Comfort on frequent hub days</td>
+                <td>Price with the <a href="/blog/credit-card-airport-lounge-travel-portal-canada/">lounge and portal guide</a>; one membership pattern, not two fees.</td>
+            </tr>
+            <tr>
+                <td>Churn slot (temporary)</td>
+                <td>Occasional organic-spend bonus card</td>
+                <td>One in play at a time; cancel or downgrade on the fee date if break-even fails.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Application order that does not torch the next approval</h2>
+
+    <ul>
+        <li>Open the forever cards (grocery, catch-all, no-FX) before speculative bonus cards.</li>
+        <li>One minimum-spend window at a time.</li>
+        <li>Pay utilization down before the next hard inquiry.</li>
+        <li>Pause the stack before a mortgage or HELOC underwrite.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example: family of four, honest stack</strong>
+        <p>Grocery accelerator that works at their supermarket, no-fee flat card for Costco and everything else, no-FX card for a winter trip, and no premium lounge card because they fly twice a year with kids (guest fees would erase the story). When a strong travel bonus appears that they can clear with insurance renewal + organic spend, they run bonus math once — then return to the three-card forever stack.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Templates are slots and jobs,</strong> not a shopping list of invented offers.</li>
+        <li><strong>Families optimize categories and FX;</strong> freelancers optimize ledger separation.</li>
+        <li><strong>Landlords optimize acceptance and reserves,</strong> not points theatre.</li>
+        <li><strong>Travellers earn complexity</strong> only if they will award-search and still pay in full.</li>
+        <li><strong>Link every keep decision</strong> to fee break-even, CPP, and score hygiene.</li>
+        <li><strong>Verify live terms</strong> before you apply — this article will not age into a rate table.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The stack is plumbing. Tax is the architecture.</strong></p>
+        <p>Build a boring, paid-in-full card system, then put the serious hours into brackets, registered accounts, and deductions. The 2026 tax guide is the longer play.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about structuring Canadian credit-card stacks by household type. It is not a recommendation to apply for any card, and not credit, tax, legal, or investment advice. Product availability, fees, earn rates, insurance, and lounge access change without notice. Confirm every detail with the issuer and seek professional advice for business-entity and tax questions.</p>
+        <div class="footer-note">Published: October 7, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
   {
     title: "TFSA Contribution Optimization Strategy for 2026",
     slug: "tfsa-contribution-optimization-2026",
