@@ -536,6 +536,532 @@ export const posts = [
 </div>`
   },
   {
+    title: "Welcome Bonus Math: When Churning a Canadian Card Is Worth It",
+    slug: "credit-card-welcome-bonus-math-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-24",
+    excerpt: "A Canadian framework for pricing welcome bonuses after annual fees, minimum-spend friction, and the opportunity cost of capital — and when to walk away.",
+    image: "/images/blog/credit-card-welcome-bonus-math-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A welcome bonus is not free money. It is a <span class="highlight">timed rebate on spending you already planned</span>, minus the annual fee, minus any fee you pay to force spend through, minus interest if you miss a payment, minus the time and capital you tie up clearing the minimum. Run that equation before you apply. Most “great offers” fail it.
+    </div>
+
+    <p>Canadian card marketing leads with the headline. The optimization is the residual. Offers, earn rates, and what counts as qualifying spend change constantly, so this article does not quote a live bonus dollar amount or a fixed cent-per-point valuation. It gives you the worksheet. Confirm every figure on the issuer’s page the day you apply.</p>
+
+    <div class="callout">
+        <strong>Offers change:</strong>
+        <p>Treat every specific bonus, fee, or earn rate you see in an ad — including anywhere on this site after publication — as expired until you verify it with the issuer. Illustrative ranges below are structural examples, not current offers.</p>
+    </div>
+
+    <h2>The residual value formula</h2>
+
+    <p>Write one line before you apply. If you will not write it, you should not churn.</p>
+
+    <div class="example-box">
+        <strong>Residual ≈</strong>
+        <p>Realistic redemption value of the bonus − first-year annual fee − spend-forcing fees − interest risk − opportunity cost of the float − (optional) value of time spent managing the window.</p>
+    </div>
+
+    <p>If residual is not clearly positive with a buffer, skip the card. A close call is a no. Close calls become interest and stress.</p>
+
+    <h2>Step 1 — Price the bonus at a redemption you will actually take</h2>
+
+    <p>Do not use an affiliate headline valuation. Use the trip, statement credit, or gift card you will book in the next 12 to 18 months.</p>
+
+    <ul>
+        <li><strong>Cash-back and statement credits</strong> are honest: one dollar credited is one dollar.</li>
+        <li><strong>Travel points</strong> are only worth the cash price of the award you will book, after taxes and carrier surcharges, divided by the points spent — or the portal cash equivalent if that is how you redeem. Fantasy “2¢+” valuations that require a perfect business-class routing you will never fly are not inputs.</li>
+        <li><strong>Once-per-lifetime and repeat rules</strong> matter. If you have held the product before, assume the bonus may not post. American Express and several bank Aeroplan / Avion-style products have long reserved that right. Do not centre the math on a bonus you may not receive.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Haircut the points:</strong>
+        <p>If you are unsure what you will book, haircut any points estimate by at least a third versus the optimistic blog number you have seen elsewhere. Conservatism is the strategy. Optimism is how people justify cards they should not open.</p>
+    </div>
+
+    <h2>Step 2 — Subtract annual-fee drag</h2>
+
+    <p>A first-year fee waiver is not a permanent feature. Price year one and year two separately.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Scenario</th>
+                <th>How to treat the fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fee charged in year one</td>
+                <td>Subtract the full fee from residual.</td>
+            </tr>
+            <tr>
+                <td>First-year fee waived</td>
+                <td>Year-one residual ignores the fee. Year-two keep-or-cancel still has to clear it with earn and insurance you actually use.</td>
+            </tr>
+            <tr>
+                <td>You will product-change or close before renewal</td>
+                <td>Only if you understand the issuer’s downgrade and repeat-bonus rules. Closing is not free of credit-history and relationship effects.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Premium Canadian cards often sit in a fee band that is material relative to a modest cash bonus and trivial relative to a large travel bonus <em>if</em> you redeem well. The fee does not care which story you tell yourself.</p>
+
+    <h2>Step 3 — Price the minimum-spend cost</h2>
+
+    <p>The minimum spend is not a cost if you route spending that was already in the budget and you pay the statement in full. It becomes a cost the moment you:</p>
+
+    <ul>
+        <li>Pay a percentage fee to put rent, property tax, or a CRA balance on the card.</li>
+        <li>Buy inventory, gift cards, or prepaid instruments you would not otherwise buy.</li>
+        <li>Pull purchases forward that you might return (returns reverse qualifying spend).</li>
+        <li>Carry a balance for even one cycle.</li>
+    </ul>
+
+    <p>Illustrative structure only: a roughly 2 percent bill-pay fee on a $5,000 transfer costs about $100. That $100 must come out of residual before the bonus is “worth it.” Confirm live fees on the service you would use. The operating playbook for clearing a minimum without junk purchases is the <a href="/blog/card-churning-minimum-spend/">minimum-spend guide</a> — run that inventory before you apply.</p>
+
+    <div class="warning-box">
+        <strong>Interest is a veto:</strong>
+        <p>Canadian consumer card interest is in a band that can erase a welcome bonus in a single statement cycle. If clearing the minimum requires carrying a balance, the residual is negative. Do not apply.</p>
+    </div>
+
+    <h2>Step 4 — Opportunity cost of capital and credit</h2>
+
+    <p>Large spend windows park cash in the payment cycle. That capital is not sitting in a high-interest savings account or a TFSA contribution for those weeks. For most households the dollar cost is small; for a thin chequing balance it is the difference between paying in full and not.</p>
+
+    <p>Credit capacity is also capital. Each new account and hard inquiry is a resource you spend. Spacing applications protects the next, better offer and matters more in the months before a mortgage. Treat inquiry budget like cash budget.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cost type</th>
+                <th>What to ask</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cash float</td>
+                <td>Can I pay the largest expected statement in full without touching an emergency fund?</td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td>Hours to track spend, exclusions, and due dates — what is that hour worth to me?</td>
+            </tr>
+            <tr>
+                <td>Inquiry / new trade line</td>
+                <td>Am I within six months of a mortgage or other large underwriting event?</td>
+            </tr>
+            <tr>
+                <td>Acceptance friction</td>
+                <td>Will enough of my organic spend even post on this network (Amex vs Visa/Mastercard)?</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Effective hourly value — the honesty check</h2>
+
+    <p>Divide residual by the hours you will actually spend: reading terms, concentrating spend, checking the issuer tracker, paying statements, and redeeming. Illustrative only: a residual in the low hundreds of dollars that consumes ten careful hours is fine work. The same residual that consumes a weekend of manufactured spend and three bill-pay fees is a bad trade dressed up as a hobby.</p>
+
+    <div class="tip-box">
+        <strong>Pair with the keep-card decision:</strong>
+        <p>Bonus math is year one. Year two is whether the card earns its fee as a <a href="/blog/best-travel-rewards-cards-canada-2026/">travel structure</a> or a <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back stack</a>. Do not let a one-time residual justify a forever fee.</p>
+    </div>
+
+    <h2>When churning is worth it</h2>
+
+    <ul>
+        <li>Organic spend inside the window clears the minimum with a buffer, on a network your merchants accept.</li>
+        <li>Residual is clearly positive after fee, any bill-pay fees, and a conservative redemption.</li>
+        <li>You will pay every statement in full by pre-authorized debit.</li>
+        <li>You are not about to underwrite a mortgage, and you are not already carrying balances.</li>
+        <li>Repeat-bonus language does not obviously disqualify you.</li>
+    </ul>
+
+    <h2>When NOT to churn</h2>
+
+    <ul>
+        <li><strong>The organic math does not clear.</strong> Waiting is free. Manufactured spend is not.</li>
+        <li><strong>You need a fantasy valuation</strong> to make residual positive.</li>
+        <li><strong>You are financing the bonus</strong> — any plan that assumes a carried balance.</li>
+        <li><strong>Mortgage or large loan in the near term.</strong> New inquiries and trade lines are needless noise.</li>
+        <li><strong>You already hold overlapping annual-fee cards</strong> and cannot name what the new one replaces.</li>
+        <li><strong>The redemption depends on an airline or hotel you do not use.</strong></li>
+        <li><strong>You will not maintain a tracker.</strong> Untracked churning is how fees and interest appear.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example: structural walk-through (illustrative, not a live offer)</strong>
+        <p>Suppose a travel bonus that, on a trip you will actually take, is worth something in the mid-hundreds of dollars after taxes and fees on the award. The card charges an annual fee in a typical premium band. Your household already has enough grocery, insurance, and telecom spend to clear a mid-four-figure minimum on Visa without bill-pay fees. You pay in full. Residual is positive and the hours are a few evenings of concentration. That is a candidate. Change one assumption — you need a 2 percent rent service to clear the spend, or you only “value” the points at a blog’s aspirational rate — and the same card becomes a skip.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Residual value, not the headline,</strong> decides the application.</li>
+        <li><strong>Price redemptions you will book,</strong> not leaderboard point valuations.</li>
+        <li><strong>Subtract fee, spend-forcing costs, and interest risk</strong> before you celebrate.</li>
+        <li><strong>Organic spend or wait.</strong> Review the <a href="/blog/card-churning-minimum-spend/">minimum-spend playbook</a>.</li>
+        <li><strong>Protect inquiry budget</strong> before mortgages and other underwriting.</li>
+        <li><strong>Verify the live offer</strong> with the issuer. Numbers in articles go stale.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>A bonus is a weekend. Tax is a decade.</strong></p>
+        <p>Squeeze the welcome-bonus residual, then put the larger effort into brackets, registered accounts, and deductions. The 2026 tax guide is the longer play.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about how to evaluate Canadian credit-card welcome offers. It is not a recommendation to apply for any product and not credit, tax, or investment advice. Bonus amounts, fees, earn rates, exclusions, and repeat-bonus rules change without notice. Illustrative ranges are structural examples only. Confirm every figure with the issuer and, where useful, the Financial Consumer Agency of Canada before you apply. Paying interest or spending money you would not otherwise spend can erase any benefit.</p>
+        <div class="footer-note">Published: September 24, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Credit Utilization and Applications: Protecting Your Score in Canada",
+    slug: "credit-card-utilization-applications-credit-score-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-26",
+    excerpt: "How Canadians should manage utilization, hard inquiries, and application spacing across Equifax and TransUnion — without myths about carrying a balance.",
+    image: "/images/blog/credit-card-utilization-applications-credit-score-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Your credit score is not a loyalty program. It is a <span class="highlight">lender’s shortcut</span> for how you have handled revolving credit. Utilization and applications are two of the levers you actually control — and two of the ones card churning and “optimization” content most often abuse.
+    </div>
+
+    <p>This guide is Canada-specific: Equifax and TransUnion both matter, scores are not identical across bureaus or products, and there is no single public FICO® number that every Canadian lender uses the way US media assumes. Exact scoring weights are proprietary and change. What follows is the operating behaviour that reliably helps, and the myths that reliably cost money.</p>
+
+    <div class="callout">
+        <strong>Not credit advice:</strong>
+        <p>Nothing here is a promise about your score movement. Lenders use different models and internal policies. Confirm your own reports at Equifax and TransUnion, and treat issuer and FCAC materials as primary when you apply.</p>
+    </div>
+
+    <h2>Equifax and TransUnion basics for Canadians</h2>
+
+    <p>Most Canadian lenders pull Equifax, TransUnion, or both. Your file at each bureau can differ: one card may report to both, a utility or telecom account may show on one, and a hard inquiry may appear on only the bureau the lender used.</p>
+
+    <ul>
+        <li><strong>Check both bureaus</strong> before a mortgage, auto loan, or a dense stretch of card applications. Surprises belong on your calendar, not the underwriter’s.</li>
+        <li><strong>Scores are model-specific.</strong> A score you see in a banking app is not necessarily the score a mortgage lender uses.</li>
+        <li><strong>Payment history dominates.</strong> A single 30-day late on a card will hurt more than a month of imperfect utilization. Autopay the statement balance.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Free monitoring is a tool, not a strategy:</strong>
+        <p>Borrower dashboards are useful for trend direction. They are not a reason to carry a balance, open a card for a five-point bump, or panic over normal inquiry noise after a rate-shop.</p>
+    </div>
+
+    <h2>Utilization — what actually moves the needle</h2>
+
+    <p>Utilization is balances relative to credit limits on revolving accounts, usually read from the last reported statement. Issuers typically report once per cycle. The balance on the day you check your banking app is not always the balance the bureau sees.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Practice</th>
+                <th>Why it matters</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pay before the statement cuts</td>
+                <td>Lowers the balance that gets reported, even if you later spend again in the new cycle.</td>
+            </tr>
+            <tr>
+                <td>Keep individual cards out of the extreme high band</td>
+                <td>Maxed single cards look worse than the same dollars spread under higher limits.</td>
+            </tr>
+            <tr>
+                <td>Request a limit increase on a clean, aged account</td>
+                <td>Can lower utilization without opening a new inquiry — if the issuer does a soft review. Ask which.</td>
+            </tr>
+            <tr>
+                <td>Do not carry a balance “for the score”</td>
+                <td>Interest is real; the myth that you must pay interest to build credit is expensive fiction.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Rules of thumb you will see online (under 30 percent, under 10 percent) are heuristics, not Canadian law. What is robust: reported utilization that stays comfortably away from the ceiling, especially in the months before you need a loan decision.</p>
+
+    <div class="warning-box">
+        <strong>Minimum-spend windows spike utilization:</strong>
+        <p>Clearing a welcome-bonus minimum can push a new card toward a high reported balance. Pay down before the statement date if another application or a mortgage pull is coming. The <a href="/blog/card-churning-minimum-spend/">minimum-spend guide</a> and the <a href="/blog/credit-card-welcome-bonus-math-canada/">bonus-math framework</a> both assume you can absorb the float without living at the limit.</p>
+    </div>
+
+    <h2>Hard inquiries and application spacing</h2>
+
+    <p>A hard inquiry is a lender’s formal pull when you apply. Soft checks (your own report views, many pre-qualifications, some limit-increase reviews) do not work the same way — but “pre-qualify” language is not uniform. Read whether the issuer says a full application will leave a hard inquiry.</p>
+
+    <ul>
+        <li><strong>Space consumer card applications.</strong> A tight cluster signals hunger for credit. One card in an active minimum-spend window is enough.</li>
+        <li><strong>Mortgage rate shopping</strong> is often treated more leniently when inquiries fall in a short window for the same purpose, but card applications mixed into that window are still card applications. Do not churn in the underwriting months.</li>
+        <li><strong>A decline still costs an inquiry</strong> in many cases. Income and credit requirements on Infinite and World Elite products are real. Check them before you apply.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example: sequencing, not stacking</strong>
+        <p>You want a travel card for a trip next spring and a cash-back stack for groceries. Apply for one, clear the bonus cleanly, pay reported utilization down, then consider the second months later. Applying for both in the same week to “get it over with” is how the better second approval becomes a decline.</p>
+    </div>
+
+    <h2>Authorized user caveats (Canada)</h2>
+
+    <p>Supplementary or authorized-user cards can help a household concentrate spend for a bonus, and some issuers report the account onto the additional cardholder’s file — but practices differ by bank and product. Do not assume AU status builds an identical history to a primary account.</p>
+
+    <ul>
+        <li>The primary cardholder remains liable for the balance.</li>
+        <li>Late payments and high utilization can follow everyone who is reported on the account.</li>
+        <li>Adding someone who will not follow the pay-in-full rule is not “helping their score.” It is sharing risk.</li>
+    </ul>
+
+    <h2>What actually moves scores (and what does not)</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Lever</th>
+                <th>Signal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>On-time payments over years</td>
+                <td><span class="highlight">Strongest</span> persistent positive.</td>
+            </tr>
+            <tr>
+                <td>Age of accounts / clean history</td>
+                <td>Closing your only aged card can hurt average age; downgrade when possible instead of wiping history.</td>
+            </tr>
+            <tr>
+                <td>Utilization at reporting time</td>
+                <td>Meaningful, short-term controllable.</td>
+            </tr>
+            <tr>
+                <td>New inquiries and new accounts</td>
+                <td>Small to moderate short-term drag; worse in clusters.</td>
+            </tr>
+            <tr>
+                <td>Carrying interest-bearing balances</td>
+                <td>Does not “build credit” in a way that beats paying in full. Costs money.</td>
+            </tr>
+            <tr>
+                <td>Checking your own score</td>
+                <td>Soft. Not a reason to avoid monitoring.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>A practical pre-application checklist</h2>
+
+    <ol>
+        <li>Pull Equifax and TransUnion summaries. Dispute clear errors in writing.</li>
+        <li>List open cards, limits, and approximate statement dates.</li>
+        <li>Pay down any card that would report near its limit before a new application.</li>
+        <li>Confirm income minimums and whether you are inside a repeat-bonus restriction.</li>
+        <li>Ask whether a limit increase on an existing card is soft-pull before opening something new.</li>
+        <li>If a mortgage is inside roughly six months, freeze the churning hobby.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Rewards still need a structure:</strong>
+        <p>Score hygiene is how you stay approvable. Which card to keep is still a <a href="/blog/best-travel-rewards-cards-canada-2026/">travel</a> or <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back</a> decision after fees.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Pay in full, on time.</strong> That rule beats every utilization hack.</li>
+        <li><strong>Manage reported balances</strong> before statement dates when you care about the next pull.</li>
+        <li><strong>Space applications</strong> and avoid churning into a mortgage window.</li>
+        <li><strong>Check Equifax and TransUnion</strong> — files differ.</li>
+        <li><strong>Authorized user status is not magic</strong> and shares liability risk.</li>
+        <li><strong>Interest is not a credit-building tool.</strong></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Credit capacity is infrastructure. Tax is cash flow.</strong></p>
+        <p>Keep the score boring and put the optimization hours into the return you file. The 2026 tax guide covers the brackets and registered-account moves that dwarf a utilization tweak.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian credit reports and card-application behaviour. It is not credit advice, not a guarantee of approval or score outcomes, and not a recommendation of any card. Scoring models, bureau contents, and issuer underwriting change. Confirm details with Equifax, TransUnion, the issuer, and the Financial Consumer Agency of Canada as appropriate.</p>
+        <div class="footer-note">Published: September 26, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Business Credit Cards for Sole Props and Corporations in Canada",
+    slug: "business-credit-cards-sole-prop-corporation-canada",
+    category: "Credit Cards",
+    categorySlug: "credit-cards",
+    author: "Andrew Carrothers",
+    date: "2026-09-28",
+    excerpt: "When a Canadian business card helps a sole prop or corporation — liability, personal guarantees, bookkeeping hygiene, and when to stay on a personal card.",
+    image: "/images/blog/business-credit-cards-sole-prop-corporation-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A “business” credit card in Canada is often still <span class="highlight">your personal credit in a nicer sleeve</span>. The logo on the plastic does not automatically wall off liability, and a corporation card frequently arrives with a personal guarantee. Decide with eyes open: entity structure, guarantee language, and bookkeeping — not the airport lounge photo on the application page.
+    </div>
+
+    <p>This guide compares sole proprietorships and incorporated businesses at the card layer. It does not quote live welcome bonuses, earn rates, or affiliate links. Offers change. Confirm fees and eligibility with the issuer, and treat tax treatment as something you verify with a qualified advisor or the CRA materials for your situation.</p>
+
+    <div class="callout">
+        <strong>Entity first, card second:</strong>
+        <p>If you are still deciding whether to incorporate, that decision dwarfs the card choice. A card will not fix mixed personal and business spending, and it will not create limited liability where the law and the guarantee say otherwise.</p>
+    </div>
+
+    <h2>Sole prop versus corporation — what the card can and cannot do</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Structure</th>
+                <th>Card reality</th>
+                <th>Liability snapshot</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sole proprietorship</td>
+                <td>Many “business” products are underwritten on your personal file; spend is still your responsibility.</td>
+                <td>No corporate veil. Business debts and personal debts share a wallet in practice.</td>
+            </tr>
+            <tr>
+                <td>Corporation</td>
+                <td>True commercial accounts exist; many SME cards still require a personal guarantee from a director or owner.</td>
+                <td>Guarantee can put personal assets behind the balance even when the card is in the corporation’s name.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Read the guarantee and cardholder agreement. Marketing that says “built for business” is not a legal opinion. If you personally guarantee the account, assume the bank can pursue you when the company does not pay.</p>
+
+    <h2>When a corporation card makes sense</h2>
+
+    <ul>
+        <li><strong>Clean separation of spend</strong> for bookkeeping, GST/HST input tax credits, and employee or contractor expense control.</li>
+        <li><strong>Multiple cardholders</strong> with limits and category controls that match roles.</li>
+        <li><strong>Vendor and subscription sprawl</strong> that should never touch a personal rewards card.</li>
+        <li><strong>You will pay in full</strong> from the operating account on a fixed cadence — same discipline as a personal card.</li>
+    </ul>
+
+    <p>A corporation card is weaker when the only motive is a welcome bonus you could earn on a personal card with organic household spend, or when the personal guarantee plus annual fee buys you nothing your current personal <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back stack</a> or <a href="/blog/best-travel-rewards-cards-canada-2026/">travel setup</a> does not already cover.</p>
+
+    <div class="tip-box">
+        <strong>Bonus math still applies:</strong>
+        <p>Price residual value the same way as a personal churn: realistic redemption, fee drag, minimum-spend friction, pay-in-full. Use the <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome-bonus math framework</a> and the <a href="/blog/card-churning-minimum-spend/">minimum-spend playbook</a>. A business logo does not suspend those rules.</p>
+    </div>
+
+    <h2>Sole prop options — pragmatic, not fancy</h2>
+
+    <p>Many sole proprietors are better served by a dedicated personal card used only for business expenses than by stretching for a product that still reports on their personal credit. The win is hygiene:</p>
+
+    <ul>
+        <li>One card (or one account) that receives every business tap.</li>
+        <li>Monthly CSV or accounting-software sync into the same categories you use on the T2125.</li>
+        <li>No personal groceries on the “business” card, and no inventory purchases on the vacation card.</li>
+    </ul>
+
+    <p>Bank and fintech “small business” cards aimed at sole props can still be reasonable when they add employee cards, higher limits aligned to revenue, or accounting integrations. They are not automatically superior earn rates. Run the fee test against the personal card you already understand.</p>
+
+    <div class="warning-box">
+        <strong>Personal guarantee realities:</strong>
+        <p>Guarantees can survive a bad quarter. If the business fails and the card balance does not, the guarantor conversation begins. Do not size a limit you cannot clear from personal resources if the operating account freezes. Credit-score effects of missed business-card payments can land on the same Equifax and TransUnion files that back your mortgage — see the <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization and applications guide</a>.</p>
+    </div>
+
+    <h2>Bookkeeping and tax hygiene</h2>
+
+    <p>The CRA cares about the nature of the expense, documentation, and whether personal use was mixed in — not whether the plastic said “business.” Good card practice supports a defensible file:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Practice</th>
+                <th>Why</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Separate cards or accounts for business vs personal</td>
+                <td>Cuts the year-end archaeology that creates missed ITC claims and weak audit trails.</td>
+            </tr>
+            <tr>
+                <td>Export monthly and reconcile</td>
+                <td>Matches statements to invoices before memories fade.</td>
+            </tr>
+            <tr>
+                <td>Code GST/HST-capable purchases correctly</td>
+                <td>Input tax credits need proper invoices, not just a card transaction line.</td>
+            </tr>
+            <tr>
+                <td>Avoid cash-like and personal taps “just this once”</td>
+                <td>Mixed use is how deductions get argued away.</td>
+            </tr>
+            <tr>
+                <td>Pay from the operating account</td>
+                <td>Keeps the float and the books aligned; reduces accidental personal subsidies.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Example: sole prop, two honest setups</strong>
+        <p>Alex invoices about six figures as a sole prop, shops suppliers on Visa, and already has a no-fee personal cash-back card. Setup A: keep that card strictly for business, autopay from the business chequing sub-account, and export to accounting monthly. Setup B: add a fee-heavy “business” card for a lounge narrative while still personally guaranteeing everything and mixing Spotify on the same statement. Setup A is the optimization. Setup B is branding.</p>
+    </div>
+
+    <h2>Employee cards, limits, and control</h2>
+
+    <p>Incorporated teams should care more about controls than earn rates: per-card limits, merchant locks where available, receipt capture apps, and a rule that personal spend is reimbursed on payroll or expense report — never quietly left on the company card. Supplementary cards on a personal account are a poor substitute for that control once you have staff.</p>
+
+    <h2>When to stay on a personal card</h2>
+
+    <ul>
+        <li>Revenue is early and limits on business products are not better than what you already hold.</li>
+        <li>You would only apply for a bonus you cannot clear with business spend alone without manufacturing purchases.</li>
+        <li>The personal guarantee plus fee does not buy accounting or control features you will use.</li>
+        <li>You are months from a mortgage and do not need another inquiry on the personal file.</li>
+    </ul>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Read the personal guarantee.</strong> “Business card” is not synonymous with limited liability.</li>
+        <li><strong>Sole props often win with hygiene</strong> — a dedicated personal card and clean books — not a new product category.</li>
+        <li><strong>Corporation cards shine for separation and controls,</strong> not for ignoring residual-value math.</li>
+        <li><strong>Bookkeeping and ITC documentation</strong> matter more than the metal grade of the card.</li>
+        <li><strong>Pay in full from the operating account.</strong> Interest erases rewards in any entity.</li>
+        <li><strong>Verify offers and tax treatment</strong> with the issuer and a qualified advisor.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The card is a ledger. The return is the harvest.</strong></p>
+        <p>Business-card hygiene feeds a cleaner T2125 or corporate file. The 2026 tax guide is the companion for brackets, deductions, and registered-account strategy around the operating company.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This article is general education about Canadian business and personal credit cards for sole proprietors and corporations. It is not legal, tax, accounting, or credit advice, and not a recommendation of any card. Liability, guarantees, fees, earn rates, and tax treatment depend on your facts and change over time. Confirm card terms with the issuer and seek professional advice for entity, guarantee, and tax questions.</p>
+        <div class="footer-note">Published: September 28, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
     title: "TFSA Contribution Optimization Strategy for 2026",
     slug: "tfsa-contribution-optimization-2026",
     category: "Investing",
