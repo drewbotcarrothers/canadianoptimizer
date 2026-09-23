@@ -21899,5 +21899,1008 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     </div>
 
 </div>`
+  },
+  {
+    title: "How Much Life Insurance Canadians Actually Need",
+    slug: "life-insurance-need-analysis-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-15",
+    excerpt: "A need analysis using human capital, DIME, and expense replacement — and the offsets Canadians forget to subtract, including group life that ends when the job does.",
+    image: "/images/blog/life-insurance-need-analysis-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The face amount is the last number, and it is the one the quote starts with. A Canadian household insures the <span class="highlight">gap the survivor cannot fund</span>, after the survivor's own pay, after assets you are willing to spend, and after you have refused to add the mortgage twice.
+    </div>
+
+    <p>This is a need analysis. It is not a product tour. Term versus permanent, cash value, and corporate ownership are separate decisions: <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a> and <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. If you buy a number before you have written the gap, you are shopping a multiple of salary that a spreadsheet never had to live with.</p>
+
+    <div class="callout">
+        <strong>Three methods, one job:</strong>
+        <p>Human capital asks what future earnings are worth, then reminds you that the household does not lose every dollar of that earnings stream. DIME is a checklist — debts, income, mortgage, education — so you do not forget a category. Expense replacement is the one you buy: the annual spending that must continue, for a defined number of years, turned into capital. Use the first two so the third is complete. Do not add them together.</p>
+    </div>
+
+    <h2>What the survivor actually loses</h2>
+
+    <p>Gross salary is a ceiling, not a target. The earner consumed part of it. Tax already took part of it. The survivor may have their own earnings, a paid-off house later, and a CPP survivor's pension that replaces only a fraction of the contributor's retirement pension and shrinks if the survivor is already collecting CPP. The CPP death benefit has long been a small lump sum, capped at $2,500. Confirm the current cap with Service Canada, then leave it out of any serious capital calculation. It is a funeral contribution, not a plan.</p>
+
+    <p>A stay-at-home parent has human capital too. Childcare, the coordination of a household, and the option for the surviving earner to keep working are an economic loss even when the T4 is zero. Insure the adult whose absence breaks the household, which is often both adults. A large policy on a child is the wrong way around: the financial shock of a seriously ill child is usually a parent's lost wages. That is disability insurance, an emergency fund, and the <a href="/blog/critical-illness-insurance-canada/">critical illness decision</a>, not a savings plan with a toddler as the life insured.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Method</th>
+                <th>What it is for</th>
+                <th>Where people inflate it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Human capital</td>
+                <td>A ceiling: the present value of after-tax earnings the household was counting on.</td>
+                <td>Insuring gross pay, and ignoring the earner's own consumption and the survivor's income.</td>
+            </tr>
+            <tr>
+                <td>DIME</td>
+                <td>A checklist. Debts, income replacement, mortgage, education. Walk it so nothing is forgotten.</td>
+                <td>Adding the mortgage balance on top of an income need that already includes the mortgage payment.</td>
+            </tr>
+            <tr>
+                <td>Expense replacement</td>
+                <td>The buy number. Annual gap, for a set number of years, discounted. Then subtract assets you will actually spend.</td>
+                <td>Using a 10 or 15 times salary slogan and calling it a discount rate.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Offsets you subtract, and offsets you do not trust</h2>
+
+    <ul>
+        <li><strong>The survivor's earnings,</strong> but only the earnings you have pressure-tested. A spouse who has been out of the workforce for a decade does not "just go back" at their old salary in month two. If the plan requires that, write the ramp in years, not as a wish.</li>
+        <li><strong>Financial assets earmarked for this gap.</strong> A TFSA the survivor can spend is a real offset. An RRSP is pre-tax: subtract an after-tax estimate, and only if you are willing to spend it instead of leaving it for the survivor's own retirement. Raiding the retirement plan to shrink the insurance number is a choice. The <a href="/blog/retirement-income-planning-2026/">retirement income guide</a> is what you are spending.</li>
+        <li><strong>RESPs</strong> belong to education. Do not subtract them from the income gap, and do not add a full tuition fund if the RESP is already on track.</li>
+        <li><strong>Individual life insurance you already own</strong> and intend to keep. Read the expiry date. A 10-year term that ends while the youngest child is 12 is not an 18-year asset.</li>
+        <li><strong>Group life at work,</strong> often one or two times salary, is real only while you are employed and while the plan still says so. It is not portable. Conversion to an individual policy, when it exists, is a short window and usually an expensive permanent product. Count group life as a bridge, or count it as zero in the long need. Do not build the family's 18-year number on a benefit that ends on resignation day.</li>
+        <li><strong>Lender mortgage insurance</strong> pays the lender, the balance declines, the premium often does not, and underwriting is frequently at claim time. It is not a substitute for a personally owned policy with your spouse as beneficiary. If your personal need analysis already covers the mortgage, the lender's certificate is a second copy. The stacking rule is in <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>The mortgage is one item, not two:</strong>
+        <p>Either leave the mortgage payment inside the annual spending need, or add the outstanding balance and remove that payment from the annual need. Doing both insures the same debt twice. Doing neither leaves the survivor with a payment and no capital. Pick one design and write it down.</p>
+    </div>
+
+    <h2>A worked household, with the double count removed</h2>
+
+    <div class="example-box">
+        <strong>Illustrative figures, not a quote and not your budget</strong>
+        <p>One earner makes $150,000. The household lifestyle that must continue is $90,000 a year in today's dollars, and that figure includes an illustrative $24,000 mortgage payment. The survivor can realistically contribute $40,000 a year from their own work after a return you have actually discussed. You book an $8,000 CPP survivor placeholder only after checking the current formula; if you have not checked, use zero. This illustration uses $8,000 and labels it a placeholder, not a Service Canada printout.</p>
+        <p>Design chosen: pay off an illustrative $450,000 mortgage at death, so the ongoing lifestyle need falls from $90,000 to $66,000. Gap = $66,000 − $40,000 − $8,000 = $18,000 a year for 18 years, until the younger child is independent. At an illustrative 3.5 percent real discount, an 18-year annuity factor is about 13.2. Capital for the income gap is about $18,000 × 13.2 = $238,000. Add the mortgage of $450,000, other debts of $15,000, and an education top-up of $30,000 because the RESP is short. Subtotal about $733,000.</p>
+        <p>Subtract a TFSA of $80,000 you are willing to spend. Leave an illustrative $200,000 RRSP alone, because the survivor needs it for their own retirement; if you instead spent an after-tax slice of about $140,000, the insurance number would fall by that amount and the retirement plan would be thinner. Group life of one times salary is not subtracted. It ends with the job. Result in this illustration: about $650,000 of personally owned coverage on the higher earner, before you round to a face amount a carrier actually issues.</p>
+        <p>The naive version — $150,000 times 10, plus the mortgage, plus tuition — is a different number and a worse one. Human-capital ceiling, the present value of after-tax earnings over those 18 years, is higher still and is not the buy number. The buy number is the gap.</p>
+        <p>On the stay-at-home parent, an illustrative $28,000 a year of childcare for 8 years is roughly $190,000 of capital at the same 3.5 percent. That is a second, shorter policy. It is not folded into the earner's face amount, and it is not optional if the earner cannot both work and cover care.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Match the term to the horizon, then ladder if the horizons disagree:</strong>
+        <p>The mortgage may be gone in 12 years and the youngest child independent in 18. Two terms, or a larger policy that drops partway, beat one 30-year term bought because the drop-down menu offered it. Permanent insurance is for a need that does not end. That test is the <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life guide</a>.</p>
+    </div>
+
+    <h2>Beneficiary, will, and the number you revisit</h2>
+
+    <p>Name a beneficiary. A policy with a named beneficiary generally bypasses the will, which is useful, and it does not replace the will. Intestacy rules are provincial, common-law partners are not treated the same way in every province, and a divorce does not reliably clean up an old designation. The legal layer is the <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney guide</a>. Life events that should trigger a fresh need analysis — marriage, a child, a mortgage, a separation, a job that drops the group plan — are the same events in the <a href="/blog/life-events-tax-implications-2026/">life events tax piece</a>. Insurance and tax are different forms. The trigger is the same Tuesday.</p>
+
+    <p>Re-run the arithmetic when the mortgage balance, the lifestyle, or the survivor's earnings change. Do not re-run it because a carrier advertised a new rider. Riders are the last step, and most of them are optional. The order is <a href="/blog/insurance-shopping-without-over-insuring-canada/">stack government and employer coverage first</a>.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Insure the expense gap, not a multiple of gross salary.</strong> Human capital is the ceiling. DIME is the checklist. Expense replacement is the face amount.</li>
+        <li><strong>Add the mortgage balance or the mortgage payment, not both.</strong></li>
+        <li><strong>Subtract only assets you will actually spend,</strong> and haircut RRSPs for tax and for the survivor's retirement.</li>
+        <li><strong>Do not lean on group life or lender mortgage insurance</strong> for a need that outlives the job or that should pay your family rather than the bank.</li>
+        <li><strong>Insure both adults</strong> when either absence breaks the household, including a parent with no salary and a real childcare bill.</li>
+        <li><strong>The CPP death benefit is a small capped lump sum.</strong> Confirm it, then ignore it in the capital calculation.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/term-vs-whole-life-insurance-canada/">Term versus whole life</a> — which needs expire, and which ones do not.</li>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the living claim that life insurance does not pay.</li>
+        <li><a href="/blog/estate-planning-wills-poa/">Wills and powers of attorney</a> — the documents a beneficiary designation does not replace.</li>
+        <li><a href="/blog/insurance-shopping-without-over-insuring-canada/">Shopping without over-insuring</a> — where group life fits in the stack.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The face amount is a household number. The tax on the accounts you subtracted is a different file.</strong></p>
+        <p>RRSPs, TFSAs, and what the survivor actually keeps are tax. The 2026 tax guide is the personal side of that arithmetic.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to estimate a Canadian life insurance need. It is not insurance, tax, legal, or financial advice, and it is not a recommendation to buy a policy or a face amount. CPP survivor benefits, the death-benefit cap, contract definitions, and provincial family law change. Every dollar figure in the worked example is illustrative. It is not your spending, not a discount rate you are entitled to earn, and not a premium. Have a licensed life insurance advisor and, where the estate is involved, a lawyer review the design before you apply.</p>
+        <div class="footer-note">Published: December 15, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Term vs Whole Life in Canada: When Permanent Insurance Has a Job",
+    slug: "term-vs-whole-life-insurance-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-16",
+    excerpt: "Term is the default for a temporary income-replacement need. Permanent coverage earns a place for a lifelong dependant, a tax bill at death, or a corporation — and cash value is not a TFSA.",
+    image: "/images/blog/term-vs-whole-life-insurance-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Most Canadian households have a need with an end date. Term insurance is built for that date. Permanent insurance is for the need that is <span class="highlight">still there at 80</span>, and the cash-value illustration is not the reason to pretend otherwise.
+    </div>
+
+    <p>Run the face amount first. The <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a> tells you how much and for how long. This article tells you which contract matches that length. Corporate ownership, the capital dividend account, and when a holdco should be the owner are the <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance guide</a>. Do not buy a participating whole life policy to settle a question this page can settle.</p>
+
+    <div class="callout">
+        <strong>Names Canadians mix up:</strong>
+        <p>Term 10, Term 20, and Term 30 are temporary, with premiums that are level for the term and then jump if you renew. Term to 100 is a different product: level premiums for life, little or no cash value, and it is permanent in the only sense that matters — it does not expire while you are alive. Whole life and universal life are the cash-value contracts. If a proposal says "permanent," ask which of those three you are being shown.</p>
+    </div>
+
+    <h2>What you are actually comparing</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Contract</th>
+                <th>The job it does</th>
+                <th>The part people romanticize</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Renewable, convertible term</td>
+                <td>A large face amount during working years, a mortgage, or a child's dependency. Renewal without new medical evidence is the safety valve. Conversion, inside the window, lets you move to permanent coverage without a medical.</td>
+                <td>Treating the renewal premium as a surprise. It is in the contract. The attained-age price is why you ladder or convert before you need the renewal.</td>
+            </tr>
+            <tr>
+                <td>Term to 100</td>
+                <td>A level premium for a lifelong need when you do not want, or cannot fund, cash value.</td>
+                <td>Calling it "term" and comparing it to a 20-year premium.</td>
+            </tr>
+            <tr>
+                <td>Participating whole life</td>
+                <td>Lifelong coverage with a cash value. Dividends, if the scale pays them, can buy paid-up additions. The guaranteed column is the promise. The current dividend scale is not.</td>
+                <td>"Forced savings" and illustrated values in year 40.</td>
+            </tr>
+            <tr>
+                <td>Universal life</td>
+                <td>A flexible premium and an investment account inside a life insurance wrapper, useful when someone is deliberately funding a permanent need and watching the exempt test.</td>
+                <td>An assumed crediting rate presented as a plan, and overfunding that the illustration never stress-tests.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>When term wins</h2>
+
+    <p>If the need ends when the mortgage ends, when the children are independent, or when your invested assets can replace your income without you, you have a term need. Buy term for that period. Invest the premium difference in a TFSA or an RRSP on purpose. The mechanics of those accounts are the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. "Buy term and invest the difference" fails when you spend the difference. It does not fail because a cash-value illustration has a higher number in a non-guaranteed column.</p>
+
+    <p>Conversion is the option you are paying for inside a good term contract. The deadline is often earlier than the expiry date. Miss it, and the next permanent policy is fully underwritten. If your health has changed and a lifelong need has appeared — a child with a permanent disability, a cottage with a tax bill, a business interest — the conversion window is the asset. If your health is fine and the need is still temporary, converting because you are afraid of the renewal price is how temporary needs become permanent premiums.</p>
+
+    <div class="tip-box">
+        <strong>Blend the two lengths instead of promoting the whole need:</strong>
+        <p>A smaller permanent policy for the slice that never ends, plus term for the slice that does, is a legitimate design. It is also the design that gets skipped because one large whole life premium feels like a decision. Price the term for the temporary face first. Then ask whether any face amount still has a job after that term expires. If the answer is no, the permanent premium is a purchase you have not justified.</p>
+    </div>
+
+    <h2>When permanent coverage has a real job</h2>
+
+    <ul>
+        <li><strong>A lifelong dependant.</strong> A child who will never be financially independent is not a 20-year need. The capital has to exist after you are gone, and term that expires at 70 is a bet on dying on schedule. Permanent coverage, or assets earmarked in a trust with a trustee who can say no, is the adult version. The will has to match. See <a href="/blog/estate-planning-wills-poa/">estate planning</a>.</li>
+        <li><strong>Tax at death on an asset you will not sell earlier.</strong> A cottage, a rental, and private-company shares are deemed disposed at fair market value. The principal residence exemption does not follow the cottage or the rental. The property rules are the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence guide</a>, and the estate tax layer is <a href="/blog/tax-efficient-wealth-transfer/">tax-efficient wealth transfer</a>. Insurance is one way to fund that tax. It is not automatically cheaper than setting the tax aside in a portfolio. Run both.</li>
+        <li><strong>A corporation with surplus and a reason.</strong> The CDA credit is a corporate tool. It does not make whole life a better personal term policy. Read the corporate guide before the illustration.</li>
+        <li><strong>A funded buy-sell.</strong> Two owners who have actually signed an agreement need the money on a death that could be this year or in 30 years. Match the owner of the policy to the agreement.</li>
+        <li><strong>A charitable bequest you have written down,</strong> not a rider added because the form had a box.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Cash value is not a TFSA, and a policy loan is not a withdrawal from one:</strong>
+        <p>Inside an exempt policy, the growth is not taxed annually. That shelter is real, and it is narrower than the sales conversation. If a policy fails the exempt test, the accrual can be taxed every year. Early cash values are thin because the first premiums are paying for insurance and expenses. Cancel in year three and you have bought an expensive term policy with extra steps. A policy loan accrues interest. If the loan overtakes the cash value and the policy lapses, the gain can be taxable. Dividends on a participating policy are not guaranteed. Ask for the guaranteed cash value and for a reduced dividend scale. Decide on those pages. The current scale is a picture of a scale the insurer is using today.</p>
+    </div>
+
+    <h2>How to read an illustration without pretending it is a quote</h2>
+
+    <div class="example-box">
+        <strong>A comparison you can repeat with real premiums, none of which belong on this page</strong>
+        <p>Get a term premium and a permanent premium for the same face amount, from the same carrier if you want a clean conversion path, for the years the need actually exists. This article will not invent those premiums. Subtract. The difference is the annual amount you could have put in a TFSA. Project it at a return you have earned before, not at the illustration's assumed rate. Compare that TFSA to the guaranteed cash value in the year you might cancel — the year the mortgage ends, or the year the term need ends. If the permanent policy only wins on the non-guaranteed column, you do not have a winner. You have a hope.</p>
+        <p>Also ask what share of the permanent premium still fits after TFSA and RRSP room you actually value. A cash-value policy that crowds out a TFSA is borrowing from a simpler shelter to fund a complicated one. Personal shelters still come first. That is the same posture as <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>, applied to a policy instead of a brokerage account.</p>
+    </div>
+
+    <p>Insurability is the honest reason people buy permanent coverage early, and it is also the reason the conversion privilege exists. If you are healthy and the need is temporary, keep the term and protect the conversion window. If you already know the need is lifelong, insure that slice with a contract that cannot expire, at a premium you can pay in a bad year. A permanent policy you lapse at 45 because the premium competed with a daycare bill was term insurance at a worse price.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Term covers a need with an end date.</strong> Price that first, for the face amount from the need analysis.</li>
+        <li><strong>Term to 100 is permanent coverage without cash value.</strong> Do not compare it to Term 20 as if they were the same promise.</li>
+        <li><strong>Whole life and universal life earn a place</strong> for a lifelong dependant, a death tax you will not prefund another way, a buy-sell, or a corporation with surplus. They do not earn a place as forced savings.</li>
+        <li><strong>Read the guaranteed column and the conversion deadline.</strong> The dividend scale and the renewal you did not calendar are where these contracts disappoint.</li>
+        <li><strong>A policy loan can create a tax bill if the contract lapses.</strong> Exempt-test shelter is not a TFSA, and it is not a reason to skip registered room.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — the face amount and the end date.</li>
+        <li><a href="/blog/corporate-owned-life-insurance-canada/">Corporate-owned life insurance</a> — when the company should own the permanent policy.</li>
+        <li><a href="/blog/tax-efficient-wealth-transfer/">Tax-efficient wealth transfer</a> — the death tax a permanent policy is sometimes bought to pay.</li>
+        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution optimization</a> — where the premium difference goes if you buy term.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The illustration is not a tax ruling.</strong></p>
+        <p>Exempt policies, RRSPs, and the tax on a cottage at death live in the same household. The 2026 tax guide is the personal tax side of that choice.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about term and permanent life insurance in Canada. It is not insurance, tax, or investment advice, and it is not a recommendation to buy, convert, or cancel a policy. Contract features, dividend scales, exempt-test status, and premiums differ by insurer and by your health. Nothing here is a premium, a cash value, or a projected return. Have a licensed advisor walk you through the specimen contract and the guaranteed columns before you apply or convert.</p>
+        <div class="footer-note">Published: December 16, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Disability Insurance in Canada: Own-Occupation, Waits, and Group Plan Traps",
+    slug: "disability-insurance-canada-guide",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-17",
+    excerpt: "The definition of disability, who pays the premium, and the switch to any-occupation decide the claim. A group plan's percentage of salary does not.",
+    image: "/images/blog/disability-insurance-canada-guide.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Life insurance pays if you die. Disability insurance is the contract that has to pay <span class="highlight">while you are still alive and cannot do your job</span>. The word "occupation" in the definition is the product. The percentage on the brochure is the marketing.
+    </div>
+
+    <p>A long disability is the living risk that wrecks a household that bought a large term policy and skipped this one. The face amount of life insurance is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. A lump sum on a diagnosis is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>, and it does not replace a monthly benefit. EI sickness benefits and CPP disability are real, narrow, and not an own-occupation plan. Treat them as offsets you must disclose, not as coverage you already own.</p>
+
+    <div class="callout">
+        <strong>Who pays the premium decides the tax on the benefit:</strong>
+        <p>If your employer pays the long-term disability premium and it is not a taxable benefit to you, the monthly benefit is generally taxable when you receive it. If you pay the premium with after-tax dollars, the benefit is generally not taxable. Some booklets let you take over the premium so the benefit arrives tax-free. That election is worth more than a slightly higher group percentage. Confirm it in the booklet and with the person who files your T4. The same fork shows up for incorporated owners in the <a href="/blog/corporate-owned-life-insurance-canada/">corporate insurance guide</a>.</p>
+    </div>
+
+    <h2>Own-occupation, regular occupation, any-occupation</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Phrase in the contract</th>
+                <th>What a claim is asking</th>
+                <th>Where Canadians usually meet it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Own occupation</td>
+                <td>You cannot perform the important duties of your own occupation. The fact that you could do a different job is not the test, for as long as this definition lasts.</td>
+                <td>Individual policies, especially for professionals. Sometimes a rider. Sometimes only for an initial period. Read the period.</td>
+            </tr>
+            <tr>
+                <td>Regular occupation</td>
+                <td>A close cousin of own-occupation. The duties test is in the wording, and some contracts switch later.</td>
+                <td>Common on individual Canadian contracts. Do not assume it matches another carrier's "own occ".</td>
+            </tr>
+            <tr>
+                <td>Any occupation</td>
+                <td>You cannot work in any job you are reasonably suited for by education, training, and experience. A different job that you could do can end the claim.</td>
+                <td>Group long-term disability after an own-occupation period that is often 24 months. Some individual contracts from the start.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The 24-month switch is the group-plan trap. For two years the test is your job. After that, the test is whether you can do another suitable job. A specialist who can teach, a developer who can work a quieter role, a tradesperson who can inspect instead of install: any of them can be cut off while their income has not come back. Individual coverage is worth buying when you are paying for own-occupation, or regular occupation, that lasts to the benefit period you think you bought — often to age 65 — and not for 24 months with a new definition hiding in section 2.</p>
+
+    <div class="warning-box">
+        <strong>Accident-only coverage misses the claims people actually have:</strong>
+        <p>Most long disabilities are illness, not a dramatic injury. Mental-health and substance-use claims are often capped at 24 months on group plans, and some individual contracts limit them too. If the realistic risk in your occupation is depression, burnout, cancer, or a back that no longer does the work, an accidental-death-and-dismemberment rider is not a disability policy. Read the mental-nervous limitation before you compare premiums.</p>
+    </div>
+
+    <h2>Elimination periods are a cash problem</h2>
+
+    <p>The elimination period — 30, 60, 90, 120, 180 days — is the stretch you self-fund. Longer waits cost less premium. Benefits are often paid in arrears, so a 90-day elimination can mean about four months before the first cheque. Short-term disability at work, or EI sickness, may fill part of that stretch and may not. EI sickness, in its current design, runs 26 weeks and replaces only a fraction of insurable earnings up to a maximum that changes. Confirm the weekly maximum. It is not 70 percent of a professional income, and it is not own-occupation.</p>
+
+    <div class="example-box">
+        <strong>Illustrative wait, not a premium</strong>
+        <p>Household spending is an illustrative $6,500 a month. A 90-day elimination plus a month of arrears is about four months, or $26,000, before the insurer's money shows up. If that cash is not in a savings account, you do not have a 90-day plan. You have a hope that a group short-term plan, a line of credit, or a relative fills a hole you did not measure. Buy a shorter wait if the cash is not there. The premium difference is the price of a thin emergency fund. This article will not quote that difference. Your illustration will.</p>
+    </div>
+
+    <h2>Group coverage versus a contract with your name on it</h2>
+
+    <ul>
+        <li><strong>Group benefits can be taxable, capped, and offset.</strong> A plan that says 60 or 67 percent of salary may cap the monthly benefit, and it may reduce the payment by CPP disability, workers' compensation, other income, and in some provinces auto accident benefits. Read whether the percentage is before or after those offsets. Illustrative arithmetic: 60 percent of a $120,000 salary is $72,000, and if that benefit is taxable it is not 60 percent of take-home. A high marginal rate makes the gap obvious. An individual policy paid with after-tax premiums can top up with a tax-free benefit, up to the carrier's combined issue limit. You cannot stack group and individual to 100 percent of gross. The underwriter's formula wins.</li>
+        <li><strong>Group coverage ends when you leave,</strong> and long-term disability rarely converts into anything you would choose to own. Underwrite an individual policy while you are healthy, even for a modest benefit, so a job change does not start the medical clock at the worst time. A future-increase option matters if your income will rise. A cost-of-living rider matters on a benefit that might pay for decades. It matters less on a two-year benefit.</li>
+        <li><strong>Non-cancellable and guaranteed renewable</strong> means the insurer cannot single you out for a premium increase or a rewritten definition after a claim. Group contracts are redesigned for the whole group. A mental-health cap can appear in a renewal you do not control.</li>
+        <li><strong>Partial and residual disability</strong> is the clause for people who can work and still lose income. Total-disability-only wording is a poor fit for consultants, commission earners, and anyone whose return to work will be gradual. The residual benefit should track the income loss, and it should survive a partial recovery instead of dropping to zero the week you invoice again.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Self-employed income is the income on the tax return, not the invoice:</strong>
+        <p>Carriers size benefits off earned income, often an average of net income after expenses. Illustrative pattern: $200,000 of billings and $70,000 of net income on the T1. The insurable amount follows the $70,000, not the revenue. Aggressive write-offs, which the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a> will quite reasonably discuss, shrink the benefit you can buy. If you incorporated, the same problem shows up as salary versus dividends. Dividends are often not "earned income" for this underwriting. A low salary chosen for tax can make you uninsurable for the lifestyle the corporation actually funds. Decide that tension before you apply, not at claim time.</p>
+    </div>
+
+    <h2>Underwriting traps that void the claim you bought the policy for</h2>
+
+    <ol>
+        <li><strong>Applying after the symptom.</strong> A pending test, a new prescription, or a back that has already complained is a pre-existing condition. Disclose it. A decline or an exclusion is information. Non-disclosure is how a valid-looking claim gets rescinded.</li>
+        <li><strong>An exclusion that removes your actual risk.</strong> A back exclusion on a physical job, or a mental-health exclusion on a high-stress practice, leaves you holding a policy for the disabilities you were less likely to have. Price what remains, or do not buy it.</li>
+        <li><strong>Shopping five carriers in a month after a decline.</strong> Applications are visible to other insurers through the industry database. One complete, accurate application beats a trail of declines.</li>
+        <li><strong>Ignoring offsets in the illustration.</strong> If CPP disability or a group plan will reduce the individual benefit, the pretty monthly number is not the cheque.</li>
+        <li><strong>Assuming CPP disability will catch you.</strong> CPP disability requires a severe and prolonged condition. It is not an own-occupation benefit and it is not quick. Workers' compensation covers work injuries, not a cancer that has nothing to do with the job site.</li>
+    </ol>
+
+    <p>Disability coverage is built to end at or near 65 on most individual contracts. It is not a retirement plan. The years after that are the <a href="/blog/how-much-money-retire-canada/">retirement number</a> and the <a href="/blog/retirement-income-planning-2026/">income plan</a>. Do not skip RRSP contributions because a disability premium felt like saving. The premium is the cost of protecting the contributions. It is not the contribution.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Buy the definition.</strong> Own-occupation or regular occupation to the end of the benefit period is the individual product. Any-occupation after 24 months is the group trap.</li>
+        <li><strong>If the employer pays the premium, assume the benefit is taxable</strong> until the booklet shows you pay it yourself.</li>
+        <li><strong>Fund the elimination period in cash,</strong> including the lag before the first payment.</li>
+        <li><strong>Group coverage is not portable.</strong> Underwrite the individual policy while you are still insurable.</li>
+        <li><strong>Net income, not billings, drives the benefit</strong> for self-employed people. Salary versus dividends changes the answer again.</li>
+        <li><strong>EI sickness and CPP disability are partial, strict, and slow.</strong> Disclose them as offsets. Do not call them a plan.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/critical-illness-insurance-canada/">Critical illness</a> — a lump sum for a diagnosis, not a replacement for this monthly benefit.</li>
+        <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — the death benefit does not pay a living claim.</li>
+        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax</a> — write-offs and the insurable income they shrink.</li>
+        <li><a href="/blog/insurance-shopping-without-over-insuring-canada/">Shopping without over-insuring</a> — where group LTD sits in the stack.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The tax on the benefit is set when the premium is paid, not when you claim.</strong></p>
+        <p>Employer-paid plans, shareholder benefits, and the T1 all meet in one return. The 2026 tax guide is that side of the file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about disability insurance in Canada. It is not insurance, tax, medical, or employment advice, and it is not a recommendation to buy a policy or to change who pays a group premium. Definitions, tax treatment, EI and CPP rules, and issue limits change and depend on the contract and your facts. Dollar examples are illustrative. They are not your spending, not a benefit quote, and not a premium. Read the specimen contract and have a licensed advisor and a tax professional confirm the taxable-benefit treatment before you rely on it.</p>
+        <div class="footer-note">Published: December 17, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Critical Illness Insurance in Canada: When the Lump Sum Is Worth Buying",
+    slug: "critical-illness-insurance-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-18",
+    excerpt: "Critical illness pays a lump sum for a covered diagnosis, not a salary. Size it against the hole disability insurance and your emergency fund leave, and skip it when that hole is already filled.",
+    image: "/images/blog/critical-illness-insurance-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Critical illness insurance pays a cheque if you meet a definition and survive the waiting period. It does not pay your salary next month. If disability insurance and a cash reserve already cover the disruption, <span class="highlight">another lump sum is a second copy</span> of a risk you have handled.
+    </div>
+
+    <p>The monthly benefit for a long inability to work is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The capital if you die is the <a href="/blog/life-insurance-need-analysis-canada/">life need analysis</a>. Critical illness sits between them: a one-time amount for a covered condition, sized to costs and a short income hole, not to the maximum face a carrier will issue. Long-term care years later is a different product and a different article, <a href="/blog/long-term-care-costs/">long-term care costs</a>. Do not buy CI and call it a nursing-home plan.</p>
+
+    <div class="callout">
+        <strong>The conditions that pay are narrower than the brochure count:</strong>
+        <p>Cancer, heart attack, and stroke do most of the work on these contracts. Longer lists are real and still full of definitions. Early-stage cancers and some cardiac procedures often pay a partial benefit — a percentage of the face, sometimes with a cap — and can reduce what is left. A transient ischemic attack is often not a stroke. A heart attack that fails the contract's enzyme or ECG test is not a heart attack for this purpose. Read those definitions in the specimen wording before you compare price. The survival period, often 30 days, means a claim can fail if the person does not live that long. That is a life-insurance event, not a CI event.</p>
+    </div>
+
+    <h2>What the cheque is for</h2>
+
+    <ul>
+        <li><strong>Time.</strong> A spouse takes unpaid leave. You hire someone to cover a practice or a contract for a season. The mortgage does not pause because you are in treatment.</li>
+        <li><strong>Costs the health plan will not love.</strong> Drugs off the provincial formulary, travel to a centre, a modification at home, a deductible. Provincial coverage and an employer health plan still matter. The domestic gaps are mapped in <a href="/blog/healthcare-costs-retirement/">healthcare costs in retirement</a>, and a lot of them show up before you retire.</li>
+        <li><strong>The wait before disability benefits start.</strong> A 90- or 180-day elimination period is a cash hole. CI can fill a measured hole. It should not be asked to replace the disability policy you skipped.</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>You already have</th>
+                <th>What CI still might do</th>
+                <th>When to skip a large face</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Own-occupation disability to 65, and a cash reserve of many months of spending</td>
+                <td>A modest lump sum for uncovered treatment costs, if those costs are realistic for your health and your province.</td>
+                <td>When the reserve alone covers a year of disruption and the drug plan is one you have actually used.</td>
+            </tr>
+            <tr>
+                <td>Group disability that becomes any-occupation at 24 months, taxable, and capped</td>
+                <td>CI does not fix that definition. Buy individual disability for the definition. Use CI only for the lump-sum hole that remains.</td>
+                <td>When someone is selling CI because the disability underwriting was harder. Solve the harder problem, or accept the exclusion in writing.</td>
+            </tr>
+            <tr>
+                <td>A thin emergency fund and a long disability wait</td>
+                <td>A face amount tied to the wait plus a treatment reserve.</td>
+                <td>When you would be insuring the same mortgage payment inside life, disability, and CI. Pick the contract that matches the risk.</td>
+            </tr>
+            <tr>
+                <td>A business that stops if you stop</td>
+                <td>A season of overhead or a locum, priced from the business, not from a flyer.</td>
+                <td>When the corporation is the beneficiary and nobody has asked whether the cheque is taxable or whether it has anything to do with the capital dividend account. It does not. See <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Size the face to a job</h2>
+
+    <div class="example-box">
+        <strong>Illustrative sizing, not a product maximum</strong>
+        <p>Mortgage payments are an illustrative $2,400 a month. One year of those payments is $28,800. Add an illustrative $20,000 reserve for travel, uncovered drugs, and a spouse's unpaid month. The face that has a job is about $50,000. A $250,000 policy is a different purchase: it is income replacement, which is disability insurance's job, or it is a want. Price the $50,000. Then decide if you want more, with the extra premium compared to money you would otherwise put in a TFSA.</p>
+        <p>If the emergency fund is already an illustrative $40,000 and disability insurance replaces income after a short wait, the residual CI need may be the treatment reserve only, or zero. Zero is an acceptable answer. The stacking rule is <a href="/blog/insurance-shopping-without-over-insuring-canada/">do not insure the same hole three ways</a>.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Return of premium is your money, sent back later, after you paid extra to be allowed to ask for it:</strong>
+        <p>Return-of-premium riders raise the cost. If you never claim, you may get premiums back at a stated age, on death, or on surrender, depending on the rider. That refund is not a yield. Price the base policy. Price the rider. Take the difference and ask what a TFSA would hold over the same years at a return you believe. If the TFSA is ahead, the rider is a behavioural purchase. You are allowed to make it. You should know which kind of purchase it is. Do not let the refund story talk you into a face amount you would not have bought as pure insurance.</p>
+    </div>
+
+    <h2>Children, tax, and the employer plan</h2>
+
+    <p>A child's critical illness is a financial event mostly because a parent stops working. Insure the parent's income with disability coverage and hold cash for travel and unpaid leave. A small child policy can cover costs the parent's plan will not. It is a satellite. Sold with return of premium, it is often a savings story wrapped around a small amount of insurance. Treat it as optional, and put it after the parent's disability and life insurance in the <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping order</a>.</p>
+
+    <p>A lump sum paid to you under a policy you own and pay for personally is generally received tax-free. If an employer pays the premium, confirm whether that premium is a taxable benefit and how a claim is taxed before you count the cheque as free. Group CI is often a small face and a short list of conditions. Count it as an offset, the way you count group life, and do not assume it survives a job change.</p>
+
+    <div class="tip-box">
+        <strong>Family history changes the underwriting, not the arithmetic:</strong>
+        <p>A parent who died young of a covered condition is a reason the insurer will ask questions, and it may be a reason you want the coverage if it is still offered on a clean definition. It is not a reason to skip the overlap test. Buy the residual. If the only policy you can get carries an exclusion for the condition you are worried about, you are buying the other conditions. Say that out loud before you pay the premium.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>CI is a lump sum for a covered diagnosis after the survival period.</strong> It is not salary replacement and it is not long-term care.</li>
+        <li><strong>Read the definitions for cancer, heart attack, and stroke,</strong> plus the partial-payment rules. The condition count is not the coverage.</li>
+        <li><strong>Size the face to a year of a specific bill plus a treatment reserve,</strong> then subtract cash and disability insurance that already do that job.</li>
+        <li><strong>Skip it when the hole is filled.</strong> A large emergency fund plus a strong disability policy is a complete answer for many households.</li>
+        <li><strong>Return of premium is an extra cost for a refund of your own premiums.</strong> Compare it to a TFSA before you add it.</li>
+        <li><strong>Corporate-owned CI is not a capital-dividend strategy.</strong> That credit belongs to life insurance on death.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the contract that replaces income.</li>
+        <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs</a> — what provincial plans leave you to pay.</li>
+        <li><a href="/blog/long-term-care-costs/">Long-term care</a> — a multi-year custody cost CI does not fund.</li>
+        <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — if the survival period is not met, this is the other policy.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>A tax-free cheque still sits beside taxable accounts.</strong></p>
+        <p>How you fund the emergency reserve, and what an employer benefit does to your T1, is tax. The 2026 tax guide covers that personal file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about critical illness insurance in Canada. It is not insurance, tax, or medical advice, and it is not a recommendation to buy or skip a policy. Definitions, survival periods, partial benefits, and tax treatment depend on the contract and on who pays the premium. Every dollar figure is illustrative. It is not a face amount, a premium, or a typical claim. Read the specimen contract and the list of covered conditions before you apply.</p>
+        <div class="footer-note">Published: December 18, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Home and Tenant Insurance Gaps: Dwelling, Liability, Water, and Rentals",
+    slug: "home-tenant-insurance-coverage-gaps-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-19",
+    excerpt: "Replacement cost, a stated rebuild limit, sewer backup, and a short-term rental are where Canadian property policies quietly stop. Landlord and tenant policies do not cover each other.",
+    image: "/images/blog/home-tenant-insurance-coverage-gaps-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The policy you bought for "the house" is four different promises: the building, the contents, the months you cannot live there, and the lawsuit if someone is hurt. Canadians get hurt in the <span class="highlight">gap between those promises</span>, and in the endorsements they assumed were in the base form.
+    </div>
+
+    <p>This is a coverage map, not a quote. Premiums, deductibles, and water endorsements are local. Nothing here is a price. If you are deciding whether to sell, rent, or stay, the housing choice is <a href="/blog/housing-decisions-retirement/">housing decisions in retirement</a>. If the property is a rental and someone has mentioned a corporation, the tax answer is <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation</a>, and it does not replace a lessor's policy. The principal residence exemption and a homeowner policy do not even use the same definition of "home." The tax version is <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence versus rental</a>.</p>
+
+    <div class="callout">
+        <strong>Landlord and tenant policies are not substitutes:</strong>
+        <p>A tenant's policy covers the tenant's contents, additional living expenses, and personal liability. It does not rebuild the landlord's building. A landlord's policy covers the building, loss of rent if the wording says so, and the landlord's liability. It does not replace the tenant's furniture. After a fire, both can be sued. Each needs a contract. A homeowner who takes in a paying guest, or who lists a suite on a short-term platform, is often in a third category the base policy excluded the day the listing went live.</p>
+    </div>
+
+    <h2>Which form you are actually on</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Form</th>
+                <th>The part people think is automatic</th>
+                <th>The part that is usually not</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Homeowner</td>
+                <td>Dwelling, other structures, contents, additional living expenses, personal liability.</td>
+                <td>Sewer backup, overland flood, earthquake, guaranteed replacement cost, bylaw upgrades, home business, paying guests.</td>
+            </tr>
+            <tr>
+                <td>Tenant</td>
+                <td>Contents, additional living expenses, liability if you cause a fire or someone is hurt in your unit.</td>
+                <td>The building, the landlord's deductible, your bicycle or jewellery above a special limit, a business you run from the unit.</td>
+            </tr>
+            <tr>
+                <td>Condo unit owner</td>
+                <td>Contents, your improvements, liability, and often a loss assessment or deductible assessment if you bought it.</td>
+                <td>Whatever the declaration calls a standard unit. Betterments you installed. Your share — or the whole — of the corporation's deductible.</td>
+            </tr>
+            <tr>
+                <td>Landlord</td>
+                <td>The rental building and the landlord's liability. Loss of rent only if the form includes it.</td>
+                <td>The tenant's belongings. Short-term rental. A suite you did not disclose. Your own contents in a unit you also occupy.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Stated amount, replacement cost, and actual cash value</h2>
+
+    <p>Brokers will contrast a stated amount — you will also hear stated estimated value, or SEV — with replacement cost, often shortened to RCV. They are not the same number, and neither of them is the price you paid or the number on the municipal assessment. Assessment is a tax value. The market price includes land. You insure the cost to reconstruct the building.</p>
+
+    <ul>
+        <li><strong>A stated amount you typed from the listing</strong> is a limit you hoped was enough. If rebuild costs more, you are underinsured. Guaranteed replacement cost, on contracts that offer it, can pay above the limit only if you met the insurer's conditions: usually their calculator, and notice when you finish a basement or add a suite.</li>
+        <li><strong>Replacement cost</strong> pays to repair or replace with similar materials, without a deduction for depreciation, and only up to the limit you bought. It is not a blank cheque.</li>
+        <li><strong>Actual cash value</strong> is replacement cost minus depreciation. Roofs, older contents, and some claims settle here unless you bought replacement cost and met the conditions, which often include actually replacing the item.</li>
+        <li><strong>Bylaw or ordinance coverage</strong> is the extra cost to rebuild to current code. A house that was legal in 1985 may not be replaceable as it stood. Ask whether that cost sits inside the dwelling limit or on top of a small sublimit.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustrative rebuild, not an appraisal</strong>
+        <p>A house that would sell for $900,000 might sit on land that is most of that price, with a rebuild well below the listing. Or it might be a custom house on a cheaper lot, where reconstruction costs more than the market value because buyers will not pay you back for the millwork. Use the insurer's calculator and tell them about a finished basement, a secondary suite, and a renovation. A stated amount copied from the purchase price is how a total loss becomes a negotiation. These figures are a pattern. They are not your house and not a contractor's bid.</p>
+    </div>
+
+    <h2>Water is three coverages, not one</h2>
+
+    <div class="warning-box">
+        <strong>Sewer backup, overland flood, and a slow leak are different events:</strong>
+        <p>Many Canadian base forms exclude all three. Sewer backup is an endorsement. Overland flood — water that comes across the ground — is a different endorsement, and some postal codes cannot buy it. Groundwater, seepage, and a leak that went on for weeks are often excluded even when you bought both endorsements. A sump pump has its own failure language: some sewer-backup wordings respond only if the pump failed in a described way, or only if you maintained it. A finished basement's contents and improvements need to be inside a limit that reflects what is down there. "Sudden and accidental" is the phrase that ends gradual-damage claims. Read it before the first heavy rain, not after.</p>
+    </div>
+
+    <p>Earthquake coverage, where it is offered, often carries a deductible that is a percentage of the dwelling limit rather than a flat amount you would shrug at. In parts of British Columbia that percentage is the product. Ask for it in writing. Do not assume a homeowner form picked it up because the mortgage lender required "insurance."</p>
+
+    <h2>Short-term rentals and the suite you did not mention</h2>
+
+    <p>A long-term residential tenant and a weekend booking are different risks. Standard homeowner and landlord forms often exclude business use and damage by paying guests. The platform's host guarantee is not a policy you own. It has its own cap, its own exclusions, and a claims process you do not control. Disclose the activity and buy a host endorsement or a form that is priced for short-term rental before the first guest. Discovering the exclusion after a kitchen fire is not a negotiation you will win.</p>
+
+    <p>A basement suite has two files. The insurer wants to know about the unit, the kitchen, and who lives there. The tax file — principal residence, change of use, GST/HST on short-term stays — is separate and is covered in the <a href="/blog/primary-residence-vs-rental-property-canada/">rental versus residence guide</a> and, if the activity is big enough to incorporate, the <a href="/blog/landlord-incorporation-when-it-pays-canada/">incorporation piece</a>. Passing one test does not pass the other. The building still has to work as a building; the insurance does not fix a bad rent roll. That arithmetic is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>.</p>
+
+    <div class="tip-box">
+        <strong>Condo owners insure the gap the declaration left them:</strong>
+        <p>Read the standard unit definition. Floors, kitchens, and upgrades you installed may be yours to insure as betterments, not the corporation's. Loss assessment and deductible assessment endorsements respond to your share of a building claim. The corporation's deductible can be large. The declaration might split it, or it might charge the unit that was the source. Illustrative only: a $50,000 corporation deductible split across 20 identical units is $2,500 if the documents actually split it that way. If they charge the responsible unit the full deductible, your endorsement limit has to survive that number. Read the declaration. Do not assume equal shares, and do not use this illustration as a deductible quote.</p>
+    </div>
+
+    <h2>Liability, special limits, and the deductible you can afford</h2>
+
+    <p>Personal liability is the unglamorous limit. A common starting point on Canadian forms is a figure people never revisit after they add a pool, a dog, a rental, or a teenager who drives. An umbrella or personal excess policy, if the insurer will write one over your home and auto, is how that limit grows. This article will not quote either number. Ask what you have, then ask what a serious injury claim costs in your city. Home-business stock and professional liability are not meaningfully inside a homeowner form. Sublimits on business property are small. Errors and omissions for a practice belong on a business policy. The expense side of that is the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>; the coverage side is a broker, not a rider buried in the house policy.</p>
+
+    <p>Jewellery, bicycles, cameras, and collectibles sit on special limits that are often a few thousand dollars and are printed in the wordings. If the object is worth more than the special limit, schedule it or accept the cap. Do not memorize a limit from an article. Read yours.</p>
+
+    <p>The deductible is self-insurance. Raising it is rational when you can cash-flow the loss and you will not claim small amounts that cost you a claims-free discount for years. That is the same rule as the rest of the stack in <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>. A $1,200 claim that resets your discount can cost more than the repair. Know your number before you file.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Match the form to the occupancy:</strong> homeowner, tenant, condo unit owner, or landlord. They do not cover each other's property.</li>
+        <li><strong>A stated rebuild figure is not replacement cost,</strong> and neither is the listing price or the tax assessment. Actual cash value deducts depreciation. Guaranteed replacement cost has conditions.</li>
+        <li><strong>Buy sewer backup and overland flood as separate questions,</strong> and assume seepage and gradual leaks are still excluded until the wording says otherwise.</li>
+        <li><strong>Disclose short-term rentals and secondary suites</strong> before the first guest. A platform guarantee is not your policy.</li>
+        <li><strong>Condo deductible assessments and betterments</strong> are the unit owner's gap. Read the declaration.</li>
+        <li><strong>Schedule items above the special limit,</strong> and set a deductible you can pay without filing a claim you will regret.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/housing-decisions-retirement/">Housing decisions in retirement</a> — downsizing into a condo does not keep your old homeowner assumptions.</li>
+        <li><a href="/blog/primary-residence-vs-rental-property-canada/">Principal residence versus rental</a> — the tax classification is a different test from the insurance form.</li>
+        <li><a href="/blog/landlord-incorporation-when-it-pays-canada/">Landlord incorporation</a> — a corporation is not a liability policy.</li>
+        <li><a href="/blog/insurance-shopping-without-over-insuring-canada/">Shopping without over-insuring</a> — deductibles as a deliberate self-insure.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The insurer and the CRA can disagree about what the property is.</strong></p>
+        <p>Change of use, a suite, and a principal residence claim are tax. The 2026 tax guide is that side of the house.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about common gaps in Canadian home, tenant, condo, and landlord policies. It is not insurance, legal, or tax advice, and it is not a quote or a recommendation of any insurer. Wordings, deductibles, flood eligibility, and condo declarations differ. Dollar examples are illustrative patterns, not rebuild costs, deductibles, or premiums. Read your policy and the declarations page, and have a licensed broker confirm endorsements before you rely on them.</p>
+        <div class="footer-note">Published: December 19, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Travel Medical Insurance in Canada: Provincial Gaps, Stability Clauses, and Snowbirds",
+    slug: "travel-medical-insurance-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-20",
+    excerpt: "Your provincial plan is not a travel policy. Pre-existing stability, trip length, and age cutoffs decide the claim — and trip cancellation is a different product from emergency medical.",
+    image: "/images/blog/travel-medical-insurance-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Provincial health insurance is a domestic promise. Outside Canada it is a token, sometimes a per-diem, sometimes less, and it is <span class="highlight">not a ceiling you can plan a hospital around</span>. The travel policy is the plan. The card in your wallet is a plan only if the certificate still likes your age, your trip length, and your medications.
+    </div>
+
+    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on.</p>
+
+    <div class="callout">
+        <strong>Three products people buy as if they were one:</strong>
+        <p>Emergency medical pays for care. Trip cancellation pays forfeited prepaid costs if you cancel for a covered reason before you leave. Trip interruption pays when you cut a trip short or get delayed for a covered reason. Baggage delay is a fourth thing and irrelevant to a US emergency department. A credit-card certificate can include all of them with different caps. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>, and the habit of reading the certificate instead of the marketing tile is <a href="/blog/best-travel-rewards-cards-canada-2026/">travel cards</a>. This page is what to look for when you do.</p>
+    </div>
+
+    <h2>What the province is not doing for you</h2>
+
+    <p>At home, medically necessary physician and hospital services are the provincial plan's job. Outside Canada, reimbursement is a small fraction of a foreign bill. Some provinces have reduced out-of-country benefits to a token or removed routine coverage. A single day in a US hospital can dwarf whatever is left of that benefit. Treat the provincial payment as a rounding error and insure the rest, or do not go.</p>
+
+    <p>Inside Canada the problem is smaller and not the same problem. Provinces reciprocate for many physician and hospital bills. Ambulances, prescriptions, and some clinics still surprise people, and Quebec's arrangements have historically been the awkward one. A weekend in another province is not a snowbird policy question. A week in Arizona is.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Question in the certificate</th>
+                <th>Why the claim dies here</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maximum days per trip</td>
+                <td>A card that covers a few weeks does not cover a five-month stay. The number of days is in the certificate. Do not guess it from a points blog.</td>
+            </tr>
+            <tr>
+                <td>Age cutoff</td>
+                <td>Many certificates change or end at 65, sometimes later, sometimes with a reduced cap. Price the trip at the age you will be on the departure date.</td>
+            </tr>
+            <tr>
+                <td>Must you charge the trip to the card?</td>
+                <td>Some certificates require the full fare, or the trip, on that card. A flight bought on another card can void the medical coverage you thought was automatic.</td>
+            </tr>
+            <tr>
+                <td>Medical maximum</td>
+                <td>A cap that sounds large next to a Canadian grocery bill can be a short US admission. Read the number, including any reduction for age or for pre-existing conditions.</td>
+            </tr>
+            <tr>
+                <td>First payor or excess</td>
+                <td>A top-up over a provincial plan or another policy is useful. Two policies that both claim to be excess can leave you in the middle. Know which contract pays first.</td>
+            </tr>
+            <tr>
+                <td>Stability of pre-existing conditions</td>
+                <td>The lookback is commonly 90, 180, or 365 days and is defined in the policy. "I feel fine" is not the definition.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Stability means the definition</h2>
+
+    <div class="warning-box">
+        <strong>A change in medication can reset the clock even when you feel better:</strong>
+        <p>Stable, in these contracts, usually means no new symptom, no change in treatment or medication including a dose change, no new prescription, no pending test with an undiagnosed result, and no recommendation for a test or specialist you have not completed. The exact list is in the policy. A claim denial for a condition that was not stable, or for an answer on the medical questionnaire that was hopeful rather than literal, is the expensive version of a cheap premium. If you are not stable, buy a contract that will cover that condition with a loading or a cap you have read, or do not travel. Guaranteed-issue travel medical usually has a low maximum. Read the maximum before you treat it as cover.</p>
+    </div>
+
+    <p>Answer for the older traveller and for every condition, not for the healthy spouse. A joint policy can be priced and excluded off the more complicated person. Two policies are fine if you know which one responds. Risky activities — heli-ski, scuba past a stated depth, travel against a doctor's advice, alcohol-related injuries — are ordinary exclusions. So is failing to call the assistance number before treatment when the contract requires the call. The assistance clause is not etiquette. It is a condition of coverage.</p>
+
+    <h2>Snowbirds</h2>
+
+    <p>A snowbird plan has to match the actual stay, plus a buffer, or you buy top-up days before you exceed the limit. Buying the extension after you are already past the cap, or after a new symptom, is how coverage lapses in February. The policy will almost always require you to be covered by a provincial plan. Provinces impose physical-presence tests that change. Confirm you will still qualify for your provincial plan on the dates you will be away before you buy a top-up that depends on it.</p>
+
+    <div class="example-box">
+        <strong>A decision pattern, not a premium</strong>
+        <p>You are 67. The credit-card certificate you used at 60 now caps trips at a length shorter than the condo you booked, and the medical maximum dropped at your last birthday. The card still pays trip interruption for a covered reason, up to a limit you have read, and it does not pay the hospital bill for a four-month stay. You buy a snowbird medical policy for the dates and the stability window you can truthfully answer, and you keep cancellation coverage only on the prepaid, non-refundable portion of the stay. You do not buy cancellation on a fully refundable fare. You do not assume the card and the new policy will coordinate unless both certificates say how. None of those limits are quoted here because they are not stable enough to print. They are stable enough to read the week you book.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Cancellation is not medical, and a refundable booking does not need cancellation insurance:</strong>
+        <p>Insure a loss you can actually have. A non-refundable rental, a tour, or a fare with a penalty is a cancellation problem. A hospital is a medical problem. Households buy the one their card advertises and discover they own the other. If a trip is short, inside Canada, refundable, and inside a card certificate you have checked for age and days, you can skip a separate policy. If any one of those fails, the card is not the plan. The self-insure test is the same one in <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</p>
+    </div>
+
+    <p>Travel medical is underwritten more heavily with age. The step-up in price is the risk, not a trick. Budget it next to the flight, as a cost of the trip, especially once you are past the age where card certificates quietly shrink. A decline or a stability exclusion is a reason to change the trip, not a reason to hope the questionnaire was interpreted kindly.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Provincial out-of-country benefits are not travel insurance.</strong> Confirm this year's schedule, then insure the bill.</li>
+        <li><strong>Medical, cancellation, and interruption are different contracts,</strong> even when one card includes all three with different caps.</li>
+        <li><strong>Days per trip, age, the charge-to-card rule, and the medical maximum</strong> are the four places card coverage fails snowbirds.</li>
+        <li><strong>Stability is a definition.</strong> A dose change can matter more than how you feel. Answer the questionnaire literally.</li>
+        <li><strong>Buy the snowbird length before you exceed it,</strong> and confirm you will still qualify for your provincial plan.</li>
+        <li><strong>Call the assistance number</strong> when the contract says to call before treatment.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs in retirement</a> — the domestic bill travel insurance does not pay.</li>
+        <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">Annual fee versus no-fee</a> — count card insurance only if you would have bought it.</li>
+        <li><a href="/blog/best-travel-rewards-cards-canada-2026/">Travel cards</a> — certificates, not marketing tiles.</li>
+        <li><a href="/blog/housing-decisions-retirement/">Housing decisions</a> — a long stay away is a housing plan as well as a medical one.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The hospital is abroad. The tax residency and the provincial plan are still Canadian questions.</strong></p>
+        <p>How long you can be away, and what that does to benefits and returns, belongs in the personal tax file. The 2026 tax guide is that file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about travel medical, cancellation, and interruption coverage for Canadians. It is not insurance, medical, or tax advice, and it is not a quote. Provincial out-of-country benefits, card certificates, stability definitions, and premiums change. This article deliberately does not print live rates or card day-counts. Read the current ministry page and the certificate, and answer the medical questionnaire against the policy's definition before you travel.</p>
+        <div class="footer-note">Published: December 20, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Corporate-Owned Life Insurance: The CDA Credit, and When Personal Term Wins",
+    slug: "corporate-owned-life-insurance-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-21",
+    excerpt: "A corporation can turn part of a life insurance death benefit into a capital dividend. That is a surplus and estate tool, not a better way to replace a salary while your children are young.",
+    image: "/images/blog/corporate-owned-life-insurance-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Corporate-owned life insurance is a way to turn surplus that has already been taxed inside the company into a <span class="highlight">capital dividend when you die</span>. It is not a smarter term policy for a 15-year income need, and the illustration is not a TFSA.
+    </div>
+
+    <p>If you are still deciding whether a corporation should exist, stop here and read <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. If the company exists and the question is where a portfolio sits, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the third question: given surplus, a buy-sell, or a tax bill on the shares at death, should the company own a life policy? The personal face amount is still the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. Term versus permanent is still <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. Do not let a holdco shortcut those.</p>
+
+    <div class="callout">
+        <strong>The capital dividend account credit is proceeds minus adjusted cost basis:</strong>
+        <p>The corporation owns the policy and is the beneficiary. Premiums are generally not deductible. The death benefit is generally received tax-free. The capital dividend account is credited with the insurance proceeds minus the policy's adjusted cost basis immediately before death. Elect properly, and that credit can come out to the shareholder as a tax-free capital dividend. The rest of the proceeds do not become a capital dividend just because a policy was in the drawer. A personally owned policy also pays a death benefit that is generally tax-free, directly to a named beneficiary, without a T2, a resolution, or an election. For a temporary family need, that direct cheque is the feature. The CDA is not a better grocery budget.</p>
+    </div>
+
+    <h2>The arithmetic, labelled as arithmetic</h2>
+
+    <div class="example-box">
+        <strong>Illustrative CDA credit, not a product and not your ACB</strong>
+        <p>Death benefit $1,000,000. Adjusted cost basis immediately before death $200,000. Capital dividend account credit $800,000. The $200,000 is not a tax-free capital dividend. It might still leave the company, and it will be a taxable dividend or salary if it does, unless some other balance — a refundable-tax account, a different CDA credit from a capital gain — covers it. Those are different pools. Do not blend them in your head.</p>
+        <p>The adjusted cost basis comes from the insurer's tax report. It reflects premiums and the net cost of pure insurance, and it depends on the policy's issue era, including the changes that apply to policies last acquired after 2016. Do not estimate it from the cash surrender value. Ask for the current ACB and a projected CDA credit in writing, on the guaranteed column and on a reduced scale. This illustration is a teaching subtraction. It is not that report.</p>
+    </div>
+
+    <h2>When the company should own it</h2>
+
+    <ul>
+        <li><strong>Surplus you have already decided not to pay out,</strong> after TFSA room and an RRSP contribution that is actually worth taking. Personal shelters come first. Corporate insurance is overflow, the same posture as a corporate portfolio. The funding order is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</li>
+        <li><strong>Estate liquidity on a deemed disposition.</strong> Shares are disposed at fair market value at death. The gain can force a sale of the business or of real estate inside it. Insurance in the company can fund the tax, and the CDA can move proceeds to the estate more cleanly than a taxable dividend. The personal documents are <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney</a>. The tax layer is <a href="/blog/tax-efficient-wealth-transfer/">tax-efficient wealth transfer</a>. Subsection 112(3.2) can grind the capital loss that would otherwise offset the terminal gain when a redemption and a life-insurance capital dividend are part of the plan. Pipeline versus redemption is a CPA and a lawyer. It is not a blog procedure. Do not redeem shares from this article.</li>
+        <li><strong>A buy-sell you have signed.</strong> Criss-cross policies owned personally and a corporate redemption structure put the CDA in different hands. Match the owner and the beneficiary to the agreement. A policy that pays the company when the agreement expected the surviving shareholder to receive the money is a different deal from the one you shook hands on.</li>
+        <li><strong>A permanent need funded with retained active earnings</strong> you can spare in a bad year. If the premium forces a shareholder loan or a bonus you did not want, the company is not the elegant payer. It is a cash-flow problem with a nicer binder.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Cash value inside the operating company is a passive asset for the qualified small business corporation tests:</strong>
+        <p>The lifetime capital gains exemption depends on those tests, including the asset mix on the determination date and over the holding period. A large cash surrender value in the opco can fail the test on the day you sell or die. Have the accountant run the percentages before the operating company owns a permanent policy. A holding company is the usual alternative, and it has its own cost, its own association issues, and its own reason to exist. The passive-income grind on the small-business limit is a related but different problem: while an exempt policy stays exempt, the inside buildup is not annual investment income the way GIC interest is. A surrender that produces a policy gain is a different event. Confirm both with the person who files the T2. The longer version of corporate passive income is the <a href="/blog/corporate-vs-personal-investing-canada/">corporate investing guide</a>.</p>
+    </div>
+
+    <h2>When personal ownership wins</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The need</th>
+                <th>Who should own the policy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Replace income for the years the children are dependent</td>
+                <td>The person, with the spouse or a trustee as beneficiary. Term. The CDA does not improve a grocery bill.</td>
+            </tr>
+            <tr>
+                <td>Pay off a personal mortgage</td>
+                <td>The person, unless the debt is actually the company's. Do not add lender mortgage insurance on top. See the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>.</td>
+            </tr>
+            <tr>
+                <td>Fund tax on shares or a buy-sell</td>
+                <td>Usually the company, matched to the agreement and modelled for the stop-loss rule.</td>
+            </tr>
+            <tr>
+                <td>A cash-value illustration that looks like an investment</td>
+                <td>Neither, until it beats a TFSA and a corporate portfolio on the guaranteed column, after the premium you might lapse. It usually does not win that test as a starter.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Collateral deductions, loans, and the policies that are not life insurance</h2>
+
+    <p>If a lender requires the policy to be assigned as collateral and the interest on that loan is deductible, a portion of the premium may be deductible under the collateral-insurance rule. It is a slice, the conditions are technical, and the loan has to make sense before the deduction does. It is not a reason to buy coverage.</p>
+
+    <p>A policy loan or a withdrawal can create a taxable policy gain when it exceeds the adjusted cost basis, and it reduces the death benefit that was supposed to credit the CDA. Borrowing against corporate cash value to fund personal spending is a shareholder benefit problem as well as an insurance problem. Treat "infinite banking" inside a holdco as a loan with a tax file, not as a personality.</p>
+
+    <div class="tip-box">
+        <strong>Disability and critical illness do not inherit the CDA story:</strong>
+        <p>The credit described above is life insurance proceeds on a death. A critical illness cheque paid to the corporation is a different instrument. Do not assume it comes out tax-free. Disability premiums the company pays should be structured so you know whether the benefit will be taxable. Often the useful design is to report a taxable benefit so a personally received disability benefit can arrive tax-free — the same fork as group LTD in the <a href="/blog/disability-insurance-canada-guide/">disability guide</a>. That is a payroll decision. Confirm it before you compare a corporate-pay quote with a personal one. Shared ownership and split-dollar arrangements add a tracking file and a dispute between the shareholder and the company. They are not a first policy.</p>
+    </div>
+
+    <p>Rental corporations have their own tax status, usually a specified investment business, which the <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation guide</a> walks through. A life policy inside a rental company does not turn rent into the small-business rate, and it does not replace liability insurance on the building. The <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">property coverage gaps</a> are a different contract.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>CDA credit equals death benefit minus the policy's adjusted cost basis.</strong> Get the ACB from the insurer. Do not infer it from cash value.</li>
+        <li><strong>Premiums are generally not deductible.</strong> A collateral assignment may support a partial deduction. It is not the point of the policy.</li>
+        <li><strong>Personal term wins for a temporary household need.</strong> Corporate ownership wins for surplus, a modelled estate tax, or a buy-sell the agreement actually describes.</li>
+        <li><strong>Cash value in the opco can threaten the capital gains exemption tests.</strong> Run the asset mix before you buy.</li>
+        <li><strong>Stop-loss rules can grind the loss on a redemption.</strong> Pipeline versus redemption is professional work.</li>
+        <li><strong>Critical illness and disability are not CDA products.</strong> Structure the taxable benefit on purpose.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/should-you-incorporate-2026/">Should you incorporate</a> — the decision this policy does not make for you.</li>
+        <li><a href="/blog/corporate-vs-personal-investing-canada/">Corporate versus personal investing</a> — shelters first, corporate overflow second.</li>
+        <li><a href="/blog/term-vs-whole-life-insurance-canada/">Term versus whole life</a> — permanent coverage only for a need that does not end.</li>
+        <li><a href="/blog/tax-efficient-wealth-transfer/">Tax-efficient wealth transfer</a> — the death tax the CDA strategy is trying to fund.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The minute book does not make a premium deductible.</strong></p>
+        <p>Integration, the capital dividend election, and the exemption tests are tax. The 2026 tax guide is the personal side of a corporate file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about corporate-owned life insurance and the capital dividend account in Canada. It is not tax, legal, insurance, or estate advice, and it is not a recommendation to buy a policy inside a corporation or to redeem shares. Adjusted cost basis, exempt-test status, stop-loss rules, QSBC tests, and collateral-insurance deductions are fact-specific and change. The dollar example is illustrative subtraction, not your death benefit and not an insurer's ACB report. Have a CPA, a tax lawyer, and a licensed insurance advisor model the structure before you apply or assign a policy.</p>
+        <div class="footer-note">Published: December 21, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "How to Buy Insurance Without Stacking the Same Risk Twice",
+    slug: "insurance-shopping-without-over-insuring-canada",
+    category: "Insurance",
+    categorySlug: "insurance",
+    author: "Andrew Carrothers",
+    date: "2026-12-22",
+    excerpt: "Government plan, then employer plan, then an individual policy for the residual. Riders, lender mortgage life, and a second travel policy are where Canadians pay twice.",
+    image: "/images/blog/insurance-shopping-without-over-insuring-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Over-insuring is not a moral failure. It is <span class="highlight">the same loss funded three times</span> — once by a public plan, once by an employer booklet, and again by a rider you did not read — while the loss that would actually sink you is still thin.
+    </div>
+
+    <p>The pieces are already written. Use them in order. Life capital is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. The contract length is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. The living claim is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The one-time diagnosis cheque is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>. The building is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant gaps</a>. The border is <a href="/blog/travel-medical-insurance-canada/">travel medical</a>. The company is <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. This article is the sequence and the duplicates.</p>
+
+    <div class="callout">
+        <strong>Stack in this order, and stop when the residual is small enough to cash-flow:</strong>
+        <p>Name the loss. Subtract what a public plan already does. Subtract what an employer plan or a card certificate already does, after you have read the definition and the tax. Buy an individual policy only for what is left. Add a rider only when it has a job the base contract does not do. Self-insure the rest. A licensed advisor — life and health, or a property broker — places the contract. The carrier name on the letterhead matters less than the definition, the owner, and the beneficiary. Canada Life, Manulife, Sun Life, RBC Insurance, iA, and Desjardins are examples of carriers advisors use. That list is not a ranking, not an offer, and not a link.</p>
+    </div>
+
+    <h2>The order</h2>
+
+    <ol>
+        <li><strong>Name the loss.</strong> Whose income, for how many years. Which lump sum. Which lawsuit. Which building. Which border. A policy that does not name a loss is a product.</li>
+        <li><strong>Public plans.</strong> Provincial health insurance for physician and hospital care at home. CPP survivor benefits, which are a fraction of a pension, and a death benefit that has long been capped at a small lump sum ($2,500 — confirm it). CPP disability, which is severe and prolonged, not own-occupation. EI sickness, 26 weeks in the current design and only a fraction of insurable earnings. Workers' compensation for injuries at work, not for an illness that has nothing to do with the job. Provincial drug programs later in life, mapped in <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>.</li>
+        <li><strong>Employer and card coverage you already pay for.</strong> Group life, short-term disability, long-term disability, health, dental, and the travel certificate on a card. Find out who pays the LTD premium. That single fact changes the tax on the benefit. Count group life as a bridge. It ends when you resign, and the conversion window is short.</li>
+        <li><strong>Individual coverage for the residual only.</strong> Personal term for the need-analysis gap, not for a second copy of the mortgage the term already includes. Individual disability if group LTD flips to any-occupation, is taxable, is capped, or will not follow you to the next job. A tenant, condo, or home policy for the occupancy you actually have, with sewer backup bought on purpose. Travel medical when the card fails an age, day-count, stability, or maximum test.</li>
+        <li><strong>Permanent life, critical illness, and corporate ownership last.</strong> They earn a place when a need does not end, when a measured lump sum is still uncovered, or when a CDA credit has a tax bill to fund. They do not earn a place as the default.</li>
+        <li><strong>Riders one at a time.</strong> Cost of living on a long disability benefit. Residual disability if you will work part-time. A future increase option if income will rise. Waiver of premium only on a policy large enough that the waiver matters. Return of premium only after you have compared the extra cost to a TFSA. Child riders and accidental death after you have insured the parent's income and life. Most households need none of the last three.</li>
+    </ol>
+
+    <h2>Duplicates that feel like prudence</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The pair</th>
+                <th>What to keep</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lender mortgage life plus personal term that already covers the mortgage</td>
+                <td>The personal term, with your family as beneficiary. Lender coverage pays the bank, declines with the balance, and is often underwritten at claim time.</td>
+            </tr>
+            <tr>
+                <td>Accidental death coverage stacked on term life</td>
+                <td>The term life. Most deaths these policies worry you about are illness. AD&amp;D does not pay them.</td>
+            </tr>
+            <tr>
+                <td>Critical illness, a 12-month emergency fund, and disability insurance all sized to the same mortgage</td>
+                <td>Disability for income. Cash for the wait and the small shocks. CI only if a lump sum is still uncovered. See the <a href="/blog/critical-illness-insurance-canada/">CI sizing example</a>.</td>
+            </tr>
+            <tr>
+                <td>Two travel medical plans that both say they are excess</td>
+                <td>One primary plan that matches the trip length and your stability. A top-up only if the first cap is the problem and the certificates say how they coordinate.</td>
+            </tr>
+            <tr>
+                <td>Group life counted at full face inside a 20-year need</td>
+                <td>Individual term for the long need. Group life as a bridge you will replace if you leave the job.</td>
+            </tr>
+            <tr>
+                <td>A whole life premium that crowds out TFSA room, sold as forced savings</td>
+                <td>Term for the temporary need, TFSA for the savings, permanent coverage only for a slice that outlives the term. The test is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>.</td>
+            </tr>
+            <tr>
+                <td>Phone insurance, extended warranties, and a home deductible so low you are tempted to claim</td>
+                <td>Self-insure. A small claim can cost a claims-free discount that exceeds the repair.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>Disability issue limits will reduce the stack at claim time anyway:</strong>
+        <p>Carriers coordinate with group plans, CPP disability, and other income. Buying two individual policies that add up to your gross salary does not produce two cheques. It produces a rescinded or reduced claim and premiums you did not need to pay. Tell the underwriter about the group plan and size the individual contract as a top-up. The tax fork — who pays the group premium — still decides whether that group cheque is taxable. Fix that before you buy more face.</p>
+    </div>
+
+    <h2>When to self-insure</h2>
+
+    <ul>
+        <li><strong>The loss fits in cash you already hold</strong> and will not change your life: a cracked screen, a warranty on an appliance, a refundable fare, a home deductible you raised on purpose.</li>
+        <li><strong>The emergency fund covers the critical-illness-sized disruption</strong> and disability insurance covers the income. Buying CI anyway is optional. It is not required for the stack to be finished.</li>
+        <li><strong>The rider's only comfort is that premiums come back.</strong> Run the TFSA comparison in the critical illness article. If the TFSA wins on assumptions you believe, skip the rider.</li>
+        <li><strong>Unused TFSA or RRSP room has a higher job</strong> than a permanent premium for a need that ends. Do not self-insure a disability in your peak earning years. That is the omission people regret. Self-insure the dented laptop.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>One household stack, illustrative and not a prescription</strong>
+        <p>Keep the group long-term disability plan, and pay that premium personally if the booklet allows, so the benefit can arrive tax-free. Buy individual own-occupation disability for the gap and for the day you leave the job, with a 90-day wait funded by about four months of cash. Buy personal term to the need-analysis number. Do not add the lender's mortgage life. Skip whole life until a lifelong dependant, a death tax, or a corporation gives it a job. Skip critical illness if the cash reserve and the disability wait already cover the hole; otherwise buy a small face tied to that hole. One property policy, occupancy disclosed, sewer backup included, liability limit read out loud. Travel medical per trip after the card certificate fails or passes the four tests: days, age, stability, maximum. A will, powers of attorney, and beneficiaries that match the people you mean. None of this is a face amount or a premium. It is an order of operations.</p>
+    </div>
+
+    <h2>When you reopen the file</h2>
+
+    <p>Revisit on a life event, not on a product launch. Marriage, a birth, a mortgage, a refinance that changes the balance, a separation, an ex who is still the beneficiary. A job change, because group life and LTD stop and conversion windows are measured in days. Incorporation, because owner and beneficiary may need to move — the <a href="/blog/corporate-owned-life-insurance-canada/">corporate guide</a> and <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. A renovation, a suite, or a short-term listing, before the first guest, on the <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">property policy</a>. A snowbird booking, before a medication change wrecks the stability window. Retirement, when group benefits end, disability coverage ends by design near 65, and life insurance may no longer have a human-capital job — or may still have an estate job. The handoff is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a>, <a href="/blog/estate-planning-wills-poa/">the will</a>, and <a href="/blog/long-term-care-costs/">long-term care</a>, which none of the policies in this stack fully replace.</p>
+
+    <div class="tip-box">
+        <strong>Put a date on it even if nothing happens:</strong>
+        <p>A pass every few years, and at each property renewal, catches a rebuild cost that drifted, a beneficiary that is wrong, and a card certificate that changed at your birthday. You do not need a new policy each time. You need to confirm the old one still matches the loss. Cancel what no longer has a job. Keeping a contract out of guilt is how the stack gets expensive without getting safer.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Public plan, then employer or card, then individual residual, then riders.</strong> Stop when you can cash-flow what remains.</li>
+        <li><strong>Do not buy lender mortgage life on top of personal term,</strong> or AD&amp;D on top of life insurance, or a second travel policy that does not say it is primary.</li>
+        <li><strong>Disability policies coordinate.</strong> A top-up is the design. A double full benefit is a premium you will not collect.</li>
+        <li><strong>Self-insure small, frequent losses.</strong> Do not self-insure your income in the years you are accumulating.</li>
+        <li><strong>Reopen the file on life events and at renewal,</strong> and cancel coverage whose job is over.</li>
+        <li><strong>The carrier is secondary to the definition, the owner, and the beneficiary.</strong></li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — the gap, with the double counts removed.</li>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the definition and the taxable-benefit fork.</li>
+        <li><a href="/blog/travel-medical-insurance-canada/">Travel medical</a> — when the card certificate is not the plan.</li>
+        <li><a href="/blog/corporate-owned-life-insurance-canada/">Corporate-owned life insurance</a> — overflow, not the first dollar.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Every layer in the stack has a tax character.</strong></p>
+        <p>Taxable disability benefits, registered room you should fill first, and a corporation that may own a policy are one household. The 2026 tax guide is the personal tax side.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to sequence Canadian insurance and avoid duplicate coverage. It is not insurance, tax, or legal advice, and it is not a recommendation to buy, cancel, or replace a policy. Public benefits, group booklets, and contracts change. Carrier names are examples, not endorsements, and this page has no affiliate links. Dollar references elsewhere in this series are illustrative. Have a licensed advisor review your booklet and your policies before you drop coverage you might not be able to replace.</p>
+        <div class="footer-note">Published: December 22, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
   }
 ];

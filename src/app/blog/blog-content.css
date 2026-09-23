@@ -82,6 +82,12 @@
     font-weight: 600;
 }
 
+.blog-content-exact .highlight {
+    color: #d80621;
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* ===== TYPOGRAPHY ===== */
 .blog-content-exact h2 {
     font-size: 1.7rem;
