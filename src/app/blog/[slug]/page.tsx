@@ -39,7 +39,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
 
-  const isExactLayout = ['taxes', 'retirement', 'credit-cards', 'investing', 'real-estate', 'insurance'].includes(post.categorySlug);
+  const isExactLayout = ['taxes', 'retirement', 'credit-cards', 'investing', 'real-estate', 'insurance', 'government-benefits'].includes(post.categorySlug);
   
   if (isExactLayout) {
     const publishDate = new Date(post.date);

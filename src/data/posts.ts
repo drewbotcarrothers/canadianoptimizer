@@ -22903,4 +22903,1227 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
 </div>`
   }
+,
+  {
+    title: "CPP Timing When Other Benefits Are in the Stack",
+    slug: "cpp-timing-benefits-stacking-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-23",
+    excerpt: "Delaying CPP raises the pension. It can also raise the income that OAS recovery, GIS, a survivor combination, and household tax are already watching.",
+    image: "/images/blog/cpp-timing-benefits-stacking-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The start date is not a breakeven age on a single cheque. Delayed CPP is a <span class="highlight">larger taxable pension landing inside whatever else the household already collects</span> — OAS, GIS, a survivor benefit, wages, or a spouse's return.
+    </div>
+
+    <p>How the pension is built, the dropout provisions, and the early-versus-late adjustment are the <a href="/blog/cpp-when-to-take-canada/">CPP timing guide</a>. Read that before this. This article starts after you know the pension can be smaller at 60 and larger at 70. The question here is what that larger cheque does to the rest of the file. Quebec contributors are in the QPP, administered by Retraite Québec. Use that estimate. Do not paste a CPP illustration onto a QPP record.</p>
+
+    <div class="callout">
+        <strong>Three tests read the start date, and they do not want the same answer:</strong>
+        <p>Longevity wants a larger pension if you expect a long life and you can fund the years before it starts. The Guaranteed Income Supplement wants a smaller pension, because CPP is income on a steep test. A survivor benefit often does not stack on top of your own pension at all. Decide which test is binding before you pick a month. The adjustment percentages themselves live in the retirement article. This page does not rebuild that payment table, and it does not quote a "current" maximum. Service Canada publishes the maximum. Your Statement of Contributions publishes your number.</p>
+    </div>
+
+    <h2>The pension and the other cheques do not move together</h2>
+
+    <p>CPP retirement, OAS, and GIS are three different statutes. You can start one and delay another. OAS can be deferred to 70 on its own clock. GIS exists only if you are receiving OAS and your income is low enough on that year's tables. A plan that delays CPP, takes OAS at 65, and assumes GIS will ignore the CPP is three plans accidentally stapled together.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cheque</th>
+                <th>What a later CPP start does</th>
+                <th>What people skip</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Your CPP retirement pension</td>
+                <td>Each month after 65 raises it, up to 70. Each month before 65 reduces it. Nothing increases it past 70.</td>
+                <td>The increase is a percentage of <em>your</em> pension, not of the maximum, and only if the contribution record supports it. The estimator in My Service Canada Account is the record. Averages are not.</td>
+            </tr>
+            <tr>
+                <td>OAS recovery tax</td>
+                <td>A larger CPP is ordinary income. If it helps push net income through the recovery threshold, part of OAS comes back to the government.</td>
+                <td>The threshold is indexed and republished. The <a href="/blog/oas-gis-clawback-canada/">OAS and GIS guide</a> explains the recovery tax. The household version, including which spouse's income counts, is <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. Do not budget from a dollar figure memorized off a forum.</td>
+            </tr>
+            <tr>
+                <td>GIS and the Allowance</td>
+                <td>CPP counts. A bigger pension can displace a supplement that was replacing income you did not have.</td>
+                <td>For a household that will actually be on GIS, "delay for longevity" can be the expensive version of prudence. Run the current GIS tables. They change.</td>
+            </tr>
+            <tr>
+                <td>A CPP survivor pension you already receive</td>
+                <td>Your retirement pension and the survivor pension are combined. They do not both pay in full.</td>
+                <td>Adding the two statements is how survivors overstate the value of waiting.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Working past 65: contributions, the post-retirement benefit, and CPT30</h2>
+
+    <p>Employment income and a CPP pension are allowed to exist in the same year. The planning is what happens to the contributions.</p>
+
+    <ul>
+        <li><strong>Under 65, if you are working in pensionable employment, you keep contributing.</strong> There is no opt-out. Those contributions still build the retirement pension if you have not started it.</li>
+        <li><strong>From 65 to 70, contributions are the default and the opt-out is a form.</strong> Form CPT30, filed with the CRA and given to your employer, stops contributions. You can revoke that election later. If you do nothing, contributions continue.</li>
+        <li><strong>If you have not started CPP, contributions from 65 to 70 feed the retirement pension you will eventually take.</strong> They are not a separate cheque.</li>
+        <li><strong>If you have started CPP and you keep contributing, you earn a post-retirement benefit.</strong> That benefit is a small additional amount that begins the year after the contribution. It is not a reason to start the pension early, and it is not large enough to ignore. It is also income once it is paid.</li>
+        <li><strong>After 70, contributions stop.</strong> There is nothing left to elect.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Wages and CPP are not equal on the GIS test:</strong>
+        <p>Employment earnings have an exemption, and a different reduction above that exemption, on the GIS calculation. CPP does not get that exemption. A year of part-time work can be less damaging to GIS than an equal dollar of pension. The exemption amount is republished. Read the current GIS instructions rather than a remembered dollar figure. The withdrawal-order version of this distinction is in <a href="/blog/oas-gis-income-stacking-canada/">income stacking</a>.</p>
+    </div>
+
+    <p>Working also fills the years you are not collecting. That is the honest cost of delaying: you need cash from wages, a workplace pension, the TFSA, or a registered withdrawal. A registered withdrawal in the year before OAS starts can set the next year's recovery tax. The sequence for that withdrawal is the <a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a>, and the account that does not raise the tests is the <a href="/blog/tfsa-retirement-strategy/">TFSA in retirement</a>.</p>
+
+    <h2>Survivor benefits do not add to your own pension</h2>
+
+    <p>If you die, your estate may apply for a death benefit, and a spouse and dependent children may apply for survivor benefits. The death benefit is a small lump sum with a statutory cap. Confirm the cap on Service Canada when you need it. It is not a life-insurance substitute. The life-insurance calculation is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>, and the will that tells the executor who applies is <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney</a>.</p>
+
+    <p>The monthly survivor pension is the piece that collides with timing. Once you are 65 or older and you are entitled to both a survivor pension and your own retirement pension, Service Canada pays a combined amount. The combination is subject to a maximum tied to the retirement pension rules. Part of what looks like "your delayed increase" can be absorbed by the survivor pension you were already going to receive. The two My Service Canada estimates do not add. Ask for the combined figure.</p>
+
+    <div class="warning-box">
+        <strong>Starting your own pension can replace the survivor pension rather than sit beside it:</strong>
+        <p>A survivor who delays their own CPP because the retirement article's breakeven looks attractive may be delaying a raise they will not fully receive. The right comparison is combined-if-you-start versus survivor-only-if-you-wait, after tax and after GIS. Children's survivor benefits are a separate entitlement and are not the same combination. If a child is still eligible, do not assume your start date cancels their benefit. Confirm it on the survivor file.</p>
+    </div>
+
+    <p>CPP disability is a third collision. It is a severe-and-prolonged test, not an own-occupation test, and it is not the Disability Tax Credit. At 65 it converts to a retirement pension. You do not collect both. Private disability coverage often offsets CPP disability. That coordination is the <a href="/blog/disability-insurance-canada-guide/">disability insurance guide</a>. None of those programs is a reason to guess a retirement start date from a blog table.</p>
+
+    <h2>GIS, the Allowance, and a household that is not rich</h2>
+
+    <p>GIS is paid to OAS pensioners with low income. The Allowance can be paid from 60 to 64 to the spouse of an OAS pensioner, and the Allowance for the Survivor to a lower-income widow or widower in that age band. All three are income-tested. CPP is income for them. OAS itself is generally not income for GIS. A larger CPP, produced by waiting until 70, arrives as income in the years you might have wanted the supplement.</p>
+
+    <p>That is the fork the single-life breakeven hides. If you will not be anywhere near GIS — a solid workplace pension, a large RRIF, other taxable income — delaying CPP is mostly longevity insurance plus a tax question, and the <a href="/blog/oas-gis-clawback-canada/">recovery-tax article</a> is the one that matters. If GIS is plausible, the "guaranteed return" of waiting can be a larger pension that the supplement claws back. Low income is exactly when the folk rule "always wait until 70" fails.</p>
+
+    <div class="example-box">
+        <strong>Illustration of the fork, not a payment quote</strong>
+        <p>Household A will not be near GIS. Their risk is a long life and a cluster of taxable income — a workplace pension, RRIF minimums, and a delayed CPP — in the same year OAS is on. They delay CPP, fund 65 to 70 from the TFSA and from registered withdrawals taken before OAS starts, and they read the recovery-tax rules before the first OAS year. Household B expects GIS. Every extra dollar of CPP is income on that test, and the supplement falls hard. A larger pension at 70 can buy very little net cash. Their question is not the breakeven age. It is whether the higher CPP mostly replaces GIS. Neither household should use a dollar figure from this page. Household A uses the OAS recovery threshold published for that year. Household B uses the GIS table for their actual marital status.</p>
+    </div>
+
+    <h2>Household tax: sharing is not splitting</h2>
+
+    <p>Couples can assign CPP retirement pensions earned during the years they lived together. That is CPP pension sharing, done through Service Canada. It changes who is paid. It is not the pension-income-splitting election on the T1.</p>
+
+    <p>CPP is not eligible pension income for that tax election. A RRIF withdrawal at 65 can be split on the return. A CPP cheque cannot. People who "split CPP with my spouse in the tax software" are either sharing through Service Canada or they are splitting something else and calling it CPP. The couples mechanics are the <a href="/blog/income-splitting-strategies-couples/">income-splitting guide</a>. Get the agency right. Sharing can lower the higher earner's net income and raise the lower earner's. That can help OAS recovery, which is an individual test, and do very little for GIS, which is a household test. Run both.</p>
+
+    <p>A survivor who remarries should ask Service Canada what happens to the survivor pension. The rule has changed across decades of legislation, and a remarriage assumption from an old pamphlet is how benefits get dropped or wrongly kept. Ask on the current file.</p>
+
+    <h2>Admin that actually moves the month</h2>
+
+    <ol>
+        <li><strong>CPP does not start because you turned 65.</strong> You apply. OAS is often automatic when CRA already knows you. CPP is not that system. Pick a start month on purpose.</li>
+        <li><strong>Retroactive payment is capped.</strong> A late application can reach back a limited number of months, and that reach does not extend to months before 65. Waiting past 70 does not raise the pension further, and months beyond the retroactive window can be gone. Confirm the current window on Service Canada before you treat a forgotten year as fixable.</li>
+        <li><strong>Apply a few months before the month you want.</strong> Processing is not instant. A start date you need in a specific month, because GIS or a survivor combination turns on it, is worth a calendar reminder.</li>
+        <li><strong>Read the Statement of Contributions first.</strong> Dropouts for child-rearing and disability are not always applied because you hoped they would be. The retirement article covers how to check the record. Fix the record before you lock a start date.</li>
+        <li><strong>If a spouse is 60 to 64, look at the Allowance before you turn on CPP.</strong> The new CPP income can shrink a benefit the household already has.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The adjustment for early or late CPP is in the retirement guide.</strong> This article is what the resulting cheque does to OAS, GIS, survivor benefits, wages, and the other spouse.</li>
+        <li><strong>Survivor plus retirement is a combined payment with a cap,</strong> not two estimates added together.</li>
+        <li><strong>From 65 to 70, contributions continue unless you file CPT30.</strong> After you have started CPP, further contributions build a post-retirement benefit.</li>
+        <li><strong>GIS can make delaying CPP the wrong trade</strong> for a low-income household. OAS recovery is the relevant tax for a higher-income household.</li>
+        <li><strong>CPP sharing through Service Canada is not pension-income splitting on the T1.</strong> CPP is not eligible pension income for that election.</li>
+        <li><strong>You must apply, and retroactivity is limited.</strong> Past 70 the pension does not keep growing.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/cpp-when-to-take-canada/">When to take CPP</a> — the pension itself, the dropouts, and the age adjustment.</li>
+        <li><a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a> — which dollar hits which test.</li>
+        <li><a href="/blog/oas-gis-clawback-canada/">OAS recovery and GIS</a> — the retirement-file version of the clawbacks.</li>
+        <li><a href="/blog/retirement-withdrawal-strategy/">Retirement withdrawal order</a> — how the accounts fund the years CPP is delayed.</li>
+        <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — the household order of operations.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The start date is a tax event with a pension attached.</strong></p>
+        <p>Brackets, pension-income splitting, and the year you melt an RRSP down are the other half of the same month. The 2026 tax guide is that half.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how a CPP or QPP start date interacts with other Canadian benefits. It is not tax, legal, or financial advice, and it is not a recommendation to start or delay a pension. Adjustment rates, GIS tables, survivor formulas, and administrative windows change. Dollar figures are deliberately absent. Use My Service Canada Account or Retraite Québec for your estimate, and the current GIS and OAS pages for income tests. Have a planner run the household, not a single breakeven.</p>
+        <div class="footer-note">Published: December 23, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "OAS and GIS When Household Income Stacks",
+    slug: "oas-gis-income-stacking-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-24",
+    excerpt: "OAS recovery is an individual net-income test. GIS is a household test with different exclusions. The withdrawal that fixes one can feed the other.",
+    image: "/images/blog/oas-gis-income-stacking-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        One spouse's RRIF withdrawal can claw back that spouse's OAS and, in the same year, shrink the GIS the couple thought belonged to the poorer one. <span class="highlight">The tests do not share a definition of income.</span>
+    </div>
+
+    <p>What OAS is, how the recovery tax is calculated, and why GIS exists are the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS guide</a>. Use it for the mechanics. This article is the household layer: whose income counts, which account feeds which test, and the order of withdrawals once more than one benefit is live. Payment amounts and thresholds are indexed or legislated again every year. This page does not print a "2026 rate." CRA and Service Canada do. If a figure below would have been a dollar, it has been left out on purpose.</p>
+
+    <div class="callout">
+        <strong>Two tests, two shapes:</strong>
+        <p>The OAS recovery tax looks at each pensioner's own net income, before the recovery itself is deducted. A couple can have one spouse in recovery and the other untouched. GIS looks at a household: single, couple both on OAS, or a couple where only one person is on OAS, each with its own table. Moving income between spouses can fix OAS recovery and leave GIS almost unchanged, because the couple's combined income never left. Know which test is the expensive one before you split anything.</p>
+    </div>
+
+    <h2>What each dollar is, once a senior program can see it</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dollar</th>
+                <th>OAS recovery</th>
+                <th>GIS and the Allowance</th>
+                <th>The mistake</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TFSA withdrawal</td>
+                <td>Not income.</td>
+                <td>Not income.</td>
+                <td>Leaving the TFSA invested "for later" while a RRIF withdrawal feeds both tests. The account's job in this decade is the <a href="/blog/tfsa-retirement-strategy/">TFSA retirement strategy</a>.</td>
+            </tr>
+            <tr>
+                <td>RRSP or RRIF withdrawal</td>
+                <td>Fully included.</td>
+                <td>Fully included. No employment-earnings exemption.</td>
+                <td>A large collapse in a year OAS has started, or in the prior year that sets the recovery. The deliberate version, done early, is the <a href="/blog/rrsp-meltdown-strategy/">meltdown</a>.</td>
+            </tr>
+            <tr>
+                <td>CPP or QPP</td>
+                <td>Fully included.</td>
+                <td>Included. It does not get the wage exemption.</td>
+                <td>Delaying to 70 because the pension article said so, when GIS would have paid more than the increase. The interaction is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing and the stack</a>.</td>
+            </tr>
+            <tr>
+                <td>Employment or self-employment earnings</td>
+                <td>Fully included.</td>
+                <td>An exemption applies, then a reduction. The exemption is republished.</td>
+                <td>Quitting a small job to "protect GIS" when the exemption meant the job was cheaper than a RRIF withdrawal of the same size.</td>
+            </tr>
+            <tr>
+                <td>Eligible dividends</td>
+                <td>The grossed-up amount is income. The dividend tax credit reduces tax. It does not reduce the income test.</td>
+                <td>Same gross-up problem.</td>
+                <td>Calling dividends "tax-efficient" on a GIS file. The gross-up is explained in <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>.</td>
+            </tr>
+            <tr>
+                <td>Capital gain</td>
+                <td>The taxable portion enters net income. Use that year's inclusion rate, not a fraction you remember.</td>
+                <td>The same taxable portion.</td>
+                <td>Realizing a gain "because only half is taxed" in a year the other half was never the point. The income test saw the taxable portion in full.</td>
+            </tr>
+            <tr>
+                <td>OAS itself</td>
+                <td>Taxable, and it can contribute to the income that triggers recovery.</td>
+                <td>Excluded from the GIS income test.</td>
+                <td>Forgetting that a deferred, larger OAS is still taxable later, including for recovery.</td>
+            </tr>
+            <tr>
+                <td>GIS, the Allowance</td>
+                <td>Not taxable. Not in the recovery income.</td>
+                <td>You cannot collect GIS on top of a careless income spike. An overpayment is recovered later.</td>
+                <td>Treating GIS as spending money you do not have to tell anyone about. Next year's file will notice.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Splitting helps the individual test</h2>
+
+    <p>Pension income splitting, once the pensioner is 65 and the income is eligible, moves up to half of eligible pension income to the spouse on the T1. A RRIF withdrawal can qualify. CPP does not. CPP moves only if you assign it through Service Canada, which is pension sharing, a different machine. The map of both is the <a href="/blog/income-splitting-strategies-couples/">couples guide</a>.</p>
+
+    <p>Use splitting against OAS recovery: the high earner's net income falls, the low earner's rises, and a recovery that lived entirely on one T1 can shrink. Use it with suspicion against GIS. GIS for a couple is combined. Shifting a RRIF from one spouse to the other does not create a poorer household. It rearranges tax. If the low earner was under a tax bracket and the high earner was in recovery, splitting can still be worth it — for tax and OAS — while GIS does not budge. Say that out loud before you call it a GIS strategy.</p>
+
+    <div class="warning-box">
+        <strong>A spousal RRSP has a clock:</strong>
+        <p>Withdrawals that fall inside the attribution window can be taxed back to the contributor. A withdrawal you meant to place on the poorer spouse's return can reappear on the richer one's, which is the OAS-recovery outcome you were trying to avoid. The window is in the <a href="/blog/income-splitting-strategies-couples/">income-splitting guide</a>. Do not collapse a spousal RRSP on a rumour that "GIS only looks at the annuitant."</p>
+    </div>
+
+    <h2>Sequence the withdrawals around the year OAS actually uses</h2>
+
+    <p>Service Canada sets OAS recovery from a prior-year income figure, then the tax return true-ups. A spike the year before OAS starts can produce a recovery in the first year of the pension, even if that first year is quiet. The practical order, when recovery or GIS is the binding constraint:</p>
+
+    <ol>
+        <li><strong>Melt registered money in years neither OAS nor GIS is on,</strong> if the tax rate you pay now is one you accept. That is the meltdown article, not a second copy of it.</li>
+        <li><strong>Spend TFSA cash, and spend non-registered capital without realizing a gain you do not need,</strong> in any year a test is live. A sale that triggers a gain is income. A withdrawal of cash that was already after-tax is not.</li>
+        <li><strong>Let RRIF minimums happen, and do not add voluntary RRIF or RRSP withdrawals on top</strong> unless you have already priced the GIS reduction and the recovery tax. Minimums are mandatory once the RRIF exists. The planning was to arrive with a smaller RRSP. The order of accounts is the <a href="/blog/retirement-withdrawal-strategy/">withdrawal strategy</a>.</li>
+        <li><strong>Prefer wages over registered withdrawals for a GIS household that can still work,</strong> up to the published earnings exemption. Confirm the exemption for that payment year.</li>
+        <li><strong>Defer OAS only when the years of deferral are not secretly GIS years you needed,</strong> and when recovery would have taken the pension anyway. Deferral raises OAS later. It does not hide other income. The retirement article covers the deferral percentage. Do not stack deferral of CPP and deferral of OAS without a written plan for the cash in between. That plan is <a href="/blog/how-much-money-retire-canada/">how much you need</a> and <a href="/blog/build-retirement-plan-7-steps/">the seven-step plan</a>.</li>
+    </ol>
+
+    <div class="example-box">
+        <strong>Two couples, same RRIF, different binding test</strong>
+        <p>Couple A has one large pension and one small one. GIS is not in reach. They split eligible pension income so the larger net income drops away from OAS recovery, they keep extra spending in the TFSA, and they delay the higher earner's OAS if the enrolment letter arrives while that earner is still working. Couple B has two modest incomes and a paid-off house. Recovery is not their problem. Combined income is near a GIS table. Splitting the small RRIF does almost nothing for the supplement. A TFSA withdrawal does. A CPP delay that fattens both pensions can erase the supplement they were counting on. Couple B reads <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP stacking</a> before they wait until 70. Neither couple uses a threshold printed here. Couple A looks up the recovery threshold for the year. Couple B looks up the GIS table for "both receiving OAS."</p>
+    </div>
+
+    <h2>The Allowance is the couple's early test</h2>
+
+    <p>From 60 to 64, the spouse of an OAS pensioner may receive the Allowance, and a survivor in that age band may receive the Allowance for the Survivor. Both are income-tested on the household, non-taxable, and easy to lose with one CPP start or one RRSP withdrawal. They stop at 65, when OAS and possibly GIS take over. A household that ignores ages 60 to 64 and optimizes only the age-65 pension has skipped the steepest years.</p>
+
+    <p>Provincial and territorial seniors' supplements often use the same tax return, and sometimes the same GIS entitlement, to pay a top-up or a property-tax reduction. They are not a second GIS you calculate by hand. They are a reason to file, and a reason not to assume a TFSA withdrawal is invisible to a provincial asset test. That distinction is the <a href="/blog/provincial-benefits-programs-canada/">provincial benefits map</a>.</p>
+
+    <h2>Admin: the file goes stale on purpose</h2>
+
+    <ul>
+        <li><strong>File a return every year, including a nil return.</strong> GIS and OAS recovery both depend on it. A missed return is how a supplement stops.</li>
+        <li><strong>GIS is an application, then an annual renewal through the return.</strong> OAS may start from a letter. GIS does not reliably appear because you hoped it would. Apply, and read the marital-status question. A couple who applies as single will be reassessed.</li>
+        <li><strong>If an OAS enrolment letter arrives and you meant to defer, the letter has a deadline.</strong> After that you are asking for a correction, not executing a plan.</li>
+        <li><strong>Report the income change that GIS asks about.</strong> A one-time RRSP withdrawal can create an overpayment that is deducted from later cheques. Surprise is not a defence.</li>
+        <li><strong>Partial OAS for years of residence is its own file.</strong> The retirement guide covers the residency test. Stacking does not repair a missing year of residence. If you lived outside Canada, confirm the count before you model a full pension.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Watch the line before the recovery is subtracted:</strong>
+        <p>The recovery tax is computed from net income before that repayment is deducted. A printout that shows income after the clawback has already removed the amount will understate the income that caused it. Use the current T1 guide's line, not a line number memorized from an old article. Line numbers get renumbered.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>OAS recovery is individual. GIS is household.</strong> Splitting pension income is aimed at the first.</li>
+        <li><strong>TFSA withdrawals sit outside both tests.</strong> RRIF withdrawals, CPP, grossed-up dividends, and taxable capital gains do not.</li>
+        <li><strong>Wages have a GIS exemption. CPP and RRIF withdrawals do not.</strong> Confirm the year's exemption rather than quoting an old one.</li>
+        <li><strong>The year before OAS starts can set the first recovery.</strong> Melt registered money on purpose, earlier, or leave it alone.</li>
+        <li><strong>The Allowance covers a spouse aged 60 to 64</strong> and uses the couple's income. A new CPP cheque can shrink it.</li>
+        <li><strong>File every year. Apply for GIS. Read the deferral deadline on the OAS letter.</strong></li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/oas-gis-clawback-canada/">OAS recovery and GIS</a> — the base rules and the deferral.</li>
+        <li><a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing and the stack</a> — when a larger pension crowds out GIS.</li>
+        <li><a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a> — registered withdrawals before the tests turn on.</li>
+        <li><a href="/blog/retirement-income-planning-2026/">Retirement income planning</a> — the cash-flow picture these tests sit inside.</li>
+        <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — kids, disability, and housing on the same household.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Recovery tax is still tax.</strong></p>
+        <p>The threshold moves. The brackets move. Pension splitting only works on income that is actually eligible. The 2026 tax guide is the return-level version of this article.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how Canadian seniors' benefits read household income. It is not tax, legal, or financial advice and not a recommendation to withdraw from any account. OAS recovery thresholds, GIS tables, earnings exemptions, and line numbers change. No current payment amount is stated here. Confirm figures on Canada.ca and in CRA My Account, and have a planner model your marital status before you move income between spouses.</p>
+        <div class="footer-note">Published: December 24, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Canada Child Benefit: The July Reset and Adjusted Family Net Income",
+    slug: "canada-child-benefit-optimization-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-25",
+    excerpt: "CCB follows adjusted family net income from the prior return, then runs from July to June. A bonus, a custody change, or an RRSP deduction moves next year's benefit.",
+    image: "/images/blog/canada-child-benefit-optimization-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The Canada Child Benefit does not react to this month's paycheque. It reacts to <span class="highlight">last year's adjusted family net income</span>, and then it pays that answer from July through the following June.
+    </div>
+
+    <p>Families already have a tax tour in the <a href="/blog/tax-tips-families-2026/">family tax guide</a> and a credit checklist in <a href="/blog/missed-tax-credits-2026/">missed credits</a>. This article is the benefit itself: who must file, what "family income" actually means, how shared custody splits the payment, and which moves — a bonus, a capital gain, an RRSP contribution, childcare — change the next benefit year. Maximums per child, the income threshold, and the reduction percentages are indexed or amended. CRA's CCB page is the schedule. This page does not reprint it, and it does not invent a monthly amount.</p>
+
+    <div class="callout">
+        <strong>The benefit year is July to June, built from the prior return:</strong>
+        <p>Income earned this calendar year shows up on the return you file next spring, and that return sets the CCB that starts the July after that. A December bonus is not a December clawback. It is a quieter cheque starting the July after you file. An RRSP contribution deducted on that same return can offset it, including a contribution made in the first 60 days of the following year if you deduct it on the earlier return. The deadline and the room are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The household order, when seniors' tests and the CCB are both live, is the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a>.</p>
+    </div>
+
+    <h2>Eligibility is a caregiver test, then a tax-return test</h2>
+
+    <p>The child has to be under 18 and living with you. You have to be a resident for tax purposes. You have to be the person primarily responsible for the child's care. CRA does not infer this from a birth announcement forever. The first child is an application — form RC66, Canada Child Benefits Application — even if you already file. After that, the benefit continues only if you and your spouse or common-law partner both file a return every year, including a return with little or no income.</p>
+
+    <p>A newcomer, a parent who has been outside Canada, and a parent whose marital status CRA has wrong will wait. The application asks about residency and about the other parent. Answer it as the household actually is. A late marital-status update is how two homes are both paid, or how a payment stops while CRA sorts out who the spouse is. CRA's instruction is to report the change on the timetable in My Account. "When we do our taxes" is later than that timetable.</p>
+
+    <h2>Adjusted family net income is not gross salary</h2>
+
+    <p>The reduction is applied to adjusted family net income, not to your T4 box. AFNI starts from you and your spouse's or partner's net income, then CRA adjusts. The usual shape is: add the two net incomes, and remove amounts the definition tells you to remove. RDSP income is one of the amounts commonly taken out. The precise list is on the CCB worksheet for that benefit year. Do not rebuild it from memory, and do not use one spouse's income if a partner lived with you.</p>
+
+    <p>Net income is after deductions. That is the entire planning surface.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>What it does to AFNI</th>
+                <th>When the CCB notices</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RRSP or FHSA deduction</td>
+                <td>Lowers net income, if you have room and the contribution is deductible.</td>
+                <td>The benefit year that follows the return you claimed it on. A contribution in January or February can still be deducted on the prior year's return. FHSA rules are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>, not a childcare strategy, but the deduction is real.</td>
+            </tr>
+            <tr>
+                <td>Childcare expenses</td>
+                <td>A deduction, usually required to be claimed by the lower-income spouse, subject to the limits and the exceptions on the form.</td>
+                <td>Lowers household net income either way, so it can raise CCB as well as cut tax. The family guide covers the claim. Keep the receipts. A casual transfer is not a deduction.</td>
+            </tr>
+            <tr>
+                <td>Bonus, vested equity, a large taxable benefit</td>
+                <td>Raises net income in the year it is included, which is not always the year it feels like you received it.</td>
+                <td>One spike can suppress the entire next benefit year. You do not get a monthly redo when the spike is over.</td>
+            </tr>
+            <tr>
+                <td>Eligible dividends</td>
+                <td>The grossed-up amount hits net income. The dividend tax credit does not repair AFNI.</td>
+                <td>A "tax-efficient" portfolio in a taxable account can be an inefficient CCB portfolio. See <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>.</td>
+            </tr>
+            <tr>
+                <td>Capital gain, including a cottage or a rental</td>
+                <td>The taxable portion, at that year's inclusion rate, enters net income.</td>
+                <td>A gain you can time is a gain you should not drop into a year you wanted the maximum benefit. Life events that force the gain are the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>.</td>
+            </tr>
+            <tr>
+                <td>TFSA withdrawal</td>
+                <td>Not included.</td>
+                <td>The clean way to fund a year you do not want to disturb. It does not, by itself, create contribution room anywhere else.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Price the deduction against the benefit year, not against a guessed clawback rate:</strong>
+        <p>An RRSP deduction reduces tax at your marginal rate and also reduces the income the CCB formula reads. The benefit response is a percentage of AFNI above a threshold, and the percentage depends on how many children you have. Both the threshold and the percentage change. CRA's calculator, fed with your actual return, is the number. A rule of thumb in dollars-per-thousand from a blog is already stale. If the deduction would be more valuable in a higher-income year with no children left on the benefit, waiting can be right. If this is the last high year before a parental leave, deducting now can be right. Write the comparison down.</p>
+    </div>
+
+    <h2>Shared custody splits the cheque, and each home uses its own income</h2>
+
+    <p>When a child lives with each parent at least about 40 percent of the time, CRA treats it as shared custody and generally pays each eligible parent half, for the months that status applies. Each half is computed from that parent's own household AFNI, including a new spouse's income. It is not averaged across the two homes. A parent with a high-income new partner can see their half reduced to little, while the other parent's half stays large. That is the formula, not a dispute you win by being the "real" primary parent.</p>
+
+    <p>The 40 percent test is about where the child actually lives, not about what a separation agreement recites if the recital is fiction. CRA asks for a schedule. If the pattern changes, tell them. Collecting a full benefit through a year of shared custody is an overpayment with your name on it. The legal side of the separation — support, the principal residence, the year the relationship status flips — is the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>. Support payments have their own inclusion and deduction rules. They also move net income, which means they move next year's CCB. Do not model support as "outside the benefit."</p>
+
+    <div class="warning-box">
+        <strong>A new spouse is part of AFNI in the month the relationship is common-law, not on the wedding anniversary you prefer:</strong>
+        <p>Living together for the period CRA uses to define common-law is enough. Their income enters the household. A failure to update marital status does not freeze the old, larger benefit. It creates a debt when the returns are matched. Report it.</p>
+    </div>
+
+    <h2>Provincial child benefits ride the same return</h2>
+
+    <p>Several provinces and territories pay a child benefit or a family credit that uses the federal file. Ontario, British Columbia, Alberta, and Quebec each have their own program, their own name, and their own income test. Quebec families receive the federal CCB and Quebec's own family allowance. None of those provincial formulas is reprinted here, because they are amended in provincial budgets and they are not one Canadian number.</p>
+
+    <p>The planning consequence is simple. A deduction that lowers AFNI often moves the provincial amount too, in the same direction, on the same year's information. You do not apply twelve times. You file an accurate federal return, you consent to information sharing where the province asks, and you check the provincial ministry once a year to see whether a top-up requires a separate form. The way to think about that second form, without pretending to list every program, is the <a href="/blog/provincial-benefits-programs-canada/">provincial map</a>.</p>
+
+    <p>Two neighbours of the CCB use the same return and are not the CCB. The GST/HST credit is a quarterly credit tied to family net income. The Canada Workers Benefit is a refundable credit for lower-earning workers, with its own phase-out, and some people receive an advance. A year that is good for one can be the year another phases out. There have also been refundable credits, tied to fuel charges, that were redesigned or ended. Check CRA My Account for what is actually in pay. Do not budget a quarterly deposit you remember from an old return.</p>
+
+    <h2>A bonus year, handled on purpose</h2>
+
+    <div class="example-box">
+        <strong>Illustration of timing, not a benefit calculation</strong>
+        <p>A household knows a bonus will be included this calendar year, on top of salary that already sits above the CCB reduction threshold. They have RRSP room. They contribute enough, by the deadline that still counts for this tax year, to offset the bonus, and they deduct it on this return rather than carrying the deduction forward. Next July's CCB is computed on the lower AFNI. They do not know the dollar change until they run CRA's calculator, because the reduction rate is not something this article will pretend to freeze. If they had no RRSP room, the honest alternatives are: realize no extra capital gain in the same year, decline optional taxable compensation they do not need, or accept a lower benefit year and spend from the TFSA instead of taking more taxable income to "replace" the CCB. Replacing a reduced benefit with a bigger taxable withdrawal is how the next year gets worse.</p>
+    </div>
+
+    <p>Parental leave often does the opposite. Employment Insurance maternity and parental benefits, or Quebec's parental insurance, are usually less than the salary they replace. That lower net income can raise the following benefit year. It can also be a poor year to deduct an RRSP if your marginal rate has collapsed. EI is taxable and it is in net income. The benefit types and the self-employed opt-in are <a href="/blog/employment-insurance-benefits-canada/">employment insurance</a>. Coordinate the leave and the deduction. Do not automate last year's RRSP contribution into a low-income leave year without looking.</p>
+
+    <h2>Admin that keeps the payment</h2>
+
+    <ol>
+        <li><strong>Apply for the first child, then file both returns every year.</strong> Direct deposit, and a current address, so a review letter does not sit in a mailbox you left.</li>
+        <li><strong>Tell CRA about shared custody, a change in who the child lives with, and a change in marital status</strong> on their timetable, not at filing season.</li>
+        <li><strong>If a child is eligible for the disability tax credit, the child disability benefit is a CCB supplement.</strong> It is income-tested and it does not appear because a doctor wrote "disabled" on a letter. The gate is the <a href="/blog/disability-tax-credit-canada-guide/">Disability Tax Credit</a>.</li>
+        <li><strong>RESP contributions do not reduce AFNI.</strong> They are not deductible. The grant on an RESP is real and it is not a CCB strategy. The family guide covers the RESP. Do not contribute there "to get the child benefit back."</li>
+        <li><strong>A review is ordinary.</strong> CRA asks for proof of residency, custody, and relationship. Answer it. Silence is how the benefit stops and prior months are reassessed.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>CCB runs July to June off the prior return's adjusted family net income.</strong> A December bonus hits the next benefit year, not this month.</li>
+        <li><strong>Both spouses must file.</strong> A partner's income is in the household whether or not you wanted it there.</li>
+        <li><strong>RRSP and FHSA deductions, and childcare expenses, lower the income the formula reads.</strong> Dividends and capital gains raise the grossed-up or taxable amount, not the cash you feel.</li>
+        <li><strong>Shared custody generally splits the benefit,</strong> and each home is tested on its own AFNI.</li>
+        <li><strong>Provincial child benefits usually ride the same return</strong> and are still not one national number.</li>
+        <li><strong>The child disability benefit requires the DTC.</strong> An RESP contribution will not move CCB.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/tax-tips-families-2026/">Family tax tips</a> — childcare, credits, and the RESP beside the benefit.</li>
+        <li><a href="/blog/missed-tax-credits-2026/">Missed tax credits</a> — the return items that never showed up.</li>
+        <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a> — parental benefits and the income they leave on the return.</li>
+        <li><a href="/blog/life-events-tax-implications-2026/">Life events</a> — separation, a new partner, and a forced capital gain.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA</a> — which deduction is worth using against AFNI.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The benefit is a function of the return.</strong></p>
+        <p>Deductions, custody, and the year you recognize a gain are tax decisions with a July consequence. The 2026 tax guide is the return.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the Canada Child Benefit and the income it reads. It is not tax, family-law, or financial advice. Benefit maximums, thresholds, reduction rates, and provincial top-ups change and are not stated as current figures here. Shared-custody outcomes depend on facts. Confirm amounts in CRA My Account and on the official CCB page, and get advice before you structure custody or support around a payment.</p>
+        <div class="footer-note">Published: December 25, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Employment Insurance: Regular Benefits, Special Benefits, and Other Income",
+    slug: "employment-insurance-benefits-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-26",
+    excerpt: "EI is not one cheque. Regular benefits, special benefits, severance, work while on claim, and the self-employed opt-in each change what else you can collect.",
+    image: "/images/blog/employment-insurance-benefits-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Employment Insurance pays a fraction of insurable earnings for a defined reason. <span class="highlight">The reason decides the weeks, the clawback, and whether other income even fits in the same month.</span>
+    </div>
+
+    <p>Regular benefits are for people who lost work through no fault of their own and are available for another job. Special benefits are for sickness, maternity, parental care, compassionate care, and family caregiving. They are not interchangeable, they do not all repay at tax time, and a self-employed person cannot wander into regular benefits by paying a premium. Weekly maximums and the yearly maximum insurable earnings are republished by Service Canada. This article does not print them. If you budget from a number you remember, you will be wrong by the next premium year.</p>
+
+    <div class="callout">
+        <strong>Quebec parental benefits are a different program:</strong>
+        <p>Maternity, paternity, parental, and adoption benefits for Quebec workers come from the Quebec Parental Insurance Plan, not from EI. Quebec EI premiums are lower because of that split. Sickness, compassionate care, family caregiver benefits, and regular EI are still Service Canada. A self-employed person in Quebec is already inside QPIP for parental benefits. Opting into federal EI special benefits does not replace QPIP, and it is a premium with a lock. Confirm which agency pays which week before you register for anything.</p>
+    </div>
+
+    <h2>Two products that share a login</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Regular benefits</th>
+                <th>Special benefits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Why they exist</td>
+                <td>Interruption of earnings: layoff, end of contract, shortage of work. A quit without just cause, or a dismissal for misconduct, is a refusal waiting to happen.</td>
+                <td>Sickness, maternity, parental (standard or extended), compassionate care, family caregiver for a child, family caregiver for an adult. Each has its own maximum weeks in the EI Act. Parliament amends the weeks. Read the current list when you apply.</td>
+            </tr>
+            <tr>
+                <td>What you must be doing</td>
+                <td>Capable of work, available, and looking. Refusing suitable work is a problem. Leaving the country casually is a problem.</td>
+                <td>The condition the benefit names. Parental benefits do not require you to job-search. Sickness benefits require you to be unable to work for medical reasons. Mixing the stories on a biweekly report is how payments stop.</td>
+            </tr>
+            <tr>
+                <td>Hours to qualify</td>
+                <td>A regional table tied to the unemployment rate in your economic region. The hours are not a single national number.</td>
+                <td>A fixed hour test that is lower than many regular-benefit regions, and still not zero. Confirm it. Self-employed opt-in uses earnings and a waiting period instead of insurable hours from an employer.</td>
+            </tr>
+            <tr>
+                <td>Tax-time repayment</td>
+                <td>A portion of regular benefits can be repaid on the T1 when net income exceeds a threshold in that year's guide.</td>
+                <td>Generally outside that repayment. They are still taxable. They still sit in net income for the Canada Child Benefit the following July. See <a href="/blog/canada-child-benefit-optimization-canada/">CCB timing</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The benefit rate itself is a percentage of your average insurable earnings, up to the yearly maximum. Extended parental benefits are paid at a lower percentage over more weeks. Standard and extended are chosen on the claim, and the choice is not a casual toggle after payments start. Run the household cash flow, including the tax you will owe because EI rarely withholds enough, before you pick extended because the week-count looks kinder.</p>
+
+    <h2>The waiting week, severance, and work while on claim</h2>
+
+    <p>A claim has a waiting period, one week in the current design, which is unpaid. Some claims waive it because it was already served or because a specific benefit rule says so. Do not assume a waiver. Read the decision letter.</p>
+
+    <p>Money the employer pays because the job ended is often allocated as earnings across weeks. Vacation pay, pay in lieu of notice, severance, and certain pensions can delay the start of regular benefits or reduce them. A "retiring allowance" that you roll into an RRSP, where the rollover is still allowed, is a different tax object from cash severance that EI will allocate. The rollover rules have narrowed over the years. Ask the payroll department what the record of employment will show, and ask an accountant what is eligible to transfer, before you spend the cheque. Allocated earnings are the most common reason a regular claim starts later than the person expected.</p>
+
+    <div class="tip-box">
+        <strong>Working while on claim is allowed and is not free:</strong>
+        <p>Earnings in a week do not always erase the benefit dollar for dollar. The standing rule keeps a fraction of the EI payment as you earn, up to a cap tied to your previous earnings, and then reduces the benefit more sharply. Service Canada's working-while-on-claim page is the formula, and it has been a pilot that later became the rule. A percentage you remember from a forum is how overpayments start. Report the hours and the dollars on the biweekly report in the week they were earned, not the week you were paid, if that is what the report asks. Read the question. Do not round in your favour.</p>
+    </div>
+
+    <p>An employer supplemental unemployment benefit plan, registered properly, can top up maternity, parental, compassionate care, or a layoff without being treated as ordinary earnings. That is an HR document, not a side arrangement you invent. If the top-up is just extra wages, EI will treat it as earnings. Ask for the registration. Do not assume the payroll deposit is invisible.</p>
+
+    <h2>Self-employed opt-in is a lock, not a trial</h2>
+
+    <p>Self-employed workers, and people employed by a corporation they control, are not in regular EI through their dividends or their own company's payroll games. There is a voluntary agreement for special benefits only. The shape of it:</p>
+
+    <ul>
+        <li><strong>You register with Service Canada and you pay premiums on self-employment earnings.</strong> Premiums are a cost. They are not a down payment on a benefit you can claim next month.</li>
+        <li><strong>There is a waiting period, measured in months from registration, before you can claim.</strong> Registering the week you become pregnant or the week you are diagnosed is already late. The current wait is on the opt-in page. Plan a year ahead, not a month.</li>
+        <li><strong>Regular benefits are not part of the agreement.</strong> A lost contract does not become EI because you opted in for parental benefits.</li>
+        <li><strong>If you have never received benefits under the agreement, you can usually end it.</strong> Once you have been paid, participation is effectively locked for as long as you remain self-employed. Read that sentence twice before you file a claim "just to see."</li>
+        <li><strong>Quebec self-employed parents already have QPIP.</strong> Federal opt-in is for the special benefits QPIP does not cover. Stacking both premiums without knowing which cheque you are buying is the over-insuring version of EI. The insurance version of that mistake is <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</li>
+    </ul>
+
+    <p>Incorporated owners who pay themselves only dividends have no insurable earnings from the business. EI is a payroll system. A dividend is not a paycheque. The salary-versus-dividend choice is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a> and the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>. Do not discover the hour shortage in the month you need sickness benefits.</p>
+
+    <h2>What else is already paying the same wage</h2>
+
+    <p>EI is one layer. It coordinates, sometimes badly, with everything else aimed at the same absence from work.</p>
+
+    <ul>
+        <li><strong>Group short-term disability and EI sickness.</strong> Contracts often make EI the first payer, or they estimate EI and deduct it. Who pays the premium decides whether the group benefit is taxable. That fork is the <a href="/blog/disability-insurance-canada-guide/">disability insurance guide</a>. Do not collect both in full and assume HR will not reconcile.</li>
+        <li><strong>CPP or QPP disability.</strong> Severe and prolonged, not a 15-week illness. You do not design a year that is full EI sickness and full CPP disability for the same period. If the illness is permanent, the CPP file matters more than a longer EI claim. The DTC is a different test again. See the <a href="/blog/disability-tax-credit-canada-guide/">Disability Tax Credit</a>.</li>
+        <li><strong>Workers' compensation.</strong> A workplace injury is the board's file. EI is not a substitute you choose because the board feels slow. Report the wage-loss benefits. They affect the EI week.</li>
+        <li><strong>Critical illness insurance.</strong> A lump sum, not wage replacement. It can sit beside EI because it is not income replacement, and it can still be taxable or not depending on who paid the premium. The product is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>. Do not describe it as "EI for cancer."</li>
+        <li><strong>The Canada Child Benefit.</strong> EI is taxable and in net income. A parental year often lowers AFNI and raises the next CCB year. A side contract you take while on parental benefits can push income back up. Price it.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustration, not a weekly rate</strong>
+        <p>A salaried parent takes standard parental benefits, then a small consulting contract in two of the weeks. They report the earnings, accept the working-while-on-claim reduction, and set aside tax because the EI slip plus the invoice will not match the withholding. They do not deduct a large RRSP contribution in the leave year just because they did last year; their marginal rate is down, and the CCB response to a lower income may be worth more than a deduction saved for a higher year. None of those decisions requires a weekly maximum from this page. The claim statement has the week's figure. The T1 has the tax. CRA has the following July.</p>
+    </div>
+
+    <h2>Admin: the record of employment and the report</h2>
+
+    <ol>
+        <li><strong>Apply as soon as the earnings stop.</strong> Waiting for a paper record of employment costs weeks you may not get back. Many ROEs arrive electronically. Start the application.</li>
+        <li><strong>Read the reason code.</strong> Quit, dismissed, shortage of work, and leave of absence are not the same claim. If the code is wrong, fix it with the employer before you argue with Service Canada about a code you both know is false.</li>
+        <li><strong>File the biweekly report.</strong> Miss it and the payment stops. A report that says you did not work, when you did, is an overpayment with interest and a penalty attached. The penalty is worse than the tax.</li>
+        <li><strong>Special benefits need the right evidence.</strong> Medical notes for sickness, the child's birth for parental benefits, the family member's condition for caregiver benefits. A late note delays the file. It does not move the waiting-period rules.</li>
+        <li><strong>If you are denied, the letter states the reconsideration deadline.</strong> It is short. "I will deal with it at tax time" is how the deadline passes.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Regular benefits require availability for work and can be repaid at tax time</strong> above an income threshold in the T1 guide. Special benefits generally are not part of that repayment, and they are still taxable.</li>
+        <li><strong>Severance and vacation pay are often allocated</strong> and delay the start of a regular claim.</li>
+        <li><strong>Working while on claim is a formula, not a prohibition and not a free week.</strong> Use the current Service Canada page.</li>
+        <li><strong>Self-employed opt-in covers special benefits only, after a wait, and locks once you are paid.</strong> It does not cover a lost contract.</li>
+        <li><strong>Quebec parental benefits are QPIP.</strong> Do not buy federal EI to duplicate them.</li>
+        <li><strong>EI sickness, group disability, CPP disability, and workers' compensation</strong> are different tests aimed at overlapping weeks. Tell each file about the others.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the private layer EI does not replace.</li>
+        <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — why a parental year changes next July.</li>
+        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax</a> — insurable earnings, and what a dividend is not.</li>
+        <li><a href="/blog/tax-tips-families-2026/">Family tax tips</a> — the return in a year of parental benefits.</li>
+        <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — where EI sits among the other tests.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>EI lands on a T4E, and then on your return.</strong></p>
+        <p>Withholding is often thin, the repayment of regular benefits is a tax rule, and a low-income year is a planning year. The 2026 tax guide covers the return those slips fall onto.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how Employment Insurance and, in Quebec, parental insurance interact with other income. It is not legal, tax, or employment advice, and it is not a prediction of entitlement. Hour requirements, week maximums, premium rates, and working-while-on-claim formulas change. No weekly payment is stated here. Apply through Service Canada or Retraite Québec's parental plan as applicable, and get advice before you quit, opt in, or report a week you are unsure about.</p>
+        <div class="footer-note">Published: December 26, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  }
+,
+  {
+    title: "Disability Tax Credit: T2201, Transfers, and the RDSP Gate",
+    slug: "disability-tax-credit-canada-guide",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-27",
+    excerpt: "The DTC is a non-refundable credit that also opens the RDSP and the child disability supplement. A diagnosis letter is not the test, and a denial is a file you can still fix.",
+    image: "/images/blog/disability-tax-credit-canada-guide.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The Disability Tax Credit is not a cheque for having a diagnosis. It is <span class="highlight">a CRA decision that your impairment markedly restricts daily living</span>, and that decision is the door to several other programs.
+    </div>
+
+    <p>The credit shows up on credit roundups, including <a href="/blog/missed-tax-credits-2026/">missed credits</a>, as a line people forget. This article is the gate itself: who can certify it, why files are refused, what a non-refundable credit can and cannot refund, and how approval connects to the Registered Disability Savings Plan. It is not a medical guide, and it is not a promise that a condition qualifies. CRA decides. The form is T2201, Disability Tax Credit Certificate.</p>
+
+    <div class="callout">
+        <strong>Four different "disability" tests, four different agencies:</strong>
+        <p>The DTC is a tax test of marked restriction in daily living. CPP disability is a severe-and-prolonged test of being unable to work regularly, covered beside the pension in <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP stacking</a> and beside private insurance in the <a href="/blog/disability-insurance-canada-guide/">disability insurance guide</a>. A provincial income program such as Ontario's ODSP or Alberta's AISH uses its own definition and often an asset test. A group long-term disability policy uses the contract's definition, own-occupation or any-occupation. Approval on one file is evidence you can attach to another. It is not a substitute for the other application.</p>
+    </div>
+
+    <h2>What the form is actually asking</h2>
+
+    <p>A medical practitioner completes T2201. You do not. The practitioner describes the effects of the impairment, not the Latin name of the condition. CRA's test, in plain language, is whether a basic activity of daily living is markedly restricted all or substantially all of the time, even with appropriate therapy, medication, and devices. The activities on the form include walking, dressing, feeding, eliminating, hearing, speaking, vision, and mental functions necessary for everyday life. Two or more significant restrictions can be combined where together they amount to a marked restriction. Life-sustaining therapy is its own category, with an hour test printed on the form you are filing. Use that hour count. A remembered number from an old T2201 is how complete applications get refused for the wrong year of the form.</p>
+
+    <p>The right practitioner depends on the impairment. A physician or nurse practitioner can certify broadly. Vision, hearing, speech, occupational therapy, physiotherapy, and psychology each have practitioners who may certify the category the form assigns them. A specialist letter addressed "to whom it may concern," with no T2201, is not the application. A practitioner who certifies a category they are not allowed to certify is a defect, not a shortcut.</p>
+
+    <div class="tip-box">
+        <strong>Write the effects, not the biography:</strong>
+        <p>CRA staff are matching the form to a legal test. "Patient has multiple sclerosis" does not answer whether dressing takes three times as long, all or substantially all of the time, despite medication. Ask the practitioner to speak to frequency, duration, and what happens with the devices the person actually uses. A good day once a month does not erase a marked restriction. A hard week once a quarter often does not create one. The form's examples are there to be used.</p>
+    </div>
+
+    <h2>A credit, a transfer, and one benefit that actually pays</h2>
+
+    <p>The disability amount is a non-refundable credit. It reduces federal tax owing. Provinces and territories generally have a parallel credit. If you owe no tax, the federal credit does not become a refund by itself. That is the sentence people miss when they expect a deposit the month the approval arrives.</p>
+
+    <ul>
+        <li><strong>Transfer.</strong> Unused credit can transfer to a spouse or common-law partner, or to another supporting relative when the rules for support are met. The transfer is how a household with tax actually uses a credit the disabled person cannot use. It is claimed on the supporter's return. It is not automatic.</li>
+        <li><strong>Prior years.</strong> Once CRA approves the DTC, you can ask to adjust returns for prior years, typically up to ten. The window is CRA's, and it is stated in their DTC instructions. Do not assume every year back to the diagnosis is open. Adjust the years the approval covers, and only where someone had tax or a transferable credit to use.</li>
+        <li><strong>The child disability benefit.</strong> For a child who is approved, this is a supplement to the Canada Child Benefit. It is paid, it is income-tested, and it uses the same family-income machinery as the CCB. That machinery is <a href="/blog/canada-child-benefit-optimization-canada/">CCB timing</a>. The supplement does not replace the credit. A family can have both: a credit on a parent's return, and a supplement inside the CCB, if each rule is met.</li>
+        <li><strong>Other credits stay separate.</strong> The Canada caregiver amount is not the DTC. Medical expenses are not the DTC. A household can claim more than one of them, and claiming one badly does not prove the others. The family context is <a href="/blog/tax-tips-families-2026/">family tax</a>.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Retroactive is not the same word as refundable:</strong>
+        <p>Adjusting ten quiet years where nobody in the household paid tax produces a stack of nil assessments. Adjusting years where a supporting person paid tax, and transferring the credit, produces a refund of tax that was paid. Know which one you are filing before you spend the approval letter.</p>
+    </div>
+
+    <h2>Why files are refused, and what the letter lets you do</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Refusal, in practice</th>
+                <th>What was missing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The diagnosis is clear and the restriction is not</td>
+                <td>The form described the disease and not the activity. Resubmit with frequency and duration, or ask the practitioner to complete the effects section they left thin.</td>
+            </tr>
+            <tr>
+                <td>"All or substantially all of the time" was not met</td>
+                <td>The narrative read as episodic. If the restriction really is nearly continuous, the chart notes have to say so. If it is not, the DTC is the wrong program. A private disability claim or a medical-expense claim may still be the right one.</td>
+            </tr>
+            <tr>
+                <td>Therapy hours did not meet the form's test</td>
+                <td>Time a parent spends watching, or time that is not the therapy the form counts, was included. Rebuild the log against the current T2201 instructions before you add hours that do not count.</td>
+            </tr>
+            <tr>
+                <td>The wrong certifier, or a nurse's note in place of the form</td>
+                <td>Start over on T2201 with a practitioner the category allows. Do not appeal a document that was never an application.</td>
+            </tr>
+            <tr>
+                <td>CRA thinks the condition will not last</td>
+                <td>The form asks about duration. A temporary restriction can still qualify for the period it lasts, if it meets the marked-restriction test for that period. Ask for the years that are true. Do not inflate them.</td>
+            </tr>
+            <tr>
+                <td>Approval with an end date</td>
+                <td>The credit stops unless you reapply. Diaries that end are a common way an RDSP grant also stops. Put the expiry in a calendar the month you are approved.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The decision letter gives you a deadline to object. It is measured in days. Missing it means you are asking for a new look as a favour, or filing a new form, rather than using the objection you were given. A notice of objection is a legal step. If the restriction is real and the form was thin, a better form is often faster than a fight about a weak one. If the form was complete and CRA misread it, object on time and attach the chart. The audit habits in the <a href="/blog/cra-audit-guide-2026/">CRA audit guide</a> are about proof. This file is the same habit.</p>
+
+    <h2>The RDSP opens when the DTC is approved</h2>
+
+    <p>A Registered Disability Savings Plan can be opened for a DTC-eligible beneficiary. Contributions are not deductible. Growth is tax-sheltered inside the plan. That is the account. The money that makes it unusual is public:</p>
+
+    <ul>
+        <li><strong>The Canada Disability Savings Grant matches contributions.</strong> The match is richest on the first dollars and for lower family income, then it steps down. Annual and lifetime caps are published by Employment and Social Development Canada. They are not reprinted here, because a stale cap is worse than no cap. The issuer — a bank or credit union that offers RDSPs — applies the year's table.</li>
+        <li><strong>The Canada Disability Savings Bond does not require a contribution.</strong> It is paid when family income is below the year's threshold. Not contributing, and also not filing the return that proves the income, is how a bond year is missed. File. The income test resembles the family-income tests in the <a href="/blog/canada-child-benefit-optimization-canada/">CCB article</a>, and it is still its own test. Read the RDSP statement.</li>
+        <li><strong>Age cut-offs are calendar-year rules.</strong> Grant and bond entitlements have long ended in the year the beneficiary turns 49. Contributions have been allowed through the year the beneficiary turns 59. Confirm both with the issuer before a December contribution you cannot undo. A birthday is not the deadline. December 31 of that year is the shape of the rule, and the year's ESDC page is the authority.</li>
+        <li><strong>Carry-forward of unused grant and bond entitlements exists and is capped.</strong> Catching up is possible. It is not infinite, and it still needs a DTC that is in force for those years.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustration of the withdrawal blend, not a grant table</strong>
+        <p>A family opens an RDSP the year the DTC is approved, files every return so the bond can be paid, and contributes only what they can leave alone. They do not plan to withdraw in the early years. Each withdrawal is a blend: a non-taxable slice that tracks original contributions, and a taxable slice that tracks grants, bonds, and growth. You do not get to withdraw "just the contributions" and leave the taxable part for later. Grants and bonds received in a recent period, commonly described as ten years, can also be repaid in whole or in part if money comes out too soon or the plan is closed. The issuer calculates the assistance holdback. Ask for that figure before any withdrawal. None of this requires a dollar match rate from a blog. The statement shows what was paid in. ESDC shows the year's match.</p>
+    </div>
+
+    <p>If the DTC is refused later, or expires and is not renewed, new grants and bonds stop. The plan may be allowed to remain for a period under rules that have been amended, and then it can be forced to wind up. Read the issuer's letter. Do not assume the investments can stay sheltered indefinitely without a valid DTC. A shortened life expectancy can put the plan on a different withdrawal track, sometimes called a specified disability savings plan. That is a medical certification plus an issuer process. It is the exception, not the default.</p>
+
+    <p>Provincial disability assistance may exempt RDSP assets, count them, or exempt the asset and still treat a withdrawal as income. There is no national answer. The <a href="/blog/provincial-benefits-programs-canada/">provincial map</a> is the question to ask the caseworker before a withdrawal, not after. Private disability insurance and a critical-illness lump sum are not RDSPs and do not need a DTC. They are <a href="/blog/disability-insurance-canada-guide/">disability insurance</a> and <a href="/blog/critical-illness-insurance-canada/">critical illness</a>. Long-term care costs sit beside both and are not paid by the credit. See <a href="/blog/long-term-care-costs/">long-term care</a> and <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>.</p>
+
+    <h2>A file you can finish without a fight</h2>
+
+    <ol>
+        <li>Confirm which activity is markedly restricted, and for which years. Do not claim a decade the facts do not support.</li>
+        <li>Have the correct practitioner complete the current T2201, aimed at effects.</li>
+        <li>When the approval arrives, note the end date. Adjust the open prior years. Transfer unused credit to a supporter who has tax.</li>
+        <li>If a child is approved, confirm the child disability benefit is actually on the CCB.</li>
+        <li>Open the RDSP at an issuer that handles grants, file the returns the bond needs, and leave the money in long enough that a withdrawal does not repay the grant.</li>
+        <li>If the letter is a refusal, decide whether the form was thin or the test was missed. Repair or object before the deadline on the letter.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>T2201 tests marked restriction in daily living, not the diagnosis.</strong> The right practitioner has to sign the right category.</li>
+        <li><strong>The disability amount is non-refundable.</strong> It refunds tax only if someone in the transfer rules paid tax. The child disability benefit is the part that pays a family.</li>
+        <li><strong>Prior-year adjustments are real and capped.</strong> Use the window CRA states, for years the approval covers.</li>
+        <li><strong>The RDSP, the grant, and the bond all require a living DTC.</strong> Confirm age cut-offs and the repayment rule with the issuer before money moves.</li>
+        <li><strong>CPP disability, provincial assistance, and private insurance are different tests.</strong> Carry the approval letter. Still apply separately.</li>
+        <li><strong>A refusal letter has a deadline.</strong> A better form is often the remedy. An objection is the remedy when the form was already complete.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/missed-tax-credits-2026/">Missed credits</a> — where the disability amount sits on the return.</li>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — income replacement the credit is not.</li>
+        <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — the child disability supplement rides this payment.</li>
+        <li><a href="/blog/long-term-care-costs/">Long-term care costs</a> — the expense the credit does not pay.</li>
+        <li><a href="/blog/estate-planning-wills-poa/">Wills and powers of attorney</a> — who can act if the beneficiary cannot.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The credit is a tax file with a medical attachment.</strong></p>
+        <p>Transfers, prior-year adjustments, and the difference between a credit and a refund are return work. The 2026 tax guide is that work.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the Disability Tax Credit and the RDSP it unlocks. It is not tax, medical, or legal advice, and it is not a statement that any condition qualifies. Form questions, therapy-hour tests, grant tables, and age cut-offs change. No grant dollar amount is stated here. Have the current T2201 completed by a qualified practitioner and confirm RDSP figures with the issuer and ESDC before you contribute or withdraw.</p>
+        <div class="footer-note">Published: December 27, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Provincial Benefits: A Map of Tests, Not a Directory",
+    slug: "provincial-benefits-programs-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-28",
+    excerpt: "Provincial income supports, disability programs, seniors' top-ups, and drug plans do not share one definition of income. Some count assets the federal tests ignore.",
+    image: "/images/blog/provincial-benefits-programs-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        There is no Canadian benefits menu you can download. There is a <span class="highlight">federal return, a provincial statute, and sometimes a municipal office</span>, and each one is allowed to define income differently.
+    </div>
+
+    <p>This article will not list every program in every province. That list would be wrong by the next budget, and a partial list pretends to be complete. The job here is the decision: what kind of program you are looking at, which test it uses, and where the authoritative page lives. Federal programs that people mix into the provincial pile — the Canada Child Benefit, OAS and GIS, EI, the Disability Tax Credit — have their own articles. Start with the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a> if you are not sure which layer is binding.</p>
+
+    <div class="callout">
+        <strong>Name the test before you name the program:</strong>
+        <p>Some benefits arrive because you filed a federal return and the province piggybacks on it. Some require an application and an income test. Some are needs-tested: income and assets, with a caseworker. Some are insurance-like, with a premium or a deductible, aimed at drugs or dental costs. A TFSA withdrawal that is invisible to OAS can be a reportable asset for social assistance. The federal silence is not provincial protection.</p>
+    </div>
+
+    <h2>Four kinds of programs</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kind</th>
+                <th>How you get it</th>
+                <th>What to verify</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Automatic once the federal return is filed</td>
+                <td>Provincial child benefits, some seniors' credits, and some climate or sales-tax credits are calculated from CRA data and deposited, sometimes inside the federal payment.</td>
+                <td>That you and your spouse both filed, that marital status is current, and that any consent to share information was signed. Quebec's family allowance is provincial and still depends on you being known to the province. See <a href="/blog/canada-child-benefit-optimization-canada/">CCB timing</a> for the federal half.</td>
+            </tr>
+            <tr>
+                <td>Application, income-tested</td>
+                <td>A form, a deadline, and a definition of income that may match line-level net income or may not. Property-tax grants and seniors' income supplements often live here.</td>
+                <td>Whose income, which year, and whether a spouse's RRIF counts. Deadlines are often not April 30. Missing them does not carry forward.</td>
+            </tr>
+            <tr>
+                <td>Needs-tested income support</td>
+                <td>Social assistance and provincial disability income. You apply to a ministry. A worker applies a budget: shelter, basic needs, and a list of exemptions. Assets can disqualify you even when income is low.</td>
+                <td>The asset treatment of the home, a car, an RRSP, a TFSA, an RDSP, and a locked-in pension. Exemptions differ by province and are amended. Ask the program, in writing if you can.</td>
+            </tr>
+            <tr>
+                <td>Drug, dental, and device coverage</td>
+                <td>Provincial pharmacare, catastrophic drug plans, and some device programs. Income-tested deductibles are common. Private plans are usually first payer.</td>
+                <td>The deductible method for that province, whether a private plan must be billed first, and what happens at 65 when a workplace plan ends. The retirement cost picture is <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Disability income is not the Disability Tax Credit</h2>
+
+    <p>Provinces run their own disability assistance, and the names are not interchangeable. Ontario's Ontario Disability Support Program, Alberta's Assured Income for the Severely Handicapped, British Columbia's disability assistance, and Quebec's social solidarity program are examples of the category. They are not a directory, they are not equivalent to each other, and none of them is the federal DTC. A person can be approved for the DTC and refused by the province, or the reverse. The medical test, the asset test, and the appeal body are provincial.</p>
+
+    <p>If you are on one of these programs, read the exemption list before you open or withdraw from an RDSP, accept an inheritance, or move a TFSA. Some provinces exempt RDSP assets and then still care about withdrawals. Some exempt a home and a vehicle within a limit and count everything else. A gift from a parent can be income in the month it arrives. The federal treatment of that gift — often nothing, if it is a genuine gift — is irrelevant to the caseworker. The DTC and RDSP mechanics are the <a href="/blog/disability-tax-credit-canada-guide/">Disability Tax Credit guide</a>. Bring the approval letter. Bring the provincial form too.</p>
+
+    <div class="warning-box">
+        <strong>Leaving a needs-tested program for a month of wages can be expensive:</strong>
+        <p>Earnings exemptions exist and are specific. Above them, the benefit falls quickly, and drug or dental coverage can fall with the cheque. Price the health coverage you would lose, not just the income you would gain, before you take a job that barely clears the exemption. Private disability insurance, if you are well enough to qualify for it before you need it, is the layer that does not use this asset test. See <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. It is underwritten. It is not an appeal of a provincial refusal.</p>
+    </div>
+
+    <h2>Seniors' top-ups and the house</h2>
+
+    <p>On top of OAS and GIS, provinces pay supplements, property-tax grants, deferrals, and credits for seniors. Some are automatic if you receive GIS and file a return. Some require a separate application each year. A deferral of property tax is not a grant. It is a loan against the house, often due when you sell or die, and it can sit ahead of what your estate expected to give away. Read the deferral as debt. The housing decision in retirement — stay, sell, or borrow — is <a href="/blog/housing-decisions-retirement/">housing decisions</a>. The federal income tests underneath the top-up are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS stacking</a>.</p>
+
+    <p>A TFSA does not appear on the T1, so a provincial credit that only reads the T1 will not see a withdrawal. A program that asks for a statement of assets will see the account. People lose property-tax grants and income supplements by answering "no other assets" out of habit from the federal file. Answer the form that is in front of you.</p>
+
+    <h2>Drugs, devices, and long-term care</h2>
+
+    <p>Physician and hospital care at home is provincial health insurance. Everything else is a patchwork: a drug plan with an income-tested deductible, a limited device program, a home-care hour allotment, and a long-term care co-payment that uses income and sometimes assets. The co-payment is not a federal benefit and it is not tax-deductible in full just because it is large. Some of it may qualify as a medical expense. The expense rules and the cost planning are <a href="/blog/long-term-care-costs/">long-term care</a> and <a href="/blog/healthcare-costs-retirement/">healthcare in retirement</a>.</p>
+
+    <p>Federal dental coverage has existed as an income-tested plan coordinated with private insurance. Whether you are in pay, and at what income, is a CRA and Health Canada question for the year you need the dentist. Do not assume a provincial drug card is a dental card. Do not assume a private plan from an employer you have left is still the first payer. Ask both.</p>
+
+    <h2>Housing programs are not the new-housing rebate</h2>
+
+    <p>Rent supplements, portable housing benefits, social housing waitlists, and emergency rent banks are municipal or provincial, needs-tested or queue-based, and slow. The federal GST/HST new housing rebate and provincial land-transfer relief are purchase-day tax items for buyers. They do not pay the rent, and they are not available because you have been on a waitlist. Buyers should read <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">programs beyond the FHSA</a> and the <a href="/blog/land-transfer-tax-closing-costs-canada/">land-transfer map</a>. Renters should ask the municipality and the province, and should not spend a federal first-home account on a program that requires you to purchase.</p>
+
+    <h2>Where to look, on purpose</h2>
+
+    <ol>
+        <li><strong>CRA My Account</strong> for anything that rides the federal return: CCB, the GST/HST credit, and provincial amounts administered with them.</li>
+        <li><strong>Service Canada</strong> for CPP, OAS, GIS, and EI. Retraite Québec for QPP and Quebec parental benefits.</li>
+        <li><strong>The provincial ministry page for the program type,</strong> not a blog's summary and not a neighbouring province's form. Territories run their own income support. They are not a footnote to a southern ministry.</li>
+        <li><strong>211</strong> for local and community programs that will never appear on a tax form: rent banks, health equipment, and short-term relief. 211 is a finder. It is not an adjudicator.</li>
+        <li><strong>The refusal letter</strong> for the appeal. Ontario's Social Benefits Tribunal is not British Columbia's tribunal and not a CRA notice of objection. The letter names the body and the number of days. Diary it. A late appeal is a different, harder process.</li>
+    </ol>
+
+    <div class="example-box">
+        <strong>One question that sorts the pile</strong>
+        <p>Write the benefit you think you want. Under it, write four words: automatic, application, needs-tested, or coverage. If you cannot pick, you do not yet know which office to call. Automatic means file the return and check My Account. Application means find this year's form and the income definition. Needs-tested means ask, before you move assets, what is exempt. Coverage means ask what the deductible is and who pays first. That is the whole map. A directory would be longer and worse.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Quebec is a parallel stack, not an exception paragraph:</strong>
+        <p>QPP instead of CPP, parental insurance instead of EI maternity and parental benefits, a provincial family allowance beside the federal CCB, and a distinct drug plan and solidarity tax credit. The federal articles on this site flag the split where it changes the agency. If you live in Quebec, start on Québec.ca for the provincial half and Canada.ca for the federal half. Do not average them.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Classify the program before you hunt for it:</strong> automatic with the return, income-tested application, needs-tested assistance, or health coverage.</li>
+        <li><strong>Asset tests can see a TFSA that OAS cannot.</strong> Ask before you rely on a federal exemption.</li>
+        <li><strong>Provincial disability assistance is not the DTC</strong> and not CPP disability. Each application stands on its own.</li>
+        <li><strong>A property-tax deferral is debt.</strong> A seniors' grant is not.</li>
+        <li><strong>Drug coverage, dental coverage, and long-term care co-payments</strong> are provincial files with their own income rules.</li>
+        <li><strong>The refusal letter names the tribunal and the deadline.</strong> 211 and the ministry page are the finders. A national directory on a blog is not.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — which federal test is binding before you add a province.</li>
+        <li><a href="/blog/disability-tax-credit-canada-guide/">Disability Tax Credit</a> — the federal gate, not the provincial cheque.</li>
+        <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs in retirement</a> — what provincial insurance does not cover.</li>
+        <li><a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS stacking</a> — the federal income test provincial top-ups often copy.</li>
+        <li><a href="/blog/housing-decisions-retirement/">Housing decisions in retirement</a> — the house a deferral is secured against.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The province reads the return you already filed.</strong></p>
+        <p>Marital status, net income, and credits you forgot are provincial problems as soon as they are federal ones. The 2026 tax guide is the return those programs use.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to sort provincial and territorial benefit programs. It is not a complete directory, and it is not legal, tax, or benefits advice. Program names used here are examples of categories. Rules, exemptions, and dollar amounts change and are not stated as current rates. Confirm eligibility with the ministry that administers the program, and get advice before you transfer assets to qualify or to avoid a clawback.</p>
+        <div class="footer-note">Published: December 28, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "First-Home Buyer Programs Beyond the FHSA",
+    slug: "first-home-buyer-grants-beyond-fhsa-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-29",
+    excerpt: "The GST/HST new housing rebate, land-transfer relief, the Home Buyers' Plan, and the home buyers' tax credit are different pipes. One first-time definition does not unlock the rest.",
+    image: "/images/blog/first-home-buyer-grants-beyond-fhsa-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The FHSA is a registered account. Everything else people call a "first-time grant" is <span class="highlight">a rebate, a credit, a repayable withdrawal, or a program that has already closed</span> — and the definitions do not match.
+    </div>
+
+    <p>Contribution room, the deduction, and the qualifying withdrawal are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a>. The order of funding and liquidating once a purchase is real is <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing</a>. This article starts beside those. It is the other pipes: the Home Buyers' Plan, the home buyers' tax credit, the GST/HST new housing rebate, and provincial land-transfer relief. It does not print live grant amounts. Caps and phase-outs move, and a remembered cap is how people waive conditions on a closing they cannot fund.</p>
+
+    <div class="callout">
+        <strong>Sort every program into one of four pipes before you add it to the down payment:</strong>
+        <p>A registered withdrawal (FHSA, Home Buyers' Plan). A non-refundable credit on the tax return (the home buyers' amount). A sales-tax rebate on new housing, often already inside the builder's price. A provincial or municipal land-transfer refund that arrives, if at all, through the lawyer. A closed shared-equity program is not a fifth pipe. If you cannot name the pipe, you do not yet have the money.</p>
+    </div>
+
+    <h2>The pipes</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pipe</th>
+                <th>What it actually is</th>
+                <th>What it is not</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FHSA withdrawal</td>
+                <td>A qualifying withdrawal from a registered account. Tax-free when the conditions are met. The deduction happened on the way in.</td>
+                <td>A grant. Nobody sends you a second cheque for having opened the account. The guide is the authority on the conditions.</td>
+            </tr>
+            <tr>
+                <td>Home Buyers' Plan</td>
+                <td>A withdrawal from an RRSP for a qualifying home, with a repayment schedule run by CRA. Missed repayments are included in income.</td>
+                <td>A gift, and not the same ceiling as whatever a blog quoted in a prior year. Confirm the current maximum and the repayment term, including any deferral that applied only to certain withdrawal years, on CRA's HBP page. The playbook version is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</td>
+            </tr>
+            <tr>
+                <td>Home buyers' amount</td>
+                <td>A non-refundable credit on the return for the year of a qualifying purchase. Spouses can split it. The total cannot exceed the year's maximum.</td>
+                <td>Cash at the lawyer's office. If you owe no tax, a non-refundable credit may do nothing that year. Confirm the year's amount in the T1 guide. Do not spend it twice.</td>
+            </tr>
+            <tr>
+                <td>GST/HST new housing rebate</td>
+                <td>A rebate of part of the GST/HST on a newly built or substantially renovated home, subject to a value ceiling and a phase-out. Provincial rebates, in HST provinces, are separate forms with separate ceilings.</td>
+                <td>A rebate on an ordinary resale. Used residential housing is generally exempt from GST/HST. The land-transfer article already separates those tax events: <a href="/blog/land-transfer-tax-closing-costs-canada/">closing costs</a>.</td>
+            </tr>
+            <tr>
+                <td>Land-transfer refund or exemption</td>
+                <td>A provincial or municipal reduction of transfer tax for a buyer who meets that province's first-time test. Often capped. Often applied by the lawyer on closing.</td>
+                <td>The FHSA definition. A person can qualify for one and fail the other. Brackets and the fact that refunds are capped are already mapped in the <a href="/blog/land-transfer-tax-closing-costs-canada/">land-transfer guide</a>. Recompute on the province's tool.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>The Home Buyers' Plan is a loan from your future self</h2>
+
+    <p>You can use an FHSA and the HBP on the same purchase if you meet each program's rules. That is a stacking win only if you can repay the HBP on the schedule CRA assigns. A missed annual repayment is added to income. That inclusion is not "interest." It is taxable income, and it flows into adjusted family net income. A household with children can dent the next Canada Child Benefit year by missing a repayment they treated as optional. The CCB timing is <a href="/blog/canada-child-benefit-optimization-canada/">here</a>. A household that will be near GIS decades later has the same problem in a different decade: an income inclusion they did not plan. See <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS stacking</a>.</p>
+
+    <p>Do not withdraw RRSP money outside the HBP to "top up" a down payment. That withdrawal is fully taxable, it consumes room you do not get back, and it can suppress income-tested benefits the following year. If the HBP ceiling is not enough, the honest alternatives are the FHSA, the TFSA, a gift, or a smaller purchase. The sequencing article is where that choice is made with the closing date in view.</p>
+
+    <div class="warning-box">
+        <strong>The first-time tests rhyme and then disagree:</strong>
+        <p>The FHSA, the HBP, the home buyers' amount, and a provincial land-transfer refund each ask whether you or your spouse recently owned a home you lived in. The lookback, the treatment of a spouse who owned before you met, and the treatment of a foreign home are not identical. Read each definition against your facts. "We qualify for the FHSA" is not a sentence a land-transfer office has to accept. A spouse's prior ownership can disqualify a credit you assumed was personal.</p>
+    </div>
+
+    <h2>New housing rebates are often already in the price</h2>
+
+    <p>On many builder purchases the agreement says the price is net of the GST/HST new housing rebate, and you assign the rebate to the builder. You have already received it as a lower stated price. Applying again, or adding the rebate to your down-payment spreadsheet as fresh cash, double-counts it. If you must repay the rebate because you rented the unit out or failed the occupancy test, the assignment comes back as a bill. Occupancy as your or a relation's primary place of residence is the heart of the owner rebate. Investors use different rules, and those rules are narrower. Confirm which box you are in before you waive conditions.</p>
+
+    <p>Substantial renovation has a CRA meaning: all or substantially all of the building removed or replaced, not a kitchen and a bathroom. The publication states the fraction. If you are under it, you do not have a new-housing rebate. You have a renovation. Owner-built homes use a different claim path from a purchase where the builder files. The rebate application is a CRA form, not a line on the T1, and the value test uses fair market value as CRA defines it for the rebate. Ceilings and phase-outs are on that form's guide for the year of possession. Use the guide. A threshold from a 2010s article will clear a house that no longer clears.</p>
+
+    <div class="example-box">
+        <strong>Resale condo versus a new build, as categories</strong>
+        <p>A resale condo can use the FHSA, the HBP, and the home buyers' amount if those first-time tests are met, and it can use a provincial land-transfer refund if that province's test is met. It does not get a GST/HST new housing rebate, because ordinary resale residential is not that tax. A new build can get the housing rebate, often already assigned to the builder, plus the same registered withdrawals and the same credit, plus land transfer tax that a rebate may only partly offset. The closing statement is the only place these show up together. The lawyer's trust numbers beat a blog's stack. Neither purchase should include the federal shared-equity incentive. That incentive stopped taking new applications. If you already have one, it is a shared-equity debt payable on sale or at the end of its term, not a forgivable grant. Confirm status on CMHC before you tell someone else it is open.</p>
+    </div>
+
+    <h2>Provincial and local programs that are loans with a friendly name</h2>
+
+    <p>Down-payment assistance, shared-equity loans from a municipality, and rent-to-own arrangements show up in some cities and not others. For each one, write five lines before you accept:</p>
+
+    <ol>
+        <li><strong>Grant, loan, or rebate.</strong> If it is registered on title, assume loan until the document says forgiven.</li>
+        <li><strong>Repayment trigger.</strong> Sale, refinance, moving out, a deadline of years, or income rising above a test.</li>
+        <li><strong>First-time definition,</strong> compared with the FHSA definition you already passed. Highlight the differences.</li>
+        <li><strong>Stacking.</strong> Some programs forbid an HBP, require you to occupy, or cap household income in a way your bonus will break. Get the prohibition in writing.</li>
+        <li><strong>Who pays, and when.</strong> Lawyer's trust account, tax refund next spring, or a monthly supplement. A credit that arrives in April does not cover a deposit in November.</li>
+    </ol>
+
+    <p>Indigenous housing programs, provincial new-home incentives, and municipal development-charge reductions exist and are outside this article's ability to be current. They belong on the government's own page for that program, read in the month you offer. The <a href="/blog/provincial-benefits-programs-canada/">provincial map</a> is the habit: identify the office, then stop using summaries. A life event — a spouse on title, a parent gifting the deposit, a move across a provincial border — changes which test you pass. See <a href="/blog/life-events-tax-implications-2026/">life events</a>.</p>
+
+    <div class="tip-box">
+        <strong>A gift from family is not a program, and it is not always invisible:</strong>
+        <p>Lenders want a gift letter. Some provincial assistance programs count the gift as income or as an asset. Income tax usually does not tax a genuine gift. Those three systems do not coordinate. Tell the lender, tell the program if you are in one, and do not invent a loan document to make a gift look arm's-length. The sequencing guide covers whose money is in the trust account and why that has to be true.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>FHSA, HBP, home buyers' amount, new-housing rebate, and land-transfer relief are five different rules.</strong> Passing one does not pass the others.</li>
+        <li><strong>The HBP is repayable.</strong> A missed repayment is income, and that income can move the CCB or, later, a seniors' benefit.</li>
+        <li><strong>The home buyers' amount is a non-refundable credit,</strong> not cash on closing. Confirm the year's amount in the T1 guide.</li>
+        <li><strong>The GST/HST new housing rebate is for new or substantially renovated homes,</strong> and it is often already in the builder's price because you assigned it.</li>
+        <li><strong>Land-transfer refunds are capped and local.</strong> The closing-cost article is the map. Recompute anyway.</li>
+        <li><strong>The federal shared-equity incentive is not an open application.</strong> Confirm CMHC before you model it. An existing one is debt.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/fhsa-guide-2026/">FHSA guide</a> — the account this article deliberately does not re-explain.</li>
+        <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">Purchase sequencing</a> — which dollar is in the trust account on which day.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA</a> — why the HBP spends the RRSP and the TFSA does not have to.</li>
+        <li><a href="/blog/land-transfer-tax-closing-costs-canada/">Land transfer tax and closing costs</a> — the provincial bill a rebate only partly touches.</li>
+        <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — how a down-payment withdrawal hits other income tests.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Every pipe except a true rebate ends on a tax return.</strong></p>
+        <p>HBP repayments, the home buyers' amount, and an FHSA deduction are return entries with a closing date attached. The 2026 tax guide is the return.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian first-home programs other than the FHSA rules themselves. It is not tax, legal, or mortgage advice, and it is not a list of current grant amounts. Ceilings, phase-outs, repayment terms, and program status change. No live rebate figure is stated here. Confirm the HBP, the home buyers' amount, and the new housing rebate with CRA, land-transfer relief with the province, and any shared-equity program with CMHC, before you waive a condition.</p>
+        <div class="footer-note">Published: December 29, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Government Benefits Stacking: A Household Order of Operations",
+    slug: "government-benefits-stacking-map-canada",
+    category: "Government Benefits",
+    categorySlug: "government-benefits",
+    author: "Andrew Carrothers",
+    date: "2026-12-30",
+    excerpt: "Kids, disability, EI, housing, and seniors' benefits read different income lines. File first, name the binding test, then choose the dollar that does not feed it.",
+    image: "/images/blog/government-benefits-stacking-map-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A household does not have one clawback. It has <span class="highlight">a stack of tests that read different years, different people, and sometimes assets</span>, and the steepest one should get the first decision.
+    </div>
+
+    <p>The pieces are elsewhere on purpose. CPP's collision with GIS and survivor benefits is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing</a>. OAS recovery versus GIS is <a href="/blog/oas-gis-income-stacking-canada/">income stacking</a>, with the base rules in <a href="/blog/oas-gis-clawback-canada/">the retirement guide</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">the July reset</a>. EI is <a href="/blog/employment-insurance-benefits-canada/">regular versus special benefits</a>. The Disability Tax Credit and the RDSP are <a href="/blog/disability-tax-credit-canada-guide/">the T2201 gate</a>. Provinces are <a href="/blog/provincial-benefits-programs-canada/">a map of tests</a>. First-home pipes that are not the FHSA are <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">beyond the FHSA</a>. This article is the order. It is not a second copy of any of them, and it does not print benefit rates.</p>
+
+    <div class="callout">
+        <strong>The order is short:</strong>
+        <p>File both returns. List every program that is actually paying or that you intend to apply for. Write down whose income it reads, which year, and whether it can see assets. The steepest test is the binding one. Choose the dollar that does not feed it. Then, and only then, optimize tax. A deduction that wins a bracket and loses a needs-tested drug card is not a win. The tax side of the same household is the <a href="/blog/tax-tips-families-2026/">family guide</a> and the <a href="/blog/retirement-income-planning-2026/">retirement income plan</a>.</p>
+    </div>
+
+    <h2>Three income definitions, and one asset test</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Definition</th>
+                <th>Who uses it</th>
+                <th>The dollar people get wrong</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Individual net income, before OAS recovery is subtracted</td>
+                <td>OAS recovery tax. Each spouse stands alone.</td>
+                <td>Pension splitting can help. CPP moves only through Service Canada sharing, not through the T1 election. See <a href="/blog/income-splitting-strategies-couples/">income splitting</a>.</td>
+            </tr>
+            <tr>
+                <td>Adjusted family net income</td>
+                <td>Canada Child Benefit, the child disability supplement, the GST/HST credit, and several provincial piggybacks. Often the RDSP grant and bond income test as well.</td>
+                <td>A spouse's income counts. A December bonus waits until the next July. A TFSA withdrawal does not count. An RESP contribution does not help, because it is not deductible.</td>
+            </tr>
+            <tr>
+                <td>GIS income</td>
+                <td>GIS, the Allowance, the Allowance for the Survivor. Combined for couples. OAS is excluded. There is an employment-earnings exemption.</td>
+                <td>CPP and RRIF withdrawals do not get the wage exemption. Delaying CPP can fatten the pension that GIS then reduces.</td>
+            </tr>
+            <tr>
+                <td>Assets, not just income</td>
+                <td>Provincial social assistance and many provincial disability programs. Some seniors' grants that ask for a statement of net worth.</td>
+                <td>The TFSA is visible. An inheritance is visible. A federal "this is not taxable" answer does not bind the caseworker. Ask before you move the asset.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>By decade, the binding test changes</h2>
+
+    <p><strong>Children at home.</strong> The binding test is usually adjusted family net income, because the CCB reduction is a full benefit year, and a provincial child benefit often moves with it. EI parental benefits lower that income and can raise the next CCB year. A bonus or a capital gain does the reverse. Childcare deductions and RRSP or FHSA deductions are the levers. The DTC, if a child qualifies, adds the child disability benefit and opens an RDSP. None of that replaces private insurance if the risk is a parent's income. Disability insurance and critical illness are <a href="/blog/disability-insurance-canada-guide/">income replacement</a> and <a href="/blog/critical-illness-insurance-canada/">a lump sum</a>, not benefits you apply for after the fact with a tax form.</p>
+
+    <p><strong>A purchase.</strong> The binding constraint is cash on the closing date, not a credit that arrives next April. FHSA and HBP put cash in the trust account. The home buyers' amount does not. The new-housing rebate is often already in the price. Land-transfer relief is partial and local. A missed HBP repayment later becomes income on the CCB test. Sequence the purchase in <a href="/blog/fhsa-home-purchase-sequencing-canada/">the sequencing guide</a>, then stop adding programs you cannot name a pipe for.</p>
+
+    <p><strong>Working years, interrupted.</strong> EI regular benefits, EI special benefits, workers' compensation, group disability, and CPP disability can all aim at the same month. Tell each file about the others. Self-employed opt-in is a lock once you have been paid, and it never covers a lost contract. A parental or sickness year is also a tax year: withholding is thin, and the marginal rate may be a bad year to deduct an RRSP. The <a href="/blog/self-employed-tax-guide-2026/">self-employed guide</a> is the payroll half.</p>
+
+    <p><strong>The decade before OAS.</strong> This is the last clean window to withdraw registered money at a rate you choose, before recovery tax and GIS can see it. The <a href="/blog/rrsp-meltdown-strategy/">meltdown</a> and the <a href="/blog/retirement-withdrawal-strategy/">withdrawal order</a> belong here. A household that will be on GIS should not blindly delay CPP to 70. A household that will be in OAS recovery should not blindly take CPP at 60 and also defer nothing. Write which test you are actually in. The pension math is <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a>. The stack around it is the CPP article in this series.</p>
+
+    <p><strong>After 65.</strong> Name the binding test in one sentence. "Recovery tax on the higher earner" leads to pension splitting, TFSA spending, and maybe OAS deferral. "GIS on the couple" leads to TFSA spending, the wage exemption, and suspicion of any larger CPP. "A provincial disability or drug program" leads to the asset question the federal articles never ask. Healthcare and long-term care co-payments sit on top and are not paid by GIS. See <a href="/blog/healthcare-costs-retirement/">healthcare</a> and <a href="/blog/long-term-care-costs/">long-term care</a>. The estate file, including who applies for a CPP survivor benefit, is <a href="/blog/estate-planning-wills-poa/">the will</a>.</p>
+
+    <h2>Double-counts that feel like diligence</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The move</th>
+                <th>What it double-counts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Calling Canadian dividends tax-efficient on a GIS or CCB file</td>
+                <td>The gross-up raises the income test. The credit only helps the tax. The dividend article is <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>.</td>
+            </tr>
+            <tr>
+                <td>One RRSP withdrawal "to renovate"</td>
+                <td>Tax, plus CCB or GIS or OAS recovery, plus a provincial top-up that uses the same income. The programs do not coordinate a mercy exception because the withdrawal felt one-time.</td>
+            </tr>
+            <tr>
+                <td>Pension splitting sold as a GIS strategy</td>
+                <td>It moves income between spouses. Couple GIS looks at the combination. It can still be a good OAS and tax move. It is not a GIS move.</td>
+            </tr>
+            <tr>
+                <td>Delaying CPP because the increase is guaranteed</td>
+                <td>Guaranteed before GIS. After GIS, part of the increase can be a smaller supplement. Run the table for your marital status.</td>
+            </tr>
+            <tr>
+                <td>Adding the GST/HST new housing rebate on top of a price that already assigned it to the builder</td>
+                <td>You are spending the same rebate twice. The beyond-FHSA article is the pipe chart.</td>
+            </tr>
+            <tr>
+                <td>Treating a DTC approval as provincial disability income</td>
+                <td>Different test, often an asset test, separate application. The letter helps. It does not enrol you.</td>
+            </tr>
+            <tr>
+                <td>Assuming the TFSA is protected everywhere</td>
+                <td>Protected from federal income tests. Not automatically protected from a provincial asset test or a lender's gift rules.</td>
+            </tr>
+            <tr>
+                <td>EI plus group disability plus CPP disability for the same weeks</td>
+                <td>The contracts and the statutes offset. Collecting all three in full is an overpayment, not a strategy. Insurance shopping order is <a href="/blog/insurance-shopping-without-over-insuring-canada/">do not insure the same loss three times</a>.</td>
+            </tr>
+            <tr>
+                <td>A capital gain in a year you also wanted maximum CCB and a quiet GIS file</td>
+                <td>The taxable portion hits every income test that reads that return. Timing the gain is the only fix. Inclusion rates change. Use the year's rate.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>A household with more than one decade in it</strong>
+        <p>One spouse is 63 and still working. The other is 66, on OAS, with a small CPP. A teenager is still at home. The binding tests are not theoretical. The worker's wages are the household's CCB problem and, if they are high enough, irrelevant to GIS. The 66-year-old's CPP and any RRIF are the GIS problem, and wages the 63-year-old earns may be in the Allowance income test if that spouse has not yet taken OAS. A TFSA withdrawal funds a repair without touching any of the three. An RRSP withdrawal would touch all of them. They do not need a rate sheet from this page to see the order. They need the current GIS table, the current CCB calculator, and one rule: the repair comes from the TFSA. The deeper version of the senior half is <a href="/blog/oas-gis-income-stacking-canada/">income stacking</a>. The child half is <a href="/blog/canada-child-benefit-optimization-canada/">the July reset</a>.</p>
+    </div>
+
+    <h2>A weekend pass</h2>
+
+    <ol>
+        <li>List what is already being paid: CCB, GST/HST credit, EI, a provincial supplement, OAS, GIS, nothing. My Account and My Service Canada Account are the list. Memory is not.</li>
+        <li>For each, write the test: individual net income, family net income, GIS income, or assets.</li>
+        <li>Circle the steepest one you are actually near. Ignore programs you are nowhere close to. Optimizing a recovery tax you will not reach, while a CCB reduction is live, is hobby planning.</li>
+        <li>Pick the cash source that does not feed the circled test. TFSA and already-taxed capital first when a test is live. Registered withdrawals when no test is live, or when the tax rate is one you are choosing on purpose.</li>
+        <li>Then look at deductions. RRSP and FHSA room against family net income or a high bracket. Not by default in a low-income EI year. Not as a substitute for filing.</li>
+        <li>If a provincial needs-tested program is on the list, stop and ask what assets are exempt before you move a TFSA, an inheritance, or an RDSP withdrawal.</li>
+        <li>Put a date on the pass. A birth, a separation, a layoff, a house purchase, and a 65th birthday are mandatory reruns. So is a quiet January every couple of years.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>File even when you owe nothing:</strong>
+        <p>The most expensive stacking error is a missing return. CCB, GIS, the GST/HST credit, and a string of provincial amounts simply stop, or never start. A nil return is the application you already know how to make. Deadlines are the <a href="/blog/cra-deadlines-2026/">CRA deadline guide</a>. Credits you did not know were on the return are <a href="/blog/missed-tax-credits-2026/">missed credits</a>.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>File, list the programs, name the test, then pick the dollar.</strong> Tax optimization comes after the binding clawback, not before.</li>
+        <li><strong>Individual net income, family net income, GIS income, and provincial asset tests</strong> are four different questions. An answer to one is not an answer to the others.</li>
+        <li><strong>The binding test changes by decade:</strong> CCB, then a closing date, then EI coordination, then a pre-OAS withdrawal window, then GIS or recovery tax.</li>
+        <li><strong>TFSA withdrawals are the clean federal dollar</strong> and a visible provincial asset. Know which system you are in.</li>
+        <li><strong>Do not add cheques that offset.</strong> Survivor CPP, EI and disability, and a housing rebate already in the price are the usual double-counts.</li>
+        <li><strong>The other seven articles in this category are the detail.</strong> This one is only the order.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing and the stack</a></li>
+        <li><a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a></li>
+        <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a></li>
+        <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a></li>
+        <li><a href="/blog/disability-tax-credit-canada-guide/">Disability Tax Credit</a></li>
+        <li><a href="/blog/provincial-benefits-programs-canada/">Provincial benefits map</a></li>
+        <li><a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">First-home programs beyond the FHSA</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Every test on this page eventually reads a return.</strong></p>
+        <p>Brackets, deductions, and credits are how the binding test gets its number. The 2026 tax guide is that half of the stack.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the order in which Canadian household benefits interact. It is not tax, legal, or financial advice, and it is not a complete list of programs or rates. Thresholds, exemptions, and eligibility rules change and are deliberately not quoted as current figures. Confirm amounts with CRA, Service Canada, and your provincial ministry, and get advice before you move income or assets to affect a benefit.</p>
+        <div class="footer-note">Published: December 30, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  }
 ];
