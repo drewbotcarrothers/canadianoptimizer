@@ -3,8 +3,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
-import AuthorBio from '@/components/ui/AuthorBio';
-import EndOfPostNewsletter from '@/components/ui/EndOfPostNewsletter';
 import Button from '@/components/ui/Button';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import ClientBlogContent from './ClientBlogContent';
@@ -95,19 +93,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
         <div className="container mx-auto py-16">
           <ClientBlogContent content={contentWithImage} />
-
-          <div className="max-w-4xl mx-auto">
-            <hr className="my-12 border-gray-100" />
-            
-            <AuthorBio 
-              name="Andrew Carrothers"
-              role="Strategy Lead & Founder"
-              bio="Andrew is a financial strategist dedicated to helping Canadians optimize every dollar. With over 15 years of experience in personal finance and portfolio optimization, he focuses on tactical wealth building."
-              imageUrl="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop"
-            />
-            
-            <EndOfPostNewsletter />
-          </div>
         </div>
       </article>
     );
@@ -171,18 +156,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
-
-
-            <hr className="my-12 border-gray-100" />
-            
-            <AuthorBio 
-              name="Andrew Carrothers"
-              role="Strategy Lead & Founder"
-              bio="Andrew is a financial strategist dedicated to helping Canadians optimize every dollar. With over 15 years of experience in personal finance and portfolio optimization, he focuses on tactical wealth building."
-              imageUrl="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop"
-            />
-            
-            <EndOfPostNewsletter />
           </div>
 
           {/* Sidebar */}
