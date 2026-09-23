@@ -59,7 +59,7 @@ export const posts = [
         </tbody>
     </table>
 
-    <p>If you will not rebalance, buy the one-fund. Hold it in the TFSA, the RRSP, and the FHSA. You will be slightly less precise about US withholding and you will not harvest the dividend tax credit inside a taxable account, because a balanced fund is a blend. For a lot of households that imprecision is cheaper than five overlapping tickers. Asset location starts to earn its complexity when a non-registered account exists, or when you are deliberately holding US-listed funds inside an RRSP.</p>
+    <p>If you will not rebalance, buy the one-fund. Hold it in the TFSA, the RRSP, and the FHSA. You will be slightly less precise about US withholding and you will not harvest the dividend tax credit inside a taxable account, because a balanced fund is a blend. For a lot of households that imprecision is cheaper than five overlapping tickers. The longer comparison is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one ETFs versus a DIY portfolio</a>. Asset location starts to earn its complexity when a non-registered account exists, or when you are deliberately holding US-listed funds inside an RRSP.</p>
 
     <div class="warning-box">
         <strong>Do not stack copies of the same idea:</strong>
@@ -115,7 +115,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>Currency hedging is a preference, not a free lunch:</strong>
-        <p>Hedged equity ETFs exist. The hedge has a cost and it does not reliably raise long-run equity returns. Many long-horizon portfolios leave equity unhedged and keep the bond sleeve in Canadian dollars, because the point of the bonds is stability in the currency you spend. Write the choice down. Do not switch every time the Canadian dollar moves.</p>
+        <p>Hedged equity ETFs exist. The hedge has a cost and it does not reliably raise long-run equity returns. Many long-horizon portfolios leave equity unhedged and keep the bond sleeve in Canadian dollars, because the point of the bonds is stability in the currency you spend. Write the choice down. Do not switch every time the Canadian dollar moves. The mechanics, including US-listed funds and Norbert's gambit, are in the <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency hedging guide</a>.</p>
     </div>
 
     <h2>An illustration, not a model portfolio</h2>
@@ -131,19 +131,19 @@ export const posts = [
 
     <h2>Rebalance without creating a tax event</h2>
 
-    <p>A portfolio drifts. A strong equity year quietly raises your risk. You correct it on a schedule you set in calm weather: once a year, or when a sleeve is off by a band you chose in advance. Five percentage points is a common mechanical band. It is a habit, not a law of finance.</p>
+    <p>A portfolio drifts. A strong equity year quietly raises your risk. You correct it on a schedule you set in calm weather: once a year, or when a sleeve is off by a band you chose in advance. Five percentage points is a common mechanical band. It is a habit, not a law of finance. The full order — contributions first, registered trades next, taxable sales last — is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
 
     <ul>
         <li><strong>New contributions are the first rebalance.</strong> Buy what is light. Most years you should not need to sell.</li>
         <li><strong>Sell inside the TFSA or RRSP before you sell in the taxable account.</strong> Registered rebalancing does not create a capital gain. Taxable rebalancing does.</li>
-        <li><strong>Do not buy the identical ETF in a registered account just after you sell it at a loss in the taxable account.</strong> The superficial-loss rule can deny the loss when you, or an affiliated person, reacquire the same property inside the window — including inside your TFSA. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> covers the 30-day rule. Harvest losses only in the non-registered sleeve, and only with a replacement that is not the same fund.</li>
+        <li><strong>Do not buy the identical ETF in a registered account just after you sell it at a loss in the taxable account.</strong> The superficial-loss rule can deny the loss when you, or an affiliated person, reacquire the same property inside the window — including inside your TFSA. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> covers the 30-day rule, and the year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. Harvest losses only in the non-registered sleeve, and only with a replacement that is not the same fund.</li>
     </ul>
 
     <p>Adjusted cost base matters in the taxable account and nowhere else. Reinvested distributions and return of capital move the number. A T5008 from the broker is an input, not the books. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the system.</p>
 
     <h2>What this article will not pretend to know</h2>
 
-    <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
+    <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. How that fee compounds is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
 
     <p>It will also not confuse location with withdrawal order. A large RRSP is a future tax inclusion even when the ETFs inside it are well chosen. Later, that shows up in brackets and in Old Age Security. The <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, the <a href="/blog/rrsp-meltdown-strategy/">meltdown strategy</a>, and the <a href="/blog/retirement-withdrawal-strategy/">retirement withdrawal order</a> pick up where this article stops. In retirement, the same accounts get a spending job rather than a tax job — that is the <a href="/blog/investing-bucket-strategy/">bucket strategy</a>, and it should not fight the mix you wrote down here.</p>
 
@@ -259,7 +259,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>Norbert's Gambit is a method, not a personality:</strong>
-        <p>You buy an interlisted security on one side, ask the broker to journal it to the other listing, and sell. The cost is the spread and commission on those legs, plus the time you are in the stock. Some brokers make the journal easy. Some do not allow it. Some app-first platforms would rather you accept their conversion rate. If you will not do the steps, price the ordinary conversion honestly and move on. Confirm the current process with the broker. Do not follow a forum post from a different firm.</p>
+        <p>You buy an interlisted security on one side, ask the broker to journal it to the other listing, and sell. The cost is the spread and commission on those legs, plus the time you are in the stock. Some brokers make the journal easy. Some do not allow it. Some app-first platforms would rather you accept their conversion rate. If you will not do the steps, price the ordinary conversion honestly and move on. Confirm the current process with the broker. Do not follow a forum post from a different firm. Where that conversion sits next to hedged funds, US-listed ETFs, and withholding is the <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency and US-listed ETF guide</a>.</p>
     </div>
 
     <h2>Four structures, not a ranking</h2>
@@ -328,7 +328,7 @@ export const posts = [
             <tr>
                 <td>Corporate or joint</td>
                 <td>A different product from a personal account. Do not assume the personal menu applies.</td>
-                <td>The firm's entity application, not the personal one.</td>
+                <td>The firm's entity application, not the personal one. Whether the corporation should hold the portfolio at all is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>.</td>
             </tr>
         </tbody>
     </table>
@@ -423,6 +423,1141 @@ export const posts = [
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to compare Canadian self-directed brokerages. It is not a recommendation to open, transfer, or keep an account at any firm, and it is not investment, tax, or legal advice. Commissions, foreign-exchange pricing, account availability, transfer fees, promotions, and CIPF membership and limits change. Confirm every figure on the firm's current schedule and on CIPF's own site before you act. Examples are structural, not quotes.</p>
         <div class="footer-note">Published: October 12, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "MER Drag in Canada: Why Low-Cost Index Funds Usually Win",
+    slug: "mer-drag-index-funds-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-10-16",
+    excerpt: "How a management-expense ratio and trading costs compound, and how to compare similar Canadian funds without treating a blog figure as a live MER.",
+    image: "/images/blog/mer-drag-index-funds-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A management-expense ratio looks harmless because it is a small percent of this year's balance. The damage is that the fund removes it <span class="highlight">every year after that</span>, from money that would have compounded. The fee is certain. The outperformance you are paying for is not.
+    </div>
+
+    <p>Broad index funds and ETFs usually win for that reason, not because a ticker is magic. A low-cost fund that owns a wide market keeps the part of the return the market actually delivered. A fund that charges more has to beat that market by at least the fee, after its own trading, in the years you happen to own it. This page shows the arithmetic. It does not quote a live MER, name a winner, or promise a return. Product names, where they appear at all, are examples of a structure. Read the current ETF facts sheet before you buy.</p>
+
+    <div class="callout">
+        <strong>The fee is the second decision:</strong>
+        <p>Cost matters after you know what you are trying to own. A cheap equity fund is the wrong product if the money is for a house in two years, and a cheap global fund is the wrong comparison if you meant to own Canadian bonds. The mix, and which account holds it, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF asset-location guide</a>. Fill registered room before you engineer a taxable sleeve — that sequence is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. This article starts once the mandate is written down.</p>
+    </div>
+
+    <h2>What the MER actually takes</h2>
+
+    <p>You do not get a bill. The manager deducts the costs inside the fund, and the unit price you see is already net. That is why the drag hides. On a statement, two funds can look identical until you read the facts sheet.</p>
+
+    <p>In Canada the headline number on the ETF facts is the management-expense ratio. Beside it, many facts sheets also show a trading expense ratio: the fund's own cost of buying and selling its holdings. Neither number includes what <em>you</em> pay the broker to trade, or a foreign-exchange spread if the listing is in US dollars. Compare MER with MER. Then compare the costs the MER leaves out. Do not treat a figure you remember from a forum as the current one.</p>
+
+    <div class="example-box">
+        <strong>Illustration only: $100,000, 25 years, 6% a year before fees</strong>
+        <p>Markets do not pay a smooth 6 percent. The point of the table is the gap, not a forecast. A fund with a 0.20 percent MER keeps 5.80 percent. A fund with a 1.50 percent MER keeps 4.50 percent. After 25 years the first ends near $409,400. The second ends near $300,500. The difference is about $109,000 on the same contributions and the same market. The fee gap was 1.30 percentage points. The ending gap is larger than 1.30 percent of the account, because the fee is taken every year on a balance that would otherwise have grown.</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>MER in the illustration</th>
+                <th>What a 6% gross return leaves</th>
+                <th>$100,000 after 25 years</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0.20%</td>
+                <td>5.80%</td>
+                <td>About $409,400</td>
+            </tr>
+            <tr>
+                <td>1.50%</td>
+                <td>4.50%</td>
+                <td>About $300,500</td>
+            </tr>
+            <tr>
+                <td>2.00%</td>
+                <td>4.00%</td>
+                <td>About $266,600</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>In year one the same 1.30 point gap on $100,000 is $1,300. People compare $1,300 with a weekend and shrug. The 25-year figure is that shrug, repeated on a larger base. If your balance is half, halve the illustration. If it is double, double it. The shape does not change. None of these MERs is a quote of a fund you can buy today.</p>
+
+    <h2>Trading costs the MER does not include</h2>
+
+    <p>A fund can win the facts-sheet comparison and still be the expensive way to own the market, once it meets your brokerage account.</p>
+
+    <ul>
+        <li><strong>Commissions and spreads.</strong> Many Canadian brokers now charge little or nothing to trade an ETF. Some lines still cost money: options, assisted orders, odd markets. The spread between the bid and the ask is a cost on the day you trade even when the commission is zero.</li>
+        <li><strong>Foreign exchange.</strong> A US-listed fund with a tiny published expense ratio can lose the advantage on the conversion from Canadian dollars. Price the order you will actually place. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that structure, not a live rate card.</li>
+        <li><strong>Cash drag.</strong> Money that sits uninvested because you are shopping for a slightly cheaper ticker is a cost. So is a year of contributions left in cash because the platform was confusing.</li>
+        <li><strong>Taxes, if you sell to switch.</strong> In a non-registered account, realizing a gain to save a tenth of a percent can cost more than many years of the fee. Registered accounts do not have that problem. The order of operations is in <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>A tenth of a point is not the same problem as a full point:</strong>
+        <p>Two Canadian-listed funds that track the same index and differ by a few hundredths of a percent are a rounding exercise. A fund at 1.5 or 2 percent against a broad ETF at a fraction of a percent is the illustration above. Read both facts sheets in the year you buy, including the trading expense ratio, and do not import a third number from this page.</p>
+    </div>
+
+    <h2>Why the broad, cheap fund usually wins</h2>
+
+    <p>An active manager, or a clever rules-based fund with a high fee, has to clear the MER before you are ahead of simply owning the market. The manager also trades, and those trades are not free inside the fund. You, meanwhile, have to choose the manager who will clear that hurdle in the future, not the one whose past chart is on the advertisement.</p>
+
+    <p>Scorecards that compare active funds with their benchmarks, after fees, are published by index firms and they get updated. Read the current one if you want the score. This article will not freeze a percentage of "funds that failed" into a fact. The direction is the useful part, and it has been stable: the fee is a hurdle, broad funds that charge little clear it by not having it, and last year's winner is a poor shopping list.</p>
+
+    <p>Indexing is not a claim that markets are perfectly priced. It is a claim that you are unlikely to identify, in advance and after costs, the slice of managers who will more than earn their fee. A low-cost Canadian equity fund, a low-cost global fund, and a low-cost bond fund are tools for the mix you already wrote down. They are not a personality.</p>
+
+    <h2>How to compare two similar funds</h2>
+
+    <p>Compare funds that are trying to do the same job. A fee table that mixes a Canadian bond ETF, a covered-call fund, and a global equity ETF is not a comparison. It is three different bets.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Check</th>
+                <th>What you are looking for</th>
+                <th>Where it lives</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The benchmark</td>
+                <td>The index name, not the marketing label. "Canadian equity" can mean the broad market or a narrow slice of dividend payers.</td>
+                <td>ETF facts, "what does the fund invest in"</td>
+            </tr>
+            <tr>
+                <td>Currency hedge</td>
+                <td>A hedged fund and an unhedged fund of the same market are different products. The hedge has a cost that changes with interest rates.</td>
+                <td>Fund name and facts. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency guide</a> is the decision.</td>
+            </tr>
+            <tr>
+                <td>Holdings</td>
+                <td>Does the fund own the stocks, or does it own one other ETF? A wrapper can hide a second layer of fees and US withholding the RRSP cannot unwind.</td>
+                <td>Top holdings and the prospectus. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is why that matters.</td>
+            </tr>
+            <tr>
+                <td>MER and trading expense ratio</td>
+                <td>The current numbers. Not a blog, not a memory, not the series from a different share class.</td>
+                <td>This year's ETF facts</td>
+            </tr>
+            <tr>
+                <td>Tracking difference</td>
+                <td>How far the fund actually landed from its index over several years. One year is noise.</td>
+                <td>The issuer's annual report or the facts-sheet history</td>
+            </tr>
+            <tr>
+                <td>How you will buy it</td>
+                <td>Commission, spread, and foreign exchange on the order you repeat.</td>
+                <td>The broker's preview, the day you trade</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>Do not stack three cheap copies of one index:</strong>
+        <p>A Canadian-listed global ETF, plus a US equity ETF, plus an all-equity asset-allocation ETF, is often the same companies three times. You have not diversified. You have lost the Canada weight and the fee you thought you were minimizing. One structure. If you use building blocks, do not also hold the all-in-one. The <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY guide</a> is that choice.</p>
+    </div>
+
+    <h2>When a higher MER is still the right product</h2>
+
+    <p>A higher fee is not automatically a mistake. It is a mistake when you cannot say what it bought.</p>
+
+    <ul>
+        <li><strong>An all-in-one that rebalances,</strong> if you will not rebalance the blocks yourself. The MER gap versus a do-it-yourself mix is often small. A small gap you will hold beats a tiny MER you abandon. Confirm both facts sheets. Do not assume the gap from a memory of 2024.</li>
+        <li><strong>Advice you actually use.</strong> Some mutual-fund series bundle advice into a higher MER. If a person is doing real planning, know which dollars are the advice and which dollars are the fund. Paying an advice-sized fee for a closet index you never discuss is the expensive version of "simple."</li>
+        <li><strong>A different bet.</strong> Covered-call funds, narrow sectors, and leveraged products are not slightly more expensive index funds. They are a different payoff. Judge the bet on its own. Do not let a yield figure stand in for an MER comparison.</li>
+    </ul>
+
+    <h2>A check you can finish in an hour</h2>
+
+    <ol>
+        <li>Write the benchmark: which market, hedged or not, stocks or bonds.</li>
+        <li>Open the ETF facts for the fund you hold and for one alternative that tracks that same benchmark.</li>
+        <li>Read the MER, the trading expense ratio, and whether the fund owns stocks or another fund.</li>
+        <li>Preview the purchase at your broker, including foreign exchange if the listing is in US dollars.</li>
+        <li>Switch only if the mandate matches and the gap is real. In a taxable account, estimate the capital gain before you sell. A registered account is the clean place to fix a fee.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The MER compounds on a growing balance.</strong> A one-year dollar figure understates it. The illustration above is the shape, not a forecast.</li>
+        <li><strong>Verify the current MER and trading expense ratio on the facts sheet.</strong> Nothing on this page is a live quote.</li>
+        <li><strong>Trading costs and foreign exchange sit outside the MER.</strong> A cheap US-listed fund can still be the expensive way in.</li>
+        <li><strong>Compare funds with the same benchmark, the same hedge, and the same holding structure.</strong></li>
+        <li><strong>A small gap you will actually hold</strong> beats a perfect fee on a portfolio you will not maintain. That is the all-in-one question.</li>
+        <li><strong>Do not realize a taxable gain</strong> to save a trivial MER. Do the switch inside a TFSA or RRSP when you can.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The fee is the part you can know in advance.</strong></p>
+        <p>Which account holds the fund still decides the tax. The 2026 tax guide is the other half of the same plan.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how investment fees compound and how to compare similar funds. It is not investment, tax, or legal advice, and it is not a recommendation to buy or sell any fund. The dollar figures are illustrations of a constant return and a constant fee. They are not projections. MERs, trading expense ratios, and tracking difference change. Confirm the current ETF facts and your broker's costs before you act.</p>
+        <div class="footer-note">Published: October 16, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Dividend vs Growth in Taxable Accounts in Canada",
+    slug: "dividend-vs-growth-taxable-accounts-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-10-23",
+    excerpt: "Eligible dividends, foreign dividends, deferred capital gains, and return-of-capital traps in a Canadian non-registered account.",
+    image: "/images/blog/dividend-vs-growth-taxable-accounts-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A dividend feels like income, and the Canadian dividend tax credit feels like a reward for owning the right stocks. In a non-registered account the credit is real. It is also a <span class="highlight">tax preference, not a free lunch</span>. The growth you have not sold yet is often the quieter advantage.
+    </div>
+
+    <p>This comparison is about the taxable account, and only after registered room is being used. Inside a TFSA the dividend tax credit does not exist, and growth is simply tax-free. Inside an RRSP the withdrawal is ordinary income later, credit or no credit. If those accounts still have useful room, the location decision comes first. The map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>, the January funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>, and the account itself is <a href="/blog/tfsa-strategies-2026/">TFSA strategies</a>. What follows is the non-registered sleeve those articles leave for last.</p>
+
+    <div class="callout">
+        <strong>Total return is the dividend plus the price:</strong>
+        <p>A stock that pays 5 percent and goes nowhere has not beaten a stock that pays 1.5 percent and compounds, just because the T5 is larger. Tax changes the comparison. It does not replace it. The longer tax mechanics — gross-up, inclusion rate, and an Ontario illustration — are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. Use that as a picture. Use your province's current tax-on-income table as the bill.</p>
+    </div>
+
+    <h2>Three characters of return, not one "yield"</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>What the cash is</th>
+                <th>How Canada taxes it in a non-registered account</th>
+                <th>What people forget</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eligible Canadian dividends</td>
+                <td>Grossed up (the inclusion is larger than the cash), then a federal and provincial dividend tax credit.</td>
+                <td>The gross-up increases net income for clawbacks and income-tested benefits. The credit reduces tax. It does not shrink that income figure.</td>
+            </tr>
+            <tr>
+                <td>Foreign dividends, including US</td>
+                <td>Fully included. No Canadian dividend tax credit. Foreign withholding may qualify for a foreign tax credit.</td>
+                <td>This is closer to interest than to an eligible Canadian dividend. A Canadian-listed wrapper does not turn a US dividend into an eligible one.</td>
+            </tr>
+            <tr>
+                <td>Capital gains</td>
+                <td>Half included, and only when realized. The other half is not taxed. The inclusion rate is statutory; confirm it has not changed.</td>
+                <td>Deferral is the advantage. You choose the year, unless a fund distributes a gain for you.</td>
+            </tr>
+            <tr>
+                <td>Return of capital</td>
+                <td>Not income when received. It reduces your adjusted cost base.</td>
+                <td>When the cost base hits zero, further return of capital is a capital gain. The cash was partly your own money coming back.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Eligible dividends are a preference with a gross-up</h2>
+
+    <p>Eligible dividends come from Canadian corporations that have paid tax at the general corporate rate, and from many Canadian equity ETFs that pass that character through. The personal system grosses the dividend up and then grants a credit, so you are not fully taxed twice on the same profit. Non-eligible dividends, typical of small-business income paid out of a private company, use a smaller gross-up and a smaller credit. They are a different animal. If you own a private company, that extraction choice is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>, not this article.</p>
+
+    <p>At some lower incomes, the marginal rate on eligible dividends is very low. At higher incomes it rises, and in some provinces it is no longer obviously kinder than a realized capital gain. The rates move with the province and the bracket. Do not memorize a percentage from a blog, including the simplified Ontario figures in the tax guide on this site. Open the current table for your province in the year you are planning.</p>
+
+    <div class="warning-box">
+        <strong>The gross-up is income, even when the credit is generous:</strong>
+        <p>Old Age Security clawback, the Guaranteed Income Supplement, and the Canada child benefit look at net income. An eligible dividend increases that income by more than the cash you received. The credit shows up later, in tax payable. A retiree who buys a high-yield Canadian portfolio "because dividends are taxed lightly" can push OAS clawback with the gross-up and only partly win it back through the credit. The clawback rules are the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS guide</a>. Run the income line, not just the tax line.</p>
+    </div>
+
+    <h2>Foreign dividends are not eligible dividends</h2>
+
+    <p>A dividend from a US company, or from a US or international equity ETF, is ordinary foreign income on a Canadian return. There is no gross-up and no dividend tax credit. In a non-registered account, US withholding — often 15 percent when the paperwork is in place, and more if it is not — is generally eligible for a foreign tax credit, limited to the Canadian tax you would otherwise pay on that income. The credit is not a promise that the withholding was free. In a low-tax year the Canadian tax on that income can be smaller than the foreign tax, and the excess is not a refund.</p>
+
+    <p>None of that is the Canada–US treaty benefit people mean when they talk about RRSPs. That benefit is for an RRSP or RRIF that holds the US security directly. It does not appear because you bought a Canadian-listed ETF that owns US stocks, and it does not appear in a taxable account. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency and US-listed ETF guide</a> keeps that distinction in one place. The practical result for this article: a US dividend sleeve in a taxable account is a weak way to "live off dividends." You paid full inclusion, you may have paid withholding, and you took currency risk for a cash flow you could have created by selling a slice of a broader fund.</p>
+
+    <h2>Growth defers the bill</h2>
+
+    <p>A capital gain is taxed when you sell, or when a fund distributes a gain you did not choose. Until then, the unrealized gain compounds without a personal tax instalment. Only half of a realized gain is included under the current inclusion rate. The other half is yours. That combination — deferral, plus a partial inclusion — is why a low-yield broad equity ETF is usually the kinder holding in a taxable account for someone who does not need the cash this year.</p>
+
+    <p>When you do need cash, you sell units. You realize a gain on the slice you sold, not on the whole position. Canada averages the adjusted cost base of identical property, so you cannot pick a "high-cost lot" of the same ETF the way a US tax-lot system allows. You can choose which fund to sell. The record is yours: a T5008 is an input, and reinvested distributions move the cost base. The system is the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a>.</p>
+
+    <div class="tip-box">
+        <strong>Funds can realize gains for you:</strong>
+        <p>A low turnover index ETF usually distributes little in capital gains. An active fund, a rebalancing event inside a fund, or a big index change can push a taxable distribution into your non-registered account in December even though you did not sell. Issuers publish estimates. Read them before you assume a "growth" fund was tax-deferred this year.</p>
+    </div>
+
+    <h2>Return of capital is a trap when you treat it as yield</h2>
+
+    <p>Return of capital is not a gift from the tax system. The fund is handing you back part of your own investment. Your adjusted cost base falls by the same amount. You pay no tax on that dollar today. You have a larger capital gain later, or an immediate capital gain if the cost base is already zero. Covered-call ETFs, some real-estate funds, and products sold as "income" often mix eligible dividends, foreign income, capital gains, and return of capital in one cash payment. The brokerage app shows a yield. The T3 shows the character. Those are different documents.</p>
+
+    <div class="example-box">
+        <strong>Illustration: a $10,000 fund that distributes $600</strong>
+        <p>Suppose the T3 later says $250 was an eligible dividend, $50 was a capital gain, and $300 was return of capital. You did not earn a 6 percent taxable yield. You received a dividend, a small allocated gain, and $300 of your own cost base. Your ACB falls by $300. If you spend the entire $600 as if it were income, you have spent principal. None of these splits is a prediction of any ticker. It is the habit: wait for the slip, or the issuer's breakdown, before you call the cash a dividend.</p>
+    </div>
+
+    <h2>When the dividend sleeve earns its place</h2>
+
+    <p>Canadian equity in a non-registered account is a location choice, not a yield strategy. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> puts that sleeve there because eligible dividends and capital losses only work outside registered accounts, and because you already decided how much Canada you want. The honest reasons to let that sleeve pay a dividend:</p>
+
+    <ul>
+        <li>You need cash you would otherwise raise by selling, and your current marginal rate on eligible dividends is genuinely lower than the rate on a realized gain. Check the table. Do not assume it.</li>
+        <li>The Canada weight is a size you chose on purpose — currency, the credit, and diversification — and you are not adding bank and pipeline stocks on top of a Canadian index fund until the concentration is a surprise.</li>
+        <li>You will track the cost base, including return of capital, so the eventual sale is not a fiction.</li>
+    </ul>
+
+    <p>The honest reasons to prefer growth, meaning a broad fund that distributes less, in the same account:</p>
+
+    <ul>
+        <li>Your income is already high, or you are near an OAS clawback threshold, and the gross-up is expensive even after the credit.</li>
+        <li>You do not need the cash. An unrealized gain is a tax you have not volunteered for.</li>
+        <li>You were about to buy a high-fee income product because the yield looked like a paycheque. Price the MER first. The <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a> is that arithmetic. A covered-call yield that is partly your own capital, minus a higher fee, is not a raise.</li>
+    </ul>
+
+    <h2>A decision you can write in one sentence</h2>
+
+    <ol>
+        <li>If TFSA or RRSP room is still the better home for the next dollar, stop. This article does not apply yet.</li>
+        <li>In the taxable account, keep Canadian equity at the weight you already chose. Do not let a dividend screen raise that weight.</li>
+        <li>Treat foreign dividends as fully taxable income with a possible foreign tax credit, not as a second dividend tax credit.</li>
+        <li>Prefer deferral when you do not need cash. Sell a slice when you do. Track average cost base.</li>
+        <li>Read the T3 breakdown before you spend a distribution. Return of capital reduces cost base.</li>
+        <li>If a retiree's OAS is in range, run the gross-up through net income before you call the credit a win.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The dividend tax credit is a preference</strong> relative to interest and to foreign dividends. It is not automatically better than an unrealized capital gain.</li>
+        <li><strong>The gross-up inflates income-tested benefits.</strong> The credit does not undo that line.</li>
+        <li><strong>Foreign dividends in a taxable account are fully included.</strong> The RRSP treaty exemption is a different account and a different holding.</li>
+        <li><strong>Return of capital is deferred tax and returned principal,</strong> not a higher yield.</li>
+        <li><strong>Place the Canadian equity sleeve on purpose,</strong> after registered room, at a size you can say out loud. Do not chase the T5.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The credit is a line on the return. The bracket is the rest of it.</strong></p>
+        <p>Account location and the dividend tax credit only help if the rest of the return is filed cleanly. The 2026 tax guide is that wider map.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how Canada taxes investment income in a non-registered account. It is not investment, tax, or legal advice and not a recommendation to buy or sell any security. Gross-up percentages, credit rates, the capital-gains inclusion rate, and clawback thresholds change. Examples that split a distribution are illustrations of tax character, not a prediction of any fund. Confirm the current rules and your slips, and consult a tax professional for your file.</p>
+        <div class="footer-note">Published: October 23, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Corporate vs Personal Investing in Canada",
+    slug: "corporate-vs-personal-investing-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-10-30",
+    excerpt: "When a holding company is a sensible place for a portfolio, and when TFSA, RRSP, and non-registered accounts are the simpler home.",
+    image: "/images/blog/corporate-vs-personal-investing-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The small-business rate is not the rate on a portfolio. Money left inside a corporation from an active business can be a powerful deferral. Money invested <span class="highlight">as</span> the business is a different tax system: higher upfront tax, a refund only when you pay yourself, and a grind that can touch the operating company. Confirm the file with an accountant before you move a dollar.
+    </div>
+
+    <p>This is a decision framework, not a tax opinion. Incorporation, association, refundable tax, and the capital dividend election are specific to the corporation you actually have. The operating-company version of "should I incorporate at all" is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. This article starts one step later: given that a company exists, or that someone is telling you to create one for investments, where should the portfolio live?</p>
+
+    <div class="callout">
+        <strong>Personal shelters still come first:</strong>
+        <p>A TFSA is actually tax-free. A corporate portfolio is tax-deferred at best, and only on dollars that have not yet been taxed in your hands. Unused TFSA room, and an RRSP deduction that is worth taking, usually beat a holding company. The funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>, the account design is <a href="/blog/tfsa-strategies-2026/">TFSA strategies</a>, and the deduction is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a> is the personal sequence. Corporate investing is overflow.</p>
+    </div>
+
+    <h2>Two piles of money that look the same and are not</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The dollar</th>
+                <th>What is true about it</th>
+                <th>A portfolio inside the company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Retained active-business earnings</td>
+                <td>Taxed at the small-business rate if the deduction applies. Personal tax is deferred until you take salary or dividends.</td>
+                <td>You are investing money you deliberately did not pay out. The deferral was the win. The investment account is what you did with it.</td>
+            </tr>
+            <tr>
+                <td>Personal savings you already paid tax on</td>
+                <td>Contributing them to a company is not a deduction. You have moved after-tax capital onto a corporate balance sheet.</td>
+                <td>You added a T2, a refundable-tax account, and accounting fees. You did not create a new shelter. TFSA, RRSP, and a personal non-registered account are usually simpler.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>People blur those rows because both end with "the corporation owns ETFs." The tax on the way in is the whole difference. If you incorporate a holding company solely to invest savings that were already taxed personally, you have incorporated the paperwork. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> notes that a corporate account is a different application from a personal one. Being allowed to open it is not a reason to.</p>
+
+    <h2>Passive income is not the small-business rate</h2>
+
+    <p>Interest, foreign investment income, and the taxable half of capital gains are aggregate investment income. Inside a Canadian-controlled private corporation they are taxed at a high combined federal and provincial rate. In many provinces that upfront rate lands near half the income. It is not the small-business rate, and it is not the general rate that applies to active income above the small-business limit. A large piece of the corporate tax is refundable. It is tracked in a refundable dividend tax on hand account — RDTOH, in the jargon. The corporation gets that refund when it pays you taxable dividends. The federal refund is a statutory fraction of the dividend. Your accountant's software has the current fraction. The idea does not change: the government taxes investment income inside the company up front, then refunds a slice when the money comes out to a person.</p>
+
+    <div class="tip-box">
+        <strong>Integration is the design, not a loophole you discovered:</strong>
+        <p>The system is trying to make "earn it in the company, pay it out" roughly similar to "earn it personally," with friction. The friction is the cost of deferral. Deferral is valuable when the money can stay invested for a long time. It is a poor trade when you need the cash next year and you pay high corporate tax plus personal tax on the way out, hoping the refund was filed correctly.</p>
+    </div>
+
+    <h3>Canadian dividends and foreign dividends are different pipes</h3>
+
+    <p>Portfolio dividends a corporation receives from Canadian public companies are generally subject to a refundable Part IV tax, not the full investment-income computation, and not the personal dividend tax credit. The credit is a personal concept. The company pays the refundable tax and recovers it when it pays you. You then pay personal tax on the dividend you received. Eligible versus non-eligible still matters at that second step, and it depends on what the company actually pays out, not on the nickname of the ETF.</p>
+
+    <p>Foreign dividends are usually investment income, fully included. Foreign withholding is dealt with at the corporate level. It does not become a tidy personal foreign tax credit. The Canada–US treaty relief Canadians mean when they talk about RRSPs applies when the RRSP holds the US security directly. A corporation is not an RRSP. US-listed dividend funds are a poor default holding for a holdco. If that sleeve belongs anywhere, it belongs in the personal RRSP, which is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</p>
+
+    <h3>Capital gains and the capital dividend</h3>
+
+    <p>Half of a capital gain is taxable to the corporation and goes through the investment-income system above. The non-taxable half can be added to the capital dividend account and paid to you as a tax-free capital dividend. That payment requires an election. It is accountant work, not a button in the brokerage. Capital losses in the corporation stay in the corporation. They do not flow onto your personal return to offset a gain in your own non-registered account.</p>
+
+    <h2>The passive-income grind is a second rule</h2>
+
+    <p>The grind does not replace the high rate on the investment income. It claws back the small-business deduction on <em>active</em> income of the associated group. Federally, once adjusted aggregate investment income is above $50,000, the $500,000 small-business limit is reduced by $5 for every additional dollar, and the limit is gone at $150,000 of that investment income. Several provinces mirror the idea on their own small-business rate. Thresholds and provincial rules change. Confirm this year's figures.</p>
+
+    <div class="warning-box">
+        <strong>A holdco beside an opco is the case that surprises people:</strong>
+        <p>If you control both an operating company and a company that holds the portfolio, assume they may be associated until your accountant says they are not. Related-person ownership is enough to associate companies that feel "separate" in conversation. A large portfolio in the holdco can raise the tax rate on the opco's business income through the grind, even though the businesses do different things. A pure holding company with no associated active business does not lose a small-business deduction it was not using. It still pays the high upfront rate on the investment income.</p>
+    </div>
+
+    <h2>Personal accounts, for comparison</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Account</th>
+                <th>What it does that a holdco does not</th>
+                <th>What it cannot do</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TFSA</td>
+                <td>Growth and income are tax-free. Withdrawals do not inflate income-tested benefits.</td>
+                <td>Room is finite. US withholding on dividends is not recoverable. No dividend tax credit, because there is no tax to credit.</td>
+            </tr>
+            <tr>
+                <td>RRSP or RRIF</td>
+                <td>A deduction today if the contribution is deductible. US-listed securities held directly can use the treaty on dividends.</td>
+                <td>Withdrawals are fully taxable. The dividend tax credit is wasted inside. A large balance is a future inclusion.</td>
+            </tr>
+            <tr>
+                <td>Personal non-registered</td>
+                <td>Eligible dividends get the personal credit. Capital gains are half included. Losses can offset your personal capital gains. You track one cost base.</td>
+                <td>No deferral of tax on income you already earned personally. Interest is fully included.</td>
+            </tr>
+            <tr>
+                <td>Corporate portfolio</td>
+                <td>Defers personal tax on active earnings you retained. Can pay a tax-free capital dividend for the untaxed half of gains, with an election.</td>
+                <td>High upfront tax on investment income, refunded only when you dividend it out. Passive-income grind if an opco is associated. Losses trapped in the company. Annual compliance.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The personal non-registered column is also where <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a> and the <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a> apply. Those preferences do not survive unchanged inside a corporation, because the personal credit and the personal loss rules are personal.</p>
+
+    <h2>When the company is the right place, and when it is clutter</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Your situation</th>
+                <th>Lean toward</th>
+                <th>Ask the accountant</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>You retain active earnings you will not need for many years, TFSA room is caught up, and the RRSP decision is deliberate</td>
+                <td>Invest the retained earnings in the company. Keep the portfolio simple.</td>
+                <td>Association, the grind, and whether salary is still worth taking to build RRSP room.</td>
+            </tr>
+            <tr>
+                <td>You are about to incorporate "for investing" with personal savings</td>
+                <td>Do not. Use personal accounts.</td>
+                <td>Only if there is a non-tax reason you already understand: liability, a real business, a buyer.</td>
+            </tr>
+            <tr>
+                <td>The portfolio is small relative to the accounting bill</td>
+                <td>Personal accounts. A T2 and a refundable-tax reconciliation have a price.</td>
+                <td>What the compliance actually costs this year, not a rule of thumb from a thread.</td>
+            </tr>
+            <tr>
+                <td>You need the money within a year or two</td>
+                <td>Pay it out on purpose and invest personally, or leave it in cash-like holdings. A clever ETF does not remove the extraction tax.</td>
+                <td>Salary versus dividend on the way out. That blend is in the incorporation guide.</td>
+            </tr>
+            <tr>
+                <td>An operating company is already near the grind thresholds</td>
+                <td>Be slow. More passive income can raise tax on active income.</td>
+                <td>The associated group's adjusted aggregate investment income, not the holdco in isolation.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>A framework, not a file review</strong>
+        <p>A consultant retains $80,000 a year of after-corporate-tax active earnings and lives on the rest. The TFSA is funded. She does not need the $80,000 personally for a decade. Leaving it invested in the company defers personal tax she would have paid by dividending it out now. That deferral can be worth the higher rate on the investment income, because the alternative was paying personal tax immediately and investing what remained. Her spouse's new holding company, funded by moving a $40,000 personal GIC into a corporation, does not have that story. The $40,000 was already taxed. The company adds a return and a fee. These are patterns. They are not your numbers, and they are not advice to retain or to pay out.</p>
+    </div>
+
+    <h2>What to take to the accountant</h2>
+
+    <ol>
+        <li>Who owns every company, and who is related to the owners. Association is the question.</li>
+        <li>How much adjusted aggregate investment income the group already has. The federal grind starts being relevant above $50,000 and eliminates the small-business limit at $150,000. Confirm both thresholds are current, and whether the province follows.</li>
+        <li>Whether the dollars you want to invest were retained from active business or contributed from personal cash.</li>
+        <li>Unused TFSA room and whether an RRSP deduction helps this year.</li>
+        <li>Whether anyone is a US citizen or US tax resident. Cross-border rules can make Canadian corporate investing a different, worse problem. That is a specialist, not a blog.</li>
+    </ol>
+
+    <p>If the answers support a corporate portfolio, keep the investments boring. A broad, low-cost mix you will not trade is kinder than a pile of income funds whose distributions are Part IV one year and investment income the next. The fee arithmetic is the <a href="/blog/mer-drag-index-funds-canada/">MER guide</a>. The account at the broker still has to be the entity account, not your personal one.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The small-business rate is for active business income.</strong> Investment income inside a CCPC is taxed up front at a much higher rate, with a refundable portion when you pay taxable dividends.</li>
+        <li><strong>Personal TFSA and a deliberate RRSP come before a holdco.</strong> A company is not a second TFSA.</li>
+        <li><strong>Contributing already-taxed personal savings to a corporation does not create a shelter.</strong> It creates a tax return.</li>
+        <li><strong>The passive-income grind can raise tax on an associated operating company.</strong> Federally, the relevant band has been $50,000 to $150,000 of investment income. Confirm it.</li>
+        <li><strong>The US treaty benefit for dividends is an RRSP feature</strong> for US securities held directly. It is not a corporate feature.</li>
+        <li><strong>This is a framework.</strong> Association, RDTOH, and capital dividends are confirm-with-your-accountant items, not a do-it-yourself filing project.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The corporation defers a bill. It does not erase the return.</strong></p>
+        <p>Personal brackets, the dividend tax credit, and the registered accounts are still the plan around the company. The 2026 tax guide is that side of the desk.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the choice between investing personally and investing inside a Canadian private corporation. It is not tax, legal, or investment advice, and it is not a recommendation to incorporate, to retain earnings, or to buy any security. Corporate rates, the small-business limit, refundable-tax fractions, Part IV tax, association rules, and the passive-income reduction change. Dollar examples are patterns, not projections. Have a CPA review your companies before you act.</p>
+        <div class="footer-note">Published: October 30, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "A Tax-Loss Harvesting Calendar for Canadians",
+    slug: "tax-loss-harvesting-calendar-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-11-06",
+    excerpt: "A year-end calendar for capital losses in a non-registered account: the 30-day superficial-loss rule, substitutes, and spouse accounts.",
+    image: "/images/blog/tax-loss-harvesting-calendar-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A capital loss in Canada is useful in one place: a non-registered account, against capital gains. It does not reduce your salary. The mistake that deletes it is small and dated. You, or your spouse, or your TFSA, buy the <span class="highlight">identical property</span> inside a window that runs 30 days before the sale and 30 days after.
+    </div>
+
+    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade.</p>
+
+    <div class="callout">
+        <strong>Registered accounts cannot harvest:</strong>
+        <p>A loss inside a TFSA or RRSP is not a capital loss on your return. Moving a loser into a TFSA in kind is worse: the transfer is a disposition, the superficial-loss rule denies the loss, and the cost-base bump lands inside an account that will never use it. The in-kind warning is also in the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. Harvest only in the non-registered sleeve, and only with a replacement you do not already hold in an affiliated account.</p>
+    </div>
+
+    <h2>What a loss can and cannot offset</h2>
+
+    <p>Net capital losses offset capital gains. They carry back up to three tax years and forward indefinitely, still against capital gains. They do not offset employment income, interest, or dividends. The US rule that allows a few thousand dollars of capital loss against ordinary income is not a Canadian rule. Half of a net capital gain is included in income under the current inclusion rate, and an allowable capital loss follows that same inclusion. Practically: an $8,000 capital loss cancels an $8,000 capital gain. It does not cancel $8,000 of salary. Confirm the inclusion rate in the year you file. It has been changed in draft legislation before, and then not proceeded with.</p>
+
+    <p>You apply a carryback on Form T1A, with the return for the loss year or as soon as that year's result is known. A refund of tax you already paid on an earlier year's gain is the valuable version. A loss with no gains this year and none in the prior three years is still a carryforward. It is not an emergency. Do not trade a portfolio out of shape for a deduction you cannot use.</p>
+
+    <h2>The 30-day rule, stated the way the Act states it</h2>
+
+    <p>A superficial loss happens when you dispose of property at a loss and both of these are true. During the period that begins 30 days before the disposition and ends 30 days after, you or a person affiliated with you acquire the same or identical property. And at the end of that period, you or that person still owns it, or still has a right to buy it. The denied loss is added to the adjusted cost base of the replacement. If the replacement sits in a TFSA, RRSP, RRIF, FHSA, or RESP, that bump is generally useless, because those accounts do not produce a personal capital gain you can reduce. The loss is gone.</p>
+
+    <div class="warning-box">
+        <strong>Affiliated includes your spouse, and it includes the registered plans:</strong>
+        <p>Your spouse or common-law partner is an affiliated person. A purchase in their non-registered account counts. A purchase in your TFSA or RRSP, or in theirs, counts. A corporation you control counts. "We traded in different accounts" is not a workaround. Adult children are a different legal question; do not invent a family relay. If you want to use anyone other than yourself, ask before you trade. Partial repurchases deny only the matching portion of the loss, not automatically the entire sale — and that math is also accountant territory when the numbers are large.</p>
+    </div>
+
+    <h2>Identical is not "a different ticker on the same index"</h2>
+
+    <p>Identical properties are properties a buyer would not prefer one over the other, in any material way. The same ETF is identical. A second manufacturer's fund that tracks the same index is often identical too. A new ticker does not save you. The CRA has not published a safe list of ETF pairs. Treat "same index, different brand" as the same property unless you have advice on that loss.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>What you buy next</th>
+                <th>Superficial-loss risk</th>
+                <th>What it does to the portfolio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The same ticker, anywhere affiliated, including a DRIP</td>
+                <td>High. This is the rule.</td>
+                <td>None. You are back where you were, without the loss.</td>
+            </tr>
+            <tr>
+                <td>Another fund tracking the same index</td>
+                <td>High. Do not assume the brand is a difference.</td>
+                <td>Almost none. That is why it is dangerous.</td>
+            </tr>
+            <tr>
+                <td>A hedged fund in place of an unhedged fund, or the reverse, on a similar market</td>
+                <td>Lower, because currency exposure is a real difference. Still a judgment.</td>
+                <td>You have changed the currency bet. Write that down. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency guide</a> is the bet.</td>
+            </tr>
+            <tr>
+                <td>A broad fund with a genuinely different benchmark that still fits the same sleeve</td>
+                <td>The usual practical path. If the dollar loss is large, confirm it.</td>
+                <td>Keeps you invested. Not a perfect clone, which is the point.</td>
+            </tr>
+            <tr>
+                <td>A different country or a bond fund, just to "lock the loss"</td>
+                <td>The loss may stand.</td>
+                <td>You changed the allocation. That is a new decision, not a harvest. The mix lives in the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Buy the replacement the same day if you want to stay invested:</strong>
+        <p>You do not have to sit in cash for 31 days. You have to avoid the identical property for the window. Sell the loser in the non-registered account and buy the similar fund the same day. Turn off the DRIP on the old ticker. A drip is an acquisition. So is a contribution that rebuys it in a TFSA in January because that is where new money usually goes.</p>
+    </div>
+
+    <h2>The calendar</h2>
+
+    <p>Settlement matters. For listed securities the disposition date is generally the settlement date, not the moment you click sell. Canadian equities now typically settle on the next business day, but exchange holidays move it. A trade in the last days of December can settle in January and land in the wrong year. Ask the broker which year the settlement falls in. Do not reuse a cutoff date you remember from a different December.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>When</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>Fund the TFSA and RRSP on purpose before you go looking for losses. A harvest in non-registered while registered room sits empty is the wrong order. Record the adjusted cost base of the taxable account. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the system. If a December sale's 30-day window is still open, do not rebuy that ticker with the January contribution.</td>
+            </tr>
+            <tr>
+                <td>When T3 and T5 slips arrive</td>
+                <td>See what last year's fund distributions did to your gains, including reinvested capital gains. That is the baseline for whether a carryback is even relevant.</td>
+            </tr>
+            <tr>
+                <td>With the tax return</td>
+                <td>If you have a net capital loss and you had taxable capital gains in any of the three prior years, file Form T1A. Confirm the current form instructions for timing.</td>
+            </tr>
+            <tr>
+                <td>Summer</td>
+                <td>Do not harvest a small loss you intend to undo in a week. Do not harvest because a headline said "tax-loss season" in August.</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>List non-registered positions only. Note unrealized losses and gains you have already realized. Leave room for December fund distributions you do not control yet.</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>Read the issuers' year-end distribution estimates. A reinvested capital gain is taxable in a non-registered account and it changes your cost base. Choose substitutes that keep the allocation. Tell your spouse which tickers are off limits, in every account, until a date you both write down.</td>
+            </tr>
+            <tr>
+                <td>Early December</td>
+                <td>Place the trade early enough that settlement falls in this calendar year. Buy the replacement the same day. Turn DRIPs off on the old ticker. Do not contribute the shares in kind to a TFSA.</td>
+            </tr>
+            <tr>
+                <td>The following 30 days</td>
+                <td>Nobody affiliated buys the identical property. If you want the original ticker back, the first eligible day is after that window, and only if nobody still holds a substitute that keeps the rule alive. Diary it.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Spouse accounts, without the folklore</h2>
+
+    <p>You and your spouse can each realize losses on property you each own. You cannot sell in one name and have the other buy the same ETF inside the window. You cannot park the replacement in a spousal TFSA and call it a different person. Coordinate in one conversation: who is selling, what the replacement is, and the date the original ticker is allowed again. If both of you hold the same fund in non-registered accounts and only one of you sells, the other's later DRIP can still deny the loss.</p>
+
+    <p>Attribution is a separate rule. Harvesting does not authorize shifting the investment into the lower-income spouse's name. A gift of capital that the other spouse invests personally is usually attributed back. The line between a TFSA gift, which is fine, and a taxable gift, which is not, is the <a href="/blog/income-splitting-strategies-couples/">couples guide</a>.</p>
+
+    <div class="example-box">
+        <strong>Illustration: a December swap that keeps the mix</strong>
+        <p>You realized $12,000 of capital gains earlier in the year in a non-registered account. A broad Canadian equity ETF in that same account is $9,000 below its average cost base. You sell it on a day your broker confirms will settle in December, and the same day you buy a different Canadian equity ETF that does not track the identical index. You turn the old DRIP off. Your spouse does not buy the old ticker in a TFSA with the January contribution. The $9,000 loss reduces the year's gain. The household still holds Canadian equity. If the two funds were in fact identical, the loss is denied. That is why a large dollar loss gets a human review before the click. The figures are a teaching example, not a target.</p>
+    </div>
+
+    <h2>How this meets rebalancing</h2>
+
+    <p>A loss harvest and a rebalance can be the same trade when the overweight sleeve is also the one with the loss, and the sale is in the taxable account. They fight each other when you sell at a loss and then buy the same fund inside the TFSA because the TFSA was the account you were "topping up." Do the taxable sale, buy the <em>replacement</em> if the sleeve should stay full, and send new TFSA money somewhere that is not the old ticker. The order of accounts is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Losses offset capital gains only,</strong> this year, back three years on Form T1A, or forward. Not salary.</li>
+        <li><strong>The window is 30 days before and 30 days after,</strong> and someone affiliated must still hold the identical property at the end of it.</li>
+        <li><strong>Spouse accounts and TFSA, RRSP, FHSA, and RESP purchases count.</strong></li>
+        <li><strong>Same index, different brand, is not a safe substitute.</strong> Change something material, and confirm large losses.</li>
+        <li><strong>Settlement date is the year of the loss.</strong> Do not trust a remembered December cutoff.</li>
+        <li><strong>Keep the allocation.</strong> A harvest that dumps you into a different country is a new bet.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The loss is a line on a return you still have to file.</strong></p>
+        <p>Carrybacks, inclusion, and the rest of the slips sit in the wider tax plan. The 2026 tax guide is that plan.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about capital losses and the superficial-loss rule for Canadian individuals. It is not tax, legal, or investment advice. The rule is statutory, the identical-property test is factual, and settlement calendars change. Examples are illustrations, not instructions for a particular holding. Confirm with a tax professional before you realize a large loss or involve a spouse or a corporation.</p>
+        <div class="footer-note">Published: November 6, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Currency Hedging and US-Listed ETFs for Canadians",
+    slug: "currency-hedging-us-listed-etfs-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-11-13",
+    excerpt: "CAD-hedged versus unhedged equity, Norbert's gambit without a fake FX quote, and why a Canadian ticker does not create a treaty exemption.",
+    image: "/images/blog/currency-hedging-us-listed-etfs-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Hedging the Canadian dollar feels like prudence, and a US-listed ETF with a tiny expense ratio feels like the grown-up version of the same fund. One is a currency preference with a cost that changes. The other is a withholding and foreign-exchange decision. <span class="highlight">A Canadian ticker does not collect the treaty benefit</span> an RRSP can get from holding the US security itself.
+    </div>
+
+    <p>Write the currency choice down when you write the mix, then leave it. The place each sleeve belongs is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. The broker's conversion cost, and the journal people call Norbert's gambit, are in the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a>. This article is the link between those two. It does not quote a live spread, a live MER, or a promotional FX rate. Those exist on the issuer's facts sheet and the broker's order preview, today, or they do not exist.</p>
+
+    <div class="callout">
+        <strong>Bonds and equities do not get the same currency answer:</strong>
+        <p>The bond sleeve is there for stability in the dollars you spend. Keep it in Canadian dollars. Equity is a long asset. Many households leave foreign equity unhedged, accept that the Canadian dollar will move, and refuse to switch every time a headline says the dollar is "too high" or "too low." That is a preference. It is allowed to be boring.</p>
+    </div>
+
+    <h2>Hedged versus unhedged</h2>
+
+    <p>An unhedged equity ETF pays you the foreign market's return, translated into Canadian dollars at whatever the exchange rate did. A CAD-hedged ETF tries to remove that translation. The hedge is usually built with currency forward contracts. You are not deleting risk for free. You are replacing currency movement with the cost and the slippage of those contracts.</p>
+
+    <p>The forward price is tied to the interest-rate gap between the two currencies. Some years that gap means the hedge costs you. Some years it pays you. Implementation is imperfect, so a hedged fund's tracking difference versus its index is part of the comparison, not a footnote. None of that is a reason to hedge, or not to hedge, based on this month's rate differential. It is a reason to compare the hedged and unhedged facts sheets over several years, pick one, and stop toggling.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Unhedged</th>
+                <th>CAD-hedged</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>What you own</td>
+                <td>The foreign market and the foreign currency</td>
+                <td>An attempt at the foreign market in Canadian dollars</td>
+            </tr>
+            <tr>
+                <td>When it helps behaviour</td>
+                <td>A long horizon, where currency noise is something you can ignore</td>
+                <td>A nearer spending date, or a swing large enough that you would sell</td>
+            </tr>
+            <tr>
+                <td>The cost</td>
+                <td>No hedge drag. The Canadian dollar can move against you for years.</td>
+                <td>Forwards, tracking difference, and the temptation to switch at the wrong time</td>
+            </tr>
+            <tr>
+                <td>Bonds</td>
+                <td>A poor default. You wanted stability in CAD.</td>
+                <td>You usually just buy a Canadian bond fund instead of hedging a foreign one</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Do not hedge a little, then also hold the unhedged fund, then also hold a US-listed version:</strong>
+        <p>That is three opinions. Pick the equity currency policy in one sentence: "Foreign equity is unhedged" or "Foreign equity is hedged." The <a href="/blog/mer-drag-index-funds-canada/">MER guide</a> tells you how to compare the two share classes without treating a remembered fee as current.</p>
+    </div>
+
+    <h2>Canadian-listed versus US-listed</h2>
+
+    <p>A Canadian-listed ETF that holds US stocks, and a US-listed ETF that holds the same stocks, are not the same product in an RRSP. The Canada–US treaty can reduce US dividend withholding to nil when a registered retirement account — an RRSP or a RRIF — is the direct holder of the US security, and the broker has the paperwork, often a W-8BEN. The TFSA is not a retirement account for that article of the treaty. Withholding there is not recoverable.</p>
+
+    <p>A Canadian-listed fund breaks the chain. If it owns a US-listed ETF, withholding usually happens inside that US fund, and the RRSP cannot unwind it. If it owns the US stocks directly, withholding is still at the fund level, not at your RRSP. Parking the Canadian ticker in the RRSP does not restore the exemption. In a non-registered account, whether you even receive a foreign-tax figure on the T3 depends on the fund. Read the prospectus. Do not assume the wrapper passes a credit through.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>What you hold</th>
+                <th>In an RRSP or RRIF</th>
+                <th>In a TFSA</th>
+                <th>In non-registered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>US-listed US equity ETF, held directly</td>
+                <td>Treaty can remove US dividend withholding if the form is on file</td>
+                <td>Withholding applies and is not recoverable. You also paid to convert currency.</td>
+                <td>Withholding generally qualifies for a foreign tax credit, within limits. You still converted currency.</td>
+            </tr>
+            <tr>
+                <td>Canadian-listed ETF that holds US stocks or a US-listed ETF</td>
+                <td>Does not magically become treaty-exempt. Withholding inside the fund usually stays inside the fund.</td>
+                <td>Same withholding reality, without a currency conversion on every purchase. This is why the TFSA often holds the Canadian listing.</td>
+                <td>Confirm whether the T3 reports foreign tax. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> is the personal credit, not a promise about the wrapper.</td>
+            </tr>
+            <tr>
+                <td>US-listed ETF of non-US stocks</td>
+                <td>The treaty may remove US withholding on the ETF's own distribution. It does not refund foreign tax the ETF already paid to other countries.</td>
+                <td>You can lose both layers, and you paid FX.</td>
+                <td>Messy credits. Usually the wrong place to be clever.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>There is a second layer the treaty does not touch:</strong>
+        <p>A US-listed fund that owns companies outside the United States can have tax withheld by those other countries before the cash reaches the fund. An RRSP exemption on the US distribution does not refund that inner layer. The clean treaty case is a US-listed fund of US stocks, held directly in the RRSP. It is not "any ETF with US in the name," and it is not a Canadian all-in-one that happens to own US companies. The <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a> makes the same point from the TFSA side: a Canadian listing avoids the conversion. It does not erase the withholding.</p>
+    </div>
+
+    <h2>Foreign exchange, including Norbert's gambit</h2>
+
+    <p>If the asset-location plan has you buying a US-listed fund inside the RRSP, every contribution starts in Canadian dollars until it does not. The broker will convert for you. The spread on that conversion is the cost that survives a zero-commission headline. Some brokers let the RRSP hold US dollars, so you convert once and stay in US dollars. Some will journal an interlisted stock from the Canadian listing to the US listing so you are not paying the retail spread on every purchase. People call that journal Norbert's gambit.</p>
+
+    <p>The method is structural. You buy an interlisted security on one side, the broker journals it, you sell on the other side. The cost is the spread and any commission on those two legs, plus the time you are in the stock, plus whatever the broker charges to journal. Some firms make it straightforward. Some do not allow it. Some app-first platforms would rather you accept their conversion. Eligibility and timing are broker-specific. Confirm them with the firm. This page will not quote a spread, because a quoted spread would be stale the week a broker changes it. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> is the longer version of that test, and it is also not a rate card.</p>
+
+    <div class="example-box">
+        <strong>When the machinery is worth it</strong>
+        <p>You hold one Canadian-listed asset-allocation ETF and you contribute monthly. Currency hedging and Norbert's gambit are not your problem. Buy the Canadian listing and stop. You hold a US-listed equity sleeve inside an RRSP because you want the treaty to apply to US dividends. Then the conversion cost matters, and you either preview the broker's FX, keep a US-dollar side, or use a journal you have actually confirmed. A household that converts $500 a month may find the journal is more fuss than the spread. A household that converts a large RRSP contribution once a year may find the opposite. Price your order. Do not adopt a forum's broker.</p>
+    </div>
+
+    <h2>A sentence you can keep</h2>
+
+    <ol>
+        <li>Bonds in Canadian dollars. Foreign equity either hedged or not, written down, not toggled.</li>
+        <li>TFSA: Canadian-listed funds. The treaty was never available there. Do not convert to US dollars inside a TFSA just to hold a US-listed dividend fund.</li>
+        <li>RRSP: US-listed US equity, held directly, only if the broker can hold US dollars or you have priced the conversion, and only if the W-8BEN is actually on file.</li>
+        <li>Do not put a Canadian-listed US equity ETF in the RRSP and call it the treaty.</li>
+        <li>Non-registered: prefer the character of income you wanted — often Canadian equity — over a US dividend stream. That choice is the <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a>.</li>
+        <li>If you will not maintain any of this, buy one Canadian-listed asset-allocation ETF. The imprecision on withholding is smaller than a plan you drop. That tradeoff is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Hedging removes a currency and adds a cost</strong> that depends on interest rates and on tracking. It is not a higher expected return.</li>
+        <li><strong>Keep the bond sleeve in Canadian dollars.</strong></li>
+        <li><strong>The treaty exemption is for US securities an RRSP or RRIF holds directly.</strong> A Canadian-listed wrap does not inherit it. A TFSA never had it.</li>
+        <li><strong>Inner-layer foreign tax</strong> inside a US-listed international fund is not refunded by the RRSP treaty.</li>
+        <li><strong>Norbert's gambit is a journal, not a personality and not a quoted rate.</strong> Confirm the process with the broker you use.</li>
+        <li><strong>If the portfolio is one Canadian-listed fund,</strong> ignore this machinery.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The currency is a preference. The withholding is a rule.</strong></p>
+        <p>Both still sit inside a tax return. The 2026 tax guide is the filing side of the same accounts.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about currency hedging and the difference between Canadian-listed and US-listed funds. It is not investment, tax, or legal advice, and it is not a recommendation to use any broker, journal, or ETF. Treaty relief depends on the account, the security, and paperwork. Withholding rates, hedge costs, and foreign-exchange spreads change. Confirm the current ETF facts, your broker's process, and a cross-border accountant if you are a US person.</p>
+        <div class="footer-note">Published: November 13, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "How to Rebalance Without Creating Junk Tax Events",
+    slug: "rebalancing-without-tax-events-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-11-20",
+    excerpt: "Use new contributions and registered accounts first, band-rebalance on purpose, and keep non-registered sales for the drift that cash cannot fix.",
+    image: "/images/blog/rebalancing-without-tax-events-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A portfolio drifts because markets work. The expensive response is a taxable sale you did not need. The cheap response is dull: <span class="highlight">send the next dollar at whatever is light</span>, trade inside the TFSA or RRSP if that is not enough, and sell in the non-registered account last.
+    </div>
+
+    <p>Rebalancing restores a mix you wrote down in calm weather. It is not a forecast and it is not a tax strategy wearing a portfolio costume. The mix itself, and which account holds which sleeve, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. This article is only the maintenance. If you hold one asset-allocation ETF everywhere, the fund rebalances inside itself and your job is mostly contributions. That choice is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>.</p>
+
+    <div class="callout">
+        <strong>Canada does not let you pick tax lots of the same ETF:</strong>
+        <p>Identical properties share one average adjusted cost base. You cannot sell "the high-cost shares" of a single ticker and keep the low-cost shares. US lot-picking advice does not transfer. You choose which sleeve to sell, not which lot. The books are the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a>.</p>
+    </div>
+
+    <h2>The order that avoids a tax event</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Step</th>
+                <th>What you do</th>
+                <th>Tax result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. New contributions</td>
+                <td>Buy the sleeve that is under the target. Direct the TFSA, RRSP, and non-registered deposits on purpose, not into a default fund.</td>
+                <td>No sale. No capital gain. This fixes most ordinary drift.</td>
+            </tr>
+            <tr>
+                <td>2. Withdrawals, if you are spending</td>
+                <td>Sell the sleeve that is over the target, in the account you were going to withdraw from anyway.</td>
+                <td>You needed the cash. The tax, if the account is taxable, was coming. You at least sold the heavy side.</td>
+            </tr>
+            <tr>
+                <td>3. Trades inside TFSA, RRSP, FHSA</td>
+                <td>Sell what is heavy and buy what is light, inside the registered account.</td>
+                <td>No personal capital gain. Watch the superficial-loss rule if the taxable account just sold the same ticker at a loss.</td>
+            </tr>
+            <tr>
+                <td>4. Non-registered sales</td>
+                <td>Only the slice that is still outside the band after the first three steps.</td>
+                <td>A real disposition. Gains are taxable. Losses are useful only if you do not rebuy the identical property.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Commissions and spreads still exist on steps 3 and 4, even when the tax is zero. A zero-commission broker can still charge you in foreign exchange if the light sleeve is US-listed. Preview it. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> is that preview. A rebalance that converts currency four times a year can cost more than the drift was worth.</p>
+
+    <h2>Pick a band in advance</h2>
+
+    <p>A calendar rebalance — once a year, on a date you chose — is a habit. A band is the other habit: you trade only when a sleeve is off by more than a number you wrote down before the market moved. Five percentage points of the whole portfolio is a common mechanical band. A relative band, such as a sleeve being a fifth away from its own target, is another. Neither is a law of finance. Both exist so you are not negotiating with yourself in March.</p>
+
+    <div class="example-box">
+        <strong>Illustration: a five-point band on $400,000</strong>
+        <p>The target is 80 percent equity. Equity is now 85 percent, so it is $20,000 heavy. That is exactly a five-point band on this balance, and it is a teaching example, not a rule that you must trade. The next $20,000 of contributions, aimed at bonds, fixes it with no sale. At $1,000 a month that takes many months. If your written rule says "five points, check once a year," you might wait and let contributions work. If equity is 95 percent, the band is broken by a lot, contributions will not catch it, and you sell equity inside the RRSP or TFSA before you sell it in the taxable account. Halve the portfolio and you halve the dollars. The percentages are the decision.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Cash drag versus tax drag:</strong>
+        <p>Leaving a modest drift alone while contributions catch up costs you a mismatch for a while. Realizing a large gain in December to make the pie chart perfect costs you tax now, on purpose. For a drift inside the band, the mismatch is usually cheaper. For a drift that has changed the risk you said you could live with, pay the tax on the smallest slice that restores the band, in the registered account first. Do not hold a pile of cash "ready to rebalance" for a year. Idle cash is its own drag, and it is not the bond sleeve you wrote down.</p>
+    </div>
+
+    <h2>The taxable sale, when you finally need one</h2>
+
+    <ul>
+        <li><strong>Sell the heavy sleeve, not a random winner.</strong> The point is the mix. Harvesting a loss in a light sleeve and then having to buy it back is how people trip the superficial-loss rule. The calendar is <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting</a>.</li>
+        <li><strong>If the heavy sleeve is also at a loss,</strong> selling it in the non-registered account can rebalance and harvest, if the replacement is not identical property and nobody buys the old ticker inside the window — including the TFSA you were about to contribute to.</li>
+        <li><strong>If the heavy sleeve has a large gain,</strong> sell inside the RRSP or TFSA instead, or sell only enough in the taxable account to reach the edge of the band. You do not need to hit the target to the dollar.</li>
+        <li><strong>In-kind contributions are dispositions.</strong> Moving a winner into a TFSA realizes the gain. Moving a loser into a TFSA denies the loss. Rebalance with cash when the in-kind result is ugly.</li>
+        <li><strong>Average cost base applies.</strong> One ticker, one average. A switch to a different fund is what creates a gain or a loss. Selling and rebuying the same fund does not reset the tax and may deny a loss.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Do not rebuy the harvested ticker with the registered contribution:</strong>
+        <p>The superficial-loss window includes your TFSA, your RRSP, and your spouse. A tidy January habit — sell the loser in December, buy the same ETF in the TFSA on the 2nd — denies the loss. Buy the replacement in the taxable account if that sleeve should stay full, and send the TFSA money to a different holding. The <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> covers the in-kind version of the same mistake.</p>
+    </div>
+
+    <h2>Fees are part of the trade</h2>
+
+    <p>Every unnecessary switch has a cost even when it is tax-free: the spread, the foreign exchange, and the chance you buy a slightly different fund and call it the same. A tenth of a percent of MER is not a reason to reshuffle a taxable account. A fund that is the wrong market entirely is a reason. The arithmetic of the fee, separate from the tax, is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. Fix the fee inside a registered account when the taxable gain would swamp it.</p>
+
+    <h2>Once a year, on paper</h2>
+
+    <ol>
+        <li>Add up each sleeve across all accounts. The household is the portfolio. One account is allowed to look unbalanced.</li>
+        <li>Compare with the sentence you wrote: equity, bonds, Canada weight, hedged or not.</li>
+        <li>If you are inside the band, buy what is light with new money and stop.</li>
+        <li>If you are outside it, trade registered accounts until you are not, or until only a taxable slice remains.</li>
+        <li>If that slice is a loss, follow the harvesting calendar. If it is a gain, sell the minimum.</li>
+        <li>Write down what you did. Next year's you does not remember the logic.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Contributions are the first rebalance.</strong> Withdrawals are the second. Registered trades are the third. Taxable sales are the last.</li>
+        <li><strong>A band you chose in advance</strong> beats a mood. Five points is a common habit, not a statute.</li>
+        <li><strong>You cannot pick tax lots</strong> of the same Canadian-listed ETF. The cost base is an average.</li>
+        <li><strong>A TFSA purchase can deny a loss</strong> you just realized in the taxable account.</li>
+        <li><strong>Modest drift is often cheaper than a realized gain.</strong> Large drift is a risk decision. Fix it where the tax is zero if you can.</li>
+        <li><strong>An all-in-one already rebalances.</strong> Do not also trade around it.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The pie chart is not the tax return.</strong></p>
+        <p>A clean rebalance still lands in a bracket, a TFSA room figure, and a cost base. The 2026 tax guide is that side of the year.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about rebalancing a Canadian household portfolio across account types. It is not investment or tax advice, and it is not a recommendation to buy, sell, or hold any security. Band widths in the examples are illustrations of a habit, not a prescribed allocation. Superficial-loss outcomes depend on the facts. Confirm your cost base and, for a large taxable sale, a tax professional.</p>
+        <div class="footer-note">Published: November 20, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "All-in-One ETFs vs a DIY Portfolio in Canada",
+    slug: "all-in-one-etfs-vs-diy-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-11-27",
+    excerpt: "When a VEQT- or XEQT-style one-ticket ETF beats a multi-fund portfolio, and when asset location is worth the extra moving parts.",
+    image: "/images/blog/all-in-one-etfs-vs-diy-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A one-ticket asset-allocation ETF is a portfolio that rebalances without asking you. A do-it-yourself mix of ETFs is the same idea pulled apart so each piece can sit in the account that treats it least badly. <span class="highlight">Simplicity wins when you will not do the maintenance.</span> The MER gap is usually the smaller number.
+    </div>
+
+    <p>Vanguard, iShares, BMO, and others each publish a ladder of Canadian-listed asset-allocation ETFs, from conservative balances to all-equity. Tickers people use as shorthand for the all-equity end — VEQT and XEQT among them — are examples of that structure, not a recommendation and not a pair to arbitrage. Series get revised. Bond weights move. MERs change. Read the current ETF facts before you buy, and do not treat any fee you remember, or any fee on this page, as the live one.</p>
+
+    <div class="callout">
+        <strong>One structure, not both:</strong>
+        <p>An all-equity one-ticket fund plus a global equity ETF plus a US equity ETF is the same companies, three times, with a Canada weight you can no longer state. If you use the all-in-one, stop adding parts. If you use building blocks, do not also hold the all-in-one "for safety." The blocks and the placement rules are the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF asset-location guide</a>.</p>
+    </div>
+
+    <h2>What the one-ticket fund is actually doing</h2>
+
+    <p>The fund holds the underlying markets — Canada, the US, the rest of the world, and sometimes bonds — in weights the prospectus sets. When those weights drift, the fund trades inside itself and you do not file a capital gain for that internal rebalance. You still pay tax on distributions the fund pays out to a non-registered account, and you still have a cost-base problem if you sell your own units. "Automatic" does not mean "invisible to the CRA" once the units sit outside a registered account. It means you are not the person placing the rebalance trades.</p>
+
+    <p>You give up asset location. Bonds, US stocks, and Canadian dividends are blended in every account where you hold the same fund. You cannot put only the bonds in the RRSP. You cannot put only the Canadian equity in the taxable account to use the dividend tax credit. US dividend withholding inside the fund is whatever the fund pays. An RRSP full of a Canadian all-equity ETF does not receive the treaty exemption on the US stocks buried inside it. That exemption wants the US security held directly. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency and US-listed ETF guide</a> is the precise version.</p>
+
+    <h2>What you take on when you build it yourself</h2>
+
+    <p>Separate ETFs for Canadian equity, foreign equity, and Canadian bonds let the household match a written mix while each account looks unbalanced. Bonds and any US-listed equity have a first home in the RRSP. Broad growth fits the TFSA. Canadian equity fits the non-registered account once registered room is full, because that is where eligible dividends and capital losses work. You must rebalance, or the mix becomes whatever last year did. The maintenance order — contributions, then registered trades, then taxable sales — is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>All-in-one ETF</th>
+                <th>Building blocks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rebalancing</td>
+                <td>Inside the fund</td>
+                <td>You, on a date or a band you wrote down</td>
+            </tr>
+            <tr>
+                <td>Asset location</td>
+                <td>The same blend in every account</td>
+                <td>Possible, if you actually do it</td>
+            </tr>
+            <tr>
+                <td>US withholding in an RRSP</td>
+                <td>Generally stuck inside the Canadian fund</td>
+                <td>A US-listed US equity ETF, held directly, can use the treaty</td>
+            </tr>
+            <tr>
+                <td>Dividend tax credit and tax-loss harvesting</td>
+                <td>Diluted, because the fund is a blend. Hard to harvest one country.</td>
+                <td>Available on the Canadian equity sleeve in non-registered</td>
+            </tr>
+            <tr>
+                <td>MER</td>
+                <td>Often a bit higher than the weighted blocks. Verify both facts sheets.</td>
+                <td>Often a bit lower, before your foreign-exchange and behaviour costs</td>
+            </tr>
+            <tr>
+                <td>Failure mode</td>
+                <td>You tinker anyway and stack extra funds</td>
+                <td>You do not rebalance, or you do not trade for years after a drop</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>The MER gap is usually smaller than the behaviour gap</h2>
+
+    <p>The published MER on an all-in-one is often higher than the weighted MER of the underlying blocks, because you are paying for the rebalance and the single ticket. The gap is frequently a fraction of a percentage point. Picture 0.10 to 0.25 percentage points only as a way to feel the scale. It is not a quote of VEQT, XEQT, or any other fund, this year or any year. On $200,000, 0.15 percentage points is $300 a year before compounding. Read both facts sheets, then decide.</p>
+
+    <p>A gap of that size is not the problem in the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. A gap of a full percentage point or more, against a closet index fund, is that problem. Here, the competing cost is behavioural. One panic sale, or a year of contributions left in cash because you could not choose the mix, can exceed a few hundred dollars. So can a foreign-exchange spread if the DIY version sends you through US dollars at a broker that converts expensively. Price that path in the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a>. A perfect map at a wide spread is not a perfect map.</p>
+
+    <div class="tip-box">
+        <strong>The behavioural edge is the product:</strong>
+        <p>The all-in-one removes the moment you decide not to buy the sleeve that just fell. DIY keeps that moment and asks you to follow a rule. If you already know you will open the account in a bad month and override the rule, buy the one-ticket fund. Holding the slightly more expensive fund is the strategy. It is not a failure of sophistication.</p>
+    </div>
+
+    <h2>When each one earns its place</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Your situation</th>
+                <th>Start here</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>One account, or every account is registered and small</td>
+                <td>One Canadian-listed asset-allocation ETF that matches the stock-and-bond sentence. Same fund if you have both a TFSA and an RRSP and you will not locate assets. Location with nothing to locate is theatre.</td>
+            </tr>
+            <tr>
+                <td>You will not rebalance, full stop</td>
+                <td>The all-in-one. Stop researching blocks.</td>
+            </tr>
+            <tr>
+                <td>A real non-registered account, you will rebalance, and you want Canadian dividends and losses to land where they work</td>
+                <td>Blocks. Canadian equity in non-registered, the rest placed on purpose.</td>
+            </tr>
+            <tr>
+                <td>A large RRSP and a broker that can hold US dollars without a painful spread</td>
+                <td>Blocks can earn the treaty on a US-listed US equity sleeve. The all-in-one will not.</td>
+            </tr>
+            <tr>
+                <td>You want simple in the TFSA and precision only where it pays</td>
+                <td>A hybrid: the all-in-one in the TFSA, blocks in the RRSP and the taxable account. Do not also add those blocks to the TFSA.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Illustration: same household, two designs</strong>
+        <p>$300,000, written mix 80 percent equity and 20 percent bonds. These dollars are a teaching example of structure, not a model portfolio and not a risk recommendation. All-in-one version: one balanced or growth fund whose facts sheet is actually 80/20, held in the TFSA, the RRSP, and the non-registered account. You are slightly blunt about US withholding and about the dividend tax credit. You will still be 80/20 in three years. DIY version: bonds and a US-listed equity ETF in the RRSP, Canadian-listed global equity in the TFSA, Canadian equity in the non-registered account, and a rebalance rule. You picked up location. You also picked up a job. If you will not do the job, the first design is the better portfolio. Change the mix and the same choice remains.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Asset location still matters if the all-in-one is your only fund:</strong>
+        <p>It matters as a limitation you accept, not as a problem you fix by adding four more tickers. New contributions still go to the TFSA and the RRSP before a big taxable balance, even when the fund is the same in each. The <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> does not expire because you bought a simple ETF. And if a non-registered account gets large, revisit the decision. The cost of being blunt about location grows with the taxable dollars. The cost of the extra MER does not grow as fast as a bad behaviour problem, but a large taxable account is no longer a behaviour problem. It is a tax problem.</p>
+    </div>
+
+    <h2>Decide it once</h2>
+
+    <ol>
+        <li>Write the mix: equity, bonds, how much Canada, hedged or not.</li>
+        <li>If you will not rebalance, buy the Canadian-listed asset-allocation ETF that matches the sentence. Confirm the facts sheet. Hold it. Do not add a second fund because it led the chart.</li>
+        <li>If you will rebalance, and a non-registered account or a US-listed RRSP sleeve is real, use blocks and the asset-location map.</li>
+        <li>Compare MERs on the current facts sheets. If the gap is a rounding error and the FX path is ugly, prefer the all-in-one.</li>
+        <li>Revisit only when the accounts change — a large taxable balance, a new RRSP, a broker that finally makes US dollars cheap — not when a ticker is in the news.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>VEQT- and XEQT-style funds are examples of all-equity one-ticket ETFs,</strong> not a ranking. Confirm the current series, bond weight, and MER.</li>
+        <li><strong>Simplicity wins when you will not maintain blocks.</strong> The behavioural edge is allowed to beat a small fee gap.</li>
+        <li><strong>The fee gap is often a fraction of a percent.</strong> Verify it. Do not confuse it with a 1.5 percent closet-index MER.</li>
+        <li><strong>Asset location is what you give up.</strong> A Canadian all-in-one inside an RRSP is not treaty-exempt on the US stocks it holds.</li>
+        <li><strong>A hybrid is allowed:</strong> one-ticket in the TFSA, blocks only where location pays. Do not own both structures in the same account.</li>
+        <li><strong>Registered room still comes before a clever taxable sleeve,</strong> whichever fund you pick.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The ticket is simple. The tax on the account is not optional.</strong></p>
+        <p>One fund or five, the return still meets a bracket. The 2026 tax guide is the half of this that the ETF facts sheet will not cover.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education comparing one-ticket asset-allocation ETFs with a multi-ETF portfolio for Canadian accounts. It is not investment, tax, or legal advice, and it is not a recommendation to buy VEQT, XEQT, or any other fund. MER gaps cited as a way to picture scale are not quotes. Holdings, fees, and tax rules change. Confirm the current ETF facts and consult a registered adviser for a plan that fits your file.</p>
+        <div class="footer-note">Published: November 27, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2364,7 +3499,7 @@ export const posts = [
     <ul>
         <li><strong>Interest and foreign income</strong> are fully taxed outside a registered account. They are the first candidates for the TFSA if you hold them.</li>
         <li><strong>Canadian dividend stocks and growth equities</strong> are excellent TFSA holdings. The dividend tax credit is wasted inside the TFSA, but the shelter on gains and on future reinvestment is usually worth more than the credit you give up, especially if the alternative is a taxable account you will not touch for years.</li>
-        <li><strong>US-listed dividend stocks are the exception.</strong> The Canada–US tax treaty shelters US dividends from the 15 percent withholding tax inside an RRSP. It does not do that for a TFSA. Withholding tax inside a TFSA is gone. Hold those US dividend payers in the RRSP when you have the choice, and use the TFSA for Canadian equities, growth holdings with little yield, or fixed income.</li>
+        <li><strong>US-listed dividend stocks are the exception.</strong> The Canada–US tax treaty shelters US dividends from the 15 percent withholding tax inside an RRSP. It does not do that for a TFSA. Withholding tax inside a TFSA is gone. Hold those US dividend payers in the RRSP when you have the choice, and use the TFSA for Canadian equities, growth holdings with little yield, or fixed income. A Canadian-listed wrap does not collect the treaty benefit inside the RRSP either. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">US-listed ETF guide</a> is that distinction.</li>
         <li><strong>Cash</strong> is a temporary holding, not a strategy, unless you need the liquidity inside the account. A TFSA full of chequing-rate cash while a taxable account holds equities is backwards for anyone with a long horizon.</li>
     </ul>
 
@@ -8565,11 +9700,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="warning-box">
 <h4>Important: Active vs. Passive Income</h4>
-<p>The 9% rate only applies to <em>active business income</em>. Income from property (rent), investments (interest, dividends, capital gains), or money sitting idle in the corporation is considered <em>passive income</em> and taxed at the higher general corporate rate (around 26%). This distinction matters.</p>
+<p>The 9% rate only applies to <em>active business income</em>. Interest, foreign investment income, and the taxable half of capital gains are passive investment income. They are not taxed at the small-business rate, and they are not taxed at the general rate that applies to active income above the small-business limit. Inside a CCPC that income is taxed up front at a much higher combined rate, with a large refundable portion (RDTOH) that comes back only when the corporation pays taxable dividends. The <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing guide</a> is the practical version. Confirm the current rates with your accountant before you leave a portfolio inside the company.</p>
 </div>
 
         <p>
-                For context, the general corporate rate (for income above $500K or passive income) is roughly 26%, and the top personal tax rate in most provinces is 43-53%. So the spread is real — but it's not as dramatic as the "9% vs. 50%" headlines suggest, once you account for the fact that money eventually leaves the corporation as salary or dividends.
+                For context, the general corporate rate on active income above the small-business limit is roughly 26% in many provinces. Passive investment income is a different, higher computation, partly refundable when you pay dividends out. The top personal tax rate in most provinces is 43-53%. The spread on active income is real — but it is not as dramatic as the "9% vs. 50%" headlines suggest, once money leaves the corporation as salary or dividends.
             </p>
 
         <h2>The Income Threshold Question: When Does Incorporation Pay Off?</h2>
@@ -10502,7 +11637,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <ul>
 <li>Interest income is fully taxable, so sheltering it saves 30% or more in taxes</li>
 <li>Within an RRSP, you get tax-deferred growth — compounding works at full power</li>
-<li>Foreign stocks in your RRSP avoid the 15% US withholding tax on dividends (thanks to the Canada-US tax treaty) — this saves a huge amount over time</li>
+<li>US-listed stocks and US-listed ETFs held directly in an RRSP or RRIF can avoid the 15% US withholding tax on dividends under the Canada-US treaty. A Canadian-listed ETF that owns those US stocks does not. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">US-listed ETF guide</a> is the distinction.</li>
 </ul>
 
         <p>
@@ -10519,7 +11654,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Growth stocks:</strong> You pay no tax on capital gains, so let it compound freely</li>
 <li><strong>REITs:</strong> REIT distributions are highly taxed, but not in a TFSA</li>
 <li><strong>Emerging market and small-cap stocks:</strong> Higher volatility means higher tax losses — realized in full in a TFSA</li>
-<li><strong>US stocks and dividend ETFs:</strong> No tax on distributions or capital gains</li>
+<li><strong>Growth equities with little US yield:</strong> Capital gains inside the TFSA are tax-free. US dividends are not — withholding still applies, and a Canadian ticker does not remove it.</li>
 </ul>
 
         <p>
@@ -10534,7 +11669,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul>
 <li><strong>Canadian dividend-paying stocks:</strong> The dividend tax credit makes these incredibly tax-efficient here</li>
-<li><strong>Return-of-capital investments:</strong> These avoid tax by returning your cost base</li>
+<li><strong>Return-of-capital distributions:</strong> Not taxed when paid, because they reduce your adjusted cost base. That is a deferral. When the cost base hits zero, further return of capital is a capital gain. The <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a> covers the trap.</li>
 <li><strong>Investments for tax-loss harvesting:</strong> You'll actively track losses and realize them when needed</li>
 </ul>
 
@@ -10556,12 +11691,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <td><strong>RRSP / RRIF</strong></td>
 <td>Bonds, GICs, fixed income, US stocks</td>
 <td>Canadian dividend stocks (lose the credit)</td>
-<td>Tax-deferred growth; US dividend withholding tax waived by treaty</td>
+<td>Tax-deferred growth; US withholding waived only when the RRSP holds the US security directly</td>
 </tr>
 <tr>
 <td><strong>TFSA</strong></td>
 <td>Growth stocks, REITs, emerging markets, small-cap</td>
-<td>Nothing (it's all-purpose)</td>
+<td>US dividend payers (withholding is not recoverable)</td>
 <td>Tax-free growth and withdrawals; perfect for capital gains</td>
 </tr>
 <tr>
@@ -10588,7 +11723,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h2>Tax-Loss Harvesting: Turning Losses into Tax Savings</h2>
 
         <p>
-                Tax-loss harvesting sounds complex, but it's a straightforward strategy: sell investments that have declined in value to realize a capital loss, then use that loss to offset capital gains (or up to $3,000 of regular income in a year, with unlimited carryforward).
+                Tax-loss harvesting sounds complex, but the Canadian version is narrow: sell investments that have declined, in a non-registered account, to realize a capital loss, then use that loss to offset capital gains. Losses do not offset employment income, interest, or dividends. Unused net capital losses carry back three years and forward indefinitely, against capital gains only. The <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a> is the year-end sequence.
             </p>
 
         <h3>How It Works</h3>
@@ -10639,7 +11774,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>Important: The Superficial Loss Rule</h3>
 
         <p>
-                Canada's tax authorities don't want you gaming the system by selling a loss and immediately buying it back. That's where the <strong>superficial loss rule</strong> comes in. More on this below — but briefly: don't buy back the same or substantially identical investment within 30 days of selling it.
+                Canada's tax authorities don't want you gaming the system by selling a loss and immediately buying it back. That's where the <strong>superficial loss rule</strong> comes in. More on this below — but briefly: don't buy the same or identical property in the 30 days before or the 30 days after the sale, and don't let an affiliated person (your spouse, or your TFSA or RRSP) do it either.
             </p>
 
         <h2>The Superficial Loss Rule — And How to Avoid It</h2>
@@ -10651,14 +11786,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h3>The Rule</h3>
 
         <p>
-                You cannot claim a capital loss on the sale of an investment if you (or your spouse, or a controlled corporation) buy the same or <em>substantially identical</em> investment within 30 days before the sale or 30 days after the sale.
+                You cannot claim a capital loss if you, or a person affiliated with you, acquire the same or identical property in the period starting 30 days before the sale and ending 30 days after, and still hold it at the end of that period. Affiliated persons include your spouse or common-law partner. A purchase inside a TFSA, RRSP, RRIF, FHSA, or RESP counts.
             </p>
 
         <p>
                 The 30-day window is 61 days total: 30 days before, the day of sale, and 30 days after. If you breach this rule, the loss is denied and added to the cost base of the replacement investment instead.
             </p>
 
-        <h3>What Counts as "Substantially Identical"?</h3>
+        <h3>What Counts as Identical Property?</h3>
 
         <p>
                 The CRA interprets this strictly:
@@ -10666,7 +11801,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul>
 <li><strong>Same stock, same investment:</strong> Obviously identical. You can't sell and buy back the same shares.</li>
-<li><strong>Very similar ETFs:</strong> Two Canadian dividend ETFs tracking nearly the same companies? Probably substantially identical.</li>
+<li><strong>Very similar ETFs:</strong> Two funds tracking the same index? Often identical property. A different brand is not a safe substitute. The <a href="/blog/tax-loss-harvesting-calendar-canada/">calendar</a> is the practical test.</li>
 <li><strong>Different asset class or geography:</strong> Selling a Canadian bank stock and buying a US bank ETF? Likely <em>not</em> identical.</li>
 <li><strong>ETF vs. mutual fund with same holdings:</strong> Might be considered identical.</li>
 </ul>
@@ -10674,7 +11809,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <div class="warning-box">
 <strong>Warning: The Superficial Loss Trap</strong>
 <p>
-                    The CRA takes this rule seriously. If you harvest a loss and accidentally buy back a substantially identical investment within 30 days, the loss will be denied — but you won't find out until years later during an audit. The tax bill, plus interest and potential penalties, can be painful.
+                    The CRA takes this rule seriously. If you harvest a loss and buy the identical property within the window — including through a spouse or a TFSA — the loss can be denied. You may not notice until the return is reviewed.
                 </p>
 <p>
                     Track your buy/sell dates carefully. Use a simple spreadsheet if you're doing tax-loss harvesting. Better yet, consult a tax professional if you're harvesting significant losses.
@@ -10699,22 +11834,22 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
                 The simplest approach: sell the position, wait 31 days, then buy back the original investment if you still want it. Your portfolio is out of that asset class for a month, but the loss is locked in and the superficial loss rule doesn't apply.
             </p>
 
-        <h4>3. Use Different Accounts</h4>
+        <h4>3. Do not hide the repurchase in a spouse's account or a TFSA</h4>
 
         <p>
-                The superficial loss rule applies if <em>you or your spouse</em> buy back the investment. But it doesn't apply to other family members. If your spouse's TFSA buys back the investment after you sell it, the rule doesn't apply. (Though this is getting into advanced territory — consult a tax pro if you want to do this.)
+                Your spouse or common-law partner is an affiliated person. A purchase of the identical property in their non-registered account, or in your TFSA or RRSP or theirs, during the 30-day window can deny the loss. If the replacement sits inside a registered account, the denied loss is added to a cost base you will never use. The <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a> is the sequence to follow.
             </p>
 
-        <h4>4. Harvest in Your Spouse's Account</h4>
+        <h4>4. Coordinate, do not cross trades</h4>
 
         <p>
-                If you're married, your spouse can sell the same position and buy it back in their account, and you can do the opposite in yours. The losses are claimed separately and the superficial loss rule is avoided. This requires careful coordination but can be powerful for high-income couples.
+                You and your spouse can each harvest losses on property you actually own. You cannot sell in one account and have the other buy the identical property inside the window and expect the loss to stand. If the loss is large, confirm the substitute with your accountant before you trade.
             </p>
 
         <div class="tip-box">
 <strong>Simple Tax-Loss Harvesting Rule</strong>
 <p>
-                    If you're keeping it simple: <strong>sell the loser and buy something different in the same asset class.</strong> Swap a US dividend ETF for a Canadian dividend ETF. Swap a small-cap growth fund for a mid-cap growth fund. Different investment, same overall portfolio exposure, zero superficial loss risk.
+                    If you're keeping it simple: <strong>sell the loser and buy a similar fund that is not the identical property.</strong> A different benchmark is safer than a second ticker on the same index. The <a href="/blog/tax-loss-harvesting-calendar-canada/">calendar</a> is the checklist. Do not treat a swap as zero risk.
                 </p>
 </div>
 
@@ -10782,13 +11917,13 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             </p>
 
         <p>
-                To claim the exemption, you typically need to provide a W-8BEN form to your broker, certifying that you're a Canadian resident and the account is an RRSP/RRIF. Once filed, you'll receive US dividends without the 15% withholding.
+                To claim the exemption, you typically need to provide a W-8BEN form to your broker, certifying that you're a Canadian resident and the account is an RRSP/RRIF. Once filed, US dividends on securities the RRSP holds directly can arrive without the 15% withholding. A Canadian-listed ETF that owns the US stocks is not that direct holding.
             </p>
 
         <h3>Key Implication for Account Location</h3>
 
         <p>
-                This is a major reason to hold US dividend stocks and US-heavy ETFs in your RRSP, not your TFSA or non-registered account. Over a long holding period, the 15% withholding tax adds up significantly.
+                This is a reason to hold US-listed dividend stocks directly in your RRSP, not in your TFSA. A Canadian-listed or "US-heavy" ETF does not put the RRSP in the treaty position. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">US-listed ETF guide</a> is that distinction. Over a long holding period, unrecoverable withholding adds up.
             </p>
 
         <table>
@@ -10802,8 +11937,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <tbody>
 <tr>
 <td><strong>RRSP / RRIF</strong></td>
-<td>0% (treaty exemption)</td>
-<td>Hold US dividend stocks here</td>
+<td>0% when the RRSP or RRIF holds the US stock or US-listed ETF directly. A Canadian-listed wrap does not qualify.</td>
+<td>Hold US-listed dividend stocks here, not a Canadian wrapper</td>
 </tr>
 <tr>
 <td><strong>TFSA</strong></td>
@@ -10825,7 +11960,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <div class="tip-box">
 <strong>Asset Location and US Stocks</strong>
 <p>
-<strong>RRSP:</strong> US dividend stocks (benefit from 0% withholding)<br/>
+<strong>RRSP:</strong> US-listed dividend stocks held directly (treaty can mean 0% withholding)<br/>
 <strong>TFSA:</strong> US growth stocks (capital gains don't face withholding)<br/>
 <strong>Non-Registered:</strong> Canadian dividend stocks (benefit from dividend tax credit)
                 </p>
@@ -16210,21 +17345,21 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   </p>
 <h3>Mistake #3: U.S. Dividend Withholding Tax</h3>
 <p>
-    U.S. dividends are subject to a 15% withholding tax. Inside an RRSP, you get a treaty exemption — the withholding is reduced to 5% (on most U.S. stocks) or eliminated entirely (on index funds). Inside a TFSA, the full 15% withholding applies.
+    U.S. dividends paid on a U.S.-listed stock or ETF are generally subject to 15% U.S. withholding. Inside an RRSP or RRIF, the Canada–U.S. treaty can reduce that to nil when the plan holds the U.S. security directly and the broker has the treaty form (often a W-8BEN). It is not a 5% rate, and a Canadian-listed index ETF does not become exempt because it sits in the RRSP. Inside a TFSA, the withholding is not recoverable.
   </p>
 <p>
-    This is a genuine disadvantage of TFSAs for U.S. dividend stocks. If you're holding U.S. dividend-paying stocks, consider keeping them in your RRSP and using your TFSA for Canadian dividend stocks or ETFs that don't pay much in dividends.
+    This is a genuine disadvantage of TFSAs for U.S. dividend stocks. If you are holding U.S.-listed dividend payers, the RRSP is the account that can use the treaty. Use the TFSA for Canadian equities or growth holdings with little U.S. yield. The <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency and U.S.-listed ETF guide</a> and the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> are the longer version.
   </p>
 <p>
-    Example: A $100 U.S. dividend becomes:
+    Example, on a $100 U.S. dividend from a U.S.-listed stock the account holds directly:
   </p>
 <ul>
-<li><strong>In TFSA:</strong> $85 (15% withheld)</li>
-<li><strong>In RRSP:</strong> $95 (5% withheld, treaty rate)</li>
-<li><strong>In non-registered account:</strong> $85 (15% withheld), plus you can claim a tax credit for $15 on your Canadian return</li>
+<li><strong>In a TFSA:</strong> $85 (15% withheld, not recoverable)</li>
+<li><strong>In an RRSP, treaty form in place, U.S. security held directly:</strong> $100</li>
+<li><strong>In a non-registered account:</strong> $85, and the $15 is generally eligible for a foreign tax credit on your return</li>
 </ul>
 <p>
-    The RRSP wins for U.S. dividend-paying stocks.
+    The RRSP wins for U.S.-listed dividend stocks held directly. A Canadian-listed fund that owns those stocks does not collect the same exemption.
   </p>
 <!-- Pro Tip Box -->
 <div class="tip-box">
