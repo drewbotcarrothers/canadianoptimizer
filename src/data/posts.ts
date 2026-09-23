@@ -20527,4 +20527,1377 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>
 </div>`
   }
+,
+  {
+    title: "The Smith Manoeuvre in Canada: Steps, Deductibility, and the Risks",
+    slug: "smith-maneuver-canada-steps-risks",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-11-28",
+    excerpt: "How a readvanceable mortgage turns principal into an investment loan, when the interest is actually deductible, and the leverage risks the brochure skips.",
+    image: "/images/blog/smith-maneuver-canada-steps-risks.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The Smith Manoeuvre does not pay off your house. It replaces a <span class="highlight">non-deductible mortgage</span> with a debt you hope is deductible, invested in a taxable account. If that sentence is uncomfortable, the strategy is not for you yet.
+    </div>
+
+    <p>Fraser Smith's plain-vanilla version is a mechanical loop. You have a readvanceable mortgage: an amortizing loan on your principal residence, paired with a home equity line of credit that grows as you pay principal. Each payment frees a slice of credit. You borrow that slice and invest it. Interest on money borrowed to earn income can be deductible. Interest on the mortgage you used to buy the home you live in is not. The loop converts one into the other, slowly, while your total debt stays large on purpose.</p>
+
+    <div class="callout">
+        <strong>Deductibility is a tracing problem, not a product feature:</strong>
+        <p>The line of credit does not become deductible because a bank branded it. Paragraph 20(1)(c) looks at the current use of the borrowed money. The clean version of that test — separate accounts, no personal spending, no registered-account contributions — is the <a href="/blog/heloc-strategies-cra-clean-canada/">HELOC strategies guide</a>. Read it before you set the loop up. This article is the manoeuvre itself: the steps, the variants, and where leverage breaks.</p>
+    </div>
+
+    <h2>What is actually being converted</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Debt</th>
+                <th>What the money bought</th>
+                <th>Interest</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Residence mortgage</td>
+                <td>The home you live in</td>
+                <td>Not deductible. Paying it down is a risk-free after-tax return equal to the contract rate. That comparison is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Readvance used to invest</td>
+                <td>Income-producing property in a non-registered account: a portfolio with a reasonable expectation of income</td>
+                <td>Potentially deductible as a carrying charge, if the use test holds for the whole year you claim</td>
+            </tr>
+            <tr>
+                <td>The same readvance, used for a kitchen, a car, a TFSA, an RRSP, or an FHSA</td>
+                <td>Personal consumption, or a registered plan whose income is not taxed in your hands</td>
+                <td>Not deductible. Borrowing to contribute to a TFSA, RRSP, or FHSA fails the purpose test even when the contribution itself is a good idea.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The end state, if you run the loop for the whole amortization, is not a clear title. It is a paid-down residence mortgage sitting beside a large investment loan, plus a portfolio. Net worth rises only if that portfolio outperforms the after-tax cost of the loan, after fees, after bad years, and after you still sleep. A paid-off house with a smaller portfolio is a different strategy. Do not describe it with this name.</p>
+
+    <h2>The steps, in the order that keeps the file clean</h2>
+
+    <ol>
+        <li><strong>Confirm the product is readvanceable.</strong> An ordinary mortgage plus a separate line that does not grow when you pay principal will not run the loop. The credit limit on the revolving slice has to increase as principal falls, automatically, up to the ceiling in your contract.</li>
+        <li><strong>Know the regulatory caps before you underwrite your own spreadsheet.</strong> Federal residential mortgage guidance has capped the revolving portion (65 percent of value has been the figure) and capped mortgage plus revolving credit combined at a higher number (80 percent has been the figure). Lenders can be tighter. The caps move. Get them from the commitment, not from a forum.</li>
+        <li><strong>Open a dedicated non-registered investment account.</strong> The readvance pays that account, or a dedicated chequing account that same-day-transfers into it. It does not pay your grocery debit. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the standard if CRA asks why the interest is on line 22100.</li>
+        <li><strong>Invest in something that can produce income.</strong> Income Tax Folio S3-F6-C1 is the CRA document. A portfolio of common shares or ETFs that pay, or can reasonably be expected to pay, dividends is the usual fit. A bet you openly describe as pure capital growth, with no income expectation, is the fact pattern people lose. Confirm the holdings with a tax advisor if the portfolio is exotic. Asset location still matters: this sleeve is taxable on purpose, because the deduction lives outside registered accounts. The map for the rest of the household is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset-location guide</a>.</li>
+        <li><strong>Pay the residence mortgage as agreed.</strong> Principal paid becomes available credit. Borrow only that newly available amount to invest. Do not spend the float.</li>
+        <li><strong>Claim the interest that traces to the investments, and nothing else.</strong> Your annual interest statement is not automatically the deductible amount if any personal dollar touched the same tranche.</li>
+        <li><strong>Decide, in writing, what happens to any tax refund.</strong> The classic loop uses the refund to prepay the non-deductible mortgage, which frees more credit, which is reinvested. Spending the refund breaks the acceleration. It does not, by itself, undo the deduction.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Total debt barely falls. That is the design, not a bug you noticed:</strong>
+        <p>A dollar of principal you pay, then reborrow, leaves your debt unchanged and changes its tax character. You are not deleveraging. You are rotating. Anyone who sells you the manoeuvre as "become debt-free faster" is describing a different plan, or hoping the portfolio's growth will retire the line later. Those are two sentences. Write down which one you mean.</p>
+    </div>
+
+    <h2>Three versions people blur into one word</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Version</th>
+                <th>What you add</th>
+                <th>What changes about the risk</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Plain vanilla</td>
+                <td>Reborrow only the principal the regular payment just created</td>
+                <td>Slow. Cash flow has to cover the new interest. The deductible balance grows as the mortgage shrinks.</td>
+            </tr>
+            <tr>
+                <td>Accelerated</td>
+                <td>Extra cash prepayments, within your privilege, immediately reborrowed and invested</td>
+                <td>Faster rotation. Net debt is unchanged by the prepayment. You have given up the guaranteed return of actually leaving the mortgage paid down. Run that trade through the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">TFSA and RRSP priority guide</a> before you decide the extra dollar belongs here.</td>
+            </tr>
+            <tr>
+                <td>Capitalized interest</td>
+                <td>Borrow from the line to pay the line's own interest</td>
+                <td>Cash flow looks calmer. The balance never stalls. CRA has generally accepted interest on money borrowed to pay interest on an investment loan, if the original use still qualifies. The debt compounds against you in a bad market. This is the version that hurts people who wanted "set and forget."</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Where it breaks</h2>
+
+    <ul>
+        <li><strong>The line is variable.</strong> A rate move raises the interest you must pay and can shrink the spread you thought you had over a long-run equity return. The return was never promised. The interest will be billed.</li>
+        <li><strong>Markets fall and the loan remains.</strong> You cannot hand the bank your unrealized loss. A forced sale in a drawdown, or a margin-like need to cut risk, can realize a loss while the debt stays.</li>
+        <li><strong>The income purpose stops.</strong> You sell the investments and spend the proceeds, or you move them into a TFSA in kind or in cash. The borrowed money is no longer used to earn taxable income. Deductibility stops with the use. Repay the line from the sale, or reinvest, if you want the interest to remain a carrying charge.</li>
+        <li><strong>You mix a renovation into the same tranche.</strong> One personal dollar contaminates a poorly traced balance. Separate tranches are cheaper than a fight.</li>
+        <li><strong>Job loss, sale of the house, divorce, or a lender recall.</strong> Readvanceable credit is callable in the way demand loans are. A sale pays both the mortgage and the line. A divorce splits a leveraged portfolio, not a cozy deduction.</li>
+        <li><strong>Attribution.</strong> Borrowing in one spouse's name and investing in the other's can pull income and gains back under the attribution rules. The clean file is: the borrower owns the investments. A prescribed-rate spousal loan is a different structure. The <a href="/blog/income-splitting-strategies-couples/">couples guide</a> is the line. Do not invent a joint version on a Saturday.</li>
+        <li><strong>You needed that equity for a real emergency.</strong> The manoeuvre consumes the borrowing room your household might have wanted for a roof. A roof on a credit card is not a tax strategy.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustration, not a projection and not a quote</strong>
+        <p>In one year the readvance frees $15,000. You invest it. The line's interest rate in this example is 6 percent, so the annual interest is $900. Your marginal rate in this example is 43 percent, and the use test is met, so the deduction saves about $387. After-tax interest cost is about $513, roughly 3.4 percent of the $15,000. A portfolio that returns more than that, after its own tax and fees, has a positive spread in that year. A portfolio that falls 20 percent is worth $12,000, and you still owe $15,000. The residence mortgage is not smaller because of this slice. You added a second debt. Scale that picture by fifteen years and you have the strategy. Change the rate, the marginal rate, or the return and the spread moves. None of these figures is a forecast or a lender's offer.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Do not run this inside a registered account:</strong>
+        <p>Interest on money borrowed to contribute to a TFSA, RRSP, FHSA, or RESP is not deductible. The income inside those accounts is not income from property in your hands. People who "Smith" their refund into a TFSA have done a fine savings move and a different, non-deductible one. Keep the leveraged sleeve non-registered. Keep the registered accounts funded with cash you did not borrow, in the order in the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</p>
+    </div>
+
+    <h2>A decision you can finish before you apply</h2>
+
+    <ol>
+        <li>Write the end state in one sentence: "in year X I expect a deductible loan of about $Y and a portfolio of about $Z, and I will still owe it if markets are down 30 percent."</li>
+        <li>If you cannot fund the interest from cash flow without capitalizing, admit you are choosing the capitalized version and size it smaller.</li>
+        <li>If your emergency fund and your prepayment-versus-TFSA decision are unfinished, do those first. Leverage is not step one.</li>
+        <li>Ask the lender, in writing, whether the product readvances, at what loan-to-value, and what happens to the limit if the appraisal falls.</li>
+        <li>Have a CPA look at the first year's tracing before you claim the interest. The fee is cheaper than a reassessment of a decade of deductions.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The manoeuvre rotates non-deductible mortgage interest into potentially deductible investment interest.</strong> It does not, by itself, make you debt-free.</li>
+        <li><strong>The readvance has to be real,</strong> and the revolving cap is a regulatory constraint, not a suggestion.</li>
+        <li><strong>Deductibility follows use.</strong> Non-registered investments with an income purpose can qualify. Personal spending and registered contributions do not.</li>
+        <li><strong>Plain, accelerated, and capitalized are different risks.</strong> Capitalizing the interest keeps cash flow smooth and lets the debt compound.</li>
+        <li><strong>The spread is after-tax interest versus an uncertain return.</strong> A down market leaves the loan in place.</li>
+        <li><strong>Keep one tranche, one account, one owner.</strong> Mixing spouses or kitchens into the same balance is how clean files get dirty.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The deduction is one line. The rest of the return is still yours.</strong></p>
+        <p>Carrying charges, capital gains on the portfolio, and the registered accounts you did not borrow to fund only work if the filing around them is right. The 2026 tax guide is that wider map.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the Smith Manoeuvre and interest deductibility for Canadian residents. It is not tax, legal, investment, or mortgage advice, and it is not a recommendation to borrow, to invest, or to use any lender's product. Paragraph 20(1)(c), the folio positions, loan-to-value caps, and contract terms change. Dollar figures are illustrations of a spread, not projections and not rate quotes. Have a CPA and, where leverage is large, a planner review your file before you start.</p>
+        <div class="footer-note">Published: November 28, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Mortgage Prepayment vs Investing Extra Cash in Canada",
+    slug: "mortgage-prepayment-vs-investing-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-11-29",
+    excerpt: "A decision rule for extra cash: the mortgage rate is a risk-free after-tax return, and every investment you compare it with has to clear that hurdle after tax and after risk.",
+    image: "/images/blog/mortgage-prepayment-vs-investing-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Extra cash on a principal-residence mortgage earns a boring return: the <span class="highlight">contract rate, after tax, with no market risk</span>. Any investment you choose instead has to beat that number after its own tax, and it has to survive a year in which it does not.
+    </div>
+
+    <p>This is the rate comparison. It is not the question of which registered account to fill first. If the dollar is competing specifically with TFSA room, RRSP room, or an employer match, use the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority guide</a> and then come back here for the hurdle rate. If the dollar would be invested with borrowed equity, you are in the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, which is leverage, not a prepayment.</p>
+
+    <div class="callout">
+        <strong>Principal-residence interest is not deductible:</strong>
+        <p>That single fact is why the mortgage rate is already an after-tax number. A guaranteed investment certificate in a non-registered account is not. Interest on the GIC is included in your income. Comparing a 4 percent mortgage with a 4 percent GIC, without tax, is how people volunteer to earn less than they could have saved.</p>
+    </div>
+
+    <h2>Put both sides in the same units</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Use of the extra dollar</th>
+                <th>What you earn</th>
+                <th>What you must admit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Prepay the residence mortgage, inside the privilege</td>
+                <td>A certain return equal to the contract rate, for as long as that rate is locked. Tax does not take a slice, because the interest you avoid was never deductible.</td>
+                <td>The dollar is illiquid. Getting it back means refinancing, selling, or a readvance, each with a cost and a new underwriting. You also give up option value if the rate on this term is unusually low.</td>
+            </tr>
+            <tr>
+                <td>TFSA</td>
+                <td>The investment return, tax-free. Compare it directly with the mortgage rate.</td>
+                <td>The return is not certain unless you bought something certain. A TFSA GIC yielding less than the mortgage rate loses to a prepayment, and you used room to do it. Equities can win over a long horizon and can lose over the term of this mortgage.</td>
+            </tr>
+            <tr>
+                <td>RRSP</td>
+                <td>A deduction now, tax-deferred growth, and a taxable withdrawal later. The hurdle is not "the mortgage rate versus the fund." It includes the bracket gap.</td>
+                <td>If you spend the refund, you did not prepay anything. The account-order version of this is the priority guide. The deduction mechanics are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</td>
+            </tr>
+            <tr>
+                <td>Non-registered account</td>
+                <td>The after-tax return. Interest is fully taxed. Capital gains are partially included. Eligible dividends have a credit. Only what remains is allowed into the comparison.</td>
+                <td>You may also need this account for flexibility a mortgage prepayment cannot give you. Tax-efficient placement is the <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a>, not a reason to ignore a high contract rate.</td>
+            </tr>
+            <tr>
+                <td>A rental property down payment</td>
+                <td>Whatever the property earns after expenses, vacancy, debt service, and tax, plus a taxable gain or loss later</td>
+                <td>This is concentration and leverage, not a substitute for the hurdle rate. The math, including where it fails, is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>A rule you can write on the commitment letter</h2>
+
+    <ol>
+        <li>Read the rate on the term you are actually in, not a posted rate and not a rate from a news story. This article will not quote a live mortgage rate, because it would be stale by the afternoon.</li>
+        <li>If the alternative is a low-risk, taxable investment, convert it to after tax using your marginal rate. If that after-tax yield does not clearly beat the mortgage rate, prepay.</li>
+        <li>If the alternative is a TFSA holding the same low-risk investment, compare the yield directly with the mortgage rate. Tax is not the tie-breaker. The rate is.</li>
+        <li>If the alternative is equities, write an expected return you will still believe in a down year, then subtract a discount for the fact it is not guaranteed. If the number you wrote does not beat the mortgage rate by a margin you would explain to a sceptical friend, prepay. If it does, and your horizon is longer than this term, investing can be the grown-up choice. It is still a choice, not a free lunch.</li>
+        <li>If you might move, break, or need cash inside the term, do not prepay the last liquid dollar. Liquidity is part of the return.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Low-rate terms are an option, not a moral failing:</strong>
+        <p>A contract rate well below what new borrowers pay is an asset. Prepaying it faster than required gives up a cheap loan you may not be able to replace. Investing the extra cash, or holding it for the next renewal, can be the rational move even if you dislike debt. At renewal, rerun the comparison with the new rate. The decision is allowed to change when the contract changes.</p>
+    </div>
+
+    <h2>Privileges, penalties, and the payout statement</h2>
+
+    <p>Closed mortgages allow extra payments up to a privilege written in the contract: a percentage of the original principal, a double-up of the regular payment, or both. The privilege is not a national standard. Exceeding it on a closed term triggers a prepayment charge.</p>
+
+    <p>Ask for the payout figure before you exceed the privilege or refinance. On a closed fixed term the charge is commonly the greater of an interest-rate-differential amount and three months' interest. The differential is the painful one when your contract rate sits above the rate the lender would offer today for the remaining term. When market rates have risen above your contract rate, three months' interest is often the charge that remains, but you are giving up a cheap term to pay it. Variable-rate contracts are often three months' interest rather than a differential. None of this is a formula you should compute from a blog and then wire. Get the lender's number in writing.</p>
+
+    <div class="warning-box">
+        <strong>A penalty can erase years of interest saved:</strong>
+        <p>Prepaying $20,000 inside the privilege is a clean hurdle-rate decision. Breaking the mortgage to "invest the difference" or to chase a slightly lower rate is a different math problem, and the penalty is a certain cost against an uncertain saving. If you will not write both numbers down, do not break the term.</p>
+    </div>
+
+    <h2>An illustration you can recompute with your own rate</h2>
+
+    <div class="example-box">
+        <strong>Illustration, not a rate quote and not a projection</strong>
+        <p>Suppose the contract rate is 4.5 percent and you have $20,000 of extra cash. Prepaying avoids about $900 of interest in the first year, and that $900 is after tax. A non-registered GIC at the same 4.5 percent, in a 40 percent illustrative marginal bracket, keeps about 2.7 percent after tax, or $540. The mortgage wins by $360 in that year before you even discuss compounding. The same GIC inside a TFSA earns the full 4.5 percent, tax-free, and ties the prepayment on yield while remaining liquid. It does not beat it. An equity portfolio you honestly expect to return 6 percent before fees can beat the prepayment in expectation and can also lose money in the next twelve months. If your real marginal rate is not 40 percent, recompute the GIC. If your contract rate is not 4.5 percent, throw these dollars out and keep the structure.</p>
+    </div>
+
+    <p>Two adjustments people skip. First, if the regular payment stays constant after a prepayment, more of each later payment is principal. The benefit compounds inside the mortgage. A one-year interest saving understates a prepayment you leave in place. Second, if you reborrow the equity to invest, you have not "earned 4.5 percent." You have started a leverage strategy, and the <a href="/blog/heloc-strategies-cra-clean-canada/">tracing rules</a> decide whether any of the new interest is deductible.</p>
+
+    <h2>When investing is still the right side of the hurdle</h2>
+
+    <ul>
+        <li>The mortgage rate is low, the term is long, and your equity horizon is longer than the term.</li>
+        <li>Registered room is unused and the priority guide says the deduction, or the TFSA's flexibility, outranks a small prepayment. Room does not accumulate forever in a TFSA in the way people hope, and an FHSA that you still qualify for can outrank both. The sequence for a first home is the <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA purchase guide</a>.</li>
+        <li>You have no cash reserve. A prepaid mortgage does not replace a furnace. Fill a modest cash buffer before you celebrate a principal balance.</li>
+        <li>The "investment" is a rental you understand, sized with vacancy and a renewal payment, not a slogan about property always going up.</li>
+    </ul>
+
+    <p>When prepayment is the right side: the contract rate is high relative to what you will actually accept on a safe investment, you expect to stay through the term, the privilege absorbs the payment, and you are not starving a registered account that only exists while you have room. Employer matches sit above this entire debate. Do not decline a match to feel virtuous about principal.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The residence mortgage rate is a risk-free after-tax return</strong> equal to the contract rate, for the term you have.</li>
+        <li><strong>Taxable interest has to be converted to after tax</strong> before it is allowed to compete. A rate tie on the brochure is a loss in a non-registered account.</li>
+        <li><strong>A TFSA removes the tax drag and leaves the risk.</strong> A TFSA GIC below the mortgage rate is a slow way to lose to a prepayment.</li>
+        <li><strong>Equities can clear the hurdle in expectation.</strong> They do not clear it every year. Write the margin you require.</li>
+        <li><strong>Stay inside the prepayment privilege</strong> unless the lender's payout figure still leaves a win.</li>
+        <li><strong>Reruns happen at renewal,</strong> not every time a headline posts a new rate.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The hurdle rate is simple. The tax on the alternative is not.</strong></p>
+        <p>Brackets, the dividend tax credit, and the registered-account limits decide whether an investment really clears the mortgage. The 2026 tax guide is that side of the arithmetic.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about comparing a principal-residence prepayment with investing in Canada. It is not mortgage, investment, or tax advice. Contract rates, prepayment privileges, and penalties are specific to your commitment. Examples that use rates, brackets, and dollar amounts are illustrations of a comparison, not quotes and not forecasts. Confirm the payout figure with your lender and the tax result with a professional before you break a term.</p>
+        <div class="footer-note">Published: November 29, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "HELOC Strategies That Stay CRA-Clean",
+    slug: "heloc-strategies-cra-clean-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-11-30",
+    excerpt: "Interest is deductible when borrowed money earns income. How to trace a HELOC, run a cash dam, and avoid the mixes that sink the deduction.",
+    image: "/images/blog/heloc-strategies-cra-clean-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        CRA does not audit the nickname of your line of credit. It follows the <span class="highlight">dollars to what they bought</span>. If those dollars bought investments, you may have a carrying charge. If they bought a kitchen, you have a kitchen.
+    </div>
+
+    <p>A home equity line of credit is secured debt at a floating rate, typically interest-only, capped by loan-to-value rules and by whatever your lender still feels like offering after an appraisal. The tax question is separate from the credit question. Paragraph 20(1)(c) allows interest on money borrowed for the purpose of earning income from a business or property, subject to the limits in the Income Tax Act and in Folio S3-F6-C1. This article is the set of structures that keep that purpose visible. The leveraged loop that readvances your mortgage is the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a>. The decision to borrow at all, versus simply paying the mortgage down, is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment comparison</a>.</p>
+
+    <div class="callout">
+        <strong>Current use is the test:</strong>
+        <p>The Supreme Court of Canada's decision in Singleton confirmed that you may order your affairs so the borrowed money is the money that is invested, even if you could have invested cash you already had. The direct use of the borrowed funds is what counts. That is permission to be deliberate. It is not permission to be vague. A paper trail is the strategy.</p>
+    </div>
+
+    <h2>Structures that stay clean</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Structure</th>
+                <th>The move</th>
+                <th>What keeps it deductible</th>
+                <th>What breaks it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dedicated investment tranche</td>
+                <td>One HELOC sub-account, or a separate secured line, pays only the non-registered investment account</td>
+                <td>Every dollar can be traced to income-producing property. Interest for the year is the interest on that tranche.</td>
+                <td>A single personal draw. Once the balance is mixed, you are allocating by memory.</td>
+            </tr>
+            <tr>
+                <td>Cash dam on a rental</td>
+                <td>Gross rent pays down the non-deductible residence mortgage, or sits against personal debt. A separate line pays the rental's operating expenses.</td>
+                <td>The borrowed money is used to pay expenses of an income-producing property. CRA has accepted cash damming in technical interpretations when the tracing is real.</td>
+                <td>Paying personal bills from the same line, or "reallocating" an old residence mortgage by intention without a real borrow-and-pay sequence.</td>
+            </tr>
+            <tr>
+                <td>Debt swap</td>
+                <td>Sell non-registered investments, pay down the residence mortgage, borrow to repurchase a portfolio</td>
+                <td>The new borrowing's direct use is the investment. You have converted equity that was trapped in a taxable portfolio into a deductible loan.</td>
+                <td>A superficial loss if you sell at a loss and you, your spouse, or your registered accounts reacquire identical property inside the 30-day window. A capital gain if you sell at a profit. Both are real tax events. The calendar is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Capitalizing investment interest</td>
+                <td>Borrow to pay the interest on the investment line itself</td>
+                <td>Generally sustainable while the underlying investments continue to meet the income purpose. Document the capitalization as its own transfer.</td>
+                <td>Capitalizing a line that has any personal use, or continuing after you have sold the investments and spent the cash.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>What is not a strategy</h2>
+
+    <ul>
+        <li><strong>Borrowing to contribute to a TFSA, RRSP, FHSA, or RESP.</strong> The income inside is not taxed to you as income from property. The interest is not deductible. Make those contributions with cash. The order is the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">TFSA and RRSP priority guide</a>.</li>
+        <li><strong>Borrowing to renovate a principal residence</strong> and claiming the interest because the house "might be sold for more." A hoped-for capital gain on a personal-use home is not the income purpose the folio is describing, and the gain may be sheltered by the principal residence exemption anyway. The exemption's limits are the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence versus rental guide</a>.</li>
+        <li><strong>A single HELOC that funds investments on Tuesday and a vacation on Friday.</strong> Split the facility. If the lender will not split it, track a sub-ledger from day one and do not expect a pleasant audit if the sub-ledger is a spreadsheet you built in April.</li>
+        <li><strong>Paying down the line with sale proceeds, then redrawing for personal spending, while telling yourself the old purpose survives.</strong> Purpose follows the current use. When the investment is gone, stop claiming.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Commingling is the expensive mistake:</strong>
+        <p>Payroll, rent, investment draws, and the property-tax bill in one chequing account, funded partly by the HELOC, is not tracing. It is a story. If the borrowed dollars must pass through chequing, move them the same day into the investment or rental account, and do not leave them sitting under a grocery debit. Photograph nothing. Keep the statements.</p>
+    </div>
+
+    <h2>Cash damming, slowly enough to explain</h2>
+
+    <p>You already own a rental. Its mortgage interest, property tax, insurance, and repairs are deductible against rental income on the T776, because those expenses were incurred to earn rent. Your residence mortgage interest is not deductible. Cash damming does not invent a new deduction for the residence. It changes which debt finances the rental expenses you were going to pay anyway.</p>
+
+    <p>Rent comes in. You use that cash to pay the residence mortgage. You borrow from a dedicated line to pay the rental expenses. Over time, non-deductible debt falls and deductible debt rises, while the rental's economic expenses stay the same. The household is not richer by magic. It is richer only if the tax saving on the newly deductible interest exceeds the cost and the risk of running a second loan. If the line's rate is higher than the residence mortgage, part of the "saving" is an interest-rate swap you should price before you feel clever.</p>
+
+    <div class="example-box">
+        <strong>Illustration of the rotation, not a file review</strong>
+        <p>A rental generates $3,000 a month in gross rent. Expenses you would have paid from that rent, excluding the residence mortgage, are $1,400. Under a cash dam you send the $3,000 against the residence mortgage and borrow $1,400 from a dedicated line to pay the rental expenses. In a year you have paid $36,000 extra onto the non-deductible mortgage and borrowed $16,800 to carry the rental. If that $16,800 remains used for the rental, interest on it is the deductible piece. Interest on the residence mortgage is still not. If a month arrives when you also draw $2,000 from the same line for a personal bill, that month's tracing is now a reconstruction project. These dollars are a teaching picture. Your rent and your expenses are not these numbers.</p>
+    </div>
+
+    <h2>The file you keep before anyone asks</h2>
+
+    <p>Line 22100 is a claim. Claims have evidence. The <a href="/blog/cra-audit-guide-2026/">audit guide</a> is what a review feels like. For this deduction, the folder is short:</p>
+
+    <ul>
+        <li>The HELOC agreement and the annual interest statement, split by tranche if you have more than one.</li>
+        <li>Transfer records from the line to the investment account or the rental expense account.</li>
+        <li>Brokerage statements showing the investments were purchased with those transfers and were not moved into a registered account.</li>
+        <li>A one-page note, written when you started, stating the purpose. Memory is not a contemporaneous note.</li>
+        <li>For a debt swap, the trade confirmations, the mortgage paydown receipt, and the repurchase, plus a check against the superficial-loss window if you sold at a loss.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Joint lines and spouses:</strong>
+        <p>A joint HELOC invested in one spouse's name can raise attribution. The borrower who wants the deduction should be the owner of the investments, and should be the one who is legally liable for the interest being claimed. If you want income in the lower-income spouse's hands, use a structure that is actually designed for that, not an accident of whose login bought the ETF. Get advice before the first transfer. Undoing attribution after the fact is a messier file than the one you meant to create.</p>
+    </div>
+
+    <h2>A setup sequence</h2>
+
+    <ol>
+        <li>Decide which of the four structures you are running. One is enough.</li>
+        <li>Ask the lender for a separate secured segment with its own statements. Decline the offer to "just use the chequing linked to it" for daily spending.</li>
+        <li>Fund investments or rental expenses only. Write the purpose down that week.</li>
+        <li>If you are selling investments to swap the debt, check the gain or loss and the 30-day window before you repurchase.</li>
+        <li>At tax time, claim interest on the clean tranche only. If you cannot point to the statement, do not estimate.</li>
+        <li>If you sell the portfolio or the rental, repay or reinvest before you spend. Then stop claiming what no longer qualifies.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Direct use of the borrowed money is the test.</strong> Ordering your affairs so the borrowed dollar is the invested dollar is legitimate. Mixing uses is not.</li>
+        <li><strong>A dedicated tranche is the whole compliance program</strong> for most households.</li>
+        <li><strong>Cash damming rotates rental expenses onto a deductible line.</strong> It does not make residence interest deductible by wish.</li>
+        <li><strong>A debt swap can trigger a capital gain or a denied loss.</strong> Price both before you sell.</li>
+        <li><strong>Registered contributions and personal renovations do not qualify,</strong> however sensible they are as life choices.</li>
+        <li><strong>When the investment is gone, the deduction is gone.</strong> Repay or reinvest, and keep the statements either way.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Tracing is a habit. The assessment is a tax year.</strong></p>
+        <p>Carrying charges sit on a return that also has rental income, capital gains, and brackets. The 2026 tax guide is the filing side of the same file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about interest deductibility and home equity lines of credit for Canadian residents. It is not tax, legal, or lending advice. The direct-use test is factual. Folio positions and lender terms change. The dollar figures in the cash-dam illustration are a teaching picture, not your rent and not a quote. Have a CPA review a leverage or cash-dam plan before you rely on the deduction.</p>
+        <div class="footer-note">Published: November 30, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Land Transfer Tax and Closing Costs Across Canada",
+    slug: "land-transfer-tax-closing-costs-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-01",
+    excerpt: "A province-by-province map of land transfer tax, the municipal add-ons, and the other cheques due on closing day that are not the down payment.",
+    image: "/images/blog/land-transfer-tax-closing-costs-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The down payment is the number everyone repeats. The number that surprises people is the <span class="highlight">transfer tax plus the rest of the closing statement</span>, due in the lawyer's trust account whether or not the mortgage is insured.
+    </div>
+
+    <p>Land transfer tax is provincial, and in a few places municipal on top. It is not interest, it is not deductible against your salary, and on a principal residence it is simply a cost of buying. On a rental it becomes part of the cost of the property. This article is the map of what to budget, not a calculator you should waive conditions on. Brackets, rebates, and foreign-buyer rules change. Recompute on the province's own tool, or have the lawyer do it, before you sign a firm offer. How you stack an FHSA, a TFSA, and the Home Buyers' Plan against that total is the <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing guide</a>.</p>
+
+    <div class="callout">
+        <strong>Resale residential is not the same tax event as a new build:</strong>
+        <p>Ordinary resales of used residential housing are generally exempt from GST/HST. New construction, many assignments, and some substantial renovations are not. A new-build budget that copies a resale friend's closing costs is missing a tax. Rebates exist and phase out as the price rises. Confirm the federal new housing rebate and any provincial rebate against the purchase price you actually have, not against a threshold you remember.</p>
+    </div>
+
+    <h2>Transfer tax is not one Canadian number</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Place</th>
+                <th>What you are paying</th>
+                <th>Do not assume</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ontario</td>
+                <td>A graduated provincial land transfer tax. The long-standing bands are 0.5 percent up to $55,000, 1 percent on the next slice to $250,000, 1.5 percent to $400,000, 2 percent to $2,000,000, and 2.5 percent above that. Toronto charges its own municipal land transfer tax as well.</td>
+                <td>That Toronto matches the province once the price is high. The city has added higher municipal rates on the most expensive homes. Pull the current schedule. A first-time buyer refund exists and has been capped (the provincial maximum has been $4,000). It does not wipe the tax on a typical Toronto price.</td>
+            </tr>
+            <tr>
+                <td>British Columbia</td>
+                <td>Graduated property transfer tax: 1 percent on the first $200,000, 2 percent up to $2,000,000, 3 percent above that, plus a further 2 percent on the residential portion above $3,000,000.</td>
+                <td>That a first-time or newly built exemption is automatic. Both have price caps, occupancy rules, and buyer conditions that have been revised. An additional tax has applied to certain foreign buyers in specified regional districts, not the whole province. Confirm the rate, the map, and whether a federal purchase restriction also applies.</td>
+            </tr>
+            <tr>
+                <td>Quebec</td>
+                <td>Mutation duties, the welcome tax, collected by the municipality. The general scale steps through 0.5 percent, 1 percent, and 1.5 percent on brackets that are indexed. Montreal and some other cities add higher rates on expensive properties.</td>
+                <td>A dollar threshold from an old blog. Use the current year's indexed bands for that municipality.</td>
+            </tr>
+            <tr>
+                <td>Manitoba</td>
+                <td>A graduated land transfer tax. The top rate has long been 2 percent on the portion of value above $200,000, with lower bands below that, including no tax on the first $30,000.</td>
+                <td>That any first-time program zeroes the bill. Confirm rebates separately from the brackets.</td>
+            </tr>
+            <tr>
+                <td>Alberta, Saskatchewan, Newfoundland and Labrador, New Brunswick</td>
+                <td>No Ontario-style land transfer tax. You pay land titles registration fees, which are real and much smaller than a transfer tax on a large price. Saskatchewan's transfer fee is scaled to value.</td>
+                <td>That "no land transfer tax" means a cheap closing. Legal fees, adjustments, and mortgage insurance are still on the statement.</td>
+            </tr>
+            <tr>
+                <td>Nova Scotia</td>
+                <td>A deed transfer tax set by the municipality, often in the neighbourhood of 1 to 1.5 percent. Halifax is not a rural rate.</td>
+                <td>One provincial percentage. Ask the lawyer which municipality's bylaw applies.</td>
+            </tr>
+            <tr>
+                <td>Prince Edward Island</td>
+                <td>A real property transfer tax, long set at 1 percent of the greater of the price or the assessed value, with exemptions that have included qualifying first-time buyers.</td>
+                <td>That every buyer, or every price, qualifies for the exemption.</td>
+            </tr>
+            <tr>
+                <td>Yukon, Northwest Territories, Nunavut</td>
+                <td>Land titles fees rather than a graduated provincial transfer tax of the Ontario type.</td>
+                <td>That a territorial purchase has no professional fees or adjustments.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Two overlays sit on top of that table for some buyers. Ontario has imposed a non-resident speculation tax in addition to ordinary land transfer tax. The rate has been as high as 25 percent and the map has widened. Rebates exist for some people who later become resident or who qualify under a specific exception. British Columbia's additional property transfer tax for foreign nationals and other taxable trustees is a separate overlay in specified areas. Federally, a prohibition on many purchases by non-Canadians has been in force and has been extended. If the buyer is not a citizen or permanent resident, stop and confirm the federal rule, the provincial surtax, and the exemptions before anyone drafts an offer. This is not a corner of the budget to estimate.</p>
+
+    <h2>A worked transfer-tax illustration</h2>
+
+    <div class="example-box">
+        <strong>Illustration using the long-standing Ontario and BC brackets, not a live assessment</strong>
+        <p>On an $800,000 resale in Ontario, outside Toronto, the provincial bands produce: 0.5 percent of $55,000 ($275), 1 percent of the next $195,000 ($1,950), 1.5 percent of the next $150,000 ($2,250), and 2 percent of the remaining $400,000 ($8,000). Total: $12,475. A qualifying first-time buyer can claim the provincial refund, up to the statutory maximum. If that maximum is the $4,000 figure that has been in place, the net provincial tax in this picture is $8,475, not zero. The same $800,000 price inside Toronto generally adds a municipal bill. Through the ordinary bands that municipal bill has mirrored the province, which would double this illustration. If the price enters Toronto's higher luxury bands, the mirror breaks and you must use the city's current schedule. Recompute. Do not wire $12,475 because a blog did the arithmetic once.</p>
+        <p>The same $800,000 price in British Columbia, with no exemption, is 1 percent of the first $200,000 ($2,000) plus 2 percent of the remaining $600,000 ($12,000), or $14,000. The further residential rate above $3,000,000 does not apply at this price. A first-time or new-build exemption either applies in full or it does not. There is no point guessing at the margin of the price cap.</p>
+    </div>
+
+    <h2>The rest of the closing statement</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Line</th>
+                <th>What it is</th>
+                <th>How to budget it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Legal fees and disbursements</td>
+                <td>The lawyer or notary, title search, registration, copies, couriers</td>
+                <td>Get a quote for the purchase and, if there is a mortgage, say so. Disbursements are not the professional fee.</td>
+            </tr>
+            <tr>
+                <td>Title insurance</td>
+                <td>A policy the lender will often require, and an owner's policy you should understand separately</td>
+                <td>Ask for both premiums. A lender policy protects the lender.</td>
+            </tr>
+            <tr>
+                <td>Mortgage default insurance</td>
+                <td>If the down payment is under 20 percent and the loan is insured, a premium calculated by the insurer. Some provinces charge sales tax on that premium.</td>
+                <td>Use the insurer's current table. The premium is often added to the mortgage, which means you pay interest on it for the amortization. It is still a cost. The sequencing guide covers when it is cheaper to find the last dollars than to pay the premium.</td>
+            </tr>
+            <tr>
+                <td>Adjustments</td>
+                <td>Property tax, condo fees, and sometimes utilities, split at the closing date</td>
+                <td>If the seller has prepaid, you reimburse them. It can be a four-figure surprise in a city that bills taxes in large instalments.</td>
+            </tr>
+            <tr>
+                <td>Condo documents</td>
+                <td>A status certificate or estoppel. Some provinces cap the fee. The document is the point, not the fee.</td>
+                <td>Read the reserve fund, the special assessments, and the insurance deductibles before you waive. A cheap certificate that reveals a $40,000 assessment is the expensive version.</td>
+            </tr>
+            <tr>
+                <td>Inspection, appraisal, survey</td>
+                <td>Inspection is your risk control. Appraisal serves the lender. A survey appears when title insurance or the lender will not proceed on the old one.</td>
+                <td>Do not skip the inspection to save a number you will not remember, on a house you will remember.</td>
+            </tr>
+            <tr>
+                <td>Insurance binder</td>
+                <td>The lender will not fund a burned house it cannot insure</td>
+                <td>Bind it before closing, including condo unit insurance where the building policy has a large deductible.</td>
+            </tr>
+            <tr>
+                <td>Cash reserve</td>
+                <td>The first repair, the first vacancy if this is a rental, moving, and a month of payments</td>
+                <td>This is not optional "padding." A closing that spends the emergency fund is how people carry a new house on a credit card. Consumer debt outranks prepayments later. See the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority guide</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Who is on title is a tax decision:</strong>
+        <p>First-time buyer rebates, the principal residence exemption, and land transfer tax on a later transfer into a spouse's name or a corporation all care who takes title on day one. Adding a parent "for the mortgage" can be a gift, a beneficial-ownership argument, or a future disposition. The principal-residence side of that choice is the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence guide</a>. Decide beneficial ownership before the lawyer drafts, not at the signing table.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Transferring a property you already own is often a second tax:</strong>
+        <p>Moving a rental into a corporation, or onto a spouse's title, can trigger both a disposition for income tax and a fresh transfer tax. Related-party exemptions are narrow and provincial. The incorporation version of this mistake is the <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation guide</a>. Get the opinion before the deed, not after.</p>
+    </div>
+
+    <h2>Before you waive conditions</h2>
+
+    <ol>
+        <li>Ask the lawyer for a cash-to-close estimate: down payment, transfer tax net of any rebate you actually qualify for, legal fees, disbursements, title insurance, adjustments, and the insurance premium if the mortgage is insured.</li>
+        <li>Match that total to cash that will clear in time. An FHSA withdrawal that settles after the trust deadline is a sequencing failure even if it is still a qualifying withdrawal.</li>
+        <li>If anyone on the offer is not a citizen or permanent resident, clear the federal restriction and any provincial surtax first.</li>
+        <li>On a condo, read the status certificate. On a new build, ask whether HST is included in the price or added, and what rebate is assigned to the builder.</li>
+        <li>Keep a reserve after closing. The transfer tax is painful once. A special assessment with no cash is painful monthly.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Budget cash to close, not just the down payment.</strong> Transfer tax, adjustments, and fees are due whether the mortgage is comfortable.</li>
+        <li><strong>Ontario and Toronto can both charge.</strong> Alberta does not charge an Ontario-style tax. Quebec's brackets are indexed. There is no national rate.</li>
+        <li><strong>First-time refunds are capped and conditional.</strong> On an expensive home they reduce the bill. They do not remove it.</li>
+        <li><strong>New builds can attract GST/HST.</strong> Ordinary resales generally do not. Rebates phase out.</li>
+        <li><strong>Non-resident buyers have a separate rulebook,</strong> federal and sometimes provincial, and it is not an estimate.</li>
+        <li><strong>Title and rebates are decided before signing,</strong> because fixing ownership later can mean paying the tax again.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Closing day is a tax event with a key.</strong></p>
+        <p>Transfer tax is only one line. Principal residence treatment, rental expenses, and the registered withdrawals that funded the purchase sit on the return. The 2026 tax guide is that wider map.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian land transfer taxes and closing costs. It is not legal, tax, or lending advice. Brackets, municipal rates, rebates, foreign-buyer rules, and GST/HST rebates change, and several figures in this article are described as long-standing so you will recompute them. The $800,000 arithmetic is an illustration of published band structures, not an assessment. Have the closing lawyer confirm cash to close for your property and your buyers.</p>
+        <div class="footer-note">Published: December 1, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Principal Residence vs Rental Property: The Tax Tradeoff",
+    slug: "primary-residence-vs-rental-property-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-02",
+    excerpt: "The principal residence exemption is a tax rate of zero on a gain. A rental is income, a taxable disposition, and a pile of elections if you change your mind.",
+    image: "/images/blog/primary-residence-vs-rental-property-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A principal residence can appreciate for years and owe nothing on the gain. A rental that appreciates the same way owes tax on the taxable half of that gain, and may owe <span class="highlight">recapture</span> on top if you claimed depreciation. The lifestyle choice and the tax choice are the same building.
+    </div>
+
+    <p>The inclusion rate on capital gains for individuals remains one half. A proposal to raise it was cancelled, which is the position this site's tax glossary already records. Half of a rental's gain is still income. None of a properly designated principal-residence gain is. That gap is the whole tradeoff. Cash flow, tenants, and leverage sit on top of it. They do not replace it. If you are comparing a REIT instead of a second building, use the <a href="/blog/reit-vs-direct-rental-ownership-canada/">REIT versus direct ownership guide</a>. If you are about to buy several doors, the breakage points are the <a href="/blog/multi-property-real-estate-math-canada/">multi-property math guide</a>.</p>
+
+    <div class="callout">
+        <strong>One family unit, one principal residence for a given year:</strong>
+        <p>Since 1982 a family unit designates one property per year. You do not file the designation every year as you go. You designate when you sell, or when a deemed disposition forces the question, on Form T2091. The formula includes a "plus one" year, which is why a transition year can shelter two properties. It is not a second full exemption. Couples do not each get a free house.</p>
+    </div>
+
+    <h2>What the exemption actually requires</h2>
+
+    <p>The property generally has to be a housing unit you, your spouse, or your child ordinarily inhabited in the year. A cottage you use, and a city home you use, can both qualify in the abstract. Only one of them gets the designation for that year. The years you do not designate are exposed. People who "save the exemption for the bigger gain" are making a real allocation. Guessing at death, when both properties are deemed disposed of, is how families discover the second property was taxable the whole time.</p>
+
+    <p>Ordinarily inhabited is a facts test. A home you live in qualifies. A home you bought, never occupied, and rented immediately is a rental, and it should be reported as one. The <a href="/blog/housing-decisions-retirement/">housing decisions in retirement guide</a> picks up the later version of this choice: downsizing, the city home versus the cottage, and what you actually want to live in when the exemption is no longer the only goal.</p>
+
+    <h2>Changing your mind is a deemed sale</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Change</th>
+                <th>Default tax result</th>
+                <th>The election that can delay it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>You move out and rent the whole place</td>
+                <td>A change in use. You are deemed to have sold the property at fair market value and reacquired it as a rental. A gain can be sheltered by the principal residence exemption for the years it qualifies. The new cost base for the rental period is that fair market value.</td>
+                <td>Subsection 45(2). You elect to be deemed not to have changed use. You can keep designating the property as a principal residence for up to four further years, longer in some employment-relocation cases. You must not claim capital cost allowance if you want the exemption for those years. You still report the rent. File the election with the return for the year of the change.</td>
+            </tr>
+            <tr>
+                <td>A rental becomes your home</td>
+                <td>Another change in use. Deemed sale at fair market value. The gain during the rental years is taxable. Recapture of capital cost allowance, if you claimed it, is fully included.</td>
+                <td>Subsection 45(3) can defer that deemed gain until you actually sell, if you did not claim capital cost allowance. The election is filed with the return for the year of the real sale, not the year you moved in. Late-filing rules exist and are not something to improvise.</td>
+            </tr>
+            <tr>
+                <td>You rent a basement or a room and keep living there</td>
+                <td>It can be a partial change in use, which means a partial deemed disposition, if the rental is more than incidental.</td>
+                <td>CRA's administrative practice has been that a partial change can be ignored where the income-producing use is ancillary, you do not make structural changes, and you do not claim capital cost allowance. Claim depreciation and you should expect to lose the exemption on that portion. This is an administrative position. If the suite is a separate business, do not pretend it is ancillary.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>Capital cost allowance is a loan from your future sale:</strong>
+        <p>Class 1 depreciation on the building, not the land, shelters rental income today. On sale, recapture brings those claims back into income in full, up to the original cost, and it is not a capital gain. A principal residence designation and a CCA claim do not peacefully coexist on the same years. If the exemption is worth more than the annual shelter, do not claim CCA. If the property will be a rental for decades and the exemption is already gone, CCA is a timing choice you run with your accountant, not a default on the tax software's checkbox.</p>
+    </div>
+
+    <h2>Income, interest, and which debt is deductible</h2>
+
+    <p>Net rental income is fully taxable. You report it on Form T776. Mortgage interest, property tax, insurance, repairs, and management are deductible to the extent they were incurred to earn rent. Your residence mortgage interest is not deductible. You cannot fix that by "allocating" a personal mortgage to the rental in your head. The borrowed money has to trace to the rental. The structures that do this honestly are in the <a href="/blog/heloc-strategies-cra-clean-canada/">HELOC guide</a>.</p>
+
+    <p>A cash-flowing rental in a high bracket can lose to a principal residence that cash-flows nothing and then sells exempt. Run both futures. The rental's annual tax is a certainty if there is net income. The residence's tax on sale is zero if the designation holds. Appreciation is not guaranteed in either column. The tax treatment is the part you can know.</p>
+
+    <div class="example-box">
+        <strong>Illustration of the exemption gap, not a forecast of prices</strong>
+        <p>You buy for $700,000. A decade later the fair value is $1,000,000. If the property was your principal residence for every year you owned it, plus the formula's extra year where it applies, the $300,000 gain can be fully sheltered. If it was a rental the entire time, and you claim no principal-residence years, half of the $300,000 is a taxable capital gain: $150,000 included in income in the year of sale. At an illustrative 43 percent marginal rate, the tax on that inclusion is about $64,500, before any recapture and before provincial differences. Use your own bracket from the <a href="/blog/provincial-tax-rates-2026/">provincial rates guide</a>. If you had claimed $40,000 of capital cost allowance, that recapture is included in full on top of the taxable gain. The building did the same economic thing. The designation did the tax.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Rent control and vacancy are the non-tax half:</strong>
+        <p>Provinces publish annual rent-increase guidelines, and some cities add vacancy taxes if a unit sits empty. Ontario's rent-control history includes an exemption for many units first occupied after 15 November 2018. That date is statutory and it is exactly the sort of date a government can revise. Budget the guideline that applies to your unit, not last year's asking rent, and confirm whether a vacant-home tax applies before you leave a condo empty between tenants. A tax-perfect rental that cannot raise rent and cannot stay filled is still a bad asset.</p>
+    </div>
+
+    <h2>A decision rule for the next property</h2>
+
+    <ol>
+        <li>If you will live in it and it is likely to be your biggest gain, keep it personal, ordinarily inhabited, and out of a corporation. A corporation cannot claim the principal residence exemption. That mistake is priced in the <a href="/blog/landlord-incorporation-when-it-pays-canada/">incorporation guide</a>.</li>
+        <li>If you leave and rent it out, decide in the year of the move whether a 45(2) election is available and whether you are willing to skip CCA to keep up to four more designated years.</li>
+        <li>If you already own a cottage and a city home, write down which years you intend to designate. Do it while both are still yours, not in the year of death.</li>
+        <li>If you want rental cash flow, buy the rental as a rental, with a cost base you can prove, and do not move your own residence into a half-documented grey zone to "try landlording."</li>
+        <li>If the gain on a future sale would be painful at your bracket, compare that pain with a REIT held in a TFSA, where the appreciation is not a personal capital gain. Different risks, different liquidity, no tenants.</li>
+    </ol>
+
+    <p>Life events scramble this. A marriage combines family units. A separation can change who designates what. A death is a deemed disposition. The <a href="/blog/life-events-tax-implications-2026/">life events guide</a> is the checklist. The designation is not something your executor should be inventing from a utility bill.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The principal residence exemption is a zero rate on a designated gain.</strong> A rental's gain is half included, and recapture is fully included.</li>
+        <li><strong>One property per family per year.</strong> The plus-one year is a transition, not a second house.</li>
+        <li><strong>Moving out and renting is a deemed sale</strong> unless a 45(2) election is filed and its conditions, including no CCA, are kept.</li>
+        <li><strong>A basement suite can stay inside the exemption</strong> only while the rental use is ancillary and you do not claim depreciation. That is a narrow path.</li>
+        <li><strong>Residence mortgage interest is not deductible.</strong> Rental interest is, if the borrowed money actually paid for the rental.</li>
+        <li><strong>Do not put a future principal residence in a corporation</strong> and expect the exemption to follow.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The exemption is claimed on a return, not at the kitchen table.</strong></p>
+        <p>Designations, rental filings, and recapture sit next to the rest of your income. The 2026 tax guide is the return this decision lands on.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the principal residence exemption and rental conversions for Canadian residents. It is not tax or legal advice. Subsection 45(2), subsection 45(3), the ordinarily-inhabited test, and CRA's administrative positions on partial changes in use are fact-specific and can change. The dollar example is an illustration of the inclusion arithmetic, not a prediction of price or of your tax. Have a CPA file the election and the designation for your property.</p>
+        <div class="footer-note">Published: December 2, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Multi-Property Real Estate Math, and Where It Breaks",
+    slug: "multi-property-real-estate-math-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-03",
+    excerpt: "NOI, cap rate, cash-on-cash, and debt service on a second and third door \u2014 and the vacancy, renewal, and repair year that makes the spreadsheet a salary problem.",
+    image: "/images/blog/multi-property-real-estate-math-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The first property cash-flows by a hundred dollars a month and the spreadsheet says to buy two more. The year it breaks is the year a <span class="highlight">vacancy, a renewal, and a roof</span> arrive together, and all three mortgages still want to be paid.
+    </div>
+
+    <p>Scaling direct rentals is leverage plus concentration plus a second job. The tax treatment of each door, principal residence versus rental, is the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence guide</a>. The transfer tax on every purchase is the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>. This article is the arithmetic that has to work before either of those is interesting, and the assumptions that knock it over.</p>
+
+    <div class="callout">
+        <strong>Four numbers, and only one of them pays the grocery bill:</strong>
+        <p>Net operating income ignores the mortgage. Cap rate ignores the mortgage. Cash flow is what is left after the mortgage. Cash-on-cash divides that leftover by the cash you actually wrote. People who advertise a return by adding principal paydown to cash flow are mixing a balance-sheet item with a cheque. Keep them in separate columns.</p>
+    </div>
+
+    <h2>The four numbers</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Formula, in words</th>
+                <th>What it is for</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Net operating income</td>
+                <td>Rent, minus a vacancy allowance, minus operating costs you pay: tax, insurance, maintenance, management, utilities that are yours. Do not subtract the mortgage. Do not subtract income tax.</td>
+                <td>The building's performance before financing. This is the honest top line.</td>
+            </tr>
+            <tr>
+                <td>Cap rate</td>
+                <td>Annual NOI divided by the purchase price, or by current value if you are looking at a sale</td>
+                <td>A comparison across buildings. A high cap rate is not a high return if the roof is the reason the price is low.</td>
+            </tr>
+            <tr>
+                <td>Debt service coverage</td>
+                <td>NOI divided by the annual mortgage payments</td>
+                <td>Whether the building pays its own loan. Below 1.0, your salary is the tenant.</td>
+            </tr>
+            <tr>
+                <td>Cash-on-cash</td>
+                <td>Annual pre-tax cash flow after debt service, divided by cash invested: down payment, closing costs, and the repairs you do before the first tenant</td>
+                <td>The return on the dollars that left your account. It is before income tax and before the capital repair you have not reserved for.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>One door, calm case — an illustration, not a listing</strong>
+        <p>Purchase price $500,000. Down payment 20 percent, so $100,000. Closing costs in this picture are $12,000 cash, so $112,000 leaves your account. NOI is $1,900 a month after a vacancy allowance and operating costs, and before the mortgage and before any capital reserve: $22,800 a year. Cap rate is $22,800 divided by $500,000, or about 4.6 percent. Debt service in the calm case is $1,750 a month, $21,000 a year. Coverage is $22,800 divided by $21,000, or about 1.09. Cash flow is $150 a month, $1,800 a year. Cash-on-cash is $1,800 divided by $112,000, or about 1.6 percent, before tax and before a new furnace. Part of the $1,750 is principal. That principal is equity. It is not cash. If this illustration feels tight, that is the point of a 4 to 5 percent cap rate with a normal Canadian mortgage. Change the price, the rent, or the payment and rerun it. Do not import these dollars into an offer.</p>
+    </div>
+
+    <h2>The second and third door do not diversify the first</h2>
+
+    <p>Three properties in one city, financed the same way, are one bet on local employment, local insurance pricing, and the interest rate at renewal. A REIT spreads buildings, provinces, and tenants. You give up leverage and control to get that. The trade is the <a href="/blog/reit-vs-direct-rental-ownership-canada/">REIT comparison</a>. Direct ownership's advantage is the mortgage a bank will put on a specific building, and the work you will actually do. If you will not do the work, price a property manager as a percentage of collected rent plus a leasing fee. Get the contract. Do not use a remembered percentage from a podcast as the expense line.</p>
+
+    <p>The usual scale-up is to refinance the first property when it has appreciated, pull equity, and buy the second. That works while appraisals cooperate and while the new loan still covers. It fails when the appraisal comes in flat, the lender's qualification rate is the contract rate plus a buffer or the current regulatory floor, whichever is higher, and your salary no longer supports three payments under that stress test. The equity you "have" on paper is not a down payment until a lender and an appraisal say it is.</p>
+
+    <div class="warning-box">
+        <strong>Coverage of 1.09 is not a cushion:</strong>
+        <p>A debt-service ratio just above 1.0 means one soft month of rent, one insurance increase, or one property-tax reassessment after the purchase pushes the building into deficit. Lenders look at this for a reason. You should look at it without the principal-paydown column hiding in the return.</p>
+    </div>
+
+    <h2>Where the math breaks</h2>
+
+    <ul>
+        <li><strong>Renewal.</strong> In the illustration, debt service of $1,750 becomes $2,200 if the rate resets higher on a similar balance. NOI is still $1,900. Coverage falls below 1. The deficit is $300 a month before a repair. The building did not change. The contract did. Three doors with the same shape are $900 a month, funded by your job.</li>
+        <li><strong>Vacancy stacked on the renewal.</strong> A one-month vacancy on top of a thin NOI is not "4 percent, as modelled" if two units turn over in the same winter. Model two months. If the deal only works at full occupancy, it does not work.</li>
+        <li><strong>Capital repairs.</strong> A roof, a boiler, or a special assessment of an illustrative $12,000 erases several years of the $1,800 cash flow in the calm case. Condos hide this in the reserve fund until they do not. Read the status certificate. The closing guide covers that document.</li>
+        <li><strong>Tax reassessment and insurance.</strong> The purchase price is evidence of value. Next year's property tax may notice. A water claim in a condo building reprices everyone's insurance. Neither shows up in last year's listing sheet.</li>
+        <li><strong>Rent regulation.</strong> You do not set next year's rent by the spreadsheet. Provinces publish guidelines, and some units are exempt from them on specific statutory dates. Budget the rule that applies to the unit you are buying.</li>
+        <li><strong>Vacancy taxes.</strong> British Columbia's speculation and vacancy tax, and municipal vacant-home taxes in some cities, are aimed at empty homes. A condo between tenants can be an expensive vacant condo. Confirm the declaration rules before you leave it dark.</li>
+        <li><strong>Income tax on the surplus, and no deduction for principal.</strong> Net rental income stacks on your salary at your marginal rate. Principal paydown is not an expense. Capital cost allowance can shelter income and comes back as recapture on sale. The principal-residence article is the recapture warning.</li>
+        <li><strong>A price decline on leveraged equity.</strong> Twenty percent down means a 10 percent price drop cuts your equity roughly in half, before selling costs. Three such properties, bought with refinanced equity, can wipe the cash you put in without any one building "failing." You still owe the mortgages.</li>
+        <li><strong>Your time.</strong> Three tenants, three appliances, and a job. The return that ignores your hours is a return for someone else.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>The same illustration, stress case</strong>
+        <p>NOI falls to $1,500 a month because one extra month of vacancy and a tax increase landed together. Debt service is $2,200 after renewal. The monthly deficit is $700, or $8,400 a year, and then a $12,000 special assessment arrives. One door wants $20,400 of cash that year. Three doors, if you were unlucky in parallel, want a multiple of that. You cannot sell a bathroom to pay it. The calm-case cash-on-cash of 1.6 percent was not a margin of safety. It was a rounding error. These figures are a teaching stress, not a prediction of your renewal rate.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>A reserve is an expense you pretend is optional:</strong>
+        <p>Take a capital reserve out of NOI before you declare cash flow. One percent of property value per year is a common mechanical placeholder for a house. It is not a law, and a new condo may need less while an old duplex needs more. A model with a zero reserve is a model that plans to use your salary as the reserve.</p>
+    </div>
+
+    <h2>When a second property still earns its place</h2>
+
+    <p>Buy the second door when the first one covers its payment at a rate higher than today's, with two months of vacancy, with a reserve, and with cash left over that you do not need for your own housing. Use a down payment you did not borrow from a credit card. Keep the mortgage deductible tracing clean if you finance it with equity from your residence. And decide, before the third door, whether a corporation helps or only adds a T2. Most small portfolios should stay personal. The test is the <a href="/blog/landlord-incorporation-when-it-pays-canada/">incorporation guide</a>.</p>
+
+    <p>If the honest stress case requires your salary every year, you do not have an investment portfolio. You have a leveraged bet on appreciation. Appreciation can be the reason to own. It should be written down as the reason, next to the taxable gain you will owe if the property is not your principal residence. It should not be disguised as monthly income.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>NOI and cap rate ignore the mortgage.</strong> Cash flow and cash-on-cash do not. Principal paydown is equity, not spending money.</li>
+        <li><strong>Coverage just above 1.0 is a warning,</strong> not a green light to buy the twin of the same building.</li>
+        <li><strong>Renewal, vacancy, and a capital repair in one year</strong> are the base case you should be able to fund. The calm year is the lucky case.</li>
+        <li><strong>Refinancing to scale works until the appraisal or the stress test says no.</strong> Paper equity is not a down payment.</li>
+        <li><strong>Three local properties are one concentration.</strong> A REIT is the diversified, unlevered, liquid alternative, with its own tax character.</li>
+        <li><strong>If the stress case needs your salary, you are betting on price.</strong> Say so, and remember the gain is taxable if it is a rental.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The spreadsheet is not the T776.</strong></p>
+        <p>Net rental income, capital cost allowance, and recapture hit a return that also has a salary. The 2026 tax guide is how that stack is taxed.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about measuring a small Canadian rental portfolio. It is not investment, tax, or mortgage advice. Rents, rates, taxes, and insurance move. Every dollar figure in the one-door illustration and the stress case is a teaching number, not a listing, a payment quote, or a forecast. Underwrite the specific building, and have a lender and a CPA look at a leveraged purchase before you waive conditions.</p>
+        <div class="footer-note">Published: December 3, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "REITs vs Direct Rental Ownership in Canada",
+    slug: "reit-vs-direct-rental-ownership-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-04",
+    excerpt: "A REIT is a security you can hold in a TFSA. A rental is a building, a tenant, and a loan. They are not two tickers for the same bet.",
+    image: "/images/blog/reit-vs-direct-rental-ownership-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Direct ownership is leverage, a tenant, and a taxable gain when you sell. A REIT is a <span class="highlight">liquid security</span> whose distribution is often not an eligible dividend. Treating them as substitutes is how people end up landlords by accident, or investors who think they bought a building.
+    </div>
+
+    <p>Both can be a claim on rents and property values. The mechanics are different enough that the right one is usually obvious once you write down whether you want a mortgage, a midnight call about a leak, and the principal residence exemption. The building-level arithmetic is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>. The exemption you give up if you never live there is the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence guide</a>. This article is the comparison.</p>
+
+    <div class="callout">
+        <strong>Your house is already a concentrated real estate position:</strong>
+        <p>A paid-down principal residence is a large, undiversified, personal-use asset with a unique tax exemption. Adding a rental on the same street stacks the same city, the same employer base, and the same insurance market. A broad REIT, held in a registered account, is one way to own property exposure that is not your kitchen. It is not a way to get the exemption, and it is not a way to get a residential mortgage's leverage.</p>
+    </div>
+
+    <h2>The comparison that matters</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Direct rental</th>
+                <th>Canadian REIT units</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cheque to start</td>
+                <td>Down payment, closing costs, and repairs. Often six figures. The closing stack is the <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer guide</a>.</td>
+                <td>The price of the units, in the account you choose. You can start small.</td>
+            </tr>
+            <tr>
+                <td>Leverage</td>
+                <td>A mortgage at a high loan-to-value is the product. It magnifies gains and losses, and the payment is due in a vacancy.</td>
+                <td>The REIT borrows inside the fund. You are not personally on that covenant. You can margin REIT units in a non-registered account. That is a different, callable leverage, and the interest is only deductible if the units are an income-producing use. Do not borrow to buy them inside a TFSA.</td>
+            </tr>
+            <tr>
+                <td>Liquidity</td>
+                <td>Months, a commission, and a price you discover by selling.</td>
+                <td>A trading day, at a price the market sets, which can be far below the net asset value you wish it tracked.</td>
+            </tr>
+            <tr>
+                <td>Work</td>
+                <td>Tenants, repairs, regulation, or a manager you pay.</td>
+                <td>None, other than owning the security and reading the distribution breakdown.</td>
+            </tr>
+            <tr>
+                <td>Diversification</td>
+                <td>One building, or a handful in one region, unless you are already at a scale this article is not about.</td>
+                <td>Many buildings, and often more than one province or property type. You also own the REIT's balance sheet and its management.</td>
+            </tr>
+            <tr>
+                <td>Principal residence exemption</td>
+                <td>Available only if you ordinarily inhabit it and designate it. A pure rental does not get this.</td>
+                <td>Not available. Units are not a housing unit you live in.</td>
+            </tr>
+            <tr>
+                <td>Annual tax, non-registered</td>
+                <td>Net rental income fully included. Capital cost allowance optional and recaptured later. Interest on the rental mortgage deductible if it traces.</td>
+                <td>The T3 breaks the cash distribution into other income, capital gains, return of capital, and sometimes foreign income. Eligible dividends are usually not the main event. Return of capital is not yield. It reduces your adjusted cost base. The character problem is the same one in the <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Inside a TFSA or RRSP</td>
+                <td>You cannot put the building in.</td>
+                <td>You can. Distribution character stops mattering on your T1. US withholding, if a fund holds US property through a structure that leaks tax, does not get the RRSP treaty treatment just because you wish it did. Read the holdings. The account map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Sale</td>
+                <td>A taxable capital gain on a rental, plus recapture, minus selling costs. Half the gain is included under the current inclusion rate.</td>
+                <td>A capital gain or loss on the units, based on adjusted cost base after all that return of capital. Superficial-loss rules apply if you repurchase. Losses in a registered account are simply gone.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>The distribution is not a dividend</h2>
+
+    <p>REITs are trusts. The cash that hits your account is a mix the trust allocates. Other income is fully taxed in a non-registered account, which makes a high-payout REIT an expensive thing to own personally when you still have TFSA room. Return of capital feels like income and is partly your own money coming back, with a larger gain waiting. Capital gains distributed by the trust keep their character and are the kinder slice. None of this is visible in the "yield" on a brokerage screen. It is visible on the T3, after the year is over. If you are holding the REIT in a non-registered account, track the adjusted cost base the way the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> describes. A T5008 is not the books.</p>
+
+    <div class="tip-box">
+        <strong>Registered room first, for this asset in particular:</strong>
+        <p>A REIT's other income is the kind of yield a TFSA was built to shelter. Owning it in a taxable account while TFSA room sits in cash is the expensive version of "I want the income." The funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. A non-registered REIT position makes sense after registered room is full, or when you are deliberately using margin and the interest deduction, with your eyes open about a margin call.</p>
+    </div>
+
+    <h2>When each one wins</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Your situation</th>
+                <th>Lean</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>You will live in the property, and it may be your largest gain</td>
+                <td>Own it directly. The exemption is not available on a REIT, and it is the most valuable tax attribute in this comparison.</td>
+            </tr>
+            <tr>
+                <td>You want leverage the bank will underwrite, you can fund a stress-case vacancy, and you will manage the building or pay someone to</td>
+                <td>Direct. Price the stress case first. A calm-year spreadsheet is not underwriting.</td>
+            </tr>
+            <tr>
+                <td>You already own a home in the city and you want property exposure without a second boiler</td>
+                <td>REIT, inside the TFSA until that room is gone. Accept that the unit price can fall when interest rates rise even if rents do not.</td>
+            </tr>
+            <tr>
+                <td>You need to sell next year to fund something specific</td>
+                <td>REIT, or cash. A building is a bad piggy bank. So is a REIT you might have to sell in a rate spike. Match the horizon.</td>
+            </tr>
+            <tr>
+                <td>You want the interest deduction and you are borrowing to invest</td>
+                <td>Either a rental whose debt traces cleanly, or a non-registered REIT with a real income purpose. Not a TFSA. The tracing standard is the <a href="/blog/heloc-strategies-cra-clean-canada/">HELOC guide</a>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Illustration of tax location, not a return comparison</strong>
+        <p>You have $50,000 of TFSA room and $50,000 you might use as a down payment. Put into a REIT inside the TFSA, the distributions compound without a T3 on your desk, and you can sell on a weekday. Put into a down payment, the $50,000 becomes a 20 percent deposit on an illustrative $250,000 property only if a lender agrees, and in most Canadian cities it is a smaller fraction of a real price. You then owe closing costs, a mortgage payment, and a taxable gain later if you do not live there. The REIT can fall 20 percent and you can still sell. The building can fall 20 percent and your equity is largely gone while the mortgage remains. These are different tools. The $50,000 is a teaching scale, not a recommendation to buy either.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>Rate resets hit both, differently:</strong>
+        <p>A rental feels a renewal in the monthly payment. A REIT feels it in the unit price and in the trust's own financing costs, sometimes before your rental mortgage comes due. Owning both does not hedge a rate move. It concentrates it. If your home, your rental, and your REIT all depend on the same rate cycle, say that out loud and size the rental so a renewal is survivable. The stress arithmetic is in the multi-property guide.</p>
+    </div>
+
+    <h2>A clean way to decide</h2>
+
+    <ol>
+        <li>If the exemption might apply, stop. Direct ownership, personal title, no corporation.</li>
+        <li>If you will not answer a tenant, and you will not pay a manager, buy the REIT.</li>
+        <li>If you still have TFSA room, the REIT goes there before it goes into a taxable account.</li>
+        <li>If you want the building, underwrite vacancy, renewal, and a capital reserve. Then look at land transfer tax. Then decide.</li>
+        <li>Do not own a one-building rental and a REIT that owns the same submarket and call it diversification.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>A REIT is a security. A rental is an operating asset with a loan.</strong> Liquidity, leverage, and labour are the real differences.</li>
+        <li><strong>The principal residence exemption applies only to a home you inhabit and designate.</strong> It never applies to REIT units.</li>
+        <li><strong>REIT cash is a tax mix, often other income and return of capital,</strong> not an eligible dividend. Shelter it in a TFSA while you have room.</li>
+        <li><strong>Direct ownership's edge is the mortgage and the exemption,</strong> and its cost is concentration, illiquidity, and work.</li>
+        <li><strong>Do not borrow inside a TFSA to buy either story.</strong> Interest on registered contributions is not deductible.</li>
+        <li><strong>Your principal residence is already real estate.</strong> The next dollar of property exposure should have a reason other than familiarity.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The yield on the screen is not the line on the T3.</strong></p>
+        <p>Distribution character, adjusted cost base, and rental income are filing problems. The 2026 tax guide is the filing side of this comparison.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education comparing Canadian REIT units with owning a rental property directly. It is not investment, tax, or legal advice, and it is not a recommendation to buy any security or property. Distribution mixes, inclusion rates, and lending terms change. Dollar figures are illustrations of scale, not forecasts. Read the current fund facts and your T3, and have a CPA review a leveraged purchase.</p>
+        <div class="footer-note">Published: December 4, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "FHSA to Home Purchase: The Sequencing, Not the Tax Brochure",
+    slug: "fhsa-home-purchase-sequencing-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-05",
+    excerpt: "The order of operations for a first home: when to open, when to contribute, when to withdraw, and where the RRSP Home Buyers' Plan sits relative to the down payment.",
+    image: "/images/blog/fhsa-home-purchase-sequencing-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The FHSA's tax anatomy is already written. The expensive mistakes happen in <span class="highlight">the order of the cheques</span>: room that never started because the account was opened late, a withdrawal that misses the lawyer's deadline, and an RRSP raid you then have to repay.
+    </div>
+
+    <p>The deduction, the $8,000 annual room, the capped carry-forward, and the lifetime limit are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP as savings tools is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a>. This article starts when a purchase is real. It is about timing: what to fund, what to liquidate, what to withdraw, and what to leave alone so the down payment arrives in the trust account as cash.</p>
+
+    <div class="callout">
+        <strong>Room does not backdate:</strong>
+        <p>FHSA contribution room begins in the year you open the account. It does not pile up for the years you qualified and did nothing. Carry-forward of unused room is capped, and the cap has been $8,000, so a later year has been limited to $16,000. The lifetime limit has been $40,000, which is five years of maximum contributions, not a balance you can wish into the account in the month you hire a realtor. Open the account when you are eligible, even if the first contribution is small.</p>
+    </div>
+
+    <h2>Before you are shopping</h2>
+
+    <ol>
+        <li><strong>Confirm you are a first-time buyer for the FHSA you want to open, and again for the withdrawal you will want later.</strong> The tests are related and they are not identical. Opening looks at whether you or your spouse owned a home you lived in during the lookback. The qualifying withdrawal has its own test, including whether you live in a home you or your spouse owns. Read both in the FHSA guide before you assume two partners means two plans.</li>
+        <li><strong>Contribute cash if you want a deduction. Transfer from the RRSP only if you are deliberately giving up RRSP room.</strong> A designated transfer from your RRSP to your FHSA uses FHSA room, does not create a second deduction, and does not restore RRSP room. It can be the right move when you would otherwise use the Home Buyers' Plan and you would rather not repay. It is the wrong move when the RRSP deduction is the valuable part and you have cash to contribute.</li>
+        <li><strong>Invest for the purchase date.</strong> A first-home FHSA that must be cashed in two years is not a 30-year equity chart. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> makes the same point. A loss in the quarter you waive conditions is a smaller down payment, not a learning experience the seller will finance.</li>
+        <li><strong>Keep closing costs out of the "down payment" story.</strong> Land transfer tax, adjustments, and fees are the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>. If the FHSA exactly equals 5 percent or 20 percent, you are short.</li>
+    </ol>
+
+    <h2>The qualifying withdrawal has a clock</h2>
+
+    <p>A tax-free withdrawal has conditions. You need a written agreement to buy or build a qualifying home in Canada. You must intend to occupy it as a principal residence within a year of buying or building. You must be a resident of Canada. You must still meet the first-time buyer test that applies to the withdrawal. You must not have acquired the home more than 30 days before the withdrawal. The request is Form RC725, filed with the issuer, not a casual transfer to chequing.</p>
+
+    <p>Practical order: sign the agreement, then request the withdrawal so the cash is in the lawyer's trust account before closing. You can be early relative to closing. You cannot be casually late. A withdrawal more than 30 days after you take title fails the timing condition even if every other fact is perfect. Contribute any room you still want a deduction for before that first qualifying withdrawal. Once the qualifying withdrawal is made, the account is on a wind-down. Do not plan a contribution for the week after. Confirm the issuer's cutoff in the same conversation as the RC725.</p>
+
+    <div class="warning-box">
+        <strong>A qualifying withdrawal ends the savings phase:</strong>
+        <p>After the first qualifying withdrawal you have until December 31 of the following year to close your FHSAs. Money left inside can be transferred to an RRSP or RRIF without using RRSP contribution room, or taken as a taxable withdrawal. Missing the deadline is how a tax-free plan becomes an income inclusion. Put the date in the same calendar as the moving date.</p>
+    </div>
+
+    <h2>Which dollar funds the down payment</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>Use it</th>
+                <th>Leave it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FHSA qualifying withdrawal</td>
+                <td>First, for the down payment and the costs the rules allow you to fund with it. It is tax-free when it qualifies, and it is not repaid.</td>
+                <td>If you do not yet have the written agreement, or the withdrawal would miss the 30-day rule. Fix the sequence. Do not take a taxable withdrawal because you are impatient.</td>
+            </tr>
+            <tr>
+                <td>Cash and non-registered investments</td>
+                <td>Next. Selling investments can realize a capital gain in the year you also have moving costs. Choose the year on purpose. The gain is only half included, but half of a large gain is still income.</td>
+                <td>If the sale also triggers a loss you intend to harvest and you will rebuy the same fund inside a registered account within the superficial-loss window. The <a href="/blog/tax-loss-harvesting-calendar-canada/">harvesting calendar</a> applies on the way into a house too.</td>
+            </tr>
+            <tr>
+                <td>TFSA</td>
+                <td>When the FHSA and taxable cash are not enough. The withdrawal is tax-free. The room comes back on the next January 1, not the next morning. Recontributing in the same year can over-contribute.</td>
+                <td>As the first dollar, if doing so leaves a qualifying FHSA sitting unused. The FHSA's withdrawal is the one that disappears as a planning tool after you buy. TFSA room returns.</td>
+            </tr>
+            <tr>
+                <td>RRSP Home Buyers' Plan</td>
+                <td>Last. The maximum was raised to $60,000. Confirm the current maximum in the year you withdraw. You must qualify as a first-time buyer for the plan, and you must repay the withdrawal over a long schedule, ordinarily 15 years, starting the second year after the year of withdrawal. A missed repayment is included in income and you do not get the contribution room back.</td>
+                <td>When you are already at a 20 percent down payment and the only reason to raid the RRSP is impatience. You are trading compounding inside the RRSP, and a future repayment from after-tax cash, for a slightly smaller mortgage. Price the mortgage-insurance premium before you decide the raid is cheaper. Temporary repayment holidays have been tied to specific withdrawal windows. Do not assume one for a purchase outside the window that was legislated.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>The insurance premium is the number the HBP has to beat:</strong>
+        <p>A down payment under 20 percent generally means mortgage default insurance if you want a high-ratio mortgage, subject to the insurer's price cap and property rules. The minimum down payment structure has long been 5 percent on the first slice of price and 10 percent on the remainder, up to a maximum insurable price that has been raised before. The premium is a percentage that falls as the down payment rises. It is often added to the mortgage, and some provinces charge sales tax on it. Use the insurer's current table. If draining the RRSP gets you across 20 percent and avoids that premium, the Home Buyers' Plan can be the rational, costly tool. If you are already across 20 percent, it is usually an expensive way to feel liquid.</p>
+    </div>
+
+    <h2>A purchase-year sequence</h2>
+
+    <div class="example-box">
+        <strong>Illustration of order, not a budget</strong>
+        <p>Two eligible spouses each opened an FHSA in 2024 and contributed the annual maximum for 2024, 2025, and 2026. Each account has three years of contributions plus whatever growth or loss the investments produced. Neither account has the lifetime maximum, because five years have not passed. In January 2027 they contribute that year's new room, if they are still eligible, before anyone requests a withdrawal. They keep the accounts in something they can settle inside the closing timeline. They sign a purchase agreement. They file RC725 and schedule the withdrawals to land before the trust-account deadline. They add taxable cash, then TFSA withdrawals, and they touch the Home Buyers' Plan only if the insurance premium on the remaining mortgage is the larger cost. They leave a cash reserve for the first repair. In the year after the withdrawal they transfer any FHSA remainder to their RRSPs and close the accounts before the December 31 deadline. Change the years and the room changes. The order does not.</p>
+    </div>
+
+    <p>Couples do not automatically double everything. If one spouse's ownership history blocks the other's first-time status, the second FHSA may be unavailable. If both qualify, you have two lifetimes of room and, potentially, two Home Buyers' Plan withdrawals. Title, the rebate for land transfer tax, and who occupies the home all have to match the story on the withdrawal forms. Decide who is on title with the closing lawyer before the RC725, not after. The <a href="/blog/contribution-limits-2026/">contribution limits guide</a> is the room table. The <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> is the repayment obligation you are accepting if you use the Home Buyers' Plan.</p>
+
+    <div class="warning-box">
+        <strong>Do not spend the reserve to look like a larger down payment:</strong>
+        <p>A house with no cash the month the furnace fails becomes credit-card debt at a rate no mortgage can match. The priority of that card versus the new mortgage is the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">prepayment versus TFSA and RRSP guide</a>. Leave the reserve. A slightly higher mortgage, if you qualify, is often cheaper than a closed TFSA and an empty chequing account.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Open the FHSA when you qualify.</strong> Room does not accrue for years the account did not exist, and the lifetime maximum takes years of contributions.</li>
+        <li><strong>Contribute for the deduction before the qualifying withdrawal.</strong> A transfer from the RRSP is not a second deduction.</li>
+        <li><strong>The withdrawal needs a written agreement and the 30-day timing.</strong> Get the cash to the lawyer before closing, not after a congratulatory dinner.</li>
+        <li><strong>Fund in this order: FHSA, taxable cash, TFSA, Home Buyers' Plan.</strong> The HBP is a loan from your future self, repayable, and it is there to beat an insurance premium.</li>
+        <li><strong>Closing costs are not the down payment.</strong> Budget them in cash.</li>
+        <li><strong>Close or transfer the FHSA by the statutory deadline</strong> after the first qualifying withdrawal. The transfer to an RRSP does not use new RRSP room.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The account is generous. The calendar is strict.</strong></p>
+        <p>Deductions, repayments, and the principal residence you just bought all land on a return. The 2026 tax guide is that return.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the order of FHSA, TFSA, and Home Buyers' Plan withdrawals for a first home in Canada. It is not tax, legal, or mortgage advice. Contribution limits, the HBP maximum, repayment timing, and qualifying-withdrawal conditions change. Figures described as "has been" are there so you will confirm them. The couple in the example is an illustration of sequencing, not a savings target. Confirm RC725 timing with your issuer and cash to close with your lawyer.</p>
+        <div class="footer-note">Published: December 5, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Mortgage Prepayment vs TFSA and RRSP: Which Dollar First",
+    slug: "mortgage-prepayment-vs-tfsa-rrsp-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-06",
+    excerpt: "A priority stack for the extra dollar: kill expensive consumer debt, take the match, then choose among the RRSP deduction, TFSA flexibility, and a guaranteed mortgage rate.",
+    image: "/images/blog/mortgage-prepayment-vs-tfsa-rrsp-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Three respectable uses of a dollar, and only the mortgage is a <span class="highlight">guaranteed after-tax return</span>. The RRSP can still go first, if the deduction is real and the refund does not get spent. The TFSA goes first when you will need the dollar again.
+    </div>
+
+    <p>The pure hurdle-rate comparison — mortgage versus a GIC, a taxable account, or an equity return — is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. Use it once you know which account is even in the running. This article is the order. It assumes you already have the residence mortgage and you are staring at a surplus. If the surplus is actually a first-home down payment, stop and use the <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing guide</a> instead of prepaying a mortgage you do not have yet.</p>
+
+    <div class="callout">
+        <strong>Anything that is not the mortgage, the TFSA, or the RRSP:</strong>
+        <p>Credit-card and other high-interest consumer debt outranks all three. The rate is certain, non-deductible, and higher than a plausible investment return. An employer match on a group RRSP or pension outranks a prepayment too. Declining a match to pay principal is donating compensation. Take the match, then return to this list.</p>
+    </div>
+
+    <h2>The stack</h2>
+
+    <ol>
+        <li><strong>A small cash reserve.</strong> Prepaying the last liquid dollar, then putting a furnace on a card, is a negative return. The reserve is not an investment decision. It is what keeps the next decision from being reversed at 20 percent.</li>
+        <li><strong>FHSA, if you still qualify and a move is real.</strong> The triple advantage can beat both a TFSA and a prepayment for money that will become a down payment. If this mortgage is the home you already own and you will not qualify, skip this rung. Do not open an FHSA as a costume for money you will not withdraw for a home.</li>
+        <li><strong>RRSP, when the bracket gap is the point.</strong> A contribution deducted in a high bracket and withdrawn in a lower one, with the refund assigned to the mortgage or the TFSA, can beat a plain prepayment. A contribution deducted in the same bracket you will withdraw in, with the refund spent, loses to both the TFSA and the mortgage. The mechanics are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The room is the <a href="/blog/contribution-limits-2026/">limits guide</a>.</li>
+        <li><strong>TFSA, when flexibility or a similar lifetime bracket is the point.</strong> Withdrawals do not raise net income. That matters later for Old Age Security. The clawback context is the <a href="/blog/oas-gis-clawback-canada/">OAS guide</a>, and the account itself is the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>. January room is the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a>.</li>
+        <li><strong>Mortgage prepayment, when the contract rate wins the hurdle.</strong> Inside the privilege, with a rate you read off your own term. Illiquid. Certain. After tax, because residence interest is not deductible.</li>
+    </ol>
+
+    <h2>A rule for the top of the stack</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>If this is true</th>
+                <th>The next dollar goes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>You carry a credit-card balance</td>
+                <td>The card. Stop.</td>
+            </tr>
+            <tr>
+                <td>An employer matches the next dollar of group RRSP or pension</td>
+                <td>The match. Then come back.</td>
+            </tr>
+            <tr>
+                <td>Your marginal rate this year is meaningfully higher than the rate you expect on RRSP withdrawals, and you will put the refund on the mortgage or into the TFSA</td>
+                <td>RRSP, up to the deduction that actually lands in that high bracket. Not a dollar past it into a lower bracket, unless you are filling room you will lose a reason to use.</td>
+            </tr>
+            <tr>
+                <td>Brackets now and later look similar, or you might want the cash for a privilege-sized prepayment next year, or OAS is a future problem</td>
+                <td>TFSA.</td>
+            </tr>
+            <tr>
+                <td>The contract rate beats the after-tax yield of the safe investment you would actually buy, and you will stay through the term</td>
+                <td>The mortgage, inside the privilege. Confirm the penalty before you exceed it. The hurdle arithmetic is the other guide.</td>
+            </tr>
+            <tr>
+                <td>The contract rate is far below new rates, and the term still has years</td>
+                <td>TFSA or RRSP, not extra principal. You hold a cheap loan. Do not rush to give it back.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Illustration of the refund loop, not a bracket table</strong>
+        <p>You have $12,000. The contract rate in this picture is 4.8 percent. Your marginal rate in this picture is 43 percent, the sort of rate that is top-bracket territory in several provinces. Use yours from the <a href="/blog/provincial-tax-rates-2026/">provincial rates guide</a>. All $12,000 on the mortgage avoids about $576 of interest in the first year, after tax, because the interest was not deductible. All $12,000 in the TFSA earns whatever the TFSA earns, tax-free. If that is an illustrative 3 percent, you made less than the mortgage saved and you kept the option to withdraw. If it is an illustrative 6 percent, you made more in expectation, with a year that can be negative. All $12,000 to the RRSP saves about $5,160 of tax if the entire contribution is deductible at 43 percent. Put that refund on the mortgage and you have reduced the balance by $5,160 and sheltered $12,000. The $12,000 will be taxed when it comes out. If it comes out at an illustrative 25 percent, the deduction was worth more than the inclusion and the years of deferral did work. If it comes out at 43 percent, you mostly deferred, and the win is the $5,160 prepayment plus the deferral, not a 43 percent gift. If you spend the refund, you skipped the prepayment and kept the future tax. None of these rates is a quote or a promise about your retirement bracket.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>The refund is part of the strategy or the strategy is smaller:</strong>
+        <p>An RRSP contribution whose refund buys a kitchen is consumption financed by a future inclusion. It can still be the right kitchen. It is not a mortgage plan and it is not a retirement plan. Decide the refund's destination when you make the contribution. Automate it. A refund that lands in chequing in May will get spent by July unless the mortgage payment or the TFSA transfer is already scheduled.</p>
+    </div>
+
+    <h2>What this stack refuses to do</h2>
+
+    <ul>
+        <li><strong>It does not borrow to contribute.</strong> Interest on money borrowed to put into a TFSA or RRSP is not deductible. If you are borrowing against the house to invest, that is a non-registered leverage plan, and the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a> and the <a href="/blog/heloc-strategies-cra-clean-canada/">HELOC guide</a> are the constraints.</li>
+        <li><strong>It does not prepay past the privilege on a hunch.</strong> Get the payout statement. A penalty is a certain cost.</li>
+        <li><strong>It does not ignore a spouse's room.</strong> The lower-income spouse's TFSA is still tax-free. The higher-income spouse's RRSP deduction is usually the valuable one. Attribution on TFSA contributions you fund for a spouse is not the problem people think it is. A gift that they invest in a non-registered account is a different story. The <a href="/blog/income-splitting-strategies-couples/">couples guide</a> is the line.</li>
+        <li><strong>It does not pretend the mortgage is the emergency fund.</strong> A readvance is underwriting, not an ATM you control in a job loss.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Rerun the stack at renewal and at a bracket change, not every payday:</strong>
+        <p>A new term has a new hurdle rate. A parental-leave year or a large bonus changes the RRSP rung. A TFSA that you raided for a repair gets refilled on the next January 1 when the room returns, and that refill can outrank a prepayment for a year. Write the order down. The <a href="/blog/retirement-withdrawal-strategy/">retirement withdrawal guide</a> is what this stack looks like later, when the RRSP becomes a RRIF and the mortgage is either gone or the last debt you want in retirement.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Consumer debt, then the match, then this debate.</strong> Prepaying a 5 percent mortgage while carrying a card is theatre.</li>
+        <li><strong>The RRSP wins when a real bracket gap meets a refund you assign.</strong> Spending the refund deletes the part that competed with the mortgage.</li>
+        <li><strong>The TFSA wins when you want the dollar back,</strong> when brackets match, or when future income-tested benefits matter.</li>
+        <li><strong>The mortgage wins when its rate beats a safe after-tax alternative</strong> and you can live without the liquidity.</li>
+        <li><strong>A cheap existing term is an asset.</strong> Do not prepay it out of discomfort with debt.</li>
+        <li><strong>Do not borrow to fill registered room</strong> and call the interest a carrying charge.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The order is a tax decision wearing a mortgage's clothes.</strong></p>
+        <p>Brackets, room, and the refund only work if the return is filed as you planned. The 2026 tax guide is that return.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about prioritizing a Canadian residence-mortgage prepayment against TFSA and RRSP contributions. It is not tax, investment, or mortgage advice. Brackets, room, and contract rates are personal. The dollar example uses illustrative rates so you can see the structure. It is not a quote and not a projection of your retirement tax rate. Confirm a prepayment charge with your lender before you exceed the privilege.</p>
+        <div class="footer-note">Published: December 6, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Landlord Incorporation: When It Pays, and When It Is Just a T2",
+    slug: "landlord-incorporation-when-it-pays-canada",
+    category: "Real Estate",
+    categorySlug: "real-estate",
+    author: "Andrew Carrothers",
+    date: "2026-12-07",
+    excerpt: "Most small landlords should own rentals personally. A corporation helps when the activity is actually a business, the liability is real, or you are deferring retained earnings on purpose.",
+    image: "/images/blog/landlord-incorporation-when-it-pays-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A corporation does not turn rent into the small-business rate. For almost every landlord with a condo and no employees, it turns rent into <span class="highlight">a T2, a refundable tax, and a lost principal residence exemption</span>.
+    </div>
+
+    <p>The question "should I incorporate at all" for an operating business is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. The question of where a portfolio of securities should sit, personal or holdco, is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the rental-property version. The building still has to work as a building. Incorporation does not fix a bad cap rate. The arithmetic is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>.</p>
+
+    <div class="callout">
+        <strong>Specified investment business is the default:</strong>
+        <p>A corporation whose principal purpose is to earn income from property — rent is income from property — is a specified investment business. The exception that people quote is "more than five full-time employees." Contractors are not automatically employees. Two superintendents are not five. Unless that test is truly met, the rental income is not eligible for the small-business deduction. It is aggregate investment income: taxed up front at a high corporate rate, with a refundable portion that comes back when the corporation pays you taxable dividends. That is the same RDTOH machinery as a holdco full of GICs. Integration is the design. A permanent tax saving is not.</p>
+    </div>
+
+    <h2>When it does not pay</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The file</th>
+                <th>Why personal title is usually cleaner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>One to a few long-term residential rentals, no employees</td>
+                <td>You would report net income on a T776 at your marginal rate. Inside a corporation you pay a high investment-income rate, then personal tax when you dividend the cash out, plus a T2 and a minute book. If the accounting bill is a large fraction of net rent, the corporation is a hobby with a business number. Ask what the compliance costs this year. Do not use a figure from a thread.</td>
+            </tr>
+            <tr>
+                <td>A property you might live in and designate</td>
+                <td>A corporation cannot claim the principal residence exemption. The exemption is worth more than any deferral on a home. The rules are the <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence guide</a>. Buy it personally if the exemption is even a maybe.</td>
+            </tr>
+            <tr>
+                <td>You already own the property personally and it has a gain</td>
+                <td>Transferring it in is a disposition at fair market value. You trigger the taxable gain now. Many provinces also charge land transfer tax on the transfer into the company. Related-party exemptions are narrow. The closing guide is the <a href="/blog/land-transfer-tax-closing-costs-canada/">transfer-tax map</a>. Get the opinion before the deed.</td>
+            </tr>
+            <tr>
+                <td>"I want to income-split with my adult children"</td>
+                <td>The tax on split income is aimed at this. Dividends from a rental corporation often do not qualify for the excluded-business test unless the recipient actually works enough hours to meet it. Excluded-share tests are narrow and rental income is an awkward fit. Do not incorporate as a splitting plan. The personal side of splitting is the <a href="/blog/income-splitting-strategies-couples/">couples guide</a>, and it does not rescue a TOSI dividend.</td>
+            </tr>
+            <tr>
+                <td>You also own an operating company</td>
+                <td>A rental company you control may be associated with the opco. Passive income can grind the small-business limit on the active business. The federal band that has been discussed for that grind starts being relevant above $50,000 of adjusted aggregate investment income and eliminates the limit at $150,000. Confirm both, and whether your province follows. The longer version is the corporate investing guide.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>When it starts to deserve the legal bill</h2>
+
+    <ul>
+        <li><strong>The activity is a business, not a specified investment business.</strong> More than five full-time employees throughout the year is the statutory door to treating the rents as active business income eligible for the small-business rate. A development or construction business that sells properties as inventory is a different file again: that profit can be fully taxable business income, not a half-included capital gain, and GST/HST can apply. A flip is not a capital-gains plan wearing a corporation.</li>
+        <li><strong>Unrelated people need to own it together.</strong> Shares can be cleaner than a co-ownership that nobody wrote down. A partnership is the other real option, with its own filing if a T5013 is required. Pick the entity for the ownership problem you have, not because a bank account felt informal.</li>
+        <li><strong>You are retaining substantial rent you will not need personally for years,</strong> and a CPA has shown that the deferral, after the high upfront corporate tax and the annual compliance cost, still beats paying the rent out and investing personally. This is the same deferral logic as retained active earnings, except the upfront rate on a specified investment business is the ugly one. Small net rent does not survive that arithmetic.</li>
+        <li><strong>Counsel wants a liability box that insurance will not provide,</strong> and you have accepted that the mortgage will likely come with a personal guarantee. The guarantee means the lender can still pursue you. A slip-and-fall above the policy limit is the sort of risk a corporation can contain. It is not a cloak, and it is not a substitute for a lessor's liability policy.</li>
+        <li><strong>An estate freeze is a real objective,</strong> with a lawyer and a CPA, because future growth should accrue to a new class of shares. That is a succession plan. It is not a reason to roll a single condo. The personal estate documents still have to exist. The <a href="/blog/estate-planning-wills-poa/">estate planning guide</a> is the personal layer a corporation does not replace.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Short-term rentals and flips have extra tax that incorporation does not erase:</strong>
+        <p>Long-term residential rent is generally GST/HST-exempt. Short-term stays can be taxable supplies. Once you pass the small-supplier threshold, which has been $30,000 of taxable supplies, registration stops being optional. A property you renovate to sell can be inventory. Inventory profit is business income, fully included, and the principal residence exemption does not shelter a house you built to flip. Putting that activity in a corporation changes who files. It does not turn inventory into a capital gain.</p>
+    </div>
+
+    <h2>Two files, side by side</h2>
+
+    <div class="example-box">
+        <strong>Patterns, not a quote for your accountant's bill</strong>
+        <p>File A is a condo with an illustrative $8,000 of net rent and no employees. The owner lives elsewhere, so the principal residence exemption is already off the table for this unit. Moving it into a corporation triggers tax on any accrued gain, may trigger land transfer tax, and replaces a T776 with a corporate return whose investment-income tax is largely a prepayment of the tax due when the cash is dividended out. Unless the compliance cost is trivial relative to a goal this condo does not have, File A stays personal.</p>
+        <p>File B is a portfolio run with more than five full-time employees, or a small development company that already files as an active business. The shareholders are unrelated and need a shareholders' agreement. Lenders want guarantees, and counsel still wants the entity because the operations create claims insurance will not fully cover. File B is a corporate conversation. The employee count, the association with any other company, and the GST status are the first three questions, not the logo on the minute book.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Buy the next one in the right name. Do not "fix" the last one:</strong>
+        <p>If you and your CPA decide the next property belongs in a corporation, acquire it there. Rolling yesterday's appreciated rental in, to make the org chart pretty, pays tax for a diagram. If you are not sure, own it personally. You can revisit a new purchase. You cannot easily un-trigger a disposition.</p>
+    </div>
+
+    <h2>What to take to the CPA and the lawyer</h2>
+
+    <ol>
+        <li>How many full-time employees the corporation would actually have, and whether they are employees.</li>
+        <li>Whether any property is, or might be, a principal residence.</li>
+        <li>The accrued gain and the provincial transfer tax on a rollover you think you want. Assume there is no painless rollover until someone who has read the statute says otherwise.</li>
+        <li>Every other company you or your relatives control, for association and the passive-income grind.</li>
+        <li>Whether anyone expects to receive dividends without working. If the answer is yes, stop and talk about TOSI before you incorporate.</li>
+        <li>Whether short-term rental or resale activity pushes you into GST/HST and into business income.</li>
+        <li>The personal guarantee the lender will require. If the guarantee is full, ask counsel what the corporation still achieves for liability.</li>
+    </ol>
+
+    <p>Financing is part of the tax decision. Some lenders price a corporate borrower differently and want the guarantee anyway. This article will not quote a rate or a fee. If the only reason you are incorporating is a conversation you had with a mortgage broker about "portfolio lenders," get the tax opinion before you open the company. A lending program is not a tax status.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Long-term rent in a corporation with five or fewer employees is a specified investment business.</strong> Expect the high investment-income rate and a refund when you dividend the money out, not the small-business rate.</li>
+        <li><strong>A corporation cannot claim the principal residence exemption.</strong> Do not put a home you might designate into one.</li>
+        <li><strong>Transferring an appreciated rental in triggers tax,</strong> and often land transfer tax. Buy the next property in the right name instead.</li>
+        <li><strong>Income splitting via dividends is a TOSI problem,</strong> not a benefit of incorporation.</li>
+        <li><strong>An associated rental company can grind an operating company's small-business limit.</strong> Confirm the thresholds.</li>
+        <li><strong>Incorporate for real employees, real co-owners, a priced deferral, or a liability counsel can describe.</strong> Otherwise file the T776 and go back to underwriting the building.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The minute book does not change the inclusion rate.</strong></p>
+        <p>Personal rental income, corporate investment income, and the exemption you kept or gave up are all tax. The 2026 tax guide is the personal side of that file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about when a Canadian landlord might incorporate. It is not tax, legal, or lending advice, and it is not a recommendation to incorporate or to transfer property. The specified-investment-business test, association, TOSI, GST/HST thresholds, and land transfer tax are fact-specific and change. Dollar examples are patterns, not your net rent and not a quote for professional fees. Have a CPA and a lawyer review the transfer before you sign a deed.</p>
+        <div class="footer-note">Published: December 7, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  }
 ];
