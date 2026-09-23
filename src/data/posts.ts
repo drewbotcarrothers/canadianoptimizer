@@ -1,6 +1,434 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 export const posts = [
   {
+    title: "DIY ETF Portfolio for Canadians: Asset Allocation and Account Location",
+    slug: "diy-etf-portfolio-asset-location-canada",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-10-09",
+    excerpt: "How to set a stock-and-bond mix, then place ETFs across a TFSA, RRSP, and non-registered account so tax and withholding land in the right place.",
+    image: "/images/blog/diy-etf-portfolio-asset-location-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A DIY ETF portfolio is two decisions, and people skip the one that actually changes the tax bill. First, how much of the household sits in equities versus bonds. Second, <span class="highlight">which account holds which sleeve</span>. The ticker is the last choice, and it is the one the internet argues about.
+    </div>
+
+    <p>You do not need a forecast, a sector bet, or a new fund every January. You need a mix you will still hold after a bad year, placed so interest, eligible dividends, and US withholding tax fall in the account that treats them least badly. Product names below are examples of a structure. Management fees, holdings, and tax character change. Read the current ETF facts sheet before you buy, and do not treat any figure on this page as a live quote or a promised return.</p>
+
+    <div class="callout">
+        <strong>Fill the room before you engineer the taxable account:</strong>
+        <p>Asset location is a refinement. Contribution order is the foundation. Unused TFSA and RRSP room, and an FHSA if a first home is still real, comes before a clever non-registered sleeve. The <a href="/blog/tfsa-contribution-optimization-2026/">January TFSA contribution guide</a>, the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA comparison</a>, and the <a href="/blog/contribution-limits-2026/">2026 limits table</a> are the sequence. This article starts once the dollars have an account.</p>
+    </div>
+
+    <h2>Write the mix before you open a fund list</h2>
+
+    <p>The stock-and-bond split is a behaviour constraint, not a puzzle with a correct answer. Equities are the growth engine and the part that can be down hard when you wish it were not. Bonds, GICs, and high-interest savings are the part that is there so you are not forced to sell equities to buy groceries or a house. Money you know you will spend inside a few years does not belong in a volatile equity ETF. A first-home FHSA with a purchase on the horizon is the clearest case — the <a href="/blog/fhsa-guide-2026/">FHSA guide</a> is about that timeline, not about maximizing a 30-year equity chart.</p>
+
+    <p>There is no CRA-approved percentage. A common Canadian habit is a meaningful bond weight that rises as the spending date gets closer, and an equity weight you can describe in one sentence. Write that sentence down. If you cannot say it in a drawdown, you do not have an allocation. You have a mood.</p>
+
+    <div class="tip-box">
+        <strong>Canada is a decision, not a default:</strong>
+        <p>A global equity fund already owns a small slice of Canada, because Canada is a small slice of world markets. Adding a separate Canadian equity ETF on top is a home-bias choice. The honest reasons are the currency you spend, the eligible-dividend treatment available in a non-registered account, and the fact Canadian markets do not move in lockstep with US markets. The honest caution is concentration: financials, energy, and materials dominate the domestic index. Pick a Canada weight you can live with and stop shopping for someone else's number.</p>
+    </div>
+
+    <h2>One fund, or building blocks</h2>
+
+    <p>Both are legitimate. They fail in different ways.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Structure</th>
+                <th>What you buy</th>
+                <th>What you give up</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>One-fund asset allocation ETF</td>
+                <td>A single Canadian-listed fund that already mixes stocks and bonds, and rebalances inside the fund. Vanguard, iShares, and BMO each publish a ladder from conservative to all-equity. Confirm the current series and the MER on the facts sheet.</td>
+                <td>You cannot put bonds in one account and equities in another. US dividend withholding inside the fund is whatever the fund pays. Fine when simplicity is what will keep you invested.</td>
+            </tr>
+            <tr>
+                <td>Building blocks</td>
+                <td>Separate ETFs for Canadian equity, global equity, and Canadian bonds, placed in different accounts. The household still adds up to the mix you wrote down.</td>
+                <td>You must rebalance, or the mix drifts. The MER gap versus an all-in-one is usually small. Read both facts sheets. Do not assume the gap pays for a portfolio you abandon.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>If you will not rebalance, buy the one-fund. Hold it in the TFSA, the RRSP, and the FHSA. You will be slightly less precise about US withholding and you will not harvest the dividend tax credit inside a taxable account, because a balanced fund is a blend. For a lot of households that imprecision is cheaper than five overlapping tickers. Asset location starts to earn its complexity when a non-registered account exists, or when you are deliberately holding US-listed funds inside an RRSP.</p>
+
+    <div class="warning-box">
+        <strong>Do not stack copies of the same idea:</strong>
+        <p>An all-equity asset-allocation ETF plus a global equity ETF plus a US equity ETF is not diversification. It is the same companies three times, with a Canada weight you no longer know. One structure. If you use an all-in-one, stop. If you use building blocks, do not also buy the all-in-one "for safety."</p>
+    </div>
+
+    <h2>Where each sleeve belongs</h2>
+
+    <p>The tax system does not treat investment income equally. Interest is fully included. Eligible Canadian dividends get a gross-up and a credit that only works in a taxable account. Capital gains are partially included, and only when realized outside a registered account. US dividends can face withholding before they reach you, and the Canada–US treaty turns that off for an RRSP or RRIF that holds the US security directly — not for a TFSA. The longer version of those rules is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. The map below is the portfolio version.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sleeve</th>
+                <th>First home for it</th>
+                <th>Why</th>
+                <th>Do not assume</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Canadian bonds, GICs, or a savings-style ETF</td>
+                <td>RRSP</td>
+                <td>Interest is the harshest taxable income, and the expected growth is lower, so this sleeve is a poor use of scarce TFSA room if equities still need a home.</td>
+                <td>That a bond ETF cannot fall. Yields rise, prices fall. Near-term spending belongs in a GIC or savings vehicle, not a long bond fund, and not in non-registered while registered room is empty.</td>
+            </tr>
+            <tr>
+                <td>US-listed broad equity ETF</td>
+                <td>RRSP or RRIF</td>
+                <td>The treaty can remove US dividend withholding when the registered retirement account is the direct holder. Your broker's treaty form (often a W-8BEN) is what turns that on.</td>
+                <td>That the same trick works in a TFSA. It does not. Withholding there is gone. High-yield US payers are the expensive version of this mistake. Low-yield growth is a smaller leak if the RRSP has no room left.</td>
+            </tr>
+            <tr>
+                <td>Canadian-listed ETF that holds US stocks or a US-listed ETF</td>
+                <td>TFSA, if you want one currency and no journal</td>
+                <td>Simple. Contributions stay in Canadian dollars. You were not going to get the treaty benefit in the TFSA anyway.</td>
+                <td>That parking the Canadian ticker in an RRSP restores the treaty. Open the holdings. If the fund owns a US-listed ETF, withholding usually happens inside that US fund and the RRSP cannot unwind it. If the fund owns the stocks directly, withholding is still at the fund level, not at your RRSP. Confirm on the prospectus whether a taxable account even receives a foreign-tax figure on the T3.</td>
+            </tr>
+            <tr>
+                <td>Canadian equity ETF</td>
+                <td>Non-registered, once TFSA and RRSP room are full. TFSA, if there is no taxable account yet.</td>
+                <td>Eligible dividends and tax-loss harvesting only exist outside registered accounts. Inside a TFSA the shelter beats the dividend tax credit. Inside an RRSP the credit is wasted and withdrawals are taxed later as ordinary income.</td>
+                <td>That the credit is a reason to prefer the RRSP over the TFSA for Canadian stocks. It is not.</td>
+            </tr>
+            <tr>
+                <td>The equity you most want to compound untouched</td>
+                <td>TFSA</td>
+                <td>Growth is tax-free and withdrawals do not inflate income-tested benefits. That is the account's whole advantage over the RRSP. The <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a> is the account; the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a> is the January funding rule.</td>
+                <td>That a TFSA full of chequing-rate cash is a strategy, while equities sit in a taxable account. It is backwards for a long horizon.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Currency hedging is a preference, not a free lunch:</strong>
+        <p>Hedged equity ETFs exist. The hedge has a cost and it does not reliably raise long-run equity returns. Many long-horizon portfolios leave equity unhedged and keep the bond sleeve in Canadian dollars, because the point of the bonds is stability in the currency you spend. Write the choice down. Do not switch every time the Canadian dollar moves.</p>
+    </div>
+
+    <h2>An illustration, not a model portfolio</h2>
+
+    <p>The dollars below are a teaching example of location. They are not a recommended risk level, not a projection, and not advice to hold 80 percent equities. Change the mix and the same placement rules still apply.</p>
+
+    <div class="example-box">
+        <strong>Example: $300,000 across three accounts, 80/20 mix</strong>
+        <p>TFSA $80,000, RRSP $150,000, non-registered $70,000. The written mix is 80 percent equity and 20 percent bonds, so bonds are $60,000. All $60,000 of bonds sit in the RRSP. The remaining $90,000 inside the RRSP is a US-listed broad equity ETF, so the treaty has something to apply to. The TFSA holds $80,000 of Canadian-listed global equity, with no currency conversion. The non-registered account holds $70,000 of a Canadian equity ETF, where eligible dividends and losses are actually usable. Equity is $240,000. Bonds are $60,000. The household matches the sentence you wrote down, and each account looks "unbalanced" on its own. That is the point.</p>
+    </div>
+
+    <p>If the RRSP is too small to hold every bond plus the US-listed sleeve, bonds spill to the TFSA before they spill to the taxable account. Interest in a non-registered account is the outcome you are trying to avoid. If you only have a TFSA, ignore the map and buy one Canadian-listed asset-allocation ETF. Location with one account is theatre.</p>
+
+    <h2>Rebalance without creating a tax event</h2>
+
+    <p>A portfolio drifts. A strong equity year quietly raises your risk. You correct it on a schedule you set in calm weather: once a year, or when a sleeve is off by a band you chose in advance. Five percentage points is a common mechanical band. It is a habit, not a law of finance.</p>
+
+    <ul>
+        <li><strong>New contributions are the first rebalance.</strong> Buy what is light. Most years you should not need to sell.</li>
+        <li><strong>Sell inside the TFSA or RRSP before you sell in the taxable account.</strong> Registered rebalancing does not create a capital gain. Taxable rebalancing does.</li>
+        <li><strong>Do not buy the identical ETF in a registered account just after you sell it at a loss in the taxable account.</strong> The superficial-loss rule can deny the loss when you, or an affiliated person, reacquire the same property inside the window — including inside your TFSA. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> covers the 30-day rule. Harvest losses only in the non-registered sleeve, and only with a replacement that is not the same fund.</li>
+    </ul>
+
+    <p>Adjusted cost base matters in the taxable account and nowhere else. Reinvested distributions and return of capital move the number. A T5008 from the broker is an input, not the books. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the system.</p>
+
+    <h2>What this article will not pretend to know</h2>
+
+    <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
+
+    <p>It will also not confuse location with withdrawal order. A large RRSP is a future tax inclusion even when the ETFs inside it are well chosen. Later, that shows up in brackets and in Old Age Security. The <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, the <a href="/blog/rrsp-meltdown-strategy/">meltdown strategy</a>, and the <a href="/blog/retirement-withdrawal-strategy/">retirement withdrawal order</a> pick up where this article stops. In retirement, the same accounts get a spending job rather than a tax job — that is the <a href="/blog/investing-bucket-strategy/">bucket strategy</a>, and it should not fight the mix you wrote down here.</p>
+
+    <div class="example-box">
+        <strong>Couples:</strong>
+        <p>You can give a spouse money to contribute to their own TFSA. Income inside that TFSA is not attributed back. A gift of capital that they invest in a non-registered account is a different, usually worse, story. Keep taxable investing in the name of the person who earned the capital, or use a structure that is actually legal. The <a href="/blog/income-splitting-strategies-couples/">couples guide</a> is the line between those two.</p>
+    </div>
+
+    <h2>A sequence you can finish in a weekend</h2>
+
+    <ol>
+        <li>Write one sentence: equity percentage, bond percentage, Canada weight, and whether equity is currency-hedged. Date it.</li>
+        <li>Confirm room in CRA My Account for the TFSA, RRSP, and FHSA. Contribute in that priority, not in the order a brokerage app suggests.</li>
+        <li>If you will not rebalance, buy one Canadian-listed asset-allocation ETF that matches the sentence. Same fund in every registered account. Stop.</li>
+        <li>If you will rebalance, place bonds and any US-listed equity in the RRSP, broad growth in the TFSA, and Canadian equity in non-registered once registered room is full.</li>
+        <li>Turn contributions into the light sleeve. Revisit once a year. Do not add a fund because it led last year's chart.</li>
+        <li>Open the broker that can hold the structure, including a US-dollar side inside the RRSP if you used one. Then leave it alone.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>The mix is a sentence you can follow in a bad year.</strong> The ticker is downstream of that sentence.</li>
+        <li><strong>One-fund portfolios are the right design</strong> when you will not rebalance. Building blocks are the right design when account location matters and you will maintain it.</li>
+        <li><strong>Bonds and US-listed equity have a first home in the RRSP.</strong> A Canadian ticker does not restore the US treaty exemption inside that RRSP.</li>
+        <li><strong>The TFSA is for the growth you will not raid.</strong> Cash there, while equities sit in a taxable account, is the expensive version of "safe."</li>
+        <li><strong>Canadian equities earn their place in non-registered</strong> after registered room is full, because that is where the dividend tax credit and capital losses work.</li>
+        <li><strong>Rebalance with new money and inside registered accounts.</strong> Track adjusted cost base only on the taxable sleeve.</li>
+        <li><strong>Read the current facts sheet and the broker's foreign-exchange preview.</strong> This page will not age into a fee table.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The portfolio is the engine. The return is the tax.</strong></p>
+        <p>Account location does not set your bracket, your RRSP deduction, or the credits that never appear on a T-slip. The 2026 tax guide is the other half of the same plan.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about structuring a Canadian ETF portfolio across account types. It is not investment, tax, or legal advice, and it is not a recommendation to buy any fund or to use any allocation. MERs, holdings, withholding treatment, and tax rules change. Confirm the current ETF facts and your contribution room before you act. Examples that use dollar amounts are illustrations of placement, not projections of return. Consult a registered adviser for a plan that fits your file.</p>
+        <div class="footer-note">Published: October 9, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
+    title: "Best Online Brokerages in Canada for 2026",
+    slug: "best-online-brokerages-canada-2026",
+    category: "Investing",
+    categorySlug: "investing",
+    author: "Andrew Carrothers",
+    date: "2026-10-12",
+    excerpt: "Compare Canadian brokers on commissions, foreign exchange, registered accounts, and research — then verify the live fee schedule before you transfer.",
+    image: "/images/blog/best-online-brokerages-canada-2026.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        There is no best online brokerage in Canada in 2026. There is a best <span class="highlight">structure</span> for the portfolio you already designed: the foreign-exchange cost you will actually pay, the registered accounts you need, and a transfer-out fee you have read. A zero-commission headline is not a cost.
+    </div>
+
+    <p>A generation of Canadian brokers cut the sticker price on stock and ETF trades. That was useful. It also pushed the real cost into the lines the advertisement does not lead with: converting Canadian dollars into US dollars, market data, assisted trades, idle cash, and the fee for leaving. This is a comparison of those structures. It is not a price list, not a ranking, and not a referral. Names you already see elsewhere on this site — Wealthsimple, Questrade, Interactive Brokers, and the bank-owned dealers — are examples. They are not a winner's podium.</p>
+
+    <div class="callout">
+        <strong>Verify the schedule you are about to sign:</strong>
+        <p>Commissions, foreign-exchange spreads, account menus, and transfer promotions change without updating the blog that quoted them. Nothing below is a current rate. Open the firm's own fee schedule and the list of account types on the day you apply. If a page elsewhere promises a special rate, it is not real until that firm's page shows it.</p>
+    </div>
+
+    <h2>The costs that survive a zero-commission headline</h2>
+
+    <p>Price the behaviour you will repeat, not the behaviour in the ad. If the <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset-location guide</a> has you holding a US-listed fund inside an RRSP, the test order is: contribute Canadian dollars, convert, buy. If the portfolio is one Canadian-listed asset-allocation ETF, that test is irrelevant and a simpler platform may be the whole decision.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cost</th>
+                <th>Why it still matters</th>
+                <th>Where to read it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Online stock and ETF commission</td>
+                <td>Often small or zero. It is not the only line.</td>
+                <td>The commission schedule, including options, mutual funds, and broker-assisted orders. Note any exchange or ECN fee listed separately.</td>
+            </tr>
+            <tr>
+                <td>Foreign exchange</td>
+                <td>A percent-style spread on every Canadian-to-US conversion can dwarf a vanished commission.</td>
+                <td>The conversion preview on a sample order. Not a number you remember from last year.</td>
+            </tr>
+            <tr>
+                <td>US-dollar side, or a journal between listings</td>
+                <td>Some firms let an RRSP or TFSA hold US dollars, and some support moving an interlisted stock from the Canadian listing to the US listing so you are not paying the spread on every contribution. People call that journal Norbert's Gambit. Eligibility, commissions on the two legs, and how long the journal takes are broker-specific.</td>
+                <td>Whether your registered account can hold US dollars, and what a journal costs in fees and in days.</td>
+            </tr>
+            <tr>
+                <td>Market data</td>
+                <td>Real-time quotes are sometimes a subscription on top of "free trades."</td>
+                <td>The data menu. Delayed quotes are enough for a monthly ETF purchase. They are a poor surprise if you thought they were included.</td>
+            </tr>
+            <tr>
+                <td>Idle cash</td>
+                <td>Uninvested cash may earn little until you place it in a specific savings or money-market product.</td>
+                <td>Cash-balance terms. Do not assume the chequing rate at the same brand applies inside the brokerage.</td>
+            </tr>
+            <tr>
+                <td>Transfer and closure</td>
+                <td>Leaving is often when the fee appears. Incoming transfers are sometimes reimbursed, as a promotion, above a balance threshold, if you stay.</td>
+                <td>The current transfer-out fee at the firm you are leaving, and any reimbursement in writing at the firm you are joining.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Norbert's Gambit is a method, not a personality:</strong>
+        <p>You buy an interlisted security on one side, ask the broker to journal it to the other listing, and sell. The cost is the spread and commission on those legs, plus the time you are in the stock. Some brokers make the journal easy. Some do not allow it. Some app-first platforms would rather you accept their conversion rate. If you will not do the steps, price the ordinary conversion honestly and move on. Confirm the current process with the broker. Do not follow a forum post from a different firm.</p>
+    </div>
+
+    <h2>Four structures, not a ranking</h2>
+
+    <h3>App-first platforms</h3>
+
+    <p>Wealthsimple is the example Canadians already use for this structure: a phone-first account for people who will buy Canadian-listed ETFs and do not want a trading terminal. Individual registered accounts have expanded over time. Do not assume today's menu matches the last time you looked. Confirm FHSA, RESP, LIRA, RRIF, and spousal RRSP if your plan needs them. Before you buy a US-listed ETF, open the foreign-exchange preview. A wide conversion spread is how a zero-commission platform can still be the expensive one. US-dollar account features have been bundled, limited to certain account types, and repriced before. Read this month's conditions, including any monthly fee.</p>
+
+    <p>Wealthsimple the broker and Wealthsimple Tax the filing software are different products. Liking the free tax software — covered in the <a href="/blog/best-tax-software-2026/">tax-software comparison</a> — does not answer where the ETF should sit.</p>
+
+    <h3>Independent self-directed brokers</h3>
+
+    <p>Questrade is the long-running example: a Canadian DIY broker used for registered accounts, a desktop platform, and investors who want more than tap-to-buy. Commission schedules, data packages, and research tiers have all been revised. Treat stocks, ETFs, options, and real-time quotes as separate lines. Confirm a US-dollar side inside the TFSA and the RRSP if asset location calls for US-listed funds. This is the structure to price when you want that placement and you do not want either a bank portal or a professional terminal.</p>
+
+    <h3>Multi-currency platforms</h3>
+
+    <p>Interactive Brokers is the example already named on this site when the work is specific listed funds and foreign exchange. The advantage, when it is real for you, is a tighter conversion cost and a wide product list. The cost is complexity: market-data lines, order types you will not use, and an interface that assumes you can read. Canadian residents should confirm, in the year they open the account, which registered plans are actually offered. TFSA, RRSP, FHSA, RESP, and the rest are not a permanent promise on a third-party page. Also confirm any inactivity, minimum, or data charge on the account type you would use. This structure earns its place when US-listed holdings and currency conversion are a large part of the plan. It is a poor home for a single Canadian-listed balanced ETF you buy six times a year, unless you already live in the platform.</p>
+
+    <h3>The bank you already log into</h3>
+
+    <p>RBC Direct Investing, TD Direct Investing, BMO InvestorLine, Scotia iTRADE, CIBC Investor's Edge, National Bank Direct Brokerage, Desjardins Disnat, and their peers are the convenience structure. The chequing account, the mortgage, and the brokerage can sit behind one login, and moving cash is boring in the best way. The risk is paying for a logo out of habit. Several bank-owned dealers have cut online equity and ETF commissions. Some lines have not. At least one has competed by advertising zero-dollar online equity trades. Confirm that the zero, if it is still on the page, covers the order you will place, and read the exclusions: options, mutual funds, assisted orders, and markets outside Canada are the usual footnotes. Research tools are sometimes included. They are worth something only if you will open them.</p>
+
+    <h2>Registered accounts are the filter</h2>
+
+    <p>A broker that cannot receive the account you already have is not a candidate, however elegant the app. Moving a TFSA or an RRSP is a transfer, not a withdrawal. Cashing the RRSP out to "move it" is a taxable withdrawal. Pulling TFSA cash out and putting it back in the same year can be an overcontribution. Use the registered-account transfer form. Ask what happens to a US-dollar side and to fractional shares on the way across.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Account</th>
+                <th>Why it has to be on the menu</th>
+                <th>Read next</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TFSA</td>
+                <td>Permanent shelter. January funding is a timing decision, not a broker feature.</td>
+                <td><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a></td>
+            </tr>
+            <tr>
+                <td>RRSP, spousal RRSP, RRIF</td>
+                <td>The deduction, and the account that can hold US-listed funds under the treaty.</td>
+                <td><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a></td>
+            </tr>
+            <tr>
+                <td>FHSA</td>
+                <td>First-home deduction plus shelter. A near-term purchase should not sit in a volatile ETF just because the broker offers the account.</td>
+                <td><a href="/blog/fhsa-guide-2026/">FHSA guide</a></td>
+            </tr>
+            <tr>
+                <td>RESP</td>
+                <td>Only if you have a beneficiary. "RESP" on a menu is not the same as reliable grant processing.</td>
+                <td>Confirm CESG handling with the firm.</td>
+            </tr>
+            <tr>
+                <td>LIRA or locked-in RRSP</td>
+                <td>Pension money already locked in has to land somewhere that will accept the transfer.</td>
+                <td>The relinquishing institution's transfer rules.</td>
+            </tr>
+            <tr>
+                <td>Non-registered</td>
+                <td>Overflow, Canadian dividends, and tax-loss harvesting. You still track adjusted cost base.</td>
+                <td><a href="/blog/tax-record-keeping-2026/">Record keeping</a></td>
+            </tr>
+            <tr>
+                <td>Corporate or joint</td>
+                <td>A different product from a personal account. Do not assume the personal menu applies.</td>
+                <td>The firm's entity application, not the personal one.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Research, slips, and the week a transfer stalls</h2>
+
+    <p>For a DIY ETF portfolio the research that matters is the fund manufacturer's facts sheet, not a pile of analyst targets. You also need tax slips that arrive intact: T5, T3, T4RSP, T4FHSA, and T5008 are the usual set. The T5008 is a weak adjusted-cost-base record when an ETF reinvests distributions or returns capital. Keep your own figure for the taxable account. The broker's PDF is an input.</p>
+
+    <p>Support matters the week a transfer sits in between institutions. A beautiful app does not phone the other firm. Before you move a large RRSP, find out how you reach a person and which statement they will ask for. None of that is in the commission table.</p>
+
+    <div class="warning-box">
+        <strong>Promotions are one-time. Foreign exchange is every year:</strong>
+        <p>Transfer bonuses and referral cash change, often with a minimum balance and a clawback if you leave early. This page will not quote them. If a credit is large enough to matter, get it in writing from the firm and subtract the fee the firm you are leaving charges to release the account. Do not open a platform you will resent for a credit you will forget. There is no affiliate link here to sweeten the arithmetic.</p>
+    </div>
+
+    <h2>Which structure to price first</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>The portfolio you actually have</th>
+                <th>Start the shortlist with</th>
+                <th>Verify before you transfer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>One Canadian-listed asset-allocation ETF, monthly contributions</td>
+                <td>App-first, or the bank you already use</td>
+                <td>Account types, transfer-out fee, and whether you care about fractional shares</td>
+            </tr>
+            <tr>
+                <td>US-listed ETFs inside the RRSP, Canadian-listed funds beside them</td>
+                <td>A broker that holds US dollars in an RRSP</td>
+                <td>Conversion preview or journal process, and which registered accounts get the US-dollar side</td>
+            </tr>
+            <tr>
+                <td>Options, several currencies, or a corporate account</td>
+                <td>Full-feature DIY or multi-currency</td>
+                <td>Options commissions, data fees, and whether the entity account exists</td>
+            </tr>
+            <tr>
+                <td>You want the brokerage beside the chequing account and the mortgage</td>
+                <td>That bank's dealer</td>
+                <td>The commission schedule against the inconvenience you are avoiding</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Example: the four-account household</strong>
+        <p>Two TFSAs, one RRSP that holds the US-listed equity sleeve, and a non-registered account that holds a Canadian equity ETF. The broker has to receive registered transfers, keep US dollars inside the RRSP, hold Canadian-listed ETFs everywhere else, and issue a tax package you can reconcile to your own cost base. An app that converts currency at a wide spread on every RRSP contribution fails the second test even when equity trades are free. A professional terminal you will not log into fails the behaviour test. Price both on the order you will actually place. Then pick one.</p>
+    </div>
+
+    <h2>Protection, briefly</h2>
+
+    <p>Cash on deposit at a bank and securities at a brokerage are different regimes. Bank deposits are a CDIC question. Client property at a member of the Canadian Investor Protection Fund is a CIPF question, and only in the sense CIPF describes: a member fails and client property is missing. CIPF is not insurance against a market decline, and it is not a promise that an ETF was a good idea. Confirm the firm is a current member and read the coverage limit CIPF publishes, including how accounts are combined. Do not treat a dollar figure from a forum as the policy.</p>
+
+    <h2>Decide it in an evening</h2>
+
+    <ol>
+        <li>Write the portfolio in one line: one-fund, or building blocks, and whether any sleeve is US-listed. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is that line.</li>
+        <li>Cross off any broker that cannot open the registered accounts you already need. Room and priority sit in the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">account comparison</a> and the <a href="/blog/contribution-limits-2026/">limits table</a>.</li>
+        <li>On what remains, preview the foreign-exchange cost of the order you will repeat. Keep the screenshot.</li>
+        <li>Read the transfer-out fee on both sides. Get any reimbursement in writing.</li>
+        <li>Open one account. Automate the contribution. A second broker is for a holding the first one cannot keep, not for a hobby.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>January does not wait for the perfect platform:</strong>
+        <p>Funding a TFSA on January 1 at a clumsy broker still beats funding it in December at an elegant one, when the cash can stay invested. You can transfer later with a form. You cannot retrieve the year. The contribution rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA guide</a>. The platform is allowed to be good enough.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Compare structures:</strong> app-first, independent DIY, multi-currency, or the bank you already use. Do not compare slogans.</li>
+        <li><strong>Foreign exchange is the cost</strong> when the portfolio holds US-listed funds. Preview it. A zero commission does not answer it.</li>
+        <li><strong>Registered-account menus are the filter.</strong> Transfer with the form. Do not withdraw to move.</li>
+        <li><strong>Wealthsimple, Questrade, and Interactive Brokers are examples</strong> of different structures, not a ranked list and not a set of live prices.</li>
+        <li><strong>Tax slips are not your adjusted cost base</strong> in a non-registered account.</li>
+        <li><strong>Promotions are written down or they do not exist.</strong> This article does not quote them and does not link to an affiliate offer.</li>
+        <li><strong>Confirm CIPF membership and the current coverage limit</strong> with CIPF, not with a screenshot.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The broker is the pipe. Tax is the pressure.</strong></p>
+        <p>A cleaner platform does not set your bracket or your deduction. Once the account is open and the ETF is in the right place, the 2026 tax guide is the work that still moves the number.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to compare Canadian self-directed brokerages. It is not a recommendation to open, transfer, or keep an account at any firm, and it is not investment, tax, or legal advice. Commissions, foreign-exchange pricing, account availability, transfer fees, promotions, and CIPF membership and limits change. Confirm every figure on the firm's current schedule and on CIPF's own site before you act. Examples are structural, not quotes.</p>
+        <div class="footer-note">Published: October 12, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+
+  {
     title: "Meeting Minimum Spends Without Buying Junk or Freezing Cash Flow",
     slug: "card-churning-minimum-spend",
     category: "Credit Cards",
@@ -1922,7 +2350,7 @@ export const posts = [
 
     <p>A dollar contributed on January 1 has a full year of tax-free compounding that a dollar contributed in December does not. Over a career that gap is real. It is not a reason to contribute money you will need in March.</p>
 
-    <p>Use January 1 when all three are true: you know your room, the cash is not required for an emergency or a near-term registered-account priority that outranks the TFSA, and you will not withdraw it the same year. If you are choosing between a high-interest TFSA deposit in January and an RRSP contribution that produces a refund at a high marginal rate, run the comparison. The TFSA is not automatically first. At a high marginal rate, the RRSP refund reinvested can win. At a low rate, or when you expect to be in a higher bracket later, the TFSA usually wins. Our RRSP, TFSA, and FHSA comparison walks through that choice in more detail.</p>
+    <p>Use January 1 when all three are true: you know your room, the cash is not required for an emergency or a near-term registered-account priority that outranks the TFSA, and you will not withdraw it the same year. If you are choosing between a high-interest TFSA deposit in January and an RRSP contribution that produces a refund at a high marginal rate, run the comparison. The TFSA is not automatically first. At a high marginal rate, the RRSP refund reinvested can win. At a low rate, or when you expect to be in a higher bracket later, the TFSA usually wins. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA comparison</a> walks through that choice, and the <a href="/blog/contribution-limits-2026/">2026 contribution-limits table</a> is the checklist for room before you move cash.</p>
 
     <div class="tip-box">
         <strong>Automate the known room, not a guess:</strong>
@@ -1939,6 +2367,8 @@ export const posts = [
         <li><strong>US-listed dividend stocks are the exception.</strong> The Canada–US tax treaty shelters US dividends from the 15 percent withholding tax inside an RRSP. It does not do that for a TFSA. Withholding tax inside a TFSA is gone. Hold those US dividend payers in the RRSP when you have the choice, and use the TFSA for Canadian equities, growth holdings with little yield, or fixed income.</li>
         <li><strong>Cash</strong> is a temporary holding, not a strategy, unless you need the liquidity inside the account. A TFSA full of chequing-rate cash while a taxable account holds equities is backwards for anyone with a long horizon.</li>
     </ul>
+
+    <p>When an RRSP is also open, do not automatically fill the TFSA with bonds just because interest is taxed harshly. A TFSA dollar spent on a low-growth holding is permanent tax-free compounding you did not give to equities. The working compromise is bonds and US-listed equity ETFs inside the RRSP, broad growth inside the TFSA, and Canadian equities in a non-registered account once registered room is full. That map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF and asset-location guide</a>. The tax mechanics are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. Account rules that are not about the January contribution sit in the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>.</p>
 
     <div class="example-box">
         <strong>Example: same $7,000, different location</strong>
@@ -1978,13 +2408,13 @@ export const posts = [
         <li>Read TFSA room in CRA My Account. Adjust for contributions and withdrawals made since the figure was updated.</li>
         <li>Decide RRSP versus TFSA versus FHSA for this year’s marginal dollar. High rate and a long horizon can favour the RRSP. Low rate, or a need for flexibility, favours the TFSA. A first home still in play puts the FHSA ahead of both for the deductible slice.</li>
         <li>Contribute cash, not a losing in-kind position. Schedule it for early January if the cash is truly surplus.</li>
-        <li>Place Canadian growth and interest inside. Leave US dividend payers for the RRSP when you have that room.</li>
+        <li>Place the holding where it belongs. Canadian growth equities are a natural TFSA asset. Leave US-listed dividend ETFs for the RRSP when you have that room — the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is the full map, and the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is how you choose an account that can hold it without a wide foreign-exchange spread.</li>
         <li>File a successor-holder form. Turn on full-balance pre-authorized savings for next year’s new room so December is not a scramble.</li>
     </ol>
 
     <div class="tip-box">
         <strong>Couples:</strong>
-        <p>You cannot contribute directly to a spouse’s TFSA, but you can give them money and they can contribute it. Income inside their TFSA is not attributed back to you. That is one of the cleanest income-splitting moves available, and it is covered alongside the spousal RRSP and the prescribed-rate loan in our couples guide. The gift still has to be money they can leave invested. A gift they withdraw in June did not split anything.</p>
+        <p>You cannot contribute directly to a spouse’s TFSA, but you can give them money and they can contribute it. Income inside their TFSA is not attributed back to you. That is one of the cleanest income-splitting moves available, and it sits alongside the spousal RRSP and the prescribed-rate loan in the <a href="/blog/income-splitting-strategies-couples/">couples income-splitting guide</a>. The gift still has to be money they can leave invested. A gift they withdraw in June did not split anything.</p>
     </div>
 
     <h2>Key takeaways</h2>
@@ -5360,11 +5790,11 @@ export const posts = [
             </p>
 
         <p>
-                To avoid this, use Canadian-listed ETFs that hold US equities (like VFV or VSP). Canadian-listed vehicles can claim the treaty exemption and avoid the 15% withholding tax. It's a small edge, but over decades, it adds up.
+                A Canadian-listed ETF that holds US stocks does not restore the treaty exemption. US tax is generally withheld inside the fund before the cash reaches you, whether the units sit in a TFSA or an RRSP. The exemption applies when the RRSP holds the US-listed fund directly. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> walks through that distinction. Inside a TFSA, a Canadian-listed equity ETF is still the practical holding — because you skip a currency conversion on an account that cannot recover the US tax — not because the ticker erases withholding.
             </p>
 
         <div class="tip-box">
-<strong>Best Practice:</strong> Hold Canadian equity index funds and Canadian-listed US/international equity ETFs in your TFSA. Avoid holding individual US-listed stocks directly.
+<strong>Best Practice:</strong> In a TFSA, prefer Canadian-listed equity ETFs over US-listed dividend stocks. That does not make the US withholding disappear. It avoids a foreign-exchange spread on money the treaty will not shelter. If you have RRSP room and a broker that can hold US dollars there, that is where US-listed funds belong. See the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF guide</a>.
             </div>
 
         <h2>The Bottom Line</h2>
@@ -10338,7 +10768,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
                     You own 100 shares of a US stock that pays a $1/share annual dividend. Total dividend: $100.
                 </p>
 <p>
-<strong>In a TFSA or non-registered account:</strong> The US withholds 15%. You receive $85. The $15 withholding is lost — you can't recover it (as of 2026, there is no mechanism to claim a foreign tax credit in a TFSA).
+<strong>In a TFSA:</strong> The US withholds 15%. You receive $85. That $15 is not recoverable inside the TFSA. <strong>In a non-registered account:</strong> The same 15% is generally eligible for a foreign tax credit on your return, which is why the table below treats that account differently. A Canadian-listed ETF that simply holds a US-listed fund may withhold inside the US fund, where neither account gets a clean credit — confirm the structure on the fund facts.
                 </p>
 <p>
 <strong>In an RRSP:</strong> Thanks to the Canada-US tax treaty, the withholding rate drops to 0%. You receive the full $100. This is a huge advantage.
