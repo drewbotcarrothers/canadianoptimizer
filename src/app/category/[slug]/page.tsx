@@ -12,7 +12,7 @@ const CATEGORY_MAP: Record<string, { name: string; desc: string }> = {
   'credit-cards': { name: 'Credit Cards', desc: 'Maximizing rewards, travel hacking, and strategic credit management for maximum value.' },
   'retirement': { name: 'Retirement', desc: 'Optimizing retirement income, withdrawal strategies (RRSP/TFSA/CPP/OAS), and long-term planning.' },
   'budgeting-saving': { name: 'Budgeting & Saving', desc: 'High-performance cash flow management, cost reduction, and automated saving frameworks.' },
-  'earning-more': { name: 'Earning More', desc: 'Income optimization, side hustles, career leverage, and business growth strategies for Canadians.' },
+  'earning-more': { name: 'Earning More', desc: 'Compensation design, tax-aware income, and career leverage for Canadians.' },
   'insurance': { name: 'Insurance', desc: 'Optimizing risk management through life, health, disability, and property insurance strategies.' },
   'government-benefits': { name: 'Government Benefits', desc: 'Maximizing your entitlement to Canadian federal and provincial grants, credits, and programs.' }
 };
