@@ -24125,5 +24125,1096 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     </div>
 
 </div>`
+  },
+  {
+    title: "A High-Performance Cash Flow System for Canadian Households",
+    slug: "cash-flow-system-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2026-12-31",
+    excerpt: "Route each paycheque into bills, a timing buffer, sinking funds, and registered contributions. Pay-yourself-first and zero-based are tools, not personalities.",
+    image: "/images/blog/cash-flow-system-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A cash-flow system is a routing diagram, not a personality. The paycheque hits a hub and leaves the same week for <span class="highlight">named jobs</span>. Whatever is still sitting in the hub on Friday is a leak, not a reward.
+    </div>
+
+    <p>This is the design. The plumbing that runs it — payroll splits, pre-authorized debits, the bill calendar — is the <a href="/blog/money-automation-stack-canada/">automation stack</a>. How large the cash reserve should be, and when a HELOC is allowed to stand in for it, is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>. Where that cash earns its keep is <a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETFs</a>. The annual hunt for the fixed costs that make the routing impossible is the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>. If two adults share the hub, the decision rights live in the <a href="/blog/couples-money-system-canada/">couples operating system</a>.</p>
+
+    <div class="callout">
+        <strong>Envelopes are the wrong metaphor:</strong>
+        <p>Clipping a grocery coupon does not change a household that sends half its after-tax pay to shelter, tax instalments, and a group plan. The work is to separate money by the date it must exist, then automate the separation. Discretionary spending is what remains. It is not the place you start.</p>
+    </div>
+
+    <h2>The hub is a transit account</h2>
+
+    <p>Payroll lands in one chequing account. That account is not where savings live, and it is not where the mortgage is paid from if you can avoid it. It is a platform. Money arrives, gets named, and moves. A balance that grows there "just in case" is an unnamed sinking fund. You will spend it, because nothing in the system has claimed it.</p>
+
+    <p>Two pay schedules break a monthly budget that was drawn on a whiteboard. Biweekly pay produces two months a year with a third deposit. Semi-monthly pay does not. A mortgage, a lease, and most pre-authorized debits are monthly. Design the routing off the smaller, ordinary paycheque. Treat the third deposit as a planned sweep into sinking funds or the registered contribution, not as found money. The sweep is part of the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. If you wait until the third cheque feels like a bonus, lifestyle will take it.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bucket</th>
+                <th>What it is for</th>
+                <th>What it is not</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bills account</td>
+                <td>The mortgage or rent, utilities, insurance premiums, childcare, and the credit-card statement. Funded with the sum of debits due before the next pay, plus a small timing float.</td>
+                <td>A spending account. If the card is paid from here, the float is the statement balance, not the minimum.</td>
+            </tr>
+            <tr>
+                <td>Timing buffer</td>
+                <td>A few weeks of essentials so a Friday payroll, a long weekend, or a held deposit does not bounce a debit.</td>
+                <td>The emergency fund. A buffer that you keep raiding for car repairs is a sinking fund you refused to name.</td>
+            </tr>
+            <tr>
+                <td>Sinking funds</td>
+                <td>Irregular bills you can already see: property tax, home insurance, a car repair, a trip you have booked, an annual professional fee.</td>
+                <td>A vacation you have not decided to take, funded by pretending it is "savings."</td>
+            </tr>
+            <tr>
+                <td>Registered contributions</td>
+                <td>TFSA, RRSP, and FHSA amounts that are not already leaving on the payroll.</td>
+                <td>Whatever is left in December. Room you meant to use is not a plan.</td>
+            </tr>
+            <tr>
+                <td>Discretionary remainder</td>
+                <td>The amount you may spend or put on the card before the next pay.</td>
+                <td>A second savings account you will "figure out later."</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Pay-yourself-first, or zero-based, for people who are not broke</h2>
+
+    <p>Pay-yourself-first moves the goal off the top and lets the rest be spent without a diary. It works when income is stable and the goals are fully named: the registered target, the sinking funds, the extra debt payment you have already chosen. It fails when "yourself" is a round transfer into a savings account that ignores an FHSA, a March insurance premium, and a property-tax bill. The transfer feels virtuous. The bill still arrives.</p>
+
+    <p>Zero-based budgeting assigns every dollar before the month starts. It is the right tool when income is lumpy, when a variable draw from a corporation has to cover personal tax instalments, or when the household leaks in ways a percentage cannot see. It is the wrong weekly ritual for a high earner whose leak is a handful of subscriptions and whose real problem is that the RRSP refund gets spent. The admin cost of categorizing groceries exceeds the leak. The refund is the leak.</p>
+
+    <div class="tip-box">
+        <strong>The hybrid that high earners actually keep:</strong>
+        <p>Automate the non-negotiables on payday, the way pay-yourself-first intends. That list is the bills float, the sinking funds at one-twelfth of the annual amount, and the registered contributions that payroll does not already take. Zero-base only the discretionary remainder, and only when it drifts — a quarterly look, not a daily one. A bonus or a vesting is not part of the weekly system. Write the split before it lands. The <a href="/blog/money-automation-stack-canada/">automation stack</a> is how the split survives contact with a banking app.</p>
+    </div>
+
+    <h2>Where the TFSA, the RRSP, and the FHSA sit</h2>
+
+    <p>Registered contributions are a bucket in the routing, not a December project. The order among the accounts is not decided here. The comparison is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>, and the room is the <a href="/blog/contribution-limits-2026/">limits guide</a>. Confirm the year's room in the CRA account before you automate a number. What this system decides is the moment the dollar leaves your spending.</p>
+
+    <ul>
+        <li><strong>Group RRSP or pension at source</strong> never hits the hub. Do not also schedule a personal transfer for the same dollars. The payroll amount already consumes RRSP room. A second pre-authorized contribution is how people over-contribute. The mechanics of the deduction are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</li>
+        <li><strong>An FHSA, when a first home is a real date,</strong> sits with the down-payment sinking fund, not with long-term investing. Cash or a short-term holding belongs there as the purchase gets close. The sequence, including what not to put in equities a year out, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>. The account rules are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>.</li>
+        <li><strong>A TFSA auto-contribution</strong> is either a payday transfer or a January lump you have been sinking all year. Both are legitimate. "I will do it when the bonus arrives" is neither. January room and what belongs in the shelter are the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>.</li>
+        <li><strong>A surplus after those targets</strong> is the mortgage-versus-investing decision, not a thicker chequing balance. The hurdle rate is <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a>, and the account order is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">prepayment versus TFSA and RRSP</a>.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>The credit card is a float with a due date:</strong>
+        <p>Putting ordinary spending on a card is fine if the statement balance leaves the bills account by pre-authorized debit. The minimum payment is a failure mode, not a cash-flow tool. A welcome bonus with a minimum-spend clock is a funded project: the dollars have to be inside this month's routing, and the project has an end date. How to hit a spend target without inventing purchases is the <a href="/blog/card-churning-minimum-spend/">minimum-spend guide</a>. Which card the ordinary spend sits on is the <a href="/blog/canadian-credit-card-stack-templates/">stack templates</a>.</p>
+    </div>
+
+    <h2>A payday sequence you can run once and then automate</h2>
+
+    <ol>
+        <li>Confirm what payroll already removed: tax, group RRSP, pension, benefits. The hub only routes what landed.</li>
+        <li>Move the bills float: every pre-authorized debit due before the next pay, including a full card payment if the statement will come due.</li>
+        <li>Move one pay-period's share of each sinking fund. Annual amount divided by the number of pays, not by a mood.</li>
+        <li>Move the registered amount that is not already on payroll. Stop if you are inside a few dollars of the year's room.</li>
+        <li>Leave the discretionary remainder where you spend it. Sweep anything else. A hub balance is not a plan.</li>
+    </ol>
+
+    <div class="example-box">
+        <strong>Illustration of a routing, not a budget you should copy</strong>
+        <p>A household nets $4,800 on an ordinary biweekly pay after tax and after a group RRSP that already left at source. Before the next pay they owe an illustrative $2,200 of housing and insurance debits and a $900 card statement. Sinking funds need $300 this pay for property tax and car repairs. The TFSA transfer they wrote down is $400. Discretionary remainder is $1,000. The arithmetic is 2,200 + 900 + 300 + 400 + 1,000 = 4,800. Nothing is left in the hub on purpose. Your debits are not these debits. The point is that the card payment and the TFSA are in the same list as the rent.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Name the dollars on payday.</strong> A chequing balance is unnamed cash, and unnamed cash gets spent.</li>
+        <li><strong>Design off the ordinary paycheque.</strong> The extra biweekly deposit is a sweep you decided in advance.</li>
+        <li><strong>Automate goals. Inspect discretion quarterly.</strong> Zero-base the remainder when it drifts, not every coffee.</li>
+        <li><strong>Registered contributions are a bucket,</strong> coordinated with payroll so you do not fund the same room twice.</li>
+        <li><strong>The card is paid in full from the bills account.</strong> A minimum-spend offer has to fit inside the routing.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/money-automation-stack-canada/">The automation stack</a> — payroll splits, debits, and the ways the routing fails.</li>
+        <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — what percentage means after tax and housing.</li>
+        <li><a href="/blog/fixed-cost-audit-canada/">The fixed-cost audit</a> — where the routing gets its room.</li>
+        <li><a href="/blog/emergency-fund-heloc-investments-canada/">Emergency fund, HELOC, and investments</a> — the cash layer this system is not.</li>
+        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution timing</a> — January room versus a payday transfer.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The routing only works if the registered dollars land in the right account.</strong></p>
+        <p>RRSP room, the FHSA deduction, and the refund you have to assign are tax. The 2026 tax guide is that side of the payday.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about household cash routing for Canadian residents. It is not tax, investment, or credit advice. Contribution room, payroll deductions, and pre-authorized debit timing are specific to your accounts. Dollar figures in the example are an illustration of a sequence, not a budget and not a savings target. Confirm RRSP, TFSA, and FHSA room in your CRA account before you automate a contribution.</p>
+        <div class="footer-note">Published: December 31, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Emergency Funds in Canada: Cash, a HELOC, and Investments",
+    slug: "emergency-fund-heloc-investments-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-01",
+    excerpt: "How much cash to hold, when an undrawn HELOC is a backup, and why a Smith Manoeuvre balance is not an emergency fund. CDIC is not brokerage liquidity.",
+    image: "/images/blog/emergency-fund-heloc-investments-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        "Six months of expenses" is a slogan wearing a number. A Canadian household needs <span class="highlight">three different reserves</span> — a timing buffer, cash you can spend this week, and a backup line you have pressure-tested — and they are not interchangeable.
+    </div>
+
+    <p>The timing buffer, the one that stops a pre-authorized debit from bouncing, belongs in the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. This article is the reserve behind it: job loss, a health waiting period, a deductible, a repair that should not go on a card. Where the cash sits, deposit insurance versus a fund, is <a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETFs</a>. What to do with consumer debt before you thicken the reserve is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>.</p>
+
+    <div class="callout">
+        <strong>A HELOC is not a savings account, and an invested HELOC is not cash:</strong>
+        <p>Interest deductibility follows the use of the borrowed money. A personal emergency is not an income-earning use. The tracing rules are the <a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC guide</a>. A readvanceable mortgage whose limit is already deployed into a portfolio is the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>. That portfolio is an investment. It is not the fund you spend when the furnace dies. This page will not re-teach either strategy.</p>
+    </div>
+
+    <h2>Three layers, three jobs</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Layer</th>
+                <th>Job</th>
+                <th>How fast it has to clear</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Timing buffer</td>
+                <td>Payroll holds, long weekends, a card payment that lands a day early.</td>
+                <td>Same day, inside the same bank as the bills account. This is cash-flow design, not emergency design.</td>
+            </tr>
+            <tr>
+                <td>Dedicated cash</td>
+                <td>The expense you can name in advance as possible: income gap, insurance deductible, urgent repair.</td>
+                <td>One to a few business days. A HISA at a CDIC member, or a cash holding you have tested with a small withdrawal.</td>
+            </tr>
+            <tr>
+                <td>Backup access</td>
+                <td>A second path if the cash layer is the wrong size for a long gap: an undrawn HELOC you can still service, or investments you can sell without wrecking a retirement plan.</td>
+                <td>Days to a settlement cycle. Not same-day. Not guaranteed to still be offered when you need it.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>How much cash, as a function of the household</h2>
+
+    <p>Count essential spending, not gross income. Housing, utilities, food, insurance, childcare, and the minimums on debt you cannot pause. Leave out the TFSA transfer and the holiday fund. Those stop in a real emergency. The cash layer replaces the essentials for a gap you define.</p>
+
+    <ul>
+        <li><strong>Match the gap to the disability policy you own.</strong> A long elimination period is a bill. If the policy pays after a wait measured in months, the cash layer has to cover that wait or you are self-insuring it on a credit card. The contract is the <a href="/blog/disability-insurance-canada-guide/">disability insurance guide</a>.</li>
+        <li><strong>Two stable salaries with uncorrelated jobs</strong> can justify a shorter cash layer than a single commission income, but only if you have written down whose pay actually covers the essentials alone. "We both work" is not a calculation.</li>
+        <li><strong>A business draw is not a paycheque.</strong> Keep a personal reserve separate from the company's operating cash. Mixing them means the slow quarter and the broken water heater are the same account.</li>
+        <li><strong>A deductible you raised to cut a premium</strong> belongs in this layer. The <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a> is where people raise deductibles without funding them.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Bands, not a rule and not your budget</strong>
+        <p>A dual-income household with stable pay, a short disability wait they have read off the contract, and an undrawn line that is not already invested, often lands near three months of essentials in cash. A single income, variable pay, or a long elimination period is a different problem, often six months or more of essentials. A corporation owner adds a personal layer on top of whatever the company keeps to pay its own bills. None of these is a CRA figure or a bank product. If you cannot list the essentials in dollars, you do not have a three-month fund. You have a guess.</p>
+    </div>
+
+    <h2>CDIC, brokerage cash, and what is actually liquid</h2>
+
+    <p>Eligible deposits at a CDIC member are insured up to a statutory limit, per depositor, per member institution, per insurance category. Joint deposits and deposits inside registered plans can be separate categories. The dollar limit and the category list change by statute, not by the rate on the account. Confirm both on the CDIC site before you park a house-sale proceeds balance at one member and call it safe. Two accounts at the same member in the same category do not double the coverage.</p>
+
+    <p>Cash at a brokerage is not that insurance. If the dealer fails, investor-protection coverage — CIPF for member firms — is about missing property, up to limits you should confirm, and it is not a guarantee of market value. A high-interest savings ETF, a money-market ETF, or a T-bill ETF is a security. You own units. You do not have a deposit claim against a bank in your own name. The price can move. A sale does not arrive in chequing the same afternoon. Confirm the settlement cycle and the broker's hold on withdrawals before you call the position an emergency fund.</p>
+
+    <div class="tip-box">
+        <strong>Test the withdrawal once, while you do not need it:</strong>
+        <p>Move a small amount from the emergency HISA to the bills account and note the number of business days. Do the same from the brokerage if part of the layer lives there. A transfer you have never completed is a brochure. The vehicle choice, including when a cash ETF belongs in a TFSA, is <a href="/blog/hisa-vs-cash-etf-canada/">the HISA comparison</a>.</p>
+    </div>
+
+    <h2>When a HELOC is a backup line</h2>
+
+    <p>An undrawn HELOC can be the second layer if four things are true. The limit is not already spoken for by an investment plan. You can carry the interest from remaining cash flow for a defined number of months without a new job. You have a written path to repay it — a bonus, a sale, a return to work — that is not "the market will recover." And you are not counting the same home equity twice, once as this backup and once as a Smith Manoeuvre deployment.</p>
+
+    <p>Read the contract for the right to reduce or freeze the limit, to demand repayment, and to re-appraise the house. Lenders use those clauses. A line that existed while you were employed is not a promise to lend you the same amount after a layoff or a drop in the property value. Treat "available credit" on a screen as a snapshot.</p>
+
+    <h2>When a HELOC is a trap</h2>
+
+    <ul>
+        <li><strong>The balance is already invested.</strong> Selling the portfolio to create spending money can realize gains, and it can unwind the interest deduction the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a> is built on. Do not mentally add that portfolio to your emergency fund.</li>
+        <li><strong>The draw is personal.</strong> Interest on money used for a roof, a job gap, or a vacation is generally not deductible. Mixing that draw with an investment balance is how the tracing file breaks. The <a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean guide</a> is the use test. Follow it. Do not improvise a second version here.</li>
+        <li><strong>The payment is interest-only and the draw funded lifestyle.</strong> The balance does not fall. The "float" is permanent debt at a variable rate. That is consumer borrowing with a house attached.</li>
+        <li><strong>There is no cash layer at all.</strong> The first emergency becomes a draw, the second emergency happens while the first is unpaid, and the limit is the only plan. A backup that is also the primary fund is not a backup.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Registered investments are the wrong layer to spend first:</strong>
+        <p>An RRSP withdrawal is taxable, often with withholding, and the room does not come back. It is a last resort, not a reserve. Equities in a TFSA can be sold, and the withdrawal room generally returns on the next January 1, not the next morning — the recontribution rule is in the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>. Selling them in a drawdown that arrived with the job loss is how a temporary gap becomes a permanent hole. A TFSA can hold a cash slice. It is not automatically the best use of the year's room if you will fill that room with long-term holdings and a taxable HISA will cover money you might spend soon.</p>
+    </div>
+
+    <h2>The order you spend in a real emergency</h2>
+
+    <ol>
+        <li>Stop the discretionary transfers: extra investing, extra mortgage principal, travel sinking. Keep insurance and minimum debt payments.</li>
+        <li>Spend the dedicated cash layer.</li>
+        <li>If you still have a gap, sell the cash-like holding you designated for this, including a TFSA cash slice, and diary the recontribution for the following calendar year if room will not allow it sooner.</li>
+        <li>Draw the HELOC only if it is still undrawn, still offered, and you can service it. Keep that draw in its own trail so it never mixes with an investment balance.</li>
+        <li>Sell long-term investments only after those paths are exhausted. Touch the RRSP last.</li>
+    </ol>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Size cash off essentials and the gap you can describe,</strong> including the disability waiting period, not off a multiple of gross pay.</li>
+        <li><strong>CDIC covers eligible deposits within categories you must confirm.</strong> A cash ETF is a security with a settlement lag.</li>
+        <li><strong>An undrawn HELOC can be a second layer.</strong> A drawn, invested HELOC is a leverage plan.</li>
+        <li><strong>Personal draws are not deductible.</strong> Do not blend them with a Smith Manoeuvre balance.</li>
+        <li><strong>Spend cash before you spend the portfolio,</strong> and spend the RRSP last.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETFs</a> — which vehicle holds the cash layer.</li>
+        <li><a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC use</a> — tracing, and why a personal draw is different.</li>
+        <li><a href="/blog/smith-maneuver-canada-steps-risks/">The Smith Manoeuvre</a> — why that balance is not spending money.</li>
+        <li><a href="/blog/cash-flow-system-canada/">The cash-flow system</a> — the timing buffer in front of this reserve.</li>
+        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the wait your cash has to cover.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>A personal HELOC draw and an investment HELOC draw are different tax files.</strong></p>
+        <p>Interest deductibility is a use test, not a product feature. The 2026 tax guide is the filing side of borrowed money.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about liquidity for Canadian households. It is not tax, lending, insurance, or investment advice, and it is not a recommendation to borrow or to hold any product. CDIC categories, CIPF limits, HELOC contracts, and disability elimination periods change and are specific to your file. Month-counts in the example are bands, not a target. Confirm deposit coverage with CDIC, the use of borrowed money with a CPA, and the credit limit with the lender before you rely on it.</p>
+        <div class="footer-note">Published: January 1, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "HISA vs Cash ETFs in Canada: Where Short-Term Money Belongs",
+    slug: "hisa-vs-cash-etf-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-02",
+    excerpt: "A decision framework for deposits versus savings, money-market, and T-bill ETFs, in a TFSA or outside one. Compare structure and today's rate, not a stale yield table.",
+    image: "/images/blog/hisa-vs-cash-etf-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The headline yield is the last input, and it is the one the ad leads with. Short-term money in Canada is a choice among <span class="highlight">a deposit, a fund, and a tax location</span>. If you cannot say which of the three failed last time you chased a rate, you will chase the next one.
+    </div>
+
+    <p>This is the vehicle. How large the cash pile should be, and why a HELOC is not a substitute for it, is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>. How the transfer gets there on payday is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> and the <a href="/blog/money-automation-stack-canada/">automation stack</a>. Nothing on this page is a live rate. Bank deposit rates and fund distributions move. Check today's figure on the institution's page and on the ETF facts sheet the day you buy, then write down the date you will check again.</p>
+
+    <div class="callout">
+        <strong>Do not compare a HISA to a dividend stock:</strong>
+        <p>Interest is fully included in income. Eligible Canadian dividends get a gross-up and a credit, and the price can fall by more than a year of distributions. They are different contracts. The character of investment income is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a> and <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>. A cash decision does not get to borrow their tax treatment.</p>
+    </div>
+
+    <h2>Four vehicles, four ways they fail</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Vehicle</th>
+                <th>What you actually hold</th>
+                <th>The failure people skip</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HISA or other bank deposit</td>
+                <td>A deposit at an institution. If it is a CDIC member and the deposit is eligible, coverage is by depositor, by member, by category. Confirm the current limit and categories.</td>
+                <td>A promotional rate that expires, a hold on a large withdrawal, and two accounts at one member that you thought were separately insured.</td>
+            </tr>
+            <tr>
+                <td>High-interest savings ETF</td>
+                <td>Units of a fund that holds deposits or similar bank instruments. You are a unitholder. You are not the depositor.</td>
+                <td>An MER, a premium or discount to net asset value, and a yield that changed when the deposits underneath these funds were regulated more tightly. A 2023 screenshot is not a quote.</td>
+            </tr>
+            <tr>
+                <td>Money-market ETF</td>
+                <td>Units of a fund holding short-term paper. Stable value is the design goal.</td>
+                <td>It is not a promise. Read what the fund is allowed to hold, and subtract the MER from the gross figure you are being shown.</td>
+            </tr>
+            <tr>
+                <td>T-bill ETF</td>
+                <td>Units backed by Government of Canada or provincial treasury bills, depending on the fund. Credit is sovereign or provincial, which is not the same thing as a fixed price.</td>
+                <td>Small price movement, settlement lag, and interest-like taxation outside a registered account. "Government" is not CDIC and it is not same-day cash.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tax location changes the winner</h2>
+
+    <p>Outside a registered account, interest is fully taxable at your marginal rate. There is no dividend tax credit on a savings distribution. Compare after tax, not the number in the ad. A fund that looks ahead by a fraction of a percent and then loses that fraction to tax and to its MER was not ahead.</p>
+
+    <ul>
+        <li><strong>TFSA.</strong> Interest inside the account is not taxed. The cost is room. If you will fill the year's room with long-term holdings anyway, parking the emergency slice in a taxable HISA can be the cleaner split: the TFSA stays invested, the cash stays insured as a deposit. If you will not fill the room, a cash holding in the TFSA is reasonable, especially for money you might spend and then replace. Withdrawn room generally returns on the next January 1, not the day you withdraw. That rule is the <a href="/blog/tfsa-strategies-2026/">TFSA guide</a>, and January funding is the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a>.</li>
+        <li><strong>RRSP.</strong> A poor home for money you may need. A withdrawal is included in income, withholding usually applies, and the room is gone. Do not hide an emergency fund here to get a deduction.</li>
+        <li><strong>FHSA.</strong> The right place for a down payment that has a date, and the wrong place to reach for equity returns if that date is close. The timeline is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>. Cash, a GIC, or a cash-like ETF inside the FHSA is a horizon decision, not a yield contest.</li>
+        <li><strong>Non-registered.</strong> Default for a large balance that does not fit in unused TFSA room and that you might spend without wanting a registered withdrawal. Track the interest for the return. A T5 or a T3 is not optional just because the amount felt small.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>The distribution is not your net yield:</strong>
+        <p>Subtract the MER. Subtract any trading spread you pay to get in and out. If the account is taxable, subtract tax at your marginal rate, which you can locate in the <a href="/blog/federal-tax-brackets-2026/">federal brackets</a> and the <a href="/blog/provincial-tax-rates-2026/">provincial rates</a> without treating those pages as a forecast of next year's brackets. Then compare that net to the deposit rate you can actually get today, after the promo ends. If you have not opened both pages in the same sitting, you have not compared them.</p>
+    </div>
+
+    <h2>Settlement, liquidity, and the day you need the money</h2>
+
+    <p>A deposit transfer inside one bank is often same-day or next-day, and a large incoming amount can still be held. A sale of an ETF follows the market's settlement cycle, and the broker may hold the cash again before it will move to your bank. Confirm both. An emergency fund you cannot spend until next week is a fine second layer and a bad first layer. The first layer stays in a deposit you have already withdrawn from once, which is the test in the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>.</p>
+
+    <p>Savings ETFs can trade away from their net asset value when a lot of people redeem at once. That gap is usually small. It is not zero, and it shows up on the day the product is least convenient. Money-market and T-bill funds have their own versions of the same fact: the unit price is a market price. Read the facts sheet for liquidity language instead of assuming the cash is a deposit.</p>
+
+    <h2>Who each one is for</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>If this describes the dollar</th>
+                <th>Start here</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>You might need it within a couple of days, and the balance fits a coverage category you have confirmed</td>
+                <td>HISA or another deposit at a CDIC member. Rate-shop after you know the insurance, not before.</td>
+            </tr>
+            <tr>
+                <td>The balance is large, you can wait for settlement, and you will re-check the yield against a deposit</td>
+                <td>A savings, money-market, or T-bill ETF. Pick one structure. Do not own three versions of cash.</td>
+            </tr>
+            <tr>
+                <td>The dollar is a near-term house down payment inside an FHSA</td>
+                <td>Whatever short-term holding the sequencing guide allows. Not an equity ETF because the yield on cash looked dull.</td>
+            </tr>
+            <tr>
+                <td>The dollar is a long-term investment you are nervous about</td>
+                <td>None of these. Cash is a parking spot. The portfolio decision is <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset location</a>, not a HISA.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>Put a review date on the transfer:</strong>
+        <p>Promotional deposit rates end. Fund yields move when the Bank of Canada moves and when the product rules change. A quarterly fifteen minutes — today's deposit rate, today's fund distribution after MER, the account the money sits in — is the whole maintenance. Automate the transfer in the <a href="/blog/money-automation-stack-canada/">stack</a>. Do not automate the assumption that last quarter's winner is still ahead.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>A HISA is a deposit.</strong> Confirm CDIC membership, the coverage limit, and the category before you care about the rate.</li>
+        <li><strong>A cash ETF is a security.</strong> MER, spread, settlement, and possible discount to net asset value are part of the yield.</li>
+        <li><strong>Interest is fully taxable</strong> outside a registered account. Compare after tax.</li>
+        <li><strong>TFSA room is the cost of sheltering cash.</strong> RRSP is the wrong emergency pocket. An FHSA follows the purchase date.</li>
+        <li><strong>Check today's rate on both vehicles the same day.</strong> Do not keep a yield table from memory.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/emergency-fund-heloc-investments-canada/">Emergency fund layers</a> — how much cash, and what a HELOC is allowed to be.</li>
+        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution optimization</a> — room you might rather fill with long-term holdings.</li>
+        <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a> — when the down payment should be cash.</li>
+        <li><a href="/blog/tax-efficient-investing-2026/">Tax-efficient investing</a> — why interest and dividends are not rivals.</li>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the payday transfer that funds the vehicle.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The rate is a quote. The tax on the interest is a return.</strong></p>
+        <p>Marginal rates and where interest lands on the T1 are the other half of an after-tax comparison. The 2026 tax guide is that half.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about short-term cash vehicles in Canada. It is not tax, investment, or deposit-insurance advice, and it is not a recommendation to buy any fund or open any account. Yields, MERs, CDIC limits, and settlement cycles change. No current rate is stated here. Read the ETF facts sheet and the deposit terms, and confirm coverage with CDIC, before you move money.</p>
+        <div class="footer-note">Published: January 2, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Debt Payoff vs Investing: The Comparison That Is Actually Fair",
+    slug: "debt-payoff-vs-investing-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-03",
+    excerpt: "Match a risk-free after-tax debt rate against an investment you might abandon. Employer matches and RRSP brackets are exceptions. Mortgages are a different species.",
+    image: "/images/blog/debt-payoff-vs-investing-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        Paying a non-deductible debt is a <span class="highlight">risk-free after-tax return</span> equal to the interest rate. An investment has to clear that rate after tax, after fees, and after the realistic chance you will not stay invested. Most consumer debt loses that comparison before it starts.
+    </div>
+
+    <p>This article is the comparison for unsecured and other non-mortgage debt, plus the two exceptions that survive it. The residence mortgage is a different species: lower rate, a contract privilege, a penalty if you guess wrong, and interest that is not deductible. The hurdle arithmetic for that loan is <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a>. The order among the mortgage, the TFSA, and the RRSP is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">which dollar first</a>. Use those pages for the house. Do not paste their stack onto a credit card and call it a strategy.</p>
+
+    <div class="callout">
+        <strong>Minimums are not the strategy. They are the floor:</strong>
+        <p>Every debt gets its contractual minimum so you are not in default while you optimize. The minimum on a revolving balance is how the balance survives. The decision in this article is what happens to the next dollar after the minimums, not whether to pay them.</p>
+    </div>
+
+    <h2>The comparison, with the tax written on both sides</h2>
+
+    <p>On debt whose interest you cannot deduct, the return from a prepayment is the interest rate itself. You do not pay tax on interest you no longer owe. There is no market path where that return goes negative. That is the hurdle.</p>
+
+    <p>On debt whose interest is deductible because the borrowed money earns income, the hurdle is lower. An illustrative rate of 6 percent at an illustrative 40 percent marginal rate is an after-tax cost of 3.6 percent. Those figures are a picture of the formula — rate times one minus your marginal rate — not a quote and not your bracket. Find the bracket in the <a href="/blog/federal-tax-brackets-2026/">federal</a> and <a href="/blog/provincial-tax-rates-2026/">provincial</a> guides, then use the rate on your own agreement. Deductibility is a use test. A line of credit that bought a television does not become deductible because a different part of the same line bought units. The tracing file is the <a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC guide</a>. This page will not rebuild it.</p>
+
+    <p>On the investment side, write down an expected return you can defend, then take tax off if the account is non-registered. A TFSA return is after tax already. An RRSP return is not a gift: the deduction arrives now and the inclusion arrives later, which is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, not a reason to carry a card balance. A diversified equity portfolio's long-run expectation is an assumption. It is not a rate a bank owes you. If you cannot say the assumption out loud after imagining a large drawdown, you do not have an expected return.</p>
+
+    <div class="example-box">
+        <strong>Illustration of a hurdle, not a forecast</strong>
+        <p>A revolving balance at 20 percent, non-deductible, requires a pre-tax return above 20 percent in a taxable account just to tie, before behaviour. No sober equity assumption clears that. A personal loan at an illustrative 9 percent, non-deductible, still clears most people's after-tax GIC and many people's honest equity assumption once you haircut for the chance of quitting. A deductible investment loan at an illustrative 6 percent and a 40 percent marginal rate hurdle of 3.6 percent can lose to a TFSA equity holding in expectation — and that expectation can be negative for years. The loan still has to be serviced from cash flow. If it cannot, the expectation is irrelevant.</p>
+    </div>
+
+    <h2>Punitive debt is not a debate</h2>
+
+    <p>Revolving unsecured debt priced in the high teens or higher is a math problem with one answer. Pay it. Do not dollar-cost-average into a TFSA while a card compounds. Do not keep the balance because a points plan rebates one or two percent. The rebate is not in the same units as the interest. The earn rate on a card you revolve is a distraction; the stack, if you pay in full, is the <a href="/blog/canadian-credit-card-stack-templates/">stack templates</a>.</p>
+
+    <p>Payday-style borrowing and deferred-payment plans that become high-rate debt after a promo are the same species. Read the rate that applies when the promo ends. If you cannot pay the balance before that date from money already in the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>, you are not financing a purchase. You are taking a loan.</p>
+
+    <h2>Two exceptions that are easy to fake</h2>
+
+    <ul>
+        <li><strong>An employer match, on the matched slice only.</strong> A dollar-for-dollar match, or any match you can read in the plan text, is an immediate return on the contributed dollar. Confirm the formula and the cap. Declining that slice to pay a moderate-rate debt is refusing compensation. The exception ends at the cap. Dollars above the match go back into the hurdle comparison. A match does not justify carrying a punitive card. Pay the card, and take the match, and cut spending until both fit. If they cannot both fit this month, the card is the emergency.</li>
+        <li><strong>RRSP room at a genuinely higher marginal rate,</strong> with the refund assigned in advance to the debt or the TFSA. The refund loop is already worked in <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">which dollar first</a>. Use it for moderate-rate debt and for the mortgage. Do not use it to narrate a 20 percent card. A deduction does not outrun interest in the high teens, and a refund that gets spent was not part of the plan.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Behaviour is part of the expected return:</strong>
+        <p>The spreadsheet assumes the invested dollar stays invested. If the household spends surplus that was "going to be invested," the hurdle was never cleared, because the investment never happened. Automate the winner. A debt payment that is a bill will occur. A TFSA transfer that waits for motivation often will not. The <a href="/blog/money-automation-stack-canada/">automation stack</a> is the enforcement. The <a href="/blog/saving-rate-targets-canada/">saving-rate target</a> is the amount you automate, not the amount you announce.</p>
+    </div>
+
+    <h2>The mortgage is a different species</h2>
+
+    <p>Principal-residence interest is generally not deductible. The rate is usually far below unsecured revolving debt, the prepayment privilege is capped, and breaking a term to "get ahead" can cost a penalty that wipes out the hurdle. Some households hold a cheap term they should not rush to repay. Some hold a rate that beats any safe investment they would actually buy. Both statements can be true of different contracts in the same year. Read your commitment. Then use <a href="/blog/mortgage-prepayment-vs-investing-canada/">the hurdle guide</a> and <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">the account order</a>. An FHSA for a home you have not bought yet is not a prepayment problem. It is <a href="/blog/fhsa-home-purchase-sequencing-canada/">sequencing</a>.</p>
+
+    <p>Borrowing to invest, including a Smith Manoeuvre, is not "investing instead of paying debt." It is adding debt. Interest deductibility, leverage, and the risk of a forced unwind live in the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a>. Do not import that structure into a decision about a credit-card balance.</p>
+
+    <h2>An order that stays out of the mortgage article's way</h2>
+
+    <ol>
+        <li>Pay every contractual minimum.</li>
+        <li>If a card or other punitive balance exists, direct the surplus there until it is gone. Keep a small cash buffer so the next repair does not reopen it. The buffer is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>.</li>
+        <li>Take the employer match up to the cap, unless step 2 makes that impossible this month. If it is impossible, the budget is the emergency, not the match math.</li>
+        <li>For what remains — moderate personal loans, a deductible investment loan you can service, a mortgage — run the after-tax hurdle, then place the investment dollar with the account guides rather than with a new theory.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>Write the rate you are actually paying:</strong>
+        <p>Statement APRs, promo end dates, and mortgage coupons are on documents you already have. A blog's "typical" rate is not your hurdle. If the rate is variable, rerun the comparison when it resets, not when a market headline makes you restless.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Non-deductible interest is a risk-free after-tax return</strong> equal to the rate. The investment has to beat it after tax and after behaviour.</li>
+        <li><strong>High-teens revolving debt is not a close call.</strong> Pay it before you fund a portfolio.</li>
+        <li><strong>A match is an exception on the matched dollars only.</strong> An RRSP deduction is an exception when the refund is assigned and the rate is moderate.</li>
+        <li><strong>Deductible interest uses a lower hurdle,</strong> and only if the use test is clean.</li>
+        <li><strong>The mortgage decision is already written.</strong> Use the prepayment guides. Do not copy them onto a card.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/mortgage-prepayment-vs-investing-canada/">Mortgage prepayment versus investing</a> — the hurdle for the residence.</li>
+        <li><a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">Prepayment versus TFSA and RRSP</a> — the order, including the refund loop.</li>
+        <li><a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC strategies</a> — when interest is deductible.</li>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — where the extra payment sits on payday.</li>
+        <li><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> — the deduction that is not a reason to revolve.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The hurdle is after tax. The bracket is a return entry.</strong></p>
+        <p>Deductible interest, RRSP refunds, and the marginal rate you think you are in are tax. The 2026 tax guide is that side of the comparison.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about comparing debt repayment with investing for Canadian residents. It is not tax, credit, or investment advice, and it is not a recommendation to borrow or to invest. Interest rates, deductibility, and brackets are specific to your contracts and your return. Every rate and percentage in the examples is illustrative. Confirm the APR on your statement, the coupon on your mortgage, and the use of any borrowed money with a CPA before you rely on a deduction.</p>
+        <div class="footer-note">Published: January 3, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "The Annual Fixed-Cost Audit for Canadian Households",
+    slug: "fixed-cost-audit-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-04",
+    excerpt: "A twice-yearly teardown of telecom, insurance, banking, subscriptions, auto add-ons, and housing contracts. Switch math, and the costs you should refuse to cut.",
+    image: "/images/blog/fixed-cost-audit-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        The dollars that never pass through a weekly decision are the ones that set your saving rate. A fixed-cost audit is a <span class="highlight">contract review with a kill list</span>, done once or twice a year. It is not a hunt for a cheaper grocery flyer.
+    </div>
+
+    <p>Every dollar you remove has to be reassigned the week the cancellation confirms, or lifestyle absorbs it. The reassignment is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. The transfer that keeps the dollar from drifting back is the <a href="/blog/money-automation-stack-canada/">automation stack</a>. Whether the freed dollar raises the rate you claim to have is <a href="/blog/saving-rate-targets-canada/">saving-rate targets</a>. If two adults have to agree before a contract dies, that rule is the <a href="/blog/couples-money-system-canada/">couples system</a>.</p>
+
+    <div class="callout">
+        <strong>What this audit refuses to be:</strong>
+        <p>It does not cut disability insurance, liability limits, or a term policy that matches a need analysis in order to win a spreadsheet. It does not pause TFSA contributions to "find" the price of a streaming service. It does not treat a car payment as a negotiable subscription. The payment is a debt. The debt decision is <a href="/blog/debt-payoff-vs-investing-canada/">payoff versus investing</a>.</p>
+    </div>
+
+    <h2>Build the register before you negotiate anything</h2>
+
+    <p>One page, six columns: vendor, what it covers, monthly or annual amount, renewal or end date, notice required to cancel, and the account that pays it. Pull the list from twelve months of the bills account, not from memory. Memory drops the app that rebilled after a "free" month and the warranty that financed itself onto the same card as groceries.</p>
+
+    <p>Mark each line keep, reprice, or kill. A line you cannot explain in one sentence is a kill until someone defends it. Do this in a single sitting. An audit that lasts all quarter becomes furniture.</p>
+
+    <h2>The six places the money actually hides</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>What you are shopping</th>
+                <th>The trap</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Telecom</td>
+                <td>Mobile and internet at the speed and data you use, out of contract if the in-contract price was a teaser.</td>
+                <td>Device financing that survives a "switch and save" offer. The phone balance is a loan. Add it to the cost of leaving.</td>
+            </tr>
+            <tr>
+                <td>Insurance</td>
+                <td>The same liability limit, the same named perils you still want, a deductible your cash layer can pay.</td>
+                <td>A lower premium from a lower liability limit or from dropping coverage you would not self-insure. Home and tenant gaps are <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">a coverage article</a>. Stacking policies you do not need is <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</td>
+            </tr>
+            <tr>
+                <td>Banking and card fees</td>
+                <td>A chequing plan you actually waive, foreign-exchange markup on the card you travel with, an annual fee measured against redemptions you will use.</td>
+                <td>NSF fees. Those are a routing failure, not a line item to budget. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">fee versus no-fee</a>.</td>
+            </tr>
+            <tr>
+                <td>Subscriptions</td>
+                <td>Software, media, memberships, boxes. Renewal date and a kill rule: no use in the last two months, cancel.</td>
+                <td>Cancelling the visible ones and missing the ones billed annually in a month you do not audit.</td>
+            </tr>
+            <tr>
+                <td>Auto add-ons</td>
+                <td>Extended warranties, prepaid maintenance, storage, a second car that is a convenience with a full insurance policy.</td>
+                <td>Treating the loan or lease payment as an add-on. You can refinance or sell. You cannot haggle it like a streaming plan.</td>
+            </tr>
+            <tr>
+                <td>Housing add-ons</td>
+                <td>Alarm contracts, water-heater or HVAC rental, maintenance plans that duplicate the home policy, services the condo fee already includes.</td>
+                <td>A buyout quote you accept from memory. Get the current buyout in writing and compare it with a replacement you could fund or finance. Do not use a stranger's buyout figure.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Switch math, including the months you will not stay</h2>
+
+    <p>A lower monthly price is not a saving until you subtract the cost of leaving. That cost is the device balance, the cancellation fee, the overlap while two services run, the installation, and the hours. Divide the net by the monthly delta. The result is the number of months you must remain a customer for the switch to pay. If you might move cities, change jobs, or drop the service inside that window, the switch is a wash or a loss. Decline it without a speech.</p>
+
+    <div class="example-box">
+        <strong>Illustration of a payback, not a telecom offer</strong>
+        <p>An illustrative internet bill falls by $25 a month. Leaving costs $120 in overlapping service and an afternoon you value at $150 of your time, so $270 all-in. Payback is 270 divided by 25, about eleven months. If the new contract locks you for twenty-four months and you expect to move in a year, you are buying a penalty, not a discount. Your bill is not $25. The method is the point: net cost of leaving, divided by the monthly delta, compared with how long you will actually stay.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Reprice before you switch:</strong>
+        <p>The retention offer on a telecom or insurance line is often the switch, without the overlap. Ask for it with the competitor's price in hand and with your own kill list already decided. If they match and the contract does not reset a device loan you disliked, staying can be the higher expected value. Write the new price and the date it expires on the register. An untracked "loyalty" rate drifts back.</p>
+    </div>
+
+    <h2>What not to cut</h2>
+
+    <ul>
+        <li><strong>Term life that still matches the need.</strong> The face amount is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. A cheaper premium on a shorter term than the mortgage or the youngest child is not a saving.</li>
+        <li><strong>Disability coverage</strong> you would not replace from cash. The <a href="/blog/disability-insurance-canada-guide/">disability guide</a> is the living-claim problem. Cancelling it to fund a TFSA inverts the order.</li>
+        <li><strong>Liability limits</strong> on home and auto that a lawsuit would not politely respect. Raise a deductible only after the <a href="/blog/emergency-fund-heloc-investments-canada/">cash layer</a> can pay it without revolving.</li>
+        <li><strong>Registered contributions and the emergency transfer,</strong> sacrificed to keep a bundle of subscriptions. Cut the bundle. The contribution is the <a href="/blog/saving-rate-targets-canada/">rate</a>.</li>
+        <li><strong>A professional fee or a licence</strong> that is a condition of the income. That is not lifestyle. Price a cheaper provider if the credential allows it. Do not drop the credential.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Reassign the dollar the week it confirms:</strong>
+        <p>A cancelled $40 charge that stays in the spending account is a raise you gave yourself by accident. The day the final bill shows the drop, increase the TFSA, FHSA, debt, or sinking-fund transfer by that amount inside the <a href="/blog/cash-flow-system-canada/">routing</a>. If you wait a month to "see how it feels," you will not see it. You will absorb it.</p>
+    </div>
+
+    <h2>A calendar, not a mood</h2>
+
+    <p>Run the full register once a year, in a month that is not December. Run a short pass six months later aimed only at telecom, insurance renewals, and any annual charge that rebilled. Insurance renewals deserve their own week: the premium on the renewal notice is an offer, not a fate. Shop equivalent coverage before the renewal date, not the week after the debit has already gone.</p>
+
+    <p>Couples do this in the same meeting as the money system, with the register on the table. One person owning the passwords and the other owning the anger is how contracts auto-renew. Shared contracts are a shared agenda item in the <a href="/blog/couples-money-system-canada/">operating system</a>.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>List twelve months of fixed debits</strong> before you negotiate. Memory is not a register.</li>
+        <li><strong>Switch math is the cost of leaving divided by the monthly delta,</strong> compared with how long you will stay.</li>
+        <li><strong>Device balances, buyout quotes, and renewal windows</strong> belong in the arithmetic. A teaser rate does not.</li>
+        <li><strong>Do not cut insurance below the risk you can pay,</strong> and do not cut registered savings to save a subscription.</li>
+        <li><strong>Move the freed dollar into the cash-flow system the week it confirms.</strong></li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — where a cancelled debit has to be reassigned.</li>
+        <li><a href="/blog/insurance-shopping-without-over-insuring-canada/">Shopping insurance without over-insuring</a> — what not to duplicate.</li>
+        <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">Annual fee versus no-fee cards</a> — the fee that has to earn its keep.</li>
+        <li><a href="/blog/home-tenant-insurance-coverage-gaps-canada/">Home and tenant coverage gaps</a> — a cheap premium can be a missing peril.</li>
+        <li><a href="/blog/money-automation-stack-canada/">Automation stack</a> — so the old debit does not survive the cancellation.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>Some of what you keep is a tax fact, not a lifestyle fact.</strong></p>
+        <p>Employment expenses, childcare, and the registered contributions you refused to cut are return items. The 2026 tax guide is that file.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about reviewing household contracts in Canada. It is not insurance, tax, legal, or credit advice, and it is not a recommendation to cancel a policy or a service. Premiums, buyouts, device balances, and cancellation terms are specific to your contracts. The dollar figures in the payback example are illustrative. Read the renewal and the cancellation clause, and confirm coverage with a licensed broker before you replace a policy to save a premium.</p>
+        <div class="footer-note">Published: January 4, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "A Couples Money Operating System for Canada",
+    slug: "couples-money-system-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-05",
+    excerpt: "Joint bills, separate spending, proportional contributions, and a rule for conflict. Spousal RRSPs and the Canada Child Benefit are household facts, not a second tax course.",
+    image: "/images/blog/couples-money-system-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A couple does not need one personality. They need <span class="highlight">an operating system</span>: which dollars are shared, which are not, who may decide, and what happens on the month they disagree. Affection is not a control. The system is.
+    </div>
+
+    <p>The routing of the shared dollars is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. The percentage you are aiming at together is the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The debits that keep renewing because nobody owned them are the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>. Tax splitting is a different article. Spousal RRSPs, prescribed-rate loans, and pension splitting are the <a href="/blog/income-splitting-strategies-couples/">income-splitting guide</a>. This page only marks where those tools touch the household system, so you do not build an account structure that fights the return.</p>
+
+    <div class="callout">
+        <strong>Marriage and common-law are not the same switch in every system:</strong>
+        <p>CRA's common-law status has its own test, and it changes the return, the Canada Child Benefit, and credits that look at family income. Provincial family-property rules are a different statute and do not match the tax test. A life event that moves you from roommates to a household is the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>. Confirm the status before you file as two single people out of habit.</p>
+    </div>
+
+    <h2>Three account designs, and the one that usually survives</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Design</th>
+                <th>When it fits</th>
+                <th>How it fails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fully joint</td>
+                <td>Similar incomes, similar spending, a high tolerance for seeing every purchase.</td>
+                <td>One person's ordinary spending becomes a cross-examination. People start hiding accounts, which is worse than a designed separate account.</td>
+            </tr>
+            <tr>
+                <td>Fully separate</td>
+                <td>A short relationship, or finances you have deliberately kept apart with a written deal about shared bills.</td>
+                <td>A parental leave, a renovation, or a down payment turns one person's account into the household account by accident. The other person's savings rate looks heroic because they were not paying the daycare.</td>
+            </tr>
+            <tr>
+                <td>Hybrid</td>
+                <td>Most households. A joint bills account, joint sinking funds for shared goals, and individual spending accounts with no questions below an agreed line.</td>
+                <td>The individual accounts get funded with whatever is left, so the lower earner funds the household and the higher earner funds the TFSA. Fix the formula. Do not fix it with resentment.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Proportional contributions, and which income number</h2>
+
+    <p>Equal dollar splits punish the lower earner. Equal percentages only work if you agree on the base. Gross pay is the wrong base: tax, union dues, and a group RRSP do not arrive in the chequing account, and they do not arrive equally. Use take-home pay after tax and after mandatory deductions. Then write down three adjustments so the formula cannot be gamed.</p>
+
+    <ul>
+        <li><strong>Group RRSP and pension contributions</strong> are savings, not a haircut on the person who has the plan. Decide whether they count inside the household saving rate, and do not also charge that person a higher share of the bills because their take-home is lower. Pick one treatment and stay with it.</li>
+        <li><strong>A bonus or a vesting</strong> is not ordinary take-home. Apply a split you wrote before it landed. Otherwise the higher earner's windfall becomes unilateral spending, or unilateral investing that the other person never agreed was "the plan."</li>
+        <li><strong>A leave that drops one income to a benefit</strong> does not freeze last year's percentages. Recompute on the income you will actually receive. Employment insurance and top-ups are part of that income. The benefit rules are <a href="/blog/employment-insurance-benefits-canada/">employment insurance</a>, not something to improvise here.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Illustration of a split, not a prescription</strong>
+        <p>Alex takes home $8,000 a month. Blake takes home $4,000. Shared bills and joint sinking funds are $6,000. An equal split sends $3,000 from each: Blake keeps $1,000, Alex keeps $5,000. A proportional split follows the two-thirds and one-third take-home. Alex pays $4,000, Blake pays $2,000, and each keeps half of what landed. The household saving transfer comes out of the joint system before either discretionary account is funded, so "keeping half" is half of what remains after the shared goals, or you redefine the base. Write which one you mean. These dollars are a picture of the arithmetic. They are not a budget.</p>
+    </div>
+
+    <div class="warning-box">
+        <strong>The person who contributes more dollars does not buy more votes:</strong>
+        <p>Decision rights are agreed. They are not a share count. If the higher earner can veto a joint goal because they "pay more," you have an allowance system. Say so and get consent, or change it. Silent scorekeeping is how the hybrid model fails in year three.</p>
+    </div>
+
+    <h2>Shared goals have names and dates</h2>
+
+    <p>A joint sinking fund without a purpose becomes a slush fund. Name the ones that matter this year.</p>
+
+    <ul>
+        <li><strong>A first home.</strong> Each adult has their own FHSA. There is no spousal FHSA that works like a spousal RRSP. The deduction belongs to the person who contributes to their own plan. Whose room you use, and whose marginal rate makes the deduction more valuable, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">sequencing</a> and the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">account comparison</a>. If you move cash between you so an eligible spouse can contribute, confirm the gift does what you think before you file it as the other person's deduction.</li>
+        <li><strong>A house you already own.</strong> Extra principal versus TFSA versus RRSP is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">which dollar first</a>. Decide it once, as a household, so one partner is not prepaying while the other assumes the surplus is a TFSA.</li>
+        <li><strong>Children.</strong> The Canada Child Benefit follows adjusted family net income, not who paid the daycare from which account. A deduction in the higher-income name can change next July's benefit. The mechanism is the <a href="/blog/canada-child-benefit-optimization-canada/">CCB guide</a>. Do not rebuild the phase-out here, and do not treat a benefit estimate as a number you can budget to the dollar until you have read the current assessment. An RESP contribution is a dated transfer: name the subscriber, the successor subscriber, and the monthly amount. Confirm the current grant cap before you automate a figure you heard in a seminar.</li>
+        <li><strong>Travel and other wants.</strong> A sinking fund with a date. Not a card balance you later call a memory.</li>
+    </ul>
+
+    <h2>Decision rights and a conflict rule</h2>
+
+    <p>Pick three lines in dollars you both accept. Below the first line, either person spends from their individual account and does not report it. Between the first and the second, they tell the other person before they buy, and either can ask for a day. Above the second, both agree, in writing, which can be a message you can find later. Any new debt is above the second line no matter how small: a card that will not be paid in full, a buy-now-pay-later plan, a HELOC draw, a co-signed loan.</p>
+
+    <div class="tip-box">
+        <strong>When you stall, last month continues:</strong>
+        <p>Hold a short monthly meeting. The agenda is three questions: are the bills funded through the next pay, are the shared goals funded, did either person take on debt. One decision, not a retrospective of character. If you cannot agree on a change, the previous month's transfers stay in place. No new debt during a stall. The <a href="/blog/money-automation-stack-canada/">automation stack</a> is what makes "last month continues" a fact rather than a hope. A stall is not permission for either person to pause the joint transfer and spend it.</p>
+    </div>
+
+    <h2>The tax facts that change the system, lightly</h2>
+
+    <p>A spousal RRSP lets the higher earner contribute and deduct, with the spouse as annuitant. Withdrawals in the year of contribution or the next two calendar years can be taxed back to the contributor. The width of that rule and the cases where you should not bother are the <a href="/blog/income-splitting-strategies-couples/">income-splitting guide</a>. Do not open the account because a podcast said couples should, and do not withdraw from it to fund a kitchen inside the attribution window.</p>
+
+    <p>TFSA room is individual. Funding a spouse's TFSA is a normal household move, and it is not the same thing as giving them cash to invest in a non-registered account, which can attribute income back. The line between those gifts is in the same couples tax guide. The household saving rate should count both TFSAs. A rate that only watches the higher earner's accounts is flattering someone.</p>
+
+    <p>Benefits that use family income — the Canada Child Benefit is the one most households feel — do not care which spouse clicks the bill payment. They care about the returns. File the relationship status correctly. Then design the accounts however you sleep at night.</p>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Hybrid is the default:</strong> joint bills and goals, individual spending with a ceiling.</li>
+        <li><strong>Split shared costs in proportion to take-home,</strong> and write down how pensions, bonuses, and leaves are treated.</li>
+        <li><strong>More dollars do not buy more votes</strong> over shared goals.</li>
+        <li><strong>FHSA room is individual.</strong> The CCB looks at the household. A spousal RRSP has an attribution window. Follow the tax guides for the mechanics.</li>
+        <li><strong>If you disagree, keep last month's transfers and add no debt.</strong></li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/income-splitting-strategies-couples/">Income splitting for couples</a> — spousal RRSPs and the attribution window.</li>
+        <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — family net income, not whose account paid.</li>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the joint routing this operating system sits on.</li>
+        <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a> — whose room funds the down payment.</li>
+        <li><a href="/blog/life-events-tax-implications-2026/">Life events and tax</a> — marriage, common-law, separation.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The account structure is domestic. The deduction is federal.</strong></p>
+        <p>Spousal RRSPs, family benefits, and whose name takes the deduction are tax. The 2026 tax guide is the return side of the household.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about organizing money as a Canadian couple. It is not tax, family-law, or financial advice. Common-law tests, attribution rules, FHSA eligibility, and benefit calculations change and depend on your facts. Dollar figures in the split example are illustrative. Provincial property rights are not the CRA test. Have a CPA review a spousal plan, and a family lawyer review an agreement, before you rely on either.</p>
+        <div class="footer-note">Published: January 5, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "Saving-Rate Targets That Survive Canadian Housing and Tax",
+    slug: "saving-rate-targets-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-06",
+    excerpt: "Gross, after-tax, and what is left after shelter and debt payments are three different rates. Pick one definition, then automate it, including a rate a middle income can hold.",
+    image: "/images/blog/saving-rate-targets-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        "Save twenty percent" is three different numbers depending on the denominator. In Canada the denominator is wrecked by <span class="highlight">tax, shelter, and a mortgage payment that already includes principal</span>. A target you have not defined is a way to feel behind.
+    </div>
+
+    <p>This page is the definition and the level you can hold. The payday routing that hits the level is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. The transfers that make it true when you are busy are the <a href="/blog/money-automation-stack-canada/">automation stack</a>. The contracts that free a point of rate without a smaller life are the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>. If the rate is a household number, both adults have to be inside the numerator. That is the <a href="/blog/couples-money-system-canada/">couples system</a>.</p>
+
+    <div class="callout">
+        <strong>Do not import a percentage from a forum:</strong>
+        <p>A FIRE-style rate near half of after-tax income is a choice available to a high income or a very low spend. It is not the definition of a competent Canadian household, and it is not a finding about what "people" save. Compute your rate on a definition you write down. Compare yourself with your own definition next year. Ignore a chart that used a different one.</p>
+    </div>
+
+    <h2>Three rates, and what each one flatters</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rate</th>
+                <th>Denominator</th>
+                <th>What a high number is really saying</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gross</td>
+                <td>Employment income before tax, before payroll deductions.</td>
+                <td>Often a small number that makes a taxed household look undisciplined. Useful only if you also show the after-tax rate beside it.</td>
+            </tr>
+            <tr>
+                <td>Net</td>
+                <td>After-tax income, including amounts you contributed to an RRSP that never hit the bank.</td>
+                <td>The rate you can compare with your own past. Still flatters a household with a paid-off house relative to one paying market rent.</td>
+            </tr>
+            <tr>
+                <td>Residual</td>
+                <td>After-tax income minus unavoidable shelter and minus contractual minimum debt payments.</td>
+                <td>The rate on the dollars you can actually redirect. This is the one that tells you whether the leak is latte-shaped or rent-shaped.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Shelter, for this purpose, is the cheque you cannot easily shrink this year: rent, or the mortgage payment plus property tax and condo fees if those are contractual. Do not hide a car payment inside shelter. Do not exclude shelter and then announce a heroic rate. Utilities can sit in shelter or in spending. Pick a side and keep it for twelve months.</p>
+
+    <h2>What counts as saving</h2>
+
+    <ul>
+        <li><strong>Count</strong> TFSA contributions, FHSA contributions, employee RRSP and pension contributions, non-registered investments you actually bought, and extra mortgage principal above the contractual payment.</li>
+        <li><strong>Show employer matches two ways.</strong> Inside a "total compensation" rate, and outside the rate that measures your own cash sacrifice. Quoting only the flattering one is how people argue past each other.</li>
+        <li><strong>Show contractual mortgage principal two ways.</strong> It is equity. You did not choose it this month. A rate that includes it and a rate that does not will tell you whether you are a saver or an amortizer. Both facts matter. They are not the same fact.</li>
+        <li><strong>Do not count</strong> the minimum payment on consumer debt, a tax refund you already caused by an RRSP contribution you counted when you made it, or a rising home price. Paper gains are not a saving rate.</li>
+        <li><strong>An RRSP dollar is pre-tax.</strong> A TFSA dollar is after tax. For a household rate, count the contribution, not a guessed future tax. Pre-commit the refund so you do not count it a second time when it arrives. The refund loop is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">prepayment versus TFSA and RRSP</a>.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>One household, three rates, all illustrative</strong>
+        <p>Gross employment income in this picture is $150,000. After tax, $105,000 lands or is contributed before it lands. Shelter and contractual debt minimums are $48,000. The household puts $12,000 into a TFSA, $6,000 employee into an RRSP, and $3,000 of extra mortgage principal. Employer match is $3,000 and is excluded from the sacrifice rates. Numerator for the sacrifice rate: 12,000 + 6,000 + 3,000 = $21,000. Gross rate about 14 percent. Net rate about 20 percent. Residual denominator 105,000 minus 48,000 = $57,000, so the residual rate is about 37 percent. Drop the extra principal and the net rate falls to about 17 percent. None of these is a target you are failing. They are three descriptions of one year. Your tax, your rent, and your contributions are not these figures.</p>
+    </div>
+
+    <h2>A level you can hold, including a middle income</h2>
+
+    <p>A household that can hold something in the mid-teens to the mid-twenties of after-tax income, with the definition written down, is running a serious plan. Including extra mortgage principal in that band is reasonable if you also know the rate without it. A higher rate is available to people who earn more than they spend by a wide margin, or who spend very little. It is a design for an early exit from work. It is not a moral category.</p>
+
+    <p>A residual rate that is high while the net rate is low means shelter and debt service are the constraint. The honest levers are income, a housing decision, a <a href="/blog/debt-payoff-vs-investing-canada/">debt decision</a>, and the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>. Cutting groceries to perform a forum's percentage, while a car loan and three subscriptions sit untouched, lowers your life and barely moves the net rate.</p>
+
+    <div class="tip-box">
+        <strong>Raise the rate on the next dollar, not on the life you already have:</strong>
+        <p>Commit half of every after-tax raise, and a pre-written share of every bonus, to the automated transfer before you raise spending. The other half may raise your life. That is the point of the raise. A rate that only falls when income rises is lifestyle creep with a spreadsheet. The transfer itself is the <a href="/blog/money-automation-stack-canada/">stack</a>. The account that receives it is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>, not a new debate every payday.</p>
+    </div>
+
+    <h2>How the rate connects to investing without becoming a second portfolio article</h2>
+
+    <p>A saving rate that sits in a HISA forever is a cash decision. Once the <a href="/blog/emergency-fund-heloc-investments-canada/">cash layer</a> is funded, the ongoing transfer is an investment transfer. Automate it into the vehicle you already chose — often a single asset-allocation ETF — rather than into a new idea each month. The structure is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>, and the account is <a href="/blog/tfsa-contribution-optimization-2026/">TFSA timing</a> or the RRSP, on purpose. The rate does not care which ticker. It cares that the dollar left.</p>
+
+    <div class="warning-box">
+        <strong>A target that is not a payday transfer is a wish:</strong>
+        <p>If you cannot point to the pre-authorized contribution that equals the rate, you do not have the rate. You have a year-end hope. December contributions happen. They also get skipped in the year the furnace dies. A smaller transfer that ran all year beats a heroic December that requires the year to have been calm.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Write the denominator.</strong> Gross, after-tax, and residual rates describe different households, sometimes the same one.</li>
+        <li><strong>Show mortgage principal and employer matches with and without,</strong> so you know whether you are saving or amortizing.</li>
+        <li><strong>A mid-teens to mid-twenties after-tax rate is a serious plan</strong> if you can hold it. A much higher rate is a design, not a duty.</li>
+        <li><strong>Raise the rate on raises and on cancelled fixed costs,</strong> not by collapsing ordinary life first.</li>
+        <li><strong>Automate the transfer</strong> into the account and the fund you have already chosen.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the routing that makes the rate a transfer.</li>
+        <li><a href="/blog/money-automation-stack-canada/">Automation stack</a> — so the rate survives a busy quarter.</li>
+        <li><a href="/blog/fixed-cost-audit-canada/">Fixed-cost audit</a> — the cleanest way to raise the rate.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a> — which account receives the dollar.</li>
+        <li><a href="/blog/debt-payoff-vs-investing-canada/">Debt payoff versus investing</a> — when the "saving" should be a payment instead.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>An RRSP in the numerator is a deduction on the return.</strong></p>
+        <p>Room, brackets, and the refund you already promised not to double-count are tax. The 2026 tax guide is that half of the rate.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to define a household saving rate in Canada. It is not financial, tax, or retirement advice, and it is not a statement of what anyone should save. The percentages and dollar figures are an illustration of arithmetic, not a survey, not a target, and not your income. Contribution room and tax on RRSP withdrawals are specific to your return. Confirm room with CRA before you automate a contribution to hit a percentage.</p>
+        <div class="footer-note">Published: January 6, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
+  },
+  {
+    title: "The Money Automation Stack: Payroll to the Brokerage",
+    slug: "money-automation-stack-canada",
+    category: "Budgeting & Saving",
+    categorySlug: "budgeting-saving",
+    author: "Andrew Carrothers",
+    date: "2027-01-07",
+    excerpt: "Payroll splits, scheduled transfers, a bill calendar, DRIP or auto-buy, and a card paid in full. Plus the overdrafts, missed minimums, and double charges that break it.",
+    image: "/images/blog/money-automation-stack-canada.png",
+    content: `<div class="container">
+
+    <div class="hook">
+        A system you have to remember is a system you will skip in March. The automation stack is the <span class="highlight">plumbing under the cash-flow design</span>: money moves because a date arrived, not because you felt organized.
+    </div>
+
+    <p>The design — which bucket exists, and what pay-yourself-first means for a high earner — is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. This article is how the moves are scheduled, and how they fail. The amount you are trying to move is the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The cash's destination is <a href="/blog/hisa-vs-cash-etf-canada/">a HISA or a cash ETF</a> for the short term, and the portfolio guides once the reserve exists. Cancelling a debit that the stack will otherwise keep paying is the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>.</p>
+
+    <div class="callout">
+        <strong>Automate the boring path. Do not automate a new opinion:</strong>
+        <p>A pre-authorized contribution into the fund you already chose will outperform a monthly decision you keep reopening. A pre-authorized contribution into whatever you read about last night will not. Pick the vehicle in <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a> and <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset location</a>. Then let the stack buy that, and only that, until you have a written reason to change it.</p>
+    </div>
+
+    <h2>Five layers, from the employer down</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Layer</th>
+                <th>What it moves</th>
+                <th>The setting that matters</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Payroll split</td>
+                <td>Group RRSP, pension, and, if the employer allows multiple deposits, a slice straight to bills or savings.</td>
+                <td>The group contribution already uses RRSP room. A personal transfer on top of it is a second claim on the same room. Read the pay stub, not the gross.</td>
+            </tr>
+            <tr>
+                <td>Scheduled transfers</td>
+                <td>Hub to bills, buffer, sinking funds, and the brokerage, the business day after pay lands.</td>
+                <td>Date them after the deposit clears, including a long weekend. A transfer that runs on payday morning will overdraft a held paycheque.</td>
+            </tr>
+            <tr>
+                <td>Bill calendar</td>
+                <td>Every pre-authorized debit: payee, amount, date, source account, notice period to cancel.</td>
+                <td>Annual bills get a monthly sinking transfer of one-twelfth. They do not get a surprised credit card in March.</td>
+            </tr>
+            <tr>
+                <td>Investment auto-buy</td>
+                <td>A pre-authorized contribution into one fund, plus dividend reinvestment where it helps.</td>
+                <td>DRIP inside a TFSA or RRSP is simple. DRIP in a non-registered account is an adjusted-cost-base chore. Know which one you turned on.</td>
+            </tr>
+            <tr>
+                <td>Card routing</td>
+                <td>Ordinary spend on a card you pay in full from the bills account.</td>
+                <td>The pre-authorized debit is the statement balance, not the minimum. A minimum-spend bonus is a dated project, not a permanent raise in spending.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Payroll and the day after</h2>
+
+    <p>If the employer can split the deposit, send the bills float and the savings slice before the remainder hits the spending account. People spend what they see. A split you do not see is the point. If the employer will only deposit to one account, the scheduled transfer the next business day is the same design with one extra step. Do not schedule it for the morning of pay. Holds, statutory holidays, and a Friday deposit that posts Monday are how a correct budget produces an NSF fee. NSF fees are a stack failure. They are not a normal cost of banking. The <a href="/blog/fixed-cost-audit-canada/">audit</a> should find zero of them. If it finds one, the dates are wrong.</p>
+
+    <p>Biweekly pay against monthly bills means two months with a third deposit. The third deposit's transfer should already exist in the stack, aimed at sinking funds or the registered contribution, as the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> describes. An unscheduled third pay is how a good rate leaks.</p>
+
+    <h2>The bill calendar and the sinking transfer</h2>
+
+    <p>List every debit for the next twelve months. Housing, insurance, utilities, childcare, tax instalments if you are required to remit them, professional fees, annual subscriptions you decided to keep. The instalment rules are the <a href="/blog/quarterly-tax-instalments-2026/">instalments guide</a>. A household that automates everything except the quarterly tax payment will feel rich until the CRA date.</p>
+
+    <p>For each annual bill, the sinking transfer is the annual amount divided by the number of pays, landing in the HISA you chose in the <a href="/blog/hisa-vs-cash-etf-canada/">cash comparison</a>. The day the bill is due, one transfer pays it. You do not "cash-flow" an annual premium out of the spending account and then wonder why the saving rate missed.</p>
+
+    <div class="tip-box">
+        <strong>One fund, bought on a date:</strong>
+        <p>Point the brokerage pre-authorized contribution at a single ETF you have already selected. Dividend reinvestment inside an RRSP or TFSA avoids cash drag without a tax slip. In a non-registered account, reinvestment still adjusts your cost base, and a return-of-capital distribution is not yield. That bookkeeping is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. If you will not track it, take the cash distribution and buy on your existing schedule instead of turning on a taxable DRIP you will forget.</p>
+    </div>
+
+    <h2>Card spend is a debit you already scheduled</h2>
+
+    <p>The stack assumes the card is paid in full by a pre-authorized debit from the bills account on or before the due date. Set the debit to the statement balance. A debit set to the minimum will report success while the balance compounds. That failure is quiet, which is why it lasts.</p>
+
+    <p>A welcome bonus with a spending threshold has to be funded inside the routing for the months it runs, using spending you already intended. How to do that without manufacturing purchases is the <a href="/blog/card-churning-minimum-spend/">minimum-spend guide</a>. Which card receives the ordinary spend is the <a href="/blog/canadian-credit-card-stack-templates/">stack templates</a>. When the bonus ends, the routing returns to the card you meant to keep. Leave the old card's pre-authorized merchants moved, or you will pay a fee on a card you thought you had closed. The keep-or-cancel test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>.</p>
+
+    <h2>How the stack breaks</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Failure</th>
+                <th>What it looks like</th>
+                <th>The fix you write down</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Overdraft</td>
+                <td>A transfer or a debit runs before payroll posts, often on a long weekend.</td>
+                <td>Move every outgoing date at least one business day after pay is reliable. Keep the timing buffer in the bills account.</td>
+            </tr>
+            <tr>
+                <td>Missed minimum, or a paid minimum</td>
+                <td>The card debit is pointed at an empty account, or it is set to the minimum and you stopped looking.</td>
+                <td>Statement-balance debit from the bills account. The bills account is funded for that balance on payday. Alert on any payment that is not "paid in full."</td>
+            </tr>
+            <tr>
+                <td>Double charge</td>
+                <td>You paid the card manually and the debit also ran. Or the old bank's debit survived a switch.</td>
+                <td>One payment path. When you switch banks, list every payee and watch both accounts for two full cycles before you close the old one.</td>
+            </tr>
+            <tr>
+                <td>Room collision</td>
+                <td>Payroll RRSP plus a personal pre-authorized contribution exceed the year's room.</td>
+                <td>One owner for the RRSP total. Check the CRA room before you raise either number. The limits are the <a href="/blog/contribution-limits-2026/">limits guide</a>.</td>
+            </tr>
+            <tr>
+                <td>Drift</td>
+                <td>A raise never increased the savings transfer. A cancelled subscription came back. A promo HISA expired and the stack still sends money there.</td>
+                <td>A quarterly twenty minutes. Stub, transfers, payees, card debit type, and today's rate on the cash vehicle.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>Two payment paths on one card is how people pay twice:</strong>
+        <p>Manual payment plus a pre-authorized debit, or a debit at the old bank plus a debit at the new one, creates a credit balance or an overdraft, and sometimes both in the same week. Pick one path. If you pay manually because you do not trust the debit, turn the debit off. Do not run both "just in case."</p>
+    </div>
+
+    <div class="example-box">
+        <strong>A quarterly audit, illustrative timing only</strong>
+        <p>Twenty minutes, four times a year, not a new budget. Open the pay stub: did a raise or a bonus land without a matching change to the savings transfer. Open the bill list: any payee you cancelled that still posted, any annual debit inside the next quarter that the sinking fund cannot cover. Open the card: is the automatic payment still "statement balance," and is the annual fee still earned. Open the brokerage: did the pre-authorized contribution post, and are you inside RRSP and TFSA room. Open the HISA: is the rate you are earning still the rate you think, or did a promotion end. Change one setting if it is wrong. Do not redesign the system in the same sitting.</p>
+    </div>
+
+    <h2>Key takeaways</h2>
+
+    <ul>
+        <li><strong>Payroll and the next-business-day transfer</strong> do the routing. Payday morning is too early.</li>
+        <li><strong>Annual bills are a monthly sinking transfer,</strong> including tax instalments.</li>
+        <li><strong>Auto-buy one fund you already chose.</strong> Treat taxable DRIPs as bookkeeping, not as magic.</li>
+        <li><strong>The card debit is the statement balance.</strong> A minimum-spend offer is temporary and funded.</li>
+        <li><strong>Overdrafts, double payments, and a second RRSP contribution</strong> are date bugs. Review them quarterly.</li>
+    </ul>
+
+    <h2>Related reading</h2>
+
+    <ul>
+        <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the buckets this stack is plumbing for.</li>
+        <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — the amount the transfer is supposed to equal.</li>
+        <li><a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETFs</a> — where the sinking cash waits.</li>
+        <li><a href="/blog/card-churning-minimum-spend/">Minimum-spend math</a> — a bonus that has to fit the routing.</li>
+        <li><a href="/blog/contribution-limits-2026/">Contribution limits</a> — the ceiling on automated RRSP and TFSA transfers.</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>An automated RRSP contribution is still a tax entry.</strong></p>
+        <p>Room, instalments, and a payroll plan that already used the deduction are easy to double. The 2026 tax guide is the ceiling on the stack.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about scheduling household transfers in Canada. It is not tax, banking, or investment advice, and it is not a recommendation of any institution or fund. Pre-authorized debit rules, contribution room, and settlement timing are specific to your accounts and change. No fee, rate, or room figure is stated as current. Confirm RRSP and TFSA room with CRA, and confirm debit dates with your bank, before you rely on an automation.</p>
+        <div class="footer-note">Published: January 7, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+    </div>
+
+</div>`
   }
 ];
