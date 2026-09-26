@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Script from 'next/script';
+import { SITE_URL } from '@/lib/site';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -11,8 +12,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Canadian Optimizer',
-  description: 'Canadian Optimizer provides Canadians with actionable strategies and tips to optimize their financial life with the goal of maximizing wealth.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'Canadian Optimizer | Tax, Investing, and Retirement Strategies for Canadians',
+    template: '%s | Canadian Optimizer',
+  },
+  description:
+    'Practical tax, investing, retirement, and credit-card strategies for Canadians who want to keep more of what they earn and put it to work.',
+  alternates: {
+    types: {
+      'application/rss+xml': `${SITE_URL}/rss.xml`,
+    },
+  },
   verification: {
     google: 'uKSOZZKDif-3svSxtPibw_otl90IZ__U4dDMe-L03IM',
   },

@@ -1,3 +1,13 @@
+import type { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Disclaimer',
+  description:
+    'Canadian Optimizer is educational. It is not financial, tax, or legal advice, and figures should be checked against primary sources.',
+  path: '/disclaimer/',
+});
+
 export default function Disclaimer() {
   return (
     <div className="bg-white min-h-screen py-16 md:py-24">

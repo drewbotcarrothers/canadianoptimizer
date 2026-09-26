@@ -47,8 +47,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 12px;
     color: #fff;
+}
+
+.exact-header .meta a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .blog-content-exact header .meta span {

@@ -1,7 +1,18 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '@/components/ui/Button';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: '2026 Canadian Tax Guide',
+  description:
+    'The 2026 Canadian tax guide: brackets, RRSPs, TFSAs, the FHSA, and the deductions employees and business owners still miss.',
+  path: '/ebooks/tax-guide/',
+  image: '/assets/images/tax-ebook-2026.png',
+  imageAlt: 'How To Reduce Your Taxes and Maximize Your Refund, 2026 edition',
+});
 
 export default function TaxEbookLandingPage() {
   const chapters = [

@@ -1,4 +1,13 @@
+import type { Metadata } from 'next';
 import Button from "@/components/ui/Button";
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Contact',
+  description:
+    'Contact Canadian Optimizer with a question about a strategy, a correction, or a Canadian tax rule that needs another look.',
+  path: '/contact/',
+});
 
 export default function Contact() {
   return (

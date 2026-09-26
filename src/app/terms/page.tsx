@@ -1,3 +1,13 @@
+import type { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Terms of Service',
+  description:
+    'The terms for using Canadian Optimizer, including the educational limits of the articles and who owns the site content.',
+  path: '/terms/',
+});
+
 export default function TermsOfService() {
   return (
     <div className="bg-white min-h-screen py-16 md:py-24">

@@ -1,8 +1,10 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import Button from '@/components/ui/Button';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
+import { buildPageMetadata, SITE_URL } from '@/lib/site';
 
 const ebooks = [
   {
@@ -28,6 +30,22 @@ export function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const ebook = ebooks.find((item) => item.slug === slug) || ebooks[0];
+  return buildPageMetadata({
+    title: ebook.title,
+    description: ebook.description,
+    path: `/ebooks/${ebook.slug}/`,
+    image: ebook.image,
+    imageAlt: ebook.title,
+  });
+}
+
 export default async function EbookPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
   const ebook = ebooks.find(e => e.slug === resolvedParams.slug) || ebooks[0];
@@ -39,7 +57,7 @@ export default async function EbookPage({ params }: { params: Promise<{ slug: st
         data={{
           name: ebook.title,
           description: ebook.description,
-          image: [ebook.image],
+          image: [`${SITE_URL}${ebook.image}`],
           offers: {
             '@type': 'Offer',
             price: ebook.price.replace('$', '').replace(' CAD', ''),

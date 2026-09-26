@@ -1,12 +1,24 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
+import SchemaMarkup from '@/components/seo/SchemaMarkup';
+import { authorSchema, buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'About Andrew Carrothers',
+  description:
+    'Andrew Carrothers writes Canadian Optimizer: practical tax, investing, and retirement strategies based on how the Canadian rules actually work.',
+  path: '/about/',
+});
 
 export default function About() {
   return (
     <div className="bg-white min-h-screen py-16 md:py-24">
+      <SchemaMarkup data={[authorSchema()]} />
       <div className="container mx-auto px-4 max-w-4xl">
         
         <header className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6">About Andrew</h1>
+          <h1 id="andrew" className="text-4xl md:text-5xl font-bold text-charcoal mb-6">About Andrew</h1>
           <p className="text-xl text-gray-600">The philosophy, experience, and strategy behind Canadian Optimizer.</p>
         </header>
 
@@ -60,7 +72,8 @@ export default function About() {
             <div>
               <h3 className="font-semibold text-lg text-canadian-red mb-3">Trustworthiness</h3>
               <p className="text-gray-600 text-sm">
-                We maintain strict editorial independence. Affiliates never dictate our strategy recommendations, and all relationships are transparently disclosed.
+                We maintain strict editorial independence. Advertising relationships do not dictate the strategies, and how the site may earn money is explained on the{' '}
+                <Link href="/disclosure/" className="text-canadian-red hover:underline">disclosure page</Link>.
               </p>
             </div>
           </div>

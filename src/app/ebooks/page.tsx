@@ -1,4 +1,13 @@
+import type { Metadata } from 'next';
 import EbookCard from "@/components/ui/EbookCard";
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Ebooks',
+  description:
+    'Guides from Canadian Optimizer, including the 2026 tax edition on reducing what you pay and keeping more of your income.',
+  path: '/ebooks/',
+});
 
 export default function Ebooks() {
   return (

@@ -6,7 +6,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-10-09",
+    date: "2026-09-16",
+    updated: "2026-09-16",
     excerpt: "How to set a stock-and-bond mix, then place ETFs across a TFSA, RRSP, and non-registered account so tax and withholding land in the right place.",
     image: "/images/blog/diy-etf-portfolio-asset-location-canada.png",
     content: `<div class="container">
@@ -19,12 +20,12 @@ export const posts = [
 
     <div class="callout">
         <strong>Fill the room before you engineer the taxable account:</strong>
-        <p>Asset location is a refinement. Contribution order is the foundation. Unused TFSA and RRSP room, and an FHSA if a first home is still real, comes before a clever non-registered sleeve. The <a href="/blog/tfsa-contribution-optimization-2026/">January TFSA contribution guide</a>, the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA comparison</a>, and the <a href="/blog/contribution-limits-2026/">2026 limits table</a> are the sequence. This article starts once the dollars have an account.</p>
+        <p>Asset location is a refinement. Contribution order is the foundation. Unused TFSA and RRSP room, and an FHSA if a first home is still real, comes before a clever non-registered sleeve. The <a href="/blog/tfsa-contribution-optimization/">January TFSA contribution guide</a>, the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA comparison</a>, and the <a href="/blog/contribution-limits/">2026 limits table</a> are the sequence. This article starts once the dollars have an account.</p>
     </div>
 
     <h2>Write the mix before you open a fund list</h2>
 
-    <p>The stock-and-bond split is a behaviour constraint, not a puzzle with a correct answer. Equities are the growth engine and the part that can be down hard when you wish it were not. Bonds, GICs, and high-interest savings are the part that is there so you are not forced to sell equities to buy groceries or a house. Money you know you will spend inside a few years does not belong in a volatile equity ETF. A first-home FHSA with a purchase on the horizon is the clearest case — the <a href="/blog/fhsa-guide-2026/">FHSA guide</a> is about that timeline, not about maximizing a 30-year equity chart.</p>
+    <p>The stock-and-bond split is a behaviour constraint, not a puzzle with a correct answer. Equities are the growth engine and the part that can be down hard when you wish it were not. Bonds, GICs, and high-interest savings are the part that is there so you are not forced to sell equities to buy groceries or a house. Money you know you will spend inside a few years does not belong in a volatile equity ETF. A first-home FHSA with a purchase on the horizon is the clearest case — the <a href="/blog/fhsa-guide/">FHSA guide</a> is about that timeline, not about maximizing a 30-year equity chart.</p>
 
     <p>There is no CRA-approved percentage. A common Canadian habit is a meaningful bond weight that rises as the spending date gets closer, and an equity weight you can describe in one sentence. Write that sentence down. If you cannot say it in a drawdown, you do not have an allocation. You have a mood.</p>
 
@@ -68,7 +69,7 @@ export const posts = [
 
     <h2>Where each sleeve belongs</h2>
 
-    <p>The tax system does not treat investment income equally. Interest is fully included. Eligible Canadian dividends get a gross-up and a credit that only works in a taxable account. Capital gains are partially included, and only when realized outside a registered account. US dividends can face withholding before they reach you, and the Canada–US treaty turns that off for an RRSP or RRIF that holds the US security directly — not for a TFSA. The longer version of those rules is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. The map below is the portfolio version.</p>
+    <p>The tax system does not treat investment income equally. Interest is fully included. Eligible Canadian dividends get a gross-up and a credit that only works in a taxable account. Capital gains are partially included, and only when realized outside a registered account. US dividends can face withholding before they reach you, and the Canada–US treaty turns that off for an RRSP or RRIF that holds the US security directly — not for a TFSA. The longer version of those rules is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. The map below is the portfolio version.</p>
 
     <table>
         <thead>
@@ -107,7 +108,7 @@ export const posts = [
             <tr>
                 <td>The equity you most want to compound untouched</td>
                 <td>TFSA</td>
-                <td>Growth is tax-free and withdrawals do not inflate income-tested benefits. That is the account's whole advantage over the RRSP. The <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a> is the account; the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a> is the January funding rule.</td>
+                <td>Growth is tax-free and withdrawals do not inflate income-tested benefits. That is the account's whole advantage over the RRSP. The <a href="/blog/tfsa-strategies/">TFSA strategies guide</a> is the account; the <a href="/blog/tfsa-contribution-optimization/">contribution guide</a> is the January funding rule.</td>
                 <td>That a TFSA full of chequing-rate cash is a strategy, while equities sit in a taxable account. It is backwards for a long horizon.</td>
             </tr>
         </tbody>
@@ -136,16 +137,16 @@ export const posts = [
     <ul>
         <li><strong>New contributions are the first rebalance.</strong> Buy what is light. Most years you should not need to sell.</li>
         <li><strong>Sell inside the TFSA or RRSP before you sell in the taxable account.</strong> Registered rebalancing does not create a capital gain. Taxable rebalancing does.</li>
-        <li><strong>Do not buy the identical ETF in a registered account just after you sell it at a loss in the taxable account.</strong> The superficial-loss rule can deny the loss when you, or an affiliated person, reacquire the same property inside the window — including inside your TFSA. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> covers the 30-day rule, and the year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. Harvest losses only in the non-registered sleeve, and only with a replacement that is not the same fund.</li>
+        <li><strong>Do not buy the identical ETF in a registered account just after you sell it at a loss in the taxable account.</strong> The superficial-loss rule can deny the loss when you, or an affiliated person, reacquire the same property inside the window — including inside your TFSA. The <a href="/blog/tax-efficient-investing/">tax-efficient investing guide</a> covers the 30-day rule, and the year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. Harvest losses only in the non-registered sleeve, and only with a replacement that is not the same fund.</li>
     </ul>
 
-    <p>Adjusted cost base matters in the taxable account and nowhere else. Reinvested distributions and return of capital move the number. A T5008 from the broker is an input, not the books. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the system.</p>
+    <p>Adjusted cost base matters in the taxable account and nowhere else. Reinvested distributions and return of capital move the number. A T5008 from the broker is an input, not the books. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the system.</p>
 
     <h2>What this article will not pretend to know</h2>
 
-    <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. How that fee compounds is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
+    <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. How that fee compounds is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
 
-    <p>It will also not confuse location with withdrawal order. A large RRSP is a future tax inclusion even when the ETFs inside it are well chosen. Later, that shows up in brackets and in Old Age Security. The <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, the <a href="/blog/rrsp-meltdown-strategy/">meltdown strategy</a>, and the <a href="/blog/retirement-withdrawal-strategy/">retirement withdrawal order</a> pick up where this article stops. In retirement, the same accounts get a spending job rather than a tax job — that is the <a href="/blog/investing-bucket-strategy/">bucket strategy</a>, and it should not fight the mix you wrote down here.</p>
+    <p>It will also not confuse location with withdrawal order. A large RRSP is a future tax inclusion even when the ETFs inside it are well chosen. Later, that shows up in brackets and in Old Age Security. The <a href="/blog/rrsp-playbook/">RRSP playbook</a>, the <a href="/blog/rrsp-meltdown-strategy/">meltdown strategy</a>, and the <a href="/blog/retirement-withdrawal-strategy/">retirement withdrawal order</a> pick up where this article stops. In retirement, the same accounts get a spending job rather than a tax job — that is the <a href="/blog/investing-bucket-strategy/">bucket strategy</a>, and it should not fight the mix you wrote down here.</p>
 
     <div class="example-box">
         <strong>Couples:</strong>
@@ -183,7 +184,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about structuring a Canadian ETF portfolio across account types. It is not investment, tax, or legal advice, and it is not a recommendation to buy any fund or to use any allocation. MERs, holdings, withholding treatment, and tax rules change. Confirm the current ETF facts and your contribution room before you act. Examples that use dollar amounts are illustrations of placement, not projections of return. Consult a registered adviser for a plan that fits your file.</p>
-        <div class="footer-note">Published: October 9, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 16, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -191,13 +192,14 @@ export const posts = [
 
   {
     title: "Best Online Brokerages in Canada for 2026",
-    slug: "best-online-brokerages-canada-2026",
+    slug: "best-online-brokerages-canada",
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-10-12",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "Compare Canadian brokers on commissions, foreign exchange, registered accounts, and research — then verify the live fee schedule before you transfer.",
-    image: "/images/blog/best-online-brokerages-canada-2026.png",
+    image: "/images/blog/best-online-brokerages-canada.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -268,7 +270,7 @@ export const posts = [
 
     <p>Wealthsimple is the example Canadians already use for this structure: a phone-first account for people who will buy Canadian-listed ETFs and do not want a trading terminal. Individual registered accounts have expanded over time. Do not assume today's menu matches the last time you looked. Confirm FHSA, RESP, LIRA, RRIF, and spousal RRSP if your plan needs them. Before you buy a US-listed ETF, open the foreign-exchange preview. A wide conversion spread is how a zero-commission platform can still be the expensive one. US-dollar account features have been bundled, limited to certain account types, and repriced before. Read this month's conditions, including any monthly fee.</p>
 
-    <p>Wealthsimple the broker and Wealthsimple Tax the filing software are different products. Liking the free tax software — covered in the <a href="/blog/best-tax-software-2026/">tax-software comparison</a> — does not answer where the ETF should sit.</p>
+    <p>Wealthsimple the broker and Wealthsimple Tax the filing software are different products. Liking the free tax software — covered in the <a href="/blog/best-tax-software/">tax-software comparison</a> — does not answer where the ETF should sit.</p>
 
     <h3>Independent self-directed brokers</h3>
 
@@ -298,17 +300,17 @@ export const posts = [
             <tr>
                 <td>TFSA</td>
                 <td>Permanent shelter. January funding is a timing decision, not a broker feature.</td>
-                <td><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a></td>
+                <td><a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a></td>
             </tr>
             <tr>
                 <td>RRSP, spousal RRSP, RRIF</td>
                 <td>The deduction, and the account that can hold US-listed funds under the treaty.</td>
-                <td><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a></td>
+                <td><a href="/blog/rrsp-playbook/">RRSP playbook</a></td>
             </tr>
             <tr>
                 <td>FHSA</td>
                 <td>First-home deduction plus shelter. A near-term purchase should not sit in a volatile ETF just because the broker offers the account.</td>
-                <td><a href="/blog/fhsa-guide-2026/">FHSA guide</a></td>
+                <td><a href="/blog/fhsa-guide/">FHSA guide</a></td>
             </tr>
             <tr>
                 <td>RESP</td>
@@ -323,7 +325,7 @@ export const posts = [
             <tr>
                 <td>Non-registered</td>
                 <td>Overflow, Canadian dividends, and tax-loss harvesting. You still track adjusted cost base.</td>
-                <td><a href="/blog/tax-record-keeping-2026/">Record keeping</a></td>
+                <td><a href="/blog/tax-record-keeping/">Record keeping</a></td>
             </tr>
             <tr>
                 <td>Corporate or joint</td>
@@ -391,7 +393,7 @@ export const posts = [
 
     <ol>
         <li>Write the portfolio in one line: one-fund, or building blocks, and whether any sleeve is US-listed. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is that line.</li>
-        <li>Cross off any broker that cannot open the registered accounts you already need. Room and priority sit in the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">account comparison</a> and the <a href="/blog/contribution-limits-2026/">limits table</a>.</li>
+        <li>Cross off any broker that cannot open the registered accounts you already need. Room and priority sit in the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">account comparison</a> and the <a href="/blog/contribution-limits/">limits table</a>.</li>
         <li>On what remains, preview the foreign-exchange cost of the order you will repeat. Keep the screenshot.</li>
         <li>Read the transfer-out fee on both sides. Get any reimbursement in writing.</li>
         <li>Open one account. Automate the contribution. A second broker is for a holding the first one cannot keep, not for a hobby.</li>
@@ -399,7 +401,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>January does not wait for the perfect platform:</strong>
-        <p>Funding a TFSA on January 1 at a clumsy broker still beats funding it in December at an elegant one, when the cash can stay invested. You can transfer later with a form. You cannot retrieve the year. The contribution rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA guide</a>. The platform is allowed to be good enough.</p>
+        <p>Funding a TFSA on January 1 at a clumsy broker still beats funding it in December at an elegant one, when the cash can stay invested. You can transfer later with a form. You cannot retrieve the year. The contribution rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA guide</a>. The platform is allowed to be good enough.</p>
     </div>
 
     <h2>Key takeaways</h2>
@@ -422,7 +424,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to compare Canadian self-directed brokerages. It is not a recommendation to open, transfer, or keep an account at any firm, and it is not investment, tax, or legal advice. Commissions, foreign-exchange pricing, account availability, transfer fees, promotions, and CIPF membership and limits change. Confirm every figure on the firm's current schedule and on CIPF's own site before you act. Examples are structural, not quotes.</p>
-        <div class="footer-note">Published: October 12, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -434,7 +436,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-10-16",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "How a management-expense ratio and trading costs compound, and how to compare similar Canadian funds without treating a blog figure as a live MER.",
     image: "/images/blog/mer-drag-index-funds-canada.png",
     content: `<div class="container">
@@ -447,7 +450,7 @@ export const posts = [
 
     <div class="callout">
         <strong>The fee is the second decision:</strong>
-        <p>Cost matters after you know what you are trying to own. A cheap equity fund is the wrong product if the money is for a house in two years, and a cheap global fund is the wrong comparison if you meant to own Canadian bonds. The mix, and which account holds it, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF asset-location guide</a>. Fill registered room before you engineer a taxable sleeve — that sequence is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. This article starts once the mandate is written down.</p>
+        <p>Cost matters after you know what you are trying to own. A cheap equity fund is the wrong product if the money is for a house in two years, and a cheap global fund is the wrong comparison if you meant to own Canadian bonds. The mix, and which account holds it, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF asset-location guide</a>. Fill registered room before you engineer a taxable sleeve — that sequence is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. This article starts once the mandate is written down.</p>
     </div>
 
     <h2>What the MER actually takes</h2>
@@ -496,7 +499,7 @@ export const posts = [
 
     <ul>
         <li><strong>Commissions and spreads.</strong> Many Canadian brokers now charge little or nothing to trade an ETF. Some lines still cost money: options, assisted orders, odd markets. The spread between the bid and the ask is a cost on the day you trade even when the commission is zero.</li>
-        <li><strong>Foreign exchange.</strong> A US-listed fund with a tiny published expense ratio can lose the advantage on the conversion from Canadian dollars. Price the order you will actually place. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is about that structure, not a live rate card.</li>
+        <li><strong>Foreign exchange.</strong> A US-listed fund with a tiny published expense ratio can lose the advantage on the conversion from Canadian dollars. Price the order you will actually place. The <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a> is about that structure, not a live rate card.</li>
         <li><strong>Cash drag.</strong> Money that sits uninvested because you are shopping for a slightly cheaper ticker is a cost. So is a year of contributions left in cash because the platform was confusing.</li>
         <li><strong>Taxes, if you sell to switch.</strong> In a non-registered account, realizing a gain to save a tenth of a percent can cost more than many years of the fee. Registered accounts do not have that problem. The order of operations is in <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</li>
     </ul>
@@ -604,7 +607,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how investment fees compound and how to compare similar funds. It is not investment, tax, or legal advice, and it is not a recommendation to buy or sell any fund. The dollar figures are illustrations of a constant return and a constant fee. They are not projections. MERs, trading expense ratios, and tracking difference change. Confirm the current ETF facts and your broker's costs before you act.</p>
-        <div class="footer-note">Published: October 16, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -616,7 +619,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-10-23",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "Eligible dividends, foreign dividends, deferred capital gains, and return-of-capital traps in a Canadian non-registered account.",
     image: "/images/blog/dividend-vs-growth-taxable-accounts-canada.png",
     content: `<div class="container">
@@ -625,11 +629,11 @@ export const posts = [
         A dividend feels like income, and the Canadian dividend tax credit feels like a reward for owning the right stocks. In a non-registered account the credit is real. It is also a <span class="highlight">tax preference, not a free lunch</span>. The growth you have not sold yet is often the quieter advantage.
     </div>
 
-    <p>This comparison is about the taxable account, and only after registered room is being used. Inside a TFSA the dividend tax credit does not exist, and growth is simply tax-free. Inside an RRSP the withdrawal is ordinary income later, credit or no credit. If those accounts still have useful room, the location decision comes first. The map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>, the January funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>, and the account itself is <a href="/blog/tfsa-strategies-2026/">TFSA strategies</a>. What follows is the non-registered sleeve those articles leave for last.</p>
+    <p>This comparison is about the taxable account, and only after registered room is being used. Inside a TFSA the dividend tax credit does not exist, and growth is simply tax-free. Inside an RRSP the withdrawal is ordinary income later, credit or no credit. If those accounts still have useful room, the location decision comes first. The map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>, the January funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>, and the account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. What follows is the non-registered sleeve those articles leave for last.</p>
 
     <div class="callout">
         <strong>Total return is the dividend plus the price:</strong>
-        <p>A stock that pays 5 percent and goes nowhere has not beaten a stock that pays 1.5 percent and compounds, just because the T5 is larger. Tax changes the comparison. It does not replace it. The longer tax mechanics — gross-up, inclusion rate, and an Ontario illustration — are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. Use that as a picture. Use your province's current tax-on-income table as the bill.</p>
+        <p>A stock that pays 5 percent and goes nowhere has not beaten a stock that pays 1.5 percent and compounds, just because the T5 is larger. Tax changes the comparison. It does not replace it. The longer tax mechanics — gross-up, inclusion rate, and an Ontario illustration — are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. Use that as a picture. Use your province's current tax-on-income table as the bill.</p>
     </div>
 
     <h2>Three characters of return, not one "yield"</h2>
@@ -668,7 +672,7 @@ export const posts = [
 
     <h2>Eligible dividends are a preference with a gross-up</h2>
 
-    <p>Eligible dividends come from Canadian corporations that have paid tax at the general corporate rate, and from many Canadian equity ETFs that pass that character through. The personal system grosses the dividend up and then grants a credit, so you are not fully taxed twice on the same profit. Non-eligible dividends, typical of small-business income paid out of a private company, use a smaller gross-up and a smaller credit. They are a different animal. If you own a private company, that extraction choice is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>, not this article.</p>
+    <p>Eligible dividends come from Canadian corporations that have paid tax at the general corporate rate, and from many Canadian equity ETFs that pass that character through. The personal system grosses the dividend up and then grants a credit, so you are not fully taxed twice on the same profit. Non-eligible dividends, typical of small-business income paid out of a private company, use a smaller gross-up and a smaller credit. They are a different animal. If you own a private company, that extraction choice is <a href="/blog/should-you-incorporate/">should you incorporate</a>, not this article.</p>
 
     <p>At some lower incomes, the marginal rate on eligible dividends is very low. At higher incomes it rises, and in some provinces it is no longer obviously kinder than a realized capital gain. The rates move with the province and the bracket. Do not memorize a percentage from a blog, including the simplified Ontario figures in the tax guide on this site. Open the current table for your province in the year you are planning.</p>
 
@@ -687,7 +691,7 @@ export const posts = [
 
     <p>A capital gain is taxed when you sell, or when a fund distributes a gain you did not choose. Until then, the unrealized gain compounds without a personal tax instalment. Only half of a realized gain is included under the current inclusion rate. The other half is yours. That combination — deferral, plus a partial inclusion — is why a low-yield broad equity ETF is usually the kinder holding in a taxable account for someone who does not need the cash this year.</p>
 
-    <p>When you do need cash, you sell units. You realize a gain on the slice you sold, not on the whole position. Canada averages the adjusted cost base of identical property, so you cannot pick a "high-cost lot" of the same ETF the way a US tax-lot system allows. You can choose which fund to sell. The record is yours: a T5008 is an input, and reinvested distributions move the cost base. The system is the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a>.</p>
+    <p>When you do need cash, you sell units. You realize a gain on the slice you sold, not on the whole position. Canada averages the adjusted cost base of identical property, so you cannot pick a "high-cost lot" of the same ETF the way a US tax-lot system allows. You can choose which fund to sell. The record is yours: a T5008 is an input, and reinvested distributions move the cost base. The system is the <a href="/blog/tax-record-keeping/">record-keeping guide</a>.</p>
 
     <div class="tip-box">
         <strong>Funds can realize gains for you:</strong>
@@ -750,7 +754,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Canada taxes investment income in a non-registered account. It is not investment, tax, or legal advice and not a recommendation to buy or sell any security. Gross-up percentages, credit rates, the capital-gains inclusion rate, and clawback thresholds change. Examples that split a distribution are illustrations of tax character, not a prediction of any fund. Confirm the current rules and your slips, and consult a tax professional for your file.</p>
-        <div class="footer-note">Published: October 23, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -762,7 +766,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-10-30",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "When a holding company is a sensible place for a portfolio, and when TFSA, RRSP, and non-registered accounts are the simpler home.",
     image: "/images/blog/corporate-vs-personal-investing-canada.png",
     content: `<div class="container">
@@ -771,11 +776,11 @@ export const posts = [
         The small-business rate is not the rate on a portfolio. Money left inside a corporation from an active business can be a powerful deferral. Money invested <span class="highlight">as</span> the business is a different tax system: higher upfront tax, a refund only when you pay yourself, and a grind that can touch the operating company. Confirm the file with an accountant before you move a dollar.
     </div>
 
-    <p>This is a decision framework, not a tax opinion. Incorporation, association, refundable tax, and the capital dividend election are specific to the corporation you actually have. The operating-company version of "should I incorporate at all" is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. This article starts one step later: given that a company exists, or that someone is telling you to create one for investments, where should the portfolio live?</p>
+    <p>This is a decision framework, not a tax opinion. Incorporation, association, refundable tax, and the capital dividend election are specific to the corporation you actually have. The operating-company version of "should I incorporate at all" is <a href="/blog/should-you-incorporate/">should you incorporate</a>. This article starts one step later: given that a company exists, or that someone is telling you to create one for investments, where should the portfolio live?</p>
 
     <div class="callout">
         <strong>Personal shelters still come first:</strong>
-        <p>A TFSA is actually tax-free. A corporate portfolio is tax-deferred at best, and only on dollars that have not yet been taxed in your hands. Unused TFSA room, and an RRSP deduction that is worth taking, usually beat a holding company. The funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>, the account design is <a href="/blog/tfsa-strategies-2026/">TFSA strategies</a>, and the deduction is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a> is the personal sequence. Corporate investing is overflow.</p>
+        <p>A TFSA is actually tax-free. A corporate portfolio is tax-deferred at best, and only on dollars that have not yet been taxed in your hands. Unused TFSA room, and an RRSP deduction that is worth taking, usually beat a holding company. The funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>, the account design is <a href="/blog/tfsa-strategies/">TFSA strategies</a>, and the deduction is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a> is the personal sequence. Corporate investing is overflow.</p>
     </div>
 
     <h2>Two piles of money that look the same and are not</h2>
@@ -802,7 +807,7 @@ export const posts = [
         </tbody>
     </table>
 
-    <p>People blur those rows because both end with "the corporation owns ETFs." The tax on the way in is the whole difference. If you incorporate a holding company solely to invest savings that were already taxed personally, you have incorporated the paperwork. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> notes that a corporate account is a different application from a personal one. Being allowed to open it is not a reason to.</p>
+    <p>People blur those rows because both end with "the corporation owns ETFs." The tax on the way in is the whole difference. If you incorporate a holding company solely to invest savings that were already taxed personally, you have incorporated the paperwork. The <a href="/blog/best-online-brokerages-canada/">brokerage guide</a> notes that a corporate account is a different application from a personal one. Being allowed to open it is not a reason to.</p>
 
     <h2>Passive income is not the small-business rate</h2>
 
@@ -866,7 +871,7 @@ export const posts = [
         </tbody>
     </table>
 
-    <p>The personal non-registered column is also where <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a> and the <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a> apply. Those preferences do not survive unchanged inside a corporation, because the personal credit and the personal loss rules are personal.</p>
+    <p>The personal non-registered column is also where <a href="/blog/tax-efficient-investing/">tax-efficient investing</a> and the <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividend versus growth guide</a> apply. Those preferences do not survive unchanged inside a corporation, because the personal credit and the personal loss rules are personal.</p>
 
     <h2>When the company is the right place, and when it is clutter</h2>
 
@@ -943,7 +948,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the choice between investing personally and investing inside a Canadian private corporation. It is not tax, legal, or investment advice, and it is not a recommendation to incorporate, to retain earnings, or to buy any security. Corporate rates, the small-business limit, refundable-tax fractions, Part IV tax, association rules, and the passive-income reduction change. Dollar examples are patterns, not projections. Have a CPA review your companies before you act.</p>
-        <div class="footer-note">Published: October 30, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -955,7 +960,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-11-06",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "A year-end calendar for capital losses in a non-registered account: the 30-day superficial-loss rule, substitutes, and spouse accounts.",
     image: "/images/blog/tax-loss-harvesting-calendar-canada.png",
     content: `<div class="container">
@@ -964,11 +970,11 @@ export const posts = [
         A capital loss in Canada is useful in one place: a non-registered account, against capital gains. It does not reduce your salary. The mistake that deletes it is small and dated. You, or your spouse, or your TFSA, buy the <span class="highlight">identical property</span> inside a window that runs 30 days before the sale and 30 days after.
     </div>
 
-    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade.</p>
+    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade.</p>
 
     <div class="callout">
         <strong>Registered accounts cannot harvest:</strong>
-        <p>A loss inside a TFSA or RRSP is not a capital loss on your return. Moving a loser into a TFSA in kind is worse: the transfer is a disposition, the superficial-loss rule denies the loss, and the cost-base bump lands inside an account that will never use it. The in-kind warning is also in the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. Harvest only in the non-registered sleeve, and only with a replacement you do not already hold in an affiliated account.</p>
+        <p>A loss inside a TFSA or RRSP is not a capital loss on your return. Moving a loser into a TFSA in kind is worse: the transfer is a disposition, the superficial-loss rule denies the loss, and the cost-base bump lands inside an account that will never use it. The in-kind warning is also in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. Harvest only in the non-registered sleeve, and only with a replacement you do not already hold in an affiliated account.</p>
     </div>
 
     <h2>What a loss can and cannot offset</h2>
@@ -1046,7 +1052,7 @@ export const posts = [
         <tbody>
             <tr>
                 <td>January</td>
-                <td>Fund the TFSA and RRSP on purpose before you go looking for losses. A harvest in non-registered while registered room sits empty is the wrong order. Record the adjusted cost base of the taxable account. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the system. If a December sale's 30-day window is still open, do not rebuy that ticker with the January contribution.</td>
+                <td>Fund the TFSA and RRSP on purpose before you go looking for losses. A harvest in non-registered while registered room sits empty is the wrong order. Record the adjusted cost base of the taxable account. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the system. If a December sale's 30-day window is still open, do not rebuy that ticker with the January contribution.</td>
             </tr>
             <tr>
                 <td>When T3 and T5 slips arrive</td>
@@ -1113,7 +1119,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about capital losses and the superficial-loss rule for Canadian individuals. It is not tax, legal, or investment advice. The rule is statutory, the identical-property test is factual, and settlement calendars change. Examples are illustrations, not instructions for a particular holding. Confirm with a tax professional before you realize a large loss or involve a spouse or a corporation.</p>
-        <div class="footer-note">Published: November 6, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -1125,7 +1131,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-11-13",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "CAD-hedged versus unhedged equity, Norbert's gambit without a fake FX quote, and why a Canadian ticker does not create a treaty exemption.",
     image: "/images/blog/currency-hedging-us-listed-etfs-canada.png",
     content: `<div class="container">
@@ -1134,7 +1141,7 @@ export const posts = [
         Hedging the Canadian dollar feels like prudence, and a US-listed ETF with a tiny expense ratio feels like the grown-up version of the same fund. One is a currency preference with a cost that changes. The other is a withholding and foreign-exchange decision. <span class="highlight">A Canadian ticker does not collect the treaty benefit</span> an RRSP can get from holding the US security itself.
     </div>
 
-    <p>Write the currency choice down when you write the mix, then leave it. The place each sleeve belongs is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. The broker's conversion cost, and the journal people call Norbert's gambit, are in the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a>. This article is the link between those two. It does not quote a live spread, a live MER, or a promotional FX rate. Those exist on the issuer's facts sheet and the broker's order preview, today, or they do not exist.</p>
+    <p>Write the currency choice down when you write the mix, then leave it. The place each sleeve belongs is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. The broker's conversion cost, and the journal people call Norbert's gambit, are in the <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a>. This article is the link between those two. It does not quote a live spread, a live MER, or a promotional FX rate. Those exist on the issuer's facts sheet and the broker's order preview, today, or they do not exist.</p>
 
     <div class="callout">
         <strong>Bonds and equities do not get the same currency answer:</strong>
@@ -1210,7 +1217,7 @@ export const posts = [
                 <td>Canadian-listed ETF that holds US stocks or a US-listed ETF</td>
                 <td>Does not magically become treaty-exempt. Withholding inside the fund usually stays inside the fund.</td>
                 <td>Same withholding reality, without a currency conversion on every purchase. This is why the TFSA often holds the Canadian listing.</td>
-                <td>Confirm whether the T3 reports foreign tax. The <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a> is the personal credit, not a promise about the wrapper.</td>
+                <td>Confirm whether the T3 reports foreign tax. The <a href="/blog/tax-efficient-investing/">tax-efficient investing guide</a> is the personal credit, not a promise about the wrapper.</td>
             </tr>
             <tr>
                 <td>US-listed ETF of non-US stocks</td>
@@ -1223,14 +1230,14 @@ export const posts = [
 
     <div class="warning-box">
         <strong>There is a second layer the treaty does not touch:</strong>
-        <p>A US-listed fund that owns companies outside the United States can have tax withheld by those other countries before the cash reaches the fund. An RRSP exemption on the US distribution does not refund that inner layer. The clean treaty case is a US-listed fund of US stocks, held directly in the RRSP. It is not "any ETF with US in the name," and it is not a Canadian all-in-one that happens to own US companies. The <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a> makes the same point from the TFSA side: a Canadian listing avoids the conversion. It does not erase the withholding.</p>
+        <p>A US-listed fund that owns companies outside the United States can have tax withheld by those other countries before the cash reaches the fund. An RRSP exemption on the US distribution does not refund that inner layer. The clean treaty case is a US-listed fund of US stocks, held directly in the RRSP. It is not "any ETF with US in the name," and it is not a Canadian all-in-one that happens to own US companies. The <a href="/blog/tfsa-strategies/">TFSA strategies guide</a> makes the same point from the TFSA side: a Canadian listing avoids the conversion. It does not erase the withholding.</p>
     </div>
 
     <h2>Foreign exchange, including Norbert's gambit</h2>
 
     <p>If the asset-location plan has you buying a US-listed fund inside the RRSP, every contribution starts in Canadian dollars until it does not. The broker will convert for you. The spread on that conversion is the cost that survives a zero-commission headline. Some brokers let the RRSP hold US dollars, so you convert once and stay in US dollars. Some will journal an interlisted stock from the Canadian listing to the US listing so you are not paying the retail spread on every purchase. People call that journal Norbert's gambit.</p>
 
-    <p>The method is structural. You buy an interlisted security on one side, the broker journals it, you sell on the other side. The cost is the spread and any commission on those two legs, plus the time you are in the stock, plus whatever the broker charges to journal. Some firms make it straightforward. Some do not allow it. Some app-first platforms would rather you accept their conversion. Eligibility and timing are broker-specific. Confirm them with the firm. This page will not quote a spread, because a quoted spread would be stale the week a broker changes it. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> is the longer version of that test, and it is also not a rate card.</p>
+    <p>The method is structural. You buy an interlisted security on one side, the broker journals it, you sell on the other side. The cost is the spread and any commission on those two legs, plus the time you are in the stock, plus whatever the broker charges to journal. Some firms make it straightforward. Some do not allow it. Some app-first platforms would rather you accept their conversion. Eligibility and timing are broker-specific. Confirm them with the firm. This page will not quote a spread, because a quoted spread would be stale the week a broker changes it. The <a href="/blog/best-online-brokerages-canada/">brokerage guide</a> is the longer version of that test, and it is also not a rate card.</p>
 
     <div class="example-box">
         <strong>When the machinery is worth it</strong>
@@ -1267,7 +1274,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about currency hedging and the difference between Canadian-listed and US-listed funds. It is not investment, tax, or legal advice, and it is not a recommendation to use any broker, journal, or ETF. Treaty relief depends on the account, the security, and paperwork. Withholding rates, hedge costs, and foreign-exchange spreads change. Confirm the current ETF facts, your broker's process, and a cross-border accountant if you are a US person.</p>
-        <div class="footer-note">Published: November 13, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -1279,7 +1286,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-11-20",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "Use new contributions and registered accounts first, band-rebalance on purpose, and keep non-registered sales for the drift that cash cannot fix.",
     image: "/images/blog/rebalancing-without-tax-events-canada.png",
     content: `<div class="container">
@@ -1292,7 +1300,7 @@ export const posts = [
 
     <div class="callout">
         <strong>Canada does not let you pick tax lots of the same ETF:</strong>
-        <p>Identical properties share one average adjusted cost base. You cannot sell "the high-cost shares" of a single ticker and keep the low-cost shares. US lot-picking advice does not transfer. You choose which sleeve to sell, not which lot. The books are the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a>.</p>
+        <p>Identical properties share one average adjusted cost base. You cannot sell "the high-cost shares" of a single ticker and keep the low-cost shares. US lot-picking advice does not transfer. You choose which sleeve to sell, not which lot. The books are the <a href="/blog/tax-record-keeping/">record-keeping guide</a>.</p>
     </div>
 
     <h2>The order that avoids a tax event</h2>
@@ -1329,7 +1337,7 @@ export const posts = [
         </tbody>
     </table>
 
-    <p>Commissions and spreads still exist on steps 3 and 4, even when the tax is zero. A zero-commission broker can still charge you in foreign exchange if the light sleeve is US-listed. Preview it. The <a href="/blog/best-online-brokerages-canada-2026/">brokerage guide</a> is that preview. A rebalance that converts currency four times a year can cost more than the drift was worth.</p>
+    <p>Commissions and spreads still exist on steps 3 and 4, even when the tax is zero. A zero-commission broker can still charge you in foreign exchange if the light sleeve is US-listed. Preview it. The <a href="/blog/best-online-brokerages-canada/">brokerage guide</a> is that preview. A rebalance that converts currency four times a year can cost more than the drift was worth.</p>
 
     <h2>Pick a band in advance</h2>
 
@@ -1357,7 +1365,7 @@ export const posts = [
 
     <div class="warning-box">
         <strong>Do not rebuy the harvested ticker with the registered contribution:</strong>
-        <p>The superficial-loss window includes your TFSA, your RRSP, and your spouse. A tidy January habit — sell the loser in December, buy the same ETF in the TFSA on the 2nd — denies the loss. Buy the replacement in the taxable account if that sleeve should stay full, and send the TFSA money to a different holding. The <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> covers the in-kind version of the same mistake.</p>
+        <p>The superficial-loss window includes your TFSA, your RRSP, and your spouse. A tidy January habit — sell the loser in December, buy the same ETF in the TFSA on the 2nd — denies the loss. Buy the replacement in the taxable account if that sleeve should stay full, and send the TFSA money to a different holding. The <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> covers the in-kind version of the same mistake.</p>
     </div>
 
     <h2>Fees are part of the trade</h2>
@@ -1394,7 +1402,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about rebalancing a Canadian household portfolio across account types. It is not investment or tax advice, and it is not a recommendation to buy, sell, or hold any security. Band widths in the examples are illustrations of a habit, not a prescribed allocation. Superficial-loss outcomes depend on the facts. Confirm your cost base and, for a large taxable sale, a tax professional.</p>
-        <div class="footer-note">Published: November 20, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -1406,7 +1414,8 @@ export const posts = [
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
-    date: "2026-11-27",
+    date: "2026-09-24",
+    updated: "2026-09-24",
     excerpt: "When a VEQT- or XEQT-style one-ticket ETF beats a multi-fund portfolio, and when asset location is worth the extra moving parts.",
     image: "/images/blog/all-in-one-etfs-vs-diy-canada.png",
     content: `<div class="container">
@@ -1478,7 +1487,7 @@ export const posts = [
 
     <p>The published MER on an all-in-one is often higher than the weighted MER of the underlying blocks, because you are paying for the rebalance and the single ticket. The gap is frequently a fraction of a percentage point. Picture 0.10 to 0.25 percentage points only as a way to feel the scale. It is not a quote of VEQT, XEQT, or any other fund, this year or any year. On $200,000, 0.15 percentage points is $300 a year before compounding. Read both facts sheets, then decide.</p>
 
-    <p>A gap of that size is not the problem in the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. A gap of a full percentage point or more, against a closet index fund, is that problem. Here, the competing cost is behavioural. One panic sale, or a year of contributions left in cash because you could not choose the mix, can exceed a few hundred dollars. So can a foreign-exchange spread if the DIY version sends you through US dollars at a broker that converts expensively. Price that path in the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a>. A perfect map at a wide spread is not a perfect map.</p>
+    <p>A gap of that size is not the problem in the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. A gap of a full percentage point or more, against a closet index fund, is that problem. Here, the competing cost is behavioural. One panic sale, or a year of contributions left in cash because you could not choose the mix, can exceed a few hundred dollars. So can a foreign-exchange spread if the DIY version sends you through US dollars at a broker that converts expensively. Price that path in the <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a>. A perfect map at a wide spread is not a perfect map.</p>
 
     <div class="tip-box">
         <strong>The behavioural edge is the product:</strong>
@@ -1525,7 +1534,7 @@ export const posts = [
 
     <div class="warning-box">
         <strong>Asset location still matters if the all-in-one is your only fund:</strong>
-        <p>It matters as a limitation you accept, not as a problem you fix by adding four more tickers. New contributions still go to the TFSA and the RRSP before a big taxable balance, even when the fund is the same in each. The <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> does not expire because you bought a simple ETF. And if a non-registered account gets large, revisit the decision. The cost of being blunt about location grows with the taxable dollars. The cost of the extra MER does not grow as fast as a bad behaviour problem, but a large taxable account is no longer a behaviour problem. It is a tax problem.</p>
+        <p>It matters as a limitation you accept, not as a problem you fix by adding four more tickers. New contributions still go to the TFSA and the RRSP before a big taxable balance, even when the fund is the same in each. The <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> does not expire because you bought a simple ETF. And if a non-registered account gets large, revisit the decision. The cost of being blunt about location grows with the taxable dollars. The cost of the extra MER does not grow as fast as a bad behaviour problem, but a large taxable account is no longer a behaviour problem. It is a tax problem.</p>
     </div>
 
     <h2>Decide it once</h2>
@@ -1557,7 +1566,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education comparing one-ticket asset-allocation ETFs with a multi-ETF portfolio for Canadian accounts. It is not investment, tax, or legal advice, and it is not a recommendation to buy VEQT, XEQT, or any other fund. MER gaps cited as a way to picture scale are not quotes. Holdings, fees, and tax rules change. Confirm the current ETF facts and consult a registered adviser for a plan that fits your file.</p>
-        <div class="footer-note">Published: November 27, 2026 | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 24, 2026 | Category: Investing | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -1569,13 +1578,14 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-18",
+    date: "2026-09-17",
+    updated: "2026-09-26",
     excerpt: "How to clear a Canadian welcome-bonus minimum with spending you already have — without junk purchases, frozen cash flow, or a carried balance.",
     image: "/images/blog/card-churning-minimum-spend.png",
     content: `<div class="container">
 
     <div class="hook">
-        A welcome bonus is not a discount on stuff you were never going to buy. On a Canadian card, the bonus is usually locked behind a minimum spend — often a few thousand dollars inside roughly three months — and the people who come out ahead are the ones who <span class="highlight">route spending they already had</span>, not the ones who invent new spending to “hit the offer.”
+        A <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome bonus</a> is not a discount on stuff you were never going to buy. On a Canadian card, the bonus is usually locked behind a minimum spend — often a few thousand dollars inside roughly three months — and the people who come out ahead are the ones who <span class="highlight">route spending they already had</span>, not the ones who invent new spending to “hit the offer.”
     </div>
 
     <p>Card churning, done properly, is a cash-flow problem with a deadline. You are trying to move ordinary household spend onto one card before a date, pay the statement in full, and keep enough unused credit that the next application is not a mess. You are not trying to become a person who owns three air fryers and a frozen float of prepaid cards.</p>
@@ -1673,7 +1683,7 @@ export const posts = [
 
     <h3>3. Price the bill-pay fee before you use it</h3>
 
-    <p>Services that let you pay rent, property tax, or a CRA balance by credit card charge a percentage. That fee is real money. A rough test: if you are paying about 2 percent to move $5,000, you have spent about $100 for the privilege. The bonus has to be worth more than $100 <em>after</em> you subtract the annual fee and after you assume a redemption you will actually make — not a fantasy valuation of a point. Confirm the current fee on the service’s site. Do not pay the CRA or a landlord this way by default.</p>
+    <p>Services that let you pay rent, property tax, or a CRA balance by credit card charge a percentage. That fee is real money. A rough test: if you are paying about 2 percent to move $5,000, you have spent about $100 for the privilege. The bonus has to be worth more than $100 <em>after</em> you subtract the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> and after you assume a redemption you will actually make — not a fantasy valuation of a point. Confirm the current fee on the service’s site. Do not pay the CRA or a landlord this way by default.</p>
 
     <h3>4. Keep the float inside the statement cycle</h3>
 
@@ -1690,7 +1700,7 @@ export const posts = [
 
     <ul>
         <li><strong>Pay in full, on time, every time.</strong> Carrying a balance to “keep utilization looking active” is a myth that costs 20 percent-class interest. If you need reported utilization lower before another application, pay the balance down before the statement cuts.</li>
-        <li><strong>Space applications.</strong> Each hard inquiry is visible to the next lender. A tight cluster of applications is a common reason a later, better offer is declined. One card in play — fully under its spend deadline — is enough.</li>
+        <li><strong>Space applications.</strong> Each <a href="/blog/credit-card-utilization-applications-credit-score-canada/">hard inquiry</a> is visible to the next lender. A tight cluster of applications is a common reason a later, better offer is declined. One card in play — fully under its spend deadline — is enough.</li>
         <li><strong>Read the once-per-lifetime and repeat-bonus language.</strong> American Express in particular has long reserved the right not to award a welcome bonus to people who have held the card before. Bank Aeroplan and Avion-style offers have their own repeat rules. If you have had the product, assume you might not get the bonus and do not centre a plan on it.</li>
         <li><strong>Do not close the card the week the bonus posts</strong> if you care about the relationship or the credit history. Product-change rules differ by bank. When a fee comes due on a card you will not use, decide then — downgrade where that exists, or close — with the annual-fee date on a calendar.</li>
         <li><strong>Supplementary cards</strong> can help a couple pool spend, but the primary holder owns the debt. Do not add a cardholder who will not follow the “pay in full” rule.</li>
@@ -1763,20 +1773,21 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Canadian credit-card welcome offers tend to work. It is not a recommendation to apply for any specific card, and it is not credit, tax, or investment advice. Card offers, fees, earn rates, insurance, and what counts as qualifying spend change and differ by issuer. Read the current cardholder agreement and offer terms before you apply. Paying interest, or spending money you would not otherwise spend, can erase any benefit.</p>
-        <div class="footer-note">Published: September 18, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
   },
   {
     title: "Best Travel Rewards Cards for Canadians in 2026",
-    slug: "best-travel-rewards-cards-canada-2026",
+    slug: "best-travel-rewards-cards-canada",
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-20",
+    date: "2026-09-18",
+    updated: "2026-09-26",
     excerpt: "Choose a 2026 travel-rewards structure — Aeroplan, flexible points, or no foreign fee — based on how you actually fly and which merchants take the card.",
-    image: "/images/blog/best-travel-rewards-cards-canada-2026.png",
+    image: "/images/blog/best-travel-rewards-cards-canada.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -1823,7 +1834,7 @@ export const posts = [
                 <td>The earn rate on everyday Canadian spend is often ordinary. This card wins abroad, not at Loblaws.</td>
             </tr>
             <tr>
-                <td>Flat cash back</td>
+                <td>Flat <a href="/blog/best-cash-back-credit-cards-canada/">cash back</a></td>
                 <td>You book travel in cash and want a simple rebate</td>
                 <td>See the cash-back category guide</td>
                 <td>You give up award-seat leverage. Sometimes that is the correct trade.</td>
@@ -1860,7 +1871,7 @@ export const posts = [
         <li>Whether a repeat welcome bonus is even available to you. Many of these products restrict bonuses for recent or former cardholders.</li>
     </ul>
 
-    <p>Aeroplan is a frequent-flyer programme with its own award chart politics. Points can be devalued. Do not stockpile a decade of spend in a single airline currency unless you have a redemption you can actually book.</p>
+    <p><a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">Aeroplan</a> is a frequent-flyer programme with its own award chart politics. Points can be devalued. Do not stockpile a decade of spend in a single airline currency unless you have a redemption you can actually book.</p>
 
     <h3>Flexible points, if you want an exit</h3>
 
@@ -1889,7 +1900,7 @@ export const posts = [
     <ul>
         <li>Check the maximum age, the pre-existing-condition clause, and the number of days covered. A policy that ends on day 15 is not coverage for a 21-day trip.</li>
         <li>Check whether the full fare had to be charged to the card. Partial payment with points sometimes voids the coverage.</li>
-        <li>Subtract the annual fee from the insurance you would otherwise have bought, not from a fantasy. If you already have a workplace travel-medical plan, you may be paying twice.</li>
+        <li>Subtract the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> from the insurance you would otherwise have bought, not from a fantasy. If you already have a workplace travel-medical plan, you may be paying twice.</li>
     </ul>
 
     <p>Put the annual-fee date in the same tracker you use for minimum spend. Thirty days before it posts, ask one question: in the last year, did the earn plus insurance you actually used exceed the fee versus a no-fee card? If you cannot show that on a scrap of paper, downgrade or close. Loyalty to a piece of plastic is not a strategy.</p>
@@ -1927,20 +1938,21 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article compares categories of Canadian travel rewards cards in general terms. It is not a ranking of current offers and not a recommendation to apply for any product. Annual fees, earn rates, welcome bonuses, transfer partners, insurance wording, and eligibility change without notice. Confirm every figure with the issuer and, where useful, the Financial Consumer Agency of Canada before you apply. This is not credit advice.</p>
-        <div class="footer-note">Published: September 20, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
   },
   {
     title: "Best Cash-Back Credit Cards by Spending Category for 2026",
-    slug: "best-cash-back-credit-cards-canada-2026",
+    slug: "best-cash-back-credit-cards-canada",
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-22",
+    date: "2026-09-19",
+    updated: "2026-09-26",
     excerpt: "Build a two- or three-card Canadian cash-back stack by spending category, and run the annual-fee test before you pay for an accelerator.",
-    image: "/images/blog/best-cash-back-credit-cards-canada-2026.png",
+    image: "/images/blog/best-cash-back-credit-cards-canada.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -2021,7 +2033,7 @@ export const posts = [
 
     <h3>Pick-your-category cards</h3>
 
-    <p>Tangerine Money-Back and Simplii Cash Back have been the no-fee (or low-friction) way to aim a higher rate at two or three categories you choose, with a lower rate on everything else. They suit someone who will not pay an annual fee and whose spend is concentrated. They are the wrong only-card if “everything else” is most of your life, unless the flat alternative is no better.</p>
+    <p>Tangerine Money-Back and Simplii Cash Back have been the no-fee (or low-friction) way to aim a higher rate at two or three categories you choose, with a lower rate on everything else. They suit someone who will not pay an <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> and whose spend is concentrated. They are the wrong only-card if “everything else” is most of your life, unless the flat alternative is no better.</p>
 
     <h3>Flat-rate cards, including Amex</h3>
 
@@ -2058,7 +2070,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>One payment rule:</strong>
-        <p>Every card in the stack is paid in full by pre-authorized debit from chequing. A single missed payment on a “2 percent” card is a year of cash back gone. Set the pre-authorized amount to the full statement balance, not the minimum.</p>
+        <p>Every card in the <a href="/blog/canadian-credit-card-stack-templates/">stack</a> is paid in full by pre-authorized debit from chequing. A single missed payment on a “2 percent” card is a year of cash back gone. Set the pre-authorized amount to the full statement balance, not the minimum.</p>
     </div>
 
     <h2>Redemption details that change the winner</h2>
@@ -2072,7 +2084,7 @@ export const posts = [
 
     <h2>How this interacts with welcome bonuses</h2>
 
-    <p>A cash-back welcome bonus is usually a small, honest number. A travel-points welcome bonus can be larger and harder to redeem. If you are willing to manage a minimum-spend window, read the churning guide before you apply — and still keep the long-term cash-back stack for the spending that remains after the bonus card is done. Do not let a one-time bonus replace Card B. The bonus ends. Groceries do not.</p>
+    <p>A cash-back <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome bonus</a> is usually a small, honest number. A travel-points welcome bonus can be larger and harder to redeem. If you are willing to manage a minimum-spend window, read the churning guide before you apply — and still keep the long-term cash-back stack for the spending that remains after the bonus card is done. Do not let a one-time bonus replace Card B. The bonus ends. Groceries do not.</p>
 
     <h2>Key takeaways</h2>
 
@@ -2093,7 +2105,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> Card names are used to identify well-known Canadian product families, not to quote a current offer. Earn rates, annual fees, income requirements, merchant exclusions, and redemption bonuses change. Confirm them with the issuer before you apply. This article is general education, not a recommendation of any card and not credit advice. Illustrative fee ranges are described as typical of the market, not as a rate on a specific product today.</p>
-        <div class="footer-note">Published: September 22, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2104,7 +2116,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-24",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "A Canadian framework for pricing welcome bonuses after annual fees, minimum-spend friction, and the opportunity cost of capital — and when to walk away.",
     image: "/images/blog/credit-card-welcome-bonus-math-canada.png",
     content: `<div class="container">
@@ -2232,7 +2245,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>Pair with the keep-card decision:</strong>
-        <p>Bonus math is year one. Year two is whether the card earns its fee as a <a href="/blog/best-travel-rewards-cards-canada-2026/">travel structure</a> or a <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back stack</a>. Do not let a one-time residual justify a forever fee.</p>
+        <p>Bonus math is year one. Year two is whether the card earns its fee as a <a href="/blog/best-travel-rewards-cards-canada/">travel structure</a> or a <a href="/blog/best-cash-back-credit-cards-canada/">cash-back stack</a>. Do not let a one-time residual justify a forever fee.</p>
     </div>
 
     <h2>When churning is worth it</h2>
@@ -2281,7 +2294,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about how to evaluate Canadian credit-card welcome offers. It is not a recommendation to apply for any product and not credit, tax, or investment advice. Bonus amounts, fees, earn rates, exclusions, and repeat-bonus rules change without notice. Illustrative ranges are structural examples only. Confirm every figure with the issuer and, where useful, the Financial Consumer Agency of Canada before you apply. Paying interest or spending money you would not otherwise spend can erase any benefit.</p>
-        <div class="footer-note">Published: September 24, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2293,7 +2306,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-26",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "How Canadians should manage utilization, hard inquiries, and application spacing across Equifax and TransUnion — without myths about carrying a balance.",
     image: "/images/blog/credit-card-utilization-applications-credit-score-canada.png",
     content: `<div class="container">
@@ -2437,7 +2451,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>Rewards still need a structure:</strong>
-        <p>Score hygiene is how you stay approvable. Which card to keep is still a <a href="/blog/best-travel-rewards-cards-canada-2026/">travel</a> or <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back</a> decision after fees.</p>
+        <p>Score hygiene is how you stay approvable. Which card to keep is still a <a href="/blog/best-travel-rewards-cards-canada/">travel</a> or <a href="/blog/best-cash-back-credit-cards-canada/">cash-back</a> decision after fees.</p>
     </div>
 
     <h2>Key takeaways</h2>
@@ -2459,7 +2473,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian credit reports and card-application behaviour. It is not credit advice, not a guarantee of approval or score outcomes, and not a recommendation of any card. Scoring models, bureau contents, and issuer underwriting change. Confirm details with Equifax, TransUnion, the issuer, and the Financial Consumer Agency of Canada as appropriate.</p>
-        <div class="footer-note">Published: September 26, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2471,7 +2485,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-09-28",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "When a Canadian business card helps a sole prop or corporation — liability, personal guarantees, bookkeeping hygiene, and when to stay on a personal card.",
     image: "/images/blog/business-credit-cards-sole-prop-corporation-canada.png",
     content: `<div class="container">
@@ -2522,7 +2537,7 @@ export const posts = [
         <li><strong>You will pay in full</strong> from the operating account on a fixed cadence — same discipline as a personal card.</li>
     </ul>
 
-    <p>A corporation card is weaker when the only motive is a welcome bonus you could earn on a personal card with organic household spend, or when the personal guarantee plus annual fee buys you nothing your current personal <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back stack</a> or <a href="/blog/best-travel-rewards-cards-canada-2026/">travel setup</a> does not already cover.</p>
+    <p>A corporation card is weaker when the only motive is a welcome bonus you could earn on a personal card with organic household spend, or when the personal guarantee plus annual fee buys you nothing your current personal <a href="/blog/best-cash-back-credit-cards-canada/">cash-back stack</a> or <a href="/blog/best-travel-rewards-cards-canada/">travel setup</a> does not already cover.</p>
 
     <div class="tip-box">
         <strong>Bonus math still applies:</strong>
@@ -2618,7 +2633,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about Canadian business and personal credit cards for sole proprietors and corporations. It is not legal, tax, accounting, or credit advice, and not a recommendation of any card. Liability, guarantees, fees, earn rates, and tax treatment depend on your facts and change over time. Confirm card terms with the issuer and seek professional advice for entity, guarantee, and tax questions.</p>
-        <div class="footer-note">Published: September 28, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2629,7 +2644,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-10-01",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "A Canadian break-even framework for annual-fee cards — statement credits, insurance, earn-rate gaps, lounges — using illustrative math only, not invented offers.",
     image: "/images/blog/credit-card-annual-fee-vs-no-fee-canada.png",
     content: `<div class="container">
@@ -2695,7 +2711,7 @@ export const posts = [
 
     <div class="tip-box">
         <strong>Pair with category reality:</strong>
-        <p>Earn-rate gaps only exist on spend you can place. Run the same merchant and MCC honesty as the <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a> and the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards structure guide</a> before you treat a “2× groceries” line as free money.</p>
+        <p>Earn-rate gaps only exist on spend you can place. Run the same merchant and MCC honesty as the <a href="/blog/best-cash-back-credit-cards-canada/">cash-back category guide</a> and the <a href="/blog/best-travel-rewards-cards-canada/">travel-rewards structure guide</a> before you treat a “2× groceries” line as free money.</p>
     </div>
 
     <h2>Illustrative math (structural examples only)</h2>
@@ -2796,7 +2812,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about evaluating Canadian credit-card annual fees. It is not a recommendation to apply for or keep any product, and not credit, insurance, tax, or investment advice. Fees, credits, insurance schedules, earn rates, and lounge access change without notice. Illustrative ranges are structural examples only. Confirm every figure with the issuer and read the certificate of insurance before you rely on a benefit. Paying interest can erase any advantage.</p>
-        <div class="footer-note">Published: October 1, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2807,7 +2823,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-10-03",
+    date: "2026-09-24",
+    updated: "2026-09-24",
     excerpt: "Canadian-relevant lounge access patterns, guest-policy concepts, and when issuer travel portals beat booking direct — structural guidance, not fake portal rates.",
     image: "/images/blog/credit-card-airport-lounge-travel-portal-canada.png",
     content: `<div class="container">
@@ -2960,7 +2977,7 @@ export const posts = [
     <p>A coherent Canadian travel setup usually looks like:</p>
 
     <ol>
-        <li>One earn structure aligned to how you fly — see the <a href="/blog/best-travel-rewards-cards-canada-2026/">2026 travel-rewards guide</a>.</li>
+        <li>One earn structure aligned to how you fly — see the <a href="/blog/best-travel-rewards-cards-canada/">2026 travel-rewards guide</a>.</li>
         <li>One no-foreign-fee card for taps abroad (even if earn is ordinary).</li>
         <li>Lounge access only if break-even survives guest math.</li>
         <li>Portal literacy so you are not defaulting to the worst redemption path.</li>
@@ -2987,7 +3004,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about lounge access and travel-portal decision frames for Canadian credit-card holders. It is not a recommendation of any card, lounge network, or booking channel, and not travel, insurance, or credit advice. Access lists, guest fees, portal prices, award charts, and insurance certificates change without notice. Confirm details with the issuer, lounge operator, and carrier before you travel.</p>
-        <div class="footer-note">Published: October 3, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 24, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -2998,7 +3015,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-10-05",
+    date: "2026-09-25",
+    updated: "2026-09-25",
     excerpt: "Value Aeroplan, Avion, and Amex Membership Rewards with cents-per-point math and transfer considerations — illustrative ranges only, always verify with the issuer.",
     image: "/images/blog/credit-card-points-valuations-aeroplan-avion-amex-canada.png",
     content: `<div class="container">
@@ -3093,7 +3111,7 @@ export const posts = [
     <p>Canadian Membership Rewards are powerful when you can earn them — and constrained by where Amex is accepted. Valuation and earn are separate problems.</p>
 
     <ul>
-        <li><strong>Acceptance haircut first.</strong> If a large share of household spend never posts on Amex, your effective earn collapses before CPP matters. See the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards structure guide</a>.</li>
+        <li><strong>Acceptance haircut first.</strong> If a large share of household spend never posts on Amex, your effective earn collapses before CPP matters. See the <a href="/blog/best-travel-rewards-cards-canada/">travel-rewards structure guide</a>.</li>
         <li><strong>Transfer partners</strong> (including Aeroplan when available on your product) are usually where MR prints its best CPP.</li>
         <li><strong>Statement credits and fixed travel options</strong> set a lower floor — useful, rarely optimal.</li>
         <li><strong>Once-per-lifetime bonus language</strong> still governs applications; valuation does not create a second welcome bonus.</li>
@@ -3154,7 +3172,7 @@ export const posts = [
 
     <h2>Cash back vs points — when to stop converting</h2>
 
-    <p>If your realistic CPP on travel currencies sits near 1¢ and your cash-back stack returns about 1–2% with less friction, points are a hobby tax unless you value specific flights. The <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a> is the honest alternative for households that will not award-search. Mix stacks when travel is occasional: cash back for groceries, points for a planned trip — without carrying balances to chase either.</p>
+    <p>If your realistic CPP on travel currencies sits near 1¢ and your cash-back stack returns about 1–2% with less friction, points are a hobby tax unless you value specific flights. The <a href="/blog/best-cash-back-credit-cards-canada/">cash-back category guide</a> is the honest alternative for households that will not award-search. Mix stacks when travel is occasional: cash back for groceries, points for a planned trip — without carrying balances to chase either.</p>
 
     <div class="tip-box">
         <strong>Minimum spend still applies:</strong>
@@ -3180,7 +3198,7 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about valuing Canadian travel-rewards currencies. It is not a recommendation to collect or redeem any point currency, and not credit, tax, or investment advice. Award charts, dynamic pricing, transfer ratios, portal rates, and card earn structures change without notice. Illustrative ranges are structural examples only — always verify with Aeroplan, RBC, American Express, and your card issuer before you transfer or book. Paying interest to earn points is irrational.</p>
-        <div class="footer-note">Published: October 5, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 25, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -3191,7 +3209,8 @@ export const posts = [
     category: "Credit Cards",
     categorySlug: "credit-cards",
     author: "Andrew Carrothers",
-    date: "2026-10-07",
+    date: "2026-09-26",
+    updated: "2026-09-26",
     excerpt: "Role-based Canadian card-stack templates for families, freelancers, landlords, and high-spender travellers — linked to earlier Credit Cards guides, without invented welcome bonuses.",
     image: "/images/blog/canadian-credit-card-stack-templates.png",
     content: `<div class="container">
@@ -3232,7 +3251,7 @@ export const posts = [
             <tr>
                 <td>Card 1 — Grocery / drugstore earner</td>
                 <td>Highest practical earn where you actually shop</td>
-                <td>Match network to Loblaw / Costco / Walmart reality. See the <a href="/blog/best-cash-back-credit-cards-canada-2026/">cash-back category guide</a>.</td>
+                <td>Match network to Loblaw / Costco / Walmart reality. See the <a href="/blog/best-cash-back-credit-cards-canada/">cash-back category guide</a>.</td>
             </tr>
             <tr>
                 <td>Card 2 — Flat / catch-all</td>
@@ -3247,7 +3266,7 @@ export const posts = [
             <tr>
                 <td>Optional — One travel earner</td>
                 <td>If the family takes one meaningful trip a year</td>
-                <td>Use the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel-rewards guide</a> and <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">points CPP math</a>. Skip lounges unless guest math works.</td>
+                <td>Use the <a href="/blog/best-travel-rewards-cards-canada/">travel-rewards guide</a> and <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">points CPP math</a>. Skip lounges unless guest math works.</td>
             </tr>
         </tbody>
     </table>
@@ -3355,7 +3374,7 @@ export const posts = [
             <tr>
                 <td>Core flexible or Aeroplan earner</td>
                 <td>Points on categories you can place</td>
-                <td>Structure from the <a href="/blog/best-travel-rewards-cards-canada-2026/">travel guide</a>; value with <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">CPP math</a>.</td>
+                <td>Structure from the <a href="/blog/best-travel-rewards-cards-canada/">travel guide</a>; value with <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">CPP math</a>.</td>
             </tr>
             <tr>
                 <td>Companion cash-back / flat card</td>
@@ -3413,20 +3432,21 @@ export const posts = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is general education about structuring Canadian credit-card stacks by household type. It is not a recommendation to apply for any card, and not credit, tax, legal, or investment advice. Product availability, fees, earn rates, insurance, and lounge access change without notice. Confirm every detail with the issuer and seek professional advice for business-entity and tax questions.</p>
-        <div class="footer-note">Published: October 7, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 26, 2026 | Category: Credit Cards | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
   },
   {
     title: "TFSA Contribution Optimization Strategy for 2026",
-    slug: "tfsa-contribution-optimization-2026",
+    slug: "tfsa-contribution-optimization",
     category: "Investing",
     categorySlug: "investing",
     author: "Andrew Carrothers",
     date: "2026-09-15",
+    updated: "2026-09-15",
     excerpt: "When to fund 2026 TFSA room, which assets belong inside, and the overcontribution and in-kind mistakes that quietly cost more than the contribution.",
-    image: "/images/blog/tfsa-contribution-optimization-2026.png",
+    image: "/images/blog/tfsa-contribution-optimization.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -3485,7 +3505,7 @@ export const posts = [
 
     <p>A dollar contributed on January 1 has a full year of tax-free compounding that a dollar contributed in December does not. Over a career that gap is real. It is not a reason to contribute money you will need in March.</p>
 
-    <p>Use January 1 when all three are true: you know your room, the cash is not required for an emergency or a near-term registered-account priority that outranks the TFSA, and you will not withdraw it the same year. If you are choosing between a high-interest TFSA deposit in January and an RRSP contribution that produces a refund at a high marginal rate, run the comparison. The TFSA is not automatically first. At a high marginal rate, the RRSP refund reinvested can win. At a low rate, or when you expect to be in a higher bracket later, the TFSA usually wins. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA comparison</a> walks through that choice, and the <a href="/blog/contribution-limits-2026/">2026 contribution-limits table</a> is the checklist for room before you move cash.</p>
+    <p>Use January 1 when all three are true: you know your room, the cash is not required for an emergency or a near-term registered-account priority that outranks the TFSA, and you will not withdraw it the same year. If you are choosing between a high-interest TFSA deposit in January and an RRSP contribution that produces a refund at a high marginal rate, run the comparison. The TFSA is not automatically first. At a high marginal rate, the RRSP refund reinvested can win. At a low rate, or when you expect to be in a higher bracket later, the TFSA usually wins. The <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP, TFSA, and FHSA comparison</a> walks through that choice, and the <a href="/blog/contribution-limits/">2026 contribution-limits table</a> is the checklist for room before you move cash.</p>
 
     <div class="tip-box">
         <strong>Automate the known room, not a guess:</strong>
@@ -3503,7 +3523,7 @@ export const posts = [
         <li><strong>Cash</strong> is a temporary holding, not a strategy, unless you need the liquidity inside the account. A TFSA full of chequing-rate cash while a taxable account holds equities is backwards for anyone with a long horizon.</li>
     </ul>
 
-    <p>When an RRSP is also open, do not automatically fill the TFSA with bonds just because interest is taxed harshly. A TFSA dollar spent on a low-growth holding is permanent tax-free compounding you did not give to equities. The working compromise is bonds and US-listed equity ETFs inside the RRSP, broad growth inside the TFSA, and Canadian equities in a non-registered account once registered room is full. That map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF and asset-location guide</a>. The tax mechanics are in <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. Account rules that are not about the January contribution sit in the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>.</p>
+    <p>When an RRSP is also open, do not automatically fill the TFSA with bonds just because interest is taxed harshly. A TFSA dollar spent on a low-growth holding is permanent tax-free compounding you did not give to equities. The working compromise is bonds and US-listed equity ETFs inside the RRSP, broad growth inside the TFSA, and Canadian equities in a non-registered account once registered room is full. That map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">DIY ETF and asset-location guide</a>. The tax mechanics are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. Account rules that are not about the January contribution sit in the <a href="/blog/tfsa-strategies/">TFSA strategies guide</a>.</p>
 
     <div class="example-box">
         <strong>Example: same $7,000, different location</strong>
@@ -3543,7 +3563,7 @@ export const posts = [
         <li>Read TFSA room in CRA My Account. Adjust for contributions and withdrawals made since the figure was updated.</li>
         <li>Decide RRSP versus TFSA versus FHSA for this year’s marginal dollar. High rate and a long horizon can favour the RRSP. Low rate, or a need for flexibility, favours the TFSA. A first home still in play puts the FHSA ahead of both for the deductible slice.</li>
         <li>Contribute cash, not a losing in-kind position. Schedule it for early January if the cash is truly surplus.</li>
-        <li>Place the holding where it belongs. Canadian growth equities are a natural TFSA asset. Leave US-listed dividend ETFs for the RRSP when you have that room — the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is the full map, and the <a href="/blog/best-online-brokerages-canada-2026/">brokerage comparison</a> is how you choose an account that can hold it without a wide foreign-exchange spread.</li>
+        <li>Place the holding where it belongs. Canadian growth equities are a natural TFSA asset. Leave US-listed dividend ETFs for the RRSP when you have that room — the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is the full map, and the <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a> is how you choose an account that can hold it without a wide foreign-exchange spread.</li>
         <li>File a successor-holder form. Turn on full-balance pre-authorized savings for next year’s new room so December is not a scramble.</li>
     </ol>
 
@@ -3583,6 +3603,7 @@ export const posts = [
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-09-12",
+    updated: "2026-09-26",
     excerpt: "Spousal RRSPs, pension splitting, CPP sharing, and prescribed-rate loans — the legal ways a high- and low-earner couple actually move income.",
     image: "/images/blog/income-splitting-strategies-couples.png",
     content: `<div class="container">
@@ -3615,7 +3636,7 @@ export const posts = [
 
     <h2>Strategy 2: Spousal RRSP</h2>
 
-    <p>The higher earner contributes to a spousal RRSP and claims the deduction at their marginal rate. The spouse is the annuitant. Later withdrawals are taxed to the spouse — unless the attribution rule for spousal plans applies.</p>
+    <p>The higher earner contributes to a <a href="/blog/rrsp-playbook/">spousal RRSP</a> and claims the deduction at their marginal rate. The spouse is the annuitant. Later withdrawals are taxed to the spouse — unless the attribution rule for spousal plans applies.</p>
 
     <p>That rule is narrow and brutal if you ignore it. Amounts withdrawn in the year of a contribution, or in the next two calendar years, are taxed to the contributor, up to the amount of those recent contributions. A contribution in December 2026 can taint withdrawals in 2026, 2027, and 2028. Plan the last spousal contribution at least three calendar years before the spouse needs the cash.</p>
 
@@ -3677,12 +3698,12 @@ export const posts = [
 
     <h2>Strategy 5: What incorporation does not do for a couple anymore</h2>
 
-    <p>Since the Tax on Split Income rules were tightened, paying dividends to a spouse who does not work in the business, or who does not meet an excluded-share test, is often taxed at the top rate. “Add them as a shareholder” is not income splitting. Exclusions exist — meaningful labour in the business, and for some shareholders 25 and older an excluded-shares test that itself has conditions on the type of business and the votes they hold. Those tests are factual and easy to fail. If you are considering a family corporation, the salary-versus-dividend decision and TOSI are a paid engagement with someone who will sign the return, not a blog tactic. Our incorporation piece covers the threshold question. It is not a DIY dividend-sprinkle guide, because that guide would be wrong for most readers.</p>
+    <p>Since the Tax on Split Income rules were tightened, paying dividends to a spouse who does not work in the business, or who does not meet an excluded-share test, is often taxed at the top rate. “Add them as a shareholder” is not income splitting. Exclusions exist — meaningful labour in the business, and for some shareholders 25 and older an excluded-shares test that itself has conditions on the type of business and the votes they hold. Those tests are factual and easy to fail. If you are considering a family corporation, the salary-versus-dividend decision and TOSI are a paid engagement with someone who will sign the return, not a blog tactic. Our <a href="/blog/should-you-incorporate/">incorporation</a> piece covers the threshold question. It is not a DIY dividend-sprinkle guide, because that guide would be wrong for most readers.</p>
 
     <h2>What you are not optimizing</h2>
 
     <ul>
-        <li><strong>Canada Child Benefit and the GST/HST credit</strong> use family income. Moving investment income from one spouse to the other does not lower the household total, so it does not raise those benefits.</li>
+        <li><strong><a href="/blog/tax-tips-families/">Canada Child Benefit</a> and the GST/HST credit</strong> use family income. Moving investment income from one spouse to the other does not lower the household total, so it does not raise those benefits.</li>
         <li><strong>Spousal RRSPs and attribution</strong> if you need the money inside three calendar years. You deducted at the high rate and may be taxed at the high rate anyway.</li>
         <li><strong>Joint accounts with unclear contributions.</strong> If both names are on a taxable account funded by the higher earner, expect attribution to follow the money, not the signature card.</li>
     </ul>
@@ -3729,13 +3750,14 @@ export const posts = [
   },
   {
     title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
-    slug: "federal-tax-brackets-2026",
+    slug: "federal-tax-brackets",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-01",
-    excerpt: "Maximize Your Tax Savings",
-    image: "/images/blog/federal-tax-brackets-2026.png",
+    updated: "2026-09-26",
+    excerpt: "How Canada's federal tax brackets work in 2026, including marginal versus effective rates, and why a higher bracket does not tax your entire income.",
+    image: "/images/blog/federal-tax-brackets.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -3753,7 +3775,7 @@ export const posts = [
             </p>
 
         <div class="tip-box">
-<strong>Quick Context:</strong> The rates shown here are federal taxes only. Provinces add their own tax brackets on top. This guide focuses exclusively on federal brackets — your combined rate will be higher when you add provincial tax.
+<strong>Quick Context:</strong> The rates shown here are federal taxes only. Provinces add their own tax brackets on top. This guide focuses exclusively on federal brackets — your combined rate will be higher when you add <a href="/blog/provincial-tax-rates/">provincial</a> tax.
             </div>
 
         <h2>The 5 Federal Tax Brackets for 2026</h2>
@@ -3836,7 +3858,7 @@ export const posts = [
         <h3>What Is Marginal Tax Rate?</h3>
 
         <p>
-                Your <span class="highlight">marginal tax rate is the rate you pay on your next dollar of income</span>. If you earn $95,000 and consider taking a consulting contract worth $5,000, your marginal federal rate is 20.50% — meaning that extra $5,000 would be taxed at 20.50%, not at your overall rate.
+                Your <span class="highlight"><a href="/blog/how-canadian-taxes-work/">marginal tax</a> rate is the rate you pay on your next dollar of income</span>. If you earn $95,000 and consider taking a consulting contract worth $5,000, your marginal federal rate is 20.50% — meaning that extra $5,000 would be taxed at 20.50%, not at your overall rate.
             </p>
 
         <h3>What Is Effective Tax Rate?</h3>
@@ -3992,7 +4014,7 @@ export const posts = [
             </p>
 
         <p>
-                For most Canadians, the simple action of maximizing RRSP contributions in a high-income year can save thousands in federal and provincial tax. For example, a $10,000 RRSP contribution at a 26% marginal rate saves you $2,600 in taxes — which you can reinvest into your RRSP!
+                For most Canadians, the simple action of maximizing <a href="/blog/rrsp-playbook/">RRSP</a> contributions in a high-income year can save thousands in federal and provincial tax. For example, a $10,000 RRSP contribution at a 26% marginal rate saves you $2,600 in taxes — which you can reinvest into your RRSP!
             </p>
 
         <p>
@@ -4027,13 +4049,14 @@ export const posts = [
   },
   {
     title: "2026 Provincial Tax Rates — Every Province & Territory Compared",
-    slug: "provincial-tax-rates-2026",
+    slug: "provincial-tax-rates",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-01",
+    updated: "2026-09-26",
     excerpt: "BC's lowest bracket rate increased from 5.06% to 5.60% — a notable change for entry-level earners. This represents the most significant provincial ...",
-    image: "/images/blog/provincial-tax-rates-2026.png",
+    image: "/images/blog/provincial-tax-rates.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -4045,7 +4068,7 @@ export const posts = [
             </p>
 
         <p>
-                This guide breaks down the complete 2026 provincial tax landscape: all 13 provinces and territories, full bracket structures, combined top marginal rates, and real-world comparisons at common income levels. Whether you're planning a move, evaluating a job offer, or just wanting to understand your tax bill, this reference will give you the data you need.
+                This guide breaks down the complete 2026 provincial tax landscape: all 13 provinces and territories, full bracket structures, combined top marginal rates, and real-world comparisons at common income levels. Whether you're planning a <a href="/blog/geographic-arbitrage-canada/">move</a>, evaluating a job offer, or just wanting to understand your tax bill, this reference will give you the data you need.
             </p>
 
         <div class="toc">
@@ -4075,7 +4098,7 @@ export const posts = [
 <th>Rank</th>
 <th>Province/Territory</th>
 <th>Provincial Top Rate</th>
-<th>Federal Top Rate</th>
+<th><a href="/blog/federal-tax-brackets/">Federal</a> Top Rate</th>
 <th class="top-rate">Combined Top Rate</th>
 </tr>
 </thead>
@@ -4806,7 +4829,7 @@ export const posts = [
                 </p>
 <div class="callout">
 <h4>2026 Federal Change</h4>
-<p>The federal top marginal income tax rate dropped from 33% to 29.30% in 2026, benefiting higher earners across all provinces. This federal change impacts Quebec's overall tax competitiveness.</p>
+<p>The federal top <a href="/blog/how-canadian-taxes-work/">marginal</a> income tax rate dropped from 33% to 29.30% in 2026, benefiting higher earners across all provinces. This federal change impacts Quebec's overall tax competitiveness.</p>
 </div>
 </div>
 </div>
@@ -5423,6 +5446,7 @@ export const posts = [
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-04",
+    updated: "2026-09-26",
     excerpt: "Most people think of taxes as a mystery. You earn money, the government takes some of it, and you hope you're not paying too much. That's not under...",
     image: "/images/blog/how-canadian-taxes-work.png",
     content: `<div class="container">
@@ -5457,7 +5481,7 @@ export const posts = [
 
         <h3>How They Stack</h3>
 
-        <p>Think of taxes as layers in a cake. You don't pay provincial tax instead of federal tax; you pay both. If you owe $8,000 in federal tax and $3,200 in provincial tax on the same income, your total is $11,200. The province doesn't reduce your federal liability, and the feds don't reduce your provincial liability. They simply add together.</p>
+        <p>Think of taxes as layers in a cake. You don't pay provincial tax instead of federal tax; you pay both. If you owe $8,000 in <a href="/blog/federal-tax-brackets/">federal tax</a> and $3,200 in provincial tax on the same income, your total is $11,200. The province doesn't reduce your federal liability, and the feds don't reduce your provincial liability. They simply add together.</p>
 
         <p>This is why your province of residence matters so much for tax planning. A $10,000 raise means different amounts in take-home pay depending on whether you live in British Columbia or Saskatchewan.</p>
 
@@ -5565,7 +5589,7 @@ export const posts = [
 
         <p><strong>A deduction reduces your taxable income.</strong> A credit reduces your tax.</p>
 
-        <p>Here's a concrete example: Assume you have a marginal tax rate of 29.65% (federal plus provincial, typical for an Ontario resident earning $100,000).</p>
+        <p>Here's a concrete example: Assume you have a marginal tax rate of 29.65% (federal plus <a href="/blog/provincial-tax-rates/">provincial</a>, typical for an Ontario resident earning $100,000).</p>
 
         <div class="example-box">
 <h4>Example: Deduction vs. Credit</h4>
@@ -5671,7 +5695,7 @@ export const posts = [
 
         <p>Example: You owe $1,500 in tax. You have a non-refundable credit worth $2,500. The credit reduces your tax from $1,500 to $0. But you don't get the extra $1,000 as a refund. It simply disappears.</p>
 
-        <p>The basic personal amount (which generates a ~$2,300 federal credit) is non-refundable. The disability tax credit is non-refundable. These are valuable for people who owe tax, but they don't help people with zero tax liability.</p>
+        <p>The basic personal amount (which generates a ~$2,300 federal credit) is non-refundable. The disability <a href="/blog/missed-tax-credits/">tax credit</a> is non-refundable. These are valuable for people who owe tax, but they don't help people with zero tax liability.</p>
 
         <h3>Refundable Credits</h3>
 
@@ -5780,6 +5804,7 @@ export const posts = [
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-05",
+    updated: "2026-09-26",
     excerpt: "H&R Block Canada's Second Look service reviews previously filed tax returns — and finds an average of nearly $3,000 per client in missed deduct...",
     image: "/images/blog/biggest-tax-mistake-canadians.png",
     content: `<div class="container">
@@ -5835,13 +5860,13 @@ export const posts = [
     <p>First-time home buyers can claim up to <strong>$10,000 of the purchase price as a credit, worth $1,500.</strong> This is a one-time claim, and many first-time buyers either forget about it or don't know it exists. If you bought your first home in the last few years, check your past returns. <span class="stat-highlight">$1,500 Credit</span></p>
 
     <h3>7. Home Accessibility Tax Credit</h3>
-    <p>If you or a family member is eligible for the Disability Tax Credit, you can claim eligible home renovation expenses to improve accessibility. This covers wheelchair ramps, grab bars, modified bathrooms, and more. With expenses capped at <strong>$20,000, you get a $2,900 credit.</strong> Many homeowners miss this because it requires the T2201 (DTC) first. <span class="stat-highlight">$2,900 Credit</span></p>
+    <p>If you or a family member is eligible for the Disability <a href="/blog/missed-tax-credits/">Tax Credit</a>, you can claim eligible home renovation expenses to improve accessibility. This covers wheelchair ramps, grab bars, modified bathrooms, and more. With expenses capped at <strong>$20,000, you get a $2,900 credit.</strong> Many homeowners miss this because it requires the T2201 (DTC) first. <span class="stat-highlight">$2,900 Credit</span></p>
 
     <h3>8. Carrying Charges</h3>
     <p>Interest on loans used to buy income-producing investments is deductible. This includes investment advisor fees, margin loan interest, and similar costs. Many self-directed investors forget to claim these because they're not obvious like RRSP contributions. Keep receipts and claim them annually. <span class="stat-highlight">Full Deduction Eligible</span></p>
 
     <h3>9. Union and Professional Dues</h3>
-    <p>Union dues, professional association fees, and licensing fees are fully deductible. Many employees are shocked to learn they can claim these — they're reported on a T2029, and most people just ignore it or forget it's a deduction. <span class="stat-highlight">Full Deduction Eligible</span></p>
+    <p>Union dues, professional association fees, and licensing fees are fully deductible. Many employees are shocked to learn they can claim these — they're reported on a T2029, and most people just ignore it or forget it's a <a href="/blog/tax-deductions-employees/">deduction</a>. <span class="stat-highlight">Full Deduction Eligible</span></p>
 
     <h3>10. Northern Residents Deduction</h3>
     <p>If you live in a prescribed northern area, you can claim this deduction. It's worth <strong>$2,187 per year</strong> if you qualify. It's specific to certain communities, but if you live in one and haven't claimed it, you're leaving money on the table. <span class="stat-highlight">Up to $2,187</span></p>
@@ -5877,7 +5902,7 @@ export const posts = [
     <ol>
         <li><strong>Gather Your Documentation:</strong> Collect receipts, invoices, and proof of any deductions or credits you're claiming. For medical expenses, keep receipts. For the Disability Tax Credit, get a T2201 signed by your medical professional. For charitable donations, keep donation receipts. CRA may ask for proof, and you need to be ready to provide it.</li>
         <li><strong>Complete Form T1-ADJ (T1 Adjustment Request):</strong> Download the form from CRA's website or contact them for it. Fill in your personal information, the years you're adjusting, and the deductions/credits you're adding. Be clear and specific about what you're claiming and why.</li>
-        <li><strong>Include Supporting Documentation:</strong> Attach copies (not originals) of all receipts, forms, and proof. For major claims like the DTC, include the completed T2201. The more thorough you are, the faster CRA processes your request.</li>
+        <li><strong>Include Supporting Documentation:</strong> Attach copies (not originals) of all <a href="/blog/tax-record-keeping/">receipts</a>, forms, and proof. For major claims like the DTC, include the completed T2201. The more thorough you are, the faster CRA processes your request.</li>
         <li><strong>Mail or File Online:</strong> You can mail the form to your local CRA office, or if you have CRA My Account, you can file it online through the CRA portal. Online filing is faster and gives you tracking information.</li>
         <li><strong>Wait for Processing and Receive Your Refund:</strong> CRA typically processes T1 Adjustments within 4–8 weeks. Once approved, you'll receive a Notice of Assessment showing your adjusted tax owing or refund due. If you're owed money, the refund will be deposited directly to your account.</li>
     </ol>
@@ -5920,13 +5945,14 @@ export const posts = [
   },
   {
     title: "The RRSP Playbook — Strategies to Maximize Your 2026 Contribution",
-    slug: "rrsp-playbook-2026",
+    slug: "rrsp-playbook",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-06",
+    updated: "2026-09-26",
     excerpt: "A single $10,000 RRSP contribution can save you between $1,800 and $5,480 in taxes — depending entirely on when and how you make it. Yet most Canad...",
-    image: "/images/blog/rrsp-playbook-2026.png",
+    image: "/images/blog/rrsp-playbook.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -5943,7 +5969,7 @@ export const posts = [
 
         <div class="summary-grid">
             <div class="summary-item">
-                <div class="summary-label">Annual Contribution Limit</div>
+                <div class="summary-label">Annual <a href="/blog/contribution-limits/">Contribution Limit</a></div>
                 <div class="summary-value">$33,810</div>
             </div>
             <div class="summary-item">
@@ -6218,7 +6244,7 @@ export const posts = [
         <ol>
 <li>Contribute to your RRSP (using borrowed money, savings, or a bonus).</li>
 <li>Receive the tax refund from your RRSP deduction.</li>
-<li>Invest that refund in a TFSA or non-registered account.</li>
+<li>Invest that refund in a <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">TFSA</a> or non-registered account.</li>
 <li>Compound grows in the TFSA tax-free (or with deferred taxation in non-registered).</li>
 <li>Repeat annually if possible.</li>
 </ol>
@@ -6304,7 +6330,7 @@ export const posts = [
 
         <h2>Strategy 4: Using the Home Buyers' Plan (HBP)</h2>
 
-        <p>The Home Buyers' Plan is a government program that lets you withdraw up to $60,000 from your RRSP tax-free to purchase your first home. It's useful, but it requires careful coordination.</p>
+        <p>The <a href="/blog/fhsa-guide/">Home Buyers' Plan</a> is a government program that lets you withdraw up to $60,000 from your RRSP tax-free to purchase your first home. It's useful, but it requires careful coordination.</p>
 
         <h3>HBP Basics</h3>
 
@@ -6504,13 +6530,14 @@ export const posts = [
   },
   {
     title: "TFSA Strategies Most Canadians Don't Know About",
-    slug: "tfsa-strategies-2026",
+    slug: "tfsa-strategies",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-10",
-    excerpt: "Ready to optimize your entire tax strategy?",
-    image: "/images/blog/tfsa-strategies-2026.png",
+    updated: "2026-09-26",
+    excerpt: "TFSA strategies past the annual deposit: how withdrawals restore room, what belongs in the account, and transfers that waste the tax-free space.",
+    image: "/images/blog/tfsa-strategies.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -6970,13 +6997,14 @@ export const posts = [
   },
   {
     title: "The Complete Guide to Canada's First Home Savings Account (FHSA) in 2026",
-    slug: "fhsa-guide-2026",
+    slug: "fhsa-guide",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-12",
+    updated: "2026-09-26",
     excerpt: "Since the First Home Savings Account launched in 2023, it's quietly become one of the most powerful wealth-building tools available to first-time h...",
-    image: "/images/blog/fhsa-guide-2026.png",
+    image: "/images/blog/fhsa-guide.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -6997,7 +7025,7 @@ export const posts = [
 <li><strong>Annual contribution limit:</strong> $8,000 per calendar year</li>
 <li><strong>Carry-forward limit:</strong> $8,000 maximum (not unlimited)</li>
 <li><strong>Maximum contribution in one year:</strong> $16,000 ($8,000 annual + $8,000 carry-forward)</li>
-<li><strong>Lifetime contribution limit:</strong> $40,000</li>
+<li><strong>Lifetime <a href="/blog/contribution-limits/">contribution limit</a>:</strong> $40,000</li>
 <li><strong>Contributions:</strong> Tax-deductible (like an RRSP)</li>
 <li><strong>Growth:</strong> Tax-free (like a TFSA)</li>
 <li><strong>Withdrawals for home purchase:</strong> Tax-free (unique to FHSA)</li>
@@ -7120,7 +7148,7 @@ export const posts = [
 
         <div class="example-box">
 <strong>Scenario: Using Carry-Forward Strategically</strong>
-<p>Marcus opens his FHSA in 2024. That year, he contributes $5,000 (leaving $3,000 unused). In 2025, he has $8,000 of new room + $3,000 carry-forward = $11,000 available. He contributes the full $11,000. In 2026, he has $8,000 of new room but $0 carry-forward (because he used it all in 2025). Even though he skipped years, his carry-forward never exceeded $8,000 in total. This is different from RRSP rules, where carry-forward can accumulate indefinitely.</p>
+<p>Marcus opens his FHSA in 2024. That year, he contributes $5,000 (leaving $3,000 unused). In 2025, he has $8,000 of new room + $3,000 carry-forward = $11,000 available. He contributes the full $11,000. In 2026, he has $8,000 of new room but $0 carry-forward (because he used it all in 2025). Even though he skipped years, his carry-forward never exceeded $8,000 in total. This is different from <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP</a> rules, where carry-forward can accumulate indefinitely.</p>
 </div>
 
         <h2>The Triple Tax Advantage Explained: FHSA vs RRSP vs TFSA</h2>
@@ -7504,7 +7532,7 @@ export const posts = [
 
         <p>The First Home Savings Account is the single most powerful tool available to Canadian first-time buyers. The triple tax advantage—deductible contributions, tax-free growth, and tax-free withdrawals for a home purchase—is unmatched by any other account.</p>
 
-        <p>For couples, combining the FHSA with the Home Buyers' Plan can create down payment firepower of $200,000 or more. For individuals, it's a $40,000 boost to homeownership that includes immediate tax savings via deductions.</p>
+        <p>For couples, combining the FHSA with the <a href="/blog/rrsp-playbook/">Home Buyers' Plan</a> can create down payment firepower of $200,000 or more. For individuals, it's a $40,000 boost to homeownership that includes immediate tax savings via deductions.</p>
 
         <p>The rules are simpler than RRSPs and more predictable than TFSAs, but they require discipline: contribute consistently, invest according to your timeline, and don't fall for common mistakes like assuming first-year catch-up or unlimited carry-forward.</p>
 
@@ -7527,13 +7555,14 @@ export const posts = [
   },
   {
     title: "RRSP vs. TFSA vs. FHSA — Which Account Should You Prioritize?",
-    slug: "rrsp-vs-tfsa-vs-fhsa-2026",
+    slug: "rrsp-vs-tfsa-vs-fhsa",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-13",
-    excerpt: "Recommendation:",
-    image: "/images/blog/rrsp-vs-tfsa-vs-fhsa-2026.png",
+    updated: "2026-09-26",
+    excerpt: "How to choose between an RRSP, a TFSA, and an FHSA based on your income, a first home, and which account should get the next dollar.",
+    image: "/images/blog/rrsp-vs-tfsa-vs-fhsa.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -7656,7 +7685,7 @@ export const posts = [
         <h3>FHSA: The Home Buyer's Accelerator</h3>
 
         <p>
-                You contribute pre-tax (get a deduction like RRSP). Your money grows tax-free. When you withdraw for your first home purchase, it's completely tax-free. If you don't buy a home, you can transfer the balance to your RRSP. <strong>The magic:</strong> Triple tax advantage for first-time buyers. <strong>The catch:</strong> Limited to $40,000 lifetime and first-time home buyer rules apply (4-year lookback).
+                You contribute pre-tax (get a deduction like RRSP). Your money grows tax-free. When you withdraw for your first home purchase, it's completely tax-free. If you don't buy a home, you can transfer the balance to your <a href="/blog/rrsp-playbook/">RRSP</a>. <strong>The magic:</strong> Triple tax advantage for first-time buyers. <strong>The catch:</strong> Limited to $40,000 lifetime and first-time home buyer rules apply (4-year lookback).
             </p>
 
         <h2>The Income-Based Decision Framework: What Matters Most</h2>
@@ -7815,7 +7844,7 @@ export const posts = [
 <ul>
 <li><strong>David:</strong> Max FHSA ($16,000 over 2 years), then RRSP ($15,000/year)</li>
 <li><strong>Sarah:</strong> Max FHSA ($16,000 over 2 years), then RRSP ($10,000/year)</li>
-<li>Combined, they build: $32,000 FHSA + $50,000 RRSP + TFSA + non-registered savings</li>
+<li>Combined, they build: $32,000 FHSA + $50,000 RRSP + <a href="/blog/tfsa-strategies/">TFSA</a> + non-registered savings</li>
 </ul>
 <p>
 <strong>Why?</strong> The FHSA allows them to get a tax deduction (reducing their combined tax bill by ~$16,000 at 40-50% marginal rates) while building a down payment that comes out tax-free. This is the most efficient path to homeownership.
@@ -7935,7 +7964,7 @@ export const posts = [
 </div>
 
         <p>
-<strong>Our recommendation:</strong> If you're a first-time buyer at any income level, max your FHSA first. The $8,000 is $40,000 of your future home that doesn't require sacrificing other accounts.
+<strong>Our recommendation:</strong> If you're a first-time buyer at any income level, max your <a href="/blog/fhsa-guide/">FHSA</a> first. The $8,000 is $40,000 of your future home that doesn't require sacrificing other accounts.
             </p>
 
         <h2>Common Mistakes to Avoid</h2>
@@ -8076,13 +8105,14 @@ export const posts = [
   },
   {
     title: "Every Tax Deduction Canadian Employees Should Claim in 2026",
-    slug: "tax-deductions-employees-2026",
+    slug: "tax-deductions-employees",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-14",
+    updated: "2026-09-26",
     excerpt: "Being an employed Canadian doesn't mean you're locked out of tax planning. In fact, the CRA allows dozens of deductions and credits specifically de...",
-    image: "/images/blog/tax-deductions-employees-2026.png",
+    image: "/images/blog/tax-deductions-employees.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -8133,7 +8163,7 @@ export const posts = [
 
         <h3>Spousal RRSPs: A Tax-Splitting Tool</h3>
 
-        <p>If one spouse earns significantly more than the other, contributing to a spousal RRSP can reduce household taxes. You get the deduction now (at your high rate), but funds are withdrawn at your spouse's lower rate in retirement.</p>
+        <p>If one spouse earns significantly more than the other, contributing to a spousal <a href="/blog/rrsp-playbook/">RRSP</a> can reduce household taxes. You get the deduction now (at your high rate), but funds are withdrawn at your spouse's lower rate in retirement.</p>
 
         <h2>Childcare Expenses</h2>
 
@@ -8296,7 +8326,7 @@ export const posts = [
 
         <h3>Donating Appreciated Securities</h3>
 
-        <p>If you own stocks or mutual funds that have increased in value, donating them to a registered charity is more tax-efficient than selling them. You avoid the capital gains tax entirely while getting a tax credit for the fair market value of the donation.</p>
+        <p>If you own stocks or mutual funds that have increased in value, donating them to a registered charity is more tax-efficient than selling them. You avoid the capital gains tax entirely while getting a <a href="/blog/missed-tax-credits/">tax credit</a> for the fair market value of the donation.</p>
 
         <p>Example: You bought 100 shares at $50 (cost: $5,000). They're now worth $10,000. If you sell, you realize a $5,000 capital gain and pay tax. If you donate directly to a registered charity, you get a credit on the $10,000 full value and zero capital gains tax.</p>
 
@@ -8391,7 +8421,7 @@ export const posts = [
 
         <div class="callout">
 <h4>Unused DTC Room</h4>
-<p>If the DTC is approved retroactively (e.g., approved in 2026 but you were disabled in 2020), you can claim unused credits from prior years—typically up to 10 years back. This can result in large refunds.</p>
+<p>If the DTC is approved retroactively (e.g., approved in 2026 but you were disabled in 2020), you can <a href="/blog/tax-deduction-checklist/">claim</a> unused credits from prior years—typically up to 10 years back. This can result in large refunds.</p>
 </div>
 
         <h2>Canada Workers Benefit</h2>
@@ -8556,13 +8586,14 @@ export const posts = [
   },
   {
     title: "Canadian Tax Credits You're Probably Missing",
-    slug: "missed-tax-credits-2026",
+    slug: "missed-tax-credits",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-19",
-    excerpt: "What she claimed previously: Only basic personal amount. Tax owing: ~$1,200.",
-    image: "/images/blog/missed-tax-credits-2026.png",
+    updated: "2026-09-26",
+    excerpt: "Canadian tax credits people often miss, how refundable credits differ from non-refundable ones, and how to claim amounts from earlier returns.",
+    image: "/images/blog/missed-tax-credits.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -8572,7 +8603,7 @@ export const posts = [
     <h2>Why Tax Credits Matter More Than You Think</h2>
 
         <p>
-                Tax credits are fundamentally different from deductions. A deduction reduces your taxable income; a credit directly reduces the tax you owe (or increases your refund). For example, a $1,000 deduction might save you $300 in taxes, but a $1,000 tax credit saves you a full $1,000. That difference compounds across the 400+ credits available in Canada's tax system.
+                Tax credits are fundamentally different from deductions. A deduction reduces your taxable income; a credit directly reduces the tax you owe (or increases your refund). For example, a $1,000 <a href="/blog/tax-deductions-employees/">deduction</a> might save you $300 in taxes, but a $1,000 tax credit saves you a full $1,000. That difference compounds across the 400+ credits available in Canada's tax system.
             </p>
 
         <p>
@@ -8617,7 +8648,7 @@ export const posts = [
 <h3><span class="credit-card-number">1</span> Canada Workers Benefit (CWB)</h3>
 <div class="credit-amount">Up to $1,633 (singles) / $2,813 (families)</div>
 <div class="credit-description">
-                    A <strong>refundable credit</strong> designed to support working Canadians with modest incomes. This is one of the most powerful credits in the system, yet Statistics Canada found $212 million of it went unclaimed in a single year.
+                    A <strong>refundable credit</strong> designed to support working Canadians with modest incomes. This is one of the most powerful credits in the system, yet Statistics Canada found $212 million of it went <a href="/blog/biggest-tax-mistake-canadians/">unclaimed</a> in a single year.
                 </div>
 <div class="callout">
 <strong>Why it's missed:</strong> You must file a tax return to receive it — and not everyone does. If you earn under $45,000, file your taxes even if you owe nothing. The CWB also includes a disability supplement worth $843 if you qualify for the Disability Tax Credit.
@@ -8726,7 +8757,7 @@ export const posts = [
         <h2>Canada Child Benefit: A Refundable Credit Most Families Know About (But Often Underclaim)</h2>
 
         <p>
-                While more widely known than others on this list, the Canada Child Benefit (CCB) deserves emphasis because many eligible families don't claim the maximum. The CCB provides:
+                While more widely known than others on this list, the <a href="/blog/tax-tips-families/">Canada Child Benefit</a> (CCB) deserves emphasis because many eligible families don't claim the maximum. The CCB provides:
             </p>
 
         <ul>
@@ -8892,13 +8923,14 @@ export const posts = [
   },
   {
     title: "Self-Employed Tax Guide 2026",
-    slug: "self-employed-tax-guide-2026",
+    slug: "self-employed-tax-guide",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-20",
+    updated: "2026-09-26",
     excerpt: "Self-employed Canadians have access to more than 40 legitimate tax deductions that salaried employees can only dream of — from home office costs to...",
-    image: "/images/blog/self-employed-tax-guide-2026.png",
+    image: "/images/blog/self-employed-tax-guide.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -8908,11 +8940,11 @@ export const posts = [
     <div class="key-facts">
 <h3>2026 Self-Employment Tax Essentials</h3>
 <ul>
-<li><strong>Filing Deadline:</strong> June 15, 2026 (tax owing due April 30, 2026)</li>
+<li><strong>Filing <a href="/blog/cra-deadlines/">Deadline</a>:</strong> June 15, 2026 (tax owing due April 30, 2026)</li>
 <li><strong>Key Form:</strong> T2125 - Statement of Business or Professional Activities</li>
 <li><strong>CPP Rate (Self-Employed):</strong> 11.90% on earnings up to $71,300 YMPE + 8% on earnings between $71,300–$81,200 (CPP2)</li>
 <li><strong>HST Registration Threshold:</strong> $30,000 in revenue over any 4 consecutive quarters</li>
-<li><strong>Instalment Threshold:</strong> $3,000 net tax owing in 2 consecutive years triggers quarterly instalments</li>
+<li><strong><a href="/blog/quarterly-tax-instalments/">Instalment</a> Threshold:</strong> $3,000 net tax owing in 2 consecutive years triggers quarterly instalments</li>
 </ul>
 </div>
 
@@ -9477,7 +9509,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <ul>
 <li><strong>3 years normally</strong> from the date of assessment</li>
 <li><strong>6 years</strong> if there's a substantial misrepresentation or negligence</li>
-<li><strong>Open audit</strong> if the CRA suspects fraud</li>
+<li><strong>Open <a href="/blog/cra-audit-guide/">audit</a></strong> if the CRA suspects fraud</li>
 </ul>
 
         <p>This is another reason to keep records for 6 years — the CRA's lookback period.</p>
@@ -9545,7 +9577,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         "description": "Complete self-employed tax guide for 2026. Learn about T2125, CPP, HST registration, 40+ deductions, home office, vehicle expenses, and audit-proof record-keeping.",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://canadianoptimizer.com/self-employed-tax-guide-2026/"
+            "@id": "https://canadianoptimizer.com/self-employed-tax-guide/"
         },
         "publisher": {
             "@type": "Organization",
@@ -9579,13 +9611,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Should You Incorporate? A Guide for Canadian Freelancers & Consultants",
-    slug: "should-you-incorporate-2026",
+    slug: "should-you-incorporate",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-24",
+    updated: "2026-02-24",
     excerpt: "At 9% federal tax on the first $500,000 of active business income, a Canadian corporation pays less than one-third the rate of the lowest personal ...",
-    image: "/images/blog/should-you-incorporate-2026.png",
+    image: "/images/blog/should-you-incorporate.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -10203,13 +10236,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Quarterly Tax Instalments in Canada 2026 — Self-Employed Guide",
-    slug: "quarterly-tax-instalments-2026",
+    slug: "quarterly-tax-instalments",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-25",
+    updated: "2026-09-26",
     excerpt: "Miss a single quarterly instalment payment and the CRA starts charging interest immediately — at a prescribed rate that currently sits around 10% a...",
-    image: "/images/blog/quarterly-tax-instalments-2026.png",
+    image: "/images/blog/quarterly-tax-instalments.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -10249,7 +10283,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>2026 Instalment Due Dates</h2>
 
-        <p>For 2026, the CRA has set four quarterly instalment due dates. Mark these on your calendar and set reminders — the CRA won't send you a bill, and they start charging interest the day after the due date if you miss it.</p>
+        <p>For 2026, the CRA has set four quarterly instalment due dates. Mark these on your <a href="/blog/tax-planning-calendar/">calendar</a> and set reminders — the CRA won't send you a bill, and they start charging interest the day after the due date if you miss it.</p>
 
         <table>
 <thead>
@@ -10295,7 +10329,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p><strong>Best for:</strong> People whose income is relatively stable or growing predictably.</p>
 
-        <p><strong>Example:</strong> You expect to earn $100,000 in net self-employed income in 2026. Your marginal tax rate is 50%, so your estimated tax liability is $50,000. Divide by 4 = <span class="stat">$12,500 per quarter</span>.</p>
+        <p><strong>Example:</strong> You expect to earn $100,000 in net <a href="/blog/self-employed-tax-guide/">self-employed</a> income in 2026. Your marginal tax rate is 50%, so your estimated tax liability is $50,000. Divide by 4 = <span class="stat">$12,500 per quarter</span>.</p>
 
         <p><strong>Risk:</strong> If you underestimate your income, you'll owe a larger balance at tax time. If you overestimate, you'll get a refund (but you've tied up cash unnecessarily).</p>
 
@@ -10427,7 +10461,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>The April 30 Trap: A Deadline You Can't Ignore</h2>
 
-        <p>Here's the trick that catches many self-employed people: Your tax filing deadline is <strong>June 15, 2026</strong>, but any balance owing must be paid by <strong>April 30, 2026</strong>.</p>
+        <p>Here's the trick that catches many self-employed people: Your tax filing <a href="/blog/cra-deadlines/">deadline</a> is <strong>June 15, 2026</strong>, but any balance owing must be paid by <strong>April 30, 2026</strong>.</p>
 
         <p>This creates a three-week window where you owe money, but you haven't filed yet.</p>
 
@@ -10505,13 +10539,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Tax Tips for Canadian Families — Credits, Benefits & Income Splitting",
-    slug: "tax-tips-families-2026",
+    slug: "tax-tips-families",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-02-27",
+    updated: "2026-09-26",
     excerpt: "A Canadian family with two children under 6 could receive up to $15,994 per year in Canada Child Benefit payments alone — completely tax-free. Add ...",
-    image: "/images/blog/tax-tips-families-2026.png",
+    image: "/images/blog/tax-tips-families.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -10559,7 +10594,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Benefit stops:</strong> AFNI above approximately $172,500 (varies by number of children)</li>
 </ul>
 
-        <p>The key insight: <strong>Every dollar of income you reduce lowers your CCB phase-out income</strong>. This creates a direct and powerful incentive for income splitting — and the spousal RRSP is the primary tool.</p>
+        <p>The key insight: <strong>Every dollar of income you reduce lowers your CCB phase-out income</strong>. This creates a direct and powerful incentive for <a href="/blog/income-splitting-strategies-couples/">income splitting</a> — and the spousal RRSP is the primary tool.</p>
 
         <h3>How RRSP Contributions Lower Your CCB Income</h3>
 
@@ -10858,7 +10893,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>GST/HST Credit</h3>
 
-        <p>Single parents with lower incomes often qualify for the GST/HST credit, a refundable tax credit paid quarterly. For 2026:</p>
+        <p>Single parents with lower incomes often qualify for the GST/HST credit, a refundable <a href="/blog/missed-tax-credits/">tax credit</a> paid quarterly. For 2026:</p>
 
         <ul>
 <li><strong>Basic adult credit:</strong> $519 per quarter ($2,076 annually)</li>
@@ -10878,7 +10913,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <div class="checklist">
 <h3>Family Tax Optimization Checklist</h3>
 <ul>
-<li>Claim the full Canada Child Benefit on every child under 18</li>
+<li>Claim the full <a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> on every child under 18</li>
 <li>Review your AFNI and consider spousal RRSP contributions to lower it and increase CCB</li>
 <li>Claim all eligible childcare expenses (daycare, nanny, camps) under the lower-income spouse</li>
 <li>Open an RESP for each child and contribute at least $2,500/year to capture the full CESG</li>
@@ -10946,13 +10981,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Major Life Events & Their Tax Implications in Canada",
-    slug: "life-events-tax-implications-2026",
+    slug: "life-events-tax-implications",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-02",
+    updated: "2026-03-02",
     excerpt: "Life happens. Weddings, births, career changes, relocations, separations, and loss are all inevitable parts of the human experience. What's less ob...",
-    image: "/images/blog/life-events-tax-implications-2026.png",
+    image: "/images/blog/life-events-tax-implications.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -11110,7 +11146,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p><strong>Strategy Tip:</strong> If you have FHSA room, maximize it before using the HBP. FHSA withdrawals are completely tax-free and don't need to be repaid. HBP withdrawals must be repaid, and if you don't, the amount is added back to your taxable income. Many first-time buyers should prioritize FHSA over HBP for this reason.</p>
 </div>
 
-        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="/blog/fhsa-guide-2026/">Article 7: FHSA & HBP Strategies</a>.</p>
+        <p>For a deeper dive into home buying strategy, investment properties, and mortgage interest deductibility (spoiler: mortgage interest is NOT deductible in Canada), see <a href="/blog/fhsa-guide/">Article 7: FHSA & HBP Strategies</a>.</p>
 
         <h2><span class="section-title"><span class="section-icon">⚖️</span> Getting Divorced or Separated</span></h2>
 
@@ -11401,13 +11437,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Tax-Efficient Investing for Canadians — A Beginner's Guide",
-    slug: "tax-efficient-investing-2026",
+    slug: "tax-efficient-investing",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-04",
-    excerpt: "You bought 100 shares of ABC Corp at $50/share ($5,000 total). You sell them at $70/share ($7,000 total).",
-    image: "/images/blog/tax-efficient-investing-2026.png",
+    updated: "2026-09-26",
+    excerpt: "How interest, eligible dividends, and capital gains are taxed in Canada, and how the account you use changes what you keep from the same investment.",
+    image: "/images/blog/tax-efficient-investing.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -12078,13 +12115,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Retirement Income Tax Planning for Canadians",
-    slug: "retirement-income-planning-2026",
+    slug: "retirement-income-planning",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-05",
-    excerpt: "Ready to Optimize Your Retirement Income Plan?",
-    image: "/images/blog/retirement-income-planning-2026.png",
+    updated: "2026-09-26",
+    excerpt: "How Canadian retirement income is taxed, from RRIF withdrawals and pension splitting to the choices that change what you keep from CPP and OAS.",
+    image: "/images/blog/retirement-income-planning.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -12272,7 +12310,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <h2>RRIF Minimum Withdrawals and Tax Planning</h2>
 
         <p>
-            By law, you must convert your RRSP to a RRIF by December 31 of the year you turn 71. Once converted, you're required to withdraw a minimum amount each year. These withdrawals count as income and can trigger OAS clawback. The minimum withdrawal rates for 2026 are:
+            By law, you must convert your RRSP to a RRIF by December 31 of the year you turn 71. Once converted, you're required to withdraw a minimum amount each year. These withdrawals count as income and can trigger OAS clawback. The minimum <a href="/blog/retirement-withdrawal-strategy/">withdrawal</a> rates for 2026 are:
         </p>
 
         <table>
@@ -12356,7 +12394,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul>
 <li><strong>RRIF withdrawals</strong> (if you're age 65+)</li>
-<li><strong>RRSP annuity payments</strong> (if you're age 65+)</li>
+<li><strong><a href="/blog/rrsp-meltdown-strategy/">RRSP</a> annuity payments</strong> (if you're age 65+)</li>
 <li><strong>Life annuity payments</strong> from an employer pension</li>
 <li><strong>CPP payments</strong> (see spousal benefits, covered below)</li>
 </ul>
@@ -12513,7 +12551,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>
 <strong>Portfolio at Age 65:</strong> $750K total (TFSA: $200K | Non-Reg: $250K | RRIF: $300K)<br/>
 <strong>Annual Spending Need:</strong> $70K<br/>
-<strong>Government Benefits (age 70+):</strong> CPP $20K + OAS $9K = $29K/year<br/><br/>
+<strong>Government Benefits (age 70+):</strong> CPP $20K + <a href="/blog/oas-gis-clawback-canada/">OAS</a> $9K = $29K/year<br/><br/>
 <strong>Ages 65-69 (before CPP/OAS):</strong> Withdraw $70K from TFSA first ($200K available for 2.9 years). Remaining non-registered investments grow tax-sheltered gains.<br/><br/>
 <strong>Ages 70-71 (CPP/OAS begin):</strong> Reduced withdrawal need: $70K - $29K = $41K. Draw $41K from remaining TFSA. Remaining RRIF continues growing.<br/><br/>
 <strong>Age 71+ (RRIF Mandatory):</strong> TFSA now depleted. Draw RRIF minimum ($300K × 5.28% = $15,840 in year 1). Supplement with non-registered withdrawals, prioritizing positions with capital gains (only 50% taxable).<br/><br/>
@@ -12602,13 +12640,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Best Canadian Tax Software 2026 | Free & Paid Options",
-    slug: "best-tax-software-2026",
+    slug: "best-tax-software",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-06",
+    updated: "2026-03-06",
     excerpt: "Did you know? Canadians who use the right tax software can save an average of 1–3 hours on filing and potentially uncover hundreds of dollars in mi...",
-    image: "/images/blog/best-tax-software-2026.png",
+    image: "/images/blog/best-tax-software.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -12940,10 +12979,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>For more information on optimizing your tax situation, explore these related articles:</p>
 
         <ul>
-<li><a href="/blog/tax-deduction-checklist-2026/">Tax Filing Checklist: Everything You Need Before April 30</a> — a comprehensive pre-filing checklist to ensure you don't miss deductions</li>
-<li><a href="/blog/tax-planning-calendar-2026/">Canada's Tax Calendar 2026: Key Deadlines & Milestones</a> — important tax dates and filing deadlines</li>
-<li><a href="/blog/self-employed-tax-guide-2026/">Self-Employed Tax Deductions: A Complete Guide</a> — maximize deductions if you run a business or are a freelancer</li>
-<li><a href="/blog/rrsp-playbook-2026/">RRSP Contribution Guide: Maximize Your Deduction Room</a> — optimize your retirement savings and tax deductions</li>
+<li><a href="/blog/tax-deduction-checklist/">Tax Filing Checklist: Everything You Need Before April 30</a> — a comprehensive pre-filing checklist to ensure you don't miss deductions</li>
+<li><a href="/blog/tax-planning-calendar/">Canada's Tax Calendar 2026: Key Deadlines & Milestones</a> — important tax dates and filing deadlines</li>
+<li><a href="/blog/self-employed-tax-guide/">Self-Employed Tax Deductions: A Complete Guide</a> — maximize deductions if you run a business or are a freelancer</li>
+<li><a href="/blog/rrsp-playbook/">RRSP Contribution Guide: Maximize Your Deduction Room</a> — optimize your retirement savings and tax deductions</li>
 </ul>
 
         <div class="final-cta">
@@ -12971,13 +13010,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "CRA Audit Guide 2026 | What to Do",
-    slug: "cra-audit-guide-2026",
+    slug: "cra-audit-guide",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-09",
+    updated: "2026-09-26",
     excerpt: "The CRA audits approximately 0.5–1% of individual tax returns annually, but when you're selected, the uncertainty can feel overwhelming. A CRA audi...",
-    image: "/images/blog/cra-audit-guide-2026.png",
+    image: "/images/blog/cra-audit-guide.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -13009,7 +13049,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>Field Audit</h3>
 
-        <p>A field audit is more comprehensive and involves <strong>a CRA auditor visiting your home, office, or business location in person</strong>. This type of audit examines your complete tax situation across multiple years and may look at your overall financial records, books, and supporting documentation. Field audits typically last anywhere from <strong>six to eighteen months</strong>, depending on complexity. They're more common for businesses, self-employed individuals, and situations involving significant income or deductions.</p>
+        <p>A field audit is more comprehensive and involves <strong>a CRA auditor visiting your home, office, or business location in person</strong>. This type of audit examines your complete tax situation across multiple years and may look at your overall financial <a href="/blog/tax-record-keeping/">records</a>, books, and supporting documentation. Field audits typically last anywhere from <strong>six to eighteen months</strong>, depending on complexity. They're more common for businesses, self-employed individuals, and situations involving significant income or deductions.</p>
 
         <h3>Specialized Audits</h3>
 
@@ -13183,14 +13223,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>When to Hire a Professional</h2>
 
-        <p>Not every audit requires professional representation—a simple desk audit of a straightforward deduction might be manageable on your own. But several situations warrant hiring an accountant or tax lawyer.</p>
+        <p>Not every audit requires professional representation—a simple desk audit of a straightforward deduction might be manageable on your own. But several situations warrant hiring an <a href="/blog/working-with-tax-professional/">accountant</a> or tax lawyer.</p>
 
         <h3>Consider Professional Help If:</h3>
 
         <ul>
 <li><strong>It's a field audit:</strong> The complexity and duration justify professional costs</li>
 <li><strong>Large amounts are at stake:</strong> If potential reassessments exceed $10,000, professional guidance protects your interests</li>
-<li><strong>Complex business issues:</strong> Self-employed, corporate, or partnership audits almost always benefit from representation</li>
+<li><strong>Complex business issues:</strong> <a href="/blog/self-employed-tax-guide/">Self-employed</a>, corporate, or partnership audits almost always benefit from representation</li>
 <li><strong>Multiple years under review:</strong> Coordinating across several tax years requires expertise</li>
 <li><strong>The auditor proposes significant adjustments:</strong> Professional intervention can challenge unsupported CRA positions</li>
 <li><strong>You feel uncomfortable or overwhelmed:</strong> Your peace of mind has value</li>
@@ -13319,13 +13359,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Tax Record-Keeping Guide for Canadians | CRA Requirements",
-    slug: "tax-record-keeping-2026",
+    slug: "tax-record-keeping",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-10",
+    updated: "2026-03-10",
     excerpt: "Did you know? 47% of Canadian taxpayers make mistakes on their tax returns due to missing or disorganized records. The CRA receives over 2 million ...",
-    image: "/images/blog/tax-record-keeping-2026.png",
+    image: "/images/blog/tax-record-keeping.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -13622,8 +13663,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </p>
 
         <ul>
-<li><a href="/blog/cra-audit-guide-2026/">Article 19: Surviving a CRA Audit—What to Expect and How to Respond</a></li>
-<li><a href="/blog/tax-planning-calendar-2026/">Article 21: The Complete 2026 Canadian Tax Calendar—Deadlines You Cannot Miss</a></li>
+<li><a href="/blog/cra-audit-guide/">Article 19: Surviving a CRA Audit—What to Expect and How to Respond</a></li>
+<li><a href="/blog/tax-planning-calendar/">Article 21: The Complete 2026 Canadian Tax Calendar—Deadlines You Cannot Miss</a></li>
 </ul>
 
     <div class="cta-section">
@@ -13642,13 +13683,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Canadian Tax Calendar 2026: Deadlines & Planning Guide",
-    slug: "tax-planning-calendar-2026",
+    slug: "tax-planning-calendar",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-16",
+    updated: "2026-03-16",
     excerpt: "Canadians leave an average of $1,200 on the table annually because they miss key tax planning windows. A simple calendar that tracks CRA deadlines ...",
-    image: "/images/blog/tax-planning-calendar-2026.png",
+    image: "/images/blog/tax-planning-calendar.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -13701,7 +13743,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li>Maximize contributions to reduce taxable income</li>
 <li>Current RRSP limit: $33,810</li>
 <li>Consider spousal RRSP for income splitting</li>
-<li><a href="/blog/rrsp-playbook-2026/">Learn RRSP optimization strategies</a></li>
+<li><a href="/blog/rrsp-playbook/">Learn RRSP optimization strategies</a></li>
 </ul>
 </div>
 <div class="month-card">
@@ -13733,7 +13775,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><span class="deadline">April 30 (2027): Balance owing deadline for self-employed</span></li>
 <li>June 15: Q2 instalment payment due</li>
 <li>Self-employed: Note balance due 6 weeks before filing deadline</li>
-<li><a href="/blog/quarterly-tax-instalments-2026/">Understand instalment requirements</a></li>
+<li><a href="/blog/quarterly-tax-instalments/">Understand instalment requirements</a></li>
 </ul>
 </div>
 <div class="month-card">
@@ -14057,7 +14099,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>Instalment dates are consistent: <strong>March 15, June 15, September 15, and December 15</strong>.</p>
 
-        <p><a href="/blog/quarterly-tax-instalments-2026/">Learn more about tax instalments and payment strategies here.</a></p>
+        <p><a href="/blog/quarterly-tax-instalments/">Learn more about tax instalments and payment strategies here.</a></p>
 
         <h2>Building Your Personal Tax Planning System</h2>
 
@@ -14121,9 +14163,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>This article covers the deadlines and calendar. For deeper optimization strategies:</p>
 
         <ul>
-<li><a href="/blog/rrsp-playbook-2026/">Read Article 5: RRSP Contribution Strategy & Room Calculation</a></li>
-<li><a href="/blog/quarterly-tax-instalments-2026/">Read Article 13: Tax Instalments Explained (Quarterly Payments)</a></li>
-<li><a href="/blog/tax-efficient-investing-2026/">Read Article 16: Tax-Efficient Investing for Canadians</a></li>
+<li><a href="/blog/rrsp-playbook/">Read Article 5: RRSP Contribution Strategy & Room Calculation</a></li>
+<li><a href="/blog/quarterly-tax-instalments/">Read Article 13: Tax Instalments Explained (Quarterly Payments)</a></li>
+<li><a href="/blog/tax-efficient-investing/">Read Article 16: Tax-Efficient Investing for Canadians</a></li>
 </ul>
 
     <div class="cta-section">
@@ -14142,13 +14184,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Working with a Tax Professional Canada 2026 | Worth It?",
-    slug: "working-with-tax-professional-2026",
+    slug: "working-with-tax-professional",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-19",
+    updated: "2026-03-19",
     excerpt: "Every spring, millions of Canadians face the same question: should I file my own taxes, or pay someone to do it? The answer depends on your situati...",
-    image: "/images/blog/working-with-tax-professional-2026.png",
+    image: "/images/blog/working-with-tax-professional.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -14161,7 +14204,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>When DIY Tax Filing Makes Sense</h2>
 
-        <p>Let's start with the good news: if your tax situation is straightforward, you absolutely can — and probably should — file on your own. Modern <a href="/blog/best-tax-software-2026/">Canadian tax software</a> has made self-filing remarkably accessible, and the CRA's Auto-fill My Return (AFR) feature pulls your T-slips directly into your tax software.</p>
+        <p>Let's start with the good news: if your tax situation is straightforward, you absolutely can — and probably should — file on your own. Modern <a href="/blog/best-tax-software/">Canadian tax software</a> has made self-filing remarkably accessible, and the CRA's Auto-fill My Return (AFR) feature pulls your T-slips directly into your tax software.</p>
 
         <p>DIY filing is a great fit if your situation matches most of these criteria:</p>
 
@@ -14189,7 +14232,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>Self-Employment or Freelance Income</h3>
 
-        <p>If you earn income through a sole proprietorship or freelance work, you're filing a T2125 and need to track dozens of potential deductions — home office, vehicle expenses, supplies, professional development, and more. A CPA familiar with <a href="/blog/self-employed-tax-guide-2026/">self-employment tax rules</a> will typically find deductions worth far more than their fee. They'll also ensure your deductions are defensible if the CRA comes calling.</p>
+        <p>If you earn income through a sole proprietorship or freelance work, you're filing a T2125 and need to track dozens of potential deductions — home office, vehicle expenses, supplies, professional development, and more. A CPA familiar with <a href="/blog/self-employed-tax-guide/">self-employment tax rules</a> will typically find deductions worth far more than their fee. They'll also ensure your deductions are defensible if the CRA comes calling.</p>
 
         <h3>Rental Property Income</h3>
 
@@ -14197,19 +14240,19 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h3>Significant Investment Activity</h3>
 
-        <p>Capital gains and losses, <a href="/blog/tax-efficient-investing-2026/">tax-loss harvesting</a>, the superficial loss rule (30-day rule), adjusted cost base calculations for mutual funds and ETFs, and foreign dividend withholding credits all require precision. A missed capital loss carry-forward could cost you years of tax savings.</p>
+        <p>Capital gains and losses, <a href="/blog/tax-efficient-investing/">tax-loss harvesting</a>, the superficial loss rule (30-day rule), adjusted cost base calculations for mutual funds and ETFs, and foreign dividend withholding credits all require precision. A missed capital loss carry-forward could cost you years of tax savings.</p>
 
         <h3>Major Life Events</h3>
 
-        <p>Marriage, divorce, the birth of a child, a death in the family, immigration or emigration, and major property transactions all trigger tax implications that most Canadians aren't aware of. A professional ensures you claim every credit and deduction available during these transitions. See our <a href="/blog/life-events-tax-implications-2026/">life events tax guide</a> for an overview of what's at stake.</p>
+        <p>Marriage, divorce, the birth of a child, a death in the family, immigration or emigration, and major property transactions all trigger tax implications that most Canadians aren't aware of. A professional ensures you claim every credit and deduction available during these transitions. See our <a href="/blog/life-events-tax-implications/">life events tax guide</a> for an overview of what's at stake.</p>
 
         <h3>Incorporation Decisions</h3>
 
-        <p>If you're considering <a href="/blog/should-you-incorporate-2026/">whether to incorporate</a>, or you already operate through a corporation, the salary-vs-dividend decision alone can swing your tax bill by thousands of dollars. Corporate tax planning is not a DIY exercise.</p>
+        <p>If you're considering <a href="/blog/should-you-incorporate/">whether to incorporate</a>, or you already operate through a corporation, the salary-vs-dividend decision alone can swing your tax bill by thousands of dollars. Corporate tax planning is not a DIY exercise.</p>
 
         <h3>Previous CRA Issues</h3>
 
-        <p>If you've received a CRA review letter, a notice of reassessment, or any correspondence suggesting an <a href="/blog/cra-audit-guide-2026/">audit</a>, hire a professional immediately. The cost of representation is almost always less than the cost of a poorly handled CRA interaction.</p>
+        <p>If you've received a CRA review letter, a notice of reassessment, or any correspondence suggesting an <a href="/blog/cra-audit-guide/">audit</a>, hire a professional immediately. The cost of representation is almost always less than the cost of a poorly handled CRA interaction.</p>
 
         <h2>Types of Tax Professionals in Canada</h2>
 
@@ -14414,7 +14457,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>The bottom line: if your tax situation involves any meaningful complexity — self-employment, rental income, investments, or major life changes — a good tax professional almost always pays for themselves. The key word is "good." Take the time to find someone who specializes in your situation, communicates clearly, and thinks strategically about your tax position, not just this year's return.</p>
 
-        <p>For a comprehensive checklist of every deduction and credit you should be discussing with your tax professional, see our <a href="/blog/tax-deduction-checklist-2026/">Ultimate 2026 Canadian Tax Deduction Checklist</a>.</p>
+        <p>For a comprehensive checklist of every deduction and credit you should be discussing with your tax professional, see our <a href="/blog/tax-deduction-checklist/">Ultimate 2026 Canadian Tax Deduction Checklist</a>.</p>
 
     <div class="cta-section">
             <p><em>This article is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>, a comprehensive 100+ page guide covering every strategy in this article and more. Chapter 21 includes the full evaluation framework and interview questions for finding the right tax professional.</em></p>
@@ -14423,10 +14466,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="/blog/best-tax-software-2026/">Best Canadian Tax Software 2026</a> |
-            <a href="/blog/self-employed-tax-guide-2026/">Self-Employed Tax Guide</a> |
-            <a href="/blog/cra-audit-guide-2026/">CRA Audit Guide</a> |
-            <a href="/blog/tax-deduction-checklist-2026/">Tax Deduction Checklist</a>
+<a href="/blog/best-tax-software/">Best Canadian Tax Software 2026</a> |
+            <a href="/blog/self-employed-tax-guide/">Self-Employed Tax Guide</a> |
+            <a href="/blog/cra-audit-guide/">CRA Audit Guide</a> |
+            <a href="/blog/tax-deduction-checklist/">Tax Deduction Checklist</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified CPA for advice specific to your situation.</em></p>
     </div>
@@ -14435,13 +14478,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "2026 Canadian Tax Deduction Checklist | Every Credit",
-    slug: "tax-deduction-checklist-2026",
+    slug: "tax-deduction-checklist",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-28",
+    updated: "2026-03-28",
     excerpt: "This is the checklist you bookmark and open every tax season. It covers over 60 deductions, credits, and tax-saving opportunities available to Cana...",
-    image: "/images/blog/tax-deduction-checklist-2026.png",
+    image: "/images/blog/tax-deduction-checklist.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -14457,11 +14501,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p class="section-intro">These are the big-ticket items. Maximizing your registered account contributions is the single most impactful tax strategy for most Canadians.</p>
 
         <ul class="checklist">
-<li><strong>RRSP Contributions</strong> — Deduct contributions up to your limit ($33,810 for 2026 or 18% of prior-year earned income, whichever is less). Check your Notice of Assessment for your exact room. Deadline: March 1, 2027 for the 2026 tax year. <span class="form-ref">Schedule 7</span> <a href="/blog/rrsp-playbook-2026/">[RRSP Guide]</a></li>
+<li><strong>RRSP Contributions</strong> — Deduct contributions up to your limit ($33,810 for 2026 or 18% of prior-year earned income, whichever is less). Check your Notice of Assessment for your exact room. Deadline: March 1, 2027 for the 2026 tax year. <span class="form-ref">Schedule 7</span> <a href="/blog/rrsp-playbook/">[RRSP Guide]</a></li>
 <li><strong>Spousal RRSP Contributions</strong> — Contribute to your spouse's RRSP using your own contribution room. The contributor claims the deduction, but the funds belong to the spouse. Powerful for income splitting in retirement. Be aware of the 3-year attribution rule. <span class="form-ref">Schedule 7</span></li>
-<li><strong>FHSA Contributions</strong> — First Home Savings Account contributions are deductible up to $8,000 per year ($40,000 lifetime). There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you're a first-time home buyer, this should be your top priority. <span class="form-ref">Schedule 15</span> <a href="/blog/fhsa-guide-2026/">[FHSA Guide]</a></li>
-<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your $7,000 annual room ($109,000 cumulative since 2009) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="/blog/tfsa-strategies-2026/">[TFSA Guide]</a></li>
-<li><strong>RESP Contributions</strong> — Not deductible, but the government matches 20% of your contribution through the Canada Education Savings Grant (CESG) up to $500/year per child ($7,200 lifetime per child). <a href="/blog/tax-tips-families-2026/">[Family Tax Guide]</a></li>
+<li><strong>FHSA Contributions</strong> — First Home Savings Account contributions are deductible up to $8,000 per year ($40,000 lifetime). There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you're a first-time home buyer, this should be your top priority. <span class="form-ref">Schedule 15</span> <a href="/blog/fhsa-guide/">[FHSA Guide]</a></li>
+<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your $7,000 annual room ($109,000 cumulative since 2009) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="/blog/tfsa-strategies/">[TFSA Guide]</a></li>
+<li><strong>RESP Contributions</strong> — Not deductible, but the government matches 20% of your contribution through the Canada Education Savings Grant (CESG) up to $500/year per child ($7,200 lifetime per child). <a href="/blog/tax-tips-families/">[Family Tax Guide]</a></li>
 </ul>
 
         <div class="did-you-know">
@@ -14475,7 +14519,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <ul class="checklist">
 <li><strong>Union and Professional Dues</strong> — Annual union dues, professional association fees, and malpractice insurance premiums required for your job. Usually reported on your T4 in Box 44. <span class="form-ref">Line 21200</span></li>
-<li><strong>Employment Expenses (T2200)</strong> — If your employer requires you to pay for expenses as a condition of employment (and signs a T2200 form), you can deduct: supplies, vehicle expenses, travel costs, and certain home office costs. <span class="form-ref">Form T777</span> <a href="/blog/tax-deductions-employees-2026/">[Employee Deductions Guide]</a></li>
+<li><strong>Employment Expenses (T2200)</strong> — If your employer requires you to pay for expenses as a condition of employment (and signs a T2200 form), you can deduct: supplies, vehicle expenses, travel costs, and certain home office costs. <span class="form-ref">Form T777</span> <a href="/blog/tax-deductions-employees/">[Employee Deductions Guide]</a></li>
 <li><strong>Home Office Expenses (Employees)</strong> — If you work from home and your employer has signed a T2200 or T2200S, you can claim a proportionate share of rent, utilities, internet, and maintenance. Calculate using the detailed method (work-space square footage as a percentage of total home area). <span class="form-ref">Form T777 / T777S</span></li>
 <li><strong>Vehicle Expenses (Employees)</strong> — If you're required to use your personal vehicle for work, claim fuel, insurance, maintenance, parking, and CCA. You must keep a mileage logbook. CCA Class 10.1 ceiling: $39,000 for vehicles acquired in 2026. <span class="form-ref">Form T777</span></li>
 <li><strong>Moving Expenses</strong> — If you moved at least 40 km closer to a new job, new business location, or post-secondary school, you can deduct moving costs including transportation, travel, temporary lodging, lease-breaking costs, and legal fees on your new home. <span class="form-ref">Form T1-M, Line 21900</span></li>
@@ -14490,7 +14534,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Self-Employment Deductions</h2>
 
-        <p class="section-intro">If you report self-employment income on a T2125, these deductions reduce your business income. <a href="/blog/self-employed-tax-guide-2026/">See our full self-employed guide</a> for detailed strategies.</p>
+        <p class="section-intro">If you report self-employment income on a T2125, these deductions reduce your business income. <a href="/blog/self-employed-tax-guide/">See our full self-employed guide</a> for detailed strategies.</p>
 
         <ul class="checklist">
 <li><strong>Home Office (Self-Employed)</strong> — Claim a proportionate share of rent/mortgage interest, property taxes, utilities, insurance, and maintenance based on the square footage used for business. Self-employed individuals can claim mortgage interest (employees cannot). <span class="form-ref">Form T2125</span></li>
@@ -14508,12 +14552,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="callout">
 <strong>Incorporation Decision</strong>
-<p>If your net self-employment income consistently exceeds $80,000–$100,000, it may be time to consider <a href="/blog/should-you-incorporate-2026/">whether incorporation makes sense</a>. The small business tax rate on the first $500,000 of active business income is just 12.2% federally (9% federal + provincial rates vary), compared to personal rates that can exceed 50% at higher income levels.</p>
+<p>If your net self-employment income consistently exceeds $80,000–$100,000, it may be time to consider <a href="/blog/should-you-incorporate/">whether incorporation makes sense</a>. The small business tax rate on the first $500,000 of active business income is just 12.2% federally (9% federal + provincial rates vary), compared to personal rates that can exceed 50% at higher income levels.</p>
 </div>
 
         <h2>Investment Income Deductions</h2>
 
-        <p class="section-intro">Investment income is taxed differently depending on the type. These deductions and strategies can significantly reduce the tax on your investment returns. <a href="/blog/tax-efficient-investing-2026/">See our tax-efficient investing guide</a>.</p>
+        <p class="section-intro">Investment income is taxed differently depending on the type. These deductions and strategies can significantly reduce the tax on your investment returns. <a href="/blog/tax-efficient-investing/">See our tax-efficient investing guide</a>.</p>
 
         <ul class="checklist">
 <li><strong>Carrying Charges and Interest Expense</strong> — Interest paid on money borrowed to earn investment income (margin accounts, investment loans), investment management and counselling fees, accounting fees for investment income, and safety deposit box fees. <span class="form-ref">Line 22100</span></li>
@@ -14531,7 +14575,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Family Credits and Benefits</h2>
 
-        <p class="section-intro">Families with children, dependants, or elderly parents have access to significant credits and benefits. <a href="/blog/tax-tips-families-2026/">See our complete family tax guide</a>.</p>
+        <p class="section-intro">Families with children, dependants, or elderly parents have access to significant credits and benefits. <a href="/blog/tax-tips-families/">See our complete family tax guide</a>.</p>
 
         <ul class="checklist">
 <li><strong>Canada Child Benefit (CCB)</strong> — Tax-free monthly payments of up to $8,157/year per child under 6 and $6,883/year per child aged 6–17 (2026–2027 benefit year). Income-tested — ensure both spouses file their returns to receive payments. <em>Automatic based on filing.</em></li>
@@ -14575,7 +14619,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>Charitable Donations</h2>
 
-        <p class="section-intro">Charitable donations receive generous tax treatment, especially at higher income levels. <a href="/blog/missed-tax-credits-2026/">See our guide to commonly missed credits</a>.</p>
+        <p class="section-intro">Charitable donations receive generous tax treatment, especially at higher income levels. <a href="/blog/missed-tax-credits/">See our guide to commonly missed credits</a>.</p>
 
         <ul class="checklist">
 <li><strong>Charitable Donation Tax Credit</strong> — The first $200 of donations receives a 15% federal credit. Amounts above $200 receive a 29% credit (or 33% if your income exceeds the top tax bracket threshold of ~$253,414). Provincial credits are added on top. You can carry forward unclaimed donations for up to 5 years. <span class="form-ref">Schedule 9, Line 34900</span></li>
@@ -14692,8 +14736,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Check your RRSP room</strong> — Log into CRA My Account or check your latest Notice of Assessment.</li>
 <li><strong>Collect receipts</strong> — Medical expenses, charitable donations, childcare receipts, moving expenses, and professional dues.</li>
 <li><strong>Review this checklist</strong> — Go through each category above and check off every item that applies to your situation.</li>
-<li><strong>Consider professional help</strong> — If your return involves self-employment, rental income, investments, or major life changes, a <a href="/blog/working-with-tax-professional-2026/">tax professional</a> will almost certainly find more than they cost.</li>
-<li><strong>File on time</strong> — April 30, 2027 for most Canadians. June 15, 2027 for self-employed individuals (but any balance owing is still due April 30). See our <a href="/blog/tax-planning-calendar-2026/">full tax calendar</a> for all deadlines.</li>
+<li><strong>Consider professional help</strong> — If your return involves self-employment, rental income, investments, or major life changes, a <a href="/blog/working-with-tax-professional/">tax professional</a> will almost certainly find more than they cost.</li>
+<li><strong>File on time</strong> — April 30, 2027 for most Canadians. June 15, 2027 for self-employed individuals (but any balance owing is still due April 30). See our <a href="/blog/tax-planning-calendar/">full tax calendar</a> for all deadlines.</li>
 </ol>
 
     <div class="cta-section">
@@ -14703,15 +14747,15 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
-            <a href="/blog/tfsa-strategies-2026/">TFSA Strategies</a> |
-            <a href="/blog/fhsa-guide-2026/">FHSA Guide</a> |
-            <a href="/blog/tax-deductions-employees-2026/">Employee Deductions</a> |
-            <a href="/blog/missed-tax-credits-2026/">Missed Tax Credits</a> |
-            <a href="/blog/self-employed-tax-guide-2026/">Self-Employed Guide</a> |
-            <a href="/blog/tax-tips-families-2026/">Family Tax Tips</a> |
-            <a href="/blog/tax-efficient-investing-2026/">Tax-Efficient Investing</a> |
-            <a href="/blog/working-with-tax-professional-2026/">Tax Professionals</a>
+<a href="/blog/rrsp-playbook/">RRSP Playbook</a> |
+            <a href="/blog/tfsa-strategies/">TFSA Strategies</a> |
+            <a href="/blog/fhsa-guide/">FHSA Guide</a> |
+            <a href="/blog/tax-deductions-employees/">Employee Deductions</a> |
+            <a href="/blog/missed-tax-credits/">Missed Tax Credits</a> |
+            <a href="/blog/self-employed-tax-guide/">Self-Employed Guide</a> |
+            <a href="/blog/tax-tips-families/">Family Tax Tips</a> |
+            <a href="/blog/tax-efficient-investing/">Tax-Efficient Investing</a> |
+            <a href="/blog/working-with-tax-professional/">Tax Professionals</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. This checklist is for informational purposes only and does not constitute professional tax advice. Consult a qualified CPA for advice specific to your situation.</em></p>
     </div>
@@ -14720,13 +14764,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "CRA Deadlines 2026 | Every Key Date for Canadians",
-    slug: "cra-deadlines-2026",
+    slug: "cra-deadlines",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-29",
+    updated: "2026-03-29",
     excerpt: "The following table covers every key deadline for the 2026 tax year, organized chronologically. Dates marked with an asterisk (*) apply to the 2025...",
-    image: "/images/blog/cra-deadlines-2026.png",
+    image: "/images/blog/cra-deadlines.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -14855,7 +14900,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <p>You're required to make quarterly instalment payments if your net tax owing (federal and provincial combined) exceeds $3,000 in the current year and in either of the two preceding years. The CRA will send you an instalment reminder if they determine you need to pay.</p>
 
-        <p>There are three methods for calculating your instalment amounts. You can use whichever method results in the lowest payments, as long as you don't underpay. For a detailed breakdown of the three methods and cash flow strategies, see our <a href="/blog/quarterly-tax-instalments-2026/">quarterly instalments guide</a>.</p>
+        <p>There are three methods for calculating your instalment amounts. You can use whichever method results in the lowest payments, as long as you don't underpay. For a detailed breakdown of the three methods and cash flow strategies, see our <a href="/blog/quarterly-tax-instalments/">quarterly instalments guide</a>.</p>
 
         <div class="callout">
 <strong>Self-Employed: The April 30 Trap</strong>
@@ -14878,7 +14923,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>The last quarter of the year (October–December) is when the most impactful tax planning happens. Here are the key actions to consider before December 31:</p>
 
         <ul>
-<li><strong>Tax-loss harvesting:</strong> Review your non-registered investment portfolio for unrealized losses that can offset capital gains. Remember the superficial loss rule (30-day rule) and sell by approximately December 27 for T+1 settlement. <a href="/blog/tax-efficient-investing-2026/">[Investing Guide]</a></li>
+<li><strong>Tax-loss harvesting:</strong> Review your non-registered investment portfolio for unrealized losses that can offset capital gains. Remember the superficial loss rule (30-day rule) and sell by approximately December 27 for T+1 settlement. <a href="/blog/tax-efficient-investing/">[Investing Guide]</a></li>
 <li><strong>TFSA and FHSA contributions:</strong> Maximize contributions before December 31 to shelter the maximum growth from tax.</li>
 <li><strong>Charitable donations:</strong> Make donations by December 31 to claim the credit on your 2026 return. Consider donating appreciated securities for a double tax benefit.</li>
 <li><strong>RESP contributions:</strong> Contribute at least $2,500 per child to receive the full $500 CESG match.</li>
@@ -14886,7 +14931,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>RRSP planning:</strong> While the deadline extends to March 1, 2027, contributing before December 31 gives your money an extra two months of tax-sheltered growth.</li>
 </ul>
 
-        <p>For a complete month-by-month planning guide, see our <a href="/blog/tax-planning-calendar-2026/">12-Month Tax Planning Calendar</a>.</p>
+        <p>For a complete month-by-month planning guide, see our <a href="/blog/tax-planning-calendar/">12-Month Tax Planning Calendar</a>.</p>
 
     <div class="cta-section">
             <p><em>This deadline reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes a detailed 12-month tax planning calendar with action items for employed, self-employed, and retired Canadians.</em></p>
@@ -14895,10 +14940,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="/blog/tax-planning-calendar-2026/">12-Month Tax Calendar</a> |
-            <a href="/blog/quarterly-tax-instalments-2026/">Quarterly Instalments Guide</a> |
-            <a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
-            <a href="/blog/contribution-limits-2026/">Contribution Limits 2026</a>
+<a href="/blog/tax-planning-calendar/">12-Month Tax Calendar</a> |
+            <a href="/blog/quarterly-tax-instalments/">Quarterly Instalments Guide</a> |
+            <a href="/blog/rrsp-playbook/">RRSP Playbook</a> |
+            <a href="/blog/contribution-limits/">Contribution Limits 2026</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. High search volume every January–April. Bookmark this page for quick reference.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
@@ -14908,13 +14953,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "2026 Canadian Contribution Limits | RRSP TFSA FHSA CPP",
-    slug: "contribution-limits-2026",
+    slug: "contribution-limits",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-03-30",
+    updated: "2026-03-30",
     excerpt: "The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year ...",
-    image: "/images/blog/contribution-limits-2026.png",
+    image: "/images/blog/contribution-limits.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -14968,7 +15014,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="callout">
 <strong>FHSA Carry-Forward Rules</strong>
-<p>The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year is $16,000 ($8,000 current year + $8,000 carry-forward). There is <strong>no first-year catch-up provision</strong> — in the year you open your FHSA, your contribution room is $8,000. <a href="/blog/fhsa-guide-2026/">[Full FHSA Guide]</a></p>
+<p>The FHSA allows carry-forward of unused contribution room, but it's capped at $8,000. This means the maximum you can contribute in any single year is $16,000 ($8,000 current year + $8,000 carry-forward). There is <strong>no first-year catch-up provision</strong> — in the year you open your FHSA, your contribution room is $8,000. <a href="/blog/fhsa-guide/">[Full FHSA Guide]</a></p>
 </div>
 
         <h2>TFSA Cumulative Room by Year of Eligibility</h2>
@@ -15166,7 +15212,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>FHSA room:</strong> Track manually based on your contributions since account opening. The CRA will eventually reflect this in My Account as well.</li>
 </ul>
 
-        <p>For strategies on how to optimize contributions across all registered accounts, see our <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP vs. TFSA vs. FHSA comparison</a>.</p>
+        <p>For strategies on how to optimize contributions across all registered accounts, see our <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP vs. TFSA vs. FHSA comparison</a>.</p>
 
     <div class="cta-section">
             <p><em>This reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The complete guide explains how to optimize contributions across all accounts with personalized decision frameworks.</em></p>
@@ -15175,12 +15221,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
-<a href="/blog/rrsp-playbook-2026/">RRSP Playbook</a> |
-            <a href="/blog/tfsa-strategies-2026/">TFSA Strategies</a> |
-            <a href="/blog/fhsa-guide-2026/">FHSA Guide</a> |
-            <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP vs TFSA vs FHSA</a> |
-            <a href="/blog/federal-tax-brackets-2026/">Federal Brackets 2026</a> |
-            <a href="/blog/cra-deadlines-2026/">CRA Deadlines 2026</a>
+<a href="/blog/rrsp-playbook/">RRSP Playbook</a> |
+            <a href="/blog/tfsa-strategies/">TFSA Strategies</a> |
+            <a href="/blog/fhsa-guide/">FHSA Guide</a> |
+            <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP vs TFSA vs FHSA</a> |
+            <a href="/blog/federal-tax-brackets/">Federal Brackets 2026</a> |
+            <a href="/blog/cra-deadlines/">CRA Deadlines 2026</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. Extremely high search volume in January. Bookmark this page for quick reference.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
@@ -15190,13 +15236,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   },
   {
     title: "Canadian Tax Glossary 2026 | 75+ Terms Defined",
-    slug: "tax-glossary-2026",
+    slug: "tax-glossary",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew Carrothers",
     date: "2026-04-03",
+    updated: "2026-04-03",
     excerpt: "This glossary is excerpted from How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition. For detailed strategies behind each concept...",
-    image: "/images/blog/tax-glossary-2026.png",
+    image: "/images/blog/tax-glossary.png",
     content: `<div class="container">
 
     <div class="hook">
@@ -15231,7 +15278,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Adjusted Cost Base (ACB)</span>
-<p class="term-def">The original cost of an investment plus any additional costs (commissions, reinvested distributions) and minus any return of capital. Your ACB is used to calculate your capital gain or loss when you sell. Tracking ACB accurately is essential for mutual fund and ETF investors. <a href="/blog/tax-efficient-investing-2026/">[Tax-Efficient Investing Guide]</a></p>
+<p class="term-def">The original cost of an investment plus any additional costs (commissions, reinvested distributions) and minus any return of capital. Your ACB is used to calculate your capital gain or loss when you sell. Tracking ACB accurately is essential for mutual fund and ETF investors. <a href="/blog/tax-efficient-investing/">[Tax-Efficient Investing Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15241,7 +15288,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Age Amount</span>
-<p class="term-def">A non-refundable tax credit available to individuals aged 65 or older. For 2026, the maximum amount is $9,028, but it's reduced when your net income exceeds $45,522 and eliminated entirely at approximately $105,291. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
+<p class="term-def">A non-refundable tax credit available to individuals aged 65 or older. For 2026, the maximum amount is $9,028, but it's reduced when your net income exceeds $45,522 and eliminated entirely at approximately $105,291. <a href="/blog/retirement-income-planning/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15261,7 +15308,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Auto-fill My Return (AFR)</span>
-<p class="term-def">A CRA feature that automatically populates your tax software with information from your T-slips and other tax documents already on file with the CRA. Available through most NETFILE-certified software. <a href="/blog/best-tax-software-2026/">[Tax Software Guide]</a></p>
+<p class="term-def">A CRA feature that automatically populates your tax software with information from your T-slips and other tax documents already on file with the CRA. Available through most NETFILE-certified software. <a href="/blog/best-tax-software/">[Tax Software Guide]</a></p>
 </div>
 
         <h2 id="b">B</h2>
@@ -15280,7 +15327,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Canada Child Benefit (CCB)</span>
-<p class="term-def">A tax-free monthly payment to eligible families with children under 18. For the 2026–2027 benefit year: up to $8,157 per child under 6 and $6,883 per child aged 6–17. Amounts are reduced based on adjusted family net income. <a href="/blog/tax-tips-families-2026/">[Family Tax Guide]</a></p>
+<p class="term-def">A tax-free monthly payment to eligible families with children under 18. For the 2026–2027 benefit year: up to $8,157 per child under 6 and $6,883 per child aged 6–17. Amounts are reduced based on adjusted family net income. <a href="/blog/tax-tips-families/">[Family Tax Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15290,7 +15337,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Canada Pension Plan (CPP)</span>
-<p class="term-def">A mandatory contributory pension plan for employed and self-employed Canadians. Both employees and employers contribute. The maximum monthly benefit at age 65 is approximately $1,508 (2026). You can defer CPP to age 70 for a 42% increase or start as early as age 60 for a 36% reduction. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
+<p class="term-def">A mandatory contributory pension plan for employed and self-employed Canadians. Both employees and employers contribute. The maximum monthly benefit at age 65 is approximately $1,508 (2026). You can defer CPP to age 70 for a 42% increase or start as early as age 60 for a 36% reduction. <a href="/blog/retirement-income-planning/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15305,12 +15352,12 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Capital Cost Allowance (CCA)</span>
-<p class="term-def">The tax term for depreciation of business assets. Instead of deducting the full cost of an asset in the year of purchase, you claim a percentage each year based on the asset's CCA class. Common classes: Class 10/10.1 for vehicles ($39,000 ceiling in 2026), Class 50 for computers (55% rate). <a href="/blog/self-employed-tax-guide-2026/">[Self-Employed Guide]</a></p>
+<p class="term-def">The tax term for depreciation of business assets. Instead of deducting the full cost of an asset in the year of purchase, you claim a percentage each year based on the asset's CCA class. Common classes: Class 10/10.1 for vehicles ($39,000 ceiling in 2026), Class 50 for computers (55% rate). <a href="/blog/self-employed-tax-guide/">[Self-Employed Guide]</a></p>
 </div>
 
         <div class="term">
 <span class="term-name">Capital Gain</span>
-<p class="term-def">The profit from selling a capital property (investments, real estate, etc.) for more than its adjusted cost base. In Canada, only 50% of capital gains are included in your taxable income (the "inclusion rate"). A proposal to increase this to 66.67% was cancelled in March 2025. <a href="/blog/tax-efficient-investing-2026/">[Tax-Efficient Investing]</a></p>
+<p class="term-def">The profit from selling a capital property (investments, real estate, etc.) for more than its adjusted cost base. In Canada, only 50% of capital gains are included in your taxable income (the "inclusion rate"). A proposal to increase this to 66.67% was cancelled in March 2025. <a href="/blog/tax-efficient-investing/">[Tax-Efficient Investing]</a></p>
 </div>
 
         <div class="term">
@@ -15335,7 +15382,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">CPP2 (Second Additional CPP Contribution)</span>
-<p class="term-def">Introduced in 2024, a second tier of CPP contributions on earnings between the first ceiling ($71,300) and second ceiling ($81,200) for 2026. The employee rate is 4.00%. Designed to enhance CPP retirement benefits. <a href="/blog/contribution-limits-2026/">[Contribution Limits]</a></p>
+<p class="term-def">Introduced in 2024, a second tier of CPP contributions on earnings between the first ceiling ($71,300) and second ceiling ($81,200) for 2026. The employee rate is 4.00%. Designed to enhance CPP retirement benefits. <a href="/blog/contribution-limits/">[Contribution Limits]</a></p>
 </div>
 
         <h2 id="d">D</h2>
@@ -15364,7 +15411,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Effective Tax Rate</span>
-<p class="term-def">The actual percentage of your total income paid in tax, calculated as total tax payable divided by total income. Always lower than your marginal rate due to progressive brackets. For example, someone earning $100,000 might have a marginal rate of 20.5% but an effective federal rate of only 14.5%. <a href="/blog/federal-tax-brackets-2026/">[Federal Brackets Table]</a></p>
+<p class="term-def">The actual percentage of your total income paid in tax, calculated as total tax payable divided by total income. Always lower than your marginal rate due to progressive brackets. For example, someone earning $100,000 might have a marginal rate of 20.5% but an effective federal rate of only 14.5%. <a href="/blog/federal-tax-brackets/">[Federal Brackets Table]</a></p>
 </div>
 
         <div class="term">
@@ -15381,7 +15428,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">First Home Savings Account (FHSA)</span>
-<p class="term-def">A registered account introduced in 2023 for first-time home buyers. Contributions are tax-deductible (up to $8,000/year, $40,000 lifetime), growth is tax-free, and withdrawals for a qualifying home purchase are tax-free. There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you don't buy a home, funds can be transferred to an RRSP. <a href="/blog/fhsa-guide-2026/">[Complete FHSA Guide]</a></p>
+<p class="term-def">A registered account introduced in 2023 for first-time home buyers. Contributions are tax-deductible (up to $8,000/year, $40,000 lifetime), growth is tax-free, and withdrawals for a qualifying home purchase are tax-free. There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you don't buy a home, funds can be transferred to an RRSP. <a href="/blog/fhsa-guide/">[Complete FHSA Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15410,7 +15457,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Home Buyers' Plan (HBP)</span>
-<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="/blog/fhsa-guide-2026/">[FHSA & HBP Guide]</a></p>
+<p class="term-def">A program that allows you to withdraw up to $60,000 from your RRSP tax-free to buy or build a qualifying first home. The withdrawal must be repaid to your RRSP over 15 years, starting the second year after the withdrawal. If you don't repay, the annual repayment amount is added to your taxable income. <a href="/blog/fhsa-guide/">[FHSA & HBP Guide]</a></p>
 </div>
 
         <h2 id="i">I</h2>
@@ -15432,7 +15479,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Instalment Payments</span>
-<p class="term-def">Quarterly tax payments required when your net tax owing exceeds $3,000 in the current year and either of the two preceding years. Due dates: March 15, June 15, September 15, December 15. Interest is charged on late or insufficient instalments. <a href="/blog/quarterly-tax-instalments-2026/">[Instalments Guide]</a></p>
+<p class="term-def">Quarterly tax payments required when your net tax owing exceeds $3,000 in the current year and either of the two preceding years. Due dates: March 15, June 15, September 15, December 15. Interest is charged on late or insufficient instalments. <a href="/blog/quarterly-tax-instalments/">[Instalments Guide]</a></p>
 </div>
 
         <h2 id="l">L</h2>
@@ -15446,19 +15493,19 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Marginal Tax Rate</span>
-<p class="term-def">The tax rate applied to your next dollar of income. In a progressive system, your marginal rate is higher than your effective rate. Your combined marginal rate (federal + provincial) determines how much of each additional dollar you keep, and is the key rate for tax planning decisions. <a href="/blog/federal-tax-brackets-2026/">[Brackets Explained]</a></p>
+<p class="term-def">The tax rate applied to your next dollar of income. In a progressive system, your marginal rate is higher than your effective rate. Your combined marginal rate (federal + provincial) determines how much of each additional dollar you keep, and is the key rate for tax planning decisions. <a href="/blog/federal-tax-brackets/">[Brackets Explained]</a></p>
 </div>
 
         <div class="term">
 <span class="term-name">Medical Expense Tax Credit (METC)</span>
-<p class="term-def">A non-refundable credit for eligible medical expenses exceeding the lesser of 3% of your net income or $2,759 (2026). Expenses can be claimed for yourself, your spouse, and your dependent children. Best claimed by the lower-income spouse to minimize the income threshold. <a href="/blog/missed-tax-credits-2026/">[Missed Credits Guide]</a></p>
+<p class="term-def">A non-refundable credit for eligible medical expenses exceeding the lesser of 3% of your net income or $2,759 (2026). Expenses can be claimed for yourself, your spouse, and your dependent children. Best claimed by the lower-income spouse to minimize the income threshold. <a href="/blog/missed-tax-credits/">[Missed Credits Guide]</a></p>
 </div>
 
         <h2 id="n">N</h2>
 
         <div class="term">
 <span class="term-name">NETFILE</span>
-<p class="term-def">The CRA's electronic tax filing system. Most Canadians file their returns through NETFILE using certified software. Filing electronically is faster (refunds typically arrive in 2 weeks vs. 8 weeks for paper) and reduces errors. <a href="/blog/best-tax-software-2026/">[Tax Software Guide]</a></p>
+<p class="term-def">The CRA's electronic tax filing system. Most Canadians file their returns through NETFILE using certified software. Filing electronically is faster (refunds typically arrive in 2 weeks vs. 8 weeks for paper) and reduces errors. <a href="/blog/best-tax-software/">[Tax Software Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15478,14 +15525,14 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Notice of Objection</span>
-<p class="term-def">A formal dispute filed with the CRA when you disagree with an assessment or reassessment. Must be filed within 90 days of the date on the notice. The CRA's Appeals Division reviews your objection independently from the original assessment. <a href="/blog/cra-audit-guide-2026/">[CRA Audit Guide]</a></p>
+<p class="term-def">A formal dispute filed with the CRA when you disagree with an assessment or reassessment. Must be filed within 90 days of the date on the notice. The CRA's Appeals Division reviews your objection independently from the original assessment. <a href="/blog/cra-audit-guide/">[CRA Audit Guide]</a></p>
 </div>
 
         <h2 id="o">O</h2>
 
         <div class="term">
 <span class="term-name">Old Age Security (OAS)</span>
-<p class="term-def">A monthly pension available to most Canadians aged 65 or older who meet residency requirements. The maximum monthly benefit is approximately $742 (2026). OAS is clawed back (reduced) when your net income exceeds $95,323 (the "OAS clawback" or OAS recovery tax), at a rate of 15 cents per dollar of excess income. <a href="/blog/retirement-income-planning-2026/">[Retirement Guide]</a></p>
+<p class="term-def">A monthly pension available to most Canadians aged 65 or older who meet residency requirements. The maximum monthly benefit is approximately $742 (2026). OAS is clawed back (reduced) when your net income exceeds $95,323 (the "OAS clawback" or OAS recovery tax), at a rate of 15 cents per dollar of excess income. <a href="/blog/retirement-income-planning/">[Retirement Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15556,7 +15603,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Registered Retirement Savings Plan (RRSP)</span>
-<p class="term-def">A tax-deferred savings account. Contributions are tax-deductible (reducing your current tax bill), growth is tax-sheltered, and withdrawals are taxed as income. 2026 limit: $33,810 or 18% of prior-year earned income. Unused room carries forward indefinitely. <a href="/blog/rrsp-playbook-2026/">[RRSP Playbook]</a></p>
+<p class="term-def">A tax-deferred savings account. Contributions are tax-deductible (reducing your current tax bill), growth is tax-sheltered, and withdrawals are taxed as income. 2026 limit: $33,810 or 18% of prior-year earned income. Unused room carries forward indefinitely. <a href="/blog/rrsp-playbook/">[RRSP Playbook]</a></p>
 </div>
 
         <div class="term">
@@ -15573,7 +15620,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Small Business Deduction (SBD)</span>
-<p class="term-def">A deduction that reduces the federal corporate tax rate to 9% on the first $500,000 of active business income earned by a Canadian-Controlled Private Corporation (CCPC). Combined with provincial rates, the total small business rate ranges from approximately 11% to 12.2% depending on the province. <a href="/blog/should-you-incorporate-2026/">[Incorporation Guide]</a></p>
+<p class="term-def">A deduction that reduces the federal corporate tax rate to 9% on the first $500,000 of active business income earned by a Canadian-Controlled Private Corporation (CCPC). Combined with provincial rates, the total small business rate ranges from approximately 11% to 12.2% depending on the province. <a href="/blog/should-you-incorporate/">[Incorporation Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15583,7 +15630,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Superficial Loss Rule</span>
-<p class="term-def">A CRA rule that denies a capital loss if you (or an affiliated person) buy back the same or identical investment within 30 days before or after the sale. The denied loss is added to the ACB of the repurchased property. Critical to understand for tax-loss harvesting strategies. <a href="/blog/tax-efficient-investing-2026/">[Investing Guide]</a></p>
+<p class="term-def">A CRA rule that denies a capital loss if you (or an affiliated person) buy back the same or identical investment within 30 days before or after the sale. The denied loss is added to the ACB of the repurchased property. Critical to understand for tax-loss harvesting strategies. <a href="/blog/tax-efficient-investing/">[Investing Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15595,7 +15642,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">T1 (General Income Tax Return)</span>
-<p class="term-def">The main personal income tax return filed by Canadian individuals. Due April 30 for most taxpayers (June 15 for self-employed, but balance owing is still due April 30). <a href="/blog/cra-deadlines-2026/">[CRA Deadlines]</a></p>
+<p class="term-def">The main personal income tax return filed by Canadian individuals. Due April 30 for most taxpayers (June 15 for self-employed, but balance owing is still due April 30). <a href="/blog/cra-deadlines/">[CRA Deadlines]</a></p>
 </div>
 
         <div class="term">
@@ -15605,7 +15652,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">T2125 (Statement of Business Activities)</span>
-<p class="term-def">The form used to report self-employment or professional income and expenses. Attached to your T1 return. Where you claim business deductions including home office, vehicle, supplies, and other expenses. <a href="/blog/self-employed-tax-guide-2026/">[Self-Employed Guide]</a></p>
+<p class="term-def">The form used to report self-employment or professional income and expenses. Attached to your T1 return. Where you claim business deductions including home office, vehicle, supplies, and other expenses. <a href="/blog/self-employed-tax-guide/">[Self-Employed Guide]</a></p>
 </div>
 
         <div class="term">
@@ -15620,7 +15667,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Tax-Free Savings Account (TFSA)</span>
-<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. Cumulative room since 2009: $109,000. Withdrawals restore contribution room on January 1 of the following year. <a href="/blog/tfsa-strategies-2026/">[TFSA Strategies]</a></p>
+<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. Cumulative room since 2009: $109,000. Withdrawals restore contribution room on January 1 of the following year. <a href="/blog/tfsa-strategies/">[TFSA Strategies]</a></p>
 </div>
 
         <div class="term">
@@ -15662,9 +15709,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
 <a href="/blog/how-canadian-taxes-work/">How Canadian Taxes Work</a> |
-            <a href="/blog/federal-tax-brackets-2026/">Federal Brackets 2026</a> |
-            <a href="/blog/contribution-limits-2026/">Contribution Limits 2026</a> |
-            <a href="/blog/tax-deduction-checklist-2026/">Tax Deduction Checklist</a>
+            <a href="/blog/federal-tax-brackets/">Federal Brackets 2026</a> |
+            <a href="/blog/contribution-limits/">Contribution Limits 2026</a> |
+            <a href="/blog/tax-deduction-checklist/">Tax Deduction Checklist</a>
 </p>
 <p style="margin-top: 15px;"><em>Last updated: April 2026. Each glossary definition is a potential featured snippet. Bookmark this page for quick tax term lookups.</em></p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
@@ -15679,7 +15726,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-01",
-    excerpt: "The average Canadian couple will spend approximately $1.",
+    updated: "2026-09-26",
+    excerpt: "How to estimate what a Canadian household needs to retire, using spending, CPP, OAS, and any pension instead of a single savings number.",
     image: "/images/blog/how-much-money-retire-canada.png",
     content: `<div class="container"><h1>How Much Money Do You Need to Retire in Canada? The Real Numbers for 2026</h1>
 <div class="hook"><strong>The average Canadian couple will spend approximately $1.7 million over a 25-year retirement, yet 32% of Canadians have saved less than $100,000.</strong> That gap feels paralyzing—but here's the good news: it doesn't have to be. The real question isn't "How much did someone else need?" but "What does *your* retirement actually cost?" This guide cuts through the noise and shows you how to calculate your exact number.</div>
@@ -15706,7 +15754,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Dining out and entertainment</strong>: Budget $200–$600/month depending on your social life and local costs. Urban retirees typically spend more.</li>
 <li><strong>Hobbies and learning</strong>: golf memberships ($2,000–$5,000/year), art classes, woodworking workshops. Budget $200–$500/month if hobbies are central to your retirement identity.</li>
 <li><strong>Subscriptions and memberships</strong>: streaming services, fitness clubs, volunteer group fees. Budget $50–$200/month.</li>
-<li><strong>Gifting to family</strong>: If you plan to help adult children or grandchildren, be explicit about it. Budget what you're comfortable with; some retirees earmark $5,000–$10,000/year, others zero.</li>
+<li><strong>Gifting to family</strong>: If you <a href="/blog/build-retirement-plan-7-steps/">plan</a> to help adult children or grandchildren, be explicit about it. Budget what you're comfortable with; some retirees earmark $5,000–$10,000/year, others zero.</li>
 </ul>
 <p>This bucket is flexible—if your investments drop in a down market, you can trim here. But be realistic about what brings you joy in retirement.</p>
 <h3>3. Irregular and Future Expenses</h3>
@@ -15849,9 +15897,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>You don't have to do all this math by hand. Canada offers several free and low-cost tools:</p>
 <h3>Government Tools</h3>
 <ul>
-<li><strong>Service Canada Retirement Income Calculator:</strong> Use this to estimate your Canada Pension Plan (CPP) and Old Age Security (OAS) benefits. It's built by the government and based on your actual contribution history. Visit <em>ServiceCanada.gc.ca</em>.</li>
+<li><strong>Service Canada Retirement Income Calculator:</strong> Use this to estimate your Canada Pension Plan (<a href="/blog/cpp-when-to-take-canada/">CPP</a>) and Old Age Security (OAS) benefits. It's built by the government and based on your actual contribution history. Visit <em>ServiceCanada.gc.ca</em>.</li>
 <li><strong>CRA My Service Account:</strong> Log in to see your RRSP contribution room, TFSA room, and benefit information. This is your authoritative source for tax-deferred savings space.</li>
-<li><strong>OAS Estimator:</strong> Service Canada provides a tool specifically for Old Age Security estimates at different claim ages (60, 62, 65, 70). Claiming at 70 instead of 65 adds roughly 42% to your monthly benefit—but only if you can afford to wait.</li>
+<li><strong><a href="/blog/oas-gis-clawback-canada/">OAS</a> Estimator:</strong> Service Canada provides a tool specifically for Old Age Security estimates at different claim ages (60, 62, 65, 70). Claiming at 70 instead of 65 adds roughly 42% to your monthly benefit—but only if you can afford to wait.</li>
 </ul>
 <h3>Third-Party Calculators and Software</h3>
 <ul>
@@ -15911,6 +15959,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-04",
+    updated: "2026-09-26",
     excerpt: "A 30-year-old saving $400/month retires with $714,000.",
     image: "/images/blog/retirement-planning-by-age.png",
     content: `<div class="container"><h1>Retirement Planning by Age: What to Do in Your 30s, 40s, 50s &amp; 60s</h1>
@@ -15988,7 +16037,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <h3>Priority 3: Understand Old Age Security (OAS) and Clawback</h3>
 <p><strong>OAS</strong> is a second government pension, separate from CPP. At age 65, you're eligible for roughly $7,000–$8,000/year (exact amount depends on years lived in Canada). But there's a catch: if your income exceeds **$90,997** (2026 threshold), your OAS starts to claw back at 15% per dollar of excess income.</p>
 <p><strong>Example:</strong> If your income is $100,000, you're $9,003 over the threshold. OAS claws back $1,350 (15% of $9,003). Your OAS drops from $8,000 to $6,650.</p>
-<p><strong>This matters for withdrawal strategy:</strong> If you have a large RRSP and a small TFSA, you might withdraw only RRSP in early retirement (to trigger OAS clawback) and save TFSA withdrawals for later. Alternatively, you might convert RRSP to RRIF slowly to keep income under the clawback threshold. A tax planner can optimize this—it's worth a consultation at age 55–60.</p>
+<p><strong>This matters for withdrawal strategy:</strong> If you have a large RRSP and a small TFSA, you might withdraw only RRSP in early retirement (to trigger OAS clawback) and save <a href="/blog/tfsa-retirement-strategy/">TFSA</a> withdrawals for later. Alternatively, you might convert RRSP to RRIF slowly to keep income under the clawback threshold. A tax planner can optimize this—it's worth a consultation at age 55–60.</p>
 <h3>Priority 4: Review Your Workplace Pension</h3>
 <p>If you have a defined benefit (DB) or defined contribution (DC) pension, understand it fully by 55. Ask your pension administrator:</p>
 <ul>
@@ -16012,7 +16061,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <h3>Priority 6: Consider a Fee-Only Financial Planner</h3>
 <p>At 55, a comprehensive retirement plan is invaluable. Not a sales pitch—an actual detailed plan showing:</p>
 <ul>
-<li>How much you'll have at 65, 70, 75.</li>
+<li><a href="/blog/how-much-money-retire-canada/">How much</a> you'll have at 65, 70, 75.</li>
 <li>Optimal CPP/OAS claiming strategy.</li>
 <li>Withdrawal sequence and tax optimization.</li>
 <li>Insurance gaps (life, disability, long-term care).</li>
@@ -16062,7 +16111,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <strong>Key Actions:</strong><br/>
       • Eliminate high-interest debt<br/>
       • Build emergency fund<br/>
-      • Start RRSP/TFSA ($200–$400/mo)<br/>
+      • Start <a href="/blog/rrsp-playbook/">RRSP</a>/TFSA ($200–$400/mo)<br/>
       • Capture employer match<br/>
       • Learn investment basics<br/>
       • Automate contributions
@@ -16183,19 +16232,20 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Cpp When To Take Canada",
+    title: "When to Take CPP in Canada",
     slug: "cpp-when-to-take-canada",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-06",
+    updated: "2026-09-26",
     excerpt: "Taking CPP at 60 instead of 70 costs you $1,064 per month — forever.",
     image: "/images/blog/cpp-when-to-take-canada.png",
     content: `<div class="container">
 <div class="hook"><strong>Taking CPP at 60 instead of 70 costs you $1,064 per month — forever.</strong> That's a lifetime difference of hundreds of thousands of dollars. If this feels overwhelming, you're not alone — CPP decisions are among the most consequential you'll make in retirement, and the stakes are real.</div>
 <p>The good news? Understanding how CPP works, when to claim, and what affects your benefit amount puts the power back in your hands. This guide breaks down everything Canadians need to know about Canada Pension Plan decisions in 2026.</p>
 <h2>How the Canada Pension Plan Works</h2>
-<p>CPP is a <strong>contributory, earnings-related</strong> pension plan funded by employee and employer contributions throughout your working years. Unlike Old Age Security (which we cover separately), CPP benefits are directly tied to how much you earned and how long you contributed.</p>
+<p>CPP is a <strong>contributory, earnings-related</strong> pension plan funded by employee and employer contributions throughout your working years. Unlike <a href="/blog/oas-gis-clawback-canada/">Old Age Security</a> (which we cover separately), CPP benefits are directly tied to how much you earned and how long you contributed.</p>
 <p>Here's the mechanics: CPP contributions are calculated on your earnings between the <strong>basic exemption of $3,500</strong> and the <strong>Year's Maximum Pensionable Earnings (YMPE) of $71,300 in 2026</strong>. Both you and your employer contribute equally to the plan — in 2026, the combined rate is approximately 11.9% of eligible earnings.</p>
 <p>Earnings below $3,500 don't count. Earnings above the YMPE don't count either — unless you have access to the <strong>CPP Enhancement (CPP2)</strong>. This second ceiling, introduced gradually, allows higher earners to contribute on earnings up to a secondary maximum (the <strong>YAMPE, or Year's Additional Maximum Pensionable Earnings</strong>). In 2026, this sits at approximately <strong>$81,200</strong>, opening the door for those with higher incomes to build larger CPP benefits.</p>
 <p>Younger Canadians benefit more from CPP2 because they have longer contribution periods under the enhanced rules. If you're in your 40s or 50s now, you'll accumulate significantly more contribution room than someone who retires this year.</p>
@@ -16267,7 +16317,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>The gap widens here. By claiming at 70 instead of 65, you receive a 42% higher benefit but forfeit 5 years of payments. The breakeven age falls between <strong>81 and 83 years old</strong>. If you live past 82, delaying from 65 to 70 yields a higher lifetime CPP total. If you don't, claiming at 65 was the better choice financially.</p>
 <p>For someone in excellent health with family longevity to age 90+, delaying to 70 is financially powerful. For someone with serious health concerns, claiming earlier makes sense.</p>
 <div class="tip-box">
-<strong>Pro Tip:</strong> Use Service Canada's "My Service Canada Account" to run estimates for your personal situation. The tool shows your projected benefit at different claim ages based on your actual contribution history — far more accurate than averages.
+<strong>Pro Tip:</strong> Use Service Canada's "My Service Canada Account" to run estimates for your personal situation. The tool shows your projected <a href="/blog/cpp-timing-benefits-stacking-canada/">benefit</a> at different claim ages based on your actual contribution history — far more accurate than averages.
 </div>
 <h2>Special Circumstances: CPP Pension Sharing</h2>
 <p>If you're in a committed relationship (married or common-law), you have access to <strong>CPP pension sharing</strong>. This provision allows couples to split CPP credits earned during their years together, potentially reducing the tax burden and smoothing retirement income between spouses.</p>
@@ -16285,7 +16335,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>While the breakeven analysis is mathematically clean, real decisions are messier. Consider these factors:</p>
 <ul>
 <li><strong>Health and Life Expectancy:</strong> Be realistic about your health trajectory and family medical history. If multiple family members lived into their 90s, delaying makes sense. If serious health concerns exist, claiming earlier captures more total benefits.</li>
-<li><strong>Other Retirement Income:</strong> If you have substantial RRSP savings, investment income, or a pension, you may not need CPP payments immediately. Deferring reduces pressure on your other assets and positions you for a larger income source later.</li>
+<li><strong>Other Retirement Income:</strong> If you have substantial <a href="/blog/retirement-withdrawal-strategy/">RRSP</a> savings, investment income, or a pension, you may not need CPP payments immediately. Deferring reduces pressure on your other assets and positions you for a larger income source later.</li>
 <li><strong>Employment Status:</strong> Some Canadians continue working past 65. If you're earning employment income, you may want to delay CPP to avoid contributing while also claiming (though there's no direct penalty, it's inefficient).</li>
 <li><strong>Spouse's Situation:</strong> If you're part of a couple, coordinate your claiming strategy. A higher-earning spouse delaying to 70 while the lower-earning spouse claims at 60 (and receives shared benefits) can be optimal.</li>
 <li><strong>Interest Rates and Investment Performance:</strong> In a low-interest environment, the guaranteed return from delaying CPP (8.4% per year to age 70) is attractive. In a high-rate environment, you might prefer claiming and investing the difference yourself — though most people lack the discipline or returns to outpace CPP's guarantee.</li>
@@ -16333,19 +16383,20 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Oas Gis Clawback Canada",
+    title: "OAS Clawback and GIS in Canada",
     slug: "oas-gis-clawback-canada",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-09",
+    updated: "2026-09-26",
     excerpt: "For every dollar above $90,997 in net income, the government takes back 15 cents of your OAS — on top of your regular income tax.",
     image: "/images/blog/oas-gis-clawback-canada.png",
     content: `<div class="container">
 <div class="hook"><strong>For every dollar above $90,997 in net income, the government takes back 15 cents of your OAS — on top of your regular income tax.</strong> That means a <strong>15% additional tax rate</strong> on income in the clawback zone, reducing an already tight retirement budget. For high-income retirees, this can escalate quickly: hit $148,000 net income, and you've lost 100% of your OAS, permanently.</div>
 <p>Old Age Security (OAS) is a cornerstone of Canadian retirement, but the clawback rules confuse most people — and confusion costs money. This guide reveals how OAS works, when the clawback kicks in, and five concrete strategies to keep more of what you've earned.</p>
 <h2>How Old Age Security Works</h2>
-<p>OAS is fundamentally different from CPP. While CPP is <strong>contributory</strong> (based on what you paid in), OAS is funded from <strong>general tax revenue</strong> and is based purely on <strong>residency</strong>. You don't need any employment history to receive OAS — only time lived in Canada.</p>
+<p>OAS is fundamentally different from CPP. While <a href="/blog/cpp-when-to-take-canada/">CPP</a> is <strong>contributory</strong> (based on what you paid in), OAS is funded from <strong>general tax revenue</strong> and is based purely on <strong>residency</strong>. You don't need any employment history to receive OAS — only time lived in Canada.</p>
 <p>To qualify for OAS at age 65, you must have been a Canadian resident for at least <strong>40 years</strong> after age 18. If you have fewer than 40 years but at least 10 years of residency, you receive a partial OAS benefit — prorated on your residency years. This matters for Canadians who immigrated later in life.</p>
 <p>The amount paid has nothing to do with your earnings history. Everyone with the same age and residency receives the same base OAS payment — though individual circumstances (income clawback, marital status) affect the net amount received.</p>
 <h3>2026 OAS Payment Amounts</h3>
@@ -16403,7 +16454,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>Also, use tax-loss selling: if you have non-registered losses, realize them in high-income years to offset gains and reduce net income.</p>
 <h2>Strategy 5: Defer OAS and Increase the Benefit</h2>
 <p>You don't have to claim OAS at 65. You can defer it up to age 70, and your benefit increases by <strong>0.6% per month</strong>, or <strong>7.2% per year</strong>. At age 70, you receive a <strong>36% higher OAS payment</strong> than you would at 65.</p>
-<p>This strategy is particularly valuable if you're in the clawback zone. By deferring OAS, you reduce your income in years 65–70 (no OAS payment), potentially dropping below the clawback threshold and improving other benefits (GIS, depending on circumstances). Then, at 70, you claim a much larger OAS payment.</p>
+<p>This strategy is particularly valuable if you're in the clawback zone. By deferring OAS, you reduce your income in years 65–70 (no OAS payment), potentially dropping below the clawback threshold and improving other benefits (<a href="/blog/oas-gis-income-stacking-canada/">GIS</a>, depending on circumstances). Then, at 70, you claim a much larger OAS payment.</p>
 <p>Deferral also acts as longevity insurance: the higher payment at 70 is guaranteed for life, providing better income if you live into your 80s and beyond.</p>
 <div class="tip-box">
 <strong>Pro Tip:</strong> If your income is above $148,000 (full clawback) and you're still working, deferring OAS until 70 is nearly a no-brainer. Years 65–70 you'd get zero OAS anyway due to the clawback; defer officially and take a 36% increase at 70 when your income hopefully drops after retirement.
@@ -16453,7 +16504,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <td>$1,000–$5,000+ per year depending on income split</td>
 </tr>
 <tr>
-<td>RRSP Meltdown</td>
+<td>RRSP <a href="/blog/rrsp-meltdown-strategy/">Meltdown</a></td>
 <td>Large RRSP, low income years 60–64</td>
 <td>High</td>
 <td>Avoiding 15% clawback on $50,000+ RRSP</td>
@@ -16510,12 +16561,13 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "Db Vs Dc Pensions Canada",
+    title: "Defined Benefit vs Defined Contribution Pensions in Canada",
     slug: "db-vs-dc-pensions-canada",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-11",
+    updated: "2026-09-26",
     excerpt: "Your employer offers you a $54,000-per-year pension for life OR a $780,000 lump sum.",
     image: "/images/blog/db-vs-dc-pensions-canada-high-fidelity.png",
     content: `<div class="container">
@@ -16567,7 +16619,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li>Option B: $780,000 lump sum</li>
 </ul>
 <p>If Michael takes the lump sum and invests it conservatively at 4% annually, he'd generate roughly $31,200/year in the first year (before inflation). To match the pension's $54,000, he'd need to generate $54,000 from $780,000 — roughly a 6.9% annual return, which requires more stock exposure and risk.</p>
-<p>Alternatively, Michael could invest the $780,000 at 4%, take out $54,000 annually (7% withdrawal rate, exceeding the 4% safe withdrawal rate), and draw down the principal over 20–25 years. But this creates risk: if markets crash early in retirement, he runs out of money.</p>
+<p>Alternatively, Michael could invest the $780,000 at 4%, take out $54,000 annually (7% <a href="/blog/retirement-withdrawal-strategy/">withdrawal</a> rate, exceeding the 4% safe withdrawal rate), and draw down the principal over 20–25 years. But this creates risk: if markets crash early in retirement, he runs out of money.</p>
 <p>The DB pension at $54,000/year guarantees this income forever, regardless of market performance. That guarantee is worth money — perhaps $50,000–$100,000 depending on your assumptions.</p>
 </div>
 <p>Most people break even around age 80–85. If you expect to live past 85, a DB pension is almost always financially superior. If you expect to live to 75, a lump sum might better serve your goals (and your estate).</p>
@@ -16649,7 +16701,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <tr>
 <td><strong>Complexity</strong></td>
 <td>Simple — monthly payment, indexed, managed by plan</td>
-<td>Complex — requires investment decisions, retirement income conversion</td>
+<td>Complex — requires investment decisions, <a href="/blog/how-much-money-retire-canada/">retirement income</a> conversion</td>
 </tr>
 </tbody>
 </table>
@@ -16760,7 +16812,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </ul>
 </div>
 <h2>DC Plans and Retirement Income Conversion</h2>
-<p>If you have a DC pension (or Group RRSP/DPSP), at retirement you must convert your balance into income. Here are your options:</p>
+<p>If you have a DC pension (or Group <a href="/blog/rrsp-playbook/">RRSP</a>/DPSP), at retirement you must convert your balance into income. Here are your options:</p>
 <h3>Annuity Purchase</h3>
 <p>Buy a <strong>life annuity</strong> from an insurance company. You give them your lump sum, and they guarantee you income for life. This is the DC equivalent of a DB pension — you've essentially converted accumulated capital into guaranteed income.</p>
 <p>Annuities are expensive (insurance companies take a cut) and inflexible, but they eliminate longevity risk. If you live to 100, you're covered. However, if you die at 72, your heirs receive nothing (unless you've chosen a guaranteed period, say 10 years).</p>
@@ -16807,7 +16859,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-14",
-    excerpt: "Optimize your Canadian retirement strategy.",
+    updated: "2026-09-26",
+    excerpt: "Why drawing an RRSP down before age 71 can change RRIF tax and OAS recovery, and the timing mistakes that make an early withdrawal backfire.",
     image: "/images/blog/rrsp-meltdown-strategy.png",
     content: `<div class="container">
 <h1>The RRSP Meltdown Strategy: Why Drawing Down Early Could Save You Thousands</h1>
@@ -16867,7 +16920,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
   </p>
 <!-- Pro Tip Box -->
 <div class="tip-box">
-<strong>Pro Tip:</strong> Spousal RRSPs are most valuable when there's a significant income gap. If both spouses earn similar amounts, the benefit shrinks considerably.
+<strong>Pro Tip:</strong> <a href="/blog/rrsp-playbook/">Spousal</a> RRSPs are most valuable when there's a significant income gap. If both spouses earn similar amounts, the benefit shrinks considerably.
   </div>
 <h2>The RRSP Meltdown Strategy Explained</h2>
 <p>
@@ -16938,7 +16991,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     Age 60–64: No withdrawals, RRSP grows at 5% annually → $1,276,282 at age 65<br/>
     Age 65–70: Takes only CPP ($18,000) and OAS ($22,000) = $40,000 income/year<br/>
     Age 71: Converts RRSP to RRIF (balance now $1,628,895)<br/>
-    Age 72: Forced minimum withdrawal = 5.28% × $1,628,895 = <strong>$86,046</strong><br/>
+    Age 72: Forced minimum <a href="/blog/retirement-withdrawal-strategy/">withdrawal</a> = 5.28% × $1,628,895 = <strong>$86,046</strong><br/>
     Total age 72 income: $18,000 (CPP) + $22,000 (OAS) + $86,046 (RRIF) = <strong>$126,046</strong><br/>
     Ontario tax at age 72: <strong>$22,150</strong> (20% effective rate)<br/>
     OAS clawback: ($126,046 − $86,912) × 15% = <strong>$5,871 lost OAS</strong><br/>
@@ -16951,7 +17004,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     Ontario tax ages 65–70: ~$11,600/year (because most withdrawal is sheltered by basic personal amount and OAS clawback starts at $86,912)<br/>
     RRSP balance at 71: ~$450,000 (heavily depleted)<br/>
     Age 72: Forced minimum withdrawal = 5.28% × $450,000 = <strong>$23,760</strong><br/>
-    Age 72 total income: $18,000 (CPP) + $22,000 (OAS) + $23,760 (RRIF) = <strong>$63,760</strong><br/>
+    Age 72 total income: $18,000 (CPP) + $22,000 (<a href="/blog/oas-gis-clawback-canada/">OAS</a>) + $23,760 (RRIF) = <strong>$63,760</strong><br/>
     Ontario tax at age 72: <strong>$5,900</strong> (10% effective rate)<br/>
     OAS clawback: Zero (income below $86,912 threshold)<br/>
     Net income after tax: <strong>$57,860</strong><br/><br/>
@@ -17148,7 +17201,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-16",
-    excerpt: "Optimize your Canadian retirement strategy.",
+    updated: "2026-09-26",
+    excerpt: "How a TFSA works as retirement income in Canada: tax-free withdrawals, income-tested benefits, and when it belongs beside an RRSP.",
     image: "/images/blog/tfsa-retirement-strategy.png",
     content: `<div class="container">
 <h1>TFSA for Retirement: Why It Might Be More Powerful Than Your RRSP</h1>
@@ -17567,6 +17621,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-19",
+    updated: "2026-09-26",
     excerpt: "Drawing from the wrong account in the wrong year can cost a Canadian retiree over $100,000 in unnecessary taxes over a 25-year retirement.",
     image: "/images/blog/retirement-withdrawal-strategy.png",
     content: `<div class="container"><h1>The Retirement Withdrawal Strategy That Could Save You $100K+ in Taxes</h1>
@@ -17589,7 +17644,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <p>The opportunity: For many retirees, there's a "low-income gap" between when you retire and when CPP/OAS kick in. If you retire at 60 but don't take CPP until 65, those five years are your lowest-income years. This is your chance to do a strategic RRSP/RRIF meltdown.</p>
 <p>Fill the lower tax brackets with RRSP withdrawals during these gap years. Canada's federal tax brackets for 2026 start at 15% on the first ~$55,000 of income. Provincial brackets vary, but in most provinces, you can withdraw $40,000–$50,000 annually and stay in the lowest bracket. Once CPP kicks in, your taxable income jumps, and you'll use your TFSA and non-registered accounts instead.</p>
 <div class="example-box">
-<strong>Example: The RRSP Meltdown in the Gap Years</strong>
+<strong>Example: The RRSP <a href="/blog/rrsp-meltdown-strategy/">Meltdown</a> in the Gap Years</strong>
 <p>Sarah retires at 60 with $400,000 in an RRSP, $100,000 in a TFSA, and $50,000 in non-registered savings. She plans to take CPP at 65.</p>
 <ul>
 <li><strong>Age 60–64 (low-income years):</strong> Sarah withdraws $45,000 annually from her RRSP. With no other income, she's in the lowest tax bracket. Tax on $45,000 roughly $8,000–$9,000 combined federal/provincial. She reinvests the after-tax amount.</li>
@@ -17626,7 +17681,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li>OAS</li>
 <li>RRSP withdrawals (before age 65)</li>
 <li>Non-registered investment income</li>
-<li>TFSA withdrawals</li>
+<li><a href="/blog/tfsa-retirement-strategy/">TFSA</a> withdrawals</li>
 </ul>
 <p>If you have an RPP pension, you likely already qualify. If you have an RRSP, you only qualify once you convert it to an RRIF. If you're under 65 and withdraw from an RRSP, it doesn't qualify — but any RRIF withdrawal qualifies at any age. This is another reason to do RRSP-to-RRIF conversions early: it unlocks income-splitting eligibility.</p>
 <div class="example-box">
@@ -17767,7 +17822,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </ul>
 <p>Her RRSP, now at $155,000, can stay untouched until age 72 (when mandatory RRIF withdrawals begin). She's added a 7-8 year growth period, and she's extracted the bulk of it at 14–16% tax rates instead of 30%+.</p>
 <p><strong>The tax saved (rough estimate):</strong></p>
-<p>If Margaret had instead withdrawn in a conventional "take CPP/OAS first, then RRSP" pattern starting at 65, those $195,000 RRSP withdrawals would have occurred at 28–32% marginal rates, costing ~$54,600–$62,400 in total tax. By withdrawing in the gap years at 14–16% rates, she paid ~$27,300. <strong>Estimated tax saved: ~$27,000–$35,000.</strong></p>
+<p>If Margaret had instead withdrawn in a conventional "take <a href="/blog/cpp-when-to-take-canada/">CPP</a>/OAS first, then RRSP" pattern starting at 65, those $195,000 RRSP withdrawals would have occurred at 28–32% marginal rates, costing ~$54,600–$62,400 in total tax. By withdrawing in the gap years at 14–16% rates, she paid ~$27,300. <strong>Estimated tax saved: ~$27,000–$35,000.</strong></p>
 </div>
 <h2>Avoiding Common Withdrawal Mistakes</h2>
 <p>Even with the principles above, retirees often make costly errors. Here are the most damaging:</p>
@@ -17809,6 +17864,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-21",
+    updated: "2026-09-26",
     excerpt: "A 30% market crash in your first year of retirement can permanently destroy your portfolio — even if markets fully recover the next year.",
     image: "/images/blog/investing-bucket-strategy.png",
     content: `<div class="container"><h1>Investing in Retirement: The Bucket Strategy &amp; How to Protect Your Portfolio</h1>
@@ -17895,7 +17951,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </table>
 <p>This is a moderate allocation. If you're more conservative, shift Bucket 3 to 50% equities, 50% bonds. If you're more aggressive and younger, shift Bucket 3 to 80% equities, 20% bonds. The structure remains the same; the allocation flexes to your tolerance.</p>
 <div class="callout-tip">
-<strong>Pro Tip:</strong> Use ETFs, not mutual funds, for Buckets 2 and 3. The average active mutual fund charges 1.50–2.50% in management fees (MER). A diversified ETF portfolio costs 0.10–0.25%. That fee difference compounds to hundreds of thousands of dollars over 25 years (see MER comparison table below).
+<strong>Pro Tip:</strong> Use ETFs, not mutual funds, for Buckets 2 and 3. The average active mutual fund charges 1.50–2.50% in management fees (<a href="/blog/mer-drag-index-funds-canada/">MER</a>). A diversified ETF portfolio costs 0.10–0.25%. That fee difference compounds to hundreds of thousands of dollars over 25 years (see MER comparison table below).
 </div>
 <p><strong>Building Your Buckets: A Step-by-Step Approach</strong></p>
 <ol>
@@ -17918,7 +17974,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <table>
 <thead>
 <tr>
-<th>ETF Ticker</th>
+<th><a href="/blog/all-in-one-etfs-vs-diy-canada/">ETF</a> Ticker</th>
 <th>Fund Type</th>
 <th>Allocation %</th>
 <th>MER</th>
@@ -18134,7 +18190,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <li><strong>Bucket 2 might be down 15–20%.</strong> But you won't touch it for 3–7 years. Time heals market wounds.</li>
 <li><strong>Bucket 3 crashed hard, but you're not touching it for 10+ years.</strong> Historically, every crash has recovered within 5–7 years. You're riding this one out.</li>
 </ul>
-<p>This clarity prevents the single worst decision: panic selling at the market bottom. More retirees have ruined their retirement by panic-selling in a crash than by any other mistake. Buckets prevent that by giving you a clear plan and psychological insurance.</p>
+<p>This clarity prevents the single worst decision: panic selling at the market bottom. More retirees have ruined their <a href="/blog/how-much-money-retire-canada/">retirement</a> by panic-selling in a crash than by any other mistake. Buckets prevent that by giving you a clear plan and psychological insurance.</p>
 <h2>When to Adjust Your Buckets</h2>
 <p>Your bucket structure isn't static. As you age and your circumstances change, you'll adjust:</p>
 <p><strong>Age 65–75 (Early retirement):</strong> Keep the bucket structure as planned. Equities in Bucket 3 are appropriate. You still have 20–30 years ahead.</p>
@@ -18176,6 +18232,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-24",
+    updated: "2026-09-26",
     excerpt: "Provincial health insurance covers doctor visits and hospital stays — but it won't pay for the $4,800/year in prescription drugs, $2,000 in dental work, or the $200,000 medical emergency in Florida.",
     image: "/images/blog/healthcare-costs-retirement.png",
     content: `<div class="container">
@@ -18191,7 +18248,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p><strong>Physiotherapy, chiropractic, massage therapy:</strong> Provinces cover only a handful of sessions for specific conditions (post-stroke rehab, for example). Routine physiotherapy for arthritis? You pay. Coverage varies by province; Alberta and BC are slightly more generous.</p>
 <p><strong>Mental health services:</strong> Psychiatrists (MDs) are covered; psychologists aren't. Many retirees with depression or anxiety struggle to access affordable therapy because it's not provincial.</p>
 <p><strong>Hearing aids and mobility devices:</strong> Provinces cover these partially or via separate programs, but gaps remain. Hearing aids cost $3,000-8,000 per pair; provinces typically cover 50-75% for seniors.</p>
-<p><strong>Private home care:</strong> If you need in-home support, provinces cover only a limited number of nursing hours. Additional care (homemaking, companion care, respite) is private and expensive ($25-50/hour).</p>
+<p><strong>Private home care:</strong> If you need in-home support, provinces cover only a limited number of <a href="/blog/long-term-care-costs/">nursing</a> hours. Additional care (homemaking, companion care, respite) is private and expensive ($25-50/hour).</p>
 <h2>The Coverage Gap Before Age 65</h2>
 <p>If you retire before CPP/OAS (age 65+), you lose employer health coverage at a critical time. This gap can last 10-20 years and cost thousands in out-of-pocket healthcare.</p>
 <h3>Bridge Options to Age 65</h3>
@@ -18303,7 +18360,7 @@ Margaret takes medications for hypertension, high cholesterol, and early arthrit
 At 65, she moves to Ontario's ODB. She pays $100 deductible + 20% of costs until $2,000 is spent, then 100% coverage. Her annual cost: $100 + (20% × $3,360) = $100 + $672 = <strong>$772/year</strong> ($64/month). Slightly cheaper, and guaranteed coverage.
 </div>
 <h2>Snowbird Travel Insurance: The Critical Gaps</h2>
-<p>Retiring to Arizona or Florida for the winter? Provincial healthcare stops at the border. A heart attack or surgery in the U.S. can cost $50,000-200,000+. Snowbird travel insurance is essential — but it's complex and full of exclusions.</p>
+<p>Retiring to Arizona or Florida for the winter? Provincial healthcare stops at the border. A heart attack or surgery in the U.S. can cost $50,000-200,000+. Snowbird <a href="/blog/travel-medical-insurance-canada/">travel</a> insurance is essential — but it's complex and full of exclusions.</p>
 <h3>What You Must Know About Snowbird Coverage</h3>
 <p><strong>Pre-existing condition clauses:</strong> This is the biggest gotcha. Most policies exclude or limit coverage for any condition diagnosed before you buy the policy. "Pre-existing" doesn't mean "untreated" — it means any diagnosis, even if you're on stable medication. Example: If you were diagnosed with high blood pressure in 2020 and it's been stable for years, many insurers still exclude it unless the policy explicitly covers "stable pre-existing conditions." Read the fine print carefully and declare everything when applying.</p>
 <p><strong>Provincial residency requirements:</strong> You must maintain ties to Canada (your home province). Most policies require you to spend 153-183 days/year in Canada to remain a resident. Spend more than 7 months outside Canada, and you forfeit coverage entirely when you leave again.</p>
@@ -18333,7 +18390,7 @@ At 65, she moves to Ontario's ODB. She pays $100 deductible + 20% of costs until
 <strong>Pro Tip:</strong> Budget $200-400/month per person for all out-of-pocket healthcare costs (prescriptions, dental, vision, hearing, physio) in early retirement. At 65+, provincial drug coverage may drop this to $100-250/month depending on your province and income. Build this into your retirement budget as a separate line item.
 </div>
 <h2>Retiree Health Insurance: Should You Buy Private Coverage After 65?</h2>
-<p>At 65+, provincial coverage improves dramatically. You become eligible for OAS and CPP, provincial drug programs kick in, and your healthcare costs drop. But should you buy supplemental "senior health" insurance to cover gaps (dental, vision, hearing, physio)?</p>
+<p>At 65+, provincial coverage improves dramatically. You become eligible for OAS and CPP, provincial drug programs kick in, and your healthcare costs drop. But should you buy supplemental "senior health" insurance to cover gaps (<a href="/blog/biggest-retirement-mistakes/">dental</a>, vision, hearing, physio)?</p>
 <p>It depends on your income, health, and preferences. A low-income retiree living modestly and in good health might skip it and self-insure. A higher-income retiree or someone with chronic conditions benefits from coverage.</p>
 <ul>
 <li><strong>Cost:</strong> Supplemental health insurance for seniors typically costs $100-300/month ($1,200-3,600/year). Over 20 years, that's $24,000-72,000.</li>
@@ -18383,11 +18440,12 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-26",
+    updated: "2026-09-26",
     excerpt: "One in three Canadians over 65 will need long-term care — and a private room in a nursing facility can cost over $8,000/month.",
     image: "/images/blog/long-term-care-costs.png",
     content: `<div class="container">
 <h1>Long-Term Care in Canada: Costs, Options &amp; How to Plan Ahead</h1>
-<div class="hook"><strong>One in three Canadians over 65 will need long-term care — and a private room in a nursing facility can cost over $8,000/month. Fewer than 5% of Canadians have a plan to pay for it.</strong> Most retirees assume they'll never need care, or that it will be cheap because "Canada has public healthcare." Reality check: most care is private, and the costs are staggering.</div>
+<div class="hook"><strong>One in three Canadians over 65 will need long-term care — and a private room in a nursing facility can cost over $8,000/month. Fewer than 5% of Canadians have a plan to pay for it.</strong> Most retirees assume they'll never need care, or that it will be cheap because "Canada has public <a href="/blog/healthcare-costs-retirement/">healthcare</a>." Reality check: most care is private, and the costs are staggering.</div>
 <p>Let's map out exactly what long-term care looks like, what it costs across Canada, and how to plan financially so you're never forced into a desperate decision.</p>
 <h2>The Spectrum of Care: From Home Support to Nursing Homes</h2>
 <p>Long-term care isn't one thing — it's a spectrum of options, each with different costs and timelines. Understanding the distinctions is crucial to planning.</p>
@@ -18526,14 +18584,14 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <strong>Example: The Martinez Family's LTC Planning</strong><br/><br/>
 Rosa and Miguel are both 58, retired early from their business, with $800K in investments, a $500K home, and two adult children in nearby cities. Rosa wants to stay in her home as long as possible; Miguel is open to assisted living.<br/><br/>
 Cost estimate if Rosa needs 3 years of home care at $4,000/month: $144,000 private cost. Miguel budgets $150/month for LTC insurance ($90K cost over 30 years), locking in a $3,500/month benefit for 5 years ($210K coverage max).<br/><br/>
-Decision: They reserve $250K in liquid savings for LTC and buy LTC insurance at 58 (cheap rates, good health). Insurance covers bulk of costs; reserves provide flexibility and cover gaps. They designate Miguel's daughter (more organized) as medical power of attorney, coordinate with their lawyer to formalize wishes. Cost: $1,800/year insurance + opportunity cost of $250K reserve = manageable risk for peace of mind.
+Decision: They reserve $250K in liquid savings for LTC and buy LTC insurance at 58 (cheap rates, good health). Insurance covers bulk of costs; reserves provide flexibility and cover gaps. They designate Miguel's daughter (more organized) as medical power of attorney, coordinate with their lawyer to formalize wishes. Cost: $1,800/year <a href="/blog/critical-illness-insurance-canada/">insurance</a> + opportunity cost of $250K reserve = manageable risk for peace of mind.
 </div>
 <h2>Making It Affordable: Cost-Cutting Strategies</h2>
 <p>Long-term care is expensive, but you can reduce costs through smart decisions:</p>
 <ul>
 <li><strong>Stay in your home as long as possible.</strong> Home care with provincial support is cheapest; assisted living and nursing homes are more expensive. Every extra year at home saves $36K-60K.</li>
 <li><strong>Relocate to a lower-cost region.</strong> Moving from Toronto to rural Nova Scotia can cut LTC accommodation costs by 30-40%. If you're flexible on location, geography is your biggest lever.</li>
-<li><strong>Plan for shared housing.</strong> Shared rooms in nursing homes cost less than private rooms. Some people view this as undesirable, but if costs are tight, it's a valid trade-off.</li>
+<li><strong>Plan for shared <a href="/blog/housing-decisions-retirement/">housing</a>.</strong> Shared rooms in nursing homes cost less than private rooms. Some people view this as undesirable, but if costs are tight, it's a valid trade-off.</li>
 <li><strong>Use provincial programs aggressively.</strong> Means-test for subsidies. If your income is low, you'll pay less for public LTC beds. Some retirees strategically time income (drawing down investments, deferring CPP) to qualify for better subsidies.</li>
 <li><strong>Buy LTC insurance early.</strong> The younger and healthier you are, the cheaper premiums are. Buying at 55 is dramatically cheaper than at 65.</li>
 <li><strong>Investigate home equity.</strong> If you have a mortgage-free home, a reverse mortgage or home equity line of credit can fund care while you stay in your home. See Post 12 for details.</li>
@@ -18590,6 +18648,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-29",
+    updated: "2026-09-26",
     excerpt: "Selling a $700,000 home and buying a $450,000 condo should free up $250,000 — right? After commissions, land transfer tax, legal fees, and moving costs, you'll net closer to $185,000.",
     image: "/images/blog/housing-decisions-retirement.png",
     content: `<div class="container">
@@ -18754,7 +18813,7 @@ Maintenance: $0 (building handles it)<br/><br/>
 <h3>Renting: The Pros and Cons</h3>
 <p><strong>Pros:</strong></p>
 <ul>
-<li>Flexibility: You can move on short notice (lease end); try different neighborhoods; relocate for health/family reasons</li>
+<li>Flexibility: You can move on short notice (lease end); try different neighborhoods; <a href="/blog/geographic-arbitrage-canada/">relocate</a> for health/family reasons</li>
 <li>No maintenance risk: Landlord handles roof, HVAC, foundation, plumbing; you pay rent, period</li>
 <li>Liquidity: Capital freed up from not owning can be invested; you can rebalance quickly</li>
 <li>Predictability: Rent increases are limited by lease (typically 2.5% annually in Ontario, regulated by province); no surprise $10K roof replacement</li>
@@ -18842,10 +18901,10 @@ Maintenance: $0 (building handles it)<br/><br/>
 <p>Canada's real estate markets vary wildly. A $700K Toronto home might be worth $350K in rural Nova Scotia. Moving is expensive, but the savings can be enormous.</p>
 <h3>Cheapest Regions for Retirees (Housing)</h3>
 <ul>
-<li><strong>Atlantic Canada (Nova Scotia, New Brunswick, PEI, Newfoundland):</strong> Average home $300K-400K. Property tax $1,500-2,500/year. Long-term care costs lowest in Canada. Trade-off: Smaller job market (irrelevant in retirement), fewer specialists/healthcare options (important for seniors), farther from family if they're in Ontario/BC.</li>
+<li><strong>Atlantic Canada (Nova Scotia, New Brunswick, PEI, Newfoundland):</strong> Average home $300K-400K. Property tax $1,500-2,500/year. <a href="/blog/long-term-care-costs/">Long-term care</a> costs lowest in Canada. Trade-off: Smaller job market (irrelevant in retirement), fewer specialists/healthcare options (important for seniors), farther from family if they're in Ontario/BC.</li>
 <li><strong>Rural Ontario (outside GTA):</strong> Average home $300K-450K in smaller cities (London, Kingston, Peterborough). Close to urban centers but much cheaper. Good healthcare access. Fastest growing retirement destination for Ontarians.</li>
 <li><strong>Rural Quebec (outside Montreal):</strong> Average home $250K-350K. Low property tax. French language requirement may apply for some services. Cost of living very low.</li>
-<li><strong>Rural Alberta (outside Calgary/Edmonton):</strong> Average home $250K-350K. No provincial sales tax. No land transfer tax on purchase. Lowest taxes in Canada. Trade-off: Winters brutal, healthcare outside major cities is limited.</li>
+<li><strong>Rural Alberta (outside Calgary/Edmonton):</strong> Average home $250K-350K. No provincial sales tax. No <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer</a> tax on purchase. Lowest taxes in Canada. Trade-off: Winters brutal, healthcare outside major cities is limited.</li>
 <li><strong>Expensive regions (stay-put cost):</strong> Toronto ($700K+ average), Vancouver ($800K+ average), Victoria ($650K+ average), Calgary inner ring ($550K+ average).</li>
 </ul>
 <h3>The Relocation Trade-Off</h3>
@@ -18969,6 +19028,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-03-31",
+    updated: "2026-09-26",
     excerpt: "The happiest retirees aren't the wealthiest — they're the ones with the strongest sense of purpose.",
     image: "/images/blog/how-to-enjoy-retirement.png",
     content: `<div class="container">
@@ -18997,7 +19057,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <h2>Staying Physically Active: Non-Negotiable for Long-Term Health</h2>
 <p>Physical activity is one of the few things proven to slow aging. Exercise improves heart health, cognitive function, mood, bone density, balance, and longevity. Yet retirees often become more sedentary, not less. Work forced you to move; retirement removes that forcing function.</p>
 <h3>The Minimum Effective Dose</h3>
-<p>Health Canada and international guidelines recommend:</p>
+<p><a href="/blog/healthcare-costs-retirement/">Health</a> Canada and international guidelines recommend:</p>
 <ul>
 <li><strong>150 minutes of moderate-intensity aerobic activity per week</strong> (brisk walking, cycling, swimming, dancing — you should be breathing hard but able to talk)</li>
 <li><strong>Muscle-strengthening activities 2+ times per week</strong> (weight training, resistance bands, yoga with weights)</li>
@@ -19019,7 +19079,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>The goal: find an activity you enjoy enough to do 4-5 times/week for the rest of your life. If you don't enjoy it, you'll quit after 6 weeks. Social activities (walking group, water aerobics class, pickleball league) are more sustainable than solo activities because you're accountable to others.</p>
 <div class="example-box">
 <strong>Example: Robert's Fitness Awakening</strong><br/><br/>
-Robert retired at 62 and immediately became sedentary — working from home had at least meant car rides, office walking, stairs. In retirement, he was home all day. By 65, he felt stiff, tired, and depressed.<br/><br/>
+Robert retired at 62 and immediately became sedentary — working from home had at least meant car rides, office walking, stairs. In retirement, he was <a href="/blog/housing-decisions-retirement/">home</a> all day. By 65, he felt stiff, tired, and depressed.<br/><br/>
 His doctor suggested water aerobics at the community pool. Robert joined a drop-in class (Tuesday and Thursday, 10 AM) for $10/visit. The class was mixed-age (60s-80s), non-competitive, and friendly. By week 3, he knew people's names. By month 2, he'd added a Saturday morning cycling ride with a friend.<br/><br/>
 One year later: Robert exercises 5 hours/week. His resting heart rate dropped from 72 to 58. His mood improved (less anxiety, more energy). He's sleeping better. He looks forward to his activity schedule — it's become his favorite part of retirement.<br/><br/>
 Cost: $600/year for pool. Bike was $900 (one-time). Total: ~$100/month. Benefit: better health, social connection, improved mood, sense of accomplishment.
@@ -19128,7 +19188,7 @@ Cost: $0 (all free/donation-based). Time commitment: 6-7 hours/week. Benefit: pu
 <li><strong>Be proactive, not reactive.</strong> Don't wait to feel social — join groups while you're still planning. Don't wait to "get around to" exercise — schedule it immediately.</li>
 <li><strong>Lower expectations for the "perfect" retirement.</strong> You won't travel constantly or party every night. Most happy retirees have humble routines with friends, regular activity, and purposeful work.</li>
 <li><strong>Redefine yourself beyond work.</strong> You are not your job title anymore. You're a person with interests, relationships, skills, values. Reconnect with who you are outside of work.</li>
-<li><strong>Plan social connection early.</strong> Moving to a new retirement community? Join clubs before you move (online groups, future-resident networking). Moving to be near family? Establish a new friend group — don't rely solely on family.</li>
+<li><strong><a href="/blog/build-retirement-plan-7-steps/">Plan</a> social connection early.</strong> Moving to a new retirement community? Join clubs before you move (online groups, future-resident networking). Moving to be near family? Establish a new friend group — don't rely solely on family.</li>
 <li><strong>Maintain your work-world friendships if they matter.</strong> Don't assume work friends will stay close without intentional effort. Schedule regular contact with people you genuinely liked.</li>
 <li><strong>Communicate with your spouse/partner about expectations.</strong> If you're retiring together and spending much more time together, have realistic conversations about space, independence, and shared activities.</li>
 </ul>
@@ -19156,12 +19216,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>`
   },
   {
-    title: "Estate Planning Wills Poa",
+    title: "Wills and Powers of Attorney for Canadians",
     slug: "estate-planning-wills-poa",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-04-03",
+    updated: "2026-09-26",
     excerpt: "If you die without a will in Ontario, your spouse may not inherit everything — even if you've been married for 30 years.",
     image: "/images/blog/estate-planning-wills-poa.png",
     content: `<div class="container">
@@ -19184,7 +19245,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <li><strong>Locate the will and notify beneficiaries.</strong> The executor must find the original signed will and inform all people named in it and those entitled to inherit under provincial law.</li>
 <li><strong>Apply for probate (or notarial certification in Quebec).</strong> The court confirms the will is valid and appoints the executor. Fees vary by province (see table below).</li>
 <li><strong>Inventory assets and pay bills.</strong> The executor lists all property, accounts, and debts; pays mortgages, utilities, and creditor claims; and gathers documentation for the final tax return.</li>
-<li><strong>File the final tax return and any returns owed by the estate.</strong> The deceased's personal return must be filed, and the estate may owe income tax on investment gains and RRSP/RRIF withdrawals.</li>
+<li><strong>File the final tax return and any returns owed by the estate.</strong> The deceased's personal return must be filed, and the estate may owe income tax on investment gains and <a href="/blog/rrsp-meltdown-strategy/">RRSP/RRIF</a> withdrawals.</li>
 <li><strong>Distribute assets to beneficiaries.</strong> Only after all debts, taxes, and probate fees are paid can the executor give beneficiaries their inheritances. This usually happens 12-24 months after death.</li>
 </ul>
 <h2>Powers of Attorney: Planning for Incapacity</h2>
@@ -19202,7 +19263,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>POAs must be created while you have "testamentary capacity"—meaning you understand what you own, who your family is, and what you're signing. Once you're diagnosed with cognitive decline, it may be too late to create one.</p>
 <h2>Beneficiary Designations: The Assets Your Will Can't Control</h2>
 <p>Your will controls most of your assets: real estate, vehicles, bank accounts, and personal property. But certain registered accounts and insurance policies pass directly to named beneficiaries, <strong>completely bypassing your will</strong>.</p>
-<p>These accounts include Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Tax-Free Savings Accounts (TFSAs), pension plans, life insurance policies, and group benefits. When you die, the money goes directly to whoever you named as beneficiary—not to your executor, not to your estate, and not according to your will.</p>
+<p>These accounts include Registered Retirement Savings Plans (RRSPs), Registered Retirement Income Funds (RRIFs), Tax-Free Savings Accounts (TFSAs), pension plans, <a href="/blog/life-insurance-need-analysis-canada/">life insurance</a> policies, and group benefits. When you die, the money goes directly to whoever you named as beneficiary—not to your executor, not to your estate, and not according to your will.</p>
 <p>This is powerful if you update your beneficiaries after major life events. It's catastrophic if you don't. A common scenario: you marry and name your spouse as RRSP beneficiary. Twenty years later, you divorce but forget to update the form. You die, and your ex-spouse inherits your <strong>$400,000</strong> RRSP while your current spouse and children inherit nothing.</p>
 <p>Another scenario: you name your children as TFSA beneficiaries, intending to help them with education. One child struggles with addiction and poor financial decisions. The inheritance vanishes in months. You never had the chance to create a trust that would have protected that money.</p>
 <div class="callout-warning">
@@ -19272,7 +19333,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>For a $500,000 estate, probate fees range from <strong>$525 in Alberta</strong> to <strong>$30,000 in Saskatchewan</strong>. In Ontario and British Columbia, you're looking at roughly <strong>$6,000 to $7,000</strong>. These are not taxes—they're court fees—but they're real costs that reduce what your beneficiaries receive.</p>
 <h3>Strategies to Reduce Probate</h3>
 <p><strong>Name beneficiaries on registered accounts.</strong> RRSPs, RRIFs, TFSAs, and pensions pass outside probate if a beneficiary is named. A <strong>$300,000</strong> RRSP with your spouse named saves <strong>$4,500</strong> in Ontario probate fees.</p>
-<p><strong>Hold real estate in joint tenancy with right of survivorship.</strong> When one owner dies, the property automatically passes to the surviving owner without probate. This works for spouses, partners, or siblings, but it can trigger capital gains tax and remove asset flexibility. Use this only for property you truly want to pass automatically.</p>
+<p><strong>Hold real estate in joint tenancy with right of survivorship.</strong> When one owner dies, the property automatically passes to the surviving owner without probate. This works for spouses, partners, or siblings, but it can trigger <a href="/blog/tax-efficient-wealth-transfer/">capital gains</a> tax and remove asset flexibility. Use this only for property you truly want to pass automatically.</p>
 <p><strong>Certain trusts avoid probate.</strong> Assets held in an alter ego trust or joint partner trust (discussed in the next post) bypass probate when you die.</p>
 <p><strong>Use a notarial will in Quebec.</strong> A will prepared by a notary (rather than a lawyer) is automatically valid without probate. Quebec abolished estate taxes in 2020, so notarial wills now have zero probate cost.</p>
 <div class="callout-tip">
@@ -19374,12 +19435,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>`
   },
   {
-    title: "Tax Efficient Wealth Transfer",
+    title: "Tax-Efficient Wealth Transfer in Canada",
     slug: "tax-efficient-wealth-transfer",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-04-05",
+    updated: "2026-09-26",
     excerpt: "When you die, the CRA treats you as if you sold every investment you own.",
     image: "/images/blog/tax-efficient-wealth-transfer.png",
     content: `<div class="container">
@@ -19403,7 +19465,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <li><strong>Child with a disability: Rollover to Registered Disability Savings Plan (RDSP).</strong> A child with a physical or mental impairment can inherit RRSP/RRIF funds and roll them to an RDSP, which provides tax deferral and Government grants (Disability Assistance Payments are tax-free to the beneficiary). This is one of the most valuable inherited-wealth strategies for families with a disabled child.</li>
 <li><strong>Other heirs (adult children, parents, friends): Full amount included in income.</strong> The balance is added to your taxable income on your final return, subject to full tax at your marginal rate. This triggers the massive tax bill described above.</li>
 </ul>
-<p>To use these exemptions, you must designate the beneficiary correctly on your RRSP or RRIF registration. Simply naming someone in your will is not enough. Call your bank or investment firm and confirm that a beneficiary designation is in place.</p>
+<p>To use these exemptions, you must designate the beneficiary correctly on your RRSP or RRIF registration. Simply naming someone in <a href="/blog/estate-planning-wills-poa/">your will</a> is not enough. Call your bank or investment firm and confirm that a beneficiary designation is in place.</p>
 <div class="callout-tip">
 <strong>Pro Tip:</strong> If you're married and your spouse is the designated beneficiary on your RRSP, the rollover is automatic. If you have adult children and no surviving spouse, name your estate as the RRSP beneficiary and let your will direct the estate to fund trusts for your children. This gives your executor flexibility and lets them time withdrawals to minimize tax.
 </div>
@@ -19532,7 +19594,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <strong>Scenario: Sarah Dies at Age 75</strong>
 <p>Sarah is a retired accountant in Ontario. She has:</p>
 <ul>
-<li><strong>$500,000</strong> in her RRSP (original contributions: <strong>$300,000</strong>)</li>
+<li><strong>$500,000</strong> in her <a href="/blog/rrsp-meltdown-strategy/">RRSP</a> (original contributions: <strong>$300,000</strong>)</li>
 <li><strong>$400,000</strong> in non-registered investments (cost basis: <strong>$200,000</strong>, unrealized gains: <strong>$200,000</strong>)</li>
 <li><strong>$300,000</strong> in her principal residence (not taxable at death)</li>
 <li><strong>$100,000</strong> in a cottage (cost: <strong>$50,000</strong>, gain: <strong>$50,000</strong>)</li>
@@ -19559,7 +19621,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>
 <h2>Common Wealth Transfer Tax Mistakes</h2>
 <ul>
-<li><strong>Not reviewing RRSP beneficiary designations.</strong> Naming your estate as RRSP beneficiary (instead of your spouse) triggers full tax on the balance. A simple one-minute phone call to your bank could save your heirs <strong>$100,000+</strong> in taxes.</li>
+<li><strong>Not reviewing RRSP beneficiary designations.</strong> Naming your estate as RRSP beneficiary (instead of your spouse) triggers full tax on the balance. A simple one-minute phone call to your bank could save your <a href="/blog/retirement-legacy-digital-assets/">heirs</a> <strong>$100,000+</strong> in taxes.</li>
 <li><strong>Holding appreciated real estate in your own name without a trust.</strong> If you own rental property or a cottage with <strong>$200,000+</strong> in gains, an alter ego or joint partner trust can defer probate and provide privacy. The tax on deemed disposition is the same, but the cost savings and privacy are substantial.</li>
 <li><strong>Giving appreciated assets to children during your lifetime without understanding the tax trigger.</strong> Gifting your cottage to your child when it's worth <strong>$500,000</strong> (cost <strong>$200,000</strong>) triggers deemed disposition on <strong>$300,000</strong> in gains, costing you <strong>$65,000+</strong> in tax. Waiting until death creates the same tax, but you retain control of the asset for life.</li>
 <li><strong>Forgetting to update beneficiary designations after marriage or divorce.</strong> Your ex-spouse can inherit your <strong>$500,000</strong> RRSP if you don't update the form.</li>
@@ -19597,12 +19659,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>`
   },
   {
-    title: "Retirement Legacy Digital Assets",
+    title: "Digital Assets and the Legacy You Leave",
     slug: "retirement-legacy-digital-assets",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-04-08",
+    updated: "2026-09-26",
     excerpt: "Your family will inherit more than money — they'll inherit your values, your stories, and 247 online accounts they don't know the passwords to.",
     image: "/images/blog/retirement-legacy-digital-assets.png",
     content: `<div class="container">
@@ -19686,7 +19749,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </tbody>
 </table>
 <div class="callout-warning">
-<strong>Warning:</strong> Do NOT store your passwords in an unencrypted Word document or email draft. Use a password manager (Bitwarden, 1Password, LastPass) that your executor can access with a master password. Store the master password in a sealed envelope with your will, or give it to your lawyer.
+<strong>Warning:</strong> Do NOT store your passwords in an unencrypted Word document or email draft. Use a password manager (Bitwarden, 1Password, LastPass) that your executor can access with a master password. Store the master password in a sealed envelope with <a href="/blog/estate-planning-wills-poa/">your will</a>, or give it to your lawyer.
 
 </div>
 <h3>Platform-Specific Legacy Settings</h3>
@@ -19799,7 +19862,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <li><strong>What are you most grateful for?</strong> Who helped you succeed? What opportunities did you receive that you didn't earn? How do you want to acknowledge the luck or grace in your life?</li>
 <li><strong>What do you hope for your children and grandchildren?</strong> Don't write what you expect; write what you hope. Hope for their happiness, their integrity, their courage to pursue what matters to them.</li>
 <li><strong>If you could give them one piece of advice, what would it be?</strong> Not a lecture—what's the one thing you wish you'd understood earlier in life?</li>
-<li><strong>What do you want them to know about me?</strong> Write down the small things your family members might not know: your childhood, what you wanted to be, what made you laugh, what scared you, what brought you joy.</li>
+<li><strong>What do you want them to know about me?</strong> Write down the small things your <a href="/blog/how-to-enjoy-retirement/">family</a> members might not know: your childhood, what you wanted to be, what made you laugh, what scared you, what brought you joy.</li>
 <li><strong>Are there any family members you want to forgive or make peace with?</strong> If there's lingering hurt, use your ethical will to offer forgiveness or explanation. This can heal family wounds after you're gone.</li>
 <li><strong>What does a good life look like to you?</strong> Describe your definition of success, happiness, or a life well-lived. Be honest about what mattered and what didn't.</li>
 <li><strong>What would you like said about you at your funeral?</strong> What would you want people to remember? What impact do you hope you've had?</li>
@@ -19826,7 +19889,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>Your family will inherit your money, your home, and your digital accounts. But what they'll treasure most is the clarity of your values and the ease with which they can honor your wishes after you're gone. An ethical will costs nothing but time; a digital asset inventory takes an afternoon. Together, they ensure that your life's lessons and your practical affairs are both in order, giving your family the gift of clarity when grief clouds their judgment.</p>
 <p>You've built a life. Now build a legacy that reflects who you truly are.</p>
 <div class="cta-box">
-Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning. <strong><a href="#">[Get the Free Ebook]</a></strong>
+Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to <a href="/blog/tax-efficient-wealth-transfer/">estate</a> planning. <strong><a href="#">[Get the Free Ebook]</a></strong>
 </div>
 
 
@@ -19844,13 +19907,14 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>`
   },
   {
-    title: "Build Retirement Plan 7 Steps",
+    title: "How to Build a Canadian Retirement Plan in 7 Steps",
     slug: "build-retirement-plan-7-steps",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-04-10",
-    excerpt: "You've learned the pieces—CPP, OAS, RRSPs, TFSAs, withdrawal strategies, estate planning.",
+    updated: "2026-09-26",
+    excerpt: "Seven steps that turn CPP, OAS, an RRSP, a TFSA, and a withdrawal plan into one Canadian retirement strategy you can follow.",
     image: "/images/blog/build-retirement-plan-7-steps.png",
     content: `<div class="container">
 <div class="hook"><strong>You've learned the pieces—CPP, OAS, RRSPs, TFSAs, withdrawal strategies, estate planning.</strong> But knowing the ingredients doesn't make you a chef. Now it's time to assemble them into a single, unified plan. Here are the seven steps that separate a hope from a strategy.</div>
@@ -20058,7 +20122,7 @@ For the Go-Go phase (65–75), he'll spend closer to $75,000/year (more travel a
 <h2>Step 6: Stress-Test Your Plan</h2>
 <p>A plan that works in a "normal" 2% inflation, 6% market return scenario is fragile. Real retirement involves surprises. Stress-test your plan against the most likely adverse conditions to ensure it survives.</p>
 <p><strong>Scenario 1: Market crash in year one.</strong> Imagine the stock market drops 30% in your first year of retirement. Do you run out of money by age 85? (Sequence-of-returns risk is your biggest enemy early in retirement.) If this scenario breaks you, consider keeping two years of spending in cash/bonds before retirement, or deferring retirement by one year.</p>
-<p><strong>Scenario 2: Inflation runs higher than expected.</strong> Model inflation at 4% instead of 2.5%. Your $75,000 annual need becomes $82,500 in year 5. Do your income sources keep pace? CPP and OAS are indexed to inflation, but investment returns might lag. Can you adjust discretionary spending if needed?</p>
+<p><strong>Scenario 2: Inflation runs higher than expected.</strong> Model inflation at 4% instead of 2.5%. Your $75,000 annual need becomes $82,500 in year 5. Do your income sources keep pace? <a href="/blog/cpp-when-to-take-canada/">CPP</a> and OAS are indexed to inflation, but investment returns might lag. Can you adjust discretionary spending if needed?</p>
 <p><strong>Scenario 3: Long-term care is needed.</strong> One spouse requires assisted living or nursing home care at age 78, costing $4,500/month. Government support covers some costs, but out-of-pocket is $2,500/month. Does your plan absorb $30,000/year for five years? (See Chapter 11 for provincial coverage details.)</p>
 <p><strong>Scenario 4: You live to 100.</strong> Healthy 65-year-olds often live longer than they expect. Model spending from age 65 to 100 (35 years). Do your investments last? Most Canadians are too conservative for their lifespan, keeping too much in bonds and too little in diversified equities.</p>
 <p><strong>Scenario 5: Interest rates stay low.</strong> Government bond yields remain 2–3% instead of rising to 4%. This reduces your investment income. Your fixed-income portfolio produces less cash flow. Does the shortfall trigger forced stock sales during a downturn?</p>
@@ -20081,7 +20145,7 @@ For the Go-Go phase (65–75), he'll spend closer to $75,000/year (more travel a
 <ul>
 <li><strong>Your tax situation is complex:</strong> You have rental income, capital gains, a business, or multiple income sources. A tax-inefficient withdrawal strategy costs thousands annually.</li>
 <li><strong>You have a commuted value (CV) decision:</strong> Your employer is offering to pay out your pension as a lump sum. This decision is irreversible and requires careful analysis. A bad choice costs $100,000+ over your lifetime.</li>
-<li><strong>You have significant assets ($1M+):</strong> Fee-based planning often pays for itself through tax optimization and efficient withdrawal sequencing.</li>
+<li><strong>You have significant assets ($1M+):</strong> Fee-based planning often pays for itself through tax optimization and efficient <a href="/blog/retirement-withdrawal-strategy/">withdrawal</a> sequencing.</li>
 <li><strong>You're experiencing major life transitions:</strong> Divorce, inheritance, health crisis, or loss of a spouse. These events require plan recalibration.</li>
 <li><strong>You feel overwhelmed:</strong> If the planning process creates anxiety rather than clarity, an advisor can reduce stress and provide confidence.</li>
 </ul>
@@ -20094,7 +20158,7 @@ For the Go-Go phase (65–75), he'll spend closer to $75,000/year (more travel a
 <h2>Your Annual Retirement Plan Checkup</h2>
 <p>Each year, schedule a checkup. This isn't complicated—it's a structured review that takes 1–2 hours. Here's the checklist:</p>
 <ul>
-<li><strong>Compare spending to budget:</strong> How much did you actually spend vs. your plan? Did discretionary or fixed expenses surprise you? Adjust next year's budget accordingly.</li>
+<li><strong>Compare spending to budget:</strong> <a href="/blog/how-much-money-retire-canada/">How much</a> did you actually spend vs. your plan? Did discretionary or fixed expenses surprise you? Adjust next year's budget accordingly.</li>
 <li><strong>Review portfolio performance and rebalance:</strong> If stocks gained and now represent 65% of your portfolio (vs. your 60% target), rebalance back to 60%. This forces you to "sell high" and maintain your risk level.</li>
 <li><strong>Update tax projection:</strong> Calculate your expected taxable income for the year. If you're heading toward OAS clawback, adjust withdrawals. If you're well below a tax bracket threshold, consider strategic gains recognition.</li>
 <li><strong>Check government benefit changes:</strong> CPP, OAS, GIS, and property tax credit amounts change yearly. Visit the CRA website to confirm amounts and eligibility.</li>
@@ -20201,13 +20265,14 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 </div>`
   },
   {
-    title: "Biggest Retirement Mistakes",
+    title: "The Biggest Retirement Mistakes Canadians Make",
     slug: "biggest-retirement-mistakes",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew Carrothers",
     date: "2026-04-13",
-    excerpt: "Mistake #7 alone—paying 2% in investment fees instead of 0.",
+    updated: "2026-09-26",
+    excerpt: "The retirement mistakes that cost Canadians the most, from CPP timing and the OAS clawback to healthcare gaps, fees, and starting too late.",
     image: "/images/blog/biggest-retirement-mistakes.png",
     content: `<div class="container">
 <div class="hook"><strong>Mistake #7 alone—paying 2% in investment fees instead of 0.2%—can cost you $340,000 over a 25-year retirement on a $500,000 portfolio.</strong> That's enough to add five years of travel or cover a serious health crisis. Yet thousands of Canadians are making it right now without knowing the cost. Here are the 15 most expensive retirement mistakes Canadians make—and how to avoid them.</div>
@@ -20234,7 +20299,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>A single instance of long-term care—assisted living or nursing home—can cost $4,000–$6,000 monthly ($48,000–$72,000 annually). Some provinces cover some costs for low-income seniors (through social assistance), but middle-class retirees often receive zero government support. Insurance helps, but long-term care insurance premiums rise sharply after 60 and can be unaffordable after 70. By 80, if you haven't bought insurance already, it's too late.</p>
 <p>The solution: budget 10–15% of annual spending for healthcare in your 70s and 80s. For a $75,000 annual budget, allocate $7,500–$11,250 to healthcare annually (drugs, physio, dental, home care). If long-term care becomes necessary, this is a serious hit—but if you've stress-tested for it, you'll survive. If you're in good health and can afford it, consider long-term care insurance before age 65.</p>
 <h2>Mistake #5: Taking CPP Too Early Without Analysis</h2>
-<p>CPP is available at 60 (reduced by 36% vs. age 65) or deferred to 70 (increased by 42% vs. age 65). Many Canadians claim at 60 because "I've paid in and I want my money now." This is emotionally understandable but often financially wrong.</p>
+<p><a href="/blog/cpp-when-to-take-canada/">CPP</a> is available at 60 (reduced by 36% vs. age 65) or deferred to 70 (increased by 42% vs. age 65). Many Canadians claim at 60 because "I've paid in and I want my money now." This is emotionally understandable but often financially wrong.</p>
 <p><strong>The breakeven calculation:</strong> If you claim CPP at 60, you get $17,500/year. At 65, you'd get $24,500/year (same amount indexed). The extra years of age-60 payments total $87,500 (5 years × $17,500). But at 65, your annual payment is $24,500—$7,000 more per year. By age 79, the cumulative age-65 payments ($7,000 × 14 years = $98,000) exceed the early payments ($87,500). After 79, age-65 claiming wins decisively.</p>
 <p>If you're healthy and expect to live past 80, claim at 65 or delay to 70. If you expect serious health issues or a lifespan of ~75, claim at 60. If you're unsure, model both scenarios and pick the one that gives you better sleep at night. But don't claim at 60 reflexively; the "I've paid in" logic ignores longevity and foregone growth.</p>
 <div class="callout">
@@ -20356,7 +20421,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 <p>The rule: secure your own retirement first. CPP contributions are locked in (you can't get them back). RRSP room closes as you age. Your early years of retirement are precious for compound growth. Once you're satisfied with your own plan, *then* you can gift. But not before.</p>
 <p>Many Canadians sacrifice their retirement comfort to help adult children, then regret it years later when they're anxious about money. Set a boundary: "I can gift up to $X per year, but only after my retirement savings goal is met." Stick to it. Your kids will respect you for being financially independent.</p>
 <h2>Mistake #12: Underestimating Tax Impact on Retirement Income</h2>
-<p>Retirement income is still taxable income. CPP, OAS, pension, RRIF withdrawals, and rental income are all taxed. Many retirees are shocked to discover their tax bill in retirement—they expected taxes to drop, but they often don't.</p>
+<p>Retirement income is still taxable income. CPP, <a href="/blog/oas-gis-clawback-canada/">OAS</a>, pension, RRIF withdrawals, and rental income are all taxed. Many retirees are shocked to discover their tax bill in retirement—they expected taxes to drop, but they often don't.</p>
 <p>A couple with $65,000 in combined taxable income might pay $8,000–$12,000 in federal and provincial income tax (rates vary by province). That's 12–18% of gross income—not trivial. Factor taxes into your retirement budget. Many retirees budget for gross income ($75,000) and assume they'll spend all of it, then are surprised by a $10,000 tax bill in April.</p>
 <p>The fix: budget for net income, not gross. Work backward from your spending need. If you need $75,000 to spend, and your tax rate will be ~15%, you need $88,000 in gross income. Or, better: work with a tax-planning professional in your last working years to model your retirement tax bracket and plan withdrawals accordingly.</p>
 <h2>Mistake #13: Not Using Pension Income Splitting</h2>
@@ -20438,7 +20503,7 @@ If you check ANY of these boxes, it's likely a scam. Stop, verify independently,
 <td>Inflate expenses forward. Maintain equity exposure for growth.</td>
 </tr>
 <tr>
-<td>4. Failing to plan for healthcare</td>
+<td>4. Failing to plan for <a href="/blog/healthcare-costs-retirement/">healthcare</a></td>
 <td>$20K–$50K annually in later retirement</td>
 <td>Budget 10–15% of spending for healthcare. Consider LTC insurance by 65.</td>
 </tr>
@@ -20534,7 +20599,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-11-28",
+    date: "2026-09-14",
+    updated: "2026-09-14",
     excerpt: "How a readvanceable mortgage turns principal into an investment loan, when the interest is actually deductible, and the leverage risks the brochure skips.",
     image: "/images/blog/smith-maneuver-canada-steps-risks.png",
     content: `<div class="container">
@@ -20586,7 +20652,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ol>
         <li><strong>Confirm the product is readvanceable.</strong> An ordinary mortgage plus a separate line that does not grow when you pay principal will not run the loop. The credit limit on the revolving slice has to increase as principal falls, automatically, up to the ceiling in your contract.</li>
         <li><strong>Know the regulatory caps before you underwrite your own spreadsheet.</strong> Federal residential mortgage guidance has capped the revolving portion (65 percent of value has been the figure) and capped mortgage plus revolving credit combined at a higher number (80 percent has been the figure). Lenders can be tighter. The caps move. Get them from the commitment, not from a forum.</li>
-        <li><strong>Open a dedicated non-registered investment account.</strong> The readvance pays that account, or a dedicated chequing account that same-day-transfers into it. It does not pay your grocery debit. The <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> is the standard if CRA asks why the interest is on line 22100.</li>
+        <li><strong>Open a dedicated non-registered investment account.</strong> The readvance pays that account, or a dedicated chequing account that same-day-transfers into it. It does not pay your grocery debit. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the standard if CRA asks why the interest is on line 22100.</li>
         <li><strong>Invest in something that can produce income.</strong> Income Tax Folio S3-F6-C1 is the CRA document. A portfolio of common shares or ETFs that pay, or can reasonably be expected to pay, dividends is the usual fit. A bet you openly describe as pure capital growth, with no income expectation, is the fact pattern people lose. Confirm the holdings with a tax advisor if the portfolio is exotic. Asset location still matters: this sleeve is taxable on purpose, because the deduction lives outside registered accounts. The map for the rest of the household is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset-location guide</a>.</li>
         <li><strong>Pay the residence mortgage as agreed.</strong> Principal paid becomes available credit. Borrow only that newly available amount to invest. Do not spend the float.</li>
         <li><strong>Claim the interest that traces to the investments, and nothing else.</strong> Your annual interest statement is not automatically the deductible amount if any personal dollar touched the same tranche.</li>
@@ -20646,7 +20712,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="warning-box">
         <strong>Do not run this inside a registered account:</strong>
-        <p>Interest on money borrowed to contribute to a TFSA, RRSP, FHSA, or RESP is not deductible. The income inside those accounts is not income from property in your hands. People who "Smith" their refund into a TFSA have done a fine savings move and a different, non-deductible one. Keep the leveraged sleeve non-registered. Keep the registered accounts funded with cash you did not borrow, in the order in the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</p>
+        <p>Interest on money borrowed to contribute to a TFSA, RRSP, FHSA, or RESP is not deductible. The income inside those accounts is not income from property in your hands. People who "Smith" their refund into a TFSA have done a fine savings move and a different, non-deductible one. Keep the leveraged sleeve non-registered. Keep the registered accounts funded with cash you did not borrow, in the order in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</p>
     </div>
 
     <h2>A decision you can finish before you apply</h2>
@@ -20678,7 +20744,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the Smith Manoeuvre and interest deductibility for Canadian residents. It is not tax, legal, investment, or mortgage advice, and it is not a recommendation to borrow, to invest, or to use any lender's product. Paragraph 20(1)(c), the folio positions, loan-to-value caps, and contract terms change. Dollar figures are illustrations of a spread, not projections and not rate quotes. Have a CPA and, where leverage is large, a planner review your file before you start.</p>
-        <div class="footer-note">Published: November 28, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 14, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -20689,7 +20755,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-11-29",
+    date: "2026-09-15",
+    updated: "2026-09-15",
     excerpt: "A decision rule for extra cash: the mortgage rate is a risk-free after-tax return, and every investment you compare it with has to clear that hurdle after tax and after risk.",
     image: "/images/blog/mortgage-prepayment-vs-investing-canada.png",
     content: `<div class="container">
@@ -20729,12 +20796,12 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
             <tr>
                 <td>RRSP</td>
                 <td>A deduction now, tax-deferred growth, and a taxable withdrawal later. The hurdle is not "the mortgage rate versus the fund." It includes the bracket gap.</td>
-                <td>If you spend the refund, you did not prepay anything. The account-order version of this is the priority guide. The deduction mechanics are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</td>
+                <td>If you spend the refund, you did not prepay anything. The account-order version of this is the priority guide. The deduction mechanics are the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</td>
             </tr>
             <tr>
                 <td>Non-registered account</td>
                 <td>The after-tax return. Interest is fully taxed. Capital gains are partially included. Eligible dividends have a credit. Only what remains is allowed into the comparison.</td>
-                <td>You may also need this account for flexibility a mortgage prepayment cannot give you. Tax-efficient placement is the <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing guide</a>, not a reason to ignore a high contract rate.</td>
+                <td>You may also need this account for flexibility a mortgage prepayment cannot give you. Tax-efficient placement is the <a href="/blog/tax-efficient-investing/">tax-efficient investing guide</a>, not a reason to ignore a high contract rate.</td>
             </tr>
             <tr>
                 <td>A rental property down payment</td>
@@ -20809,7 +20876,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing a principal-residence prepayment with investing in Canada. It is not mortgage, investment, or tax advice. Contract rates, prepayment privileges, and penalties are specific to your commitment. Examples that use rates, brackets, and dollar amounts are illustrations of a comparison, not quotes and not forecasts. Confirm the payout figure with your lender and the tax result with a professional before you break a term.</p>
-        <div class="footer-note">Published: November 29, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 15, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -20820,7 +20887,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-11-30",
+    date: "2026-09-16",
+    updated: "2026-09-16",
     excerpt: "Interest is deductible when borrowed money earns income. How to trace a HELOC, run a cash dam, and avoid the mixes that sink the deduction.",
     image: "/images/blog/heloc-strategies-cra-clean-canada.png",
     content: `<div class="container">
@@ -20902,7 +20970,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>The file you keep before anyone asks</h2>
 
-    <p>Line 22100 is a claim. Claims have evidence. The <a href="/blog/cra-audit-guide-2026/">audit guide</a> is what a review feels like. For this deduction, the folder is short:</p>
+    <p>Line 22100 is a claim. Claims have evidence. The <a href="/blog/cra-audit-guide/">audit guide</a> is what a review feels like. For this deduction, the folder is short:</p>
 
     <ul>
         <li>The HELOC agreement and the annual interest statement, split by tranche if you have more than one.</li>
@@ -20947,7 +21015,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about interest deductibility and home equity lines of credit for Canadian residents. It is not tax, legal, or lending advice. The direct-use test is factual. Folio positions and lender terms change. The dollar figures in the cash-dam illustration are a teaching picture, not your rent and not a quote. Have a CPA review a leverage or cash-dam plan before you rely on the deduction.</p>
-        <div class="footer-note">Published: November 30, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 16, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -20958,7 +21026,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-01",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "A province-by-province map of land transfer tax, the municipal add-ons, and the other cheques due on closing day that are not the down payment.",
     image: "/images/blog/land-transfer-tax-closing-costs-canada.png",
     content: `<div class="container">
@@ -21131,7 +21200,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian land transfer taxes and closing costs. It is not legal, tax, or lending advice. Brackets, municipal rates, rebates, foreign-buyer rules, and GST/HST rebates change, and several figures in this article are described as long-standing so you will recompute them. The $800,000 arithmetic is an illustration of published band structures, not an assessment. Have the closing lawyer confirm cash to close for your property and your buyers.</p>
-        <div class="footer-note">Published: December 1, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21142,7 +21211,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-02",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "The principal residence exemption is a tax rate of zero on a gain. A rental is income, a taxable disposition, and a pile of elections if you change your mind.",
     image: "/images/blog/primary-residence-vs-rental-property-canada.png",
     content: `<div class="container">
@@ -21206,7 +21276,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="example-box">
         <strong>Illustration of the exemption gap, not a forecast of prices</strong>
-        <p>You buy for $700,000. A decade later the fair value is $1,000,000. If the property was your principal residence for every year you owned it, plus the formula's extra year where it applies, the $300,000 gain can be fully sheltered. If it was a rental the entire time, and you claim no principal-residence years, half of the $300,000 is a taxable capital gain: $150,000 included in income in the year of sale. At an illustrative 43 percent marginal rate, the tax on that inclusion is about $64,500, before any recapture and before provincial differences. Use your own bracket from the <a href="/blog/provincial-tax-rates-2026/">provincial rates guide</a>. If you had claimed $40,000 of capital cost allowance, that recapture is included in full on top of the taxable gain. The building did the same economic thing. The designation did the tax.</p>
+        <p>You buy for $700,000. A decade later the fair value is $1,000,000. If the property was your principal residence for every year you owned it, plus the formula's extra year where it applies, the $300,000 gain can be fully sheltered. If it was a rental the entire time, and you claim no principal-residence years, half of the $300,000 is a taxable capital gain: $150,000 included in income in the year of sale. At an illustrative 43 percent marginal rate, the tax on that inclusion is about $64,500, before any recapture and before provincial differences. Use your own bracket from the <a href="/blog/provincial-tax-rates/">provincial rates guide</a>. If you had claimed $40,000 of capital cost allowance, that recapture is included in full on top of the taxable gain. The building did the same economic thing. The designation did the tax.</p>
     </div>
 
     <div class="tip-box">
@@ -21224,7 +21294,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li>If the gain on a future sale would be painful at your bracket, compare that pain with a REIT held in a TFSA, where the appreciation is not a personal capital gain. Different risks, different liquidity, no tenants.</li>
     </ol>
 
-    <p>Life events scramble this. A marriage combines family units. A separation can change who designates what. A death is a deemed disposition. The <a href="/blog/life-events-tax-implications-2026/">life events guide</a> is the checklist. The designation is not something your executor should be inventing from a utility bill.</p>
+    <p>Life events scramble this. A marriage combines family units. A separation can change who designates what. A death is a deemed disposition. The <a href="/blog/life-events-tax-implications/">life events guide</a> is the checklist. The designation is not something your executor should be inventing from a utility bill.</p>
 
     <h2>Key takeaways</h2>
 
@@ -21245,7 +21315,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the principal residence exemption and rental conversions for Canadian residents. It is not tax or legal advice. Subsection 45(2), subsection 45(3), the ordinarily-inhabited test, and CRA's administrative positions on partial changes in use are fact-specific and can change. The dollar example is an illustration of the inclusion arithmetic, not a prediction of price or of your tax. Have a CPA file the election and the designation for your property.</p>
-        <div class="footer-note">Published: December 2, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21256,7 +21326,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-03",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "NOI, cap rate, cash-on-cash, and debt service on a second and third door \u2014 and the vacancy, renewal, and repair year that makes the spreadsheet a salary problem.",
     image: "/images/blog/multi-property-real-estate-math-canada.png",
     content: `<div class="container">
@@ -21371,7 +21442,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about measuring a small Canadian rental portfolio. It is not investment, tax, or mortgage advice. Rents, rates, taxes, and insurance move. Every dollar figure in the one-door illustration and the stress case is a teaching number, not a listing, a payment quote, or a forecast. Underwrite the specific building, and have a lender and a CPA look at a leveraged purchase before you waive conditions.</p>
-        <div class="footer-note">Published: December 3, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21382,7 +21453,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-04",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "A REIT is a security you can hold in a TFSA. A rental is a building, a tenant, and a loan. They are not two tickers for the same bet.",
     image: "/images/blog/reit-vs-direct-rental-ownership-canada.png",
     content: `<div class="container">
@@ -21459,11 +21531,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>The distribution is not a dividend</h2>
 
-    <p>REITs are trusts. The cash that hits your account is a mix the trust allocates. Other income is fully taxed in a non-registered account, which makes a high-payout REIT an expensive thing to own personally when you still have TFSA room. Return of capital feels like income and is partly your own money coming back, with a larger gain waiting. Capital gains distributed by the trust keep their character and are the kinder slice. None of this is visible in the "yield" on a brokerage screen. It is visible on the T3, after the year is over. If you are holding the REIT in a non-registered account, track the adjusted cost base the way the <a href="/blog/tax-record-keeping-2026/">record-keeping guide</a> describes. A T5008 is not the books.</p>
+    <p>REITs are trusts. The cash that hits your account is a mix the trust allocates. Other income is fully taxed in a non-registered account, which makes a high-payout REIT an expensive thing to own personally when you still have TFSA room. Return of capital feels like income and is partly your own money coming back, with a larger gain waiting. Capital gains distributed by the trust keep their character and are the kinder slice. None of this is visible in the "yield" on a brokerage screen. It is visible on the T3, after the year is over. If you are holding the REIT in a non-registered account, track the adjusted cost base the way the <a href="/blog/tax-record-keeping/">record-keeping guide</a> describes. A T5008 is not the books.</p>
 
     <div class="tip-box">
         <strong>Registered room first, for this asset in particular:</strong>
-        <p>A REIT's other income is the kind of yield a TFSA was built to shelter. Owning it in a taxable account while TFSA room sits in cash is the expensive version of "I want the income." The funding rule is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>. A non-registered REIT position makes sense after registered room is full, or when you are deliberately using margin and the interest deduction, with your eyes open about a margin call.</p>
+        <p>A REIT's other income is the kind of yield a TFSA was built to shelter. Owning it in a taxable account while TFSA room sits in cash is the expensive version of "I want the income." The funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. A non-registered REIT position makes sense after registered room is full, or when you are deliberately using margin and the interest deduction, with your eyes open about a margin call.</p>
     </div>
 
     <h2>When each one wins</h2>
@@ -21538,7 +21610,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education comparing Canadian REIT units with owning a rental property directly. It is not investment, tax, or legal advice, and it is not a recommendation to buy any security or property. Distribution mixes, inclusion rates, and lending terms change. Dollar figures are illustrations of scale, not forecasts. Read the current fund facts and your T3, and have a CPA review a leveraged purchase.</p>
-        <div class="footer-note">Published: December 4, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21549,7 +21621,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-05",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "The order of operations for a first home: when to open, when to contribute, when to withdraw, and where the RRSP Home Buyers' Plan sits relative to the down payment.",
     image: "/images/blog/fhsa-home-purchase-sequencing-canada.png",
     content: `<div class="container">
@@ -21558,7 +21631,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The FHSA's tax anatomy is already written. The expensive mistakes happen in <span class="highlight">the order of the cheques</span>: room that never started because the account was opened late, a withdrawal that misses the lawyer's deadline, and an RRSP raid you then have to repay.
     </div>
 
-    <p>The deduction, the $8,000 annual room, the capped carry-forward, and the lifetime limit are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP as savings tools is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a>. This article starts when a purchase is real. It is about timing: what to fund, what to liquidate, what to withdraw, and what to leave alone so the down payment arrives in the trust account as cash.</p>
+    <p>The deduction, the $8,000 annual room, the capped carry-forward, and the lifetime limit are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP as savings tools is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. This article starts when a purchase is real. It is about timing: what to fund, what to liquidate, what to withdraw, and what to leave alone so the down payment arrives in the trust account as cash.</p>
 
     <div class="callout">
         <strong>Room does not backdate:</strong>
@@ -21631,7 +21704,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>Two eligible spouses each opened an FHSA in 2024 and contributed the annual maximum for 2024, 2025, and 2026. Each account has three years of contributions plus whatever growth or loss the investments produced. Neither account has the lifetime maximum, because five years have not passed. In January 2027 they contribute that year's new room, if they are still eligible, before anyone requests a withdrawal. They keep the accounts in something they can settle inside the closing timeline. They sign a purchase agreement. They file RC725 and schedule the withdrawals to land before the trust-account deadline. They add taxable cash, then TFSA withdrawals, and they touch the Home Buyers' Plan only if the insurance premium on the remaining mortgage is the larger cost. They leave a cash reserve for the first repair. In the year after the withdrawal they transfer any FHSA remainder to their RRSPs and close the accounts before the December 31 deadline. Change the years and the room changes. The order does not.</p>
     </div>
 
-    <p>Couples do not automatically double everything. If one spouse's ownership history blocks the other's first-time status, the second FHSA may be unavailable. If both qualify, you have two lifetimes of room and, potentially, two Home Buyers' Plan withdrawals. Title, the rebate for land transfer tax, and who occupies the home all have to match the story on the withdrawal forms. Decide who is on title with the closing lawyer before the RC725, not after. The <a href="/blog/contribution-limits-2026/">contribution limits guide</a> is the room table. The <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> is the repayment obligation you are accepting if you use the Home Buyers' Plan.</p>
+    <p>Couples do not automatically double everything. If one spouse's ownership history blocks the other's first-time status, the second FHSA may be unavailable. If both qualify, you have two lifetimes of room and, potentially, two Home Buyers' Plan withdrawals. Title, the rebate for land transfer tax, and who occupies the home all have to match the story on the withdrawal forms. Decide who is on title with the closing lawyer before the RC725, not after. The <a href="/blog/contribution-limits/">contribution limits guide</a> is the room table. The <a href="/blog/rrsp-playbook/">RRSP playbook</a> is the repayment obligation you are accepting if you use the Home Buyers' Plan.</p>
 
     <div class="warning-box">
         <strong>Do not spend the reserve to look like a larger down payment:</strong>
@@ -21657,7 +21730,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the order of FHSA, TFSA, and Home Buyers' Plan withdrawals for a first home in Canada. It is not tax, legal, or mortgage advice. Contribution limits, the HBP maximum, repayment timing, and qualifying-withdrawal conditions change. Figures described as "has been" are there so you will confirm them. The couple in the example is an illustration of sequencing, not a savings target. Confirm RC725 timing with your issuer and cash to close with your lawyer.</p>
-        <div class="footer-note">Published: December 5, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21668,7 +21741,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-06",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "A priority stack for the extra dollar: kill expensive consumer debt, take the match, then choose among the RRSP deduction, TFSA flexibility, and a guaranteed mortgage rate.",
     image: "/images/blog/mortgage-prepayment-vs-tfsa-rrsp-canada.png",
     content: `<div class="container">
@@ -21689,8 +21763,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ol>
         <li><strong>A small cash reserve.</strong> Prepaying the last liquid dollar, then putting a furnace on a card, is a negative return. The reserve is not an investment decision. It is what keeps the next decision from being reversed at 20 percent.</li>
         <li><strong>FHSA, if you still qualify and a move is real.</strong> The triple advantage can beat both a TFSA and a prepayment for money that will become a down payment. If this mortgage is the home you already own and you will not qualify, skip this rung. Do not open an FHSA as a costume for money you will not withdraw for a home.</li>
-        <li><strong>RRSP, when the bracket gap is the point.</strong> A contribution deducted in a high bracket and withdrawn in a lower one, with the refund assigned to the mortgage or the TFSA, can beat a plain prepayment. A contribution deducted in the same bracket you will withdraw in, with the refund spent, loses to both the TFSA and the mortgage. The mechanics are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The room is the <a href="/blog/contribution-limits-2026/">limits guide</a>.</li>
-        <li><strong>TFSA, when flexibility or a similar lifetime bracket is the point.</strong> Withdrawals do not raise net income. That matters later for Old Age Security. The clawback context is the <a href="/blog/oas-gis-clawback-canada/">OAS guide</a>, and the account itself is the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>. January room is the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a>.</li>
+        <li><strong>RRSP, when the bracket gap is the point.</strong> A contribution deducted in a high bracket and withdrawn in a lower one, with the refund assigned to the mortgage or the TFSA, can beat a plain prepayment. A contribution deducted in the same bracket you will withdraw in, with the refund spent, loses to both the TFSA and the mortgage. The mechanics are the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. The room is the <a href="/blog/contribution-limits/">limits guide</a>.</li>
+        <li><strong>TFSA, when flexibility or a similar lifetime bracket is the point.</strong> Withdrawals do not raise net income. That matters later for Old Age Security. The clawback context is the <a href="/blog/oas-gis-clawback-canada/">OAS guide</a>, and the account itself is the <a href="/blog/tfsa-strategies/">TFSA strategies guide</a>. January room is the <a href="/blog/tfsa-contribution-optimization/">contribution guide</a>.</li>
         <li><strong>Mortgage prepayment, when the contract rate wins the hurdle.</strong> Inside the privilege, with a rate you read off your own term. Illiquid. Certain. After tax, because residence interest is not deductible.</li>
     </ol>
 
@@ -21733,7 +21807,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="example-box">
         <strong>Illustration of the refund loop, not a bracket table</strong>
-        <p>You have $12,000. The contract rate in this picture is 4.8 percent. Your marginal rate in this picture is 43 percent, the sort of rate that is top-bracket territory in several provinces. Use yours from the <a href="/blog/provincial-tax-rates-2026/">provincial rates guide</a>. All $12,000 on the mortgage avoids about $576 of interest in the first year, after tax, because the interest was not deductible. All $12,000 in the TFSA earns whatever the TFSA earns, tax-free. If that is an illustrative 3 percent, you made less than the mortgage saved and you kept the option to withdraw. If it is an illustrative 6 percent, you made more in expectation, with a year that can be negative. All $12,000 to the RRSP saves about $5,160 of tax if the entire contribution is deductible at 43 percent. Put that refund on the mortgage and you have reduced the balance by $5,160 and sheltered $12,000. The $12,000 will be taxed when it comes out. If it comes out at an illustrative 25 percent, the deduction was worth more than the inclusion and the years of deferral did work. If it comes out at 43 percent, you mostly deferred, and the win is the $5,160 prepayment plus the deferral, not a 43 percent gift. If you spend the refund, you skipped the prepayment and kept the future tax. None of these rates is a quote or a promise about your retirement bracket.</p>
+        <p>You have $12,000. The contract rate in this picture is 4.8 percent. Your marginal rate in this picture is 43 percent, the sort of rate that is top-bracket territory in several provinces. Use yours from the <a href="/blog/provincial-tax-rates/">provincial rates guide</a>. All $12,000 on the mortgage avoids about $576 of interest in the first year, after tax, because the interest was not deductible. All $12,000 in the TFSA earns whatever the TFSA earns, tax-free. If that is an illustrative 3 percent, you made less than the mortgage saved and you kept the option to withdraw. If it is an illustrative 6 percent, you made more in expectation, with a year that can be negative. All $12,000 to the RRSP saves about $5,160 of tax if the entire contribution is deductible at 43 percent. Put that refund on the mortgage and you have reduced the balance by $5,160 and sheltered $12,000. The $12,000 will be taxed when it comes out. If it comes out at an illustrative 25 percent, the deduction was worth more than the inclusion and the years of deferral did work. If it comes out at 43 percent, you mostly deferred, and the win is the $5,160 prepayment plus the deferral, not a 43 percent gift. If you spend the refund, you skipped the prepayment and kept the future tax. None of these rates is a quote or a promise about your retirement bracket.</p>
     </div>
 
     <div class="warning-box">
@@ -21774,7 +21848,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about prioritizing a Canadian residence-mortgage prepayment against TFSA and RRSP contributions. It is not tax, investment, or mortgage advice. Brackets, room, and contract rates are personal. The dollar example uses illustrative rates so you can see the structure. It is not a quote and not a projection of your retirement tax rate. Confirm a prepayment charge with your lender before you exceed the privilege.</p>
-        <div class="footer-note">Published: December 6, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21785,7 +21859,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Real Estate",
     categorySlug: "real-estate",
     author: "Andrew Carrothers",
-    date: "2026-12-07",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "Most small landlords should own rentals personally. A corporation helps when the activity is actually a business, the liability is real, or you are deferring retained earnings on purpose.",
     image: "/images/blog/landlord-incorporation-when-it-pays-canada.png",
     content: `<div class="container">
@@ -21794,7 +21869,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         A corporation does not turn rent into the small-business rate. For almost every landlord with a condo and no employees, it turns rent into <span class="highlight">a T2, a refundable tax, and a lost principal residence exemption</span>.
     </div>
 
-    <p>The question "should I incorporate at all" for an operating business is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. The question of where a portfolio of securities should sit, personal or holdco, is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the rental-property version. The building still has to work as a building. Incorporation does not fix a bad cap rate. The arithmetic is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>.</p>
+    <p>The question "should I incorporate at all" for an operating business is <a href="/blog/should-you-incorporate/">should you incorporate</a>. The question of where a portfolio of securities should sit, personal or holdco, is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the rental-property version. The building still has to work as a building. Incorporation does not fix a bad cap rate. The arithmetic is the <a href="/blog/multi-property-real-estate-math-canada/">multi-property guide</a>.</p>
 
     <div class="callout">
         <strong>Specified investment business is the default:</strong>
@@ -21895,7 +21970,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about when a Canadian landlord might incorporate. It is not tax, legal, or lending advice, and it is not a recommendation to incorporate or to transfer property. The specified-investment-business test, association, TOSI, GST/HST thresholds, and land transfer tax are fact-specific and change. Dollar examples are patterns, not your net rent and not a quote for professional fees. Have a CPA and a lawyer review the transfer before you sign a deed.</p>
-        <div class="footer-note">Published: December 7, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Real Estate | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -21906,7 +21981,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-15",
+    date: "2026-09-16",
+    updated: "2026-09-16",
     excerpt: "A need analysis using human capital, DIME, and expense replacement — and the offsets Canadians forget to subtract, including group life that ends when the job does.",
     image: "/images/blog/life-insurance-need-analysis-canada.png",
     content: `<div class="container">
@@ -21959,7 +22035,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <ul>
         <li><strong>The survivor's earnings,</strong> but only the earnings you have pressure-tested. A spouse who has been out of the workforce for a decade does not "just go back" at their old salary in month two. If the plan requires that, write the ramp in years, not as a wish.</li>
-        <li><strong>Financial assets earmarked for this gap.</strong> A TFSA the survivor can spend is a real offset. An RRSP is pre-tax: subtract an after-tax estimate, and only if you are willing to spend it instead of leaving it for the survivor's own retirement. Raiding the retirement plan to shrink the insurance number is a choice. The <a href="/blog/retirement-income-planning-2026/">retirement income guide</a> is what you are spending.</li>
+        <li><strong>Financial assets earmarked for this gap.</strong> A TFSA the survivor can spend is a real offset. An RRSP is pre-tax: subtract an after-tax estimate, and only if you are willing to spend it instead of leaving it for the survivor's own retirement. Raiding the retirement plan to shrink the insurance number is a choice. The <a href="/blog/retirement-income-planning/">retirement income guide</a> is what you are spending.</li>
         <li><strong>RESPs</strong> belong to education. Do not subtract them from the income gap, and do not add a full tuition fund if the RESP is already on track.</li>
         <li><strong>Individual life insurance you already own</strong> and intend to keep. Read the expiry date. A 10-year term that ends while the youngest child is 12 is not an 18-year asset.</li>
         <li><strong>Group life at work,</strong> often one or two times salary, is real only while you are employed and while the plan still says so. It is not portable. Conversion to an individual policy, when it exists, is a short window and usually an expensive permanent product. Count group life as a bridge, or count it as zero in the long need. Do not build the family's 18-year number on a benefit that ends on resignation day.</li>
@@ -21989,7 +22065,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>Beneficiary, will, and the number you revisit</h2>
 
-    <p>Name a beneficiary. A policy with a named beneficiary generally bypasses the will, which is useful, and it does not replace the will. Intestacy rules are provincial, common-law partners are not treated the same way in every province, and a divorce does not reliably clean up an old designation. The legal layer is the <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney guide</a>. Life events that should trigger a fresh need analysis — marriage, a child, a mortgage, a separation, a job that drops the group plan — are the same events in the <a href="/blog/life-events-tax-implications-2026/">life events tax piece</a>. Insurance and tax are different forms. The trigger is the same Tuesday.</p>
+    <p>Name a beneficiary. A policy with a named beneficiary generally bypasses the will, which is useful, and it does not replace the will. Intestacy rules are provincial, common-law partners are not treated the same way in every province, and a divorce does not reliably clean up an old designation. The legal layer is the <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney guide</a>. Life events that should trigger a fresh need analysis — marriage, a child, a mortgage, a separation, a job that drops the group plan — are the same events in the <a href="/blog/life-events-tax-implications/">life events tax piece</a>. Insurance and tax are different forms. The trigger is the same Tuesday.</p>
 
     <p>Re-run the arithmetic when the mortgage balance, the lifestyle, or the survivor's earnings change. Do not re-run it because a carrier advertised a new rider. Riders are the last step, and most of them are optional. The order is <a href="/blog/insurance-shopping-without-over-insuring-canada/">stack government and employer coverage first</a>.</p>
 
@@ -22021,7 +22097,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to estimate a Canadian life insurance need. It is not insurance, tax, legal, or financial advice, and it is not a recommendation to buy a policy or a face amount. CPP survivor benefits, the death-benefit cap, contract definitions, and provincial family law change. Every dollar figure in the worked example is illustrative. It is not your spending, not a discount rate you are entitled to earn, and not a premium. Have a licensed life insurance advisor and, where the estate is involved, a lawyer review the design before you apply.</p>
-        <div class="footer-note">Published: December 15, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 16, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22032,7 +22108,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-16",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "Term is the default for a temporary income-replacement need. Permanent coverage earns a place for a lifelong dependant, a tax bill at death, or a corporation — and cash value is not a TFSA.",
     image: "/images/blog/term-vs-whole-life-insurance-canada.png",
     content: `<div class="container">
@@ -22084,7 +22161,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>When term wins</h2>
 
-    <p>If the need ends when the mortgage ends, when the children are independent, or when your invested assets can replace your income without you, you have a term need. Buy term for that period. Invest the premium difference in a TFSA or an RRSP on purpose. The mechanics of those accounts are the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. "Buy term and invest the difference" fails when you spend the difference. It does not fail because a cash-value illustration has a higher number in a non-guaranteed column.</p>
+    <p>If the need ends when the mortgage ends, when the children are independent, or when your invested assets can replace your income without you, you have a term need. Buy term for that period. Invest the premium difference in a TFSA or an RRSP on purpose. The mechanics of those accounts are the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. "Buy term and invest the difference" fails when you spend the difference. It does not fail because a cash-value illustration has a higher number in a non-guaranteed column.</p>
 
     <p>Conversion is the option you are paying for inside a good term contract. The deadline is often earlier than the expiry date. Miss it, and the next permanent policy is fully underwritten. If your health has changed and a lifelong need has appeared — a child with a permanent disability, a cottage with a tax bill, a business interest — the conversion window is the asset. If your health is fine and the need is still temporary, converting because you are afraid of the renewal price is how temporary needs become permanent premiums.</p>
 
@@ -22134,7 +22211,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — the face amount and the end date.</li>
         <li><a href="/blog/corporate-owned-life-insurance-canada/">Corporate-owned life insurance</a> — when the company should own the permanent policy.</li>
         <li><a href="/blog/tax-efficient-wealth-transfer/">Tax-efficient wealth transfer</a> — the death tax a permanent policy is sometimes bought to pay.</li>
-        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution optimization</a> — where the premium difference goes if you buy term.</li>
+        <li><a href="/blog/tfsa-contribution-optimization/">TFSA contribution optimization</a> — where the premium difference goes if you buy term.</li>
     </ul>
 
     <div class="cta-section">
@@ -22145,7 +22222,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about term and permanent life insurance in Canada. It is not insurance, tax, or investment advice, and it is not a recommendation to buy, convert, or cancel a policy. Contract features, dividend scales, exempt-test status, and premiums differ by insurer and by your health. Nothing here is a premium, a cash value, or a projected return. Have a licensed advisor walk you through the specimen contract and the guaranteed columns before you apply or convert.</p>
-        <div class="footer-note">Published: December 16, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22156,7 +22233,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-17",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "The definition of disability, who pays the premium, and the switch to any-occupation decide the claim. A group plan's percentage of salary does not.",
     image: "/images/blog/disability-insurance-canada-guide.png",
     content: `<div class="container">
@@ -22228,7 +22306,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>Self-employed income is the income on the tax return, not the invoice:</strong>
-        <p>Carriers size benefits off earned income, often an average of net income after expenses. Illustrative pattern: $200,000 of billings and $70,000 of net income on the T1. The insurable amount follows the $70,000, not the revenue. Aggressive write-offs, which the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a> will quite reasonably discuss, shrink the benefit you can buy. If you incorporated, the same problem shows up as salary versus dividends. Dividends are often not "earned income" for this underwriting. A low salary chosen for tax can make you uninsurable for the lifestyle the corporation actually funds. Decide that tension before you apply, not at claim time.</p>
+        <p>Carriers size benefits off earned income, often an average of net income after expenses. Illustrative pattern: $200,000 of billings and $70,000 of net income on the T1. The insurable amount follows the $70,000, not the revenue. Aggressive write-offs, which the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a> will quite reasonably discuss, shrink the benefit you can buy. If you incorporated, the same problem shows up as salary versus dividends. Dividends are often not "earned income" for this underwriting. A low salary chosen for tax can make you uninsurable for the lifestyle the corporation actually funds. Decide that tension before you apply, not at claim time.</p>
     </div>
 
     <h2>Underwriting traps that void the claim you bought the policy for</h2>
@@ -22241,7 +22319,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><strong>Assuming CPP disability will catch you.</strong> CPP disability requires a severe and prolonged condition. It is not an own-occupation benefit and it is not quick. Workers' compensation covers work injuries, not a cancer that has nothing to do with the job site.</li>
     </ol>
 
-    <p>Disability coverage is built to end at or near 65 on most individual contracts. It is not a retirement plan. The years after that are the <a href="/blog/how-much-money-retire-canada/">retirement number</a> and the <a href="/blog/retirement-income-planning-2026/">income plan</a>. Do not skip RRSP contributions because a disability premium felt like saving. The premium is the cost of protecting the contributions. It is not the contribution.</p>
+    <p>Disability coverage is built to end at or near 65 on most individual contracts. It is not a retirement plan. The years after that are the <a href="/blog/how-much-money-retire-canada/">retirement number</a> and the <a href="/blog/retirement-income-planning/">income plan</a>. Do not skip RRSP contributions because a disability premium felt like saving. The premium is the cost of protecting the contributions. It is not the contribution.</p>
 
     <h2>Key takeaways</h2>
 
@@ -22259,7 +22337,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ul>
         <li><a href="/blog/critical-illness-insurance-canada/">Critical illness</a> — a lump sum for a diagnosis, not a replacement for this monthly benefit.</li>
         <li><a href="/blog/life-insurance-need-analysis-canada/">Life insurance need analysis</a> — the death benefit does not pay a living claim.</li>
-        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax</a> — write-offs and the insurable income they shrink.</li>
+        <li><a href="/blog/self-employed-tax-guide/">Self-employed tax</a> — write-offs and the insurable income they shrink.</li>
         <li><a href="/blog/insurance-shopping-without-over-insuring-canada/">Shopping without over-insuring</a> — where group LTD sits in the stack.</li>
     </ul>
 
@@ -22271,7 +22349,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about disability insurance in Canada. It is not insurance, tax, medical, or employment advice, and it is not a recommendation to buy a policy or to change who pays a group premium. Definitions, tax treatment, EI and CPP rules, and issue limits change and depend on the contract and your facts. Dollar examples are illustrative. They are not your spending, not a benefit quote, and not a premium. Read the specimen contract and have a licensed advisor and a tax professional confirm the taxable-benefit treatment before you rely on it.</p>
-        <div class="footer-note">Published: December 17, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22282,7 +22360,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-18",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "Critical illness pays a lump sum for a covered diagnosis, not a salary. Size it against the hole disability insurance and your emergency fund leave, and skip it when that hole is already filled.",
     image: "/images/blog/critical-illness-insurance-canada.png",
     content: `<div class="container">
@@ -22390,7 +22469,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about critical illness insurance in Canada. It is not insurance, tax, or medical advice, and it is not a recommendation to buy or skip a policy. Definitions, survival periods, partial benefits, and tax treatment depend on the contract and on who pays the premium. Every dollar figure is illustrative. It is not a face amount, a premium, or a typical claim. Read the specimen contract and the list of covered conditions before you apply.</p>
-        <div class="footer-note">Published: December 18, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22401,7 +22480,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-19",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "Replacement cost, a stated rebuild limit, sewer backup, and a short-term rental are where Canadian property policies quietly stop. Landlord and tenant policies do not cover each other.",
     image: "/images/blog/home-tenant-insurance-coverage-gaps-canada.png",
     content: `<div class="container">
@@ -22489,7 +22569,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>Liability, special limits, and the deductible you can afford</h2>
 
-    <p>Personal liability is the unglamorous limit. A common starting point on Canadian forms is a figure people never revisit after they add a pool, a dog, a rental, or a teenager who drives. An umbrella or personal excess policy, if the insurer will write one over your home and auto, is how that limit grows. This article will not quote either number. Ask what you have, then ask what a serious injury claim costs in your city. Home-business stock and professional liability are not meaningfully inside a homeowner form. Sublimits on business property are small. Errors and omissions for a practice belong on a business policy. The expense side of that is the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>; the coverage side is a broker, not a rider buried in the house policy.</p>
+    <p>Personal liability is the unglamorous limit. A common starting point on Canadian forms is a figure people never revisit after they add a pool, a dog, a rental, or a teenager who drives. An umbrella or personal excess policy, if the insurer will write one over your home and auto, is how that limit grows. This article will not quote either number. Ask what you have, then ask what a serious injury claim costs in your city. Home-business stock and professional liability are not meaningfully inside a homeowner form. Sublimits on business property are small. Errors and omissions for a practice belong on a business policy. The expense side of that is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>; the coverage side is a broker, not a rider buried in the house policy.</p>
 
     <p>Jewellery, bicycles, cameras, and collectibles sit on special limits that are often a few thousand dollars and are printed in the wordings. If the object is worth more than the special limit, schedule it or accept the cap. Do not memorize a limit from an article. Read yours.</p>
 
@@ -22523,7 +22603,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about common gaps in Canadian home, tenant, condo, and landlord policies. It is not insurance, legal, or tax advice, and it is not a quote or a recommendation of any insurer. Wordings, deductibles, flood eligibility, and condo declarations differ. Dollar examples are illustrative patterns, not rebuild costs, deductibles, or premiums. Read your policy and the declarations page, and have a licensed broker confirm endorsements before you rely on them.</p>
-        <div class="footer-note">Published: December 19, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22534,7 +22614,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-20",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "Your provincial plan is not a travel policy. Pre-existing stability, trip length, and age cutoffs decide the claim — and trip cancellation is a different product from emergency medical.",
     image: "/images/blog/travel-medical-insurance-canada.png",
     content: `<div class="container">
@@ -22547,7 +22628,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="callout">
         <strong>Three products people buy as if they were one:</strong>
-        <p>Emergency medical pays for care. Trip cancellation pays forfeited prepaid costs if you cancel for a covered reason before you leave. Trip interruption pays when you cut a trip short or get delayed for a covered reason. Baggage delay is a fourth thing and irrelevant to a US emergency department. A credit-card certificate can include all of them with different caps. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>, and the habit of reading the certificate instead of the marketing tile is <a href="/blog/best-travel-rewards-cards-canada-2026/">travel cards</a>. This page is what to look for when you do.</p>
+        <p>Emergency medical pays for care. Trip cancellation pays forfeited prepaid costs if you cancel for a covered reason before you leave. Trip interruption pays when you cut a trip short or get delayed for a covered reason. Baggage delay is a fourth thing and irrelevant to a US emergency department. A credit-card certificate can include all of them with different caps. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>, and the habit of reading the certificate instead of the marketing tile is <a href="/blog/best-travel-rewards-cards-canada/">travel cards</a>. This page is what to look for when you do.</p>
     </div>
 
     <h2>What the province is not doing for you</h2>
@@ -22632,7 +22713,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ul>
         <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs in retirement</a> — the domestic bill travel insurance does not pay.</li>
         <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">Annual fee versus no-fee</a> — count card insurance only if you would have bought it.</li>
-        <li><a href="/blog/best-travel-rewards-cards-canada-2026/">Travel cards</a> — certificates, not marketing tiles.</li>
+        <li><a href="/blog/best-travel-rewards-cards-canada/">Travel cards</a> — certificates, not marketing tiles.</li>
         <li><a href="/blog/housing-decisions-retirement/">Housing decisions</a> — a long stay away is a housing plan as well as a medical one.</li>
     </ul>
 
@@ -22644,7 +22725,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about travel medical, cancellation, and interruption coverage for Canadians. It is not insurance, medical, or tax advice, and it is not a quote. Provincial out-of-country benefits, card certificates, stability definitions, and premiums change. This article deliberately does not print live rates or card day-counts. Read the current ministry page and the certificate, and answer the medical questionnaire against the policy's definition before you travel.</p>
-        <div class="footer-note">Published: December 20, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22655,7 +22736,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-21",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "A corporation can turn part of a life insurance death benefit into a capital dividend. That is a surplus and estate tool, not a better way to replace a salary while your children are young.",
     image: "/images/blog/corporate-owned-life-insurance-canada.png",
     content: `<div class="container">
@@ -22664,7 +22746,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Corporate-owned life insurance is a way to turn surplus that has already been taxed inside the company into a <span class="highlight">capital dividend when you die</span>. It is not a smarter term policy for a 15-year income need, and the illustration is not a TFSA.
     </div>
 
-    <p>If you are still deciding whether a corporation should exist, stop here and read <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. If the company exists and the question is where a portfolio sits, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the third question: given surplus, a buy-sell, or a tax bill on the shares at death, should the company own a life policy? The personal face amount is still the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. Term versus permanent is still <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. Do not let a holdco shortcut those.</p>
+    <p>If you are still deciding whether a corporation should exist, stop here and read <a href="/blog/should-you-incorporate/">should you incorporate</a>. If the company exists and the question is where a portfolio sits, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the third question: given surplus, a buy-sell, or a tax bill on the shares at death, should the company own a life policy? The personal face amount is still the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. Term versus permanent is still <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. Do not let a holdco shortcut those.</p>
 
     <div class="callout">
         <strong>The capital dividend account credit is proceeds minus adjusted cost basis:</strong>
@@ -22682,7 +22764,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>When the company should own it</h2>
 
     <ul>
-        <li><strong>Surplus you have already decided not to pay out,</strong> after TFSA room and an RRSP contribution that is actually worth taking. Personal shelters come first. Corporate insurance is overflow, the same posture as a corporate portfolio. The funding order is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</li>
+        <li><strong>Surplus you have already decided not to pay out,</strong> after TFSA room and an RRSP contribution that is actually worth taking. Personal shelters come first. Corporate insurance is overflow, the same posture as a corporate portfolio. The funding order is the <a href="/blog/tfsa-contribution-optimization/">TFSA guide</a> and the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</li>
         <li><strong>Estate liquidity on a deemed disposition.</strong> Shares are disposed at fair market value at death. The gain can force a sale of the business or of real estate inside it. Insurance in the company can fund the tax, and the CDA can move proceeds to the estate more cleanly than a taxable dividend. The personal documents are <a href="/blog/estate-planning-wills-poa/">wills and powers of attorney</a>. The tax layer is <a href="/blog/tax-efficient-wealth-transfer/">tax-efficient wealth transfer</a>. Subsection 112(3.2) can grind the capital loss that would otherwise offset the terminal gain when a redemption and a life-insurance capital dividend are part of the plan. Pipeline versus redemption is a CPA and a lawyer. It is not a blog procedure. Do not redeem shares from this article.</li>
         <li><strong>A buy-sell you have signed.</strong> Criss-cross policies owned personally and a corporate redemption structure put the CDA in different hands. Match the owner and the beneficiary to the agreement. A policy that pays the company when the agreement expected the surviving shareholder to receive the money is a different deal from the one you shook hands on.</li>
         <li><strong>A permanent need funded with retained active earnings</strong> you can spare in a bad year. If the premium forces a shareholder loan or a bonus you did not want, the company is not the elegant payer. It is a cash-flow problem with a nicer binder.</li>
@@ -22749,7 +22831,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/should-you-incorporate-2026/">Should you incorporate</a> — the decision this policy does not make for you.</li>
+        <li><a href="/blog/should-you-incorporate/">Should you incorporate</a> — the decision this policy does not make for you.</li>
         <li><a href="/blog/corporate-vs-personal-investing-canada/">Corporate versus personal investing</a> — shelters first, corporate overflow second.</li>
         <li><a href="/blog/term-vs-whole-life-insurance-canada/">Term versus whole life</a> — permanent coverage only for a need that does not end.</li>
         <li><a href="/blog/tax-efficient-wealth-transfer/">Tax-efficient wealth transfer</a> — the death tax the CDA strategy is trying to fund.</li>
@@ -22763,7 +22845,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about corporate-owned life insurance and the capital dividend account in Canada. It is not tax, legal, insurance, or estate advice, and it is not a recommendation to buy a policy inside a corporation or to redeem shares. Adjusted cost basis, exempt-test status, stop-loss rules, QSBC tests, and collateral-insurance deductions are fact-specific and change. The dollar example is illustrative subtraction, not your death benefit and not an insurer's ACB report. Have a CPA, a tax lawyer, and a licensed insurance advisor model the structure before you apply or assign a policy.</p>
-        <div class="footer-note">Published: December 21, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22774,7 +22856,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Insurance",
     categorySlug: "insurance",
     author: "Andrew Carrothers",
-    date: "2026-12-22",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "Government plan, then employer plan, then an individual policy for the residual. Riders, lender mortgage life, and a second travel policy are where Canadians pay twice.",
     image: "/images/blog/insurance-shopping-without-over-insuring-canada.png",
     content: `<div class="container">
@@ -22863,7 +22946,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>When you reopen the file</h2>
 
-    <p>Revisit on a life event, not on a product launch. Marriage, a birth, a mortgage, a refinance that changes the balance, a separation, an ex who is still the beneficiary. A job change, because group life and LTD stop and conversion windows are measured in days. Incorporation, because owner and beneficiary may need to move — the <a href="/blog/corporate-owned-life-insurance-canada/">corporate guide</a> and <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. A renovation, a suite, or a short-term listing, before the first guest, on the <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">property policy</a>. A snowbird booking, before a medication change wrecks the stability window. Retirement, when group benefits end, disability coverage ends by design near 65, and life insurance may no longer have a human-capital job — or may still have an estate job. The handoff is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a>, <a href="/blog/estate-planning-wills-poa/">the will</a>, and <a href="/blog/long-term-care-costs/">long-term care</a>, which none of the policies in this stack fully replace.</p>
+    <p>Revisit on a life event, not on a product launch. Marriage, a birth, a mortgage, a refinance that changes the balance, a separation, an ex who is still the beneficiary. A job change, because group life and LTD stop and conversion windows are measured in days. Incorporation, because owner and beneficiary may need to move — the <a href="/blog/corporate-owned-life-insurance-canada/">corporate guide</a> and <a href="/blog/should-you-incorporate/">should you incorporate</a>. A renovation, a suite, or a short-term listing, before the first guest, on the <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">property policy</a>. A snowbird booking, before a medication change wrecks the stability window. Retirement, when group benefits end, disability coverage ends by design near 65, and life insurance may no longer have a human-capital job — or may still have an estate job. The handoff is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a>, <a href="/blog/estate-planning-wills-poa/">the will</a>, and <a href="/blog/long-term-care-costs/">long-term care</a>, which none of the policies in this stack fully replace.</p>
 
     <div class="tip-box">
         <strong>Put a date on it even if nothing happens:</strong>
@@ -22898,7 +22981,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to sequence Canadian insurance and avoid duplicate coverage. It is not insurance, tax, or legal advice, and it is not a recommendation to buy, cancel, or replace a policy. Public benefits, group booklets, and contracts change. Carrier names are examples, not endorsements, and this page has no affiliate links. Dollar references elsewhere in this series are illustrative. Have a licensed advisor review your booklet and your policies before you drop coverage you might not be able to replace.</p>
-        <div class="footer-note">Published: December 22, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Insurance | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -22910,7 +22993,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-23",
+    date: "2026-09-16",
+    updated: "2026-09-16",
     excerpt: "Delaying CPP raises the pension. It can also raise the income that OAS recovery, GIS, a survivor combination, and household tax are already watching.",
     image: "/images/blog/cpp-timing-benefits-stacking-canada.png",
     content: `<div class="container">
@@ -23052,7 +23136,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how a CPP or QPP start date interacts with other Canadian benefits. It is not tax, legal, or financial advice, and it is not a recommendation to start or delay a pension. Adjustment rates, GIS tables, survivor formulas, and administrative windows change. Dollar figures are deliberately absent. Use My Service Canada Account or Retraite Québec for your estimate, and the current GIS and OAS pages for income tests. Have a planner run the household, not a single breakeven.</p>
-        <div class="footer-note">Published: December 23, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 16, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23063,7 +23147,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-24",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "OAS recovery is an individual net-income test. GIS is a household test with different exclusions. The withdrawal that fixes one can feed the other.",
     image: "/images/blog/oas-gis-income-stacking-canada.png",
     content: `<div class="container">
@@ -23208,7 +23293,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/oas-gis-clawback-canada/">OAS recovery and GIS</a> — the base rules and the deferral.</li>
         <li><a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing and the stack</a> — when a larger pension crowds out GIS.</li>
         <li><a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a> — registered withdrawals before the tests turn on.</li>
-        <li><a href="/blog/retirement-income-planning-2026/">Retirement income planning</a> — the cash-flow picture these tests sit inside.</li>
+        <li><a href="/blog/retirement-income-planning/">Retirement income planning</a> — the cash-flow picture these tests sit inside.</li>
         <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — kids, disability, and housing on the same household.</li>
     </ul>
 
@@ -23220,7 +23305,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Canadian seniors' benefits read household income. It is not tax, legal, or financial advice and not a recommendation to withdraw from any account. OAS recovery thresholds, GIS tables, earnings exemptions, and line numbers change. No current payment amount is stated here. Confirm figures on Canada.ca and in CRA My Account, and have a planner model your marital status before you move income between spouses.</p>
-        <div class="footer-note">Published: December 24, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23231,7 +23316,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-25",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "CCB follows adjusted family net income from the prior return, then runs from July to June. A bonus, a custody change, or an RRSP deduction moves next year's benefit.",
     image: "/images/blog/canada-child-benefit-optimization-canada.png",
     content: `<div class="container">
@@ -23240,11 +23326,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The Canada Child Benefit does not react to this month's paycheque. It reacts to <span class="highlight">last year's adjusted family net income</span>, and then it pays that answer from July through the following June.
     </div>
 
-    <p>Families already have a tax tour in the <a href="/blog/tax-tips-families-2026/">family tax guide</a> and a credit checklist in <a href="/blog/missed-tax-credits-2026/">missed credits</a>. This article is the benefit itself: who must file, what "family income" actually means, how shared custody splits the payment, and which moves — a bonus, a capital gain, an RRSP contribution, childcare — change the next benefit year. Maximums per child, the income threshold, and the reduction percentages are indexed or amended. CRA's CCB page is the schedule. This page does not reprint it, and it does not invent a monthly amount.</p>
+    <p>Families already have a tax tour in the <a href="/blog/tax-tips-families/">family tax guide</a> and a credit checklist in <a href="/blog/missed-tax-credits/">missed credits</a>. This article is the benefit itself: who must file, what "family income" actually means, how shared custody splits the payment, and which moves — a bonus, a capital gain, an RRSP contribution, childcare — change the next benefit year. Maximums per child, the income threshold, and the reduction percentages are indexed or amended. CRA's CCB page is the schedule. This page does not reprint it, and it does not invent a monthly amount.</p>
 
     <div class="callout">
         <strong>The benefit year is July to June, built from the prior return:</strong>
-        <p>Income earned this calendar year shows up on the return you file next spring, and that return sets the CCB that starts the July after that. A December bonus is not a December clawback. It is a quieter cheque starting the July after you file. An RRSP contribution deducted on that same return can offset it, including a contribution made in the first 60 days of the following year if you deduct it on the earlier return. The deadline and the room are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. The household order, when seniors' tests and the CCB are both live, is the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a>.</p>
+        <p>Income earned this calendar year shows up on the return you file next spring, and that return sets the CCB that starts the July after that. A December bonus is not a December clawback. It is a quieter cheque starting the July after you file. An RRSP contribution deducted on that same return can offset it, including a contribution made in the first 60 days of the following year if you deduct it on the earlier return. The deadline and the room are the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. The household order, when seniors' tests and the CCB are both live, is the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a>.</p>
     </div>
 
     <h2>Eligibility is a caregiver test, then a tax-return test</h2>
@@ -23271,7 +23357,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
             <tr>
                 <td>RRSP or FHSA deduction</td>
                 <td>Lowers net income, if you have room and the contribution is deductible.</td>
-                <td>The benefit year that follows the return you claimed it on. A contribution in January or February can still be deducted on the prior year's return. FHSA rules are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>, not a childcare strategy, but the deduction is real.</td>
+                <td>The benefit year that follows the return you claimed it on. A contribution in January or February can still be deducted on the prior year's return. FHSA rules are the <a href="/blog/fhsa-guide/">FHSA guide</a>, not a childcare strategy, but the deduction is real.</td>
             </tr>
             <tr>
                 <td>Childcare expenses</td>
@@ -23291,7 +23377,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
             <tr>
                 <td>Capital gain, including a cottage or a rental</td>
                 <td>The taxable portion, at that year's inclusion rate, enters net income.</td>
-                <td>A gain you can time is a gain you should not drop into a year you wanted the maximum benefit. Life events that force the gain are the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>.</td>
+                <td>A gain you can time is a gain you should not drop into a year you wanted the maximum benefit. Life events that force the gain are the <a href="/blog/life-events-tax-implications/">life-events guide</a>.</td>
             </tr>
             <tr>
                 <td>TFSA withdrawal</td>
@@ -23310,7 +23396,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <p>When a child lives with each parent at least about 40 percent of the time, CRA treats it as shared custody and generally pays each eligible parent half, for the months that status applies. Each half is computed from that parent's own household AFNI, including a new spouse's income. It is not averaged across the two homes. A parent with a high-income new partner can see their half reduced to little, while the other parent's half stays large. That is the formula, not a dispute you win by being the "real" primary parent.</p>
 
-    <p>The 40 percent test is about where the child actually lives, not about what a separation agreement recites if the recital is fiction. CRA asks for a schedule. If the pattern changes, tell them. Collecting a full benefit through a year of shared custody is an overpayment with your name on it. The legal side of the separation — support, the principal residence, the year the relationship status flips — is the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>. Support payments have their own inclusion and deduction rules. They also move net income, which means they move next year's CCB. Do not model support as "outside the benefit."</p>
+    <p>The 40 percent test is about where the child actually lives, not about what a separation agreement recites if the recital is fiction. CRA asks for a schedule. If the pattern changes, tell them. Collecting a full benefit through a year of shared custody is an overpayment with your name on it. The legal side of the separation — support, the principal residence, the year the relationship status flips — is the <a href="/blog/life-events-tax-implications/">life-events guide</a>. Support payments have their own inclusion and deduction rules. They also move net income, which means they move next year's CCB. Do not model support as "outside the benefit."</p>
 
     <div class="warning-box">
         <strong>A new spouse is part of AFNI in the month the relationship is common-law, not on the wedding anniversary you prefer:</strong>
@@ -23358,11 +23444,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/tax-tips-families-2026/">Family tax tips</a> — childcare, credits, and the RESP beside the benefit.</li>
-        <li><a href="/blog/missed-tax-credits-2026/">Missed tax credits</a> — the return items that never showed up.</li>
+        <li><a href="/blog/tax-tips-families/">Family tax tips</a> — childcare, credits, and the RESP beside the benefit.</li>
+        <li><a href="/blog/missed-tax-credits/">Missed tax credits</a> — the return items that never showed up.</li>
         <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a> — parental benefits and the income they leave on the return.</li>
-        <li><a href="/blog/life-events-tax-implications-2026/">Life events</a> — separation, a new partner, and a forced capital gain.</li>
-        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA</a> — which deduction is worth using against AFNI.</li>
+        <li><a href="/blog/life-events-tax-implications/">Life events</a> — separation, a new partner, and a forced capital gain.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP, TFSA, and FHSA</a> — which deduction is worth using against AFNI.</li>
     </ul>
 
     <div class="cta-section">
@@ -23373,7 +23459,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the Canada Child Benefit and the income it reads. It is not tax, family-law, or financial advice. Benefit maximums, thresholds, reduction rates, and provincial top-ups change and are not stated as current figures here. Shared-custody outcomes depend on facts. Confirm amounts in CRA My Account and on the official CCB page, and get advice before you structure custody or support around a payment.</p>
-        <div class="footer-note">Published: December 25, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23384,7 +23470,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-26",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "EI is not one cheque. Regular benefits, special benefits, severance, work while on claim, and the self-employed opt-in each change what else you can collect.",
     image: "/images/blog/employment-insurance-benefits-canada.png",
     content: `<div class="container">
@@ -23461,7 +23548,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><strong>Quebec self-employed parents already have QPIP.</strong> Federal opt-in is for the special benefits QPIP does not cover. Stacking both premiums without knowing which cheque you are buying is the over-insuring version of EI. The insurance version of that mistake is <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</li>
     </ul>
 
-    <p>Incorporated owners who pay themselves only dividends have no insurable earnings from the business. EI is a payroll system. A dividend is not a paycheque. The salary-versus-dividend choice is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a> and the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>. Do not discover the hour shortage in the month you need sickness benefits.</p>
+    <p>Incorporated owners who pay themselves only dividends have no insurable earnings from the business. EI is a payroll system. A dividend is not a paycheque. The salary-versus-dividend choice is <a href="/blog/should-you-incorporate/">should you incorporate</a> and the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>. Do not discover the hour shortage in the month you need sickness benefits.</p>
 
     <h2>What else is already paying the same wage</h2>
 
@@ -23506,8 +23593,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ul>
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the private layer EI does not replace.</li>
         <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — why a parental year changes next July.</li>
-        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax</a> — insurable earnings, and what a dividend is not.</li>
-        <li><a href="/blog/tax-tips-families-2026/">Family tax tips</a> — the return in a year of parental benefits.</li>
+        <li><a href="/blog/self-employed-tax-guide/">Self-employed tax</a> — insurable earnings, and what a dividend is not.</li>
+        <li><a href="/blog/tax-tips-families/">Family tax tips</a> — the return in a year of parental benefits.</li>
         <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — where EI sits among the other tests.</li>
     </ul>
 
@@ -23519,7 +23606,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Employment Insurance and, in Quebec, parental insurance interact with other income. It is not legal, tax, or employment advice, and it is not a prediction of entitlement. Hour requirements, week maximums, premium rates, and working-while-on-claim formulas change. No weekly payment is stated here. Apply through Service Canada or Retraite Québec's parental plan as applicable, and get advice before you quit, opt in, or report a week you are unsure about.</p>
-        <div class="footer-note">Published: December 26, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23531,7 +23618,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-27",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "The DTC is a non-refundable credit that also opens the RDSP and the child disability supplement. A diagnosis letter is not the test, and a denial is a file you can still fix.",
     image: "/images/blog/disability-tax-credit-canada-guide.png",
     content: `<div class="container">
@@ -23540,7 +23628,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The Disability Tax Credit is not a cheque for having a diagnosis. It is <span class="highlight">a CRA decision that your impairment markedly restricts daily living</span>, and that decision is the door to several other programs.
     </div>
 
-    <p>The credit shows up on credit roundups, including <a href="/blog/missed-tax-credits-2026/">missed credits</a>, as a line people forget. This article is the gate itself: who can certify it, why files are refused, what a non-refundable credit can and cannot refund, and how approval connects to the Registered Disability Savings Plan. It is not a medical guide, and it is not a promise that a condition qualifies. CRA decides. The form is T2201, Disability Tax Credit Certificate.</p>
+    <p>The credit shows up on credit roundups, including <a href="/blog/missed-tax-credits/">missed credits</a>, as a line people forget. This article is the gate itself: who can certify it, why files are refused, what a non-refundable credit can and cannot refund, and how approval connects to the Registered Disability Savings Plan. It is not a medical guide, and it is not a promise that a condition qualifies. CRA decides. The form is T2201, Disability Tax Credit Certificate.</p>
 
     <div class="callout">
         <strong>Four different "disability" tests, four different agencies:</strong>
@@ -23566,7 +23654,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><strong>Transfer.</strong> Unused credit can transfer to a spouse or common-law partner, or to another supporting relative when the rules for support are met. The transfer is how a household with tax actually uses a credit the disabled person cannot use. It is claimed on the supporter's return. It is not automatic.</li>
         <li><strong>Prior years.</strong> Once CRA approves the DTC, you can ask to adjust returns for prior years, typically up to ten. The window is CRA's, and it is stated in their DTC instructions. Do not assume every year back to the diagnosis is open. Adjust the years the approval covers, and only where someone had tax or a transferable credit to use.</li>
         <li><strong>The child disability benefit.</strong> For a child who is approved, this is a supplement to the Canada Child Benefit. It is paid, it is income-tested, and it uses the same family-income machinery as the CCB. That machinery is <a href="/blog/canada-child-benefit-optimization-canada/">CCB timing</a>. The supplement does not replace the credit. A family can have both: a credit on a parent's return, and a supplement inside the CCB, if each rule is met.</li>
-        <li><strong>Other credits stay separate.</strong> The Canada caregiver amount is not the DTC. Medical expenses are not the DTC. A household can claim more than one of them, and claiming one badly does not prove the others. The family context is <a href="/blog/tax-tips-families-2026/">family tax</a>.</li>
+        <li><strong>Other credits stay separate.</strong> The Canada caregiver amount is not the DTC. Medical expenses are not the DTC. A household can claim more than one of them, and claiming one badly does not prove the others. The family context is <a href="/blog/tax-tips-families/">family tax</a>.</li>
     </ul>
 
     <div class="warning-box">
@@ -23611,7 +23699,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         </tbody>
     </table>
 
-    <p>The decision letter gives you a deadline to object. It is measured in days. Missing it means you are asking for a new look as a favour, or filing a new form, rather than using the objection you were given. A notice of objection is a legal step. If the restriction is real and the form was thin, a better form is often faster than a fight about a weak one. If the form was complete and CRA misread it, object on time and attach the chart. The audit habits in the <a href="/blog/cra-audit-guide-2026/">CRA audit guide</a> are about proof. This file is the same habit.</p>
+    <p>The decision letter gives you a deadline to object. It is measured in days. Missing it means you are asking for a new look as a favour, or filing a new form, rather than using the objection you were given. A notice of objection is a legal step. If the restriction is real and the form was thin, a better form is often faster than a fight about a weak one. If the form was complete and CRA misread it, object on time and attach the chart. The audit habits in the <a href="/blog/cra-audit-guide/">CRA audit guide</a> are about proof. This file is the same habit.</p>
 
     <h2>The RDSP opens when the DTC is approved</h2>
 
@@ -23658,7 +23746,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/missed-tax-credits-2026/">Missed credits</a> — where the disability amount sits on the return.</li>
+        <li><a href="/blog/missed-tax-credits/">Missed credits</a> — where the disability amount sits on the return.</li>
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — income replacement the credit is not.</li>
         <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — the child disability supplement rides this payment.</li>
         <li><a href="/blog/long-term-care-costs/">Long-term care costs</a> — the expense the credit does not pay.</li>
@@ -23673,7 +23761,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the Disability Tax Credit and the RDSP it unlocks. It is not tax, medical, or legal advice, and it is not a statement that any condition qualifies. Form questions, therapy-hour tests, grant tables, and age cut-offs change. No grant dollar amount is stated here. Have the current T2201 completed by a qualified practitioner and confirm RDSP figures with the issuer and ESDC before you contribute or withdraw.</p>
-        <div class="footer-note">Published: December 27, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23684,7 +23772,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-28",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "Provincial income supports, disability programs, seniors' top-ups, and drug plans do not share one definition of income. Some count assets the federal tests ignore.",
     image: "/images/blog/provincial-benefits-programs-canada.png",
     content: `<div class="container">
@@ -23810,7 +23899,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to sort provincial and territorial benefit programs. It is not a complete directory, and it is not legal, tax, or benefits advice. Program names used here are examples of categories. Rules, exemptions, and dollar amounts change and are not stated as current rates. Confirm eligibility with the ministry that administers the program, and get advice before you transfer assets to qualify or to avoid a clawback.</p>
-        <div class="footer-note">Published: December 28, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23821,7 +23910,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-29",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "The GST/HST new housing rebate, land-transfer relief, the Home Buyers' Plan, and the home buyers' tax credit are different pipes. One first-time definition does not unlock the rest.",
     image: "/images/blog/first-home-buyer-grants-beyond-fhsa-canada.png",
     content: `<div class="container">
@@ -23830,7 +23920,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The FHSA is a registered account. Everything else people call a "first-time grant" is <span class="highlight">a rebate, a credit, a repayable withdrawal, or a program that has already closed</span> — and the definitions do not match.
     </div>
 
-    <p>Contribution room, the deduction, and the qualifying withdrawal are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a>. The order of funding and liquidating once a purchase is real is <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing</a>. This article starts beside those. It is the other pipes: the Home Buyers' Plan, the home buyers' tax credit, the GST/HST new housing rebate, and provincial land-transfer relief. It does not print live grant amounts. Caps and phase-outs move, and a remembered cap is how people waive conditions on a closing they cannot fund.</p>
+    <p>Contribution room, the deduction, and the qualifying withdrawal are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. The order of funding and liquidating once a purchase is real is <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing</a>. This article starts beside those. It is the other pipes: the Home Buyers' Plan, the home buyers' tax credit, the GST/HST new housing rebate, and provincial land-transfer relief. It does not print live grant amounts. Caps and phase-outs move, and a remembered cap is how people waive conditions on a closing they cannot fund.</p>
 
     <div class="callout">
         <strong>Sort every program into one of four pipes before you add it to the down payment:</strong>
@@ -23856,7 +23946,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
             <tr>
                 <td>Home Buyers' Plan</td>
                 <td>A withdrawal from an RRSP for a qualifying home, with a repayment schedule run by CRA. Missed repayments are included in income.</td>
-                <td>A gift, and not the same ceiling as whatever a blog quoted in a prior year. Confirm the current maximum and the repayment term, including any deferral that applied only to certain withdrawal years, on CRA's HBP page. The playbook version is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</td>
+                <td>A gift, and not the same ceiling as whatever a blog quoted in a prior year. Confirm the current maximum and the repayment term, including any deferral that applied only to certain withdrawal years, on CRA's HBP page. The playbook version is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</td>
             </tr>
             <tr>
                 <td>Home buyers' amount</td>
@@ -23910,7 +24000,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><strong>Who pays, and when.</strong> Lawyer's trust account, tax refund next spring, or a monthly supplement. A credit that arrives in April does not cover a deposit in November.</li>
     </ol>
 
-    <p>Indigenous housing programs, provincial new-home incentives, and municipal development-charge reductions exist and are outside this article's ability to be current. They belong on the government's own page for that program, read in the month you offer. The <a href="/blog/provincial-benefits-programs-canada/">provincial map</a> is the habit: identify the office, then stop using summaries. A life event — a spouse on title, a parent gifting the deposit, a move across a provincial border — changes which test you pass. See <a href="/blog/life-events-tax-implications-2026/">life events</a>.</p>
+    <p>Indigenous housing programs, provincial new-home incentives, and municipal development-charge reductions exist and are outside this article's ability to be current. They belong on the government's own page for that program, read in the month you offer. The <a href="/blog/provincial-benefits-programs-canada/">provincial map</a> is the habit: identify the office, then stop using summaries. A life event — a spouse on title, a parent gifting the deposit, a move across a provincial border — changes which test you pass. See <a href="/blog/life-events-tax-implications/">life events</a>.</p>
 
     <div class="tip-box">
         <strong>A gift from family is not a program, and it is not always invisible:</strong>
@@ -23931,9 +24021,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/fhsa-guide-2026/">FHSA guide</a> — the account this article deliberately does not re-explain.</li>
+        <li><a href="/blog/fhsa-guide/">FHSA guide</a> — the account this article deliberately does not re-explain.</li>
         <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">Purchase sequencing</a> — which dollar is in the trust account on which day.</li>
-        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP, TFSA, and FHSA</a> — why the HBP spends the RRSP and the TFSA does not have to.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP, TFSA, and FHSA</a> — why the HBP spends the RRSP and the TFSA does not have to.</li>
         <li><a href="/blog/land-transfer-tax-closing-costs-canada/">Land transfer tax and closing costs</a> — the provincial bill a rebate only partly touches.</li>
         <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — how a down-payment withdrawal hits other income tests.</li>
     </ul>
@@ -23946,7 +24036,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian first-home programs other than the FHSA rules themselves. It is not tax, legal, or mortgage advice, and it is not a list of current grant amounts. Ceilings, phase-outs, repayment terms, and program status change. No live rebate figure is stated here. Confirm the HBP, the home buyers' amount, and the new housing rebate with CRA, land-transfer relief with the province, and any shared-equity program with CMHC, before you waive a condition.</p>
-        <div class="footer-note">Published: December 29, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -23957,7 +24047,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Government Benefits",
     categorySlug: "government-benefits",
     author: "Andrew Carrothers",
-    date: "2026-12-30",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "Kids, disability, EI, housing, and seniors' benefits read different income lines. File first, name the binding test, then choose the dollar that does not feed it.",
     image: "/images/blog/government-benefits-stacking-map-canada.png",
     content: `<div class="container">
@@ -23970,7 +24061,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="callout">
         <strong>The order is short:</strong>
-        <p>File both returns. List every program that is actually paying or that you intend to apply for. Write down whose income it reads, which year, and whether it can see assets. The steepest test is the binding one. Choose the dollar that does not feed it. Then, and only then, optimize tax. A deduction that wins a bracket and loses a needs-tested drug card is not a win. The tax side of the same household is the <a href="/blog/tax-tips-families-2026/">family guide</a> and the <a href="/blog/retirement-income-planning-2026/">retirement income plan</a>.</p>
+        <p>File both returns. List every program that is actually paying or that you intend to apply for. Write down whose income it reads, which year, and whether it can see assets. The steepest test is the binding one. Choose the dollar that does not feed it. Then, and only then, optimize tax. A deduction that wins a bracket and loses a needs-tested drug card is not a win. The tax side of the same household is the <a href="/blog/tax-tips-families/">family guide</a> and the <a href="/blog/retirement-income-planning/">retirement income plan</a>.</p>
     </div>
 
     <h2>Three income definitions, and one asset test</h2>
@@ -24013,7 +24104,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <p><strong>A purchase.</strong> The binding constraint is cash on the closing date, not a credit that arrives next April. FHSA and HBP put cash in the trust account. The home buyers' amount does not. The new-housing rebate is often already in the price. Land-transfer relief is partial and local. A missed HBP repayment later becomes income on the CCB test. Sequence the purchase in <a href="/blog/fhsa-home-purchase-sequencing-canada/">the sequencing guide</a>, then stop adding programs you cannot name a pipe for.</p>
 
-    <p><strong>Working years, interrupted.</strong> EI regular benefits, EI special benefits, workers' compensation, group disability, and CPP disability can all aim at the same month. Tell each file about the others. Self-employed opt-in is a lock once you have been paid, and it never covers a lost contract. A parental or sickness year is also a tax year: withholding is thin, and the marginal rate may be a bad year to deduct an RRSP. The <a href="/blog/self-employed-tax-guide-2026/">self-employed guide</a> is the payroll half.</p>
+    <p><strong>Working years, interrupted.</strong> EI regular benefits, EI special benefits, workers' compensation, group disability, and CPP disability can all aim at the same month. Tell each file about the others. Self-employed opt-in is a lock once you have been paid, and it never covers a lost contract. A parental or sickness year is also a tax year: withholding is thin, and the marginal rate may be a bad year to deduct an RRSP. The <a href="/blog/self-employed-tax-guide/">self-employed guide</a> is the payroll half.</p>
 
     <p><strong>The decade before OAS.</strong> This is the last clean window to withdraw registered money at a rate you choose, before recovery tax and GIS can see it. The <a href="/blog/rrsp-meltdown-strategy/">meltdown</a> and the <a href="/blog/retirement-withdrawal-strategy/">withdrawal order</a> belong here. A household that will be on GIS should not blindly delay CPP to 70. A household that will be in OAS recovery should not blindly take CPP at 60 and also defer nothing. Write which test you are actually in. The pension math is <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a>. The stack around it is the CPP article in this series.</p>
 
@@ -24087,7 +24178,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>File even when you owe nothing:</strong>
-        <p>The most expensive stacking error is a missing return. CCB, GIS, the GST/HST credit, and a string of provincial amounts simply stop, or never start. A nil return is the application you already know how to make. Deadlines are the <a href="/blog/cra-deadlines-2026/">CRA deadline guide</a>. Credits you did not know were on the return are <a href="/blog/missed-tax-credits-2026/">missed credits</a>.</p>
+        <p>The most expensive stacking error is a missing return. CCB, GIS, the GST/HST credit, and a string of provincial amounts simply stop, or never start. A nil return is the application you already know how to make. Deadlines are the <a href="/blog/cra-deadlines/">CRA deadline guide</a>. Credits you did not know were on the return are <a href="/blog/missed-tax-credits/">missed credits</a>.</p>
     </div>
 
     <h2>Key takeaways</h2>
@@ -24121,7 +24212,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the order in which Canadian household benefits interact. It is not tax, legal, or financial advice, and it is not a complete list of programs or rates. Thresholds, exemptions, and eligibility rules change and are deliberately not quoted as current figures. Confirm amounts with CRA, Service Canada, and your provincial ministry, and get advice before you move income or assets to affect a benefit.</p>
-        <div class="footer-note">Published: December 30, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Government Benefits | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24132,7 +24223,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2026-12-31",
+    date: "2026-09-16",
+    updated: "2026-09-16",
     excerpt: "Route each paycheque into bills, a timing buffer, sinking funds, and registered contributions. Pay-yourself-first and zero-based are tools, not personalities.",
     image: "/images/blog/cash-flow-system-canada.png",
     content: `<div class="container">
@@ -24204,12 +24296,12 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>Where the TFSA, the RRSP, and the FHSA sit</h2>
 
-    <p>Registered contributions are a bucket in the routing, not a December project. The order among the accounts is not decided here. The comparison is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>, and the room is the <a href="/blog/contribution-limits-2026/">limits guide</a>. Confirm the year's room in the CRA account before you automate a number. What this system decides is the moment the dollar leaves your spending.</p>
+    <p>Registered contributions are a bucket in the routing, not a December project. The order among the accounts is not decided here. The comparison is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>, and the room is the <a href="/blog/contribution-limits/">limits guide</a>. Confirm the year's room in the CRA account before you automate a number. What this system decides is the moment the dollar leaves your spending.</p>
 
     <ul>
-        <li><strong>Group RRSP or pension at source</strong> never hits the hub. Do not also schedule a personal transfer for the same dollars. The payroll amount already consumes RRSP room. A second pre-authorized contribution is how people over-contribute. The mechanics of the deduction are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>.</li>
-        <li><strong>An FHSA, when a first home is a real date,</strong> sits with the down-payment sinking fund, not with long-term investing. Cash or a short-term holding belongs there as the purchase gets close. The sequence, including what not to put in equities a year out, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>. The account rules are the <a href="/blog/fhsa-guide-2026/">FHSA guide</a>.</li>
-        <li><strong>A TFSA auto-contribution</strong> is either a payday transfer or a January lump you have been sinking all year. Both are legitimate. "I will do it when the bonus arrives" is neither. January room and what belongs in the shelter are the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a>.</li>
+        <li><strong>Group RRSP or pension at source</strong> never hits the hub. Do not also schedule a personal transfer for the same dollars. The payroll amount already consumes RRSP room. A second pre-authorized contribution is how people over-contribute. The mechanics of the deduction are the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</li>
+        <li><strong>An FHSA, when a first home is a real date,</strong> sits with the down-payment sinking fund, not with long-term investing. Cash or a short-term holding belongs there as the purchase gets close. The sequence, including what not to put in equities a year out, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>. The account rules are the <a href="/blog/fhsa-guide/">FHSA guide</a>.</li>
+        <li><strong>A TFSA auto-contribution</strong> is either a payday transfer or a January lump you have been sinking all year. Both are legitimate. "I will do it when the bonus arrives" is neither. January room and what belongs in the shelter are the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>.</li>
         <li><strong>A surplus after those targets</strong> is the mortgage-versus-investing decision, not a thicker chequing balance. The hurdle rate is <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a>, and the account order is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">prepayment versus TFSA and RRSP</a>.</li>
     </ul>
 
@@ -24250,7 +24342,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — what percentage means after tax and housing.</li>
         <li><a href="/blog/fixed-cost-audit-canada/">The fixed-cost audit</a> — where the routing gets its room.</li>
         <li><a href="/blog/emergency-fund-heloc-investments-canada/">Emergency fund, HELOC, and investments</a> — the cash layer this system is not.</li>
-        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution timing</a> — January room versus a payday transfer.</li>
+        <li><a href="/blog/tfsa-contribution-optimization/">TFSA contribution timing</a> — January room versus a payday transfer.</li>
     </ul>
 
     <div class="cta-section">
@@ -24261,7 +24353,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about household cash routing for Canadian residents. It is not tax, investment, or credit advice. Contribution room, payroll deductions, and pre-authorized debit timing are specific to your accounts. Dollar figures in the example are an illustration of a sequence, not a budget and not a savings target. Confirm RRSP, TFSA, and FHSA room in your CRA account before you automate a contribution.</p>
-        <div class="footer-note">Published: December 31, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 16, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24272,7 +24364,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-01",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "How much cash to hold, when an undrawn HELOC is a backup, and why a Smith Manoeuvre balance is not an emergency fund. CDIC is not brokerage liquidity.",
     image: "/images/blog/emergency-fund-heloc-investments-canada.png",
     content: `<div class="container">
@@ -24361,7 +24454,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="warning-box">
         <strong>Registered investments are the wrong layer to spend first:</strong>
-        <p>An RRSP withdrawal is taxable, often with withholding, and the room does not come back. It is a last resort, not a reserve. Equities in a TFSA can be sold, and the withdrawal room generally returns on the next January 1, not the next morning — the recontribution rule is in the <a href="/blog/tfsa-strategies-2026/">TFSA strategies guide</a>. Selling them in a drawdown that arrived with the job loss is how a temporary gap becomes a permanent hole. A TFSA can hold a cash slice. It is not automatically the best use of the year's room if you will fill that room with long-term holdings and a taxable HISA will cover money you might spend soon.</p>
+        <p>An RRSP withdrawal is taxable, often with withholding, and the room does not come back. It is a last resort, not a reserve. Equities in a TFSA can be sold, and the withdrawal room generally returns on the next January 1, not the next morning — the recontribution rule is in the <a href="/blog/tfsa-strategies/">TFSA strategies guide</a>. Selling them in a drawdown that arrived with the job loss is how a temporary gap becomes a permanent hole. A TFSA can hold a cash slice. It is not automatically the best use of the year's room if you will fill that room with long-term holdings and a taxable HISA will cover money you might spend soon.</p>
     </div>
 
     <h2>The order you spend in a real emergency</h2>
@@ -24402,7 +24495,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about liquidity for Canadian households. It is not tax, lending, insurance, or investment advice, and it is not a recommendation to borrow or to hold any product. CDIC categories, CIPF limits, HELOC contracts, and disability elimination periods change and are specific to your file. Month-counts in the example are bands, not a target. Confirm deposit coverage with CDIC, the use of borrowed money with a CPA, and the credit limit with the lender before you rely on it.</p>
-        <div class="footer-note">Published: January 1, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24413,7 +24506,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-02",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "A decision framework for deposits versus savings, money-market, and T-bill ETFs, in a TFSA or outside one. Compare structure and today's rate, not a stale yield table.",
     image: "/images/blog/hisa-vs-cash-etf-canada.png",
     content: `<div class="container">
@@ -24426,7 +24520,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="callout">
         <strong>Do not compare a HISA to a dividend stock:</strong>
-        <p>Interest is fully included in income. Eligible Canadian dividends get a gross-up and a credit, and the price can fall by more than a year of distributions. They are different contracts. The character of investment income is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a> and <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>. A cash decision does not get to borrow their tax treatment.</p>
+        <p>Interest is fully included in income. Eligible Canadian dividends get a gross-up and a credit, and the price can fall by more than a year of distributions. They are different contracts. The character of investment income is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a> and <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth</a>. A cash decision does not get to borrow their tax treatment.</p>
     </div>
 
     <h2>Four vehicles, four ways they fail</h2>
@@ -24468,7 +24562,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <p>Outside a registered account, interest is fully taxable at your marginal rate. There is no dividend tax credit on a savings distribution. Compare after tax, not the number in the ad. A fund that looks ahead by a fraction of a percent and then loses that fraction to tax and to its MER was not ahead.</p>
 
     <ul>
-        <li><strong>TFSA.</strong> Interest inside the account is not taxed. The cost is room. If you will fill the year's room with long-term holdings anyway, parking the emergency slice in a taxable HISA can be the cleaner split: the TFSA stays invested, the cash stays insured as a deposit. If you will not fill the room, a cash holding in the TFSA is reasonable, especially for money you might spend and then replace. Withdrawn room generally returns on the next January 1, not the day you withdraw. That rule is the <a href="/blog/tfsa-strategies-2026/">TFSA guide</a>, and January funding is the <a href="/blog/tfsa-contribution-optimization-2026/">contribution guide</a>.</li>
+        <li><strong>TFSA.</strong> Interest inside the account is not taxed. The cost is room. If you will fill the year's room with long-term holdings anyway, parking the emergency slice in a taxable HISA can be the cleaner split: the TFSA stays invested, the cash stays insured as a deposit. If you will not fill the room, a cash holding in the TFSA is reasonable, especially for money you might spend and then replace. Withdrawn room generally returns on the next January 1, not the day you withdraw. That rule is the <a href="/blog/tfsa-strategies/">TFSA guide</a>, and January funding is the <a href="/blog/tfsa-contribution-optimization/">contribution guide</a>.</li>
         <li><strong>RRSP.</strong> A poor home for money you may need. A withdrawal is included in income, withholding usually applies, and the room is gone. Do not hide an emergency fund here to get a deduction.</li>
         <li><strong>FHSA.</strong> The right place for a down payment that has a date, and the wrong place to reach for equity returns if that date is close. The timeline is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>. Cash, a GIC, or a cash-like ETF inside the FHSA is a horizon decision, not a yield contest.</li>
         <li><strong>Non-registered.</strong> Default for a large balance that does not fit in unused TFSA room and that you might spend without wanting a registered withdrawal. Track the interest for the return. A T5 or a T3 is not optional just because the amount felt small.</li>
@@ -24476,7 +24570,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="warning-box">
         <strong>The distribution is not your net yield:</strong>
-        <p>Subtract the MER. Subtract any trading spread you pay to get in and out. If the account is taxable, subtract tax at your marginal rate, which you can locate in the <a href="/blog/federal-tax-brackets-2026/">federal brackets</a> and the <a href="/blog/provincial-tax-rates-2026/">provincial rates</a> without treating those pages as a forecast of next year's brackets. Then compare that net to the deposit rate you can actually get today, after the promo ends. If you have not opened both pages in the same sitting, you have not compared them.</p>
+        <p>Subtract the MER. Subtract any trading spread you pay to get in and out. If the account is taxable, subtract tax at your marginal rate, which you can locate in the <a href="/blog/federal-tax-brackets/">federal brackets</a> and the <a href="/blog/provincial-tax-rates/">provincial rates</a> without treating those pages as a forecast of next year's brackets. Then compare that net to the deposit rate you can actually get today, after the promo ends. If you have not opened both pages in the same sitting, you have not compared them.</p>
     </div>
 
     <h2>Settlement, liquidity, and the day you need the money</h2>
@@ -24533,9 +24627,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <ul>
         <li><a href="/blog/emergency-fund-heloc-investments-canada/">Emergency fund layers</a> — how much cash, and what a HELOC is allowed to be.</li>
-        <li><a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution optimization</a> — room you might rather fill with long-term holdings.</li>
+        <li><a href="/blog/tfsa-contribution-optimization/">TFSA contribution optimization</a> — room you might rather fill with long-term holdings.</li>
         <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a> — when the down payment should be cash.</li>
-        <li><a href="/blog/tax-efficient-investing-2026/">Tax-efficient investing</a> — why interest and dividends are not rivals.</li>
+        <li><a href="/blog/tax-efficient-investing/">Tax-efficient investing</a> — why interest and dividends are not rivals.</li>
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the payday transfer that funds the vehicle.</li>
     </ul>
 
@@ -24547,7 +24641,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about short-term cash vehicles in Canada. It is not tax, investment, or deposit-insurance advice, and it is not a recommendation to buy any fund or open any account. Yields, MERs, CDIC limits, and settlement cycles change. No current rate is stated here. Read the ETF facts sheet and the deposit terms, and confirm coverage with CDIC, before you move money.</p>
-        <div class="footer-note">Published: January 2, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24558,7 +24652,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-03",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "Match a risk-free after-tax debt rate against an investment you might abandon. Employer matches and RRSP brackets are exceptions. Mortgages are a different species.",
     image: "/images/blog/debt-payoff-vs-investing-canada.png",
     content: `<div class="container">
@@ -24578,9 +24673,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <p>On debt whose interest you cannot deduct, the return from a prepayment is the interest rate itself. You do not pay tax on interest you no longer owe. There is no market path where that return goes negative. That is the hurdle.</p>
 
-    <p>On debt whose interest is deductible because the borrowed money earns income, the hurdle is lower. An illustrative rate of 6 percent at an illustrative 40 percent marginal rate is an after-tax cost of 3.6 percent. Those figures are a picture of the formula — rate times one minus your marginal rate — not a quote and not your bracket. Find the bracket in the <a href="/blog/federal-tax-brackets-2026/">federal</a> and <a href="/blog/provincial-tax-rates-2026/">provincial</a> guides, then use the rate on your own agreement. Deductibility is a use test. A line of credit that bought a television does not become deductible because a different part of the same line bought units. The tracing file is the <a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC guide</a>. This page will not rebuild it.</p>
+    <p>On debt whose interest is deductible because the borrowed money earns income, the hurdle is lower. An illustrative rate of 6 percent at an illustrative 40 percent marginal rate is an after-tax cost of 3.6 percent. Those figures are a picture of the formula — rate times one minus your marginal rate — not a quote and not your bracket. Find the bracket in the <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a> guides, then use the rate on your own agreement. Deductibility is a use test. A line of credit that bought a television does not become deductible because a different part of the same line bought units. The tracing file is the <a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC guide</a>. This page will not rebuild it.</p>
 
-    <p>On the investment side, write down an expected return you can defend, then take tax off if the account is non-registered. A TFSA return is after tax already. An RRSP return is not a gift: the deduction arrives now and the inclusion arrives later, which is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, not a reason to carry a card balance. A diversified equity portfolio's long-run expectation is an assumption. It is not a rate a bank owes you. If you cannot say the assumption out loud after imagining a large drawdown, you do not have an expected return.</p>
+    <p>On the investment side, write down an expected return you can defend, then take tax off if the account is non-registered. A TFSA return is after tax already. An RRSP return is not a gift: the deduction arrives now and the inclusion arrives later, which is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>, not a reason to carry a card balance. A diversified equity portfolio's long-run expectation is an assumption. It is not a rate a bank owes you. If you cannot say the assumption out loud after imagining a large drawdown, you do not have an expected return.</p>
 
     <div class="example-box">
         <strong>Illustration of a hurdle, not a forecast</strong>
@@ -24642,7 +24737,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">Prepayment versus TFSA and RRSP</a> — the order, including the refund loop.</li>
         <li><a href="/blog/heloc-strategies-cra-clean-canada/">CRA-clean HELOC strategies</a> — when interest is deductible.</li>
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — where the extra payment sits on payday.</li>
-        <li><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> — the deduction that is not a reason to revolve.</li>
+        <li><a href="/blog/rrsp-playbook/">RRSP playbook</a> — the deduction that is not a reason to revolve.</li>
     </ul>
 
     <div class="cta-section">
@@ -24653,7 +24748,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing debt repayment with investing for Canadian residents. It is not tax, credit, or investment advice, and it is not a recommendation to borrow or to invest. Interest rates, deductibility, and brackets are specific to your contracts and your return. Every rate and percentage in the examples is illustrative. Confirm the APR on your statement, the coupon on your mortgage, and the use of any borrowed money with a CPA before you rely on a deduction.</p>
-        <div class="footer-note">Published: January 3, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24664,7 +24759,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-04",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "A twice-yearly teardown of telecom, insurance, banking, subscriptions, auto add-ons, and housing contracts. Switch math, and the costs you should refuse to cut.",
     image: "/images/blog/fixed-cost-audit-canada.png",
     content: `<div class="container">
@@ -24793,7 +24889,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about reviewing household contracts in Canada. It is not insurance, tax, legal, or credit advice, and it is not a recommendation to cancel a policy or a service. Premiums, buyouts, device balances, and cancellation terms are specific to your contracts. The dollar figures in the payback example are illustrative. Read the renewal and the cancellation clause, and confirm coverage with a licensed broker before you replace a policy to save a premium.</p>
-        <div class="footer-note">Published: January 4, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24804,7 +24900,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-05",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "Joint bills, separate spending, proportional contributions, and a rule for conflict. Spousal RRSPs and the Canada Child Benefit are household facts, not a second tax course.",
     image: "/images/blog/couples-money-system-canada.png",
     content: `<div class="container">
@@ -24817,7 +24914,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="callout">
         <strong>Marriage and common-law are not the same switch in every system:</strong>
-        <p>CRA's common-law status has its own test, and it changes the return, the Canada Child Benefit, and credits that look at family income. Provincial family-property rules are a different statute and do not match the tax test. A life event that moves you from roommates to a household is the <a href="/blog/life-events-tax-implications-2026/">life-events guide</a>. Confirm the status before you file as two single people out of habit.</p>
+        <p>CRA's common-law status has its own test, and it changes the return, the Canada Child Benefit, and credits that look at family income. Provincial family-property rules are a different statute and do not match the tax test. A life event that moves you from roommates to a household is the <a href="/blog/life-events-tax-implications/">life-events guide</a>. Confirm the status before you file as two single people out of habit.</p>
     </div>
 
     <h2>Three account designs, and the one that usually survives</h2>
@@ -24874,7 +24971,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <p>A joint sinking fund without a purpose becomes a slush fund. Name the ones that matter this year.</p>
 
     <ul>
-        <li><strong>A first home.</strong> Each adult has their own FHSA. There is no spousal FHSA that works like a spousal RRSP. The deduction belongs to the person who contributes to their own plan. Whose room you use, and whose marginal rate makes the deduction more valuable, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">sequencing</a> and the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">account comparison</a>. If you move cash between you so an eligible spouse can contribute, confirm the gift does what you think before you file it as the other person's deduction.</li>
+        <li><strong>A first home.</strong> Each adult has their own FHSA. There is no spousal FHSA that works like a spousal RRSP. The deduction belongs to the person who contributes to their own plan. Whose room you use, and whose marginal rate makes the deduction more valuable, is <a href="/blog/fhsa-home-purchase-sequencing-canada/">sequencing</a> and the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">account comparison</a>. If you move cash between you so an eligible spouse can contribute, confirm the gift does what you think before you file it as the other person's deduction.</li>
         <li><strong>A house you already own.</strong> Extra principal versus TFSA versus RRSP is <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">which dollar first</a>. Decide it once, as a household, so one partner is not prepaying while the other assumes the surplus is a TFSA.</li>
         <li><strong>Children.</strong> The Canada Child Benefit follows adjusted family net income, not who paid the daycare from which account. A deduction in the higher-income name can change next July's benefit. The mechanism is the <a href="/blog/canada-child-benefit-optimization-canada/">CCB guide</a>. Do not rebuild the phase-out here, and do not treat a benefit estimate as a number you can budget to the dollar until you have read the current assessment. An RESP contribution is a dated transfer: name the subscriber, the successor subscriber, and the monthly amount. Confirm the current grant cap before you automate a figure you heard in a seminar.</li>
         <li><strong>Travel and other wants.</strong> A sinking fund with a date. Not a card balance you later call a memory.</li>
@@ -24914,7 +25011,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — family net income, not whose account paid.</li>
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the joint routing this operating system sits on.</li>
         <li><a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a> — whose room funds the down payment.</li>
-        <li><a href="/blog/life-events-tax-implications-2026/">Life events and tax</a> — marriage, common-law, separation.</li>
+        <li><a href="/blog/life-events-tax-implications/">Life events and tax</a> — marriage, common-law, separation.</li>
     </ul>
 
     <div class="cta-section">
@@ -24925,7 +25022,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about organizing money as a Canadian couple. It is not tax, family-law, or financial advice. Common-law tests, attribution rules, FHSA eligibility, and benefit calculations change and depend on your facts. Dollar figures in the split example are illustrative. Provincial property rights are not the CRA test. Have a CPA review a spousal plan, and a family lawyer review an agreement, before you rely on either.</p>
-        <div class="footer-note">Published: January 5, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -24936,7 +25033,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-06",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "Gross, after-tax, and what is left after shelter and debt payments are three different rates. Pick one definition, then automate it, including a rate a middle income can hold.",
     image: "/images/blog/saving-rate-targets-canada.png",
     content: `<div class="container">
@@ -25006,12 +25104,12 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>Raise the rate on the next dollar, not on the life you already have:</strong>
-        <p>Commit half of every after-tax raise, and a pre-written share of every bonus, to the automated transfer before you raise spending. The other half may raise your life. That is the point of the raise. A rate that only falls when income rises is lifestyle creep with a spreadsheet. The transfer itself is the <a href="/blog/money-automation-stack-canada/">stack</a>. The account that receives it is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>, not a new debate every payday.</p>
+        <p>Commit half of every after-tax raise, and a pre-written share of every bonus, to the automated transfer before you raise spending. The other half may raise your life. That is the point of the raise. A rate that only falls when income rises is lifestyle creep with a spreadsheet. The transfer itself is the <a href="/blog/money-automation-stack-canada/">stack</a>. The account that receives it is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>, not a new debate every payday.</p>
     </div>
 
     <h2>How the rate connects to investing without becoming a second portfolio article</h2>
 
-    <p>A saving rate that sits in a HISA forever is a cash decision. Once the <a href="/blog/emergency-fund-heloc-investments-canada/">cash layer</a> is funded, the ongoing transfer is an investment transfer. Automate it into the vehicle you already chose — often a single asset-allocation ETF — rather than into a new idea each month. The structure is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>, and the account is <a href="/blog/tfsa-contribution-optimization-2026/">TFSA timing</a> or the RRSP, on purpose. The rate does not care which ticker. It cares that the dollar left.</p>
+    <p>A saving rate that sits in a HISA forever is a cash decision. Once the <a href="/blog/emergency-fund-heloc-investments-canada/">cash layer</a> is funded, the ongoing transfer is an investment transfer. Automate it into the vehicle you already chose — often a single asset-allocation ETF — rather than into a new idea each month. The structure is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>, and the account is <a href="/blog/tfsa-contribution-optimization/">TFSA timing</a> or the RRSP, on purpose. The rate does not care which ticker. It cares that the dollar left.</p>
 
     <div class="warning-box">
         <strong>A target that is not a payday transfer is a wish:</strong>
@@ -25034,7 +25132,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the routing that makes the rate a transfer.</li>
         <li><a href="/blog/money-automation-stack-canada/">Automation stack</a> — so the rate survives a busy quarter.</li>
         <li><a href="/blog/fixed-cost-audit-canada/">Fixed-cost audit</a> — the cleanest way to raise the rate.</li>
-        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a> — which account receives the dollar.</li>
+        <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a> — which account receives the dollar.</li>
         <li><a href="/blog/debt-payoff-vs-investing-canada/">Debt payoff versus investing</a> — when the "saving" should be a payment instead.</li>
     </ul>
 
@@ -25046,7 +25144,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to define a household saving rate in Canada. It is not financial, tax, or retirement advice, and it is not a statement of what anyone should save. The percentages and dollar figures are an illustration of arithmetic, not a survey, not a target, and not your income. Contribution room and tax on RRSP withdrawals are specific to your return. Confirm room with CRA before you automate a contribution to hit a percentage.</p>
-        <div class="footer-note">Published: January 6, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25057,7 +25155,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Budgeting & Saving",
     categorySlug: "budgeting-saving",
     author: "Andrew Carrothers",
-    date: "2027-01-07",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "Payroll splits, scheduled transfers, a bill calendar, DRIP or auto-buy, and a card paid in full. Plus the overdrafts, missed minimums, and double charges that break it.",
     image: "/images/blog/money-automation-stack-canada.png",
     content: `<div class="container">
@@ -25120,13 +25219,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <h2>The bill calendar and the sinking transfer</h2>
 
-    <p>List every debit for the next twelve months. Housing, insurance, utilities, childcare, tax instalments if you are required to remit them, professional fees, annual subscriptions you decided to keep. The instalment rules are the <a href="/blog/quarterly-tax-instalments-2026/">instalments guide</a>. A household that automates everything except the quarterly tax payment will feel rich until the CRA date.</p>
+    <p>List every debit for the next twelve months. Housing, insurance, utilities, childcare, tax instalments if you are required to remit them, professional fees, annual subscriptions you decided to keep. The instalment rules are the <a href="/blog/quarterly-tax-instalments/">instalments guide</a>. A household that automates everything except the quarterly tax payment will feel rich until the CRA date.</p>
 
     <p>For each annual bill, the sinking transfer is the annual amount divided by the number of pays, landing in the HISA you chose in the <a href="/blog/hisa-vs-cash-etf-canada/">cash comparison</a>. The day the bill is due, one transfer pays it. You do not "cash-flow" an annual premium out of the spending account and then wonder why the saving rate missed.</p>
 
     <div class="tip-box">
         <strong>One fund, bought on a date:</strong>
-        <p>Point the brokerage pre-authorized contribution at a single ETF you have already selected. Dividend reinvestment inside an RRSP or TFSA avoids cash drag without a tax slip. In a non-registered account, reinvestment still adjusts your cost base, and a return-of-capital distribution is not yield. That bookkeeping is <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. If you will not track it, take the cash distribution and buy on your existing schedule instead of turning on a taxable DRIP you will forget.</p>
+        <p>Point the brokerage pre-authorized contribution at a single ETF you have already selected. Dividend reinvestment inside an RRSP or TFSA avoids cash drag without a tax slip. In a non-registered account, reinvestment still adjusts your cost base, and a return-of-capital distribution is not yield. That bookkeeping is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. If you will not track it, take the cash distribution and buy on your existing schedule instead of turning on a taxable DRIP you will forget.</p>
     </div>
 
     <h2>Card spend is a debit you already scheduled</h2>
@@ -25164,7 +25263,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
             <tr>
                 <td>Room collision</td>
                 <td>Payroll RRSP plus a personal pre-authorized contribution exceed the year's room.</td>
-                <td>One owner for the RRSP total. Check the CRA room before you raise either number. The limits are the <a href="/blog/contribution-limits-2026/">limits guide</a>.</td>
+                <td>One owner for the RRSP total. Check the CRA room before you raise either number. The limits are the <a href="/blog/contribution-limits/">limits guide</a>.</td>
             </tr>
             <tr>
                 <td>Drift</td>
@@ -25201,7 +25300,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — the amount the transfer is supposed to equal.</li>
         <li><a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETFs</a> — where the sinking cash waits.</li>
         <li><a href="/blog/card-churning-minimum-spend/">Minimum-spend math</a> — a bonus that has to fit the routing.</li>
-        <li><a href="/blog/contribution-limits-2026/">Contribution limits</a> — the ceiling on automated RRSP and TFSA transfers.</li>
+        <li><a href="/blog/contribution-limits/">Contribution limits</a> — the ceiling on automated RRSP and TFSA transfers.</li>
     </ul>
 
     <div class="cta-section">
@@ -25212,7 +25311,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about scheduling household transfers in Canada. It is not tax, banking, or investment advice, and it is not a recommendation of any institution or fund. Pre-authorized debit rules, contribution room, and settlement timing are specific to your accounts and change. No fee, rate, or room figure is stated as current. Confirm RRSP and TFSA room with CRA, and confirm debit dates with your bank, before you rely on an automation.</p>
-        <div class="footer-note">Published: January 7, 2027 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25224,7 +25323,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-08",
+    date: "2026-09-17",
+    updated: "2026-09-17",
     excerpt: "Price a raise against a job offer on after-tax total compensation: forfeited equity, pension service, benefits, and the RRSP room a higher salary actually creates.",
     image: "/images/blog/raise-promotion-negotiation-math-canada.png",
     content: `<div class="container">
@@ -25233,11 +25333,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         A higher base is a headline. The decision is <span class="highlight">after-tax total compensation, minus what you forfeit by leaving</span>. A $15,000 raise and a $15,000 hop are not the same cheque.
     </div>
 
-    <p>This page is the comparison. Equity that vests later is the <a href="/blog/rsu-stock-options-tax-canada/">RSU and stock-option guide</a>. If the offer is in another province, the tax and housing gap is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage inside Canada</a>. Where the extra dollars go once they land is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> and the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The brackets that turn gross into net are <a href="/blog/federal-tax-brackets-2026/">federal</a> and <a href="/blog/provincial-tax-rates-2026/">provincial</a>. Confirm the year's tables. Do not negotiate off a screenshot from last spring.</p>
+    <p>This page is the comparison. Equity that vests later is the <a href="/blog/rsu-stock-options-tax-canada/">RSU and stock-option guide</a>. If the offer is in another province, the tax and housing gap is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage inside Canada</a>. Where the extra dollars go once they land is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> and the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The brackets that turn gross into net are <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a>. Confirm the year's tables. Do not negotiate off a screenshot from last spring.</p>
 
     <div class="callout">
         <strong>RRSP room follows the raise by a year, and TFSA room does not follow it at all:</strong>
-        <p>New RRSP room is a percentage of the prior year's earned income, up to a dollar maximum, minus a pension adjustment if a plan exists. A raise you receive this year shows up as room next year. Dividends and most investment income do not create that room. TFSA room is a statutory amount. It does not grow because your salary did. Confirm both ceilings in your CRA account. The mechanics are the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>, the <a href="/blog/contribution-limits-2026/">limits guide</a>, and the <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">three-account comparison</a>.</p>
+        <p>New RRSP room is a percentage of the prior year's earned income, up to a dollar maximum, minus a pension adjustment if a plan exists. A raise you receive this year shows up as room next year. Dividends and most investment income do not create that room. TFSA room is a statutory amount. It does not grow because your salary did. Confirm both ceilings in your CRA account. The mechanics are the <a href="/blog/rrsp-playbook/">RRSP playbook</a>, the <a href="/blog/contribution-limits/">limits guide</a>, and the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>.</p>
     </div>
 
     <h2>Write the package in one column</h2>
@@ -25292,7 +25392,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>Ask for the base, and price the rest out loud:</strong>
-        <p>A one-time retention cheque does not compound and does not build next year's RRSP room. A base increase does both. If the employer offers a bonus instead of salary, convert it to the salary that would leave you even after tax, then say which one you are accepting. Employee deductions that already come off the cheque — union dues, professional fees, a required home office — stay in the picture either way. The list is <a href="/blog/tax-deductions-employees-2026/">employee deductions</a>.</p>
+        <p>A one-time retention cheque does not compound and does not build next year's RRSP room. A base increase does both. If the employer offers a bonus instead of salary, convert it to the salary that would leave you even after tax, then say which one you are accepting. Employee deductions that already come off the cheque — union dues, professional fees, a required home office — stay in the picture either way. The list is <a href="/blog/tax-deductions-employees/">employee deductions</a>.</p>
     </div>
 
     <h2>When the move wins</h2>
@@ -25329,7 +25429,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/rsu-stock-options-tax-canada/">RSUs and employee stock options</a> — how forfeited and newly granted equity is taxed.</li>
         <li><a href="/blog/db-vs-dc-pensions-canada/">Defined benefit versus defined contribution</a> — the pension you restart if you leave.</li>
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the benefit a raise may or may not lift.</li>
-        <li><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> — room, the pension adjustment, and the deduction.</li>
+        <li><a href="/blog/rrsp-playbook/">RRSP playbook</a> — room, the pension adjustment, and the deduction.</li>
         <li><a href="/blog/geographic-arbitrage-canada/">Geographic arbitrage</a> — when the offer is in another province.</li>
     </ul>
 
@@ -25341,7 +25441,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing Canadian employment offers. It is not tax, employment, or benefits advice. Marginal rates, CPP ceilings, RRSP dollar maximums, pension adjustments, and equity-plan rules change and are specific to your letter. Dollar amounts and the 43 percent rate in the example are an illustration of a comparison, not a bracket, not a salary survey, and not your package. Confirm rates with the current federal and provincial tables, room with CRA, and plan values with the administrator before you resign or accept.</p>
-        <div class="footer-note">Published: January 8, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 17, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25352,7 +25452,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-09",
+    date: "2026-09-18",
+    updated: "2026-09-18",
     excerpt: "Extra income can shrink GIS, the Canada Child Benefit, EI, and provincial credits by more than the tax on the dollar. Map the tests before you take the work.",
     image: "/images/blog/side-income-benefits-tax-clawbacks-canada.png",
     content: `<div class="container">
@@ -25361,7 +25462,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The expensive part of extra income is often <span class="highlight">the benefit it turns off</span>, not the invoice. A dollar that is taxed at a modest rate can still be a poor trade if a clawback takes fifty cents of a cheque you were already receiving.
     </div>
 
-    <p>This is a decision framework for income you are considering on top of a job, a pension, or a benefit. It is not a list of gigs. The map of which programs stack is <a href="/blog/government-benefits-stacking-map-canada/">the benefits stacking map</a>. GIS and the OAS recovery tax are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">its own guide</a>. Employment insurance while you work is <a href="/blog/employment-insurance-benefits-canada/">the EI guide</a>. Provincial credits that do not show up on the federal notice are <a href="/blog/provincial-benefits-programs-canada/">the provincial map</a>. If the extra income is a business rather than a few invoices, the filing is the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>.</p>
+    <p>This is a decision framework for income you are considering on top of a job, a pension, or a benefit. It is not a list of gigs. The map of which programs stack is <a href="/blog/government-benefits-stacking-map-canada/">the benefits stacking map</a>. GIS and the OAS recovery tax are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">its own guide</a>. Employment insurance while you work is <a href="/blog/employment-insurance-benefits-canada/">the EI guide</a>. Provincial credits that do not show up on the federal notice are <a href="/blog/provincial-benefits-programs-canada/">the provincial map</a>. If the extra income is a business rather than a few invoices, the filing is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>.</p>
 
     <div class="callout">
         <strong>Confirm the year's reduction. Do not memorize one:</strong>
@@ -25416,7 +25517,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
                 <td>Income tax and CPP</td>
                 <td>You, at the marginal rate on the extra dollar.</td>
                 <td>The year you earn it. Instalments can start the year after a balance owing.</td>
-                <td>The bracket, and whether the dollar is pensionable. Self-employed CPP is both shares. The instalment rules are <a href="/blog/quarterly-tax-instalments-2026/">quarterly instalments</a>.</td>
+                <td>The bracket, and whether the dollar is pensionable. Self-employed CPP is both shares. The instalment rules are <a href="/blog/quarterly-tax-instalments/">quarterly instalments</a>.</td>
             </tr>
         </tbody>
     </table>
@@ -25438,7 +25539,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="warning-box">
         <strong>A corporation does not make the dollar invisible:</strong>
-        <p>Leaving profit inside a company you control is not automatically outside a benefit test. Some programs use taxable income, some use a wider definition, and a dividend you take later can land in a worse year than the year you did the work. Income-splitting dividends with a family member who did not work in the business can be taxed at the top rate under the split-income rules. The decision to incorporate at all is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. Confirm the program's income definition before you defer a dollar to protect a cheque.</p>
+        <p>Leaving profit inside a company you control is not automatically outside a benefit test. Some programs use taxable income, some use a wider definition, and a dividend you take later can land in a worse year than the year you did the work. Income-splitting dividends with a family member who did not work in the business can be taxed at the top rate under the split-income rules. The decision to incorporate at all is <a href="/blog/should-you-incorporate/">should you incorporate</a>. Confirm the program's income definition before you defer a dollar to protect a cheque.</p>
     </div>
 
     <h2>What this framework refuses to be</h2>
@@ -25467,7 +25568,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS</a> — income-tested seniors' benefits.</li>
         <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a> — adjusted family net income.</li>
         <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a> — working while on a claim.</li>
-        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax</a> — when the side income is actually a business.</li>
+        <li><a href="/blog/self-employed-tax-guide/">Self-employed tax</a> — when the side income is actually a business.</li>
     </ul>
 
     <div class="cta-section">
@@ -25478,7 +25579,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how extra income can interact with Canadian benefits. It is not tax, benefits, or employment advice, and it is not a complete list of programs. Reduction rates, thresholds, and income definitions change and are deliberately not stated as current figures. The dollar amounts in the example are placeholders, not GIS, CCB, EI, or tax rates. Confirm parameters with CRA, Service Canada, and your provincial ministry, and get advice before you move income between years or into a corporation to affect a benefit.</p>
-        <div class="footer-note">Published: January 9, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 18, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25489,7 +25590,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-10",
+    date: "2026-09-19",
+    updated: "2026-09-19",
     excerpt: "RSUs are usually employment income at vesting. Options can be different. Withholding often misses the bill, and the shares are the same bet as your job.",
     image: "/images/blog/rsu-stock-options-tax-canada.png",
     content: `<div class="container">
@@ -25498,7 +25600,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         A vesting date is a paycheque wearing a ticker. In Canada the common case is <span class="highlight">employment income when the shares arrive</span>, then a capital gain or loss only on what happens after that. The withholdings on the pay stub are an estimate. The return is the bill.
     </div>
 
-    <p>This article is the Canadian tax shape of employer equity, and the concentration problem that comes with it. It is not a brokerage recommendation, and it does not link to a trading platform. Where a diversified portfolio sits once you have sold is <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset location</a> and <a href="/blog/tax-efficient-investing-2026/">tax-efficient investing</a>. Room for a cash contribution after a vest is the <a href="/blog/tfsa-contribution-optimization-2026/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. How to count unvested equity in a job offer is <a href="/blog/raise-promotion-negotiation-math-canada/">raise and promotion math</a>.</p>
+    <p>This article is the Canadian tax shape of employer equity, and the concentration problem that comes with it. It is not a brokerage recommendation, and it does not link to a trading platform. Where a diversified portfolio sits once you have sold is <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset location</a> and <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. Room for a cash contribution after a vest is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> and the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. How to count unvested equity in a job offer is <a href="/blog/raise-promotion-negotiation-math-canada/">raise and promotion math</a>.</p>
 
     <div class="callout">
         <strong>Name the instrument before you name the tax:</strong>
@@ -25543,13 +25645,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <ul>
         <li><strong>A large balance owing</strong> is how people discover that the sell-to-cover used a rate below their marginal rate. The cash to pay CRA in April was never set aside, because the shares felt like the savings.</li>
         <li><strong>A large refund</strong> is the other miss: too much withheld, or a deduction the payroll system did not apply and the return does. It is not a bonus. It is your money coming back late.</li>
-        <li><strong>Next year's instalments</strong> can start because this year's balance owing crossed the threshold. The rules are <a href="/blog/quarterly-tax-instalments-2026/">quarterly tax instalments</a>. A vest is a good year to warn your accountant before December, not in April.</li>
+        <li><strong>Next year's instalments</strong> can start because this year's balance owing crossed the threshold. The rules are <a href="/blog/quarterly-tax-instalments/">quarterly tax instalments</a>. A vest is a good year to warn your accountant before December, not in April.</li>
         <li><strong>Alternative minimum tax</strong> can apply when preferential treatment — including a large option deduction — is a big share of your income. The exemption and the rate change. Confirm on the return. Do not assume the deduction is free.</li>
     </ul>
 
     <div class="warning-box">
         <strong>Sell-to-cover is not a sale of the tax problem:</strong>
-        <p>The full value is still employment income. The shares that were sold withheld a tax estimate. You may also have a small capital gain or loss on those shares if the sale price differed from the value included in income. The shares you kept are still a concentrated position with a cost base equal to that included value. Keep the confirmations. The bookkeeping is <a href="/blog/tax-record-keeping-2026/">tax record keeping</a>.</p>
+        <p>The full value is still employment income. The shares that were sold withheld a tax estimate. You may also have a small capital gain or loss on those shares if the sale price differed from the value included in income. The shares you kept are still a concentrated position with a cost base equal to that included value. Keep the confirmations. The bookkeeping is <a href="/blog/tax-record-keeping/">tax record keeping</a>.</p>
     </div>
 
     <h2>Your job and your shares are one bet</h2>
@@ -25558,7 +25660,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>Registered accounts do not erase the income, and they can trap the concentration:</strong>
-        <p>Contributing the shares in kind to a TFSA or an RRSP is a disposition at fair market value. If you contribute immediately after vest, the capital gain may be small because your cost is the amount just included in income. A loss on a transfer into a registered account is a different and usually ugly rule. You use contribution room equal to the value. The shares inside the account are still one company, and inside an RRSP they are locked in until a withdrawal. The usual cleaner sequence is: set aside the tax, sell toward the concentration limit you wrote down, contribute cash to the TFSA or RRSP if the room and the priority say so. The priority is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>. A TFSA is also the wrong place for a private control block. Advantage and prohibited-investment rules exist. Confirm before you contribute employer shares of a company you influence.</p>
+        <p>Contributing the shares in kind to a TFSA or an RRSP is a disposition at fair market value. If you contribute immediately after vest, the capital gain may be small because your cost is the amount just included in income. A loss on a transfer into a registered account is a different and usually ugly rule. You use contribution room equal to the value. The shares inside the account are still one company, and inside an RRSP they are locked in until a withdrawal. The usual cleaner sequence is: set aside the tax, sell toward the concentration limit you wrote down, contribute cash to the TFSA or RRSP if the room and the priority say so. The priority is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>. A TFSA is also the wrong place for a private control block. Advantage and prohibited-investment rules exist. Confirm before you contribute employer shares of a company you influence.</p>
     </div>
 
     <div class="example-box">
@@ -25580,10 +25682,10 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <ul>
         <li><a href="/blog/raise-promotion-negotiation-math-canada/">Raise and promotion math</a> — how to price unvested equity you would forfeit.</li>
-        <li><a href="/blog/tax-efficient-investing-2026/">Tax-efficient investing</a> — what to hold once the employer shares are sold.</li>
+        <li><a href="/blog/tax-efficient-investing/">Tax-efficient investing</a> — what to hold once the employer shares are sold.</li>
         <li><a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset location</a> — TFSA, RRSP, and non-registered placement.</li>
-        <li><a href="/blog/quarterly-tax-instalments-2026/">Quarterly instalments</a> — the year after a vest leaves a balance owing.</li>
-        <li><a href="/blog/contribution-limits-2026/">Contribution limits</a> — room you would use if you contribute the cash.</li>
+        <li><a href="/blog/quarterly-tax-instalments/">Quarterly instalments</a> — the year after a vest leaves a balance owing.</li>
+        <li><a href="/blog/contribution-limits/">Contribution limits</a> — room you would use if you contribute the cash.</li>
     </ul>
 
     <div class="cta-section">
@@ -25594,7 +25696,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about employer equity for Canadian residents. It is not tax, securities, or employment advice. Grant terms, the stock-option deduction, CCPC deferral, withholding, foreign tax credits, and alternative minimum tax depend on the plan and the year. No withholding rate, deduction cap, or share value here is a current figure. The vest example is an illustration. Confirm the agreement with the issuer and the tax result with a CPA before you exercise, contribute shares in kind, or file.</p>
-        <div class="footer-note">Published: January 10, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25605,7 +25707,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-11",
+    date: "2026-09-20",
+    updated: "2026-09-20",
     excerpt: "A contract rate is not an hourly wage. Price both CPP shares, the EI you do not get, unpaid time, benefits you now buy, and tax before you leave a salary.",
     image: "/images/blog/consulting-rate-after-cpp-ei-tax-canada.png",
     content: `<div class="container">
@@ -25614,7 +25717,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Dividing a salary by 2,000 hours is not your wage, and quoting that number plus twenty percent is not a consulting rate. The rate has to buy <span class="highlight">both shares of CPP, the benefits a payroll used to buy, the weeks you cannot bill, and the tax</span>.
     </div>
 
-    <p>The filing once you are actually self-employed is the <a href="/blog/self-employed-tax-guide-2026/">self-employed tax guide</a>. The point at which a corporation starts to matter is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>, and the salary-or-dividend choice after that is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. Instalments are <a href="/blog/quarterly-tax-instalments-2026/">quarterly tax instalments</a>. If the contract income will also move a household benefit, run <a href="/blog/side-income-benefits-tax-clawbacks-canada/">the clawback framework</a> before you celebrate the gross. Replacing the disability policy your employer carried is the <a href="/blog/disability-insurance-canada-guide/">disability guide</a>.</p>
+    <p>The filing once you are actually self-employed is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>. The point at which a corporation starts to matter is <a href="/blog/should-you-incorporate/">should you incorporate</a>, and the salary-or-dividend choice after that is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. Instalments are <a href="/blog/quarterly-tax-instalments/">quarterly tax instalments</a>. If the contract income will also move a household benefit, run <a href="/blog/side-income-benefits-tax-clawbacks-canada/">the clawback framework</a> before you celebrate the gross. Replacing the disability policy your employer carried is the <a href="/blog/disability-insurance-canada-guide/">disability guide</a>.</p>
 
     <div class="callout">
         <strong>Employment insurance does not come with the invoice:</strong>
@@ -25699,8 +25802,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/self-employed-tax-guide-2026/">Self-employed tax guide</a> — the return once the rate is real.</li>
-        <li><a href="/blog/should-you-incorporate-2026/">Should you incorporate</a> — when the T2 earns its cost.</li>
+        <li><a href="/blog/self-employed-tax-guide/">Self-employed tax guide</a> — the return once the rate is real.</li>
+        <li><a href="/blog/should-you-incorporate/">Should you incorporate</a> — when the T2 earns its cost.</li>
         <li><a href="/blog/salary-vs-dividends-incorporated-canada/">Salary versus dividends</a> — how to pay yourself if you do incorporate.</li>
         <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a> — regular benefits versus the special-benefit opt-in.</li>
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the policy the employer used to carry.</li>
@@ -25714,7 +25817,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing employment and self-employed rates in Canada. It is not tax, insurance, or employment-law advice. CPP ceilings, EI opt-in rules, the small-supplier threshold, and employee-versus-contractor tests change. The hours and dollar figures in the example are an illustration of a gross-up, not a recommended rate and not a statement of tax. Confirm CPP and GST with CRA, and have a CPA review a contract that is really a job, before you resign.</p>
-        <div class="footer-note">Published: January 11, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 20, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25726,7 +25829,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-12",
+    date: "2026-09-21",
+    updated: "2026-09-21",
     excerpt: "Salary creates RRSP room and CPP. Dividends do not. Integration is the design of the system, and the mix is a file decision, not a slogan.",
     image: "/images/blog/salary-vs-dividends-incorporated-canada.png",
     content: `<div class="container">
@@ -25735,7 +25839,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Dividends are not a loophole, and salary is not a moral duty. They are two ways to take money out of a company you already taxed once inside the corporation. <span class="highlight">Integration is supposed to make them roughly even. It does not make them the same.</span>
     </div>
 
-    <p>Whether the company should exist is <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. What to do with money you deliberately leave inside it is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is only the extraction: salary, dividend, or a mix, for a Canadian resident who controls a private company. The personal room a salary creates is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> and the <a href="/blog/contribution-limits-2026/">limits guide</a>. How large the invoice had to be before any of this mattered is <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">the consulting rate</a>.</p>
+    <p>Whether the company should exist is <a href="/blog/should-you-incorporate/">should you incorporate</a>. What to do with money you deliberately leave inside it is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is only the extraction: salary, dividend, or a mix, for a Canadian resident who controls a private company. The personal room a salary creates is the <a href="/blog/rrsp-playbook/">RRSP playbook</a> and the <a href="/blog/contribution-limits/">limits guide</a>. How large the invoice had to be before any of this mattered is <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">the consulting rate</a>.</p>
 
     <div class="callout">
         <strong>Confirm the year's gross-up, credit, and ceilings with your accountant:</strong>
@@ -25787,7 +25891,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="tip-box">
         <strong>A mix is the usual adult answer:</strong>
-        <p>Salary up to the amount that does the jobs dividends cannot do: RRSP room you actually want, CPP earnings you still want on the record, and any personal deduction that needs earned income. Dividends for the rest of what you need to live, drawn from the right tax balance — eligible or non-eligible — so you are not manufacturing the wrong credit. If you need every dollar the company earns, deferral is not real and the salary-heavy file is often simpler. The personal shelters still come first. TFSA room does not depend on this choice. Fill it from whichever cheque you take. The order is <a href="/blog/rrsp-vs-tfsa-vs-fhsa-2026/">RRSP versus TFSA versus FHSA</a>.</p>
+        <p>Salary up to the amount that does the jobs dividends cannot do: RRSP room you actually want, CPP earnings you still want on the record, and any personal deduction that needs earned income. Dividends for the rest of what you need to live, drawn from the right tax balance — eligible or non-eligible — so you are not manufacturing the wrong credit. If you need every dollar the company earns, deferral is not real and the salary-heavy file is often simpler. The personal shelters still come first. TFSA room does not depend on this choice. Fill it from whichever cheque you take. The order is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>.</p>
     </div>
 
     <h2>Passive income, at the level this decision needs</h2>
@@ -25827,10 +25931,10 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/should-you-incorporate-2026/">Should you incorporate</a> — the decision this article assumes you have already made.</li>
+        <li><a href="/blog/should-you-incorporate/">Should you incorporate</a> — the decision this article assumes you have already made.</li>
         <li><a href="/blog/corporate-vs-personal-investing-canada/">Corporate versus personal investing</a> — passive income, refundable tax, and the small-business grind.</li>
         <li><a href="/blog/holding-company-income-streams-canada/">Holding-company income</a> — when a second company holds the surplus.</li>
-        <li><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> — the room a salary is buying.</li>
+        <li><a href="/blog/rrsp-playbook/">RRSP playbook</a> — the room a salary is buying.</li>
         <li><a href="/blog/cpp-when-to-take-canada/">When to take CPP</a> — why the earnings record matters later.</li>
     </ul>
 
@@ -25842,7 +25946,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about salary and dividends from a Canadian private corporation. It is not tax or financial advice. Integration rates, gross-up fractions, CPP ceilings, RRSP maximums, passive-income thresholds, and split-income exclusions change and depend on the corporation's balances. No rate or dollar figure in the example is current law. Confirm the mix with a CPA before you set payroll or declare a dividend.</p>
-        <div class="footer-note">Published: January 12, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25853,7 +25957,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-13",
+    date: "2026-09-22",
+    updated: "2026-09-22",
     excerpt: "A holding company can separate surplus and risk from an operating company. It does not create a new tax shelter, and it is not a reason to incorporate.",
     image: "/images/blog/holding-company-income-streams-canada.png",
     content: `<div class="container">
@@ -25862,7 +25967,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         A holding company is a box for surplus, not a salary. It earns its keep when <span class="highlight">investment assets and estate planning should not live inside the company that has the customers, the employees, and the lawsuits</span>. It does not earn its keep as a product someone sells you.
     </div>
 
-    <p>If you are still deciding whether any corporation should exist, stop and read <a href="/blog/should-you-incorporate-2026/">should you incorporate</a>. If the question is whether a portfolio belongs in a company or in your TFSA and RRSP, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. How cash comes out as salary or dividends is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. Rental property inside a company is a different failure mode: <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation</a>. This page is the holdco itself — the streams it can receive, and the reasons it is usually a mistake.</p>
+    <p>If you are still deciding whether any corporation should exist, stop and read <a href="/blog/should-you-incorporate/">should you incorporate</a>. If the question is whether a portfolio belongs in a company or in your TFSA and RRSP, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. How cash comes out as salary or dividends is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. Rental property inside a company is a different failure mode: <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation</a>. This page is the holdco itself — the streams it can receive, and the reasons it is usually a mistake.</p>
 
     <div class="callout">
         <strong>Personal shelters still come first:</strong>
@@ -25964,7 +26069,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about holding companies for Canadian private-company owners. It is not tax, legal, or financial advice, and it is not an invitation to incorporate. Association, connected-corporation, split-income, QSBC, and insurance rules are specific to the file and change. The $40,000 figure is an illustration of a file that does not need a holdco, not a threshold. Have a CPA and a tax lawyer review any structure before you move assets or declare an intercorporate dividend.</p>
-        <div class="footer-note">Published: January 13, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -25975,7 +26080,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-14",
+    date: "2026-09-23",
+    updated: "2026-09-23",
     excerpt: "A lower provincial rate can lose to rent, a health-coverage wait, and a payroll office that still thinks you live where you used to. Price the life, not the bracket.",
     image: "/images/blog/geographic-arbitrage-canada.png",
     content: `<div class="container">
@@ -25984,7 +26090,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Moving for a lower provincial tax rate is a hobby unless you also move the rent. Inside Canada the spread that matters is <span class="highlight">after-tax income minus the housing you actually buy or lease</span>, plus the coverage gap while the new province decides you live there.
     </div>
 
-    <p>Provincial brackets are <a href="/blog/provincial-tax-rates-2026/">the provincial tax guide</a>. Federal brackets still apply everywhere and are <a href="/blog/federal-tax-brackets-2026/">the federal guide</a>. Confirm both for the year you move. What you do with a gap that survives housing is the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. If you keep the old place and rent it, that is a different tax file: <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus a rental</a>. The land-transfer bill if you buy is <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer tax and closing costs</a>. A job offer that only exists in the other city is still <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a> before it is a moving quote.</p>
+    <p>Provincial brackets are <a href="/blog/provincial-tax-rates/">the provincial tax guide</a>. Federal brackets still apply everywhere and are <a href="/blog/federal-tax-brackets/">the federal guide</a>. Confirm both for the year you move. What you do with a gap that survives housing is the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. If you keep the old place and rent it, that is a different tax file: <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus a rental</a>. The land-transfer bill if you buy is <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer tax and closing costs</a>. A job offer that only exists in the other city is still <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a> before it is a moving quote.</p>
 
     <div class="callout">
         <strong>December 31 is the provincial tax test for residents:</strong>
@@ -26064,7 +26170,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/provincial-tax-rates-2026/">Provincial tax rates</a> — the brackets to confirm for the year you move.</li>
+        <li><a href="/blog/provincial-tax-rates/">Provincial tax rates</a> — the brackets to confirm for the year you move.</li>
         <li><a href="/blog/land-transfer-tax-closing-costs-canada/">Land transfer tax and closing costs</a> — the toll if you buy.</li>
         <li><a href="/blog/primary-residence-vs-rental-property-canada/">Primary residence versus a rental</a> — if you keep the old home.</li>
         <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — what to do with a gap that is real.</li>
@@ -26079,7 +26185,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing life across Canadian provinces. It is not tax, immigration, employment, or health-coverage advice. Residency tests, payroll rules, waiting periods, and brackets change. The tax and rent figures in the example are an illustration of a method, not the rates or rents of any province. Confirm tax with the current official tables, coverage with the provincial plan, and your employer's ability to pay you with payroll before you move.</p>
-        <div class="footer-note">Published: January 14, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 23, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
@@ -26090,7 +26196,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     category: "Earning More",
     categorySlug: "earning-more",
     author: "Andrew Carrothers",
-    date: "2027-01-15",
+    date: "2026-09-24",
+    updated: "2026-09-24",
     excerpt: "Compare the after-tax path of retraining with the path of staying. Tuition help, student loans, a pension you leave, and RRSP withdrawals for school all belong in the sum.",
     image: "/images/blog/career-switch-after-tax-lifetime-earnings-canada.png",
     content: `<div class="container">
@@ -26143,11 +26250,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     <h2>Canadian help, at the level of "confirm it"</h2>
 
     <ul>
-        <li><strong>The tuition tax credit</strong> is a non-refundable credit. Unused amounts can carry forward, and a transfer to a spouse, partner, or parent is possible within limits that change. It is not a refund of the tuition. The credit survey is <a href="/blog/missed-tax-credits-2026/">missed tax credits</a>. Confirm the year's rate and the transfer cap on the return.</li>
+        <li><strong>The tuition tax credit</strong> is a non-refundable credit. Unused amounts can carry forward, and a transfer to a spouse, partner, or parent is possible within limits that change. It is not a refund of the tuition. The credit survey is <a href="/blog/missed-tax-credits/">missed tax credits</a>. Confirm the year's rate and the transfer cap on the return.</li>
         <li><strong>Employer-paid training</strong> is often not a taxable benefit when the point is to do the job you already have. Training that is really your next career can be a taxable benefit. The distinction is factual. Confirm before you ask the company to pay for a degree that walks you out the door. If they will not pay, that answer is data.</li>
         <li><strong>A training credit on the notice of assessment,</strong> if one still exists in the year you study, is whatever the notice says. Do not budget a figure from an old article. If the line is gone, it is gone.</li>
-        <li><strong>The Lifelong Learning Plan</strong> can let you withdraw from an RRSP for qualifying full-time education without an immediate inclusion, if you meet the student, program, and repayment rules. Missed repayments are included in income. It is not the Home Buyers' Plan. Do not borrow that plan's dollar cap or its repayment clock. The RRSP itself is the <a href="/blog/rrsp-playbook-2026/">RRSP playbook</a>. Confirm the year's LLP limits with CRA. Withdrawing retirement savings to pay tuition is a real cost even when the inclusion is deferred.</li>
-        <li><strong>An RESP</strong> is an education account for a beneficiary, usually a child. Grants and the child's tax on withdrawals are designed for that person's schooling. Using it to fund a parent's career change is the wrong tool and can claw grants back. Family education savings are discussed in <a href="/blog/tax-tips-families-2026/">tax tips for families</a>. Leave the child's plan alone unless a CPA tells you the beneficiary and the program match.</li>
+        <li><strong>The Lifelong Learning Plan</strong> can let you withdraw from an RRSP for qualifying full-time education without an immediate inclusion, if you meet the student, program, and repayment rules. Missed repayments are included in income. It is not the Home Buyers' Plan. Do not borrow that plan's dollar cap or its repayment clock. The RRSP itself is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. Confirm the year's LLP limits with CRA. Withdrawing retirement savings to pay tuition is a real cost even when the inclusion is deferred.</li>
+        <li><strong>An RESP</strong> is an education account for a beneficiary, usually a child. Grants and the child's tax on withdrawals are designed for that person's schooling. Using it to fund a parent's career change is the wrong tool and can claw grants back. Family education savings are discussed in <a href="/blog/tax-tips-families/">tax tips for families</a>. Leave the child's plan alone unless a CPA tells you the beneficiary and the program match.</li>
     </ul>
 
     <div class="warning-box">
@@ -26184,8 +26291,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/raise-promotion-negotiation-math-canada/">Raise and promotion math</a> — the stay path, priced properly.</li>
         <li><a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">Consulting rate after CPP, EI, and tax</a> — if the new career is self-employment.</li>
         <li><a href="/blog/db-vs-dc-pensions-canada/">Defined benefit versus defined contribution</a> — the pension accrual you pause.</li>
-        <li><a href="/blog/rrsp-playbook-2026/">RRSP playbook</a> — the account an LLP withdrawal comes out of.</li>
-        <li><a href="/blog/missed-tax-credits-2026/">Missed tax credits</a> — tuition and the credits around it.</li>
+        <li><a href="/blog/rrsp-playbook/">RRSP playbook</a> — the account an LLP withdrawal comes out of.</li>
+        <li><a href="/blog/missed-tax-credits/">Missed tax credits</a> — tuition and the credits around it.</li>
     </ul>
 
     <div class="cta-section">
@@ -26196,10 +26303,27 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing career paths on after-tax cash flows in Canada. It is not tax, career, or lending advice. Tuition-credit rates, training credits, Lifelong Learning Plan limits, student-loan interest, and pension commuted values change and are specific to your file. The wages, tuition, and 5 percent discount in the example are an illustration of a method, not a forecast and not a recommended rate. Confirm loan terms with the lender, LLP rules with CRA, and pension options with the plan administrator before you resign or enrol.</p>
-        <div class="footer-note">Published: January 15, 2027 | Category: Earning More | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: September 24, 2026 | Category: Earning More | Author: Andrew Carrothers</div>
     </div>
 
 </div>`
   }
 
 ];
+
+// seo-date-guard: refuse to ship a post dated after today in America/Toronto.
+const contentAsOf = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'America/Toronto',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+}).format(new Date());
+
+for (const post of posts) {
+  if (post.date > contentAsOf) {
+    throw new Error(`Post "${post.slug}" is dated ${post.date}, after ${contentAsOf}. Future dates cannot ship.`);
+  }
+  if (post.updated > contentAsOf) {
+    throw new Error(`Post "${post.slug}" was updated ${post.updated}, after ${contentAsOf}.`);
+  }
+}
