@@ -1,8 +1,19 @@
+import type { Metadata } from 'next';
 import Button from "@/components/ui/Button";
 import ArticleCard from "@/components/ui/ArticleCard";
 import EbookCard from "@/components/ui/EbookCard";
+import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import Link from 'next/link';
 import Image from 'next/image';
+import { buildPageMetadata, homeSchema } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Canadian Optimizer | Tax, Investing, and Retirement Strategies for Canadians',
+  description:
+    'Practical tax, investing, retirement, and credit-card strategies for Canadians who want to keep more of what they earn and put it to work.',
+  path: '/',
+  absoluteTitle: true,
+});
 
 const FOCUS_AREAS = [
   { name: 'Investing', icon: '🏦', desc: 'Portfolio optimization and long-term wealth building', slug: '/category/investing' },
@@ -19,6 +30,7 @@ const FOCUS_AREAS = [
 export default function Home() {
   return (
     <>
+      <SchemaMarkup data={[homeSchema()]} />
       {/* Hero Section */}
       <section className="bg-light-slate py-20 lg:py-32">
         <div className="container mx-auto px-4 text-center max-w-4xl">
@@ -75,13 +87,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ArticleCard 
-              slug="tfsa-contribution-optimization-2026"
+              slug="tfsa-contribution-optimization"
               title="TFSA Contribution Optimization Strategy for 2026"
               excerpt="When to fund 2026 TFSA room, which assets belong inside, and the overcontribution mistakes that cost more than the contribution."
               category="Investing"
               author="Andrew Carrothers"
               date="September 15, 2026"
-              imageUrl="/images/blog/tfsa-contribution-optimization-2026.png"
+              imageUrl="/images/blog/tfsa-contribution-optimization.png"
             />
             <ArticleCard 
               slug="card-churning-minimum-spend"
@@ -89,7 +101,7 @@ export default function Home() {
               excerpt="How to hit high minimum spend requirements without buying things you don't need or tying up your cash flow."
               category="Credit Cards"
               author="Andrew Carrothers"
-              date="September 18, 2026"
+              date="September 17, 2026"
               imageUrl="/images/blog/card-churning-minimum-spend.png"
             />
             <ArticleCard 

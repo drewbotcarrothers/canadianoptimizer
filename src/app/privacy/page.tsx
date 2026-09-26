@@ -1,3 +1,13 @@
+import type { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Privacy Policy',
+  description:
+    'How Canadian Optimizer handles information you share, including email signups and cookies, and what the site does not sell.',
+  path: '/privacy/',
+});
+
 export default function PrivacyPolicy() {
   return (
     <div className="bg-white min-h-screen py-16 md:py-24">

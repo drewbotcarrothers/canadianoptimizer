@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import ArticleCard from "@/components/ui/ArticleCard";
 import { posts } from "@/data/posts";
+import { buildPageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Financial Strategies and Guides',
+  description:
+    'Canadian tax, retirement, investing, credit-card, and real-estate guides, written so you can apply the idea to your own accounts.',
+  path: '/blog/',
+});
 
 export default function Blog() {
   // Sort posts by date, newest first

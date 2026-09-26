@@ -1,0 +1,54 @@
+# Canadian Optimizer canonical host and legacy post URLs.
+# Hostinger shared hosting (LiteSpeed/Apache) reads this file from the site root.
+# The static export copies public/.htaccess into out/ (see scripts/copy-htaccess.mjs).
+# FTP-Deploy-Action excludes **/.git*, **/.git*/**, and **/node_modules/** only.
+# Those patterns do not match .htaccess.
+
+RewriteEngine On
+
+# Send plain HTTP to HTTPS. Also require the forwarded protocol so a proxy
+# that already terminated TLS does not loop.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
+
+# www.canadianoptimizer.com -> https://canadianoptimizer.com
+RewriteCond %{HTTP_HOST} ^www\.canadianoptimizer\.com$ [NC]
+RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
+
+# Year-bearing post slugs.
+RewriteRule ^blog/best-cash-back-credit-cards-canada-2026/?$ https://canadianoptimizer.com/blog/best-cash-back-credit-cards-canada/ [R=301,L]
+RewriteRule ^blog/best-travel-rewards-cards-canada-2026/?$ https://canadianoptimizer.com/blog/best-travel-rewards-cards-canada/ [R=301,L]
+RewriteRule ^blog/tfsa-contribution-optimization-2026/?$ https://canadianoptimizer.com/blog/tfsa-contribution-optimization/ [R=301,L]
+RewriteRule ^blog/best-online-brokerages-canada-2026/?$ https://canadianoptimizer.com/blog/best-online-brokerages-canada/ [R=301,L]
+RewriteRule ^blog/working-with-tax-professional-2026/?$ https://canadianoptimizer.com/blog/working-with-tax-professional/ [R=301,L]
+RewriteRule ^blog/life-events-tax-implications-2026/?$ https://canadianoptimizer.com/blog/life-events-tax-implications/ [R=301,L]
+RewriteRule ^blog/retirement-income-planning-2026/?$ https://canadianoptimizer.com/blog/retirement-income-planning/ [R=301,L]
+RewriteRule ^blog/quarterly-tax-instalments-2026/?$ https://canadianoptimizer.com/blog/quarterly-tax-instalments/ [R=301,L]
+RewriteRule ^blog/tax-deductions-employees-2026/?$ https://canadianoptimizer.com/blog/tax-deductions-employees/ [R=301,L]
+RewriteRule ^blog/self-employed-tax-guide-2026/?$ https://canadianoptimizer.com/blog/self-employed-tax-guide/ [R=301,L]
+RewriteRule ^blog/tax-efficient-investing-2026/?$ https://canadianoptimizer.com/blog/tax-efficient-investing/ [R=301,L]
+RewriteRule ^blog/tax-deduction-checklist-2026/?$ https://canadianoptimizer.com/blog/tax-deduction-checklist/ [R=301,L]
+RewriteRule ^blog/should-you-incorporate-2026/?$ https://canadianoptimizer.com/blog/should-you-incorporate/ [R=301,L]
+RewriteRule ^blog/tax-planning-calendar-2026/?$ https://canadianoptimizer.com/blog/tax-planning-calendar/ [R=301,L]
+RewriteRule ^blog/federal-tax-brackets-2026/?$ https://canadianoptimizer.com/blog/federal-tax-brackets/ [R=301,L]
+RewriteRule ^blog/provincial-tax-rates-2026/?$ https://canadianoptimizer.com/blog/provincial-tax-rates/ [R=301,L]
+RewriteRule ^blog/rrsp-vs-tfsa-vs-fhsa-2026/?$ https://canadianoptimizer.com/blog/rrsp-vs-tfsa-vs-fhsa/ [R=301,L]
+RewriteRule ^blog/contribution-limits-2026/?$ https://canadianoptimizer.com/blog/contribution-limits/ [R=301,L]
+RewriteRule ^blog/missed-tax-credits-2026/?$ https://canadianoptimizer.com/blog/missed-tax-credits/ [R=301,L]
+RewriteRule ^blog/tax-record-keeping-2026/?$ https://canadianoptimizer.com/blog/tax-record-keeping/ [R=301,L]
+RewriteRule ^blog/tax-tips-families-2026/?$ https://canadianoptimizer.com/blog/tax-tips-families/ [R=301,L]
+RewriteRule ^blog/best-tax-software-2026/?$ https://canadianoptimizer.com/blog/best-tax-software/ [R=301,L]
+RewriteRule ^blog/tfsa-strategies-2026/?$ https://canadianoptimizer.com/blog/tfsa-strategies/ [R=301,L]
+RewriteRule ^blog/cra-audit-guide-2026/?$ https://canadianoptimizer.com/blog/cra-audit-guide/ [R=301,L]
+RewriteRule ^blog/rrsp-playbook-2026/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^blog/cra-deadlines-2026/?$ https://canadianoptimizer.com/blog/cra-deadlines/ [R=301,L]
+RewriteRule ^blog/tax-glossary-2026/?$ https://canadianoptimizer.com/blog/tax-glossary/ [R=301,L]
+RewriteRule ^blog/fhsa-guide-2026/?$ https://canadianoptimizer.com/blog/fhsa-guide/ [R=301,L]
+
+# Keep the site's trailing-slash behaviour: /path -> /path/
+# Skip files such as sitemap.xml, robots.txt, rss.xml, llms.txt, and images.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{1,5}$
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ https://canadianoptimizer.com/$1/ [L,R=301]

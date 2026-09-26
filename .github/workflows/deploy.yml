@@ -25,6 +25,15 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Confirm SEO files are in the export
+        run: |
+          test -f out/.htaccess
+          test -f out/sitemap.xml
+          test -f out/robots.txt
+          test -f out/llms.txt
+          test -f out/rss.xml
+          test -f out/feed.xml
+
       - name: Deploy to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
@@ -35,3 +44,10 @@ jobs:
           server-dir: /
           port: 21
           dangerous-clean-slate: false
+          # Default library excludes are **/.git*, **/.git*/**, and **/node_modules/**.
+          # .htaccess does not match those patterns (verified with multimatch, dot: true).
+          # Do not replace this list with a blanket dotfile exclude.
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
