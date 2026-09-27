@@ -168,6 +168,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <li><a href="/blog/first-time-home-buyer-guide-canada/">First-time home buyer guide</a> — FHSA, HBP, the home buyers' amount, and CMHC.</li>
         <li><a href="/blog/home-buyers-plan-hbp-guide/">Home Buyers' Plan</a> — the $60,000 limit and the 2031 repayment start for a 2026 withdrawal.</li>
         <li><a href="/blog/readvanceable-mortgage-canada/">Readvanceable mortgages</a> — the 65% cap and the lender pages that describe the product.</li>
+        <li><a href="/blog/rent-vs-buy-canada/">Rent versus buy</a> — ending wealth on the down payment, the rate, and the costs you type.</li>
+        <li><a href="/blog/mortgage-prepayment-calculator/">Mortgage prepayment calculator</a> — the semi-annual payment, and the interest a lump sum saves.</li>
     </ul>
 
     <h2>Frequently asked questions</h2>
