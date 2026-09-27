@@ -1,5 +1,6 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 import { creditCardClusterPosts } from './credit-card-cluster';
+import { investingClusterPosts } from './investing-cluster';
 
 export const posts = [
   {
@@ -18,7 +19,7 @@ export const posts = [
         A DIY ETF portfolio is two decisions, and people skip the one that actually changes the tax bill. First, how much of the household sits in equities versus bonds. Second, <span class="highlight">which account holds which sleeve</span>. The ticker is the last choice, and it is the one the internet argues about.
     </div>
 
-    <p>You do not need a forecast, a sector bet, or a new fund every January. You need a mix you will still hold after a bad year, placed so interest, eligible dividends, and US withholding tax fall in the account that treats them least badly. Product names below are examples of a structure. Management fees, holdings, and tax character change. Read the current ETF facts sheet before you buy, and do not treat any figure on this page as a live quote or a promised return.</p>
+    <p>You do not need a forecast, a sector bet, or a new fund every January. You need a mix you will still hold after a bad year, placed so interest, eligible dividends, and US withholding tax fall in the account that treats them least badly. Product names below are examples of a structure. Management fees, holdings, and tax character change. Read the current ETF facts sheet before you buy, and do not treat any figure on this page as a live quote or a promised return. The hub that sits above this map is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Fill the room before you engineer the taxable account:</strong>
@@ -208,7 +209,7 @@ export const posts = [
         There is no best online brokerage in Canada in 2026. There is a best <span class="highlight">structure</span> for the portfolio you already designed: the foreign-exchange cost you will actually pay, the registered accounts you need, and a transfer-out fee you have read. A zero-commission headline is not a cost.
     </div>
 
-    <p>A generation of Canadian brokers cut the sticker price on stock and ETF trades. That was useful. It also pushed the real cost into the lines the advertisement does not lead with: converting Canadian dollars into US dollars, market data, assisted trades, idle cash, and the fee for leaving. This is a comparison of those structures. It is not a price list, not a ranking, and not a referral. Names you already see elsewhere on this site — Wealthsimple, Questrade, Interactive Brokers, and the bank-owned dealers — are examples. They are not a winner's podium.</p>
+    <p>A generation of Canadian brokers cut the sticker price on stock and ETF trades. That was useful. It also pushed the real cost into the lines the advertisement does not lead with: converting Canadian dollars into US dollars, market data, assisted trades, idle cash, and the fee for leaving. This is a comparison of those structures. It is not a price list, not a ranking, and not a referral. Names you already see elsewhere on this site — Wealthsimple, Questrade, Interactive Brokers, and the bank-owned dealers — are examples. They are not a winner's podium. Dated September 2026 fees for Wealthsimple and Questrade, and the rest of the cluster, are in <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Verify the schedule you are about to sign:</strong>
@@ -448,7 +449,7 @@ export const posts = [
         A management-expense ratio looks harmless because it is a small percent of this year's balance. The damage is that the fund removes it <span class="highlight">every year after that</span>, from money that would have compounded. The fee is certain. The outperformance you are paying for is not.
     </div>
 
-    <p>Broad index funds and ETFs usually win for that reason, not because a ticker is magic. A low-cost fund that owns a wide market keeps the part of the return the market actually delivered. A fund that charges more has to beat that market by at least the fee, after its own trading, in the years you happen to own it. This page shows the arithmetic. It does not quote a live MER, name a winner, or promise a return. Product names, where they appear at all, are examples of a structure. Read the current ETF facts sheet before you buy.</p>
+    <p>Broad index funds and ETFs usually win for that reason, not because a ticker is magic. A low-cost fund that owns a wide market keeps the part of the return the market actually delivered. A fund that charges more has to beat that market by at least the fee, after its own trading, in the years you happen to own it. This page shows the arithmetic. It does not quote a live MER, name a winner, or promise a return. Product names, where they appear at all, are examples of a structure. Read the current ETF facts sheet before you buy. Where those fees sit in the whole plan is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>The fee is the second decision:</strong>
@@ -631,7 +632,7 @@ export const posts = [
         A dividend feels like income, and the Canadian dividend tax credit feels like a reward for owning the right stocks. In a non-registered account the credit is real. It is also a <span class="highlight">tax preference, not a free lunch</span>. The growth you have not sold yet is often the quieter advantage.
     </div>
 
-    <p>This comparison is about the taxable account, and only after registered room is being used. Inside a TFSA the dividend tax credit does not exist, and growth is simply tax-free. Inside an RRSP the withdrawal is ordinary income later, credit or no credit. If those accounts still have useful room, the location decision comes first. The map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>, the January funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>, and the account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. What follows is the non-registered sleeve those articles leave for last.</p>
+    <p>This comparison is about the taxable account, and only after registered room is being used. Inside a TFSA the dividend tax credit does not exist, and growth is simply tax-free. Inside an RRSP the withdrawal is ordinary income later, credit or no credit. If those accounts still have useful room, the location decision comes first. The map is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>, the January funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>, and the account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. What follows is the non-registered sleeve those articles leave for last. The investing hub is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Total return is the dividend plus the price:</strong>
@@ -778,7 +779,7 @@ export const posts = [
         The small-business rate is not the rate on a portfolio. Money left inside a corporation from an active business can be a powerful deferral. Money invested <span class="highlight">as</span> the business is a different tax system: higher upfront tax, a refund only when you pay yourself, and a grind that can touch the operating company. Confirm the file with an accountant before you move a dollar.
     </div>
 
-    <p>This is a decision framework, not a tax opinion. Incorporation, association, refundable tax, and the capital dividend election are specific to the corporation you actually have. The operating-company version of "should I incorporate at all" is <a href="/blog/should-you-incorporate/">should you incorporate</a>. This article starts one step later: given that a company exists, or that someone is telling you to create one for investments, where should the portfolio live?</p>
+    <p>This is a decision framework, not a tax opinion. Incorporation, association, refundable tax, and the capital dividend election are specific to the corporation you actually have. The operating-company version of "should I incorporate at all" is <a href="/blog/should-you-incorporate/">should you incorporate</a>. This article starts one step later: given that a company exists, or that someone is telling you to create one for investments, where should the portfolio live? Personal accounts, before the corporation, are mapped in <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Personal shelters still come first:</strong>
@@ -972,7 +973,7 @@ export const posts = [
         A capital loss in Canada is useful in one place: a non-registered account, against capital gains. It does not reduce your salary. The mistake that deletes it is small and dated. You, or your spouse, or your TFSA, buy the <span class="highlight">identical property</span> inside a window that runs 30 days before the sale and 30 days after.
     </div>
 
-    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade.</p>
+    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade. Where the taxable sleeve fits the rest of the portfolio is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Registered accounts cannot harvest:</strong>
@@ -1143,7 +1144,7 @@ export const posts = [
         Hedging the Canadian dollar feels like prudence, and a US-listed ETF with a tiny expense ratio feels like the grown-up version of the same fund. One is a currency preference with a cost that changes. The other is a withholding and foreign-exchange decision. <span class="highlight">A Canadian ticker does not collect the treaty benefit</span> an RRSP can get from holding the US security itself.
     </div>
 
-    <p>Write the currency choice down when you write the mix, then leave it. The place each sleeve belongs is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. The broker's conversion cost, and the journal people call Norbert's gambit, are in the <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a>. This article is the link between those two. It does not quote a live spread, a live MER, or a promotional FX rate. Those exist on the issuer's facts sheet and the broker's order preview, today, or they do not exist.</p>
+    <p>Write the currency choice down when you write the mix, then leave it. The place each sleeve belongs is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. The broker's conversion cost, and the journal people call Norbert's gambit, are in the <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a>. This article is the link between those two. It does not quote a live spread, a live MER, or a promotional FX rate. Those exist on the issuer's facts sheet and the broker's order preview, today, or they do not exist. The September 2026 journal steps are <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>, under <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Bonds and equities do not get the same currency answer:</strong>
@@ -1298,7 +1299,7 @@ export const posts = [
         A portfolio drifts because markets work. The expensive response is a taxable sale you did not need. The cheap response is dull: <span class="highlight">send the next dollar at whatever is light</span>, trade inside the TFSA or RRSP if that is not enough, and sell in the non-registered account last.
     </div>
 
-    <p>Rebalancing restores a mix you wrote down in calm weather. It is not a forecast and it is not a tax strategy wearing a portfolio costume. The mix itself, and which account holds which sleeve, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. This article is only the maintenance. If you hold one asset-allocation ETF everywhere, the fund rebalances inside itself and your job is mostly contributions. That choice is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>.</p>
+    <p>Rebalancing restores a mix you wrote down in calm weather. It is not a forecast and it is not a tax strategy wearing a portfolio costume. The mix itself, and which account holds which sleeve, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. This article is only the maintenance. If you hold one asset-allocation ETF everywhere, the fund rebalances inside itself and your job is mostly contributions. That choice is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>. The portfolio this maintenance serves is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Canada does not let you pick tax lots of the same ETF:</strong>
@@ -1426,7 +1427,7 @@ export const posts = [
         A one-ticket asset-allocation ETF is a portfolio that rebalances without asking you. A do-it-yourself mix of ETFs is the same idea pulled apart so each piece can sit in the account that treats it least badly. <span class="highlight">Simplicity wins when you will not do the maintenance.</span> The MER gap is usually the smaller number.
     </div>
 
-    <p>Vanguard, iShares, BMO, and others each publish a ladder of Canadian-listed asset-allocation ETFs, from conservative balances to all-equity. Tickers people use as shorthand for the all-equity end — VEQT and XEQT among them — are examples of that structure, not a recommendation and not a pair to arbitrage. Series get revised. Bond weights move. MERs change. Read the current ETF facts before you buy, and do not treat any fee you remember, or any fee on this page, as the live one.</p>
+    <p>Vanguard, iShares, BMO, and others each publish a ladder of Canadian-listed asset-allocation ETFs, from conservative balances to all-equity. Tickers people use as shorthand for the all-equity end — VEQT and XEQT among them — are examples of that structure, not a recommendation and not a pair to arbitrage. Series get revised. Bond weights move. MERs change. Read the current ETF facts before you buy, and do not treat any fee you remember, or any fee on this page, as the live one. The dated ticker comparison is <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>, under <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>One structure, not both:</strong>
@@ -3455,7 +3456,7 @@ export const posts = [
         The TFSA is not a savings account with a nicer name. It is permanent shelter. The optimization in 2026 is getting the <span class="highlight">right dollars in on the right date</span>, in the right assets, without tripping the 1 percent monthly overcontribution tax — and without parking cash you will need to pull back out before next January.
     </div>
 
-    <p>Most Canadians already know the TFSA exists. The expensive mistakes are smaller: contributing in kind and denying a capital loss, holding US dividend stocks where the withholding tax is unrecoverable, withdrawing in November and “putting it back” in December, or contributing on January 2nd with money that should have been inside on January 1st. None of those show up as a dramatic CRA letter. They show up as tax you did not have to pay, compounded for decades.</p>
+    <p>Most Canadians already know the TFSA exists. The expensive mistakes are smaller: contributing in kind and denying a capital loss, holding US dividend stocks where the withholding tax is unrecoverable, withdrawing in November and “putting it back” in December, or contributing on January 2nd with money that should have been inside on January 1st. None of those show up as a dramatic CRA letter. They show up as tax you did not have to pay, compounded for decades. What to hold once the room is funded is <a href="/blog/best-etfs-tfsa-canada/">best ETFs for a TFSA</a>. The hub is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
 
     <div class="callout">
         <strong>Confirm your room before you move money:</strong>
@@ -26312,6 +26313,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   },
 
   ...creditCardClusterPosts,
+  ...investingClusterPosts,
 
 ];
 
