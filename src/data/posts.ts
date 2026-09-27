@@ -5,6 +5,7 @@ import { investingClusterPosts } from './investing-cluster';
 import { insuranceClusterPosts } from './insurance-cluster';
 import { realEstateClusterPosts } from './real-estate-cluster';
 import { taxesClusterPosts } from './taxes-cluster';
+import { toolsClusterPosts } from './tools-cluster';
 
 export const posts = [
   {
@@ -3032,7 +3033,7 @@ export const posts = [
         A point is not worth what a blog’s leaderboard says. It is worth <span class="highlight">the cash you avoid spending on a trip you will actually take</span>, divided by the points you burn — after taxes, surcharges, and transfer friction. Aeroplan, Avion, and Amex Membership Rewards each need that honesty, not a branded fantasy number.
     </div>
 
-    <p>This article teaches the cents-per-point (CPP) framework Canadians can run on a spreadsheet. Illustrative ranges below are labelled as such. They are not current bonuses, earn rates, or guaranteed redemption values. Verify award prices, transfer ratios, and portal rates with Aeroplan, RBC Avion, American Express, and your issuer the day you book. The cards that earn those points are sorted by spending profile in <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
+    <p>This article teaches the cents-per-point (CPP) framework Canadians can run on a spreadsheet. Illustrative ranges below are labelled as such. They are not current bonuses, earn rates, or guaranteed redemption values. Verify award prices, transfer ratios, and portal rates with Aeroplan, RBC Avion, American Express, and your issuer the day you book. The cards that earn those points are sorted by spending profile in <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>. Multiply a cents-per-point figure you actually got by spend and earn rates you type in the <a href="/blog/credit-card-rewards-calculator/">rewards calculator</a>. Aeroplan’s conversion ratios are the <a href="/blog/aeroplan-points-guide-canada/">Aeroplan points guide</a>.</p>
 
     <div class="callout">
         <strong>Offers and charts change:</strong>
@@ -15746,6 +15747,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     image: "/images/blog/how-much-money-retire-canada.png",
     content: `<div class="container"><h1>How Much Money Do You Need to Retire in Canada? The Real Numbers for 2026</h1>
 <div class="hook"><strong>The average Canadian couple will spend approximately $1.7 million over a 25-year retirement, yet 32% of Canadians have saved less than $100,000.</strong> That gap feels paralyzing—but here's the good news: it doesn't have to be. The real question isn't "How much did someone else need?" but "What does *your* retirement actually cost?" This guide cuts through the noise and shows you how to calculate your exact number.</div>
+<p>Run your own RRSP, TFSA, CPP, and OAS inputs in the <a href="/blog/canadian-retirement-calculator/">Canadian retirement calculator</a>. It does not fill in the maximum pension for you.</p>
 <h2>Why the "70% Rule" Is Oversimplified (And What to Do Instead)</h2>
 <p>You've probably heard the **70% rule**: replace 70% of your pre-retirement income, and you're golden. Your $100K salary becomes a $70K retirement budget. Simple, right? Wrong. This rule ignores your actual life.</p>
 <p>A financial advisor earning $150K but driving an old car and biking to work needs far less than a schoolteacher earning $80K who travels internationally every year. The 70% rule assumes everyone spends proportionally—they don't. It also fails to account for major transitions: your mortgage may be paid off (reducing expenses) or you might finally have time for expensive hobbies (increasing them).</p>
@@ -20781,7 +20783,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Extra cash on a principal-residence mortgage earns a boring return: the <span class="highlight">contract rate, after tax, with no market risk</span>. Any investment you choose instead has to beat that number after its own tax, and it has to survive a year in which it does not.
     </div>
 
-    <p>This is the rate comparison. It is not the question of which registered account to fill first. If the dollar is competing specifically with TFSA room, RRSP room, or an employer match, use the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority guide</a> and then come back here for the hurdle rate. If the dollar would be invested with borrowed equity, you are in the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, which is leverage, not a prepayment.</p>
+    <p>This is the rate comparison. It is not the question of which registered account to fill first. If the dollar is competing specifically with TFSA room, RRSP room, or an employer match, use the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority guide</a> and then come back here for the hurdle rate. If the dollar would be invested with borrowed equity, you are in the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, which is leverage, not a prepayment. The payment and the interest a higher payment or a lump sum saves are the <a href="/blog/mortgage-prepayment-calculator/">mortgage prepayment calculator</a>.</p>
 
     <div class="callout">
         <strong>Principal-residence interest is not deductible:</strong>
@@ -21767,7 +21769,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Three respectable uses of a dollar, and only the mortgage is a <span class="highlight">guaranteed after-tax return</span>. The RRSP can still go first, if the deduction is real and the refund does not get spent. The TFSA goes first when you will need the dollar again.
     </div>
 
-    <p>The pure hurdle-rate comparison — mortgage versus a GIC, a taxable account, or an equity return — is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. Use it once you know which account is even in the running. This article is the order. It assumes you already have the residence mortgage and you are staring at a surplus. If the surplus is actually a first-home down payment, stop and use the <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing guide</a> instead of prepaying a mortgage you do not have yet.</p>
+    <p>The pure hurdle-rate comparison — mortgage versus a GIC, a taxable account, or an equity return — is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. Use it once you know which account is even in the running. This article is the order. It assumes you already have the residence mortgage and you are staring at a surplus. If the surplus is actually a first-home down payment, stop and use the <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing guide</a> instead of prepaying a mortgage you do not have yet. The interest and months an allowed prepayment saves are the <a href="/blog/mortgage-prepayment-calculator/">prepayment calculator</a>.</p>
 
     <div class="callout">
         <strong>Anything that is not the mortgage, the TFSA, or the RRSP:</strong>
@@ -22640,7 +22642,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Provincial health insurance is a domestic promise. Outside Canada it is a token, sometimes a per-diem, sometimes less, and it is <span class="highlight">not a ceiling you can plan a hospital around</span>. The travel policy is the plan. The card in your wallet is a plan only if the certificate still likes your age, your trip length, and your medications.
     </div>
 
-    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on. Routine dental and drugs at home, including the Canadian Dental Care Plan test, are <a href="/blog/private-health-dental-insurance-canada/">private health and dental insurance</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
+    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on. Routine dental and drugs at home, including the Canadian Dental Care Plan test, are <a href="/blog/private-health-dental-insurance-canada/">private health and dental insurance</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>. Day counts and dollar caps printed on TD and American Express card pages are <a href="/blog/credit-card-travel-insurance-canada/">credit card travel insurance</a>.</p>
 
     <div class="callout">
         <strong>Three products people buy as if they were one:</strong>
@@ -26331,6 +26333,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...governmentBenefitsClusterPosts,
   ...insuranceClusterPosts,
   ...taxesClusterPosts,
+  ...toolsClusterPosts,
 
 ];
 

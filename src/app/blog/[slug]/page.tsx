@@ -7,6 +7,10 @@ import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import RelatedPosts from '@/components/blog/RelatedPosts';
 import ClientBlogContent from './ClientBlogContent';
 import IncomeTaxCalculator from '@/components/tools/IncomeTaxCalculator';
+import RewardsCalculator from '@/components/tools/RewardsCalculator';
+import RetirementCalculator from '@/components/tools/RetirementCalculator';
+import RentVsBuyCalculator from '@/components/tools/RentVsBuyCalculator';
+import MortgagePrepaymentCalculator from '@/components/tools/MortgagePrepaymentCalculator';
 import { posts } from '@/data/posts';
 import {
   articleSchema,
@@ -20,10 +24,17 @@ import {
 } from '@/lib/site';
 import '../blog-content.css';
 
-const TAX_CALCULATOR_MARKER = '<div id="income-tax-calculator"></div>';
+const CALCULATOR_MARKERS = [
+  { marker: '<div id="income-tax-calculator"></div>', Component: IncomeTaxCalculator },
+  { marker: '<div id="credit-card-rewards-calculator"></div>', Component: RewardsCalculator },
+  { marker: '<div id="canadian-retirement-calculator"></div>', Component: RetirementCalculator },
+  { marker: '<div id="rent-vs-buy-canada"></div>', Component: RentVsBuyCalculator },
+  { marker: '<div id="mortgage-prepayment-calculator"></div>', Component: MortgagePrepaymentCalculator },
+] as const;
 
 function BlogBody({ content }: { content: string }) {
-  if (!content.includes(TAX_CALCULATOR_MARKER)) {
+  const active = CALCULATOR_MARKERS.filter((tool) => content.includes(tool.marker));
+  if (active.length === 0) {
     return (
       <div className="blog-content-exact">
         <div className="container mx-auto py-8">
@@ -33,22 +44,30 @@ function BlogBody({ content }: { content: string }) {
     );
   }
 
-  const [before, after] = content.split(TAX_CALCULATOR_MARKER);
+  const pattern = new RegExp(`(${active.map((tool) => tool.marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`);
+  const parts = content.split(pattern);
+
   return (
     <>
-      <div className="blog-content-exact">
-        <div className="container mx-auto py-8">
-          <ClientBlogContent content={before} />
-        </div>
-      </div>
-      <div className="mx-auto w-full max-w-[800px] px-5">
-        <IncomeTaxCalculator />
-      </div>
-      <div className="blog-content-exact">
-        <div className="container mx-auto py-8">
-          <ClientBlogContent content={after} />
-        </div>
-      </div>
+      {parts.map((part, index) => {
+        const tool = active.find((item) => item.marker === part);
+        if (tool) {
+          const Tool = tool.Component;
+          return (
+            <div key={tool.marker} className="mx-auto w-full max-w-[800px] px-5">
+              <Tool />
+            </div>
+          );
+        }
+        if (!part.trim()) return null;
+        return (
+          <div key={`copy-${index}`} className="blog-content-exact">
+            <div className="container mx-auto py-8">
+              <ClientBlogContent content={part} />
+            </div>
+          </div>
+        );
+      })}
     </>
   );
 }
