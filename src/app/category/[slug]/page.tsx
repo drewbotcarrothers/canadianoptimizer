@@ -27,10 +27,8 @@ export async function generateMetadata({
   const category = CATEGORIES.find((item) => item.slug === slug);
   if (!category) return { title: 'Category' };
   return buildPageMetadata({
-    title: `${category.name} Strategies`,
-    description: toMetaDescription(
-      `${category.description} Browse the Canadian Optimizer articles in this category.`
-    ),
+    title: category.pageTitle,
+    description: toMetaDescription(category.metaDescription),
     path: `/category/${category.slug}/`,
   });
 }
@@ -65,7 +63,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           <div className="inline-block bg-light-slate text-charcoal font-semibold px-4 py-2 rounded-full border border-gray-200 mb-6">
             Optimization Category
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">{categoryData.name} Strategies</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-4">{categoryData.pageTitle}</h1>
           <p className="text-xl text-gray-600 max-w-3xl">
             {categoryData.description} Browse our latest articles focusing on extracting the absolute maximum value from this aspect of your finances.
           </p>

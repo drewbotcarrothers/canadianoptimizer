@@ -13,6 +13,7 @@ const KEY_POSTS = [
   'tfsa-contribution-optimization',
   'diy-etf-portfolio-asset-location-canada',
   'how-to-invest-canada-guide',
+  'best-credit-cards-canada',
   'best-travel-rewards-cards-canada',
   'best-cash-back-credit-cards-canada',
   'smith-maneuver-canada-steps-risks',

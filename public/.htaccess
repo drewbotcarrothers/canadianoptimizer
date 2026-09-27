@@ -6,17 +6,9 @@
 
 RewriteEngine On
 
-# Send plain HTTP to HTTPS. Also require the forwarded protocol so a proxy
-# that already terminated TLS does not loop.
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
-RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
-
-# www.canadianoptimizer.com -> https://canadianoptimizer.com
-RewriteCond %{HTTP_HOST} ^www\.canadianoptimizer\.com$ [NC]
-RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
-
-# Year-bearing post slugs.
+# Year-bearing post slugs. These run before the host rule. Each target is
+# already https://canadianoptimizer.com, so an old slug on http://, http://www,
+# or https://www lands on the yearless URL in a single 301.
 RewriteRule ^blog/best-cash-back-credit-cards-canada-2026/?$ https://canadianoptimizer.com/blog/best-cash-back-credit-cards-canada/ [R=301,L]
 RewriteRule ^blog/best-travel-rewards-cards-canada-2026/?$ https://canadianoptimizer.com/blog/best-travel-rewards-cards-canada/ [R=301,L]
 RewriteRule ^blog/tfsa-contribution-optimization-2026/?$ https://canadianoptimizer.com/blog/tfsa-contribution-optimization/ [R=301,L]
@@ -45,6 +37,22 @@ RewriteRule ^blog/rrsp-playbook-2026/?$ https://canadianoptimizer.com/blog/rrsp-
 RewriteRule ^blog/cra-deadlines-2026/?$ https://canadianoptimizer.com/blog/cra-deadlines/ [R=301,L]
 RewriteRule ^blog/tax-glossary-2026/?$ https://canadianoptimizer.com/blog/tax-glossary/ [R=301,L]
 RewriteRule ^blog/fhsa-guide-2026/?$ https://canadianoptimizer.com/blog/fhsa-guide/ [R=301,L]
+
+# One hop to https://canadianoptimizer.com for every other URL.
+# Covers http://canadianoptimizer.com, http://www.canadianoptimizer.com,
+# and https://www.canadianoptimizer.com.
+# Does not fire for an apex request a TLS-terminating proxy already marked
+# as HTTPS, which is what prevents a redirect loop.
+# Logic is (A OR B) AND (C OR D):
+#   A = host is www
+#   B = the connection Apache sees is not HTTPS
+#   C = X-Forwarded-Proto is not https
+#   D = host is www
+RewriteCond %{HTTP_HOST} ^www\.canadianoptimizer\.com$ [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC,OR]
+RewriteCond %{HTTP_HOST} ^www\.canadianoptimizer\.com$ [NC]
+RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
 
 # Keep the site's trailing-slash behaviour: /path -> /path/
 # Skip files such as sitemap.xml, robots.txt, rss.xml, llms.txt, and images.
