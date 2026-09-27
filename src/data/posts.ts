@@ -1,5 +1,6 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 import { creditCardClusterPosts } from './credit-card-cluster';
+import { governmentBenefitsClusterPosts } from './government-benefits-cluster';
 import { investingClusterPosts } from './investing-cluster';
 import { realEstateClusterPosts } from './real-estate-cluster';
 import { insuranceClusterPosts } from './insurance-cluster';
@@ -16252,6 +16253,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <h2>How the Canada Pension Plan Works</h2>
 <p>CPP is a <strong>contributory, earnings-related</strong> pension plan funded by employee and employer contributions throughout your working years. Unlike <a href="/blog/oas-gis-clawback-canada/">Old Age Security</a> (which we cover separately), CPP benefits are directly tied to how much you earned and how long you contributed.</p>
 <p>Here's the mechanics: CPP contributions are calculated on your earnings between the <strong>basic exemption of $3,500</strong> and the <strong>Year's Maximum Pensionable Earnings (YMPE) of $71,300 in 2026</strong>. Both you and your employer contribute equally to the plan — in 2026, the combined rate is approximately 11.9% of eligible earnings.</p>
+<p>The ceilings in that sentence are the prior year's. CRA's 2026 figures, and how to read your own estimate, are in <a href="/blog/how-much-cpp-will-i-get/">how much CPP will I get</a>, under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 <p>Earnings below $3,500 don't count. Earnings above the YMPE don't count either — unless you have access to the <strong>CPP Enhancement (CPP2)</strong>. This second ceiling, introduced gradually, allows higher earners to contribute on earnings up to a secondary maximum (the <strong>YAMPE, or Year's Additional Maximum Pensionable Earnings</strong>). In 2026, this sits at approximately <strong>$81,200</strong>, opening the door for those with higher incomes to build larger CPP benefits.</p>
 <p>Younger Canadians benefit more from CPP2 because they have longer contribution periods under the enhanced rules. If you're in your 40s or 50s now, you'll accumulate significantly more contribution room than someone who retires this year.</p>
 <h2>CPP Dropout Provisions: What You Need to Know</h2>
@@ -16410,7 +16412,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>Ages 65–74:</strong> approximately <strong>$727 per month</strong> ($8,724 annually)</li>
 <li><strong>Ages 75 and older:</strong> approximately <strong>$800 per month</strong> ($9,600 annually), reflecting a <strong>10% increase introduced in 2022</strong></li>
 </ul>
-<p>These amounts are indexed quarterly to inflation, so they increase slightly each quarter. The figures above are estimates for mid-2026 and will be higher by year-end.</p>
+<p>These amounts are indexed quarterly to inflation, so they increase slightly each quarter. The figures above are estimates for mid-2026 and will be higher by year-end. The July to September 2026 amounts, and the recovery threshold for July 2026 to June 2027, are in <a href="/blog/oas-eligibility-deferral-canada/">OAS eligibility, deferral, and the age-75 increase</a>.</p>
 <h2>The OAS Clawback: How It Works</h2>
 <p>Here's where retirement planning gets thorny. If your <strong>net income</strong> (line 23600 on your tax return) exceeds a threshold, Service Canada reclaims part of your OAS benefit. In 2026, the clawback threshold is approximately <strong>$90,997</strong>.</p>
 <h3>The Clawback Formula</h3>
@@ -23008,7 +23010,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The start date is not a breakeven age on a single cheque. Delayed CPP is a <span class="highlight">larger taxable pension landing inside whatever else the household already collects</span> — OAS, GIS, a survivor benefit, wages, or a spouse's return.
     </div>
 
-    <p>How the pension is built, the dropout provisions, and the early-versus-late adjustment are the <a href="/blog/cpp-when-to-take-canada/">CPP timing guide</a>. Read that before this. This article starts after you know the pension can be smaller at 60 and larger at 70. The question here is what that larger cheque does to the rest of the file. Quebec contributors are in the QPP, administered by Retraite Québec. Use that estimate. Do not paste a CPP illustration onto a QPP record.</p>
+    <p>How the pension is built, the dropout provisions, and the early-versus-late adjustment are the <a href="/blog/cpp-when-to-take-canada/">CPP timing guide</a>. Read that before this. This article starts after you know the pension can be smaller at 60 and larger at 70. The question here is what that larger cheque does to the rest of the file. Quebec contributors are in the QPP, administered by Retraite Québec. Use that estimate. Do not paste a CPP illustration onto a QPP record. The dollar itself, including the January 2026 maximum and the My Service Canada path, is <a href="/blog/how-much-cpp-will-i-get/">how much CPP will I get</a>. The program map around it is the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>Three tests read the start date, and they do not want the same answer:</strong>
@@ -23162,7 +23164,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         One spouse's RRIF withdrawal can claw back that spouse's OAS and, in the same year, shrink the GIS the couple thought belonged to the poorer one. <span class="highlight">The tests do not share a definition of income.</span>
     </div>
 
-    <p>What OAS is, how the recovery tax is calculated, and why GIS exists are the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS guide</a>. Use it for the mechanics. This article is the household layer: whose income counts, which account feeds which test, and the order of withdrawals once more than one benefit is live. Payment amounts and thresholds are indexed or legislated again every year. This page does not print a "2026 rate." CRA and Service Canada do. If a figure below would have been a dollar, it has been left out on purpose.</p>
+    <p>What OAS is, how the recovery tax is calculated, and why GIS exists are the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS guide</a>. Use it for the mechanics. This article is the household layer: whose income counts, which account feeds which test, and the order of withdrawals once more than one benefit is live. Payment amounts and thresholds are indexed or legislated again every year. This page does not print a "2026 rate." CRA and Service Canada do. If a figure below would have been a dollar, it has been left out on purpose. The July to September 2026 pension amounts, the age-75 increase, and the current recovery threshold are in <a href="/blog/oas-eligibility-deferral-canada/">OAS eligibility and deferral</a>, under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>Two tests, two shapes:</strong>
@@ -23331,7 +23333,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The Canada Child Benefit does not react to this month's paycheque. It reacts to <span class="highlight">last year's adjusted family net income</span>, and then it pays that answer from July through the following June.
     </div>
 
-    <p>Families already have a tax tour in the <a href="/blog/tax-tips-families/">family tax guide</a> and a credit checklist in <a href="/blog/missed-tax-credits/">missed credits</a>. This article is the benefit itself: who must file, what "family income" actually means, how shared custody splits the payment, and which moves — a bonus, a capital gain, an RRSP contribution, childcare — change the next benefit year. Maximums per child, the income threshold, and the reduction percentages are indexed or amended. CRA's CCB page is the schedule. This page does not reprint it, and it does not invent a monthly amount.</p>
+    <p>Families already have a tax tour in the <a href="/blog/tax-tips-families/">family tax guide</a> and a credit checklist in <a href="/blog/missed-tax-credits/">missed credits</a>. This article is the benefit itself: who must file, what "family income" actually means, how shared custody splits the payment, and which moves — a bonus, a capital gain, an RRSP contribution, childcare — change the next benefit year. Maximums per child, the income threshold, and the reduction percentages are indexed or amended. CRA's CCB page is the schedule. This page does not reprint it, and it does not invent a monthly amount. The July 2026 to June 2027 maximums and the payment calendar are in the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a> and the <a href="/blog/canada-benefit-payment-dates/">2026 payment dates</a>.</p>
 
     <div class="callout">
         <strong>The benefit year is July to June, built from the prior return:</strong>
@@ -23485,7 +23487,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Employment Insurance pays a fraction of insurable earnings for a defined reason. <span class="highlight">The reason decides the weeks, the clawback, and whether other income even fits in the same month.</span>
     </div>
 
-    <p>Regular benefits are for people who lost work through no fault of their own and are available for another job. Special benefits are for sickness, maternity, parental care, compassionate care, and family caregiving. They are not interchangeable, they do not all repay at tax time, and a self-employed person cannot wander into regular benefits by paying a premium. Weekly maximums and the yearly maximum insurable earnings are republished by Service Canada. This article does not print them. If you budget from a number you remember, you will be wrong by the next premium year.</p>
+    <p>Regular benefits are for people who lost work through no fault of their own and are available for another job. Special benefits are for sickness, maternity, parental care, compassionate care, and family caregiving. They are not interchangeable, they do not all repay at tax time, and a self-employed person cannot wander into regular benefits by paying a premium. Weekly maximums and the yearly maximum insurable earnings are republished by Service Canada. This article does not print them. If you budget from a number you remember, you will be wrong by the next premium year. Where EI sits among the other federal programs is the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>Quebec parental benefits are a different program:</strong>
@@ -23633,7 +23635,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The Disability Tax Credit is not a cheque for having a diagnosis. It is <span class="highlight">a CRA decision that your impairment markedly restricts daily living</span>, and that decision is the door to several other programs.
     </div>
 
-    <p>The credit shows up on credit roundups, including <a href="/blog/missed-tax-credits/">missed credits</a>, as a line people forget. This article is the gate itself: who can certify it, why files are refused, what a non-refundable credit can and cannot refund, and how approval connects to the Registered Disability Savings Plan. It is not a medical guide, and it is not a promise that a condition qualifies. CRA decides. The form is T2201, Disability Tax Credit Certificate.</p>
+    <p>The credit shows up on credit roundups, including <a href="/blog/missed-tax-credits/">missed credits</a>, as a line people forget. This article is the gate itself: who can certify it, why files are refused, what a non-refundable credit can and cannot refund, and how approval connects to the Registered Disability Savings Plan. It is not a medical guide, and it is not a promise that a condition qualifies. CRA decides. The form is T2201, Disability Tax Credit Certificate. Approval is also the gate to the <a href="/blog/canada-disability-benefit-guide/">Canada Disability Benefit</a>. The wider map is the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>Four different "disability" tests, four different agencies:</strong>
@@ -23787,7 +23789,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         There is no Canadian benefits menu you can download. There is a <span class="highlight">federal return, a provincial statute, and sometimes a municipal office</span>, and each one is allowed to define income differently.
     </div>
 
-    <p>This article will not list every program in every province. That list would be wrong by the next budget, and a partial list pretends to be complete. The job here is the decision: what kind of program you are looking at, which test it uses, and where the authoritative page lives. Federal programs that people mix into the provincial pile — the Canada Child Benefit, OAS and GIS, EI, the Disability Tax Credit — have their own articles. Start with the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a> if you are not sure which layer is binding.</p>
+    <p>This article will not list every program in every province. That list would be wrong by the next budget, and a partial list pretends to be complete. The job here is the decision: what kind of program you are looking at, which test it uses, and where the authoritative page lives. Federal programs that people mix into the provincial pile — the Canada Child Benefit, OAS and GIS, EI, the Disability Tax Credit — have their own articles. Start with the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a> if you are not sure which layer is binding. Dated federal amounts, and the benefit that used to be the GST/HST credit, are in the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a> and the <a href="/blog/gst-hst-credit-groceries-essentials-benefit/">Groceries and Essentials Benefit</a>.</p>
 
     <div class="callout">
         <strong>Name the test before you name the program:</strong>
@@ -23925,7 +23927,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The FHSA is a registered account. Everything else people call a "first-time grant" is <span class="highlight">a rebate, a credit, a repayable withdrawal, or a program that has already closed</span> — and the definitions do not match.
     </div>
 
-    <p>Contribution room, the deduction, and the qualifying withdrawal are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. The order of funding and liquidating once a purchase is real is <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing</a>. This article starts beside those. It is the other pipes: the Home Buyers' Plan, the home buyers' tax credit, the GST/HST new housing rebate, and provincial land-transfer relief. It does not print live grant amounts. Caps and phase-outs move, and a remembered cap is how people waive conditions on a closing they cannot fund.</p>
+    <p>Contribution room, the deduction, and the qualifying withdrawal are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. The order of funding and liquidating once a purchase is real is <a href="/blog/fhsa-home-purchase-sequencing-canada/">purchase sequencing</a>. This article starts beside those. It is the other pipes: the Home Buyers' Plan, the home buyers' tax credit, the GST/HST new housing rebate, and provincial land-transfer relief. It does not print live grant amounts. Caps and phase-outs move, and a remembered cap is how people waive conditions on a closing they cannot fund. Federal benefits that are not housing programs are mapped in the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>Sort every program into one of four pipes before you add it to the down payment:</strong>
@@ -24062,7 +24064,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         A household does not have one clawback. It has <span class="highlight">a stack of tests that read different years, different people, and sometimes assets</span>, and the steepest one should get the first decision.
     </div>
 
-    <p>The pieces are elsewhere on purpose. CPP's collision with GIS and survivor benefits is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing</a>. OAS recovery versus GIS is <a href="/blog/oas-gis-income-stacking-canada/">income stacking</a>, with the base rules in <a href="/blog/oas-gis-clawback-canada/">the retirement guide</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">the July reset</a>. EI is <a href="/blog/employment-insurance-benefits-canada/">regular versus special benefits</a>. The Disability Tax Credit and the RDSP are <a href="/blog/disability-tax-credit-canada-guide/">the T2201 gate</a>. Provinces are <a href="/blog/provincial-benefits-programs-canada/">a map of tests</a>. First-home pipes that are not the FHSA are <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">beyond the FHSA</a>. This article is the order. It is not a second copy of any of them, and it does not print benefit rates.</p>
+    <p>The pieces are elsewhere on purpose. CPP's collision with GIS and survivor benefits is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing</a>. OAS recovery versus GIS is <a href="/blog/oas-gis-income-stacking-canada/">income stacking</a>, with the base rules in <a href="/blog/oas-gis-clawback-canada/">the retirement guide</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">the July reset</a>. EI is <a href="/blog/employment-insurance-benefits-canada/">regular versus special benefits</a>. The Disability Tax Credit and the RDSP are <a href="/blog/disability-tax-credit-canada-guide/">the T2201 gate</a>. Provinces are <a href="/blog/provincial-benefits-programs-canada/">a map of tests</a>. First-home pipes that are not the FHSA are <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">beyond the FHSA</a>. This article is the order. It is not a second copy of any of them, and it does not print benefit rates. The dated amounts, payment days, and the programs this map did not yet name — the Groceries and Essentials Benefit, the dental plan, the Canada Disability Benefit — are the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>.</p>
 
     <div class="callout">
         <strong>The order is short:</strong>
@@ -26317,6 +26319,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...creditCardClusterPosts,
   ...investingClusterPosts,
   ...realEstateClusterPosts,
+  ...governmentBenefitsClusterPosts,
   ...insuranceClusterPosts,
 
 ];

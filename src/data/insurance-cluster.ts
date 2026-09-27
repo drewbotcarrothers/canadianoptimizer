@@ -877,7 +877,7 @@ export const insuranceClusterPosts: InsurancePost[] = [
             <li>As of the qualify page reviewed in September 2026, CDCP eligibility needs adjusted family net income under $90,000, a filed return, Canadian tax residency, and no private dental access.</li>
             <li>Private access includes an employer or a family member's employer, a pension plan, a professional or student organization, and insurance you or a family member bought. Health and wellness accounts are included.</li>
             <li>A retiree exception exists if you opted out of pension dental before December 11, 2023, and the pension rules will not let you opt back in.</li>
-            <li>Health Canada's December 2023 announcement set co-payments by income band. Confirm the current bands on Canada.ca before you rely on them. This page does not treat that news release as a fresh September 2026 rate card.</li>
+            <li>Canada.ca's coverage page, as used on the <a href="/blog/canadian-dental-care-plan-eligibility/">dental plan eligibility guide</a>, sets co-payments at 0 percent under $70,000, 40 percent from $70,000 to $79,999, and 60 percent from $80,000 to $89,999 of the plan's own fees.</li>
             <li>Premiums you pay to a private health services plan can be medical expenses if 90 percent or more of the premium is for eligible expenses. Provincial plans such as OHIP are not eligible medical expenses.</li>
         </ul>
     </div>
@@ -923,7 +923,7 @@ export const insuranceClusterPosts: InsurancePost[] = [
 
     <p>The qualify page is blunt. You do not qualify for the CDCP if you have access to dental coverage through your employer, a family member's employer, a pension, a professional or student organization, or a policy bought from an insurer, including through a group plan. That remains true if you decide not to take the coverage, if you must pay a premium, or if you do not use it. The adjusted-family-net-income test uses line 23600 of each spouse's return, minus universal child care benefit and RDSP income, plus amounts of those benefits repaid. Under $90,000 is the line on the page reviewed in September 2026.</p>
 
-    <p>Health Canada's December 11, 2023 announcement described co-payments on CDCP fees: none when adjusted family net income is under $70,000, 40 percent from $70,000 to $79,999, and 60 percent from $80,000 to $89,999. Confirm those bands on the current Canada.ca pages before you decline a workplace plan to chase them. A 2023 news release can be updated. The eligibility tests on the qualify page are the rules this article treats as current.</p>
+    <p>Canada.ca's coverage page sets the co-payment on the plan's own fees: none under $70,000 of adjusted family net income, 40 percent from $70,000 to $79,999, and 60 percent from $80,000 to $89,999. A clinic can still charge more than the plan fee. Application steps and the worked examples are the <a href="/blog/canadian-dental-care-plan-eligibility/">Canadian Dental Care Plan eligibility guide</a>. The qualify-page tests on this page are the reason a private dental plan can close that door.</p>
 
     <div class="example-box">
         <strong>Illustration: an early-retired couple and a dental plan they do not need</strong>
@@ -948,7 +948,7 @@ export const insuranceClusterPosts: InsurancePost[] = [
     <p>The qualify page says no. Access through your employer or a family member's employer counts even if you refuse the plan, pay a premium for it, or do not use it. Health spending accounts are included in that access. Waiving coverage to qualify is the mistake the page is written to prevent. The exception it does describe is a narrow pension opt-out made before December 11, 2023, where you cannot opt back in.</p>
 
     <h3>What are the CDCP co-payments?</h3>
-    <p>Health Canada's December 2023 announcement set no co-payment under $70,000 of adjusted family net income, 40 percent from $70,000 to $79,999, and 60 percent from $80,000 to $89,999, applied to CDCP fees. Confirm the current schedule on Canada.ca. People still pay the dentist any amount above the CDCP fee, which is separate from the co-payment percentage.</p>
+    <p>Canada.ca's coverage page sets no co-payment under $70,000 of adjusted family net income, 40 percent from $70,000 to $79,999, and 60 percent from $80,000 to $89,999, applied to the plan's fees. You can still owe the dentist any amount above that fee. The tiers, the 2026–27 benefit year, and a worked example are the <a href="/blog/canadian-dental-care-plan-eligibility/">eligibility guide</a>.</p>
 
     <h3>I am self-employed and have no benefits. What should I buy?</h3>
     <p>Check the CDCP test before you buy dental. If you are over the income line or you want drugs and paramedical coverage the province does not provide, price a private plan on its annual maximums, waiting periods, and pre-existing condition rules, not on the brochure's category list. In Quebec, drug coverage is mandatory: join a private plan if you are eligible, or register with RAMQ if you are not. Disability insurance is still a separate purchase.</p>
@@ -962,7 +962,8 @@ export const insuranceClusterPosts: InsurancePost[] = [
     <h2>Sources</h2>
     <ul>
         <li><a href="https://www.canada.ca/en/services/benefits/dental/dental-care-plan/qualify.html">Canada.ca: Do you qualify for the Canadian Dental Care Plan</a></li>
-        <li><a href="https://www.canada.ca/en/health-canada/news/2023/12/the-canadian-dental-care-plan.html">Health Canada, December 2023: CDCP announcement, including co-payment bands</a></li>
+        <li><a href="https://www.canada.ca/en/services/benefits/dental/dental-care-plan/coverage.html">Canada.ca: Canadian Dental Care Plan coverage and co-payments</a></li>
+        <li><a href="https://www.canada.ca/en/health-canada/news/2023/12/the-canadian-dental-care-plan.html">Health Canada, December 2023: CDCP announcement</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4065/medical-expenses.html">CRA RC4065: medical expenses, including private health premiums</a></li>
         <li><a href="https://www.ramq.gouv.qc.ca/en/citizens/prescription-drug-insurance/obligation">RAMQ: obligation to have prescription drug insurance</a></li>
         <li><a href="https://www.ramq.gouv.qc.ca/en/citizens/prescription-drug-insurance/know-eligibility-conditions-public-plan">RAMQ: public drug plan eligibility, including the figure of around 8,000 drugs</a></li>
