@@ -16,6 +16,7 @@ const KEY_POSTS = [
   'best-credit-cards-canada',
   'best-travel-rewards-cards-canada',
   'best-cash-back-credit-cards-canada',
+  'canadian-mortgage-guide',
   'smith-maneuver-canada-steps-risks',
   'life-insurance-need-analysis-canada',
   'cpp-timing-benefits-stacking-canada',
