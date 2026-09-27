@@ -174,7 +174,7 @@ export const toolsClusterPosts: ToolPost[] = [
     'retirement',
     'canadian-retirement-calculator',
     'Canadian Retirement Calculator (CPP, OAS, RRSP, TFSA)',
-    'Project RRSP and TFSA growth in today’s dollars, then add the CPP and OAS amounts you type. Official maximums are cited from Canada.ca and are not filled in for you.',
+    'Project RRSP and TFSA growth in today’s dollars, then add the CPP and OAS amounts you type. Official maximums are not filled in. Read them on Canada.ca and type your own figure.',
     `<div class="container">
 
     <div class="hook">
@@ -186,8 +186,8 @@ export const toolsClusterPosts: ToolPost[] = [
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>You type CPP and OAS. The January 2026 maximum new CPP retirement pension at 65 is $1,507.65 a month on Canada.ca. That is $18,091.80 a year, and it is not the default.</li>
-            <li>For July to September 2026, the maximum OAS pension is $751.97 a month from 65 to 74, and $827.17 a month at 75 and over. Type your own figure.</li>
+            <li>You type CPP and OAS. This page does not quote a maximum, because the Canada.ca pages could not be loaded on September 27, 2026. Open the links below and type the figure from your account, not the national maximum.</li>
+            <li>Most people do not receive the maximum CPP. OAS can also be reduced by the recovery tax. Type the annual amount you expect, already net of any clawback.</li>
             <li>The real return is (1 + nominal) ÷ (1 + inflation) − 1. Five percent with 2 percent inflation is about 2.94 percent.</li>
             <li>Contributions land at the end of each working year. In retirement the balance grows, then spending is taken. TFSA dollars come out first. RRSP withdrawals are grossed up by the tax rate you type.</li>
             <li>On the loaded inputs there is no shortfall from 65 through 89, and about $553,381 is still there at the end of the year you are 89. A second illustration, with higher spending, runs short at 70.</li>
@@ -204,46 +204,13 @@ export const toolsClusterPosts: ToolPost[] = [
 
 <div class="container">
 
-    <h2>What are the official maximums, and why are they not filled in?</h2>
+    <h2>Why are the official maximums not filled in?</h2>
 
-    <p>Canada.ca’s CPP amount page lists the maximum retirement pension at age 65 for benefits beginning in January 2026 as $1,507.65 a month. The same page lists an average at 65 of $877.01 for April 2026. The CPP overview page uses that same $877.01 average for new beneficiaries in July to September 2026. Employment and Social Development Canada’s quarterly table for July to September 2026 shows the same $1,507.65 maximum for a new retirement pension at 65. Most people do not get the maximum. The average is closer to what a typical new pension looks like, and your own record can be lower or, with the post-2019 enhancement, different again. Type the figure from your account.</p>
+    <p>Canada.ca publishes a maximum CPP retirement pension, an average pension, and a maximum OAS pension that changes by quarter and by age. Those pages did not load from here on September 27, 2026, so this article does not quote the dollars. Most people do not get the maximum CPP. Your record, the post-2019 enhancement, and the age you start all move the cheque. Type the annual figure from My Service Canada Account. Do not type a maximum you remember from a blog.</p>
 
-    <p>The same quarterly table lists maximum OAS for July to September 2026 at $751.97 a month for ages 65 to 74, and $827.17 a month for ages 75 and over. A footnote on that table says the 2026 OAS repayment range is net world income from $95,323 to $155,109 for ages 65 to 74, and that the upper threshold is $161,088 at 75 and over. This calculator does not apply the recovery tax. If your income will be inside that range, the OAS you type should already be the net amount you expect, or you will overstate income. GIS is not in the tool. The stacking version is <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>.</p>
+    <p>OAS has a recovery tax once net world income is high enough, and the thresholds are on the OAS pages, not in this tool. If you will be in that range, the OAS you type should already be the net amount you expect, or you will overstate income. GIS is not in the tool. The stacking version is <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The current dollar maximums, if you want them as a ceiling and not as your pension, are on the Canada.ca links in Sources.</p>
 
-    <table>
-        <caption>Public-pension reference figures retrieved from Canada.ca, September 27, 2026. Not used unless you type them.</caption>
-        <thead>
-            <tr>
-                <th>Figure</th>
-                <th>Amount</th>
-                <th>Where it was stated</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Maximum CPP retirement pension at 65, new benefits, January 2026</td>
-                <td>$1,507.65 a month ($18,091.80 a year)</td>
-                <td>Canada.ca CPP amount page, and the ESDC July–September 2026 quarterly table</td>
-            </tr>
-            <tr>
-                <td>Average CPP at 65</td>
-                <td>$877.01 a month</td>
-                <td>Canada.ca, labelled April 2026 on the amount page and July–September 2026 for new beneficiaries on the CPP overview</td>
-            </tr>
-            <tr>
-                <td>Maximum OAS, July–September 2026, ages 65 to 74</td>
-                <td>$751.97 a month ($9,023.64 a year)</td>
-                <td>ESDC quarterly table, July to September 2026</td>
-            </tr>
-            <tr>
-                <td>Maximum OAS, July–September 2026, age 75 and over</td>
-                <td>$827.17 a month ($9,926.04 a year)</td>
-                <td>Same table</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p>Canada.ca also publishes the age adjustment, and this tool does not apply it. CPP falls by 0.6 percent for each month you start before 65, up to 36 percent at 60, and rises by 0.7 percent for each month you wait after 65, up to 42 percent at 70. OAS rises by 0.6 percent for each month you delay after 65, up to 36 percent at 70. If you will start at 70, type the higher annual amount yourself. Do not multiply the maximum by 1.42 and call it your CPP. The enhancement and your earnings record both sit underneath that factor.</p>
+    <p>Canada.ca also publishes an age adjustment for starting CPP before or after 65, and for delaying OAS. This tool does not apply that adjustment. If you will start at 70, type the higher annual amount yourself after you have read the when-to-start page. Do not multiply a maximum by a factor you found somewhere else and call it your CPP.</p>
 
     <h2>What does the loaded example do?</h2>
 
@@ -269,11 +236,11 @@ export const toolsClusterPosts: ToolPost[] = [
 
     <h2>Frequently asked questions</h2>
 
-    <h3>Should I type the $1,507.65 CPP maximum?</h3>
-    <p>Only if My Service Canada Account says your pension at 65 is the maximum. Canada.ca says the maximum and the average are not a guarantee, and that your pension depends on your contributions and when you start. The average new pension cited above is $877.01 a month. The loaded example uses $10,000 a year, which is under both the maximum and a full year of that average, on purpose.</p>
+    <h3>Should I type the CPP maximum?</h3>
+    <p>Only if My Service Canada Account says your pension is the maximum. Canada.ca publishes a maximum and an average, and neither is a guarantee. Your pension depends on your contributions and when you start. The loaded example uses $10,000 a year of CPP on purpose. It is an input, not a quote of the maximum.</p>
 
     <h3>Does the calculator include the OAS clawback?</h3>
-    <p>No. The July to September 2026 table’s footnote puts the 2026 repayment range at $95,323 to $155,109 of net world income for ages 65 to 74, with a higher upper threshold at 75. If you will be in that range, reduce the OAS amount you type, or read the clawback guide and do not treat this output as your cheque.</p>
+    <p>No. The recovery-tax thresholds are on the Canada.ca OAS pages, and those pages did not load here, so this article does not quote the income band. If your income will be high enough for a repayment, reduce the OAS amount you type, or read the clawback guide and do not treat this output as your cheque.</p>
 
     <h3>Why does the TFSA run out while the RRSP remains?</h3>
     <p>The tool spends the TFSA first because a TFSA withdrawal is not taxed at the rate you typed. In the loaded example the entire $32,000 gap at 65 comes from the TFSA. Later years keep drawing it until it is gone, then gross-up the RRSP. A different order can be better. This one is stated so you can see it.</p>
@@ -304,7 +271,7 @@ export const toolsClusterPosts: ToolPost[] = [
 
     ${footer(
       'Retirement',
-      'This is general education, not a retirement, tax, or investment projection for your file. Returns, inflation, tax rates, and the CPP and OAS amounts in the examples are assumptions you can edit. Official maximums are quoted from Canada.ca pages reviewed on September 27, 2026 and are not your benefit. Confirm CPP in My Service Canada Account and OAS on Canada.ca before you retire, delay, or spend.'
+      'This is general education, not a retirement, tax, or investment projection for your file. Returns, inflation, tax rates, and the CPP and OAS amounts in the examples are assumptions you can edit. Official maximums are not quoted here, because the Canada.ca pages did not load on September 27, 2026. Confirm CPP in My Service Canada Account and OAS on Canada.ca before you retire, delay, or spend.'
     )}
 
 </div>`
