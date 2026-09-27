@@ -2,6 +2,7 @@
 import { creditCardClusterPosts } from './credit-card-cluster';
 import { governmentBenefitsClusterPosts } from './government-benefits-cluster';
 import { investingClusterPosts } from './investing-cluster';
+import { realEstateClusterPosts } from './real-estate-cluster';
 
 export const posts = [
   {
@@ -20611,7 +20612,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     content: `<div class="container">
 
     <div class="hook">
-        The Smith Manoeuvre does not pay off your house. It replaces a <span class="highlight">non-deductible mortgage</span> with a debt you hope is deductible, invested in a taxable account. If that sentence is uncomfortable, the strategy is not for you yet.
+        The Smith Manoeuvre does not pay off your house. It replaces a <span class="highlight">non-deductible mortgage</span> with a debt you hope is deductible, invested in a taxable account. If that sentence is uncomfortable, the strategy is not for you yet. The product the loop needs is covered in the <a href="/blog/readvanceable-mortgage-canada/">readvanceable mortgage guide</a>, and the rate, renewal, and stress-test rules around it are the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>.
     </div>
 
     <p>Fraser Smith's plain-vanilla version is a mechanical loop. You have a readvanceable mortgage: an amortizing loan on your principal residence, paired with a home equity line of credit that grows as you pay principal. Each payment frees a slice of credit. You borrow that slice and invest it. Interest on money borrowed to earn income can be deductible. Interest on the mortgage you used to buy the home you live in is not. The loop converts one into the other, slowly, while your total debt stays large on purpose.</p>
@@ -20902,7 +20903,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         CRA does not audit the nickname of your line of credit. It follows the <span class="highlight">dollars to what they bought</span>. If those dollars bought investments, you may have a carrying charge. If they bought a kitchen, you have a kitchen.
     </div>
 
-    <p>A home equity line of credit is secured debt at a floating rate, typically interest-only, capped by loan-to-value rules and by whatever your lender still feels like offering after an appraisal. The tax question is separate from the credit question. Paragraph 20(1)(c) allows interest on money borrowed for the purpose of earning income from a business or property, subject to the limits in the Income Tax Act and in Folio S3-F6-C1. This article is the set of structures that keep that purpose visible. The leveraged loop that readvances your mortgage is the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a>. The decision to borrow at all, versus simply paying the mortgage down, is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment comparison</a>.</p>
+    <p>A home equity line of credit is secured debt at a floating rate, typically interest-only, capped by loan-to-value rules and by whatever your lender still feels like offering after an appraisal. Whether that limit grows on its own as you pay principal is the <a href="/blog/readvanceable-mortgage-canada/">readvanceable mortgage guide</a>. The tax question is separate from the credit question. Paragraph 20(1)(c) allows interest on money borrowed for the purpose of earning income from a business or property, subject to the limits in the Income Tax Act and in Folio S3-F6-C1. This article is the set of structures that keep that purpose visible. The leveraged loop that readvances your mortgage is the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre guide</a>. The decision to borrow at all, versus simply paying the mortgage down, is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment comparison</a>.</p>
 
     <div class="callout">
         <strong>Current use is the test:</strong>
@@ -21636,7 +21637,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The FHSA's tax anatomy is already written. The expensive mistakes happen in <span class="highlight">the order of the cheques</span>: room that never started because the account was opened late, a withdrawal that misses the lawyer's deadline, and an RRSP raid you then have to repay.
     </div>
 
-    <p>The deduction, the $8,000 annual room, the capped carry-forward, and the lifetime limit are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP as savings tools is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. This article starts when a purchase is real. It is about timing: what to fund, what to liquidate, what to withdraw, and what to leave alone so the down payment arrives in the trust account as cash.</p>
+    <p>The deduction, the $8,000 annual room, the capped carry-forward, and the lifetime limit are the <a href="/blog/fhsa-guide/">FHSA guide</a>. How the FHSA compares with a TFSA and an RRSP as savings tools is the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">three-account comparison</a>. The wider first-purchase map, including the Home Buyers' Plan limit and default insurance, is the <a href="/blog/first-time-home-buyer-guide-canada/">first-time home buyer guide</a>. This article starts when a purchase is real. It is about timing: what to fund, what to liquidate, what to withdraw, and what to leave alone so the down payment arrives in the trust account as cash.</p>
 
     <div class="callout">
         <strong>Room does not backdate:</strong>
@@ -26316,6 +26317,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
   ...creditCardClusterPosts,
   ...investingClusterPosts,
+  ...realEstateClusterPosts,
   ...governmentBenefitsClusterPosts,
 
 ];
