@@ -18,6 +18,7 @@ const KEY_POSTS = [
   'best-cash-back-credit-cards-canada',
   'canadian-mortgage-guide',
   'smith-maneuver-canada-steps-risks',
+  'canadian-insurance-planning-guide',
   'life-insurance-need-analysis-canada',
   'cpp-timing-benefits-stacking-canada',
   'cash-flow-system-canada',

@@ -2,6 +2,7 @@
 import { creditCardClusterPosts } from './credit-card-cluster';
 import { investingClusterPosts } from './investing-cluster';
 import { realEstateClusterPosts } from './real-estate-cluster';
+import { insuranceClusterPosts } from './insurance-cluster';
 
 export const posts = [
   {
@@ -21995,7 +21996,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The face amount is the last number, and it is the one the quote starts with. A Canadian household insures the <span class="highlight">gap the survivor cannot fund</span>, after the survivor's own pay, after assets you are willing to spend, and after you have refused to add the mortgage twice.
     </div>
 
-    <p>This is a need analysis. It is not a product tour. Term versus permanent, cash value, and corporate ownership are separate decisions: <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a> and <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. If you buy a number before you have written the gap, you are shopping a multiple of salary that a spreadsheet never had to live with.</p>
+    <p>This is a need analysis. It is not a product tour. Term versus permanent, cash value, and corporate ownership are separate decisions: <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a> and <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. If you buy a number before you have written the gap, you are shopping a multiple of salary that a spreadsheet never had to live with. The hub that orders every policy is the <a href="/blog/canadian-insurance-planning-guide/">Canadian insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Three methods, one job:</strong>
@@ -22122,7 +22123,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Most Canadian households have a need with an end date. Term insurance is built for that date. Permanent insurance is for the need that is <span class="highlight">still there at 80</span>, and the cash-value illustration is not the reason to pretend otherwise.
     </div>
 
-    <p>Run the face amount first. The <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a> tells you how much and for how long. This article tells you which contract matches that length. Corporate ownership, the capital dividend account, and when a holdco should be the owner are the <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance guide</a>. Do not buy a participating whole life policy to settle a question this page can settle.</p>
+    <p>Run the face amount first. The <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a> tells you how much and for how long. This article tells you which contract matches that length. Corporate ownership, the capital dividend account, and when a holdco should be the owner are the <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance guide</a>. Do not buy a participating whole life policy to settle a question this page can settle. What age does to the premium, and how to compare two term contracts, are the <a href="/blog/term-life-insurance-cost-by-age-canada/">cost-by-age guide</a> and <a href="/blog/best-term-life-insurance-canada/">best term life insurance</a>. The cluster hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Names Canadians mix up:</strong>
@@ -22247,7 +22248,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Life insurance pays if you die. Disability insurance is the contract that has to pay <span class="highlight">while you are still alive and cannot do your job</span>. The word "occupation" in the definition is the product. The percentage on the brochure is the marketing.
     </div>
 
-    <p>A long disability is the living risk that wrecks a household that bought a large term policy and skipped this one. The face amount of life insurance is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. A lump sum on a diagnosis is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>, and it does not replace a monthly benefit. EI sickness benefits and CPP disability are real, narrow, and not an own-occupation plan. Treat them as offsets you must disclose, not as coverage you already own.</p>
+    <p>A long disability is the living risk that wrecks a household that bought a large term policy and skipped this one. The face amount of life insurance is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. A lump sum on a diagnosis is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>, and it does not replace a monthly benefit. EI sickness benefits and CPP disability are real, narrow, and not an own-occupation plan. Treat them as offsets you must disclose, not as coverage you already own. If the income is a business rather than a paycheque, the contract differences are in <a href="/blog/disability-insurance-self-employed-canada/">disability insurance for the self-employed</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Who pays the premium decides the tax on the benefit:</strong>
@@ -22374,7 +22375,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Critical illness insurance pays a cheque if you meet a definition and survive the waiting period. It does not pay your salary next month. If disability insurance and a cash reserve already cover the disruption, <span class="highlight">another lump sum is a second copy</span> of a risk you have handled.
     </div>
 
-    <p>The monthly benefit for a long inability to work is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The capital if you die is the <a href="/blog/life-insurance-need-analysis-canada/">life need analysis</a>. Critical illness sits between them: a one-time amount for a covered condition, sized to costs and a short income hole, not to the maximum face a carrier will issue. Long-term care years later is a different product and a different article, <a href="/blog/long-term-care-costs/">long-term care costs</a>. Do not buy CI and call it a nursing-home plan.</p>
+    <p>The monthly benefit for a long inability to work is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The capital if you die is the <a href="/blog/life-insurance-need-analysis-canada/">life need analysis</a>. Critical illness sits between them: a one-time amount for a covered condition, sized to costs and a short income hole, not to the maximum face a carrier will issue. Long-term care years later is a different product and a different article, <a href="/blog/long-term-care-costs/">long-term care costs</a>. Do not buy CI and call it a nursing-home plan. Where a lump sum sits in the buy order is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>The conditions that pay are narrower than the brochure count:</strong>
@@ -22494,7 +22495,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         The policy you bought for "the house" is four different promises: the building, the contents, the months you cannot live there, and the lawsuit if someone is hurt. Canadians get hurt in the <span class="highlight">gap between those promises</span>, and in the endorsements they assumed were in the base form.
     </div>
 
-    <p>This is a coverage map, not a quote. Premiums, deductibles, and water endorsements are local. Nothing here is a price. If you are deciding whether to sell, rent, or stay, the housing choice is <a href="/blog/housing-decisions-retirement/">housing decisions in retirement</a>. If the property is a rental and someone has mentioned a corporation, the tax answer is <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation</a>, and it does not replace a lessor's policy. The principal residence exemption and a homeowner policy do not even use the same definition of "home." The tax version is <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence versus rental</a>.</p>
+    <p>This is a coverage map, not a quote. Premiums, deductibles, and water endorsements are local. Nothing here is a price. If you are deciding whether to sell, rent, or stay, the housing choice is <a href="/blog/housing-decisions-retirement/">housing decisions in retirement</a>. If the property is a rental and someone has mentioned a corporation, the tax answer is <a href="/blog/landlord-incorporation-when-it-pays-canada/">landlord incorporation</a>, and it does not replace a lessor's policy. The principal residence exemption and a homeowner policy do not even use the same definition of "home." The tax version is <a href="/blog/primary-residence-vs-rental-property-canada/">principal residence versus rental</a>. The car, which is a different contract in every province, is <a href="/blog/car-insurance-by-province-canada/">car insurance by province</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Landlord and tenant policies are not substitutes:</strong>
@@ -22628,7 +22629,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Provincial health insurance is a domestic promise. Outside Canada it is a token, sometimes a per-diem, sometimes less, and it is <span class="highlight">not a ceiling you can plan a hospital around</span>. The travel policy is the plan. The card in your wallet is a plan only if the certificate still likes your age, your trip length, and your medications.
     </div>
 
-    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on.</p>
+    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on. Routine dental and drugs at home, including the Canadian Dental Care Plan test, are <a href="/blog/private-health-dental-insurance-canada/">private health and dental insurance</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Three products people buy as if they were one:</strong>
@@ -22750,7 +22751,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Corporate-owned life insurance is a way to turn surplus that has already been taxed inside the company into a <span class="highlight">capital dividend when you die</span>. It is not a smarter term policy for a 15-year income need, and the illustration is not a TFSA.
     </div>
 
-    <p>If you are still deciding whether a corporation should exist, stop here and read <a href="/blog/should-you-incorporate/">should you incorporate</a>. If the company exists and the question is where a portfolio sits, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the third question: given surplus, a buy-sell, or a tax bill on the shares at death, should the company own a life policy? The personal face amount is still the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. Term versus permanent is still <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. Do not let a holdco shortcut those.</p>
+    <p>If you are still deciding whether a corporation should exist, stop here and read <a href="/blog/should-you-incorporate/">should you incorporate</a>. If the company exists and the question is where a portfolio sits, that is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. This article is the third question: given surplus, a buy-sell, or a tax bill on the shares at death, should the company own a life policy? The personal face amount is still the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. Term versus permanent is still <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. Do not let a holdco shortcut those. Personal term, priced as a household contract, is <a href="/blog/best-term-life-insurance-canada/">best term life insurance</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>The capital dividend account credit is proceeds minus adjusted cost basis:</strong>
@@ -22870,7 +22871,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         Over-insuring is not a moral failure. It is <span class="highlight">the same loss funded three times</span> — once by a public plan, once by an employer booklet, and again by a rider you did not read — while the loss that would actually sink you is still thin.
     </div>
 
-    <p>The pieces are already written. Use them in order. Life capital is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. The contract length is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. The living claim is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The one-time diagnosis cheque is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>. The building is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant gaps</a>. The border is <a href="/blog/travel-medical-insurance-canada/">travel medical</a>. The company is <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. This article is the sequence and the duplicates.</p>
+    <p>The pieces are already written. Use them in order. Life capital is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. The contract length is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. The living claim is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>. The one-time diagnosis cheque is <a href="/blog/critical-illness-insurance-canada/">critical illness</a>. The building is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant gaps</a>. The border is <a href="/blog/travel-medical-insurance-canada/">travel medical</a>. The company is <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned life insurance</a>. This article is the sequence and the duplicates. The expanded order, including group coverage, health and dental, and the car, is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>.</p>
 
     <div class="callout">
         <strong>Stack in this order, and stop when the residual is small enough to cash-flow:</strong>
@@ -26316,6 +26317,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...creditCardClusterPosts,
   ...investingClusterPosts,
   ...realEstateClusterPosts,
+  ...insuranceClusterPosts,
 
 ];
 
