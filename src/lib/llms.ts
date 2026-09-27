@@ -4,6 +4,9 @@ import { CATEGORIES, SITE_URL } from '@/lib/site';
 const KEY_POSTS = [
   'how-canadian-taxes-work',
   'federal-tax-brackets',
+  'capital-gains-tax-canada',
+  'canada-income-tax-calculator',
+  'amt-canada',
   'rrsp-vs-tfsa-vs-fhsa',
   'contribution-limits',
   'how-much-money-retire-canada',

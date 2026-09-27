@@ -2,8 +2,9 @@
 import { creditCardClusterPosts } from './credit-card-cluster';
 import { governmentBenefitsClusterPosts } from './government-benefits-cluster';
 import { investingClusterPosts } from './investing-cluster';
-import { realEstateClusterPosts } from './real-estate-cluster';
 import { insuranceClusterPosts } from './insurance-cluster';
+import { realEstateClusterPosts } from './real-estate-cluster';
+import { taxesClusterPosts } from './taxes-cluster';
 
 export const posts = [
   {
@@ -5786,6 +5787,14 @@ export const posts = [
         <p>The fact that Canadians left $212 million of the Canada Workers Benefit unclaimed isn't because the tax code is impenetrable. It's because people haven't been taught the simple, logical structure that actually exists.</p>
 
         <p>Now you have. The rest is just execution.</p>
+
+        <h2>Where the tax spokes go deeper</h2>
+        <ul>
+            <li><a href="/blog/federal-tax-brackets/">2026 federal tax brackets</a> and the <a href="/blog/canada-income-tax-calculator/">income tax calculator</a>.</li>
+            <li><a href="/blog/capital-gains-tax-canada/">Capital gains tax</a>, the <a href="/blog/amt-canada/">alternative minimum tax</a>, and <a href="/blog/crypto-tax-canada/">crypto tax</a>.</li>
+            <li><a href="/blog/charitable-donation-tax-credit-canada/">Charitable donation credit</a> and the <a href="/blog/medical-expense-tax-credit-canada/">medical expense credit</a>.</li>
+            <li><a href="/blog/spousal-rrsp-canada/">Spousal RRSPs</a> and the <a href="/blog/tfsa-overcontribution-penalty/">TFSA over-contribution penalty</a>.</li>
+        </ul>
 
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Taxes?</strong></p>
@@ -26321,6 +26330,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...realEstateClusterPosts,
   ...governmentBenefitsClusterPosts,
   ...insuranceClusterPosts,
+  ...taxesClusterPosts,
 
 ];
 

@@ -908,3 +908,15 @@
     .blog-content-exact .bar span { font-size: 0.65rem; }
     .blog-content-exact .collapsible { font-size: 1rem; padding: 15px; }
 }
+
+.tax-calculator-fields {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+    .tax-calculator-fields {
+        grid-template-columns: 1fr 1fr;
+    }
+}

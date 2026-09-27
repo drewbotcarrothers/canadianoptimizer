@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import RelatedPosts from '@/components/blog/RelatedPosts';
 import ClientBlogContent from './ClientBlogContent';
+import IncomeTaxCalculator from '@/components/tools/IncomeTaxCalculator';
 import { posts } from '@/data/posts';
 import {
   articleSchema,
@@ -18,6 +19,39 @@ import {
   toMetaDescription,
 } from '@/lib/site';
 import '../blog-content.css';
+
+const TAX_CALCULATOR_MARKER = '<div id="income-tax-calculator"></div>';
+
+function BlogBody({ content }: { content: string }) {
+  if (!content.includes(TAX_CALCULATOR_MARKER)) {
+    return (
+      <div className="blog-content-exact">
+        <div className="container mx-auto py-8">
+          <ClientBlogContent content={content} />
+        </div>
+      </div>
+    );
+  }
+
+  const [before, after] = content.split(TAX_CALCULATOR_MARKER);
+  return (
+    <>
+      <div className="blog-content-exact">
+        <div className="container mx-auto py-8">
+          <ClientBlogContent content={before} />
+        </div>
+      </div>
+      <div className="mx-auto w-full max-w-[800px] px-5">
+        <IncomeTaxCalculator />
+      </div>
+      <div className="blog-content-exact">
+        <div className="container mx-auto py-8">
+          <ClientBlogContent content={after} />
+        </div>
+      </div>
+    </>
+  );
+}
 
 export function generateStaticParams() {
   const seenSlugs = new Set<string>();
@@ -153,11 +187,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <AffiliateDisclosure />
           </div>
 
-          <div className="blog-content-exact">
-            <div className="container mx-auto py-8">
-              <ClientBlogContent content={contentWithImage} />
-            </div>
-          </div>
+          <BlogBody content={contentWithImage} />
         </article>
         <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} />
       </>
