@@ -12,6 +12,7 @@ const KEY_POSTS = [
   'oas-gis-clawback-canada',
   'tfsa-contribution-optimization',
   'diy-etf-portfolio-asset-location-canada',
+  'how-to-invest-canada-guide',
   'best-travel-rewards-cards-canada',
   'best-cash-back-credit-cards-canada',
   'smith-maneuver-canada-steps-risks',
