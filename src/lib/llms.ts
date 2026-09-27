@@ -19,6 +19,7 @@ const KEY_POSTS = [
   'canadian-mortgage-guide',
   'smith-maneuver-canada-steps-risks',
   'life-insurance-need-analysis-canada',
+  'canada-government-benefits-guide',
   'cpp-timing-benefits-stacking-canada',
   'cash-flow-system-canada',
   'salary-vs-dividends-incorporated-canada',
