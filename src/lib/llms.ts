@@ -30,6 +30,7 @@ const KEY_POSTS = [
   'life-insurance-need-analysis-canada',
   'canada-government-benefits-guide',
   'cpp-timing-benefits-stacking-canada',
+  'canadian-cash-management-guide',
   'cash-flow-system-canada',
   'salary-vs-dividends-incorporated-canada',
 ];
