@@ -1,4 +1,6 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
+import { creditCardClusterPosts } from './credit-card-cluster';
+
 export const posts = [
   {
     title: "DIY ETF Portfolio for Canadians: Asset Allocation and Account Location",
@@ -1588,7 +1590,7 @@ export const posts = [
         A <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome bonus</a> is not a discount on stuff you were never going to buy. On a Canadian card, the bonus is usually locked behind a minimum spend — often a few thousand dollars inside roughly three months — and the people who come out ahead are the ones who <span class="highlight">route spending they already had</span>, not the ones who invent new spending to “hit the offer.”
     </div>
 
-    <p>Card churning, done properly, is a cash-flow problem with a deadline. You are trying to move ordinary household spend onto one card before a date, pay the statement in full, and keep enough unused credit that the next application is not a mess. You are not trying to become a person who owns three air fryers and a frozen float of prepaid cards.</p>
+    <p>Card churning, done properly, is a cash-flow problem with a deadline. You are trying to move ordinary household spend onto one card before a date, pay the statement in full, and keep enough unused credit that the next application is not a mess. You are not trying to become a person who owns three air fryers and a frozen float of prepaid cards. Which card is even worth that window is the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub.</p>
 
     <p>This is the operating system we use. Offers, annual fees, and what counts as eligible spend change constantly. Nothing below is a current bonus amount or a rate. Confirm the offer on the issuer’s own page the day you apply, and read the exclusions.</p>
 
@@ -1794,7 +1796,7 @@ export const posts = [
         There is no single best travel card in Canada in 2026. There is a best <span class="highlight">structure</span> for how you actually fly, where your merchants sit, and whether a foreign-transaction fee will quietly tax every trip. Pick the structure first. The logo is the last decision.
     </div>
 
-    <p>Travel rewards writing on the Canadian internet is mostly a leaderboard of welcome bonuses. Bonuses change monthly, they are often once-per-product, and they tell you nothing about the card you still hold in year three. This guide is the year-three question: which family of cards is worth keeping, for which spending pattern, once the bonus is gone.</p>
+    <p>Travel rewards writing on the Canadian internet is mostly a leaderboard of welcome bonuses. Bonuses change monthly, they are often once-per-product, and they tell you nothing about the card you still hold in year three. This guide is the year-three question: which family of cards is worth keeping, for which spending pattern, once the bonus is gone. The spending-profile map that sits above this page is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
 
     <p>We are not quoting live earn rates, annual fees, or point valuations. Those figures move, and a stale number is worse than no number. Use the Financial Consumer Agency of Canada’s credit-card comparison tool and the issuer’s current page before you apply. What follows is the map.</p>
 
@@ -1959,7 +1961,7 @@ export const posts = [
         Cash back is the only rewards currency with an honest price: one cent is one cent. The 2026 optimization is not a single “best card.” It is a <span class="highlight">two- or three-card stack</span> matched to the categories you actually spend in — groceries, gas, recurring bills, foreign spend, and everything else — after annual fees.
     </div>
 
-    <p>Category bonuses in Canada are real, and they are also a trap. A card that pays more at “grocery stores” may pay the base rate at Walmart, Costco, or a Superstore, because the merchant category code is not what you call the store. A card that looks rich on a Rogers, Fido, or Shaw bill only wins if you are the customer who can redeem that way. Earn rates, fee waivers, and bonus categories change. This guide gives you the decision frame and the names of the usual contenders. It does not give you a rate to memorize.</p>
+    <p>Category bonuses in Canada are real, and they are also a trap. A card that pays more at “grocery stores” may pay the base rate at Walmart, Costco, or a Superstore, because the merchant category code is not what you call the store. A card that looks rich on a Rogers, Fido, or Shaw bill only wins if you are the customer who can redeem that way. Earn rates, fee waivers, and bonus categories change. This guide gives you the decision frame and the names of the usual contenders. It does not give you a rate to memorize. For the current dated figures, start at the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub and the grocery and no-fee spokes linked from it.</p>
 
     <div class="callout">
         <strong>Verify before you apply:</strong>
@@ -2126,7 +2128,7 @@ export const posts = [
         A welcome bonus is not free money. It is a <span class="highlight">timed rebate on spending you already planned</span>, minus the annual fee, minus any fee you pay to force spend through, minus interest if you miss a payment, minus the time and capital you tie up clearing the minimum. Run that equation before you apply. Most “great offers” fail it.
     </div>
 
-    <p>Canadian card marketing leads with the headline. The optimization is the residual. Offers, earn rates, and what counts as qualifying spend change constantly, so this article does not quote a live bonus dollar amount or a fixed cent-per-point valuation. It gives you the worksheet. Confirm every figure on the issuer’s page the day you apply.</p>
+    <p>Canadian card marketing leads with the headline. The optimization is the residual. Offers, earn rates, and what counts as qualifying spend change constantly, so this article does not quote a live bonus dollar amount or a fixed cent-per-point valuation. It gives you the worksheet. Confirm every figure on the issuer’s page the day you apply. The card you are pricing belongs in the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> map first.</p>
 
     <div class="callout">
         <strong>Offers change:</strong>
@@ -2316,7 +2318,7 @@ export const posts = [
         Your credit score is not a loyalty program. It is a <span class="highlight">lender’s shortcut</span> for how you have handled revolving credit. Utilization and applications are two of the levers you actually control — and two of the ones card churning and “optimization” content most often abuse.
     </div>
 
-    <p>This guide is Canada-specific: Equifax and TransUnion both matter, scores are not identical across bureaus or products, and there is no single public FICO® number that every Canadian lender uses the way US media assumes. Exact scoring weights are proprietary and change. What follows is the operating behaviour that reliably helps, and the myths that reliably cost money.</p>
+    <p>This guide is Canada-specific: Equifax and TransUnion both matter, scores are not identical across bureaus or products, and there is no single public FICO® number that every Canadian lender uses the way US media assumes. Exact scoring weights are proprietary and change. What follows is the operating behaviour that reliably helps, and the myths that reliably cost money. The products those applications are for are mapped in <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
 
     <div class="callout">
         <strong>Not credit advice:</strong>
@@ -2495,7 +2497,7 @@ export const posts = [
         A “business” credit card in Canada is often still <span class="highlight">your personal credit in a nicer sleeve</span>. The logo on the plastic does not automatically wall off liability, and a corporation card frequently arrives with a personal guarantee. Decide with eyes open: entity structure, guarantee language, and bookkeeping — not the airport lounge photo on the application page.
     </div>
 
-    <p>This guide compares sole proprietorships and incorporated businesses at the card layer. It does not quote live welcome bonuses, earn rates, or affiliate links. Offers change. Confirm fees and eligibility with the issuer, and treat tax treatment as something you verify with a qualified advisor or the CRA materials for your situation.</p>
+    <p>This guide compares sole proprietorships and incorporated businesses at the card layer. It does not quote live welcome bonuses, earn rates, or affiliate links. Offers change. Confirm fees and eligibility with the issuer, and treat tax treatment as something you verify with a qualified advisor or the CRA materials for your situation. Personal-card choices that sit beside a business card are in <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
 
     <div class="callout">
         <strong>Entity first, card second:</strong>
@@ -2654,7 +2656,7 @@ export const posts = [
         An annual fee is not a status symbol. It is a <span class="highlight">recurring cost that must clear a break-even test</span> against the no-fee card you already understand. Credits, insurance you would otherwise buy, earn-rate gaps, and lounge access can tip the math — invented “value” you will never use cannot.
     </div>
 
-    <p>Canadian premium cards often sit in a fee band that looks small next to a travel fantasy and large next to a flat 1 percent cash-back product. This article gives the worksheet. It does not invent a current welcome bonus, earn rate, or lounge network roster. Confirm fees, credits, and insurance schedules on the issuer’s page before you pay for year two.</p>
+    <p>Canadian premium cards often sit in a fee band that looks small next to a travel fantasy and large next to a flat 1 percent cash-back product. This article gives the worksheet. It does not invent a current welcome bonus, earn rate, or lounge network roster. Confirm fees, credits, and insurance schedules on the issuer’s page before you pay for year two. Dated fee figures for the cards people actually compare live on the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub.</p>
 
     <div class="callout">
         <strong>Year one and year two are different problems:</strong>
@@ -2833,7 +2835,7 @@ export const posts = [
         A lounge photo on an application page is not a travel strategy. Canadian cardholders win when they treat lounge access and travel portals as <span class="highlight">priced tools</span> — guest rules, network coverage at YYZ, YVR, and YUL, and whether the portal’s cash or points price beats the airline’s own site after taxes and bag fees.
     </div>
 
-    <p>This guide is structural. It does not invent current lounge-network rosters, day-pass prices, or portal “member rates.” Those change. Confirm access lists and booking rules with the issuer and the lounge operator the week you fly.</p>
+    <p>This guide is structural. It does not invent current lounge-network rosters, day-pass prices, or portal “member rates.” Those change. Confirm access lists and booking rules with the issuer and the lounge operator the week you fly. Which card is worth opening before you price the lounge is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
 
     <div class="callout">
         <strong>Fee first, perk second:</strong>
@@ -3025,7 +3027,7 @@ export const posts = [
         A point is not worth what a blog’s leaderboard says. It is worth <span class="highlight">the cash you avoid spending on a trip you will actually take</span>, divided by the points you burn — after taxes, surcharges, and transfer friction. Aeroplan, Avion, and Amex Membership Rewards each need that honesty, not a branded fantasy number.
     </div>
 
-    <p>This article teaches the cents-per-point (CPP) framework Canadians can run on a spreadsheet. Illustrative ranges below are labelled as such. They are not current bonuses, earn rates, or guaranteed redemption values. Verify award prices, transfer ratios, and portal rates with Aeroplan, RBC Avion, American Express, and your issuer the day you book.</p>
+    <p>This article teaches the cents-per-point (CPP) framework Canadians can run on a spreadsheet. Illustrative ranges below are labelled as such. They are not current bonuses, earn rates, or guaranteed redemption values. Verify award prices, transfer ratios, and portal rates with Aeroplan, RBC Avion, American Express, and your issuer the day you book. The cards that earn those points are sorted by spending profile in <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
 
     <div class="callout">
         <strong>Offers and charts change:</strong>
@@ -3219,7 +3221,7 @@ export const posts = [
         The right Canadian card setup is not a ranked list of “best cards.” It is a <span class="highlight">small stack matched to how you earn and spend</span> — family groceries, freelance invoices, rental operations, or heavy travel — after fees, acceptance, and the discipline to pay in full.
     </div>
 
-    <p>These templates are role-based schematics. They name jobs for cards (grocery earner, no-foreign-fee companion, business ledger), not live welcome-bonus dollar amounts or invented earn rates. Plug in current issuer terms. Cross-link the detailed guides already on this site when you need the underlying math.</p>
+    <p>These templates are role-based schematics. They name jobs for cards (grocery earner, no-foreign-fee companion, business ledger), not live welcome-bonus dollar amounts or invented earn rates. Plug in current issuer terms. Cross-link the detailed guides already on this site when you need the underlying math, starting with the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub.</p>
 
     <div class="callout">
         <strong>Shared rules for every persona:</strong>
@@ -26307,7 +26309,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     </div>
 
 </div>`
-  }
+  },
+
+  ...creditCardClusterPosts,
 
 ];
 

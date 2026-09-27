@@ -10,59 +10,88 @@ export const LOGO_PATH = '/assets/logo.png';
 export const CATEGORIES: {
   slug: string;
   name: string;
+  pageTitle: string;
+  metaDescription: string;
   description: string;
 }[] = [
   {
     slug: 'investing',
     name: 'Investing',
+    pageTitle: 'Advanced Canadian Investing Strategies',
+    metaDescription:
+      'Portfolio construction, ETF placement, and tax-aware investing strategies for Canadians who manage their own money.',
     description:
       'Portfolio optimization, asset allocation, and wealth building strategies for Canadians.',
   },
   {
     slug: 'taxes',
     name: 'Taxes',
+    pageTitle: 'Advanced Canadian Tax Strategies',
+    metaDescription:
+      'Advanced Canadian tax strategies: brackets, credits, RRSPs, TFSAs, and the filing moves that change what you keep.',
     description:
       'Advanced tax planning, deductions, and minimization strategies to keep more of your hard-earned money.',
   },
   {
     slug: 'real-estate',
     name: 'Real Estate',
+    pageTitle: 'Advanced Canadian Real Estate Strategies',
+    metaDescription:
+      'Mortgage, HELOC, and rental-property strategies for Canadians who want the tax and cash-flow math, not the sales pitch.',
     description:
       'Residential and investment property optimization, mortgage strategies, and homeownership tactics.',
   },
   {
     slug: 'credit-cards',
     name: 'Credit Cards',
+    pageTitle: 'Canadian Credit Card Strategies',
+    metaDescription:
+      'Canadian credit card strategies by spending profile: rewards, annual fees, foreign transactions, groceries, and Aeroplan.',
     description:
       'Maximizing rewards, travel hacking, and strategic credit management for maximum value.',
   },
   {
     slug: 'retirement',
     name: 'Retirement',
+    pageTitle: 'Canadian Retirement Strategies',
+    metaDescription:
+      'CPP, OAS, RRSP, and TFSA withdrawal strategies for Canadians planning retirement income on purpose.',
     description:
       'Optimizing retirement income, withdrawal strategies (RRSP/TFSA/CPP/OAS), and long-term planning.',
   },
   {
     slug: 'budgeting-saving',
     name: 'Budgeting & Saving',
+    pageTitle: 'Canadian Budgeting and Saving Strategies',
+    metaDescription:
+      'Cash-flow systems, emergency funds, and saving-rate frameworks for Canadian households that want the math.',
     description:
       'High-performance cash flow management, cost reduction, and automated saving frameworks.',
   },
   {
     slug: 'earning-more',
     name: 'Earning More',
+    pageTitle: 'Strategies for Earning More in Canada',
+    metaDescription:
+      'Raise math, side income, and incorporated compensation strategies that account for Canadian tax and benefits.',
     description:
       'Compensation design, tax-aware income, and career leverage for Canadians.',
   },
   {
     slug: 'insurance',
     name: 'Insurance',
+    pageTitle: 'Canadian Insurance Strategies',
+    metaDescription:
+      'Life, disability, and property insurance decisions for Canadians who want coverage without paying for coverage they will not use.',
     description:
       'Optimizing risk management through life, health, disability, and property insurance strategies.',
   },
   {
     slug: 'government-benefits',
     name: 'Government Benefits',
+    pageTitle: 'Canadian Government Benefits',
+    metaDescription:
+      'CPP, OAS, GIS, and other Canadian federal and provincial benefits: who qualifies, and how the programs stack.',
     description:
       'Maximizing your entitlement to Canadian federal and provincial grants, credits, and programs.',
   },
@@ -299,13 +328,13 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
 }
 
 export function collectionSchema(
-  category: { slug: string; name: string; description: string },
+  category: { slug: string; name: string; pageTitle: string; description: string },
   categoryPosts: { title: string; slug: string }[]
 ) {
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${category.name} Strategies`,
+    name: category.pageTitle,
     description: category.description,
     url: `${SITE_URL}/category/${category.slug}/`,
     mainEntity: {
