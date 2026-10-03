@@ -1,6 +1,7 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
 import { budgetingClusterPosts } from './budgeting-cluster';
 import { earningMoreClusterPosts } from './earning-more-cluster';
+import { retirementClusterPosts } from './retirement-cluster';
 import { creditCardClusterPosts } from './credit-card-cluster';
 import { governmentBenefitsClusterPosts } from './government-benefits-cluster';
 import { investingClusterPosts } from './investing-cluster';
@@ -26338,6 +26339,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...toolsClusterPosts,
   ...budgetingClusterPosts,
   ...earningMoreClusterPosts,
+  ...retirementClusterPosts,
 
 ];
 
