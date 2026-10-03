@@ -5,9 +5,9 @@ import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import { authorSchema, buildPageMetadata } from '@/lib/site';
 
 export const metadata: Metadata = buildPageMetadata({
-  title: 'About Andrew Carrothers',
+  title: 'About Andrew',
   description:
-    'Andrew Carrothers writes Canadian Optimizer: practical tax, investing, and retirement strategies based on how the Canadian rules actually work.',
+    'Andrew writes Canadian Optimizer: practical tax, investing, and retirement strategies based on how the Canadian rules actually work.',
   path: '/about/',
 });
 
@@ -27,7 +27,7 @@ export default function About() {
              {/* Placeholder for Andrew's headshot */}
             <Image 
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
-              alt="Andrew Carrothers" 
+              alt="Andrew" 
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />
@@ -36,7 +36,7 @@ export default function About() {
           <div className="w-full md:w-2/3 prose prose-lg max-w-none text-gray-700">
             <h2 className="text-2xl font-bold text-charcoal mb-4">My Financial Optimization Journey</h2>
             <p className="mb-4">
-              I'm Andrew Carrothers, the creator of Canadian Optimizer. For the past decade, I've obsessed over the mechanics of wealth building strictly within the Canadian financial ecosystem.
+              I'm Andrew, the creator of Canadian Optimizer. For the past decade, I've obsessed over the mechanics of wealth building strictly within the Canadian financial ecosystem.
             </p>
             <p className="mb-4">
               Most personal finance advice stops at "buy index funds" and "max your RRSP". But true wealth acceleration happens at the margins. It happens when you implement the Smith Maneuver to make your mortgage tax-deductible. It happens when you structure your corporate dividends to minimize personal tax. It happens when you systematically churn credit cards for five-figure travel returns.
