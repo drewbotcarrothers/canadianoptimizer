@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const SITE_URL = 'https://canadianoptimizer.com';
 export const SITE_NAME = 'Canadian Optimizer';
-export const AUTHOR_NAME = 'Andrew Carrothers';
+export const AUTHOR_NAME = 'Andrew';
 export const AUTHOR_ID = `${SITE_URL}/about/#andrew`;
 export const AUTHOR_URL = `${SITE_URL}/about/`;
 export const LOGO_PATH = '/assets/logo.png';

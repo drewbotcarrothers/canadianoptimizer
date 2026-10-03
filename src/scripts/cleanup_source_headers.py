@@ -1,7 +1,7 @@
 import os
 import re
 
-dir_path = "/Users/andrewcarrothers/Desktop/CanadianOptimizer/blog-posts"
+dir_path = os.path.expanduser("~/Desktop/CanadianOptimizer/blog-posts")
 pattern = re.compile(r"<header>.*?</header>", re.DOTALL)
 
 for category in ["taxes", "retirement"]:
