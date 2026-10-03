@@ -14,7 +14,7 @@ type InsurancePost = {
 const meta = {
   category: 'Insurance',
   categorySlug: 'insurance',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -37,7 +37,7 @@ function insurancePost(
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian life, disability, health, and property insurance as of September 2026. It is not a premium quote, a carrier ranking, or insurance, tax, or legal advice. Premiums depend on the person, the insurer, and the contract. Official figures below are tied to FCAC, CRA, ESDC, Assuris, a provincial regulator, a public auto insurer, RAMQ, or a named carrier page reviewed in September 2026. Dollar examples that are not from those pages are labelled as illustrations. Confirm the certificate, the booklet, and your tax position before you buy, cancel, convert, or decline coverage.</p>
-        <div class="footer-note">Published: ${published} | Category: Insurance | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Insurance | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';

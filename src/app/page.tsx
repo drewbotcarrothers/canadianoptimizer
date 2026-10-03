@@ -91,7 +91,7 @@ export default function Home() {
               title="TFSA Contribution Optimization Strategy for 2026"
               excerpt="When to fund 2026 TFSA room, which assets belong inside, and the overcontribution mistakes that cost more than the contribution."
               category="Investing"
-              author="Andrew Carrothers"
+              author="Andrew"
               date="September 15, 2026"
               imageUrl="/images/blog/tfsa-contribution-optimization.png"
             />
@@ -100,7 +100,7 @@ export default function Home() {
               title="Meeting Minimum Spends: Advanced Credit Card Churning"
               excerpt="How to hit high minimum spend requirements without buying things you don't need or tying up your cash flow."
               category="Credit Cards"
-              author="Andrew Carrothers"
+              author="Andrew"
               date="September 17, 2026"
               imageUrl="/images/blog/card-churning-minimum-spend.png"
             />
@@ -109,7 +109,7 @@ export default function Home() {
               title="Income Splitting Strategies for High/Low Earner Couples"
               excerpt="Spousal RRSPs, prescribed rate loans, and other CRA-approved methods to equalize income and lower your combined tax bill."
               category="Taxes"
-              author="Andrew Carrothers"
+              author="Andrew"
               date="September 12, 2026"
               imageUrl="/images/blog/income-splitting-strategies-couples.png"
             />

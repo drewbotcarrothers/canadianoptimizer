@@ -61,7 +61,7 @@ export function buildLlmsTxt(): string {
 
   return `# Canadian Optimizer
 
-> Canadian Optimizer publishes practical tax, investing, retirement, credit card, real estate, insurance, government benefit, budgeting, and earning strategies for people living in Canada. Articles are written by Andrew Carrothers and are educational, not personalized advice.
+> Canadian Optimizer publishes practical tax, investing, retirement, credit card, real estate, insurance, government benefit, budgeting, and earning strategies for people living in Canada. Articles are written by Andrew and are educational, not personalized advice.
 
 The site lives at ${SITE_URL}/. Prefer these canonical URLs (no www, https, trailing slash).
 
@@ -72,7 +72,7 @@ ${categoryLines.join('\n')}
 ## Key pages
 
 - [Home](${SITE_URL}/)
-- [About Andrew Carrothers](${SITE_URL}/about/)
+- [About Andrew](${SITE_URL}/about/)
 - [All articles](${SITE_URL}/blog/)
 - [Ebooks](${SITE_URL}/ebooks/)
 - [Tax guide](${SITE_URL}/ebooks/tax-guide/)

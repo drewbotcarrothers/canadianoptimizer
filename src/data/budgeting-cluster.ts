@@ -14,7 +14,7 @@ type BudgetPost = {
 const meta = {
   category: 'Budgeting & Saving',
   categorySlug: 'budgeting-saving',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -39,7 +39,7 @@ const published = 'September 27, 2026';
 
 const footer = `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian deposits, cash ETFs, GICs, everyday accounts, budgeting tools, and insolvency options as of September 2026. It is not a rate quote, a product ranking, or deposit-insurance, investment, tax, credit, or legal advice. Rates, MERs, yields, fees, and app prices change. Figures are tied to issuer, fund, Bank of Canada, CDIC, or Office of the Superintendent of Bankruptcy pages reviewed in September 2026. Arithmetic on those figures is an illustration, not a maturity quote. Confirm the live page, your contribution room, and your coverage before you move money. Insolvency decisions belong with a Licensed Insolvency Trustee.</p>
-        <div class="footer-note">Published: ${published} | Category: Budgeting &amp; Saving | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Budgeting &amp; Saving | Author: Andrew</div>
     </div>`;
 
 export const budgetingClusterPosts: BudgetPost[] = [

@@ -14,7 +14,7 @@ type EstatePost = {
 const meta = {
   category: 'Real Estate',
   categorySlug: 'real-estate',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -37,7 +37,7 @@ function estatePost(
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian mortgages, default insurance, and housing accounts as of September 2026. It is not a mortgage offer, a rate quote, or tax, credit, or legal advice. Contract rates, posted rates, penalties, premiums, and program limits change, and they depend on the commitment and on your CRA file. Official figures below are tied to OSFI, CMHC, the Bank of Canada, CRA, the Department of Finance, FCAC, or a named lender page reviewed in September 2026. Dollar payments that use an assumed contract rate are labelled as illustrations. Confirm the commitment, your lender's penalty calculator, and your CRA account before you sign, switch, break a term, or withdraw.</p>
-        <div class="footer-note">Published: ${published} | Category: Real Estate | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Real Estate | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';
@@ -46,7 +46,7 @@ export const realEstateClusterPosts: EstatePost[] = [
   estatePost(
     'canadian-mortgage-guide',
     'The Canadian Mortgage Guide: Rates, Terms, Renewal, and Prepayment',
-    'A Canadian mortgage in September 2026 is four numbers: the contract rate, a qualifying rate of contract plus 2% or 5.25%, the penalty if you leave, and a 65% cap on revolving credit.',
+    'Four mortgage numbers: the contract rate, qualification at contract plus 2% or 5.25%, the penalty if you leave, and a 65% revolving cap.',
     `<div class="container">
 
     <div class="hook">
@@ -285,7 +285,7 @@ export const realEstateClusterPosts: EstatePost[] = [
         <li><strong>Get the current lender's offer in writing, then one other federally regulated offer.</strong> Compare rate, term, prepayment privilege, and the penalty method. A cheaper rate with a harsh interest-rate differential is a bet that you will stay the whole term. The <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a> shows why the discount off the posted rate matters.</li>
         <li><strong>Ask the new lender, in writing, whether they will apply the prescribed qualifying rate.</strong> On a qualifying straight switch, OSFI does not require it. The lender can still decline, or still stress the payment under its own policy.</li>
         <li><strong>If you need cash out, stop calling it a renewal.</strong> Price the penalty, the new stress test, and the closing costs. Land transfer tax is not charged again on a plain switch of the same property, but a refinance still has legal fees. The cost map is the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>.</li>
-        <li><strong>Decide what the payment is for.</strong> A lower payment that you spend is a longer amortization in disguise. A lower payment that you send as a prepayment is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a> choice.</li>
+        <li><strong>Decide what the payment is for.</strong> A lower payment that you spend is a longer amortization in disguise. A lower payment that you send as a prepayment is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a> choice. The interest and months that extra payment saves are the <a href="/blog/mortgage-prepayment-calculator/">mortgage prepayment calculator</a>.</li>
     </ol>
 
     <div class="example-box">
@@ -466,7 +466,7 @@ export const realEstateClusterPosts: EstatePost[] = [
   estatePost(
     'mortgage-stress-test-canada',
     'The Mortgage Stress Test Explained (Minimum Qualifying Rate)',
-    'As of September 2026 the minimum qualifying rate is the greater of your contract rate plus 2 percentage points or 5.25%. The 5.25% floor applies only if the contract rate is under 3.25%.',
+    'As of September 2026, you qualify at the greater of your contract rate plus 2 percentage points or 5.25%. The floor matters only under 3.25%.',
     `<div class="container">
 
     <div class="hook">
@@ -600,7 +600,7 @@ export const realEstateClusterPosts: EstatePost[] = [
         On a closed fixed-rate mortgage, the prepayment charge is usually the <span class="highlight">higher of three months' interest and an interest-rate differential</span>. In FCAC's own example, a $200,000 balance at 6% with 36 months left produces a $3,000 three-month charge and a $12,000 differential, so the penalty is $12,000. A discount off the posted rate can make a real penalty larger than that simple gap.
     </div>
 
-    <p>Whether you should pay the penalty to catch a lower rate is a renewal question: the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>. The reason fixed terms carry this risk, and many variable terms do not, is the <a href="/blog/fixed-vs-variable-mortgage-canada/">fixed versus variable framework</a>. Both sit under the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Using your annual penalty-free privilege instead of breaking the mortgage is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>.</p>
+    <p>Whether you should pay the penalty to catch a lower rate is a renewal question: the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>. The reason fixed terms carry this risk, and many variable terms do not, is the <a href="/blog/fixed-vs-variable-mortgage-canada/">fixed versus variable framework</a>. Both sit under the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Using your annual penalty-free privilege instead of breaking the mortgage is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. What an allowed prepayment saves in interest and months, on the balance and rate you type, is the <a href="/blog/mortgage-prepayment-calculator/">mortgage prepayment calculator</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
