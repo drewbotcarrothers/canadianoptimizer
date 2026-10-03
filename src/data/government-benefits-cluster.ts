@@ -14,7 +14,7 @@ type BenefitsPost = {
 const meta = {
   category: 'Government Benefits',
   categorySlug: 'government-benefits',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -37,7 +37,7 @@ function benefitsPost(
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian government benefits as of September 2026. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. Amounts, income thresholds, co-payments, and payment dates change, and they depend on your return, your residence, and the notice CRA or Service Canada actually issues. Figures below are tied to Canada.ca, CRA, ESDC, or Department of Finance pages reviewed in September 2026. Dollar examples marked as illustrations are arithmetic on those figures, not a quote of your file. Confirm My Account, My Service Canada Account, and the current notice before you spend a payment you have not received.</p>
-        <div class="footer-note">Published: ${published} | Category: Government Benefits | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Government Benefits | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';
@@ -241,7 +241,7 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
   benefitsPost(
     'canada-benefit-payment-dates',
     'Government Benefit Payment Dates 2026: CCB, GST/HST Credit, CPP, OAS',
-    'Remaining 2026 dates: Canada Disability Benefit on October 15, the Groceries and Essentials Benefit on October 5, Canada Child Benefit on October 20, and CPP and OAS on October 28.',
+    'Still ahead in 2026: disability benefit October 15, groceries benefit October 5, child benefit October 20, and CPP and OAS on October 28.',
     `<div class="container">
 
     <div class="hook">
@@ -702,7 +702,7 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
   benefitsPost(
     'how-much-cpp-will-i-get',
     'How Much CPP Will I Get? Estimating Your Pension With My Service Canada',
-    'A CPP retirement pension that begins in January 2026 pays at most $1,507.65 a month at age 65. New beneficiaries average $877.01. Your figure is the estimate in My Service Canada Account.',
+    'CPP starting in January 2026 pays at most $1,507.65 a month at age 65. New beneficiaries average $877.01. Use your Service Canada estimate.',
     `<div class="container">
 
     <div class="hook">

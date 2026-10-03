@@ -14,7 +14,7 @@ type InvestingPost = {
 const meta = {
   category: 'Investing',
   categorySlug: 'investing',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -37,7 +37,7 @@ function investingPost(
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about investing in Canada as of September 2026. It is not a recommendation to buy, sell, or hold any security, and not investment, tax, or legal advice. Management fees, MERs, commissions, foreign-exchange spreads, and withholding rules change. Figures are tied to issuer, broker, CRA, or treaty pages reviewed in September 2026; confirm them before you act. Dollar examples are illustrations of arithmetic, not forecasts of return. Consult a registered adviser for a plan that fits your file.</p>
-        <div class="footer-note">Published: ${published} | Category: Investing | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Investing | Author: Andrew</div>
     </div>`;
 
 export const investingClusterPosts: InvestingPost[] = [
