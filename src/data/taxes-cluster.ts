@@ -14,7 +14,7 @@ type TaxPost = {
 const meta = {
   category: 'Taxes',
   categorySlug: 'taxes',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -32,7 +32,7 @@ function taxPost(slug: string, title: string, excerpt: string, content: string):
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian income tax as of September 2026. It is not tax, legal, or investment advice, and it is not a filing position. Brackets, credits, penalties, and inclusion rates change, and they depend on your return. Figures below are tied to CRA, the Department of Finance, Revenu Québec, or a provincial finance page reviewed in September 2026. Dollar examples are illustrations of arithmetic, not a projection of your assessment. Confirm the current form and consult a tax professional for your file.</p>
-        <div class="footer-note">Published: ${published} | Category: Taxes | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Taxes | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';
@@ -514,7 +514,7 @@ export const taxesClusterPosts: TaxPost[] = [
   taxPost(
     'tfsa-overcontribution-penalty',
     "TFSA Over-Contribution Penalty: How It's Calculated and How to Fix It",
-    'A TFSA excess is taxed at 1 percent a month on the highest excess in the account that month. The 2026 dollar limit is $7,000. Withdraw the excess; that month still counts.',
+    'A TFSA excess is taxed at 1% a month on the highest excess that month. The 2026 limit is $7,000. Withdraw it; that month still counts.',
     `<div class="container">
 
     <div class="hook">

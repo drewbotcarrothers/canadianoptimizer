@@ -14,7 +14,7 @@ type CardPost = {
 const meta = {
   category: 'Credit Cards',
   categorySlug: 'credit-cards',
-  author: 'Andrew Carrothers',
+  author: 'Andrew',
   date: '2026-09-27',
   updated: '2026-09-27',
 } as const;
@@ -37,7 +37,7 @@ function cardPost(
 
 const footer = (published: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian credit cards as of September 2026. It is not a recommendation to apply for or keep any product, and not credit, tax, or insurance advice. Fees, earn rates, income rules, merchant codes, insurance certificates, and welcome offers change without notice. Figures below are tied to issuer or Costco pages reviewed in September 2026; confirm them on those pages the day you apply. Paying interest can erase any reward. Illustrative point values are labelled as illustrations, not quotes from an issuer.</p>
-        <div class="footer-note">Published: ${published} | Category: Credit Cards | Author: Andrew Carrothers</div>
+        <div class="footer-note">Published: ${published} | Category: Credit Cards | Author: Andrew</div>
     </div>`;
 
 export const creditCardClusterPosts: CardPost[] = [
@@ -720,7 +720,7 @@ export const creditCardClusterPosts: CardPost[] = [
   cardPost(
     'best-credit-card-for-costco-canada',
     'Best Credit Card for Costco in Canada: The Mastercard-Only Math',
-    'Costco Canada warehouses take Mastercard, not Visa or American Express. As of September 2026 the CIBC Costco Mastercard is $0 and earns 1 percent on warehouse merchandise.',
+    'Costco warehouses take Mastercard, not Visa or American Express. As of September 2026 the CIBC Costco card is $0 and earns 1% in the warehouse.',
     `<div class="container">
 
     <div class="hook">
@@ -1234,7 +1234,7 @@ export const creditCardClusterPosts: CardPost[] = [
   cardPost(
     'aeroplan-points-guide-canada',
     'Aeroplan Points Guide: Earning, Transfer Partners, and Redemptions',
-    'Aeroplan points are Air Canada’s currency. As of September 2026, Amex Membership Rewards Canada is listed at 1,000 points to 1,000 Aeroplan points. This guide does not publish a cents-per-point sweet spot.',
+    'Aeroplan points are Air Canada currency. As of September 2026, Amex Membership Rewards Canada transfers at 1,000 points to 1,000 Aeroplan.',
     `<div class="container">
 
     <div class="hook">
@@ -1520,7 +1520,7 @@ export const creditCardClusterPosts: CardPost[] = [
   cardPost(
     'premium-credit-cards-canada-comparison',
     'Best Premium Credit Cards in Canada: Amex Platinum vs Aeroplan Reserve vs Visa Infinite Privilege',
-    'As of September 2026, Amex Platinum is $799, and both the Amex Aeroplan Reserve and TD Aeroplan Visa Infinite Privilege are $599. The right one is the benefit you will use, not the metal.',
+    'As of September 2026, Amex Platinum costs $799. The Amex Aeroplan Reserve and the TD Aeroplan Visa Infinite Privilege cost $599.',
     `<div class="container">
 
     <div class="hook">
