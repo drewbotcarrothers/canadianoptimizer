@@ -168,7 +168,10 @@ export const realEstateClusterPosts: EstatePost[] = [
         <li><a href="/blog/first-time-home-buyer-guide-canada/">First-time home buyer guide</a> — FHSA, HBP, the home buyers' amount, and CMHC.</li>
         <li><a href="/blog/home-buyers-plan-hbp-guide/">Home Buyers' Plan</a> — the $60,000 limit and the 2031 repayment start for a 2026 withdrawal.</li>
         <li><a href="/blog/readvanceable-mortgage-canada/">Readvanceable mortgages</a> — the 65% cap and the lender pages that describe the product.</li>
-        <li><a href="/blog/rent-vs-buy-canada/">Rent versus buy</a> — ending wealth on the down payment, the rate, and the costs you type.</li>
+        <li><a href="/blog/rent-vs-buy-canada/">Rent versus buy calculator</a> — ending wealth on the down payment, the rate, and the costs you type.</li>
+        <li><a href="/blog/rent-vs-buy-decision-canada/">Rent versus buy decision guide</a> — which assumptions to refuse to leave on the defaults, then run the calculator.</li>
+        <li><a href="/blog/cmhc-mortgage-insurance-canada/">CMHC mortgage insurance</a> — the premium schedule, the 30-year surcharge, and when 20 percent down is the cheaper path.</li>
+        <li><a href="/blog/rental-property-tax-deductions-canada/">Rental property tax deductions</a> — current expenses, CCA, and recapture on Form T776.</li>
         <li><a href="/blog/mortgage-prepayment-calculator/">Mortgage prepayment calculator</a> — the semi-annual payment, and the interest a lump sum saves.</li>
     </ul>
 
@@ -1115,4 +1118,459 @@ export const realEstateClusterPosts: EstatePost[] = [
 
 </div>`
   ),
+  {
+    ...estatePost(
+      'cmhc-mortgage-insurance-canada',
+      'CMHC Mortgage Insurance: Premiums, the 30-Year Amortization Rule, and When It\'s Worth It',
+      'CMHC\'s homeowner premium runs from 0.60% to 4.00% of the loan by loan-to-value. A 30-year amortization adds 0.20 of a point. The premium protects the lender.',
+      `<div class="container">
+
+    <div class="hook">
+        CMHC mortgage loan insurance is a premium you pay so a lender will lend more than 80 percent of the home's value. On CMHC's homeowner schedule, reviewed in October 2026, the premium is <span class="highlight">0.60% to 4.00%</span> of the loan, and <span class="highlight">4.50%</span> in the top band if the down payment is non-traditional. An amortization longer than 25 years adds a 0.20% surcharge. The insurance protects the lender if you default. It does not pay your family.
+    </div>
+
+    <p>The loan around this premium is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Where the premium sits in a first purchase, next to the FHSA and the Home Buyers' Plan, is the <a href="/blog/first-time-home-buyer-guide-canada/">first-time home buyer guide</a>. The qualifying rate on the insured file is the <a href="/blog/mortgage-stress-test-canada/">stress test</a>. The calculator that leaves this premium out on purpose is <a href="/blog/rent-vs-buy-canada/">rent versus buy</a>. Life insurance sold at the same table is a different product: <a href="/blog/mortgage-life-insurance-vs-term-life-canada/">mortgage life versus term life</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Homeowner premiums, owner-occupied, 1 to 4 units: 0.60% up to 65% loan-to-value, then 1.70%, 2.40%, 2.80%, 3.10%, and 4.00% above 90%. Non-traditional down payment in that top band is 4.50%.</li>
+            <li>Home Start, the 30-year product for a first-time buyer or a new build, with loan-to-value above 80%: 3.00%, 3.30%, and 4.20%, or 4.70% with a non-traditional down payment. That is the standard band plus 0.20 of a point.</li>
+            <li>The purchase price or lending value must be below $1,500,000. For a 1- or 2-unit homeowner loan, minimum equity is 5% of the first $500,000 and 10% of the rest. At least one borrower needs a credit score of 600, with room for an alternative history.</li>
+            <li>Gross debt service is capped at 39% and total debt service at 44%, both at the greater of the contract rate plus 2 percentage points or 5.25%.</li>
+            <li>Ontario, Quebec, and Saskatchewan charge provincial sales tax on the premium. CMHC says that tax cannot be added to the loan. This page does not quote the provincial tax rate.</li>
+        </ul>
+    </div>
+
+    <h2>What does CMHC actually charge?</h2>
+
+    <table>
+        <caption>CMHC homeowner premium on the total loan, owner-occupied, 1 to 4 units, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Loan-to-value</th>
+                <th>Standard schedule</th>
+                <th>Home Start schedule</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Up to and including 65%</td>
+                <td>0.60%</td>
+                <td>Not on the Home Start table. Home Start is for high-ratio loans, above 80%.</td>
+            </tr>
+            <tr>
+                <td>65.01% to 75%</td>
+                <td>1.70%</td>
+                <td>Not on the Home Start table.</td>
+            </tr>
+            <tr>
+                <td>75.01% to 80%</td>
+                <td>2.40%</td>
+                <td>Not on the Home Start table.</td>
+            </tr>
+            <tr>
+                <td>80.01% to 85%</td>
+                <td>2.80%</td>
+                <td>3.00%</td>
+            </tr>
+            <tr>
+                <td>85.01% to 90%</td>
+                <td>3.10%</td>
+                <td>3.30%</td>
+            </tr>
+            <tr>
+                <td>90.01% to 95%</td>
+                <td>4.00%</td>
+                <td>4.20%</td>
+            </tr>
+            <tr>
+                <td>90.01% to 95%, non-traditional down payment</td>
+                <td>4.50%</td>
+                <td>4.70%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Standard column: CMHC's premium page for homeowner loans. Home Start column: CMHC's Home Start premium table. CMHC's premium page also says an amortization beyond 25 years is subject to a 0.20% surcharge. The Home Start column is that surcharge, already added, for the bands Home Start publishes. Portability premiums, which apply to an increase in the loan rather than to the whole balance, are a second column on the standard page and are higher. Read them before you port. They are not reprinted here because a port is a different transaction from a purchase.</p>
+
+    <p>A small rental, non-owner-occupied, 2 to 4 units, uses a different schedule on the same page: 1.45% up to 65% loan-to-value, 2.00% from 65.01% to 75%, and 2.90% from 75.01% to 80%. There is no 95% band on that rental table. A rental is not Home Start. The tax file on a rental is <a href="/blog/rental-property-tax-deductions-canada/">rental deductions</a>, and the premium is a cost of borrowing, not a deduction you invent on the T776 without reading the guide.</p>
+
+    <h2>Who can use the 30-year amortization?</h2>
+
+    <p>CMHC Home Start is mortgage loan insurance for borrowers who are first-time homebuyers or who are buying a newly built home. At least one borrower must meet CMHC's first-time definition, or the property must be newly built and not previously occupied as a residence. The home must be owner-occupied, including by a spouse, common-law partner, or a child, on a rent-free basis in the wording CMHC uses. The product is for high-ratio loans, above 80% loan-to-value. Maximum amortization is 30 years. Maximum purchase price or lending value is below $1,500,000.</p>
+
+    <p>CMHC's first-time definition, in the Home Start footnote, is a person who at closing has never purchased a home in Canada, or has not occupied a home in Canada as a principal residence that they or their current spouse or common-law partner owned, in the current calendar year or the four preceding calendar years, or who has been separated for at least 90 days because of a breakdown and began living apart in that same window. That test is not the FHSA test and not the Home Buyers' Plan test. Passing one does not prove the others. The first-time buyer guide separates them.</p>
+
+    <div class="example-box">
+        <strong>Illustration: the minimum down payment is not 5 percent of the price</strong>
+        <p>CMHC's minimum equity for a 1- or 2-unit homeowner loan is 5% of the first $500,000 of lending value and 10% of the remainder. On a $600,000 price that is $25,000 plus $10,000, or $35,000 down. The base loan is $565,000. Loan-to-value is $565,000 divided by $600,000, about 94.2%, so the premium is in the top band. On the standard schedule that is 4.00%, or $22,600. On Home Start, if you qualify, it is 4.20%, or $23,730. The premium may be added to the loan. This page does not turn either premium into a monthly payment, because the payment needs a contract rate, and a contract rate is not a CMHC figure. The $600,000 is arithmetic on CMHC's own equity rule, not a listing and not a quote.</p>
+    </div>
+
+    <h2>When is the premium worth paying?</h2>
+
+    <p>It is worth paying when the alternative is waiting years for 20 percent down in a market where the price, the rent, and your life will not wait, and you can carry the insured payment at the qualifying rate. It is a poor trade when you are close to 20 percent and the premium, plus the provincial sales tax that cannot be rolled into the loan, is larger than the rent and the moving costs of waiting a few more months. Run that comparison in dollars you have, not in a national "CMHC is worth it" slogan. The <a href="/blog/rent-vs-buy-decision-canada/">rent versus buy decision guide</a> is the assumption list. The calculator does not add this premium. Add it yourself if the down payment is under 20 percent.</p>
+
+    <div class="warning-box">
+        <strong>Traditional is not "any down payment you can name":</strong>
+        <p>CMHC lists savings, the sale of a property, and a non-repayable gift from a relative as traditional sources. Non-traditional sources include unsecured personal loans and unsecured lines of credit. They are available only in the 90.01% to 95% band, on 1- or 2-unit properties, for borrowers with a strong credit history, and they cost 4.50% or 4.70%, not 4.00% or 4.20%. Borrowing the down payment from a line of credit and calling it savings is how a file lands in the expensive row.</p>
+    </div>
+
+    <h2>What else is on the premium, besides the percentage?</h2>
+
+    <ul>
+        <li><strong>Provincial sales tax.</strong> CMHC says Ontario, Quebec, and Saskatchewan currently apply it to the premium, and that the tax cannot be added to the loan amount. Budget the tax in cash. This page does not print the provincial percentage.</li>
+        <li><strong>Portability credit.</strong> CMHC's example: a new insurance request 6 months after the original closing can credit 100% of the premium previously paid, 12 months can credit 50%, and 24 months can credit 25%. A blended amortization is subject to a 0.60% surcharge on the increase, not on the whole loan. Confirm the credit on the new application.</li>
+        <li><strong>Eco products.</strong> CMHC offers a 25% partial premium refund when you buy or build an energy-efficient home or make energy-efficient improvements. "Partial" is CMHC's word. Read the eco rules before you count the refund as cash at closing.</li>
+        <li><strong>The qualifying rate.</strong> Home Start calculates gross and total debt service at the greater of the contract rate plus 2% or 5.25%, with caps of 39% and 44%. You pay the contract rate. The lender uses the higher rate to decide if the file fits.</li>
+    </ul>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Does CMHC insurance protect me if I lose my job?</h3>
+    <p>No. It protects the lender against default. Your household protection is a separate decision: an emergency fund, and disability or life insurance sized to people, not to the mortgage balance. Mortgage life insurance is optional and is not this premium. FCAC's mortgage-life page is linked from the mortgage-life comparison.</p>
+
+    <h3>Can I avoid the premium with 20 percent down?</h3>
+    <p>A loan at 80% loan-to-value or below is not in the high-ratio bands that require this insurance for the purchase. The standard schedule still publishes premiums at 65%, 75%, and 80%, because lenders sometimes insure lower-ratio loans, including portfolio insurance you do not shop for. A 20% down payment avoids the high-ratio requirement. It does not promise that the lender's file is uninsured behind the scenes. Ask.</p>
+
+    <h3>Is the 30-year amortization automatically cheaper?</h3>
+    <p>The payment is lower because the same loan is spread over more months, and the premium rate is 0.20 of a point higher. Total interest is higher if you keep the longer schedule and the rate does not fall. This page will not print a payment at an assumed rate and call it CMHC's. Take 30 years if you need the payment to qualify or to stay solvent. Shorten it with prepayments if the cash arrives. The prepayment guide is the privilege. The penalty guide is what it costs to break the term instead.</p>
+
+    <h3>What if the home costs $1.5 million or more?</h3>
+    <p>CMHC's Home Start and Purchase pages cap the purchase price or lending value below $1,500,000 for the homeowner loan. At or above that cap you are outside high-ratio insurance. The practical down payment is at least 20%. The stress test for an uninsured loan at a federally regulated lender is still the qualifying rate. The price cap is not a tax rule.</p>
+
+    <h3>Does a gift from my parents count as traditional?</h3>
+    <p>CMHC lists a non-repayable financial gift from a relative as a traditional source. A loan from a parent is not that sentence. The lender will ask for a gift letter. If the money has to be repaid, you are in the non-traditional row, and only if the rest of that row's conditions are met.</p>
+
+    <h3>Can I add the premium to the mortgage?</h3>
+    <p>CMHC says the application premium is a one-time charge which may be added to the insured loan. The provincial sales tax on that premium cannot. Interest then accrues on the premium you rolled in, at whatever contract rate you sign. Rolling it in is a cash-flow choice. It is not a discount.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans">CMHC: premium schedules, surcharge, sales tax, portability credits</a></li>
+        <li><a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start">CMHC Home Start: eligibility, 30-year amortization, premiums</a></li>
+        <li><a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase">CMHC Purchase</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The premium is a closing cost. The interest is the term.</strong></p>
+        <p>Default insurance is not mortgage life insurance, and it is not a deduction on the home you live in. The 2026 tax guide is the filing side of a purchase.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about CMHC mortgage loan insurance as of October 2026. It is not a mortgage offer, a premium quote, or lending, tax, or insurance advice. Schedules, the price cap, and sales tax change. The $600,000 example is arithmetic on CMHC's published equity rule and premium bands, not a payment and not a house. Confirm the commitment and the premium on the lender's disclosure before you waive a condition.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Real Estate | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
+  {
+    ...estatePost(
+      'rent-vs-buy-decision-canada',
+      'Rent vs Buy in Canada: The Decision Guide Behind the Calculator',
+      'Rent versus buy is an ending-wealth test. The calculator runs the dollars. This page is the list of assumptions that flip the sign, and the costs the tool leaves out.',
+      `<div class="container">
+
+    <div class="hook">
+        Rent versus buy in Canada is not a monthly-payment contest. It is whether the home's equity, after selling costs and the mortgage that remains, beats the portfolio a renter could have built with the down payment and the cash the owner had to spend. The <span class="highlight">calculator</span> does that arithmetic on numbers you type. This page is the list of assumptions that flip the result, and the costs the tool refuses to invent.
+    </div>
+
+    <p>Run the dollars at <a href="/blog/rent-vs-buy-canada/">rent versus buy</a>. Do not treat this guide as a second calculator. The mortgage contract around a purchase is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Cash due on top of the down payment is the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>. A down payment under 20 percent usually adds a premium the calculator does not: the <a href="/blog/cmhc-mortgage-insurance-canada/">CMHC guide</a>. If the "buy" case is a rental, stop. Interest may be deductible and the principal residence exemption may not. That file is <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>The existing calculator compares ending wealth. It does not look up your city's rent, tax, or this month's discounted mortgage rate. Two of its labelled illustrations finish on opposite sides of zero. The assumptions did that. This page does not reprint those outputs.</li>
+            <li>The inputs that move the sign are the years you will stay, appreciation, selling costs, the after-tax return on the renter's portfolio, and whether a CMHC premium belongs on the loan.</li>
+            <li>A lower monthly payment is not a reason to buy. Principal is savings. Property tax, maintenance, and insurance are not. The renter keeps the down payment invested.</li>
+            <li>A principal residence is often sheltered when you sell. A non-registered portfolio is not. If the renter's money would sit in a TFSA, type the pre-tax return you believe. If it would not, type an after-tax return. The tool will not compute the tax.</li>
+            <li>No national "buying wins" figure belongs on this page. There isn't a sourced one that survives a change of city, stay, and rate.</li>
+        </ul>
+    </div>
+
+    <h2>Which question is the calculator answering?</h2>
+
+    <p>The tool's own description is ending wealth. On the owner side that is the home, minus selling costs, minus the mortgage left. On the renter side it is the portfolio that started as the down payment plus buying costs, then grew or shrank by the monthly gap between owning and renting. A comparison of this month's rent with this month's mortgage payment ignores the principal, the down payment, and the cheque to the lawyer. People who "save" by buying are often just moving cash into a wall. That can be the right life. It is not, by itself, a higher net worth.</p>
+
+    <div class="tip-box">
+        <strong>Use the calculator for the dollars. Use this page to decide which dollars you are willing to type.</strong>
+        <p>Open <a href="/blog/rent-vs-buy-canada/">the calculator</a> after you have written down a price, a down payment, a contract rate from a written commitment or a rate you are explicitly assuming, a stay you will actually live, and a selling cost you have checked with a listing conversation. If you cannot write the stay, you do not have a result. You have the loaded example.</p>
+    </div>
+
+    <h2>Which assumptions flip the sign?</h2>
+
+    <table>
+        <caption>What to interrogate before you trust a rent-versus-buy result, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Assumption</th>
+                <th>Why it moves ending wealth</th>
+                <th>What this page will not do</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Years you will stay</td>
+                <td>Selling costs land at the end. A short stay makes them dominate a home that has not appreciated for long.</td>
+                <td>Publish a minimum stay that "always" wins. Run your own years in the tool.</td>
+            </tr>
+            <tr>
+                <td>Appreciation</td>
+                <td>The mortgage does not shrink when the price does. A decline hurts the owner more than the percentage, because of leverage.</td>
+                <td>Print a Canadian average house-price increase and call it your house. Type zero, and a negative, before you treat the first run as a decision.</td>
+            </tr>
+            <tr>
+                <td>Selling costs</td>
+                <td>Commission and legal fees come off the ending value. They vary by city and by how you sell.</td>
+                <td>Treat a round 5 percent as a law. It is a modelling default on the calculator page, labelled as such.</td>
+            </tr>
+            <tr>
+                <td>Return on the difference</td>
+                <td>The renter's portfolio compounds. A TFSA can take a pre-tax return. A taxable account cannot.</td>
+                <td>Assume a balanced fund's long-run average. If you would leave the down payment in savings, type the savings rate.</td>
+            </tr>
+            <tr>
+                <td>CMHC and closing costs</td>
+                <td>Under 20 percent down, the premium is borrowed and added to the mortgage. Land transfer tax is cash on top, and it is provincial.</td>
+                <td>Add the premium inside the calculator. It is not in the tool. Add it to the loan, or to buying costs, yourself. The schedule is the CMHC guide.</td>
+            </tr>
+            <tr>
+                <td>Maintenance and special assessments</td>
+                <td>A smooth percent of value hides a roof, a special assessment, or a condo fee the rent already includes.</td>
+                <td>Call 1 percent a building standard. Put the irregular bill into the maintenance input or into the rent you are comparing against.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. It describes the calculator's structure and CMHC's published role when the down payment is under 20 percent. It is not a market study. FCAC's mortgage pages are the consumer frame for the loan itself. They do not contain a rent-versus-buy winner.</p>
+
+    <h2>What should you leave out of the victory lap?</h2>
+
+    <p>The principal residence exemption often shelters a gain on the home you live in. The renter's non-registered portfolio does not get that shelter. If you ignore tax, you bias the comparison toward renting whenever the portfolio's return is typed pre-tax. If you ignore the exemption, you bias it toward buying by pretending the owner pays tax on the sale. Write down which one you are doing. The exemption's traps, including a change of use, are not calculated here. They are the principal-residence pages on this site and on CRA.</p>
+
+    <p>Mobility is not in the tool. A job that might move you in three years is a short stay, which you can type. A school, a parent you are caring for, or a lease that ends in a city with no vacancy is a reason to buy or to rent that the wealth number will not capture. Write that reason beside the result. A negative wealth gap can still be the right house. The frame's job is to stop you from calling it an investment win.</p>
+
+    <div class="warning-box">
+        <strong>Do not reuse the calculator for a rental property:</strong>
+        <p>The tool does not deduct interest and does not charge capital gains. A rental can deduct interest when the money was borrowed to earn rental income, and it can face capital gains and CCA recapture on a sale. Those rules are the <a href="/blog/rental-property-tax-deductions-canada/">rental deductions guide</a>. Running a principal-residence calculator on a duplex and calling the output a cap rate is the wrong file.</p>
+    </div>
+
+    <h2>A sequence that keeps the two pages distinct</h2>
+
+    <ol>
+        <li>Write the stay, the city, and whether anyone will need to move for work. If the stay is a hope, say so.</li>
+        <li>Price the down payment you will actually have, including whether it is under 20 percent. If it is, open the CMHC schedule before you open the calculator.</li>
+        <li>Look up land transfer tax for the province and the city. Put that dollar in buying costs. The closing-cost guide is the map. Do not reuse a placeholder.</li>
+        <li>Get a contract rate in writing, or label the rate you type as an assumption. The mortgage guide's 4.50 percent illustrations are assumptions. They are not an offer.</li>
+        <li>Type the renter's return after the tax the account would actually pay. TFSA room is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>.</li>
+        <li>Run the calculator. Then change appreciation to zero and cut the stay in half. If the decision only works on the first run, you do not have a decision.</li>
+    </ol>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Why isn't the calculator on this page?</h3>
+    <p>It already lives at rent versus buy, with its own inputs and its own labelled illustrations. Putting a second copy here would split the tool and invite two different "answers." This page tells you what to type and what the tool omits. Then you use that page.</p>
+
+    <h3>Is a lower mortgage payment than the rent a reason to buy?</h3>
+    <p>No. The owner's cash includes principal, which builds equity, and also tax, maintenance, insurance, and the down payment, which the payment comparison skips. The calculator exists because that shortcut fails in both directions. Sometimes the owner still finishes ahead. The payment is not how you find out.</p>
+
+    <h3>Should I use the national average appreciation?</h3>
+    <p>Only if you are willing to bet the down payment that your house, in your years, matches a national series. This page does not publish that series. Appreciation is an input. Run a number you can defend, and a number you would hate.</p>
+
+    <h3>Where do CMHC premiums go?</h3>
+    <p>Into the loan, if you roll the premium in, which raises the balance the calculator should start with. The provincial sales tax on the premium, in Ontario, Quebec, and Saskatchewan, cannot be added to the loan on CMHC's page. That tax is cash, so it belongs with buying costs. The calculator does not do this for you.</p>
+
+    <h3>What return should the renter type?</h3>
+    <p>The after-tax return you would actually earn on that down payment for the years you would rent. A TFSA can take the pre-tax return. A taxable account should take a lower number. A savings account should take the savings rate. Five percent is not a requirement. It is not even an input this page is willing to bless.</p>
+
+    <h3>Does buying hedge inflation?</h3>
+    <p>A fixed-rate mortgage payment does not rise with rent during the term. Property tax, insurance, and maintenance can still rise. The rent input in the calculator has its own growth rate, which you type. Inflation is not a reason to skip the selling-cost line. At the end of the term the rate resets. The renewal guide is that date.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="/blog/rent-vs-buy-canada/">Rent versus buy calculator</a> — the ending-wealth arithmetic this guide refuses to duplicate.</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages.html">FCAC: mortgages</a></li>
+        <li><a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans">CMHC: when a premium exists, and that provincial sales tax is not added to the loan</a></li>
+        <li><a href="/blog/land-transfer-tax-closing-costs-canada/">Land transfer tax and closing costs</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The sign on the comparison is only as good as the stay and the tax.</strong></p>
+        <p>Interest on the home you live in is not deductible. The filing side of a move or a sale is the 2026 tax guide.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about how to use a rent-versus-buy comparison in Canada as of October 2026. It is not a mortgage offer, a rent quote, or housing, tax, or investment advice. It does not publish a market result. Contract rates, rents, property tax, and commissions vary. Run the calculator with your own inputs and confirm the commitment before you offer or sign a lease.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Real Estate | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
+  {
+    ...estatePost(
+      'rental-property-tax-deductions-canada',
+      'Rental Property Tax Deductions in Canada: Expenses, CCA, and Recapture',
+      'Current rental expenses are deductible. A building is capital cost allowance, usually Class 1 at 4%, and CCA cannot create or increase a rental loss. Selling can recapture it.',
+      `<div class="container">
+
+    <div class="hook">
+        You can deduct reasonable expenses you incur to earn rental income in Canada. CRA splits them in two. <span class="highlight">Current expenses</span>, such as insurance, interest, repairs, and property tax, come off the year's rent. <span class="highlight">Capital expenses</span>, including the building, are written off over time as capital cost allowance. Most buildings acquired after 1987 are Class 1 at 4%. You cannot use CCA to create or increase a rental loss.
+    </div>
+
+    <p>The mortgage on a rental is still a mortgage. The hub is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Default insurance, if a small rental is insured, is the <a href="/blog/cmhc-mortgage-insurance-canada/">CMHC guide</a>, which publishes a separate small-rental premium table. Whether the property should have been a home you live in is <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a>. A sale, including recapture, connects to the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. The form is T776. The guide is T4036.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>CRA's deductible list includes advertising, insurance, interest and bank charges, office expenses, professional fees, management fees, repairs and maintenance, salaries, property taxes, travel, utilities, motor vehicle expenses, and other rental expenses.</li>
+            <li>Interest on money borrowed to buy or improve the rental is deductible. Interest on funds you took out for personal use is not. A mortgage penalty or a fee to reduce the rate is prorated over the remaining term, not deducted in full.</li>
+            <li>Legal fees to buy the property are not a current expense. CRA's example splits them between land and building and adds them to cost.</li>
+            <li>Class 1 is 4% for most buildings acquired after 1987. Land is not depreciable. In the year of acquisition the half-year rule usually applies. CCA cannot create or increase a rental loss.</li>
+            <li>Recapture happens when sale proceeds exceed the undepreciated capital cost of the class plus additions. It goes on line 9947 of the T776. It is income, not a capital gain. A capital gain can exist on top of it.</li>
+        </ul>
+    </div>
+
+    <h2>Which expenses are current?</h2>
+
+    <p>CRA's rental-expenses page says you can deduct any reasonable expense you incur to earn rental income. Current or operating expenses are recurring and short-term. The example CRA uses is repairs that keep the property in the same condition it was in when you acquired it. You deduct those in the year you incur them. Capital expenses provide a benefit that lasts for years. Buying or improving the property is the example. You do not deduct the full amount in the year. You deduct CCA instead.</p>
+
+    <table>
+        <caption>Where a common landlord cost goes on the T776, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Cost</th>
+                <th>Current or capital</th>
+                <th>The constraint CRA prints</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Insurance, repairs, utilities, management fees, advertising</td>
+                <td>Current, if they earn rental income</td>
+                <td>Reasonable, and incurred to earn rent. A personal portion of a mixed property is not deductible.</td>
+            </tr>
+            <tr>
+                <td>Interest on money borrowed to buy or improve the rental</td>
+                <td>Current, as interest</td>
+                <td>Personal use of refinanced funds is not deductible against the rental. CRA's example is a landlord who uses new mortgage money personally.</td>
+            </tr>
+            <tr>
+                <td>Fee or penalty to pay out or reduce the mortgage rate</td>
+                <td>Prepaid, not all at once</td>
+                <td>Prorate over the remaining original term. CRA's example is a five-year term and a fee paid in year three, deducted over the years left.</td>
+            </tr>
+            <tr>
+                <td>Property taxes</td>
+                <td>Current, for the period the property was available for rent</td>
+                <td>Vacant land has a further limit: interest and property taxes cannot create or increase a rental loss. CRA says they can be added to the cost of the land.</td>
+            </tr>
+            <tr>
+                <td>Legal fees to buy</td>
+                <td>Capital, split between land and building</td>
+                <td>Not deducted from gross rent. CRA's example: a $200,000 property, $50,000 land and $150,000 building, $10,000 of legal fees. $2,500 goes to land, $7,500 to the building.</td>
+            </tr>
+            <tr>
+                <td>A new roof, an addition, a lasting improvement</td>
+                <td>Capital</td>
+                <td>Repairs that restore the old condition are current. Improvements that make it better than it was are capital. The line is factual. A paint job and a new storey are not the same invoice.</td>
+            </tr>
+            <tr>
+                <td>Landscaping</td>
+                <td>Current, in the year paid</td>
+                <td>CRA says you deduct landscaping only in the year you paid it, even if you use the accrual method.</td>
+            </tr>
+            <tr>
+                <td>Condominium fees for upkeep and current common expenses</td>
+                <td>Current</td>
+                <td>CRA points at the portion that is upkeep, repairs, maintenance, and other current expenses. A special assessment that is a capital improvement to the building is not automatically that line.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Sources: CRA's "rental expenses you can deduct" page and Guide T4036 as returned in the rental-income chapter. Line numbers on the T776, including 8710 for interest and 8960 for repairs, are the ones CRA prints on that expenses page. Confirm the year's form. A renamed line is still the same test.</p>
+
+    <h2>What is capital cost allowance on a rental?</h2>
+
+    <p>CRA says you cannot deduct the purchase price of a building, furniture, or equipment in the year you buy it. You deduct CCA over time. Land is not depreciable. Only the building goes in the class. CRA's class list for rentals includes Class 1 at 4%. CRA's T4002 chapter says Class 1 includes most buildings acquired after 1987, unless they belong in another class. The half-year rule, in that same chapter, generally lets you claim CCA on one-half of the net additions in the year you acquire the property.</p>
+
+    <p>The same T4002 chapter says that under proposed changes, a new purpose-built residential rental may be eligible for an accelerated rate of 10% if it becomes available for use before 2036 and construction, or a substantial renovation from commercial use, began after April 15, 2024 and before 2031. "Proposed" is CRA's word on that page. Do not file 10% because a summary said the incentive exists. Read the T776 instructions for the year you are filing. A building that misses the test stays at 4%.</p>
+
+    <div class="warning-box">
+        <strong>CCA cannot create or increase a rental loss:</strong>
+        <p>CRA's page on how much CCA you can claim says you calculate net income or loss from all your rental properties before you claim CCA. If the properties together are already in a loss, you cannot claim CCA to make the loss bigger. Salvador's example on that page is a net loss of $500, and he cannot claim CCA on the buildings or the appliances. Current expenses can still produce a loss. CCA is the deduction that stops at zero rental income. Recapture, if you have it, is included when you do that netting.</p>
+    </div>
+
+    <div class="example-box">
+        <strong>Illustration: legal fees, using CRA's split</strong>
+        <p>The building is $150,000 of a $200,000 purchase and the land is $50,000. Legal fees are $10,000. Three-quarters of the fee, $7,500, joins the building. One-quarter, $2,500, joins the land and is never depreciated. Class 1 at 4% applies to the building pool, not to $157,500 in year one if the half-year rule applies. Half of the building addition would be the first-year base, before the 4%. This paragraph is the sequence, not a filled-in T776. Soft costs during construction follow a different rule. CRA points at them separately. Do not dump a construction-period property tax bill into repairs without reading that section.</p>
+    </div>
+
+    <h2>What is recapture when you sell?</h2>
+
+    <p>CRA's line 9947 page says a recapture of CCA can happen if the proceeds from the sale of depreciable rental property are more than the undepreciated capital cost of the class at the start of the period plus the capital cost of additions during the period. If the UCC after additions and dispositions is negative, that negative amount is the recapture, and you enter it on line 9947. A co-owner enters their share. You cannot claim CCA in the class when that column is negative.</p>
+
+    <p>Recapture is income. It is the CCA you deducted in earlier years, coming back because the building did not decline the way the deductions assumed. A capital gain is a different amount: proceeds above the capital cost, after selling costs. You can owe both. Legal fees on the sale reduce proceeds for the capital gain and also affect the recapture calculation. T4036 says the legal fees on a sale are deducted from proceeds when you calculate the gain or loss, and that the same deduction matters for recapture and for a terminal loss. The capital gains guide is the inclusion rate. The principal residence exemption does not shelter a building you have been depreciating as a rental, except to the extent a real designation applies. Do not assume it does. The primary-residence page is the designation.</p>
+
+    <div class="tip-box">
+        <strong>Skipping CCA is allowed:</strong>
+        <p>The claim is a maximum, not a requirement. Landlords who expect to sell into a high-income year sometimes claim less, or nothing, so there is less to recapture later. That is a timing choice. It is not a way to turn the building into a current expense. If you claim nothing, you also give up the deduction in the years the property was cash-flow positive. Write the choice down. A preparer can model it. This page will not.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Can I deduct the full mortgage payment?</h3>
+    <p>No. The interest can be deductible when the borrowed money was used to earn rental income. The principal is not an expense. It is a repayment of the loan. A blended payment has to be split. The lender's annual statement is the split. Personal use of a refinance is not interest against the rental, even if the mortgage is registered on the rental.</p>
+
+    <h3>Is a new appliance a repair?</h3>
+    <p>Replacing a broken part so the property stays in the condition you bought it in is the current-expense idea. A new appliance is usually capital, in a class with its own rate, and CRA says you can claim CCA on appliances as well as on the building, still subject to the rental-loss limit. Read the class list before you put a fridge in Class 1.</p>
+
+    <h3>What if I live in one unit and rent the other?</h3>
+    <p>You deduct the rental portion. Personal occupancy is not a rental expense. The split has to be reasonable, often by area, and it affects both expenses and CCA. Designating the whole building as a principal residence while you claim full CCA on it is the contradiction the primary-residence page is about. Keep the square footage and the leases.</p>
+
+    <h3>Can rental losses offset my salary?</h3>
+    <p>A net rental loss, after current expenses that are allowed, is generally applied against other income. CCA cannot be used to create or enlarge that loss. Vacant-land interest and property taxes have their own stop. A loss that exists only because the rent is below market to a relative is a facts problem, not a strategy. CRA's reasonableness test is the sentence to read before you file one.</p>
+
+    <h3>Do I have to claim the 10% purpose-built rate?</h3>
+    <p>Only if the building meets the test on the current form, and only to the extent the change you are relying on is actually in force for that year. CRA's T4002 page described the 10% rate as a proposed change, with a construction window after April 15, 2024 and before 2031, available for use before 2036. If your building is an ordinary house acquired years ago, it is not that incentive. Class 1 at 4% is the default this page will stand behind.</p>
+
+    <h3>Where does recapture go if I sell at a loss?</h3>
+    <p>If the proceeds do not exceed the UCC of the class, you do not have recapture. You may have a terminal loss if nothing remains in the class, which is a deduction, not an inclusion. A sale below your original cost can still recapture CCA if the proceeds are above the UCC you have left after years of claims. Run column 7 of Area A. Do not guess from the listing price.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals/rental-expenses-you-deduct.html">CRA: rental expenses you can deduct</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/much-capital-cost-allowance-you-claim.html">CRA: how much CCA you can claim, including the rental-loss limit</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/rental-classes-depreciable-property.html">CRA: rental classes of depreciable property</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4002/t4002-6.html">CRA T4002 chapter 4: Class 1 at 4%, half-year rule, proposed 10% purpose-built rate</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals/line-9947-recaptured-capital-cost-allowance.html/1000">CRA: line 9947, recaptured CCA</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4036/rental-income.html">CRA Guide T4036, Rental Income</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The deduction is the T776. The sale is the recapture.</strong></p>
+        <p>Interest, CCA, and the capital gain are three different lines. The 2026 tax guide is the filing companion.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian rental expenses as of October 2026. It is not tax or legal advice. Current versus capital is factual. CCA rates and the purpose-built incentive can change. The legal-fee split uses CRA's published example. Confirm Guide T4036 and Form T776 for the year you file, and ask a tax preparer before you claim CCA or report a sale.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Real Estate | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
 ];

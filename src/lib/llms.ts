@@ -40,6 +40,7 @@ const KEY_POSTS = [
   'cpp-timing-benefits-stacking-canada',
   'canadian-cash-management-guide',
   'cash-flow-system-canada',
+  'tax-aware-income-guide',
   'salary-vs-dividends-incorporated-canada',
 ];
 

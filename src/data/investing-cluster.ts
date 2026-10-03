@@ -183,6 +183,9 @@ export const investingClusterPosts: InvestingPost[] = [
         <li><a href="/blog/vfv-vs-voo-canadians/">VFV versus VOO</a> — the S&P 500 as a Canadian, including the wrapper.</li>
         <li><a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a> — TFSA, RRSP, and non-registered.</li>
         <li><a href="/blog/best-robo-advisors-canada/">Best robo-advisors</a> — the management fee on top of the ETFs.</li>
+        <li><a href="/blog/adjusted-cost-base-canada-guide/">Adjusted cost base</a> — average cost, return of capital, and why a T5008 is not the books.</li>
+        <li><a href="/blog/superficial-loss-rule-canada/">Superficial loss rule</a> — the 30-day window, affiliated accounts, and the denied loss.</li>
+        <li><a href="/blog/questrade-vs-interactive-brokers-canada/">Questrade versus Interactive Brokers</a> — $0 commissions against a per-share schedule, and the currency conversion.</li>
     </ul>
 
     <h2>Frequently asked questions</h2>
@@ -1172,4 +1175,414 @@ export const investingClusterPosts: InvestingPost[] = [
 
 </div>`
   ),
+  {
+    ...investingPost(
+      'adjusted-cost-base-canada-guide',
+      'Adjusted Cost Base (ACB) in Canada: How to Track It and Avoid Overpaying Tax',
+      'Adjusted cost base is what identical shares or fund units cost you, on average, after buying costs and return of capital. A T5008 is an input, not the books.',
+      `<div class="container">
+
+    <div class="hook">
+        In Canada, the adjusted cost base of identical shares or fund units is their <span class="highlight">average cost</span>, not the lot you wish you had sold. CRA describes ACB as the cost of the property plus expenses to acquire it, such as commissions. Outlays to sell come off the proceeds. Get the average wrong and you report a gain you already paid tax on, or a loss the return does not support.
+    </div>
+
+    <p>This sits under <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>. The taxable half of a gain, once the ACB is right, is the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. A loss you want to keep has to survive the <a href="/blog/superficial-loss-rule-canada/">superficial loss rule</a>. The year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. The filing habit is <a href="/blog/tax-record-keeping/">tax record keeping</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Capital gain or loss = proceeds of disposition − ACB − outlays to sell. CRA's own share example is $6,500 − ($4,000 + $60) = $2,440.</li>
+            <li>Identical properties use average cost. A sale does not change the average of the units you still hold. You cannot pick a high-cost lot of the same fund the way a US tax-lot system allows.</li>
+            <li>Reinvested distributions raise ACB. A positive amount in box 42 of a T3, return of capital, lowers it. If ACB falls below zero, the negative amount is a capital gain and ACB resets to zero.</li>
+            <li>CRA's corporations "what's new" page says the proposal to raise the inclusion rate from one-half to two-thirds was later cancelled. CRA's capital-losses page prints one-half from 2001 through 2025.</li>
+            <li>A T5008 and a brokerage "book value" are inputs. They often omit return of capital and a transfer from another broker. The worksheet is yours.</li>
+        </ul>
+    </div>
+
+    <h2>What is adjusted cost base?</h2>
+
+    <p>CRA's definitions page says ACB is usually the cost of a property plus any expenses to acquire it, such as commissions and legal fees. The cost can also include capital expenditures, such as additions and improvements. You cannot add current expenses, such as maintenance and repairs, to the cost base. For a cottage or a rental building that distinction is the whole argument with CRA. For an ETF, the moving pieces are commissions, reinvested distributions, and return of capital.</p>
+
+    <p>To calculate the gain or loss, CRA says you need three amounts: proceeds of disposition, ACB, and outlays and expenses to sell. Subtract the ACB and the selling costs from the proceeds. On the calculating page, the worked share sale is 400 shares of a public corporation sold for $6,500, with a $60 commission and an ACB of $4,000: $6,500 − ($4,000 + $60) = $2,440. That $2,440 is the capital gain, not the taxable gain. The inclusion rate is a second step.</p>
+
+    <div class="tip-box">
+        <strong>Convert each amount at its own date:</strong>
+        <p>If the security is in another currency, CRA says to convert proceeds at the exchange rate on the sale, ACB at the rate when you acquired the property, and selling costs at the rate when you incurred them. One year-end rate applied to every line is not the method. The broker's Canadian-dollar slip can be the conversion. If you moved USD cash yourself, keep the rate you actually used.</p>
+    </div>
+
+    <h2>How do you average identical properties?</h2>
+
+    <p>CRA's special-rules page says properties are identical when each one in the group is the same as the others. The common examples are shares of the same class of a corporation, and units of a mutual fund trust. You calculate the average cost of each property in the group at the time of each purchase. Dispositions of identical properties do not affect the ACB of what remains. The average is the total cost of identical properties purchased, usually including expenses to acquire them, divided by the number you own.</p>
+
+    <p>The same page says a mutual fund's box 42 on the T3, "Amount resulting in cost base adjustment," changes the capital balance and is used when you report the ACB on Schedule 3. If that adjustment pulls the ACB below zero during the year, the negative amount is deemed a capital gain, you report it on line 13200, you enter zero on line 13199 because there was no actual sale, and the ACB is deemed to be zero.</p>
+
+    <table>
+        <caption>What moves the adjusted cost base of a fund or a share, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Effect on ACB</th>
+                <th>Where it shows up</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Buy, including a commission</td>
+                <td>Add the cost and the commission. Recalculate the average.</td>
+                <td>Trade confirmation. Not optional.</td>
+            </tr>
+            <tr>
+                <td>Reinvested distribution</td>
+                <td>Add the amount you reinvested. You bought more units. CRA says to recalculate every time.</td>
+                <td>T3, and the DRIP line on the statement. The cash you never saw still raised the cost.</td>
+            </tr>
+            <tr>
+                <td>Return of capital (T3 box 42, positive)</td>
+                <td>Subtract it. You received your own capital back.</td>
+                <td>T3 box 42. A T5 return of capital on a mutual-fund corporation share is not on the slip the same way. CRA says you track it yourself.</td>
+            </tr>
+            <tr>
+                <td>ACB driven below zero</td>
+                <td>The negative amount is a capital gain that year. ACB becomes zero.</td>
+                <td>Schedule 3, line 13200, with no proceeds on line 13199.</td>
+            </tr>
+            <tr>
+                <td>Sell part of the holding</td>
+                <td>The units sold take the average with them. The average of what remains does not change because of the sale.</td>
+                <td>Schedule 3. A broker "book value" that uses a different lot method is a warning, not a filing position.</td>
+            </tr>
+            <tr>
+                <td>Superficial loss denied</td>
+                <td>If you are the person who acquired the substituted property, CRA says you can usually add the denied loss to the ACB of that property.</td>
+                <td>The <a href="/blog/superficial-loss-rule-canada/">superficial loss page</a>. Inside a TFSA or RRSP the bump is generally useless.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Sources: CRA definitions for capital gains, CRA's identical-property rules, CRA's mutual-fund tax treatment, and CRA's capital-losses page on superficial losses. ETF units that are identical to each other follow the same average-cost arithmetic. CRA has not published a list of which ETF pairs are identical to each other. That test is the superficial-loss page, not this one.</p>
+
+    <div class="example-box">
+        <strong>Illustration: average cost, round units, not a ticker</strong>
+        <p>You buy 100 units for $2,000 and pay a $10 commission. Cost is $2,010. Average is $20.10. Later you buy 100 more units for $3,000 with no extra commission. Total cost is $5,010. You own 200. Average is $25.05. You sell 50. The ACB of the sale is 50 × $25.05 = $1,252.50. You do not get to assign the sale to the $20.10 units. The 150 units you still hold stay at $25.05. If the T3 later shows $200 of return of capital, subtract $200 from the pool. The new total cost is $5,010 − $1,252.50 − $200 = $3,557.50, still across 150 units, which is $23.72. These dollars are arithmetic so the sequence is visible. They are not a fund's distribution and not a tax result.</p>
+    </div>
+
+    <h2>What does the inclusion rate do after the ACB is right?</h2>
+
+    <p>The capital gain is not the tax. CRA's capital-losses page, in the section on the 2025 return, says the inclusion rate for 2025 is 50 percent, and its table prints one-half from 2001 through 2025. CRA's "what's new for corporations" page says the federal government deferred a proposal to raise the rate from one-half to two-thirds, and that it was later announced that this proposed increase was cancelled. This page does not invent a 2026 bracket. The taxable half, and the alternative minimum tax that can still apply to a large gain, are the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a> and the <a href="/blog/amt-canada/">AMT guide</a>.</p>
+
+    <div class="warning-box">
+        <strong>Registered accounts do not have a personal ACB problem, until you move a loss into them:</strong>
+        <p>A gain inside a TFSA or an RRSP is not a capital gain on your T1. You do not track ACB there for Schedule 3. You do track it in a non-registered account, including units you later transfer. Transferring a loser into a TFSA is a disposition at fair market value. If the superficial-loss rule denies the loss, the ACB bump lands in an account that will not use it. The <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> is that transfer.</p>
+    </div>
+
+    <h2>Why is the T5008 not the worksheet?</h2>
+
+    <p>CRA's slip instructions say to enter the ACB in column 3 of Schedule 3, and that if the ACB does not appear on the slips you consult your own records of what you paid, plus expenses to acquire the units. A T5008 often carries a proceeds figure and a book value the broker computed from trades it saw. It does not always include a return of capital from a T3, a reinvested distribution from before you arrived, or the cost on a transfer from another firm. Two brokers can show two book values for the same units. You file one average.</p>
+
+    <p>Eligible dividends and interest are not ACB events. They are income in the year, on the T3 or T5. Return of capital is the piece that looks like income in a yield screenshot and is capital on the slip. The longer version of that mix is <a href="/blog/dividend-vs-growth-taxable-accounts-canada/">dividends versus growth in a taxable account</a>. Foreign currency in the cash balance is a separate property from the ETF. Do not fold a USD gain into the fund's ACB.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Do I track ACB inside a TFSA or RRSP?</h3>
+    <p>Not for your own capital gain. Those accounts do not report your personal gain or loss on Schedule 3. Track ACB in non-registered accounts, and track it on the way into a registered account if the transfer is a disposition. A broker's registered "book value" is a performance number, not a tax number.</p>
+
+    <h3>Can I sell the shares I bought at the highest price?</h3>
+    <p>Not if they are identical. CRA says you use the average cost of the group, and a disposition does not change the average of what you still own. You can choose which fund to sell. You cannot choose which lot of the same fund to sell.</p>
+
+    <h3>Does a reinvested distribution get taxed twice?</h3>
+    <p>The distribution is income, or a capital gain allocated by the fund, in the year you receive it, including when it is reinvested. Adding it to ACB is what stops you from paying tax on that same amount again as a gain when you sell. Skipping the add is how people overpay. The T3 is the character. The statement is the units.</p>
+
+    <h3>What if box 42 is larger than my ACB?</h3>
+    <p>CRA says the negative amount is a deemed capital gain in that year and the ACB becomes zero. You have not sold. You still report the gain. Further return of capital after the reset starts from zero and can create another gain. This is common with funds that pay out more cash than they earn.</p>
+
+    <h3>Should I trust the book value on a transfer?</h3>
+    <p>Treat it as a starting clue. Ask the old broker for the cost they sent, then rebuild from confirmations if the number does not match your DRIP and your T3 history. A transferred book value that ignores return of capital will understate the gain later. The record-keeping guide is the folder.</p>
+
+    <h3>Is the 2026 inclusion rate two-thirds?</h3>
+    <p>CRA's corporations page says the proposed increase was later cancelled. The capital-losses page prints one-half through 2025. Use the capital gains guide for the filing position, and read Schedule 3 for the year you actually file. Do not apply a two-thirds rate because an old "what's new" box still describes the deferral.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/definitions-capital-gains.html">CRA: definitions for capital gains, including adjusted cost base</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/you-calculate-your-capital-gain-loss.html">CRA: calculating your capital gain or loss, including the $6,500 share example</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/special-rules-other-transactions.html">CRA: identical properties, average cost, and box 42</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html">CRA: capital losses, inclusion rate through 2025, superficial loss</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/whats-new-corporations.html">CRA: what's new for corporations, proposed inclusion-rate increase cancelled</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The worksheet is the gain. The return is the tax.</strong></p>
+        <p>Schedule 3 does not rebuild your ACB for you. The 2026 tax guide is the filing side of the same folder.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about adjusted cost base for Canadian investors as of October 2026. It is not tax, legal, or investment advice. Identical-property status, superficial losses, and the inclusion rate depend on the year and the facts. The unit prices in the illustration are arithmetic, not a fund. Confirm the current Schedule 3 and your slips before you file.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Investing | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
+  {
+    ...investingPost(
+      'superficial-loss-rule-canada',
+      'Superficial Loss Rule Explained (With Examples)',
+      'A capital loss is denied when you or an affiliated person buy the same property in the 30 days before or after the sale and still hold it at the end of that window.',
+      `<div class="container">
+
+    <div class="hook">
+        A superficial loss in Canada is a capital loss you cannot deduct. CRA's audit manual states the rule from section 54: you or an affiliated person acquire the same or an identical property in the <span class="highlight">30 days before or the 30 days after</span> the sale, and at the end of that period one of you still owns it, or still has a right to acquire it. The loss is deemed nil.
+    </div>
+
+    <p>The calendar version is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. The number you were trying to protect is the <a href="/blog/adjusted-cost-base-canada-guide/">adjusted cost base</a>. Both hang off <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>. A loss only reduces capital gains, which is the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. Moving the shares into a TFSA instead of selling them is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Two conditions, both required: an acquisition of the same or identical property by you or an affiliated person inside the 61-day window, and continued ownership, or a right to acquire, at the end of the 30 days after the sale.</li>
+            <li>If you are the person who acquired the substituted property, CRA's capital-losses page says you can usually add the denied loss to the ACB of that property. The loss is postponed, not erased, when the bump has somewhere to land.</li>
+            <li>A TFSA, RRSP, RRIF, FHSA, or RESP does not give you a personal capital gain to attach that bump to. A rebuy inside one of those accounts is the version that deletes the loss.</li>
+            <li>CRA's capital-losses page lists situations that are not superficial losses, including a deemed sale on becoming or ceasing to be a resident, a change of use, and a sale because the owner died.</li>
+            <li>A different ticker is not automatically a different property. CRA's identical-property test is whether each property in the group is the same as the others. There is no published safe list of ETF pairs.</li>
+        </ul>
+    </div>
+
+    <h2>When is a loss superficial?</h2>
+
+    <p>CRA's Income Tax Audit Manual, chapter 29, describes a superficial loss when the same or an identical property, called a substituted property, is acquired in the period beginning 30 days before the disposition and ending 30 days after, by the taxpayer or an affiliated person, and at the end of that period the taxpayer or the affiliated person owns the substituted property or had a right to acquire it. Subparagraph 40(2)(g)(i) deems the capital loss to be nil. The manual's conditions table says the same thing in operational language: the acquisition has to fall inside that window, and the property still has to be owned at the end of the 30 days after the sale.</p>
+
+    <p>The consumer page on capital losses says that if you have a superficial loss you cannot deduct it in the year, and that if you are the person who acquires the substituted property you can usually add the denied loss to the adjusted cost base of that property. That addition decreases a later gain or increases a later loss. It is not a deduction today.</p>
+
+    <table>
+        <caption>Superficial loss, the two conditions, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Condition</th>
+                <th>What CRA's manual requires</th>
+                <th>A case that fails it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acquisition inside the window</td>
+                <td>You or an affiliated person acquire the same or identical property in the 30 days before the sale or the 30 days after it.</td>
+                <td>Nobody affiliated buys it, in any account, in that window. A purchase 31 days after the sale is outside the window. Count calendar days, and confirm the trade date your broker will report.</td>
+            </tr>
+            <tr>
+                <td>Still held at the end</td>
+                <td>At the end of the 30 days after the disposition, you or the affiliated person still own it, or still have a right to acquire it.</td>
+                <td>The replacement is sold to a non-affiliated buyer before that thirtieth day, and nobody affiliated still holds an identical property. Partial shares and options can be a right to acquire. Read the contract.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Source: CRA Income Tax Audit Manual, chapter 29, and CRA's capital-losses page. Both conditions have to be met. A buy inside the window that is fully gone before day 30, with no affiliated person still holding the identical property, is not the fact pattern the manual describes. Do not build a trading strategy on that sentence. Settlement, DRIP, and a spouse's automatic contribution are how people meet the conditions by accident.</p>
+
+    <h2>Who counts as affiliated?</h2>
+
+    <p>The manual points at "affiliated person" in subsection 251.1(1). It does not, on the page reviewed, print a household list. CRA's capital-losses page says some examples of affiliated persons exist, and the text returned for this review did not include that list. This page will not invent the examples. Treat your own accounts, including TFSA, RRSP, RRIF, FHSA, and RESP, as your own acquisitions, because you are the taxpayer. Before you involve a spouse, a common-law partner, a corporation you control, or a partnership, read 251.1(1) or ask a tax preparer. The harvesting calendar's practical warning is the same: tell the other person which ticker is off limits until a date you both write down.</p>
+
+    <div class="example-box">
+        <strong>Illustration: the loss that moves, and the loss that does not</strong>
+        <p>You sell a non-registered holding at a $4,000 loss and the same day you buy the same ETF in the same non-registered account. Both conditions can be met. The $4,000 is denied this year. If you are the person who acquired the substitute, CRA says you can usually add $4,000 to the ACB of those new units. Sell them later, outside a fresh window, and the higher ACB comes back as a smaller gain or a larger loss. Same sale, but the rebuy is inside your TFSA. The denied loss has nowhere useful to land, because the TFSA will not report a personal capital gain. The $4,000 is gone. The dollars are a teaching example, not a target and not a finding that your two funds are identical.</p>
+    </div>
+
+    <h2>Which losses are not superficial?</h2>
+
+    <p>CRA's page on non-superficial losses lists common situations where the loss is not a superficial loss. They include a deemed sale because you became or ceased to be a resident of Canada, a deemed sale because you changed the property's use, a disposition within 30 days of becoming or ceasing to be exempt from tax, a deemed sale because the owner died, the expiry of an option, and property appropriated by a shareholder on a winding-up. A corporation, partnership, or trust that disposes of non-depreciable capital property is in a different stop-loss rule. CRA says that loss is not added to the ACB in the same way, and it is not claimed immediately. Call the individual line, which the page prints as 1-800-959-8281, before you apply that paragraph to a holding company. The departure case is a residency problem, not a December trade.</p>
+
+    <div class="warning-box">
+        <strong>A DRIP is an acquisition:</strong>
+        <p>You sold the ETF. The distribution two weeks later buys three more units in an account you forgot was enrolled. That buy is inside the window. Turn the DRIP off on the old ticker before you harvest, in every account that might receive it, including a spouse's account if that person is affiliated. A January TFSA contribution that rebuys the same ticker is the same condition.</p>
+    </div>
+
+    <h2>What counts as identical property?</h2>
+
+    <p>CRA's special-rules page says properties of a group are identical if each property in the group is the same as all the others. Shares of the same class, and units of the same mutual fund trust, are the examples it gives. An ETF is not given a special pass. Selling one Canadian equity ETF and buying another Canadian equity ETF can be a real substitute or it can be the same property. Index, share class, and currency hedging are facts. A new ticker is not a fact that ends the analysis. CRA has not published a safe pair list. The harvesting calendar says to treat "same index, different brand" as identical unless you have advice on that loss. This page agrees, and it will not clear a pair by name.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Does the rule apply in a TFSA?</h3>
+    <p>A loss inside a TFSA is not your capital loss. The rule matters when the sale was in a non-registered account and the rebuy, or the continued holding, is in the TFSA or another affiliated account. That is the fact pattern that denies the loss without giving you a usable ACB increase.</p>
+
+    <h3>If I wait 31 days, is the loss allowed?</h3>
+    <p>Only if nobody affiliated acquired the identical property in the 30 days before the sale either, and nobody still holds it at the end of the 30 days after. The window runs both directions. A buy the week before the sale counts. So does a buy on day 30 after. Day 31 is the first day outside, if you have counted the trade dates correctly.</p>
+
+    <h3>Can I buy a similar fund the same day?</h3>
+    <p>You can buy a fund that is not identical property. You do not have to sit in cash. You do have to be right about identical. Two funds that hold the same index are the dangerous pair. Two funds with a different country mix, or a different bond weight, are easier to distinguish. This page will not certify a ticker.</p>
+
+    <h3>Does the denied loss disappear forever?</h3>
+    <p>Not when you personally acquired the substitute in an account that still has an ACB. CRA says you can usually add the loss to that ACB. It disappears, in practical terms, when the substitute sits in a registered account that will never produce a personal capital gain, or when you cannot identify which property to add it to. Keep the worksheet. The ACB guide is the add.</p>
+
+    <h3>What about a loss on my principal residence?</h3>
+    <p>A principal residence is usually sheltered by the exemption on a gain, and a loss on a personal-use home is not a capital loss you harvest. Change of use, and a house that was partly a rental, are different files. The <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a> page is the fork. Do not run a stock rule on a house.</p>
+
+    <h3>Are options and partial shares inside the window?</h3>
+    <p>The manual includes a right to acquire the substituted property at the end of the period. An option that is still open can matter. A fractional-share DRIP can matter. If the dollar loss is large, have a person read the trades before you file. This page is the definition, not a sign-off on a basket of options.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax-audit-manual-domestic-compliance-programs-branch-dcpb-29.html">CRA Income Tax Audit Manual, chapter 29: superficial loss</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html">CRA: capital losses, superficial loss</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions/what-a-superficial-loss/non-superficial-losses.html">CRA: non-superficial losses</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/special-rules-other-transactions.html">CRA: identical properties</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The loss is a date. The return is the claim.</strong></p>
+        <p>A denied loss does not become a deduction because the software has a box. The 2026 tax guide is the filing side.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about the superficial loss rule as of October 2026. It is not tax or investment advice. Affiliated status is statutory. Identical property is factual. The $4,000 in the example is arithmetic, not a recommended trade. Confirm the trades, the DRIP, and subsection 251.1(1) before you claim a large loss.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Investing | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
+  {
+    ...investingPost(
+      'questrade-vs-interactive-brokers-canada',
+      'Questrade vs Interactive Brokers for Canadians',
+      'As of October 2026, Questrade lists $0 online stock and ETF commissions and 1.5% to convert currency. IBKR Canada lists per-share commissions and a 0.20 basis point spot FX commission.',
+      `<div class="container">
+
+    <div class="hook">
+        Choose Questrade if you buy Canadian-listed ETFs and rarely convert currency. Choose Interactive Brokers Canada if the foreign-exchange ticket is the cost that matters. As of October 2026, Questrade lists <span class="highlight">$0 commissions</span> on online Canadian and US stock and ETF trades and <span class="highlight">1.5%</span> to convert CAD and USD. IBKR Canada's fixed Canada schedule is CAD 0.01 a share, minimum CAD 1.00 an order. Its first spot-currency tier is 0.20 basis points, minimum USD 2.00.
+    </div>
+
+    <p>This comparison is under <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>. Wealthsimple against Questrade, including the shared 1.5% conversion on the pages reviewed in September, is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>. The journal that avoids a conversion at Questrade is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>. Whether the US-listed fund is worth owning at all is <a href="/blog/vfv-vs-voo-canadians/">VFV versus VOO</a> and <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>. There is no affiliate link on this page.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Questrade: $0 online commissions for stocks and ETFs listed in Canada or the United States. Other fees still apply. Canadian orders have no ECN fee. US orders can, when they remove liquidity.</li>
+            <li>Questrade currency conversion is 1.5%, included in the rate, last updated on Questrade's page on November 18, 2023. Accounts are dual-currency, so you are not forced to convert if you already hold the currency and, for registered accounts, you have not elected to settle everything in CAD.</li>
+            <li>IBKR Canada, fixed, for Canada: CAD 0.01 a share, minimum CAD 1.00, maximum 0.5% of trade value, and no third-party fees on that fixed line. Tiered starts at CAD 0.008 a share under 300,000 shares a month, same CAD 1.00 minimum, and passes through exchange, clearing, and regulatory fees.</li>
+            <li>IBKR Canada, United States, fixed: USD 0.005 a share, minimum USD 1.00, maximum 1% of trade value. Tiered starts at USD 0.0035, minimum USD 0.35. Regulatory fees still apply on the US fixed schedule.</li>
+            <li>IBKR spot FX, first tier: 0.20 basis points times trade value, minimum USD 2.00. Auto currency conversion is a separate 0.03% add or subtract, with no separate commission. Neither number is a 1.5% spread.</li>
+        </ul>
+    </div>
+
+    <div class="tip-box">
+        <strong>Choose Questrade if</strong> the portfolio is Canadian-listed ETFs, you will not convert often, and you want a $0 stock and ETF commission on the page reviewed.
+        <p><strong>Choose Interactive Brokers</strong> if you will hold US-listed securities in size, especially inside an RRSP where the treaty can matter, and you would otherwise pay 1.5% to buy the currency. The per-share commission is the price of that FX schedule. It is still a small number next to 1.5% on a large conversion, and it is not small on a one-share test trade that hits the minimum.</p>
+    </div>
+
+    <h2>What does each broker charge to trade?</h2>
+
+    <table>
+        <caption>Questrade and IBKR Canada, schedules reviewed October 2026</caption>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Questrade</th>
+                <th>Interactive Brokers Canada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Canadian and US stocks and ETFs, online</td>
+                <td>$0 commission. The footnote limits that promise to stocks and ETFs listed on an exchange in Canada or the United States, placed online. Trade-desk orders add $45.</td>
+                <td>Canada fixed: CAD 0.01 a share, minimum CAD 1.00, cap 0.5% of trade value. US fixed: USD 0.005 a share, minimum USD 1.00, cap 1% of trade value. Tiered rates are lower per share and add third-party fees.</td>
+            </tr>
+            <tr>
+                <td>CAD/USD conversion</td>
+                <td>1.5% when you convert. Dual-currency accounts can hold both dollars so a later trade does not convert again, if the cash is already there.</td>
+                <td>Spot: 0.20 basis points on the first tier (monthly spot value up to USD 1 billion), minimum USD 2.00. One basis point is 0.0001. Auto conversion: 0.03% added or subtracted, no separate commission.</td>
+            </tr>
+            <tr>
+                <td>ECN or exchange fees</td>
+                <td>No ECN fees on Canadian securities. US ECN fees do not apply to every trade. They are likely when an order removes liquidity.</td>
+                <td>Canada fixed line: third-party fees "none." Canada tiered line: exchange, clearing, and regulatory fees. US fixed line: regulatory fees. US tiered line: regulatory, exchange, clearing, and pass-through.</td>
+            </tr>
+            <tr>
+                <td>Options, the line actually printed</td>
+                <td>Canadian options: $0 plus CAD 0.99 a contract. US equity option contract fees: the page's $0 online line. US index options: variable. Exercise: $24.95.</td>
+                <td>Not quoted here. The stock page reviewed does not set the option schedule. Open the option page before you trade one.</td>
+            </tr>
+            <tr>
+                <td>Account minimum, on the pages reviewed</td>
+                <td>Not stated on the transaction page. This comparison does not invent one.</td>
+                <td>The stock-commissions page says no account minimums, no added spreads, no ticket charges, and no platform fees. Introduced or advisor clients can pay more. The page says so.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Questrade figures are from its transaction-fee page and its pricing page. IBKR figures are from the Interactive Brokers Canada stock-commissions page and the spot-currency page. IBKR says it may change rates at its discretion, and that published rates are for direct clients. TSX stocks denominated in US dollars use a different IBKR row: tiered USD 0.006 and fixed USD 0.008, minimum USD 0.80, cap 0.4% of trade value. Do not apply the CAD row to those symbols.</p>
+
+    <h2>What does 1.5% cost next to 0.20 basis points?</h2>
+
+    <div class="example-box">
+        <strong>Illustration: converting the equivalent of $10,000, once</strong>
+        <p>Questrade's 1.5% on $10,000 is $150. That fee is inside the rate, so you will not see a separate $150 line. IBKR's first-tier spot commission is 0.20 basis points, which is 0.002% of trade value. On $10,000 that is $0.20, below the USD 2.00 minimum, so the schedule's floor is USD 2.00 if the minimum applies to that order. IBKR's auto-conversion add-on of 0.03% on $10,000 is $3, with no separate commission. The gap between $150 and a few dollars is the reason this comparison exists. It is arithmetic on the published rates, not a quote, not a spread on a live market, and not a promise that $10,000 of CAD buys a stated number of USD. Higher IBKR tiers, above USD 1 billion of monthly spot value, are irrelevant to a household.</p>
+    </div>
+
+    <p>A $0 commission does not touch that $150. Norbert's gambit, at Questrade, is the other way to avoid it. The gambit has its own steps and its own residual costs, described in that guide. This page does not restate a journaling fee it did not re-read in October 2026. If you will convert once a decade to buy a Canadian-listed ETF, pay neither the 1.5% nor a per-share commission in USD. Buy the Canadian ticker.</p>
+
+    <div class="example-box">
+        <strong>Illustration: 100 shares, Canada, fixed IBKR schedule</strong>
+        <p>CAD 0.01 × 100 = CAD 1.00, which is also the minimum, so the commission is CAD 1.00 if the cap does not bind. The cap is 0.5% of trade value. On a stock worth CAD 1.00, 100 shares are CAD 100 of value, and 0.5% is CAD 0.50, which is below the minimum. IBKR's own US footnote describes the case where the maximum replaces the minimum. Read that footnote before you trade a penny stock. Questrade's online commission on the same Canadian stock is $0. The CAD 1.00 matters if you trade constantly. It does not matter next to a 1.5% conversion on a five-figure USD purchase. One hundred shares is an illustration of the minimum, not a recommended order.</p>
+    </div>
+
+    <h2>Which account menu actually matters?</h2>
+
+    <p>Questrade's pricing page says all accounts are dual-currency, so you can hold Canadian and US dollars at the same time. The footnote adds the condition that matters: you need sufficient cash in that currency, and for a registered account you must not have elected to settle all transactions in CAD. A dual-currency RRSP that you immediately convert back to CAD on every dividend has not avoided the 1.5%. It has paid it on the way out.</p>
+
+    <p>IBKR's page says there is no account minimum and no platform fee on that commissions overview. Market data is a different page. This comparison does not quote a data subscription it did not open. If you need a live US quote, price that subscription before you call the commission the whole cost. CIPF membership, for the dealer that holds the securities, is the coverage question. It is not a performance guarantee. Read <a href="https://www.cipf.ca/">cipf.ca</a> for the limit. A US-listed ETF inside an RRSP is a tax decision, not a broker trophy. The withholding guide is the test. The <a href="/blog/best-online-brokerages-canada/">brokerage guide</a> is the rest of the desk.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Is Questrade actually free?</h3>
+    <p>The online stock and ETF commission is $0 for securities listed in Canada or the United States, on the page reviewed. Currency conversion is 1.5%. ECN fees can apply to some US orders. Options are not all $0: Canadian contracts are CAD 0.99, and the trade desk adds $45. "Free" on the homepage is the stock and ETF commission line, read with the footnote.</p>
+
+    <h3>Does Interactive Brokers charge 1.5% to convert?</h3>
+    <p>Not on the spot-currency page reviewed. The first tier is 0.20 basis points, with a USD 2.00 minimum. Auto conversion is 0.03%, with no separate commission. Those are IBKR's published schedules for direct clients. An introducing broker can add its own commission. Confirm you are a direct client before you use the table.</p>
+
+    <h3>Which one is better for a TFSA full of Canadian ETFs?</h3>
+    <p>Questrade's $0 online commission matches that job. IBKR's per-share minimum is a cost you do not need if you never convert and never trade US listings. Revisit the choice when an RRSP is large enough that a US-listed fund and the treaty are worth the ticket. The investing hub is that sequence.</p>
+
+    <h3>Do I still need Norbert's gambit at IBKR?</h3>
+    <p>Usually no, if you can convert at the spot or auto-conversion schedule. The gambit exists to avoid a percent-style conversion at brokers that charge one. At 0.20 basis points, the journal is a complication, not a saving, unless your order is so odd that the minimums and the spread say otherwise. Price the actual ticket.</p>
+
+    <h3>Are the tiered rates the ones I will pay?</h3>
+    <p>Only if you are on the tiered plan and your monthly share volume is in that band. Under 300,000 shares a month, IBKR Canada's tiered Canada rate is CAD 0.008, and third-party fees sit on top. Fixed is CAD 0.01 with third-party fees listed as none. A household that buys one ETF a month should assume the fixed line or the first tier, then read the confirmation. Do not underwrite the CAD 0.003 tier. That row is 20 million shares a month.</p>
+
+    <h3>What about Wealthsimple?</h3>
+    <p>It is the third desk, compared with Questrade on the other page. As of the September 2026 review of that page, both listed $0 stock and ETF commissions and 1.5% to convert. This page does not reopen Wealthsimple's USD-account subscription. If your choice is really "who converts cheaply," IBKR is the schedule to read. If your choice is "who is simplest for a Canadian ETF," start with the Wealthsimple comparison and stop when the FX line does not apply to you.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://invest.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">Questrade: transaction fees</a></li>
+        <li><a href="https://invest.questrade.com/pricing/self-directed-commissions-plans-fees">Questrade: pricing, dual-currency accounts</a></li>
+        <li><a href="https://www.interactivebrokers.ca/en/pricing/commissions-stocks.php">Interactive Brokers Canada: stock and ETF commissions</a></li>
+        <li><a href="https://www.interactivebrokers.ca/en/pricing/commissions-spot-currencies.php">Interactive Brokers Canada: spot currency commissions</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The commission is a line. The conversion is the bill.</strong></p>
+        <p>Account type still sets the tax. The 2026 tax guide is the TFSA, RRSP, and taxable side of the same transfer.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about two brokers' published schedules as of October 2026. It is not a recommendation to open an account, and not investment, tax, or legal advice. Commissions, ECN fees, and conversion methods change. The $10,000 and 100-share figures are arithmetic on those schedules, not live quotes. Confirm the fee page and the trade confirmation before you move a registered account.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Investing | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
 ];
