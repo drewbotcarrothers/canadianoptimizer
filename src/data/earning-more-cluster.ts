@@ -684,7 +684,7 @@ export const earningMoreClusterPosts: EarningPost[] = [
   earningPost(
     'severance-pay-tax-canada',
     'Severance Pay Taxes in Canada: Lump Sums, Withholding, and RRSP Room',
-    'A retiring allowance paid directly to you is withheld at 10%, 20%, or 30% based on the year's total, not at your marginal rate. The eligible pre-1996 portion can transfer to your own RRSP without using contribution room.',
+    'A retiring allowance paid directly to you is withheld at 10%, 20%, or 30% based on the total for the year, not at your marginal rate. The eligible pre-1996 portion can transfer to your own RRSP without using contribution room.',
     `<div class="container">
 
     <div class="hook">
@@ -814,7 +814,7 @@ export const earningMoreClusterPosts: EarningPost[] = [
   earningPost(
     'remote-work-us-company-from-canada',
     'Working Remotely for a US Company From Canada: Employee, Contractor, or EOR',
-    'A Canadian resident working in Canada reports that income in Canada. The open choices are employee, self-employed contractor, or an employer of record. The contract's country does not pick the return.',
+    'A Canadian resident working in Canada reports that income in Canada. The open choices are employee, self-employed contractor, or an employer of record. The country on the contract does not pick the return.',
     `<div class="container">
 
     <div class="hook">
