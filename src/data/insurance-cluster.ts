@@ -141,6 +141,8 @@ export const insuranceClusterPosts: InsurancePost[] = [
         <li><a href="/blog/group-life-insurance-vs-personal-canada/">Group versus personal</a> — what ends when the job ends.</li>
         <li><a href="/blog/private-health-dental-insurance-canada/">Private health and dental</a> — the dental-plan test, and Quebec's drug rule.</li>
         <li><a href="/blog/car-insurance-by-province-canada/">Car insurance by province</a> — public, private, and Quebec's split.</li>
+        <li><a href="/blog/online-vs-broker-life-insurance-canada/">Online versus a broker for life insurance</a> — same contract, different way of getting the illustration.</li>
+        <li><a href="/blog/lower-car-insurance-canada/">How to lower car insurance</a> — the levers on a quote, without a made-up percent off.</li>
     </ul>
 
     <h2>Frequently asked questions</h2>
@@ -1147,4 +1149,284 @@ export const insuranceClusterPosts: InsurancePost[] = [
 
 </div>`
   ),
+  {
+    ...insurancePost(
+      'online-vs-broker-life-insurance-canada',
+      'Online vs Broker Life Insurance in Canada: Which Gets the Better Policy?',
+      'Neither channel is a cheaper premium on this page. FCAC says a broker sells several insurers and an agent represents a company. Compare the same term, face amount, and health class.',
+      `<div class="container">
+
+    <div class="hook">
+        Buying life insurance online is not automatically cheaper than using a broker, and a broker is not automatically more thorough. The Financial Consumer Agency of Canada says you can buy from an insurance company, a licensed agent, or a registered broker, and that you should <span class="highlight">shop around, get quotes, and compare coverage and cost</span>. A cheaper policy that is not the same contract is not a saving.
+    </div>
+
+    <p>This comparison sits under the <a href="/blog/canadian-insurance-planning-guide/">Canadian insurance planning guide</a>. How much face amount you need is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>. What actually moves a premium, without a fake age curve, is <a href="/blog/term-life-insurance-cost-by-age-canada/">term life cost by age</a>. The features worth comparing once you have two real illustrations are <a href="/blog/best-term-life-insurance-canada/">best term life insurance</a>. Coverage that ends when the job ends is <a href="/blog/group-life-insurance-vs-personal-canada/">group versus personal</a>. The lender's certificate is not this decision: <a href="/blog/mortgage-life-insurance-vs-term-life-canada/">mortgage life versus term life</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>FCAC: an agent represents an insurance company. A broker sells the products of several companies. In some cases a life agent also represents several companies. Both must be licensed in the province or territory where they do business.</li>
+            <li>Ask whether the person passed the Life Licence Qualification Program if you are buying life insurance. Confirm the licence with the provincial regulator. FCAC lists that check as something the regulator can do.</li>
+            <li>Life and health applications can require a medical questionnaire or an exam. That is evidence of insurability. An online form does not remove it. A broker does not remove it either.</li>
+            <li>FCAC says the death benefit is a one-time, tax-free payment. This page does not publish a premium, because no insurer page reviewed for this article is a rate card for your age and health.</li>
+            <li>Compare term length, renewability, conversion, exclusions, owner, and beneficiary on two illustrations with the same face amount. A score on a website is not a policy.</li>
+        </ul>
+    </div>
+
+    <div class="tip-box">
+        <strong>Choose online if</strong> the need is level term, your health is straightforward enough to answer the questions, and you will read the contract and get at least two illustrations on the same face amount and term.
+        <p><strong>Choose a broker if</strong> your health history, your business, or a conversion and renewal strategy needs a person who can place the file with more than one insurer, and you have confirmed the licence. The premium is still the illustration, not the relationship.</p>
+    </div>
+
+    <h2>What does FCAC say the two roles are?</h2>
+
+    <table>
+        <caption>How you can buy, from FCAC's "Getting an insurance policy" page, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Path</th>
+                <th>Who is on the other side</th>
+                <th>What you still have to do</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Insurance company, including a company website</td>
+                <td>That company's products. FCAC lists the company as a place you can buy.</td>
+                <td>You only see that company's contract unless you repeat the application elsewhere. Medical questions still apply.</td>
+            </tr>
+            <tr>
+                <td>Licensed agent</td>
+                <td>Represents an insurance company and sells its products. FCAC notes that a life agent may represent several companies.</td>
+                <td>Ask which companies they can actually place. "Agent" is not a promise of one insurer, and it is not a promise of many.</td>
+            </tr>
+            <tr>
+                <td>Registered broker</td>
+                <td>A person or company who sells the products of several insurance companies.</td>
+                <td>Confirm the registration. Ask what happens after the sale. A broker who only shows you one quote has not done the thing you hired them for.</td>
+            </tr>
+            <tr>
+                <td>A lender, when you apply for a loan</td>
+                <td>FCAC lists this path separately. It is often mortgage life or creditor insurance.</td>
+                <td>Do not treat it as the household term policy. The benefit, the owner, and the declining balance are the mortgage-life comparison.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Source: FCAC, getting an insurance policy. Some policies may be cheaper and may not offer the same coverage or service. That is FCAC's sentence, and it is the whole comparison. This page will not attach a percent to it.</p>
+
+    <h2>What should the two illustrations match?</h2>
+
+    <p>Age, sex, smoking status, face amount, term length, and health class move the premium. The cost-by-age page explains why a chart that mixes those is not an age curve. Bring the same facts to the website and to the broker. If one quote assumes non-smoker preferred and the other assumes a rated class, you are not comparing channels. You are comparing underwriting outcomes. Ask each source for the renewal premium after the first term, and whether you can convert to permanent insurance without new evidence of insurability. Those two clauses are where a cheap first term gets expensive, or where a policy you can no longer qualify for is the one you needed.</p>
+
+    <div class="example-box">
+        <strong>Illustration: same need, two paths, no prices</strong>
+        <p>A parent in Ottawa wants 20-year term sized with the need analysis, enough to replace income and clear a mortgage, and not a second mortgage-life certificate on top. Online, they complete two insurers' questionnaires and request the same face amount and the same term. With a broker, they ask for the same two facts plus any insurer the broker can add, and they ask which file would be rated because of a past prescription. If both channels return the same insurer, the same class, and the same riders, the lower premium is the better price. If the classes differ, the lower number may be the one that will be repriced after the medical. No dollar in this paragraph is a quote. There isn't one on this page.</p>
+    </div>
+
+    <h2>What does the licence check look like?</h2>
+
+    <p>FCAC says agents and brokers must be licensed in the province or territory where they do business, and that you should confirm it before dealing with them. The provincial regulator can confirm that the company, the agent, or the broker is licensed or registered. FCAC also says to ask for references, training, whether they passed the LLQP for life insurance, whether they belong to a professional association, how long they have been in business, and what service they provide after the sale. An online form has no LLQP. The company behind the form still has to be authorized. The person who calls you after the form still needs a licence if they are advising. Ask.</p>
+
+    <p>If the insurer fails, Assuris protection for member life insurers is described in the planning guide, including the death-benefit figure that guide ties to Assuris. This page does not restate a protection number it did not re-read in October 2026. Buy from a member insurer, and do not treat protection as a reason to skip the contract. A complaint that the channel will not resolve goes to the insurer first. FCAC says it does not resolve individual complaints. For life and health, FCAC points at the OmbudService for Life and Health Insurance after the company's process.</p>
+
+    <div class="warning-box">
+        <strong>Personal premiums are not a deduction you should assume:</strong>
+        <p>The planning guide's position, tied there to FCAC's description of the death benefit, is that personal life insurance premiums are generally a personal expense. Corporate-owned coverage is a different file, the <a href="/blog/corporate-owned-life-insurance-canada/">corporate-owned guide</a>. Buying online does not create a deduction. Buying through a broker does not either.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Is online life insurance cheaper in Canada?</h3>
+    <p>This page will not say yes or no in percent terms. No insurer schedule reviewed here is a national price gap between a website and a broker. FCAC's instruction is to compare quotes. Get two on the same face amount, term, and health class. The lower premium on the same contract is the cheaper one. A different contract is a different product.</p>
+
+    <h3>Do I still need a medical exam if I apply online?</h3>
+    <p>Often you answer a questionnaire first. FCAC says insurers may require a questionnaire or an exam before they approve life and health coverage. Some policies are sold with limited questions and a lower maximum benefit. Those are not the same as a fully underwritten term policy. Read whether the death benefit can be challenged for a non-disclosure. The application is evidence. A short form is not a gift.</p>
+
+    <h3>Can a broker get me a policy the website cannot?</h3>
+    <p>A broker who can place business with several insurers can sometimes find a carrier that will offer a standard class when the first company rates you or declines you. That is the job. It is not guaranteed. An agent who represents one company can only sell that company. Ask how many insurers will actually see the file.</p>
+
+    <h3>Should I buy the bank's mortgage life insurance instead?</h3>
+    <p>FCAC says a lender cannot require mortgage life insurance as a condition of the mortgage, on the rights page linked from the planning guide. The benefit is aimed at the loan, and the coverage often declines as the balance declines. A personal term policy can include the mortgage and still pay the family. Compare them on the mortgage-life page before you sign at the branch.</p>
+
+    <h3>What if I already have group life at work?</h3>
+    <p>Count it as a bridge. It often ends when the job ends. The group-versus-personal page is that case. An online term policy you own is the piece that survives a resignation. Do not add the group benefit to the face amount and then forget it ends.</p>
+
+    <h3>How do I complain?</h3>
+    <p>Start with the company, the agent, or the broker. FCAC describes the company's complaint process and says FCAC itself does not decide your case. For life and health, the external body FCAC names is the OmbudService for Life and Health Insurance. The provincial regulator is the licence check and a further stop. Keep the illustration and the policy.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/get-insurance.html">FCAC: getting an insurance policy</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/life.html">FCAC: life insurance, tax-free death benefit</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/determining-insurance-needs.html">FCAC: how insurance works, and what the provincial regulator can confirm</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/make-complaint.html">FCAC: complaining about an insurer, agent, or broker</a></li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The channel is a doorway. The contract is the product.</strong></p>
+        <p>Who owns the policy can change the tax. The 2026 tax guide is the filing side, not an application.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about buying life insurance in Canada as of October 2026. It is not a premium quote, a carrier ranking, or insurance, tax, or legal advice. Premiums depend on the person and the contract. No price on this page is an offer. Confirm the licence, the illustration, and the policy before you cancel coverage you already have.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Insurance | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
+  {
+    ...insurancePost(
+      'lower-car-insurance-canada',
+      'How to Lower Your Car Insurance in Canada',
+      'Lower the premium by comparing the same liability limit and deductibles, and by dropping coverage you have replaced on purpose. This page does not publish a percent off.',
+      `<div class="container">
+
+    <div class="hook">
+        You lower car insurance in Canada by comparing quotes at the <span class="highlight">same liability limit and the same deductibles</span>, in the province where the car is plated, and by removing only the coverage you have deliberately replaced. A provincial average premium is not a target. This page does not publish one, and it does not publish a percent you will save.
+    </div>
+
+    <p>The map of who even sells the mandatory policy is <a href="/blog/car-insurance-by-province-canada/">car insurance by province</a>. The order of the household's other policies is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>. Income you still need if you are injured is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>, not an optional auto benefit you declined to save premium. The home policy you might bundle is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant coverage</a>.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>British Columbia, Saskatchewan, and Manitoba require the basic policy from the public insurer. Quebec splits bodily injury (SAAQ) from property damage (private). The other provinces and the territories use private insurers for the mandatory policy. You cannot "shop the market" in a province that does not have one.</li>
+            <li>Compare two quotes only after the liability limit, the deductibles, and the drivers are the same. A lower price with a lower limit is a different product.</li>
+            <li>In Ontario, FSRA says that on policies bought on or after July 1, 2026, medical, rehabilitation, and attendant care stay mandatory, and other accident benefits, including income replacement, are optional. Declining a benefit can change the premium. It also opens a gap.</li>
+            <li>Ask the insurer about winter tires, kilometres, occasional drivers, and usage-based programs. Do not budget a discount this page did not read on an insurer's schedule.</li>
+            <li>A legal minimum, including the $200,000 third-party liability floor described for several provinces on the province page, is a poor personal limit if a claim can exceed it. You pay the excess.</li>
+        </ul>
+    </div>
+
+    <h2>What can you change without changing the protection?</h2>
+
+    <table>
+        <caption>Levers on a Canadian auto premium, and the evidence this page will cite, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Lever</th>
+                <th>What it can do</th>
+                <th>What not to assume</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shop the same policy</td>
+                <td>In a private-market province, two insurers can price the same limit differently. FCAC says to shop around and compare coverage and cost.</td>
+                <td>That shopping exists inside ICBC, SGI, or MPI basic insurance. Optional coverages in those provinces can still be private. The province page separates them.</td>
+            </tr>
+            <tr>
+                <td>Deductible</td>
+                <td>A higher deductible usually lowers the premium, because you pay more of a small claim yourself.</td>
+                <td>A dollar saving. The quote is the saving. If you cannot pay the deductible from cash, you did not buy a deductible. You bought a problem.</td>
+            </tr>
+            <tr>
+                <td>Liability limit</td>
+                <td>Raising it costs something. Leaving it at the legal minimum can cost the excess over the limit if a claim is larger.</td>
+                <td>That $200,000 is "enough" because it is a floor in several jurisdictions. The province page's illustration is the arithmetic, not a required amount.</td>
+            </tr>
+            <tr>
+                <td>Optional accident benefits, Ontario</td>
+                <td>FSRA says income replacement and other benefits became optional on new policies from July 1, 2026. Medical, rehabilitation, and attendant care stayed mandatory.</td>
+                <td>That declining income replacement is free money. Replace the income with a disability policy you have read, or keep the benefit.</td>
+            </tr>
+            <tr>
+                <td>Kilometres, drivers, and the car</td>
+                <td>Insurers ask how far you drive, who else drives, and what the vehicle is. Fewer kilometres and fewer occasional drivers are facts you can correct if the application is wrong.</td>
+                <td>A national discount for winter tires, alumni memberships, or bundling. Ask your insurer. If the percent is not on the quote, it is not yours.</td>
+            </tr>
+            <tr>
+                <td>Tickets and at-fault claims</td>
+                <td>A clean record is the largest honest lever, and it is slow. Convictions and at-fault claims are underwriting facts.</td>
+                <td>A surcharge percent. This page does not have one from a regulator that applies in every province.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Table as of October 2026. Structure of the mandatory market: the province-by-province guide and the insurer and regulator pages it cites. Shopping instruction: FCAC's getting-an-insurance-policy page. Ontario benefits: FSRA's July 1, 2026 accident-benefits page. No cell in this table is a promised reduction.</p>
+
+    <h2>Where does the province stop you from shopping?</h2>
+
+    <p>The province guide's table, built from ICBC, MPI, SAAQ, FSRA, Alberta's intentions paper, and the Insurance Bureau of Canada, is the constraint. In British Columbia the basic policy is ICBC. In Saskatchewan it is SGI. In Manitoba it is MPI. You can still choose optional physical damage and, in some of those systems, a higher liability limit. You cannot collect three "basic" quotes that do not exist. In Quebec, bodily injury is the public plan and property damage is private, with a liability floor the SAAQ describes. In Alberta, Ontario, the Atlantic provinces, and the territories, the mandatory policy is private, and shopping is the actual lever.</p>
+
+    <div class="example-box">
+        <strong>Illustration: a lower quote that is not lower coverage</strong>
+        <p>A driver in a private-market province has a renewal at a $1,000,000 liability limit and a $500 collision deductible. A second insurer offers a lower premium at $200,000 liability and a $1,000 deductible. The second quote is not a discount on the first policy. It is less coverage. Ask the second insurer to rerun $1,000,000 and $500. Then compare. The dollar gap, if one remains, is the saving. The $1,000,000 and the deductibles are a teaching pair, not a recommendation and not a statistic about what Canadians buy. Alberta's intentions paper, cited on the province page, describes many drivers choosing $1,000,000 or $2,000,000. That is behaviour the government described, not your price.</p>
+    </div>
+
+    <h2>What should you not cancel to save the renewal?</h2>
+
+    <ul>
+        <li><strong>Income replacement, if you have no other disability pay.</strong> Ontario's July 1, 2026 change made it optional on new policies. FSRA's consumer fact sheet, as described on the province page, says to check workplace and private benefits before you remove an auto benefit. The disability guide is the personal contract. EI sickness and CPP disability are ceilings for people who qualify. They are not an own-occupation plan.</li>
+        <li><strong>Collision on a financed or leased car</strong> if the loan requires it. That requirement is the lender's. The province's mandatory layer often does not repair your own car when you are at fault.</li>
+        <li><strong>The liability limit, to the legal floor,</strong> because a claim above the floor is yours. The province page walks through that arithmetic without pretending the judgment is a national statistic.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>Credit information is a provincial rule, not a blog rule:</strong>
+        <p>FCAC's "how insurance works" page says the Insurance Bureau of Canada provides guidelines, and that insurers may choose to use your credit information. It does not, on the page reviewed, print a province-by-province ban or permission. Ask the insurer and the provincial regulator whether credit is used on your file. This page will not tell you that fixing a score will cut the premium by a stated percent. It will not tell you the practice is illegal in a province it has not read a statute for.</p>
+    </div>
+
+    <h2>A renewal checklist</h2>
+
+    <ol>
+        <li>Read the declaration. Write down the liability limit, the deductibles, the drivers, and the annual kilometres the insurer thinks you drive.</li>
+        <li>Correct the kilometres and the occasional drivers if they are wrong. Those are facts, not negotiating lines.</li>
+        <li>In a private market, get a second quote at those same limits. In a public basic market, ask what optional coverage is available and from whom.</li>
+        <li>If you are in Ontario and the policy is new or you are being asked to sign away an accident benefit, read the FSRA page dated July 1, 2026 before you sign.</li>
+        <li>Ask, in writing, which discounts the insurer actually applies: winter tires, bundling, alumni, usage-based. Accept only the ones on the new declaration.</li>
+        <li>Put the premium you kept into the same folder as the disability policy. A cheaper auto policy that leaves your income uninsured was not a saving.</li>
+    </ol>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>What is a realistic discount?</h3>
+    <p>The one on the quote you accept, at the same limits. This page does not average Canadian premiums and does not publish "save 20 percent" or any other figure. Insurer pages that advertise a winter-tire or bundling percent are the source for that percent, and only for that insurer, in that province, on that date.</p>
+
+    <h3>Does bundling home and auto always help?</h3>
+    <p>Only if the bundle price is lower than the two policies bought separately at the same coverage. Ask for both numbers. A bundle that drops a sewer-backup or liability feature on the home to make the auto look cheap is the home-insurance gaps page, not a win.</p>
+
+    <h3>Will winter tires lower my premium?</h3>
+    <p>Some insurers say they consider them. This page did not retrieve a national amount. Ask yours, and keep the proof they ask for. Tires you do not actually install are not a discount. They are a misrepresentation.</p>
+
+    <h3>Can I lower the premium by dropping collision?</h3>
+    <p>Yes, if you can replace the car from cash and no lender requires the coverage. The premium falls because the insurer no longer pays for your own car in an at-fault crash. That is a real trade. It is a bad trade on a car you cannot replace, and it may breach a lease or a loan.</p>
+
+    <h3>Do public insurers let me compare companies?</h3>
+    <p>Not for the basic policy in British Columbia, Saskatchewan, or Manitoba. Optional coverage can be a choice, including private insurers for some B.C. optional products, which ICBC's own pages describe. Quebec's property-damage policy is private. Start with the province page so you do not spend an evening requesting quotes the law will not sell you.</p>
+
+    <h3>Does a ticket fall off if I switch insurers?</h3>
+    <p>No. The driving record is the record. A new insurer asks for it. Shopping does not delete a conviction. Time, and not collecting another one, is the lever. The application should match the record. A wrong answer is not a discount.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/get-insurance.html">FCAC: shop around and compare coverage and cost</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/determining-insurance-needs.html">FCAC: how premiums are set, including credit information</a></li>
+        <li><a href="https://www.fsrao.ca/industry/auto-insurance/changes-statutory-accident-benefits-coverage-ontario-july-1-2026">FSRA: Ontario accident benefits, July 1, 2026</a></li>
+        <li><a href="/blog/car-insurance-by-province-canada/">Car insurance by province</a> — public, private, and the liability floors that page sources</li>
+    </ul>
+
+    <div class="cta-section">
+        <p><strong>The cheaper declaration is only cheaper at the same limit.</strong></p>
+        <p>Accident benefits and a disability policy can overlap, and the tax treatment does not. The 2026 tax guide is the income side.</p>
+        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+    </div>
+
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about comparing Canadian auto insurance as of October 2026. It is not a quote, a broker recommendation, or insurance or legal advice. Premiums, discounts, and mandatory coverages differ by province and insurer. No savings percentage on this page is implied. Read the declaration and the FSRA or public-insurer page for your province before you decline a benefit.</p>
+        <div class="footer-note">Published: October 3, 2026 | Category: Insurance | Author: Andrew</div>
+    </div>
+
+</div>`
+    ),
+    author: 'Andrew',
+    date: '2026-10-03',
+    updated: '2026-10-03',
+  },
 ];
