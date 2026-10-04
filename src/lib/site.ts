@@ -8,7 +8,7 @@ export const AUTHOR_URL = `${SITE_URL}/about/`;
 export const LOGO_PATH = '/assets/logo.png';
 
 /** Bump this when blog hero files change but keep the same filename. */
-export const BLOG_HERO_VERSION = '20261006';
+export const BLOG_HERO_VERSION = '20261007';
 
 export function blogHeroSrc(src: string): string {
   if (!src.includes('/images/blog/')) return src;
