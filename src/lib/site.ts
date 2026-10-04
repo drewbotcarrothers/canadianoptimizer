@@ -7,6 +7,16 @@ export const AUTHOR_ID = `${SITE_URL}/about/#andrew`;
 export const AUTHOR_URL = `${SITE_URL}/about/`;
 export const LOGO_PATH = '/assets/logo.png';
 
+/** Bump this when blog hero files change but keep the same filename. */
+export const BLOG_HERO_VERSION = '20261004';
+
+export function blogHeroSrc(src: string): string {
+  if (!src.includes('/images/blog/')) return src;
+  if (/[?&]v=/.test(src)) return src;
+  const joiner = src.includes('?') ? '&' : '?';
+  return `${src}${joiner}v=${BLOG_HERO_VERSION}`;
+}
+
 export const CATEGORIES: {
   slug: string;
   name: string;
@@ -148,7 +158,7 @@ type PageSeo = {
 
 export function buildPageMetadata(opts: PageSeo): Metadata {
   const fullTitle = opts.absoluteTitle ? opts.title : `${opts.title} | ${SITE_NAME}`;
-  const image = absoluteUrl(opts.image ?? LOGO_PATH);
+  const image = absoluteUrl(blogHeroSrc(opts.image ?? LOGO_PATH));
   const canonical = absoluteUrl(opts.path);
   const imageAlt = opts.imageAlt ?? opts.title;
 
@@ -297,7 +307,7 @@ export function articleSchema(post: {
     '@type': 'BlogPosting',
     headline: post.title,
     description: toMetaDescription(post.excerpt),
-    image: absoluteUrl(post.image),
+    image: absoluteUrl(blogHeroSrc(post.image)),
     datePublished: post.date,
     dateModified: post.updated || post.date,
     author: {
