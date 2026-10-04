@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { blogHeroSrc } from '@/lib/site';
 
 interface ArticleCardProps {
   slug: string;
@@ -18,7 +19,7 @@ export default function ArticleCard({
     <div className="group bg-white rounded-lg overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
       <Link href={`/blog/${slug}`} className="block overflow-hidden relative aspect-video">
         <Image 
-          src={imageUrl} 
+          src={blogHeroSrc(imageUrl)} 
           alt={title} 
           fill
           className="object-cover transform group-hover:scale-105 transition-transform duration-300"

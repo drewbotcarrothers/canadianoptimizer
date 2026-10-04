@@ -20,6 +20,7 @@ import {
   extractFaq,
   faqSchema,
   formatMonthYear,
+  blogHeroSrc,
   toMetaDescription,
 } from '@/lib/site';
 import '../blog-content.css';
@@ -133,11 +134,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const publishedLabel = `Published ${formatMonthYear(post.date)}`;
   const showUpdated = Boolean(post.updated && post.updated !== post.date);
 
+  const heroSrc = post.image ? blogHeroSrc(post.image) : '';
   let contentWithImage = post.content;
-  if (post.image && post.content.includes('class="hook"')) {
+  if (heroSrc && post.content.includes('class="hook"')) {
     contentWithImage = post.content.replace(
       /(<div class="hook">[\s\S]*?<\/div>)/,
-      `$1<img src="${post.image}" alt="${post.title.replace(/"/g, '&quot;')}" class="post-featured-image" />`
+      `$1<img src="${heroSrc}" alt="${post.title.replace(/"/g, '&quot;')}" class="post-featured-image" />`
     );
   }
 
@@ -254,7 +256,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="relative aspect-video rounded-2xl overflow-hidden mb-10 shadow-xl">
-            <Image src={post.image} alt={post.title} fill className="object-cover" />
+            <Image src={heroSrc} alt={post.title} fill className="object-cover" />
           </div>
           <AffiliateDisclosure />
           <div
