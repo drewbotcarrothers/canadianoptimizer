@@ -1,3 +1,8 @@
+import { oct2026TaxPostsA } from './oct2026/taxes-a';
+import { oct2026TaxPostsB } from './oct2026/taxes-b';
+import { oct2026TaxPostsC } from './oct2026/taxes-c';
+import { oct2026TaxPostsD } from './oct2026/taxes-d';
+
 type TaxPost = {
   title: string;
   slug: string;
@@ -1114,4 +1119,8 @@ export const taxesClusterPosts: TaxPost[] = [
 
 </div>`
   ),
+  ...oct2026TaxPostsA,
+  ...oct2026TaxPostsB,
+  ...oct2026TaxPostsC,
+  ...oct2026TaxPostsD,
 ];

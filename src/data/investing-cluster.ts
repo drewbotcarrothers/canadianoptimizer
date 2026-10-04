@@ -1,3 +1,5 @@
+import { oct2026InvestingPosts } from './oct2026/investing';
+
 type InvestingPost = {
   title: string;
   slug: string;
@@ -1585,4 +1587,5 @@ export const investingClusterPosts: InvestingPost[] = [
     date: '2026-10-03',
     updated: '2026-10-03',
   },
+  ...oct2026InvestingPosts,
 ];
