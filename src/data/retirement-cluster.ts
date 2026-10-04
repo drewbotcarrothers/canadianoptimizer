@@ -1,3 +1,5 @@
+import { oct2026RetirementPosts } from './oct2026/retirement';
+
 type RetirementPost = {
   title: string;
   slug: string;
@@ -1102,4 +1104,5 @@ export const retirementClusterPosts: RetirementPost[] = [
 
 </div>`
   ),
+  ...oct2026RetirementPosts,
 ];

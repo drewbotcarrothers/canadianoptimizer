@@ -1,3 +1,5 @@
+import { oct2026RealEstatePosts } from './oct2026/real-estate';
+
 type EstatePost = {
   title: string;
   slug: string;
@@ -1573,4 +1575,5 @@ export const realEstateClusterPosts: EstatePost[] = [
     date: '2026-10-03',
     updated: '2026-10-03',
   },
+  ...oct2026RealEstatePosts,
 ];

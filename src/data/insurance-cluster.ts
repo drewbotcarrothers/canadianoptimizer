@@ -1,3 +1,5 @@
+import { oct2026InsurancePosts } from './oct2026/insurance';
+
 type InsurancePost = {
   title: string;
   slug: string;
@@ -1429,4 +1431,5 @@ export const insuranceClusterPosts: InsurancePost[] = [
     date: '2026-10-03',
     updated: '2026-10-03',
   },
+  ...oct2026InsurancePosts,
 ];
