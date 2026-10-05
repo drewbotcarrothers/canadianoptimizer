@@ -208,237 +208,399 @@ export const posts = [
     categorySlug: "investing",
     author: "Andrew",
     date: "2026-09-17",
-    updated: "2026-09-17",
-    excerpt: "Compare Canadian brokers on commissions, foreign exchange, registered accounts, and research — then verify the live fee schedule before you transfer.",
+    updated: "2026-10-05",
+    excerpt: "As of October 2026: Wealthsimple, Questrade, IBKR Canada, TD, RBC, National Bank, and CIBC on commissions, FX, accounts, and transfer fees.",
     image: "/images/blog/best-online-brokerages-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        There is no best online brokerage in Canada in 2026. There is a best <span class="highlight">structure</span> for the portfolio you already designed: the foreign-exchange cost you will actually pay, the registered accounts you need, and a transfer-out fee you have read. A zero-commission headline is not a cost.
+        As of October 2026, the useful comparison is a <span class="highlight">named fee</span>, read off the broker's own page: the stock and ETF commission, the CAD–USD conversion, the registered accounts on the menu, and the fee to leave. A zero-commission headline is one line. It is the line that matters only when you never convert currency.
     </div>
 
-    <p>A generation of Canadian brokers cut the sticker price on stock and ETF trades. That was useful. It also pushed the real cost into the lines the advertisement does not lead with: converting Canadian dollars into US dollars, market data, assisted trades, idle cash, and the fee for leaving. This is a comparison of those structures. It is not a price list, not a ranking, and not a referral. Names you already see elsewhere on this site — Wealthsimple, Questrade, Interactive Brokers, and the bank-owned dealers — are examples. They are not a winner's podium. Dated September 2026 fees for Wealthsimple and Questrade, and the rest of the cluster, are in <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
+    <p>This is the desk comparison under <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>. Wealthsimple against Questrade, including the shared 1.5% conversion, is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>. Questrade against Interactive Brokers Canada's per-share and spot-FX schedules is <a href="/blog/questrade-vs-interactive-brokers-canada/">Questrade versus Interactive Brokers</a>. The journal that avoids a percent-style conversion is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>. There is no affiliate link on this page.</p>
 
     <div class="callout">
-        <strong>Verify the schedule you are about to sign:</strong>
-        <p>Commissions, foreign-exchange spreads, account menus, and transfer promotions change without updating the blog that quoted them. Nothing below is a current rate. Open the firm's own fee schedule and the list of account types on the day you apply. If a page elsewhere promises a special rate, it is not real until that firm's page shows it.</p>
+        <strong>Verify the schedule the day you transfer:</strong>
+        <p>Figures below were read from each firm's public pricing page on 5 October 2026. Commissions, spreads, account menus, and transfer rebates change without a blog update. Where a page publishes a basis-point spread and a percent column, both are quoted and they are the same disclosure, so do not add them. Where a fee was not on the page opened, the cell says so and points at the schedule. Open that page before you move a TFSA or an RRSP.</p>
     </div>
-
-    <h2>The costs that survive a zero-commission headline</h2>
-
-    <p>Price the behaviour you will repeat, not the behaviour in the ad. If the <a href="/blog/diy-etf-portfolio-asset-location-canada/">ETF asset-location guide</a> has you holding a US-listed fund inside an RRSP, the test order is: contribute Canadian dollars, convert, buy. If the portfolio is one Canadian-listed asset-allocation ETF, that test is irrelevant and a simpler platform may be the whole decision.</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Cost</th>
-                <th>Why it still matters</th>
-                <th>Where to read it</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Online stock and ETF commission</td>
-                <td>Often small or zero. It is not the only line.</td>
-                <td>The commission schedule, including options, mutual funds, and broker-assisted orders. Note any exchange or ECN fee listed separately.</td>
-            </tr>
-            <tr>
-                <td>Foreign exchange</td>
-                <td>A percent-style spread on every Canadian-to-US conversion can dwarf a vanished commission.</td>
-                <td>The conversion preview on a sample order. Not a number you remember from last year.</td>
-            </tr>
-            <tr>
-                <td>US-dollar side, or a journal between listings</td>
-                <td>Some firms let an RRSP or TFSA hold US dollars, and some support moving an interlisted stock from the Canadian listing to the US listing so you are not paying the spread on every contribution. People call that journal Norbert's Gambit. Eligibility, commissions on the two legs, and how long the journal takes are broker-specific.</td>
-                <td>Whether your registered account can hold US dollars, and what a journal costs in fees and in days.</td>
-            </tr>
-            <tr>
-                <td>Market data</td>
-                <td>Real-time quotes are sometimes a subscription on top of "free trades."</td>
-                <td>The data menu. Delayed quotes are enough for a monthly ETF purchase. They are a poor surprise if you thought they were included.</td>
-            </tr>
-            <tr>
-                <td>Idle cash</td>
-                <td>Uninvested cash may earn little until you place it in a specific savings or money-market product.</td>
-                <td>Cash-balance terms. Do not assume the chequing rate at the same brand applies inside the brokerage.</td>
-            </tr>
-            <tr>
-                <td>Transfer and closure</td>
-                <td>Leaving is often when the fee appears. Incoming transfers are sometimes reimbursed, as a promotion, above a balance threshold, if you stay.</td>
-                <td>The current transfer-out fee at the firm you are leaving, and any reimbursement in writing at the firm you are joining.</td>
-            </tr>
-        </tbody>
-    </table>
 
     <div class="tip-box">
-        <strong>Norbert's Gambit is a method, not a personality:</strong>
-        <p>You buy an interlisted security on one side, ask the broker to journal it to the other listing, and sell. The cost is the spread and commission on those legs, plus the time you are in the stock. Some brokers make the journal easy. Some do not allow it. Some app-first platforms would rather you accept their conversion rate. If you will not do the steps, price the ordinary conversion honestly and move on. Confirm the current process with the broker. Do not follow a forum post from a different firm. Where that conversion sits next to hedged funds, US-listed ETFs, and withholding is the <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency and US-listed ETF guide</a>.</p>
+        <strong>Start with the order you will repeat.</strong>
+        <p>One Canadian-listed asset-allocation ETF, bought with Canadian dollars, never touches the FX line. XEQT and VEQT are that case, compared in <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>. A US-listed fund inside an RRSP, which is an <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location</a> choice and a <a href="/blog/us-withholding-tax-by-account-canada/">withholding</a> choice, makes the conversion the whole bill. Price that order. Then pick one broker.</p>
     </div>
 
-    <h2>Four structures, not a ranking</h2>
-
-    <h3>App-first platforms</h3>
-
-    <p>Wealthsimple is the example Canadians already use for this structure: a phone-first account for people who will buy Canadian-listed ETFs and do not want a trading terminal. Individual registered accounts have expanded over time. Do not assume today's menu matches the last time you looked. Confirm FHSA, RESP, LIRA, RRIF, and spousal RRSP if your plan needs them. Before you buy a US-listed ETF, open the foreign-exchange preview. A wide conversion spread is how a zero-commission platform can still be the expensive one. US-dollar account features have been bundled, limited to certain account types, and repriced before. Read this month's conditions, including any monthly fee.</p>
-
-    <p>Wealthsimple the broker and Wealthsimple Tax the filing software are different products. Liking the free tax software — covered in the <a href="/blog/best-tax-software/">tax-software comparison</a> — does not answer where the ETF should sit.</p>
-
-    <h3>Independent self-directed brokers</h3>
-
-    <p>Questrade is the long-running example: a Canadian DIY broker used for registered accounts, a desktop platform, and investors who want more than tap-to-buy. Commission schedules, data packages, and research tiers have all been revised. Treat stocks, ETFs, options, and real-time quotes as separate lines. Confirm a US-dollar side inside the TFSA and the RRSP if asset location calls for US-listed funds. This is the structure to price when you want that placement and you do not want either a bank portal or a professional terminal.</p>
-
-    <h3>Multi-currency platforms</h3>
-
-    <p>Interactive Brokers is the example already named on this site when the work is specific listed funds and foreign exchange. The advantage, when it is real for you, is a tighter conversion cost and a wide product list. The cost is complexity: market-data lines, order types you will not use, and an interface that assumes you can read. Canadian residents should confirm, in the year they open the account, which registered plans are actually offered. TFSA, RRSP, FHSA, RESP, and the rest are not a permanent promise on a third-party page. Also confirm any inactivity, minimum, or data charge on the account type you would use. This structure earns its place when US-listed holdings and currency conversion are a large part of the plan. It is a poor home for a single Canadian-listed balanced ETF you buy six times a year, unless you already live in the platform.</p>
-
-    <h3>The bank you already log into</h3>
-
-    <p>RBC Direct Investing, TD Direct Investing, BMO InvestorLine, Scotia iTRADE, CIBC Investor's Edge, National Bank Direct Brokerage, Desjardins Disnat, and their peers are the convenience structure. The chequing account, the mortgage, and the brokerage can sit behind one login, and moving cash is boring in the best way. The risk is paying for a logo out of habit. Several bank-owned dealers have cut online equity and ETF commissions. Some lines have not. At least one has competed by advertising zero-dollar online equity trades. Confirm that the zero, if it is still on the page, covers the order you will place, and read the exclusions: options, mutual funds, assisted orders, and markets outside Canada are the usual footnotes. Research tools are sometimes included. They are worth something only if you will open them.</p>
-
-    <h2>Registered accounts are the filter</h2>
-
-    <p>A broker that cannot receive the account you already have is not a candidate, however elegant the app. Moving a TFSA or an RRSP is a transfer, not a withdrawal. Cashing the RRSP out to "move it" is a taxable withdrawal. Pulling TFSA cash out and putting it back in the same year can be an overcontribution. Use the registered-account transfer form. Ask what happens to a US-dollar side and to fractional shares on the way across.</p>
+    <h2>What does each broker charge to trade?</h2>
 
     <table>
+        <caption>Online stock and ETF commissions, broker pages reviewed October 2026</caption>
         <thead>
             <tr>
-                <th>Account</th>
-                <th>Why it has to be on the menu</th>
-                <th>Read next</th>
+                <th>Broker</th>
+                <th>Canadian and US stocks, online</th>
+                <th>ETFs, online</th>
+                <th>Read with the line</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>TFSA</td>
-                <td>Permanent shelter. January funding is a timing decision, not a broker feature.</td>
-                <td><a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a></td>
+                <td>Wealthsimple Trade</td>
+                <td>$0 commission on listed Canadian and US securities</td>
+                <td>$0, same line</td>
+                <td>A US-listed trade from a CAD account pays the 1.5% conversion on top. Equity and ETF options are listed at US$0. Early exercise is US$45. A broker-assisted phone trade is $45.</td>
             </tr>
             <tr>
-                <td>RRSP, spousal RRSP, RRIF</td>
-                <td>The deduction, and the account that can hold US-listed funds under the treaty.</td>
-                <td><a href="/blog/rrsp-playbook/">RRSP playbook</a></td>
+                <td>Questrade</td>
+                <td>$0 to buy and $0 to sell</td>
+                <td>$0 to buy and $0 to sell</td>
+                <td>The $0 line is stocks and ETFs listed in Canada or the United States, placed online. The trade desk adds $45. Canadian options are $0 plus CAD $0.99 a contract. US equity options are $0 on the page reviewed. A US sale also pays the SEC fee, 0.0000206 times the value of the trade.</td>
             </tr>
             <tr>
-                <td>FHSA</td>
-                <td>First-home deduction plus shelter. A near-term purchase should not sit in a volatile ETF just because the broker offers the account.</td>
-                <td><a href="/blog/fhsa-guide/">FHSA guide</a></td>
+                <td>Interactive Brokers Canada</td>
+                <td>Fixed, United States: USD 0.005 a share, minimum USD 1.00, maximum 1% of trade value. Fixed, Canada, CAD-denominated: CAD 0.01 a share, minimum CAD 1.00, maximum 0.5% of trade value.</td>
+                <td>Same stock schedule. There is a separate "no transaction fee ETF" heading; open it before you assume your ticker is on it.</td>
+                <td>Tiered Canada, under 300,000 shares a month, is CAD 0.008, and third-party exchange, clearing, and regulatory fees sit on top. Fixed Canada lists third-party fees as none. USD-denominated Canadian stocks are a different row: fixed USD 0.008, minimum USD 0.80, cap 0.4%. Published rates are for direct clients.</td>
             </tr>
             <tr>
-                <td>RESP</td>
-                <td>Only if you have a beneficiary. "RESP" on a menu is not the same as reliable grant processing.</td>
-                <td>Confirm CESG handling with the firm.</td>
+                <td>TD Direct Investing</td>
+                <td>$9.99 a trade under 150 trades a quarter. $7.00 at 150 or more. Commissions on USD trades are charged in USD.</td>
+                <td>$0 on select ETFs for digital trades. Other ETFs pay the stock commission.</td>
+                <td>Partial shares are $1.99. Options are the stock commission plus $1.25 a contract. Telephone orders have a $43 minimum. The select-ETF list is TD's, and it can change.</td>
             </tr>
             <tr>
-                <td>LIRA or locked-in RRSP</td>
-                <td>Pension money already locked in has to land somewhere that will accept the transfer.</td>
-                <td>The relinquishing institution's transfer rules.</td>
+                <td>RBC Direct Investing</td>
+                <td>GoSmart (TFSA, FHSA, RRSP): 50 commission-free stock and ETF trades a year, across those accounts. Full suite: $9.95 online or in the app under 150 trades a quarter, $6.95 at 150 or more. Effective 1 August 2025 on the page reviewed.</td>
+                <td>Unlimited $0 on a selection of over 50 ETFs, every account type.</td>
+                <td>The free-ETF list is not guaranteed. Options are not available in GoSmart. Full-suite options are $9.95 or $6.95 plus $1.25 a contract. Orders with a representative: minimum $43 on the schedule for small principal amounts.</td>
             </tr>
             <tr>
-                <td>Non-registered</td>
-                <td>Overflow, Canadian dividends, and tax-loss harvesting. You still track adjusted cost base.</td>
-                <td><a href="/blog/tax-record-keeping/">Record keeping</a></td>
+                <td>National Bank Direct Brokerage</td>
+                <td>$0 online</td>
+                <td>$0 online</td>
+                <td>Options are $0 plus $1.25 a contract, minimum $6.25, and a $19.95 maximum when the trade is under $2,000. An agent-assisted trade that you could have placed online may add $60.</td>
             </tr>
             <tr>
-                <td>Corporate or joint</td>
-                <td>A different product from a personal account. Do not assume the personal menu applies.</td>
-                <td>The firm's entity application, not the personal one. Whether the corporation should hold the portfolio at all is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>.</td>
+                <td>CIBC Investor's Edge</td>
+                <td>$6.95 an online trade under 150 trades a quarter. $4.95 at 150 or more. US commissions are in US dollars.</td>
+                <td>$0 on over 180 ETFs. Other ETFs pay the stock commission.</td>
+                <td>Telephone orders have a $50 minimum. Fractional orders under one share are commission-free from 15 September 2026 through 31 October 2027, one fractional order per security, per side, per day. CIBC says $1.95 a trade applies to those fractions after that date.</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>Research, slips, and the week a transfer stalls</h2>
+    <p>Table as of October 2026. Scotia iTRADE and BMO InvestorLine are the same class of bank dealer. Their schedules were not opened for this revision, so they are not in the table. Run the same four columns on their fee pages before you treat a sibling bank as a match for TD, RBC, National Bank, or CIBC.</p>
 
-    <p>For a DIY ETF portfolio the research that matters is the fund manufacturer's facts sheet, not a pile of analyst targets. You also need tax slips that arrive intact: T5, T3, T4RSP, T4FHSA, and T5008 are the usual set. The T5008 is a weak adjusted-cost-base record when an ETF reinvests distributions or returns capital. Keep your own figure for the taxable account. The broker's PDF is an input.</p>
-
-    <p>Support matters the week a transfer sits in between institutions. A beautiful app does not phone the other firm. Before you move a large RRSP, find out how you reach a person and which statement they will ask for. None of that is in the commission table.</p>
-
-    <div class="warning-box">
-        <strong>Promotions are one-time. Foreign exchange is every year:</strong>
-        <p>Transfer bonuses and referral cash change, often with a minimum balance and a clawback if you leave early. This page will not quote them. If a credit is large enough to matter, get it in writing from the firm and subtract the fee the firm you are leaving charges to release the account. Do not open a platform you will resent for a credit you will forget. There is no affiliate link here to sweeten the arithmetic.</p>
-    </div>
-
-    <h2>Which structure to price first</h2>
+    <h2>What does CAD–USD conversion cost?</h2>
 
     <table>
+        <caption>CAD–USD conversion, broker pages reviewed October 2026</caption>
         <thead>
             <tr>
-                <th>The portfolio you actually have</th>
-                <th>Start the shortlist with</th>
-                <th>Verify before you transfer</th>
+                <th>Broker</th>
+                <th>Posted conversion cost</th>
+                <th>How to avoid paying it on every trade</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>One Canadian-listed asset-allocation ETF, monthly contributions</td>
-                <td>App-first, or the bank you already use</td>
-                <td>Account types, transfer-out fee, and whether you care about fractional shares</td>
+                <td>Wealthsimple Trade</td>
+                <td>1.5% when you trade US-listed securities from a CAD account, applied to Wealthsimple's corporate exchange rate. That corporate rate already includes a spread. Between a CAD account and a USD account: 1.5% under $10,000, 1.0% from $10,000 to $24,999.99, 0.5% from $25,000 to $99,999.99, and 0% at $100,000 and over.</td>
+                <td>A USD account. Core clients pay $10 a month plus tax after a 30-day trial. Premium ($100,000 in assets) and Generation ($500,000) include it. Trading from the USD account has no per-trade FX fee. The help-centre table, updated 2 October 2026, marks RRIF and business accounts as not eligible for USD accounts.</td>
             </tr>
             <tr>
-                <td>US-listed ETFs inside the RRSP, Canadian-listed funds beside them</td>
-                <td>A broker that holds US dollars in an RRSP</td>
-                <td>Conversion preview or journal process, and which registered accounts get the US-dollar side</td>
+                <td>Questrade</td>
+                <td>1.5%, included in the FX rate, when you exchange currency.</td>
+                <td>Every account is dual-currency, so Canadian and US dollars can sit side by side and a later trade does not convert if the cash is already in that currency.</td>
             </tr>
             <tr>
-                <td>Options, several currencies, or a corporate account</td>
-                <td>Full-feature DIY or multi-currency</td>
-                <td>Options commissions, data fees, and whether the entity account exists</td>
+                <td>Interactive Brokers Canada</td>
+                <td>Spot, first tier (monthly spot value up to USD 1 billion): 0.20 basis points times trade value, minimum USD 2.00. One basis point is 0.0001, so 0.20 basis points is 0.002%. Auto-conversion typically adds or subtracts 0.03%, with no separate commission.</td>
+                <td>You are already on the cheap schedule. Norbert's gambit is the expensive path here. Rates are for direct clients. An introducing broker can add its own commission.</td>
             </tr>
             <tr>
-                <td>You want the brokerage beside the chequing account and the mortgage</td>
-                <td>That bank's dealer</td>
-                <td>The commission schedule against the inconvenience you are avoiding</td>
+                <td>TD Direct Investing</td>
+                <td>The FX page lists a DI currency-conversion spread of 1.07% from $0 to $9,999, 0.97% from $10,000 to $24,999, 0.70% from $25,000 to $59,999, and lower tiers after that, down to 0.27% at $1,000,000 and over. TD says a trade FX of $60,000 or more earns the spread shown in the $50,000 to $59,999 tier, which is 0.70%. The percent column is a demonstration using the 2025 Bank of Canada average USD–CAD rate of 1.3978.</td>
+                <td>Hold USD in an account that can settle in USD. The disclosure says trading accounts, RRSPs (except basic RRSPs), RIFs, and TFSAs operate in Canadian and US dollars. RESPs and RDSPs may only be established in Canadian dollars. The spread is applied on top of an affiliate rate that already includes a surcharge equal to one-third of the DI spread. TD's own $1,000 USD example uses 199 basis points on top of a sample 1.3790 rate. That example is not a live quote.</td>
+            </tr>
+            <tr>
+                <td>RBC Direct Investing</td>
+                <td>On USD amounts from $0 to $24,999, the page lists 230 basis points and a spread column of 1.6%. From $25,000 to $99,999: 145 basis points and 1.0%. From $100,000 to $499,999: 85 basis points and 0.6%. Dividends and interest: 60 basis points (0.4%). The page says the table is the spread, not the conversion rate, and that trade FX is capped at the $100,000 to $499,999 tier. The spread can change without notice.</td>
+                <td>RBC says investment accounts can hold Canadian and US dollar balances in the same account. Its RESP page says RESP accounts are single-currency: trades settle in Canadian dollars, and foreign income converts to Canadian dollars.</td>
+            </tr>
+            <tr>
+                <td>National Bank Direct Brokerage</td>
+                <td>On USD amounts from $0 to $24,999: 230 basis points, with a demonstration column of 1.70% based on the trailing 12-month Bank of Canada USD/CAD rate as of 21 July 2026. From $25,000 to $249,999: 160 basis points and 1.20%. The spread can change without notice. NBDB converts as principal.</td>
+                <td>NBDB offers accounts in Canadian and US dollars. Moving a security between a Canadian-dollar account and a US-dollar account is $9.95 per security, plus tax where marked.</td>
+            </tr>
+            <tr>
+                <td>CIBC Investor's Edge</td>
+                <td>On USD amounts from $0 to $24,999.99: 225 basis points, and a spread column of 1.6% calculated with the 2025 Bank of Canada annual USD/CAD rate. From $25,000 to $99,999.99: 130 basis points and 0.9%. Spreads can change. In an RESP, CIBC applies 10 basis points (0.1%) instead.</td>
+                <td>Convert only when the account currency and the security currency differ. The pricing page does not publish a dual-currency feature by that name. Preview the rate before you buy a US listing.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Arithmetic on the posted rates: converting $10,000 once</strong>
+        <p>Wealthsimple's and Questrade's 1.5% on $10,000 is $150. At Wealthsimple that $150 is the fee on top of a corporate rate that already includes a spread, so the trade confirmation can cost more than $150. Interactive Brokers' first-tier spot commission is 0.002% of $10,000, which is $0.20, below the USD 2.00 minimum, so the schedule's floor is USD 2.00 when the minimum applies. Auto-conversion at 0.03% is $3, with no separate commission. A $9.95 journal at Wealthsimple or Questrade, plus the sales tax your province adds, beats 1.5% once the amount is large enough to cover that ticket and the bid-ask. $9.95 divided by 0.015 is about $663, before tax and the spread. The steps are <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>. These figures are arithmetic on the October 2026 pages. They are not a live quote of how many US dollars $10,000 buys.</p>
+    </div>
+
+    <p>Bank spreads are published in basis points, and several pages also print a percent column that demonstrates the same spread. Quote one column. TD's 1.07% table sits on top of an affiliate rate that already includes a one-third surcharge, so it is a different object from Wealthsimple's 1.5% fee. The trade confirmation is the number you pay. The table is how you decide which confirmation is worth opening.</p>
+
+    <h2>Minimums, inactivity, and the fee to leave</h2>
+
+    <table>
+        <caption>Account minimums and transfer fees, broker pages reviewed October 2026</caption>
+        <thead>
+            <tr>
+                <th>Broker</th>
+                <th>Minimum or inactivity</th>
+                <th>Transfer out</th>
+                <th>Transfer in</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wealthsimple Trade</td>
+                <td>The trade fee schedule lists account opening, account closing, and an inactive account at $0. It does not publish a minimum balance.</td>
+                <td>$0 for an outgoing account transfer to another institution, on that trade schedule.</td>
+                <td>EFT deposits are $0. This page did not find a published transfer-in rebate on the fee schedule.</td>
+            </tr>
+            <tr>
+                <td>Questrade</td>
+                <td>Inactivity is free above and below $1,000 of combined equity. Questrade says it stopped charging that fee on 1 October 2020. The $0-commissions FAQ says there is no minimum account balance.</td>
+                <td>$150 for a full transfer and $150 for a partial transfer. Sales tax is added where applicable. International transfers can cost more.</td>
+                <td>The same FAQ says transfer fees are rebated up to $150 an account, at any balance, if you submit the other firm's statement within 60 days of the request. Read that footnote. The rebate can change.</td>
+            </tr>
+            <tr>
+                <td>Interactive Brokers Canada</td>
+                <td>The stock-commissions page says no account minimums and no platform fees.</td>
+                <td>The other-fees page lists ACATS deposits and withdrawals at none, and tells you the other firm may still charge. It does not publish a separate Canadian registered-account transfer-out fee in the section reviewed. Ask before you move an RRSP by ATON.</td>
+                <td>ACATS deposits are listed at none, with the same caveat about the other firm.</td>
+            </tr>
+            <tr>
+                <td>TD Direct Investing</td>
+                <td>$25 a quarter when household assets are under $15,000. Waived if the household holds $15,000 or more, a pre-authorized contribution is at least $100 a month, the household made three commissionable trades the prior quarter, the first account is under six months old, there is an RDSP, or the household is only an FHSA.</td>
+                <td>$150 for a partial or full transfer. The disclosure describes this as the fee when an account is withdrawn in full or transferred to another institution.</td>
+                <td>Not stated as a dollar rebate on the commission schedule reviewed. Check the current offer page before you assume one.</td>
+            </tr>
+            <tr>
+                <td>RBC Direct Investing</td>
+                <td>$0 maintenance. The pricing page says there is no minimum balance required to keep the account open.</td>
+                <td>$150, all account types, excluding a donation of shares.</td>
+                <td>No charge to transfer in. RBC says it will reimburse up to $200 of the other firm's fee when you transfer $15,000 or more, if you provide proof within six months. Royal Circle and Royal Distinction: up to $500. That is a published offer. Confirm it still applies.</td>
+            </tr>
+            <tr>
+                <td>National Bank Direct Brokerage</td>
+                <td>Opening an account is free. Annual administration is $100, with sales tax on fees charged in a registered account. Waived if eligible assets are at least $20,000 on 31 May, the only account is InvestCube, you are 30 or younger on 31 May, or you are in a professional or newcomer offer. The $100 is split across accounts under the same root.</td>
+                <td>$150 per account, plus tax where marked.</td>
+                <td>Listed as free. NBDB says it reimburses the other firm's fee depending on the amount invested. The pricing page does not state the cap. Read the transfer page.</td>
+            </tr>
+            <tr>
+                <td>CIBC Investor's Edge</td>
+                <td>The pricing page says there is no minimum account balance. Annual fee is $0 when the combined market value of your accounts is over $10,000, and $100 when it is $10,000 or less. The $100 is split across active accounts, excluding the FHSA, and FHSA accounts have no annual fee. New clients are exempt for the first 180 days. The RESP page says an RESP has no annual administration fee.</td>
+                <td>Not stated as a dollar amount on the pricing page reviewed. The commission booklet is the place to read it before you leave.</td>
+                <td>Not stated as a dollar rebate on the pricing page reviewed.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Which registered accounts are actually on the menu?</h2>
+
+    <p>A missing account type ends the comparison. Moving a TFSA or an RRSP is a transfer form. Cashing the RRSP to "move it" is a taxable withdrawal. Pulling TFSA cash out and putting it back the same year can be an over-contribution. Room and priority are the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">account comparison</a> and the <a href="/blog/contribution-limits/">limits table</a>.</p>
+
+    <table>
+        <caption>Account menus on the pages reviewed, October 2026</caption>
+        <thead>
+            <tr>
+                <th>Broker</th>
+                <th>TFSA, RRSP, FHSA, RESP</th>
+                <th>Corporate</th>
+                <th>Gap worth reading</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wealthsimple, trade and managed</td>
+                <td>The help centre lists TFSA, RRSP, spousal RRSP, FHSA, and RESP as both managed and self-directed, and eligible for USD accounts. RRIF is managed and self-directed, and not eligible for USD accounts. LIRA is on the list.</td>
+                <td>Business is listed as managed, self-directed, and savings. The same table marks business accounts as not eligible for USD accounts.</td>
+                <td>Managed and self-directed are different fees. Classic portfolio fees on the trade-account legal schedule are 0.5% (Core), 0.4% (Premium), and 0.4% down to 0.2% (Generation). Automated investing is 0.25%, capped at $250 plus tax per account per year. Whether a corporation should hold the portfolio at all is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>.</td>
+            </tr>
+            <tr>
+                <td>Questrade</td>
+                <td>The admin page prices TFSA, RRSP, FHSA, RESP, and RRIF at free to open. Deregistration lines also name spousal RRSP, LIRA, LRSP, and LIF.</td>
+                <td>The transaction-fee notes say there is no fee to open a corporate margin account for a privately held corporation. Depositing shares of a Canadian-controlled private corporation is a separate $250 plus $100 a year.</td>
+                <td>Questwealth, the managed portfolio, is a management fee on top of the ETFs. That comparison is <a href="/blog/best-robo-advisors-canada/">robo-advisors</a>. Do not treat a self-directed $0 commission as the robo price.</td>
+            </tr>
+            <tr>
+                <td>Interactive Brokers Canada</td>
+                <td>The account guide lists RRSP, spousal RRSP, TFSA, and FHSA. The RSP page says IBKR Canada does not offer locked-in plans or RRIFs, and does not process Home Buyers' Plan or Lifelong Learning Plan withdrawals.</td>
+                <td>The account guide lists small-business accounts as their own category. Open that application. This comparison did not price it.</td>
+                <td>RESP does not appear on the account guide reviewed. One RSP page says funding of an RRSP or TFSA that IBKR supports is in Canadian dollars. The individual account table also lists CAD or USD as the currency. Confirm a USD cash balance inside the registered account before you plan a US-listed sleeve there.</td>
+            </tr>
+            <tr>
+                <td>TD Direct Investing</td>
+                <td>The commission disclosure names RRSP, RRIF, FHSA, locked-in plans, RESP, TFSA, and RDSP.</td>
+                <td>The accounts page describes a non-personal account for a corporation, sole proprietorship, trust, or non-profit. A cash account can be opened for a business. Corporate is not available on TD Easy Trade.</td>
+                <td>RESP and RDSP are Canadian-dollar accounts on the disclosure. A US-listed ETF in the RESP settles through a conversion.</td>
+            </tr>
+            <tr>
+                <td>RBC Direct Investing</td>
+                <td>GoSmart is TFSA, FHSA, and RRSP. Full suite covers registered accounts, and the RESP page offers individual and family plans. Options and mutual funds are not in GoSmart.</td>
+                <td>Non-personal accounts include corporate, sole proprietor, partnership, limited partnership, trust, estate, investment club, and non-profit.</td>
+                <td>The RESP is single-currency. Foreign dividends in it convert to Canadian dollars.</td>
+            </tr>
+            <tr>
+                <td>National Bank Direct Brokerage</td>
+                <td>The pricing page prices withdrawals from TFSA, RESP, RDSP, and FHSA at free, and a lump-sum RRSP, RRIF, or LIF withdrawal at $50 plus tax.</td>
+                <td>Opening an account to hold shares of a Canadian-controlled private corporation is $200, plus a $100 a year holding fee where marked.</td>
+                <td>A second account root of the same type and currency is $50 plus tax. Confirm the self-directed RESP grant process with the firm. A menu line is not the grant.</td>
+            </tr>
+            <tr>
+                <td>CIBC Investor's Edge</td>
+                <td>The legal page links trust agreements for TFSA, RSP, RIF, FHSA, and individual and family RESPs. The accounts page lists the RESP.</td>
+                <td>Cash accounts can be individual, joint, or corporate. Non-personal accounts include corporation or partnership, formal trust, investment club, and estate.</td>
+                <td>The RESP FX spread is the 10-basis-point line, and the RESP page says there is no annual administration fee on that account.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Research and tools, only where the page names them</h2>
+
+    <ul>
+        <li><strong>Wealthsimple Trade.</strong> The pricing page includes real-time streaming quotes, price alerts, fractional shares, and recurring investments for Core, Premium, and Generation. Chat support is 24/7. Priority phone starts at Premium.</li>
+        <li><strong>Questrade.</strong> The free market-data package is one-click snap quotes plus real-time TSX and CBOE One Level 1 streaming on the Edge platforms. Further US streaming is a paid package. This comparison does not quote that subscription. Questrade Plus is advertised with a 30-day trial and a discount on journaling and data. The monthly price after the trial was not on the page used for the commission table, so it is not quoted here.</li>
+        <li><strong>Interactive Brokers Canada.</strong> The commissions overview says there is no platform fee. Market data is a different page. Price a live US quote before you call the commission the whole cost. This comparison does not quote a data subscription it did not open.</li>
+        <li><strong>TD Direct Investing.</strong> The pricing page includes real-time quotes for Canadian and US markets, analyst research, and a learning centre. The Advanced Dashboard is available at 30 or more trades a quarter or $500,000 in household assets. A monthly streaming-data fee may apply. The schedule says you accept that fee when you subscribe. The dollar amount was not in the PDF reviewed.</li>
+        <li><strong>RBC Direct Investing.</strong> GoSmart includes mobile tools and basic access to the online platform. The full suite includes tools and research on all three platforms. The pricing page does not name a third-party research brand in the section reviewed.</li>
+        <li><strong>National Bank Direct Brokerage.</strong> The pricing page describes the platform and does not itemize a research bundle. Open the platform page if research is why you would choose it.</li>
+        <li><strong>CIBC Investor's Edge.</strong> The FAQ says there is no extra fee for research or for the tools. It does not name the research vendor on that answer.</li>
+    </ul>
+
+    <p>For a DIY ETF portfolio the document that matters is the fund's facts sheet, not an analyst target. In a non-registered account the T5008 is a weak adjusted-cost-base record when an ETF returns capital. Keep your own figure. That habit is <a href="/blog/tax-record-keeping/">tax record keeping</a>.</p>
+
+    <h2>Who each platform fits</h2>
+
+    <table>
+        <caption>Fit, given the October 2026 schedules</caption>
+        <thead>
+            <tr>
+                <th>The portfolio you will actually run</th>
+                <th>Start here</th>
+                <th>The number that decides it</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>One Canadian-listed ETF, monthly, including small or fractional amounts</td>
+                <td>Wealthsimple Trade</td>
+                <td>$0 commissions, $0 inactivity, $0 to transfer out, fractional shares included. Skip the USD account.</td>
+            </tr>
+            <tr>
+                <td>The same ETF, and you want the brokerage beside the bank login</td>
+                <td>National Bank Direct Brokerage if you clear the $100 admin waiver, or RBC if you want $0 maintenance with no balance test. CIBC if the ETF is on the 180-name list and the combined balance stays over $10,000. TD if the ETF is on the select list and you will not pay the $25 quarterly maintenance.</td>
+                <td>A $9.99 or $6.95 commission on a $500 contribution is a large percent. A $0 ETF line removes it. Confirm your ticker is on the free list the day you buy.</td>
+            </tr>
+            <tr>
+                <td>US-listed ETFs in the RRSP, Canadian-listed funds beside them</td>
+                <td>Interactive Brokers Canada when the conversion is the cost. Questrade when you want dual-currency registered accounts and you will journal.</td>
+                <td>0.20 basis points and a USD 2 minimum, against 1.5% or a $9.95 journal. Confirm the RRSP can hold US dollars. VFV versus VOO is <a href="/blog/vfv-vs-voo-canadians/">that withholding decision</a>, and the hedge is a separate question in the <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency-hedging guide</a>.</td>
+            </tr>
+            <tr>
+                <td>You will not rebalance, and you want the firm to hold the mix</td>
+                <td>Wealthsimple's managed portfolios, or Questwealth</td>
+                <td>The managed percent, not the self-directed $0. Wealthsimple's legal schedule is 0.5% or 0.4% on classic portfolios by tier, and 0.25% on automated investing. Questwealth's current percent is in the <a href="/blog/best-robo-advisors-canada/">robo comparison</a>.</td>
+            </tr>
+            <tr>
+                <td>A corporate portfolio</td>
+                <td>The firm's entity application: Wealthsimple business, Questrade corporate margin, TD non-personal, RBC corporate, CIBC corporate cash, or NBDB's private-corporation account</td>
+                <td>Wealthsimple's help centre says business accounts are not eligible for USD accounts. NBDB charges $200 to open the private-corporation share account. Personal TFSA and RRSP menus do not apply to the corporation.</td>
+            </tr>
+            <tr>
+                <td>Options, several markets, or you already live in a terminal</td>
+                <td>Interactive Brokers Canada, or Questrade if the book is Canadian and US options at the printed contract fees</td>
+                <td>IBKR's stock page does not set the option schedule. Open the option page. Questrade's printed lines are above. Bank option tickets add a base commission plus $1.25 a contract.</td>
             </tr>
         </tbody>
     </table>
 
     <div class="example-box">
         <strong>Example: the four-account household</strong>
-        <p>Two TFSAs, one RRSP that holds the US-listed equity sleeve, and a non-registered account that holds a Canadian equity ETF. The broker has to receive registered transfers, keep US dollars inside the RRSP, hold Canadian-listed ETFs everywhere else, and issue a tax package you can reconcile to your own cost base. An app that converts currency at a wide spread on every RRSP contribution fails the second test even when equity trades are free. A professional terminal you will not log into fails the behaviour test. Price both on the order you will actually place. Then pick one.</p>
+        <p>Two TFSAs and a non-registered account hold a Canadian-listed equity ETF. The RRSP holds the US-listed equity sleeve. Wealthsimple Trade prices the Canadian ETF at $0 and will charge 1.5% from a CAD account, or $10 a month plus tax for a Core USD account, on the US sleeve. Questrade prices both the Canadian ETF and the US ETF at $0 online, holds both dollars without that monthly fee, and charges 1.5% only when cash is converted, or $9.95 to journal. Interactive Brokers prices the conversion in basis points and charges a per-share commission on the Canadian ETF you could have bought for $0 elsewhere. Split the household across two brokers when one firm cannot hold the USD RRSP on the terms above. Otherwise keep one login.</p>
+    </div>
+
+    <h2>Move the account with the form</h2>
+
+    <p>Ask what happens to a US-dollar side and to fractional shares on the way across. Wealthsimple's trade schedule is the outlier on the way out, at $0. Questrade, TD, RBC, and National Bank each publish $150 to leave, before tax where the schedule adds it. CIBC's pricing page does not state the figure. Interactive Brokers' other-fees page covers ACATS, which is the US transfer system, at none. A Canadian registered transfer is a question for the firm if that line is absent.</p>
+
+    <p>Reimbursements are written down or they do not count. RBC's published cap is $200 above $15,000, with proof inside six months. Questrade's published cap is $150 an account, with the statement inside 60 days. National Bank says the rebate depends on the amount and does not print the cap on the pricing page. Welcome bonuses were left out on purpose. They change, and they often exclude people who have held the account before.</p>
+
+    <div class="warning-box">
+        <strong>January funding beats a perfect transfer:</strong>
+        <p>A TFSA contribution on the first business day you have the cash and the room, at a clumsy broker, still beats a contribution in December at an elegant one, when the cash can stay invested. You can transfer later with the form. You cannot retrieve the year. The rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. The account itself, once open, is the <a href="/blog/rrsp-playbook/">RRSP playbook</a> or the <a href="/blog/fhsa-guide/">FHSA guide</a> if that is the deduction you are using.</p>
     </div>
 
     <h2>Protection, briefly</h2>
 
-    <p>Cash on deposit at a bank and securities at a brokerage are different regimes. Bank deposits are a CDIC question. Client property at a member of the Canadian Investor Protection Fund is a CIPF question, and only in the sense CIPF describes: a member fails and client property is missing. CIPF is not insurance against a market decline, and it is not a promise that an ETF was a good idea. Confirm the firm is a current member and read the coverage limit CIPF publishes, including how accounts are combined. Do not treat a dollar figure from a forum as the policy.</p>
+    <p>Securities at a member of the Canadian Investor Protection Fund are a CIPF question, in the sense CIPF describes: a member fails and client property is missing. CIPF is not insurance against a market decline. Bank deposits, including a Wealthsimple chequing balance held in trust at CDIC members, are a different regime. Confirm the dealer is a current CIPF member and read the coverage limit on <a href="https://www.cipf.ca/">cipf.ca</a>, including how accounts are combined. Do not treat a dollar figure from a forum as the policy.</p>
 
     <h2>Decide it in an evening</h2>
 
     <ol>
-        <li>Write the portfolio in one line: one-fund, or building blocks, and whether any sleeve is US-listed. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is that line.</li>
-        <li>Cross off any broker that cannot open the registered accounts you already need. Room and priority sit in the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">account comparison</a> and the <a href="/blog/contribution-limits/">limits table</a>.</li>
-        <li>On what remains, preview the foreign-exchange cost of the order you will repeat. Keep the screenshot.</li>
-        <li>Read the transfer-out fee on both sides. Get any reimbursement in writing.</li>
-        <li>Open one account. Automate the contribution. A second broker is for a holding the first one cannot keep, not for a hobby.</li>
+        <li>Write the portfolio in one line: one Canadian-listed fund, or a US-listed sleeve, and which account holds it.</li>
+        <li>Cross off any broker whose menu lacks that account. RESP, FHSA, RRIF, LIRA, and corporate are the usual failures.</li>
+        <li>If the line includes a US listing, open the FX row above and preview a conversion on the firm's own screen. Keep the screenshot next to this table.</li>
+        <li>If the line is only a Canadian-listed ETF, ignore FX and price the commission, the admin fee, and the transfer-out fee.</li>
+        <li>Read the transfer-out fee at the firm you are leaving. Get any reimbursement in writing, with the balance threshold and the deadline.</li>
+        <li>Open one account. Automate the contribution. A second broker is for a holding the first one cannot keep.</li>
     </ol>
 
-    <div class="tip-box">
-        <strong>January does not wait for the perfect platform:</strong>
-        <p>Funding a TFSA on January 1 at a clumsy broker still beats funding it in December at an elegant one, when the cash can stay invested. You can transfer later with a form. You cannot retrieve the year. The contribution rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA guide</a>. The platform is allowed to be good enough.</p>
-    </div>
+    <h2>Frequently asked questions</h2>
 
-    <h2>Key takeaways</h2>
+    <h3>Which online brokerage is cheapest in Canada in 2026?</h3>
+    <p>For a Canadian-listed ETF bought with Canadian dollars, Wealthsimple Trade, Questrade, and National Bank Direct Brokerage all list $0 online commissions on the pages reviewed in October 2026. RBC, TD, and CIBC list $0 only on a named set of ETFs, and charge $9.95, $9.99, or $6.95 on other names. The cheapest desk changes when you convert to US dollars. Interactive Brokers Canada's spot schedule, 0.20 basis points with a USD 2 minimum, is the posted conversion that is not a percent-style spread.</p>
 
+    <h3>Do Wealthsimple and Questrade still charge 1.5% to convert?</h3>
+    <p>Yes, on the pages reviewed on 5 October 2026. Wealthsimple charges 1.5% on US-listed trades from a CAD account, and a tiered fee between a CAD account and a USD account. Questrade charges 1.5% when you exchange currency, inside the rate. Both let you hold US dollars so a later trade does not convert again. Wealthsimple Core pays $10 a month plus tax for that USD account after the trial. Questrade's admin page does not list a monthly USD-account fee.</p>
+
+    <h3>Is National Bank Direct Brokerage really $0?</h3>
+    <p>Online Canadian and US stocks and ETFs are $0 on the pricing page. The $100 annual administration fee applies unless you meet a waiver, including $20,000 of eligible assets on 31 May or being 30 or younger on that date. Currency conversion is a spread, 230 basis points on amounts under $25,000, with the page's demonstration column at 1.70%. Options are not $0. Leaving costs $150 per account, plus tax where marked.</p>
+
+    <h3>Should I keep my bank brokerage for the convenience?</h3>
+    <p>Keep it when the ETF you will buy is on that bank's $0 list, the admin fee is waived, and the portfolio stays in Canadian dollars. Move the US-listed sleeve when every contribution pays $6.95 to $9.99 and the FX line is 225 to 230 basis points on a small ticket. The single login has a value. A percent-style spread on every US purchase is the cost of keeping it.</p>
+
+    <h3>Does Interactive Brokers Canada offer an RESP?</h3>
+    <p>RESP does not appear on the account guide reviewed in October 2026. The guide does list RRSP, spousal RRSP, TFSA, and FHSA. The RSP page says locked-in plans and RRIFs are not offered. If the RESP is a requirement, use a firm whose page names it: Wealthsimple, Questrade, TD, RBC, National Bank, and CIBC each do, on the pages cited below.</p>
+
+    <h3>Are these figures affiliate rates?</h3>
+    <p>No. They are from the firms' own pricing, fee-schedule, and account pages linked in Sources. There is no tracking link. Transfer rebates that are printed on those pages are included with their conditions. Promotional cash that was not on the fee page is omitted.</p>
+
+    <h2>Sources</h2>
     <ul>
-        <li><strong>Compare structures:</strong> app-first, independent DIY, multi-currency, or the bank you already use. Do not compare slogans.</li>
-        <li><strong>Foreign exchange is the cost</strong> when the portfolio holds US-listed funds. Preview it. A zero commission does not answer it.</li>
-        <li><strong>Registered-account menus are the filter.</strong> Transfer with the form. Do not withdraw to move.</li>
-        <li><strong>Wealthsimple, Questrade, and Interactive Brokers are examples</strong> of different structures, not a ranked list and not a set of live prices.</li>
-        <li><strong>Tax slips are not your adjusted cost base</strong> in a non-registered account.</li>
-        <li><strong>Promotions are written down or they do not exist.</strong> This article does not quote them and does not link to an affiliate offer.</li>
-        <li><strong>Confirm CIPF membership and the current coverage limit</strong> with CIPF, not with a screenshot.</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing</a> and the <a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">trade fee schedule</a></li>
+        <li><a href="https://help.wealthsimple.com/hc/en-ca/articles/360056590534-Choose-an-account-to-open">Wealthsimple: choose an account</a> (help centre, 2 October 2026)</li>
+        <li><a href="https://invest.questrade.com/pricing/self-directed-commissions-plans-fees">Questrade pricing</a>, <a href="https://invest.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">transaction fees</a>, and <a href="https://invest.questrade.com/pricing/self-directed-commissions-plans-fees/administrative">administrative fees</a></li>
+        <li><a href="https://www.questrade.com/learning/using-questrade/0-commissions-faq">Questrade: $0 commissions FAQ</a> (minimum balance and transfer rebate)</li>
+        <li><a href="https://www.interactivebrokers.ca/en/pricing/commissions-stocks.php">Interactive Brokers Canada: stock and ETF commissions</a>, <a href="https://www.interactivebrokers.ca/en/pricing/commissions-spot-currencies.php">spot currencies</a>, and <a href="https://www.interactivebrokers.ca/en/pricing/other-fees.php">other fees</a></li>
+        <li><a href="https://www.interactivebrokers.ca/en/accounts/account-guide.php">IBKR Canada account guide</a> and <a href="https://www.interactivebrokers.ca/en/accounts/rsp_tfsa_information.php">RRSP, TFSA, and FHSA information</a></li>
+        <li><a href="https://www.td.com/ca/en/investing/direct-investing/pricing">TD Direct Investing pricing</a>, the <a href="https://www.td.com/content/dam/wealth/document/pdf/direct-investing/521778-en.pdf">commission and fee PDF</a>, <a href="https://www.td.com/ca/en/investing/direct-investing/pricing/fx-pricing">FX pricing</a>, and <a href="https://www.td.com/ca/en/investing/direct-investing/accounts">accounts</a></li>
+        <li><a href="https://www.rbcdirectinvesting.com/pricing/">RBC Direct Investing pricing</a> and <a href="https://www.rbcdirectinvesting.com/accounts-investments/resp.html">RESP</a></li>
+        <li><a href="https://nbdb.ca/pricing.html">National Bank Direct Brokerage pricing</a></li>
+        <li><a href="https://www.investorsedge.cibc.com/en/pricing.html">CIBC Investor's Edge pricing</a>, <a href="https://www.investorsedge.cibc.com/en/accounts-and-investments.html">accounts</a>, and <a href="https://www.investorsedge.cibc.com/en/accounts-and-investments/resp.html">RESP</a></li>
+        <li><a href="https://www.cipf.ca/">Canadian Investor Protection Fund</a></li>
     </ul>
 
     <div class="cta-section">
         <p><strong>The broker is the pipe. Tax is the pressure.</strong></p>
-        <p>A cleaner platform does not set your bracket or your deduction. Once the account is open and the ETF is in the right place, the 2026 tax guide is the work that still moves the number.</p>
+        <p>A cheaper ticket does not set your bracket or your deduction. Once the account is open and the ETF is in the right place, the 2026 tax guide is the work that still moves the number.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about how to compare Canadian self-directed brokerages. It is not a recommendation to open, transfer, or keep an account at any firm, and it is not investment, tax, or legal advice. Commissions, foreign-exchange pricing, account availability, transfer fees, promotions, and CIPF membership and limits change. Confirm every figure on the firm's current schedule and on CIPF's own site before you act. Examples are structural, not quotes.</p>
-        <div class="footer-note">Published: September 17, 2026 | Category: Investing | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about published Canadian brokerage schedules as of October 2026. It is not a recommendation to open, transfer, or keep an account at any firm, and it is not investment, tax, or legal advice. Commissions, foreign-exchange spreads, account availability, transfer fees, and reimbursements change. The $10,000 conversion is arithmetic on those schedules, not a live quote. Confirm every figure on the firm's current page, and CIPF coverage on CIPF's site, before you act.</p>
+        <div class="footer-note">Published: September 17, 2026 | Updated: October 5, 2026 | Category: Investing | Author: Andrew</div>
     </div>
 
-</div>`
+</div>`,
   },
 
   {
