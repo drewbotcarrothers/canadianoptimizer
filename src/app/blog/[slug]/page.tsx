@@ -204,11 +204,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          <div className="mx-auto w-full max-w-[800px] px-5 pt-8">
+          <BlogBody content={contentWithImage} />
+
+          <div className="mx-auto w-full max-w-[800px] px-5 pb-8">
             <AffiliateDisclosure />
           </div>
-
-          <BlogBody content={contentWithImage} />
         </article>
         <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} />
       </>
@@ -258,11 +258,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div className="relative aspect-video rounded-2xl overflow-hidden mb-10 shadow-xl">
             <Image src={heroSrc} alt={post.title} fill className="object-cover" />
           </div>
-          <AffiliateDisclosure />
           <div
             className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+          <div className="mt-10">
+            <AffiliateDisclosure />
+          </div>
         </div>
       </article>
       <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} />
