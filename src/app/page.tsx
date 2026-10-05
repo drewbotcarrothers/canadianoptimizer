@@ -32,20 +32,20 @@ export default function Home() {
     <>
       <SchemaMarkup data={[homeSchema()]} />
       {/* Hero Section */}
-      <section className="bg-light-slate py-20 lg:py-32">
+      <section className="bg-light-slate py-10 lg:py-14">
         <div className="container mx-auto px-4 text-center max-w-4xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-charcoal mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal mb-3 leading-tight">
             Optimize Your Finances.<br/> Maximize Your Wealth.
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 mb-6 max-w-2xl mx-auto leading-relaxed">
             Actionable strategies and advanced tactics to help Canadians extract the maximum value from their money. Go beyond the basics and start optimizing today.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="primary" href="#newsletter" className="w-full sm:w-auto text-lg px-8 py-4">
-              Get the Free 5-Day Guide
-            </Button>
-            <Button variant="secondary" href="/blog" className="w-full sm:w-auto text-lg px-8 py-4 border-2">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Button variant="primary" href="/blog" className="w-full sm:w-auto px-7 py-3">
               Read the Latest Strategies
+            </Button>
+            <Button variant="secondary" href="/ebooks/tax-guide" className="w-full sm:w-auto px-7 py-3">
+              Get the Tax Guide
             </Button>
           </div>
         </div>
@@ -150,30 +150,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section id="newsletter" className="py-24 bg-canadian-red text-white text-center">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Get the 5-Day Optimization Starter Guide</h2>
-          <p className="text-red-100 text-lg mb-10">
-            Join thousands of Canadians optimizing their wealth. Enter your email to receive our free starter guide and weekly actionable tips.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email address" 
-              className="px-4 py-4 rounded-md text-charcoal w-full focus:outline-none focus:ring-2 focus:ring-charcoal"
-              required
-            />
-            <button 
-              type="submit" 
-              className="bg-charcoal text-white px-8 py-4 rounded-md font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap"
-            >
-              Send My Guide
-            </button>
-          </form>
-          <p className="text-red-200 text-xs mt-4">No spam. Unsubscribe at any time.</p>
-        </div>
-      </section>
     </>
   );
 }
