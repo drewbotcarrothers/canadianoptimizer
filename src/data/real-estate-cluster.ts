@@ -218,85 +218,172 @@ export const realEstateClusterPosts: EstatePost[] = [
 </div>`
   ),
 
-  estatePost(
-    'mortgage-renewal-strategy-canada',
-    'Mortgage Renewal in 2026: Straight Switches, the Stress Test, and Negotiating Your Rate',
-    'In 2026, OSFI does not prescribe the stress test when an uninsured stand-alone mortgage switches lenders at renewal with no added balance or amortization. Refinances and readvanceable plans still qualify.',
-    `<div class="container">
+  {
+    ...estatePost(
+      'mortgage-renewal-strategy-canada',
+      'Mortgage Renewal in 2026: Straight Switches, the Stress Test, and Negotiating Your Rate',
+      'Canada 2026: renewing with your lender skips the stress test, and so does a straight switch. Borrow more or stretch the amortization and the test applies.',
+      `<div class="container">
 
     <div class="hook">
-        At renewal in 2026, OSFI does not expect federally regulated lenders to apply the prescribed minimum qualifying rate when an <span class="highlight">uninsured stand-alone mortgage</span> switches from one federally regulated lender to another, with no increase in the loan amount or the remaining amortization. Adding balance, stretching the amortization, or moving a readvanceable plan is a different application, and the stress test comes back.
+        Does the mortgage stress test apply when you renew in Canada? In October 2026, usually not. OSFI does not expect a lender to re-apply the minimum qualifying rate when you <span class="highlight">renew with the same lender</span>, and it no longer prescribes that rate when an uninsured mortgage makes a <span class="highlight">straight switch</span> to another federally regulated lender. Insured and low-ratio switches have their own exemptions. The test comes back when you borrow more than $3,000 for costs, stretch the amortization, or move a readvanceable plan.
     </div>
 
-    <p>The qualifying-rate formula itself, the greater of the contract rate plus 2 percentage points or 5.25%, is the <a href="/blog/mortgage-stress-test-canada/">stress test explainer</a>. How to compare a fixed offer with a variable offer is the <a href="/blog/fixed-vs-variable-mortgage-canada/">fixed versus variable framework</a>. The cost of leaving before maturity is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>. All three sit under the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. A renewal is also the moment people start a <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, which needs a readvanceable plan and a fresh underwrite.</p>
+    <p>The qualifying-rate formula itself, the greater of the contract rate plus 2 percentage points or 5.25%, is the <a href="/blog/mortgage-stress-test-canada/">stress test explainer</a>. How to compare a fixed offer with a variable offer is the <a href="/blog/fixed-vs-variable-mortgage-canada/">fixed versus variable framework</a>. The cost of leaving before maturity is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>. All three sit under the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a> and the <a href="/category/real-estate/">real estate hub</a>. A renewal is also the moment people start a <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, which needs a readvanceable plan and a fresh underwrite.</p>
 
     <div class="callout">
-        <strong>Key takeaways:</strong>
+        <strong>Key takeaways (checked October 7, 2026):</strong>
         <ul>
-            <li>OSFI's straight-switch letter is dated November 21, 2024, and the regulator's minimum-qualifying-rate page still described the same exemption in September 2026.</li>
-            <li>The exemption is narrow: stand-alone, uninsured, amortizing, not readvanceable, federally regulated lender to federally regulated lender, no longer amortization, and no equity take-out.</li>
-            <li>The unpaid balance may be increased by up to $3,000 to cover penalties or fees. That is the letter's allowance for costs. It is not a renovation budget.</li>
-            <li>The new lender still underwrites you. OSFI stopped prescribing the qualifying rate for this case. It did not order the lender to approve the file.</li>
-            <li>Insured switches, credit-union switches, and any refinance follow their own rules. Do not assume the OSFI letter covers them.</li>
+            <li>Renewing with your current lender: OSFI said in October 2023 that it does not expect the minimum qualifying rate to be applied again.</li>
+            <li>Uninsured straight switch: since OSFI's November 21, 2024 letter, the prescribed rate is not required when a stand-alone, amortizing, non-readvanceable mortgage moves from one federally regulated lender to another with no added balance or amortization. OSFI's qualifying-rate page still lists the exemption in October 2026.</li>
+            <li>Insured straight switch: insured borrowers are exempt from re-applying the qualifying rate when they switch lenders at renewal. Since December 16, 2024, low-ratio mortgages (80% loan-to-value or less) leaving a federally regulated lender can also skip it with any new lender.</li>
+            <li>The unpaid balance may rise by up to $3,000 to cover penalties or fees. That is a cost allowance, not a renovation budget. Equity take-out is not allowed.</li>
+            <li>The new lender still underwrites you. Skipping the prescribed rate is not an approval.</li>
         </ul>
     </div>
+
+    <h2>Why does a 2026 renewal hit so hard?</h2>
+
+    <p>Because many 2026 renewals are five-year fixed terms signed in 2021, when rates were near their low. A July 2025 Bank of Canada analysis estimated that about 60% of all outstanding Canadian mortgages renew in 2025 or 2026, and that five-year fixed borrowers renewing in 2026 could see an average payment increase of about 20% compared with December 2024.</p>
+
+    <table>
+        <caption>Canadian mortgage rate benchmarks, as of October 7, 2026</caption>
+        <thead>
+            <tr>
+                <th>Benchmark</th>
+                <th>Rate</th>
+                <th>What it tells you</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Average uninsured 5-year-plus fixed rate on funds advanced by chartered banks, 2021</td>
+                <td>1.94% to 2.51% (monthly)</td>
+                <td>Roughly what a 2021 five-year fixed borrower signed. This is the term renewing in 2026.</td>
+            </tr>
+            <tr>
+                <td>Same series, July 2026</td>
+                <td>4.49% (insured: 4.05%)</td>
+                <td>What chartered banks actually charged on average for new uninsured five-year-plus fixed money.</td>
+            </tr>
+            <tr>
+                <td>Typical posted 5-year conventional rate at the major chartered banks, September 30, 2026</td>
+                <td>6.09%</td>
+                <td>The posted rate is a starting point. The gap to the average advanced rate is the room to negotiate.</td>
+            </tr>
+            <tr>
+                <td>Bank of Canada overnight rate, held September 2, 2026</td>
+                <td>2.25%</td>
+                <td>Moves prime and variable rates. The next decision is October 28, 2026.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Source: Bank of Canada Valet series V122667786, V122667780, V80691335 and V39079, and the September 2, 2026 rate announcement. Your own offer depends on your file, the term, and the lender.</p>
 
     <h2>What counts as a straight switch?</h2>
 
     <table>
-        <caption>Uninsured straight switch versus the applications that are still stress-tested, as of September 2026</caption>
+        <caption>Which renewals are stress-tested in Canada, as of October 2026</caption>
         <thead>
             <tr>
                 <th>You want to</th>
-                <th>OSFI's prescribed qualifying rate</th>
+                <th>Prescribed qualifying rate?</th>
                 <th>What to confirm</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Move an uninsured stand-alone mortgage to another federally regulated lender at renewal. Same balance, aside from up to $3,000 of costs. Same or shorter remaining amortization.</td>
-                <td>OSFI does not prescribe the minimum qualifying rate.</td>
+                <td>Renew with your current lender, same balance and amortization.</td>
+                <td>No. OSFI does not expect it to be applied again on a same-lender renewal.</td>
+                <td>The offer in the renewal statement, and whether it renews automatically.</td>
+            </tr>
+            <tr>
+                <td>Move an uninsured stand-alone mortgage to another federally regulated lender. Same balance, aside from up to $3,000 of costs. Same or shorter remaining amortization.</td>
+                <td>No. OSFI does not prescribe the minimum qualifying rate.</td>
                 <td>The new lender still checks income, credit, and the property, and may use its own stressed rate.</td>
             </tr>
             <tr>
+                <td>Switch an insured mortgage, or a low-ratio mortgage that started at a federally regulated lender and was stress-tested then, with no added balance beyond $3,000 of costs.</td>
+                <td>No. Insured switches are exempt, and low-ratio switches from a federally regulated lender to any lender have been exempt since December 16, 2024.</td>
+                <td>The low-ratio route relies on the new lender buying portfolio insurance. Ask the new lender which route it will use.</td>
+            </tr>
+            <tr>
                 <td>Borrow more than the $3,000 cost allowance, or lengthen the amortization.</td>
-                <td>This is a refinance. The prescribed qualifying rate applies at a federally regulated lender.</td>
+                <td>Yes. This is a refinance.</td>
                 <td>A penalty can apply if you are not yet at maturity. Price it with the IRD guide before you chase a lower rate.</td>
             </tr>
             <tr>
                 <td>Switch a combined loan plan or a readvanceable mortgage.</td>
-                <td>The November 2024 letter excludes these. Footnote 1 limits the exemption to stand-alone mortgages outside combined plans, amortizing and not readvanceable.</td>
-                <td>The <a href="/blog/readvanceable-mortgage-canada/">readvanceable guide</a> is why a collateral charge is hard to assign.</td>
+                <td>Yes. OSFI's letter limits the exemption to stand-alone mortgages outside combined plans, amortizing and not readvanceable.</td>
+                <td>The <a href="/blog/readvanceable-mortgage-canada/">readvanceable guide</a> explains why a collateral charge is hard to assign.</td>
             </tr>
             <tr>
-                <td>Move to or from a provincially regulated credit union, or from a mortgage finance company.</td>
-                <td>The letter is aimed at federally regulated institutions. Treat the exemption as unavailable until the new lender says otherwise in writing.</td>
+                <td>Move an uninsured mortgage to a provincially regulated credit union.</td>
+                <td>OSFI's letter does not cover it. Treat the exemption as unavailable until the lender confirms otherwise in writing.</td>
                 <td>A credit union can still be the right lender. It is a different rule set.</td>
-            </tr>
-            <tr>
-                <td>Switch an insured mortgage.</td>
-                <td>Insured qualification is set by the insurer and the Department of Finance, not by OSFI's uninsured letter.</td>
-                <td>Ask the new lender and the insurer whether they will re-qualify you at the minimum qualifying rate.</td>
             </tr>
         </tbody>
     </table>
 
-    <p>Table as of September 2026. Source: OSFI's November 21, 2024 letter on uninsured straight switches, and OSFI's minimum qualifying rate page.</p>
+    <p>Table as of October 2026. Sources: OSFI's November 21, 2024 straight-switch letter, OSFI's qualifying-rate page, OSFI's October 16, 2023 response on Guideline B-20, and Finance Canada's December 2024 straight-switch backgrounder.</p>
+
+    <h2>When should you start shopping for your renewal?</h2>
+
+    <p>About four to six months before the term ends. The Canadian Mortgage Charter expects lenders to contact homeowners four to six months ahead of renewal. A federally regulated lender must send the renewal statement at least 21 days before the term ends, and it must say if the mortgage will renew automatically. Twenty-one days is the legal minimum, not enough time to shop.</p>
+
+    <ul>
+        <li><strong>Renewal statement contents:</strong> the balance at renewal, the interest rate, payment frequency, the term, and any charges or fees. The offered rate cannot go up before the renewal date.</li>
+        <li><strong>If your lender will not renew,</strong> it must tell you at least 21 days before the term ends.</li>
+        <li><strong>Collateral or standard charge:</strong> ask early. It decides how easy the switch is.</li>
+    </ul>
 
     <h2>How do you negotiate the renewal?</h2>
 
     <ol>
-        <li><strong>Read the renewal letter for an automatic renewal.</strong> A lender can roll a closed term into a new term at a rate you did not shop. The date on the letter is the deadline, not a suggestion.</li>
-        <li><strong>Write down three facts.</strong> Insured or uninsured. Stand-alone or a collateral charge. Balance and remaining amortization. Those facts decide which row of the table you are in.</li>
-        <li><strong>Get the current lender's offer in writing, then one other federally regulated offer.</strong> Compare rate, term, prepayment privilege, and the penalty method. A cheaper rate with a harsh interest-rate differential is a bet that you will stay the whole term. The <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a> shows why the discount off the posted rate matters.</li>
-        <li><strong>Ask the new lender, in writing, whether they will apply the prescribed qualifying rate.</strong> On a qualifying straight switch, OSFI does not require it. The lender can still decline, or still stress the payment under its own policy.</li>
-        <li><strong>If you need cash out, stop calling it a renewal.</strong> Price the penalty, the new stress test, and the closing costs. Land transfer tax is not charged again on a plain switch of the same property, but a refinance still has legal fees. The cost map is the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>.</li>
+        <li><strong>Read the renewal statement for an automatic renewal.</strong> A lender can roll a closed term into a new term at a rate you did not shop. The date on the letter is a deadline, not a suggestion.</li>
+        <li><strong>Write down three facts.</strong> Insured or uninsured. Stand-alone or a combined plan. Balance and remaining amortization. Those facts decide which row of the table you are in.</li>
+        <li><strong>Get the current lender's offer in writing, then at least one other offer.</strong> Compare rate, term, prepayment privilege, and the penalty method. A cheaper rate with a harsh interest-rate differential is a bet that you will stay the whole term. The <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a> shows why the discount off the posted rate matters.</li>
+        <li><strong>Ask the new lender, in writing, whether it will apply the prescribed qualifying rate.</strong> On a qualifying straight switch, it is not required. The lender can still decline, or still stress the payment under its own policy.</li>
+        <li><strong>If you need cash out, stop calling it a renewal.</strong> Price the penalty, the new stress test, and the legal and appraisal costs of a refinance. The cost map is the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>.</li>
         <li><strong>Decide what the payment is for.</strong> A lower payment that you spend is a longer amortization in disguise. A lower payment that you send as a prepayment is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a> choice. The interest and months that extra payment saves are the <a href="/blog/mortgage-prepayment-calculator/">mortgage prepayment calculator</a>.</li>
     </ol>
 
+    <h2>What does signing the posted rate cost?</h2>
+
+    <table>
+        <caption>Illustration: a $420,000 renewal with 20 years left, five-year fixed term, monthly payments</caption>
+        <thead>
+            <tr>
+                <th>Rate</th>
+                <th>Monthly payment</th>
+                <th>Interest over the 5-year term</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2.14% (2021-style rate, June 2021 average advanced)</td>
+                <td>$2,151</td>
+                <td>about $40,200</td>
+            </tr>
+            <tr>
+                <td>4.49% (July 2026 average advanced, uninsured)</td>
+                <td>$2,645</td>
+                <td>about $85,700</td>
+            </tr>
+            <tr>
+                <td>6.09% (posted 5-year conventional, September 30, 2026)</td>
+                <td>$3,012</td>
+                <td>about $117,400</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Illustration only, not a quote. Payments use semi-annual compounding, the convention for Canadian fixed-rate mortgages, on the same balance and amortization. In this example the posted rate costs $367 a month more than the July 2026 average, about $31,700 more interest over five years. Moving from a 2021-style rate to the 2026 average adds about $495 a month, roughly 23%, close to the Bank of Canada's 20% estimate for five-year fixed renewals.</p>
+
     <div class="example-box">
         <strong>Illustration: the $3,000 line</strong>
-        <p>An uninsured borrower owes $420,000 at maturity. A new federally regulated lender will cover a $2,400 discharge and assignment cost by adding it to the balance. The new balance is $422,400. That increase is inside the letter's $3,000 allowance for transaction costs, and equity take-out is still not allowed. The same borrower who wants $25,000 for a kitchen has left the straight switch. The file is a refinance. At a federally regulated lender it is underwritten at the minimum qualifying rate, and the kitchen interest is not deductible. If the kitchen can wait, renew first and price the renovation against cash or against a separate decision.</p>
+        <p>An uninsured borrower owes $420,000 at maturity. A new federally regulated lender will cover a $2,400 discharge and assignment cost by adding it to the balance. The new balance is $422,400. That increase is inside the letter's $3,000 allowance for transaction costs, and equity take-out is still not allowed. The same borrower who wants $25,000 for a kitchen has left the straight switch. The file is a refinance. At a federally regulated lender it is underwritten at the minimum qualifying rate, and the kitchen interest is not deductible. If the kitchen can wait, renew first and price the renovation as a separate decision.</p>
     </div>
 
     <div class="warning-box">
@@ -306,17 +393,23 @@ export const realEstateClusterPosts: EstatePost[] = [
 
     <h2>Frequently asked questions</h2>
 
+    <h3>Does the stress test apply if I renew with my current lender?</h3>
+    <p>No, not under OSFI's expectations. In its October 2023 response on Guideline B-20, OSFI said it does not expect the minimum qualifying rate to be applied again when a mortgage renews with the same lender. Adding money or stretching the amortization turns the renewal into a refinance, and the test comes back.</p>
+
     <h3>Do I still have to pass the stress test to switch lenders in 2026?</h3>
-    <p>On a narrow set of files, OSFI no longer prescribes it. The mortgage has to be uninsured, stand-alone, not a readvanceable combined plan, and moving from one federally regulated lender to another, without a longer amortization and without borrowing more than $3,000 for costs. Everyone else should expect a qualifying-rate test. Even on a straight switch, the new lender underwrites the file and can say no.</p>
+    <p>Not on a straight switch. An uninsured mortgage moving between federally regulated lenders skips the prescribed rate if it is stand-alone, amortizing, not readvanceable, and moves without a longer amortization or more than $3,000 added for costs. Insured switches are also exempt. Even on a straight switch, the new lender underwrites the file and can say no.</p>
 
     <h3>Does the straight-switch rule apply to insured mortgages?</h3>
-    <p>OSFI's letter is about uninsured mortgages. Insured mortgages are qualified under rules set for insurers and the Department of Finance. Ask the insurer and the new lender whether a switch at renewal will be re-tested at the greater of the contract rate plus 2% or 5.25%. Do not copy the uninsured exemption across.</p>
+    <p>Yes, in effect. OSFI has said insured borrowers are exempt from re-applying the qualifying rate when they switch lenders at renewal, and the Canadian Mortgage Charter says insured mortgage holders can switch at renewal without another stress test. Since December 16, 2024, low-ratio mortgages that started at a federally regulated lender can also switch to any lender without it, if the amortization schedule is kept and no equity is taken out.</p>
+
+    <h3>When will I get my renewal statement?</h3>
+    <p>A federally regulated lender must send it at least 21 days before your term ends. It lists the balance, rate, payment frequency, term, and fees, and it says if the renewal is automatic. Under the Canadian Mortgage Charter, lenders are expected to reach out four to six months before renewal, which is when you should start comparing offers.</p>
 
     <h3>Can I roll closing costs into the new mortgage?</h3>
-    <p>The straight-switch letter allows the unpaid balance to rise by up to $3,000 for related costs such as penalties or fees. Anything beyond that, including a renovation or a debt consolidation, is equity take-out. Equity take-out is outside the exemption and is underwritten as a new loan.</p>
+    <p>The straight-switch rules allow the unpaid balance to rise by up to $3,000 for related costs such as penalties or fees. Anything beyond that, including a renovation or a debt consolidation, is equity take-out. Equity take-out is outside the exemption and is underwritten as a new loan.</p>
 
     <h3>What if my mortgage is with a credit union?</h3>
-    <p>OSFI supervises federally regulated institutions. A switch that starts or ends at a provincially regulated credit union is outside the letter as written. You may still get a better rate. Budget for a full application, including the qualifying rate, until the lender confirms otherwise.</p>
+    <p>OSFI supervises federally regulated institutions, so an uninsured switch that starts or ends at a provincially regulated credit union is outside its letter. A low-ratio mortgage leaving a federally regulated lender for a credit union may qualify under the December 2024 insurance rule if the credit union uses portfolio insurance. Budget for a full application until the lender confirms otherwise in writing.</p>
 
     <h3>Should I break the mortgage before maturity to catch a lower rate?</h3>
     <p>Only after you have the penalty in dollars from the lender's calculator. On a closed fixed term the charge is usually the higher of three months' interest and an interest-rate differential, and the differential can be several times the interest you think you will save. Run the IRD guide's method, then compare it with the payment difference over the months you have left.</p>
@@ -327,9 +420,17 @@ export const realEstateClusterPosts: EstatePost[] = [
     <h2>Sources</h2>
     <ul>
         <li><a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits">OSFI letter, November 21, 2024: uninsured straight switches</a></li>
-        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI: minimum qualifying rate</a></li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI: minimum qualifying rate (checked October 7, 2026)</a></li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfis-response-guideline-b-20-initial-consultation-feedback-debt-serviceability-measures">OSFI, October 16, 2023: response to Guideline B-20 consultation (same-lender renewals, insured switches)</a></li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2024/12/straight-switches-and-portfolio-insurance.html">Finance Canada, December 2024: straight switches and portfolio insurance</a></li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2024/09/government-announces-boldest-mortgage-reforms-in-decades-to-unlock-homeownership-for-more-canadians.html">Finance Canada, September 16, 2024: mortgage reforms and the Canadian Mortgage Charter</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html">FCAC: renewing your mortgage (21-day renewal statement)</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC: prepayment penalties</a></li>
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/rights-responsibilities/rights-mortgages/rights-prepayments.html">FCAC: mortgage prepayment rights</a></li>
-        <li><a href="https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/">Bank of Canada, September 2, 2026</a></li>
+        <li><a href="https://www.bankofcanada.ca/2025/07/staff-analytical-note-2025-21/">Bank of Canada Staff Analytical Note 2025-21: how mortgage payments change at renewal</a></li>
+        <li><a href="https://www.bankofcanada.ca/valet/observations/V122667786,V122667780/json">Bank of Canada Valet: average 5-year-plus fixed rates on funds advanced (uninsured V122667786, insured V122667780)</a></li>
+        <li><a href="https://www.bankofcanada.ca/valet/observations/V80691335,V39079/json?recent=4">Bank of Canada Valet: posted 5-year conventional rate (V80691335) and overnight rate (V39079)</a></li>
+        <li><a href="https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/">Bank of Canada, September 2, 2026 rate announcement</a></li>
     </ul>
 
     <div class="cta-section">
@@ -341,7 +442,9 @@ export const realEstateClusterPosts: EstatePost[] = [
     ${footer(published)}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-07',
+  },
 
   estatePost(
     'fixed-vs-variable-mortgage-canada',
