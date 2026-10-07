@@ -2,15 +2,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const CATEGORIES = [
-  { name: 'Investing', slug: '/category/investing' },
-  { name: 'Taxes', slug: '/category/taxes' },
-  { name: 'Real Estate', slug: '/category/real-estate' },
-  { name: 'Credit Cards', slug: '/category/credit-cards' },
-  { name: 'Retirement', slug: '/category/retirement' },
-  { name: 'Budgeting & Saving', slug: '/category/budgeting-saving' },
-  { name: 'Earning More', slug: '/category/earning-more' },
-  { name: 'Insurance', slug: '/category/insurance' },
-  { name: 'Government Benefits', slug: '/category/government-benefits' },
+  { name: 'Investing', slug: '/category/investing/' },
+  { name: 'Taxes', slug: '/category/taxes/' },
+  { name: 'Real Estate', slug: '/category/real-estate/' },
+  { name: 'Credit Cards', slug: '/category/credit-cards/' },
+  { name: 'Retirement', slug: '/category/retirement/' },
+  { name: 'Budgeting & Saving', slug: '/category/budgeting-saving/' },
+  { name: 'Earning More', slug: '/category/earning-more/' },
+  { name: 'Insurance', slug: '/category/insurance/' },
+  { name: 'Government Benefits', slug: '/category/government-benefits/' },
 ];
 
 export default function Footer() {
@@ -50,14 +50,14 @@ export default function Footer() {
         <div className="w-full md:w-1/4">
           <h3 className="text-white font-semibold mb-4 border-b border-gray-700 pb-2">Company</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li><Link href="/about" className="hover:text-white transition-colors">About Andrew</Link></li>
-            <li><Link href="/blog" className="hover:text-white transition-colors">Read the Blog</Link></li>
-            <li><Link href="/ebooks" className="hover:text-white transition-colors">Ebooks</Link></li>
-            <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-            <li><Link href="/privacy" className="hover:text-white transition-colors mt-4 block">Privacy Policy</Link></li>
-            <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-            <li><Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link></li>
-            <li><Link href="/disclosure" className="hover:text-white transition-colors">Affiliate Disclosure</Link></li>
+            <li><Link href="/about/" className="hover:text-white transition-colors">About Andrew</Link></li>
+            <li><Link href="/blog/" className="hover:text-white transition-colors">Read the Blog</Link></li>
+            <li><Link href="/ebooks/" className="hover:text-white transition-colors">Ebooks</Link></li>
+            <li><Link href="/contact/" className="hover:text-white transition-colors">Contact</Link></li>
+            <li><Link href="/privacy/" className="hover:text-white transition-colors mt-4 block">Privacy Policy</Link></li>
+            <li><Link href="/terms/" className="hover:text-white transition-colors">Terms of Service</Link></li>
+            <li><Link href="/disclaimer/" className="hover:text-white transition-colors">Disclaimer</Link></li>
+            <li><Link href="/disclosure/" className="hover:text-white transition-colors">Affiliate Disclosure</Link></li>
           </ul>
         </div>
 

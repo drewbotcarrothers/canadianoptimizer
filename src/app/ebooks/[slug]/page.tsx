@@ -70,7 +70,7 @@ export default async function EbookPage({ params }: { params: Promise<{ slug: st
         <div className="container mx-auto px-4 max-w-6xl">
           <Breadcrumbs 
             items={[
-              { label: 'Ebooks', href: '/ebooks' },
+              { label: 'Ebooks', href: '/ebooks/' },
               { label: ebook.title }
             ]} 
           />
