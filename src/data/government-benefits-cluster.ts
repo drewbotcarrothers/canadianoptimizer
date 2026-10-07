@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 type BenefitsPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ type BenefitsPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Government Benefits',

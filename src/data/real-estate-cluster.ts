@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 import { oct2026RealEstatePosts } from './oct2026/real-estate';
 
 type EstatePost = {
@@ -11,7 +12,7 @@ type EstatePost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Real Estate',

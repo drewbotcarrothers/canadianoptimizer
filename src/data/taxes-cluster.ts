@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 import { oct2026TaxPostsA } from './oct2026/taxes-a';
 import { oct2026TaxPostsB } from './oct2026/taxes-b';
 import { oct2026TaxPostsC } from './oct2026/taxes-c';
@@ -14,7 +15,7 @@ type TaxPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Taxes',

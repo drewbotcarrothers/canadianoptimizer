@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 type CardPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ type CardPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Credit Cards',

@@ -6,12 +6,14 @@ import AffiliateDisclosure from '@/components/ui/AffiliateDisclosure';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import RelatedPosts from '@/components/blog/RelatedPosts';
 import ClientBlogContent from './ClientBlogContent';
+import LiteYouTube from '@/components/blog/LiteYouTube';
 import IncomeTaxCalculator from '@/components/tools/IncomeTaxCalculator';
 import RewardsCalculator from '@/components/tools/RewardsCalculator';
 import RetirementCalculator from '@/components/tools/RetirementCalculator';
 import RentVsBuyCalculator from '@/components/tools/RentVsBuyCalculator';
 import MortgagePrepaymentCalculator from '@/components/tools/MortgagePrepaymentCalculator';
 import { posts } from '@/data/posts';
+import { getPostVideo, videoObjectSchema, type PostVideo } from '@/lib/post-video';
 import {
   articleSchema,
   AUTHOR_NAME,
@@ -33,9 +35,42 @@ const CALCULATOR_MARKERS = [
   { marker: '<div id="mortgage-prepayment-calculator"></div>', Component: MortgagePrepaymentCalculator },
 ] as const;
 
-function BlogBody({ content }: { content: string }) {
+const VIDEO_MARKER = '<div id="post-video-embed"></div>';
+
+/**
+ * Places the video marker right after the hook (and the hero image that follows it).
+ * Falls back to just before the first H2, then to the top of the content.
+ */
+function insertVideoMarker(content: string): string {
+  const afterHook = content.match(
+    /<div class="hook">[\s\S]*?<\/div>(\s*<img [^>]*class="post-featured-image"[^>]*\/>)?/
+  );
+  if (afterHook && afterHook.index !== undefined) {
+    const end = afterHook.index + afterHook[0].length;
+    return `${content.slice(0, end)}${VIDEO_MARKER}${content.slice(end)}`;
+  }
+  const firstH2 = content.indexOf('<h2');
+  if (firstH2 >= 0) {
+    return `${content.slice(0, firstH2)}${VIDEO_MARKER}${content.slice(firstH2)}`;
+  }
+  return `${VIDEO_MARKER}${content}`;
+}
+
+function PostVideoSection({ video }: { video: PostVideo }) {
+  return (
+    <section aria-labelledby="watch-the-video" className="post-video" style={{ marginBottom: 32 }}>
+      <h2 id="watch-the-video" className="mb-4 text-2xl font-bold text-charcoal">
+        Watch the video
+      </h2>
+      <LiteYouTube id={video.id} title={video.title} />
+    </section>
+  );
+}
+
+function BlogBody({ content, video }: { content: string; video?: PostVideo | null }) {
   const active = CALCULATOR_MARKERS.filter((tool) => content.includes(tool.marker));
-  if (active.length === 0) {
+  const hasVideo = Boolean(video && content.includes(VIDEO_MARKER));
+  if (active.length === 0 && !hasVideo) {
     return (
       <div className="blog-content-exact">
         <div className="container mx-auto py-8">
@@ -45,12 +80,23 @@ function BlogBody({ content }: { content: string }) {
     );
   }
 
-  const pattern = new RegExp(`(${active.map((tool) => tool.marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`);
+  const markers = [...active.map((tool) => tool.marker), ...(hasVideo ? [VIDEO_MARKER] : [])];
+  const pattern = new RegExp(`(${markers.map((marker) => marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`);
   const parts = content.split(pattern);
 
   return (
     <>
       {parts.map((part, index) => {
+        if (part === VIDEO_MARKER) {
+          if (!video) return null;
+          return (
+            <div key="post-video" className="blog-content-exact">
+              <div className="container mx-auto pt-2">
+                <PostVideoSection video={video} />
+              </div>
+            </div>
+          );
+        }
         const tool = active.find((item) => item.marker === part);
         if (tool) {
           const Tool = tool.Component;
@@ -143,6 +189,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     );
   }
 
+  const video = getPostVideo(post);
+  if (video) {
+    contentWithImage = insertVideoMarker(contentWithImage);
+  }
+
   const crumbs = [
     { name: 'Home', path: '/' },
     { name: post.category, path: `/category/${post.categorySlug}/` },
@@ -150,10 +201,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   ];
 
   const faq = extractFaq(post.content);
+  const videoSchema = video ? videoObjectSchema(post, video) : null;
   const schemas = [
     articleSchema(post),
     breadcrumbSchema(crumbs),
     ...(faq ? [faqSchema(faq)] : []),
+    ...(videoSchema ? [videoSchema] : []),
   ];
 
   const isExactLayout = [
@@ -204,7 +257,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          <BlogBody content={contentWithImage} />
+          <BlogBody content={contentWithImage} video={video} />
 
           <div className="mx-auto w-full max-w-[800px] px-5 pb-8">
             <AffiliateDisclosure />
@@ -258,6 +311,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div className="relative aspect-video rounded-2xl overflow-hidden mb-10 shadow-xl">
             <Image src={heroSrc} alt={post.title} fill className="object-cover" />
           </div>
+          {video ? (
+            <div className="mb-10">
+              <PostVideoSection video={video} />
+            </div>
+          ) : null}
           <div
             className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
             dangerouslySetInnerHTML={{ __html: post.content }}

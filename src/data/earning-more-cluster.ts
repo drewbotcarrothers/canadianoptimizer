@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 type EarningPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ type EarningPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Earning More',

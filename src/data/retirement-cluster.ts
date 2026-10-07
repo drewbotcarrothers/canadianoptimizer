@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 import { oct2026RetirementPosts } from './oct2026/retirement';
 
 type RetirementPost = {
@@ -11,7 +12,7 @@ type RetirementPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Retirement',

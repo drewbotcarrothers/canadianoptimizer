@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 import { oct2026InsurancePosts } from './oct2026/insurance';
 
 type InsurancePost = {
@@ -11,7 +12,7 @@ type InsurancePost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Insurance',
