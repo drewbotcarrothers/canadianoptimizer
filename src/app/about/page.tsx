@@ -66,7 +66,7 @@ export default function About() {
             <div>
               <h3 className="font-semibold text-lg text-canadian-red mb-3">Authoritativeness</h3>
               <p className="text-gray-600 text-sm">
-                Strategies are referenced directly against primary official sources (CRA folios, OSFI regulations) and peer-reviewed by qualified Canadian CPAs and CFPs where applicable.
+                Strategies are referenced directly against primary official sources (CRA folios, OSFI regulations).
               </p>
             </div>
             <div>
