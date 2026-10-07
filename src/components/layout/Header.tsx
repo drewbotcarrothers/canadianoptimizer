@@ -6,21 +6,21 @@ import { useState } from 'react';
 
 const NAV_LINKS = [
   { name: 'Topics', href: '#', isDropdown: true },
-  { name: 'Ebooks', href: '/ebooks' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'About', href: '/about' },
+  { name: 'Ebooks', href: '/ebooks/' },
+  { name: 'Blog', href: '/blog/' },
+  { name: 'About', href: '/about/' },
 ];
 
 const TOPICS_LINKS = [
-  { name: 'Investing', href: '/category/investing' },
-  { name: 'Taxes', href: '/category/taxes' },
-  { name: 'Real Estate', href: '/category/real-estate' },
-  { name: 'Credit Cards', href: '/category/credit-cards' },
-  { name: 'Retirement', href: '/category/retirement' },
-  { name: 'Budgeting & Saving', href: '/category/budgeting-saving' },
-  { name: 'Earning More', href: '/category/earning-more' },
-  { name: 'Insurance', href: '/category/insurance' },
-  { name: 'Government Benefits', href: '/category/government-benefits' },
+  { name: 'Investing', href: '/category/investing/' },
+  { name: 'Taxes', href: '/category/taxes/' },
+  { name: 'Real Estate', href: '/category/real-estate/' },
+  { name: 'Credit Cards', href: '/category/credit-cards/' },
+  { name: 'Retirement', href: '/category/retirement/' },
+  { name: 'Budgeting & Saving', href: '/category/budgeting-saving/' },
+  { name: 'Earning More', href: '/category/earning-more/' },
+  { name: 'Insurance', href: '/category/insurance/' },
+  { name: 'Government Benefits', href: '/category/government-benefits/' },
 ];
 
 export default function Header() {

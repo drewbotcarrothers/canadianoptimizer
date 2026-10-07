@@ -5444,7 +5444,7 @@ export const posts: BlogPostRecord[] = [
 <strong>About Andrew:</strong> Andrew is the founder of Canadian Optimizer and a personal finance strategist specializing in Canadian tax optimization, investment planning, and wealth building for high-income professionals.
             </div>
 <p style="margin-top: 20px;">
-                © 2026 Canadian Optimizer. This article is published at <a href="https://canadianoptimizer.com/category/taxes">canadianoptimizer.com/category/taxes</a>. All rights reserved.
+                © 2026 Canadian Optimizer. This article is published at <a href="https://canadianoptimizer.com/category/taxes/">canadianoptimizer.com/category/taxes</a>. All rights reserved.
             </p>
         <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
     </div>
@@ -7010,7 +7010,7 @@ export const posts: BlogPostRecord[] = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, investment, or tax advice. Consult a qualified financial advisor or tax professional before making any investment decisions. Individual circumstances vary, and what works for one person may not work for another.</p>
-<p>Published: February 10, 2026 | Author: Andrew | Category: <a href="https://canadianoptimizer.com/category/taxes">Taxes</a></p>
+<p>Published: February 10, 2026 | Author: Andrew | Category: <a href="https://canadianoptimizer.com/category/taxes/">Taxes</a></p>
     </div>
 
 </div>`
@@ -9582,31 +9582,6 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li>Provide audit support if the CRA requests documents</li>
 </ul>
 
-        <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Self-Employed Tax Guide — Everything You Need to Know for 2026",
-        "author": {
-            "@type": "Person",
-            "name": "Andrew"
-        },
-        "datePublished": "2026-04-05",
-        "dateModified": "2026-04-05",
-        "image": "https://canadianoptimizer.com/images/self-employed-tax-guide.jpg",
-        "description": "Complete self-employed tax guide for 2026. Learn about T2125, CPP, HST registration, 40+ deductions, home office, vehicle expenses, and audit-proof record-keeping.",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://canadianoptimizer.com/self-employed-tax-guide/"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Canadian Optimizer",
-            "url": "https://canadianoptimizer.com"
-        },
-        "articleBody": "Self-employed Canadians have access to more than 40 legitimate tax deductions that salaried employees can only dream of..."
-    }
-    </script>
 
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Self-Employment Taxes?</strong></p>

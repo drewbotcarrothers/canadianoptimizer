@@ -16,15 +16,15 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 const FOCUS_AREAS = [
-  { name: 'Investing', icon: '🏦', desc: 'Portfolio optimization and long-term wealth building', slug: '/category/investing' },
-  { name: 'Taxes', icon: '🧾', desc: 'Advanced tax minimization and planning strategies', slug: '/category/taxes' },
-  { name: 'Real Estate', icon: '🏠', desc: 'Property investment and mortgage optimization', slug: '/category/real-estate' },
-  { name: 'Credit Cards', icon: '💳', desc: 'Strategic travel hacking and rewards maximization', slug: '/category/credit-cards' },
-  { name: 'Retirement', icon: '🏖️', desc: 'Secure your future with withdrawal and income strategies', slug: '/category/retirement' },
-  { name: 'Budgeting & Saving', icon: '📊', desc: 'High-performance cash flow and cost reduction', slug: '/category/budgeting-saving' },
-  { name: 'Earning More', icon: '🚀', desc: 'Income optimization and career leverage tactics', slug: '/category/earning-more' },
-  { name: 'Insurance', icon: '🛡️', desc: 'Optimizing risk management and protection', slug: '/category/insurance' },
-  { name: 'Government Benefits', icon: '🇨🇦', desc: 'Maximizing grants, credits, and provincial programs', slug: '/category/government-benefits' },
+  { name: 'Investing', icon: '🏦', desc: 'Portfolio optimization and long-term wealth building', slug: '/category/investing/' },
+  { name: 'Taxes', icon: '🧾', desc: 'Advanced tax minimization and planning strategies', slug: '/category/taxes/' },
+  { name: 'Real Estate', icon: '🏠', desc: 'Property investment and mortgage optimization', slug: '/category/real-estate/' },
+  { name: 'Credit Cards', icon: '💳', desc: 'Strategic travel hacking and rewards maximization', slug: '/category/credit-cards/' },
+  { name: 'Retirement', icon: '🏖️', desc: 'Secure your future with withdrawal and income strategies', slug: '/category/retirement/' },
+  { name: 'Budgeting & Saving', icon: '📊', desc: 'High-performance cash flow and cost reduction', slug: '/category/budgeting-saving/' },
+  { name: 'Earning More', icon: '🚀', desc: 'Income optimization and career leverage tactics', slug: '/category/earning-more/' },
+  { name: 'Insurance', icon: '🛡️', desc: 'Optimizing risk management and protection', slug: '/category/insurance/' },
+  { name: 'Government Benefits', icon: '🇨🇦', desc: 'Maximizing grants, credits, and provincial programs', slug: '/category/government-benefits/' },
 ];
 
 export default function Home() {
@@ -44,7 +44,7 @@ export default function Home() {
             <Button variant="primary" href="#newsletter" className="w-full sm:w-auto text-lg px-8 py-4">
               Get the Free 5-Day Guide
             </Button>
-            <Button variant="secondary" href="/blog" className="w-full sm:w-auto text-lg px-8 py-4 border-2">
+            <Button variant="secondary" href="/blog/" className="w-full sm:w-auto text-lg px-8 py-4 border-2">
               Read the Latest Strategies
             </Button>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-4">Latest Strategies</h2>
               <p className="text-gray-600">Our most recent optimization tactics for your wallet.</p>
             </div>
-            <Link href="/blog" className="text-canadian-red font-semibold hover:text-canadian-red-hover mt-4 md:mt-0 inline-flex items-center gap-1 group">
+            <Link href="/blog/" className="text-canadian-red font-semibold hover:text-canadian-red-hover mt-4 md:mt-0 inline-flex items-center gap-1 group">
               View All Articles 
               <span className="transform group-hover:translate-x-1 transition-transform">→</span>
             </Link>
@@ -133,7 +133,7 @@ export default function Home() {
                 <li className="flex items-center gap-3"><span className="text-canadian-red">✓</span> Small-business and incorporation roadmap</li>
               </ul>
               <div className="flex items-center gap-6">
-                 <Button variant="primary" href="/ebooks/tax-guide" className="px-8 font-semibold">Get it Now for $49 CAD</Button>
+                 <Button variant="primary" href="/ebooks/tax-guide/" className="px-8 font-semibold">Get it Now for $49 CAD</Button>
               </div>
             </div>
             <div className="lg:w-1/2 flex justify-center">

@@ -35,7 +35,7 @@ export default function TaxEbookLandingPage() {
         <div className="container mx-auto px-4 max-w-6xl">
           <Breadcrumbs 
             items={[
-              { label: 'Ebooks', href: '/ebooks' },
+              { label: 'Ebooks', href: '/ebooks/' },
               { label: 'Tax Optimization Guide' }
             ]} 
           />

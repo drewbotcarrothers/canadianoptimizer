@@ -38,6 +38,82 @@ RewriteRule ^blog/cra-deadlines-2026/?$ https://canadianoptimizer.com/blog/cra-d
 RewriteRule ^blog/tax-glossary-2026/?$ https://canadianoptimizer.com/blog/tax-glossary/ [R=301,L]
 RewriteRule ^blog/fhsa-guide-2026/?$ https://canadianoptimizer.com/blog/fhsa-guide/ [R=301,L]
 
+# Removed and renamed URLs. Like the year-bearing slugs above, these run
+# before the host rule and point at the final https://canadianoptimizer.com URL.
+# Old internal article links from the March 2026 build (dead links in early post versions).
+RewriteRule ^article-5-rrsp/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^article-13-instalments/?$ https://canadianoptimizer.com/blog/quarterly-tax-instalments/ [R=301,L]
+RewriteRule ^article-16-investing/?$ https://canadianoptimizer.com/blog/tax-efficient-investing/ [R=301,L]
+RewriteRule ^article-19-cra-audits/?$ https://canadianoptimizer.com/blog/cra-audit-guide/ [R=301,L]
+RewriteRule ^article-21-tax-calendar/?$ https://canadianoptimizer.com/blog/tax-planning-calendar/ [R=301,L]
+RewriteRule ^articles/article-21-canada-tax-calendar/?$ https://canadianoptimizer.com/blog/tax-planning-calendar/ [R=301,L]
+RewriteRule ^articles/article-23-tax-filing-checklist/?$ https://canadianoptimizer.com/blog/tax-deduction-checklist/ [R=301,L]
+RewriteRule ^articles/article-7-fhsa-hbp-strategies/?$ https://canadianoptimizer.com/blog/fhsa-guide/ [R=301,L]
+RewriteRule ^articles/rrsp-contribution-guide/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^articles/self-employed-tax-deductions/?$ https://canadianoptimizer.com/blog/self-employed-tax-guide/ [R=301,L]
+RewriteRule ^blog/article-18-best-tax-software-2026/?$ https://canadianoptimizer.com/blog/best-tax-software/ [R=301,L]
+RewriteRule ^category/taxes/biggest-tax-mistake/?$ https://canadianoptimizer.com/blog/biggest-tax-mistake-canadians/ [R=301,L]
+RewriteRule ^category/taxes/article-09-tax-deductions-employees-2026\.html/?$ https://canadianoptimizer.com/blog/tax-deductions-employees/ [R=301,L]
+RewriteRule ^self-employed-tax-guide-2026/?$ https://canadianoptimizer.com/blog/self-employed-tax-guide/ [R=301,L]
+RewriteRule ^self-employed-tax-guide/?$ https://canadianoptimizer.com/blog/self-employed-tax-guide/ [R=301,L]
+RewriteRule ^tax-filing-guide/?$ https://canadianoptimizer.com/blog/how-canadian-taxes-work/ [R=301,L]
+RewriteRule ^fhsa-playbook/?$ https://canadianoptimizer.com/blog/fhsa-guide/ [R=301,L]
+RewriteRule ^resources/rrsp-planning-worksheet/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^resources/tax-credits-checklist/?$ https://canadianoptimizer.com/blog/missed-tax-credits/ [R=301,L]
+RewriteRule ^resources/tax-planning-ebook-2026/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+RewriteRule ^resources/tax-playbook-ebook/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+
+# Old ebook URLs. Only the tax guide is still sold.
+RewriteRule ^ebook/?$ https://canadianoptimizer.com/ebooks/ [R=301,L]
+RewriteRule ^ebook/tax-planning-2026/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+RewriteRule ^ebooks/reduce-taxes-maximize-refund-2026/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+RewriteRule ^ebooks/50-step-tax-optimization-checklist/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+RewriteRule ^ebooks/tax-checklist/?$ https://canadianoptimizer.com/ebooks/tax-guide/ [R=301,L]
+RewriteRule ^ebooks/smith-maneuver-guide/?$ https://canadianoptimizer.com/blog/smith-maneuver-canada-steps-risks/ [R=301,L]
+RewriteRule ^ebooks/credit-card-churning-system/?$ https://canadianoptimizer.com/blog/card-churning-minimum-spend/ [R=301,L]
+
+# WordPress-era URLs (the domain ran WordPress before the Next.js site).
+# Only posts with a clear topical match on the current site are redirected;
+# the rest are left to 404 because no equivalent page exists.
+RewriteRule ^14-rrsp-tips-to-optimize-your-account-for-maximum-growth/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^registered-retirement-savings-plans-rrsps/?$ https://canadianoptimizer.com/blog/rrsp-playbook/ [R=301,L]
+RewriteRule ^maximize-your-tfsa-11-tips-every-canadian-must-know/?$ https://canadianoptimizer.com/blog/tfsa-strategies/ [R=301,L]
+RewriteRule ^tax-free-savings-account/?$ https://canadianoptimizer.com/blog/tfsa-strategies/ [R=301,L]
+RewriteRule ^best-aeroplan-credit-cards/?$ https://canadianoptimizer.com/blog/best-aeroplan-credit-cards-canada/ [R=301,L]
+RewriteRule ^how-to-earn-aeroplan-points-faster-than-ever/?$ https://canadianoptimizer.com/blog/aeroplan-points-guide-canada/ [R=301,L]
+RewriteRule ^best-cash-back-credit-cards/?$ https://canadianoptimizer.com/blog/best-cash-back-credit-cards-canada/ [R=301,L]
+RewriteRule ^best-no-annual-fee-credit-cards/?$ https://canadianoptimizer.com/blog/best-no-annual-fee-credit-cards-canada/ [R=301,L]
+RewriteRule ^best-travel-credit-cards/?$ https://canadianoptimizer.com/blog/best-travel-rewards-cards-canada/ [R=301,L]
+RewriteRule ^best-canadian-income-tax-software/?$ https://canadianoptimizer.com/blog/best-tax-software/ [R=301,L]
+RewriteRule ^british-columbia-tax-brackets-and-tax-rates/?$ https://canadianoptimizer.com/blog/provincial-tax-rates/ [R=301,L]
+RewriteRule ^canadian-tax-changes-in-2025/?$ https://canadianoptimizer.com/blog/canada-tax-money-changes/ [R=301,L]
+RewriteRule ^tax-deductions-and-credits-to-maximize-your-tax-refund/?$ https://canadianoptimizer.com/blog/tax-deduction-checklist/ [R=301,L]
+RewriteRule ^canada-child-benefit-ccb/?$ https://canadianoptimizer.com/blog/canada-child-benefit-optimization-canada/ [R=301,L]
+RewriteRule ^canadian-pension-plan-cpp/?$ https://canadianoptimizer.com/blog/how-much-cpp-will-i-get/ [R=301,L]
+RewriteRule ^understanding-the-canadian-pension-plan-cpp-a-comprehensive-guide/?$ https://canadianoptimizer.com/blog/how-much-cpp-will-i-get/ [R=301,L]
+RewriteRule ^old-age-security-oas/?$ https://canadianoptimizer.com/blog/oas-eligibility-deferral-canada/ [R=301,L]
+RewriteRule ^tips-for-beginner-investors/?$ https://canadianoptimizer.com/blog/how-to-invest-canada-guide/ [R=301,L]
+RewriteRule ^build-a-canadian-stock-portfolio/?$ https://canadianoptimizer.com/blog/how-to-invest-canada-guide/ [R=301,L]
+RewriteRule ^taxes/?$ https://canadianoptimizer.com/category/taxes/ [R=301,L]
+RewriteRule ^category/save-money/?$ https://canadianoptimizer.com/category/budgeting-saving/ [R=301,L]
+RewriteRule ^author/andrew(/page/[0-9]+)?/?$ https://canadianoptimizer.com/about/ [R=301,L]
+RewriteRule ^contact-2/?$ https://canadianoptimizer.com/contact/ [R=301,L]
+
+# /path/index.html -> /path/ (the static export serves both; keep one URL).
+# THE_REQUEST only matches what the client asked for, so the internal
+# DirectoryIndex lookup for /path/ does not loop.
+RewriteCond %{THE_REQUEST} ^[A-Z]+\s/+(.*?/)?index\.html[\s?] [NC]
+RewriteRule ^ https://canadianoptimizer.com/%1 [R=301,L]
+
+# Trailing slash before the host rule, so https://www.../path or
+# http://.../path reaches https://canadianoptimizer.com/path/ in one hop
+# instead of two. Skip real files such as sitemap.xml, robots.txt, rss.xml,
+# llms.txt, and images.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{1,5}$
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ https://canadianoptimizer.com/$1/ [L,R=301]
+
 # One hop to https://canadianoptimizer.com for every other URL.
 # Covers http://canadianoptimizer.com, http://www.canadianoptimizer.com,
 # and https://www.canadianoptimizer.com.
@@ -53,10 +129,3 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC,OR]
 RewriteCond %{HTTP_HOST} ^www\.canadianoptimizer\.com$ [NC]
 RewriteRule ^ https://canadianoptimizer.com%{REQUEST_URI} [L,R=301]
-
-# Keep the site's trailing-slash behaviour: /path -> /path/
-# Skip files such as sitemap.xml, robots.txt, rss.xml, llms.txt, and images.
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{1,5}$
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ https://canadianoptimizer.com/$1/ [L,R=301]

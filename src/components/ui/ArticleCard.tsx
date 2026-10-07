@@ -17,7 +17,7 @@ export default function ArticleCard({
 }: ArticleCardProps) {
   return (
     <div className="group bg-white rounded-lg overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-      <Link href={`/blog/${slug}`} className="block overflow-hidden relative aspect-video">
+      <Link href={`/blog/${slug}/`} className="block overflow-hidden relative aspect-video">
         <Image 
           src={blogHeroSrc(imageUrl)} 
           alt={title} 
@@ -33,7 +33,7 @@ export default function ArticleCard({
           </span>
         </div>
         
-        <Link href={`/blog/${slug}`} className="block mb-2">
+        <Link href={`/blog/${slug}/`} className="block mb-2">
           <h3 className="text-[22px] font-semibold text-charcoal group-hover:text-canadian-red transition-colors line-clamp-2">
             {title}
           </h3>
