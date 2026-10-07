@@ -444,6 +444,10 @@ export const realEstateClusterPosts: EstatePost[] = [
 </div>`
     ),
     updated: '2026-10-07',
+    youtubeId: 'IdjVKZOWDqU',
+    youtubeTitle: 'Mortgage Renewal Stress Test in Canada: Does It Apply in 2026?',
+    youtubeUploadDate: '2026-10-07T05:52:02-04:00',
+    youtubeDuration: 'PT6M35S',
   },
 
   estatePost(
