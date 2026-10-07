@@ -1,4 +1,5 @@
 // GENERATED FILE - DO NOT EDIT DIRECTLY
+import type { BlogPostRecord } from '../lib/post-video';
 import { budgetingClusterPosts } from './budgeting-cluster';
 import { earningMoreClusterPosts } from './earning-more-cluster';
 import { retirementClusterPosts } from './retirement-cluster';
@@ -10,7 +11,7 @@ import { realEstateClusterPosts } from './real-estate-cluster';
 import { taxesClusterPosts } from './taxes-cluster';
 import { toolsClusterPosts } from './tools-cluster';
 
-export const posts = [
+export const posts: BlogPostRecord[] = [
   {
     title: "DIY ETF Portfolio for Canadians: Asset Allocation and Account Location",
     slug: "diy-etf-portfolio-asset-location-canada",

@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 type BudgetPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ type BudgetPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const meta = {
   category: 'Budgeting & Saving',

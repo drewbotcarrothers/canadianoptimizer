@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../../lib/post-video';
 export type OctPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ export type OctPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const date = '2026-10-04';
 

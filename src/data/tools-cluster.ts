@@ -1,3 +1,4 @@
+import type { PostVideoFields } from '../lib/post-video';
 type ToolPost = {
   title: string;
   slug: string;
@@ -9,7 +10,7 @@ type ToolPost = {
   excerpt: string;
   image: string;
   content: string;
-};
+} & PostVideoFields;
 
 const published = 'September 27, 2026';
 
