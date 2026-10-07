@@ -230,38 +230,43 @@ export const investingClusterPosts: InvestingPost[] = [
 </div>`
   ),
 
-  investingPost(
+  {
+    ...investingPost(
     'wealthsimple-vs-questrade',
-    'Wealthsimple vs Questrade (2026): Fees, FX, Account Types, and Who Should Use Which',
-    'As of September 2026, both charge $0 stock and ETF commissions and 1.5% to convert currency. The split is USD accounts, journaling, and account menus.',
+    'Wealthsimple vs Questrade (2026): Fees, FX, Journaling, and Which to Choose',
+    "Both list $0 stock and ETF commissions and 1.5% FX. The split: Wealthsimple's $10 USD account vs Questrade's free dual-currency, and $0 vs $150 to transfer out.",
     `<div class="container">
 
     <div class="hook">
-        As of September 2026, Wealthsimple and Questrade both list <span class="highlight">$0 commissions on Canadian and US stocks and ETFs</span>, and both list a 1.5% currency-conversion fee. Choose Wealthsimple if you will buy Canadian-listed ETFs and want the simpler app. Choose Questrade if you want dual-currency registered accounts without a monthly USD subscription, or you will journal often.
+        As of October 2026, Wealthsimple and Questrade both list <span class="highlight">$0 commissions on Canadian- and US-listed stocks and ETFs</span>, and both charge 1.5% to convert currency at the default rate. Choose Wealthsimple for Canadian-listed ETFs, a simple app and $0 to transfer out; choose Questrade for holding US dollars in an RRSP or TFSA with no monthly US-dollar (USD) fee. Journaling (Norbert's gambit) means buying a security listed in both Canadian and US dollars, then asking the broker to move those units from one listing to the other, instead of converting the cash. That request is $9.95 at both.
     </div>
 
-    <p>This comparison sits under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. The structural broker map, without a live price list, is the <a href="/blog/best-online-brokerages-canada/">brokerage guide</a>. The journal itself is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>. Neither firm is a referral here. There is no affiliate link on this page.</p>
+    <p>This comparison sits under the <a href="/category/investing/">investing category</a> and the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. The structural broker map, without a live price list, is the <a href="/blog/best-online-brokerages-canada/">brokerage guide</a>. The steps for the journal are in <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a>. Neither firm is a referral here. There is no affiliate link on this page.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Stock and ETF commissions: $0 at both, for securities listed in Canada or the United States, on the pages reviewed.</li>
-            <li>CAD-USD conversion: 1.5% at both when you convert. Wealthsimple's tiered lower rates apply only to cash moved between a CAD account and a USD account, and only in larger bands.</li>
-            <li>Wealthsimple USD accounts are $10 a month plus tax for Core clients after a 30-day trial, and included for Premium and Generation.</li>
-            <li>Questrade lists dual-currency accounts with no annual account fee and no inactivity fee. Journaling is $9.95 a request, or free with Questrade Plus.</li>
-            <li>Interactive Brokers is the third path when the conversion itself is the whole cost. Its spot schedule is not a 1.5% spread.</li>
+            <li>Stock and ETF commissions are $0 at both.</li>
+            <li>Foreign exchange (FX) is 1.5% from a Canadian-dollar (CAD) balance at both.</li>
+            <li>Wealthsimple USD accounts cost $10 a month plus tax for Core clients, after a 30-day free trial. They are free for Premium at $100,000 in assets and for Generation at $500,000 in assets. Conversions between CAD and USD accounts are tiered.</li>
+            <li>Questrade dual-currency accounts are free, with no annual fee and no inactivity fee.</li>
+            <li>Journaling is $9.95 at both, and free with Questrade Plus at $19.99 a month.</li>
+            <li>Transferring out is $150 per account at Questrade. Wealthsimple lists $0 on its fee schedule.</li>
+            <li>Both are Canadian Investor Protection Fund (CIPF) members.</li>
         </ul>
     </div>
 
     <div class="tip-box">
-        <strong>Choose Wealthsimple if…</strong> the portfolio is Canadian-listed ETFs, you want one app, and you will not convert currency often.
-        <p><strong>Choose Questrade if…</strong> you will hold US dollars inside an RRSP or TFSA, journal more than occasionally, or you want the self-directed desk and the Questwealth robo at the same firm. The robo fees are in <a href="/blog/best-robo-advisors-canada/">best robo-advisors</a>.</p>
+        <strong>Choose Wealthsimple if…</strong> the portfolio is Canadian-listed ETFs, you want the simpler app, and you want $0 to transfer out.
+        <p><strong>Choose Questrade if…</strong> you will hold US dollars inside an RRSP or TFSA with no monthly USD fee. Questwealth, the robo-advisor at the same firm, is a separate product. Those fees are in <a href="/blog/best-robo-advisors-canada/">best robo-advisors</a>.</p>
     </div>
 
     <h2>What do the fee schedules actually say?</h2>
 
+    <p>As of October 7, 2026, both list $0 commissions on Canadian- and US-listed stocks and ETFs, and 1.5% FX when a trade converts from a CAD balance. The schedules then split on the USD account, the conversion tier, journaling, options, and the fee to move an account to another institution.</p>
+
     <table>
-        <caption>Wealthsimple and Questrade self-directed pricing, as of September 2026</caption>
+        <caption>Self-directed pricing as of October 7, 2026</caption>
         <thead>
             <tr>
                 <th>Item</th>
@@ -271,82 +276,206 @@ export const investingClusterPosts: InvestingPost[] = [
         </thead>
         <tbody>
             <tr>
-                <td>Canadian and US stocks and ETFs, online</td>
-                <td>$0 commission</td>
-                <td>$0 commission to buy and to sell</td>
+                <td>Stocks and ETFs</td>
+                <td>$0 commission on listed US and Canadian securities.</td>
+                <td>$0 to buy and sell Canadian- and US-listed stocks and ETFs. ECN (electronic communication network) fees can apply only to some direct-routed or overnight US orders.</td>
             </tr>
             <tr>
-                <td>CAD-USD conversion</td>
-                <td>1.5% on trades from a CAD account. Between a CAD and a USD account: 1.5% under $10,000, 1.0% from $10,000 to $24,999.99, 0.5% from $25,000 to $99,999.99, 0% at $100,000 and over. Applied to Wealthsimple's corporate exchange rate, which itself includes a spread.</td>
-                <td>1.5%, included in the FX rate. Questrade says this fee was last updated 18 November 2023.</td>
+                <td>FX from a CAD balance</td>
+                <td>1.5% on US trades from a CAD account, applied to Wealthsimple's corporate exchange rate, which already includes a spread.</td>
+                <td>1.5% currency conversion.</td>
             </tr>
             <tr>
-                <td>USD account</td>
-                <td>$10 a month plus tax for Core, after a 30-day trial. Included if you are Premium or Generation and you opt in. Trading US-listed securities from the USD account has no per-trade FX fee.</td>
-                <td>Dual-currency is listed as enabled, with no annual account fee, so you can hold USD in registered accounts and avoid a forced conversion on each US trade.</td>
+                <td>USD account and conversion tiers</td>
+                <td>USD accounts are $10 a month plus tax for Core clients after a 30-day trial. Included for Premium ($100,000 and over in assets) and Generation ($500,000 and over). Conversions between CAD and USD accounts, per transaction: 1.5% under $10,000; 1.0% from $10,000 to $24,999.99; 0.5% from $25,000 to $99,999.99; 0% at $100,000 and over. No FX fee on US trades from the USD account.</td>
+                <td>Dual-currency is enabled for free. You can hold USD in registered accounts. No annual account fee. No inactivity fee.</td>
             </tr>
             <tr>
                 <td>Journaling (Norbert's gambit)</td>
-                <td>Help Centre: $9.95 plus tax per request, web only, Global X DLR and DLR.U only, about two business days, and you need a USD account.</td>
-                <td>$9.95 per online request. Free and unlimited with Questrade Plus. Requests can take up to five business days. A recent purchase needs one business day to settle before the journal.</td>
+                <td>$9.95 plus tax per request. Web only. DLR and DLR.U only. About two business days. You need a USD account.</td>
+                <td>$9.95 per online request. Free and unlimited with Questrade Plus. Up to five business days, plus one business day if the shares were just bought. Not available online in an RESP.</td>
             </tr>
             <tr>
-                <td>Options, if you use them</td>
-                <td>Pricing page lists $0 USD options for Core, Premium, and Generation. Confirm the contract schedule before you trade.</td>
-                <td>CAD options: $0 plus $0.99 per contract. US equity options: $0 on the pricing page reviewed, with a separate index schedule.</td>
+                <td>Options</td>
+                <td>US$0 equity and ETF options contract fee. Index options have their own fees.</td>
+                <td>$0 US equity options. CAD options are $0 plus $0.99 per contract. US index options are US$0.99 per contract since 28 September 2026.</td>
+            </tr>
+            <tr>
+                <td>Monthly plan</td>
+                <td>None needed. Premium and Generation are tiers by assets.</td>
+                <td>Questrade Plus is optional at $19.99 a month plus tax after a 30-day trial. It includes free journaling, a 1% RRSP deposit match, and $0.05 CAD cashback per US equity option contract.</td>
+            </tr>
+            <tr>
+                <td>Transfer out to another institution</td>
+                <td>$0 for outgoing account transfers, on the Wealthsimple trade fee schedule.</td>
+                <td>$150 per account, full or partial.</td>
             </tr>
         </tbody>
     </table>
 
-    <p>Table as of September 2026. Sources are the Wealthsimple pricing page and trade fee schedule, and Questrade's transaction-fee and journaling pages. Questrade Plus is free to all customers until 30 September 2026; from 1 October 2026 Questrade lists it at $19.99 a month plus tax. Do not build a multi-year plan on a three-day promotion.</p>
+    <p>Questrade Plus has billed $19.99 a month plus tax since October 1, 2026.</p>
 
     <h2>Who pays the 1.5% more than once?</h2>
 
-    <p>A Canadian-listed asset-allocation ETF never needs this line. XEQT and VEQT trade in Canadian dollars. The <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a> decision is holdings and MER, not FX. You pay the 1.5% when you buy or sell a US-listed security from a CAD balance, or when you convert cash.</p>
+    <p>You pay it twice when you buy a US-listed security from a CAD balance and later sell that security back into CAD. Holding the US dollars skips the second conversion until you switch back. A Canadian-listed fund such as XEQT or VEQT trades in Canadian dollars, so the <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a> choice is holdings and the management expense ratio, not FX.</p>
 
     <div class="example-box">
-        <strong>Illustration: converting $10,000 once</strong>
-        <p>At 1.5%, $10,000 costs $150 before any spread already inside the corporate rate. A $9.95 journal is $9.95 plus sales tax. In Ontario, 13% HST on $9.95 is about $1.29, so the ticket is about $11.24. That is the arithmetic, not a quote of your province's tax. The break-even against 1.5%, before the ETF's bid-ask, is $9.95 divided by 0.015, about $663, and higher once tax and the spread are in. On $10,000 the journal is the cheaper posted fee. At Interactive Brokers Canada's spot schedule, tier one is 0.20 basis points with a USD $2 minimum, so $10,000 costs the $2 minimum, not $150. Auto-conversion there is typically 0.03%, which is $3 on $10,000. Norbert's gambit is the wrong tool at that broker. Details are in the <a href="/blog/norberts-gambit-canada-guide/">gambit guide</a>.</p>
+        <strong>Example: converting $10,000 once (illustrative)</strong>
+        <p>This example is illustrative arithmetic. At 1.5%, $10,000 costs $150. That is a CAD-account trade at Wealthsimple, or a Questrade conversion, before any spread already inside the rate.</p>
+        <p>At Wealthsimple with a USD account, a single $10,000 conversion falls in the 1.0% tier, which is $100. The journal is $9.95 plus 13% Ontario harmonized sales tax (HST), about $11.24. Another province's sales tax changes that ticket. The break-even against 1.5%, before the ETF's bid-ask, is $9.95 divided by 0.015, about $663, and higher once tax and the spread are in.</p>
+        <p>At Interactive Brokers Canada's spot schedule, tier I is 0.20 basis points with a USD $2 minimum, so $10,000 costs the $2 minimum, not $150. Auto-conversion there is typically 0.03%, which is $3 on $10,000. Norbert's gambit is the wrong tool at that broker. Details are in the <a href="/blog/norberts-gambit-canada-guide/">gambit guide</a>.</p>
     </div>
 
-    <p>Wealthsimple Core clients also pay $10 a month plus tax for the USD account the gambit requires, unless they are already Premium or Generation. On a single conversion, add that month. On a standing USD RRSP, it is a subscription, and Questrade's "no annual account fee" line is the comparison.</p>
+    <p>Wealthsimple Core clients also pay $10 a month plus tax for the USD account the journal needs, unless they are already Premium or Generation. On a single conversion, add that month. On a standing USD RRSP, it is a subscription. Questrade's free dual-currency account, with no annual account fee, is the comparison.</p>
+
+    <h2>Which is cheaper for US stocks? A $20,000 example</h2>
+
+    <p>The commission is $0 at either broker. On $20,000 of US-listed ETFs, a 1.5% conversion is $300, and a journal is about $11 before the fund's spread.</p>
+
+    <div class="example-box">
+        <strong>Example (illustrative)</strong>
+        <p>An investor moves $20,000 into US-listed ETFs inside an RRSP. The fees below are before any spread in the exchange rate. This example is illustrative.</p>
+        <p>Whether that US-listed fund belongs in the RRSP is a withholding question. The account test is <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>, and the fund comparison is <a href="/blog/vfv-vs-voo-canadians/">VFV versus VOO</a>.</p>
+        <table>
+            <caption>Five ways to put $20,000 into US-listed ETFs inside an RRSP (illustrative)</caption>
+            <thead>
+                <tr>
+                    <th>Path</th>
+                    <th>Posted fee</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wealthsimple, buy from the CAD account</td>
+                    <td>1.5% equals $300 on the way in, and 1.5% again when you sell back to CAD.</td>
+                </tr>
+                <tr>
+                    <td>Wealthsimple USD account, one $20,000 conversion</td>
+                    <td>The 1.0% tier equals $200, plus $10 a month plus tax for Core ($120 a year before tax).</td>
+                </tr>
+                <tr>
+                    <td>Questrade conversion</td>
+                    <td>1.5% equals $300, then hold USD in the dual-currency RRSP with no monthly fee.</td>
+                </tr>
+                <tr>
+                    <td>Questrade journal (Norbert's gambit with DLR)</td>
+                    <td>$9.95 plus tax, about $11.24 in Ontario, plus the DLR bid-ask spread. Free with Plus.</td>
+                </tr>
+                <tr>
+                    <td>Wealthsimple journal</td>
+                    <td>About $11.24 in Ontario, plus the spread, plus the USD account fee for Core.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The commission is $0 either way; the conversion method is the bill ($300 vs about $11 on the same $20,000).</p>
+    </div>
+
+    <h2>Which should you choose? A simple decision rule</h2>
+
+    <p>Match the broker to the currency you will hold, and to whether you might leave later. Canadian-listed ETFs stay in CAD. A long-term USD balance in an RRSP or TFSA is the case that separates the two firms.</p>
+
+    <table>
+        <caption>Which broker fits the situation, as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Situation</th>
+                <th>Pick</th>
+                <th>Why</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Only Canadian-listed ETFs (for example <a href="/blog/xeqt-vs-veqt-canada/">XEQT or VEQT</a>), no USD</td>
+                <td>Either</td>
+                <td>Wealthsimple if you want the simpler app and $0 to transfer out.</td>
+            </tr>
+            <tr>
+                <td>Holding USD long-term in an RRSP or TFSA, Core-size account</td>
+                <td>Questrade</td>
+                <td>Free dual-currency, and no $10 a month.</td>
+            </tr>
+            <tr>
+                <td>$100,000 or more with Wealthsimple</td>
+                <td>Wealthsimple</td>
+                <td>USD accounts are included. A conversion of $100,000 or more in one transaction is 0%.</td>
+            </tr>
+            <tr>
+                <td>You journal 25 or more times a year, or you max your RRSP at Questrade</td>
+                <td>Questrade Plus can pay for itself</td>
+                <td>$19.99 times 12 is $239.88 a year before tax, which is about 25 journals at $9.95, or $23,988 of RRSP contributions at a 1% match. At the 2026 maximum of $33,810 the match is $338.10. How that room works is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</td>
+            </tr>
+            <tr>
+                <td>You might switch brokers later</td>
+                <td>Note the transfer-out fee</td>
+                <td>$150 per account at Questrade versus $0 at Wealthsimple.</td>
+            </tr>
+        </tbody>
+    </table>
 
     <h2>Which accounts can you actually open?</h2>
 
-    <p>Self-directed menus move. Wealthsimple's own pages say you can upgrade self-directed stock accounts to USD, and that you convert only between paired accounts: a CAD TFSA to a USD TFSA, not a CAD TFSA to a USD RRSP. Questrade's journaling page says online journaling is not available in an RESP; you call or chat for that account. Before you transfer a retirement account, confirm FHSA, RESP, LIRA, RRIF, and spousal RRSP on the firm's current list. A perfect fee on a missing account type is not a perfect fee.</p>
+    <p>Wealthsimple USD accounts are available on a TFSA, an FHSA, an RRSP, a spousal RRSP, an RRIF, a spousal RRIF, a LIRA, a LIF, an RESP, a non-registered account, a margin account, and a corporate account. They are not available on managed accounts. Questrade lists TFSA, RRSP, FHSA, RESP, and RRIF accounts with no account fee, and dual currency in registered accounts.</p>
 
-    <p>Transfers in are a different bill from trades. Read the transfer-out fee and any reimbursement before you move a TFSA or RRSP. Withdrawing and re-contributing is not a transfer. That mistake is in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. Where the US-listed sleeve belongs, once the broker can hold it, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</p>
+    <p>Online journaling is not available in a Questrade RESP. Where a US-listed holding belongs, once the broker can hold it, is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>. Withdrawing and re-contributing is not a transfer. That mistake is in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>.</p>
 
-    <h2>What this page will not call a winner</h2>
+    <h2>Is your money protected at either broker?</h2>
 
-    <p>Research tools, fractional shares, options depth, and phone support change, and they matter only if you use them. CIPF membership is a coverage fact with a limit you should read on <a href="https://www.cipf.ca/">cipf.ca</a>, not a reason to pick a logo. Wealthsimple's managed portfolios and Questrade's Questwealth are a separate product with a management fee. Do not compare a self-directed $0 commission with a robo percentage as if they were the same service.</p>
+    <p>Both list CIPF membership. For an individual, the CIPF limit is $1 million for all general accounts combined (cash, margin, TFSA, and FHSA), plus $1 million for all registered retirement accounts combined (RRSP, RRIF, and LIF), plus $1 million for RESPs.</p>
+
+    <p>CIPF covers property held by an insolvent member firm. It does not cover market losses, and crypto is excluded. The limits are on the <a href="https://www.cipf.ca/cipf-coverage/about-cipf-coverage">CIPF coverage page</a>.</p>
+
+    <h2>What should you ignore when you compare them?</h2>
+
+    <p>Research tools, fractional shares, options depth, and phone support change, and they matter when you use them. Wealthsimple's managed portfolios and Questrade's Questwealth charge a management fee on top of the funds they hold. Compare those products in <a href="/blog/best-robo-advisors-canada/">best robo-advisors</a>, separately from a self-directed $0 commission.</p>
 
     <h2>Frequently asked questions</h2>
 
     <h3>Is Wealthsimple or Questrade cheaper in 2026?</h3>
-    <p>For Canadian-listed ETFs bought with Canadian dollars, both list $0 commissions, so the cheaper one is the one you will actually use. The gap opens when you convert currency. Both list 1.5%. Wealthsimple then adds a $10 monthly USD-account fee for Core clients. Questrade lists dual-currency without that monthly fee and charges $9.95 to journal. Price your own orders.</p>
+    <p>For Canadian-listed ETFs bought with Canadian dollars, both list $0 commissions, so the cheaper one is the one you will actually use. The gap opens on FX, the USD account, and the transfer out. Both list 1.5% from a CAD balance. Wealthsimple charges $10 a month plus tax for a Core USD account after a 30-day trial. Questrade dual-currency has no monthly fee. Journaling is $9.95 at both. Transferring an account out is $150 per account at Questrade and $0 at Wealthsimple.</p>
 
     <h3>Does the 1.5% apply twice, on the buy and on the sell?</h3>
-    <p>At Wealthsimple, a US trade placed from a CAD account is converted on the order. Selling back into CAD converts again. A USD account avoids the per-trade fee; you pay when you move cash between CAD and USD, on the tier for that amount. Questrade's 1.5% is on the conversion. Holding the USD proceeds skips the second conversion until you switch back.</p>
+    <p>At Wealthsimple, a US trade placed from a CAD account is converted on the order. Selling back into CAD converts again. A USD account has no FX fee on the US trade. You pay when you move cash between the CAD and USD accounts, on the tier for that amount. A single $10,000 conversion is in the 1.0% tier, which is $100. Questrade's 1.5% is on the conversion. Holding the USD proceeds in the dual-currency account skips the second conversion until you switch back.</p>
 
-    <h3>Is Questrade Plus worth $19.99 a month for free journaling?</h3>
-    <p>Only if you journal often enough that $9.95 a request exceeds the subscription, and you will use the other Plus items. One journal a year does not. Questrade says Plus is free for all customers until 30 September 2026 and $19.99 a month plus tax after that. Read the current offer. Do not subscribe to save a fee you will not incur.</p>
+    <h3>Is Questrade Plus worth $19.99 a month?</h3>
+    <p>It can pay for itself if you journal often, or if you contribute a large RRSP at Questrade. Plus is $19.99 a month plus tax after a 30-day trial, and it has billed that rate since October 1, 2026. Twelve months is $239.88 before tax, which is about 25 journals at $9.95, or $23,988 of RRSP contributions at the 1% deposit match. At the 2026 RRSP maximum of $33,810, a 1% match is $338.10. One journal a year does not cover the subscription. The room and the deduction are in the <a href="/blog/rrsp-playbook/">RRSP playbook</a>.</p>
 
     <h3>Can I hold VOO at either broker?</h3>
-    <p>VOO is a US-listed ETF. Both brokers list US-listed ETFs at $0 commission. You still pay to get Canadian dollars into US dollars unless the account already holds USD. Whether VOO belongs in the account at all is a withholding question, not a commission question. See <a href="/blog/vfv-vs-voo-canadians/">VFV versus VOO</a>.</p>
+    <p>Yes. VOO is a US-listed ETF, and both brokers list US-listed ETFs at $0 commission. You still pay to turn Canadian dollars into US dollars unless the account already holds USD. Whether VOO belongs in the account is a withholding question, not a commission question. See <a href="/blog/vfv-vs-voo-canadians/">VFV versus VOO</a> and <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>.</p>
 
     <h3>Which one is better for a TFSA all-in-one ETF?</h3>
-    <p>Either, if the only trade is a Canadian-listed fund and you will not convert currency. Both list $0 commissions on those ETFs. Pick the app you will actually fund in January. The fund choice is <a href="/blog/best-etfs-tfsa-canada/">best ETFs for a TFSA</a>, not the broker logo. A USD account does not help that trade.</p>
+    <p>Either, if the only trade is a Canadian-listed fund and you will not convert currency. Both list $0 commissions on those ETFs. Pick the app you will fund. The fund choice is <a href="/blog/best-etfs-tfsa-canada/">best ETFs for a TFSA</a>. A USD account does not change that trade. Wealthsimple's $0 transfer-out is the difference if you might move the TFSA later.</p>
 
     <h3>Are these figures promotional?</h3>
-    <p>The $0 commissions and the 1.5% FX lines are from the firms' own pricing pages, not from a bonus. Welcome bonuses and transfer rebates were left out on purpose. They change, and they are often unavailable if you have held an account before. Confirm the schedule the day you apply.</p>
+    <p>The $0 commissions and the 1.5% FX lines are from the firms' own pricing pages, not from a bonus. Welcome bonuses and transfer rebates are left out on purpose. They change, and they are often unavailable if you have held an account before. These figures were checked on October 7, 2026. Confirm the schedule the day you apply.</p>
+
+    <h3>Does Wealthsimple charge a journaling fee?</h3>
+    <p>Yes. Wealthsimple charges $9.95 plus tax per request. The request is web only, it is limited to DLR and DLR.U, it takes about two business days, and you need a USD account.</p>
+
+    <h3>What are Questrade's FX fees, and how do you avoid them?</h3>
+    <p>Questrade charges 1.5% to convert currency. Hold US dollars in a dual-currency account so the next US trade stays in US dollars, or journal for $9.95. Journaling is free and unlimited with Questrade Plus.</p>
+
+    <h3>How much does it cost to transfer out of Wealthsimple or Questrade?</h3>
+    <p>Questrade charges $150 per account, whether the transfer is full or partial. Wealthsimple lists $0 for outgoing account transfers on its trade fee schedule.</p>
+
+    <h3>Is a Wealthsimple USD account worth $10 a month?</h3>
+    <p>It is worth the fee if you trade US-listed securities often enough that 1.5% per trade exceeds $120 a year. For example, 1.5% on $8,000 of US trades is $120. That comparison is illustrative. Core clients pay $10 a month plus tax after a 30-day trial, which is $120 a year before tax. The USD account is included at Premium, from $100,000 in assets, and at Generation, from $500,000.</p>
+
+    <h3>Are Wealthsimple and Questrade CIPF members?</h3>
+    <p>Yes. Both list Canadian Investor Protection Fund (CIPF) membership. For an individual, CIPF covers $1 million for all general accounts combined (cash, margin, TFSA, and FHSA), plus $1 million for all registered retirement accounts combined (RRSP, RRIF, and LIF), plus $1 million for RESPs. It covers property held by an insolvent member firm. It does not cover market losses, and crypto is excluded.</p>
 
     <h2>Sources</h2>
+    <p>Checked October 7, 2026.</p>
     <ul>
         <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing</a> and the <a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">trade fee schedule</a></li>
         <li><a href="https://help.wealthsimple.com/hc/en-ca/articles/4414660979355-Upgrade-to-USD-accounts-for-stock-and-crypto-trading">Wealthsimple: USD accounts</a></li>
+        <li><a href="https://help.wealthsimple.com/hc/en-ca/articles/45418222943131-Convert-currency-with-Norbert-s-Gambit">Wealthsimple: convert currency with Norbert's gambit</a></li>
         <li><a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">Questrade transaction fees</a> and <a href="https://www.questrade.com/learning/stocks-etfs/journaling-shares">journaling shares</a></li>
+        <li><a href="https://www.questrade.com/pricing-fees">Questrade pricing and fees</a></li>
+        <li><a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/administrative">Questrade administrative fees</a></li>
+        <li><a href="https://www.questrade.com/plus">Questrade Plus</a></li>
         <li><a href="https://www.interactivebrokers.ca/en/pricing/commissions-spot-currencies.php">Interactive Brokers Canada: spot currency commissions</a></li>
+        <li><a href="https://www.cipf.ca/cipf-coverage/about-cipf-coverage">CIPF coverage</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, RRSP, DPSP, TFSA limits and the YMPE</a></li>
     </ul>
 
     <div class="cta-section">
@@ -358,8 +487,9 @@ export const investingClusterPosts: InvestingPost[] = [
     ${footer('September 27, 2026')}
 
 </div>`
-  ),
-
+    ),
+    updated: '2026-10-07',
+  },
   investingPost(
     'xeqt-vs-veqt-canada',
     'XEQT vs VEQT (and XGRO vs VGRO): Which All-in-One ETF for Canadians?',
