@@ -489,6 +489,10 @@ export const investingClusterPosts: InvestingPost[] = [
 </div>`
     ),
     updated: '2026-10-07',
+    youtubeId: 'PbaO7DefW2w',
+    youtubeTitle: 'Wealthsimple vs Questrade 2026: FX Fees Are the Real Cost',
+    youtubeUploadDate: '2026-10-09T04:40:44-04:00',
+    youtubeDuration: 'PT7M4S',
   },
   investingPost(
     'xeqt-vs-veqt-canada',
