@@ -43,36 +43,45 @@ const footer = (published: string) => `<div class="article-footer">
 
 const published = 'September 27, 2026';
 
+const capitalGainsFooter = `<div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian income tax as of October 2026. It is not tax, legal, or investment advice, and it is not a filing position. Brackets, credits, penalties, and inclusion rates change, and they depend on your return. Figures below are tied to CRA, the Department of Finance, Revenu Québec, or a provincial finance page reviewed in October 2026. Dollar examples are illustrations of arithmetic, not a projection of your assessment. Confirm the current form and consult a tax professional for your file.</p>
+        <div class="footer-note">Published: ${published} | Category: Taxes | Author: Andrew</div>
+    </div>`;
+
 export const taxesClusterPosts: TaxPost[] = [
-  taxPost(
-    'capital-gains-tax-canada',
-    'Capital Gains Tax in Canada (2026): 50% Inclusion, Calculation, and Planning',
-    'In 2026, one-half of a capital gain is taxable in Canada. The proposal to raise that inclusion rate to two-thirds was cancelled in March 2025 and was not enacted.',
-    `<div class="container">
+  {
+    ...taxPost(
+      'capital-gains-tax-canada',
+      'Capital Gains Tax in Canada (2026): 50% Inclusion, Calculation, and Planning',
+      'In 2026, 50% of a capital gain is added to income and taxed at your marginal rate. The lifetime capital gains exemption is $1,275,000.',
+      `<div class="container">
 
     <div class="hook">
-        In 2026, Canada taxes <span class="highlight">one-half of a capital gain</span>. The other half is not included in income. A 2024 proposal to raise the inclusion rate to two-thirds was cancelled on March 21, 2025, and it was never passed into law. The map of the system these gains sit inside is <a href="/blog/how-canadian-taxes-work/">how Canadian taxes work</a>.
+        In 2026, <span class="highlight">one-half (50%) of a capital gain</span> is added to your income. That half is taxed at your marginal rate. The other half is not included in income. A 2024 proposal to raise the inclusion rate to two-thirds was cancelled on March 21, 2025, and it was never passed into law. Budget 2025, tabled on November 4, 2025, confirmed that one-half stays. The map of the system these gains sit inside is <a href="/blog/how-canadian-taxes-work/">how Canadian taxes work</a>.
     </div>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Taxable capital gain = one-half of (proceeds minus adjusted cost base minus selling costs), under the inclusion rate in force for 2026.</li>
-            <li>The two-thirds rate, and the $250,000 individual threshold that went with it, were a proposal. The Prime Minister cancelled that proposal on March 21, 2025.</li>
-            <li>CRA pages written at the January 2025 deferral still describe a January 1, 2026 effective date. That text describes a proposal that was later dropped. The enacted rate CRA was already administering is one-half.</li>
-            <li>A capital loss offsets capital gains, not salary. The superficial-loss rule can deny the loss if you rebuy too soon.</li>
-            <li>The lifetime capital gains exemption is a different rule, for qualifying small-business shares and farm or fishing property, not for a typical ETF.</li>
+            <li>In 2026, one-half (50%) of a capital gain is added to your income and taxed at your marginal rate.</li>
+            <li>Taxable capital gain = one-half of (proceeds minus adjusted cost base minus selling costs).</li>
+            <li>Budget 2025, tabled November 4, 2025, confirmed the one-half inclusion rate stays. The cancelled two-thirds increase will not proceed. The proposed Canadian Entrepreneurs' Incentive is not going ahead either.</li>
+            <li>Some CRA pages still repeat the January 2025 deferral and a January 1, 2026 effective date. That text describes a proposal that was later dropped.</li>
+            <li>A capital loss offsets capital gains, not salary. Net capital losses carry back 3 years on Form T1A and forward indefinitely. The superficial-loss rule can deny the loss if you rebuy too soon.</li>
+            <li>The lifetime capital gains exemption for 2026 is $1,275,000. The maximum deduction is $637,500. It is for qualified small business corporation shares and qualified farm or fishing property, not a typical ETF.</li>
         </ul>
     </div>
 
     <h2>What is the capital gains inclusion rate in 2026?</h2>
 
-    <p>The inclusion rate is the fraction of a capital gain that enters your income. For 2026 that fraction is one-half, for individuals, corporations, and trusts, unless a specific exemption sets it to zero. There is no annual $250,000 band at a higher rate, because that band was part of the proposal that did not become law.</p>
+    <p>The inclusion rate is the fraction of a capital gain that enters your income. For 2026 that fraction is one-half (50%), for individuals, corporations, and trusts, unless a specific exemption sets it to zero. There is no annual $250,000 band at a higher rate, because that band was part of the proposal that did not become law.</p>
 
-    <p>The sequence, from the official notices, is short. Budget 2024 proposed raising the rate from one-half to two-thirds, above $250,000 of gains a year for individuals and on all gains of corporations and most trusts, from June 25, 2024. On January 31, 2025 the Department of Finance deferred that date to January 1, 2026, and the CRA said it would keep administering the enacted one-half rate for gains before the new date. On March 21, 2025 the Prime Minister announced the government would cancel the increase. The increase was not enacted. Some CRA "what's new" pages still repeat the January deferral language. Read them as history of a proposal, not as the 2026 rate.</p>
+    <p>The sequence, from the official notices, is short. Budget 2024 proposed raising the rate from one-half to two-thirds, above $250,000 of gains a year for individuals and on all gains of corporations and most trusts, from June 25, 2024. On January 31, 2025 the Department of Finance deferred that date to January 1, 2026, and the CRA said it would keep administering the enacted one-half rate for gains before the new date. On March 21, 2025 the Prime Minister announced the government would cancel the increase. The increase was not enacted.</p>
+
+    <p>Budget 2025, tabled on November 4, 2025, confirmed that the one-half inclusion rate stays and that the cancelled two-thirds increase will not proceed. The proposed Canadian Entrepreneurs' Incentive is not going ahead either. Some CRA "what's new" pages still repeat the January deferral language. Read them as history of a proposal, not as the 2026 rate.</p>
 
     <table>
-        <caption>Capital gains inclusion rate, as of September 2026</caption>
+        <caption>Capital gains inclusion rate, as of October 2026</caption>
         <thead>
             <tr>
                 <th>What happened</th>
@@ -97,6 +106,11 @@ export const taxesClusterPosts: TaxPost[] = [
                 <td>Prime Minister of Canada</td>
             </tr>
             <tr>
+                <td>Budget 2025, tabled November 4, 2025</td>
+                <td>Confirmed one-half stays. The two-thirds increase will not proceed. The proposed Canadian Entrepreneurs' Incentive is not going ahead</td>
+                <td>Department of Finance, Budget 2025</td>
+            </tr>
+            <tr>
                 <td>Gift of certain listed securities to a qualified donee</td>
                 <td>Inclusion rate of zero on that gift</td>
                 <td>CRA, capital gains on gifts of certain capital property</td>
@@ -104,42 +118,117 @@ export const taxesClusterPosts: TaxPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026. The lifetime exemption increase to $1.25 million was kept. That is a separate limit, covered below. The account-location version of this rule is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>.</p>
+    <p>Table as of October 2026. The lifetime capital gains exemption is a separate limit, covered below. Where you hold the investment is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. More of the filing cluster is in <a href="/category/taxes/">Taxes</a>.</p>
 
-    <h2>How do you calculate the tax?</h2>
+    <h2>How do I calculate capital gains tax in Canada? (step by step)</h2>
 
-    <p>A capital gain is not a tax rate. It is an amount that then rides your ordinary brackets. Three numbers:</p>
+    <p>A capital gain is not a tax rate. It is an amount that then rides your ordinary brackets. The adjusted cost base (ACB) is what you paid, plus costs to buy, adjusted for returns of capital and reinvested distributions. A T5008 is an input, not the books. The habit is in the <a href="/blog/tax-record-keeping/">record-keeping guide</a>.</p>
 
     <ol>
-        <li><strong>Proceeds of disposition.</strong> What you received, generally the selling price.</li>
-        <li><strong>Adjusted cost base.</strong> What you paid, plus costs to buy, adjusted for returns of capital and reinvested distributions. A T5008 is an input, not the books. The habit is in the <a href="/blog/tax-record-keeping/">record-keeping guide</a>.</li>
-        <li><strong>Outlays and expenses.</strong> Commission to sell, for example.</li>
+        <li><strong>Find the capital gain.</strong> Gain = proceeds of disposition − adjusted cost base (ACB) − selling costs. Proceeds are what you received, generally the selling price. Selling costs are outlays such as the commission to sell.</li>
+        <li><strong>Take one-half.</strong> Taxable capital gain = one-half of the gain. The other half is not included in income.</li>
+        <li><strong>Add the taxable capital gain to your other income</strong> for the year.</li>
+        <li><strong>Tax that amount at your combined federal and provincial marginal rate.</strong> Report the disposition on Schedule 3.</li>
     </ol>
 
-    <p>Gain = proceeds − adjusted cost base − outlays. Taxable capital gain = one-half of that gain. That taxable half is added to your other income and taxed at your marginal rate. The other half is not taxed. You report it on Schedule 3.</p>
+    <p>CRA's current-year brackets page sets these 2026 federal rates on taxable income:</p>
+
+    <table>
+        <caption>2026 federal tax brackets, CRA current-year page</caption>
+        <thead>
+            <tr>
+                <th>Taxable income</th>
+                <th>Federal rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Up to $58,523</td>
+                <td>14%</td>
+            </tr>
+            <tr>
+                <td>Over $58,523 up to $117,045</td>
+                <td>20.5%</td>
+            </tr>
+            <tr>
+                <td>Over $117,045 up to $181,440</td>
+                <td>26%</td>
+            </tr>
+            <tr>
+                <td>Over $181,440 up to $258,482</td>
+                <td>29%</td>
+            </tr>
+            <tr>
+                <td>Over $258,482</td>
+                <td>33%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Your province or territory adds its own tax. Ontario's 2026 brackets start at 5.05% up to $53,891 and 9.15% up to $107,785. The rate on a gain is the combined federal and provincial marginal rate on your taxable income.</p>
 
     <div class="example-box">
         <strong>Illustration: Priya in Ontario sells ETF units</strong>
         <p>Proceeds $58,000. Adjusted cost base $40,000. Commission $50. Capital gain = $58,000 − $40,000 − $50 = $17,950. Taxable capital gain = one-half × $17,950 = $8,975. The other $8,975 is not included. If the included half is taxed at a combined marginal rate of 29.65 percent — the federal 20.5 percent bracket plus Ontario's 9.15 percent bracket, which is where the <a href="/blog/canada-income-tax-calculator/">2026 calculator</a> lands on about $80,000 of ordinary taxable income — the tax on this gain is about $8,975 × 0.2965 = $2,661. That rate is an illustration of those two brackets, not her whole return. Provincial surtax, credits, and other income move it.</p>
     </div>
 
-    <p>The same $17,950 at a two-thirds inclusion would have put $11,967 into income. That is the proposal that was cancelled. Do not file 2026 on that fraction.</p>
+    <p>The same $17,950 at a two-thirds inclusion would have put $11,967 into income. That is the proposal that was cancelled. Budget 2025 confirmed that increase will not proceed. Do not file 2026 on that fraction.</p>
 
-    <h2>What if you have a loss?</h2>
+    <h2>What if I have a capital loss?</h2>
 
-    <p>An allowable capital loss is one-half of a capital loss, matching the inclusion rate. It offsets taxable capital gains. It does not offset salary, interest, or business income. Unused net capital losses carry back three years on Form T1A and forward indefinitely, still against capital gains. The year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>.</p>
+    <p>An allowable capital loss is one-half of a capital loss, matching the inclusion rate. It offsets taxable capital gains. It does not offset salary, interest, or business income.</p>
 
-    <p>The superficial-loss rule denies the loss when you, or an affiliated person, acquire the same property in the window that runs 30 days before the sale and 30 days after, and still hold it at the end of that window. A repurchase inside your TFSA or RRSP is the version that deletes the loss permanently, because those accounts have no personal capital gain to attach the denied loss to.</p>
+    <p>Unused net capital losses carry back 3 years on Form T1A and forward indefinitely, still against capital gains. The year-end sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>. The broader December list is the <a href="/blog/year-end-tax-checklist/">year-end tax checklist</a>.</p>
 
-    <h2>Which gains are not taxed at one-half?</h2>
+    <p>The superficial-loss rule denies the loss when you, or an affiliated person, buy identical property in the window that runs 30 calendar days before the sale to 30 calendar days after the sale, and still own that property 30 days after the sale. An affiliated person includes a spouse or common-law partner, and a corporation you control.</p>
 
-    <ul>
-        <li><strong>Your principal residence,</strong> when the exemption applies. The designation rules, and the trap when a property was also a rental, sit with the <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a> comparison. This page does not replace Form T2091.</li>
-        <li><strong>Gains inside a TFSA, RRSP, RRIF, or FHSA.</strong> There is no personal capital gain on a sale inside those accounts. The RRSP version comes back later as ordinary income when you withdraw. The account comparison is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>.</li>
-        <li><strong>Listed securities donated in kind</strong> to a registered charity or other qualified donee. The inclusion rate on that gift can be zero, and you still get a donation receipt for fair market value. The credit math is the <a href="/blog/charitable-donation-tax-credit-canada/">donation tax credit</a>.</li>
-        <li><strong>Qualifying small-business shares and qualified farm or fishing property,</strong> up to the lifetime capital gains exemption. CRA describes the limit as $1.25 million for dispositions after June 24, 2024, with indexation resuming in 2026. The federal indexing factor CRA published for January 1, 2026 is 2.0 percent. Applied to $1.25 million, that arithmetic is $1,275,000. Confirm the indexed dollar on CRA's indexation chart before you rely on it. The exemption is not a credit on a cottage or a public stock.</li>
-        <li><strong>Business income, not capital.</strong> If you are trading rather than investing, the profit can be fully included. That distinction is the whole of the <a href="/blog/crypto-tax-canada/">crypto tax guide</a>, and it applies to shares too.</li>
-    </ul>
+    <p>The denied loss can usually be added to the adjusted cost base of the substituted property. A repurchase inside your TFSA or RRSP is the version that deletes the loss permanently, because those accounts have no personal capital gain to attach the denied loss to.</p>
+
+    <h2>Where is a gain taxed at one-half, zero, or fully?</h2>
+
+    <table>
+        <caption>Where is a gain taxed at one-half, zero, or fully?</caption>
+        <thead>
+            <tr>
+                <th>Where the gain is</th>
+                <th>How it is taxed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Non-registered ETF or stock sale</td>
+                <td>One-half inclusion</td>
+            </tr>
+            <tr>
+                <td>Inside a TFSA, RRSP, RRIF, or FHSA</td>
+                <td>No capital gain. RRSP and RRIF withdrawals are fully taxed as income</td>
+            </tr>
+            <tr>
+                <td>Principal residence, if the exemption applies</td>
+                <td>Generally exempt</td>
+            </tr>
+            <tr>
+                <td>Listed securities donated in kind to a qualified donee</td>
+                <td>Zero inclusion</td>
+            </tr>
+            <tr>
+                <td>Frequent trading that is business income</td>
+                <td>Fully taxed</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>A sale inside a TFSA, RRSP, RRIF, or FHSA is not a personal capital gain. RRSP and RRIF withdrawals are fully taxed as income. The account comparison is <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a>.</p>
+
+    <p>Your principal residence is generally exempt when the exemption applies. The designation rules, and the trap when a property was also a rental, sit with the <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a> comparison. This page does not replace Form T2091.</p>
+
+    <p>Listed securities donated in kind to a registered charity or other qualified donee can have an inclusion rate of zero, and you still get a donation receipt for fair market value. The credit math is the <a href="/blog/charitable-donation-tax-credit-canada/">donation tax credit</a>.</p>
+
+    <p>The lifetime capital gains exemption for 2026 is $1,275,000, from CRA's 2026 indexation table. The maximum capital gains deduction is $637,500, which is half of that limit. It was $1,250,000 for 2025 and for dispositions after June 24, 2024.</p>
+
+    <p>The exemption is for qualified small business corporation shares and qualified farm or fishing property only. It is not available on a cottage, a rental, or a public stock.</p>
+
+    <p>If you are trading rather than investing, the profit can be fully included as business income. That distinction is the whole of the <a href="/blog/crypto-tax-canada/">crypto tax guide</a>, and it applies to shares too.</p>
 
     <div class="warning-box">
         <strong>Large gains can still trigger minimum tax:</strong>
@@ -148,33 +237,47 @@ export const taxesClusterPosts: TaxPost[] = [
 
     <h2>Does the rate differ inside a corporation?</h2>
 
-    <p>The inclusion rate is one-half there too, now that the two-thirds proposal is cancelled. The taxable half is investment income inside a Canadian-controlled private corporation, taxed up front, with a refundable piece when the company pays a taxable dividend. The untaxed half can be added to the capital dividend account and paid out as a capital dividend, which requires an election. That machinery is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. It is accountant work.</p>
+    <p>The inclusion rate is one-half there too. Budget 2025 confirmed the two-thirds proposal will not proceed.</p>
+
+    <p>The taxable half is investment income inside a Canadian-controlled private corporation, taxed up front, with a refundable piece when the company pays a taxable dividend. The untaxed half can be added to the capital dividend account and paid out as a capital dividend, which requires an election. That machinery is <a href="/blog/corporate-vs-personal-investing-canada/">corporate versus personal investing</a>. It is accountant work.</p>
 
     <h2>Frequently asked questions</h2>
 
+    <h3>Did Budget 2025 change the capital gains tax?</h3>
+    <p>No. Budget 2025, tabled on November 4, 2025, confirmed the one-half inclusion rate stays. The cancelled two-thirds increase will not proceed, and the proposed Canadian Entrepreneurs' Incentive is not going ahead either.</p>
+
+    <h3>What is the lifetime capital gains exemption for 2026?</h3>
+    <p>The lifetime capital gains exemption for 2026 is $1,275,000. The maximum capital gains deduction is $637,500, which is half of that limit. It applies only to qualified small business corporation shares and qualified farm or fishing property.</p>
+
+    <h3>Does it matter if I sell in December or January?</h3>
+    <p>Yes. The year of disposition decides which year's return the gain or loss lands on. For listed securities, the trade must settle in the year, so do not leave year-end loss selling to the last day. The sequence is the <a href="/blog/tax-loss-harvesting-calendar-canada/">tax-loss harvesting calendar</a>, and the December list is the <a href="/blog/year-end-tax-checklist/">year-end tax checklist</a>.</p>
+
     <h3>Is the capital gains inclusion rate 50 percent or 66.67 percent in 2026?</h3>
-    <p>One-half. The two-thirds proposal from Budget 2024 was deferred to January 1, 2026 and then cancelled on March 21, 2025. It was not enacted. File Schedule 3 at one-half unless a specific rule, such as a gift of listed securities, sets the inclusion to zero.</p>
+    <p>One-half (50%). The two-thirds proposal from Budget 2024 was deferred to January 1, 2026 and then cancelled on March 21, 2025. It was not enacted. Budget 2025 confirmed that one-half stays and that the two-thirds increase will not proceed. File Schedule 3 at one-half unless a specific rule, such as a gift of listed securities, sets the inclusion to zero.</p>
 
     <h3>Do I pay capital gains tax when my ETF goes up but I do not sell?</h3>
     <p>Not on the unrealized rise in units you still hold. You can still receive a taxable capital gain the fund distributes, including a gain it realized inside the fund and reinvested. That distribution is on the T3, and it changes your adjusted cost base. An unrealized personal gain is not a tax bill yet.</p>
 
     <h3>Can I use a capital loss against my salary?</h3>
-    <p>No. Allowable capital losses offset taxable capital gains. They carry back three years and forward indefinitely against gains. They do not reduce employment income. That is a different rule from the United States.</p>
+    <p>No. Allowable capital losses offset taxable capital gains. Net capital losses carry back 3 years on Form T1A and forward indefinitely against gains. They do not reduce employment income. That is a different rule from the United States.</p>
 
     <h3>Does my spouse's TFSA purchase after I sell ruin the loss?</h3>
-    <p>It can. The superficial-loss rule looks at you and affiliated persons, which includes a spouse, and it looks inside registered accounts. If the same property is acquired in that window and still held at the end of it, the loss is denied. Pick a substitute that is not the identical property.</p>
+    <p>It can. The superficial-loss rule looks at you and affiliated persons, which includes a spouse or common-law partner, and it looks inside registered accounts. The window is 30 calendar days before the sale to 30 calendar days after, and the identical property still has to be owned 30 days after the sale. A denied loss can usually be added to the adjusted cost base of the substituted property. A repurchase inside a TFSA or RRSP is the version that deletes the loss permanently, because those accounts have no personal capital gain to attach the denied loss to.</p>
 
     <h3>Is the $1.25 million lifetime exemption available on my rental or my stocks?</h3>
-    <p>Not on a typical rental, cottage, or publicly traded stock. The lifetime capital gains exemption CRA describes applies to qualified small business corporation shares and qualified farm or fishing property, and the tests are strict. The $1.25 million figure is the limit CRA states for dispositions after June 24, 2024. Indexation resumes in 2026. Confirm the indexed amount before you sell.</p>
+    <p>Not on a typical rental, cottage, or publicly traded stock. The lifetime capital gains exemption applies to qualified small business corporation shares and qualified farm or fishing property, and the tests are strict. The limit was $1,250,000 for 2025 and for dispositions after June 24, 2024. For 2026, CRA's indexation table puts the exemption at $1,275,000, and the maximum deduction at $637,500.</p>
 
     <h3>Where do I report a gain?</h3>
     <p>Schedule 3, then the taxable half on your return. Keep the confirmation slip, the adjusted cost base worksheet, and the T5008. If the gain is large enough that minimum tax is plausible, also complete Form T691. The filing software roundup is <a href="/blog/best-tax-software/">best tax software</a>, and it does not replace the schedule.</p>
 
     <h2>Sources</h2>
     <ul>
+        <li><a href="https://budget.canada.ca/2025/report-rapport/tm-mf-en.html">Department of Finance: Budget 2025 tax measures, tabled November 4, 2025</a></li>
         <li><a href="https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase">Prime Minister of Canada: cancellation of the proposed capital gains increase, March 21, 2025</a></li>
         <li><a href="https://www.canada.ca/en/department-finance/news/2025/01/government-of-canada-announces-deferral-in-implementation-of-change-to-capital-gains-inclusion-rate.html">Department of Finance: deferral announcement, January 31, 2025</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/update-cra-administration-proposed-capital-gains-taxation-changes.html">CRA: administration of the proposed changes, and the enacted one-half rate</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: current-year federal tax brackets</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html">CRA: capital losses and the superficial-loss rule</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-34900-donations-gifts/capital-gains-realized-on-gifts-certain-capital-property.html">CRA: inclusion rate of zero on gifts of certain capital property</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/you-calculate-your-capital-gain-loss.html">CRA: how to calculate a capital gain or loss</a></li>
     </ul>
@@ -185,10 +288,12 @@ export const taxesClusterPosts: TaxPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer(published)}
+    ${capitalGainsFooter}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-09',
+  },
 
   taxPost(
     'amt-canada',
