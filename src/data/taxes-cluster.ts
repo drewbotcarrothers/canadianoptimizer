@@ -293,6 +293,10 @@ export const taxesClusterPosts: TaxPost[] = [
 </div>`
     ),
     updated: '2026-10-09',
+    youtubeId: 'ffMP18m63Io',
+    youtubeTitle: 'Capital Gains Tax in Canada 2026: How to Calculate It (Worked Example)',
+    youtubeUploadDate: '2026-10-11T04:53:55-04:00',
+    youtubeDuration: 'PT6M21S',
   },
 
   taxPost(
