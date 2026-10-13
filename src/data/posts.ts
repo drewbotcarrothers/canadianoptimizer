@@ -1798,6 +1798,10 @@ export const posts: BlogPostRecord[] = [
     author: "Andrew",
     date: "2026-09-18",
     updated: "2026-10-11",
+    youtubeId: "RQdVm27HGTs",
+    youtubeTitle: "Best Travel Credit Card in Canada 2026? Pick the Structure First",
+    youtubeUploadDate: "2026-10-13T06:48:59-04:00",
+    youtubeDuration: "PT5M35S",
     excerpt: "The best travel rewards card in Canada in 2026 is the structure that matches how you fly: Aeroplan, flexible points, no foreign fee, or cash back.",
     image: "/images/blog/best-travel-rewards-cards-canada.png",
     content: `<div class="container">
