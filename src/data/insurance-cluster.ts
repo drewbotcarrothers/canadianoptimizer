@@ -188,23 +188,24 @@ export const insuranceClusterPosts: InsurancePost[] = [
 </div>`
   ),
 
-  insurancePost(
+  {
+    ...insurancePost(
     'term-life-insurance-cost-by-age-canada',
     'Term Life Insurance Cost by Age in Canada: What Drives Your Premium',
-    'Term premiums rise with age, health, and smoking. Canada Life’s January 2026 examples use different amounts, so they are not an age curve.',
+    'There is no national term-life cost-by-age table in Canada. Age is one driver, and Canada Life’s January 2026 examples mix term, face amount, and smoking.',
     `<div class="container">
 
     <div class="hook">
-        Age raises a term life premium, and it is not the only input. Sex, smoking, health, term length, and face amount move the price too. <span class="highlight">Canada does not publish a national rate-by-age table</span>, and this page will not invent one. The only dollar premiums below are Canada Life's own "about" examples, based on rates as of January 2026, and they are not comparable to each other.
+        There is no national table of how much term life insurance costs by age in Canada. Age is one of several drivers, and the only dollar premiums on this page are <span class="highlight">Canada Life My Simple Term “about” examples based on rates as of January 2026</span>, which are not an age curve because the term, face amount, and smoking status differ.
     </div>
 
-    <p>This spoke sits under the <a href="/blog/canadian-insurance-planning-guide/">Canadian insurance planning guide</a>. The face amount you are pricing is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>, not a multiple of salary. Whether the need should be term at all is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. How to read two quotes once you have them is <a href="/blog/best-term-life-insurance-canada/">best term life insurance</a>.</p>
+    <p>This spoke sits under the <a href="/blog/canadian-insurance-planning-guide/">Canadian insurance planning guide</a>. The face amount you are pricing is the <a href="/blog/life-insurance-need-analysis-canada/">need analysis</a>, not a multiple of salary. Whether the need should be term at all is <a href="/blog/term-vs-whole-life-insurance-canada/">term versus whole life</a>. How to read two quotes once you have them is <a href="/blog/best-term-life-insurance-canada/">best term life insurance</a>. More articles in this cluster are in <a href="/category/insurance/">Insurance</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>A honest age comparison holds the term, the face amount, the smoking status, and the insurer fixed. Change one cell and you are no longer looking at age.</li>
-            <li>Canada Life's My Simple Term page, reviewed September 2026, gives four "about" premiums based on rates as of January 2026. The ages, amounts, terms, and smoking statuses all differ.</li>
+            <li>An honest age comparison holds the term, the face amount, the smoking status, and the insurer fixed. Change one of those and you are no longer looking at age.</li>
+            <li>Canada Life's My Simple Term page, re-checked October 13, 2026, gives four "about" premiums based on rates as of January 2026. The ages, amounts, terms, and smoking statuses all differ.</li>
             <li>On that product, the monthly premium stays the same for the initial term, then increases yearly on the schedule in the policy.</li>
             <li>Canada Life My Term, the advisor product, offers any term from 5 to 50 years, with level premiums for the initial term and guaranteed yearly-renewable rates afterward if coverage has not changed.</li>
             <li>Larger face amounts fall into premium bands. A rate per thousand on a $150,000 policy is not the rate per thousand on a $1,000,000 policy.</li>
@@ -213,10 +214,12 @@ export const insuranceClusterPosts: InsurancePost[] = [
 
     <h2>What actually sets a term premium?</h2>
 
-    <p>Canada Life's consumer explanation lists age, gender, the amount of coverage, the type of policy, health history, and occupation among the factors in a premium. Term is usually less expensive than permanent coverage for the same temporary job, which is why the need analysis comes first. Smoking is its own axis on the illustrations below. None of this is a quote for you. A second insurer can price the same person differently. Ask both for the same term and the same face amount.</p>
+    <p>Canada Life's consumer explanation lists age, gender, the amount of coverage, the type of policy, health history, and occupation among the factors in a premium. Smoking is its own axis on the illustrations below, and a second insurer can price the same person differently. None of this is a quote for you.</p>
+
+    <p>Term is usually less expensive than permanent coverage for the same temporary job, which is why the need analysis comes first. Ask both insurers for the same term and the same face amount.</p>
 
     <table>
-        <caption>Canada Life My Simple Term illustrations. The page says "Based on premium rates as of Jan. 2026." Reviewed September 2026. Not an age curve.</caption>
+        <caption>Canada Life My Simple Term illustrations. The page says "Based on premium rates as of Jan. 2026." Consumer figures re-checked October 13, 2026. Not an age curve.</caption>
         <thead>
             <tr>
                 <th>Canada Life's example</th>
@@ -257,13 +260,15 @@ export const insuranceClusterPosts: InsurancePost[] = [
 
     <h2>Why does a published "rates by age" chart mislead?</h2>
 
-    <p>Publishers build those charts by picking one insurer, one term, one face amount, one sex, and one health class, then changing only the age. That can be a fair illustration if every assumption is printed beside the number and dated. A chart that hides the term, the smoking status, or the insurer is a marketing table. This page refuses to fill the missing cells. If you want the age effect, ask one insurer for the identical policy at the age you are now and, if you are curious, what the same policy would have cost at a younger issue age. You cannot buy the younger age retroactively. You can see the direction.</p>
+    <p>A fair age chart holds one insurer, one term, one face amount, one sex, and one health class, then changes only the age, and it prints every assumption beside a dated number. A chart that hides the term, the smoking status, or the insurer is a marketing table. This page will not fill the missing cells.</p>
+
+    <p>If you want the age effect, ask one insurer for the identical policy at the age you are now and, if you are curious, what the same policy would have cost at a younger issue age. You cannot buy the younger age retroactively. You can see the direction.</p>
 
     <p>Canada Life also says that once a policy is in effect, most term policies no longer cover you past 85, and that most insurers will not issue a new policy past 80. Treat that as the carrier's description of the market's usual shape, then read the expiry age on the illustration in front of you. My Term's own advisor guide sets expiry at the policy anniversary nearest age 85, and the maximum issue age is 85 minus the term length chosen.</p>
 
     <h2>What stays level, and what jumps when the term ends?</h2>
 
-    <p>On My Simple Term, Canada Life says premium payments stay the same for the initial term. Its example: a policy bought in 2020 with a $20 monthly payment is still $20 in 2030, and the payment starts to increase only after the initial term ends. After that, payments increase yearly according to the schedule in the policy. My Term's advisor guide says the same structure in product language: level premiums for the initial term, then renewal on a yearly renewable term schedule, with those renewal premiums guaranteed if coverage has not changed.</p>
+    <p>On My Simple Term, Canada Life says premium payments stay the same for the initial term, then increase yearly according to the schedule in the policy. Its example: a policy bought in 2020 with a $20 monthly payment is still $20 in 2030, and the payment starts to increase only after the initial term ends. My Term's advisor guide, read in September 2026, describes the same structure: level premiums for the initial term, then renewal on a yearly renewable term schedule, with those renewal premiums guaranteed if coverage has not changed.</p>
 
     <p>That guarantee is the point of buying the term you actually need. A 10-year term is cheaper at issue because the insurer is on the risk for fewer years and because renewal comes sooner. Renewal at the attained age is a different price. Laddering a larger 10-year policy and a smaller 20-year policy, so coverage drops when the mortgage drops, is a design choice. The arithmetic of the declining mortgage itself is the <a href="/blog/mortgage-life-insurance-vs-term-life-canada/">mortgage life comparison</a>.</p>
 
@@ -274,12 +279,32 @@ export const insuranceClusterPosts: InsurancePost[] = [
 
     <h2>How do face-amount bands change the rate?</h2>
 
-    <p>Canada Life's My Term advisor guide says premiums vary by term length, age, gender, smoking status, risk class, and face amount, and it sorts coverage into bands. Band 1 is under $250,000. Band 2 runs from $250,000 to $499,999. Band 3 is $500,000 to $999,999. Band 4 is $1,000,000 to $1,999,999. Higher bands continue above that, and a special quote is required above $25 million. The practical lesson: doubling the face amount does not politely double the premium, and a rate someone quotes "per thousand" without the band is incomplete. Confirm the band on the illustration. Other insurers use their own bands. This list is Canada Life's, reviewed from the advisor guide in September 2026.</p>
+    <p>Canada Life's My Term advisor guide, read in September 2026, sorts coverage into face-amount bands, and premiums also vary by term, age, gender, smoking status, and risk class. Doubling the face amount does not simply double the premium. Confirm the band on your own illustration, because other insurers use their own bands.</p>
+
+    <p>On that guide, band 1 is under $250,000. Band 2 runs from $250,000 to $499,999. Band 3 is $500,000 to $999,999. Band 4 is $1,000,000 to $1,999,999. Higher bands continue above that, and a special quote is required above $25 million. A rate someone quotes "per thousand" without the band is incomplete. This list is Canada Life's.</p>
 
     <div class="tip-box">
         <strong>Price the policy you will keep:</strong>
         <p>A conversion option, a renewability promise, and a waiver of premium are features with a cost. Canada Life's My Term sheet lists conversion options. Whether you need them is the permanent-insurance question in the term-versus-whole guide, including <a href="/blog/corporate-owned-life-insurance-canada/">corporate ownership</a> if a company will be the owner. Do not pay for a feature you have not named a job for.</p>
     </div>
+
+    <h2>How should you compare two quotes that differ only by age?</h2>
+
+    <p>Hold the term, the face amount, the smoking status, and the insurer fixed, and change only the age. Read the renewal schedule after the initial term, then get your own illustration. This page does not invent the premiums those two quotes would show.</p>
+
+    <ol>
+        <li>Pick one insurer and keep that insurer on both illustrations.</li>
+        <li>Hold the term length fixed.</li>
+        <li>Hold the face amount fixed.</li>
+        <li>Hold smoking status fixed. If the form also asks sex and health class, hold those fixed too.</li>
+        <li>Change only the age.</li>
+        <li>Read the renewal schedule that applies after the initial term, not only the first monthly number.</li>
+        <li>Use the illustration the insurer gives you. Do not treat Angela, Tyrone, Ivana, or Fatima's "about" figures as your price. Those four examples do not share a term, a face amount, or a smoking status.</li>
+    </ol>
+
+    <h2>What if your life insurer fails?</h2>
+
+    <p>If your life and health insurance company fails, <a href="https://www.assuris.ca/">Assuris</a> guarantees that you will retain up to $1,000,000 or 90% of your death benefit, whichever is higher. That is the protection Assuris states for a term life death benefit. It is not a premium, and it is not a reason to skip the contract.</p>
 
     <h2>Frequently asked questions</h2>
 
@@ -308,7 +333,10 @@ export const insuranceClusterPosts: InsurancePost[] = [
         <li><a href="https://www.acp.canadalife.com/content/dam/advisors/documents/marketing/insurance/en_ca/term_life/canada-life-my-term-product-information-page.pdf">Canada Life My Term product information</a></li>
         <li><a href="https://www.acp.canadalife.com/content/dam/advisors/documents/marketing/insurance/en_ca/term_life/canada-life-my-term-advisor-guide-99-10988.pdf">Canada Life My Term advisor guide</a></li>
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/life.html">FCAC: life insurance</a></li>
+        <li><a href="https://www.assuris.ca/">Assuris</a> — death-benefit protection stated on the <a href="https://assuris.ca/how-am-i-protected/assuris-protection/life-insurance/individual/term-life/">term life page</a></li>
     </ul>
+
+    <p>Consumer figures on the Canada Life page were re-checked on October 13, 2026. The rate basis remains January 2026, as Canada Life states. The Assuris sentence was read the same day from Assuris's term life page.</p>
 
     <div class="cta-section">
         <p><strong>A premium is a price. The face amount is a household number.</strong></p>
@@ -316,10 +344,15 @@ export const insuranceClusterPosts: InsurancePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer(published)}
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about term life insurance cost by age in Canada as of October 2026. It is not a premium quote, a carrier ranking, or insurance, tax, or legal advice. Premiums depend on the person, the insurer, and the contract. The dollar premiums below are Canada Life My Simple Term examples based on rates as of January 2026. Confirm the illustration and the policy before you buy, cancel, convert, or decline coverage.</p>
+        <div class="footer-note">Published: September 27, 2026 | Updated: October 13, 2026 | Category: Insurance | Author: Andrew</div>
+    </div>
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-13',
+  },
 
   insurancePost(
     'best-term-life-insurance-canada',
