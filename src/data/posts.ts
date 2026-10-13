@@ -1797,31 +1797,34 @@ export const posts: BlogPostRecord[] = [
     categorySlug: "credit-cards",
     author: "Andrew",
     date: "2026-09-18",
-    updated: "2026-09-26",
-    excerpt: "Choose a 2026 travel-rewards structure — Aeroplan, flexible points, or no foreign fee — based on how you actually fly and which merchants take the card.",
+    updated: "2026-10-11",
+    excerpt: "The best travel rewards card in Canada in 2026 is the structure that matches how you fly: Aeroplan, flexible points, no foreign fee, or cash back.",
     image: "/images/blog/best-travel-rewards-cards-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        There is no single best travel card in Canada in 2026. There is a best <span class="highlight">structure</span> for how you actually fly, where your merchants sit, and whether a foreign-transaction fee will quietly tax every trip. Pick the structure first. The logo is the last decision.
+        The best travel rewards card is the <span class="highlight">structure that matches how you fly</span>: an Aeroplan co-brand, flexible points, a no-foreign-fee card, or flat cash back. In Canada in 2026, pick that structure before you pick a logo.
     </div>
 
-    <p>Travel rewards writing on the Canadian internet is mostly a leaderboard of welcome bonuses. Bonuses change monthly, they are often once-per-product, and they tell you nothing about the card you still hold in year three. This guide is the year-three question: which family of cards is worth keeping, for which spending pattern, once the bonus is gone. The spending-profile map that sits above this page is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>.</p>
+    <p>Welcome bonuses change often, and many are once per product. They do not tell you which card is still worth the annual fee in year three. This guide is that year-three question. The spending-profile map above it is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>. More card guides are in <a href="/category/credit-cards/">credit cards</a>.</p>
 
-    <p>We are not quoting live earn rates, annual fees, or point valuations. Those figures move, and a stale number is worse than no number. Use the Financial Consumer Agency of Canada’s credit-card comparison tool and the issuer’s current page before you apply. What follows is the map.</p>
+    <p>The figures below are from issuer pages reviewed on October 11, 2026. Amounts are in Canadian dollars. Confirm on the issuer page before you apply. Welcome bonuses are left out on purpose.</p>
 
     <div class="callout">
-        <strong>Offers change:</strong>
-        <p>Welcome bonuses, annual fees, transfer partners, and earn rates are marketing. Treat every specific number you see in an ad as expired until you confirm it on the issuer’s site the day you apply.</p>
+        <strong>Confirm before you apply:</strong>
+        <p>Welcome bonuses, annual fees, transfer partners, and earn rates change. The table below is as of October 2026. Confirm on the issuer page before you apply.</p>
     </div>
 
-    <h2>The four structures that cover almost everyone</h2>
+    <h2>Which travel rewards structure fits you?</h2>
+
+    <p>The structure that fits you is the one that matches how you fly, not the card with the biggest welcome bonus. Use an Aeroplan co-brand if you fly Air Canada, flexible points if you want a way out of one airline, a no-foreign-fee card if the trip is the spend, or flat cash back if you book travel in cash. In Canada in 2026, pick one of those four and ignore the rest for this decision.</p>
 
     <table>
+        <caption>Travel rewards structures for Canada in 2026</caption>
         <thead>
             <tr>
                 <th>Structure</th>
-                <th>You are optimizing for</th>
+                <th>What you want</th>
                 <th>Typical Canadian examples</th>
                 <th>The constraint</th>
             </tr>
@@ -1830,117 +1833,188 @@ export const posts: BlogPostRecord[] = [
             <tr>
                 <td>Aeroplan co-brand</td>
                 <td>Air Canada and Star Alliance award seats</td>
-                <td>TD, CIBC, and American Express Aeroplan cards</td>
-                <td>Points are stuck in one programme. A devaluation hits you directly.</td>
+                <td>TD Aeroplan Visa Infinite and CIBC Aeroplan Visa Infinite, both $139. See <a href="/blog/best-aeroplan-credit-cards-canada/">Aeroplan cards</a>.</td>
+                <td>Points stay in one programme. A devaluation hits you directly.</td>
             </tr>
             <tr>
                 <td>Flexible bank or Membership Rewards points</td>
                 <td>The option to transfer, or to book travel in a portal</td>
-                <td>Amex Membership Rewards cards such as Cobalt, Gold, and Platinum; RBC Avion; some MBNA, BMO, and Scene+ products</td>
-                <td>Transfer partners and portal pricing change. Amex is not accepted everywhere.</td>
+                <td>American Express Cobalt. Also RBC Avion, and some MBNA, BMO, and Scene+ cards.</td>
+                <td>Transfer partners and portal prices change. American Express is not accepted everywhere.</td>
             </tr>
             <tr>
                 <td>No-foreign-fee travel card</td>
-                <td>Spending outside Canada without a 2.5% skim</td>
-                <td>Cards marketed with no foreign-transaction fee, historically including Scotiabank Passport and a handful of no-fee fintech cards</td>
-                <td>The earn rate on everyday Canadian spend is often ordinary. This card wins abroad, not at Loblaws.</td>
+                <td>Spending outside Canada without a 2.5% foreign-transaction fee</td>
+                <td>Scotiabank Passport Visa Infinite, $150, no foreign-transaction fee. See <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">no-foreign-transaction-fee cards</a>.</td>
+                <td>Everyday Canadian earn rates can be ordinary. This card wins abroad, not at a Loblaw-banner grocery store.</td>
             </tr>
             <tr>
                 <td>Flat <a href="/blog/best-cash-back-credit-cards-canada/">cash back</a></td>
                 <td>You book travel in cash and want a simple rebate</td>
-                <td>See the cash-back category guide</td>
-                <td>You give up award-seat leverage. Sometimes that is the correct trade.</td>
+                <td>See the cash-back category guide.</td>
+                <td>You give up award seats. Sometimes that is the right trade.</td>
             </tr>
         </tbody>
     </table>
 
-    <p>If you fly Air Canada a few times a year and you can use Aeroplan sweet spots without contorting a trip, a co-brand card is coherent. If you fly whoever is cheapest, or you mostly take the train and book hotels in cash, a locked airline currency is a hobby, not an optimization. Flexible points, or plain cash back, will usually dominate.</p>
+    <table>
+        <caption>Issuer figures as of October 2026</caption>
+        <thead>
+            <tr>
+                <th>Card</th>
+                <th>What the issuer page states</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card">TD Aeroplan Visa Infinite</a></td>
+                <td>$139 annual fee. Personal income of $60,000 or household income of $100,000. First checked bag free for the cardholder and up to 8 companions on the same reservation when travel starts on an Air Canada flight.</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/aeroplan-visa-infinite-card.html">CIBC Aeroplan Visa Infinite</a></td>
+                <td>$139 annual fee. 1.5 Aeroplan points per $1 on eligible gas, electric vehicle (EV) charging, groceries, and Air Canada direct, and 1 point elsewhere.</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html">Scotiabank Passport Visa Infinite</a></td>
+                <td>$150 annual fee. No foreign-transaction fee. Scotiabank calls 2.5% typical. Six complimentary airport lounge passes a year. 10,000 bonus Scene+ points when you spend $40,000 in a year.</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.americanexpress.com/ca/en/benefits/cobalt-card/">American Express Cobalt</a></td>
+                <td>5 Membership Rewards points per $1 on eligible eats and drinks in Canada (restaurants, bars, cafes, stand-alone grocery, and food delivery), up to $2,500 a month, then 1 point.</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <h2>Start with acceptance, not the earn rate</h2>
+    <p>Table as of October 2026, from issuer pages reviewed on October 11, 2026. Amounts are in Canadian dollars. Confirm on the issuer page before you apply. The <a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">Financial Consumer Agency of Canada</a> explains credit-card fees in plain language.</p>
 
-    <p>The highest theoretical earn rate in Canada is useless at the merchants that refuse the network. Three patterns decide more outcomes than any bonus category:</p>
+    <h3>When does an Aeroplan co-brand fit?</h3>
+
+    <p>It fits if you fly Air Canada a few times a year and you will redeem the points on trips you already take. If you fly whoever is cheapest, a locked airline currency is a hobby. Flexible points, or plain cash back, will usually fit better.</p>
+
+    <p>TD and CIBC are two doors into the same Aeroplan points. The choice is not the logo. It is whether the insurance certificate covers the trips you take, whether you will still pay the annual fee after year one, and whether a repeat welcome bonus is even open to you. Many of these products restrict bonuses for recent or former cardholders.</p>
+
+    <p>A co-brand card you do not fly on is an expensive way to pay. <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">How to value Aeroplan points</a> is separate from the earn rate. Do not stockpile years of spend in one airline programme unless you have a redemption you can book.</p>
+
+    <h3>When do flexible points fit?</h3>
+
+    <p>Flexible points fit when you want the option to transfer, or to book in a portal, instead of one airline. Cobalt earns the food rate in the table above, and Membership Rewards can transfer, when the store takes American Express. Amex Gold and Platinum charge more and add travel credits that count only if you would have spent that money anyway.</p>
+
+    <p>RBC Avion, and bank programmes such as BMO Rewards, MBNA Rewards, and Scene+, solve a different problem: Visa or Mastercard acceptance. Points sometimes transfer. Sometimes they only make sense in that bank's travel portal. Compare a portal fare with the cash price of the same ticket. A portal that sells a marked-up fare is a discount, not a travel hack.</p>
+
+    <div class="example-box">
+        <strong>Example: same household, two honest answers</strong>
+        <p>Household A flies Toronto–Vancouver on Air Canada four times a year, buys groceries at a store that takes American Express, and rarely leaves the country. An Aeroplan co-brand, or a Membership Rewards card that transfers to Aeroplan, fits, plus a no-foreign-fee card in a drawer for the odd trip.</p>
+        <p>Household B flies whoever is cheapest, shops at Costco and a Loblaw banner, and spends a month in Europe. They should skip Amex grocery rates, put Canadian spend on a Visa or Mastercard cash-back or flexible-points card, and put every foreign purchase on a no-foreign-fee card. A 2026 list that ranks Household A's card first is the wrong answer for Household B.</p>
+    </div>
+
+    <h3>When does flat cash back fit?</h3>
+
+    <p>Flat cash back fits when you pay for flights and hotels in cash and you want a simple rebate. You give up award seats. For many households, that is the right trade. The category map is the <a href="/blog/best-cash-back-credit-cards-canada/">cash-back guide</a>.</p>
+
+    <h2>Why does card acceptance matter more than the earn rate?</h2>
+
+    <p>Acceptance matters more than the earn rate because a bonus category you cannot use earns nothing. American Express still fails at many Loblaw-banner stores, at Costco, and at many independent shops. If those stores are where you spend, a lower rate on Visa or Mastercard beats a higher rate you never collect.</p>
 
     <ul>
-        <li><strong>American Express</strong> still earns well on grocery and dining cards in this market, and still fails at many Loblaw-banner stores, at Costco, and at a long list of independent merchants. If those stores are your life, Amex is a second card at most.</li>
-        <li><strong>Costco</strong> is Mastercard only. A Visa “grocery” accelerator often does not touch that spend, and Costco’s own merchant coding is not the same as a supermarket.</li>
-        <li><strong>Foreign transactions</strong> on a typical Canadian bank card still attract a fee around 2.5 percent. A card that earns a modest rebate but charges that fee is a loss on every euro and US dollar. Carry a no-foreign-fee card for trips even if your daily driver is something else.</li>
+        <li><strong>American Express</strong> can earn well on grocery and dining, and still fail at many Loblaw-banner stores, at Costco, and at a long list of independent merchants. If those stores are your life, Amex is a second card at most.</li>
+        <li><strong>Costco</strong> warehouses in Canada take Mastercard only. A Visa grocery rate often misses that spend. Costco's own merchant code is not the same as a supermarket.</li>
+        <li><strong>Foreign spend</strong> is a different problem from the logo. The dollar cost of a foreign-transaction fee is the next section. Carry a no-foreign-fee card for trips even if your daily card is something else.</li>
     </ul>
 
     <div class="tip-box">
         <strong>The two-card travel kit:</strong>
-        <p>One card for Canadian category spend you can actually place on that network, and one no-foreign-fee card that lives in the travel wallet. Adding a third card is justified only when a specific programme (usually Aeroplan) matches flights you already take.</p>
+        <p>One card for Canadian category spend you can actually place on that network, and one no-foreign-fee card that lives in the travel wallet. A third card makes sense only when a specific programme, usually Aeroplan, matches flights you already take.</p>
     </div>
 
-    <h2>How to choose inside each structure</h2>
+    <h2>How much do foreign transaction fees cost on a trip?</h2>
 
-    <h3>Aeroplan, if Air Canada is the product</h3>
-
-    <p>TD Aeroplan Visa Infinite, CIBC Aeroplan Visa Infinite, and the American Express Aeroplan lineup are the usual doors into the same currency. The optimization is not “which logo.” It is:</p>
-
-    <ul>
-        <li>Whether the card’s insurance certificate covers the trips you take (trip cancellation ceilings, who counts as a covered person, and whether a medical condition is excluded). Read the certificate, not the marketing tile.</li>
-        <li>Whether you will pay the annual fee after year one. A co-brand card you do not fly on is an expensive debit card.</li>
-        <li>Whether a repeat welcome bonus is even available to you. Many of these products restrict bonuses for recent or former cardholders.</li>
-    </ul>
-
-    <p><a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">Aeroplan</a> is a frequent-flyer programme with its own award chart politics. Points can be devalued. Do not stockpile a decade of spend in a single airline currency unless you have a redemption you can actually book.</p>
-
-    <h3>Flexible points, if you want an exit</h3>
-
-    <p>American Express Cobalt has been the workhorse of Canadian points writing for years because grocery and dining multipliers, plus Membership Rewards transfer partners, beat most bank portals <em>when the merchant takes Amex</em>. Amex Gold and Platinum sit above it with higher fees and travel credits that only pay off if you would have spent that money anyway. Credits you force yourself to use are not income.</p>
-
-    <p>RBC Avion, and bank ecosystems such as BMO Rewards, MBNA Rewards, and Scene+, solve a different problem: Visa or Mastercard acceptance, with points that sometimes transfer and sometimes only make sense in that bank’s travel portal. Portal redemptions should be compared with the cash price of the same ticket. A “1 cent per point” portal that sells you a marked-up fare is a discount code, not a travel hack.</p>
+    <p>A $3,000 foreign-currency trip on a card with the typical 2.5% foreign-exchange (FX) fee costs $75. Scotiabank calls 2.5% typical. A $150 no-FX card pays for its fee on FX alone at about $6,000 of foreign spend a year, ignoring earn rates, lounge passes, and insurance.</p>
 
     <div class="example-box">
-        <strong>Example: same household, two honest answers</strong>
-        <p>Household A flies Toronto–Vancouver on Air Canada four times a year, buys groceries at a store that takes Amex, and rarely leaves the country. An Aeroplan co-brand or a Membership Rewards card with an Aeroplan transfer is coherent, plus a no-foreign-fee card in a drawer for the occasional US trip. Household B flies whoever is cheapest, shops at Costco and a Loblaw banner, and spends a month in Europe. They should ignore Amex grocery multipliers, put Canadian spend on a Visa or Mastercard cash-back or flexible-points card, and put every foreign tap on a no-foreign-fee card. The “best card of 2026” list that ranks Household A’s answer first is wrong for Household B.</p>
+        <strong>Example (illustrative)</strong>
+        <p>A $3,000 foreign-currency trip on a card with the typical 2.5% fee costs $75 in fees. A $150 no-FX card pays for its fee on FX alone at about $6,000 of foreign spend a year. This ignores earn rates, lounge passes, and insurance.</p>
     </div>
 
-    <h3>No foreign fee, if the trip is the spend</h3>
+    <p>As of October 2026, Scotiabank Passport Visa Infinite is $150 and charges no foreign-transaction fee. The same page lists six complimentary airport lounge passes a year, and 10,000 bonus Scene+ points when you spend $40,000 in a year. Confirm on the issuer page before you apply. The wider comparison is <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">no-foreign-transaction-fee cards</a>.</p>
 
-    <p>On a two-week trip, foreign-transaction fees compound across hotels, transit, and restaurants. A card with no foreign-transaction fee beats a richer domestic earn rate the moment you are outside Canada. Historically this group has included Scotiabank’s Passport Visa Infinite and several no-annual-fee fintech cards. The list changes. Confirm “no foreign transaction fee” in the current fee schedule, not in a 2024 blog post — including this one, after the month it was published.</p>
+    <p>On a trip, the fee lands on hotels, transit, and restaurants, not only on the flight. A no-FX card can beat a richer earn rate at home the moment you are outside Canada. Pay in the local currency.</p>
 
     <div class="warning-box">
         <strong>Dynamic currency conversion:</strong>
-        <p>Even a no-foreign-fee card loses if you accept a merchant’s offer to charge you in Canadian dollars at their rate. Always pay in the local currency. The card’s network rate is the one you meant to buy.</p>
+        <p>Even a no-FX card loses if you accept a merchant's offer to charge you in Canadian dollars at the shop's rate. Always pay in the local currency. The card's network rate is the one you meant to buy.</p>
     </div>
 
-    <h2>Insurance, fees, and the keep-or-cancel date</h2>
+    <h2>Is travel insurance on a card worth the annual fee?</h2>
 
-    <p>Premium travel cards in Canada are sold on insurance: emergency medical, trip cancellation, trip interruption, baggage, car-rental collision. The optimization is boring and specific.</p>
+    <p>Card travel insurance is worth the annual fee only when the certificate covers trips you take and replaces cover you would have bought. Check the age limit, the pre-existing-condition clause, how many days are covered, and whether the full fare had to be charged to the card. If a workplace plan already covers you, you may be paying twice.</p>
+
+    <p>Premium travel cards in Canada are sold on emergency medical, trip cancellation, trip interruption, baggage, and car-rental collision. The <a href="/blog/credit-card-travel-insurance-canada/">travel insurance guide</a> is the certificate checklist. Read the certificate, not the marketing tile.</p>
 
     <ul>
         <li>Check the maximum age, the pre-existing-condition clause, and the number of days covered. A policy that ends on day 15 is not coverage for a 21-day trip.</li>
-        <li>Check whether the full fare had to be charged to the card. Partial payment with points sometimes voids the coverage.</li>
-        <li>Subtract the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> from the insurance you would otherwise have bought, not from a fantasy. If you already have a workplace travel-medical plan, you may be paying twice.</li>
+        <li>Check whether the full fare had to be charged to the card. Paying part of the fare with points sometimes voids the coverage.</li>
+        <li>Subtract the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> from the insurance you would otherwise have bought. If you already have a workplace travel-medical plan, you may be paying twice.</li>
     </ul>
 
-    <p>Put the annual-fee date in the same tracker you use for minimum spend. Thirty days before it posts, ask one question: in the last year, did the earn plus insurance you actually used exceed the fee versus a no-fee card? If you cannot show that on a scrap of paper, downgrade or close. Loyalty to a piece of plastic is not a strategy.</p>
+    <p>Put the annual-fee date on the same list you use for minimum spend. Thirty days before it posts, ask one question: in the last year, did the earn plus the insurance you actually used beat the fee versus a no-fee card? If you cannot show that on paper, downgrade or close.</p>
 
-    <h2>What not to do with travel cards in 2026</h2>
+    <h2>What should you avoid with travel cards in 2026?</h2>
+
+    <p>Avoid a point value you will not redeem, extra annual fees for insurance you do not use, and a new card in the months before a mortgage. Infinite and World Elite cards have income minimums. A declined application is a credit inquiry for nothing, and interest on a carried balance costs more than any earn rate on a Canadian consumer card.</p>
 
     <ul>
-        <li><strong>Do not value a point at the number in an affiliate headline.</strong> Value it at the redemption you will book in the next 18 months, after taxes and fees on the award ticket.</li>
-        <li><strong>Do not hold three annual-fee travel cards</strong> “for the insurance” if the certificates overlap and you fly twice a year.</li>
-        <li><strong>Do not ignore income and credit requirements.</strong> Infinite and World Elite products have minimums. A declined application is a hard inquiry for nothing.</li>
-        <li><strong>Do not churn a travel card in the months before a mortgage.</strong> New credit is a distraction you do not need in underwriting.</li>
-        <li><strong>Do not pay interest.</strong> A carried balance dominates any earn rate available on a Canadian consumer card.</li>
+        <li><strong>Do not value a point at a headline.</strong> Value it at the redemption you will book in the next 18 months, after taxes and fees on the award ticket. The method is <a href="/blog/credit-card-points-valuations-aeroplan-avion-amex-canada/">how to value Aeroplan, Avion, and Membership Rewards points</a>.</li>
+        <li><strong>Do not hold three annual-fee travel cards</strong> for the insurance if the certificates overlap and you fly twice a year.</li>
+        <li><strong>Do not ignore income and credit requirements.</strong> Infinite and World Elite products have minimums. TD Aeroplan Visa Infinite lists personal income of $60,000 or household income of $100,000. A declined application is a hard inquiry for nothing.</li>
+        <li><strong>Do not open a travel card in the months before a mortgage.</strong> New credit is a complication you do not need while a lender reviews the application.</li>
+        <li><strong>Do not pay interest.</strong> A carried balance costs more than any earn rate on a Canadian consumer card.</li>
     </ul>
 
-    <h2>A decision you can finish this week</h2>
+    <h2>How do you pick a travel card this week?</h2>
+
+    <p>List last year's airline, roughly what you spent abroad, and whether you booked award seats or cash. Cross off any card network your main stores refuse, then pick one structure from the table above. Open the issuer's current page and confirm the fee before you apply.</p>
 
     <ol>
-        <li>List last year’s travel: airline, rough spend abroad, and whether you used award seats or cash.</li>
-        <li>Circle the merchants that will not take Amex. If they dominate, drop Amex from the daily-driver slot.</li>
+        <li>List last year's travel: airline, rough spend abroad, and whether you used award seats or cash.</li>
+        <li>Circle the merchants that will not take American Express. If they dominate, drop Amex from the daily-driver slot.</li>
         <li>Pick one structure from the table. Ignore every other offer for this decision.</li>
-        <li>Open the issuer’s current fee and earn schedule. If the annual fee is not covered by a redemption you can name, choose a cheaper card in the same structure.</li>
-        <li>Add a no-foreign-fee card if the one you picked charges a foreign fee and you leave the country at all.</li>
+        <li>Open the issuer's current fee and earn page. If you cannot name a redemption that covers the annual fee, choose a cheaper card in the same structure. Confirm on the issuer page before you apply.</li>
+        <li>Add a no-foreign-fee card if the one you picked charges an FX fee and you leave Canada at all.</li>
     </ol>
 
     <div class="tip-box">
         <strong>Minimum spend is a separate problem:</strong>
-        <p>If the card you want comes with a high spend requirement, do not invent purchases to clear it. Use the minimum-spend playbook: concentrate spending you already have, or wait. A travel card that pushes you into interest is the most expensive way to buy a flight.</p>
+        <p>If the card you want comes with a high spend requirement, do not invent purchases to clear it. Concentrate spending you already have, or wait. A travel card that pushes you into interest is an expensive way to buy a flight.</p>
     </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>What is the best travel rewards card in Canada in 2026?</h3>
+    <p>The best one is the structure that matches how you fly: an Aeroplan co-brand, flexible points, a no-foreign-fee card, or flat cash back. There is no single best logo in Canada in 2026. Confirm on the issuer page before you apply.</p>
+
+    <h3>How much is the TD Aeroplan Visa Infinite card?</h3>
+    <p>As of October 2026, the annual fee is $139. TD lists personal income of $60,000 or household income of $100,000. The first checked bag is free for the cardholder and up to 8 companions on the same reservation when travel starts on an Air Canada flight.</p>
+
+    <h3>What does the CIBC Aeroplan Visa Infinite card earn?</h3>
+    <p>As of October 2026, the annual fee is $139. It earns 1.5 Aeroplan points per $1 on eligible gas, electric vehicle (EV) charging, groceries, and Air Canada direct, and 1 point elsewhere.</p>
+
+    <h3>Does the Scotiabank Passport Visa Infinite card charge a foreign-transaction fee?</h3>
+    <p>No. As of October 2026, the annual fee is $150 and the card has no foreign-transaction fee. Scotiabank calls 2.5% typical on cards that do charge one. The card includes six complimentary airport lounge passes a year, and 10,000 bonus Scene+ points when you spend $40,000 in a year.</p>
+
+    <h3>What does American Express Cobalt earn on food in Canada?</h3>
+    <p>As of October 2026, Cobalt earns 5 Membership Rewards points per $1 on eligible eats and drinks in Canada (restaurants, bars, cafes, stand-alone grocery, and food delivery), up to $2,500 a month, then 1 point. American Express is not accepted everywhere, including many Loblaw-banner stores and Costco. Confirm on the issuer page before you apply.</p>
+
+    <h3>How much does a 2.5% foreign-transaction fee cost on a trip?</h3>
+    <p>On a $3,000 foreign-currency trip, a 2.5% fee costs $75. That figure is illustrative. A $150 card with no foreign-exchange (FX) fee covers its annual fee on FX alone at about $6,000 of foreign spend a year, ignoring earn rates, lounge passes, and insurance.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card">TD Aeroplan Visa Infinite</a></li>
+        <li><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/aeroplan-visa-infinite-card.html">CIBC Aeroplan Visa Infinite</a></li>
+        <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html">Scotiabank Passport Visa Infinite</a></li>
+        <li><a href="https://www.americanexpress.com/ca/en/benefits/cobalt-card/">American Express Cobalt</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">Financial Consumer Agency of Canada: credit cards</a></li>
+    </ul>
 
     <div class="cta-section">
         <p><strong>Points do not shelter investment income.</strong></p>
@@ -1949,8 +2023,8 @@ export const posts: BlogPostRecord[] = [
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This article compares categories of Canadian travel rewards cards in general terms. It is not a ranking of current offers and not a recommendation to apply for any product. Annual fees, earn rates, welcome bonuses, transfer partners, insurance wording, and eligibility change without notice. Confirm every figure with the issuer and, where useful, the Financial Consumer Agency of Canada before you apply. This is not credit advice.</p>
-        <div class="footer-note">Published: September 18, 2026 | Category: Credit Cards | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This article compares categories of Canadian travel rewards cards. It is not a ranking of current welcome offers and not a recommendation to apply for any product. Annual fees, earn rates, welcome bonuses, transfer partners, insurance wording, and eligibility change without notice. Figures in the table are from issuer pages reviewed on October 11, 2026, in Canadian dollars. Confirm on the issuer page before you apply. This is not credit advice.</p>
+        <div class="footer-note">Published: September 18, 2026 | Updated: October 11, 2026 | Category: Credit Cards | Author: Andrew</div>
     </div>
 
 </div>`
