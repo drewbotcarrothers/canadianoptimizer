@@ -411,43 +411,48 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 
 </div>`
   ),
-  benefitsPost(
+  {
+    ...benefitsPost(
     'gst-hst-credit-groceries-essentials-benefit',
     'Canada Groceries and Essentials Benefit (Formerly the GST/HST Credit): Amounts and Eligibility',
-    'For July 2026 to June 2027 the Canada Groceries and Essentials Benefit is up to $679 single, $890 for a couple, and $234 per child. It replaced the GST/HST credit in July 2026.',
+    'In Canada, the Groceries and Essentials Benefit (renamed GST/HST credit) is up to $679 single, $890 a couple, and $234 per child. Next payment: January 5, 2027.',
     `<div class="container">
 
     <div class="hook">
-        The Canada Groceries and Essentials Benefit replaced the GST/HST credit in July 2026. For the payment period July 2026 to June 2027, CRA says you could get up to <span class="highlight">$679 if you are single, $890 if you are married or common-law, and $234 for each child under 19</span>. The payments are quarterly, tax-free, and calculated from your 2025 return. CRA also says a 25% increase to the benefit stays in place for five years, from 2026 to 2031.
+        The Canada Groceries and Essentials Benefit is Canada's renamed GST/HST credit, and for July 2026 to June 2027 the maximum is <span class="highlight">$679 if you are single, $890 if you are married or common-law, and $234 for each child under 19</span>. The next payment is January 5, 2027.
     </div>
 
-    <p>This spoke sits under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>. The four 2026 dates, including the two that were still paid as a GST/HST credit, are the <a href="/blog/canada-benefit-payment-dates/">payment calendar</a>. It is not the carbon rebate. That program ended after April 2025, and the distinction is <a href="/blog/canada-carbon-rebate-ended/">what the carbon rebate ending actually means</a>.</p>
+    <p>The figure people expect is the maximum, and a very low income does not pay it. Adjusted family net income (AFNI) is the income CRA uses for the Canada Groceries and Essentials Benefit. The payments chart takes AFNI from line 23600, net income. Under $11,564 of AFNI, a single person in Canada with no children gets $445 for July 2026 to June 2027, not $679. That is the phase-in. It is not a missing payment.</p>
+
+    <p>This page sits in the <a href="/category/government-benefits/">government benefits</a> category and under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>. The 2026 dates, including the two quarters still paid as a GST/HST credit, are the <a href="/blog/canada-benefit-payment-dates/">payment calendar</a>. This benefit is not the carbon rebate. That program ended after the April 2025 payment. The distinction is <a href="/blog/canada-carbon-rebate-ended/">what the carbon rebate ending means</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Eligibility matches the old GST/HST credit. File the return. You are generally 19 in the month before the payment, unless you have a spouse or a child you live with.</li>
-            <li>The component table for the 2025 base year is $445 for you, $445 for a spouse, $234 per child, $445 for the first child of a single parent, and an extra $234 for a single person without children.</li>
-            <li>The extra $234 for a single person without children phases in above $11,564. The benefit phases out above $46,432. CRA's payments chart falls by 5 cents per dollar over that line.</li>
-            <li>January 5 and April 2, 2026 were GST/HST credit payments from the 2024 return. July 3 and October 5, 2026 are this benefit, from the 2025 return.</li>
-            <li>A one-time top-up, generally 50% of the July 2025 to June 2026 annual GST/HST credit, was issued on June 5, 2026 to people entitled to the January 2026 payment.</li>
+            <li>The Canada Groceries and Essentials Benefit replaced the GST/HST credit in July 2026. Eligibility, the calculation, and the quarterly structure are the same. Payments are tax-free. A 25% increase lasts five years, from 2026 to 2031. You are considered when you file.</li>
+            <li>For July 2026 to June 2027 the maximum is $679 single, $890 for a couple, and $234 per child. A single person with no children and AFNI under $11,564 gets $445, not $679.</li>
+            <li>The component table for the 2025 base year is $445 for you, $445 for a spouse, $234 per child, $445 for the first child of a single parent, and an extra $234 for a single person without children. Phase-in is $11,564. Phase-out starts above $46,432, at 5 cents per dollar.</li>
+            <li>The next payment is January 5, 2027, then April 5, 2027. July 3 and October 5, 2026 were this benefit. January 5 and April 2, 2026 were still the GST/HST credit.</li>
+            <li>A one-time top-up was issued on June 5, 2026. You needed a filed 2024 return and entitlement to the January 2026 payment.</li>
         </ul>
     </div>
 
-    <h2>Who qualifies for the Groceries and Essentials Benefit?</h2>
+    <h2>Who qualifies for the Groceries and Essentials Benefit in Canada?</h2>
 
-    <p>CRA's guide for the 2026-27 payment period says you qualify if you are a resident of Canada for income tax purposes at the end of the month before the payment and at the beginning of the month of the payment. In the month before the payment you are at least 19. Under 19, you qualify only if you have or had a spouse or common-law partner, or you are or were a parent living with your child.</p>
+    <p>For the 2026-27 payment period, you qualify for the Canada Groceries and Essentials Benefit when you are a resident of Canada for income tax purposes at the end of the month before the payment and at the beginning of the payment month, and you are at least 19 in the month before it. Under 19, you qualify only if you have or had a spouse or common-law partner, or you are or were a parent living with your child. You do not apply each year, because CRA considers you when you file.</p>
 
-    <p>You generally do not qualify, for that quarter, if you are not a tax resident, if you are exempt as a diplomat or a diplomat's family member, or if you are confined to a prison or similar institution for at least 90 consecutive days. A person who has died is not eligible for a payment after death. The estate can keep a payment only when the recipient was alive on the first day of the month CRA issued it. You also cannot get an amount for a spouse or a child who fails those tests at the start of the payment month.</p>
+    <p>You generally do not qualify for that quarter if you are not a tax resident, if you are exempt as a diplomat or a diplomat's family member, or if you are confined to a prison or similar institution for at least 90 consecutive days. A person who has died is not eligible for a payment after death. The estate can keep a payment only when the recipient was alive on the first day of the month CRA issued it. You also cannot get an amount for a spouse or a child who fails those tests at the start of the payment month.</p>
 
-    <p>You do not send an annual application if you already file. Newcomers who want the benefit in the year they become residents send Form RC151. You and a spouse each need a social insurance number in the ordinary case. Shared custody can split the child amount in half, the same idea as the <a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a>. One payment per family: the spouse whose return is assessed first usually receives it, and the amount does not change based on which name is on the deposit. Where this cheque sits next to other income tests is the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a>.</p>
+    <p>Newcomers who want the benefit in the year they become residents send Form RC151. You and a spouse each need a social insurance number in the ordinary case. Shared custody can split the child amount in half, the same idea as the <a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit</a>. One payment per family: the spouse whose return is assessed first usually receives it, and the amount does not change based on which name is on the deposit. Where this payment sits next to other income tests is the <a href="/blog/government-benefits-stacking-map-canada/">stacking map</a>.</p>
 
-    <h2>How much is it for July 2026 to June 2027?</h2>
+    <h2>How much is the Groceries and Essentials Benefit for July 2026 to June 2027?</h2>
 
-    <p>CRA's payment-amounts page lists the building blocks. The plain-language maximums on the "how much" page are the blocks added together. A single person's $679 is $445 plus the $234 supplement. A couple's $890 is $445 plus $445. A child is $234, except the first child in a single-parent family, where the table uses $445 instead of $234. That single-parent first child is the equivalent-to-spouse amount. Do not also stack the $234 single supplement on top of a child. The supplement's phase-in line is labelled for a single individual without children.</p>
+    <p>For July 2026 to June 2027, the Canada Groceries and Essentials Benefit in Canada pays up to $679 if you are single, $890 if you are married or common-law, and $234 for each child under 19. The payments are quarterly and tax-free, and a 25% increase stays in place for five years, from 2026 to 2031. Use the 2025 base-year table below, not a homemade markup of last year's notice.</p>
+
+    <p>A single person's $679 maximum is the $445 base plus the $234 supplement. A couple's $890 is $445 plus $445. Each child is $234, except the first child in a single-parent family, where the component table uses $445. The $234 supplement's phase-in is for a single individual without children. The payments chart, further down, is the amount at a given income.</p>
 
     <table>
-        <caption>Canada Groceries and Essentials Benefit components, 2025 base year (July 2026 to June 2027)</caption>
+        <caption>Canada Groceries and Essentials Benefit components, 2025 base year (July 2026 to June 2027). Checked October 15, 2026.</caption>
         <thead>
             <tr>
                 <th>Piece</th>
@@ -465,14 +470,48 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026, from CRA's payment-amounts page. The prior benefit year, July 2025 to June 2026, used $349, $349, $184, $349, and $184, with a phase-out at $45,521. The new dollars are higher than a pure indexation of those old dollars. CRA describes the policy as a 25% increase lasting through 2031. Use the 2025-base-year table, not a homemade 25% markup of last year's notice.</p>
+    <p>From CRA's payment-amounts page, checked October 15, 2026. The prior benefit year, July 2025 to June 2026, used $349, $349, $184, $349, and $184, with a phase-out at $45,521. The new dollars are higher than a pure indexation of those old dollars.</p>
 
-    <h2>How does the phase-out work?</h2>
+    <h2>Why does a low-income single person get $445 instead of $679?</h2>
 
-    <p>CRA's payments chart for a couple, for July 2026 to June 2027, pays the maximum when adjusted family net income is under $46,432, then steps down. At $48,000 a couple with no children is listed at $811.60, which is $78.40 below the $890 maximum. Income of $48,000 is $1,568 over $46,432, and $1,568 times 5 cents is $78.40. The same 5-cent reduction matches the chart's $50,000 row. The chart's footnote says the figures are a guideline and that family size and marital status have to stay current.</p>
+    <p>For July 2026 to June 2027, a single person in Canada with no children and adjusted family net income under $11,564 gets $445 from the Canada Groceries and Essentials Benefit, not $679. The extra $234 single supplement phases in above $11,564. A payment of $445 at a very low income is the chart, not an error.</p>
+
+    <div class="example-box">
+        <strong>Illustration: how the $234 single supplement phases in</strong>
+        <p>The supplement phases in at 2 cents per dollar of adjusted net income above $11,564. At $14,000, the income above that line is $2,436. Two percent of $2,436 is $48.72, and $445 plus $48.72 is $493.72, which is the chart cell. The $234 supplement is fully included when those 2 cents equal $234, which is $11,700 above $11,564, or about $23,264 of adjusted net income. From there through $45,000, the single, no-children column lists the $679 maximum. This illustration is arithmetic on CRA's chart. It is not a second official table.</p>
+    </div>
 
     <table>
-        <caption>CRA payments chart, married or common-law, July 2026 to June 2027</caption>
+        <caption>CRA payments chart excerpt, single individual, July 2026 to June 2027</caption>
+        <thead>
+            <tr>
+                <th>Adjusted family net income</th>
+                <th>No children</th>
+                <th>1 child</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Under $11,564</td><td>$445.00</td><td>$1,124.00</td></tr>
+            <tr><td>$14,000</td><td>$493.72</td><td>$1,124.00</td></tr>
+            <tr><td>$15,000</td><td>$513.72</td><td>$1,124.00</td></tr>
+            <tr><td>$20,000</td><td>$613.72</td><td>$1,124.00</td></tr>
+            <tr><td>$25,000 to $45,000</td><td>$679.00</td><td>$1,124.00</td></tr>
+            <tr><td>$50,000</td><td>$500.60</td><td>$945.60</td></tr>
+            <tr><td>$55,000</td><td>$250.60</td><td>$695.60</td></tr>
+            <tr><td>$60,000</td><td>$0.60</td><td>$445.60</td></tr>
+            <tr><td>$65,000</td><td>$0.00</td><td>$195.60</td></tr>
+            <tr><td>$70,000</td><td>—</td><td>$0.00</td></tr>
+        </tbody>
+    </table>
+
+    <p>Excerpt from CRA's payments chart for July 2026 to June 2027, checked October 15, 2026. The one-child column is $1,124.00 up to $45,000, so the lower rows repeat that amount. The no-children column in this excerpt ends at $65,000, where the chart lists $0.00. A dash is not a zero. The yearly entitlement is paid in four issuances: July 2026, October 2026, January 2027, and April 2027. Amounts are a guideline.</p>
+
+    <h2>How does the Groceries and Essentials Benefit phase out above $46,432?</h2>
+
+    <p>For July 2026 to June 2027, the Canada Groceries and Essentials Benefit in Canada pays a couple the maximum when adjusted family net income is under $46,432, then reduces the benefit by 5 cents per dollar above that line. At $48,000 a couple with no children is listed at $811.60, which is $78.40 below the $890 maximum: $48,000 is $1,568 over $46,432, and $1,568 times 5 cents is $78.40. Amounts are a guideline, and the same 5-cent step matches the chart's $50,000 row.</p>
+
+    <table>
+        <caption>CRA payments chart, married or common-law, July 2026 to June 2027. Checked October 15, 2026.</caption>
         <thead>
             <tr>
                 <th>Adjusted family net income</th>
@@ -494,22 +533,54 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026, excerpted from CRA's payments chart. Further rows on that page reach zero at $75,000 for three children and at $85,000 for four or more. The exact income where a maximum hits zero, if the 5-cent rate continues in a straight line, is the threshold plus the maximum divided by 0.05. For a couple with no children that is $46,432 plus $17,800, or $64,232. For a couple with two children it is $46,432 plus $27,160, or $73,592. For a single person at the $679 maximum it is $46,432 plus $13,580, or $60,012. Those three exit points are arithmetic on CRA's maximums and on the 5-cent step the chart displays. They are not a second official table.</p>
+    <p>Excerpt from CRA's payments chart, checked October 15, 2026. Amounts are a guideline, and family size and marital status have to stay current. Further rows on that page reach zero at $75,000 for three children and at $85,000 for four or more. Illustration, not a second official table: if the 5-cent rate continues in a straight line, the income where a maximum hits zero is the threshold plus the maximum divided by 0.05. For a couple with no children that is $46,432 plus $17,800, or $64,232. For a couple with two children it is $46,432 plus $27,160, or $73,592. For a single person at the $679 maximum it is $46,432 plus $13,580, or $60,012. The single chart above lists $0.60 at $60,000 and $0.00 at $65,000, which sits on that same line.</p>
 
     <div class="example-box">
         <strong>Illustration: a couple with two children and $50,000 of adjusted family net income</strong>
-        <p>The maximum on the chart is $1,358. Income above $46,432 is $3,568. Five cents on each of those dollars is $178.40. Subtracting that from $1,358 leaves $1,179.60, which is the chart's $50,000 cell for two children. Paid in four quarters, $1,179.60 is $294.90 a quarter. If the quarterly piece had been under $50, CRA would have paid the whole year in July instead. This illustration is the federal benefit only. A provincial amount administered with it can make the deposit larger. Ontario's sales tax credit is not in that deposit. CRA pays it inside the Ontario Trillium Benefit.</p>
+        <p>On the Canada Groceries and Essentials Benefit chart for July 2026 to June 2027, the maximum for a couple in Canada with two children is $1,358. Income above $46,432 is $3,568. Five cents on each of those dollars is $178.40. Subtracting that from $1,358 leaves $1,179.60, which is the chart's $50,000 cell for two children. Paid in four quarters, $1,179.60 is $294.90 a quarter. If a quarter is under $50, CRA pays the whole year in July instead. This illustration is the federal benefit only. A provincial amount administered with it can make the deposit larger. Ontario's sales tax credit is not in that deposit. CRA pays it inside the Ontario Trillium Benefit. For an estimate on your own file, use CRA's <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-family-benefits-calculator.html">Child and family benefits calculator</a>.</p>
     </div>
+
+    <h2>When is the next Groceries and Essentials Benefit payment?</h2>
+
+    <p>The next Canada Groceries and Essentials Benefit payment in Canada is January 5, 2027, then April 5, 2027. CRA pays on the 5th day of July and October 2026 and of January and April 2027, or on the last business day before when the 5th is a Saturday, Sunday, or federal statutory holiday. January 5, 2027 is a Tuesday and April 5, 2027 is a Monday, so neither of those two dates moves.</p>
+
+    <p>CRA's benefit payment dates page lists this benefit on July 3, 2026 and October 5, 2026. The same page lists the GST/HST credit on January 5, 2026 and April 2, 2026. The yearly amount on the chart is a guideline, paid in four issuances: July 2026, October 2026, January 2027, and April 2027. If the payment does not arrive, wait 10 working days before calling 1-800-387-1193. If the benefit is under $50 a quarter, CRA pays it all in July.</p>
 
     <h2>What was the June 5, 2026 top-up?</h2>
 
-    <p>Before the July rename, CRA issued a one-time GST/HST credit top-up on June 5, 2026. CRA says it generally provided a 50% increase to the annual GST/HST credit for July 2025 to June 2026, based on family situation in January 2026 and adjusted family net income from 2024. It did not include provincial or territorial amounts. CRA's note: the top-up was generally twice the January 2026 payment, and a family change during the year can make it something other than exactly half the year's total. You had to be entitled to the January 2026 GST/HST credit. There is no form for it now. If it did not arrive, the place to look is My Account, not a new application.</p>
+    <p>CRA issued a one-time GST/HST credit top-up on June 5, 2026, before the Canada Groceries and Essentials Benefit rename in July 2026. You needed a filed 2024 return and entitlement to the January 2026 payment. If you have not filed the 2024 return, file it, and CRA sends a retroactive payment if you are entitled.</p>
 
-    <p>The Department of Finance's June 2026 release described the top-up as $3.1 billion for the 12 million people then receiving the GST credit, including about 2.7 million in Quebec, and the ongoing increase as $8.6 billion over 2026-27 to 2030-31, including 500,000 additional people. The same release said a single person with $25,000 of net income would see a one-time top-up of $267 plus a longer-term increase of $136, and $950 in total for the 2026-27 year including the top-up. It said a family of four could receive up to $1,890 this year and about $1,400 a year for the next four years. Those are Finance's examples. The notice in My Account is the payment.</p>
+    <p>The top-up may have been applied to a CRA debt. It did not include provincial or territorial amounts. There is no form for it now. If it did not arrive, look in My Account, not for a new application.</p>
 
-    <h2>Which provincial amounts can arrive in the same deposit?</h2>
+    <p>CRA's maximums for that June 5, 2026 top-up depend on family type in January 2026 and 2024 adjusted family net income.</p>
 
-    <p>CRA's guide says related provincial and territorial credits are combined with the federal payment, except Ontario's sales tax credit. You do not apply to the province for these. The figures below are the maximums CRA published in the 2026-27 guide. They phase out on their own income lines. This is not a complete provincial map. That job is <a href="/blog/provincial-benefits-programs-canada/">provincial benefits</a>.</p>
+    <table>
+        <caption>Maximum one-time GST/HST credit top-up issued June 5, 2026</caption>
+        <thead>
+            <tr>
+                <th>Family</th>
+                <th>No children</th>
+                <th>1 child</th>
+                <th>2 children</th>
+                <th>3 children</th>
+                <th>4 or more</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Single</td><td>$267</td><td>$441</td><td>$533</td><td>$625</td><td>$717</td></tr>
+            <tr><td>Married or common-law</td><td>$349</td><td>$441</td><td>$533</td><td>$625</td><td>$717</td></tr>
+        </tbody>
+    </table>
+
+    <p>From CRA's one-time top-up page, checked October 15, 2026. CRA says the top-up generally provided a 50% increase to the annual GST/HST credit for July 2025 to June 2026, and that it was generally twice the January 2026 payment. A family change during the year can make it something other than exactly half the year's total.</p>
+
+    <p>The Department of Finance's June 5, 2026 release described the top-up as $3.1 billion for the 12 million people then receiving the GST credit, including about 2.7 million in Quebec, and the ongoing increase as $8.6 billion over 2026-27 to 2030-31, including 500,000 additional people. Finance's $25,000 example is a single senior with $25,000 in net income: a one-time top-up of $267, plus a longer-term increase of $136 for 2026-27, a total increase of $402, and $950 in total for 2026-27 including the top-up. The same release says a single person will receive up to $950 this year and about $700 a year for the next four years, and a family of four up to $1,890 this year and about $1,400 a year for the next four years. A couple with two children and $40,000 of net income: a top-up of $533 plus a $272 increase, a total increase of $805, and $1,890 in total. Those are Finance's examples. The notice in My Account is the payment.</p>
+
+    <h2>Which provincial credits are paid with the Groceries and Essentials Benefit?</h2>
+
+    <p>For 2026-27, CRA combines some provincial and territorial credits with the Canada Groceries and Essentials Benefit in Canada. Ontario's sales tax credit is the exception: CRA pays it inside the Ontario Trillium Benefit, not in this deposit. You do not apply to the province for the credits in the table, and the wider map is <a href="/blog/provincial-benefits-programs-canada/">provincial benefits</a>.</p>
+
+    <p>The figures below are the maximums in the 2026-27 guide. They phase out on their own income lines. This table is not every provincial program.</p>
 
     <table>
         <caption>Provincial amounts CRA administers with the Groceries and Essentials Benefit, from the 2026-27 guide</caption>
@@ -531,40 +602,69 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026, from CRA guide RC4210 for the 2026-27 payment period. Alberta, British Columbia, Manitoba, Northwest Territories, Nunavut, and Yukon are not given a companion credit in the section reviewed. Absence from this table is not a statement that the province has no other benefit.</p>
+    <p>From CRA guide RC4210 for the 2026-27 payment period. Alberta, British Columbia, Manitoba, Northwest Territories, Nunavut, and Yukon are not given a companion credit in the section reviewed. Absence from this table is not a statement that the province has no other benefit.</p>
+
+    <h2>What are the common mistakes with the Groceries and Essentials Benefit?</h2>
+
+    <p>Four mistakes show up on the Canada Groceries and Essentials Benefit for 2026-27 in Canada: skipping the return because income is zero, reporting a marriage or common-law change late, treating $679 as the payment at every low income, and looking for the Ontario sales tax credit inside this deposit.</p>
+
+    <p>File a return even when you have no income. CRA considers you for this benefit when you file. With no return, the test never runs.</p>
+
+    <p>Tell CRA about a marriage or common-law partnership by the end of the month after the month it changed. Two single payments become one family amount. Do not report a separation until you have been apart for 90 days because of a breakdown. An involuntary separation, such as work or illness, is not a breakdown.</p>
+
+    <div class="example-box">
+        <strong>Example from CRA: Kurt and Julie</strong>
+        <p>Kurt is single with $20,000 of income. He marries Julie, who has $30,000, in August 2026, and he tells CRA in September. From the October 2026 issuance, the Canada Groceries and Essentials Benefit is based on their combined adjusted family net income of $50,000. This is CRA's example of the timing. It is not a quote of a payment amount.</p>
+    </div>
+
+    <p>Do not assume $679 when income is under the phase-in. For July 2026 to June 2027, a single person with no children and AFNI under $11,564 gets $445.</p>
+
+    <p>Do not expect the Ontario sales tax credit in this deposit. CRA pays that credit through the Ontario Trillium Benefit.</p>
 
     <h2>Frequently asked questions</h2>
 
+    <h3>When is the next payment?</h3>
+    <p>The next Canada Groceries and Essentials Benefit payment in Canada is January 5, 2027, then April 5, 2027. CRA pays on the 5th of July, October, January, and April. If the 5th is a Saturday, Sunday, or federal statutory holiday, the payment is the last business day before. January 5, 2027 is a Tuesday and April 5, 2027 is a Monday, so those two dates do not move. If the payment does not arrive, wait 10 working days before calling 1-800-387-1193. If a quarter is under $50, CRA pays the whole year in July.</p>
+
+    <h3>Why am I getting less than $679 as a single person?</h3>
+    <p>For July 2026 to June 2027, $679 is the maximum for a single person in Canada with no children, not the amount at the lowest incomes. Under $11,564 of adjusted family net income, the Canada Groceries and Essentials Benefit chart lists $445.00. The extra $234 single supplement phases in at 2 cents per dollar above $11,564. Illustration: at $14,000, $445 plus 2% of $2,436 is $493.72, which matches the chart. The $679 maximum starts at about $23,264 of adjusted net income and runs through $45,000 on that chart. A payment of $445 is the phase-in, not an error.</p>
+
+    <h3>Can an RRSP contribution increase my Groceries and Essentials Benefit?</h3>
+    <p>It can in the phase-out zone, and this is an example, not a promise. Adjusted family net income for the Canada Groceries and Essentials Benefit uses line 23600 net income, and an RRSP deduction lowers line 23600. Example: on the July 2026 to June 2027 chart, a couple in Canada with no children at $50,000 of adjusted family net income gets $711.60. At $48,000 the chart shows $811.60, a $100 difference. In that phase-out zone, each $1 less of net income lines up with 5 cents of benefit. Under the phase-out line the chart amount is already at the maximum for that family, so a lower line 23600 does not increase it. A single person still in the phase-in, under about $23,264, can see a smaller supplement if income falls, because that supplement rises with income up to the maximum.</p>
+
     <h3>Is the Groceries and Essentials Benefit a new program with a new application?</h3>
-    <p>The name and the July 2026 increase are new. The eligibility, the quarterly structure, and the calculation method are the GST/HST credit's, which CRA says explicitly. If you were receiving the credit and your situation did not change, CRA says you are likely eligible. You still have to file. A newcomer uses Form RC151 for the year residency starts.</p>
+    <p>The name and the July 2026 increase are new. The eligibility, the quarterly structure, and the calculation method are the GST/HST credit's, which CRA says explicitly. If you were receiving the credit and your situation did not change, CRA says you are likely eligible for the Canada Groceries and Essentials Benefit. You still have to file. A newcomer uses Form RC151 for the year residency starts.</p>
 
     <h3>Do I report it on my tax return?</h3>
-    <p>CRA says the payments are not taxable and that you do not report them as income. Related provincial amounts in the same guide are also described as non-taxable. The benefit can still be used to repay a tax debt. CRA says it will keep future benefit payments and refunds until an overpayment is repaid, and it can apply the benefit to amounts owing.</p>
+    <p>No. CRA says the Canada Groceries and Essentials Benefit payments are not taxable and that you do not report them as income. Related provincial amounts in the same 2026-27 guide are also described as non-taxable. The benefit can still be used to repay a tax debt. CRA says it will keep future benefit payments and refunds until an overpayment is repaid, and it can apply the benefit to amounts owing.</p>
 
     <h3>I turned 19 in January. Which payment is my first?</h3>
-    <p>You have to be 19 in the month before the payment. CRA's guide uses Alex, who turns 19 on January 5, 2027. If Alex files a 2025 return, the first possible payment is April 2027, not January 2027, because Alex is not 19 before January 1. File the 2025 return even with no income, or the automatic test never runs.</p>
+    <p>You have to be 19 in the month before a Canada Groceries and Essentials Benefit payment. CRA's 2026-27 guide uses Alex, who turns 19 on January 5, 2027. If Alex files a 2025 return, the first possible payment is April 2027, not January 2027, because Alex is not 19 before January 1. File the 2025 return even with no income, or the automatic test never runs.</p>
 
     <h3>We got married after we each received the July payment. Who keeps it?</h3>
-    <p>Tell CRA by the end of the month after the month your status changed. Only one payment per family is allowed each quarter. If you both kept receiving a single-person amount after the marriage, one of you repays the payments that should have been a family amount. Do not report a separation until you have been apart for at least 90 days because of a breakdown. An involuntary separation, such as work or illness, is not a breakdown.</p>
+    <p>Tell CRA by the end of the month after the month your status changed. Only one Canada Groceries and Essentials Benefit payment per family is allowed each quarter. If you both kept receiving a single-person amount after the marriage, one of you repays the payments that should have been a family amount. Do not report a separation until you have been apart for 90 days because of a breakdown. An involuntary separation, such as work or illness, is not a breakdown.</p>
 
     <h3>Why is my quarterly payment different from my neighbour's at the same income?</h3>
-    <p>Marital status, the number and ages of children, and shared custody change the federal amount. A child who turns 19 is dropped at the next quarter. Provincial supplements differ by province. A quarter under $50 is not paid as a quarter at all. Compare the annual entitlement on the notice, not the deposit on a single Friday.</p>
+    <p>Marital status, the number and ages of children, and shared custody change the Canada Groceries and Essentials Benefit for July 2026 to June 2027. A child who turns 19 is dropped at the next quarter. Provincial supplements differ by province. A quarter under $50 is not paid as a quarter at all. Compare the annual entitlement on the notice, not the deposit on a single Friday.</p>
 
     <h3>Did this benefit replace the carbon rebate?</h3>
-    <p>No. Finance and CRA describe it as the GST/HST credit, renamed and increased. The Canada Carbon Rebate for individuals ended with the April 2025 payment when the federal fuel charge stopped. People still search the old rebate because the deposits used to be familiar. The programs answer different statutes. Read <a href="/blog/canada-carbon-rebate-ended/">the closed rebate</a> before you treat a missing carbon deposit as a missing groceries payment.</p>
+    <p>No. The Canada Groceries and Essentials Benefit is the GST/HST credit, renamed in July 2026 and increased. The Canada Carbon Rebate for individuals ended with the April 2025 payment when the federal fuel charge stopped. Read <a href="/blog/canada-carbon-rebate-ended/">the closed rebate</a> before you treat a missing carbon deposit as a missing groceries payment.</p>
 
     <h2>Sources</h2>
+    <p>Checked October 15, 2026.</p>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html">CRA guide RC4210, Canada Groceries and Essentials Benefit, 2026-27</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html">CRA, Canada Groceries and Essentials Benefit overview, including the July 2026 rename and the 25% increase</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payment-amounts.html">CRA, payment amounts and component table</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html">CRA, payments chart, July 2026 to June 2027</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html">CRA, Canada Groceries and Essentials Benefit overview, including the 25% increase</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html">CRA guide RC4210, Canada Groceries and Essentials Benefit, 2026-27</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/benefit-payment-dates.html">CRA, benefit payment dates</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/one-time-top-up.html">CRA, one-time GST/HST credit top-up issued June 5, 2026</a></li>
-        <li><a href="https://www.canada.ca/en/department-finance/news/2026/06/canadians-to-begin-receiving-enhanced-canada-groceries-and-essentials-benefit-starting-today.html">Department of Finance, June 2026 release on the top-up and the increase</a></li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2026/06/canadians-to-begin-receiving-enhanced-canada-groceries-and-essentials-benefit-starting-today.html">Department of Finance, June 5, 2026 release on the top-up and the increase</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-family-benefits-calculator.html">CRA, Child and family benefits calculator</a></li>
     </ul>
 
     <div class="cta-section">
-        <p><strong>The July notice is the calculation. The return is the input.</strong></p>
+        <p><strong>The notice is the calculation. The return is the input.</strong></p>
         <p>If the 2025 return is still open, the benefit is still waiting. The 2026 tax guide is the filing side.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
@@ -572,7 +672,9 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
     ${footer(published)}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-15',
+  },
   benefitsPost(
     'canadian-dental-care-plan-eligibility',
     'Canadian Dental Care Plan: Eligibility, Income Tiers, and How to Apply',
