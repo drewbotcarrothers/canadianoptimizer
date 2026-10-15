@@ -4,6 +4,7 @@ type EarningPost = {
   slug: string;
   category: string;
   categorySlug: string;
+  subcategory?: string;
   author: string;
   date: string;
   updated: string;
@@ -43,7 +44,7 @@ const footer = `<div class="article-footer">
         <div class="footer-note">Published: ${published} | Category: Earning More | Author: Andrew</div>
     </div>`;
 
-export const earningMoreClusterPosts: EarningPost[] = [
+const earningMoreClusterPostsRaw: EarningPost[] = [
   earningPost(
     'tax-aware-income-guide',
     'Tax-Aware Income Guide: Salary, Bonus, Equity, and Side Income',
@@ -822,7 +823,7 @@ export const earningMoreClusterPosts: EarningPost[] = [
         If you live in Canada and do the work in Canada, Canada taxes that income whether the company is in the United States. The structure decides the slip. An <span class="highlight">employee</span> belongs on a T4. A <span class="highlight">contractor</span> files Form T2125 and watches the $30,000 GST/HST line. An employer of record is still employment: a Canadian entity is the employer on paper. None of the three is "paid in USD, so no Canadian tax."
     </div>
 
-    <p>The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. The status test, if the US company wants a contractor but manages you like staff, is <a href="/blog/employee-vs-contractor-canada/">employee versus contractor</a>. GST/HST and T2125 are <a href="/blog/side-hustle-taxes-canada/">side-hustle taxes</a>. What a Canadian salary leaves after tax is <a href="/blog/salary-after-tax-by-province-canada/">the province table</a>. Incorporating the contract is <a href="/blog/should-you-incorporate/">a separate decision</a>.</p>
+    <p>Landing the role and pricing it is below. The status test, if the US company wants a contractor but manages you like staff, is <a href="/blog/employee-vs-contractor-canada/">employee versus contractor</a>. What to charge if you truly are self-employed is <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">how to set a freelance rate</a>. GST/HST and T2125 are <a href="/blog/side-hustle-taxes-canada/">side-hustle taxes</a>. What a Canadian salary leaves after tax is <a href="/blog/salary-after-tax-by-province-canada/">the province table</a>. The earning map is <a href="/blog/how-to-earn-more-money-canada/">how to earn more money in Canada</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
@@ -909,6 +910,12 @@ export const earningMoreClusterPosts: EarningPost[] = [
         <p>A US company does not put you in a US state for Canadian provincial tax. You pay the province or territory where you reside at year-end, plus federal tax. Quebec files its own return. The salary table is the employment-income picture if you are a T4 employee with no other deductions. A contractor's taxable income is profit, not the invoice total.</p>
     </div>
 
+    <h2>How to land it and price it</h2>
+
+    <p>Treat a US remote role as a Canadian job search with a currency attached. The listings that convert are the ones that already say they hire in Canada, or that name an employer of record. A posting that says "US only" is a negotiation, not a loophole. Ask, before you invest a week in interviews, which of the three structures they will actually put you on, and which province of employment they will use. If they cannot answer, you do not have an offer. You have a conversation.</p>
+
+    <p>Price the package in Canadian dollars after the structure is known, not in the USD headline. An employee offer is <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a>: base, bonus, any equity, vacation, and benefits, then the exchange rate you will actually receive, not last month's tourist rate. A contractor offer is <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">a freelance rate</a>: both CPP shares, no regular EI, the weeks you cannot bill, and benefits you now buy. Do not accept a USD hourly that is your old salary divided by 2,000. Write the number you need in Canadian dollars, convert it, and say that number. If the company will not meet it, the Canadian salary you already have is the better hourly.</p>
+
     <h2>Frequently asked questions</h2>
 
     <h3>Can I stay a US employee and ignore CRA?</h3>
@@ -956,7 +963,7 @@ export const earningMoreClusterPosts: EarningPost[] = [
         Calling someone a contractor does not make them one. CRA looks at the <span class="highlight">facts of the relationship</span>. Outside Quebec the factors in guide RC4110 include control, who provides tools, whether the worker can subcontract or hire helpers, financial risk, responsibility for investment and management, and the chance of profit. In Quebec the Civil Code applies, and the steps are different. If you are unsure, either party can request a CPP/EI ruling.
     </div>
 
-    <p>The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. The GST/HST and T2125 consequences of actually being self-employed are <a href="/blog/side-hustle-taxes-canada/">side-hustle taxes</a>. App-based driving is <a href="/blog/rideshare-delivery-driver-taxes-canada/">rideshare and delivery</a>. A US company using the word contractor from abroad is <a href="/blog/remote-work-us-company-from-canada/">remote work for a US company</a>. What to charge if you truly are self-employed is <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">the consulting rate</a>.</p>
+    <p>This is the decision for anyone going solo. Price the work only after the status is real: <a href="/blog/consulting-rate-after-cpp-ei-tax-canada/">how to set a freelance rate</a>. Registering the business is <a href="/blog/how-to-register-a-business-canada/">a separate step</a>. The GST/HST and T2125 consequences of actually being self-employed are <a href="/blog/side-hustle-taxes-canada/">side-hustle taxes</a>. App-based driving is <a href="/blog/rideshare-delivery-driver-taxes-canada/">rideshare and delivery</a>. A US company using the word contractor from abroad is <a href="/blog/remote-work-us-company-from-canada/">remote work for a US company</a>. The map of the three ways to earn more is <a href="/blog/how-to-earn-more-money-canada/">the earning guide</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
@@ -1078,3 +1085,32 @@ export const earningMoreClusterPosts: EarningPost[] = [
 </div>`
   ),
 ];
+
+const MOVED_TO_TAXES = new Set([
+  'tax-aware-income-guide',
+  'side-hustle-taxes-canada',
+  'salary-after-tax-by-province-canada',
+  'rideshare-delivery-driver-taxes-canada',
+  'bonus-tax-canada',
+  'severance-pay-tax-canada',
+]);
+
+const EARNING_SUBCATEGORY: Record<string, string> = {
+  'remote-work-us-company-from-canada': 'employee',
+  'employee-vs-contractor-canada': 'entrepreneur',
+};
+
+export const earningMoreClusterPosts: EarningPost[] = earningMoreClusterPostsRaw.map((post) => {
+  if (MOVED_TO_TAXES.has(post.slug)) {
+    return {
+      ...post,
+      category: 'Taxes',
+      categorySlug: 'taxes',
+      content: post.content.replaceAll('Category: Earning More', 'Category: Taxes'),
+    };
+  }
+  return {
+    ...post,
+    subcategory: EARNING_SUBCATEGORY[post.slug],
+  };
+});

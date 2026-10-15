@@ -21,6 +21,8 @@ export type BlogPostRecord = {
   slug: string;
   category: string;
   categorySlug: string;
+  /** Subcategory slug, when the category defines subcategories. */
+  subcategory?: string;
   author: string;
   date: string;
   updated: string;

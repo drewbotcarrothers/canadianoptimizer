@@ -28,10 +28,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: '2026-09-26',
   }));
 
+  const subcategoryEntries: MetadataRoute.Sitemap = CATEGORIES.flatMap((category) =>
+    (category.subcategories ?? []).map((sub) => ({
+      url: `${SITE_URL}/category/${category.slug}/${sub.slug}/`,
+      lastModified: '2026-10-15',
+    }))
+  );
+
   const postEntries: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}/`,
     lastModified: post.updated || post.date,
   }));
 
-  return [...staticEntries, ...categoryEntries, ...postEntries];
+  return [...staticEntries, ...categoryEntries, ...subcategoryEntries, ...postEntries];
 }
