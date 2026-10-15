@@ -352,6 +352,10 @@ export const insuranceClusterPosts: InsurancePost[] = [
 </div>`
     ),
     updated: '2026-10-13',
+    youtubeId: 'Lfqeq7IRwYI',
+    youtubeTitle: 'Why Term Life "Rates by Age" Charts Mislead Canadians',
+    youtubeUploadDate: '2026-10-15T04:28:48-04:00',
+    youtubeDuration: 'PT5M56S',
   },
 
   insurancePost(
