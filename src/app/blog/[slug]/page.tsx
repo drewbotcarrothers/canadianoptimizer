@@ -19,6 +19,7 @@ import {
   AUTHOR_NAME,
   breadcrumbSchema,
   buildPageMetadata,
+  findSubcategory,
   extractFaq,
   faqSchema,
   formatMonthYear,
@@ -194,10 +195,31 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     contentWithImage = insertVideoMarker(contentWithImage);
   }
 
+  const subcategory = findSubcategory(post.categorySlug, post.subcategory);
   const crumbs = [
     { name: 'Home', path: '/' },
     { name: post.category, path: `/category/${post.categorySlug}/` },
+    ...(subcategory
+      ? [
+          {
+            name: subcategory.name,
+            path: `/category/${post.categorySlug}/${subcategory.slug}/`,
+          },
+        ]
+      : []),
     { name: post.title, path: `/blog/${post.slug}/` },
+  ];
+  const breadcrumbItems = [
+    { label: post.category, href: `/category/${post.categorySlug}/` },
+    ...(subcategory
+      ? [
+          {
+            label: subcategory.name,
+            href: `/category/${post.categorySlug}/${subcategory.slug}/`,
+          },
+        ]
+      : []),
+    { label: post.title },
   ];
 
   const faq = extractFaq(post.content);
@@ -227,12 +249,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <SchemaMarkup data={schemas} />
         <div className="bg-light-slate border-b border-gray-100">
           <div className="container mx-auto px-4 pt-6 max-w-6xl">
-            <Breadcrumbs
-              items={[
-                { label: post.category, href: `/category/${post.categorySlug}/` },
-                { label: post.title },
-              ]}
-            />
+            <Breadcrumbs items={breadcrumbItems} />
           </div>
         </div>
         <article
@@ -275,11 +292,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <section className="bg-light-slate py-16 mb-12">
           <div className="container mx-auto px-4 max-w-4xl">
             <Breadcrumbs
-              items={[
-                { label: 'Blog', href: '/blog/' },
-                { label: post.category, href: `/category/${post.categorySlug}/` },
-                { label: post.title },
-              ]}
+              items={[{ label: 'Blog', href: '/blog/' }, ...breadcrumbItems]}
             />
             <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
               {post.title}

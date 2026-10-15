@@ -8,7 +8,7 @@ export const AUTHOR_URL = `${SITE_URL}/about/`;
 export const LOGO_PATH = '/assets/logo.png';
 
 /** Bump this when blog hero files change but keep the same filename. */
-export const BLOG_HERO_VERSION = '20261008';
+export const BLOG_HERO_VERSION = '20261015';
 
 export function blogHeroSrc(src: string): string {
   if (!src.includes('/images/blog/')) return src;
@@ -17,12 +17,21 @@ export function blogHeroSrc(src: string): string {
   return `${src}${joiner}v=${BLOG_HERO_VERSION}`;
 }
 
+export type CategorySubcategory = {
+  slug: string;
+  name: string;
+  pageTitle: string;
+  metaDescription: string;
+  description: string;
+};
+
 export const CATEGORIES: {
   slug: string;
   name: string;
   pageTitle: string;
   metaDescription: string;
   description: string;
+  subcategories?: CategorySubcategory[];
 }[] = [
   {
     slug: 'investing',
@@ -81,11 +90,37 @@ export const CATEGORIES: {
   {
     slug: 'earning-more',
     name: 'Earning More',
-    pageTitle: 'Strategies for Earning More in Canada',
+    pageTitle: 'How to Earn More Money in Canada',
     metaDescription:
-      'Raise math, side income, and incorporated compensation strategies that account for Canadian tax and benefits.',
+      'Raise and job-switch math, building a business, and side hustles that pay.',
     description:
-      'Compensation design, tax-aware income, and career leverage for Canadians.',
+      'Raise and job-switch math, building a business, and side hustles that pay.',
+    subcategories: [
+      {
+        slug: 'employee',
+        name: 'Employee',
+        pageTitle: 'Earning More as an Employee in Canada',
+        metaDescription:
+          'Raises, job offers, severance, overtime, and remote pay for Canadians who earn a salary.',
+        description: 'Raises, offers, severance, and the pay stub.',
+      },
+      {
+        slug: 'entrepreneur',
+        name: 'Entrepreneur',
+        pageTitle: 'Earning More as an Entrepreneur in Canada',
+        metaDescription:
+          'Freelance rates, business registration, first clients, self-employed EI, and raising prices in Canada.',
+        description: 'Rates, registration, clients, and getting paid.',
+      },
+      {
+        slug: 'side-hustles',
+        name: 'Side Hustles',
+        pageTitle: 'Side Hustles in Canada',
+        metaDescription:
+          'Side hustles with published earnings, Marketplace sales, platform reporting, reselling, and creator income.',
+        description: 'Extra income, and whether it still pays.',
+      },
+    ],
   },
   {
     slug: 'insurance',
@@ -337,16 +372,24 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   };
 }
 
+export function findSubcategory(categorySlug: string, subSlug: string | undefined) {
+  if (!subSlug) return undefined;
+  return CATEGORIES.find((category) => category.slug === categorySlug)?.subcategories?.find(
+    (sub) => sub.slug === subSlug
+  );
+}
+
 export function collectionSchema(
   category: { slug: string; name: string; pageTitle: string; description: string },
-  categoryPosts: { title: string; slug: string }[]
+  categoryPosts: { title: string; slug: string }[],
+  pagePath?: string
 ) {
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: category.pageTitle,
     description: category.description,
-    url: `${SITE_URL}/category/${category.slug}/`,
+    url: `${SITE_URL}${pagePath ?? `/category/${category.slug}/`}`,
     mainEntity: {
       '@type': 'ItemList',
       itemListElement: categoryPosts.map((post, index) => ({

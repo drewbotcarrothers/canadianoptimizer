@@ -22,7 +22,7 @@ const FOCUS_AREAS = [
   { name: 'Credit Cards', icon: '💳', desc: 'Strategic travel hacking and rewards maximization', slug: '/category/credit-cards/' },
   { name: 'Retirement', icon: '🏖️', desc: 'Secure your future with withdrawal and income strategies', slug: '/category/retirement/' },
   { name: 'Budgeting & Saving', icon: '📊', desc: 'High-performance cash flow and cost reduction', slug: '/category/budgeting-saving/' },
-  { name: 'Earning More', icon: '🚀', desc: 'Income optimization and career leverage tactics', slug: '/category/earning-more/' },
+  { name: 'Earning More', icon: '🚀', desc: 'Raises, a business, and side hustles that pay', slug: '/category/earning-more/' },
   { name: 'Insurance', icon: '🛡️', desc: 'Optimizing risk management and protection', slug: '/category/insurance/' },
   { name: 'Government Benefits', icon: '🇨🇦', desc: 'Maximizing grants, credits, and provincial programs', slug: '/category/government-benefits/' },
 ];

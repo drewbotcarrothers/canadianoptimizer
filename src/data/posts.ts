@@ -2,6 +2,10 @@
 import type { BlogPostRecord } from '../lib/post-video';
 import { budgetingClusterPosts } from './budgeting-cluster';
 import { earningMoreClusterPosts } from './earning-more-cluster';
+import { earningMore2026Posts } from './earning-more-2026';
+import { earningMore2026EmployeePosts } from './earning-more-2026-employee';
+import { earningMore2026EntrepreneurPosts } from './earning-more-2026-entrepreneur';
+import { earningMore2026SidePosts } from './earning-more-2026-side';
 import { retirementClusterPosts } from './retirement-cluster';
 import { creditCardClusterPosts } from './credit-card-cluster';
 import { governmentBenefitsClusterPosts } from './government-benefits-cluster';
@@ -9782,6 +9786,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <h4>Key Insight</h4>
 <p>The corporation doesn't save you money immediately. It gives you a choice in how to extract income and when to do so. That choice is where the tax savings actually happen — or don't.</p>
 </div>
+
+        <p>Once the company exists, how you pay yourself is its own decision: <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. This article is whether to incorporate. That one is the mix of salary and dividends if you do. A holding company on top of the operating company is a third question, <a href="/blog/holding-company-income-streams-canada/">holding-company income</a>, and it is usually a no until there is surplus to separate.</p>
 
         <h2>The Small Business Deduction Explained</h2>
 
@@ -25397,18 +25403,19 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     slug: "raise-promotion-negotiation-math-canada",
     category: "Earning More",
     categorySlug: "earning-more",
+    subcategory: "employee",
     author: "Andrew",
     date: "2026-09-17",
-    updated: "2026-09-17",
-    excerpt: "Price a raise against a job offer on after-tax total compensation: forfeited equity, pension service, benefits, and the RRSP room a higher salary actually creates.",
+    updated: "2026-10-15",
+    excerpt: "Ask against the raise budgets first. Then price staying against leaving on after-tax total compensation, forfeited equity, and benefits.",
     image: "/images/blog/raise-promotion-negotiation-math-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        A higher base is a headline. The decision is <span class="highlight">after-tax total compensation, minus what you forfeit by leaving</span>. A $15,000 raise and a $15,000 hop are not the same cheque.
+        Ask for the raise before you price the exit. Employer budgets cluster around <span class="highlight">Normandin Beaudry 3.1% for 2026</span> and, looking ahead, <span class="highlight">Mercer 3.2% total for 2027</span>. Those are pools, not a cap. The after-tax comparison, if you might leave, comes second: total compensation, minus what you forfeit.
     </div>
 
-    <p>This page is the comparison. Equity that vests later is the <a href="/blog/rsu-stock-options-tax-canada/">RSU and stock-option guide</a>. If the offer is in another province, the tax and housing gap is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage inside Canada</a>. Where the extra dollars go once they land is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> and the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The brackets that turn gross into net are <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a>. Confirm the year's tables. Do not negotiate off a screenshot from last spring.</p>
+    <p>The benchmarks and the script are <a href="/blog/how-to-ask-for-a-raise-canada/">how to ask for a raise</a>. Normandin Beaudry's 2026 figure excludes salary freezes. The same survey put the average at 3.4 percent once additional ad hoc budgets are included. Mercer's 3.2 percent total for 2027 includes merit, promotions, and other adjustments, with merit at 3.0 percent. This page is the comparison if the ask fails or a new offer arrives. Equity that vests later is the <a href="/blog/rsu-stock-options-tax-canada/">RSU and stock-option guide</a>. If the offer is in another province, the tax and housing gap is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage inside Canada</a>. Where the extra dollars go once they land is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a> and the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. The brackets that turn gross into net are <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a>. Confirm the year's tables. Do not negotiate off a screenshot from last spring.</p>
 
     <div class="callout">
         <strong>RRSP room follows the raise by a year, and TFSA room does not follow it at all:</strong>
@@ -25516,7 +25523,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing Canadian employment offers. It is not tax, employment, or benefits advice. Marginal rates, CPP ceilings, RRSP dollar maximums, pension adjustments, and equity-plan rules change and are specific to your letter. Dollar amounts and the 43 percent rate in the example are an illustration of a comparison, not a bracket, not a salary survey, and not your package. Confirm rates with the current federal and provincial tables, room with CRA, and plan values with the administrator before you resign or accept.</p>
-        <div class="footer-note">Published: September 17, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 17, 2026 | Updated: October 15, 2026 | Category: Earning More | Author: Andrew</div>
     </div>
 
 </div>`
@@ -25526,18 +25533,19 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     slug: "side-income-benefits-tax-clawbacks-canada",
     category: "Earning More",
     categorySlug: "earning-more",
+    subcategory: "side-hustles",
     author: "Andrew",
     date: "2026-09-18",
-    updated: "2026-09-18",
-    excerpt: "Extra income can shrink GIS, the Canada Child Benefit, EI, and provincial credits by more than the tax on the dollar. Map the tests before you take the work.",
+    updated: "2026-10-15",
+    excerpt: "Is the side hustle worth it after clawbacks? Extra income can shrink GIS, the Canada Child Benefit, EI, and provincial credits by more than the tax on the dollar.",
     image: "/images/blog/side-income-benefits-tax-clawbacks-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        The expensive part of extra income is often <span class="highlight">the benefit it turns off</span>, not the invoice. A dollar that is taxed at a modest rate can still be a poor trade if a clawback takes fifty cents of a cheque you were already receiving.
+        Is the side hustle actually worth it after clawbacks? The invoice is the easy number. <span class="highlight">The number that matters is what is left once a benefit the extra income turns down is subtracted.</span> A dollar taxed at a modest rate can still be a poor trade.
     </div>
 
-    <p>This is a decision framework for income you are considering on top of a job, a pension, or a benefit. It is not a list of gigs. The map of which programs stack is <a href="/blog/government-benefits-stacking-map-canada/">the benefits stacking map</a>. GIS and the OAS recovery tax are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">its own guide</a>. Employment insurance while you work is <a href="/blog/employment-insurance-benefits-canada/">the EI guide</a>. Provincial credits that do not show up on the federal notice are <a href="/blog/provincial-benefits-programs-canada/">the provincial map</a>. If the extra income is a business rather than a few invoices, the filing is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>.</p>
+    <p>Pick the hustle, if you still want one, from <a href="/blog/best-side-hustles-canada/">best side hustles</a>. This page is the net-earnings test for income on top of a job, a pension, or a benefit. It is not a list of gigs. The map of which programs stack is <a href="/blog/government-benefits-stacking-map-canada/">the benefits stacking map</a>. GIS and the OAS recovery tax are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The Canada Child Benefit is <a href="/blog/canada-child-benefit-optimization-canada/">its own guide</a>. Employment insurance while you work is <a href="/blog/employment-insurance-benefits-canada/">the EI guide</a>. Provincial credits that do not show up on the federal notice are <a href="/blog/provincial-benefits-programs-canada/">the provincial map</a>. If the extra income is a business rather than a few invoices, the filing is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>.</p>
 
     <div class="callout">
         <strong>Confirm the year's reduction. Do not memorize one:</strong>
@@ -25654,7 +25662,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how extra income can interact with Canadian benefits. It is not tax, benefits, or employment advice, and it is not a complete list of programs. Reduction rates, thresholds, and income definitions change and are deliberately not stated as current figures. The dollar amounts in the example are placeholders, not GIS, CCB, EI, or tax rates. Confirm parameters with CRA, Service Canada, and your provincial ministry, and get advice before you move income between years or into a corporation to affect a benefit.</p>
-        <div class="footer-note">Published: September 18, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 18, 2026 | Updated: October 15, 2026 | Category: Earning More | Author: Andrew</div>
     </div>
 
 </div>`
@@ -25662,8 +25670,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   {
     title: "RSUs and Employee Stock Options: Canadian Tax, Withholding, and Concentration",
     slug: "rsu-stock-options-tax-canada",
-    category: "Earning More",
-    categorySlug: "earning-more",
+    category: "Taxes",
+    categorySlug: "taxes",
     author: "Andrew",
     date: "2026-09-19",
     updated: "2026-09-19",
@@ -25771,128 +25779,131 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about employer equity for Canadian residents. It is not tax, securities, or employment advice. Grant terms, the stock-option deduction, CCPC deferral, withholding, foreign tax credits, and alternative minimum tax depend on the plan and the year. No withholding rate, deduction cap, or share value here is a current figure. The vest example is an illustration. Confirm the agreement with the issuer and the tax result with a CPA before you exercise, contribute shares in kind, or file.</p>
-        <div class="footer-note">Published: September 19, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 19, 2026 | Category: Taxes | Author: Andrew</div>
     </div>
 
 </div>`
   },
   {
-    title: "What a Consulting Rate Is Worth After CPP, EI, and Tax",
+    title: "How to Set Your Freelance Rate in Canada",
     slug: "consulting-rate-after-cpp-ei-tax-canada",
     category: "Earning More",
     categorySlug: "earning-more",
+    subcategory: "entrepreneur",
     author: "Andrew",
     date: "2026-09-20",
-    updated: "2026-09-20",
-    excerpt: "A contract rate is not an hourly wage. Price both CPP shares, the EI you do not get, unpaid time, benefits you now buy, and tax before you leave a salary.",
+    updated: "2026-10-15",
+    excerpt: "A freelance rate is the income you need, divided by hours a client will pay for. Price both CPP shares, unpaid weeks, and benefits before you leave a salary.",
     image: "/images/blog/consulting-rate-after-cpp-ei-tax-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        Dividing a salary by 2,000 hours is not your wage, and quoting that number plus twenty percent is not a consulting rate. The rate has to buy <span class="highlight">both shares of CPP, the benefits a payroll used to buy, the weeks you cannot bill, and the tax</span>.
+        A freelance rate is the price of a year of your work, divided by the hours a client will actually pay for. <span class="highlight">Salary divided by 2,000, plus a round twenty percent, is not that price.</span> The rate has to buy both shares of CPP, the benefits a payroll used to buy, the weeks you cannot bill, and the tax instalments nobody withholds.
     </div>
 
-    <p>The filing once you are actually self-employed is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>. The point at which a corporation starts to matter is <a href="/blog/should-you-incorporate/">should you incorporate</a>, and the salary-or-dividend choice after that is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>. Instalments are <a href="/blog/quarterly-tax-instalments/">quarterly tax instalments</a>. If the contract income will also move a household benefit, run <a href="/blog/side-income-benefits-tax-clawbacks-canada/">the clawback framework</a> before you celebrate the gross. Replacing the disability policy your employer carried is the <a href="/blog/disability-insurance-canada-guide/">disability guide</a>.</p>
+    <p>This is the pricing page. Whether the contract is even self-employment is <a href="/blog/employee-vs-contractor-canada/">employee versus contractor</a>. Registering the name is <a href="/blog/how-to-register-a-business-canada/">how to register a business</a>. The first people who pay the rate are <a href="/blog/first-10-clients-freelance-canada/">the first ten clients</a>. The opt-in that is not regular EI is <a href="/blog/ei-self-employed-canada/">EI for the self-employed</a>, at $1.63 per $100 outside Quebec in 2026, up to $1,123.07, and only for special benefits after a 12-month wait. The return, once the invoices are real, is the <a href="/blog/self-employed-tax-guide/">self-employed tax guide</a>. The point at which a corporation starts to matter is <a href="/blog/should-you-incorporate/">should you incorporate</a>, and the salary-or-dividend choice after that is <a href="/blog/salary-vs-dividends-incorporated-canada/">salary versus dividends</a>.</p>
 
     <div class="callout">
-        <strong>Employment insurance does not come with the invoice:</strong>
-        <p>Employees pay EI and can qualify for regular benefits if they lose the job. A self-employed person does not pay into regular EI and does not receive regular benefits. An opt-in exists for special benefits such as maternity, parental, and sickness, and the opt-in is sticky. Confirm the current rules and the premium before you treat a contract as insured. The program shape is the <a href="/blog/employment-insurance-benefits-canada/">EI guide</a>. This page will not restate the benefit calculation.</p>
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Start from the package you are replacing, or from the profit you need, not from a number that sounds professional.</li>
+            <li>Divide by hours you can bill, not by hours you will work. Admin, sales, and empty weeks are not billable.</li>
+            <li>Add both CPP shares, the benefits you now buy, and a cash reserve for the EI you do not get. Self-employed people do not pay into regular EI.</li>
+            <li>GST/HST on the invoice is not your money. Keep it out of "what I earned."</li>
+            <li>If the client sets your hours, tools, and rate, you may be an employee. Price a job, not a disguised salary.</li>
+        </ul>
     </div>
 
-    <h2>Two hourly rates, and neither is the quote</h2>
+    <h2>The worksheet</h2>
+
+    <p>Fill the lines with your numbers. The illustration further down is a method, not a quote.</p>
 
     <table>
         <thead>
-            <tr>
-                <th>Load</th>
-                <th>On a salary</th>
-                <th>On a consulting invoice</th>
-            </tr>
+            <tr><th>Line</th><th>What to put</th></tr>
         </thead>
         <tbody>
-            <tr>
-                <td>CPP</td>
-                <td>You pay the employee share, up to the year's ceiling, and a second ceiling can apply. The employer pays the other share. That employer share is compensation you never see.</td>
-                <td>You pay both shares on pensionable self-employment earnings, up to the same ceilings. The employer-equivalent half is generally deductible. Confirm the ceilings and the deduction. They are not optional rounding.</td>
-            </tr>
-            <tr>
-                <td>EI</td>
-                <td>You pay a premium. The employer pays a larger one. Regular benefits are possible if you are laid off and otherwise qualify.</td>
-                <td>No regular coverage unless you are still an employee of someone. Special-benefit opt-in is a separate decision. Price a cash reserve for the gap. The reserve design is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>.</td>
-            </tr>
-            <tr>
-                <td>Benefits</td>
-                <td>Health, disability, and sometimes life are partly or fully employer-paid. A disability benefit is often a percentage of salary.</td>
-                <td>You buy them, or you self-insure. Put the premium in the rate. A contract with no disability policy is a rate that has not been finished.</td>
-            </tr>
-            <tr>
-                <td>Paid time off</td>
-                <td>Vacation and statutory holidays are inside the salary. Your true hourly uses hours you actually work, not a 2,000-hour fiction.</td>
-                <td>Unbilled weeks come out of the rate. So does admin: proposals, invoicing, unpaid sales. A 40-hour week is not a 40-hour billable week.</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Withheld at source. The return reconciles.</td>
-                <td>Nothing is withheld. You remit income tax, both CPP shares, and GST/HST if you are registered. The small-supplier threshold is a real line. Confirm the current amount before you decide you are under it.</td>
-            </tr>
+            <tr><td>1. Income you need before tax</td><td>The salary you are leaving, or the profit that covers your year, plus benefits you will now buy yourself.</td></tr>
+            <tr><td>2. Employer costs the salary hid</td><td>The employer's CPP share, and any benefit premiums the employer paid. On a contract you pay both CPP shares on pensionable self-employment earnings, up to the year's ceilings. Confirm the ceilings with CRA. The employer-equivalent half is generally deductible. It is still cash out the door.</td></tr>
+            <tr><td>3. Billable hours</td><td>Weeks you will actually invoice, times hours per week a client pays. A 48-week year at 25 billable hours is 1,200 hours. A 40-hour week is not a 40-hour invoice.</td></tr>
+            <tr><td>4. Hourly rate</td><td>Line 1 plus line 2, divided by line 3. That is the rate before GST/HST.</td></tr>
+            <tr><td>5. Day or project rate</td><td>The hourly times the hours the project really takes, including revisions you have learned to expect.</td></tr>
         </tbody>
     </table>
 
-    <h2>A rate that matches a salary</h2>
+    <h2>What the salary was hiding</h2>
 
-    <p>Start from the employment package, not from a round number you like. Take base, plus the employer's CPP share, plus benefits you would replace, plus the vacation you would stop being paid for. That is the after-load target the consulting practice has to produce, after tax, in the hours you can actually bill. Then gross it up. If you skip the gross-up, you have priced a hobby.</p>
+    <table>
+        <thead>
+            <tr><th>Load</th><th>On a salary</th><th>On an invoice</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>CPP</td><td>You pay the employee share. The employer pays the other share. You never see that second share, and it is still compensation.</td><td>You pay both shares up to the ceilings. Price them in.</td></tr>
+            <tr><td>EI</td><td>You pay a premium and can qualify for regular benefits if you lose the job.</td><td>No regular coverage. Special-benefit opt-in is optional, sticky after a claim, and capped. In 2026 the cap outside Quebec is $1,123.07. Put a cash reserve in the rate for the gap. The reserve design is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>.</td></tr>
+            <tr><td>Benefits</td><td>Health and disability are often partly employer-paid.</td><td>You buy them or you go without. A rate with no disability premium is an unfinished rate. The policy is the <a href="/blog/disability-insurance-canada-guide/">disability guide</a>.</td></tr>
+            <tr><td>Paid time off</td><td>Vacation and stats are inside the salary.</td><td>Unbilled weeks come out of the rate. So does admin.</td></tr>
+            <tr><td>Tax</td><td>Withheld. The return reconciles.</td><td>Nothing is withheld. Instalments are <a href="/blog/quarterly-tax-instalments/">quarterly tax instalments</a>. If the income moves a benefit, run <a href="/blog/side-income-benefits-tax-clawbacks-canada/">the clawback framework</a> before you celebrate the gross.</td></tr>
+        </tbody>
+    </table>
+
+    <h2>An illustration of the gross-up</h2>
 
     <div class="example-box">
-        <strong>Illustration of a gross-up, not a quote you should charge</strong>
-        <p>Suppose a salary of $120,000, and suppose you actually work 46 weeks after vacation. At 40 hours that is 1,840 hours, about $65 an hour of gross salary before the employer's CPP, benefits, and paid-time value. Those add more. The $65 is not your consulting rate.</p>
-        <p>Now suppose you can bill 1,200 hours a year after admin and empty weeks. You want, as an illustration, $130,000 of pre-tax profit to cover a similar life, both CPP shares, and benefits you now pay yourself. $130,000 divided by 1,200 hours is about $108 an hour before GST/HST. If a quarter of your time is unbillable and you pretended it was not, you would underprice by that quarter. None of these hours or dollars is a market rate, a CPP ceiling, or a tax bracket. Substitute your billable hours and the package you are leaving. If the client will not pay the grossed-up rate, the salary is the better hourly.</p>
+        <strong>Not a quote you should charge</strong>
+        <p>Suppose a salary of $120,000, and suppose you actually work 46 weeks after vacation. At 40 hours that is 1,840 hours, about $65 an hour of gross salary before the employer's CPP, benefits, and the value of paid time. The $65 is not your rate.</p>
+        <p>Suppose you can bill 1,200 hours after admin and empty weeks, and you want $130,000 before tax to cover a similar life, both CPP shares, and benefits you now pay. $130,000 divided by 1,200 hours is about $108 an hour before GST/HST. None of these hours or dollars is a market rate, a CPP ceiling, or a tax bracket. Substitute your billable hours and the package you are leaving. If the client will not pay the grossed-up rate, the salary is the better hourly.</p>
     </div>
 
     <div class="tip-box">
         <strong>GST/HST is not income, and it is still cash:</strong>
-        <p>Once you are registered, the tax on the invoice is the Crown's money sitting in your account until you remit. Spending it is how consultants create a debt that feels like a surprise. The small-supplier test, the reporting period, and quick-method eligibility change. Confirm them. Do not bury the tax inside "what I earned." Business cards and expense separation, if you incorporate or stay a proprietor, are <a href="/blog/business-credit-cards-sole-prop-corporation-canada/">business credit cards</a>.</p>
+        <p>Once you are registered, the tax on the invoice is the Crown's until you remit. The small-supplier test and the reporting period change. Confirm them in the <a href="/blog/side-hustle-taxes-canada/">side-hustle tax article</a>. Do not bury the tax inside what you earned. Keeping business spending off the household card is <a href="/blog/business-credit-cards-sole-prop-corporation-canada/">business credit cards</a>.</p>
     </div>
 
-    <h2>When a corporation starts to matter</h2>
+    <h2>When the rate says you should not leave yet</h2>
 
-    <p>Incorporation is a cost — a T2, payroll if you pay yourself a salary, a minute book, GST if it applies, and an accountant. It starts to earn that cost when at least one of these is true, and usually more than one. You do not need all of the profit to live on, so deferral is real. Clients or liability actually require a company. Or you are past the point where sole-prop income, taxed every year at your full marginal rate, is the expensive way to save. None of those is a dollar threshold. A remembered "incorporate at this revenue" line is how people buy a T2 for a job that should have stayed a T4.</p>
-
-    <p>If you do incorporate, the next decision is how the money comes out. Salary builds RRSP room and CPP. Dividends do not. That tradeoff is the next article, and the longer "should the company exist" test is already written. Do not let a rate-card conversation skip either one. Personal cash flow still has to work in the months clients pay late. Route drawings on purpose. The household side is the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>.</p>
+    <p>If line 4 is a number nobody in your market pays, you do not have a pricing problem. You have a volume problem or a salary that is already the better deal. Raising prices later, once clients exist, is <a href="/blog/raising-prices-small-business-canada/">a separate script</a>. Incorporation does not fix a rate the market will not pay. It adds a T2. Use it when you do not need all the profit to live on, or when liability or the client requires a company. None of those is a dollar threshold you heard at a meetup.</p>
 
     <div class="warning-box">
-        <strong>A contract that looks like a job can be an employee anyway:</strong>
-        <p>If the payer controls how, when, and where you work, provides the tools, and bears the chance of profit and loss, CRA or a court can call you an employee. The invoice rate you calculated as a proprietor is then the wrong structure, and the payer may owe source deductions. The label on the contract is not the test. If the work is a job, negotiate it as a job, using <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a>, instead of laundering a salary through a corporation.</p>
+        <strong>A contract that looks like a job can be employment:</strong>
+        <p>If the payer controls how, when, and where you work, provides the tools, and bears the chance of profit and loss, you can be an employee. The invoice rate is then the wrong structure. Negotiate it as a job, using <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a>.</p>
     </div>
 
-    <h2>Key takeaways</h2>
+    <h2>Frequently asked questions</h2>
 
+    <h3>Should I quote hourly, daily, or a project?</h3>
+    <p>Build the hourly so you know the floor. Quote a project when you can see the scope, using the hours the work actually takes. An hourly quote for an undefined job is how you end up cheaper than the worksheet.</p>
+
+    <h3>Do I add GST/HST on top?</h3>
+    <p>If you are registered, yes. Say so on the quote. The client who compares you to a salary is not comparing like with like, and the tax is not your fee.</p>
+
+    <h3>What if I am still employed and this is a side rate?</h3>
+    <p>The worksheet still applies to the extra hours, and the clawback article applies if a benefit depends on family income. Do not use a "mates rate" that trains the market, including you, to ignore CPP on the self-employed portion.</p>
+
+    <h2>Sources</h2>
     <ul>
-        <li><strong>Price both CPP shares, the missing EI, benefits, and unbilled weeks</strong> before you compare a rate to a salary.</li>
-        <li><strong>Your employment hourly is salary divided by hours you work,</strong> not by 2,000. Your consulting hourly is profit divided by hours you bill.</li>
-        <li><strong>Nothing is withheld.</strong> Tax, CPP, and GST/HST have to leave the account on a schedule. Instalments are part of the rate.</li>
-        <li><strong>Incorporate when deferral, liability, or the client requires it,</strong> not because revenue crossed a number you heard.</li>
-        <li><strong>A captive contract can still be employment.</strong> The control test beats the invoice.</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers/premiums.html">Service Canada: self-employed EI premiums, 2026</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html">CRA: CPP contribution rates and maximums</a></li>
     </ul>
 
     <h2>Related reading</h2>
-
     <ul>
-        <li><a href="/blog/self-employed-tax-guide/">Self-employed tax guide</a> — the return once the rate is real.</li>
-        <li><a href="/blog/should-you-incorporate/">Should you incorporate</a> — when the T2 earns its cost.</li>
-        <li><a href="/blog/salary-vs-dividends-incorporated-canada/">Salary versus dividends</a> — how to pay yourself if you do incorporate.</li>
-        <li><a href="/blog/employment-insurance-benefits-canada/">Employment insurance</a> — regular benefits versus the special-benefit opt-in.</li>
-        <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the policy the employer used to carry.</li>
+        <li><a href="/blog/employee-vs-contractor-canada/">Employee versus contractor</a></li>
+        <li><a href="/blog/how-to-register-a-business-canada/">How to register a business</a></li>
+        <li><a href="/blog/ei-self-employed-canada/">EI for the self-employed</a></li>
+        <li><a href="/blog/should-you-incorporate/">Should you incorporate</a></li>
+        <li><a href="/blog/salary-vs-dividends-incorporated-canada/">Salary versus dividends</a></li>
+        <li><a href="/blog/first-10-clients-freelance-canada/">Getting your first 10 clients</a></li>
     </ul>
 
     <div class="cta-section">
         <p><strong>A rate without a return is a guess.</strong></p>
-        <p>CPP deductibility, instalments, and GST are tax. The 2026 tax guide is the half of the invoice that is not yours.</p>
+        <p>CPP, instalments, and GST are the half of the invoice that is not yours. The 2026 tax guide is that half.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about comparing employment and self-employed rates in Canada. It is not tax, insurance, or employment-law advice. CPP ceilings, EI opt-in rules, the small-supplier threshold, and employee-versus-contractor tests change. The hours and dollar figures in the example are an illustration of a gross-up, not a recommended rate and not a statement of tax. Confirm CPP and GST with CRA, and have a CPA review a contract that is really a job, before you resign.</p>
-        <div class="footer-note">Published: September 20, 2026 | Category: Earning More | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about setting a freelance rate in Canada. It is not tax, insurance, or employment-law advice. CPP ceilings, EI opt-in rules, the small-supplier threshold, and employee-versus-contractor tests change. The hours and dollar figures in the example are an illustration of a gross-up, not a recommended rate and not a statement of tax. The EI amounts are from Service Canada's 2026 premiums page. Confirm CPP and GST with CRA before you resign.</p>
+        <div class="footer-note">Published: September 20, 2026 | Updated: October 15, 2026 | Category: Earning More | Author: Andrew</div>
     </div>
 
 </div>`
@@ -25901,8 +25912,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   {
     title: "Salary versus Dividends for an Incorporated Canadian",
     slug: "salary-vs-dividends-incorporated-canada",
-    category: "Earning More",
-    categorySlug: "earning-more",
+    category: "Taxes",
+    categorySlug: "taxes",
     author: "Andrew",
     date: "2026-09-21",
     updated: "2026-09-21",
@@ -26021,7 +26032,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about salary and dividends from a Canadian private corporation. It is not tax or financial advice. Integration rates, gross-up fractions, CPP ceilings, RRSP maximums, passive-income thresholds, and split-income exclusions change and depend on the corporation's balances. No rate or dollar figure in the example is current law. Confirm the mix with a CPA before you set payroll or declare a dividend.</p>
-        <div class="footer-note">Published: September 21, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 21, 2026 | Category: Taxes | Author: Andrew</div>
     </div>
 
 </div>`
@@ -26029,8 +26040,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   {
     title: "Holding-Company Income: When a Holdco Earns Its T2",
     slug: "holding-company-income-streams-canada",
-    category: "Earning More",
-    categorySlug: "earning-more",
+    category: "Taxes",
+    categorySlug: "taxes",
     author: "Andrew",
     date: "2026-09-22",
     updated: "2026-09-22",
@@ -26144,136 +26155,112 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about holding companies for Canadian private-company owners. It is not tax, legal, or financial advice, and it is not an invitation to incorporate. Association, connected-corporation, split-income, QSBC, and insurance rules are specific to the file and change. The $40,000 figure is an illustration of a file that does not need a holdco, not a threshold. Have a CPA and a tax lawyer review any structure before you move assets or declare an intercorporate dividend.</p>
-        <div class="footer-note">Published: September 22, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 22, 2026 | Category: Taxes | Author: Andrew</div>
     </div>
 
 </div>`
   },
   {
-    title: "Geographic Arbitrage Inside Canada: Tax, Housing, and Remote Work",
+    title: "Geographic Arbitrage in Canada: Remote Pay and the Cost of Living",
     slug: "geographic-arbitrage-canada",
     category: "Earning More",
     categorySlug: "earning-more",
+    subcategory: "employee",
     author: "Andrew",
     date: "2026-09-23",
-    updated: "2026-09-23",
-    excerpt: "A lower provincial rate can lose to rent, a health-coverage wait, and a payroll office that still thinks you live where you used to. Price the life, not the bracket.",
+    updated: "2026-10-15",
+    excerpt: "Keep or raise a remote salary, then compare the housing you would actually live in. Provincial tax is one line in that sum, not the reason to move.",
     image: "/images/blog/geographic-arbitrage-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        Moving for a lower provincial tax rate is a hobby unless you also move the rent. Inside Canada the spread that matters is <span class="highlight">after-tax income minus the housing you actually buy or lease</span>, plus the coverage gap while the new province decides you live there.
+        Geographic arbitrage is a pay negotiation with a rent attached. <span class="highlight">Keep a remote salary, or raise it, and live where the housing you would actually sign costs less.</span> A lower provincial tax rate is one section of that sum. It is not the reason to move.
     </div>
 
-    <p>Provincial brackets are <a href="/blog/provincial-tax-rates/">the provincial tax guide</a>. Federal brackets still apply everywhere and are <a href="/blog/federal-tax-brackets/">the federal guide</a>. Confirm both for the year you move. What you do with a gap that survives housing is the <a href="/blog/saving-rate-targets-canada/">saving-rate target</a>. If you keep the old place and rent it, that is a different tax file: <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus a rental</a>. The land-transfer bill if you buy is <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer tax and closing costs</a>. A job offer that only exists in the other city is still <a href="/blog/raise-promotion-negotiation-math-canada/">total-compensation math</a> before it is a moving quote.</p>
+    <p>Start with the job. If the employer will not pay you in the province you want to live in, you do not have arbitrage. You have a resignation. How to price the offer is <a href="/blog/negotiate-job-offer-canada/">the offer script</a> and <a href="/blog/raise-promotion-negotiation-math-canada/">raise and promotion math</a>. A US payer is <a href="/blog/remote-work-us-company-from-canada/">remote work for a US company</a>. What a Canadian salary leaves after tax, once the city is real, is <a href="/blog/salary-after-tax-by-province-canada/">salary after tax by province</a>. The brackets themselves are <a href="/blog/provincial-tax-rates/">provincial</a> and <a href="/blog/federal-tax-brackets/">federal</a>.</p>
 
     <div class="callout">
-        <strong>December 31 is the provincial tax test for residents:</strong>
-        <p>A full-year resident of a province on December 31 generally pays that province's tax on the year's income, not a blend of the provinces you slept in. There are exceptions — part-year moves, ties that say you never left, income with its own sourcing rules. Do not prorate a bracket in a spreadsheet and call it the return. Confirm your residency ties. Payroll is a separate system and it will be wrong for a while if you do not tell it you moved.</p>
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>Negotiate the pay for the work, in the currency you spend, before you negotiate the city.</li>
+            <li>Compare homes you would actually live in. A downtown apartment and a suburban house are not the same good.</li>
+            <li>Ask payroll which province of employment they will use. A laptop does not amend their registration.</li>
+            <li>Tax is one line. For a full-year resident, the province on December 31 is the usual provincial tax. Confirm the exceptions. Do not let that line outvote rent, a partner's job, or a licence you would have to redo.</li>
+        </ul>
     </div>
 
-    <h2>Three prices, one move</h2>
+    <h2>Price the remote pay first</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Price</th>
-                <th>What to measure</th>
-                <th>What a tax map leaves out</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Provincial tax</td>
-                <td>Tax on your actual income in the new province versus the old one, using the year's tables. Include surtaxes and credits you will lose, not just the headline bracket.</td>
-                <td>A percentage-point gap on a middle income is often a few thousand dollars. Housing can move by more than that in a single rent negotiation.</td>
-            </tr>
-            <tr>
-                <td>Housing</td>
-                <td>Rent, or the full carrying cost if you buy: mortgage, tax, insurance, utilities, and the land-transfer tax on the way in. Compare homes you would actually live in, not a downtown condo to a suburban house as if they were the same good.</td>
-                <td>Assuming you will buy immediately. A year of rent is a valid way to learn the city. It is also a price.</td>
-            </tr>
-            <tr>
-                <td>Friction</td>
-                <td>The move itself, a health-coverage waiting period, a partner's job, childcare, and any licence that is provincial: law, health professions, skilled trades, teaching.</td>
-                <td>Treating remote work as permission. Your employer may only employ people in certain provinces. A laptop does not amend their payroll registration.</td>
-            </tr>
-        </tbody>
-    </table>
+    <p>Write the package you have and the package you are asking to keep or improve: base, bonus, vacation, and whether the role stays remote after you change cities. Some employers pay a city loading and remove it when you leave the city. Ask. A "national remote" salary that is quietly a Toronto salary will be cut, and the cut can be larger than any rent you save. If they will not put the arrangement in the offer letter, believe the silence.</p>
 
-    <h2>Payroll will withhold the old story until you correct it</h2>
+    <p>Then write the housing you would actually accept in each place. Rent, or the full carrying cost if you buy: mortgage, tax, insurance, utilities, and the land-transfer bill on the way in. The land-transfer article is <a href="/blog/land-transfer-tax-closing-costs-canada/">land transfer tax and closing costs</a>. If you keep the old place and rent it, that is a different file: <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus a rental</a>. Do not mix a move with a landlord project and call the sum arbitrage.</p>
 
-    <p>Employers withhold using the province of employment, which is not always the province you will owe on the return. Work days in an office, a permanent establishment, and a fully remote role can land in different places. If you move and the withholdings stay put, you are either lending the old province money until you file or building a balance owing to the new one. Tell payroll. Ask which province they will use and why. If they cannot employ you in the new province, the move is a resignation, and you should price it as one.</p>
+    <h2>One section on tax</h2>
 
-    <div class="warning-box">
-        <strong>Health coverage is not portable on the day you arrive:</strong>
-        <p>Provinces set their own waiting periods and their own tests for ending coverage when you leave. Some waits are short. Some are long enough to need private bridge coverage. Confirm both the province you are leaving and the one you are entering, in writing, before you cancel anything. Travel medical insurance is for trips. It is not a substitute you should assume covers a move. The trip product, and what it refuses, is <a href="/blog/travel-medical-insurance-canada/">travel medical insurance</a>. Read the bridge policy for the exclusion that says you have changed residence.</p>
-    </div>
+    <p>A full-year resident of a province on December 31 generally pays that province's tax on the year's income. There are exceptions: part-year moves, ties that say you never left, and income with its own sourcing rules. Do not prorate a bracket in a spreadsheet and call it the return. Payroll withholding uses the province of employment, which is not always the province you will owe on the return. If you move and the withholdings stay put, you are lending the old province money until you file, or building a balance owing to the new one. Tell payroll. If they cannot employ you in the new province, the move is a resignation.</p>
+
+    <p>Health coverage is not portable on the day you arrive. Provinces set their own waits. Confirm both sides in writing before you cancel anything. Travel medical insurance is for trips. The trip product is <a href="/blog/travel-medical-insurance-canada/">travel medical insurance</a>. Read a bridge policy for the exclusion that says you have changed residence.</p>
 
     <h2>An after-tax life, labelled as fiction</h2>
 
     <div class="example-box">
-        <strong>Illustration only. These are not two provinces' brackets.</strong>
-        <p>Same salary, $140,000. Suppose, as a teaching number, that province A costs $38,000 of combined federal and provincial income tax and province B costs $33,000. The tax gap is $5,000 a year. Suppose comparable housing that this household would actually accept is $3,200 a month in A and $2,400 a month in B. Housing saves $800 a month, $9,600 a year, before utilities. The move's annual gap is about $14,600, before a one-time moving bill, a land-transfer tax if they buy, and any raise or pay cut the employer attaches to the city.</p>
-        <p>Reverse the housing. If B's acceptable home is $3,600 a month, the housing costs $4,800 more and the $5,000 tax saving does not pay for it. The household is poorer in the "cheap tax" province. None of these tax dollars is a real provincial table. Confirm the year's tax with the official calculator. Confirm the rent with listings you would sign. The method is the point: tax and housing in the same units, friction listed beside them.</p>
+        <strong>Illustration only. These are not two provinces' brackets or rents.</strong>
+        <p>Same salary, $140,000. Suppose, as a teaching number, that province A costs $38,000 of combined income tax and province B costs $33,000. The tax gap is $5,000 a year. Suppose housing this household would actually accept is $3,200 a month in A and $2,400 a month in B. Housing saves $9,600 a year before utilities. The move's annual gap is about $14,600, before the move itself and before any pay cut the employer attaches to the city.</p>
+        <p>Reverse the housing. If B's acceptable home is $3,600 a month, housing costs $4,800 more and the $5,000 tax saving does not pay for it. None of these tax dollars is a real provincial table. Confirm the year's tax with the official tables. Confirm the rent with listings you would sign. The method is the point: pay, housing, and tax in the same units.</p>
     </div>
 
-    <div class="tip-box">
-        <strong>Keep the old residence out of the story unless you mean to:</strong>
-        <p>A home you do not sell, a spouse who stays, and a health card you do not cancel are ties. They can defeat the tax move you think you made, and they can turn the old place into a rental with a change-of-use filing. If that is the plan, it is the rental article and a CPA, not a sublet. If it is not the plan, cut the ties on purpose: sale or a real rental with the paperwork, licence, doctor, and the December 31 you are willing to defend.</p>
-    </div>
-
-    <h2>Who should not run this as a tax play</h2>
+    <h2>Who should not move for the spread</h2>
 
     <ul>
-        <li><strong>A household whose housing does not fall</strong> by more than the tax gap, once you compare like homes.</li>
-        <li><strong>A profession that must be re-licensed,</strong> where the lost year of earnings exceeds a decade of bracket differences.</li>
-        <li><strong>A partner whose income disappears in the new city.</strong> Model both paycheques. A tax win on one T4 and a lost career on the other is a household loss.</li>
-        <li><strong>An employer who will not put you on payroll in the new province.</strong> Quietly working from another city is how you discover a registration problem that belongs to them and a residency problem that belongs to you.</li>
+        <li><strong>A household whose housing does not fall</strong> by more than the pay and tax gap, once you compare like homes.</li>
+        <li><strong>A profession that must be re-licensed,</strong> where a lost year of earnings exceeds a decade of rent differences.</li>
+        <li><strong>A partner whose income disappears in the new city.</strong> Model both paycheques.</li>
+        <li><strong>An employer who will not put you on payroll in the new province.</strong> Quietly working from another city is a registration problem for them and a residency problem for you.</li>
     </ul>
 
-    <h2>Key takeaways</h2>
+    <h2>Frequently asked questions</h2>
 
-    <ul>
-        <li><strong>Price tax, housing, and friction in one column.</strong> A bracket gap without a rent gap is a hobby.</li>
-        <li><strong>Residency for the return is a December 31 test,</strong> with exceptions. Payroll withholding is a different system. Tell both the truth.</li>
-        <li><strong>Confirm health-coverage waits</strong> on the way out and the way in. Bridge them with a policy you have read.</li>
-        <li><strong>Licences, a partner's job, and childcare</strong> can erase a provincial advantage in a single year.</li>
-        <li><strong>Use official tax tables.</strong> The numbers in the example are a method, not a province.</li>
-    </ul>
+    <h3>Can I keep Toronto pay and live in a cheaper city?</h3>
+    <p>Only if the employer agrees, in writing, that the pay and the remote arrangement survive the move, and that they can put you on payroll where you will live. Assume neither until the letter says so.</p>
+
+    <h3>Is the cheapest-tax province the right move?</h3>
+    <p>Not if the housing you would accept costs more than the tax gap. Run the illustration with real listings and the current tax tables. The example on this page is a method.</p>
+
+    <h3>What if I am comparing a career change at the same time?</h3>
+    <p>Separate the decisions. A new field measured over years is <a href="/blog/career-switch-after-tax-lifetime-earnings-canada/">is a career switch worth it</a>. A city change on the same work is this page. Doing both at once makes it impossible to see which one failed.</p>
 
     <h2>Related reading</h2>
-
     <ul>
-        <li><a href="/blog/provincial-tax-rates/">Provincial tax rates</a> — the brackets to confirm for the year you move.</li>
-        <li><a href="/blog/land-transfer-tax-closing-costs-canada/">Land transfer tax and closing costs</a> — the toll if you buy.</li>
-        <li><a href="/blog/primary-residence-vs-rental-property-canada/">Primary residence versus a rental</a> — if you keep the old home.</li>
-        <li><a href="/blog/saving-rate-targets-canada/">Saving-rate targets</a> — what to do with a gap that is real.</li>
-        <li><a href="/blog/raise-promotion-negotiation-math-canada/">Raise and promotion math</a> — if the move is really a job change.</li>
+        <li><a href="/blog/negotiate-job-offer-canada/">Job offer negotiation</a></li>
+        <li><a href="/blog/remote-work-us-company-from-canada/">Remote work for a US company</a></li>
+        <li><a href="/blog/salary-after-tax-by-province-canada/">Salary after tax by province</a></li>
+        <li><a href="/blog/raise-promotion-negotiation-math-canada/">Raise and promotion math</a></li>
+        <li><a href="/blog/how-to-earn-more-money-canada/">How to earn more money in Canada</a></li>
     </ul>
 
     <div class="cta-section">
-        <p><strong>The province changes the return. The return is still the document.</strong></p>
-        <p>Residency, credits you lose, and the brackets you gain are tax. The 2026 tax guide is the filing side of a move.</p>
+        <p><strong>The city is a cost. The pay is a negotiation.</strong></p>
+        <p>Residency and the brackets are the tax line. The 2026 tax guide is that line, after you know the job is real.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about comparing life across Canadian provinces. It is not tax, immigration, employment, or health-coverage advice. Residency tests, payroll rules, waiting periods, and brackets change. The tax and rent figures in the example are an illustration of a method, not the rates or rents of any province. Confirm tax with the current official tables, coverage with the provincial plan, and your employer's ability to pay you with payroll before you move.</p>
-        <div class="footer-note">Published: September 23, 2026 | Category: Earning More | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about earning and living in different Canadian places. It is not tax, employment, or health-coverage advice. Residency tests, payroll rules, waiting periods, and brackets change. The tax and rent figures in the example are an illustration of a method, not the rates or rents of any province. Confirm tax with the current official tables, coverage with the provincial plan, and your employer's ability to pay you before you move.</p>
+        <div class="footer-note">Published: September 23, 2026 | Updated: October 15, 2026 | Category: Earning More | Author: Andrew</div>
     </div>
 
 </div>`
   },
   {
-    title: "Career Switches Measured in After-Tax Lifetime Earnings",
+    title: "Is a Career Switch Worth It in Canada? After-Tax Lifetime Earnings",
     slug: "career-switch-after-tax-lifetime-earnings-canada",
     category: "Earning More",
     categorySlug: "earning-more",
+    subcategory: "employee",
     author: "Andrew",
     date: "2026-09-24",
-    updated: "2026-09-24",
-    excerpt: "Compare the after-tax path of retraining with the path of staying. Tuition help, student loans, a pension you leave, and RRSP withdrawals for school all belong in the sum.",
+    updated: "2026-10-15",
+    excerpt: "Is a career switch worth it? Compare the after-tax path of retraining with the path of staying, including the years you are not earning.",
     image: "/images/blog/career-switch-after-tax-lifetime-earnings-canada.png",
     content: `<div class="container">
 
@@ -26378,7 +26365,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing career paths on after-tax cash flows in Canada. It is not tax, career, or lending advice. Tuition-credit rates, training credits, Lifelong Learning Plan limits, student-loan interest, and pension commuted values change and are specific to your file. The wages, tuition, and 5 percent discount in the example are an illustration of a method, not a forecast and not a recommended rate. Confirm loan terms with the lender, LLP rules with CRA, and pension options with the plan administrator before you resign or enrol.</p>
-        <div class="footer-note">Published: September 24, 2026 | Category: Earning More | Author: Andrew</div>
+        <div class="footer-note">Published: September 24, 2026 | Updated: October 15, 2026 | Category: Earning More | Author: Andrew</div>
     </div>
 
 </div>`
@@ -26393,6 +26380,10 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...toolsClusterPosts,
   ...budgetingClusterPosts,
   ...earningMoreClusterPosts,
+  ...earningMore2026Posts,
+  ...earningMore2026EmployeePosts,
+  ...earningMore2026EntrepreneurPosts,
+  ...earningMore2026SidePosts,
   ...retirementClusterPosts,
 
 ];

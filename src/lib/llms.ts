@@ -40,7 +40,7 @@ const KEY_POSTS = [
   'cpp-timing-benefits-stacking-canada',
   'canadian-cash-management-guide',
   'cash-flow-system-canada',
-  'tax-aware-income-guide',
+  'how-to-earn-more-money-canada',
   'salary-vs-dividends-incorporated-canada',
 ];
 
@@ -56,6 +56,15 @@ export function buildLlmsTxt(): string {
     return `- [${category.name}](${SITE_URL}/category/${category.slug}/): ${category.description} (${count} articles)`;
   });
 
+  const subcategoryLines = CATEGORIES.flatMap((category) =>
+    (category.subcategories ?? []).map((sub) => {
+      const count = posts.filter(
+        (post) => post.categorySlug === category.slug && post.subcategory === sub.slug
+      ).length;
+      return `- [${category.name}: ${sub.name}](${SITE_URL}/category/${category.slug}/${sub.slug}/): ${sub.description} (${count} articles)`;
+    })
+  );
+
   const allLines = [...posts]
     .sort((a, b) => a.categorySlug.localeCompare(b.categorySlug) || a.title.localeCompare(b.title))
     .map((post) => `- [${post.title}](${SITE_URL}/blog/${post.slug}/) (${post.category})`);
@@ -69,6 +78,10 @@ The site lives at ${SITE_URL}/. Prefer these canonical URLs (no www, https, trai
 ## Categories
 
 ${categoryLines.join('\n')}
+
+## Subcategories
+
+${subcategoryLines.join('\n')}
 
 ## Key pages
 
