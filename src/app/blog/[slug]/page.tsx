@@ -21,7 +21,9 @@ import {
   buildPageMetadata,
   findSubcategory,
   extractFaq,
+  extractHowTo,
   faqSchema,
+  howToSchema,
   formatMonthYear,
   blogHeroSrc,
   toMetaDescription,
@@ -223,11 +225,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   ];
 
   const faq = extractFaq(post.content);
+  const howTo = extractHowTo(post.content);
   const videoSchema = video ? videoObjectSchema(post, video) : null;
   const schemas = [
     articleSchema(post),
     breadcrumbSchema(crumbs),
     ...(faq ? [faqSchema(faq)] : []),
+    ...(howTo ? [howToSchema(howTo)] : []),
     ...(videoSchema ? [videoSchema] : []),
   ];
 
