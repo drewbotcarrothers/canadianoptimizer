@@ -909,6 +909,105 @@
     .blog-content-exact .collapsible { font-size: 1rem; padding: 15px; }
 }
 
+/* ===== EARNING GUIDES: ANSWER, TOC, SCRIPTS, FIGURES ===== */
+.blog-content-exact .direct-answer {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-top: 4px solid #d80621;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin: 0 0 28px;
+}
+
+.blog-content-exact .direct-answer strong {
+    display: block;
+    color: #d80621;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.blog-content-exact .toc {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 18px 22px 8px;
+    margin: 8px 0 36px;
+}
+
+.blog-content-exact .toc strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.blog-content-exact .toc ol {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.blog-content-exact .script-box {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #333;
+    border-radius: 8px;
+    padding: 20px 22px;
+    margin: 24px 0;
+}
+
+.blog-content-exact .script-box p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-content-exact .earn-figure {
+    margin: 28px 0 36px;
+}
+
+.blog-content-exact .earn-figure .chart-container {
+    margin: 0;
+}
+
+.blog-content-exact .earn-figure figcaption,
+.blog-content-exact .chart-caption {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-top: 10px;
+    line-height: 1.55;
+}
+
+.blog-content-exact .bar-label.wide {
+    width: 9.75rem;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1.25;
+}
+
+.blog-content-exact h2,
+.blog-content-exact h3 {
+    scroll-margin-top: 18px;
+}
+
+.blog-content-exact .earn-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .blog-content-exact .bar-label.wide {
+        width: 6.25rem;
+        font-size: 0.75rem;
+    }
+    .blog-content-exact .direct-answer,
+    .blog-content-exact .toc,
+    .blog-content-exact .script-box {
+        padding: 16px;
+    }
+}
+
 .tax-calculator-fields {
     display: grid;
     gap: 12px;

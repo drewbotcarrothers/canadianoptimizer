@@ -274,6 +274,39 @@ export function extractFaq(content: string): { question: string; answer: string 
   return items.length > 0 ? items : null;
 }
 
+export function extractHowTo(
+  content: string
+): { name: string; steps: { name: string; text: string }[] } | null {
+  const block = content.match(
+    /<div class="howto"[^>]*data-howto-name="([^"]+)"[^>]*>([\s\S]*?)<\/div>/i
+  );
+  if (!block) return null;
+  const name = stripHtml(block[1]);
+  const steps: { name: string; text: string }[] = [];
+  const stepRe = /<li[^>]*>\s*<strong>([\s\S]*?)<\/strong>([\s\S]*?)<\/li>/gi;
+  let step: RegExpExecArray | null;
+  while ((step = stepRe.exec(block[2]))) {
+    const stepName = stripHtml(step[1]).replace(/[.:]\s*$/, '');
+    const text = stripHtml(step[2]);
+    if (stepName && text) steps.push({ name: stepName, text });
+  }
+  return name && steps.length > 0 ? { name, steps } : null;
+}
+
+export function howToSchema(item: { name: string; steps: { name: string; text: string }[] }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: item.name,
+    step: item.steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+    })),
+  };
+}
+
 export function publisherSchema() {
   return {
     '@type': 'Organization',
