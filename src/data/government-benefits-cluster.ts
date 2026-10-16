@@ -674,6 +674,10 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 </div>`
     ),
     updated: '2026-10-15',
+    youtubeId: 'kTCzBkfvRC4',
+    youtubeTitle: 'GST Credit Renamed: How Much the Groceries Benefit Pays in 2026',
+    youtubeUploadDate: '2026-10-16T04:24:05-04:00',
+    youtubeDuration: 'PT6M40S',
   },
   benefitsPost(
     'canadian-dental-care-plan-eligibility',
