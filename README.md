@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Editorial guides
+
+- [Blog Post Guide](BLOG-POST-GUIDE.md) is the reference for writing canadianoptimizer.com posts: the record, the hook, sourcing, SEO and AI search, and the pre-publish checklist.
+- [Blog Image Guide](BLOG-IMAGE-GUIDE.md) is the reference for hero images.
+
 ## Getting Started
 
 First, run the development server:
