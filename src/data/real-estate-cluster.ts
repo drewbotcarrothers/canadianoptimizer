@@ -937,6 +937,10 @@ export const realEstateClusterPosts: EstatePost[] = [
 </div>`
     ),
     updated: '2026-10-16',
+    youtubeId: 'N0l4pO3se1o',
+    youtubeTitle: 'Fixed vs Variable Mortgage in Canada 2026: The Break-Even Math',
+    youtubeUploadDate: '2026-10-17T04:46:36-04:00',
+    youtubeDuration: 'PT6M20S',
   },
 
   estatePost(
