@@ -46,149 +46,348 @@ const footer = `<div class="article-footer">
     </div>`;
 
 export const retirementClusterPosts: RetirementPost[] = [
-  retirementPost(
+  {
+    ...retirementPost(
     'rrif-minimum-withdrawal',
     'RRIF Minimum Withdrawals 2026: Table and Strategy',
-    'CRA’s prescribed factor for a typical RRIF at age 71 is 0.0528, or 5.28%. Under 71 the factor is 1 divided by (90 minus age). The minimum starts the year after you open the RRIF.',
+    'RRIF minimum withdrawal table for 2026: 5.28% at 71 to 20% at 95+, the 1 ÷ (90 − age) rule under 71, spouse-age election, and withholding above the minimum.',
     `<div class="container">
 
     <div class="hook">
         For a RRIF that is not an older special contract, CRA’s prescribed factor at age 71 is <span class="highlight">0.0528</span>. On a fair-market-value of $100,000 at the start of the year, that factor is a minimum of $5,280. If the annuitant is 70 or younger, the factor is not in that table. It is 1 divided by (90 minus the age). The carrier must pay at least that minimum in the year after the RRIF is opened, and may pay more.
     </div>
 
-    <p>This spoke sits under <a href="/blog/how-much-money-retire-canada/">how much money you need to retire in Canada</a> and the <a href="/blog/build-retirement-plan-7-steps/">seven-step retirement plan</a>. The arithmetic that puts CPP, OAS, and the accounts on one page is the <a href="/blog/canadian-retirement-calculator/">Canadian retirement calculator</a>. You type the pension amounts. The minimum in this article is a separate legal floor on the RRIF, not a spending target.</p>
+    <p>The registered retirement income fund (RRIF) minimum is the RRIF’s value on January 1 times CRA’s prescribed factor for your age at the start of the year. Under 71 the factor is 1 ÷ (90 − age), so 4% at 65. From 71 it follows CRA’s chart: 5.28% at 71, rising to 20% at 95 or older. The first minimum is due the year after you open the RRIF, and no tax is withheld on the minimum itself.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>CRA’s chart, page details dated 2025-10-01 and reviewed October 3, 2026, uses 0.0528 at age 71 for “all other RRIFs,” then rises each year to 0.2000 at 95 or older.</li>
+            <li>CRA’s chart, checked October 17, 2026, uses 0.0528 at age 71 for “all other RRIFs,” then rises each year to 0.2000 at 95 or older.</li>
             <li>At 70 or younger the prescribed factor is 1 ÷ (90 − age). At 65 that is 1/25. At 70 it is 1/20.</li>
             <li>You can elect to use your spouse’s or common-law partner’s age. The carrier otherwise uses your age at the beginning of the year.</li>
+            <li>The spouse-age election is made on the original RRIF application form, and CRA says it cannot be changed later.</li>
             <li>There is no minimum in the calendar year you open the RRIF. The first minimum is the following year.</li>
+            <li>Carriers do not withhold tax on the minimum. Anything above it is withheld at 10%, 20% or 30% depending on size (5%, 10% or 15% federal in Quebec, plus Quebec tax).</li>
             <li>A qualifying RRIF and a pre-March 1986 RRIF can use different factors. A RRIF you open from an RRSP now is almost never one of those columns.</li>
         </ul>
     </div>
 
-    <h2>What is the RRIF minimum, and when does it start?</h2>
+    <nav class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#what-is-the-minimum">What is the RRIF minimum, and when does it start?</a></li>
+            <li><a href="#factor-before-71">What factor applies before age 71?</a></li>
+            <li><a href="#factors-from-71">What are the prescribed factors from 71 on?</a></li>
+            <li><a href="#younger-spouse">Should you use a younger spouse’s age?</a></li>
+            <li><a href="#on-the-return">Where does the minimum show up on the return?</a></li>
+            <li><a href="#withholding">Is tax withheld on a RRIF withdrawal?</a></li>
+            <li><a href="#turn-71-in-2026">What if you turn 71 in 2026?</a></li>
+            <li><a href="#did-minimums-change">Did the RRIF minimums change for 2026?</a></li>
+            <li><a href="#tax-rules">Which tax rules sit next to the minimum?</a></li>
+        </ul>
+    </nav>
 
-    <p>CRA describes a RRIF as an arrangement with a carrier you transfer property to, from an RRSP or certain other plans, and from which the carrier pays you. Earnings inside the RRIF are tax-free. Amounts paid out are taxable when you receive them. Starting in the year after the year you establish the RRIF, you have to be paid a yearly minimum. You can take more. You cannot take less and still have the account qualify. The payout period is for your entire life. The carrier calculates the minimum from your age at the beginning of each year, unless you elect your spouse’s or common-law partner’s age.</p>
+    <p>This spoke sits under <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a> and the <a href="/blog/build-retirement-plan-7-steps/">seven-step plan</a>. Type Canada Pension Plan (CPP) and Old Age Security (OAS) into the <a href="/blog/canadian-retirement-calculator/">retirement calculator</a>. The minimum here is a legal floor, not a spending target. <a href="/category/retirement/">More retirement guides</a> are on the hub.</p>
 
-    <p>The base is the fair market value of the property in the RRIF at the start of the year, times the factor. This page does not restate a second CRA formula for “what counts as the value.” Your carrier’s calculation is the one that has to match the slip. If you open the RRIF in 2026, the first forced payment is in 2027, using the age and the value at the start of 2027. That timing is why a conversion late in the year you turn 71 does not create a minimum in that same year. The conversion itself is <a href="/blog/rrsp-to-rrif-conversion/">RRSP to RRIF conversion</a>.</p>
+    <h2 id="what-is-the-minimum">What is the RRIF minimum, and when does it start?</h2>
 
-    <h2>What factor applies before age 71?</h2>
+    <p>It is the January 1 fair market value times CRA’s prescribed factor, and it starts the year after you open the RRIF. You can take more. You cannot take less and still have the account qualify.</p>
 
-    <p>CRA’s chart page states the rule in one sentence: if the age is 70 or younger, the prescribed factor is 1 divided by (90 minus the age). The percentages below are that fraction, shown to two decimal places. The carrier uses the fraction. Rounding is for reading, not a second published table.</p>
+    <p>CRA describes a RRIF as an arrangement with a carrier you transfer property to, from a registered retirement savings plan (RRSP) or certain other plans. Earnings inside are tax-free, and payments out are taxable. The carrier’s fair-market-value figure is the one that has to match the slip. Open the RRIF in 2026 and the first forced payment is in 2027. A conversion late in the year you turn 71 does not create a minimum that year. See <a href="/blog/rrsp-to-rrif-conversion/">RRSP to RRIF conversion</a>.</p>
 
-    <table>
-        <caption>RRIF factor before age 71, from CRA’s formula 1 ÷ (90 − age), reviewed October 3, 2026</caption>
-        <thead>
-            <tr>
-                <th>Age at the start of the year</th>
-                <th>Formula</th>
-                <th>Factor</th>
-                <th>Shown as a percent</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>55</td><td>1 ÷ 35</td><td>0.028571…</td><td>2.86%</td></tr>
-            <tr><td>60</td><td>1 ÷ 30</td><td>0.033333…</td><td>3.33%</td></tr>
-            <tr><td>65</td><td>1 ÷ 25</td><td>0.04</td><td>4.00%</td></tr>
-            <tr><td>70</td><td>1 ÷ 20</td><td>0.05</td><td>5.00%</td></tr>
-        </tbody>
-    </table>
+    <ol>
+        <li>Read the January 1 fair market value from the carrier.</li>
+        <li>Use your age at the start of the year, or the elected spouse or common-law partner age.</li>
+        <li>At 70 or younger, use 1 ÷ (90 − age). From 71, use the chart.</li>
+        <li>Multiply. In the year the RRIF is opened, there is no minimum.</li>
+    </ol>
 
-    <p>Table as of October 2026. It is the formula applied to four ages, not a CRA percentage table. Age 71 is the first row of the prescribed chart, and it is higher than the formula would have been: 1 ÷ (90 − 71) is 1/19, about 5.26%, and the “all other RRIFs” factor at 71 is 0.0528.</p>
+    <h2 id="factor-before-71">What factor applies before age 71?</h2>
+
+    <p>If the age is 70 or younger, the prescribed factor is <strong>1 ÷ (90 − age)</strong>. At 65 that is 1/25, or <strong>4%</strong>. At 70 it is 1/20, or 5%. CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html">chart of prescribed factors</a> states that rule in one sentence. The carrier uses the fraction.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>RRIF factor before age 71, from CRA’s formula 1 ÷ (90 − age), checked October 17, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Age at the start of the year</th>
+                    <th>Formula</th>
+                    <th>Factor</th>
+                    <th>Shown as a percent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>55</td><td>1 ÷ 35</td><td>0.028571…</td><td>2.86%</td></tr>
+                <tr><td>60</td><td>1 ÷ 30</td><td>0.033333…</td><td>3.33%</td></tr>
+                <tr><td>65</td><td>1 ÷ 25</td><td>0.04</td><td>4.00%</td></tr>
+                <tr><td>70</td><td>1 ÷ 20</td><td>0.05</td><td>5.00%</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Checked October 17, 2026. Age 71 is the first row of the prescribed chart, and it is higher than the formula would have been: 1 ÷ (90 − 71) is 1/19, about 5.26%, and the “all other RRIFs” factor at 71 is <strong>0.0528</strong>.</p>
 
     <div class="example-box">
-        <strong>Illustration: $250,000 at the start of the year, age 65, your age elected</strong>
-        <p>The factor is 1/25, which is 0.04. Minimum withdrawal is $250,000 × 0.04 = $10,000. That product is arithmetic on the formula. It is not tax withheld, and it is not the amount you should spend. If your spouse is 60 and you elect that age, the factor is 1/30 instead, and the minimum on the same $250,000 is $8,333.33 before any rounding the carrier applies. Electing the younger age lowers the floor. It does not stop you from taking more.</p>
+        <strong>Example: $250,000 at the start of the year, age 65, your age elected</strong>
+        <p>$250,000 × 0.04 = $10,000. That is the formula, not tax withheld and not a spending target. Elect a spouse aged 60 and the factor is 1/30, so the same $250,000 has a minimum of $8,333.33 before the carrier rounds. A lower floor does not stop you from taking more.</p>
     </div>
 
-    <h2>What are the prescribed factors from 71 on?</h2>
+    <h2 id="factors-from-71">What are the prescribed factors from 71 on?</h2>
 
-    <p>Use the “all other RRIFs” column unless the contract really is a qualifying RRIF or a pre-March 1986 RRIF under the footnotes. Those footnotes are on the chart. A qualifying RRIF is one that was set up in the periods the footnote lists and that has not taken in property except from another qualifying RRIF. The pre-March 1986 factors apply only in the cases the first footnote still allows. For a RRIF opened from an RRSP in the years this article is about, the third column is the one.</p>
+    <p>From 71, a RRIF opened from an RRSP now uses the “all other RRIFs” column: <strong>0.0528 at 71</strong> through <strong>0.2000 at 95 or older</strong>. A qualifying RRIF or a pre-March 1986 RRIF uses that column only when the chart footnote still allows it.</p>
 
-    <table>
-        <caption>Prescribed factors, “all other RRIFs,” from CRA’s chart reviewed October 3, 2026</caption>
-        <thead>
-            <tr>
-                <th>Age</th>
-                <th>Factor</th>
-                <th>Percent</th>
-                <th>Minimum on $100,000</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>71</td><td>0.0528</td><td>5.28%</td><td>$5,280</td></tr>
-            <tr><td>72</td><td>0.0540</td><td>5.40%</td><td>$5,400</td></tr>
-            <tr><td>73</td><td>0.0553</td><td>5.53%</td><td>$5,530</td></tr>
-            <tr><td>74</td><td>0.0567</td><td>5.67%</td><td>$5,670</td></tr>
-            <tr><td>75</td><td>0.0582</td><td>5.82%</td><td>$5,820</td></tr>
-            <tr><td>76</td><td>0.0598</td><td>5.98%</td><td>$5,980</td></tr>
-            <tr><td>77</td><td>0.0617</td><td>6.17%</td><td>$6,170</td></tr>
-            <tr><td>78</td><td>0.0636</td><td>6.36%</td><td>$6,360</td></tr>
-            <tr><td>79</td><td>0.0658</td><td>6.58%</td><td>$6,580</td></tr>
-            <tr><td>80</td><td>0.0682</td><td>6.82%</td><td>$6,820</td></tr>
-            <tr><td>81</td><td>0.0708</td><td>7.08%</td><td>$7,080</td></tr>
-            <tr><td>82</td><td>0.0738</td><td>7.38%</td><td>$7,380</td></tr>
-            <tr><td>83</td><td>0.0771</td><td>7.71%</td><td>$7,710</td></tr>
-            <tr><td>84</td><td>0.0808</td><td>8.08%</td><td>$8,080</td></tr>
-            <tr><td>85</td><td>0.0851</td><td>8.51%</td><td>$8,510</td></tr>
-            <tr><td>86</td><td>0.0899</td><td>8.99%</td><td>$8,990</td></tr>
-            <tr><td>87</td><td>0.0955</td><td>9.55%</td><td>$9,550</td></tr>
-            <tr><td>88</td><td>0.1021</td><td>10.21%</td><td>$10,210</td></tr>
-            <tr><td>89</td><td>0.1099</td><td>10.99%</td><td>$10,990</td></tr>
-            <tr><td>90</td><td>0.1192</td><td>11.92%</td><td>$11,920</td></tr>
-            <tr><td>91</td><td>0.1306</td><td>13.06%</td><td>$13,060</td></tr>
-            <tr><td>92</td><td>0.1449</td><td>14.49%</td><td>$14,490</td></tr>
-            <tr><td>93</td><td>0.1634</td><td>16.34%</td><td>$16,340</td></tr>
-            <tr><td>94</td><td>0.1879</td><td>18.79%</td><td>$18,790</td></tr>
-            <tr><td>95 or older</td><td>0.2000</td><td>20.00%</td><td>$20,000</td></tr>
-        </tbody>
-    </table>
+    <div class="chart-container">
+        <h3>RRIF minimum as a percent of the January 1 value, by age</h3>
+        <div class="bar-chart">
+            <div class="bar-item">
+                <div class="bar-label">65</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 20%;"><span>4.00%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">71</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 26.4%;"><span>5.28%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">75</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 29.1%;"><span>5.82%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">80</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 34.1%;"><span>6.82%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">85</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 42.55%;"><span>8.51%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">90</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 59.6%;"><span>11.92%</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">95+</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>20.00%</span></div></div>
+            </div>
+        </div>
+        <p>At 65 the minimum is 4.00% of the January 1 value. It is 5.28% at 71, 5.82% at 75, 6.82% at 80, 8.51% at 85, 11.92% at 90, and 20.00% at 95 or older. Source: CRA chart of prescribed factors (all other RRIFs) and 1 ÷ (90 − age) at 65, checked October 17, 2026.</p>
+    </div>
 
-    <p>Table as of October 2026, copied from the “all other RRIFs” column. The dollar column is $100,000 times the factor, so you can scale it. A $400,000 RRIF at 71 is four times $5,280, or $21,120. At 95 or older the factor stays at 0.2000. It does not keep rising. The qualifying-RRIF column matches this column from age 72 on. At 71 only, qualifying and pre-March 1986 both show 0.0526, and “all other” shows 0.0528. Using 5.26% on a modern RRIF is the wrong column.</p>
+    <div class="table-wrapper">
+        <table>
+            <caption>Prescribed factors, “all other RRIFs,” from CRA’s chart checked October 17, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Age</th>
+                    <th>Factor</th>
+                    <th>Percent</th>
+                    <th>Minimum on $100,000</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight-row"><td>71</td><td>0.0528</td><td>5.28%</td><td>$5,280</td></tr>
+                <tr><td>72</td><td>0.0540</td><td>5.40%</td><td>$5,400</td></tr>
+                <tr><td>73</td><td>0.0553</td><td>5.53%</td><td>$5,530</td></tr>
+                <tr><td>74</td><td>0.0567</td><td>5.67%</td><td>$5,670</td></tr>
+                <tr><td>75</td><td>0.0582</td><td>5.82%</td><td>$5,820</td></tr>
+                <tr><td>76</td><td>0.0598</td><td>5.98%</td><td>$5,980</td></tr>
+                <tr><td>77</td><td>0.0617</td><td>6.17%</td><td>$6,170</td></tr>
+                <tr><td>78</td><td>0.0636</td><td>6.36%</td><td>$6,360</td></tr>
+                <tr><td>79</td><td>0.0658</td><td>6.58%</td><td>$6,580</td></tr>
+                <tr><td>80</td><td>0.0682</td><td>6.82%</td><td>$6,820</td></tr>
+                <tr><td>81</td><td>0.0708</td><td>7.08%</td><td>$7,080</td></tr>
+                <tr><td>82</td><td>0.0738</td><td>7.38%</td><td>$7,380</td></tr>
+                <tr><td>83</td><td>0.0771</td><td>7.71%</td><td>$7,710</td></tr>
+                <tr><td>84</td><td>0.0808</td><td>8.08%</td><td>$8,080</td></tr>
+                <tr><td>85</td><td>0.0851</td><td>8.51%</td><td>$8,510</td></tr>
+                <tr><td>86</td><td>0.0899</td><td>8.99%</td><td>$8,990</td></tr>
+                <tr><td>87</td><td>0.0955</td><td>9.55%</td><td>$9,550</td></tr>
+                <tr><td>88</td><td>0.1021</td><td>10.21%</td><td>$10,210</td></tr>
+                <tr><td>89</td><td>0.1099</td><td>10.99%</td><td>$10,990</td></tr>
+                <tr><td>90</td><td>0.1192</td><td>11.92%</td><td>$11,920</td></tr>
+                <tr><td>91</td><td>0.1306</td><td>13.06%</td><td>$13,060</td></tr>
+                <tr><td>92</td><td>0.1449</td><td>14.49%</td><td>$14,490</td></tr>
+                <tr><td>93</td><td>0.1634</td><td>16.34%</td><td>$16,340</td></tr>
+                <tr><td>94</td><td>0.1879</td><td>18.79%</td><td>$18,790</td></tr>
+                <tr><td>95 or older</td><td>0.2000</td><td>20.00%</td><td>$20,000</td></tr>
+            </tbody>
+        </table>
+    </div>
 
-    <h2>Should you use a younger spouse’s age?</h2>
+    <p>Checked October 17, 2026. The dollar column is $100,000 times the factor. A $400,000 RRIF at 71 is <strong>$21,120</strong>. At 95 or older the factor stays at 0.2000. At 71 only, a qualifying RRIF and a pre-March 1986 RRIF show 0.0526, while “all other” shows 0.0528. Using 5.26% on a modern RRIF is the wrong column. From 72, the qualifying column matches this one.</p>
 
-    <p>CRA says the carrier calculates the minimum from your age, and that you can elect your spouse’s or common-law partner’s age. A younger age produces a smaller factor and a smaller forced payment. That is useful when the household does not need the cash and a larger withdrawal would raise taxable income, including income that counts toward the <a href="/blog/oas-gis-clawback-canada/">OAS recovery tax</a>. It is useless if you were going to withdraw more than the higher minimum anyway. The election is something you make with the carrier. This page does not restate a deadline or an irrevocability rule the RRIF-income page did not print. Read the form before you sign it, and read Guide T4040 if the carrier’s wording and the CRA page disagree.</p>
+    <h2 id="younger-spouse">Should you use a younger spouse’s age?</h2>
+
+    <p>Elect a younger spouse or common-law partner when you will not withdraw the higher minimum anyway. A younger age produces a smaller factor, which matters when the extra income would count toward the <a href="/blog/oas-gis-clawback-canada/">OAS recovery tax</a>. <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/receiving-income-rrsp.html">CRA’s “Receiving income from an RRSP” page</a> says you must select this option when filling out the original RRIF application form, and once you make the election you cannot change it. <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html">CRA’s payer page</a> also says the spouse’s age is used if the annuitant elected it at the time the RRIF was being set up.</p>
+
+    <div class="example-box">
+        <strong>Example: $400,000 RRIF on January 1, annuitant 71</strong>
+        <div class="table-wrapper">
+            <table>
+                <caption>Example: $400,000 RRIF on January 1, annuitant 71</caption>
+                <thead>
+                    <tr>
+                        <th>Age elected</th>
+                        <th>Factor</th>
+                        <th>Minimum</th>
+                        <th>Versus own age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Own age 71</td><td>5.28%</td><td>$21,120</td><td>The floor with no election</td></tr>
+                    <tr class="highlight-row"><td>Spouse 65</td><td>1 ÷ 25 = 4.00%</td><td>$16,000</td><td>$5,120 less forced income</td></tr>
+                    <tr><td>Spouse 60</td><td>1 ÷ 30 = 3.33%</td><td>$13,333.33</td><td>A lower floor again</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>Illustrative arithmetic, not advice. A lower floor never stops you taking more.</p>
+    </div>
+
+    <div class="example-box">
+        <strong>Example:</strong>
+        <p>On the original application: “Please elect my spouse’s or common-law partner’s age. Their date of birth is [date of birth]. Confirm the factor, that this election cannot be changed later, and that you will not withhold tax on the minimum.”</p>
+    </div>
 
     <div class="warning-box">
-        <strong>The minimum is a floor, not a plan:</strong>
-        <p>Taking only the minimum can leave a large taxable balance for a surviving spouse or for the year of death. Taking more than the minimum can be the point of an <a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a> in the years before OAS starts, or of the <a href="/blog/retirement-withdrawal-strategy/">withdrawal order</a> between the RRIF and the TFSA. The factor does not know your bracket. The <a href="/blog/federal-tax-brackets/">federal brackets</a> and the pension-splitting rules are the tax half. A RRIF payment can be eligible pension income at 65, which is the <a href="/blog/pension-income-splitting-canada/">splitting article</a>.</p>
+        <strong>Watch out:</strong>
+        <p>The minimum is a floor, not a plan. Taking only the minimum can leave a large taxable balance at death. Taking more can be an <a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a> or part of the <a href="/blog/retirement-withdrawal-strategy/">withdrawal order</a> between the RRIF and the Tax-Free Savings Account (TFSA). The <a href="/blog/federal-tax-brackets/">federal brackets</a> and the <a href="/blog/pension-income-splitting-canada/">splitting article</a> are the tax half. A RRIF payment can be eligible pension income at 65.</p>
     </div>
 
-    <h2>Where does the minimum show up on the return?</h2>
+    <h2 id="on-the-return">Where does the minimum show up on the return?</h2>
 
-    <p>CRA’s receiving-income page says that if you were 65 or older on December 31, or you received the amounts because your spouse or common-law partner died, you report the RRIF income on line 11500. In other cases you report it on line 13000. Line 11500 is the door to the pension income amount and to splitting. Line 13000 is not that door. A 60-year-old’s RRIF withdrawal is still taxable. It is not, on that page, eligible pension income just because it came out of a RRIF. Amounts transferred onward to an RRSP, a RRIF, or an annuity are deducted rather than left in income, using Schedule 7 and line 20800, or line 23200, as that page describes. A minimum you spend is not a transfer.</p>
+    <p>If you were 65 or older on December 31, or you received the amounts because your spouse or common-law partner died, report the RRIF income on <strong>line 11500</strong>. Otherwise report it on <strong>line 13000</strong>.</p>
 
-    <p>Withholding is a separate calendar. This article does not quote the lump-sum withholding rates, because the withdrawals page was not the page reviewed for those percentages. A direct transfer to a RRIF is not a withdrawal. A payment above the minimum can have tax withheld. Ask the carrier what they will withhold on the amount you actually request, and do not treat the minimum as tax-free because it is mandatory.</p>
+    <p>CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html">receiving-income page</a> is the source of that split. Line 11500 opens the pension income amount and splitting. Line 13000 does not. A withdrawal at 60 is taxable, and it is not eligible pension income only because it came from a RRIF. A transfer onward to an RRSP, a RRIF, or an annuity is deducted on Schedule 7 and line 20800, or on line 23200. A minimum you spend is not a transfer.</p>
+
+    <h2 id="withholding">Is tax withheld on a RRIF withdrawal?</h2>
+
+    <p>No income tax is withheld on the minimum. CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/t4rif-slip-summary/t4rif-statement-income-a-registered-retirement-income-fund.html">T4RIF guidance</a> tells carriers not to withhold income tax from the minimum amount and to withhold from the excess, which is box 24 of the T4RIF.</p>
+
+    <p><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4157/deducting-income-tax-on-pension-other-income-filing-t4a-slip-summary.html">CRA’s RC4157</a> lists the lump-sum rates for payments above the RRIF minimum. All lump sums in the calendar year are combined to pick the rate. Withholding is a prepayment. The whole withdrawal is taxed at your rate when you file, so you can owe more.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Withholding on the excess above the RRIF minimum, from RC4157, checked October 17, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Excess in the calendar year</th>
+                    <th>Outside Quebec</th>
+                    <th>Federal rate in Quebec</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Up to and including $5,000</td><td>10%</td><td>5%</td></tr>
+                <tr><td>Over $5,000 up to and including $15,000</td><td>20%</td><td>10%</td></tr>
+                <tr><td>Over $15,000</td><td>30%</td><td>15%</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Quebec also withholds provincial tax. This page does not quote that Revenu Québec percentage, so the 5%, 10%, and 15% column is only the federal slice.</p>
+
+    <div class="example-box">
+        <strong>Example: age 75, $300,000 on January 1, outside Quebec</strong>
+        <div class="example-calculation">
+            <div class="line"><span>Minimum, $300,000 × 0.0582</span><span>$17,460</span></div>
+            <div class="line"><span>Withheld on the minimum</span><span>$0</span></div>
+            <div class="line"><span>Payment requested</span><span>$20,000</span></div>
+            <div class="line"><span>Excess above the minimum</span><span>$2,540</span></div>
+            <div class="line total"><span>Withheld at 10%</span><span>$254</span></div>
+        </div>
+        <p>Illustration. The $2,540 excess is within the band up to and including $5,000, so the rate outside Quebec is 10%. The whole $20,000 is still taxed when you file.</p>
+    </div>
+
+    <div class="did-you-know">
+        <strong>Did you know:</strong>
+        <p>In the year the RRIF is opened there is no minimum, so any payment that year is above the minimum and is withheld.</p>
+    </div>
+
+    <h2 id="turn-71-in-2026">What if you turn 71 in 2026?</h2>
+
+    <p>If you were born in 1955, <strong>December 31, 2026</strong> is the last day to contribute to your own RRSP and to choose for it: withdraw, transfer to a RRIF, or buy an annuity. A withdrawal is taxed and withheld. A direct transfer to a RRIF, or an annuity purchase, is not withheld.</p>
+
+    <p>Those three doors are CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/rrsp-options-when-you-turn-71/options-your-rrsps.html">options for your own RRSPs</a>. You can still contribute to a younger spouse’s RRSP until the end of the year they turn 71, which <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html">Guide T4040</a> describes. If the RRIF is opened in 2026, the first minimum is in <strong>2027</strong>, using the January 1, 2027 value and your age at the start of 2027. The transfer steps are in <a href="/blog/rrsp-to-rrif-conversion/">RRSP to RRIF conversion</a>.</p>
+
+    <h2 id="did-minimums-change">Did the RRIF minimums change for 2026?</h2>
+
+    <p>No. CRA’s chart, checked October 17, 2026, still shows 0.0528 at 71 through 0.2000 at 95 or older, the same factors as the table above. Check the chart again before January 1 if you are reading this later.</p>
+
+    <h2 id="tax-rules">Which tax rules sit next to the minimum?</h2>
+
+    <p>The factor does not change. Four federal rules decide what the payment does to the return, and a fund fee is not part of the minimum.</p>
+
+    <ul>
+        <li><strong>Pension income amount.</strong> RRIF income at 65 or older, on line 11500, can qualify for the federal pension income amount on <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">line 31400</a>, up to <strong>$2,000</strong>.</li>
+        <li><strong>Pension income splitting.</strong> At 65 or older, up to half of eligible pension income, including RRIF payments, can be allocated to a spouse with Form <span class="form-ref">T1032</span>. See <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA’s pension income splitting page</a> and the <a href="/blog/pension-income-splitting-canada/">splitting guide</a>.</li>
+        <li><strong>OAS recovery tax.</strong> For 2026 income it is <strong>15%</strong> of net income above <strong>$95,323</strong>, recovered from July 2027 to June 2028. See the <a href="https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html">OAS recovery tax</a> page and the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS clawback guide</a>.</li>
+        <li><strong>TFSA.</strong> The 2026 TFSA dollar limit is <strong>$7,000</strong> on CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">limits table</a>. An after-tax minimum you do not need can go into a TFSA if you have room.</li>
+    </ul>
+
+    <p>CRA says mutual-fund redemption fees are expenses of the RRIF and are not part of the minimum.</p>
+
+    <ul class="checklist">
+        <li>Read the January 1 value from the carrier’s statement.</li>
+        <li>Confirm the age on the factor, and that any spouse-age election was on the original application.</li>
+        <li>If the payment exceeds the minimum, ask what will be withheld on the excess.</li>
+        <li>Born in 1955: choose withdraw, RRIF, or annuity by December 31, 2026.</li>
+    </ul>
+
+    <p>Confirm the form with the carrier, and with a CPA, a CFP, or a tax lawyer, before you sign the election or request a large excess.</p>
 
     <h2>Frequently asked questions</h2>
 
     <h3>Do I have to withdraw the minimum in the year I open the RRIF?</h3>
-    <p>No. CRA says the minimum must be paid in the year following the year the RRIF is entered into, and the receiving-income page repeats that it starts the year after you establish it. Opening a RRIF in December does not create a December minimum. It creates a minimum the next January-to-December year, based on the value at the start of that year and the age at the start of that year.</p>
+    <p>No. CRA says the minimum is paid in the year after the RRIF is entered into. A December opening does not create a December minimum. It creates one for the next calendar year, from the value and the age at the start of that year.</p>
 
     <h3>Is 5.28% the factor for every 71-year-old?</h3>
-    <p>It is the “all other RRIFs” factor at 71 on the chart reviewed October 3, 2026. A qualifying RRIF and a pre-March 1986 RRIF show 0.0526 at that one age. If your contract is one of those, the footnote decides, not this sentence. If you elect a spouse who is under 71, you leave the chart and use 1 ÷ (90 − that age).</p>
+    <p>It is the “all other RRIFs” factor at 71 on the chart checked October 17, 2026. A qualifying RRIF and a pre-March 1986 RRIF show 0.0526 at that age. Elect a spouse under 71 and you leave the chart for 1 ÷ (90 − that age).</p>
 
     <h3>Can I take less than the minimum if I do not need the money?</h3>
-    <p>Not from that RRIF. CRA says you can withdraw more, but not less, than the minimum. If the forced income is the problem, the levers that exist before the year starts are the age election, how much you convert, and whether some of the balance is still in an RRSP that has no minimum yet. After the year starts, the value is set and the factor applies to it.</p>
+    <p>Not from that RRIF. You can withdraw more, not less. Before the year starts, the levers are the age election, how much you convert, and any balance still in an RRSP, which has no minimum. After the year starts, the value is set.</p>
 
     <h3>Does the minimum count as pension income I can split?</h3>
-    <p>RRIF income is in the list of eligible pension income if you are 65 or older at the end of the year, or if you receive it because your spouse or common-law partner died. Under 65, a RRIF payment you take on your own is not in that list. Splitting is capped at 50% and needs Form T1032. The minimum and the election are two different forms.</p>
+    <p>Yes, if you are 65 or older at year-end, or you receive it because your spouse or common-law partner died. Under 65, your own RRIF payment is not eligible pension income. Splitting is capped at 50% and needs Form T1032.</p>
 
     <h3>What if the RRIF stops qualifying?</h3>
-    <p>CRA says that if the RRIF is changed so it no longer satisfies the rules, it is no longer a RRIF, and you are considered to have received the fair market value of the property at that time. That is a different event from taking the minimum. Do not “fix” a minimum you dislike by breaking the registration.</p>
+    <p>If it no longer satisfies the rules, it is no longer a RRIF, and you are considered to have received the fair market value of the property at that time. That is not the same event as taking the minimum. Do not break the registration to avoid the factor.</p>
 
     <h3>Should the calculator use the minimum as my spending?</h3>
-    <p>No. The <a href="/blog/canadian-retirement-calculator/">retirement calculator</a> spends the amount you type, drawn from the TFSA and then the RRSP at a tax rate you type. The RRIF minimum can be lower or higher than that spending. If the minimum is higher, you have taxable income you did not choose. Put that income into the plan. Do not assume the tool applied the factor. It does not.</p>
+    <p>No. The <a href="/blog/canadian-retirement-calculator/">retirement calculator</a> spends what you type, from the TFSA and then the RRSP, at a tax rate you type. It does not apply the RRIF factor. If the minimum is higher than that spending, put the extra taxable income in the plan yourself.</p>
+
+    <h3>Is tax withheld on the RRIF minimum?</h3>
+    <p>No. Withholding applies only to the excess: 10%, 20%, or 30% outside Quebec, and 5%, 10%, or 15% federal in Quebec, on the bands up to $5,000, up to $15,000, and above $15,000. Quebec tax is also withheld. The whole withdrawal is taxed when you file.</p>
+
+    <h3>Can I change the spouse-age election later?</h3>
+    <p>No. CRA says you make it on the original RRIF application and cannot change it later. The payer uses the spouse’s age only if you elected it when the RRIF was set up.</p>
+
+    <h3>I turn 71 in 2026. When is my first RRIF minimum?</h3>
+    <p>If you open the RRIF in 2026, the first minimum is in 2027, using the January 1, 2027 value and your age at the start of 2027.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html">CRA: chart of prescribed factors</a>, page details 2025-10-01, reviewed October 3, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html">CRA: receiving income from a RRIF</a>, page details 2026-01-06</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif.html">CRA: RRIF overview</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html">CRA: chart of prescribed factors</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html">CRA: receiving income from a RRIF</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif.html">CRA: RRIF overview</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4157/deducting-income-tax-on-pension-other-income-filing-t4a-slip-summary.html">CRA: RC4157, deducting income tax on pension and other income</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/t4rif-slip-summary/t4rif-statement-income-a-registered-retirement-income-fund.html">CRA: T4RIF slip guidance</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html">CRA: minimum amount from a RRIF</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/receiving-income-rrsp.html">CRA: receiving income from an RRSP</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/rrsp-options-when-you-turn-71/options-your-rrsps.html">CRA: options for your own RRSPs</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html">CRA: Guide T4040</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA: line 31400, pension income amount</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA: pension income splitting</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html">Canada.ca: Old Age Security recovery tax</a>, checked October 17, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: TFSA and RRSP limits table</a>, checked October 17, 2026</li>
+    </ul>
+
+    <h2>Related reading</h2>
+    <ul>
+        <li><a href="/blog/rrsp-to-rrif-conversion/">Converting an RRSP to a RRIF</a></li>
+        <li><a href="/blog/pension-income-splitting-canada/">Pension income splitting</a></li>
+        <li><a href="/blog/oas-gis-clawback-canada/">OAS and GIS clawback</a></li>
+        <li><a href="/blog/retirement-withdrawal-strategy/">Retirement withdrawal order</a></li>
+        <li><a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown</a></li>
+        <li><a href="/blog/how-much-money-retire-canada/">How much money you need to retire</a></li>
+        <li><a href="/category/retirement/">Retirement hub</a></li>
     </ul>
 
     <div class="cta-section">
@@ -197,11 +396,15 @@ export const retirementClusterPosts: RetirementPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer}
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian retirement accounts, pensions, and estates as of October 2026. It is not tax, pension, annuity, or legal advice. RRIF factors, benefit amounts, unlocking rules, and probate fees change, and they depend on the contract and the province that governs it. Figures below are tied to CRA, Canada.ca, OSFI, FSRA, or a provincial page reviewed on October 17, 2026. Dollar examples are arithmetic on those figures, not a quote of your minimum, your pension, or your estate bill. Confirm the current page, your carrier’s calculation, and your plan statement before you convert, unlock, or file.</p>
+        <div class="footer-note">Published: October 3, 2026 | Updated: October 17, 2026 | Category: Retirement | Author: Andrew</div>
+    </div>
 
 </div>`
-  ),
-
+    ),
+    updated: '2026-10-17',
+  },
   retirementPost(
     'rrsp-to-rrif-conversion',
     'Converting Your RRSP to a RRIF: Timing, Age 71, and Using a Younger Spouse’s Age',
