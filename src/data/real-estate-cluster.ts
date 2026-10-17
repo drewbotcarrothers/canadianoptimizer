@@ -450,119 +450,477 @@ export const realEstateClusterPosts: EstatePost[] = [
     youtubeDuration: 'PT6M35S',
   },
 
-  estatePost(
-    'fixed-vs-variable-mortgage-canada',
-    'Fixed vs Variable Mortgage in 2026: A Decision Framework',
-    'Pick a fixed rate in 2026 when the payment must stay put and you expect to finish the term. Pick a variable rate when you can absorb a prime move and may need the smaller break fee. Overnight rate: 2.25%.',
-    `<div class="container">
+  {
+    ...estatePost(
+      'fixed-vs-variable-mortgage-canada',
+      'Fixed vs Variable Mortgage in 2026: A Decision Framework',
+      'In Canada in 2026, choose a fixed mortgage if the payment must stay put, or a variable mortgage if you can absorb a prime move and may break the term.',
+      `<div class="container">
 
     <div class="hook">
         Choose a fixed rate in 2026 when the payment has to stay the same for the whole term and you expect to finish that term. Choose a variable rate when you can absorb a move in your lender's prime and you may need to break the mortgage, because the break fee on a closed variable is often three months' interest. As of September 2, 2026, the Bank of Canada overnight target is <span class="highlight">2.25%</span>. This page does not quote a discounted contract rate.
     </div>
 
-    <p>Both choices are underwritten at the same qualifying rate, explained in the <a href="/blog/mortgage-stress-test-canada/">stress test guide</a>. The penalty difference is the whole point of the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD guide</a>. Renewal timing, including when a switch avoids the prescribed qualifying rate, is the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>. The hub is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>.</p>
-
-    <div class="callout">
-        <strong>Choose fixed if</strong> a higher payment next year would hit spending you cannot cut, or you are unlikely to sell, refinance, or port the mortgage before the term ends.
-        <p><strong>Choose variable if</strong> the household can carry a higher payment, you have a real chance of breaking the term, and you have confirmed in the commitment that the penalty is three months' interest. A variable rate is a contract with prime. It is not a prediction that the Bank of Canada will cut.</p>
-    </div>
+    <p>In Canada in 2026, pick a fixed rate when the payment must stay put, and a variable rate when you can absorb a prime move. The <a href="https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/">Bank of Canada</a> overnight target is <strong>2.25%</strong>, held September 2, 2026; the next decision is <a href="https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/">October 28, 2026</a>. Its <a href="https://www.bankofcanada.ca/valet/observations/V80691335,V80691311,V39079/json?recent=6">October 14, 2026 weekly series</a> shows prime at <strong>4.45%</strong>. See the <a href="/category/real-estate/">real estate hub</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>On September 23, 2026, the Bank of Canada chartered-bank prime series was 4.45%, and the posted 5-year conventional mortgage rate was 6.09%.</li>
-            <li>A variable contract is usually that lender's prime plus or minus a spread. The spread is in the commitment. It is not a number this page will invent.</li>
-            <li>The posted 6.09% is a sticker price. The discount between that sticker and a fixed contract is what makes an interest-rate differential large if posted rates fall and you break the term.</li>
-            <li>On an illustrative $500,000 loan amortized over 25 years, moving the rate from 4.50% to 5.50% raises the payment by about $285 a month. The 4.50% figure is an assumption, not an offer.</li>
-            <li>The Bank's next policy announcement is October 28, 2026. Its September statement said upside inflation risks had increased and that it is prepared to adjust the policy rate.</li>
+            <li>Choose fixed if a higher payment would hit spending you cannot cut, or you are unlikely to sell, refinance, or port before the term ends.</li>
+            <li>Choose variable if you can carry a higher payment, you may break the term, and the commitment charges three months' interest to leave. The rate is a contract with prime, not a forecast of a cut.</li>
+            <li>On October 14, 2026, prime was 4.45% and the posted 5-year conventional mortgage rate was 6.19%, up from 6.09% through September 30.</li>
+            <li>That 6.19% is a sticker. The discount off it is what makes an interest-rate differential large if you break a fixed term while your rate is above the comparison rate.</li>
+            <li>On an illustrative $500,000 loan over 25 years, an assumed move from 4.50% to 5.50% adds about $285 a month. Those rates are not offers.</li>
+            <li>The next announcement is October 28, 2026, with a Monetary Policy Report. On September 2 the Bank said upside inflation risks had increased and that it is prepared to adjust.</li>
         </ul>
     </div>
 
-    <h2>How do the two contracts differ?</h2>
+    <nav class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#difference">What is the difference between a fixed and a variable mortgage in Canada?</a></li>
+            <li><a href="#october-2026-rates">What are the key rates in October 2026?</a></li>
+            <li><a href="#one-point">How much does one point on prime change the payment?</a></li>
+            <li><a href="#five-year-cost">Which costs less over a 5-year term?</a></li>
+            <li><a href="#break-cost">What does it cost to break a fixed vs a variable mortgage?</a></li>
+            <li><a href="#trigger-rate">What is a trigger rate on a fixed-payment variable mortgage?</a></li>
+            <li><a href="#stress-test">Does the stress test treat fixed and variable the same?</a></li>
+            <li><a href="#province">Do the rules differ by province?</a></li>
+            <li><a href="#decide">How do you decide?</a></li>
+            <li><a href="#compare-offers">How do you compare two mortgage offers?</a></li>
+            <li><a href="#mistakes">What are the common mistakes?</a></li>
+            <li><a href="#professional-help">When should you get professional help?</a></li>
+        </ul>
+    </nav>
 
-    <table>
-        <caption>Fixed versus variable, as of September 2026. Penalty terms are typical and must be confirmed in the commitment.</caption>
-        <thead>
-            <tr>
-                <th></th>
-                <th>Fixed</th>
-                <th>Variable</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>What moves</td>
-                <td>The rate is set for the term.</td>
-                <td>The rate moves when that lender's prime moves. Prime itself moves with funding costs, which follow the overnight target.</td>
-            </tr>
-            <tr>
-                <td>Payment</td>
-                <td>Principal and interest stay on the schedule you signed, if the payment was calculated at the contract rate.</td>
-                <td>Some contracts change the payment when prime changes. Others keep the payment and let the amortization drift. Read which one you are signing.</td>
-            </tr>
-            <tr>
-                <td>Qualifying rate</td>
-                <td>Greater of contract plus 2% or 5.25%, for a new uninsured loan at a federally regulated lender, and for CMHC-insured debt-service ratios.</td>
-                <td>Same qualifying-rate rule. A lower contract rate qualifies at a lower stress rate, until the 5.25% floor binds.</td>
-            </tr>
-            <tr>
-                <td>Penalty to break a closed term</td>
-                <td>Usually the higher of three months' interest and an interest-rate differential. The differential uses the lender's posted rates and your original discount.</td>
-                <td>Often three months' interest. TD's public explanation of its own closed variable, for example, describes a three-month interest charge. Your lender may differ.</td>
-            </tr>
-            <tr>
-                <td>Posted-rate reference</td>
-                <td>The chartered-bank 5-year posted rate was 6.09% on September 23, 2026. Your discount off a posted rate is the input that inflates IRD.</td>
-                <td>The prime series was 4.45% the same day. The contract spread around prime is the number to negotiate.</td>
-            </tr>
-        </tbody>
-    </table>
+    <h2 id="difference">What is the difference between a fixed and a variable mortgage in Canada?</h2>
 
-    <p>Table as of September 2026. Sources: Bank of Canada September 2 announcement and September 23 Valet readings; OSFI minimum qualifying rate; TD's public description of its fixed versus variable prepayment charge; FCAC's prepayment-penalty page.</p>
+    <p>A fixed mortgage locks the rate for the term. A variable mortgage is that lender's prime plus or minus a spread, so the rate moves when prime moves. The <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/interest-on-mortgages.html">Financial Consumer Agency of Canada</a> says a fixed rate is usually higher than a variable rate, and it describes two variable payment types: adjustable payments, which change with the rate, and fixed payments, where more of the same payment goes to interest if the rate rises.</p>
 
-    <h2>What does one point on prime do to a household?</h2>
+    <p>The spread and the payment type are in the commitment. This page does not invent a spread. A fixed-payment variable can hit a trigger point. An adjustable payment avoids that by changing the amount you pay.</p>
 
-    <div class="example-box">
-        <strong>Illustration: $500,000, 25 years, semi-annual compounding. Rates are assumed.</strong>
-        <p>At 4.50%, the payment is $2,767 a month. At 5.50%, it is $3,052, about $285 more, or about $3,420 a year. At 3.50%, it is $2,496, about $271 less than the 4.50% payment. A variable borrower who cannot cut $285 a month, or lengthen the amortization inside the contract, is a fixed-rate borrower who has not admitted it. The qualifying payment at 6.50% on this loan is $3,349. That is the stress-test figure, and it is not the bill.</p>
-        <p>The monthly rate used here is (1 + annual rate / 2) to the power of 1/6, minus 1, which is the Canadian semi-annual convention. Over a year, a one-point gap of $285 a month is $3,420. A penalty of $12,000, which is FCAC's own IRD illustration on a smaller loan, takes more than three years of that gap to earn back. Price the penalty before you treat a one-point discount as found money. The method is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a>.</p>
+    <div class="table-wrapper">
+        <table>
+            <caption>Fixed versus the two variable payment types. Confirm the penalty in the commitment. Checked October 16, 2026.</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Fixed</th>
+                    <th>Variable, adjustable payment</th>
+                    <th>Variable, fixed payment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rate</td>
+                    <td>Set for the term.</td>
+                    <td>Prime plus or minus the spread.</td>
+                    <td>Same prime-based pricing.</td>
+                </tr>
+                <tr>
+                    <td>Payment</td>
+                    <td>Stays on the schedule you signed.</td>
+                    <td>Recalculated when prime changes.</td>
+                    <td>Stays put. A higher rate lengthens the amortization.</td>
+                </tr>
+                <tr>
+                    <td>What you give up</td>
+                    <td>A usually cheaper exit. The starting rate is usually higher.</td>
+                    <td>A payment that cannot rise.</td>
+                    <td>A clear amortization, once you pass the trigger rate.</td>
+                </tr>
+                <tr>
+                    <td>Qualifying rate</td>
+                    <td>Greater of contract plus 2 points or 5.25%.</td>
+                    <td>Same test, on this contract rate.</td>
+                    <td>Same test, on this contract rate.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Closed-term penalty</td>
+                    <td>Usually the higher of three months' interest and an interest-rate differential.</td>
+                    <td>Often three months' interest. TD describes its closed variable that way.</td>
+                    <td>Often three months' interest. The payment type does not set the penalty. Read the clause.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
-    <h2>Which risks are you actually taking?</h2>
+    <p>The posted 5-year on October 14, 2026 was <strong>6.19%</strong>, a sticker, not the commitment. The discount off a posted rate feeds many fixed-rate penalties. A hybrid splits the balance. FCAC says the portions can have different terms, can be harder to transfer, and each still has its own penalty. The cluster hub is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>.</p>
 
-    <p>A fixed rate transfers payment risk to the lender for the term, and hands you penalty risk if you leave while your contract rate is above the lender's comparison rate. A variable rate keeps payment risk with you, and usually keeps the exit cheaper. Households that sell on a job transfer, who may separate, or who expect a large prepayment from a bonus, are often paying for an option they will exercise. The option is the three-month penalty. Households that will stay put and who budget to the dollar are paying for a payment that does not change. Match the contract to the move you might actually make.</p>
+    <h2 id="october-2026-rates">What are the key rates in October 2026?</h2>
 
-    <p>The Bank of Canada held the overnight target at 2.25% on September 2, 2026, the seventh consecutive hold at that level after the October 2025 cut, and said inflation had been around 3% largely because of gasoline. That is context for the direction of prime. It is not a mortgage rate, and it is not a reason to take a contract you cannot carry if the next move is up. The October 28, 2026 announcement is the next scheduled decision. If a lower payment shows up, sending it back to the mortgage is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. Using a variable readvance to invest is a second decision, the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, and it belongs on top of a payment you can already carry.</p>
+    <p>On October 16, 2026 the backdrop is an overnight target of <strong>2.25%</strong>, prime of <strong>4.45%</strong>, a posted 5-year conventional rate of <strong>6.19%</strong>, and a <strong>5.25%</strong> floor inside the minimum qualifying rate. None of those is the discounted rate in a commitment.</p>
 
-    <p>If you are splitting a balance, some combined plans let you put part of the loan in a fixed term and part in a variable term. Scotiabank's STEP page describes dividing a mortgage into portions with their own terms. That is a structure, not a free hedge. Each portion still has its own penalty. The product limits are the <a href="/blog/readvanceable-mortgage-canada/">readvanceable guide</a>. Money you will not need for the house belongs in the comparison with investing: <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">prepayment versus TFSA and RRSP</a>.</p>
+    <div class="summary-grid">
+        <div class="summary-item">
+            <div class="summary-label">Overnight target</div>
+            <div class="summary-value">2.25%</div>
+        </div>
+        <div class="summary-item">
+            <div class="summary-label">Prime rate</div>
+            <div class="summary-value">4.45%</div>
+        </div>
+        <div class="summary-item">
+            <div class="summary-label">Posted 5-year</div>
+            <div class="summary-value">6.19%</div>
+        </div>
+        <div class="summary-item">
+            <div class="summary-label">Qualifying floor</div>
+            <div class="summary-value">5.25%</div>
+        </div>
+    </div>
+
+    <p>The Bank of Canada held 2.25% on September 2, 2026, the seventh straight hold since the October 29, 2025 cut. The statement said CPI had been around 3%, mainly because of gasoline, that upside risks to inflation had increased, and that the Bank is prepared to adjust policy. The next decision is October 28, 2026, with a Monetary Policy Report. The one after that is December 9, 2026.</p>
+
+    <p>Prime on that October 14 series was 4.45%, and a variable contract is usually prime plus or minus a spread you negotiate. The posted 5-year was 6.19% on October 7 and October 14, up from 6.09% through September 30. That posted rate is where many interest-rate differentials start.</p>
+
+    <div class="did-you-know">
+        <strong>Did you know:</strong>
+        <p>October 28, 2026 is a scheduled decision with a Monetary Policy Report, and December 9, 2026 is the one after it. The announcement can move the overnight target. It does not print the discount in your commitment.</p>
+    </div>
+
+    <h2 id="one-point">How much does one point on prime change the payment?</h2>
+
+    <p>On an example $500,000 loan amortized over 25 years, one point from an assumed 4.50% to an assumed 5.50% adds about <strong>$285 a month</strong>, about <strong>$3,420 a year</strong>. The rates are assumptions, not offers. If you cannot find $285, and the contract will not lengthen the amortization for you, you are choosing a fixed payment.</p>
+
+    <p>Canadian residential mortgages compound semi-annually, not in advance. The monthly rate here is (1 + annual rate / 2) raised to 1/6, minus 1. Every row uses the same balance and the same 25 years.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Example: monthly payment on $500,000 over 25 years, Canadian semi-annual compounding. Assumed rates, not offers.</caption>
+            <thead>
+                <tr>
+                    <th>Assumed rate</th>
+                    <th>Monthly payment</th>
+                    <th>What the row is</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3.50%</td>
+                    <td>$2,496</td>
+                    <td>One point below the 4.50% illustration.</td>
+                </tr>
+                <tr>
+                    <td>3.95%</td>
+                    <td>$2,617</td>
+                    <td>Prime of 4.45% minus an assumed 0.50 spread.</td>
+                </tr>
+                <tr>
+                    <td>4.50%</td>
+                    <td>$2,767</td>
+                    <td>The fixed-rate illustration used on this page.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>5.50%</td>
+                    <td>$3,052</td>
+                    <td>One point above 4.50%. About $285 more than $2,767.</td>
+                </tr>
+                <tr>
+                    <td>6.50%</td>
+                    <td>$3,349</td>
+                    <td>Qualifying payment for a 4.50% contract. Not the bill, unless the contract rate is 6.50%.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The $3,349 row is the qualifying payment on the 4.50% illustration, not the bill. The 3.95% row, prime minus an assumed half point, is the variable start in the five-year comparison.</p>
+
+    <h2 id="five-year-cost">Which costs less over a 5-year term?</h2>
+
+    <p>In this example, fixed at an assumed 4.50% costs <strong>$105,024</strong> of interest over five years. Variable at an assumed 3.95%, with the payment recalculated each year, costs <strong>$91,884</strong> if prime stays flat, which is $13,140 less. The variable path costs more once prime rises about <strong>0.7 points</strong> from year 2 and stays there. These are assumed rates on an adjustable payment, not a forecast and not an offer.</p>
+
+    <p>Same $500,000 and 25 years, compounded semi-annually. The spread stays an assumed 0.50 under the 4.45% prime, so year 1 is 3.95%, and the payment is recalculated yearly. A fixed-payment variable keeps the payment and changes the amortization instead.</p>
+
+    <div class="chart-container">
+        <h3>Example: five-year interest on $500,000, assumed rates, not an offer</h3>
+        <div class="bar-chart">
+            <div class="bar-item">
+                <div class="bar-label wide">−0.5</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 66%;"><span>$82,553</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Flat</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 74%;"><span>$91,884</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">+0.5</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 81%;"><span>$101,245</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Fixed</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 84%;"><span>$105,024</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">+1.0</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 89%;"><span>$110,634</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">+2.0</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$124,479</span></div></div>
+            </div>
+        </div>
+        <p>Example only. Minus 0.50 from year 2 is $82,553. Flat is $91,884, or $13,140 under fixed at $105,024. Plus 0.50 is still under fixed, at $101,245. Plus 1.00 is $110,634, and the steeper path is $124,479. Break-even is about 0.7 points from year 2. The Bank of Canada has not published that path.</p>
+    </div>
+
+    <p>A lower payment you send back to the mortgage is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing</a> choice, and it only exists if you finish the term. Leaving early replaces this chart with a penalty.</p>
+
+    <h2 id="break-cost">What does it cost to break a fixed vs a variable mortgage?</h2>
+
+    <p>On a closed fixed term the penalty is usually the higher of three months' interest and an interest-rate differential (IRD). On a closed variable term it is often three months' interest. In <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC's example</a>, a $200,000 balance at 6% with 36 months left, against a current 36-month posted rate of 4%, produces <strong>$3,000</strong> of three months' interest and a <strong>$12,000</strong> IRD, so the penalty is $12,000.</p>
+
+    <p>FCAC says the IRD usually applies when your rate is above the comparison rate and you signed less than five years ago. <a href="https://stories.td.com/ca/en/article/td-explains-what-is-an-ird">TD</a> describes a closed variable as three months' interest, and a closed fixed as the higher of that and an IRD using the posted rate for a similar term minus the discount. Your commitment controls. The method is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>.</p>
+
+    <p>A larger discount off the posted 6.19% makes a larger IRD if posted rates fall and you leave. Ask, on the day you sign, which posted rate the IRD will use.</p>
+
+    <div class="example-box">
+        <strong>Example: three months' interest after two years on the illustration variable</strong>
+        <div class="example-calculation">
+            <div class="line"><span>Balance after 2 years at an assumed 3.95%</span><span>$475,473</span></div>
+            <div class="line"><span>Three months' interest at 3.95%</span><span>$4,695</span></div>
+            <div class="line"><span>FCAC three months' interest, on $200,000</span><span>$3,000</span></div>
+            <div class="line total"><span>FCAC IRD on that $200,000 example</span><span>$12,000</span></div>
+        </div>
+        <p>Illustration, not an offer. The $475,473 and $4,695 use the assumed 3.95% on $500,000 over 25 years, held for two years. The $3,000 and $12,000 are FCAC's example on a different loan. A $12,000 penalty against the $285 monthly gap takes about 42 months to earn back.</p>
+    </div>
+
+    <p>Federally regulated lenders must disclose penalties in the information box. FCAC says to use prepayment privileges first, wait for maturity, port, or shop the penalty in dollars. A saving that needs 42 months loses when the remaining term is shorter.</p>
+
+    <h2 id="trigger-rate">What is a trigger rate on a fixed-payment variable mortgage?</h2>
+
+    <p>A trigger rate is the rate at which a fixed payment only covers interest, so nothing goes to principal. <a href="https://www.canada.ca/en/financial-consumer-agency/services/interest-rates-rise.html">FCAC</a> says the lender may then require higher payments, a lump sum, or a conversion to fixed. A variable contract with a fixed payment must <a href="https://www.canada.ca/en/financial-consumer-agency/services/rights-responsibilities/rights-mortgages/applying-for-mortgage.html">disclose the trigger rate</a>, and disclose that the amortization may lengthen.</p>
+
+    <div class="example-box">
+        <strong>Example: where the $2,617 payment stops covering principal</strong>
+        <div class="example-calculation">
+            <div class="line"><span>Balance and amortization</span><span>$500,000, 25 years</span></div>
+            <div class="line"><span>Assumed variable rate</span><span>3.95%</span></div>
+            <div class="line"><span>Fixed payment at that rate</span><span>$2,617</span></div>
+            <div class="line total"><span>Interest-only at the start</span><span>about 6.36%</span></div>
+        </div>
+        <p>Illustration, not an offer. The 3.95% is the 4.45% prime minus an assumed 0.50 spread. At the start, that $2,617 payment only covers interest at about <strong>6.36%</strong>. Between 3.95% and 6.36%, more of the payment goes to interest and the amortization gets longer. Above 6.36%, the balance can grow. That is the negative-amortization risk FCAC describes.</p>
+    </div>
+
+    <p>Ask about an interest-rate cap and a convertibility feature. FCAC says converting usually has a fee, conditions may apply, and the new fixed rate may be higher than the one on offer that day. An adjustable payment avoids the trigger by raising the payment, which only works if you have the cash. Both types still face the qualifying test.</p>
+
+    <h2 id="stress-test">Does the stress test treat fixed and variable the same?</h2>
+
+    <p>Yes. For an uninsured mortgage at a federally regulated lender, <a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI's minimum qualifying rate</a> is the greater of the contract rate plus 2 percentage points or <strong>5.25%</strong>, reviewed at least annually. <a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase">CMHC</a> uses that same greater-of test for insured gross and total debt service, on fixed, capped, standard variable, and adjustable mortgages. You pay the contract rate. The qualifying rate is the test.</p>
+
+    <p>On the 4.50% illustration you qualify at 6.50%, a payment of $3,349, and you pay $2,767. On the 3.95% illustration, contract plus 2 points is 5.95%, so the 5.25% floor is not binding. The floor binds under a 3.25% contract. A lower variable rate can qualify you for more, and it does not waive the test. The arithmetic is the <a href="/blog/mortgage-stress-test-canada/">stress test guide</a>.</p>
+
+    <p>OSFI does not expect that prescribed rate on an uninsured straight switch at renewal when the amortization and the loan amount do not increase. The narrow edges of that exception, including the cost allowance, are the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>. CMHC caps gross debt service at 39% and total debt service at 44%, both at the qualifying rate.</p>
+
+    <p>Since December 15, 2024, <a href="https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html">Department of Finance</a> rules allow an insured 30-year amortization for all first-time buyers and all new builds when loan-to-value is above 80%. The insured price cap is under $1.5 million. The minimum insured down payment is 5% to $500,000 and 10% on the portion from $500,000 to $1.5 million. The rate type does not change those rules.</p>
+
+    <h2 id="province">Do the rules differ by province?</h2>
+
+    <p>OSFI's minimum qualifying rate binds federally regulated lenders, including the banks. A provincially regulated credit union follows its province's regulator. Insured mortgages, in any province, use the federal insured qualifying rate.</p>
+
+    <p>In Ontario, <a href="https://www.fsrao.ca/industry/credit-unions-and-caisses-populaires/regulatory-framework/guidance-credit-unions-and-caisses-populaires/residential-mortgage-lending">FSRA guidance CU0063INT</a> does not prescribe OSFI's formula. It expects prudent gross and total debt-service limits, with appropriate stress tests. Ask the credit union, in writing, which rate it will use.</p>
+
+    <p>This page has not opened Quebec's Autorité des marchés financiers rules for caisses populaires, or other provinces' credit-union rules. Ask a lender that is not federally regulated which qualifying rate it uses, and whether the mortgage is insured.</p>
+
+    <h2 id="decide">How do you decide?</h2>
+
+    <p>Choose fixed when a higher payment would hit spending you cannot cut, or when you expect to finish the term. Choose variable when you can carry a higher payment, you may break the mortgage, and the commitment shows a three-month interest penalty. Price a hybrid only after you have priced each portion.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Choose this contract when these facts are true. Example rates are assumptions, not offers.</caption>
+            <thead>
+                <tr>
+                    <th>Your situation</th>
+                    <th>Contract that matches</th>
+                    <th>What you are paying for</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A higher payment would hit spending you cannot cut, and you expect to finish the term.</td>
+                    <td>Fixed.</td>
+                    <td>A payment that does not move. Leaving early usually costs the higher of three months' interest and an IRD.</td>
+                </tr>
+                <tr>
+                    <td>You can absorb a prime move, and a sale, transfer, or separation could end the term early.</td>
+                    <td>Variable, if the penalty is three months' interest.</td>
+                    <td>A smaller exit. In the example, about 0.7 points of prime from year 2 erases the five-year interest advantage.</td>
+                </tr>
+                <tr>
+                    <td>You want part of the balance locked and part of it free to leave.</td>
+                    <td>Hybrid: part fixed, part variable.</td>
+                    <td>Two contracts. Portions may have different terms and can be harder to transfer. Each has its own penalty.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>You want a variable rate and a payment that does not change.</td>
+                    <td>Fixed-payment variable, after you have read the trigger rate.</td>
+                    <td>A stable payment until the trigger. In the example, interest-only starts near 6.36%.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="flowchart">
+        <div class="flow-node decision">What has to be true for the next term?</div>
+        <div class="flow-arrow"></div>
+        <div class="flow-grid-3">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="flow-node option">The payment cannot rise</div>
+                <div class="flow-arrow"></div>
+                <div class="flow-node result">Choose fixed</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="flow-node option">You may break, and you can absorb prime</div>
+                <div class="flow-arrow"></div>
+                <div class="flow-node result">Choose variable</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="flow-node option">You want part of the balance locked</div>
+                <div class="flow-arrow"></div>
+                <div class="flow-node result">Price a hybrid</div>
+            </div>
+        </div>
+    </div>
+
+    <p>The table is the same choice as the chart. The next step is to put two written offers side by side.</p>
+
+    <h2 id="compare-offers">How do you compare two mortgage offers?</h2>
+
+    <p>Compare two written offers on the same balance, amortization, and term, and compare the penalty and the privilege with the rate. A lower rate with a harsh interest-rate differential is a bet that you will stay the whole term.</p>
+
+    <div class="step-section">
+        <div class="step">
+            <div class="step-number">1</div>
+            <div>
+                <div class="step-title">Put both offers on one page</div>
+                <p>Write the rate, the term, fixed or variable, and the discount off the posted rate. Use the same balance and amortization, or the payments are not comparable.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div>
+                <div class="step-title">Record the spread and the payment type</div>
+                <p>For a variable offer, write prime plus or minus the spread, and whether the payment is adjustable or fixed. A fixed payment needs the trigger rate before you continue.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div>
+                <div class="step-title">Get the penalty formula and the posted rate</div>
+                <p>Ask whether the charge is three months' interest, an IRD, or the higher of the two, and which posted rate the IRD uses. Ask the conversion fee as its own number.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div>
+                <div class="step-title">Read the privilege and the port</div>
+                <p>Write the prepayment privileges and whether the mortgage is portable. The privilege is how you pay the loan down without the penalty. A port is how a sale avoids a break.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">5</div>
+            <div>
+                <div class="step-title">Price one point and the break</div>
+                <p>On the $500,000 illustration, one point is about $285 a month. Divide the penalty by that kind of monthly saving. A $12,000 charge needs about 42 months. A shorter remaining term means the cheaper rate loses.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Example: script to read to the lender or broker</strong>
+        <p>This is a script, not a form the lender has to accept. Fill every blank from the commitment before you compare a single rate.</p>
+        <p>"Please confirm, in writing: the spread to prime is ____; the payment type is ____ (adjustable or fixed); the trigger rate is ____; the conversion fee is ____; the penalty formula is ____; the posted rate used in the IRD is ____; the prepayment privileges are ____; and portability is ____."</p>
+    </div>
+
+    <ul class="checklist">
+        <li>Both offers are in writing, on the same balance and amortization.</li>
+        <li>The spread to prime is written down for every variable offer.</li>
+        <li>The payment type is identified as adjustable or fixed.</li>
+        <li>The trigger rate is disclosed if the payment is fixed.</li>
+        <li>The penalty formula and the posted rate used in the IRD are in the package.</li>
+        <li>The conversion fee, and any conditions, are a dollar amount.</li>
+        <li>The prepayment privileges and portability are stated.</li>
+        <li>The qualifying rate the lender will use is stated, including on a straight switch.</li>
+    </ul>
+
+    <h2 id="mistakes">What are the common mistakes?</h2>
+
+    <p>The expensive mistakes treat the posted rate as your rate, treat the example as a forecast, or break a fixed term before dividing the penalty by the monthly saving.</p>
+
+    <div class="warning-box">
+        <strong>Watch out:</strong>
+        <ul>
+            <li>Using the 6.19% posted rate from October 14, 2026 as if it were your contract rate. It is the sticker.</li>
+            <li>Treating the five-year chart as the Bank of Canada's path. The September 2 statement held 2.25% and said the Bank is prepared to adjust. It did not publish your prime path.</li>
+            <li>Signing a fixed-payment variable without the trigger rate. In the example, interest-only starts near 6.36%.</li>
+            <li>Breaking a fixed term to save one point before dividing the penalty by the monthly gap. A $12,000 charge against $285 a month needs about 42 months.</li>
+            <li>Assuming OSFI's formula is the rule at every credit union. It binds federally regulated lenders. Ontario's FSRA guidance does not prescribe it. Other provinces are not copied here.</li>
+            <li>Waiting for October 28, 2026 as if the announcement will print your discount. It can move the overnight target. The offer is still the lender's document.</li>
+        </ul>
+    </div>
+
+    <div class="tip-box">
+        <strong>Pro tip:</strong>
+        <p>On the day you sign a fixed term, write down the discount off the posted rate and the posted rate the IRD will use. That pair is what makes the penalty large later. If you want to pay the balance down, use the prepayment privilege before you ask for a break. FCAC lists the privilege first. The percentage is the lender's, and it belongs in the commitment.</p>
+    </div>
+
+    <h2 id="professional-help">When should you get professional help?</h2>
+
+    <p>Get help on your own file when the commitment, the charge, or the rest of the budget is doing more work than a published rate can do. A mortgage broker can shop more than one commitment. A real estate lawyer can read the charge, the discharge, and a port. A fee-only planner can set the payment next to the rest of your file.</p>
+
+    <p>That recommendation is for your file. It is not a claim that anyone signed off on this page. Confirm the commitment, the penalty calculator, and the current qualifying-rate page before you sign.</p>
 
     <h2>Frequently asked questions</h2>
 
     <h3>Is variable always cheaper than fixed in Canada?</h3>
-    <p>No. A variable rate wins only on the path prime actually takes, after the spread in your contract. In September 2026 the overnight target is 2.25% and the Bank has said it may adjust. A fixed rate buys a payment. Compare the two written offers, including the penalty, over the term you will actually keep.</p>
+    <p>No. In an example on $500,000, fixed at 4.50% costs $105,024 of interest over five years, and variable at 3.95% costs $91,884 if prime stays flat. The variable path costs more once prime rises about 0.7 points from year 2 and stays there. Those rates are assumptions, not offers. In October 2026 the overnight target is 2.25%.</p>
 
     <h3>What is a typical variable mortgage penalty?</h3>
-    <p>On many closed variable contracts it is three months' interest on the amount you prepay. TD describes its own closed variable that way. Fixed closed contracts usually charge the higher of three months' interest and an interest-rate differential. The commitment controls. Ask for the formula before you sign, and use the lender's calculator before you break it.</p>
+    <p>On many closed variable contracts it is three months' interest. TD describes its own closed variable that way. A closed fixed contract usually charges the higher of three months' interest and an interest-rate differential. FCAC's example, $200,000 at 6% with 36 months left and a 4% comparison rate, is $3,000 versus a $12,000 differential. The commitment controls.</p>
 
     <h3>Does the stress test treat fixed and variable the same way?</h3>
-    <p>The formula is the same: the greater of the contract rate plus 2 percentage points or 5.25%. A lower contract rate produces a lower qualifying rate, until the floor. It does not produce a free pass. CMHC also calculates insured gross and total debt-service ratios at that qualifying rate.</p>
+    <p>The formula is the same: the greater of the contract rate plus 2 percentage points or 5.25%, for uninsured mortgages at federally regulated lenders and for insured debt-service ratios. CMHC's caps are 39% gross and 44% total. A lower contract rate qualifies at a lower stress rate until the floor binds. An uninsured straight switch at renewal, with no added amortization or loan amount, is not expected to use the prescribed rate.</p>
 
-    <h3>Should I use the 6.09% posted rate as my fixed rate?</h3>
-    <p>That 6.09% is the chartered-bank posted 5-year conventional rate on September 23, 2026. It is the sticker used in older qualifying rules and in many penalty formulas. The rate you are offered is a discount from a posted rate. Get the discounted rate, the size of the discount, and the posted rate the lender will use in an IRD, in writing.</p>
+    <h3>Should I use the 6.19% posted rate as my fixed rate?</h3>
+    <p>No. The 6.19% figure is the chartered-bank posted 5-year conventional rate on the Bank of Canada's October 14, 2026 weekly series. It was 6.09% through September 30, 2026. It is a sticker used in many penalty formulas. The offered rate is a discount from a posted rate. Get the discount, and the posted rate the lender will use in an IRD, in writing.</p>
 
     <h3>Can I convert a variable mortgage to a fixed mortgage later?</h3>
-    <p>Many lenders allow a conversion to a fixed term they are offering that day, sometimes without an interest-rate differential. The fixed rate you convert into is the rate then on offer, not the rate you wish you had locked. Confirm whether the conversion itself has a fee and whether the new term restarts the penalty clock.</p>
+    <p>Many lenders let you convert to a fixed term on offer that day. FCAC says a conversion usually has a fee, conditions may apply, and the new fixed rate may be higher than the variable rate you are leaving. Ask whether the new term changes the penalty before you convert.</p>
 
     <h3>How does this choice interact with a renewal?</h3>
-    <p>At maturity you can usually move to either contract without a break fee, because the term is over. Before maturity, switching the type means breaking the old term. If the mortgage is an uninsured stand-alone loan and you are not borrowing more, the 2026 renewal guide explains when OSFI's prescribed qualifying rate does not apply. The penalty can still apply if you are early.</p>
+    <p>At maturity you can usually pick either contract without a break fee, because the term is over. Before maturity, changing the type means breaking the old term. On an uninsured stand-alone loan, OSFI does not expect the prescribed qualifying rate on a straight switch at renewal if you are not borrowing more or stretching the amortization. The penalty can still apply if you are early.</p>
+
+    <h3>Should I wait for the October 28, 2026 Bank of Canada decision?</h3>
+    <p>Only if you can carry the payment either way. October 28, 2026 can move the overnight target, held at 2.25% on September 2, when the Bank said upside inflation risks had increased and that it is prepared to adjust. The announcement does not print your discount. The following decision is December 9, 2026.</p>
+
+    <h3>What is a trigger rate?</h3>
+    <p>A trigger rate is the rate at which a fixed payment only covers interest. FCAC says the lender may then require higher payments, a lump sum, or a conversion to fixed, and that a fixed-payment variable contract must disclose the trigger rate and that the amortization may lengthen. In an example, a 3.95% payment of $2,617 on $500,000 over 25 years only covers interest at about 6.36% at the start. That rate is an assumption, not an offer.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/">Bank of Canada, September 2, 2026</a></li>
-        <li><a href="https://www.bankofcanada.ca/valet/observations/V80691335,V80691311/json?recent=4">Bank of Canada Valet, September 23, 2026 readings</a></li>
-        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI minimum qualifying rate</a></li>
-        <li><a href="https://stories.td.com/ca/en/article/td-explains-what-is-an-ird">TD: how it describes IRD and three months' interest</a></li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC: prepayment penalties</a></li>
+        <li><a href="https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/">Bank of Canada: September 2, 2026 interest rate announcement</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/">Bank of Canada: policy interest rate and announcement schedule</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.bankofcanada.ca/valet/observations/V80691335,V80691311,V39079/json?recent=6">Bank of Canada Valet: prime, posted 5-year conventional mortgage, and the overnight rate</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI: minimum qualifying rate for uninsured mortgages</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase">CMHC: mortgage loan insurance for homeownership, Purchase</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html">Department of Finance: mortgage reforms in force from December 15, 2024</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC: reducing prepayment penalties</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/interest-on-mortgages.html">FCAC: interest on mortgages</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/interest-rates-rise.html">FCAC: managing money when interest rates rise</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/rights-responsibilities/rights-mortgages/applying-for-mortgage.html">FCAC: applying for a mortgage, including trigger-rate disclosure</a>, reviewed October 16, 2026</li>
+        <li><a href="https://stories.td.com/ca/en/article/td-explains-what-is-an-ird">TD: what an interest-rate differential is</a>, reviewed October 16, 2026</li>
+        <li><a href="https://www.fsrao.ca/industry/credit-unions-and-caisses-populaires/regulatory-framework/guidance-credit-unions-and-caisses-populaires/residential-mortgage-lending">FSRA: residential mortgage lending guidance for Ontario credit unions (CU0063INT)</a>, reviewed October 16, 2026</li>
+    </ul>
+
+    <h2>Related reading</h2>
+    <ul>
+        <li><a href="/blog/mortgage-stress-test-canada/">The mortgage stress test</a> — when contract plus 2 points loses to the 5.25% floor.</li>
+        <li><a href="/blog/mortgage-prepayment-penalty-ird-canada/">Prepayment penalties and the IRD</a> — how the discount becomes the charge for leaving.</li>
+        <li><a href="/blog/mortgage-renewal-strategy-canada/">Mortgage renewal in 2026</a> — when a straight switch skips the prescribed qualifying rate.</li>
+        <li><a href="/blog/canadian-mortgage-guide/">The Canadian mortgage guide</a> — contract rate, qualifying rate, penalty, and the revolving cap.</li>
+        <li><a href="/blog/mortgage-prepayment-calculator/">Mortgage prepayment calculator</a> — interest and months an allowed extra payment saves.</li>
+        <li><a href="/blog/mortgage-prepayment-vs-investing-canada/">Prepayment versus investing</a> — whether a surplus beats the contract rate after tax.</li>
     </ul>
 
     <div class="cta-section">
@@ -571,10 +929,15 @@ export const realEstateClusterPosts: EstatePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer(published)}
+    <div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about fixed and variable Canadian mortgages as of October 16, 2026. It is not a mortgage offer, a rate quote, or tax, credit, or legal advice. Contract rates, posted rates, penalties, and program limits change, and they depend on the commitment. Official figures are tied to the Bank of Canada, OSFI, CMHC, the Department of Finance, FCAC, TD, or FSRA and were reviewed on October 16, 2026. Dollar payments that use an assumed contract rate are labelled as illustrations, not offers. Confirm the commitment and your lender's penalty calculator before you sign, switch, or break a term. This page has not opened Quebec's AMF rules for caisses or other provinces' credit-union rules; ask the lender which qualifying rate it uses.</p>
+        <div class="footer-note">Published: September 27, 2026 | Updated: October 16, 2026 | Category: Real Estate | Author: Andrew</div>
+    </div>
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-16',
+  },
 
   estatePost(
     'mortgage-stress-test-canada',
