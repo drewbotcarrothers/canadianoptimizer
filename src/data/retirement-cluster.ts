@@ -404,6 +404,10 @@ export const retirementClusterPosts: RetirementPost[] = [
 </div>`
     ),
     updated: '2026-10-17',
+    youtubeId: 'Sd5DytCG9mM',
+    youtubeTitle: 'RRIF Minimum Withdrawal Table 2026: I Ran the Numbers to 95',
+    youtubeUploadDate: '2026-10-19T02:23:16-04:00',
+    youtubeDuration: 'PT6M50S',
   },
   retirementPost(
     'rrsp-to-rrif-conversion',
