@@ -395,5 +395,9 @@ export const oct2026TaxPostsB = [
 </div>`
     ),
     updated: '2026-10-19',
+    youtubeId: 'uauASJQGZA4',
+    youtubeTitle: 'Year-End Tax Deadlines in Canada 2026: What Really Ends Dec 31',
+    youtubeUploadDate: '2026-10-21T02:20:45-04:00',
+    youtubeDuration: 'PT6M58S',
   },
 ];
