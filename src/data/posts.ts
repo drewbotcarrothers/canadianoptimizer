@@ -2044,8 +2044,8 @@ export const posts: BlogPostRecord[] = [
     categorySlug: "credit-cards",
     author: "Andrew",
     date: "2026-09-19",
-    updated: "2026-09-26",
-    excerpt: "Build a two- or three-card Canadian cash-back stack by spending category, and run the annual-fee test before you pay for an accelerator.",
+    updated: "2026-10-21",
+    excerpt: "Best cash-back credit cards in Canada for 2026, with issuer rates checked October 21, 2026, a $30,000 net-of-fee example, and the Costco and Rogers catches.",
     image: "/images/blog/best-cash-back-credit-cards-canada.png",
     content: `<div class="container">
 
@@ -2053,142 +2053,440 @@ export const posts: BlogPostRecord[] = [
         Cash back is the only rewards currency with an honest price: one cent is one cent. The 2026 optimization is not a single “best card.” It is a <span class="highlight">two- or three-card stack</span> matched to the categories you actually spend in — groceries, gas, recurring bills, foreign spend, and everything else — after annual fees.
     </div>
 
-    <p>Category bonuses in Canada are real, and they are also a trap. A card that pays more at “grocery stores” may pay the base rate at Walmart, Costco, or a Superstore, because the merchant category code is not what you call the store. A card that looks rich on a Rogers, Fido, or Shaw bill only wins if you are the customer who can redeem that way. Earn rates, fee waivers, and bonus categories change. This guide gives you the decision frame and the names of the usual contenders. It does not give you a rate to memorize. For the current dated figures, start at the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub and the grocery and no-fee spokes linked from it.</p>
+    <p>The best cash-back credit card in Canada for 2026 depends on where you spend. On issuer pages checked October 21, 2026, the top grocery rates are 4% (Amex SimplyCash Preferred, CIBC Dividend Visa Infinite, Scotia Momentum Visa Infinite, each about $120 a year). The strongest no-fee flat rate is Rogers Red World Elite at 2% for Rogers customers.</p>
+
+    <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>In our $30,000-a-year example, the best single card nets $780 after its fee and the weakest nets $300. The fee card wins only if your grocery spend codes as grocery and the store takes the card.</li>
+            <li>Costco warehouses in Canada take Mastercard only, so a Visa or Amex grocery card earns nothing there.</li>
+            <li>Rogers Bank ends its 1.5x redemption bonus on November 18, 2026, and moves to 5% on certain Rogers purchases.</li>
+            <li>A 2.5% foreign-currency fee (Tangerine, Rogers) cancels a 2% cash-back rate abroad. Keep one no-foreign-fee card.</li>
+            <li>Pay in full every month: purchase rates on these cards are about 21% to 22%.</li>
+        </ul>
+    </div>
+
+    <nav class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#spending-buckets">Which spending buckets decide your cash-back stack?</a></li>
+            <li><a href="#rates-2026">What do the main Canadian cash-back cards pay in 2026?</a></li>
+            <li><a href="#thirty-thousand">Which card wins on $30,000 of spending?</a></li>
+            <li><a href="#flat-or-category">Flat rate or category card: which pays more?</a></li>
+            <li><a href="#rogers-november-2026">What changes for Rogers cash back on November 18, 2026?</a></li>
+            <li><a href="#which-job">Which cash-back cards fit which job?</a></li>
+            <li><a href="#how-many-cards">How many cash-back cards should you hold?</a></li>
+            <li><a href="#redemption-rules">Which redemption rules change the winner?</a></li>
+            <li><a href="#welcome-bonuses">How do welcome bonuses fit in?</a></li>
+            <li><a href="#costly-mistakes">What mistakes cost cash-back cardholders the most?</a></li>
+            <li><a href="#before-you-apply">What should you confirm before you apply?</a></li>
+        </ul>
+    </nav>
+
+    <p>Category bonuses in Canada are real, and they are also a trap. A card that pays more at “grocery stores” may pay the base rate at Walmart, Costco, or a Superstore, because the merchant category code (MCC) — the payment network's label for the type of store — is not what you call the store. A card that looks rich on a Rogers, Fido, or Shaw bill only wins if you are the customer who can redeem that way. Earn rates, fee waivers, and bonus categories change. This guide gives you the decision frame and the names of the usual contenders. It does not give you a rate to memorize. For the current dated figures, start at the <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> hub and the grocery and no-fee spokes linked from it.</p>
+
+    <p>More card guides are in the <a href="/category/credit-cards/">Credit Cards hub</a>. The rates below are from issuer pages reviewed October 21, 2026. Re-open the issuer page before you apply.</p>
 
     <div class="callout">
         <strong>Verify before you apply:</strong>
-        <p>Check the issuer’s current earn table and the annual fee on the day you apply. The Financial Consumer Agency of Canada publishes a credit-card comparison tool that is a better source than any roundup, including this one, once numbers are involved.</p>
+        <p>Check the issuer’s current earn table and the annual fee on the day you apply. The <a href="https://itools-ioutils.fcac-acfc.gc.ca/CCCT-OCCC/SearchFilter-eng.aspx">Financial Consumer Agency of Canada Credit Card Comparison Tool</a> compares rates, fees and rewards using data from the institutions. It is a better check than any roundup, including this one, once numbers are involved.</p>
     </div>
 
-    <h2>The five spending buckets that decide the stack</h2>
+    <h2 id="spending-buckets">Which spending buckets decide your cash-back stack?</h2>
 
-    <p>Export a year of transactions, or at least a honest month, and sort spend into these buckets. The percentages are yours, not the card’s.</p>
+    <p>Six buckets decide the stack: groceries, warehouse shops, gas and transit, recurring bills, foreign spend, and everything else. Export a year of transactions, or at least an honest month, and sort spend into them. The percentages are yours, not the card's.</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Bucket</th>
-                <th>What usually wins</th>
-                <th>Canadian catch</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Groceries at a traditional supermarket</td>
-                <td>A grocery accelerator (Scotia Momentum, CIBC Dividend, Amex SimplyCash-style cards, Tangerine or Simplii category picks)</td>
-                <td>Loblaw banners often refuse Amex. The accelerator may not apply.</td>
-            </tr>
-            <tr>
-                <td>Costco and many Walmart shops</td>
-                <td>Often your flat-rate card, not the “grocery” card</td>
-                <td>Costco is Mastercard. Coding is frequently warehouse or discount store, not grocery.</td>
-            </tr>
-            <tr>
-                <td>Gas and transit</td>
-                <td>A gas category card, or a flat card if the category is thin</td>
-                <td>Wholesale-club fuel and some EV charging do not code as gas stations.</td>
-            </tr>
-            <tr>
-                <td>Recurring bills (telecom, insurance, streaming, utilities)</td>
-                <td>Cards that still pay a bonus on recurring payments, or a Rogers-family card if redemption against that bill is enhanced</td>
-                <td>Enhanced Rogers, Fido, and Shaw redemption has been a real edge for those customers. Confirm the current redemption rate; it has changed before.</td>
-            </tr>
-            <tr>
-                <td>Foreign spend</td>
-                <td>A no-foreign-transaction-fee card</td>
-                <td>A 2.5% fee wipes out a typical cash-back rate and then some.</td>
-            </tr>
-            <tr>
-                <td>Everything else</td>
-                <td>The best flat rate you can get after the fee</td>
-                <td>This bucket is usually the largest. Do not optimize groceries and ignore it.</td>
-            </tr>
-        </tbody>
-    </table>
+    <p>The merchant category code (MCC) is the label the earn rate uses. A traditional supermarket can code as grocery. A warehouse or a big-box store often does not, even when the cart is food. Sort the statement before you trust a 4% headline.</p>
 
-    <h2>Flat rate versus category accelerators</h2>
+    <div class="table-wrapper">
+        <table>
+            <caption>Spending buckets that decide a Canadian cash-back stack</caption>
+            <thead>
+                <tr>
+                    <th>Bucket</th>
+                    <th>What usually wins</th>
+                    <th>Canadian catch</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Groceries at a traditional supermarket</td>
+                    <td>A grocery accelerator (Scotia Momentum, CIBC Dividend, Amex SimplyCash Preferred). Tangerine can assign Grocery. Simplii's grocery rate is fixed.</td>
+                    <td>Check that the store takes Amex before you count an Amex grocery rate.</td>
+                </tr>
+                <tr>
+                    <td>Costco and many Walmart shops</td>
+                    <td>Often your flat-rate Mastercard, not the grocery card</td>
+                    <td>Costco warehouses take Mastercard only. Do not assume the purchase codes as grocery.</td>
+                </tr>
+                <tr>
+                    <td>Gas and transit</td>
+                    <td>A gas category, or a flat card if the category is thin</td>
+                    <td>Costco gas takes Mastercard credit and debit. Do not assume every pump codes as gas.</td>
+                </tr>
+                <tr>
+                    <td>Recurring bills</td>
+                    <td>A recurring-payment bonus, or Rogers if you have a qualifying service</td>
+                    <td>Rogers Bank ends the 1.5x redemption bonus on November 18, 2026.</td>
+                </tr>
+                <tr>
+                    <td>Foreign spend</td>
+                    <td>A no-foreign-transaction-fee card</td>
+                    <td>A 2.5% fee (Tangerine, Rogers) cancels a 2% cash-back rate.</td>
+                </tr>
+                <tr>
+                    <td>Everything else</td>
+                    <td>The best flat rate after the fee</td>
+                    <td>This bucket is usually the largest. Do not ignore it.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>A flat-rate card pays the same on almost every purchase. A category card pays more in one or two aisles and something forgettable everywhere else. The math is personal, and it is the whole game.</p>
+    <div class="did-you-know">
+        <strong>Did you know:</strong>
+        <p>The <a href="https://customerservice.costco.ca/app/answers/detail/a_id/1017193">Costco Canada payment-methods answer</a>, reviewed October 21, 2026, says warehouses take Mastercard, plus debit, cash, Shop Card, cheque and Apple Pay. No Visa or Amex credit in the warehouse. Costco gas takes Mastercard credit and debit. Costco.ca takes Mastercard and Visa.</p>
+    </div>
+
+    <p>Those buckets are only useful once you know what each card actually pays. That is the next table.</p>
+
+    <h2 id="rates-2026">What do the main Canadian cash-back cards pay in 2026?</h2>
+
+    <p>On issuer pages reviewed October 21, 2026, three cards post <strong>4% on groceries</strong>, each with a fee near $120: Amex SimplyCash Preferred, CIBC Dividend Visa Infinite, and Scotia Momentum Visa Infinite. The strongest no-fee flat rate here is <strong>2%</strong> on Rogers Red World Elite with one qualifying Rogers, Fido, Shaw or Comwave service. Without that service, Rogers pays 1.5%.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Cash-back rates and fees from issuer pages reviewed October 21, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Card</th>
+                    <th>Annual fee</th>
+                    <th>Top rates</th>
+                    <th>Everything else</th>
+                    <th>Caps and catches</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/">Amex SimplyCash Preferred</a></td>
+                    <td>$9.99 a month ($119.88 a year; $119 a year in Quebec)</td>
+                    <td>4% eligible gas in Canada; 4% eligible groceries in Canada</td>
+                    <td>2%, no limit</td>
+                    <td>Grocery cash back capped at $1,200 a year</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-infinite-card.html">CIBC Dividend Visa Infinite</a></td>
+                    <td>$120</td>
+                    <td>4% gas, EV charging and groceries; 2% transportation, dining, recurring payments and CIBC by Expedia</td>
+                    <td>1%</td>
+                    <td>4% and 2% apply to the first $50,000 of net annual purchases or $20,000 in those categories, whichever comes first, then 1%. Redeem from $10. Income: $60,000 individual or $100,000 household.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card.html">Scotia Momentum Visa Infinite</a></td>
+                    <td>$120 ($50 per additional card)</td>
+                    <td>4% groceries and recurring bill payments; 2% gas, EV charging, transit, rideshare and food delivery</td>
+                    <td>1% after the caps</td>
+                    <td>4% up to $25,000 a year; 2% up to $25,000. Redeem from $25. Income: about $60,000 personal or $100,000 household.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td><a href="https://www.rogersbank.com/en/rogers_red_worldelite_mastercard_details">Rogers Red World Elite Mastercard</a></td>
+                    <td>$0</td>
+                    <td>2% with a qualifying Rogers, Fido, Shaw or Comwave service; otherwise 1.5%. 3% on U.S.-dollar purchases</td>
+                    <td>1.5% after the cap</td>
+                    <td>Rates apply to the first $61,000 a year, then 1.5%. Foreign-currency conversion 2.5%. Income: $80,000 personal or $150,000 household. Redeem from $10. Rules change November 18, 2026.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.americanexpress.com/en-ca/credit-cards/simply-cash/">Amex SimplyCash</a></td>
+                    <td>$0</td>
+                    <td>2% on eligible gas and groceries in Canada</td>
+                    <td>1.25%</td>
+                    <td>Grocery cash back capped at $300 a year</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.tangerine.ca/en/products/spending/creditcard/money-back">Tangerine Money-Back</a></td>
+                    <td>$0</td>
+                    <td>2% in two categories you choose, or three if rewards go to a Tangerine Savings Account</td>
+                    <td>0.5%</td>
+                    <td>Grocery, Restaurants, Gas, Recurring Bill Payments, Drug Store, Home Improvement, Public Transportation and Parking. Change every 90 days. Paid monthly. Foreign-currency conversion 2.50%. Income $12,000.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.simplii.com/en/credit-cards/cash-back-visa.html">Simplii Cash Back Visa</a></td>
+                    <td>$0</td>
+                    <td>4% restaurants, bars and coffee shops, up to $5,000 a year; 1.5% gas, groceries, drugstores and pre-authorized payments, up to $15,000 a year</td>
+                    <td>0.5% above those limits</td>
+                    <td>Categories are fixed, not chosen. Paid once a year on the January statement. Household income $15,000. Not offered in Quebec.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Welcome offers are left out of the example because they end. Scotia's current offer, for accounts opened by November 1, 2026, is 15% on the first $2,000 for three months and a waived first-year fee.</p>
+
+    <p>Two cards in the same aisle are not cash. <a href="https://www.pcfinancial.ca/en/credit-cards/world-elite">PC World Elite Mastercard</a> ($0 fee) earns PC Optimum points: 3% in points at their grocery stores, 4.5% at Shoppers Drug Mart and Pharmaprix, and 1% everywhere else. Income is $80,000 personal or $150,000 household. The PC Financial page lists redeeming 10,000 points for a $7 statement credit, so those points are not a cent each. <a href="https://www.triangle.com/en/credit-cards/triangle-world-elite-mastercard">Triangle World Elite</a> pays Canadian Tire Money, not cash. Its grocery rate covers the first $12,000 a year and excludes Walmart, Walmart Superstore and Costco.</p>
+
+    <p>Quebec is a different price on two of these products. SimplyCash Preferred is <strong>$119 a year in Quebec</strong>. Simplii is not offered there. The <a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html">FCAC page on choosing a credit card</a> also says merchants may add a credit-card surcharge of up to 2.4%, and that surcharge is not used in Quebec.</p>
+
+    <h2 id="thirty-thousand">Which card wins on $30,000 of spending? (worked example)</h2>
+
+    <p><strong>Amex SimplyCash Preferred nets $780.12</strong> after its fee, the best single card in this illustration. Simplii nets $300, the weakest. The fee card wins only if the grocery spend codes as grocery and the store takes the card.</p>
 
     <div class="example-box">
-        <strong>Example: fee versus incremental cash back</strong>
-        <p>Suppose a no-fee flat card returns roughly one percent, and a fee card returns a higher rate only on groceries. You spend $12,000 a year at stores that actually qualify as grocery. The fee card has to beat the no-fee card by enough dollars, on that $12,000 alone, to cover its annual fee — because the rest of your spend may be no better than the free card. If the fee is in the $100–$140 range that premium Canadian cash-back cards often charge, you need a meaningful gap, not a rounding error. Plug in the live rates. If the gap does not cover the fee, keep the no-fee card and stop reading rankings.</p>
+        <strong>Example (illustrative)</strong>
+        <p>A household spends $12,000 a year at stores that code as grocery, $3,000 on gas, $2,400 on recurring bills and $12,600 on everything else ($30,000 total). Each line is cash back minus the annual fee. No welcome offers. Rates are from issuer pages reviewed October 21, 2026. Spend is in Canadian dollars.</p>
+        <div class="example-calculation">
+            <div class="line total"><span>Amex SimplyCash Preferred</span><span>$900 − $119.88 = $780.12</span></div>
+            <div class="line"><span>CIBC Dividend Visa Infinite</span><span>$774 − $120 = $654</span></div>
+            <div class="line"><span>Scotia Momentum Visa Infinite</span><span>$762 − $120 = $642</span></div>
+            <div class="line"><span>Rogers, with a qualifying service</span><span>$600</span></div>
+            <div class="line"><span>Amex SimplyCash</span><span>$487.50</span></div>
+            <div class="line"><span>Rogers, no qualifying service</span><span>$450</span></div>
+            <div class="line"><span>Tangerine, three 2% categories</span><span>$411</span></div>
+            <div class="line"><span>Simplii Cash Back Visa</span><span>$300</span></div>
+        </div>
+        <p>Tangerine's $411 puts grocery, gas and recurring bills in its three 2% categories, which means rewards go to a Tangerine Savings Account. Simplii's 1.5% stops at $15,000, and this mix has no restaurant spend for the 4% rate. Rogers at $600 needs one qualifying Rogers, Fido, Shaw or Comwave service.</p>
     </div>
 
-    <p>That is why “best cash-back card” lists that ignore your grocery merchant and your annual fee are not actionable. Run the fee test on your numbers, not on a sample budget from a bank’s landing page.</p>
+    <div class="chart-container">
+        <h3>Example net cash back after fees on $30,000 of spending, 2026</h3>
+        <div class="bar-chart">
+            <div class="bar-item">
+                <div class="bar-label wide">Amex P.</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$780.12</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">CIBC</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 83.83%;"><span>$654</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Scotia</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 82.3%;"><span>$642</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Rogers+</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 76.91%;"><span>$600</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Amex</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 62.49%;"><span>$487.50</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Rogers</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 57.68%;"><span>$450</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Tang.</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 52.68%;"><span>$411</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label wide">Simplii</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 38.46%;"><span>$300</span></div></div>
+            </div>
+        </div>
+        <p>Example net cash back after fees on $30,000 of spending; rates from issuer pages October 21, 2026. Widths are proportional to $780.12. Amex P. is SimplyCash Preferred. Rogers+ has a qualifying service. Tang. is Tangerine with three 2% categories.</p>
+    </div>
 
-    <h2>The usual contenders, by the job they do</h2>
+    <p><strong>The Costco twist.</strong> If $4,000 of that $12,000 is at Costco, the Amex card cannot be used there. SimplyCash Preferred then earns <strong>$740 − $119.88 = $620.12</strong>. Putting the Costco $4,000 on Rogers Red World Elite at 2% adds <strong>$80</strong>, for <strong>$700.12</strong> across the two cards. The stack beats any single card when one store refuses your best card. Warehouse acceptance is the <a href="/blog/best-credit-card-for-costco-canada/">Costco card guide</a>.</p>
 
-    <p>These are categories of product Canadians actually use. They are not a ranking, and a name appearing here is not a claim about this month’s earn rate.</p>
+    <h2 id="flat-or-category">Flat rate or category card: which pays more?</h2>
+
+    <p>A flat-rate card pays the same on almost every purchase. A category card pays more in a few aisles and less on the rest. In the illustration, Rogers at 2% nets $600 with no fee. That beats every category card except the three fee cards, and those fee cards win only on spend that earns the accelerator.</p>
+
+    <p>The fee has to come back as extra cash back, not as a headline. SimplyCash Preferred's $119.88 is covered here because the card earns $900 before the fee. If the store does not take Amex, or the purchase does not code as grocery, that $900 does not happen. CIBC's $120 and Scotia's $120 fail the same way when the accelerated buckets are smaller than this sample. Run the <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual-fee test</a> on your numbers, then type rates you copied from the issuer into the <a href="/blog/credit-card-rewards-calculator/">rewards calculator</a>.</p>
+
+    <div class="example-box">
+        <strong>Example: the fee test in one pass</strong>
+        <p>Write four numbers from your own year: grocery that codes as grocery, gas, recurring bills, and everything else. Apply the live rate, subtract the annual fee, and compare the net with the best $0-fee card you can use at those stores. If the fee card is not clearly ahead, do not pay the fee. The $30,000 lines are an illustration, not your assessment.</p>
+    </div>
+
+    <h2 id="rogers-november-2026">What changes for Rogers cash back on November 18, 2026?</h2>
+
+    <p>On the <a href="https://www.rogersbank.com/en/rogers_red_worldelite_mastercard_details">Rogers Bank Red World Elite page</a> and the <a href="https://www.rogersbank.com/en/legal">Rogers Bank legal page</a>, reviewed October 21, 2026, a change effective <strong>November 18, 2026</strong> ends the 1.5x Redemption Bonus on Rogers purchases. After that date all rewards redeem at <strong>1 point = $0.01</strong>, even for purchases posted before November 18. Cash back rises to <strong>5%</strong> on certain eligible Rogers purchases, within the card's annual limits. Trip Cancellation, Trip Interruption and Trip Delay insurance are removed from the World Elite card.</p>
+
+    <p>If you were holding Rogers rewards to redeem at 1.5x on a Rogers bill, check the Rogers Bank page and the timing before November 18, 2026. After that date the edge is the 5% earn rate on eligible Rogers purchases, not the redemption. The $30,000 example uses the everyday earn rates on the page reviewed October 21, 2026 (2% with a qualifying service, 1.5% without, 3% on U.S.-dollar purchases, on the first $61,000). It does not assume the 1.5x bonus, and it does not assume the new 5% rate.</p>
+
+    <h2 id="which-job">Which cash-back cards fit which job?</h2>
+
+    <p>Match the card to the job. The rates and caps are in the table above. Fee cards are the grocery and recurring accelerators. Tangerine is the card where you choose the categories. Simplii's categories are fixed. Rogers is the flat-rate Mastercard when you have a qualifying service. PC and Triangle pay a store currency, not cash.</p>
 
     <h3>Grocery and recurring-bill accelerators</h3>
 
-    <p>Scotiabank Momentum Visa Infinite and CIBC Dividend Visa Infinite have long been the bank cards people compare when groceries and recurring payments are the fat part of the budget. They are Visa, so they work in more places than Amex, and they charge an annual fee that must be earned back. Confirm which merchant codes the current terms include. “Grocery” is a defined list, not a feeling.</p>
+    <p>Scotia Momentum Visa Infinite and CIBC Dividend Visa Infinite are the Visa cards people compare when groceries and recurring payments are the fat part of the budget. They work in more places than Amex, and each charges a $120 annual fee that has to be earned back. Scotia also charges $50 per additional card. Confirm which merchant codes the current terms include. Grocery is a defined list, not a feeling.</p>
 
-    <h3>Pick-your-category cards</h3>
+    <h3>Pick-your-category, and the card that is not one</h3>
 
-    <p>Tangerine Money-Back and Simplii Cash Back have been the no-fee (or low-friction) way to aim a higher rate at two or three categories you choose, with a lower rate on everything else. They suit someone who will not pay an <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> and whose spend is concentrated. They are the wrong only-card if “everything else” is most of your life, unless the flat alternative is no better.</p>
+    <p>Tangerine Money-Back is the no-fee way to aim 2% at two categories you choose, or three if rewards go to a Tangerine Savings Account, with 0.5% on everything else. You can change categories every 90 days. Rewards are paid monthly. It suits someone who will not pay an <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee</a> and whose spend is concentrated.</p>
+
+    <p>Simplii Financial Cash Back Visa is not a pick-your-category card. Its categories are fixed, cash back is paid once a year on the January statement, and it is not offered in Quebec. Both are the wrong only-card when everything else is most of the year and a flat 2% card is available to you.</p>
 
     <h3>Flat-rate cards, including Amex</h3>
 
-    <p>American Express SimplyCash and SimplyCash Preferred are the usual flat cash-back Amex products: simple, and blind at merchants that do not take Amex. A flat Visa or Mastercard with no fee is the comparison they have to beat on the spend you can actually place on Amex. If you cannot put Costco and your Loblaw store on it, discount the earn rate by the share of spend that never touches the card.</p>
+    <p>SimplyCash Preferred and SimplyCash are simple, and blind at merchants that do not take Amex. Costco warehouses do not take Amex credit. Check that the store takes Amex before you count an Amex grocery rate. A flat Visa or Mastercard with no fee is the comparison they have to beat on the spend you can actually place on the card.</p>
 
     <h3>Store ecosystems</h3>
 
-    <p>PC Financial World Elite pays inside the President’s Choice and Loblaw world, which is exactly where Amex grocery cards fail. Triangle World Elite (Canadian Tire) matters if Canadian Tire, Sport Chek, and the related gas network are a real share of spend, not a nostalgic one. Store cards are optimizers for a merchant, not for a life. Hold one only when the statement proves the merchant.</p>
+    <p>PC World Elite pays PC Optimum points at their grocery stores and at Shoppers Drug Mart and Pharmaprix. That is points, not cash. Triangle World Elite pays Canadian Tire Money, and its grocery rate excludes Walmart, Walmart Superstore and Costco. Hold a store card only when the statement proves the merchant.</p>
 
     <h3>Telecom redemption</h3>
 
-    <p>The Rogers World Elite Mastercard has, for Rogers, Fido, and Shaw customers, often been the strongest simple cash-back setup in the country because redemption against the Rogers bill has been boosted above the base earn. That boost is a commercial decision Rogers can change. If you are not a Rogers-family customer, do not assume you get the interesting version of the card. If you are, check the current redemption percentage before you treat it as the everything-card.</p>
+    <p>Rogers Red World Elite has a $0 annual fee. With one qualifying Rogers, Fido, Shaw or Comwave service it earns 2%; otherwise 1.5%. The 1.5x redemption bonus on Rogers purchases ends on November 18, 2026, including for purchases posted before that date. Cash back then rises to 5% on certain eligible Rogers purchases, within the card's annual limits. If you are not a qualifying customer, you get 1.5%, not 2%. Read the dated change above before you treat this as the everything-card.</p>
 
     <h3>No-foreign-fee cash back</h3>
 
-    <p>A cash-back card that charges a foreign-transaction fee is the wrong card the moment you leave Canada. Pair the domestic stack with one no-foreign-fee card. Several fintech and bank travel cards fill this role. The earn rate can be ordinary. Beating a 2.5 percent fee is the job.</p>
+    <p>A cash-back card with a foreign-transaction fee is the wrong card the moment you leave Canada. Tangerine and Rogers both list a 2.5% conversion fee, which cancels a 2% earn rate abroad. Pair the domestic stack with one card that does not charge that fee. The earn rate on it can be ordinary. Beating the 2.5% fee is the job. See <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">no-foreign-transaction-fee cards</a>.</p>
 
     <div class="warning-box">
         <strong>Fintech categories move:</strong>
         <p>Neo and similar app-based cards have offered merchant-specific boosts that appear and disappear. Treat a boosted rate as a promotion with an end date. Do not build the year’s plan on a tile in an app.</p>
     </div>
 
-    <h2>A stack that stays small</h2>
+    <h2 id="how-many-cards">How many cash-back cards should you hold?</h2>
 
-    <p>Three cards is the maximum we would bother tracking. More than that and people mis-tap, miss a payment, and donate the cash back back to the bank as interest.</p>
+    <p>Three is the maximum worth tracking. More than that and people mis-tap, miss a payment, and hand the cash back to the bank as interest. Purchase rates on these cards are about <strong>21% to 22%</strong>.</p>
 
     <ul>
-        <li><strong>Card A — domestic accelerator.</strong> Groceries and any recurring category that truly codes in your favour. This is the fee card, and only if the fee test passes.</li>
-        <li><strong>Card B — flat everything-else.</strong> The no-fee or low-fee Visa or Mastercard that catches Costco, the places that refuse Amex, and the long tail.</li>
-        <li><strong>Card C — foreign.</strong> No foreign-transaction fee. It can stay at home between trips.</li>
+        <li><strong>Card A — domestic accelerator.</strong> Groceries, gas, or recurring bills that code in your favour. This is the fee card, and only if the fee test passes.</li>
+        <li><strong>Card B — flat everything-else.</strong> The no-fee Visa or Mastercard for Costco, stores that do not take Amex, and the long tail. Rogers fills this when you have a qualifying service.</li>
+        <li><strong>Card C — foreign.</strong> No foreign-transaction fee. Tangerine and Rogers do not fill this job. It can stay home between trips.</li>
     </ul>
 
-    <p>If Card A fails the fee test, you do not have a stack. You have Card B, and that is a respectable outcome. Optimization includes refusing a product.</p>
+    <p>If Card A fails the fee test, you do not have a stack. You have Card B, and that is a respectable outcome. The role map is the <a href="/blog/canadian-credit-card-stack-templates/">stack templates</a> guide.</p>
 
     <div class="tip-box">
-        <strong>One payment rule:</strong>
-        <p>Every card in the <a href="/blog/canadian-credit-card-stack-templates/">stack</a> is paid in full by pre-authorized debit from chequing. A single missed payment on a “2 percent” card is a year of cash back gone. Set the pre-authorized amount to the full statement balance, not the minimum.</p>
+        <strong>Pro tip:</strong>
+        <p>Pay every card in full by pre-authorized debit from chequing, for the statement balance, not the minimum. One carried month at about 21% to 22% erases a year of cash back.</p>
     </div>
 
-    <h2>Redemption details that change the winner</h2>
+    <h2 id="redemption-rules">Which redemption rules change the winner?</h2>
+
+    <p>The winner changes when the balance is stranded or redeemed at less than a cent. Scotia Momentum redeems from <strong>$25</strong>. CIBC Dividend and Rogers redeem from <strong>$10</strong>. PC World Elite lists 10,000 points for a <strong>$7</strong> statement credit. Tangerine pays monthly. Simplii pays once a year, on the January statement, so closing the card in December can skip a year of rewards.</p>
 
     <ul>
-        <li><strong>Automatic statement credit versus points you must remember to redeem.</strong> Cash back that expires or sits in a portal is not cash. Prefer products that credit the statement or the linked bank account on a schedule you do not have to babysit.</li>
-        <li><strong>Minimum redemption thresholds.</strong> A card that will not pay out until you bank $25 or $50 can strand a balance if you close it. Know the rule before you product-switch.</li>
-        <li><strong>Annual-fee refunds on downgrade.</strong> Some issuers rebate a fee if you cancel or downgrade inside a short window, and some do not. Ask before you assume.</li>
-        <li><strong>Income tests.</strong> World Elite and Visa Infinite cash-back cards have personal or household income minimums. Applying when you do not qualify is a wasted inquiry.</li>
+        <li><strong>Credit you do not have to remember.</strong> Cash back that sits in a portal is not cash yet. Prefer a statement credit or a deposit on a schedule.</li>
+        <li><strong>Minimum redemption.</strong> Redeem before you product-switch. A $25 or $10 floor can strand the last balance.</li>
+        <li><strong>Rogers, before November 18, 2026.</strong> The 1.5x bonus ends that day, including on purchases already posted. Waiting to redeem a Rogers bill at 1.5x is the miss.</li>
+        <li><strong>Fee refunds.</strong> Some issuers rebate an annual fee on a quick downgrade, and some do not. Ask. This page does not quote a refund window.</li>
+        <li><strong>Income tests.</strong> Visa Infinite and World Elite have floors. Scotia is about $60,000 personal or $100,000 household. CIBC is $60,000 individual or $100,000 household. Rogers and PC World Elite are $80,000 personal or $150,000 household. Tangerine states $12,000. Simplii states $15,000 household and is not offered in Quebec. Applying when you do not qualify is a wasted inquiry. Amex and Triangle income floors were not on the pages used here, so they are not invented.</li>
     </ul>
 
-    <h2>How this interacts with welcome bonuses</h2>
+    <h2 id="welcome-bonuses">How do welcome bonuses fit in?</h2>
 
-    <p>A cash-back <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome bonus</a> is usually a small, honest number. A travel-points welcome bonus can be larger and harder to redeem. If you are willing to manage a minimum-spend window, read the churning guide before you apply — and still keep the long-term cash-back stack for the spending that remains after the bonus card is done. Do not let a one-time bonus replace Card B. The bonus ends. Groceries do not.</p>
+    <p>A welcome bonus can change year one and should not choose the card you still hold in year two. The only current cash-back welcome offer on the pages reviewed October 21, 2026 is Scotia Momentum Visa Infinite: <strong>15% on the first $2,000 for three months</strong>, and the first-year fee waived, for accounts opened by <strong>November 1, 2026</strong>. The $30,000 example leaves it out. When the offer ends, the card is the $120 fee and the capped rates.</p>
 
-    <h2>Key takeaways</h2>
+    <p>A cash-back <a href="/blog/credit-card-welcome-bonus-math-canada/">welcome bonus</a> is usually a smaller, clearer number than a travel-points bonus. If you will manage a minimum-spend window, read that guide before you apply, and keep the long-term cash-back stack for the spending that remains. Do not let a one-time bonus replace Card B. The bonus ends. Groceries do not.</p>
 
+    <h2 id="costly-mistakes">What mistakes cost cash-back cardholders the most?</h2>
+
+    <p>The expensive mistakes are interest, a surcharge larger than the reward, a foreign fee, a store that does not code as grocery, and an application below the income minimum.</p>
+
+    <div class="warning-box">
+        <strong>Watch out:</strong>
+        <ul>
+            <li><strong>Carrying a balance</strong> at about 21% to 22%. A month of interest costs more than the grocery accelerator on a normal year.</li>
+            <li><strong>Paying a merchant surcharge</strong> of up to 2.4% (not in Quebec, per FCAC) that is bigger than the cash back. A 2% card does not beat a 2.4% surcharge.</li>
+            <li><strong>Using a 2.5% foreign-fee card abroad.</strong> Tangerine and Rogers both charge it. Use a no-foreign-fee card for the trip.</li>
+            <li><strong>Assuming Costco or a big-box store codes as grocery.</strong> Costco warehouses do not take Visa or Amex credit. Triangle's grocery rate excludes Walmart, Walmart Superstore and Costco.</li>
+            <li><strong>Applying for Visa Infinite or World Elite below the income minimum</strong> in the table above. An application you cannot pass is a wasted inquiry.</li>
+        </ul>
+    </div>
+
+    <h2 id="before-you-apply">What should you confirm before you apply?</h2>
+
+    <p>Confirm the live page, then stop. The FCAC tool is the cross-check. The issuer page is the application. This article is neither, and it is not a recommendation.</p>
+
+    <ol>
+        <li>Sort a year, or an honest month, into grocery, warehouse, gas, recurring, foreign, and everything else.</li>
+        <li>Mark which stores take Visa, Mastercard, or American Express. Costco warehouses take Mastercard only.</li>
+        <li>Read the rate, the cap, and the merchant category codes. Subtract the annual fee. Ignore a welcome offer that ends, including Scotia's offer on November 1, 2026.</li>
+        <li>Check the income minimum before you apply for Visa Infinite or World Elite.</li>
+        <li>If Rogers rewards are waiting on a 1.5x bill redemption, read the Rogers Bank page before November 18, 2026.</li>
+    </ol>
+
+    <ul class="checklist">
+        <li>The store takes the card.</li>
+        <li>The purchase codes as the bonus category.</li>
+        <li>The spend fits under the cap on the issuer page.</li>
+        <li>The annual fee is covered versus a $0-fee card.</li>
+        <li>The statement will be paid in full.</li>
+        <li>Foreign spend is not on the 2.5% Tangerine or Rogers conversion fee.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Example: what to read on the issuer page</strong>
+        <p>Read this against the live page and leave a blank where the page is silent. "The annual fee is ____. In Quebec the fee is ____. The grocery rate is ____ on merchant category codes ____, up to ____, then ____. Gas is ____. Recurring bills are ____. Everything else is ____. Foreign-currency conversion is ____. Minimum redemption is ____. Income required is ____. The welcome offer ends on ____. The redemption rule changes on ____." If a blank stays blank, do not fill it from a roundup.</p>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Where to confirm a card before you apply, reviewed October 21, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Tool</th>
+                    <th>What you get</th>
+                    <th>What you give up</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://itools-ioutils.fcac-acfc.gc.ca/CCCT-OCCC/SearchFilter-eng.aspx">FCAC Credit Card Comparison Tool</a></td>
+                    <td>Rates, fees and rewards from the institutions' data</td>
+                    <td>It is not the application. Offers can move after the data.</td>
+                </tr>
+                <tr>
+                    <td>The issuer product page</td>
+                    <td>The earn table, the fee, the income test, and the current offer</td>
+                    <td>One card, not the market, and not a note that Costco refuses it.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The issuer decides eligibility. A carried balance, or an application that could affect a mortgage file, is a question for the issuer. A tax question about rewards belongs with a tax professional. This article does not give that tax treatment, and nobody reviewed it as your advisor.</p>
+
+    <h2 id="frequently-asked-questions">Frequently asked questions</h2>
+
+    <h3>What is the best cash-back credit card in Canada for 2026?</h3>
+    <p>It depends on where you spend. On issuer pages checked October 21, 2026, the top grocery rate is 4% on Amex SimplyCash Preferred, CIBC Dividend Visa Infinite, and Scotia Momentum Visa Infinite, each about $120 a year. In this page's $30,000 illustration, SimplyCash Preferred netted $780.12 after its $119.88 fee. Rogers Red World Elite paid $600 with no fee for a customer with a qualifying Rogers, Fido, Shaw or Comwave service.</p>
+
+    <h3>Which no-fee card pays 2% cash back in Canada?</h3>
+    <p>On pages reviewed October 21, 2026, Rogers Red World Elite pays 2% with one qualifying Rogers, Fido, Shaw or Comwave service, on the first $61,000 a year, then 1.5%. Without that service it pays 1.5%. Tangerine Money-Back pays 2% in two or three categories you choose and 0.5% on everything else. Amex SimplyCash pays 2% on eligible gas and groceries in Canada, with grocery cash back capped at $300 a year, and 1.25% on everything else. All three have a $0 annual fee.</p>
+
+    <h3>Is the Amex SimplyCash Preferred fee worth it?</h3>
+    <p>In the 2026 illustration of $30,000 of spending, SimplyCash Preferred earned $900 and netted $780.12 after the $119.88 fee. The fee is $9.99 a month, or $119 a year in Quebec. It is worth paying only when the grocery spend codes as grocery and the store takes American Express. With $4,000 of that grocery bucket at Costco, where the warehouse does not take Amex credit, the same card netted $620.12.</p>
+
+    <h3>Which cash-back card works at Costco in Canada?</h3>
+    <p>Costco warehouses take Mastercard, plus debit, cash, Shop Card, cheque and Apple Pay. They do not take Visa or American Express credit. Costco gas takes Mastercard credit and debit. Costco.ca takes Mastercard and Visa. On the pages reviewed October 21, 2026, Rogers Red World Elite is the cash-back card in this guide that can pay inside the warehouse. PC World Elite and Triangle World Elite are Mastercards too, but they earn points or Canadian Tire Money, not cash.</p>
+
+    <h3>What is changing with the Rogers Red World Elite on November 18, 2026?</h3>
+    <p>Rogers Bank ends the 1.5x Redemption Bonus on Rogers purchases on November 18, 2026. Rewards then redeem at 1 point equals $0.01, even for purchases posted before that date. Cash back rises to 5% on certain eligible Rogers purchases, within the card's annual limits. Trip Cancellation, Trip Interruption and Trip Delay insurance are removed from the World Elite card. The pages were reviewed October 21, 2026.</p>
+
+    <h3>Do cash-back cards charge foreign transaction fees?</h3>
+    <p>Tangerine Money-Back and Rogers Red World Elite both charge a 2.5% foreign-currency conversion fee, on issuer pages reviewed October 21, 2026. That fee cancels a 2% cash-back rate abroad. This page does not name a no-foreign-fee cash-back rate, because that figure was not on the pages reviewed. Keep a separate card with no foreign-transaction fee for travel.</p>
+
+    <h2 id="sources">Sources</h2>
     <ul>
-        <li><strong>Sort a real year of spend</strong> into grocery, warehouse, gas, recurring, foreign, and everything else.</li>
-        <li><strong>Check merchant coding,</strong> not the sign on the door. Costco and many Loblaw stores break grocery accelerators.</li>
-        <li><strong>Run the annual-fee test</strong> against a no-fee card using your numbers. If the fee is not covered, do not pay it.</li>
-        <li><strong>Rogers-family redemption</strong> can be the best simple setup for those customers. Confirm the live rate.</li>
-        <li><strong>Foreign spend needs a no-foreign-fee card.</strong> Cash-back math does not survive a 2.5 percent skim.</li>
-        <li><strong>Pay every card in full.</strong> Interest dominates earn rates.</li>
+        <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/visa/momentum-infinite-card.html">Scotiabank Momentum Visa Infinite</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-infinite-card.html">CIBC Dividend Visa Infinite</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/">American Express SimplyCash Preferred</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.americanexpress.com/en-ca/credit-cards/simply-cash/">American Express SimplyCash</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.rogersbank.com/en/rogers_red_worldelite_mastercard_details">Rogers Bank Red World Elite Mastercard details</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.rogersbank.com/en/legal">Rogers Bank legal</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.tangerine.ca/en/products/spending/creditcard/money-back">Tangerine Money-Back Credit Card</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.simplii.com/en/credit-cards/cash-back-visa.html">Simplii Financial Cash Back Visa</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.pcfinancial.ca/en/credit-cards/world-elite">PC Financial World Elite Mastercard</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.triangle.com/en/credit-cards/triangle-world-elite-mastercard">Triangle World Elite Mastercard</a>, reviewed October 21, 2026</li>
+        <li><a href="https://customerservice.costco.ca/app/answers/detail/a_id/1017193">Costco Canada payment methods</a>, reviewed October 21, 2026</li>
+        <li><a href="https://itools-ioutils.fcac-acfc.gc.ca/CCCT-OCCC/SearchFilter-eng.aspx">FCAC Credit Card Comparison Tool</a>, reviewed October 21, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html">FCAC: Choosing a credit card</a>, reviewed October 21, 2026</li>
+    </ul>
+
+    <h2 id="related-reading">Related reading</h2>
+    <ul>
+        <li><a href="/blog/best-credit-cards-canada/">Best credit cards in Canada, when cash back is not the only job</a></li>
+        <li><a href="/blog/best-no-annual-fee-credit-cards-canada/">No-annual-fee credit cards, when the fee test fails</a></li>
+        <li><a href="/blog/best-grocery-credit-cards-canada/">Grocery credit cards, caps, and merchant category codes</a></li>
+        <li><a href="/blog/best-credit-card-for-costco-canada/">Which credit card works at Costco in Canada</a></li>
+        <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">When a credit card annual fee beats a no-fee card</a></li>
+        <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
     <div class="cta-section">
@@ -2198,11 +2496,12 @@ export const posts: BlogPostRecord[] = [
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> Card names are used to identify well-known Canadian product families, not to quote a current offer. Earn rates, annual fees, income requirements, merchant exclusions, and redemption bonuses change. Confirm them with the issuer before you apply. This article is general education, not a recommendation of any card and not credit advice. Illustrative fee ranges are described as typical of the market, not as a rate on a specific product today.</p>
-        <div class="footer-note">Published: September 19, 2026 | Category: Credit Cards | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> Rates and fees are from issuer pages reviewed October 21, 2026. Examples are illustrative. Offers change. Confirm the current earn table, annual fee, income minimum, and redemption rule on the issuer page before applying. This is general education, not a recommendation of any card and not credit advice.</p>
+        <div class="footer-note">Published: September 19, 2026 | Updated: October 21, 2026 | Category: Credit Cards | Author: Andrew</div>
     </div>
 
-</div>`
+</div>
+`
   },
   {
     title: "Welcome Bonus Math: When Churning a Canadian Card Is Worth It",
