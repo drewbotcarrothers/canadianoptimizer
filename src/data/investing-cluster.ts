@@ -12,6 +12,7 @@ type InvestingPost = {
   excerpt: string;
   image: string;
   content: string;
+  subcategory?: string;
 } & PostVideoFields;
 
 const meta = {
@@ -43,7 +44,7 @@ const footer = (published: string) => `<div class="article-footer">
         <div class="footer-note">Published: ${published} | Category: Investing | Author: Andrew</div>
     </div>`;
 
-export const investingClusterPosts: InvestingPost[] = [
+const investingClusterPostsRaw: InvestingPost[] = [
   investingPost(
     'how-to-invest-canada-guide',
     "How to Invest in Canada: The Optimizer's Guide to Accounts, ETFs, and Brokerages",
@@ -1724,3 +1725,23 @@ export const investingClusterPosts: InvestingPost[] = [
   },
   ...oct2026InvestingPosts,
 ];
+
+/**
+ * Investing subcategory for each post in this module (see CATEGORIES in src/lib/site.ts).
+ * Posts left out are general and render under "Start here" on /category/investing/.
+ */
+export const INVESTING_SUBCATEGORY: Record<string, string> = {
+  'xeqt-vs-veqt-canada': 'passive-etf',
+  'best-etfs-tfsa-canada': 'passive-etf',
+  'vfv-vs-voo-canadians': 'passive-etf',
+  'best-robo-advisors-canada': 'hands-off',
+  'adjusted-cost-base-canada-guide': 'stock-picking',
+  'superficial-loss-rule-canada': 'stock-picking',
+  'covered-call-etfs-canada': 'dividend-investing',
+  'should-canadians-sell-us-stocks': 'stock-picking',
+};
+
+export const investingClusterPosts: InvestingPost[] = investingClusterPostsRaw.map((post) => {
+  const subcategory = INVESTING_SUBCATEGORY[post.slug];
+  return subcategory ? { ...post, subcategory } : post;
+});

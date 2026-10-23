@@ -4,19 +4,35 @@ import { posts } from '@/data/posts';
 export default function RelatedPosts({
   slug,
   categorySlug,
+  subcategory,
 }: {
   slug: string;
   categorySlug: string;
+  subcategory?: string;
 }) {
+  const sameSubcategory = subcategory
+    ? posts
+        .filter(
+          (post) =>
+            post.slug !== slug && post.categorySlug === categorySlug && post.subcategory === subcategory
+        )
+        .sort((a, b) => b.date.localeCompare(a.date))
+    : [];
+
   const sameCategory = posts
-    .filter((post) => post.slug !== slug && post.categorySlug === categorySlug)
+    .filter(
+      (post) =>
+        post.slug !== slug &&
+        post.categorySlug === categorySlug &&
+        !sameSubcategory.some((item) => item.slug === post.slug)
+    )
     .sort((a, b) => b.date.localeCompare(a.date));
 
   const filler = posts
     .filter((post) => post.slug !== slug && post.categorySlug !== categorySlug)
     .sort((a, b) => b.date.localeCompare(a.date));
 
-  const related = [...sameCategory, ...filler].slice(0, 3);
+  const related = [...sameSubcategory, ...sameCategory, ...filler].slice(0, 3);
   if (related.length === 0) return null;
 
   return (

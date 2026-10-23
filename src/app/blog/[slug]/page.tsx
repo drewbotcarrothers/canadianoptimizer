@@ -284,7 +284,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <AffiliateDisclosure />
           </div>
         </article>
-        <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} />
+        <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} subcategory={post.subcategory} />
       </>
     );
   }
@@ -342,7 +342,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         </div>
       </article>
-      <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} />
+      <RelatedPosts slug={post.slug} categorySlug={post.categorySlug} subcategory={post.subcategory} />
     </>
   );
 }
