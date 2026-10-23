@@ -1,5 +1,6 @@
 import type { PostVideoFields } from '../lib/post-video';
 import { oct2026InvestingPosts } from './oct2026/investing';
+import { investing2026Posts } from './investing-2026';
 
 type InvestingPost = {
   title: string;
@@ -39,13 +40,14 @@ function investingPost(
   };
 }
 
-const footer = (published: string) => `<div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about investing in Canada as of September 2026. It is not a recommendation to buy, sell, or hold any security, and not investment, tax, or legal advice. Management fees, MERs, commissions, foreign-exchange spreads, and withholding rules change. Figures are tied to issuer, broker, CRA, or treaty pages reviewed in September 2026; confirm them before you act. Dollar examples are illustrations of arithmetic, not forecasts of return. Consult a registered adviser for a plan that fits your file.</p>
+const footer = (published: string, asOf = 'September 2026') => `<div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about investing in Canada as of ${asOf}. It is not a recommendation to buy, sell, or hold any security, and not investment, tax, or legal advice. Management fees, MERs, commissions, foreign-exchange spreads, and withholding rules change. Figures are tied to issuer, broker, CRA, or treaty pages reviewed in ${asOf}; confirm them before you act. Dollar examples are illustrations of arithmetic, not forecasts of return. Consult a registered adviser for a plan that fits your file.</p>
         <div class="footer-note">Published: ${published} | Category: Investing | Author: Andrew</div>
     </div>`;
 
 const investingClusterPostsRaw: InvestingPost[] = [
-  investingPost(
+  {
+    ...investingPost(
     'how-to-invest-canada-guide',
     "How to Invest in Canada: The Optimizer's Guide to Accounts, ETFs, and Brokerages",
     'In 2026, invest in Canada by filling TFSA and RRSP room, picking a mix you can hold, and choosing a broker for the foreign-exchange cost you will actually pay.',
@@ -62,18 +64,49 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <ul>
             <li>The 2026 TFSA dollar limit is $7,000. Room is that limit, plus unused room, plus last year's withdrawals, minus what you already put in.</li>
             <li>A one-ticket ETF is the right design when you will not rebalance. Building blocks are the right design when account location matters and you will maintain it.</li>
-            <li>As of September 2026, XEQT and VEQT both list a 0.17% management fee. The published MER gap is not the decision.</li>
+            <li>As of October 23, 2026, XEQT lists a 0.17% management fee and a 0.19% MER (BlackRock). Compare any rival one-ticket fund on its own page. A few hundredths of a percent is not the decision.</li>
             <li>US portfolio dividends are taxed at 15% under the Canada-US treaty, or 30% if the broker has no treaty claim. An RRSP can be exempt. A TFSA cannot recover the tax.</li>
-            <li>Wealthsimple and Questrade both list $0 commissions on Canadian and US stocks and ETFs, and both list a 1.5% currency-conversion fee. Price the conversion, not the headline.</li>
+            <li>Wealthsimple and Questrade both list $0 commissions on Canadian and US stocks and ETFs, and both charge 1.5% to convert currency on a typical trade. Price the conversion, not the headline.</li>
+            <li>New in October 2026: Investing now has four tracks. Pick passive ETFs, dividend income, DIY stock picking, or hands-off. The table below sends you to the right guide.</li>
         </ul>
+    </div>
+
+    <h2>Which kind of investor are you?</h2>
+
+    <p>Answer this before you choose a fund. The accounts and brokerages below apply to everyone. After that, the right next guide depends on how much work you want to do and what you want the money to do for you.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Four investor types, and where each one should go next</caption>
+            <thead>
+                <tr><th>If this sounds like you</th><th>Your track</th><th>Start with</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>"I want one cheap fund, automatic deposits, and no stock picking."</td><td><a href="/category/investing/passive-etf/">Passive ETF Investing</a></td><td><a href="/blog/couch-potato-portfolio-canada/">Couch potato investing in Canada</a></td></tr>
+                <tr><td>"I want regular cash income, and I care about the dividend tax credit."</td><td><a href="/category/investing/dividend-investing/">Dividend Investing</a></td><td><a href="/blog/dividend-investing-canada/">Dividend investing in Canada</a></td></tr>
+                <tr><td>"I want to research companies and pick my own stocks."</td><td><a href="/category/investing/stock-picking/">DIY Stock Picking</a></td><td><a href="/blog/how-to-pick-stocks-canada/">How to pick stocks in Canada</a></td></tr>
+                <tr><td>"I want someone else to handle it: an app, an advisor, or a planner."</td><td><a href="/category/investing/hands-off/">Hands-Off Investing</a></td><td><a href="/blog/robo-advisor-vs-financial-advisor-canada/">Robo-advisor versus financial advisor</a></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="diagram">
+        <div class="diagram-step">1. Account: confirm your TFSA, RRSP, and FHSA room in CRA My Account</div>
+        <div class="diagram-arrow"></div>
+        <div class="diagram-step light">2. Mix: write down your stock-and-bond split in one sentence</div>
+        <div class="diagram-arrow"></div>
+        <div class="diagram-step">3. Track: passive, dividend, stock picking, or hands-off</div>
+        <div class="diagram-arrow"></div>
+        <div class="diagram-step light">4. Broker or manager: choose the one that fits that track</div>
     </div>
 
     <h2>Which account should the next dollar use?</h2>
 
     <p>Canada does not have one sheltered account. It has a set, and they do different jobs. The expensive mistake is a clever non-registered sleeve while TFSA or RRSP room is empty. The January funding rule is the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. The account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. The deduction is the <a href="/blog/rrsp-playbook/">RRSP playbook</a>. A first home on a real timeline is the <a href="/blog/fhsa-guide/">FHSA guide</a>.</p>
 
+    <div class="table-wrapper">
     <table>
-        <caption>Where a dollar of long-term investing usually goes first, as of September 2026</caption>
+        <caption>Where a dollar of long-term investing usually goes first, as of October 2026</caption>
         <thead>
             <tr>
                 <th>Account</th>
@@ -104,8 +137,23 @@ const investingClusterPostsRaw: InvestingPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <p>Table as of September 2026. The TFSA dollar limit is from CRA. Treaty treatment is the Canada-US convention, Article X and Article XXI, summarized in the <a href="/blog/us-withholding-tax-by-account-canada/">withholding-tax guide</a>.</p>
+    <div class="chart-container">
+        <h3>TFSA dollar limit by year</h3>
+        <div class="bar-chart">
+            <div class="bar-item"><div class="bar-label">'09</div><div class="bar-wrapper"><div class="bar" style="width: 50%;"><span>$5,000</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'13</div><div class="bar-wrapper"><div class="bar" style="width: 55%;"><span>$5,500</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'15</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$10,000</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'16</div><div class="bar-wrapper"><div class="bar" style="width: 55%;"><span>$5,500</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'19</div><div class="bar-wrapper"><div class="bar" style="width: 60%;"><span>$6,000</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'23</div><div class="bar-wrapper"><div class="bar" style="width: 65%;"><span>$6,500</span></div></div></div>
+            <div class="bar-item"><div class="bar-label">'24</div><div class="bar-wrapper"><div class="bar" style="width: 70%;"><span>$7,000</span></div></div></div>
+        </div>
+        <p>Each bar marks the first year of a new limit: $5,000 (2009–2012), $5,500 (2013–2014), $10,000 (2015), $5,500 (2016–2018), $6,000 (2019–2022), $6,500 (2023), and $7,000 (2024–2026). The total is $109,000 for someone eligible every year since 2009. Source: <a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA limits page</a>, reviewed October 23, 2026. The 2026 RRSP dollar limit on the same page is $33,810.</p>
+    </div>
+
+    <p>Table as of October 2026. The TFSA dollar limit is from CRA. Treaty treatment is the Canada-US convention, Article X and Article XXI, summarized in the <a href="/blog/us-withholding-tax-by-account-canada/">withholding-tax guide</a>.</p>
 
     <h2>What mix should you write down?</h2>
 
@@ -117,6 +165,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <p>Both are legitimate. They fail in different ways. The longer comparison is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one ETFs versus a DIY portfolio</a>. The ticker-level version, with September 2026 fees and weights, is <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>.</p>
 
+    <div class="table-wrapper">
     <table>
         <caption>One fund versus building blocks</caption>
         <thead>
@@ -139,21 +188,22 @@ const investingClusterPostsRaw: InvestingPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
     <div class="example-box">
         <strong>Illustration: the fee on $100,000, not a forecast</strong>
-        <p>As of the August 2026 iShares fact sheet, XEQT's reported MER is 0.19%. On a $100,000 balance that stays $100,000, 0.19% is $190 a year. Vanguard's VEQT page still shows a 0.22% MER, which is $220, but Vanguard says that MER is the year-end figure and does not yet reflect the management-fee cut to 0.17% on 18 November 2025. The management fee on both XEQT and VEQT is 0.17%, which is $170. The $30 gap between the two reported MERs is not a reason to switch. Behaviour is.</p>
+        <p>As of October 23, 2026, BlackRock lists XEQT's management fee at 0.17% and its MER at 0.19%. On a $100,000 balance that stays at $100,000, 0.19% is $190 a year. A rival all-equity fund with a 0.22% MER would cost $220. Check the rival's own page, because a listed MER can lag a fee cut by up to a year. A $30 difference is not a reason to switch funds. Your behaviour matters far more.</p>
     </div>
 
     <h2>Which brokerage fits the portfolio?</h2>
 
-    <p>A zero-commission headline is not a cost. As of September 2026, Wealthsimple and Questrade both list $0 commissions on stocks and ETFs listed in Canada and the United States, and both list a 1.5% fee on CAD-USD conversion. The dated comparison is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>. The structural comparison, without a live price list, is the <a href="/blog/best-online-brokerages-canada/">brokerage guide</a>.</p>
+    <p>A zero-commission headline is not a cost. As of October 23, 2026, Wealthsimple and Questrade both list $0 commissions on stocks and ETFs listed in Canada and the United States, and both charge 1.5% to convert currency on a typical trade. Wealthsimple's fee schedule lowers the rate for large cash conversions into its USD account: 1.0% from $10,000, 0.5% from $25,000, and 0% from $100,000. The dated comparison is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>. The structural comparison, without a live price list, is the <a href="/blog/best-online-brokerages-canada/">brokerage guide</a>.</p>
 
     <p>If the portfolio is one Canadian-listed ETF, you may never convert currency, and the simpler platform can be the whole decision. If the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> has you holding a US-listed fund inside an RRSP, the test order is contribute Canadian dollars, convert, and buy. That conversion is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a> at Wealthsimple and Questrade, and it is usually the broker's own spot conversion at Interactive Brokers. Currency hedging, separate from the journal, is the <a href="/blog/currency-hedging-us-listed-etfs-canada/">hedging guide</a>.</p>
 
     <h2>What about a robo-advisor?</h2>
 
-    <p>A robo-advisor charges a management fee on top of the ETFs it holds. An all-in-one ETF's MER is the product fee. As of September 2026, Questwealth lists 0.25% on balances from $250 to $99,999 and 0.20% from $100,000. Wealthsimple lists 0.5% on managed accounts for Core clients and 0.4% for Premium. Those percentages are not the whole cost. The comparison is <a href="/blog/best-robo-advisors-canada/">best robo-advisors in Canada</a>.</p>
+    <p>A robo-advisor charges a management fee on top of the ETFs it holds. An all-in-one ETF's MER is the product fee. As of October 23, 2026, Questwealth lists 0.25% on balances from $250 to $99,999 and 0.20% from $100,000. Wealthsimple lists 0.5% on managed accounts for Core clients and 0.4% for Premium. Its fee schedule also lists an Automated Investing service at 0.25%, capped at $250 a year per account. Those percentages are not the whole cost. The comparison is <a href="/blog/best-robo-advisors-canada/">best robo-advisors in Canada</a>. Robos compared with advisors and planners are covered in <a href="/blog/robo-advisor-vs-financial-advisor-canada/">robo-advisor versus financial advisor</a>.</p>
 
     <div class="example-box">
         <strong>Illustration: $800 a month, one fund, one account</strong>
@@ -201,23 +251,25 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <p>Use the RRSP when the deduction is worth more now than the tax you expect on the withdrawal later. Use the TFSA when you want tax-free withdrawals that do not inflate income-tested benefits, or when today's marginal rate is modest. A first-home FHSA can come before both if the purchase is real. The three-account comparison is the worksheet. This page will not assign you a winner.</p>
 
     <h3>Are XEQT and VEQT safe?</h3>
-    <p>They are equity funds. BlackRock describes XEQT as a 100% equity portfolio. Vanguard describes VEQT the same way. Equity funds fall. "Eligible for registered plans" is a tax fact, not a promise that the unit price holds. If you cannot watch that, use a fund with bonds, or do not invest money you need soon.</p>
+    <p>They are equity funds. BlackRock describes XEQT as a 100% equity portfolio, and VEQT is also an all-equity fund. Equity funds fall: BlackRock reports XEQT's 2022 calendar return as -10.93%. "Eligible for registered plans" is a tax fact, not a promise that the unit price holds. If you cannot watch that, use a fund with bonds, or do not invest money you need soon.</p>
 
     <h3>Do I need a US-dollar account?</h3>
-    <p>Not if every fund you buy is listed in Canadian dollars. You need one if you will hold US-listed securities and you do not want a conversion fee on every order. As of September 2026, Wealthsimple lists USD accounts at $10 a month for Core clients, included for Premium and Generation. Questrade lists dual-currency accounts at no extra account fee.</p>
+    <p>Not if every fund you buy is listed in Canadian dollars. You need one if you will hold US-listed securities and you do not want a conversion fee on every order. As of October 23, 2026, Wealthsimple's fee schedule lists the USD account at $10 a month plus tax for Core clients, and its pricing page lists USD accounts as complimentary for Premium. Check Questrade's account pages for its USD terms. Its fee page lists a 1.5% currency conversion.</p>
 
     <h3>Is a robo-advisor cheaper than an all-in-one ETF?</h3>
-    <p>Usually no, once you add the management fee to the ETFs inside the robo portfolio. Questwealth's 0.25% is already more than XEQT's 0.19% MER before those underlying ETFs. You are paying for someone else to choose and rebalance. That can be worth it. It is not a lower product fee.</p>
+    <p>Usually no, once you add the management fee to the ETFs inside the robo portfolio. Questwealth's 0.25% is already more than XEQT's 0.19% MER, before you add the underlying ETFs. You are paying for someone else to choose and rebalance. That can be worth it. It is not a lower product fee.</p>
 
     <h3>Where do I confirm these numbers?</h3>
-    <p>CRA for the TFSA limit and your room. The ETF facts sheet for the MER and the holdings. The broker's fee schedule for commissions and FX. The Canada-US tax convention for the 15% dividend rate and the pension exemption. A blog, including this one, is a map dated September 2026.</p>
+    <p>CRA for the TFSA limit and your room. The ETF facts sheet for the MER and the holdings. The broker's fee schedule for commissions and FX. The Canada-US tax convention for the 15% dividend rate and the pension exemption. A blog, including this one, is a map. This one was last checked on October 23, 2026.</p>
 
     <h2>Sources</h2>
     <ul>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html">CRA: TFSA dollar limit and contribution room</a></li>
         <li><a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Canada-US tax convention (Finance Canada, consolidated)</a></li>
-        <li><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio">iShares XEQT</a> and the <a href="https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio">Vanguard VEQT</a> page</li>
-        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing</a> and <a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">Questrade transaction fees</a></li>
+        <li><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio">iShares XEQT</a> (fees and calendar returns), reviewed October 23, 2026</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing</a>, <a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">Wealthsimple fee schedule</a>, and <a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">Questrade transaction fees</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.questrade.com/questwealth-portfolios">Questwealth Portfolios fees</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: TFSA and RRSP limits by year</a>, reviewed October 23, 2026</li>
     </ul>
 
     <div class="cta-section">
@@ -226,10 +278,12 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer('September 27, 2026')}
+    ${footer('September 27, 2026 | Updated: October 23, 2026', 'October 2026')}
 
 </div>`
   ),
+    updated: '2026-10-23',
+  },
 
   {
     ...investingPost(
@@ -1724,6 +1778,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     updated: '2026-10-03',
   },
   ...oct2026InvestingPosts,
+  ...investing2026Posts,
 ];
 
 /**
