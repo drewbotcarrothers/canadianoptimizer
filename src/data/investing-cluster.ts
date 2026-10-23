@@ -1240,7 +1240,8 @@ const investingClusterPostsRaw: InvestingPost[] = [
 </div>`
   ),
 
-  investingPost(
+  {
+    ...investingPost(
     'best-robo-advisors-canada',
     'Best Robo-Advisors in Canada (2026): Wealthsimple, Questwealth, Justwealth and More',
     'As of September 2026, Questwealth charges 0.25% up to $100,000 and 0.20% after. Wealthsimple managed is 0.5% at Core and 0.4% at Premium, on top of ETF fees.',
@@ -1250,123 +1251,191 @@ const investingClusterPostsRaw: InvestingPost[] = [
         As of September 2026, the cheapest published management fee among the large Canadian robos is Questwealth: <span class="highlight">0.25% from $250 to $99,999, and 0.20% from $100,000</span>. Wealthsimple lists 0.5% for Core managed accounts and 0.4% for Premium. Those fees sit on top of the ETFs. An all-in-one ETF you buy yourself can be cheaper. The robo is worth it when you will not choose or fund the ETF yourself.
     </div>
 
-    <p>This roundup is under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. Self-directed pricing at the same two firms is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>. The product you are paying the robo not to pick is often <a href="/blog/xeqt-vs-veqt-canada/">XEQT or VEQT</a>. There are no affiliate or referral links on this page.</p>
+    <p>Questwealth has the lowest headline fee among the large Canadian robo-advisors: 0.25%, falling to 0.20% from $100,000, per Questrade's pricing page reviewed October 2026. Wealthsimple managed charges 0.4% to 0.5%, Justwealth 0.50%, and RBC InvestEase 0.5% plus sales tax. The ETFs' own costs come on top of all of them.</p>
 
     <div class="callout">
-        <strong>Key takeaways:</strong>
+        <strong>Key takeaways (updated October 23, 2026):</strong>
         <ul>
-            <li>Questwealth's management fee is 0.25% or 0.20% by balance. It is not the MER of the ETFs inside the portfolio. Those are extra.</li>
-            <li>Wealthsimple managed: 0.5% Core, 0.4% Premium. Generation runs from 0.4% at $500,000 to 0.2% at $10 million. Confirm which band you are actually in.</li>
-            <li>Justwealth's own illustration uses a 0.50% management fee plus an average 0.20% ETF fee. CIPF coverage of $1,000,000 is stated for its custodian, CI Investment Services.</li>
-            <li>RBC InvestEase lists 0.50% plus sales tax, billed monthly, plus a weighted ETF MER it describes as 0.12% to 0.25% on one page and 0.11% to 0.23% on another. Read the page the day you open the account.</li>
-            <li>On $100,000, Questwealth's 0.25% is $250 before ETF MERs. XEQT's 0.19% MER is $190 all-in. The gap is the price of being managed.</li>
+            <li>Questwealth: 0.25% on $250 to $99,999, and 0.20% from $100,000. ETF MERs are extra.</li>
+            <li>Wealthsimple managed: 0.5% at Core, 0.4% at Premium ($100,000 in assets), and 0.2% to 0.4% at Generation ($500,000). Wealthsimple's fee schedule also lists Automated Investing at 0.25%, capped at $250 a year per account.</li>
+            <li>Justwealth: 0.50%, with a $4.99 monthly minimum fee and a $5,000 minimum account, except RESP, FHSA and RDSP accounts. Its own example adds about 0.20% in ETF fees.</li>
+            <li>RBC InvestEase: 0.5% plus applicable sales tax, with weighted ETF MERs of 0.12% to 0.20% (Core) or 0.17% to 0.25% (Responsible Investing).</li>
+            <li>On $100,000, the service fee ranges from $200 (Questwealth) to $500 (RBC, before tax). XEQT's 0.19% MER is $190 all-in. The gap is the price of being managed.</li>
         </ul>
     </div>
 
+    <p>This roundup is part of <a href="/category/investing/hands-off/">Hands-Off Investing</a>, in the <a href="/category/investing/">Investing</a> category. If you are still deciding between a robo, an advisor and a planner, start with <a href="/blog/robo-advisor-vs-financial-advisor-canada/">robo-advisor versus financial advisor</a>. The product you would otherwise buy yourself is often <a href="/blog/xeqt-vs-veqt-canada/">XEQT or VEQT</a>; see <a href="/blog/model-etf-portfolios-canada/">model ETF portfolios by risk level</a>. There are no affiliate or referral links on this page.</p>
+
+    <nav aria-label="On this page">
+        <ul>
+            <li><a href="#fees">What do the robos charge?</a></li>
+            <li><a href="#dollars">What does that cost in dollars?</a></li>
+            <li><a href="#features">How do they differ beyond the fee?</a></li>
+            <li><a href="#choose">Which robo fits you?</a></li>
+            <li><a href="#examples">What does it cost for real households?</a></li>
+            <li><a href="#transfer">What should you check before you transfer?</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
     <div class="tip-box">
         <strong>Choose a robo if…</strong> you will not rebalance, you want automatic contributions, and the management fee is smaller than the cost of doing nothing.
-        <p><strong>Choose an all-in-one ETF if…</strong> you can buy one fund a year and leave it. The MER is the product fee. There is no second management layer.</p>
+        <p><strong>Choose an all-in-one ETF if…</strong> you can buy one fund regularly and leave it. The MER is the whole fee. There is no second management layer.</p>
     </div>
 
-    <h2>What do the firms publish?</h2>
+    <h2 id="fees">What do the robos charge?</h2>
 
-    <table>
-        <caption>Management fees on Canadian robo portfolios, issuer pages, September 2026</caption>
-        <thead>
-            <tr>
-                <th>Firm</th>
-                <th>Management fee</th>
-                <th>On top of that</th>
-                <th>A detail that changes the fit</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Questwealth (Questrade Wealth Management)</td>
-                <td>0.25% on $250 to $99,999. 0.20% at $100,000 and above.</td>
-                <td>The ETFs' own MERs. The marketing page does not publish one blended number. Read the portfolio facts.</td>
-                <td>Questwealth says portfolios are actively managed. That is a different promise from a static 80/20 ETF. Questrade Inc. is a CIPF member. The page says Questrade Wealth Management is not.</td>
-            </tr>
-            <tr>
-                <td>Wealthsimple managed</td>
-                <td>0.5% Core. 0.4% Premium. Generation 0.2% to 0.4%, from 0.4% at $500,000 to 0.2% at $10,000,000.</td>
-                <td>ETF MERs inside the portfolio. Not stated as a single figure on the pricing page reviewed.</td>
-                <td>Premium on that page is the $100,000 relationship tier and includes USD accounts for self-directed trading. The managed fee and the trade fee are different products.</td>
-            </tr>
-            <tr>
-                <td>Justwealth</td>
-                <td>0.50% in the firm's own $100,000 illustration.</td>
-                <td>Justwealth describes an average additional 0.20% in ETF management fees, for a 0.70% combined figure in that example.</td>
-                <td>The firm says it does not earn sales commissions. It also says accounts are CIPF-protected up to $1,000,000 through CI Investment Services. Higher-balance tiers, if any, belong on the current fee schedule. This page does not invent one.</td>
-            </tr>
-            <tr>
-                <td>RBC InvestEase</td>
-                <td>0.50% plus applicable sales tax, billed monthly on average assets.</td>
-                <td>Weighted-average ETF MER. The pricing page says 0.12% to 0.25%. A separate RBC article says 0.11% to 0.23%.</td>
-                <td>Invested once the balance is $100 or more. From $100 to $1,499, RBC uses a Starter Portfolio because it does not buy fractional shares. Above $1,500 it moves you to the broader portfolio.</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="table-wrapper">
+        <table>
+            <caption>Published robo-advisor management fees, from each provider's pricing page, reviewed October 23, 2026</caption>
+            <thead>
+                <tr><th>Service</th><th>Management fee</th><th>On top of that</th><th>Detail that changes the fit</th></tr>
+            </thead>
+            <tbody>
+                <tr class="highlight-row"><td><a href="https://www.questrade.com/questwealth-portfolios">Questwealth Portfolios</a></td><td>0.25% on $250–$99,999; 0.20% from $100,000</td><td>The ETFs' MERs</td><td>Questrade describes the portfolios as actively managed, which is a different promise from a fixed 80/20 fund</td></tr>
+                <tr><td><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple managed</a></td><td>Core 0.5%; Premium 0.4%; Generation 0.2%–0.4%</td><td>The ETFs' MERs</td><td>Your tier depends on total assets at Wealthsimple ($100,000 for Premium, $500,000 for Generation). The 0.2% rate has conditions in Wealthsimple's FAQ</td></tr>
+                <tr><td><a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">Wealthsimple Automated Investing</a></td><td>0.25%, capped at $250 a year per account</td><td>The ETFs' MERs</td><td>Listed on Wealthsimple's fee schedule for trade accounts; the cap matters on large balances</td></tr>
+                <tr><td><a href="https://www.justwealth.com/pricing/">Justwealth</a></td><td>0.50%; minimum $4.99 a month</td><td>About 0.20% in ETF fees, in Justwealth's own $100,000 example</td><td>$5,000 minimum except RESP, FHSA and RDSP. The fee covers trading, custody and annual account fees</td></tr>
+                <tr><td><a href="https://www.rbcinvestease.com/pricing-fees.html">RBC InvestEase</a></td><td>0.5% plus applicable sales tax</td><td>Weighted ETF MERs: 0.12%–0.20% Core; 0.17%–0.25% Responsible Investing</td><td>RBC's page compares this with 1% to 2% for an advisor elsewhere</td></tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>Table as of September 2026. Bank robos not in the table exist. If a fee was not on the firm's own page when this was written, it is not guessed here. How a percent compounds once it is real is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>.</p>
+    <p>Bank-owned robos not in the table exist. If a fee was not on the firm's own page on the review date, it is not guessed here. How a percentage compounds over decades is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>.</p>
 
-    <h2>What does the fee cost next to an all-in-one ETF?</h2>
+    <h2 id="dollars">What does that cost in dollars?</h2>
 
-    <div class="example-box">
-        <strong>Illustration: $100,000, one year, balance unchanged</strong>
-        <p>Questwealth at 0.25% is $250, and the ETFs inside still charge their MERs. Wealthsimple Core at 0.5% is $500, plus those ETFs. Justwealth's illustration is 0.50% plus 0.20%, which is $700 on $100,000. RBC InvestEase at 0.50% is $500, plus sales tax, plus a weighted MER. If that MER is 0.20%, add $200, and the management fee's sales tax is extra because RBC states the 0.50% before tax. XEQT's reported MER of 0.19% is $190, and that is the fund's cost, not a second advisory fee. The robo is not cheaper. It is a service. On $100,000 the service costs a few hundred dollars a year before the ETFs. If that is what gets the money invested, it can be the right purchase. If you already buy one ETF, you are paying for a job you do.</p>
+    <div class="chart-container">
+        <h3>Annual management fee on $100,000, before ETF costs (calculated from published schedules)</h3>
+        <div class="bar-chart">
+            <div class="bar-item"><div class="bar-label wide">XEQT MER (all-in): $190</div><div class="bar-wrapper"><div class="bar" style="width: 38%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Questwealth: $200</div><div class="bar-wrapper"><div class="bar" style="width: 40%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">WS Automated: $250</div><div class="bar-wrapper"><div class="bar" style="width: 50%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">WS Premium</div><div class="bar-wrapper"><div class="bar" style="width: 80%;"><span>$400</span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Justwealth</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$500</span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">RBC InvestEase</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$500 + tax</span></div></div></div>
+        </div>
+        <p>Fee × $100,000, from the pages in the table above, reviewed October 23, 2026. The XEQT bar is the fund's 0.19% MER from BlackRock, with no extra service fee. Every robo bar excludes the ETFs' own MERs, which add roughly another 0.1% to 0.25%.</p>
     </div>
 
     <div class="example-box">
-        <strong>Illustration: $40,000 at two firms</strong>
-        <p>Nadia has $40,000 and will add $500 a month. She will not log in to rebalance. Questwealth's 0.25% on $40,000 is $100 a year before ETF MERs and before the new contributions. Wealthsimple Core's 0.5% is $200 on the same starting balance. RBC's 0.50% is also $200, plus tax, and she is above the $1,500 starter threshold. The dollar gap between 0.25% and 0.50% is $100 a year at this balance. It grows as the account grows. At $100,000 the same 0.25-point gap is $250 a year, and Questwealth's rate steps down to 0.20% while Wealthsimple Premium steps to 0.4%. Run the schedule you will actually be on. This is arithmetic, not a ranking of returns, and not a statement that the cheaper fee wins after tax or after behaviour.</p>
+        <strong>Illustration: $100,000 for one year, balance unchanged</strong>
+        <div class="example-calculation">
+            <div class="line"><span>Questwealth: 0.20% fee + ETF MERs</span><span>$200 + ETFs</span></div>
+            <div class="line"><span>Wealthsimple Premium: 0.4% + ETF MERs</span><span>$400 + ETFs</span></div>
+            <div class="line"><span>Justwealth: 0.50% + about 0.20% ETFs (its own example)</span><span>about $700</span></div>
+            <div class="line"><span>RBC InvestEase: 0.5% + tax + 0.12%–0.20% (Core)</span><span>$620–$700 + tax</span></div>
+            <div class="line total"><span>XEQT bought yourself: 0.19% MER</span><span>$190</span></div>
+        </div>
+        <p>A robo is not cheaper than buying one ETF yourself. It is a service: the questionnaire, rebalancing, automatic deposits and someone to call. On $100,000 that service costs a few hundred dollars a year. If it is what gets the money invested and keeps you invested, it can be worth it.</p>
     </div>
 
-    <h2>What else should you check before you transfer?</h2>
+    <h2 id="features">How do they differ beyond the fee?</h2>
 
-    <p>Account types differ. Questwealth's page lists RRSP, TFSA, FHSA, RESP, and non-registered. Confirm LIRA, RRIF, and spousal accounts on the application, not on a blog. A transfer is not a withdrawal. Pulling a TFSA to chequing and "putting it back" uses room. The <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> is that mistake. The portfolio the robo builds may hold Canadian-listed ETFs that wrap US funds. You do not get an RRSP treaty exemption by accident. The test is <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>.</p>
+    <div class="table-wrapper">
+        <table>
+            <caption>Minimums, account types and custody, from provider pages, reviewed October 23, 2026</caption>
+            <thead>
+                <tr><th>Service</th><th>Minimum</th><th>Accounts named on the page</th><th>Custody and CIPF</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Questwealth</td><td>Fee schedule starts at $250</td><td>RRSP, TFSA, FHSA, RESP</td><td>Questrade, Inc. provides custody and is a CIPF member; Questrade Wealth Management, the portfolio manager, is not</td></tr>
+                <tr><td>Wealthsimple managed</td><td>Core tier starts at $1 in assets</td><td>Confirm on the application</td><td>Confirm on Wealthsimple's site for the account you open</td></tr>
+                <tr><td>Justwealth</td><td>$5,000, except RESP, FHSA and RDSP</td><td>Includes RESP, FHSA and RDSP</td><td>Custodian CI Investment Services Inc. is a CIPF member; Justwealth says assets are protected up to $1 million</td></tr>
+                <tr><td>RBC InvestEase</td><td>Confirm on RBC's page</td><td>Confirm on RBC's page</td><td>Confirm on RBC's page</td></tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>CIPF is not a performance guarantee. Justwealth states $1,000,000 through its custodian. Questrade's journaling page says Questrade Inc. is a CIPF member and that Questwealth's manager is not a CIPF member; custody and execution are described as Questrade Inc.'s job. Read <a href="https://www.cipf.ca/">cipf.ca</a> for the limit that applies to the dealer that actually holds the securities. A lower fee at a firm you do not understand is not a free reduction.</p>
+    <p>CIPF protects against the failure of a member firm, not against market losses. Check <a href="https://www.cipf.ca/">cipf.ca</a> for the coverage that applies to the dealer that actually holds your investments.</p>
 
-    <h2>Frequently asked questions</h2>
+    <h2 id="choose">Which robo fits you?</h2>
+
+    <div class="flowchart">
+        <div class="flow-node decision">Would you buy one all-in-one ETF and leave it alone?</div>
+        <div class="flow-arrow"></div>
+        <div class="flow-branch-container">
+            <div class="flow-node result">Yes: you may not need a robo. See model ETF portfolios</div>
+            <div class="flow-node decision">No: is the lowest fee your main goal?</div>
+        </div>
+        <div class="flow-arrow"></div>
+        <div class="flow-branch-container">
+            <div class="flow-node result">Yes: compare Questwealth and Wealthsimple Automated Investing</div>
+            <div class="flow-node result">No: weigh planning help, RESP or RDSP support, or banking with RBC against a 0.4%–0.5% fee</div>
+        </div>
+    </div>
+
+    <h2 id="examples">What does it cost for real households?</h2>
+
+    <div class="example-box">
+        <strong>Illustration: Nadia, $40,000, adding $500 a month</strong>
+        <p>Nadia will not log in to rebalance. Questwealth's 0.25% on $40,000 is $100 a year before ETF MERs. Wealthsimple Core's 0.5% is $200. RBC InvestEase's 0.5% is also $200, plus tax. The gap between 0.25% and 0.5% is $100 a year now and grows as she saves. At $100,000, Questwealth steps down to 0.20% and Wealthsimple to 0.4% at Premium. Run the schedule you will actually be on.</p>
+    </div>
+
+    <div class="example-box">
+        <strong>Illustration: a family RESP</strong>
+        <p>A family with a $3,000 RESP wants it invested automatically. Justwealth has no account minimum for RESPs, but a $2.50 monthly minimum fee for RESP, FHSA and RDSP accounts, which is $30 a year, or 1% of $3,000. As the RESP grows past $6,000, the 0.50% rate becomes the larger charge. Small balances make minimum fees matter.</p>
+    </div>
+
+    <h2 id="transfer">What should you check before you transfer?</h2>
+
+    <p>A transfer is not a withdrawal. Taking money out of a TFSA and "putting it back" uses contribution room; the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a> covers that mistake. Use a direct transfer between institutions. Ask whether your current firm charges a transfer-out fee, and whether any funds you hold still have deferred sales charges.</p>
+
+    <p>Robo portfolios usually hold Canadian-listed ETFs. Those that hold US stocks pay US withholding tax on dividends inside the fund, and an RRSP does not avoid it in that structure. See <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>. Province does not change robo fees, but sales tax on the fee, where a firm adds it, depends on where you live. From 2027, your annual <a href="/blog/total-cost-reporting-canada/">total cost report</a> will show what the robo and its ETFs cost you, in dollars.</p>
+
+    <h2 id="faq">Frequently asked questions</h2>
 
     <h3>What is the best robo-advisor in Canada in 2026?</h3>
-    <p>On the published management fee, Questwealth is the lowest of the four firms in the table, at 0.25% and then 0.20%. ETF MERs sit on top, and the fee is not a return. Wealthsimple fits if your tier drops the charge. Justwealth fits if you want the advisor relationship its site describes. RBC InvestEase fits if you want the bank and accept 0.50% plus tax.</p>
+    <p>On published management fees, Questwealth is lowest of the full-service robos in the table, at 0.25% and then 0.20%. Wealthsimple fits if its tiers lower your fee. Justwealth fits if you want RESP or RDSP support or its planning service. RBC InvestEase fits if you want to stay with RBC.</p>
 
     <h3>Are robo fees tax deductible?</h3>
-    <p>Fees charged to manage investments can be deductible in a non-registered account in some cases, and they are not a deduction inside a TFSA. RRSP fees paid inside the plan are not a personal deduction either. This page will not give you a line number to claim. Confirm with the slip and with CRA's rules for carrying charges. The tax guide on this site is the filing companion, not a receipt.</p>
+    <p>Fees for managing investments in a non-registered account can be deductible in some cases. Fees in a TFSA or RRSP are not a personal deduction. Check the CRA's rules for carrying charges or ask a tax professional before claiming.</p>
 
     <h3>Is a robo safer than buying XEQT?</h3>
-    <p>Safer is the wrong word. Both can hold equity that falls. A robo can put you in a portfolio with bonds if that is what the questionnaire produces. XEQT is 100% equity unless you choose XGRO or another step on the ladder. The risk is the mix. The fee is what you pay someone to maintain it. Read <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a> before you pay 0.5% to own a fund you could buy for under 0.2%.</p>
+    <p>"Safer" is the wrong question. Both hold investments that can fall. The risk comes from the stock-and-bond mix; a robo's questionnaire might put you in a mix with bonds, while XEQT is all stocks. The fee is what you pay someone to choose and maintain the mix.</p>
 
-    <h3>Does Questwealth's "up to 50% wealthier" claim belong in the decision?</h3>
-    <p>No. Questrade's own footnote says the claim is a hypothetical comparison of its fees with average mutual-fund MERs over long periods, and that it excludes the conservative portfolio. It is not a forecast that you will be 50% wealthier than a neighbour who bought VGRO. Ignore the slogan. Use the fee table.</p>
+    <h3>What is the minimum to open a robo account?</h3>
+    <p>Questwealth's fee schedule starts at $250. Justwealth requires $5,000, except RESP, FHSA and RDSP accounts. Wealthsimple's Core tier starts at $1 in assets. Confirm the current minimum on the application.</p>
 
-    <h3>What is the minimum?</h3>
-    <p>Questwealth's fee line starts at $250. RBC InvestEase says money is invested once you reach $100, with a simpler portfolio until $1,500. Wealthsimple's pricing page reviewed for this article did not state a managed minimum in the fee table, so this page does not invent one. Justwealth's homepage illustration uses $100,000 and does not, on that page, state an account minimum. Confirm the application.</p>
+    <h3>Do robo-advisors include ETF fees in their fee?</h3>
+    <p>No. Every robo in the table charges its management fee on top of the ETFs' own MERs. RBC InvestEase publishes a weighted MER range; Justwealth's example uses about 0.20%.</p>
 
     <h3>Should I use a robo for a TFSA and a discount broker for an RRSP?</h3>
-    <p>You can. You will then have two mixes to add up, and two sets of fees. If both accounts hold the same all-in-one ETF, the robo is an expensive way to own the fund you already buy. If the RRSP is where US-listed ETFs go, the self-directed account is doing a job the robo may not offer. Write that down before you split the household.</p>
+    <p>You can, but you then have two mixes and two fee schedules to track. If both accounts would hold the same all-in-one ETF, the robo is an expensive way to own it.</p>
+
+    <h3>Will I see my robo's total cost on my statement?</h3>
+    <p>From the 2026 reporting year, Canadian dealers must show fund costs in dollars on the annual report, so you will see the management fee and the ETFs' costs together.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.questrade.com/questwealth-portfolios">Questwealth Portfolios fees</a></li>
-        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing, managed investing</a></li>
-        <li><a href="https://www.justwealth.com/">Justwealth fee illustration and CIPF statement</a></li>
-        <li><a href="https://www.rbcinvestease.com/pricing-fees.html">RBC InvestEase pricing</a> and <a href="https://www.rbcinvestease.com/how-it-works.html">how it works</a></li>
-        <li><a href="https://www.blackrock.com/ca/investors/en/literature/fact-sheet/xeqt-ishares-core-equity-etf-portfolio-fund-fact-sheet-en-ca.pdf">XEQT fact sheet, for the DIY comparison MER</a></li>
+        <li><a href="https://www.questrade.com/questwealth-portfolios">Questrade: Questwealth Portfolios</a> (fees, account types, CIPF disclosure), reviewed October 23, 2026</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple: pricing</a> and <a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">fee schedule for trade accounts</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.justwealth.com/pricing/">Justwealth: pricing</a> and <a href="https://www.justwealth.com/faqs/">FAQs</a> (CIPF and custodian), reviewed October 23, 2026</li>
+        <li><a href="https://www.rbcinvestease.com/pricing-fees.html">RBC InvestEase: pricing</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio">BlackRock: XEQT</a> (MER 0.19%), reviewed October 23, 2026</li>
+    </ul>
+
+    <h2>Related reading</h2>
+    <ul>
+        <li><a href="/blog/robo-advisor-vs-financial-advisor-canada/">Robo-advisor vs financial advisor</a></li>
+        <li><a href="/blog/model-etf-portfolios-canada/">Model ETF portfolios by risk level</a></li>
+        <li><a href="/blog/total-cost-reporting-canada/">Total cost reporting in Canada</a></li>
+        <li><a href="/blog/wealthsimple-vs-questrade/">Wealthsimple vs Questrade</a></li>
+        <li><a href="/blog/all-in-one-etfs-vs-diy-canada/">All-in-one ETFs vs DIY</a></li>
     </ul>
 
     <div class="cta-section">
-        <p><strong>The management fee is certain. The extra return is not.</strong></p>
-        <p>Pay for a service you will use. Then get the account and the deduction right. The 2026 tax guide is that half.</p>
-        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+        <p><strong>Not sure a robo is enough?</strong></p>
+        <p>Compare a robo-advisor with a full-service advisor and a fee-only planner on cost and services.</p>
+        <a href="/blog/robo-advisor-vs-financial-advisor-canada/" class="cta-button">Robo-advisor vs financial advisor</a>
     </div>
 
-    ${footer('September 27, 2026')}
+    ${footer('September 27, 2026 | Updated: October 23, 2026', 'October 2026')}
 
 </div>`
   ),
+    updated: '2026-10-23',
+  },
   {
     ...investingPost(
       'adjusted-cost-base-canada-guide',
