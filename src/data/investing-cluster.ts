@@ -40,9 +40,9 @@ function investingPost(
   };
 }
 
-const footer = (published: string, asOf = 'September 2026') => `<div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about investing in Canada as of ${asOf}. It is not a recommendation to buy, sell, or hold any security, and not investment, tax, or legal advice. Management fees, MERs, commissions, foreign-exchange spreads, and withholding rules change. Figures are tied to issuer, broker, CRA, or treaty pages reviewed in ${asOf}; confirm them before you act. Dollar examples are illustrations of arithmetic, not forecasts of return. Consult a registered adviser for a plan that fits your file.</p>
-        <div class="footer-note">Published: ${published} | Category: Investing | Author: Andrew</div>
+const footer = (published: string, asOf = 'September 2026', updated?: string) => `<div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about investing in Canada as of ${asOf}. It is not a recommendation to buy, sell, or hold any security, and not investment, tax, or legal advice. Management fees, MERs, commissions, foreign-exchange spreads, and withholding rules change. ${updated ? `Figures are from issuer, broker, CRA, IRS or treaty pages reviewed ${updated}` : `Figures are tied to issuer, broker, CRA, or treaty pages reviewed in ${asOf}`}; confirm them before you act. Dollar examples are illustrations of arithmetic, not forecasts of return. Consult a registered adviser for a plan that fits your file.</p>
+        <div class="footer-note">Published: ${published}${updated ? ` | Updated: ${updated}` : ''} | Category: Investing | Author: Andrew</div>
     </div>`;
 
 const investingClusterPostsRaw: InvestingPost[] = [
@@ -984,127 +984,386 @@ const investingClusterPostsRaw: InvestingPost[] = [
 </div>`
   ),
 
-  investingPost(
+  {
+    ...investingPost(
     'vfv-vs-voo-canadians',
     'VFV vs XUS vs VOO: Holding the S&P 500 as a Canadian',
-    'VFV holds the US-listed Vanguard S&P 500 ETF and charges a 0.08% MER. VOO charges 0.03%. In an RRSP, only the US-listed fund gets the treaty exemption.',
+    'VFV and XUS both hold a US-listed S&P 500 ETF. VOO costs 0.03%. Fees checked on October 23, 2026, plus the RRSP versus TFSA withholding math.',
     `<div class="container">
 
     <div class="hook">
         VFV is the Canadian-listed way to own the S&amp;P 500. Vanguard says it invests primarily in the US-domiciled Vanguard S&amp;P 500 ETF, and its MER is <span class="highlight">0.08%</span>. VOO, that US-listed fund, lists a 0.03% expense ratio. XUS lists a 0.09% MER and a 0.08% management fee. In a TFSA, buy the Canadian ticker and skip the currency conversion. In an RRSP, the treaty exemption applies to VOO held directly, not to the Canadian wrapper.
     </div>
 
-    <p>This comparison is under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. The account matrix is <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>. Getting the Canadian dollars into US dollars, if you choose VOO, is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a> or the broker's own conversion. A global all-in-one is a different product. That comparison is <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>.</p>
+    <p>Is VFV the same as VOO? Almost. VFV is a Canadian-dollar ETF that holds VOO, so you get the same 500 companies for 0.08% instead of 0.03%. The difference that matters is the account: in an RRSP, VOO held directly avoids the 15% US withholding tax on dividends; in a TFSA, nothing avoids it.</p>
+
+    <p>A management expense ratio (MER) is the fund's yearly cost as a percentage of assets. Withholding tax is the share of a US dividend kept before the rest is paid. Figures below were read on Vanguard, BlackRock, broker, Canada Revenue Agency (CRA), IRS, and Finance Canada pages on October 23, 2026. This comparison is part of <a href="/category/investing/passive-etf/">Passive ETF Investing</a>, in the <a href="/category/investing/">Investing</a> category, under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. The account matrix is <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>. Moving into US dollars, if you choose VOO, is <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a> or the broker's conversion. A global all-in-one is a different product: <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>VFV: management fee 0.08%, MER 0.08%, 12-month yield 0.84% as of 31 August 2026. It holds the US-domiciled S&amp;P 500 ETF. Vanguard says the management fee is reduced so you do not pay the underlying fee twice.</li>
-            <li>VOO: total annual fund operating expenses 0.03% in the prospectus (management fees 0.02%, other expenses 0.01%).</li>
-            <li>XUS: management fee 0.08% since 12 January 2023, MER 0.09%. Open the holdings before you assume it is, or is not, a wrapper around a US-listed iShares ETF.</li>
-            <li>Article X caps portfolio dividends at 15%. Article XXI can exempt an RRSP when the plan holds the US security directly.</li>
-            <li>A 1.5% currency conversion on the way into VOO can exceed many years of the MER gap.</li>
+            <li>VFV: management fee 0.08%, MER 0.08%, trading expense ratio 0.00%, yield 0.84% as at September 30, 2026. It holds the U.S.-domiciled Vanguard S&amp;P 500 ETF.</li>
+            <li>VOO: expense ratio 0.03% as of April 28, 2026.</li>
+            <li>XUS: management fee 0.08% (reduced from 0.09% effective January 12, 2023), MER 0.09%. On October 22, 2026 it held IVV at 99.94%, plus 0.06% cash. Withholding matches VFV.</li>
+            <li>With a W-8BEN, Article X caps portfolio dividends at 15% (30% without one). Article XXI can exempt an RRSP or RRIF that holds the US security directly. A TFSA, RESP, or FHSA is not covered.</li>
+            <li>On an illustrative $100,000, a 1.5% conversion is $1,500. That is about 8.5 years of the RRSP saving versus VFV, and 30 years of the TFSA fee gap.</li>
         </ul>
     </div>
 
+    <nav aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#posted-costs">What are the posted costs?</a></li>
+            <li><a href="#which-account">Which account should hold VFV, XUS or VOO?</a></li>
+            <li><a href="#wrapper-cost">How much does the wrapper cost on $100,000?</a></li>
+            <li><a href="#where-sit">Where should the S&amp;P 500 sit?</a></li>
+            <li><a href="#mistakes">What mistakes do Canadians make with VFV and VOO?</a></li>
+            <li><a href="#questions">Frequently asked questions</a></li>
+        </ul>
+    </nav>
+
     <div class="tip-box">
         <strong>Choose VFV if…</strong> the account is a TFSA, or you want Canadian dollars and you will not maintain a US-dollar side.
-        <p><strong>Choose VOO if…</strong> the account is an RRSP or RRIF, you can hold USD, and the dividend exemption is the point. <strong>Choose XUS if…</strong> you want iShares rather than Vanguard and you have checked whether the holding is the stocks or a US-listed ETF. The MER difference versus VFV is 0.01 percentage point on the pages reviewed.</p>
+        <p><strong>Choose VOO if…</strong> the account is an RRSP or RRIF, you can hold US dollars, and the dividend exemption is the point. <strong>Choose XUS if…</strong> you want the iShares twin of VFV (it holds IVV), at 0.01 point more MER. Pick it if you prefer iShares or semi-annual distributions.</p>
     </div>
 
-    <h2>What are the posted costs?</h2>
+    <h2 id="posted-costs">What are the posted costs?</h2>
 
-    <table>
-        <caption>S&amp;P 500 funds Canadians actually compare, as of September 2026</caption>
-        <thead>
-            <tr>
-                <th></th>
-                <th>VFV</th>
-                <th>XUS</th>
-                <th>VOO</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Listing</td>
-                <td>Toronto, Canadian dollars</td>
-                <td>Toronto. CAD units, and BlackRock also lists USD units as XUS.U</td>
-                <td>United States, US dollars</td>
-            </tr>
-            <tr>
-                <td>What it owns</td>
-                <td>Vanguard says it invests primarily in the US-domiciled Vanguard S&amp;P 500 ETF</td>
-                <td>Seeks the S&amp;P 500 net of expenses, by holding iShares ETFs and/or US stocks. Confirm the current holdings list.</td>
-                <td>The S&amp;P 500 stocks themselves. Expense ratio 0.03%.</td>
-            </tr>
-            <tr>
-                <td>Fee</td>
-                <td>MER 0.08%. Management fee 0.08%.</td>
-                <td>MER 0.09%. Management fee 0.08%.</td>
-                <td>0.03% total annual operating expenses.</td>
-            </tr>
-            <tr>
-                <td>RRSP treaty exemption on the dividend</td>
-                <td>No. The US payer sees the US fund VFV owns, not your RRSP.</td>
-                <td>Only if the fund's withholding is taken at a level your RRSP can stand in front of. A US-listed ETF inside XUS is the VFV problem. Direct stocks inside a Canadian fund are still withheld at the fund. Read the holdings.</td>
-                <td>Yes, if the RRSP or RRIF is the beneficial owner and the broker has the paperwork. Article XXI.</td>
-            </tr>
-            <tr>
-                <td>TFSA</td>
-                <td>Simple. Withholding inside the US fund is not recoverable. There was no exemption to recover.</td>
-                <td>Same account result. Confirm the product fee, not a myth about a Canadian ticker.</td>
-                <td>You pay to convert currency, and the 15% is still not creditable.</td>
-            </tr>
-        </tbody>
-    </table>
+    <p>Reviewed October 23, 2026, VFV costs 0.08% a year, XUS costs 0.09%, and VOO costs 0.03%. VFV and XUS own a US-listed S&amp;P 500 ETF. VOO is that Vanguard fund, held in your account. The fee gap is real. The account decides whether it matters.</p>
 
-    <p>VFV's benchmark on the Vanguard page is labelled "S&amp;P 500 (CAD NY Rate) NTR 15%." That label is the net-of-15% index, which matches the treaty rate on portfolio dividends. It is not a promise that your personal rate is 15%. Without a W-8BEN, the IRS instructions say withholding is 30%.</p>
+    <p>Vanguard Canada's <a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf">VFV page</a> lists a 0.08% management fee, a 0.08% MER, and a 0.00% trading expense ratio. The 12-month trailing yield is 0.84% as at September 30, 2026. Total assets are $36.20 billion. VFV started on November 2, 2012, pays quarterly, and is not currency hedged. Vanguard says it "invests primarily in the U.S.-domiciled Vanguard S&amp;P 500 ETF."</p>
 
-    <h2>What does the wrapper cost in tax?</h2>
+    <p><a href="https://investor.vanguard.com/investment-products/etfs/profile/voo">VOO</a> lists a 0.03% expense ratio as of April 28, 2026, in US dollars on NYSE Arca. BlackRock's <a href="https://www.blackrock.com/ca/investors/en/products/251422/ishares-sp-500-index-etf">XUS page</a> lists a 0.08% management fee, reduced from 0.09% effective January 12, 2023, and a 0.09% MER. Net assets are about $13.7 billion as of October 22, 2026. Distributions are semi-annual. The holdings file of that date shows <a href="https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf">IVV</a> at 99.94% of XUS, plus 0.06% cash. IVV's expense ratio is 0.03%. XUS is a Canadian wrapper around a US-listed ETF, like VFV, with the same withholding result. This page does not cite an XUS yield.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>S&amp;P 500 funds Canadians compare, issuer pages reviewed October 23, 2026</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>VFV</th>
+                    <th>XUS</th>
+                    <th>VOO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Listing</td>
+                    <td>TSX, Canadian dollars. Not currency hedged. Started November 2, 2012.</td>
+                    <td>TSX, Canadian dollars. XSP is the CAD-hedged version.</td>
+                    <td>NYSE Arca, US dollars.</td>
+                </tr>
+                <tr>
+                    <td>What it owns</td>
+                    <td>Primarily the U.S.-domiciled Vanguard S&amp;P 500 ETF (VOO).</td>
+                    <td>IVV at 99.94%, plus 0.06% cash, holdings file dated October 22, 2026.</td>
+                    <td>The S&amp;P 500 stocks. Expense ratio 0.03% as of April 28, 2026.</td>
+                </tr>
+                <tr>
+                    <td>Fee</td>
+                    <td>MER 0.08%. Management fee 0.08%. Trading expense ratio 0.00%.</td>
+                    <td>MER 0.09%. Management fee 0.08% since January 12, 2023 (was 0.09%).</td>
+                    <td>Expense ratio 0.03% (Vanguard, as of April 28, 2026).</td>
+                </tr>
+                <tr>
+                    <td>Distributions</td>
+                    <td>Quarterly.</td>
+                    <td>Semi-annual.</td>
+                    <td>Not quoted on the pages used here.</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>RRSP treaty exemption</td>
+                    <td>No. The US payer sees VOO, not your RRSP.</td>
+                    <td>No, same as VFV. The US payer sees IVV.</td>
+                    <td>Yes, when the RRSP or RRIF holds VOO directly and qualifies under Article XXI.</td>
+                </tr>
+                <tr>
+                    <td>TFSA</td>
+                    <td>Withholding inside VOO is not recoverable.</td>
+                    <td>Same result. Withholding inside IVV is not recoverable.</td>
+                    <td>You pay to convert, and the 15% is still not creditable.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>VFV's benchmark is "S&amp;P 500 (CAD NY Rate) NTR 15%." That is a net-of-15% index, in line with the treaty rate on portfolio dividends. It is not your personal rate. The <a href="https://www.irs.gov/instructions/iw8ben">IRS W-8BEN instructions</a> say withholding is 30% when the form is missing.</p>
+
+    <div class="did-you-know">
+        <strong>Did you know:</strong> As of October 22, 2026, XUS held IVV at 99.94% of the fund. A Canadian ticker does not put an RRSP in front of the US payer.
+    </div>
+
+    <p>Fees are the small line. The account decides whether the 15% comes back.</p>
+
+    <h2 id="which-account">Which account should hold VFV, XUS or VOO?</h2>
+
+    <p>Hold VOO directly in a Registered Retirement Savings Plan (RRSP) or a Registered Retirement Income Fund (RRIF) when you can hold US dollars. Hold VFV or XUS in a Tax-Free Savings Account (TFSA), a First Home Savings Account (FHSA), or a Registered Education Savings Plan (RESP). In a non-registered account, a foreign tax credit can apply to US tax on a security you hold yourself. It does not restore tax taken inside the wrapper.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Where US withholding lands, treaty text reviewed October 23, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Account</th>
+                    <th>With VFV or XUS</th>
+                    <th>With VOO held directly</th>
+                    <th>Verdict</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight-row">
+                    <td>RRSP or RRIF</td>
+                    <td>Lost inside VOO or IVV. The US payer does not see your plan.</td>
+                    <td>None, when the plan holds the US security and qualifies under Article XXI.</td>
+                    <td>VOO, if conversion does not eat the saving.</td>
+                </tr>
+                <tr>
+                    <td>TFSA</td>
+                    <td>Lost. A TFSA is not covered, and there is no Canadian tax to credit.</td>
+                    <td>Still lost, and you pay to convert.</td>
+                    <td>VFV or XUS.</td>
+                </tr>
+                <tr>
+                    <td>FHSA or RESP</td>
+                    <td>Lost. These accounts are not retirement plans under Article XXI.</td>
+                    <td>Still lost, plus the conversion.</td>
+                    <td>VFV or XUS. Same answer as the TFSA.</td>
+                </tr>
+                <tr>
+                    <td>Non-registered</td>
+                    <td>Tax taken inside the US fund, before it reaches the Canadian fund, does not show up as a full credit.</td>
+                    <td>15% with a W-8BEN, or 30% without one. Form T2209, limited to the Canadian tax on that income.</td>
+                    <td>VOO can be credited, within that limit. The wrappers cannot pass the inner tax through in full.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Article X of the <a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Canada-US tax convention</a> caps portfolio dividends at 15% with a W-8BEN, and the IRS instructions put the rate at 30% without one. Article XXI exempts a retirement-benefit plan that holds the US security directly. VFV owns VOO and XUS owns IVV, so the 15% is taken before either Canadian fund pays you. The treaty rate does not change by province. Form T2209 is the federal credit. A provincial credit is separate, and this refresh did not open a provincial page, so no provincial rate is quoted. Quebec filers still use Revenu Québec on the provincial return.</p>
+
+    <div class="step-section">
+        <div class="step">
+            <div class="step-number">1</div>
+            <div>
+                <div class="step-title">Name the account first</div>
+                <p>Write RRSP, TFSA, FHSA, RESP, or non-registered before you pick a ticker.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div>
+                <div class="step-title">Read the holdings</div>
+                <p>VFV holds the US-listed Vanguard fund. XUS's file dated October 22, 2026 shows IVV at 99.94%. Read the file on the day you buy.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div>
+                <div class="step-title">Price currency only where VOO can help</div>
+                <p>That is an RRSP, an RRIF, or a non-registered account where the credit is worth running. In a TFSA, FHSA, or RESP, stop at VFV or XUS.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div>
+                <div class="step-title">File the W-8BEN before the US-listed buy</div>
+                <p>The gap is 15% versus 30%. Confirm an RRSP is coded for the retirement-plan exemption if you expect zero on a direct holding.</p>
+            </div>
+        </div>
+    </div>
 
     <div class="example-box">
-        <strong>Illustration: $100,000, using VFV's published yield</strong>
-        <p>VFV's 12-month yield was 0.84% as of 31 August 2026. On $100,000 that is $840 if the yield described a flat balance. Fifteen percent of $840 is $126. VFV's 2025 distribution table shows foreign income of $1.81097 per unit and foreign tax paid of $0.28441, about 15.7% of that foreign income. The MER gap between VFV at 0.08% and VOO at 0.03% is 0.05 percentage points, or $50 a year on $100,000. The withholding on the wrapper can be larger than the MER gap, and in an RRSP it is avoidable by holding VOO directly. In a TFSA it is not avoidable by switching to VOO. You would add a currency conversion and keep the withholding.</p>
+        <strong>Example: what to ask the broker, a script</strong>
+        <p>Please confirm three things in writing. This account is an RRSP or RRIF. A Form W-8BEN is on file. US dividends on securities this account holds directly are coded for the Canada-US treaty pension exemption. If the form is missing, tell me before I buy. I do not want 30% where 15% was the plan, and I do not want 15% where the retirement-plan exemption should have made the direct holding zero.</p>
+    </div>
+
+    <p>The script covers a security you hold yourself. It does not pull back tax taken inside VFV or XUS. The size of that leak, on $100,000, is next.</p>
+
+    <h2 id="wrapper-cost">How much does the wrapper cost on $100,000?</h2>
+
+    <p>The bars are an illustration, not a forecast or your assessment: $100,000 in an RRSP, using VFV's published 0.84% yield as at September 30, 2026 as the cash yield.</p>
+
+    <div class="chart-container">
+        <h3>Annual cost in an RRSP on $100,000 CAD (illustration)</h3>
+        <div class="bar-chart">
+            <div class="bar-item">
+                <div class="bar-label">VFV</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 95%;"><span>$206</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">XUS</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$216</span></div></div>
+            </div>
+            <div class="bar-item">
+                <div class="bar-label">VOO</div>
+                <div class="bar-wrapper"><div class="bar" style="width: 14%;"><span>$30</span></div></div>
+            </div>
+        </div>
+        <p>In an RRSP the illustration is $206 a year for VFV, $216 for XUS, and $30 for VOO. The yield behind the dividend is Vanguard's 0.84% as at September 30, 2026.</p>
     </div>
 
     <div class="example-box">
-        <strong>Illustration: the conversion versus the MER</strong>
-        <p>Questrade and Wealthsimple list 1.5% to convert. On $100,000 that is $1,500 once, before any spread inside the rate. The annual MER saving of VOO versus VFV, $50 on $100,000, takes 30 years of that gap to equal a single 1.5% conversion, and that ignores the withholding you might have removed in an RRSP. Run the gambit or use Interactive Brokers if the RRSP exemption is why you want VOO. Do not pay 1.5% for a 0.05 point MER story. The fee schedules are in <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>.</p>
+        <strong>Example: $100,000 in an RRSP, an illustration</strong>
+        <div class="example-calculation">
+            <div class="line"><span>VFV fee at 0.08%</span><span>$80</span></div>
+            <div class="line"><span>XUS fee at 0.09%</span><span>$90</span></div>
+            <div class="line"><span>VOO fee at 0.03%</span><span>$30</span></div>
+            <div class="line"><span>Dividends at the 0.84% yield</span><span>$840</span></div>
+            <div class="line"><span>15% withholding</span><span>$126</span></div>
+            <div class="line"><span>VFV, fee plus withholding</span><span>$206</span></div>
+            <div class="line"><span>XUS, fee plus withholding</span><span>$216</span></div>
+            <div class="line total"><span>VOO held directly</span><span>$30</span></div>
+        </div>
+        <p>VOO saves about $176 a year versus VFV on this flat $100,000. Withholding hits the dividend, not an unrealized gain.</p>
     </div>
 
-    <h2>Where should the S&amp;P 500 sit?</h2>
+    <div class="example-box">
+        <strong>Example: the conversion that has to be earned back</strong>
+        <p>Questrade lists 1.5% on USD/CAD conversions, and Wealthsimple lists 1.5% on CAD/USD conversions. On $100,000 that is $1,500 once. Against the $176 a year VOO saves versus VFV in an RRSP, break-even is about 8.5 years. At Interactive Brokers Canada's posted spot rate, the commission is the US$2.00 minimum (0.20 basis point of the trade) plus the market spread. This page does not price the spread. On those terms the RRSP saving starts almost immediately. <a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit</a> is the other route, and this page quotes no gambit fee.</p>
+    </div>
 
-    <p>If the S&amp;P 500 is your entire portfolio, you have a concentration decision, not just a ticker decision. A global fund already holds a large US weight. VEQT's US country weight was 44.99% on 31 August 2026. Adding VFV on top raises the US share again. The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> is the map: US-listed equity in the RRSP when you will actually maintain the USD side, Canadian-listed equity in the TFSA when you will not.</p>
+    <div class="table-wrapper">
+        <table>
+            <caption>CAD to USD routes, broker pages reviewed October 23, 2026. The $1,500 cell is the illustration.</caption>
+            <thead>
+                <tr>
+                    <th>Route</th>
+                    <th>Posted term</th>
+                    <th>What you give up</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Questrade</td>
+                    <td>1.5% on USD/CAD (<a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">transaction fees</a>).</td>
+                    <td>$1,500 once on the illustrative $100,000.</td>
+                </tr>
+                <tr>
+                    <td>Wealthsimple conversion</td>
+                    <td>1.5% on CAD/USD (<a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">trade fee schedule</a>).</td>
+                    <td>The same $1,500 illustration. Registration does not shrink the percentage.</td>
+                </tr>
+                <tr>
+                    <td>Wealthsimple USD account</td>
+                    <td>$10 a month on Core after a 30-day free trial. Included on Premium and Generation. USD you already hold can move in free (<a href="https://www.wealthsimple.com/en-ca/pricing">pricing</a>).</td>
+                    <td>The monthly fee if Core continues past the trial.</td>
+                </tr>
+                <tr>
+                    <td>Interactive Brokers Canada</td>
+                    <td>0.20 basis point of trade value, minimum US$2.00 per order (<a href="https://www.interactivebrokers.ca/en/pricing/commissions-spot-currencies.php">spot currencies</a>).</td>
+                    <td>The market spread, which has no dollar figure on this page.</td>
+                </tr>
+                <tr>
+                    <td>Norbert's gambit</td>
+                    <td>A journal between listings. No fee is quoted here.</td>
+                    <td>Time, and the price move while you wait. Steps are in the gambit guide.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>In a non-registered account, VFV reports foreign income and foreign tax paid. Whether you can claim it is Form T2209, and it is limited to the Canadian tax on that income. Some of the withholding may already have been taken inside VOO, before a T3 can show it. Do not assume the full 15% appears as a credit. The mechanics are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a> and the withholding article. Hedging the Canadian dollar on top of this, with a fund such as VSP, is a currency preference with its own cost. That discussion is the <a href="/blog/currency-hedging-us-listed-etfs-canada/">hedging guide</a>.</p>
+    <p>Platform commissions outside this currency line are in <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>.</p>
 
-    <h2>Frequently asked questions</h2>
+    <div class="example-box">
+        <strong>Example: the same $100,000 inside a TFSA</strong>
+        <p>VOO saves only the $50 fee gap versus VFV ($80 minus $30). The $126 of withholding is lost either way. A 1.5% conversion is still $1,500, and that takes 30 years of the $50 gap to earn back. XUS at a $90 fee does not flip it. VFV or XUS wins. Skip the conversion.</p>
+    </div>
+
+    <p>Selling later and converting back to Canadian dollars is another conversion. This page does not put a figure on that return trip. Count it if you might undo the trade. Overlap with an all-in-one is the next decision.</p>
+
+    <h2 id="where-sit">Where should the S&amp;P 500 sit?</h2>
+
+    <p>If the S&amp;P 500 is the whole portfolio, the question is concentration, not only the ticker. A global all-in-one ETF already holds a large US weight. Adding VFV raises that US share again. Compare the all-in-ones in <a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT</a>. This page does not quote a country weight. Use the issuer's current holdings page for that figure.</p>
+
+    <p>The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> places the sleeve you do mean to own. US-listed equity belongs in the RRSP when you will maintain the US-dollar side. Canadian-listed equity belongs in the TFSA when you will not. A household with only a TFSA buys one Canadian-listed fund and stops.</p>
+
+    <p>In a non-registered account, foreign tax may be claimed on Form <span class="form-ref">T2209</span>, and the credit is limited to the Canadian tax on that income. Read the CRA page for <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t2209.html">Form T2209</a>. Withholding taken inside the US fund before it reaches the Canadian fund does not show up as a full credit. VFV's 2025 tax data, per unit, is foreign income of $1.81097 and foreign tax paid of $0.28441, about 15.7%. Do not assume the T1 shows that full rate as a credit you can use.</p>
+
+    <p>Hedged versions exist (XSP and VSP). XSP is the CAD-hedged iShares version. VFV itself is not currency hedged. This page quotes no fee for XSP or VSP. Hedging is a currency choice, covered in the <a href="/blog/currency-hedging-us-listed-etfs-canada/">hedging guide</a>. A hedge does not fix withholding.</p>
+
+    <p>A large RRSP, a taxable switch, or a conversion that is hard to reverse belongs with a CPA or a tax lawyer. That is a suggestion to get help on your file. It is not a claim that a CPA or a CFP reviewed this page.</p>
+
+    <h2 id="mistakes">What mistakes do Canadians make with VFV and VOO?</h2>
+
+    <p>The costly errors are a conversion the account cannot use, a second copy of the US market, and a form that was never filed.</p>
+
+    <div class="warning-box">
+        <strong>Watch out:</strong>
+        <p>Paying 1.5% to convert inside a TFSA, in order to hold VOO, buys the $50 fee gap on the illustrative $100,000 and still loses the $126 of withholding. That conversion takes 30 years of the fee gap to earn back. The Canadian ticker was the answer.</p>
+    </div>
+
+    <ul>
+        <li><strong>Holding VFV beside an all-in-one by accident.</strong> The all-in-one already holds a large US weight. Keep the overlap only if you meant the extra US bet. Otherwise sell it in a registered account before a taxable one.</li>
+        <li><strong>Treating XUS as a withholding exception.</strong> On October 22, 2026, XUS held IVV at 99.94%, plus 0.06% cash. The US payer sees IVV, just as it sees VOO inside VFV.</li>
+        <li><strong>Buying VOO with no W-8BEN.</strong> Article X caps portfolio dividends at 15% with the form, and the IRS instructions say 30% without it. The form is a broker record. It does not unwind a Canadian wrapper.</li>
+        <li><strong>Converting back and forth.</strong> The trip into US dollars has a cost, and the trip home has another. This page does not price the return trip.</li>
+    </ul>
+
+    <ul class="checklist">
+        <li>The account is named before the ticker.</li>
+        <li>A TFSA, FHSA, or RESP stays in VFV or XUS.</li>
+        <li>An RRSP switch to VOO has the conversion written beside the $176 illustration.</li>
+        <li>The current XUS holdings file still shows IVV as the position that matters.</li>
+        <li>A W-8BEN is on file before a US-listed purchase, and the RRSP is coded as one.</li>
+        <li>No all-in-one elsewhere is already the US exposure.</li>
+        <li>A later conversion back to Canadian dollars is named before the first one is sent.</li>
+    </ul>
+
+    <h2 id="questions">Frequently asked questions</h2>
 
     <h3>Is VFV just VOO in Canadian dollars?</h3>
-    <p>Vanguard says VFV invests primarily in the US-domiciled Vanguard S&amp;P 500 ETF, which is VOO. You buy VFV in Canadian dollars on the TSX. You do not get VOO's 0.03% expense ratio. You get VFV's 0.08% MER, which Vanguard says is not a second full fee stacked on VOO, because the Canadian management fee is reduced by the underlying expenses. You also do not get the RRSP treaty exemption, because the US fund is in the middle.</p>
+    <p>Vanguard says VFV invests primarily in the U.S.-domiciled Vanguard S&amp;P 500 ETF, which is VOO, and you buy VFV in Canadian dollars on the TSX. Reviewed October 23, 2026, VFV's MER is 0.08% and VOO's expense ratio is 0.03% as of April 28, 2026. The RRSP exemption does not flow through VFV.</p>
 
     <h3>Is XUS cheaper than VFV?</h3>
-    <p>No. XUS lists a 0.09% MER. VFV lists 0.08%. On $100,000 that is $90 versus $80 a year. Confirm both facts sheets. The useful difference is what each fund holds, not that hundredth of a percent. If XUS's top holding is a US-listed iShares ETF, treat it like VFV for withholding. If it holds the stocks directly, the Canadian fund still withholds at fund level, and a taxable account may see foreign tax on the T3.</p>
+    <p>No. XUS lists a 0.09% MER and VFV lists 0.08%, or $90 versus $80 a year on an illustrative $100,000. The holdings file dated October 22, 2026 shows IVV at 99.94% of XUS, plus 0.06% cash, so withholding matches VFV.</p>
 
     <h3>Should I switch my TFSA from VFV to VOO?</h3>
-    <p>No, not for the treaty. A TFSA is not an Article XXI pension arrangement. You would pay to convert currency and the withholding would still be lost. Stay in the Canadian listing unless you already have USD you need to invest and you have accepted the leak.</p>
+    <p>No. A TFSA is not an Article XXI plan, so the 15% is lost either way. On an illustrative $100,000, VOO saves only the $50 fee gap, and a 1.5% conversion of $1,500 takes 30 years to earn back.</p>
 
     <h3>Does VOO avoid Canadian tax inside an RRSP?</h3>
-    <p>US withholding can be zero when the RRSP holds VOO directly and the plan qualifies. Canada still taxes the withdrawal later, as ordinary income. The exemption is not a tax-free account. It is a withholding exemption on the dividend along the way. A large RRSP is still a future inclusion. The <a href="/blog/rrsp-playbook/">RRSP playbook</a> is that half.</p>
+    <p>US withholding can be zero when the RRSP or RRIF holds VOO directly and qualifies under Article XXI. Canada still taxes the withdrawal later as ordinary income. The exemption is not a tax-free account.</p>
 
     <h3>Why is VFV's yield so low if people buy it for US stocks?</h3>
-    <p>The S&amp;P 500's cash yield is modest. Vanguard's published 12-month yield on VFV was 0.84% as of 31 August 2026. Most of the historical return of that index has been price, not the dividend. Withholding applies to the dividend, not to unrealized price gains. That is why the leak is small on a broad fund and large on a high-yield US payer.</p>
+    <p>Vanguard's 12-month trailing yield on VFV is 0.84% as at September 30, 2026. Withholding applies to that dividend, not to unrealized price gains.</p>
 
     <h3>Can I hold VFV and an all-in-one ETF?</h3>
-    <p>You can. You will own the S&amp;P 500 twice, once inside the all-in-one and once on its own. That is a bigger US bet than the all-in-one already made. If that was the sentence you wrote down, fine. If it was an accident, sell the overlap inside a registered account before you sell it in a taxable one.</p>
+    <p>You can. A global all-in-one already holds a large US weight, so VFV beside it is a larger US bet. If that was an accident, sell the overlap in a registered account before you sell it in a taxable one.</p>
+
+    <h3>Does VFV have withholding tax?</h3>
+    <p>Yes. US withholding is taken inside the US-listed fund VFV holds. With a W-8BEN the treaty cap is 15%. VFV's 2025 tax data is foreign income of $1.81097 per unit and foreign tax paid of $0.28441, about 15.7%. An RRSP that holds VFV does not get that tax back.</p>
+
+    <h3>What is the Canadian version of VOO?</h3>
+    <p>VFV, the Vanguard S&amp;P 500 Index ETF on the TSX in Canadian dollars. Vanguard says it invests primarily in the US-listed fund. XUS is the iShares wrapper: on October 22, 2026 it held IVV, not VOO, at 99.94% of the fund.</p>
+
+    <h3>Is XUS the same as IVV?</h3>
+    <p>No. IVV is the US-listed fund, with an expense ratio of 0.03%. XUS is the Canadian-listed fund, with an MER of 0.09%. On October 22, 2026, XUS held IVV at 99.94% and cash at 0.06%. Your RRSP does not hold IVV directly.</p>
+
+    <h3>VFV or VOO in an RRSP?</h3>
+    <p>VOO, if the conversion does not eat the saving. On an illustrative $100,000, VFV costs about $206 a year and VOO costs $30, a saving of about $176. A 1.5% conversion is $1,500 once, about 8.5 years to break even. Interactive Brokers Canada's minimum is US$2.00, so the saving starts almost immediately. The same switch does not pay in a TFSA.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf">Vanguard Canada: VFV</a></li>
-        <li><a href="https://investor.vanguard.com/investment-products/etfs/profile/voo">Vanguard US: VOO</a></li>
-        <li><a href="https://www.blackrock.com/ca/investors/en/products/251422/ishares-sp-500-index-etf">iShares Canada: XUS</a></li>
-        <li><a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Canada-US tax convention</a></li>
-        <li><a href="https://www.irs.gov/instructions/iw8ben">IRS Form W-8BEN instructions</a></li>
+        <li><a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf">Vanguard Canada: VFV, Vanguard S&amp;P 500 Index ETF</a>, reviewed October 23, 2026</li>
+        <li><a href="https://investor.vanguard.com/investment-products/etfs/profile/voo">Vanguard US: VOO, Vanguard S&amp;P 500 ETF</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.blackrock.com/ca/investors/en/products/251422/ishares-sp-500-index-etf">iShares Canada: XUS, iShares Core S&amp;P 500 Index ETF</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf">iShares US: IVV, iShares Core S&amp;P 500 ETF</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.questrade.com/pricing/self-directed-commissions-plans-fees/transaction">Questrade: transaction fees, including currency conversion</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">Wealthsimple: trade fee schedule</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple: pricing</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.interactivebrokers.ca/en/pricing/commissions-spot-currencies.php">Interactive Brokers Canada: spot currencies</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Finance Canada: Canada-US tax convention</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.irs.gov/instructions/iw8ben">IRS: Form W-8BEN instructions</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t2209.html">CRA: Form T2209, federal foreign tax credit</a>, reviewed October 23, 2026</li>
+    </ul>
+
+    <h2>Related reading</h2>
+    <ul>
+        <li><a href="/blog/xeqt-vs-veqt-canada/">XEQT versus VEQT, when a global all-in-one already holds the US market</a></li>
+        <li><a href="/blog/us-withholding-tax-by-account-canada/">US withholding tax by account, for TFSA, RRSP, and non-registered</a></li>
+        <li><a href="/blog/norberts-gambit-canada-guide/">Norbert's gambit, when a 1.5% conversion is the wrong ticket</a></li>
+        <li><a href="/blog/best-etfs-tfsa-canada/">ETFs that belong in a TFSA once the withholding rule is settled</a></li>
+        <li><a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade on commissions and currency conversion</a></li>
+        <li><a href="/blog/diy-etf-portfolio-asset-location-canada/">Which account should hold each sleeve of a DIY ETF portfolio</a></li>
     </ul>
 
     <div class="cta-section">
@@ -1113,10 +1372,13 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer('September 27, 2026')}
+    ${footer('September 27, 2026', 'October 2026', 'October 23, 2026')}
 
-</div>`
+</div>
+`
   ),
+    updated: '2026-10-23',
+  },
 
   investingPost(
     'us-withholding-tax-by-account-canada',
