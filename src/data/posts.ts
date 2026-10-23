@@ -2045,6 +2045,10 @@ export const posts: BlogPostRecord[] = [
     author: "Andrew",
     date: "2026-09-19",
     updated: "2026-10-21",
+    youtubeId: "jVoqWmuiweE",
+    youtubeTitle: "Best Cash Back Credit Cards in Canada 2026: 7 Cards Compared",
+    youtubeUploadDate: "2026-10-23T02:36:07-04:00",
+    youtubeDuration: "PT6M29S",
     excerpt: "Best cash-back credit cards in Canada for 2026, with issuer rates checked October 21, 2026, a $30,000 net-of-fee example, and the Costco and Rogers catches.",
     image: "/images/blog/best-cash-back-credit-cards-canada.png",
     content: `<div class="container">
