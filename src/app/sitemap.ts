@@ -29,10 +29,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const subcategoryEntries: MetadataRoute.Sitemap = CATEGORIES.flatMap((category) =>
-    (category.subcategories ?? []).map((sub) => ({
-      url: `${SITE_URL}/category/${category.slug}/${sub.slug}/`,
-      lastModified: '2026-10-15',
-    }))
+    (category.subcategories ?? []).map((sub) => {
+      const newest = posts
+        .filter((post) => post.categorySlug === category.slug && post.subcategory === sub.slug)
+        .map((post) => post.updated || post.date)
+        .sort()
+        .pop();
+      return {
+        url: `${SITE_URL}/category/${category.slug}/${sub.slug}/`,
+        lastModified: newest ?? '2026-10-15',
+      };
+    })
   );
 
   const postEntries: MetadataRoute.Sitemap = posts.map((post) => ({

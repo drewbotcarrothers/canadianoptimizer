@@ -24,7 +24,9 @@ Nine categories, matching `CATEGORIES` in `src/lib/site.ts`:
 | Insurance | Insurance | `insurance` | `/category/insurance/` |
 | Government Benefits | Government Benefits | `government-benefits` | `/category/government-benefits/` |
 
-**Earning More is about earning the money.** Its three subcategories are the only ones the site has:
+Two categories have subcategories: Earning More and Investing.
+
+**Earning More is about earning the money.** Its three subcategories:
 
 | Subcategory | `subcategory` | Hub |
 |---|---|---|
@@ -34,7 +36,20 @@ Nine categories, matching `CATEGORIES` in `src/lib/site.ts`:
 
 Employee posts cover raises, offers, severance, overtime, and the pay stub. Entrepreneur posts cover rates, registration, clients, and getting paid. Side Hustles posts cover extra income and whether it still pays. The tax mechanics of that income — brackets, CPP, EI, dividends, deductions — live in **Taxes**. Link the Taxes article. Do not rebuild the bracket table inside an Earning More post. The hub states the order: pick the path first; tax prices the path after the dollar exists.
 
-Set `subcategory` only on Earning More posts, and only to one of those three slugs. Other categories have no subcategories. A made-up slug is dropped from the breadcrumb.
+**Investing is split by investor profile.** Four subcategories:
+
+| Subcategory | `subcategory` | Hub |
+|---|---|---|
+| Passive ETF Investing | `passive-etf` | `/category/investing/passive-etf/` |
+| Dividend Investing | `dividend-investing` | `/category/investing/dividend-investing/` |
+| Stock Picking | `stock-picking` | `/category/investing/stock-picking/` |
+| Hands-Off Investing | `hands-off` | `/category/investing/hands-off/` |
+
+Passive ETF posts cover all-in-one ETFs, model portfolios, asset location, rebalancing, and staying invested. Dividend posts cover dividend income, the dividend tax credit, sectors, DRIPs, and yield traps. Stock Picking posts cover analyzing and valuing a business, sizing, selling, and record-keeping (ACB, T5008). Hands-Off posts cover robo-advisors, advisors, mutual funds, and planners: what they cost and how to choose. Accounts, brokerages, and tax plumbing every investor needs (TFSA vs RRSP, brokerage comparisons, Norbert's Gambit, withholding tax) stay **untagged** and render under "Start here" on the Investing hub. Tax mechanics still live in **Taxes**; link them.
+
+In the cluster modules, Investing tags are set with the `INVESTING_SUBCATEGORY` map in `src/data/investing-cluster.ts` or directly on the record. Investing posts link their subcategory hub in the first screen, as Earning More posts do.
+
+Set `subcategory` only on Earning More and Investing posts, and only to one of the slugs above. Other categories have no subcategories. A made-up slug is dropped from the breadcrumb.
 
 ## 2. The post record
 
@@ -47,7 +62,7 @@ A post is a `BlogPostRecord` (`src/lib/post-video.ts`). Recent posts are built i
 | `title` | The H1, the hero alt, and the start of the `<title>`. See SEO. |
 | `slug` | Lowercase, hyphenated, unique. The URL is `/blog/{slug}/`. The hero file uses the same slug. Do not change it after publish. |
 | `category` / `categorySlug` | The pair from the table above. |
-| `subcategory` | Earning More only: `employee`, `entrepreneur`, or `side-hustles`. |
+| `subcategory` | Earning More: `employee`, `entrepreneur`, or `side-hustles`. Investing: `passive-etf`, `dividend-investing`, `stock-picking`, or `hands-off` (omit for general posts). |
 | `author` | The string `Andrew`. Nothing else. |
 | `date` | `YYYY-MM-DD`. First publication. The header prints the month and year: `Published October 2026`. |
 | `updated` | `YYYY-MM-DD`. On first publish, set it equal to `date`. The header prints `Updated {Month Year}` only when the two differ. |
@@ -332,7 +347,7 @@ Use a question as the H2 when the section answers a question people type. The fi
 ### Internal links
 
 - Link the category hub in the first screen of body copy: `/category/{categorySlug}/`.
-- Earning More posts also link their subcategory hub.
+- Earning More and Investing posts also link their subcategory hub.
 - Link the Taxes article that owns the mechanic instead of re-teaching it.
 - Three to six contextual links in the body, on the phrase that needs them, with a trailing slash.
 - `<h2>Related reading</h2>` lists the next posts in the cluster. The automatic "Related posts" block under the article is the newest three in the category, which is not the same list. Write the in-content list anyway.

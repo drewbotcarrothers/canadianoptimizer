@@ -38,9 +38,43 @@ export const CATEGORIES: {
     name: 'Investing',
     pageTitle: 'Advanced Canadian Investing Strategies',
     metaDescription:
-      'Portfolio construction, ETF placement, and tax-aware investing strategies for Canadians who manage their own money.',
+      'Investing in Canada by investor type: passive ETF portfolios, dividend income, DIY stock picking, and choosing a robo-advisor or advisor.',
     description:
-      'Portfolio optimization, asset allocation, and wealth building strategies for Canadians.',
+      'Pick the investor you are: passive ETFs, dividend income, DIY stock picking, or hands-off with a robo-advisor or advisor. Accounts and brokerages first.',
+    subcategories: [
+      {
+        slug: 'passive-etf',
+        name: 'Passive ETF Investing',
+        pageTitle: 'Passive ETF Investing in Canada',
+        metaDescription:
+          'Couch Potato-style investing for Canadians: all-in-one ETFs, model portfolios by risk level, asset location, rebalancing, and staying invested in a crash.',
+        description: 'All-in-one ETFs, model portfolios, asset location, and holding on in a crash.',
+      },
+      {
+        slug: 'dividend-investing',
+        name: 'Dividend Investing',
+        pageTitle: 'Dividend Investing in Canada',
+        metaDescription:
+          'Dividend income for Canadians: the dividend tax credit by province, banks, utilities, pipelines and telcos, DRIPs, yield traps, and covered-call ETFs.',
+        description: 'Dividend tax credit, banks, utilities, pipelines, and income that lasts.',
+      },
+      {
+        slug: 'stock-picking',
+        name: 'Stock Picking',
+        pageTitle: 'DIY Stock Picking in Canada',
+        metaDescription:
+          'Picking stocks for total return in Canada: reading filings, valuation basics, Canadian vs US stocks, position sizing, when to sell, and ACB records.',
+        description: 'Analyzing a business, valuation, sizing, selling, and ACB records.',
+      },
+      {
+        slug: 'hands-off',
+        name: 'Hands-Off Investing',
+        pageTitle: 'Hands-Off Investing in Canada',
+        metaDescription:
+          'Robo-advisors, bank advisors, mutual funds, and fee-only planners in Canada: what you really pay, questions to ask, red flags, and how to switch.',
+        description: 'Robo-advisors, advisors, and planners: what you pay and how to choose.',
+      },
+    ],
   },
   {
     slug: 'taxes',
