@@ -24,8 +24,8 @@ export const posts: BlogPostRecord[] = [
     subcategory: "passive-etf",
     author: "Andrew",
     date: "2026-09-16",
-    updated: "2026-09-16",
-    excerpt: "How to set a stock-and-bond mix, then place ETFs across a TFSA, RRSP, and non-registered account so tax and withholding land in the right place.",
+    updated: "2026-10-23",
+    excerpt: "How to set a stock-and-bond mix, then place ETFs across a TFSA, RRSP, FHSA and non-registered account so tax and US withholding land in the right place.",
     image: "/images/blog/diy-etf-portfolio-asset-location-canada.png",
     content: `<div class="container">
 
@@ -33,14 +33,42 @@ export const posts: BlogPostRecord[] = [
         A DIY ETF portfolio is two decisions, and people skip the one that actually changes the tax bill. First, how much of the household sits in equities versus bonds. Second, <span class="highlight">which account holds which sleeve</span>. The ticker is the last choice, and it is the one the internet argues about.
     </div>
 
-    <p>You do not need a forecast, a sector bet, or a new fund every January. You need a mix you will still hold after a bad year, placed so interest, eligible dividends, and US withholding tax fall in the account that treats them least badly. Product names below are examples of a structure. Management fees, holdings, and tax character change. Read the current ETF facts sheet before you buy, and do not treat any figure on this page as a live quote or a promised return. The hub that sits above this map is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
+    <p>A DIY ETF portfolio starts with a written stock-and-bond mix, then places each ETF by account: bonds and US-listed equity in the RRSP, long-term growth in the TFSA, Canadian equity in a taxable account once room is full. Wealthsimple's Help Centre (2026) confirms US dividends in an RRSP avoid the 15% withholding that TFSAs, FHSAs and RESPs pay.</p>
 
     <div class="callout">
+        <strong>Key takeaways:</strong>
+        <ul>
+            <li>The mix is a sentence you can follow in a bad year. The ticker is downstream of that sentence.</li>
+            <li>One-fund portfolios are the right design when you will not rebalance. Building blocks earn their complexity when account location matters and you will maintain it.</li>
+            <li>Bonds and US-listed equity have a first home in the RRSP. A Canadian-listed ETF that holds US stocks does not restore the treaty exemption there.</li>
+            <li>TFSAs, FHSAs and RESPs lose 15% of US dividends with no way to recover it. A taxable account can usually claim it back as a foreign tax credit.</li>
+            <li>Rebalance with new money and inside registered accounts first. Track adjusted cost base only on the taxable sleeve.</li>
+        </ul>
+    </div>
+
+    <p>You do not need a forecast, a sector bet, or a new fund every January. You need a mix you will still hold after a bad year, placed so interest, eligible dividends, and US withholding tax fall in the account that treats them least badly. Product names below are examples of a structure. Management fees, holdings, and tax character change. Read the current ETF facts sheet before you buy, and do not treat any figure on this page as a live quote or a promised return. This guide is part of <a href="/category/investing/passive-etf/">Passive and ETF Investing</a>, in the <a href="/category/investing/">Investing</a> category. The hub that sits above this map is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
+
+
+    <nav aria-label="On this page">
+        <ul>
+            <li><a href="#mix">What mix should you write down first?</a></li>
+            <li><a href="#structure">Should you buy one fund or building blocks?</a></li>
+            <li><a href="#location">Which account should hold each sleeve?</a></li>
+            <li><a href="#withholding">How much US withholding does each account lose?</a></li>
+            <li><a href="#example">What does asset location look like in dollars?</a></li>
+            <li><a href="#rebalance">How do you rebalance without a tax event?</a></li>
+            <li><a href="#province">Does Quebec or your province change the map?</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="tip-box">
         <strong>Fill the room before you engineer the taxable account:</strong>
         <p>Asset location is a refinement. Contribution order is the foundation. Unused TFSA and RRSP room, and an FHSA if a first home is still real, comes before a clever non-registered sleeve. The <a href="/blog/tfsa-contribution-optimization/">January TFSA contribution guide</a>, the <a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA comparison</a>, and the <a href="/blog/contribution-limits/">2026 limits table</a> are the sequence. This article starts once the dollars have an account.</p>
     </div>
 
-    <h2>Write the mix before you open a fund list</h2>
+
+    <h2 id="mix">What mix should you write down first?</h2>
 
     <p>The stock-and-bond split is a behaviour constraint, not a puzzle with a correct answer. Equities are the growth engine and the part that can be down hard when you wish it were not. Bonds, GICs, and high-interest savings are the part that is there so you are not forced to sell equities to buy groceries or a house. Money you know you will spend inside a few years does not belong in a volatile equity ETF. A first-home FHSA with a purchase on the horizon is the clearest case — the <a href="/blog/fhsa-guide/">FHSA guide</a> is about that timeline, not about maximizing a 30-year equity chart.</p>
 
@@ -51,11 +79,13 @@ export const posts: BlogPostRecord[] = [
         <p>A global equity fund already owns a small slice of Canada, because Canada is a small slice of world markets. Adding a separate Canadian equity ETF on top is a home-bias choice. The honest reasons are the currency you spend, the eligible-dividend treatment available in a non-registered account, and the fact Canadian markets do not move in lockstep with US markets. The honest caution is concentration: financials, energy, and materials dominate the domestic index. Pick a Canada weight you can live with and stop shopping for someone else's number.</p>
     </div>
 
-    <h2>One fund, or building blocks</h2>
+    <h2 id="structure">Should you buy one fund or building blocks?</h2>
 
     <p>Both are legitimate. They fail in different ways.</p>
 
+    <div class="table-wrapper">
     <table>
+        <caption>One-fund portfolio vs building blocks</caption>
         <thead>
             <tr>
                 <th>Structure</th>
@@ -76,19 +106,36 @@ export const posts: BlogPostRecord[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
     <p>If you will not rebalance, buy the one-fund. Hold it in the TFSA, the RRSP, and the FHSA. You will be slightly less precise about US withholding and you will not harvest the dividend tax credit inside a taxable account, because a balanced fund is a blend. For a lot of households that imprecision is cheaper than five overlapping tickers. The longer comparison is <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one ETFs versus a DIY portfolio</a>. Asset location starts to earn its complexity when a non-registered account exists, or when you are deliberately holding US-listed funds inside an RRSP.</p>
+
+    <div class="flowchart">
+        <div class="flow-node decision">Will you rebalance across accounts at least once a year?</div>
+        <div class="flow-arrow"></div>
+        <div class="flow-branch-container">
+            <div class="flow-node result">No: one asset-allocation ETF, the same fund in every account</div>
+            <div class="flow-node decision">Yes: do you have a taxable account, or RRSP room for US-listed ETFs?</div>
+        </div>
+        <div class="flow-arrow"></div>
+        <div class="flow-branch-container">
+            <div class="flow-node result">No: one fund is still fine; location adds little</div>
+            <div class="flow-node result">Yes: building blocks, placed with the map below</div>
+        </div>
+    </div>
 
     <div class="warning-box">
         <strong>Do not stack copies of the same idea:</strong>
         <p>An all-equity asset-allocation ETF plus a global equity ETF plus a US equity ETF is not diversification. It is the same companies three times, with a Canada weight you no longer know. One structure. If you use an all-in-one, stop. If you use building blocks, do not also buy the all-in-one "for safety."</p>
     </div>
 
-    <h2>Where each sleeve belongs</h2>
+    <h2 id="location">Which account should hold each sleeve?</h2>
 
     <p>The tax system does not treat investment income equally. Interest is fully included. Eligible Canadian dividends get a gross-up and a credit that only works in a taxable account. Capital gains are partially included, and only when realized outside a registered account. US dividends can face withholding before they reach you, and the Canada–US treaty turns that off for an RRSP or RRIF that holds the US security directly — not for a TFSA. The longer version of those rules is <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. The map below is the portfolio version.</p>
 
+    <div class="table-wrapper">
     <table>
+        <caption>Where each sleeve belongs, by account</caption>
         <thead>
             <tr>
                 <th>Sleeve</th>
@@ -128,15 +175,44 @@ export const posts: BlogPostRecord[] = [
                 <td>Growth is tax-free and withdrawals do not inflate income-tested benefits. That is the account's whole advantage over the RRSP. The <a href="/blog/tfsa-strategies/">TFSA strategies guide</a> is the account; the <a href="/blog/tfsa-contribution-optimization/">contribution guide</a> is the January funding rule.</td>
                 <td>That a TFSA full of chequing-rate cash is a strategy, while equities sit in a taxable account. It is backwards for a long horizon.</td>
             </tr>
+            <tr>
+                <td>Anything in an FHSA</td>
+                <td>Match the purchase date: GICs, savings or short bonds if you buy within a few years; equity if the home is far off</td>
+                <td>The FHSA is for a first home, so the timeline sets the mix. The CRA notes foreign dividends paid to an FHSA "could be subject to foreign withholding tax".</td>
+                <td>That an FHSA gets the RRSP treaty exemption. Wealthsimple's Help Centre lists the FHSA with the TFSA and RESP as paying 15% on US dividends.</td>
+            </tr>
+            <tr>
+                <td>Anything in an RESP</td>
+                <td>Equity early, shifting to bonds and cash as the first withdrawal year approaches</td>
+                <td>The education date is the horizon. Growth is taxed in the student's hands on withdrawal of earnings.</td>
+                <td>That US dividends are exempt. They face the same 15% as a TFSA.</td>
+            </tr>
         </tbody>
     </table>
+    </div>
+
+    <h2 id="withholding">How much US withholding does each account lose?</h2>
+
+    <p>For a US-listed ETF paying $1,000 of dividends a year, with a W-8BEN on file at the broker, the treaty rate is 15%. Wealthsimple's <a href="https://help.wealthsimple.com/hc/en-ca/articles/360056584994-Non-resident-withholding-taxes-and-how-to-minimize-them">Help Centre</a> sets out where it applies: RRSPs, RRIFs, LIRAs and LIFs are exempt under the Canada–US tax treaty, while TFSAs, FHSAs, RESPs and non-registered accounts pay 15%. Only the non-registered account can usually claim it back, as a foreign tax credit on <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-40500-federal-foreign-tax-credit.html">line 40500</a>.</p>
+
+    <div class="chart-container">
+        <h3>US withholding on $1,000 of dividends from a US-listed ETF, by account</h3>
+        <div class="bar-chart">
+            <div class="bar-item"><div class="bar-label wide">RRSP or RRIF: $0 withheld</div><div class="bar-wrapper"><div class="bar" style="width: 1%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Non-registered: $150, usually recoverable as a credit</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">TFSA: $150 lost</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">FHSA: $150 lost</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">RESP: $150 lost</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span></span></div></div></div>
+        </div>
+        <p>Without a valid W-8BEN, the rate is generally 30% rather than 15%, per the same Help Centre article. A Canadian-listed ETF that holds US stocks has withholding at the fund level, which cannot be recovered even in an RRSP. The deeper version is <a href="/blog/us-withholding-tax-by-account-canada/">US withholding tax by account</a>.</p>
+    </div>
 
     <div class="tip-box">
         <strong>Currency hedging is a preference, not a free lunch:</strong>
         <p>Hedged equity ETFs exist. The hedge has a cost and it does not reliably raise long-run equity returns. Many long-horizon portfolios leave equity unhedged and keep the bond sleeve in Canadian dollars, because the point of the bonds is stability in the currency you spend. Write the choice down. Do not switch every time the Canadian dollar moves. The mechanics, including US-listed funds and Norbert's gambit, are in the <a href="/blog/currency-hedging-us-listed-etfs-canada/">currency hedging guide</a>.</p>
     </div>
 
-    <h2>An illustration, not a model portfolio</h2>
+    <h2 id="example">What does asset location look like in dollars?</h2>
 
     <p>The dollars below are a teaching example of location. They are not a recommended risk level, not a projection, and not advice to hold 80 percent equities. Change the mix and the same placement rules still apply.</p>
 
@@ -147,7 +223,7 @@ export const posts: BlogPostRecord[] = [
 
     <p>If the RRSP is too small to hold every bond plus the US-listed sleeve, bonds spill to the TFSA before they spill to the taxable account. Interest in a non-registered account is the outcome you are trying to avoid. If you only have a TFSA, ignore the map and buy one Canadian-listed asset-allocation ETF. Location with one account is theatre.</p>
 
-    <h2>Rebalance without creating a tax event</h2>
+    <h2 id="rebalance">How do you rebalance without a tax event?</h2>
 
     <p>A portfolio drifts. A strong equity year quietly raises your risk. You correct it on a schedule you set in calm weather: once a year, or when a sleeve is off by a band you chose in advance. Five percentage points is a common mechanical band. It is a habit, not a law of finance. The full order — contributions first, registered trades next, taxable sales last — is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
 
@@ -159,7 +235,7 @@ export const posts: BlogPostRecord[] = [
 
     <p>Adjusted cost base matters in the taxable account and nowhere else. Reinvested distributions and return of capital move the number. A T5008 from the broker is an input, not the books. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the system.</p>
 
-    <h2>What this article will not pretend to know</h2>
+    <h2>What can a location map not tell you?</h2>
 
     <p>It will not name a fund that "beats" another, and it will not quote a management-expense ratio as if it were permanent. How that fee compounds is the <a href="/blog/mer-drag-index-funds-canada/">MER drag guide</a>. The published MER on an all-in-one is often a bit higher than the weighted MER of the building blocks. Some years that gap is smaller than the trading and foreign-exchange cost of maintaining the blocks. Check both facts sheets in the year you buy, including the cost of currency conversion if a block is US-listed. The <a href="/blog/best-online-brokerages-canada/">brokerage comparison</a> is about that conversion cost. A perfect asset map at a broker that takes a wide spread on every RRSP contribution is not a perfect map.</p>
 
@@ -170,7 +246,11 @@ export const posts: BlogPostRecord[] = [
         <p>You can give a spouse money to contribute to their own TFSA. Income inside that TFSA is not attributed back. A gift of capital that they invest in a non-registered account is a different, usually worse, story. Keep taxable investing in the name of the person who earned the capital, or use a structure that is actually legal. The <a href="/blog/income-splitting-strategies-couples/">couples guide</a> is the line between those two.</p>
     </div>
 
-    <h2>A sequence you can finish in a weekend</h2>
+    <h2 id="province">Does Quebec or your province change the map?</h2>
+
+    <p>The map is the same everywhere, because RRSP, TFSA, FHSA and treaty rules are federal. What changes by province is the value of each choice. The dividend tax credit that makes Canadian equity attractive in a taxable account differs by province; see <a href="/blog/dividend-tax-credit-by-province-canada/">the dividend tax credit by province</a>. Quebec residents file a separate return with Revenu Québec, so check that foreign tax paid in a taxable account is claimed on both returns. In higher-bracket provinces, interest in a taxable account costs more, which strengthens the case for keeping bonds in the RRSP.</p>
+
+    <h2>What can you finish this weekend?</h2>
 
     <ol>
         <li>Write one sentence: equity percentage, bond percentage, Canada weight, and whether equity is currency-hedged. Date it.</li>
@@ -181,16 +261,43 @@ export const posts: BlogPostRecord[] = [
         <li>Open the broker that can hold the structure, including a US-dollar side inside the RRSP if you used one. Then leave it alone.</li>
     </ol>
 
-    <h2>Key takeaways</h2>
+    <h2 id="faq">Frequently asked questions</h2>
 
+    <h3>What is asset location?</h3>
+    <p>Choosing which account holds each investment, so that interest, dividends and foreign withholding land where they are taxed least. It is separate from asset allocation, which is the mix itself.</p>
+
+    <h3>Should I hold US-listed ETFs in my TFSA?</h3>
+    <p>You can, but 15% of US dividends is withheld and cannot be recovered in a TFSA. Low-yield growth funds leak less than high-yield ones.</p>
+
+    <h3>Does a Canadian-listed S&amp;P 500 ETF avoid withholding in my RRSP?</h3>
+    <p>No. Withholding happens at the fund level, and Wealthsimple's Help Centre says it cannot be recovered even in a qualifying retirement account.</p>
+
+    <h3>Does my FHSA get the RRSP treaty exemption?</h3>
+    <p>No. The CRA says foreign dividends paid to an FHSA could be subject to withholding, and Wealthsimple lists the FHSA among accounts that pay 15%.</p>
+
+    <h3>Is an all-in-one ETF good enough?</h3>
+    <p>For most people who will not rebalance, yes. You give up some precision on withholding and the dividend tax credit in exchange for a portfolio you will actually keep.</p>
+
+    <h3>How often should I rebalance?</h3>
+    <p>Once a year, or when a sleeve drifts past a band you set in advance. Five percentage points is a common habit, not a rule.</p>
+
+    <h3>Do I need a W-8BEN?</h3>
+    <p>Yes, if you hold US-listed securities. It reduces US withholding on dividends generally from 30% to 15%, and it expires every three years.</p>
+
+    <h2>Sources</h2>
     <ul>
-        <li><strong>The mix is a sentence you can follow in a bad year.</strong> The ticker is downstream of that sentence.</li>
-        <li><strong>One-fund portfolios are the right design</strong> when you will not rebalance. Building blocks are the right design when account location matters and you will maintain it.</li>
-        <li><strong>Bonds and US-listed equity have a first home in the RRSP.</strong> A Canadian ticker does not restore the US treaty exemption inside that RRSP.</li>
-        <li><strong>The TFSA is for the growth you will not raid.</strong> Cash there, while equities sit in a taxable account, is the expensive version of "safe."</li>
-        <li><strong>Canadian equities earn their place in non-registered</strong> after registered room is full, because that is where the dividend tax credit and capital losses work.</li>
-        <li><strong>Rebalance with new money and inside registered accounts.</strong> Track adjusted cost base only on the taxable sleeve.</li>
-        <li><strong>Read the current facts sheet and the broker's foreign-exchange preview.</strong> This page will not age into a fee table.</li>
+        <li><a href="https://help.wealthsimple.com/hc/en-ca/articles/360056584994-Non-resident-withholding-taxes-and-how-to-minimize-them">Wealthsimple Help Centre: Non-resident withholding taxes and how to minimize them</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/investments-your-fhsa.html">CRA: Investments in your FHSAs</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Finance Canada: Canada–US tax convention (Articles X and XXI)</a>, reviewed October 23, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-40500-federal-foreign-tax-credit.html">CRA: Line 40500, federal foreign tax credit</a>, reviewed October 23, 2026</li>
+    </ul>
+
+    <h2>Related reading</h2>
+    <ul>
+        <li><a href="/blog/us-withholding-tax-by-account-canada/">US withholding tax by account</a></li>
+        <li><a href="/blog/all-in-one-etfs-vs-diy-canada/">All-in-one ETFs vs a DIY portfolio</a></li>
+        <li><a href="/blog/rebalancing-without-tax-events-canada/">Rebalancing without tax events</a></li>
+        <li><a href="/blog/model-etf-portfolios-canada/">Model ETF portfolios for Canadians</a></li>
     </ul>
 
     <div class="cta-section">
@@ -201,7 +308,7 @@ export const posts: BlogPostRecord[] = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about structuring a Canadian ETF portfolio across account types. It is not investment, tax, or legal advice, and it is not a recommendation to buy any fund or to use any allocation. MERs, holdings, withholding treatment, and tax rules change. Confirm the current ETF facts and your contribution room before you act. Examples that use dollar amounts are illustrations of placement, not projections of return. Consult a registered adviser for a plan that fits your file.</p>
-        <div class="footer-note">Published: September 16, 2026 | Category: Investing | Author: Andrew</div>
+        <div class="footer-note">Published: September 16, 2026 | Updated: October 23, 2026 | Category: Investing | Author: Andrew</div>
     </div>
 
 </div>`
