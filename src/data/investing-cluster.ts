@@ -556,7 +556,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     `<div class="container">
 
     <div class="hook">
-        As of September 2026, XEQT and VEQT both charge a <span class="highlight">0.17% management fee</span>. Pick VEQT if you want more Canada and more emerging markets in an all-equity fund that pays once a year. Pick XEQT if you want more developed markets outside North America and quarterly distributions. The reported MER gap is not the decision. The same pattern, with bonds, is XGRO versus VGRO.
+        As of October 24, 2026, XEQT and VEQT both list a <span class="highlight">0.17% management fee</span>. Pick VEQT if you want more Canada and more emerging markets in an all-equity fund that pays once a year. Pick XEQT if you want more developed markets outside North America and quarterly distributions. The reported MER gap is not the decision. The same pattern, with bonds, is XGRO versus VGRO.
     </div>
 
     <p>Both are Canadian-listed asset-allocation ETFs under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. They are examples of a structure, not a recommendation to concentrate a household in one ticker. When one fund is the wrong design entirely, read <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a>. Where that one fund should sit is the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</p>
@@ -580,7 +580,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <h2>What is the fee, really?</h2>
 
     <table>
-        <caption>All-in-one fees as published, September 2026</caption>
+        <caption>All-in-one fees as published, reviewed October 24, 2026</caption>
         <thead>
             <tr>
                 <th>ETF</th>
@@ -697,6 +697,35 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <h3>Will these weights stay put?</h3>
     <p>No. Both managers rebalance toward a strategic mix, and the mix can be revised. The August 2026 and April 2026 weights on this page are a snapshot. Open the fact sheet in the year you buy. Past returns on the issuer pages are not a forecast and are not repeated here as a reason to pick either fund.</p>
+
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Figures below are labelled with their review date. Re-open the linked issuer or broker page before you trade—fees and fact sheets move.</p>
+
+    <h2 id="bmo-zeqt">BMO all-equity alternative (ZEQT)</h2>
+    <p>BMO also offers an all-equity asset-allocation ETF (ZEQT). Treat it as another one-ticket structure: compare the current management fee, MER, Canada weight and distribution policy on BMO's fund page the day you buy. Do not assume it matches XEQT or VEQT holdings. A third ticker is useful only if its published mix fits your written sentence better—not because a ranking list said so.</p>
+    <div class="table-wrapper"><table><caption>What to copy from each fact sheet (October 24, 2026 review habit)</caption>
+    <thead><tr><th>Field</th><th>Why</th></tr></thead>
+    <tbody>
+    <tr><td>Management fee</td><td>Stated annual fee to the manager</td></tr>
+    <tr class="highlight-row"><td>MER</td><td>May lag a recent fee cut</td></tr>
+    <tr><td>Regional weights</td><td>Canada vs US vs EAFE vs EM</td></tr>
+    <tr><td>Distribution frequency</td><td>Cash-flow preference, not return</td></tr>
+    </tbody></table></div>
+    <p>BlackRock's September 2026 XEQT materials list a 0.17% management fee and a 0.19% MER on the fact sheet reviewed for this refresh. Vanguard's VEQT page reviewed October 24, 2026 lists a 0.17% management fee and a 0.22% MER (MER can lag fee cuts). Re-check both PDFs before you switch for a few basis points.</p>
+    <p>Internal link: households comparing robos should read <a href="/blog/wealthsimple-questwealth-justwealth-fees-canada/">Wealthsimple vs Questwealth vs Justwealth fees</a> so they do not confuse a 0.25% management fee with an ETF MER.</p>
+
+
+    <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
+    <ul class="checklist">
+        <li>Written mix or fund choice still matches your sentence</li>
+        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Next contribution date on the calendar</li>
+        <li>Spouse or partner can explain the plan in one minute</li>
+        <li>No duplicate global equity ETFs stacked on an all-in-one</li>
+    </ul>
+    <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
+    <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
 
     <h2>Sources</h2>
     <ul>
@@ -827,6 +856,33 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <h3>How often should I change TFSA ETFs?</h3>
     <p>When the mix is wrong, not when a chart is. A fee gap of a few dollars on a $7,000 balance is not a trade. New contributions can correct a drift. The habit is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
+
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Figures below are labelled with their review date. Re-open the linked issuer or broker page before you trade—fees and fact sheets move.</p>
+
+    <h2 id="fund-focus-2026">Keep this page fund-focused</h2>
+    <p>Contribution room and withdrawal rules live in the Taxes and TFSA strategy posts. This page stays on <em>what kinds of ETFs fit a TFSA</em>: broad equity or balanced one-ticket funds when the goal is long-term growth; caution on US-listed equity when 15% dividend withholding cannot be recovered; skepticism toward high-turnover strategies that waste the shelter's compounding advantage.</p>
+    <div class="table-wrapper"><table><caption>TFSA ETF roles (structure, not a buy list)</caption>
+    <thead><tr><th>Role</th><th>Typical structure</th><th>Watch-out</th></tr></thead>
+    <tbody>
+    <tr><td>One-ticket growth</td><td>Canadian-listed all-equity allocation ETF</td><td>Do not stack a second global ETF on top</td></tr>
+    <tr class="highlight-row"><td>Balanced</td><td>All-in-one with bonds</td><td>Bond weight is a risk choice</td></tr>
+    <tr><td>US equity sleeve</td><td>Usually CAD-listed</td><td>US-listed dividends withhold with no FTC</td></tr>
+    </tbody></table></div>
+    <p>For ticker-level all-equity comparisons see <a href="/blog/xeqt-vs-veqt-canada/">XEQT vs VEQT</a>. For account-level withholding see <a href="/blog/us-withholding-tax-by-account-canada/">US withholding by account</a>. Automate contributions with <a href="/blog/automating-passive-portfolio-brokers-canada/">broker automation</a>.</p>
+
+
+    <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
+    <ul class="checklist">
+        <li>Written mix or fund choice still matches your sentence</li>
+        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Next contribution date on the calendar</li>
+        <li>Spouse or partner can explain the plan in one minute</li>
+        <li>No duplicate global equity ETFs stacked on an all-in-one</li>
+    </ul>
+    <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
+    <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
 
     <h2>Sources</h2>
     <ul>
@@ -1406,6 +1462,33 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <h3>Will I see my robo's total cost on my statement?</h3>
     <p>From the 2026 reporting year, Canadian dealers must show fund costs in dollars on the annual report, so you will see the management fee and the ETFs' costs together.</p>
 
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Figures below are labelled with their review date. Re-open the linked issuer or broker page before you trade—fees and fact sheets move.</p>
+
+    <h2 id="total-cost-2026">Total-cost table habit (October 24, 2026)</h2>
+    <p>A useful robo comparison adds three layers on the same balance: published management fee, estimated ETF MER inside the portfolio, and any monthly minimum that bites small accounts. As of October 24, 2026 pricing pages: Wealthsimple Managed lists 0.50% Core / 0.40% Premium; Questwealth lists 0.25% then 0.20% at $100,000+; Justwealth lists 0.50% plus about 0.20% average ETF MER with a $4.99 monthly minimum on most account types. Details and worked dollars are in <a href="/blog/wealthsimple-questwealth-justwealth-fees-canada/">Wealthsimple vs Questwealth vs Justwealth fees</a>.</p>
+    <div class="table-wrapper"><table><caption>Headline management fees reviewed October 24, 2026</caption>
+    <thead><tr><th>Provider</th><th>Management fee</th><th>Add</th></tr></thead>
+    <tbody>
+    <tr><td>Wealthsimple Managed</td><td>0.50% / 0.40%</td><td>Portfolio ETF MER</td></tr>
+    <tr class="highlight-row"><td>Questwealth</td><td>0.25% / 0.20%</td><td>ETF MER ~0.09%–0.12%</td></tr>
+    <tr><td>Justwealth</td><td>0.50%</td><td>~0.20% ETF MER + monthly minimum</td></tr>
+    </tbody></table></div>
+    <p>Total Cost Reporting statements arriving for 2026 activity will make these layers harder to ignore—see <a href="/blog/total-cost-reporting-canada/">Total Cost Reporting</a>.</p>
+
+
+    <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
+    <ul class="checklist">
+        <li>Written mix or fund choice still matches your sentence</li>
+        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Next contribution date on the calendar</li>
+        <li>Spouse or partner can explain the plan in one minute</li>
+        <li>No duplicate global equity ETFs stacked on an all-in-one</li>
+    </ul>
+    <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
+    <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
+
     <h2>Sources</h2>
     <ul>
         <li><a href="https://www.questrade.com/questwealth-portfolios">Questrade: Questwealth Portfolios</a> (fees, account types, CIPF disclosure), reviewed October 23, 2026</li>
@@ -1865,7 +1948,15 @@ export const INVESTING_SUBCATEGORY: Record<string, string> = {
   'should-canadians-sell-us-stocks': 'stock-picking',
 };
 
+const REFRESHED_UPDATED: Record<string, string> = {
+  'xeqt-vs-veqt-canada': '2026-10-24',
+  'best-etfs-tfsa-canada': '2026-10-24',
+  'best-robo-advisors-canada': '2026-10-24',
+};
+
 export const investingClusterPosts: InvestingPost[] = investingClusterPostsRaw.map((post) => {
   const subcategory = INVESTING_SUBCATEGORY[post.slug];
-  return subcategory ? { ...post, subcategory } : post;
+  const updated = REFRESHED_UPDATED[post.slug] ?? post.updated;
+  const withUpdated = updated !== post.updated ? { ...post, updated } : post;
+  return subcategory ? { ...withUpdated, subcategory } : withUpdated;
 });

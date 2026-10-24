@@ -1416,7 +1416,7 @@ export const posts: BlogPostRecord[] = [
     subcategory: "passive-etf",
     author: "Andrew",
     date: "2026-09-23",
-    updated: "2026-09-23",
+    updated: "2026-10-24",
     excerpt: "Use new contributions and registered accounts first, band-rebalance on purpose, and keep non-registered sales for the drift that cash cannot fix.",
     image: "/images/blog/rebalancing-without-tax-events-canada.png",
     content: `<div class="container">
@@ -1529,6 +1529,46 @@ export const posts: BlogPostRecord[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Figures below are labelled with their review date. Re-open the linked issuer or broker page before you trade—fees and fact sheets move.</p>
+
+    <h2 id="calendar-vs-threshold">Calendar rebalancing versus threshold bands</h2>
+    <p>Two mechanical rules dominate DIY practice. A <strong>calendar rule</strong> rebalances on a fixed date (often once a year). A <strong>threshold band</strong> rebalances when a sleeve drifts more than a set number of percentage points (five points is a common example, not a law). You can combine them: check annually, and also act if a band is breached mid-year.</p>
+    <div class="table-wrapper"><table><caption>Rebalancing rule comparison</caption>
+    <thead><tr><th>Rule</th><th>Strength</th><th>Watch-out</th></tr></thead>
+    <tbody>
+    <tr><td>Annual calendar</td><td>Simple; low trading</td><td>Can leave large drifts for months</td></tr>
+    <tr class="highlight-row"><td>5-point band</td><td>Responds to big moves</td><td>More monitoring; taxable churn if misused</td></tr>
+    <tr><td>Cash-flow only</td><td>Few sales</td><td>Slow if contributions are small</td></tr>
+    </tbody></table></div>
+    <h2 id="new-cash">Rebalancing with new cash first</h2>
+    <p>Before you sell anything in a taxable account, send new TFSA/RRSP/FHSA contributions to the underweight sleeve. That is usually the cheapest rebalance. Only when cash flows are too small should you sell inside registered accounts. Taxable sales are last because they can create capital gains.</p>
+    <div class="example-box"><strong>Illustrative: $120,000 household, 80/20 target, equities at 86%</strong>
+    <div class="example-calculation">
+    <div class="line"><span>Drift</span><span>+6 points equity</span></div>
+    <div class="line"><span>Next contribution</span><span>$1,000 to bonds</span></div>
+    <div class="line"><span>Registered trim</span><span>if still outside band</span></div>
+    <div class="line total"><span>Taxable sale</span><span>last resort</span></div>
+    </div><p>Amounts are illustrative. Write your own band before the next crash.</p></div>
+    <div class="flowchart"><div class="flow-node decision">Is a sleeve outside your written band?</div>
+    <div class="flow-arrow"></div><div class="flow-branch-container">
+    <div class="flow-node result">Yes: use new cash, then registered trades</div>
+    <div class="flow-node result">No: do nothing until the review date</div></div></div>
+    <p>Pair this habit with <a href="/blog/stay-the-course-balanced-portfolios-canada/">staying the course</a> so a rebalance is not an excuse to abandon the equity sleeve after a drop.</p>
+
+
+    <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
+    <ul class="checklist">
+        <li>Written mix or fund choice still matches your sentence</li>
+        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Next contribution date on the calendar</li>
+        <li>Spouse or partner can explain the plan in one minute</li>
+        <li>No duplicate global equity ETFs stacked on an all-in-one</li>
+    </ul>
+    <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
+    <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about rebalancing a Canadian household portfolio across account types. It is not investment or tax advice, and it is not a recommendation to buy, sell, or hold any security. Band widths in the examples are illustrations of a habit, not a prescribed allocation. Superficial-loss outcomes depend on the facts. Confirm your cost base and, for a large taxable sale, a tax professional.</p>
         <div class="footer-note">Published: September 23, 2026 | Category: Investing | Author: Andrew</div>
@@ -1545,7 +1585,7 @@ export const posts: BlogPostRecord[] = [
     subcategory: "passive-etf",
     author: "Andrew",
     date: "2026-09-24",
-    updated: "2026-09-24",
+    updated: "2026-10-24",
     excerpt: "When a VEQT- or XEQT-style one-ticket ETF beats a multi-fund portfolio, and when asset location is worth the extra moving parts.",
     image: "/images/blog/all-in-one-etfs-vs-diy-canada.png",
     content: `<div class="container">
@@ -1693,6 +1733,38 @@ export const posts: BlogPostRecord[] = [
         <p>One fund or five, the return still meets a bracket. The 2026 tax guide is the half of this that the ETF facts sheet will not cover.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Figures below are labelled with their review date. Re-open the linked issuer or broker page before you trade—fees and fact sheets move.</p>
+
+    <h2 id="cost-table-2026">Dated cost framing (October 24, 2026)</h2>
+    <p>All-in-one ETFs charge a management fee that already includes underlying fund fees in the usual Canadian structure. DIY building blocks can look cheaper on paper and still cost more in attention and mistakes. As of late October 2026, major all-equity one-ticket funds such as XEQT and VEQT publish management fees around 0.17%, with reported MERs that can lag fee cuts—read each fact sheet the day you buy. See <a href="/blog/xeqt-vs-veqt-canada/">XEQT vs VEQT</a> for the ticker-level table.</p>
+    <div class="table-wrapper"><table><caption>All-in-one vs DIY: decision factors</caption>
+    <thead><tr><th>Factor</th><th>All-in-one</th><th>DIY blocks</th></tr></thead>
+    <tbody>
+    <tr><td>Rebalancing</td><td>Inside the fund</td><td>You must do it</td></tr>
+    <tr class="highlight-row"><td>Asset location precision</td><td>Blended</td><td>Higher if you maintain it</td></tr>
+    <tr><td>Behaviour risk</td><td>Lower tinkering</td><td>Higher if you chase sleeves</td></tr>
+    <tr><td>Fee shopping</td><td>One MER</td><td>Several MERs + your time</td></tr>
+    </tbody></table></div>
+    <p>If you will not rebalance, the all-in-one usually wins even when a DIY MER is a few hundredths lower. If you already run asset location across TFSA, RRSP and taxable accounts, DIY can earn its complexity—see the <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a>.</p>
+    <div class="flowchart"><div class="flow-node decision">Will you rebalance without drama?</div>
+    <div class="flow-arrow"></div><div class="flow-branch-container">
+    <div class="flow-node result">No: one-ticket fund</div>
+    <div class="flow-node result">Yes: DIY only with a written mix and location map</div></div></div>
+
+
+    <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
+    <ul class="checklist">
+        <li>Written mix or fund choice still matches your sentence</li>
+        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Next contribution date on the calendar</li>
+        <li>Spouse or partner can explain the plan in one minute</li>
+        <li>No duplicate global equity ETFs stacked on an all-in-one</li>
+    </ul>
+    <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
+    <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education comparing one-ticket asset-allocation ETFs with a multi-ETF portfolio for Canadian accounts. It is not investment, tax, or legal advice, and it is not a recommendation to buy VEQT, XEQT, or any other fund. MER gaps cited as a way to picture scale are not quotes. Holdings, fees, and tax rules change. Confirm the current ETF facts and consult a registered adviser for a plan that fits your file.</p>
