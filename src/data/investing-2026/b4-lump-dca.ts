@@ -152,7 +152,7 @@ export const lumpSumVsDollarCostAveragingCanada = invPost(
     <ol>
         <li><strong>Pick a short period.</strong> Three to six months. The data shows longer plans lose more often.</li>
         <li><strong>Set the dates and amounts now.</strong> For example, $10,000 on the 1st of each month for six months.</li>
-        <li><strong>Automate it where you can.</strong> Many brokers offer scheduled purchases. Our planned guide on automating a passive portfolio will compare them.</li>
+        <li><strong>Automate it where you can.</strong> Many brokers offer scheduled purchases so the money goes in on the dates you chose, without a fresh decision each month.</li>
         <li><strong>Park the waiting cash somewhere that pays.</strong> A high-interest savings account or cash ETF. See <a href="/blog/cash-vs-psa-vs-cbil-hisa-etf/">cash ETFs compared</a>.</li>
         <li><strong>Don't change the plan on the news.</strong> Skipping a purchase because markets look scary is market timing.</li>
     </ol>
