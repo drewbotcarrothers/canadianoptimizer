@@ -20,7 +20,8 @@ export function octPost(
   slug: string,
   title: string,
   excerpt: string,
-  content: string
+  content: string,
+  updatedDate: string = date
 ): OctPost {
   return {
     title,
@@ -29,7 +30,7 @@ export function octPost(
     categorySlug,
     author: 'Andrew',
     date,
-    updated: date,
+    updated: updatedDate,
     excerpt,
     image: `/images/blog/${slug}.png`,
     content,

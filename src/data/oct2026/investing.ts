@@ -130,6 +130,22 @@ export const oct2026InvestingPosts = [
     <h3>Is this safer than owning the banks directly?</h3>
     <p>The premium is a limited cushion. The sector risk remains. A covered call does not diversify a bank fund into a balanced portfolio. It changes the shape of the return: a bit more cash in flat markets, less participation when the shares run, and the same uncomfortable drawdown when they do not, minus a finite premium.</p>
 
+
+    <h2 id="oct2026-refresh">October 24, 2026 refresh notes</h2>
+    <p>This section was expanded on October 24, 2026 to meet the Investing subcategory depth standard. Re-open BMO fact sheets before you trade—distribution yields and performance figures move.</p>
+    <h2 id="roc-composition">Distribution composition and return of capital</h2>
+    <p>A covered-call ETF's cash distribution can include eligible dividends, other income, capital gains and return of capital (ROC). ROC is not free yield: it reduces your adjusted cost base in a taxable account. Read the fund's year-end tax breakdown and our <a href="/blog/return-of-capital-t3-t5-slips-canada/">return of capital guide</a> before you treat a 6%+ cash yield as income you "earned."</p>
+    <div class="table-wrapper"><table><caption>What a monthly cash distribution might be made of</caption>
+    <thead><tr><th>Component</th><th>Why it matters</th></tr></thead>
+    <tbody>
+    <tr><td>Eligible dividends</td><td>Dividend tax credit in taxable accounts</td></tr>
+    <tr><td>Other income / option premium</td><td>Often fully taxable as income</td></tr>
+    <tr class="highlight-row"><td>Return of capital</td><td>Lowers ACB; not a raise</td></tr>
+    <tr><td>Capital gains</td><td>Different inclusion rules</td></tr>
+    </tbody></table></div>
+    <p>Compare total return to a plain equity index in the same sector, not just distribution yield. Option overlays can cap upside in recoveries. Size covered-call funds as a sleeve with a written job, not as a second "diversifier" on top of an all-in-one.</p>
+    <p>For payment-frequency myths see <a href="/blog/monthly-dividends-frequency-canada/">monthly dividends</a>.</p>
+
     <h2>Sources</h2>
     <ul>
         <li><a href="https://df.bmogam.com/assets/static/etf-profiles-pdfs/BMO-Covered-Call-Canadian-Banks-ETF-Factsheet-ZWB.pdf">BMO: ZWB ETF fact sheet, characteristics and performance as of August 31, 2026</a></li>
@@ -139,7 +155,8 @@ export const oct2026InvestingPosts = [
 
     ${footer}
 
-</div>`
+</div>`,
+    '2026-10-24'
   ),
   octPost(
     'Investing',
