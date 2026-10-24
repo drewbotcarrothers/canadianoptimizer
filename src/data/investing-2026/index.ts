@@ -32,6 +32,14 @@ import { buyingUsStocksFromCanada } from './b5-us-stocks';
 import { beatingTheIndexPortfolioReturnCanada } from './b5-beat-index';
 import { feeOnlyAdviceOnlyPlannersCanada } from './b5-fee-only';
 import { advisorComplaintObsiCipfCanada } from './b5-complaint';
+import { cipfVsCdicOnlineBrokerCanada } from './b6-cipf-cdic';
+import { respInvestingAgeGlidePathCanada } from './b6-resp';
+import { wealthsimpleQuestwealthJustwealthFeesCanada } from './b6-robo';
+import { bestEtfsRrspUsListedCanada } from './b6-rrsp';
+import { automatingPassivePortfolioBrokersCanada } from './b6-auto';
+import { utilitiesPipelinesTelcosDividendsCanada } from './b6-util';
+import { monthlyDividendsFrequencyCanada } from './b6-month';
+import { stockResearchToolsCanadaFreePaid } from './b6-tools';
 import type { Investing2026Post } from './types';
 
 /** Investing subcategory pillars and spokes added from October 23, 2026. Each post carries its own subcategory. */
@@ -70,4 +78,12 @@ export const investing2026Posts: Investing2026Post[] = [
   beatingTheIndexPortfolioReturnCanada,
   feeOnlyAdviceOnlyPlannersCanada,
   advisorComplaintObsiCipfCanada,
+  cipfVsCdicOnlineBrokerCanada,
+  respInvestingAgeGlidePathCanada,
+  wealthsimpleQuestwealthJustwealthFeesCanada,
+  bestEtfsRrspUsListedCanada,
+  automatingPassivePortfolioBrokersCanada,
+  utilitiesPipelinesTelcosDividendsCanada,
+  monthlyDividendsFrequencyCanada,
+  stockResearchToolsCanadaFreePaid,
 ];
