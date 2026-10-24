@@ -23,6 +23,15 @@ import { stockValuationBasicsCanada } from './b4-valuation';
 import { whenToSellAStockCanada } from './b4-sell';
 import { transferInvestmentAccountLeaveAdvisorCanada } from './b4-transfer';
 import { isAFinancialAdvisorWorthItCanada } from './b4-advisor-worth';
+
+import { stayTheCourseBalancedPortfoliosCanada } from './b5-stay-course';
+import { tooManyEtfsOverlapMistakesCanada } from './b5-etf-mistakes';
+import { canadianBankStocksDividendCanada } from './b5-banks';
+import { liveOffDividendsCanada } from './b5-live-div';
+import { buyingUsStocksFromCanada } from './b5-us-stocks';
+import { beatingTheIndexPortfolioReturnCanada } from './b5-beat-index';
+import { feeOnlyAdviceOnlyPlannersCanada } from './b5-fee-only';
+import { advisorComplaintObsiCipfCanada } from './b5-complaint';
 import type { Investing2026Post } from './types';
 
 /** Investing subcategory pillars and spokes added from October 23, 2026. Each post carries its own subcategory. */
@@ -53,4 +62,12 @@ export const investing2026Posts: Investing2026Post[] = [
   whenToSellAStockCanada,
   transferInvestmentAccountLeaveAdvisorCanada,
   isAFinancialAdvisorWorthItCanada,
+  stayTheCourseBalancedPortfoliosCanada,
+  tooManyEtfsOverlapMistakesCanada,
+  canadianBankStocksDividendCanada,
+  liveOffDividendsCanada,
+  buyingUsStocksFromCanada,
+  beatingTheIndexPortfolioReturnCanada,
+  feeOnlyAdviceOnlyPlannersCanada,
+  advisorComplaintObsiCipfCanada,
 ];
