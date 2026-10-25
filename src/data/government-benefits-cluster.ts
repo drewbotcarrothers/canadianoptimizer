@@ -36,9 +36,16 @@ function benefitsPost(
   };
 }
 
-const footer = (published: string) => `<div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about Canadian government benefits as of September 2026. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. Amounts, income thresholds, co-payments, and payment dates change, and they depend on your return, your residence, and the notice CRA or Service Canada actually issues. Figures below are tied to Canada.ca, CRA, ESDC, or Department of Finance pages reviewed in September 2026. Dollar examples marked as illustrations are arithmetic on those figures, not a quote of your file. Confirm My Account, My Service Canada Account, and the current notice before you spend a payment you have not received.</p>
-        <div class="footer-note">Published: ${published} | Category: Government Benefits | Author: Andrew</div>
+const defaultBenefitsDisclaimer =
+  'This is general education about Canadian government benefits as of September 2026. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. Amounts, income thresholds, co-payments, and payment dates change, and they depend on your return, your residence, and the notice CRA or Service Canada actually issues. Figures below are tied to Canada.ca, CRA, ESDC, or Department of Finance pages reviewed in September 2026. Dollar examples marked as illustrations are arithmetic on those figures, not a quote of your file. Confirm My Account, My Service Canada Account, and the current notice before you spend a payment you have not received.';
+
+const footer = (
+  published: string,
+  updated?: string,
+  disclaimer: string = defaultBenefitsDisclaimer
+) => `<div class="article-footer">
+        <p><strong>Disclaimer:</strong> ${disclaimer}</p>
+        <div class="footer-note">Published: ${published}${updated ? ` | Updated: ${updated}` : ''} | Category: Government Benefits | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';
@@ -239,178 +246,518 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 
 </div>`
   ),
-  benefitsPost(
+  {
+    ...benefitsPost(
     'canada-benefit-payment-dates',
-    'Government Benefit Payment Dates 2026: CCB, GST/HST Credit, CPP, OAS',
-    'Still ahead in 2026: disability benefit October 15, groceries benefit October 5, child benefit October 20, and CPP and OAS on October 28.',
+    'Canada Benefit Payment Dates 2026: CPP, OAS, CCB and the Groceries Benefit (GST Credit)',
+    'Next Canada benefit payment dates: CCB Nov 20 and Dec 11, CPP and OAS Nov 26 and Dec 22, groceries benefit (GST credit) Jan 5, 2027. Checked Oct 25, 2026.',
     `<div class="container">
 
     <div class="hook">
-        From September 27, 2026, the next federal dates are concrete. The Canada Disability Benefit pays on <span class="highlight">October 15</span>. The Canada Groceries and Essentials Benefit, which replaced the GST/HST credit in July, pays on October 5. The Canada Child Benefit pays on October 20. CPP and Old Age Security pay on October 28. There is no 2026 Canada Carbon Rebate date.
+        Canada's next federal benefit payment dates are already set. The Canada Child Benefit pays November 20, then <span class="highlight">December 11, nine days earlier than its usual 20th</span>, and CPP and Old Age Security pay November 26 and December 22. The next Groceries and Essentials Benefit, the renamed GST/HST credit, is January 5, 2027.
     </div>
 
-    <p>This is a calendar, not a calculator. Amounts live on the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>. Why a child benefit changes in July, rather than on payday, is the <a href="/blog/canada-child-benefit-optimization-canada/">CCB guide</a>. If a date below is a statutory holiday in a later year, CRA's own rule is to pay on the business day before. Use the dated list for 2026, not a remembered "the 20th."</p>
+    <p>As of October 25, 2026, Canada.ca and the Canada Revenue Agency (CRA) list the next dates: Canada Child Benefit (CCB) November 20 and December 11, Canada Pension Plan (CPP) and Old Age Security (OAS) November 26 and December 22, Canada Disability Benefit (CDB) November 19 and December 17, and Canada Groceries and Essentials Benefit (CGEB) January 5, 2027.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>CPP and OAS share one 2026 calendar: the last business-style dates are October 28, November 26, and December 22.</li>
-            <li>January 5 and April 2, 2026 were still GST/HST credit payments, based on the 2024 return. July 3 and October 5 are Canada Groceries and Essentials Benefit payments, based on the 2025 return.</li>
-            <li>Canada Child Benefit dates skip the exact 20th in June (the 19th), September (the 18th), and December (the 11th).</li>
-            <li>The Canada Disability Benefit is the third Thursday of the month. In 2026 that includes September 17, October 15, November 19, and December 17.</li>
-            <li>A benefit under CRA's minimum is not paid on the monthly or quarterly rhythm. It is rolled into one payment, usually in July.</li>
+            <li>The next Canada Child Benefit is November 20, 2026, then December 11, nine days earlier than the usual 20th. CPP and OAS share the same dates, including October 28, November 26, and December 22.</li>
+            <li>CPP and OAS use one 2026 calendar. CPP covers retirement, disability, children's, and survivor benefits. OAS covers the pension, the Guaranteed Income Supplement (GIS), the Allowance, and the Allowance for the Survivor.</li>
+            <li>The next Canada Groceries and Essentials Benefit, the renamed GST/HST credit, is January 5, 2027, then April 5, 2027.</li>
+            <li>A small amount is often one lump sum: CCB under $20 a month (under $240 for the year) with the July payment, CGEB under $50 a quarter as the whole year in July, CDB of $240 or less for the July-to-June year on the next scheduled date, and an Ontario Trillium Benefit (OTB) of $500 or less in the first payment month, usually July.</li>
+            <li>The Canada Carbon Rebate is closed. The last quarterly payments were January 15 and April 22, 2025. There is no 2026 date.</li>
         </ul>
     </div>
 
-    <h2>When do CPP and OAS pay in 2026?</h2>
+    <nav class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#next-dates">What are the next benefit payment dates in Canada?</a></li>
+            <li><a href="#december-early">Why are December benefit payments early?</a></li>
+            <li><a href="#cpp-oas">When do CPP and OAS pay in 2026?</a></li>
+            <li><a href="#ccb-groceries">When do the Canada Child Benefit and the groceries benefit pay?</a></li>
+            <li><a href="#cdb">When does the Canada Disability Benefit pay?</a></li>
+            <li><a href="#easy-to-mix-up">Which other CRA dates are easy to mix up?</a></li>
+            <li><a href="#money-not-there">What if the money is not there on the date?</a></li>
+            <li><a href="#ontario-household">What dates does an Ontario household see?</a></li>
+            <li><a href="#before-each-payment">Before each payment date</a></li>
+            <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
+        </ul>
+    </nav>
 
-    <p>Service Canada pays CPP and OAS on the same dates. Someone who receives both should see two deposits, or one combined deposit, on that day, depending on the bank's posting. GIS is paid with OAS. The income tests that decide whether the OAS deposit is intact are <a href="/blog/oas-gis-income-stacking-canada/">OAS and GIS income stacking</a>. The start-date choice that changes the CPP deposit later is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing</a>.</p>
+    <p>This page sits in the <a href="/category/government-benefits/">government benefits</a> category. It is a calendar, not a calculator. Amounts live on the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>. Why a child benefit changes in July, rather than on payday, is the <a href="/blog/canada-child-benefit-optimization-canada/">CCB guide</a>. If a date below is a statutory holiday in a later year, CRA's own rule is to pay on the business day before. Use the dated list for 2026, not a remembered "the 20th."</p>
 
-    <table>
-        <caption>CPP and Old Age Security payment dates, 2026</caption>
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>CPP and OAS</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>January</td><td>January 28, 2026</td></tr>
-            <tr><td>February</td><td>February 25, 2026</td></tr>
-            <tr><td>March</td><td>March 27, 2026</td></tr>
-            <tr><td>April</td><td>April 28, 2026</td></tr>
-            <tr><td>May</td><td>May 27, 2026</td></tr>
-            <tr><td>June</td><td>June 26, 2026</td></tr>
-            <tr><td>July</td><td>July 29, 2026</td></tr>
-            <tr><td>August</td><td>August 27, 2026</td></tr>
-            <tr><td>September</td><td>September 25, 2026</td></tr>
-            <tr><td>October</td><td>October 28, 2026</td></tr>
-            <tr><td>November</td><td>November 26, 2026</td></tr>
-            <tr><td>December</td><td>December 22, 2026</td></tr>
-        </tbody>
-    </table>
+    <h2 id="next-dates">What are the next benefit payment dates in Canada?</h2>
 
-    <p>Table as of September 2026, from the Canada.ca benefits calendar. CPP disability uses this same CPP schedule. A printable CPP and OAS calendar is linked from the CPP disability payment page.</p>
+    <p>Two October dates are still ahead of October 25 and are on the full-year tables below: CPP and OAS on <strong>October 28</strong>, and the veteran disability pension on <strong>October 29</strong>. The table here is the run from November 10, 2026 through the January 5, 2027 groceries benefit. Canada.ca issues a payment on the listed day. It can still take a few days to appear, and a cheque takes longer than direct deposit.</p>
 
-    <h2>When do the Canada Child Benefit and the groceries benefit pay?</h2>
+    <div class="table-wrapper">
+        <table>
+            <caption>Benefit payment dates still ahead after October 25, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Payment</th>
+                    <th>Who pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tuesday, November 10, 2026</td>
+                    <td>Ontario Trillium Benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr>
+                    <td>Thursday, November 19, 2026</td>
+                    <td>Canada Disability Benefit</td>
+                    <td>Service Canada</td>
+                </tr>
+                <tr>
+                    <td>Friday, November 20, 2026</td>
+                    <td>Canada Child Benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr>
+                    <td>Wednesday, November 25, 2026</td>
+                    <td>Newfoundland and Labrador disability benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr>
+                    <td>Thursday, November 26, 2026</td>
+                    <td>CPP, plus OAS and GIS</td>
+                    <td>Service Canada</td>
+                </tr>
+                <tr>
+                    <td>Friday, November 27, 2026</td>
+                    <td>Alberta child and family benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr>
+                    <td>Friday, November 27, 2026</td>
+                    <td>Veteran disability pension</td>
+                    <td>Veterans Affairs Canada</td>
+                </tr>
+                <tr>
+                    <td>Thursday, December 10, 2026</td>
+                    <td>Ontario Trillium Benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Friday, December 11, 2026</td>
+                    <td>Canada Child Benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr>
+                    <td>Thursday, December 17, 2026</td>
+                    <td>Canada Disability Benefit</td>
+                    <td>Service Canada</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Tuesday, December 22, 2026</td>
+                    <td>CPP, plus OAS and GIS</td>
+                    <td>Service Canada</td>
+                </tr>
+                <tr>
+                    <td>Wednesday, December 23, 2026</td>
+                    <td>Veteran disability pension</td>
+                    <td>Veterans Affairs Canada</td>
+                </tr>
+                <tr>
+                    <td>Thursday, December 24, 2026</td>
+                    <td>Newfoundland and Labrador disability benefit</td>
+                    <td>CRA</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Tuesday, January 5, 2027</td>
+                    <td>Canada Groceries and Essentials Benefit</td>
+                    <td>CRA</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>These are CRA benefits. The child benefit is monthly. The groceries benefit is quarterly. The January and April 2026 quarters were paid under the GST/HST credit name, from the 2024 return. July and October are the new benefit, from the 2025 return. Amounts and the rename are the <a href="/blog/gst-hst-credit-groceries-essentials-benefit/">Groceries and Essentials Benefit guide</a>.</p>
+    <p>December's Canada Child Benefit and CPP and OAS dates are earlier than usual. The next section is why that changes the gap before January.</p>
 
-    <table>
-        <caption>Canada Child Benefit and GST/HST credit or Groceries and Essentials Benefit, 2026</caption>
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>Canada Child Benefit</th>
-                <th>GST/HST credit, then Groceries and Essentials Benefit</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>January</td><td>January 20, 2026</td><td>January 5, 2026, GST/HST credit, 2024 return</td></tr>
-            <tr><td>February</td><td>February 20, 2026</td><td>None</td></tr>
-            <tr><td>March</td><td>March 20, 2026</td><td>None</td></tr>
-            <tr><td>April</td><td>April 20, 2026</td><td>April 2, 2026, GST/HST credit, 2024 return</td></tr>
-            <tr><td>May</td><td>May 20, 2026</td><td>None</td></tr>
-            <tr><td>June</td><td>June 19, 2026</td><td>None. A one-time GST/HST credit top-up was issued June 5, 2026, separate from the quarterly date.</td></tr>
-            <tr><td>July</td><td>July 20, 2026</td><td>July 3, 2026, Groceries and Essentials Benefit, 2025 return</td></tr>
-            <tr><td>August</td><td>August 20, 2026</td><td>None</td></tr>
-            <tr><td>September</td><td>September 18, 2026</td><td>None</td></tr>
-            <tr><td>October</td><td>October 20, 2026</td><td>October 5, 2026, Groceries and Essentials Benefit, 2025 return</td></tr>
-            <tr><td>November</td><td>November 20, 2026</td><td>None</td></tr>
-            <tr><td>December</td><td>December 11, 2026</td><td>None. The next quarterly date is in January 2027.</td></tr>
-        </tbody>
-    </table>
+    <h2 id="december-early">Why are December benefit payments early?</h2>
 
-    <p>Table as of September 2026. CRA's child-benefit guide says the payment is generally on the 20th, and on the business day before when the 20th is a weekend or a federal holiday. If the monthly child benefit is under $20, CRA pays the whole July 2026 to June 2027 period as one amount on July 20, 2026 or later. The payment-dates page states the same rule as an annual total under $240. If a Groceries and Essentials Benefit quarter would be under $50, CRA pays the entire annual amount in July.</p>
+    <p>December's Canada Child Benefit is <strong>December 11, 2026</strong>, not the 20th. November's was November 20. December's CPP and OAS date is <strong>December 22, 2026</strong>. November's was November 26. Both December dates sit earlier in the month than the November ones.</p>
 
-    <h2>When does the Canada Disability Benefit pay?</h2>
+    <p>Guide <span class="form-ref">T4114</span> says CRA generally pays the child benefit on the 20th. If the 20th is a Saturday, a Sunday, or a federal statutory holiday, CRA pays on the last business day before. <strong>December 20, 2026 is a Sunday.</strong> The published December 11 date is earlier than that weekend rule alone would give. CRA has not published a reason for the extra days. Do not fill the gap with a guess.</p>
 
-    <p>Service Canada pays it on the third Thursday. The first month of eligibility was June 2025, and payments began in July 2025. Your first payment is the third Thursday of the month after approval, and it can include back payments. The eligibility rules and the $204.20 maximum are the <a href="/blog/canada-disability-benefit-guide/">Canada Disability Benefit guide</a>.</p>
+    <div class="did-you-know">
+        <strong>Did you know:</strong>
+        <p>December 20, 2026 is a Sunday, and the Canada Child Benefit date CRA published for that month is December 11, 2026. That is earlier than the weekend rule alone.</p>
+    </div>
 
-    <table>
-        <caption>Canada Disability Benefit payment dates, 2026</caption>
-        <thead>
-            <tr>
-                <th>Month</th>
-                <th>Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>January</td><td>January 15, 2026</td></tr>
-            <tr><td>February</td><td>February 19, 2026</td></tr>
-            <tr><td>March</td><td>March 19, 2026</td></tr>
-            <tr><td>April</td><td>April 16, 2026</td></tr>
-            <tr><td>May</td><td>May 21, 2026</td></tr>
-            <tr><td>June</td><td>June 18, 2026</td></tr>
-            <tr><td>July</td><td>July 16, 2026</td></tr>
-            <tr><td>August</td><td>August 20, 2026</td></tr>
-            <tr><td>September</td><td>September 17, 2026</td></tr>
-            <tr><td>October</td><td>October 15, 2026</td></tr>
-            <tr><td>November</td><td>November 19, 2026</td></tr>
-            <tr><td>December</td><td>December 17, 2026</td></tr>
-        </tbody>
-    </table>
+    <p>A household should budget for a longer gap from these December deposits to the January payment. The December 11 child benefit is not a deposit you can treat as if January still arrives on the 20th of the same pattern. Spending it on that assumption is how the month after Christmas runs short.</p>
 
-    <p>Table as of September 2026, from the Canada.ca benefits calendar. If the yearly Canada Disability Benefit for July through the following June is $240 or less, which is $20 or less a month, Service Canada pays one lump sum on the next scheduled date instead of monthly payments.</p>
+    <p>CRA's 20th rule points to Wednesday, January 20, 2027, but the 2027 list was not published as of October 25, 2026. January 20 is an expectation from the rule, not a posted Canada Child Benefit date. The groceries benefit is different: guide <span class="form-ref">RC4210</span> already lists <strong>January 5, 2027</strong>. That date is published. The child-benefit date for January is not.</p>
 
-    <h2>Which other CRA dates are easy to mix up with these?</h2>
+    <p>The full CPP and OAS list is the shared calendar those December dates come from. The child benefit does not use it.</p>
 
-    <p>The Advanced Canada workers benefit has three 2026 dates: January 12, July 10, and October 9. This page does not quote a Canada Workers Benefit dollar amount. The advance is a portion of a credit you reconcile on the return. The Ontario Trillium Benefit, which bundles the Ontario energy and property tax credit, the Northern Ontario energy credit, and the Ontario sales tax credit, pays in 2026 on January 9, February 10, March 10, April 10, May 8, June 10, July 10, August 10, September 10, October 9, November 10, and December 10. Ontario says the 2026 payments from a 2025 return generally start in July and fall on the 10th, with those earlier dates belonging to the prior benefit year. If the annual Ontario amount is $500 or less, it is one payment in the first month, usually July. Over $500, you can wait for a single payment at the end of the benefit year. Provincial programs that are not on the federal calendar are <a href="/blog/provincial-benefits-programs-canada/">provincial benefits</a>.</p>
+    <h2 id="cpp-oas">When do CPP and OAS pay in 2026?</h2>
+
+    <p>Service Canada pays CPP and OAS on the same dates. Someone who receives both should expect both on that day, as two deposits or one combined deposit, depending on how the bank posts them. GIS is paid with OAS. The same dates cover the OAS pension, the Allowance, and the Allowance for the Survivor. CPP on this calendar includes the retirement pension, the disability benefit, children's benefits, and survivor benefits.</p>
+
+    <p><strong>October 28, 2026</strong> is still this month's CPP and OAS date. After that, both programs share <strong>November 26</strong> and <strong>December 22</strong>, and they share every other date on this list.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>CPP and Old Age Security payment dates, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>CPP and OAS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>January</td><td>January 28, 2026</td></tr>
+                <tr><td>February</td><td>February 25, 2026</td></tr>
+                <tr><td>March</td><td>March 27, 2026</td></tr>
+                <tr><td>April</td><td>April 28, 2026</td></tr>
+                <tr><td>May</td><td>May 27, 2026</td></tr>
+                <tr><td>June</td><td>June 26, 2026</td></tr>
+                <tr><td>July</td><td>July 29, 2026</td></tr>
+                <tr><td>August</td><td>August 27, 2026</td></tr>
+                <tr><td>September</td><td>September 25, 2026</td></tr>
+                <tr><td>October</td><td>October 28, 2026</td></tr>
+                <tr class="highlight-row"><td>November</td><td>November 26, 2026</td></tr>
+                <tr class="highlight-row"><td>December</td><td>December 22, 2026</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Table as of October 25, 2026, from the <a href="https://www.canada.ca/en/services/benefits/calendar.html">Canada.ca benefits calendar</a>. Quebec workers contribute to the Quebec Pension Plan, not the CPP. The dates above are the Canada.ca CPP and OAS calendar. They are not a Quebec Pension Plan schedule, and this page does not print one. The child benefit and the groceries benefit use a different list.</p>
+
+    <h2 id="ccb-groceries">When do the Canada Child Benefit and the groceries benefit pay?</h2>
+
+    <p>These are CRA benefits. The Canada Child Benefit is monthly. The groceries benefit is quarterly. January to June 2026 child-benefit payments were based on the 2024 return. July to December 2026 payments are based on the 2025 return. January 5 and April 2, 2026 were still GST/HST credit payments, from the 2024 return. July 3 and October 5, 2026 are Canada Groceries and Essentials Benefit payments, from the 2025 return. Amounts and the rename are the <a href="/blog/gst-hst-credit-groceries-essentials-benefit/">Groceries and Essentials Benefit guide</a>.</p>
+
+    <p>The next Canada Child Benefit dates are <strong>November 20 and December 11, 2026</strong>, and the next Groceries and Essentials Benefit is <strong>January 5, 2027</strong>.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Canada Child Benefit and GST/HST credit or Groceries and Essentials Benefit, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Canada Child Benefit</th>
+                    <th>GST/HST credit, then Groceries and Essentials Benefit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>January</td><td>January 20, 2026</td><td>January 5, 2026, GST/HST credit, 2024 return</td></tr>
+                <tr><td>February</td><td>February 20, 2026</td><td>None</td></tr>
+                <tr><td>March</td><td>March 20, 2026</td><td>None</td></tr>
+                <tr><td>April</td><td>April 20, 2026</td><td>April 2, 2026, GST/HST credit, 2024 return</td></tr>
+                <tr><td>May</td><td>May 20, 2026</td><td>None</td></tr>
+                <tr><td>June</td><td>June 19, 2026</td><td>None. A one-time GST/HST credit top-up was issued June 5, 2026, separate from the quarterly date.</td></tr>
+                <tr><td>July</td><td>July 20, 2026</td><td>July 3, 2026, Groceries and Essentials Benefit, 2025 return</td></tr>
+                <tr><td>August</td><td>August 20, 2026</td><td>None</td></tr>
+                <tr><td>September</td><td>September 18, 2026</td><td>None</td></tr>
+                <tr><td>October</td><td>October 20, 2026</td><td>October 5, 2026, Groceries and Essentials Benefit, 2025 return</td></tr>
+                <tr class="highlight-row"><td>November</td><td>November 20, 2026</td><td>None</td></tr>
+                <tr class="highlight-row"><td>December</td><td>December 11, 2026</td><td>None. The next quarterly date is January 5, 2027.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Table as of October 25, 2026. The child-benefit dates are CRA's published list, including June 19, September 18, and December 11. Guide <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4114/canada-child-benefit.html">T4114</a> is the 20th rule. The <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html">CCB payment-dates page</a> is the monthly list. If the monthly child benefit is under $20, CRA pays the July 2026 to June 2027 period as one amount on July 20, 2026 or later. That page states the same rule as an annual total under $240, paid with July.</p>
+
+    <p>Guide <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html">RC4210</a> pays the Groceries and Essentials Benefit on the 5th of July and October 2026 and of January and April 2027. If the 5th is a Saturday, a Sunday, or a federal statutory holiday, the payment moves to the last business day before. July 5, 2026 was a Sunday, so that quarter was <strong>July 3</strong>. <strong>January 5, 2027 is a Tuesday</strong> and <strong>April 5, 2027 is a Monday</strong>, so both stay on the 5th. If a quarter would be under $50, CRA pays the entire annual amount in July.</p>
+
+    <p>File the 2025 return after July and the new groceries amount waits for the assessment. Missed amounts are paid retroactively in the next scheduled payment. They are not dropped. Some provincial amounts ride in the same deposit: New Brunswick, Newfoundland and Labrador, Nova Scotia, Prince Edward Island, and Saskatchewan. The Ontario sales tax credit does not. It is part of the Ontario Trillium Benefit.</p>
+
+    <p>Starting November 2026, the Prince Edward Island sales tax credit is renamed the Prince Edward Island essentials benefit, with a new <strong>$175 minimum payment</strong> for residents who qualify. The one-time GST/HST credit top-up was issued June 5, 2026, separate from the quarterly dates. It is not a fifth quarter. The Canada Disability Benefit is a different cheque, on a Thursday, not on the 20th and not on the 5th.</p>
+
+    <h2 id="cdb">When does the Canada Disability Benefit pay?</h2>
+
+    <p>Service Canada pays the Canada Disability Benefit on the third Thursday. The first payment is in the month after approval. Payments are non-taxable. To stay eligible, the Disability Tax Credit has to remain approved and a return has to be filed by <strong>April 30</strong> each year. Eligibility rules and the $204.20 maximum are in the <a href="/blog/canada-disability-benefit-guide/">Canada Disability Benefit guide</a>.</p>
+
+    <p>The next Canada Disability Benefit dates are <strong>November 19 and December 17, 2026</strong>.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Canada Disability Benefit payment dates, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>January</td><td>January 15, 2026</td></tr>
+                <tr><td>February</td><td>February 19, 2026</td></tr>
+                <tr><td>March</td><td>March 19, 2026</td></tr>
+                <tr><td>April</td><td>April 16, 2026</td></tr>
+                <tr><td>May</td><td>May 21, 2026</td></tr>
+                <tr><td>June</td><td>June 18, 2026</td></tr>
+                <tr><td>July</td><td>July 16, 2026</td></tr>
+                <tr><td>August</td><td>August 20, 2026</td></tr>
+                <tr><td>September</td><td>September 17, 2026</td></tr>
+                <tr><td>October</td><td>October 15, 2026</td></tr>
+                <tr class="highlight-row"><td>November</td><td>November 19, 2026</td></tr>
+                <tr class="highlight-row"><td>December</td><td>December 17, 2026</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Table as of October 25, 2026, from the <a href="https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit/payments.html">Canada.ca Canada Disability Benefit payments page</a> and the benefits calendar. If the yearly amount for July through the following June is $240 or less, which is $20 a month or less, Service Canada pays one lump sum on the next scheduled date instead of monthly payments. A few other dates land in the same weeks and get mistaken for this one.</p>
+
+    <h2 id="easy-to-mix-up">Which other CRA dates are easy to mix up?</h2>
+
+    <p>The Advanced Canada workers benefit has three 2026 dates: <strong>January 12, July 10, and October 9</strong>. All three are already past as of October 25, 2026. This page does not quote a dollar amount for that advance. CRA pays it. It is not the child benefit and it is not the groceries benefit.</p>
+
+    <p>The Ontario Trillium Benefit bundles the Ontario energy and property tax credit, the Northern Ontario energy credit, and the Ontario sales tax credit. From July 2026 it is based on the 2025 return. CRA pays it on the 10th, or on the last working day before if the 10th is a weekend or a statutory holiday. The next dates are <strong>November 10 and December 10, 2026</strong>.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Ontario Trillium Benefit payment dates, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>January</td><td>January 9, 2026</td></tr>
+                <tr><td>February</td><td>February 10, 2026</td></tr>
+                <tr><td>March</td><td>March 10, 2026</td></tr>
+                <tr><td>April</td><td>April 10, 2026</td></tr>
+                <tr><td>May</td><td>May 8, 2026</td></tr>
+                <tr><td>June</td><td>June 10, 2026</td></tr>
+                <tr><td>July</td><td>July 10, 2026</td></tr>
+                <tr><td>August</td><td>August 10, 2026</td></tr>
+                <tr><td>September</td><td>September 10, 2026</td></tr>
+                <tr><td>October</td><td>October 9, 2026</td></tr>
+                <tr class="highlight-row"><td>November</td><td>November 10, 2026</td></tr>
+                <tr class="highlight-row"><td>December</td><td>December 10, 2026</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Table as of October 25, 2026, from <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html">CRA's Ontario programs page</a>. If the annual Ontario Trillium Benefit is $500 or less, it is one payment in the first payment month, usually July. If it is over $500 and you chose to wait, it is one payment on <strong>June 10, 2027</strong>. The Ontario child benefit is not on this table. It is paid inside the Canada Child Benefit deposit.</p>
+
+    <p>Three other dates are easy to drop onto the wrong line. The Alberta child and family benefit is quarterly. The Newfoundland and Labrador disability benefit is a CRA payment, not the federal Canada Disability Benefit. The veteran disability pension is Veterans Affairs Canada, from the Canada.ca calendar, and it shares November 27 with the Alberta benefit.</p>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Other 2026 dates that sit near the federal calendar, as of October 25, 2026</caption>
+            <thead>
+                <tr>
+                    <th>Program</th>
+                    <th>Who pays</th>
+                    <th>Still ahead after October 25, 2026</th>
+                    <th>Full 2026 list</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Advanced Canada workers benefit</td>
+                    <td>CRA</td>
+                    <td>None. The 2026 dates have passed.</td>
+                    <td>January 12, July 10, and October 9</td>
+                </tr>
+                <tr>
+                    <td>Alberta child and family benefit</td>
+                    <td>CRA</td>
+                    <td>November 27</td>
+                    <td>February 27, May 27, August 27, and November 27</td>
+                </tr>
+                <tr>
+                    <td>Newfoundland and Labrador disability benefit</td>
+                    <td>CRA</td>
+                    <td>November 25 and December 24</td>
+                    <td>January 23, February 25, March 25, April 24, May 25, June 25, July 24, August 25, September 25, October 23, November 25, and December 24</td>
+                </tr>
+                <tr>
+                    <td>Veteran disability pension</td>
+                    <td>Veterans Affairs Canada</td>
+                    <td>November 27 and December 23</td>
+                    <td>January 30, February 26, March 30, April 29, May 28, June 29, July 30, August 28, September 28, October 29, November 27, and December 23</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Table as of October 25, 2026. The Newfoundland and Labrador dates are CRA's. The veteran dates are the Canada.ca benefits calendar. November 19 and December 17 are the federal Canada Disability Benefit. November 25 and December 24 are the provincial disability benefit. They are not substitutes for each other.</p>
+
+    <p>The Canada Carbon Rebate is closed. The last quarterly payments were <strong>January 15, 2025</strong> and <strong>April 22, 2025</strong>. There is no 2026 date. A missing deposit is not a delayed carbon payment. What ended is <a href="/blog/canada-carbon-rebate-ended/">the carbon rebate article</a>. If a date on this page arrives and the deposit does not, the wait depends on which agency pays.</p>
+
+    <h2 id="money-not-there">What if the money is not there on the date?</h2>
+
+    <p>The calendar date is the day the payment is issued. Canada.ca says it may take a few days to arrive, and a cheque takes longer than direct deposit. Work through the steps in order. Calling on the morning of the date is too early.</p>
+
+    <ol>
+        <li>Check the account that pays that benefit. CRA's account shows the Canada Child Benefit, the Groceries and Essentials Benefit, the Ontario Trillium Benefit, the Advanced Canada workers benefit, the Alberta child and family benefit, and the Newfoundland and Labrador disability benefit. My Service Canada Account is the place for CPP, OAS, GIS, and the Canada Disability Benefit.</li>
+        <li>Check that direct deposit and the mailing address are current. Change CPP, OAS, and the Canada Disability Benefit with Service Canada. Change the Canada Child Benefit, the Groceries and Essentials Benefit, the Ontario Trillium Benefit, the Advanced Canada workers benefit, the Alberta child and family benefit, and the Newfoundland and Labrador disability benefit with CRA. A change at one agency does not update the other.</li>
+        <li>Wait. CRA says <strong>5 business days</strong> for the Canada Child Benefit, and <strong>10 business days</strong> for the Groceries and Essentials Benefit and the Ontario Trillium Benefit. Canada.ca says to wait <strong>5 to 10 business days</strong> before contacting the program. A deposit that is a day or two late can still be in transit.</li>
+        <li>Then call <strong>1-800-387-1193</strong> for a CRA benefit. Have the benefit name and the published date ready. This page does not list a Service Canada or Veterans Affairs phone number. For those programs, use the account in step 1 and the 5-to-10-business-day wait on Canada.ca.</li>
+    </ol>
+
+    <div class="table-wrapper">
+        <table>
+            <caption>Where to look when a 2026 benefit deposit is missing</caption>
+            <thead>
+                <tr>
+                    <th>Missing payment</th>
+                    <th>Where to look</th>
+                    <th>Who changes the deposit</th>
+                    <th>How long to wait</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Canada Child Benefit</td>
+                    <td>CRA account</td>
+                    <td>CRA</td>
+                    <td>5 business days, then 1-800-387-1193</td>
+                </tr>
+                <tr>
+                    <td>Groceries and Essentials Benefit, or Ontario Trillium Benefit</td>
+                    <td>CRA account</td>
+                    <td>CRA</td>
+                    <td>10 business days, then 1-800-387-1193</td>
+                </tr>
+                <tr>
+                    <td>CPP, OAS, GIS, or Canada Disability Benefit</td>
+                    <td>My Service Canada Account</td>
+                    <td>Service Canada</td>
+                    <td>5 to 10 business days</td>
+                </tr>
+                <tr>
+                    <td>Veteran disability pension</td>
+                    <td>Veterans Affairs Canada</td>
+                    <td>Veterans Affairs Canada</td>
+                    <td>5 to 10 business days</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The finding is which login matches the cheque. A CRA benefit will not show as missing inside My Service Canada Account, and a CPP deposit will not show as missing inside the CRA account.</p>
 
     <div class="warning-box">
-        <strong>The carbon rebate is not on this calendar:</strong>
-        <p>Canada.ca lists the Canada Carbon Rebate as closed. There is no quarterly date in 2026. A missing deposit is not a delayed carbon payment. What ended, and who can still be paid for an old base year after filing late, is <a href="/blog/canada-carbon-rebate-ended/">the carbon rebate article</a>.</p>
+        <strong>Watch out:</strong>
+        <ul>
+            <li>Expecting a Canada Carbon Rebate in 2026. The last quarterly payments were January 15 and April 22, 2025.</li>
+            <li>Expecting the Ontario sales tax credit inside the Groceries and Essentials Benefit deposit. It is in the Ontario Trillium Benefit.</li>
+            <li>Not filing a return. That stops the July reset. The Canada Disability Benefit also needs a return filed by April 30.</li>
+            <li>Spending the December deposit as if the January child benefit comes on the 20th. The 2027 child-benefit list was not published as of October 25, 2026.</li>
+            <li>Assuming a small benefit stopped when it was paid as a July lump sum. Under $20 a month for the child benefit, under $50 a quarter for the groceries benefit, and $240 or less for the July-to-June disability benefit are lump-sum rules, not cancellations.</li>
+        </ul>
     </div>
-
-    <h2>What if the money is not there on the morning of the date?</h2>
-
-    <p>Direct deposit is the path CRA and Service Canada both push. A cheque is slower, and CRA's Groceries and Essentials Benefit page said wildfires had delayed a small number of benefit cheques while direct deposit continued on schedule. For the child benefit, CRA says to wait 5 business days after the payment date before calling 1-800-387-1193. For the groceries benefit, the guide says to wait 10 working days. Look in My Account first. The next expected date and the statement of account are there for the child benefit and the groceries benefit. My Service Canada Account is the pension side.</p>
 
     <div class="example-box">
-        <strong>Illustration: a household watching October 2026</strong>
-        <p>Priya receives the Canada Child Benefit and the Groceries and Essentials Benefit. She also started OAS. Her October groceries deposit is dated October 5. Her child benefit is dated October 20. Her OAS is dated October 28. Three dates, three programs, two logins. If the October 5 deposit includes a provincial supplement, it can be larger than the federal groceries figure alone. If she expected a carbon rebate in October, that program has no 2026 date. The amounts behind her deposits are the <a href="/blog/canada-government-benefits-guide/">benefits guide</a>, not this calendar.</p>
+        <strong>Script: what to say when you call CRA</strong>
+        <p>I am calling about the [Canada Child Benefit, Groceries and Essentials Benefit, or Ontario Trillium Benefit] dated [the published date]. It is not in the account CRA has on file. I have waited the business days listed for that benefit. My name is [your name].</p>
     </div>
 
-    <h2>Frequently asked questions</h2>
+    <p>An Ontario household that receives four of these programs can put the same rules on one list of dates, with no dollars attached.</p>
+
+    <h2 id="ontario-household">What dates does an Ontario household see?</h2>
+
+    <p>The illustration below is dates only. It is not an assessment, and it is not a forecast of a dollar amount. The notices in the CRA account and in My Service Canada Account are the amounts.</p>
+
+    <div class="example-box">
+        <strong>Illustration:</strong>
+        <p>An Ontario household receives the Canada Child Benefit, the Canada Groceries and Essentials Benefit, Old Age Security, and the Ontario Trillium Benefit.</p>
+        <ul>
+            <li>November 10, 2026 — Ontario Trillium Benefit</li>
+            <li>November 20, 2026 — Canada Child Benefit</li>
+            <li>November 26, 2026 — Old Age Security</li>
+            <li>December 10, 2026 — Ontario Trillium Benefit</li>
+            <li>December 11, 2026 — Canada Child Benefit</li>
+            <li>December 22, 2026 — Old Age Security</li>
+            <li>January 5, 2027 — Canada Groceries and Essentials Benefit</li>
+        </ul>
+        <p>October 5, 2026 was the last groceries payment of 2026, so it is not on this forward list. The next one is January 5, 2027. December 11 is the early child-benefit date. Nothing in this box is a dollar figure.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>Pro tip:</strong>
+        <p>CRA can email a payment reminder about one week before a payment. Turn that on in the CRA account, and still read the date here. December 2026 does not follow the usual 20th.</p>
+    </div>
+
+    <p>The checks below are the ones to finish before those dates, not after a deposit is already missing.</p>
+
+    <h2 id="before-each-payment">Before each payment date</h2>
+
+    <p>Four checks cover the problems that show up as a missing deposit and are actually a file that was never updated.</p>
+
+    <ul class="checklist">
+        <li>Sign up for CRA payment reminders. CRA can email a reminder about one week before each payment. The switch is in the CRA account.</li>
+        <li>Confirm direct deposit with both CRA and Service Canada. CPP, OAS, and the Canada Disability Benefit are Service Canada. The child benefit, the groceries benefit, the Ontario Trillium Benefit, and the other CRA benefits on this page are CRA.</li>
+        <li>File the 2025 return if it is not filed yet. July to December 2026 child-benefit payments, and the July and October 2026 groceries payments, read that return.</li>
+        <li>Report a marital status change by the end of the following month.</li>
+    </ul>
+
+    <p>When the return itself is the problem, a CPA, a CFP, or a tax lawyer can work that file with you. This article is not that review, and it is not a benefits ruling. Confirm the current Canada.ca or CRA page before you spend a payment you have not received.</p>
+
+    <h2 id="frequently-asked-questions">Frequently asked questions</h2>
 
     <h3>Are CPP and OAS always paid on the same day?</h3>
-    <p>On the 2026 Canada.ca calendar, yes. Every CPP date listed above is also the OAS date, from January 28 through December 22. GIS rides with OAS. A CPP disability benefit uses the CPP dates as well. The Canada Child Benefit does not. It is a CRA payment with its own list.</p>
+    <p>On the 2026 Canada.ca calendar, yes. Every CPP date is also the OAS date, from January 28 through December 22, 2026. GIS is paid with OAS. CPP retirement, disability, children's, and survivor benefits use the CPP dates. The Canada Child Benefit does not. It is a CRA payment with its own list, and the next two are November 20 and December 11, 2026.</p>
 
-    <h3>Why was my January payment called GST/HST credit and my July payment called something else?</h3>
-    <p>CRA replaced the GST/HST credit with the Canada Groceries and Essentials Benefit in July 2026. The January 5 and April 2 payments were the last two quarters under the old name, calculated from the 2024 return. July 3 and October 5 are the new benefit, from the 2025 return. The eligibility structure did not get a new application.</p>
+    <h3>Why was my January payment called the GST/HST credit and my July payment called something else?</h3>
+    <p>CRA replaced the GST/HST credit with the Canada Groceries and Essentials Benefit in July 2026. January 5 and April 2, 2026 were the last two quarters under the GST/HST credit name, from the 2024 return. July 3 and October 5, 2026 are the new benefit, from the 2025 return. The next payment is January 5, 2027.</p>
 
     <h3>I get a small amount. Why did it all arrive in July?</h3>
-    <p>CRA will not run a tiny payment every month or every quarter. A child benefit under $20 a month, which is under $240 for the year, is paid once, with the July payment. A groceries benefit under $50 a quarter is paid as the whole annual amount in July. The Canada Disability Benefit uses $20 a month, or $240 for the July-to-June period, as its lump-sum line.</p>
+    <p>CRA and Service Canada do not run a tiny payment on the usual rhythm. A Canada Child Benefit under $20 a month, under $240 for the year, is paid once, on July 20, 2026 or later. A Groceries and Essentials Benefit under $50 a quarter is the whole annual amount in July. A Canada Disability Benefit of $240 or less for the July-to-June year, $20 a month or less, is one lump sum on the next scheduled date. An Ontario Trillium Benefit of $500 or less is one payment in the first payment month, usually July.</p>
 
     <h3>Does a late tax return delay the July reset?</h3>
-    <p>Yes. Child benefit and groceries payments from July 2026 to June 2027 are based on the 2025 return. If that return is assessed after July, the new amount waits for the assessment. Service Canada also tells Canada Disability Benefit clients to file by April 30 so the 2026-27 review does not interrupt payments. Filing is the schedule.</p>
+    <p>Yes. Canada Child Benefit payments from July to December 2026 are based on the 2025 return. The Groceries and Essentials Benefit payments in July and October 2026 use that return too. File after July and the new groceries amount waits for the assessment. Missed amounts are paid retroactively in the next scheduled payment. The Canada Disability Benefit stays on schedule only if the Disability Tax Credit remains approved and a return is filed by April 30.</p>
 
-    <h3>Are weekend dates already adjusted in the tables?</h3>
-    <p>The 2026 lists above are the dates Canada.ca published, including June 19, September 18, and December 11 for the child benefit, and July 3 for the groceries benefit because July 5, 2026 was a Sunday. You do not need to subtract a day from a date that is already the business day. Next year's list will be a new page.</p>
+    <h3>Are weekend dates already adjusted in the 2026 tables?</h3>
+    <p>Yes. The 2026 lists above are the dates Canada.ca and CRA published. You do not subtract another day. The child benefit is generally the 20th, and the last business day before when the 20th is a Saturday, a Sunday, or a federal statutory holiday. June 19, September 18, and December 11, 2026 are already the published dates. December 20, 2026 is a Sunday, and December 11 is earlier than that weekend rule alone. July 5, 2026 was a Sunday, so the groceries benefit was July 3. The 2027 child-benefit list was not published as of October 25, 2026.</p>
 
-    <h3>Where is the carbon rebate date?</h3>
-    <p>There isn't one for 2026. The last quarterly Canada Carbon Rebate for individuals was the April 2025 payment. Someone who still has not filed a 2021, 2022, 2023, or 2024 return can be paid for that base year after the return is assessed. That is a catch-up, not a new quarter. Read <a href="/blog/canada-carbon-rebate-ended/">what ended</a>.</p>
+    <h3>Where is the carbon rebate date for 2026?</h3>
+    <p>There is no Canada Carbon Rebate date in 2026. The program is closed. The last quarterly payments were January 15, 2025 and April 22, 2025.</p>
 
-    <h2>Sources</h2>
+    <h3>When is the next CCB payment?</h3>
+    <p>The next Canada Child Benefit payment after October 25, 2026 is November 20, 2026, then December 11, 2026. Both dates are on CRA's 2026 payment list. CRA's 20th rule points to Wednesday, January 20, 2027, but that 2027 list was not published as of October 25, 2026.</p>
+
+    <h3>When is the next GST/HST credit (groceries benefit) payment?</h3>
+    <p>The next Canada Groceries and Essentials Benefit, the renamed GST/HST credit, is January 5, 2027, a Tuesday. Guide RC4210 lists the following date as April 5, 2027, a Monday. October 5, 2026 was the last 2026 payment of this benefit. A one-time top-up was issued on June 5, 2026, and it was separate from those quarterly dates.</p>
+
+    <h2 id="sources">Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/services/benefits/calendar.html">Canada.ca, benefits payment dates calendar</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/benefit-payment-dates.html">CRA, payment dates for CRA-administered benefits and credits</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html">CRA, Canada Child Benefit payment dates</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/payment-dates.html">CRA, Canada Groceries and Essentials Benefit payment dates</a></li>
-        <li><a href="https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit/payments.html">Canada.ca, Canada Disability Benefit payments</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html">CRA, Ontario Trillium Benefit payment timing</a></li>
+        <li><a href="https://www.canada.ca/en/services/benefits/calendar.html">Canada.ca, benefits payment dates calendar</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/benefit-payment-dates.html">CRA, payment dates for benefits and credits</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html">CRA, Canada Child Benefit payment dates</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4114/canada-child-benefit.html">CRA, Canada Child Benefit guide (T4114)</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/payment-dates.html">CRA, Canada Groceries and Essentials Benefit payment dates</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html">CRA, guide RC4210, Canada Groceries and Essentials Benefit</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit/payments.html">Canada.ca, Canada Disability Benefit payments</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html">CRA, Ontario benefit programs, including the Ontario Trillium Benefit</a>, reviewed October 25, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/one-time-top-up.html">CRA, one-time GST/HST credit top-up</a>, reviewed October 25, 2026</li>
+    </ul>
+
+    <h2 id="related-reading">Related reading</h2>
+    <ul>
+        <li><a href="/category/government-benefits/">Government benefits hub: which program pays, and which article to open next</a></li>
+        <li><a href="/blog/canada-government-benefits-guide/">Canadian government benefits guide: the programs and who qualifies</a></li>
+        <li><a href="/blog/gst-hst-credit-groceries-essentials-benefit/">Groceries and Essentials Benefit: amounts and eligibility, formerly the GST/HST credit</a></li>
+        <li><a href="/blog/canada-child-benefit-optimization-canada/">Canada Child Benefit: why the amount changes in July, not on payday</a></li>
+        <li><a href="/blog/how-much-cpp-will-i-get/">How much CPP you will get: the estimate, not the payment date</a></li>
+        <li><a href="/blog/oas-eligibility-deferral-canada/">OAS eligibility and deferral: when the pension starts</a></li>
+        <li><a href="/blog/canada-disability-benefit-guide/">Canada Disability Benefit: eligibility and the maximum</a></li>
+        <li><a href="/blog/canada-carbon-rebate-ended/">Canada Carbon Rebate: why there is no 2026 payment date</a></li>
     </ul>
 
     <div class="cta-section">
         <p><strong>A date without a filed return is a date you miss.</strong></p>
-        <p>The July reset reads last year's return. The 2026 tax guide is the filing side of this calendar.</p>
+        <p>The July reset reads the 2025 return. The 2026 tax guide is the filing side of this calendar.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer(published)}
+    ${footer(published, 'October 25, 2026', 'This is general education about Canadian government benefit payment dates. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. The dates below are from Canada.ca, CRA and Service Canada pages reviewed October 25, 2026. Payment dates change, and they depend on your return, your residence, and the notice CRA or Service Canada actually issues. The household example is an illustration of dates only, not a quote of your file. Confirm My Account, My Service Canada Account, and the current notice before you spend a payment you have not received.')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-25',
+  },
   {
     ...benefitsPost(
     'gst-hst-credit-groceries-essentials-benefit',
