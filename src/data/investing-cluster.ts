@@ -1434,6 +1434,10 @@ const investingClusterPostsRaw: InvestingPost[] = [
 `
   ),
     updated: '2026-10-23',
+    youtubeId: 'OlLDtZrWbBc',
+    youtubeTitle: 'Is VFV the Same as VOO? What Canadians Lose in an RRSP (2026)',
+    youtubeUploadDate: '2026-10-25T12:09:25-04:00',
+    youtubeDuration: 'PT6M32S',
   },
 
   investingPost(
