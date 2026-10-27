@@ -37,10 +37,13 @@ function toolPost(
   };
 }
 
-function footer(category: string, disclaimer: string) {
+function footer(category: string, disclaimer: string, updated?: string) {
+  const note = updated
+    ? `Published: ${published} | Updated: ${updated} | Category: ${category} | Author: Andrew`
+    : `Published: ${published} | Category: ${category} | Author: Andrew`;
   return `<div class="article-footer">
         <p><strong>Disclaimer:</strong> ${disclaimer}</p>
-        <div class="footer-note">Published: ${published} | Category: ${category} | Author: Andrew</div>
+        <div class="footer-note">${note}</div>
     </div>`;
 }
 
@@ -441,15 +444,19 @@ export const toolsClusterPosts: ToolPost[] = [
     'Real Estate',
     'real-estate',
     'mortgage-prepayment-calculator',
-    'Mortgage Prepayment Calculator (Canada)',
-    'See how much interest and time a Canadian mortgage prepayment saves. You type the rate, the extra payment, and the annual lump sum.',
+    'Mortgage Prepayment Calculator (Canada): What Extra Payments Save in 2026',
+    'Canadian mortgage prepayment calculator: see the interest and years that extra payments and lump sums save, plus the big banks’ 10% to 20% privilege limits.',
     `<div class="container">
 
     <div class="hook">
         On a $400,000 mortgage at 5 percent, amortized over 25 years with semi-annual compounding, the monthly payment is <span class="highlight">$2,326.42</span>. Adding $200 to every payment and $5,000 once a year cuts the interest from $297,925.98 to $190,817.38. That is $107,108.60 of interest and 97 months. The 5 percent is an assumption, not a rate on offer.
     </div>
 
-    <p>This mortgage prepayment calculator prices that choice with the same monthly rate Canadian lenders use when they quote a residential mortgage: semi-annual compounding, not in advance. You type the balance, the contract rate, the amortization, an extra amount on every monthly payment, and a lump sum on each anniversary payment. The contractual payment does not fall. The balance hits zero sooner, and the interest you do not pay is the result. Whether that extra dollar should go to the mortgage or to a registered account is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a> and the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority against TFSA and RRSP room</a>. The contract around the rate is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Breaking the term and paying a penalty is a different problem. That one is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>, and it tells you to use the lender’s own penalty tool. Renting instead of carrying the loan at all is <a href="/blog/rent-vs-buy-canada/">rent versus buy</a>.</p>
+    <p>A mortgage prepayment in Canada is money paid on top of the regular payment, inside the privilege in a closed mortgage, often 10 percent to 20 percent of the original amount a year at the big banks in 2026. On the $400,000 illustration, $200 a month plus $5,000 a year saves $107,108.60 and about 8 years.</p>
+
+    <p>This mortgage prepayment calculator prices that choice with the same monthly rate Canadian lenders use when they quote a residential mortgage: semi-annual compounding, not in advance. You type the balance, the contract rate, the amortization, an extra amount on every monthly payment, and a lump sum on each anniversary payment. The contractual payment does not fall. The balance hits zero sooner, and the interest you do not pay is the result.</p>
+
+    <p>Whether that extra dollar should go to the mortgage or to a registered account is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a> and the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">priority against Tax-Free Savings Account (TFSA) and Registered Retirement Savings Plan (RRSP) room</a>. The contract around the rate is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>, and the other decisions in this category are on the <a href="/category/real-estate/">real estate hub</a>. Breaking the term and paying a penalty is a different problem. That one is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">interest rate differential (IRD) penalty guide</a>, and it tells you to use the lender’s own penalty tool. Renting instead of carrying the loan at all is <a href="/blog/rent-vs-buy-canada/">rent versus buy</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
@@ -461,12 +468,33 @@ export const toolsClusterPosts: ToolPost[] = [
             <li>Without extras, the $400,000 illustration runs 300 months and $297,925.98 of interest. With $200 a month and $5,000 a year, it runs 203 months and $190,817.38 of interest.</li>
             <li>A lump-sum privilege and a payment-increase privilege are separate caps written in the commitment. This tool does not know either percentage. Type only what the clause allows.</li>
             <li>Interest you avoid on the home you live in is an after-tax return equal to the contract rate. A TFSA or an RRSP has to beat that rate on its own terms, which the neighbouring guides spell out. This page only prices the mortgage.</li>
+            <li>Your lender must tell you each year the dollar amount you can prepay without a charge (Financial Consumer Agency of Canada (FCAC) Code of Conduct).</li>
         </ul>
     </div>
 
-    <h2>How much interest and time does a prepayment save?</h2>
+    <nav aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#interest-saved">How much interest and time does a prepayment save?</a></li>
+            <li><a href="#how-payment-built">How is the payment built?</a></li>
+            <li><a href="#four-hundred-thousand">What do $200 a month and $5,000 a year save on a $400,000 mortgage?</a></li>
+            <li><a href="#privileges">How do prepayment privileges work in Canada?</a></li>
+            <li><a href="#big-bank-caps">How much can you prepay at RBC, TD, Scotiabank, BMO and CIBC?</a></li>
+            <li><a href="#prepay-or-invest">Prepay, or invest in a TFSA or an RRSP</a></li>
+            <li><a href="#accelerated">Accelerated bi-weekly versus a prepayment</a></li>
+            <li><a href="#penalty">When a prepayment becomes a penalty</a></li>
+            <li><a href="#renewal-timing">When is the best time to prepay: during the term or at renewal?</a></li>
+            <li><a href="#before-you-prepay">Before you prepay</a></li>
+            <li><a href="#limits">What will this not tell you?</a></li>
+            <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
+        </ul>
+    </nav>
 
-    <p>Type the balance, the contract rate, and the amortization on the disclosure. Then type only the extra payment and the lump sum your privilege actually allows. A closed mortgage limits penalty-free prepayments. This page does not know the limit. If you type more than the privilege, the interest saved is incomplete: the lender’s penalty is missing from the model, and the penalty guide is where that charge is explained.</p>
+    <h2 id="interest-saved">How much interest and time does a prepayment save?</h2>
+
+    <p>The saving is the interest you do not pay, and the payments that disappear, when the extra amount stays inside your privilege. On the $400,000 illustration, $200 a month and $5,000 a year save $107,108.60 and 97 months.</p>
+
+    <p>Type the balance, the contract rate, and the amortization on the disclosure. Then type only the extra payment and the lump sum your privilege actually allows. A closed mortgage limits penalty-free prepayments. This page does not know the limit. If you type more than the privilege, the interest saved is incomplete: the lender’s penalty is missing from the model, and the penalty guide is where that charge is explained. The formula that builds the payment is the next section.</p>
 
 </div>
 
@@ -474,23 +502,28 @@ export const toolsClusterPosts: ToolPost[] = [
 
 <div class="container">
 
-    <h2>How is the payment built?</h2>
+    <h2 id="how-payment-built">How is the payment built?</h2>
 
-    <p>Canadian residential mortgages are quoted with interest compounded semi-annually, not in advance. The calculator turns that quote into a monthly rate by taking (1 + annual rate / 2) to the power of one-sixth, then subtracting 1. At 5 percent, half the rate is 2.5 percent, and the monthly rate is 1.025 to the power of 1/6, minus 1. The payment is the standard amortizing payment on that monthly rate, rounded to the nearest cent. Interest each month is the remaining balance times that monthly rate, also rounded to the cent. Principal is the payment minus that interest. An extra amount, and the anniversary lump sum, reduce principal and do not change the next contractual payment.</p>
+    <p>Canadian residential mortgages are quoted with interest compounded semi-annually, not in advance. The legal basis is <a href="https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html">Interest Act, section 6</a>: a blended-payment mortgage must state the rate “calculated yearly or half-yearly, not in advance.” That is the semi-annual compounding this calculator uses.</p>
+
+    <p>The calculator turns that quote into a monthly rate by taking (1 + annual rate / 2) to the power of one-sixth, then subtracting 1. At 5 percent, half the rate is 2.5 percent, and the monthly rate is 1.025 to the power of 1/6, minus 1. The payment is the standard amortizing payment on that monthly rate, rounded to the nearest cent. Interest each month is the remaining balance times that monthly rate, also rounded to the cent. Principal is the payment minus that interest. An extra amount, and the anniversary lump sum, reduce principal and do not change the next contractual payment.</p>
 
     <p>That rounding is why a bank’s schedule can differ by a few dollars and still be the same loan. Lenders also differ on whether the first period is a full month and on the day they apply a lump sum. A difference of hundreds of dollars means the rate, the balance, or the amortization you typed is not the disclosure. Match the disclosure. If the lender’s schedule still differs by more than rounding, their day count or their prepayment timing governs, not this page.</p>
 
-    <h2>Worked examples from this calculator</h2>
+    <p>A payment with no extras can be cross-checked on the <a href="https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MCCalc-CHCalc-eng.aspx">FCAC Mortgage Calculator</a>. Match the balance, the rate, the amortization, and semi-annual compounding. That tool does not run the prepayment rows on this page. Those rows are next.</p>
 
-    <p>Every dollar below is the output of the assumptions in the heading, run through the same function the calculator on this page uses. The 5 percent and the 4 percent are assumptions so the arithmetic can be checked. They are not offers, and they are not a September 2026 or October 2026 average. Replace them with the rate on your commitment before you treat the interest saved as yours.</p>
+    <h2 id="four-hundred-thousand">What do $200 a month and $5,000 a year save on a $400,000 mortgage?</h2>
+
+    <p>On the $400,000 illustration at an assumed 5 percent over 25 years, $200 a month plus $5,000 a year saves <strong>$107,108.60</strong> of interest and 97 months, about 8 years. The loan finishes in 203 payments instead of 300. Every dollar below is the output of the assumptions in the heading, run through the same function the calculator on this page uses. The 5 percent and the 4 percent are assumptions so the arithmetic can be checked. They are not offers, and they are not a September 2026 or October 2026 average. Replace them with the rate on your commitment before you treat the interest saved as yours.</p>
 
     <div class="example-box">
         <strong>Illustration: $400,000, 5 percent, 25 years</strong>
         <p>Payment $2,326.42. With no extras the loan runs 300 payments, which is 25 years 0 months, and the interest is $297,925.98. The lump sum in the rows that use one lands on payments 12, 24, 36, and so on. It is capped so it cannot overpay the last balance.</p>
     </div>
 
+    <div class="table-wrapper">
     <table>
-        <caption>Same $400,000 loan at an assumed 5 percent over 25 years. Each row is a separate run of this calculator.</caption>
+        <caption>Same $400,000 loan at an assumed 5 percent over 25 years. Each row is a separate run of this calculator. Checked with the page’s formula, October 2026.</caption>
         <thead>
             <tr>
                 <th>What you type</th>
@@ -522,7 +555,7 @@ export const toolsClusterPosts: ToolPost[] = [
                 <td>$81,475.87</td>
                 <td>73 months</td>
             </tr>
-            <tr>
+            <tr class="highlight-row">
                 <td>Both: $200 a month and $5,000 a year</td>
                 <td>203</td>
                 <td>$190,817.38</td>
@@ -538,11 +571,15 @@ export const toolsClusterPosts: ToolPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
+
+    <p>The row that types both at once is the one to use if you will do both: $107,108.60 of interest and 97 months.</p>
 
     <p>Do not add the $200-a-month saving to the $5,000-a-year saving. Those two rows are each measured against the untouched loan, so $48,296.95 plus $81,475.87 is $129,772.82, and that sum double-counts interest both prepayments would have avoided on the same balance. The row that types both at once saves $107,108.60. If you will actually do both, that is the number. The separate rows are there so you can see which privilege is doing the work.</p>
 
     <p>The $200 row finishes in 258 payments, which is 21 years 6 months. The $5,000 row finishes in 227 payments, which is 18 years 11 months. Both together finish in 203 payments, which is 16 years 11 months. Time saved is 42 months, 73 months, and 97 months. The same rule applies to the months: do not add 42 and 73 and expect 115. The combined run saves 97.</p>
 
+    <div class="table-wrapper">
     <table>
         <caption>Second check: $250,000 at 4 percent over 20 years, plus $100 a month and no lump sum</caption>
         <thead>
@@ -570,24 +607,100 @@ export const toolsClusterPosts: ToolPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <p>A biweekly contract, a variable rate that changes, or a payment the lender recalculates after you prepay will not match these rows. Some lenders keep the payment fixed and shorten the amortization, which is what this tool does. Some lenders drop the payment and keep the amortization, which puts the interest back. Read which one your commitment does before you compare a screen to a statement.</p>
+    <p>$100 a month on this $250,000 illustration saves $11,294.42 of interest and 21 months.</p>
 
-    <h2>How prepayment privileges work at Canadian lenders</h2>
+    <p>A biweekly contract, a variable rate that changes, or a payment the lender recalculates after you prepay will not match these rows. Some lenders keep the payment fixed and shorten the amortization, which is what this tool does. Some lenders drop the payment and keep the amortization, which puts the interest back. Read which one your commitment does before you compare a screen to a statement. Those rows only count if the privilege allows the amount you typed.</p>
+
+    <h2 id="privileges">How do prepayment privileges work in Canada?</h2>
+
+    <p>A privilege lets you pay extra without a penalty, up to a cap written in the closed mortgage. It is not one national percentage. <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/pay-mortgage-faster.html">The Financial Consumer Agency of Canada (FCAC)</a> says you can usually increase regular payments by a percentage and make lump sums up to an amount or a percentage of the original amount. The limits vary by lender, and most lenders cap the amount per year.</p>
 
     <p>A closed mortgage is a promise to follow the amortization, with a written exception called the prepayment privilege. The exception is not a national percentage. It is a clause. Two limits show up in that clause again and again, and they are usually separate buckets. Using one does not automatically use up the other. The commitment is the only place that says whether they interact.</p>
 
-    <p>The first limit is the lump sum. Once a year, or on the payment dates the clause names, you may pay an extra amount up to a percentage of a balance the clause names. Sometimes that balance is the original principal. Sometimes it is the current principal. The percentage is the lender’s number for that product, not a figure this site publishes. FCAC’s prepayment pages tell you to read that clause, and they explain the charge that applies when you pay more than it allows. As of the pages already linked from this site, that charge on a closed term is usually the higher of three months’ interest and an interest-rate differential. The worked version of that sentence is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a>.</p>
+    <p>The first limit is the lump sum. Once a year, or on the payment dates the clause names, you may pay an extra amount up to a percentage of a balance the clause names. Sometimes that balance is the original principal. Sometimes it is the current principal. The percentage is the lender’s number for that product, not a figure this site publishes.</p>
+
+    <p><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC’s prepayment penalties page</a> tells you to read that clause, and it explains the charge that applies when you pay more than it allows. As of that page, checked October 27, 2026, the charge on a closed term is usually the higher of three months’ interest and an interest rate differential (IRD). The worked version of that sentence is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a>. Federally regulated lenders such as banks have a prepayment penalty calculator on their website. Use that calculator if you are past the privilege. This page does not compute the charge.</p>
 
     <p>The arithmetic, once you have the clause, is ordinary. Allowed lump sum equals the percentage in the clause times the balance the clause names. On the $400,000 illustration, a clause that uses original principal means you multiply the percentage by $400,000. A clause that uses the current balance means you multiply by whatever is still owing on the date the clause allows the payment. This page does not fill in the percentage. If you type a lump sum larger than that product, the calculator will still show interest saved, and that figure will be wrong by the penalty.</p>
 
-    <p>The second limit is the payment increase. The clause lets you raise the contractual payment by up to a stated percentage, often once a year, or it lets you pay an extra full payment on a payment date, sometimes called a double-up. Those are payment privileges, not lump-sum privileges. The calculator’s “extra amount added to every monthly payment” is this bucket. If the clause caps the increase at a percentage of the payment, the maximum extra is that percentage times $2,326.42 in the illustration, not that percentage times the balance. A double-up, if the clause allows one, is an extra payment of $2,326.42 on a payment date, not $2,326.42 every month.</p>
+    <p>The second limit is the payment increase. The clause lets you raise the contractual payment by up to a stated percentage, often once a year, or it lets you pay an extra full payment on a payment date, sometimes called a double-up. Those are payment privileges, not lump-sum privileges. The calculator’s “extra amount added to every monthly payment” is this bucket.</p>
 
-    <p>Ask two more questions the percentage does not answer. Does unused room carry into the next year? Do not assume it does. The clause says so, or it does not. And does a skip-a-payment put interest back after you have prepaid? Some contracts offer a skip once you have made extra payments. A skip is the opposite of a prepayment. This calculator does not model one. If you skip, the interest saved on this page is too high.</p>
+    <p>If the clause caps the increase at a percentage of the payment, the maximum extra is that percentage times $2,326.42 in the illustration, not that percentage times the balance. A double-up, if the clause allows one, is an extra payment of $2,326.42 on a payment date, not $2,326.42 every month.</p>
 
-    <p>An open term is the product built to be prepaid. A closed term is the product with the limit and the charge. The rate difference between those products is a quote from the lender, not a number on this page. If you are choosing the product, the privilege and the penalty method belong in the same comparison as the rate. A cheaper closed rate with a small privilege is a bet that you will not need the money back and will not need to leave.</p>
+    <p><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/pay-mortgage-faster.html">FCAC</a> says that normally, once you increase your payments, you cannot lower them until the end of the term. Raise only what you can keep paying. The same page says most lenders cap the amount per year and that typically you cannot carry unused room into the next year. Do not assume leftover room rolls forward. The clause says so, or it does not.</p>
 
-    <h2>Prepay, or invest in a TFSA or an RRSP</h2>
+    <p>Under the <a href="https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/mortgage-prepayment-information-code.html">FCAC Code of Conduct</a> for mortgage prepayment information, a federally regulated lender must give you, every year, your prepayment privileges and the dollar amount you can prepay that year without a charge, how the charge is calculated, and where the lender’s calculators are. Find that dollar figure on your annual statement or in online banking.</p>
+
+    <p>Does a skip-a-payment put interest back after you have prepaid? Some contracts offer a skip once you have made extra payments. A skip is the opposite of a prepayment. This calculator does not model one. If you skip, the interest saved on this page is too high.</p>
+
+    <p>An open term is the product built to be prepaid. A closed term is the product with the limit and the charge. The rate difference between those products is a quote from the lender, not a number on this page. If you are choosing the product, the privilege and the penalty method belong in the same comparison as the rate. A cheaper closed rate with a small privilege is a bet that you will not need the money back and will not need to leave. What RBC, TD, Scotiabank, BMO, and CIBC published for a standard closed mortgage is the next table.</p>
+
+    <h2 id="big-bank-caps">How much can you prepay at RBC, TD, Scotiabank, BMO and CIBC?</h2>
+
+    <p>On the public pages checked October 27, 2026, the big banks’ published lump-sum caps on standard closed mortgages range from 10% to 20% of the original amount. Some products differ. The commitment governs, not this table.</p>
+
+    <div class="table-wrapper">
+    <table>
+        <caption>Closed-mortgage prepayment privileges at the big five banks, from each bank’s public page on October 27, 2026</caption>
+        <thead>
+            <tr>
+                <th>Lender</th>
+                <th>Lump sum per year</th>
+                <th>Payment increase</th>
+                <th>Cap on a $400,000 original mortgage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RBC</td>
+                <td>Up to 10% of the original principal, once a year</td>
+                <td>Double-Up: on a payment date, add $100 up to the amount of your regular payment</td>
+                <td>$40,000</td>
+            </tr>
+            <tr>
+                <td>TD</td>
+                <td>Up to 15% of the original principal, once a year</td>
+                <td>Regular payments can rise by up to 100% over the term</td>
+                <td>$60,000</td>
+            </tr>
+            <tr>
+                <td>Scotiabank</td>
+                <td>Up to 15% of the original principal each year (“most popular” option)</td>
+                <td>Up to 15% of the payment set for the term each year; Match-a-Payment</td>
+                <td>$60,000</td>
+            </tr>
+            <tr>
+                <td>BMO</td>
+                <td>Up to 20% of the original amount per year (10% for BMO Smart Fixed)</td>
+                <td>Up to 20% once per calendar year (10% Smart Fixed)</td>
+                <td>$80,000 ($40,000 Smart Fixed)</td>
+            </tr>
+            <tr>
+                <td>CIBC</td>
+                <td>Up to 10% of the original mortgage amount annually</td>
+                <td>At any time, up to 100% of the regular amount</td>
+                <td>$40,000</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <p>The $5,000-a-year lump sum in the worked example is 1.25% of $400,000, inside every one of these caps; the big banks’ published caps range from 10% to 20% of the original amount.</p>
+
+    <p>Checked October 27, 2026 on each bank’s public page; credit unions, monolines and special products differ.</p>
+
+    <p><a href="https://www.canada.ca/en/financial-consumer-agency/services/industry/bulletins/information-box-examples/credit-agreement-fixed-mortgage.html">FCAC’s sample information box</a> describes a “10+10” privilege: once per year, raise the monthly payment by 10% of the original payment and pay a lump sum of 10% of the original mortgage amount. That sample shows how a disclosure can read. It is not the cap at every bank in the table.</p>
+
+    <p>BMO also states you can make any lump sum at the end of the term and renew without a prepayment charge. For variable closed mortgages, BMO’s charge is three months’ interest. A cap says what you may pay. It does not say the dollar should go to the mortgage. That comparison is next.</p>
+
+    <h2 id="prepay-or-invest">Prepay, or invest in a TFSA or an RRSP</h2>
+
+    <div class="callout">
+        <strong>Decision rule:</strong>
+        <p>Prepay inside the privilege after an emergency fund, after higher-interest debt, and after any employer RRSP match. Then compare the contract rate, a certain after-tax return on your home, with what the TFSA or RRSP would realistically earn. The comparison is the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a> and the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">TFSA and RRSP priority</a>.</p>
+    </div>
 
     <p>The calculator stops at the mortgage. The decision does not. Interest on the mortgage that bought the home you live in is not deductible, so a dollar of interest you never pay is an after-tax return equal to the contract rate, for as long as that rate is locked. There is no market path on which that particular return goes negative. The dollar is also illiquid. Getting it back means a refinance, a sale, or a readvance, each with a cost and a new underwriting. That trade is the whole point of the <a href="/blog/mortgage-prepayment-vs-investing-canada/">prepayment versus investing guide</a>. Borrowing the equity back out to invest is a different strategy, the <a href="/blog/smith-maneuver-canada-steps-risks/">Smith Manoeuvre</a>, and it is leverage, not a prepayment.</p>
 
@@ -597,94 +710,145 @@ export const toolsClusterPosts: ToolPost[] = [
 
     <p>Two uses of the dollar outrank both the mortgage and the registered accounts, and the priority guide already says so. High-interest consumer debt is a certain non-deductible return at a rate no sober investment clears. The fair version of that comparison, for debt that is not the residence mortgage, is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>. An employer match, on the matched slice only, is compensation. Declining the match to prepay principal donates that compensation. Take the match, then come back to the mortgage.</p>
 
-    <p>Whatever you choose, the interest figure on this page is not cash in the account this month. A dollar of interest avoided in year 16 is not a dollar you can spend in year 1. The calculator’s job is to show how large that later saving is, and how many payments disappear, so the hurdle rate has a size. It is not a forecast of a TFSA balance.</p>
+    <p>Whatever you choose, the interest figure on this page is not cash in the account this month. A dollar of interest avoided in year 16 is not a dollar you can spend in year 1. The calculator’s job is to show how large that later saving is, and how many payments disappear, so the hurdle rate has a size. It is not a forecast of a TFSA balance. One way people send the extra dollar without a lump sum is an accelerated payment.</p>
 
-    <h2>Accelerated bi-weekly versus a prepayment</h2>
+    <h2 id="accelerated">Accelerated bi-weekly versus a prepayment</h2>
 
-    <p>The schedule on this page is monthly. A lender’s bi-weekly contract is a different payment count, and the two names that sound alike are not the same product.</p>
+    <p>Accelerated weekly or bi-weekly payments are one extra monthly payment a year. The schedule on this page is monthly. A lender’s bi-weekly contract is a different payment count, and the two names that sound alike are not the same product.</p>
 
     <p>A regular bi-weekly payment is the monthly payment times 12, divided by 26. You pay every two weeks, and the year still adds up to 12 monthly payments. You have changed the calendar, not the annual principal. Little extra interest is saved, and what is saved comes from paying slightly earlier in the year, not from paying more.</p>
 
-    <p>An accelerated bi-weekly payment is half the monthly payment, paid 26 times. Half of $2,326.42 is $1,163.21. Twenty-six of those payments are $30,243.46, which is exactly 13 monthly payments of $2,326.42. The thirteenth payment is a prepayment. Accelerated bi-weekly is not a lower rate. It is one extra monthly payment a year, applied every two weeks instead of as a lump sum on the anniversary.</p>
+    <p>An accelerated bi-weekly payment is half the monthly payment, paid 26 times. Half of $2,326.42 is $1,163.21. Twenty-six of those payments are $30,243.46, which is exactly 13 monthly payments of $2,326.42. The thirteenth payment is a prepayment. Accelerated bi-weekly is not a lower rate. It is one extra monthly payment a year, applied every two weeks instead of as a lump sum on the anniversary. <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/pay-mortgage-faster.html">FCAC</a> describes accelerated weekly or bi-weekly payments the same way: the equivalent of one extra monthly payment per year.</p>
 
     <p>This tool cannot take a bi-weekly frequency. The monthly stand-in is one twelfth of the contractual payment, typed in the extra-amount box. One twelfth of $2,326.42 is $193.8683…, and the cent this calculator uses is $193.87. Twelve payments of $193.87 are $2,326.44, two cents more than one monthly payment, because of that rounding. Running $193.87 as the extra monthly amount, with no anniversary lump sum, produces 259 payments, $250,861.62 of interest, $47,064.36 of interest saved, and 41 months saved. That row is in the table above.</p>
 
-    <p>A lender’s accelerated schedule will not match those figures to the cent. Payments land every 14 days, the first period may be short, and the lender’s rounding may differ. Expect a gap larger than two cents. Also check the privilege. An accelerated schedule that raises the annual amount you pay above the payment-increase clause can be a penalty problem even though the bank set the frequency up for you. Ask the lender to confirm the accelerated payment sits inside the privilege before you treat it as free.</p>
+    <p>A lender’s accelerated schedule will not match those figures to the cent. Payments land every 14 days, the first period may be short, and the lender’s rounding may differ. Expect a gap larger than two cents. Also check the privilege. An accelerated schedule that raises the annual amount you pay above the payment-increase clause can be a penalty problem even though the bank set the frequency up for you. Ask the lender to confirm the accelerated payment sits inside the privilege before you treat it as free. Past that privilege, the charge is a different calculation.</p>
 
-    <h2>When a prepayment becomes a penalty</h2>
+    <h2 id="penalty">When a prepayment becomes a penalty</h2>
 
-    <p>Inside the privilege, the model on this page is the right model: extra principal, same contractual payment, less interest, fewer months, no charge. Outside the privilege, or when you pay the closed mortgage off before the end of the term, the lender adds a prepayment charge. FCAC describes that charge, on a closed fixed term, as usually the higher of three months’ interest and an interest-rate differential. Lenders differ. Federally regulated lenders have to describe the method and post a calculator. Use that calculator. This one does not compute a penalty, and it will not warn you that the lump sum you typed is past the clause.</p>
+    <p>Inside the privilege, there is no charge: extra principal, the same contractual payment, less interest, and fewer months. Outside the privilege, or when you pay the closed mortgage off before the end of the term, the lender adds a prepayment charge.</p>
 
-    <p>The reason a fixed term can produce a large interest-rate differential, and many variable terms produce three months’ interest only, is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>. FCAC’s own illustration lives there: a $200,000 balance at 6 percent with 36 months left, a $3,000 three-month charge, and a $12,000 differential, so the penalty is $12,000. Those are FCAC’s inputs, not a rate on offer. A discount off the posted rate can make a real penalty larger than the simple gap. Paying $200 extra inside the privilege is not that transaction. Refinancing to “get a head start” on the balance can be.</p>
+    <p><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC</a> describes that charge, on a closed fixed term, as usually the higher of three months’ interest and an IRD. Lenders differ. Federally regulated lenders such as banks have a prepayment penalty calculator on their website. Use that calculator. This one does not compute a penalty, and it will not warn you that the lump sum you typed is past the clause.</p>
+
+    <p>The reason a fixed term can produce a large IRD, and many variable terms produce three months’ interest only, is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD penalty guide</a>. Why a fixed term carries that risk, and many variable terms do not, is also the <a href="/blog/fixed-vs-variable-mortgage-canada/">fixed versus variable framework</a>. FCAC’s own illustration lives on the penalties page: a $200,000 balance at 6 percent with 36 months left, a $3,000 three-month charge, and a $12,000 differential, so the penalty is $12,000. Those are FCAC’s inputs, not a rate on offer. A discount off the posted rate can make a real penalty larger than the simple gap. Paying $200 extra inside the privilege is not that transaction. Refinancing to “get a head start” on the balance can be.</p>
+
+    <p>FCAC’s tips on that page are practical. Use your prepayment privileges every year. Make a lump-sum prepayment before you break the mortgage, because the penalty is then calculated on a lower balance. Consider waiting until the end of the term to prepay a large amount. Shop around at renewal.</p>
 
     <p>If the penalty is the price of a lower rate, the renewal guide is the shopping question, not this page. Run the interest this calculator says you would save by staying and prepaying inside the privilege. Then put the lender’s penalty beside it. A saving that arrives over 16 years does not automatically beat a charge that is due now.</p>
 
-    <h2>Renewal timing</h2>
+    <h2 id="renewal-timing">When is the best time to prepay: during the term or at renewal?</h2>
+
+    <p>During the term, stay inside the privilege. At renewal, a large prepayment is often cheaper, because the charge is usually zero when the closed term ends. <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC</a> says to consider waiting until the end of the term to prepay a large amount, and to shop around at renewal.</p>
 
     <p>The tool holds one rate for the whole amortization. A five-year term at 5 percent, followed by an unknown renewal, is not one 25-year rate. The interest in the table is what happens if that assumed rate never changes. When the renewal offer is in writing, run the calculator again on the remaining balance, the new rate, and the remaining amortization. That second run is the prepayment decision for the next term. The first run was the decision for this one.</p>
 
-    <p>Maturity is the date the closed term ends. The penalty guide on this site says the charge is usually zero then, which is why the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a> tells you to shop before you are locked in again. A lump sum made before the new term starts reduces the balance that gets renewed. Confirm the renewal letter before you move the money. An automatic renewal can start a new closed term on a date you did not shop, and the privilege and the penalty come back with it.</p>
+    <p>Maturity is the date the closed term ends. The penalty guide on this site says the charge is usually zero then, which is why the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a> tells you to shop before you are locked in again. A lump sum made before the new term starts reduces the balance that gets renewed. Confirm the renewal letter before you move the money. An automatic renewal can start a new closed term on a date you did not shop, and the privilege and the penalty come back with it. BMO’s page, checked October 27, 2026, says you can make any lump sum at the end of the term and renew without a prepayment charge.</p>
 
     <p>A prepayment during the term and a prepayment at maturity are different sizes of decision. During the term you are limited to the clause. At maturity you can usually pay any amount, including the whole balance, and renew or switch what remains. The straight-switch rules, the stress test, and the $3,000 cost allowance are the renewal guide’s subject. This calculator does not know whether your file is a straight switch. It only prices the balance you still choose to carry.</p>
 
     <p>If the renewal rate is lower and you keep the old payment, the difference is itself a prepayment. Type that difference in the extra-amount box on the new run. If you spend the difference, the amortization stretches back out and the interest saved on this page never happens. The renewal guide’s line about a lower payment you spend being a longer amortization in disguise is the same point.</p>
 
-    <h2>What will this not tell you?</h2>
+    <div class="warning-box">
+        <strong>Watch out:</strong>
+        <p>Prepayment mistakes that cost money.</p>
+        <ul>
+            <li><strong>Paying more than the privilege.</strong> The amount above the clause usually draws a penalty, the higher of three months’ interest and the IRD. Interest this calculator shows on an amount the clause does not allow is missing that charge.</li>
+            <li><strong>Assuming unused room carries forward.</strong> FCAC says most lenders cap the privilege each year, and typically you cannot carry unused room into the next year. Room you skip this year is usually gone.</li>
+            <li><strong>Raising the payment past what you can sustain.</strong> Normally, once you increase your payments, you cannot lower them until the end of the term.</li>
+            <li><strong>Prepaying before an emergency fund, or while you still carry higher-interest debt.</strong> The residence mortgage is usually the cheap debt. Cash you would need in an emergency, and a higher-interest balance, come first.</li>
+            <li><strong>Spending the lower payment at renewal.</strong> If the new payment falls and you spend the difference, the amortization stretches back out. Keeping the old payment is itself a prepayment.</li>
+        </ul>
+    </div>
 
-    <ul>
-        <li><strong>Your prepayment privilege.</strong> The percentage, the balance it multiplies, and whether unused room carries forward are in the commitment. FCAC’s prepayment pages are the consumer explanation of the charge when you exceed it.</li>
-        <li><strong>The interest-rate differential for breaking a closed term.</strong> Paying $200 extra inside the privilege is not the same as refinancing. The penalty guide walks through FCAC’s example. Use the lender’s calculator before you break anything.</li>
-        <li><strong>Whether the extra dollar beats a TFSA or an RRSP.</strong> This tool only prices the mortgage side. The neighbouring articles are the comparison, including the refund and the bracket.</li>
-        <li><strong>Tax deductibility on a rental.</strong> Interest on the home you live in is not deductible, so the interest saved is not a tax event. Interest on a rental can be. Prepaying a deductible loan is a different decision, because the hurdle is the after-tax cost of the interest, not the contract rate itself. This page does not split them.</li>
-        <li><strong>A variable rate that resets, a bi-weekly day count, or a payment the lender recalculates downward.</strong> Those schedules will not match. Match the disclosure.</li>
+    <h2 id="before-you-prepay">Before you prepay</h2>
+
+    <p>Five checks, from the annual statement and the commitment, before the money moves.</p>
+
+    <ul class="checklist">
+        <li>Find the dollar amount you can prepay this year without a charge, on your annual mortgage statement or in online banking.</li>
+        <li>Confirm whether the cap is on the original amount or the current balance, and the date window the clause allows.</li>
+        <li>Confirm whether the contractual payment stays fixed after a prepayment.</li>
+        <li>Confirm the mortgage payment is up to date.</li>
+        <li>For a large amount near maturity, compare waiting until renewal, when the charge is usually zero.</li>
     </ul>
 
-    <h2>Frequently asked questions</h2>
+    <div class="example-box">
+        <strong>Example: what to ask the lender</strong>
+        <p>This is a script, not a form the lender has to accept. Read it from the commitment, or ask for the answers in writing.</p>
+        <p>“Please confirm the dollar amount I can prepay this year without a charge, whether that cap uses the original amount or the current balance, the dates I can pay it, whether a higher payment can be lowered before the term ends, and whether my contractual payment stays the same after I prepay.”</p>
+    </div>
+
+    <h2 id="limits">What will this not tell you?</h2>
+
+    <ul>
+        <li><strong>Your prepayment privilege in dollars.</strong> The percentage, the balance it multiplies, and whether unused room carries forward are in the commitment. FCAC says unused room typically does not carry into the next year, and the Code of Conduct requires the lender to state the dollar amount you can prepay this year without a charge. FCAC’s prepayment pages are the consumer explanation of the charge when you exceed it.</li>
+        <li><strong>The interest rate differential for breaking a closed term.</strong> Paying $200 extra inside the privilege is not the same as refinancing. The penalty guide walks through FCAC’s example. Use the lender’s calculator before you break anything.</li>
+        <li><strong>Whether the extra dollar beats a TFSA or an RRSP.</strong> This tool only prices the mortgage side. The neighbouring articles are the comparison, including the refund and the bracket. This page does not name an investment return.</li>
+        <li><strong>Tax deductibility on a rental.</strong> Interest on the home you live in is not deductible, so the interest saved is not a tax event. Interest on a rental can be. Prepaying a deductible loan is a different decision, because the hurdle is the after-tax cost of the interest, not the contract rate itself. This page does not split them. A tax professional should look at a file where the interest might be deductible. This page is not that review.</li>
+        <li><strong>A variable rate that resets, a bi-weekly day count, or a payment the lender recalculates downward.</strong> Those schedules will not match. Match the disclosure. For the commitment itself, ask the lender, or a mortgage professional who will read that contract.</li>
+    </ul>
+
+    <h2 id="frequently-asked-questions">Frequently asked questions</h2>
 
     <h3>Why is my bank’s payment a few dollars different?</h3>
-    <p>The payment here is rounded to the cent, and interest is rounded to the cent each month. Lenders differ on when they round and on whether the first period is a full month. A few dollars on the payment is rounding. Hundreds of dollars means the rate, the amortization, or the balance you typed is not the disclosure.</p>
+    <p>The payment here is rounded to the cent, and interest is rounded to the cent each month, on the semi-annual rate the Interest Act requires a blended payment to state. Lenders differ on when they round and on whether the first period is a full month. A few dollars on the payment is rounding. Hundreds of dollars means the rate, the amortization, or the balance you typed is not the disclosure. On the $400,000 illustration at an assumed 5 percent, this calculator’s payment in 2026 is $2,326.42.</p>
 
     <h3>Does the lump sum happen in month one?</h3>
-    <p>No. It happens on each anniversary payment: month 12, month 24, and so on, after that month’s regular payment and after any extra monthly amount. If you will make the lump sum at the start, the interest saved will be a bit higher than this tool shows. The tool’s timing is stated so the $107,108.60 can be reproduced.</p>
+    <p>No. It happens on each anniversary payment: month 12, month 24, and so on, after that month’s regular payment and after any extra monthly amount. If you will make the lump sum at the start, the interest saved will be a bit higher than this tool shows. The tool’s timing is stated so the $107,108.60 on the 2026 illustration can be reproduced.</p>
 
     <h3>Can I type a biweekly payment?</h3>
-    <p>Not as a frequency. The schedule is monthly. Do not divide the monthly payment by two and call it the bank’s accelerated bi-weekly. Accelerated bi-weekly is half the monthly payment, paid 26 times, which is 13 monthly payments a year. The monthly stand-in on the $400,000 illustration is an extra $193.87 a month. A regular bi-weekly payment, by contrast, still adds up to 12 monthly payments and is not the same prepayment.</p>
+    <p>Not as a frequency. The schedule is monthly. Do not divide the monthly payment by two and call it the bank’s accelerated bi-weekly. Accelerated bi-weekly is half the monthly payment, paid 26 times, which is 13 monthly payments a year. FCAC calls that one extra monthly payment. The monthly stand-in on the $400,000 illustration is an extra $193.87 a month, which saves $47,064.36 and 41 months. A regular bi-weekly payment still adds up to 12 monthly payments and is not the same prepayment.</p>
 
     <h3>What if the rate changes at renewal?</h3>
-    <p>The tool holds one rate for the whole amortization. Run the remaining balance at the new rate when the renewal offer is in writing, and type only the prepayment the new term allows. The shopping decision around that offer is the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>.</p>
-
-    <h3>Is the interest saved the same as money in my pocket today?</h3>
-    <p>No. It is interest you do not pay over the shortened life of the loan. A dollar of interest avoided in year 16 is not a dollar in your account this month. The prepayment-versus-investing guide is the comparison with a return you could earn instead.</p>
-
-    <h3>What happens if the payment does not cover the interest?</h3>
-    <p>The tool stops and says the balance does not fall. That is a rate and payment combination that does not amortize. It is not a payment quote.</p>
-
-    <h3>What is a lump-sum privilege, and what is a payment-increase privilege?</h3>
-    <p>They are the two caps in a closed mortgage, and the commitment states each one. The lump-sum cap is a percentage of the original principal or of the current principal, payable on the dates the clause allows. The payment-increase cap is a percentage increase in the contractual payment, or a right to double a payment. This calculator does not store either percentage. Multiply the percentage you read by the balance or the payment the clause names, and type only that much.</p>
+    <p>The tool holds one rate for the whole amortization. The 5 percent rows are an assumption so the 2026 illustration can be checked, not a renewal offer. Run the remaining balance at the new rate when the renewal offer is in writing, and type only the prepayment the new term allows. The shopping decision around that offer is the <a href="/blog/mortgage-renewal-strategy-canada/">2026 renewal guide</a>.</p>
 
     <h3>Should I prepay the mortgage or contribute to a TFSA?</h3>
-    <p>On a principal residence, prepaying earns a certain after-tax return equal to the contract rate, and the dollar is illiquid. A TFSA contribution earns whatever return you actually get, with no tax on the growth, and you can withdraw it. Compare that expected return, after the risk of abandoning it, with the rate on your disclosure. This page does not name a TFSA return. The priority against RRSP room and an employer match is the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">TFSA and RRSP guide</a>.</p>
-
-    <h3>Should I prepay the mortgage or contribute to an RRSP?</h3>
-    <p>The RRSP adds a deduction now and an inclusion later. It can beat a prepayment when the deduction is in a higher bracket than the withdrawal and the refund is kept, in the mortgage or the TFSA. It loses when the brackets match and the refund is spent. Use your own marginal rates. The mortgage side of the dollar, the interest and the months, is what this calculator prices.</p>
+    <p>On a principal residence, prepaying earns a certain after-tax return equal to the contract rate, and the dollar is illiquid. A TFSA contribution earns whatever return you actually get, with no tax on the growth, and you can withdraw it. Compare that expected return with the rate on your disclosure. This page does not name a TFSA return. On the 2026 illustration, $200 a month plus $5,000 a year avoids $107,108.60 of mortgage interest. The priority against RRSP room and an employer match is the <a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">TFSA and RRSP guide</a>.</p>
 
     <h3>Does accelerated bi-weekly count as a prepayment?</h3>
-    <p>Yes. Half the monthly payment, 26 times a year, is 13 monthly payments. The thirteenth payment is extra principal. Regular bi-weekly, which spreads 12 monthly payments over 26 dates, is not that extra payment. Confirm the accelerated amount still fits inside the payment-increase privilege.</p>
+    <p>Yes. Half the monthly payment, 26 times a year, is 13 monthly payments. FCAC describes accelerated weekly or bi-weekly payments as one extra monthly payment a year. On the $400,000 illustration that extra monthly payment is $2,326.42, and the monthly stand-in of $193.87 saves $47,064.36 over 41 months. Regular bi-weekly, which spreads 12 monthly payments over 26 dates, is not that extra payment. Confirm the accelerated amount still fits inside the payment-increase privilege.</p>
 
     <h3>When does a prepayment trigger a penalty?</h3>
-    <p>When you pay more than the privilege, or you pay a closed mortgage off before the term ends. The charge is usually the higher of three months’ interest and an interest-rate differential. The method and FCAC’s example are the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a>. Use the lender’s penalty calculator for the dollar figure. This tool assumes the amount you type is allowed.</p>
+    <p>When you pay more than the privilege, or you pay a closed mortgage off before the term ends. FCAC says the charge is usually the higher of three months’ interest and an interest rate differential. In FCAC’s example, a $200,000 balance at 6 percent with 36 months left, against a 4 percent posted rate, is about $3,000 versus $12,000, so the penalty is $12,000. Use the lender’s penalty calculator for your own dollar figure. This tool assumes the amount you type is allowed. The method is the <a href="/blog/mortgage-prepayment-penalty-ird-canada/">penalty guide</a>.</p>
 
     <h3>Can I prepay any amount at renewal?</h3>
-    <p>At maturity the prepayment charge is usually zero, so a lump sum before the new term starts can be larger than the annual privilege. Confirm that on the renewal letter. An automatic renewal can start a new closed term and put the privilege back in force. After you renew, you are back to the new clause, and you should rerun this calculator at the new rate.</p>
+    <p>At maturity the prepayment charge is usually zero, so a lump sum before the new term starts can be larger than the annual privilege. FCAC suggests considering a wait until the end of the term for a large prepayment. Confirm that on the renewal letter. An automatic renewal can start a new closed term and put the privilege back in force. After you renew, you are back to the new clause. Rerun this calculator at the new rate. BMO’s public page, checked October 27, 2026, says you can make any lump sum at the end of the term and renew without a prepayment charge.</p>
 
-    <h2>Sources</h2>
+    <h3>Can I carry unused prepayment room into next year?</h3>
+    <p>Usually no. FCAC says most lenders cap prepayment privileges each year and typically you cannot carry unused room into the next year. That was still the rule to plan around on October 27, 2026. Use the dollar amount on this year’s statement in this year. The commitment is the exception only if it says the room carries forward.</p>
+
+    <h3>How much can I prepay at the big banks?</h3>
+    <p>On each bank’s public page on October 27, 2026, the standard closed-mortgage lump-sum cap was up to 10% of the original amount at RBC and at CIBC, which is $40,000 on a $400,000 mortgage. It was up to 15% at TD and at Scotiabank, which is $60,000. It was up to 20% at BMO, which is $80,000, or 10% and $40,000 on BMO Smart Fixed. Payment-increase rules differ, and some products differ. The commitment governs. The $5,000-a-year illustration is 1.25% of $400,000, inside every one of those caps.</p>
+
+    <h2 id="sources">Sources</h2>
     <ul>
+        <li><a href="https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html">Justice Laws: Interest Act, section 6</a>, checked October 27, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC: prepayment penalties</a>, checked October 27, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/pay-mortgage-faster.html">FCAC: paying off your mortgage faster</a>, checked October 27, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/mortgage-prepayment-information-code.html">FCAC: Code of Conduct, mortgage prepayment information</a>, checked October 27, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/industry/bulletins/information-box-examples/credit-agreement-fixed-mortgage.html">FCAC: sample information box, fixed-rate mortgage</a>, checked October 27, 2026</li>
+        <li><a href="https://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MCCalc-CHCalc-eng.aspx">FCAC: Mortgage Calculator</a>, checked October 27, 2026</li>
+        <li><a href="https://www.rbcroyalbank.com/mortgages/pay-down-mortgage.html">RBC: pay down your mortgage</a>, checked October 27, 2026</li>
+        <li><a href="https://www.td.com/ca/en/personal-banking/products/mortgages/td-mortgage-products">TD: mortgage products</a>, checked October 27, 2026</li>
+        <li><a href="https://www.scotiabank.com/ca/en/personal/mortgages/fixed-rate/3-4-5-7-10-year-closed-term.html">Scotiabank: closed-term fixed-rate mortgages</a>, checked October 27, 2026</li>
+        <li><a href="https://www.bmo.com/en-ca/main/personal/mortgages/pay-mortgage-faster/">BMO: pay your mortgage faster</a>, checked October 27, 2026</li>
+        <li><a href="https://www.cibc.com/en/personal-banking/mortgages/fixed-rate-mortgages/fixed-rate-closed-mortgage.html">CIBC: fixed-rate closed mortgage</a>, checked October 27, 2026</li>
         <li><a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a> — semi-annual compounding and the illustrative $2,767 payment on $500,000 at 4.50 percent.</li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/reduce-prepayment-penalties.html">FCAC: prepayment penalties</a></li>
         <li><a href="/blog/mortgage-prepayment-penalty-ird-canada/">IRD versus three months’ interest</a></li>
         <li><a href="/blog/mortgage-renewal-strategy-canada/">Mortgage renewal in 2026</a></li>
         <li><a href="/blog/mortgage-prepayment-vs-investing-canada/">Prepayment versus investing</a></li>
         <li><a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">Prepayment versus TFSA and RRSP</a></li>
+    </ul>
+
+    <h2 id="related-reading">Related reading</h2>
+    <ul>
+        <li><a href="/category/real-estate/">Real estate hub</a> — the mortgage, tax, and housing decisions this calculator sits beside.</li>
+        <li><a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a> — the contract, the semi-annual payment, and the illustrative $2,767 on $500,000 at 4.50 percent.</li>
+        <li><a href="/blog/mortgage-renewal-strategy-canada/">Mortgage renewal in 2026</a> — when a large prepayment is usually free of a penalty, and how to shop the next term.</li>
+        <li><a href="/blog/mortgage-prepayment-penalty-ird-canada/">Prepayment penalty and the IRD</a> — the charge for paying more than the privilege or for breaking the term.</li>
+        <li><a href="/blog/fixed-vs-variable-mortgage-canada/">Fixed versus variable</a> — why a fixed term can produce a large interest rate differential and many variable terms do not.</li>
+        <li><a href="/blog/mortgage-prepayment-vs-investing-canada/">Prepayment versus investing</a> — the contract rate as a certain after-tax return, against keeping the dollar invested.</li>
+        <li><a href="/blog/mortgage-prepayment-vs-tfsa-rrsp-canada/">Prepayment versus TFSA and RRSP</a> — the order against an employer match, TFSA room, and RRSP room.</li>
     </ul>
 
     <div class="cta-section">
@@ -695,10 +859,11 @@ export const toolsClusterPosts: ToolPost[] = [
 
     ${footer(
       'Real Estate',
-      'This is general education about Canadian mortgage arithmetic, not a payment quote or mortgage advice. The 5 percent and 4 percent rates in the examples are assumptions, not offers and not a market average. Prepayment privileges, rounding, and payment frequency are set by the contract. Confirm the disclosure and the lender’s schedule before you prepay or refinance.'
+      'This is general education about Canadian mortgage arithmetic, not a payment quote or mortgage advice. The 5 percent and 4 percent rates in the examples are assumptions, not offers and not a market average. Prepayment privileges, rounding, and payment frequency are set by the contract. Confirm the disclosure and the lender’s schedule before you prepay or refinance. Lender privileges were taken from each bank’s public page on October 27, 2026 and can differ by product; your mortgage commitment governs.',
+      'October 27, 2026'
     )}
 
 </div>`,
-    '2026-10-03'
+    '2026-10-27'
   ),
 ];
