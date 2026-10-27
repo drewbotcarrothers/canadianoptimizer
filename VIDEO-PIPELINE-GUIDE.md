@@ -51,11 +51,11 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 3. **Canadian currency only** in every image (§8): loonies, toonies and silver 5¢/10¢/25¢ coins. No pennies, no foreign coins, no banknotes. Cards are blank or Canadian-style, with no real logos and no readable text.
 4. **Never name sister brands, tools or templates** in VO, on screen, in captions, descriptions or pinned comments. That covers StockSummarizer, Saving Optimizer, Make Money Optimizer, Canadian Credit Card Finder, OpenMontage and "the template". Use research privately and say it in our own words.
 5. **No "Before we start" or "Quick note" section.** The hook goes straight into the content.
-6. **Affiliate disclosure is written in the YouTube description only**, and only when the description or post carries an affiliate link. It's never spoken and never on screen. On the site, disclosure placement follows the site component, which renders at the bottom of posts per PR #31.
+6. **YouTube descriptions must NOT include** affiliate disclosure paragraphs ("Disclosure: … may earn a commission…" / "Some links may earn a commission"), "Made with AI assistance…" paragraphs, or image-credits lists (Andrew 2026-10-27). Keep NFA/tax educational lines, chapters, the site link, and the UTM post link. Put image credits in local `credits.md` only. Site posts still keep the bottom-of-post AffiliateDisclosure component (PR #31). Studio's altered/synthetic disclosure checkbox may be set when required; it is not a description paragraph. Affiliate disclosure is never spoken and never on screen.
 7. **Site changes go through a Cursor cloud agent and a PR** (code-changes skill). **Ask Andrew before you merge or deploy** unless he has granted standing approval. Record any standing approval in `state.json → approvals.granted` with its date.
 8. **Publishing on YouTube is public and under Andrew's channel.** Get Andrew's go-ahead (per run, or a recorded standing approval) before you publish or schedule.
 9. **No social links on the site** until Andrew confirms the accounts. Don't add a YouTube link to the header or footer unless he asks. Embedding a video inside a post is part of this pipeline and is fine.
-10. **Andrew's rule overrides the guide when they conflict.** One example: the AEO guide says to put the affiliate disclosure before the first link and to show his full name, but Andrew's rules (bottom disclosure, "Andrew" only) win.
+10. **Andrew's rule overrides the guide when they conflict.** One example: the AEO guide says to put the affiliate disclosure before the first link and to show his full name, but Andrew's rules (site bottom-of-post AffiliateDisclosure only, no affiliate disclosure / AI-assistance / image-credits paragraphs in YouTube descriptions, "Andrew" only) win.
 
 ## 3. Post selection rules and scoring
 
@@ -191,7 +191,7 @@ Colours come from the site (`src/app/globals.css`, `src/app/blog/blog-content.cs
 **Sourcing order (per cut, matched to what the VO is saying):**
 1. **The post's own hero image**, `public/images/blog/<slug>.png` (1024×1024, site-approved style). Use it once, cropped. It's also the default thumbnail photo.
 2. **Free, openly licensed photos:** Openverse, Wikimedia Commons, Pexels, Pixabay, Unsplash. Check the licence and log title, author, licence and URL in `projects/co-<slug>/credits.md`. Use real photos for specific real places and things (Parliament, a CRA building, a named city).
-3. **Grok Imagine (AI)** only when no free image fits, and only for general concepts. Follow the `BLOG-IMAGE-GUIDE.md` prompt formula: realistic documentary photo, bright natural light, Canadian setting, fictional people, no text, no logos, no banknotes, Canadian coins only. Never generate a real person, a real company's product or logo, or a fake chart. Budget about 2 stills per run unless Andrew says otherwise. Add "Some images are AI-generated" to the description, and tick Studio's altered/synthetic disclosure if an image looks realistic.
+3. **Grok Imagine (AI)** only when no free image fits, and only for general concepts. Follow the `BLOG-IMAGE-GUIDE.md` prompt formula: realistic documentary photo, bright natural light, Canadian setting, fictional people, no text, no logos, no banknotes, Canadian coins only. Never generate a real person, a real company's product or logo, or a fake chart. Budget about 2 stills per run unless Andrew says otherwise. Log AI images in local `credits.md`. Tick Studio's altered/synthetic disclosure if an image looks realistic; do **not** add an AI-assistance or "Some images are AI-generated" paragraph to the YouTube description.
 4. **Never use** Google Images scrapes, news-wire photos, or screenshots / brand-site captures that imply endorsement, sponsorship, or "as seen on" framing. **Official or primary-page captures are allowed** when they help the viewer (see **Web screenshots and live demos** below): a CRA / Canada.ca page, an official calculator, a public fee table the VO walks through, or a form field the viewer must find. Endorsement-looking misuse stays banned.
 
 ### Web screenshots and live demos
@@ -344,11 +344,6 @@ Key sources (checked {DATE}): {CRA / Canada.ca / provider pages, short list}
 
 Educational only, not financial, tax or legal advice. Rules, rates and limits change; confirm with the official source (CRA, Service Canada, your province or the provider) before you act. Examples marked "Example" are illustrative.
 
-{Only if any affiliate link appears here or in the post:} Disclosure: some links on canadianoptimizer.com are affiliate or advertising links. Canadian Optimizer may earn a commission at no extra cost to you. It doesn't change what we publish.
-
-Made with AI assistance: script adapted from the Canadian Optimizer guide, synthetic (text-to-speech) voiceover{, some AI-generated images}.
-Image credits: {title – author – licence}
-
 #CanadianPersonalFinance #{TopicTag} #Canada
 ```
 
@@ -377,7 +372,7 @@ What should we break down next? Drop your question below.
 - **Spoken, end of the long-form:** "Canadian Optimizer is for education only. It isn't financial, tax or legal advice. Rules and rates change, so check the official source before you act."
 - **Spoken, end of the Short (≤5 s):** "Full breakdown on the channel. Guide at canadianoptimizer.com. Not financial advice."
 - **On screen (≥3 s):** `canadianoptimizer.com` · `Education only. Not financial, tax or legal advice.`
-- **Description only:** the fuller disclaimer, the affiliate disclosure (only when relevant), the AI-assistance line and image credits.
+- **Description only:** the fuller NFA/tax educational disclaimer. Do **not** put affiliate disclosure, AI-assistance, or image-credits paragraphs in the YouTube description (credits stay in `credits.md`; site posts keep bottom AffiliateDisclosure). Studio synthetic/altered checkbox OK when needed.
 - **Never claim:** do not say or write that content is peer-reviewed, or reviewed by CPAs, CFPs, or any other professional designation. That claim is false. Mentions of hiring a CPA/CFP as *advice to the viewer* in topic content are fine; claiming our own posts or videos were reviewed by them is not.
 
 **Paste files:** `runs/YYYY-MM-DD/output/` holds `long_title.txt`, `long_description.txt`, `long_tags.txt`, `short_title.txt`, `short_description.txt`, `short_tags.txt`, `pinned_comment.txt`, `long.srt`, `thumb-A.jpg`, `thumb-B.jpg` and `youtube_metadata.md`.
@@ -458,8 +453,8 @@ What should we break down next? Drop your question below.
 - [ ] Captions: white pill, dark text, display numerals, ≤4 words, sentence boundaries, no 1-word captions; SRT exported
 - [ ] Short 40–60 s, 1080×1920, how-to/optimization breakdown, close ≤5 s, Related = long-form, link in the description, scheduled 24–48 h after the long-form
 - [ ] Thumbnail from the locked template, timestamp zone empty, < 2 MB, readable at 160×90
-- [ ] Metadata: CTR title (pattern not repeated), post link first, chapters from the render, tags ≤500, description ≤4,800, disclaimers, affiliate disclosure only if relevant and written only
-- [ ] Every image credited; AI images disclosed; Canadian coins only; no banknotes or pennies; no text in AI images
+- [ ] Metadata: CTR title (pattern not repeated), post link first, chapters from the render, tags ≤500, description ≤4,800, NFA/tax educational lines kept; YouTube description must **not** include affiliate disclosure, AI-assistance, or image-credits paragraphs
+- [ ] Every image credited in local `credits.md` only; Studio synthetic checkbox OK when needed (not a description paragraph); Canadian coins only; no banknotes or pennies; no text in AI images
 - [ ] Web screenshots / demos (if used): official or primary page only, cropped and readable, URL + capture date in `credits.md`, spoken claim matches on-screen UI and the live page; no login/PII, no doctored or invented UI
 - [ ] No sister-brand, template or tool names; no surname; no invented figures
 - [ ] The long-form is embedded on the live post with VideoObject
@@ -494,3 +489,4 @@ Stop, save state, and report to Andrew (via the parent agent) when:
 - **2026-10-09:** Renders run in the background with per-chunk state saves (`tools/render_long_bg.sh` + `tools/render_progress.py`); sessions must not block on a long render (§15 rules 4–5). Reason: the Oct 7 and Oct 8 7 PM runs ended mid-render without recording stage 06.
 - **2026-10-15:** Thumbnail rule (§10): the headline must name the topic (e.g. TERM LIFE, TFSA) and the photo must be topic-relevant. Reason: Andrew found the term-life run's A/B thumbnails (`CHARTS LIE?`, `NOT AN AGE CURVE`) didn't say the video was about term life insurance; he chose D (`TERM LIFE BY AGE?` + family photo).
 - **2026-10-27:** Web screenshots and short live demos allowed only when they enhance the viewer (§8 + scene types `web_screenshot` / `screen_demo`). Official/educational captures OK; endorsement-looking misuse, login/PII, and invented UI stay banned. Stages 03–04 and §16 QA updated.
+- **2026-10-27:** YouTube descriptions must not include affiliate disclosure, AI-assistance, or image-credits paragraphs (Andrew via Make Money Optimizer Bot). Keep NFA/tax educational lines, chapters, site link, and UTM post link. Image credits stay in local `credits.md` only; site posts still keep bottom-of-post AffiliateDisclosure. Studio synthetic checkbox OK when needed. §2 rules 6/10, §8, §11 description template + disclaimers, and §16 QA updated.
