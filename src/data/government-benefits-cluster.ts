@@ -757,6 +757,10 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 </div>`
     ),
     updated: '2026-10-25',
+    youtubeId: 'Fr6d3t6JEP8',
+    youtubeTitle: 'Canada Benefit Payment Dates 2026: Why December Comes Early',
+    youtubeUploadDate: '2026-10-26T20:32:41-04:00',
+    youtubeDuration: 'PT6M36S',
   },
   {
     ...benefitsPost(
