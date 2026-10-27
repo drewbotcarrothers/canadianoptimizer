@@ -21,6 +21,7 @@ const SITES = [
   { name: 'Saving Optimizer', url: 'https://savingoptimizer.com' },
   { name: 'AI Tools Optimizer', url: 'https://aitoolsoptimizer.com' },
   { name: 'Stock Summarizer', url: 'https://stocksummarizer.com' },
+  { name: 'Canadian Optimizer on YouTube', url: 'https://www.youtube.com/@canadianoptimizer' },
 ];
 
 export default function Footer() {
