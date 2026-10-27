@@ -13,13 +13,23 @@ const CATEGORIES = [
   { name: 'Government Benefits', slug: '/category/government-benefits/' },
 ];
 
+const SITES = [
+  { name: 'Canadian Credit Card Finder', url: 'https://canadiancreditcardfinder.com' },
+  { name: 'Canadian Data Insights', url: 'https://canadiandatainsights.com' },
+  { name: 'Latest Mortgage Rates', url: 'https://latestmortgagerates.ca' },
+  { name: 'Make Money Optimizer', url: 'https://makemoneyoptimizer.com' },
+  { name: 'Saving Optimizer', url: 'https://savingoptimizer.com' },
+  { name: 'AI Tools Optimizer', url: 'https://aitoolsoptimizer.com' },
+  { name: 'Stock Summarizer', url: 'https://stocksummarizer.com' },
+];
+
 export default function Footer() {
   return (
     <footer className="bg-charcoal text-white pt-16 pb-8">
       <div className="container mx-auto px-4 max-w-6xl flex flex-col items-start gap-12 md:flex-row md:justify-between">
         
         {/* Brand Col */}
-        <div className="w-full md:w-1/3">
+        <div className="w-full md:w-1/4">
           <Link href="/" className="inline-flex items-center gap-2 mb-4 group">
             <Image 
               src="/assets/logo.png" 
@@ -47,7 +57,7 @@ export default function Footer() {
         </div>
 
         {/* Quick Links Col */}
-        <div className="w-full md:w-1/4">
+        <div className="w-full md:w-1/6">
           <h3 className="text-white font-semibold mb-4 border-b border-gray-700 pb-2">Company</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li><Link href="/about/" className="hover:text-white transition-colors">About Andrew</Link></li>
@@ -58,6 +68,18 @@ export default function Footer() {
             <li><Link href="/terms/" className="hover:text-white transition-colors">Terms of Service</Link></li>
             <li><Link href="/disclaimer/" className="hover:text-white transition-colors">Disclaimer</Link></li>
             <li><Link href="/disclosure/" className="hover:text-white transition-colors">Affiliate Disclosure</Link></li>
+          </ul>
+        </div>
+
+        {/* More Sites Col */}
+        <div className="w-full md:w-1/5">
+          <h3 className="text-white font-semibold mb-4 border-b border-gray-700 pb-2">More Sites</h3>
+          <ul className="space-y-2 text-sm text-gray-400">
+            {SITES.map(site => (
+              <li key={site.url}>
+                <a href={site.url} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">{site.name}</a>
+              </li>
+            ))}
           </ul>
         </div>
 
