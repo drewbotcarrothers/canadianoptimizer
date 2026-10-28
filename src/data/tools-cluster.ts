@@ -440,10 +440,11 @@ export const toolsClusterPosts: ToolPost[] = [
 </div>`
   ),
 
-  toolPost(
-    'Real Estate',
-    'real-estate',
-    'mortgage-prepayment-calculator',
+  {
+    ...toolPost(
+      'Real Estate',
+      'real-estate',
+      'mortgage-prepayment-calculator',
     'Mortgage Prepayment Calculator (Canada): What Extra Payments Save in 2026',
     'Canadian mortgage prepayment calculator: see the interest and years that extra payments and lump sums save, plus the big banks’ 10% to 20% privilege limits.',
     `<div class="container">
@@ -865,5 +866,10 @@ export const toolsClusterPosts: ToolPost[] = [
 
 </div>`,
     '2026-10-27'
-  ),
+    ),
+    youtubeId: '0NJrbPHAkws',
+    youtubeTitle: 'Canada Mortgage Prepayment: $200 a Month vs $5,000 a Year (2026)',
+    youtubeUploadDate: '2026-10-28T04:19:34-04:00',
+    youtubeDuration: 'PT6M38S',
+  },
 ];
