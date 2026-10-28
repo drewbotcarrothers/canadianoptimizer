@@ -45,6 +45,19 @@ const footer = `<div class="article-footer">
         <div class="footer-note">Published: ${published} | Category: Retirement | Author: Andrew</div>
     </div>`;
 
+function footerWithUpdate(updatedLabel: string): string {
+  const extra = ` Provincial rules were taken from each regulator’s public page or 2026 form on ${updatedLabel}.`;
+  return footer
+    .replace(
+      `Published: ${published} | Category: Retirement | Author: Andrew`,
+      `Published: ${published} | Updated: ${updatedLabel} | Category: Retirement | Author: Andrew`,
+    )
+    .replace(
+      'before you convert, unlock, or file.</p>',
+      `before you convert, unlock, or file.${extra}</p>`,
+    );
+}
+
 export const retirementClusterPosts: RetirementPost[] = [
   {
     ...retirementPost(
@@ -632,39 +645,59 @@ export const retirementClusterPosts: RetirementPost[] = [
 </div>`
   ),
 
-  retirementPost(
+  {
+    ...retirementPost(
     'lira-unlocking-by-province',
-    'LIRA and LIF Unlocking Rules by Province',
-    'Locked-in money follows the pension law that governed the plan, not the province you live in now. Federal plans use OSFI’s 2026 YMPE of $74,600. Ontario’s small-balance threshold for 2026 applications is $29,840. Other provinces were not loaded.',
+    'LIRA Unlocking Rules by Province (2026): 50% Unlock, Small Balances and Hardship',
+    'How to unlock a LIRA or LIF in Canada in 2026: 50% unlocking, small-balance limits ($14,920 to $37,300) and hardship rules, province by province.',
     `<div class="container">
 
     <div class="hook">
-        A LIRA or LIF unlocks under the pension law that governed the plan the money came from, <span class="highlight">not under the province you live in today</span>. For federally regulated locked-in accounts, OSFI’s 2026 YMPE is $74,600. Small-balance unlocking at 55 is available when all of those federal accounts together are at or under 50% of that YMPE, which OSFI states as $37,300. Ontario uses a different statute, a different form, and a different 2026 dollar amount: under $29,840. Do not paste one province’s percentage onto another province’s contract.
+        A locked-in retirement account (LIRA) or life income fund (LIF) stays locked under the pension law that governed the plan, <span class="highlight">not where you live</span> now. In 2026 the small-balance limit ranges from <strong>$14,920 to $37,300</strong> depending on that law. A one-time 50% unlock exists federally and in Alberta, Manitoba, Ontario, and Nova Scotia, but not in British Columbia.
     </div>
 
-    <p>Where the unlocked dollars sit in a retirement plan is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a> and <a href="/blog/build-retirement-plan-7-steps/">the seven-step plan</a>. The <a href="/blog/canadian-retirement-calculator/">retirement calculator</a> has no LIRA field. If you unlock to cash, that cash is not a TFSA contribution unless you put it there, and the tax on the withdrawal is not in the tool. If the lump sum came from a defined-benefit plan in the first place, the decision to commute is <a href="/blog/commuted-value-pension-canada/">commuted value</a>.</p>
+    <p>A locked-in retirement account (LIRA) or life income fund (LIF) is locked-in money from a former employer pension. You unlock it in 2026 through the financial institution that holds the account, not the regulator, using the statute named on the contract, where the small-balance limit runs from $14,920 to $37,300.</p>
+
+    <p>Where the unlocked dollars sit in a retirement plan is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a> and <a href="/blog/build-retirement-plan-7-steps/">the seven-step plan</a>. The <a href="/blog/canadian-retirement-calculator/">retirement calculator</a> has no LIRA field. If you unlock to cash, that cash is not a TFSA contribution unless you put it there, and the tax on the withdrawal is not in the tool. If the lump sum came from a defined-benefit plan in the first place, the decision to commute is <a href="/blog/commuted-value-pension-canada/">commuted value</a>. The rest of these guides are on the <a href="/category/retirement/">retirement hub</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>OSFI, date modified 2026-01-02, lists financial hardship, non-residency, shortened life expectancy, a one-time 50% unlock from a restricted LIF, and a small-balance unlock. The YMPE it uses for 2026 is $74,600.</li>
-            <li>Federal 50% unlocking is from an RLIF, within 60 days of the deposit, up to 50%, transferred to an RRSP or RRIF. It is not cash taken straight from the RLIF, and unused room does not carry forward.</li>
-            <li>Ontario’s FSRA user guide for Form 5, for applications signed in 2026, sets a small-balance test at less than $29,840 across every Ontario locked-in account you own, at age 55 or older. That is not $37,300.</li>
+            <li>The Office of the Superintendent of Financial Institutions (OSFI), date modified 2026-01-02, lists financial hardship, non-residency, shortened life expectancy, a one-time 50% unlock from a restricted life income fund (RLIF), and a small-balance unlock. The year’s maximum pensionable earnings (YMPE) it uses for 2026 is $74,600.</li>
+            <li>Federal 50% unlocking is from an RLIF, within 60 days of the deposit, up to 50%, transferred to a registered retirement savings plan (RRSP) or registered retirement income fund (RRIF). It is not cash taken straight from the RLIF, and unused room does not carry forward.</li>
+            <li>Ontario’s Financial Services Regulatory Authority (FSRA) user guide for Form 5, for applications signed in 2026, sets a small-balance test at less than $29,840 across every Ontario locked-in account you own, at age 55 or older. That is not $37,300.</li>
             <li>Ontario also allows up to 50% out of a Schedule 1.1 LIF within 60 days of a transfer from a pension plan or a LIRA, on Form 5.2, to the financial institution. Cash or a registered transfer, not a mix of both.</li>
-            <li>BC, Alberta, Quebec, Saskatchewan, Manitoba, the Atlantic provinces, and the territories did not return a current unlocking schedule on October 3, 2026. Their rules are not the federal chart.</li>
+            <li>British Columbia has no 50% unlock. Alberta allows up to 50% from age 50 when the LIRA moves to a LIF. Manitoba allows a one-time 50% at 55 and full unlocking at 65. Saskatchewan lets someone 55 or older move the money to a prescribed RRIF with no withdrawal maximum.</li>
+            <li>Quebec removed the LIF maximum for owners 55 or older on January 1, 2025. A Quebec LIRA refund needs age 65 or older and total locked-in savings of $29,840 or less.</li>
         </ul>
     </div>
 
-    <h2>Which law locks the account?</h2>
+
+    <nav class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+            <li><a href="#which-law">Which law locks the account?</a></li>
+            <li><a href="#federal-unlock">What can you unlock from a federal locked-in account?</a></li>
+            <li><a href="#ontario-unlock">What can you unlock from an Ontario locked-in account?</a></li>
+            <li><a href="#fifty-percent">Which provinces allow 50% unlocking in 2026?</a></li>
+            <li><a href="#how-to-unlock">How do you actually unlock a LIRA?</a></li>
+            <li><a href="#faq">Frequently asked questions</a></li>
+            <li><a href="#sources">Sources</a></li>
+            <li><a href="#related-reading">Related reading</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="which-law">Which law locks the account?</h2>
 
     <p>The lock follows the pension plan. A federally regulated private-sector plan is the Pension Benefits Standards Act, 1985, and OSFI’s unlocking chart. A plan registered in Ontario is the Ontario Pension Benefits Act, and FSRA’s forms. Moving to another province does not, by itself, rewrite the contract. The financial institution can tell you which statute is printed on the LIRA or LIF. If you have two locked-in accounts from two employers, you can be under two statutes at once. OSFI says the federal public service pension itself is the Public Service Superannuation Act, not the PBSA, but money transferred out of that plan into a locked-in RRSP, LIF, or RLIF then follows the federal locked-in rules.</p>
 
-    <h2>What can you unlock from a federal locked-in account?</h2>
+    <h2 id="federal-unlock">What can you unlock from a federal locked-in account?</h2>
 
     <p>OSFI’s chart is the authority for the federal options. Not every option is available from every vehicle. Forms go to the financial institution, not to OSFI.</p>
 
+    <div class="table-wrapper">
     <table>
-        <caption>Federal unlocking, OSFI chart, YMPE for 2026 of $74,600, reviewed October 3, 2026</caption>
+        <caption>Federal unlocking, OSFI chart, YMPE for 2026 of $74,600, reviewed October 28, 2026</caption>
         <thead>
             <tr>
                 <th>Option</th>
@@ -712,17 +745,19 @@ export const retirementClusterPosts: RetirementPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <p>Table as of October 2026, from OSFI’s unlocking page. A separate small-pension rule lets a plan administrator pay out a pension benefit that is under 20% of the YMPE in the year membership ended. That one is the plan’s choice, from the pension plan, not from the LIRA. OSFI says you can combine options in the same year if each option’s conditions are met. A LIF or RLIF annual maximum is separate from, and in addition to, unlocking. Withdrawals from the LIF still count as expected income in the hardship formula.</p>
+    <p>Checked October 28, 2026, from OSFI’s unlocking page. A separate small-pension rule lets a plan administrator pay out a pension benefit that is under 20% of the YMPE in the year membership ended. That one is the plan’s choice, from the pension plan, not from the LIRA. OSFI says you can combine options in the same year if each option’s conditions are met. A LIF or RLIF annual maximum is separate from, and in addition to, unlocking. Withdrawals from the LIF still count as expected income in the hardship formula.</p>
 
     <p>The 50% option is easy to over-read. OSFI’s RLIF page says you may unlock up to 50%, not exactly 50%, and that there is no carry-forward. If you unlock less, you cannot come back later for the rest under that option. The 50% is measured on the date of the withdrawal, and the withdrawal has to fall within 60 days of when the RLIF was established, meaning the date funds were first deposited. The PBSR requires the unlocked amount to be transferred to an RRSP or a RRIF. OSFI says that direct transfer generally does not use RRSP contribution room. A later cash withdrawal from the RRSP or RRIF is taxable. A transfer to a spousal RRSP is permitted by the pension regulations and may still have tax consequences. OSFI tells you to ask CRA about those.</p>
 
-    <h2>What can you unlock from an Ontario locked-in account?</h2>
+    <h2 id="ontario-unlock">What can you unlock from an Ontario locked-in account?</h2>
 
     <p>FSRA’s Form 5 user guide, for applications signed in 2026, is a different list. It applies only to accounts governed by the Ontario Pension Benefits Act. Federal accounts cannot use the Ontario form.</p>
 
+    <div class="table-wrapper">
     <table>
-        <caption>Ontario non-hardship unlocking, FSRA Form 5 user guide and Form 5.2, reviewed October 3, 2026</caption>
+        <caption>Ontario non-hardship unlocking, FSRA Form 5 user guide and Form 5.2, reviewed October 28, 2026</caption>
         <thead>
             <tr>
                 <th>Option</th>
@@ -752,27 +787,152 @@ export const retirementClusterPosts: RetirementPost[] = [
             </tr>
         </tbody>
     </table>
+    </div>
 
-    <p>Table as of October 2026. Financial hardship is real in Ontario and it is not Form 5. The user guide says to contact the financial institution for hardship. Spouse consent is part of the non-hardship application when the guide says Part 4 applies. Unlocking can remove creditor protection the Pension Benefits Act gave the locked-in money. FSRA says to ask CRA about tax and to ask the benefit office about GIS, OAS, and similar programs before you take cash.</p>
+    <p>Checked October 28, 2026. Financial hardship is real in Ontario and it is not Form 5. The user guide says to contact the financial institution for hardship. Spouse consent is part of the non-hardship application when the guide says Part 4 applies. Unlocking can remove creditor protection the Pension Benefits Act gave the locked-in money. FSRA says to ask CRA about tax and to ask the benefit office about GIS, OAS, and similar programs before you take cash.</p>
 
     <div class="example-box">
         <strong>Illustration: why the two small-balance tests are not interchangeable</strong>
         <p>OSFI’s federal test for 2026 is all federal locked-in accounts together, at or under $37,300, and you will be 55 or older within the calendar year. Ontario’s test for a 2026-signed application is all Ontario locked-in accounts together, less than $29,840, and you are at least 55. A person with $32,000 in one federal LIRA and $32,000 in one Ontario LIRA is not “under both thresholds” and is not “over a national threshold.” Each statute looks only at its own accounts. Forty percent of the $74,600 YMPE is $29,840. Fifty percent is $37,300. Those two products are why the dollars differ. They are not a suggestion to average them.</p>
     </div>
 
-    <h2>Which provinces did not load?</h2>
+    <p>Those two dollar tests are federal and Ontario only. The next table is the 2026 comparison for every law this page loaded.</p>
 
-    <p>On October 3, 2026 this review loaded OSFI and the Ontario FSRA material above. It did not load a current unlocking schedule from BCFSA, Alberta’s pension regulator, Retraite Québec, Saskatchewan, Manitoba, Nova Scotia, New Brunswick, Prince Edward Island, Newfoundland and Labrador, or the territorial regulators. Those statutes are not a copy of the federal chart or of Ontario’s $29,840 and 60-day 50% rule. Some use a different percentage, a different age, or no one-time unlock at all. The only honest cell for each of them is: read the statute named on your contract. If a page you find is an archived PDF, check the date before you use a dollar figure that moves with the YMPE.</p>
+    <h2 id="fifty-percent">Which provinces allow 50% unlocking in 2026?</h2>
+
+    <p>In 2026, a one-time unlock of up to 50% exists under the federal Pension Benefits Standards Act and in Alberta, Manitoba, Ontario, and Nova Scotia, and British Columbia has none. Saskatchewan, Quebec, New Brunswick, and Newfoundland and Labrador use other routes, shown in the table.</p>
+
+    <div class="table-wrapper">
+    <table>
+        <caption>LIRA/LIF unlocking by governing law, 2026 (official regulator pages, checked October 28, 2026)</caption>
+        <thead>
+            <tr>
+                <th>Law</th>
+                <th>Bigger unlock</th>
+                <th>Small-balance test (2026)</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Federal (PBSA, OSFI)</td>
+                <td>One-time up to 50% from an RLIF, 55+ in the calendar year, within 60 days of the first deposit; to RRSP/RRIF, not cash</td>
+                <td>All federal accounts together ≤ $37,300 (50% of YMPE), 55+</td>
+                <td>Hardship up to $37,300; non-residency 2 calendar years</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>British Columbia (BCFSA)</td>
+                <td>None: BC law has no 50% unlock</td>
+                <td>Each account: ≤ $14,920 under 65, ≤ $29,840 at 65+</td>
+                <td>Per account; you cannot split an account to qualify</td>
+            </tr>
+            <tr>
+                <td>Alberta</td>
+                <td>Up to 50%, once, age 50+, when moving a LIRA (or plan money) to a LIF; unlocking less forfeits the rest</td>
+                <td>Any single account &lt; $14,920 under 65, &lt; $29,840 at 65+</td>
+                <td>Pension partner waiver (Form 14 for a LIRA)</td>
+            </tr>
+            <tr>
+                <td>Saskatchewan (FCAA)</td>
+                <td>At 55+ (or the plan’s earlier retirement age) move to a prescribed RRIF with no withdrawal maximum; spouse consent Form 1</td>
+                <td>≤ $14,920 (20% of YMPE), only if you have no other locked-in money and the contract allows it</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>Manitoba</td>
+                <td>One-time up to 50% to a prescribed RRIF at 55+; full unlocking at 65+</td>
+                <td>All accounts &lt; $29,840 (under 65 the test adds 6% a year interest to age 65)</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>Ontario (FSRA)</td>
+                <td>Up to 50% of money moved into a Schedule 1.1 LIF, within 60 days (Form 5.2)</td>
+                <td>All Ontario accounts &lt; $29,840, 55+ (Form 5)</td>
+                <td>Hardship uses separate FHU forms</td>
+            </tr>
+            <tr>
+                <td>Quebec (Retraite Québec)</td>
+                <td>No LIF withdrawal maximum at 55+ since January 1, 2025 (but no direct LIF transfer to an RRSP or RRIF)</td>
+                <td>LIRA refund: 65+ and all locked-in savings ≤ $29,840</td>
+                <td>Non-residency 2 years</td>
+            </tr>
+            <tr>
+                <td>New Brunswick (FCNB)</td>
+                <td>One-time LIF-to-RRIF transfer: the lesser of 25% of the balance or 3× the LIF annual maximum</td>
+                <td>Age-based: $29,840 at 65–71, $16,663 at 55, $12,451 at 50</td>
+                <td>Spouse consent Form 3.7</td>
+            </tr>
+            <tr>
+                <td>Nova Scotia</td>
+                <td>Up to 50% of money moved into a Schedule 4A LIF, 55+, within 60 days (Form 20)</td>
+                <td>All LIRAs and LIFs &lt; $37,300, 55+ (Form 11)</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>Newfoundland and Labrador</td>
+                <td>No 50% unlock listed</td>
+                <td>&lt; $29,840 (40% of YMPE) if eligible for an immediate pension, or &lt; $7,460 (10%) any time (Form 7)</td>
+                <td>Shortened life, non-residency 2 years, hardship</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <p>Prince Edward Island and the territories: we did not find a separate unlocking schedule; check the statute printed on your contract.</p>
+
+    <p>All dollar limits move with the YMPE ($74,600 in 2026), so they change every January.</p>
+
+    <div class="did-you-know">
+        <strong>Did you know:</strong>
+        <p>In 2026, British Columbia has no 50% one-time unlock. The BC Financial Services Authority (BCFSA) says the legislation does not provide that option. The small-balance test is per account: $14,920 under 65, and $29,840 at 65 or older.</p>
+    </div>
+
+    <h3>Example: the same $25,000 in three provinces</h3>
+    <div class="example-box">
+        <strong>Example: one $25,000 LIRA at age 58, illustration only</strong>
+        <p>A 58-year-old has one LIRA worth $25,000. This is an illustration. It assumes a single account, ignores investment growth, and the financial institution decides whether the application qualifies.</p>
+        <div class="example-calculation">
+            <div class="line"><span>Balance</span><span>$25,000</span></div>
+            <div class="line"><span>Ontario, only Ontario account, age 55+</span><span>under $29,840</span></div>
+            <div class="line"><span>British Columbia, under 65, per account</span><span>over $14,920</span></div>
+            <div class="line"><span>British Columbia at 65, per account</span><span>limit $29,840</span></div>
+            <div class="line total"><span>Alberta, 50% when converting to a LIF</span><span>$12,500</span></div>
+        </div>
+        <p>Ontario: the balance is under $29,840 and the owner is 55 or older, so the whole account can come out if it is their only Ontario locked-in account. British Columbia: $25,000 is over $14,920 and the owner is under 65, so there is no small-balance unlock; at 65 the per-account limit is $29,840, so it would qualify then. Alberta matches British Columbia on the small-amount rule, so $25,000 does not qualify that way under 65, but from age 50 they could unlock up to $12,500 (50% of $25,000) when converting the LIRA to a LIF.</p>
+    </div>
+
+    <h2 id="how-to-unlock">How do you actually unlock a LIRA?</h2>
+
+    <p>You apply to the financial institution that holds the account, using the statute named on the contract. The regulator does not process the form.</p>
+
+    <ol>
+        <li>Find the governing law on your contract or statement.</li>
+        <li>Check which option you meet in the table above.</li>
+        <li>Get the regulator’s current-year form. Most forms are updated each January.</li>
+        <li>Get spouse or pension-partner consent, or a waiver, where that option requires it.</li>
+        <li>Submit the package to your financial institution. BCFSA, Alberta, OSFI, and FSRA all say not to send the forms to them. Then decide whether the unlocked amount is cash, which is taxable and subject to withholding, or a transfer to an RRSP or a RRIF.</li>
+    </ol>
+
+    <ul class="checklist">
+        <li>The statute on the contract, not the province you live in now.</li>
+        <li>The 2026 option you meet, including the age and the dollar test.</li>
+        <li>This year’s form, plus any spouse or partner consent.</li>
+        <li>The form filed with the financial institution, not the regulator.</li>
+        <li>Cash or a registered transfer chosen before you sign.</li>
+    </ul>
+
+    <p>For the tax on a cash unlock in your own file, confirm it with a CPA, a CFP, or a tax lawyer.</p>
+
 
     <div class="warning-box">
         <strong>Cash is income. A registered transfer is not new room.</strong>
         <p>OSFI says a direct transfer from the locked-in vehicle to an RRSP or RRIF generally does not use contribution room, and that a withdrawal can still be taxable. FSRA says any withdrawal or transfer may have tax consequences and tells you to call CRA. This page does not quote a withholding percentage. After the money is unlocked into a RRIF, the minimum factors are <a href="/blog/rrif-minimum-withdrawal/">the RRIF table</a>, and at 65 the payment may be splittable under <a href="/blog/pension-income-splitting-canada/">pension income splitting</a>. A defined-benefit plan you have not left yet is <a href="/blog/db-vs-dc-pensions-canada/">defined benefit versus defined contribution</a>.</p>
     </div>
 
-    <h2>Frequently asked questions</h2>
+    <h2 id="faq">Frequently asked questions</h2>
 
     <h3>I moved from Ontario to British Columbia. Do I now use BC rules?</h3>
-    <p>Not because you moved. The contract names the law. An Ontario LIRA stays an Ontario LIRA until the money is transferred under a rule that actually changes the governing statute. Ask the institution what is printed on the account before you download a BC form.</p>
+    <p>Not because you moved. The contract names the law. An Ontario LIRA stays an Ontario LIRA until the money is transferred under a rule that actually changes the governing statute. British Columbia has no 50% option, so a move there does not add one to a BC-governed account and does not rewrite an Ontario account. Ask the institution what is printed on the account before you download a BC form.</p>
 
     <h3>Is the federal 50% unlock available from a regular LIF?</h3>
     <p>OSFI’s chart says the one-time 50% option is from an RLIF, within 60 days of the funds being deposited there, at age 55 or older in that calendar year. It is a transfer to an RRSP or RRIF, not cash from the RLIF. A regular LIF has the other options, including small balance and hardship, if you meet them. It is not the RLIF 50% option.</p>
@@ -789,13 +949,41 @@ export const retirementClusterPosts: RetirementPost[] = [
     <h3>Will unlocking affect GIS?</h3>
     <p>It can, if the cash is income in a year you would otherwise qualify. FSRA says to ask the department that pays the benefit. The GIS maximums and cut-offs that were current for October to December 2026 are in the <a href="/blog/early-retirement-fire-canada/">early retirement</a> article, from the OAS payment page. A transfer that stays inside an RRSP or RRIF is a different tax event from cash. Do not assume they are equal.</p>
 
-    <h2>Sources</h2>
+    <h3>Can I unlock 50% of a BC LIRA?</h3>
+    <p>No. The BC Financial Services Authority (BCFSA) says British Columbia legislation has no 50% one-time unlocking. The options it describes are financial hardship, a small balance, departure from Canada, and a shortened life expectancy.</p>
+
+    <h3>Is there still a LIF maximum in Quebec?</h3>
+    <p>Not for an owner who is 55 or older. Retraite Québec removed the life income fund (LIF) maximum on January 1, 2025. Under 55, life income and temporary income limits still apply.</p>
+
+    <h2 id="sources">Sources</h2>
     <ul>
-        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/pensions/administering-pension-plans/guidance-topic/unlocking-funds-pension-plan-or-locked-retirement-savings-plan">OSFI: unlocking from a pension plan or a locked-in plan</a>, date modified 2026-01-02</li>
-        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/pensions/administering-pension-plans/guidance-topic/unlocking-restricted-life-income-funds">OSFI: unlocking from a restricted life income fund</a></li>
-        <li><a href="https://www.fsrao.ca/industry/pensions/pensions-all-forms/user-guide-form-5-application-withdraw-or-transfer-money-ontario-locked-account">FSRA: Form 5 user guide</a>, 2026 application amounts</li>
-        <li><a href="https://www.fsrao.ca/form-52-application-withdraw-or-transfer-50-money-transferred-schedule-11-lif">FSRA: Form 5.2, up to 50% from a Schedule 1.1 LIF</a>, last update 2026-01-01</li>
-        <li><a href="https://www.fsrao.ca/consumers/pensions/events-may-affect-your-pension/pension-unlocking-non-hardship">FSRA: non-hardship pension unlocking</a></li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/pensions/administering-pension-plans/guidance-topic/unlocking-funds-pension-plan-or-locked-retirement-savings-plan">OSFI: unlocking from a pension plan or a locked-in plan</a>, date modified 2026-01-02, checked October 28, 2026</li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/supervision/pensions/administering-pension-plans/guidance-topic/unlocking-restricted-life-income-funds">OSFI: unlocking from a restricted life income fund</a>, checked October 28, 2026</li>
+        <li><a href="https://www.fsrao.ca/industry/pensions/pensions-all-forms/user-guide-form-5-application-withdraw-or-transfer-money-ontario-locked-account">FSRA: Form 5 user guide</a>, 2026 application amounts, checked October 28, 2026</li>
+        <li><a href="https://www.fsrao.ca/form-52-application-withdraw-or-transfer-50-money-transferred-schedule-11-lif">FSRA: Form 5.2, up to 50% from a Schedule 1.1 LIF</a>, last update 2026-01-01, checked October 28, 2026</li>
+        <li><a href="https://www.fsrao.ca/consumers/pensions/events-may-affect-your-pension/pension-unlocking-non-hardship">FSRA: non-hardship pension unlocking</a>, checked October 28, 2026</li>
+        <li><a href="https://www.bcfsa.ca/public-resources/pensions/unlocking-pension-funds">BCFSA: unlocking pension funds</a>, checked October 28, 2026</li>
+        <li><a href="https://open.alberta.ca/dataset/3e08374c-ba38-4b96-abf0-6fd15dae7109/resource/c2419a4b-4a85-4453-91e8-4bb3ef51831b/download/tbf-accessing-pension-funds-information-for-individuals-2026.pdf">Alberta: Accessing pension funds, information for individuals (2026)</a>, checked October 28, 2026</li>
+        <li><a href="https://fcaa.gov.sk.ca/public/CKeditorUpload/Bulletin_-_Unlocking_Pension_Money_(Updated_December_2025).pdf">Financial and Consumer Affairs Authority (Saskatchewan): Unlocking pension money (updated December 2025)</a>, checked October 28, 2026</li>
+        <li><a href="https://www.manitoba.ca/asset_library/en/pension/pdf/bulletin4.pdf">Manitoba: pension bulletin 4</a>, checked October 28, 2026</li>
+        <li><a href="https://www.retraitequebec.gouv.qc.ca/en/professionals-employers/professionals-involved-pension-plans/liras-lifs/refunding-liras">Retraite Québec: refunding LIRAs</a>, checked October 28, 2026</li>
+        <li><a href="https://www.retraitequebec.gouv.qc.ca/en/professionals-employers/professionals-involved-pension-plans/liras-lifs/amendments-lifs-2025">Retraite Québec: LIF amendments (2025)</a>, checked October 28, 2026</li>
+        <li><a href="https://fcnb.ca/sites/default/files/2025-12/2026%20Maximum%20Asset%20Limits%20for%20Small%20Pensions%20and%20LIRAs%20.pdf">Financial and Consumer Services Commission (New Brunswick): 2026 maximum asset limits for small pensions and LIRAs</a>, checked October 28, 2026</li>
+        <li><a href="https://fcnb.ca/sites/default/files/2025-12/2026%20Example%20of%20Calculation%20%E2%80%93%20Transfer%20from%20LIF%20to%20RRIF.pdf">Financial and Consumer Services Commission (New Brunswick): 2026 example, transfer from a LIF to a RRIF</a>, checked October 28, 2026</li>
+        <li><a href="https://www.novascotia.ca/sites/default/files/documents/1-4151/form-11-withdrawal-lira-lif-2026-en.pdf">Nova Scotia: Form 11, withdrawal from a LIRA or LIF (2026)</a>, checked October 28, 2026</li>
+        <li><a href="https://novascotia.ca/finance/pensions/docs/pensions-form-20.pdf">Nova Scotia: Form 20</a>, checked October 28, 2026</li>
+        <li><a href="https://www.gov.nl.ca/gs/pension-regulation/unlocking-your-pension-benefit/">Newfoundland and Labrador: unlocking your pension benefit</a>, checked October 28, 2026</li>
+        <li><a href="https://www.gov.nl.ca/gs/files/pensions-form-7-application-to-withdraw-a-small-balance.pdf">Newfoundland and Labrador: Form 7, application to withdraw a small balance</a>, checked October 28, 2026</li>
+    </ul>
+
+    <h2 id="related-reading">Related reading</h2>
+    <ul>
+        <li><a href="/category/retirement/">Retirement hub: pensions, RRIFs, and withdrawal order</a></li>
+        <li><a href="/blog/rrsp-to-rrif-conversion/">Converting an RRSP to a RRIF, including the age-71 deadline</a></li>
+        <li><a href="/blog/rrif-minimum-withdrawal/">RRIF minimum withdrawals for 2026, after a transfer lands</a></li>
+        <li><a href="/blog/commuted-value-pension-canada/">Commuted value: the lump sum that may have created the LIRA</a></li>
+        <li><a href="/blog/pension-income-splitting-canada/">Pension income splitting once a payment is eligible at 65</a></li>
+        <li><a href="/blog/retirement-withdrawal-strategy/">Retirement withdrawal order after the money is unlocked</a></li>
     </ul>
 
     <div class="cta-section">
@@ -804,10 +992,12 @@ export const retirementClusterPosts: RetirementPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer}
+    ${footerWithUpdate('October 28, 2026')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-28',
+  },
 
   retirementPost(
     'commuted-value-pension-canada',
