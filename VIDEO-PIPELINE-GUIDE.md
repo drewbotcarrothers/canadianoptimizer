@@ -56,9 +56,11 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 8. **Publishing on YouTube is public and under Andrew's channel.** Get Andrew's go-ahead (per run, or a recorded standing approval) before you publish or schedule.
 9. **No social links on the site** until Andrew confirms the accounts. Don't add a YouTube link to the header or footer unless he asks. Embedding a video inside a post is part of this pipeline and is fine.
 10. **Andrew's rule overrides the guide when they conflict.** One example: the AEO guide says to put the affiliate disclosure before the first link and to show his full name, but Andrew's rules (site bottom-of-post AffiliateDisclosure only, no affiliate disclosure / AI-assistance / image-credits paragraphs in YouTube descriptions, "Andrew" only) win.
-11. **Every video must look and sound clearly different from the previous one** (§7a; Andrew 2026-10-29, YouTube inauthentic/repetitive-content policy). Keep the daily volume, keep content tied to the brand and the post, and keep the current voice (AndrewNeural) until Andrew supplies his custom voice. `tools/variation.py check` must pass before any build.
+11. **Every video must look and sound clearly different from the previous one** (§7a; Andrew 2026-10-29, YouTube inauthentic/repetitive-content policy). Keep the daily volume, keep content tied to the brand and the post, and keep the current voice (AndrewNeural) until Andrew supplies his custom voice. `tools/variation.py check` must pass before any build, and a video in a never-used look waits for Andrew's approval before publishing. Voice only: music is permanently out.
 
 ## 3. Post selection rules and scoring
+
+**Topic gate (playbook 2026-10-29):** only pick a post whose topic shows YouTube search autocomplete demand (record the suggestions in `00_pick_post.json`) and has a specific angle or original data point from the site, and that a sister channel hasn't covered this month (check the sister trackers privately; never name them publicly).
 
 **Source of candidates:** `candidate-queue.csv` is a ranked prior, already rotated by category. Re-score on the day; don't just pop row 1 blindly.
 
@@ -121,7 +123,7 @@ Do this **before scripting**, across two stages: research (`01`), then ship (`02
 
 | # | Section | Time | What it does |
 |---|---|---|---|
-| s1 | Hook | 0:00–0:20 | The payoff or the costly mistake, plus **one proof number**, then open a loop. On-screen hook text from frame 0. **First relevant image by ~0:08–0:10** (hard ceiling 0:12). No logo-only intro. |
+| s1 | Hook | 0:00–0:20 | The payoff or the costly mistake, plus **one proof number**, then open a loop. On-screen hook text from frame 0. **Frame 1 is the proof visual** (number, chart or document) and the first spoken line is the outcome in ≤12 words; first proof by 0:08, one-line roadmap by 0:15 (§7a). No logo-only intro. |
 | s2 | Promise | 0:20–0:40 | Who it's for, what they'll walk away with, a 3–4 beat roadmap. Say "Canadian Optimizer" once; "the full guide is linked below." |
 | s3 | Quick answer | ~0:40–1:30 | The post's answer-first summary in plain words |
 | s4 | How it works | 1:30–3:00 | Rules, limits and mechanics, each with a sourced number on screen |
@@ -131,7 +133,7 @@ Do this **before scripting**, across two stages: research (`01`), then ship (`02
 | s8 | Mistakes and quick wins | 7:00–7:40 | 2–3 of each |
 | s9 | Recap, site and disclaimer | last ~25 s | A 3-line recap, a CTA to `canadianoptimizer.com/blog/<slug>/`, and the spoken disclaimer (§11). On-screen URL and disclaimer for ≥3 s. Leave a 10–15 s end card for end-screen elements. |
 
-**Scene types (rotate them; a new visual beat every 8–12 s; photo holds ≤6.5 s):** hook text card · photo cut (white text, dark overlay ≥0.65) · big-number stat card with a source line · comparison table (≤5 rows, winner highlighted in red) · bar or line chart (sourced data only, source line underneath) · step list · worked-example card (labelled "Example") · timeline or deadline calendar · province map or table · official-source quote card (attributed) · **web_screenshot** (cropped official/primary UI; see §8) · **screen_demo** (short muted screen recording; see §8) · recap card · end card. Centre tables vertically and leave about 140 px at the bottom for captions.
+**Scene types (rotate them; a visual change every 3–5 s, no visual held >5 s, never the same component type twice in a row, ≥3 types per video; §7a):** hook text card · photo cut (white text, dark overlay ≥0.65) · big-number stat card with a source line · comparison table (≤5 rows, winner highlighted in red) · bar or line chart (sourced data only, source line underneath) · step list · worked-example card (labelled "Example") · timeline or deadline calendar · province map or table · official-source quote card (attributed) · **web_screenshot** (cropped official/primary UI; see §8) · **screen_demo** (short muted screen recording; see §8) · recap card · end card. Centre tables vertically and leave about 140 px at the bottom for captions.
 
 **Retention best practices:** state the payoff in the first 5 s; one idea per screen; the on-screen numbers match the spoken meaning; pattern interrupts every 8–12 s; chapters; no "thanks for watching" fade. Keep the narration tight (§9).
 
@@ -139,10 +141,10 @@ Do this **before scripting**, across two stages: research (`01`), then ship (`02
 
 | Item | Spec |
 |---|---|
-| Length | **40–60 s**, hard max 60 s |
+| Length | **20–40 s** target (one question, answered), hard max 60 s |
 | Format | 1080×1920, voice only, under ~75 MB |
 | Angle | A fast **how-to / optimization breakdown** of the same post (the strategy doc's "how to save money breakdown" adapted to this brand) |
-| Beats | Hook (0–3 s, text on screen by 0:01, image by 0:03–0:05) → 3–5 quick beats with one simplified stat card (≤4 rows) → close |
+| Beats | Scripted natively as its own Q&A (not a trim): the answer visual in frame 1, question + answer by 0:03 (§7a) → Hook (0–3 s, text on screen by 0:01, image by 0:03–0:05) → 3–5 quick beats with one simplified stat card (≤4 rows) → close |
 | Close (≤5 s) | Spoken: "Full breakdown on the channel. Guide at canadianoptimizer.com. Not financial advice." On screen: "Full breakdown on the channel" + `canadianoptimizer.com` + "Education only. Not financial advice." |
 | Link to the full video | Set **Related video = the long-form**, put the long-form URL in the first line of the description, and show "Full video on the channel" on screen |
 | Build | Re-lay the visuals for 9:16; don't letterbox. Remotion Explainer is landscape-only, so build with a Python frame renderer + ffmpeg in `projects/co-<slug>/short/` (pattern: `projects/mmo-snow-removal-pricing-canada/short/`). Reuse the long-form TTS segments, and TTS only short bridge lines in the same voice. |
@@ -187,26 +189,45 @@ Colours come from the site (`src/app/globals.css`, `src/app/blog/blog-content.cs
 }
 ```
 
-## 7a. Per-video variation system (Andrew 2026-10-29)
+## 7a. Per-video variation system (Andrew 2026-10-29, AI YouTube Video Playbook)
 
-**Why:** YouTube's inauthentic/repetitive-content policy targets channels whose videos are near-identical templates. Every new long-form **and** Short must look and sound clearly different from the channel's previous video, while staying on-brand (white/light canvas, site red `#D80621`, ink `#101828`, Inter; still no dark mode, gradients, green or teal) and relevant to the post. Volume (one pair per run) and the voice (`en-US-AndrewNeural +12%`) stay the same until Andrew provides a custom voice.
+**Why:** YouTube's inauthentic-content (YPP) and spam (synthetic mass-production) policies target channels whose videos feel interchangeable: same template, same imagery, same narration skeleton. Using AI is allowed; mass-produced sameness is not. Every new long-form **and** Short must look and sound clearly different from the channel's previous video and carry something original, while staying on-brand (white/light canvas, site red `#D80621`, ink `#101828`, Inter; no dark mode, gradients, green or teal) and tied to the post. Keep the daily volume and the current voice (`en-US-AndrewNeural`) until Andrew supplies his custom voice. **No music, ever** (Andrew 2026-10-29): every video is voice only, and music is not a rotation axis.
 
 **Files**
-- Presets: `/workspace/canadianoptimizer-video/templates/variation-presets.json` (axes, options with a one-line spec each, rules, `music_allowed`).
-- Tool: `tools/variation.py pick | check | record | show`.
-- History: `variation-log.csv` (source of truth), mirrored to `state.json → variation_history` (last 10). Backfilled 2026-10-29 from runs 2026-10-21 → 2026-10-28 (all `classic_white` / `classic_left` / `hard_cut` / `caption_center`, voice only).
-- Per run: `runs/<run_id>/variant.json`.
+- Presets: `/workspace/canadianoptimizer-video/templates/variation-presets.json` (axes, one-line spec per option, rules).
+- Tool: `tools/variation.py pick | scan | check | approve-first-use | record | show`.
+- History: `variation-log.csv` (source of truth; template, palette, hook type, etc. per run), mirrored to `state.json → variation_history` (last 10). Per run: `runs/<run_id>/variant.json` (axes, hook line, originality, titles, scene sequence, asset hashes, first-use approval). Backfilled 2026-10-29 for runs 2026-10-21 → 10-28 (all `classic_white` / `pill_lower` / `caption_center` / `classic_left` / `photo_text` opener / `classic_s1_s9`).
 
-**Axes** (one option each per run): `visual_preset` (classic_white, slate_panels, red_band, ink_header, split_frame) · `scene_mix` (data_heavy, photo_story, official_sources, timeline_map, checklist_steps: the lead scene types; all §5 scene types stay allowed) · `hook_style` (costly_mistake, big_number, question, two_people, myth_bust, deadline) · `thumbnail_layout` (classic_left, text_right, photo_full_band; `"layout"` key in `thumbs.json` for `make_co_thumbnail.py`) · `transitions` (hard_cut, slide_push, fade_quick, wipe_red) · `short_layout` (caption_center, stacked_cards, full_photo, checklist) · `music` (voice_only until Andrew approves a bed; then add options to `music_allowed`).
+**Axes** (one option each per run; every one must differ from the previous run):
+| Axis | Options |
+|---|---|
+| `visual_preset` (palette + layout) | classic_white, slate_panels, red_band, ink_header, split_frame |
+| `caption_layout` | pill_lower, lower_third_bar, boxed_left (all word-level, active word red, 2–4 words, clear of data) |
+| `scene_mix` (lead components) | data_heavy (StatCard/charts), photo_story (motion stock), official_sources (screenshots/demos), timeline_map, checklist_steps |
+| `opening_scene` (frame 1) | stat_card, chart, web_screenshot, motion_stock, comparison (photo_text = legacy, avoid) |
+| `hook_style` | surprising_number, contradiction, question_instant_answer, proof_frame, consequence |
+| `structure` (script skeleton) | classic_s1_s9 (§5), claim_proof_blocks, question_ladder, myth_vs_rule, walkthrough |
+| `transitions` | hard_cut, slide_push, fade_quick, wipe_red |
+| `thumbnail_layout` | classic_left, text_right, photo_full_band (`"layout"` in `thumbs.json`) |
+| `short_layout` | caption_center, stacked_cards, full_photo, checklist |
 
-**Rules enforced by `check` (exit 1 = fail):** every key axis differs from the previous run (music only once `music_allowed` has more than one option); `visual_preset` and `hook_style` also not used in the 2 runs before; the full combination not used in the last 10 runs. Also vary inside the video: don't reuse the previous run's photos or opener image, and keep rotating the title pattern (§11).
+**Rules `check` enforces (exit 1 = fail)**
+- *Stage `axes`:* every axis differs from the previous run; `visual_preset` and `hook_style` also not used in the 2 runs before; full combination not used in the last 10; any `music` value other than voice-only fails.
+- *Stage `pre_build` (06/07; `render_long_bg.sh` runs it):* `hook_line` (first spoken line = the outcome) ≤12 words and not the previous run's; `originality` filled (an original calc/table from site data, a real screen recording/screenshot, or an explicit recommendation unique to this video); after `scan`: ≥3 scene component types, no long-form visual held >5 s (end card/recap in the last 15 s exempt), no two consecutive cuts of the same component type, opening scene type and scene order differ from the previous run, **no image or clip shared with the previous video** (SHA-256 of `public/` and `short/` media).
+- *Stage `qa` (09):* + titles: long and Short ≤55 characters, at most one number, no "(2026)"-style suffix, no `#Shorts` suffix.
+- *Stage `publish` (10/11):* + **first-use gate**.
+
+**First-use gate (Andrew 2026-10-29):** `first_use` lists any `visual_preset`, `caption_layout`, `short_layout` or `thumbnail_layout` never used in a recorded run. `pick` and `check` print it. A first-use video (long-form and its Short) is **held unpublished** until Andrew approves that video, even with a standing approval; ask for it at 09 with the previews and say which look is new. Record his answer with `python3 tools/variation.py approve-first-use --run-id <id> --note "Andrew OK <date time ET, channel>"`; `check --stage publish` fails until then. After the first approved use, the option is no longer first-use.
+
+**Slide naming (so `scan` can tell scene types apart):** `sl_stat_*`, `sl_chart_*`, `sl_table_*`, `sl_vs_*`, `sl_ex_*`, `sl_steps_*`, `sl_timeline_*`, `sl_map_*`, `sl_quote_*`, `sl_recap_*`, `sl_end_*`; screenshots `ss_*`, demos `*demo*.mp4`, stock clips `*.mp4`, photos `bg_*`. Generic `sl_*` names count as one type `slide`.
 
 **Workflow**
-1. **Stage 03 (script):** `python3 tools/variation.py pick --run-id <run_id> --slug <slug> --write` → `runs/<run_id>/variant.json`. You may hand-edit it to suit the topic (e.g. `timeline_map` for a dates post), then run `check`. Write the hook in `hook_style`, lead with the `scene_mix` scene types, and record `variant` in `03_script.json`.
-2. **Stages 04–08:** build to the variant: Remotion `themeConfig`/slide templates for `visual_preset`, section transitions, the Short's `short_layout`, and the thumbnail `"layout"` in `thumbs.json` (A and B both use it; vary the photo too).
-3. **Pre-build gate (start of 06 and 07):** `python3 tools/variation.py check --run-id <run_id>` must print (`render_long_bg.sh` runs it automatically for `current_run` and refuses to render on failure; `VARIATION_SKIP=1` only with a logged reason) `VARIATION CHECK PASSED`. If it fails, re-pick or edit before rendering. Log the output in `06_build_long.json` / `07_build_short.json`.
-4. **Stage 09 QA:** re-run `check`, and put the long-form contact sheet, Short frames and thumbnail next to the previous run's; they must be visibly different (§16).
-5. **Stage 13 finalize:** `python3 tools/variation.py record --run-id <run_id>` (appends to the log and mirrors `state.json → variation_history`; touches only that key).
+1. **03 script:** `python3 tools/variation.py pick --run-id <run_id> --slug <slug> --write`; hand-edit `variant.json` to suit the topic if needed. Write the script in the chosen `structure` and `hook_style` (playbook hook template: frame 1 = the proof visual, line 1 = the outcome in ≤12 words, first proof by 0:08, one-line roadmap by 0:15, no greeting/logo; claim → proof → implication blocks, a payoff every 20–30 s, a teaser line before each section, sentences under ~15 words). Fill `hook_line`, `originality`, `long_title`, `short_title`. Write the Short as its own script (§6), not a trim. Then `check` (stage `axes`).
+2. **04–08:** fresh photos/clips for this video (prefer real motion clips over animated stills; never reuse the previous video's assets), cuts every 3–5 s, rotating components; build to the variant (theme/slide templates, caption layout, transitions, Short layout, thumbnail layout). Short captions stay centred above the UI safe zone.
+3. **Before 06 and 07:** `python3 tools/variation.py scan --run-id <run_id> --project /workspace/OpenMontage/projects/co-<slug>` then `check --stage pre_build` must print `VARIATION CHECK PASSED`. Log it in the stage files. `VARIATION_SKIP=1` on the render only with Andrew's OK, logged.
+4. **09 QA:** re-scan, `check --stage qa`, put long-form/Short contact sheets and the thumbnail next to the previous run's (visibly different), and report `first_use` to Andrew.
+5. **10/11:** `check --stage publish` must pass before upload or scheduling.
+6. **13 finalize:** `python3 tools/variation.py record --run-id <run_id>`.
 
 ## 8. Images and Canadian currency rules
 
@@ -266,6 +287,8 @@ These are the same settings and approach as the stock-analysis video reference u
 
 ### Voiceover
 
+**Playbook 2026-10-29:** keep the voice; vary pacing and emphasis to the script; keep a pronunciation dictionary (`templates/pronunciations.json`: CRA, TFSA, RRSP, FHSA, RRIF, LIRA, tickers, bank names) applied to the TTS text; insert pauses after key numbers; re-render flat lines; listen to minute one as a stranger before rendering. The `+12%` rate stays until Andrew decides (open question).
+
 | Setting | Value |
 |---|---|
 | Engine | Microsoft Edge neural TTS via `edge-tts` |
@@ -298,6 +321,8 @@ c = edge_tts.Communicate(text, "en-US-AndrewNeural", rate="+12%", boundary="Word
 | QA | Pull frames at caption boundaries. Check for no mid-sentence starts, no spelled-out numbers, and no 1-word pages. |
 
 ## 10. Thumbnail system (locked template)
+
+**Playbook 2026-10-29:** make 3 thumbnails (A/B/C), headline ≤3 words, one subject, high contrast, readable at 160 px wide; layout rotates per §7a. Run Test & Compare only once the video has meaningful impressions.
 
 The goal is a consistent, professional, trustworthy look so the channel reads as one brand at a glance, with CTR coming from the hook and not from clutter. There's one locked style (fonts, colours, brand row, proof pill, topic-named headline). Since 2026-10-29 it has three layouts that rotate per §7a: `classic_left` (default), `text_right` and `photo_full_band`, set with `"layout"` in `thumbs.json` (samples: `samples/variation/`).
 
@@ -334,7 +359,8 @@ UTM Short: `?utm_source=youtube&utm_medium=shorts&utm_campaign=co-daily-short&ut
 UTM pinned comment: `?utm_source=youtube&utm_medium=video&utm_campaign=co-pin&utm_content={SLUG}`
 
 ### Titles (CTR, no repetition)
-- Aim for 45–65 characters, 100 max. Front-load the Canadian keyword (use the top GSC query wording when you have it). Add the year when the topic is time-sensitive.
+- **Playbook 2026-10-29 (overrides the length below):** write 3 title options of ≤55 characters, phrased as people search ("Can I…", "X vs Y"), with at most one number and no stacked "(2026)" suffix; `variation.py check --stage qa` enforces it.
+- (Old) Aim for 45–65 characters, 100 max. Front-load the Canadian keyword (use the top GSC query wording when you have it). Add the year when the topic is time-sensitive.
 - **Rotate patterns** and never use the same pattern two runs in a row: how-to · X vs Y · number/list · question · costly mistake · explained · worked example ("I ran the numbers") · by province · deadline · myth vs math.
 - Before you finalize, check the last 10 tracker titles and `legacy-channel-videos.csv`. Avoid the same first 3 words, the same template, and old-channel phrasing like "… | CanadianOptimizer" or "Everything You NEED to Know".
 - The title, thumbnail and hook make one promise, and the video pays it off. No claims the sources don't support. At most one all-caps word (an acronym like TFSA is fine).
@@ -375,7 +401,7 @@ Build the chapters from the **rendered** section starts: the first at 0:00, at l
 `{primary query}, {secondary query}, {topic} canada, {topic} 2026, canadian personal finance, {category} canada, {account/program names}, canadian optimizer`
 
 ### Short title and description
-- Title: ≤ 70 characters, a different hook from the long-form, ending in `#Shorts`.
+- Title: ≤ 55 characters, phrased as the question people search, a different hook from the long-form. **No `#Shorts` suffix** (playbook 2026-10-29).
 - Description:
 ```
 {One-line hook.} Full video: {LONG_URL}
@@ -430,10 +456,10 @@ What should we break down next? Drop your question below.
 
 ## 14. Tracker and queue
 
-- `tracker.csv` has one row per run, and it's the record of posts already used. Columns: `run_date, slug, category, post_url, title_pattern, long_title, long_url, long_published_at, short_title, short_url, short_scheduled_for, thumbnail, refresh_pr, embed_pr, ga_gsc_notes, status, views_7d, ctr_7d, avg_view_pct_7d, site_sessions_7d, notes`. Status moves through `in_progress → awaiting_approval → published → done`. Write the row at `00` with `in_progress`.
+- `tracker.csv` has one row per run, and it's the record of posts already used. Columns: `run_date, slug, category, post_url, title_pattern, long_title, long_url, long_published_at, short_title, short_url, short_scheduled_for, thumbnail, refresh_pr, embed_pr, ga_gsc_notes, status, views_7d, ctr_7d, avg_view_pct_7d, site_sessions_7d, notes, avd_7d, retention_cliff_s`. Status moves through `in_progress → awaiting_approval → published → done`. Write the row at `00` with `in_progress`.
 - `candidate-queue.csv` is the ranked candidates with their score breakdown. Mark a row `used` when it's picked. Refill it to about 30 rows when fewer than 10 remain, keeping the category rotation and re-scoring with GA/GSC when you have it.
 - `legacy-channel-videos.csv` lists the posts that already have channel videos (`hard` = excluded, `soft` = needs a new angle). Refresh it monthly with a public channel listing (e.g. `yt-dlp --flat-playlist`).
-- **7 days after publish:** fill in the KPI columns from Studio and GA4 (`source=youtube`, campaign `co-daily-long` / `co-daily-short`).
+- **7 days after publish:** fill in `ctr_7d`, `avd_7d` (average view duration) and `retention_cliff_s` (time of the biggest retention drop) too; change the hook or packaging before changing the topic mix. Fill in the KPI columns from Studio and GA4 (`source=youtube`, campaign `co-daily-long` / `co-daily-short`).
 
 ## 15. Chunked stage list, state save and resume
 
@@ -451,7 +477,7 @@ What should we break down next? Drop your question below.
 | 07 | `build_short` | 9:16 build, ≤60 s, QA frames | mp4 path, duration, QA notes |
 | 08 | `thumbnail_metadata` | Thumbnail A/B, all paste files, chapters | thumbnail paths, title, title_pattern, description length, tags length |
 | 09 | `qa_approval` | Run `tools/variation.py check` (must pass) and the §16 DoD checklist and send Andrew the preview (mp4s, thumbnail, title) for go-ahead unless a standing approval exists | checklist results, approval (who, when) or `awaiting_approval` |
-| 10 | `publish_long` | Upload the long-form, set thumbnail, captions, playlist, end screen; Public (or scheduled per §12) | long_url, video_id, long_published_at (ET), method (API or Studio) |
+| 10 | `publish_long` | `variation.py check --stage publish` must pass (first-use gate); Upload the long-form, set thumbnail, captions, playlist, end screen; Public (or scheduled per §12) | long_url, video_id, long_published_at (ET), method (API or Studio) |
 | 11 | `schedule_short` | Upload the Short scheduled 24–48 h later, Related = long-form, link in description | short_url, short_scheduled_for (ET), related_long_id |
 | 12 | `embed_post` | Embed PR, merge with approval, live check, pinned comment if the long-form is live | embed PR, live confirmed or pending |
 | 13 | `finalize` | `tools/variation.py record --run-id <run_id>`, complete the tracker row, mark the queue `used`, set `last_completed_run`, clear `current_run` | `13_finalize.json`, DoD ticks |
@@ -471,13 +497,19 @@ What should we break down next? Drop your question below.
 - [ ] The post was unused (tracker + legacy hard list) and the rotation was respected (or the exception logged)
 - [ ] Refresh: facts verified with sources, new info added, AEO checklist applied, links added (no invented affiliates), `updated` set to the run date, PR merged with approval and live
 - [ ] GA4/GSC notes recorded (or "blocked" noted)
-- [ ] Long-form 5–15 min, 1920×1080, white + site red/ink, hook-first with an image by ~0:10, scene beat every 8–12 s, voice only, AndrewNeural +12%, site CTA + disclaimer at the end
+- [ ] Long-form 5–15 min, 1920×1080, white + site red/ink, frame 1 = proof visual, first line = outcome ≤12 words, proof by 0:08, roadmap by 0:15, a visual change every 3–5 s (none >5 s), ≥3 component types, payoff/teaser every ≤30 s, voice only, AndrewNeural +12%, site CTA + disclaimer at the end
 - [ ] Captions: white pill, dark text, display numerals, ≤4 words, sentence boundaries, no 1-word captions; SRT exported
-- [ ] Short 40–60 s, 1080×1920, how-to/optimization breakdown, close ≤5 s, Related = long-form, link in the description, scheduled 24–48 h after the long-form
-- [ ] **Variation (§7a):** `variant.json` exists; `tools/variation.py check` passed before 06/07 and again at 09; long-form, Short and thumbnail visibly differ from the previous run (side-by-side contact sheets); history recorded at 13
+- [ ] Short scripted natively (one question answered, 20–40 s target, ≤60 s), answer visual in frame 1, no `#Shorts` title suffix, 1080×1920, close ≤5 s, Related = long-form, link in the description, scheduled 24–48 h after the long-form
+- [ ] **Variation (§7a):** `variant.json` exists; `variation.py check` passed at `pre_build` (before 06/07), `qa` (09) and `publish` (10/11); vs the previous video: different scene mix and opening scene, palette/layout, caption layout, hook type, structure, transitions, thumbnail and Short layout, **no shared image or clip** (side-by-side contact sheets); voice only (no music); history recorded at 13
+- [ ] **First-use gate:** if `first_use` is not `none`, the video was held unpublished and Andrew's approval is recorded (`approve-first-use`)
+- [ ] **Originality:** at least one element unique to this video (original calc/table, real screen recording/screenshot, or explicit recommendation); at least one real screenshot or original chart
+- [ ] Topic gate: autocomplete demand recorded, specific angle, not covered by a sister channel this month
+- [ ] Voice: every acronym/ticker pronounced right (pronunciation dictionary), no flat robotic questions; captions word-level, synced, active word highlighted, first caption = the hook line, not covering data
+- [ ] Titles ≤55 chars, search-phrased, ≤1 number, no "(2026)" or `#Shorts` suffix; 3 thumbnails ≤3 words readable at 160 px
+- [ ] Would a stranger in the niche stay past 0:30? If not, re-cut the open
 - [ ] Thumbnail from the locked template (layout per the variant), timestamp zone empty, < 2 MB, readable at 160×90
 - [ ] Metadata: CTR title (pattern not repeated), post link first, chapters from the render, tags ≤500, description ≤4,800, NFA/tax educational lines kept; YouTube description must **not** include affiliate disclosure, AI-assistance, or image-credits paragraphs
-- [ ] Every image credited in local `credits.md` only; Studio synthetic checkbox OK when needed (not a description paragraph); Canadian coins only; no banknotes or pennies; no text in AI images
+- [ ] Every image credited in local `credits.md` only; Studio **AI use / altered-or-synthetic = Yes whenever a photorealistic Grok Imagine person or scene appears** (not a description paragraph); prefer charts and real footage; Canadian coins only; no banknotes or pennies; no text in AI images
 - [ ] Web screenshots / demos (if used): official or primary page only, cropped and readable, URL + capture date in `credits.md`, spoken claim matches on-screen UI and the live page; no login/PII, no doctored or invented UI
 - [ ] No sister-brand, template or tool names; no surname; no invented figures
 - [ ] The long-form is embedded on the live post with VideoObject
@@ -513,4 +545,4 @@ Stop, save state, and report to Andrew (via the parent agent) when:
 - **2026-10-15:** Thumbnail rule (§10): the headline must name the topic (e.g. TERM LIFE, TFSA) and the photo must be topic-relevant. Reason: Andrew found the term-life run's A/B thumbnails (`CHARTS LIE?`, `NOT AN AGE CURVE`) didn't say the video was about term life insurance; he chose D (`TERM LIFE BY AGE?` + family photo).
 - **2026-10-27:** Web screenshots and short live demos allowed only when they enhance the viewer (§8 + scene types `web_screenshot` / `screen_demo`). Official/educational captures OK; endorsement-looking misuse, login/PII, and invented UI stay banned. Stages 03–04 and §16 QA updated.
 - **2026-10-27:** YouTube descriptions must not include affiliate disclosure, AI-assistance, or image-credits paragraphs (Andrew via Make Money Optimizer Bot). Keep NFA/tax educational lines, chapters, site link, and UTM post link. Image credits stay in local `credits.md` only; site posts still keep bottom-of-post AffiliateDisclosure. Studio synthetic checkbox OK when needed. §2 rules 6/10, §8, §11 description template + disclaimers, and §16 QA updated.
-- **2026-10-29:** Per-video variation system (§7a, §2 rule 11): presets in `templates/variation-presets.json`, `tools/variation.py` pick/check/record, history in `variation-log.csv` + `state.json → variation_history` (backfilled from runs 10-21 → 10-28), pre-build gate at 06/07 and QA at 09, thumbnail layouts `text_right` / `photo_full_band` added to `make_co_thumbnail.py`. Reason: Andrew's YouTube playbook for all brand bots (avoid YouTube's inauthentic-content policy). Volume and AndrewNeural voice unchanged; music stays voice-only until Andrew approves a bed.
+- **2026-10-29:** Per-video variation system (§7a, §2 rule 11) from Andrew's AI YouTube Video Playbook: presets in `templates/variation-presets.json`, `tools/variation.py` pick/scan/check/approve-first-use/record, history in `variation-log.csv` + `state.json → variation_history` (backfilled 10-21 → 10-28 incl. asset hashes), check stages axes / pre_build (render gate) / qa / publish, first-use approval gate for new looks, thumbnail layouts `text_right` / `photo_full_band`. Playbook rules added: topic gate (§3), hook template and 3–5 s cadence (§5), native 20–40 s Q&A Shorts without `#Shorts` (§6, §11), ≤55-char search-phrased titles (§11), 3 thumbnails ≤3 words (§10), pronunciation dictionary and pauses (§9), AI-use disclosure for photorealistic Grok Imagine (§16), AVD + retention cliff KPIs (§14). Music permanently out: voice only. Volume and AndrewNeural voice unchanged.
