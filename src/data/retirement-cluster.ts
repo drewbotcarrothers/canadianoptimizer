@@ -997,6 +997,10 @@ export const retirementClusterPosts: RetirementPost[] = [
 </div>`
     ),
     updated: '2026-10-28',
+    youtubeId: 'vid5mjWNVco',
+    youtubeTitle: 'Unlock a LIRA in 2026: Your Province\'s 50% and Small-Balance Rules',
+    youtubeUploadDate: '2026-10-29T04:57:08-04:00',
+    youtubeDuration: 'PT7M34S',
   },
 
   retirementPost(
