@@ -22,7 +22,7 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 4. Pre-video blog refresh checklist
 5. Long-form spec (16:9)
 6. Short spec (9:16)
-7. Visual and brand spec
+7. Visual and brand spec (7a. Per-video variation system)
 8. Images and Canadian currency rules
 9. Voiceover and captions
 10. Thumbnail system
@@ -56,6 +56,7 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 8. **Publishing on YouTube is public and under Andrew's channel.** Get Andrew's go-ahead (per run, or a recorded standing approval) before you publish or schedule.
 9. **No social links on the site** until Andrew confirms the accounts. Don't add a YouTube link to the header or footer unless he asks. Embedding a video inside a post is part of this pipeline and is fine.
 10. **Andrew's rule overrides the guide when they conflict.** One example: the AEO guide says to put the affiliate disclosure before the first link and to show his full name, but Andrew's rules (site bottom-of-post AffiliateDisclosure only, no affiliate disclosure / AI-assistance / image-credits paragraphs in YouTube descriptions, "Andrew" only) win.
+11. **Every video must look and sound clearly different from the previous one** (§7a; Andrew 2026-10-29, YouTube inauthentic/repetitive-content policy). Keep the daily volume, keep content tied to the brand and the post, and keep the current voice (AndrewNeural) until Andrew supplies his custom voice. `tools/variation.py check` must pass before any build.
 
 ## 3. Post selection rules and scoring
 
@@ -186,6 +187,27 @@ Colours come from the site (`src/app/globals.css`, `src/app/blog/blog-content.cs
 }
 ```
 
+## 7a. Per-video variation system (Andrew 2026-10-29)
+
+**Why:** YouTube's inauthentic/repetitive-content policy targets channels whose videos are near-identical templates. Every new long-form **and** Short must look and sound clearly different from the channel's previous video, while staying on-brand (white/light canvas, site red `#D80621`, ink `#101828`, Inter; still no dark mode, gradients, green or teal) and relevant to the post. Volume (one pair per run) and the voice (`en-US-AndrewNeural +12%`) stay the same until Andrew provides a custom voice.
+
+**Files**
+- Presets: `/workspace/canadianoptimizer-video/templates/variation-presets.json` (axes, options with a one-line spec each, rules, `music_allowed`).
+- Tool: `tools/variation.py pick | check | record | show`.
+- History: `variation-log.csv` (source of truth), mirrored to `state.json → variation_history` (last 10). Backfilled 2026-10-29 from runs 2026-10-21 → 2026-10-28 (all `classic_white` / `classic_left` / `hard_cut` / `caption_center`, voice only).
+- Per run: `runs/<run_id>/variant.json`.
+
+**Axes** (one option each per run): `visual_preset` (classic_white, slate_panels, red_band, ink_header, split_frame) · `scene_mix` (data_heavy, photo_story, official_sources, timeline_map, checklist_steps: the lead scene types; all §5 scene types stay allowed) · `hook_style` (costly_mistake, big_number, question, two_people, myth_bust, deadline) · `thumbnail_layout` (classic_left, text_right, photo_full_band; `"layout"` key in `thumbs.json` for `make_co_thumbnail.py`) · `transitions` (hard_cut, slide_push, fade_quick, wipe_red) · `short_layout` (caption_center, stacked_cards, full_photo, checklist) · `music` (voice_only until Andrew approves a bed; then add options to `music_allowed`).
+
+**Rules enforced by `check` (exit 1 = fail):** every key axis differs from the previous run (music only once `music_allowed` has more than one option); `visual_preset` and `hook_style` also not used in the 2 runs before; the full combination not used in the last 10 runs. Also vary inside the video: don't reuse the previous run's photos or opener image, and keep rotating the title pattern (§11).
+
+**Workflow**
+1. **Stage 03 (script):** `python3 tools/variation.py pick --run-id <run_id> --slug <slug> --write` → `runs/<run_id>/variant.json`. You may hand-edit it to suit the topic (e.g. `timeline_map` for a dates post), then run `check`. Write the hook in `hook_style`, lead with the `scene_mix` scene types, and record `variant` in `03_script.json`.
+2. **Stages 04–08:** build to the variant: Remotion `themeConfig`/slide templates for `visual_preset`, section transitions, the Short's `short_layout`, and the thumbnail `"layout"` in `thumbs.json` (A and B both use it; vary the photo too).
+3. **Pre-build gate (start of 06 and 07):** `python3 tools/variation.py check --run-id <run_id>` must print (`render_long_bg.sh` runs it automatically for `current_run` and refuses to render on failure; `VARIATION_SKIP=1` only with a logged reason) `VARIATION CHECK PASSED`. If it fails, re-pick or edit before rendering. Log the output in `06_build_long.json` / `07_build_short.json`.
+4. **Stage 09 QA:** re-run `check`, and put the long-form contact sheet, Short frames and thumbnail next to the previous run's; they must be visibly different (§16).
+5. **Stage 13 finalize:** `python3 tools/variation.py record --run-id <run_id>` (appends to the log and mirrors `state.json → variation_history`; touches only that key).
+
 ## 8. Images and Canadian currency rules
 
 **Sourcing order (per cut, matched to what the VO is saying):**
@@ -277,7 +299,7 @@ c = edge_tts.Communicate(text, "en-US-AndrewNeural", rate="+12%", boundary="Word
 
 ## 10. Thumbnail system (locked template)
 
-The goal is a consistent, professional, trustworthy look so the channel reads as one brand at a glance, with CTR coming from the hook and not from clutter. There's one locked layout; only the variables change.
+The goal is a consistent, professional, trustworthy look so the channel reads as one brand at a glance, with CTR coming from the hook and not from clutter. There's one locked style (fonts, colours, brand row, proof pill, topic-named headline). Since 2026-10-29 it has three layouts that rotate per §7a: `classic_left` (default), `text_right` and `photo_full_band`, set with `"layout"` in `thumbs.json` (samples: `samples/variation/`).
 
 **Fixed elements (never change per video):**
 
@@ -422,17 +444,17 @@ What should we break down next? Drop your question below.
 | 00 | `pick_post` | Score candidates, apply the filters and rotation; tracker row `in_progress` | slug, category, post_url, score breakdown, why, rotation_ok, ga_gsc used or blocked |
 | 01 | `refresh_research` | Fact-check, web research, GA4 + GSC, AEO audit, refresh plan | sources (URL + date), new info, analytics notes, planned edits, top queries |
 | 02 | `refresh_ship` | Cloud agent applies the edits, `updated` date, links; build; PR | PR URL, branch, build result, merged true/false (merge needs approval) |
-| 03 | `script` | Long-form VO by section + Short VO, beats, the on-screen number list with a source each, title/hook/thumbnail promise; mark UI beats with `screenshot:` / `demo:` + URL when a real page helps | `03_script.md` + `03_script.json` (word count, est. duration, numbers → sources, screenshot/demo URLs) |
+| 03 | `script` | Long-form VO by section + Short VO, beats, the on-screen number list with a source each, title/hook/thumbnail promise; mark UI beats with `screenshot:` / `demo:` + URL when a real page helps; `tools/variation.py pick --write` → `variant.json` (§7a) | `03_script.md` + `03_script.json` (variant, word count, est. duration, numbers → sources, screenshot/demo URLs) |
 | 04 | `assets` | Images (hero → free → Grok Imagine), **web screenshots / short screen demos** (official pages first, then free/AI fill), charts and slides, brand badge, credits | asset paths, `credits.md` (incl. screenshot/demo URL + capture date), ai_image_count, OCR/currency QA passed |
 | 05 | `voiceover_captions` | TTS AndrewNeural +12%, loudness, caption display rewrite, chunking, SRT | narration path, words.json, caption pages, 1-word pages = 0, LUFS, duration |
 | 06 | `build_long` | OpenMontage render 1920×1080 in the background (`tools/render_long_bg.sh`, §15 rule 4), then QA frames | render launch + per-chunk progress; mp4 path, duration, chapter times (rendered), QA frame dir |
 | 07 | `build_short` | 9:16 build, ≤60 s, QA frames | mp4 path, duration, QA notes |
 | 08 | `thumbnail_metadata` | Thumbnail A/B, all paste files, chapters | thumbnail paths, title, title_pattern, description length, tags length |
-| 09 | `qa_approval` | Run the §16 DoD checklist and send Andrew the preview (mp4s, thumbnail, title) for go-ahead unless a standing approval exists | checklist results, approval (who, when) or `awaiting_approval` |
+| 09 | `qa_approval` | Run `tools/variation.py check` (must pass) and the §16 DoD checklist and send Andrew the preview (mp4s, thumbnail, title) for go-ahead unless a standing approval exists | checklist results, approval (who, when) or `awaiting_approval` |
 | 10 | `publish_long` | Upload the long-form, set thumbnail, captions, playlist, end screen; Public (or scheduled per §12) | long_url, video_id, long_published_at (ET), method (API or Studio) |
 | 11 | `schedule_short` | Upload the Short scheduled 24–48 h later, Related = long-form, link in description | short_url, short_scheduled_for (ET), related_long_id |
 | 12 | `embed_post` | Embed PR, merge with approval, live check, pinned comment if the long-form is live | embed PR, live confirmed or pending |
-| 13 | `finalize` | Complete the tracker row, mark the queue `used`, set `last_completed_run`, clear `current_run` | `13_finalize.json`, DoD ticks |
+| 13 | `finalize` | `tools/variation.py record --run-id <run_id>`, complete the tracker row, mark the queue `used`, set `last_completed_run`, clear `current_run` | `13_finalize.json`, DoD ticks |
 
 **Save and resume rules**
 1. **Write order after each stage:** stage file first, then `state.json` (`last_completed_stage`, `next_stage`, append to `stage_log`, merge `artifacts`, `updated_at` with offset). If the box dies between the two writes, the stage file without a state bump means: verify the stage file, then bump.
@@ -452,7 +474,8 @@ What should we break down next? Drop your question below.
 - [ ] Long-form 5–15 min, 1920×1080, white + site red/ink, hook-first with an image by ~0:10, scene beat every 8–12 s, voice only, AndrewNeural +12%, site CTA + disclaimer at the end
 - [ ] Captions: white pill, dark text, display numerals, ≤4 words, sentence boundaries, no 1-word captions; SRT exported
 - [ ] Short 40–60 s, 1080×1920, how-to/optimization breakdown, close ≤5 s, Related = long-form, link in the description, scheduled 24–48 h after the long-form
-- [ ] Thumbnail from the locked template, timestamp zone empty, < 2 MB, readable at 160×90
+- [ ] **Variation (§7a):** `variant.json` exists; `tools/variation.py check` passed before 06/07 and again at 09; long-form, Short and thumbnail visibly differ from the previous run (side-by-side contact sheets); history recorded at 13
+- [ ] Thumbnail from the locked template (layout per the variant), timestamp zone empty, < 2 MB, readable at 160×90
 - [ ] Metadata: CTR title (pattern not repeated), post link first, chapters from the render, tags ≤500, description ≤4,800, NFA/tax educational lines kept; YouTube description must **not** include affiliate disclosure, AI-assistance, or image-credits paragraphs
 - [ ] Every image credited in local `credits.md` only; Studio synthetic checkbox OK when needed (not a description paragraph); Canadian coins only; no banknotes or pennies; no text in AI images
 - [ ] Web screenshots / demos (if used): official or primary page only, cropped and readable, URL + capture date in `credits.md`, spoken claim matches on-screen UI and the live page; no login/PII, no doctored or invented UI
@@ -490,3 +513,4 @@ Stop, save state, and report to Andrew (via the parent agent) when:
 - **2026-10-15:** Thumbnail rule (§10): the headline must name the topic (e.g. TERM LIFE, TFSA) and the photo must be topic-relevant. Reason: Andrew found the term-life run's A/B thumbnails (`CHARTS LIE?`, `NOT AN AGE CURVE`) didn't say the video was about term life insurance; he chose D (`TERM LIFE BY AGE?` + family photo).
 - **2026-10-27:** Web screenshots and short live demos allowed only when they enhance the viewer (§8 + scene types `web_screenshot` / `screen_demo`). Official/educational captures OK; endorsement-looking misuse, login/PII, and invented UI stay banned. Stages 03–04 and §16 QA updated.
 - **2026-10-27:** YouTube descriptions must not include affiliate disclosure, AI-assistance, or image-credits paragraphs (Andrew via Make Money Optimizer Bot). Keep NFA/tax educational lines, chapters, site link, and UTM post link. Image credits stay in local `credits.md` only; site posts still keep bottom-of-post AffiliateDisclosure. Studio synthetic checkbox OK when needed. §2 rules 6/10, §8, §11 description template + disclaimers, and §16 QA updated.
+- **2026-10-29:** Per-video variation system (§7a, §2 rule 11): presets in `templates/variation-presets.json`, `tools/variation.py` pick/check/record, history in `variation-log.csv` + `state.json → variation_history` (backfilled from runs 10-21 → 10-28), pre-build gate at 06/07 and QA at 09, thumbnail layouts `text_right` / `photo_full_band` added to `make_co_thumbnail.py`. Reason: Andrew's YouTube playbook for all brand bots (avoid YouTube's inauthentic-content policy). Volume and AndrewNeural voice unchanged; music stays voice-only until Andrew approves a bed.
