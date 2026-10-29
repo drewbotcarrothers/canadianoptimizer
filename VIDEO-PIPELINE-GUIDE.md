@@ -8,7 +8,7 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 | **Channel** | https://www.youtube.com/@canadianoptimizer (channel ID `UCwMXnaDvnorDyEdu64BOStg`). The channel is public and links back to the site. Upload access from the box is **not set up yet** (see §12). |
 | **Public name** | **Andrew** only. Never use his full name or surname in VO, on screen, in titles, descriptions, thumbnails or the site. |
 | **Daily run** | **7:00 PM ET** (America/Toronto) |
-| **Output per run** | One 16:9 long-form (5–15 min) and one 9:16 Short (40–60 s) from **one** blog post, plus a refreshed post that embeds the long-form |
+| **Output per run** | One 16:9 long-form (5–15 min) and one 9:16 Short (20–40 s) from **one** blog post, plus a refreshed post that embeds the long-form |
 | **Working folder (box)** | `/workspace/canadianoptimizer-video/`: `state.json`, `tracker.csv`, `candidate-queue.csv`, `legacy-channel-videos.csv`, `runs/YYYY-MM-DD/` |
 | **Site repo** | `drewbotcarrothers/canadianoptimizer`. Next.js static export. Posts live in `src/data/posts.ts` and the `src/data/*-cluster.ts` / `src/data/oct2026/*.ts` files. A merge to `main` deploys to Hostinger by FTP (GitHub Action). |
 | **Build tool** | OpenMontage (`/workspace/OpenMontage`), projects at `projects/co-<slug>/` |
@@ -141,7 +141,7 @@ Do this **before scripting**, across two stages: research (`01`), then ship (`02
 
 | Item | Spec |
 |---|---|
-| Length | **20–40 s** target (one question, answered), hard max 60 s |
+| Length | **20–40 s** (one question, answered; Andrew approved 2026-10-29), hard max 60 s |
 | Format | 1080×1920, voice only, under ~75 MB |
 | Angle | A fast **how-to / optimization breakdown** of the same post (the strategy doc's "how to save money breakdown" adapted to this brand) |
 | Beats | Scripted natively as its own Q&A (not a trim): the answer visual in frame 1, question + answer by 0:03 (§7a) → Hook (0–3 s, text on screen by 0:01, image by 0:03–0:05) → 3–5 quick beats with one simplified stat card (≤4 rows) → close |
@@ -201,7 +201,7 @@ Colours come from the site (`src/app/globals.css`, `src/app/blog/blog-content.cs
 **Axes** (one option each per run; every one must differ from the previous run):
 | Axis | Options |
 |---|---|
-| `visual_preset` (palette + layout) | classic_white, slate_panels, red_band, ink_header, split_frame |
+| `visual_preset` (palette + layout) | classic_white, slate_panels, red_band (Andrew 2026-10-29: these 3 only; with the 2-run window they cycle) |
 | `caption_layout` | pill_lower, lower_third_bar, boxed_left (all word-level, active word red, 2–4 words, clear of data) |
 | `scene_mix` (lead components) | data_heavy (StatCard/charts), photo_story (motion stock), official_sources (screenshots/demos), timeline_map, checklist_steps |
 | `opening_scene` (frame 1) | stat_card, chart, web_screenshot, motion_stock, comparison (photo_text = legacy, avoid) |
@@ -217,7 +217,7 @@ Colours come from the site (`src/app/globals.css`, `src/app/blog/blog-content.cs
 - *Stage `qa` (09):* + titles: long and Short ≤55 characters, at most one number, no "(2026)"-style suffix, no `#Shorts` suffix.
 - *Stage `publish` (10/11):* + **first-use gate**.
 
-**First-use gate (Andrew 2026-10-29):** `first_use` lists any `visual_preset`, `caption_layout`, `short_layout` or `thumbnail_layout` never used in a recorded run. `pick` and `check` print it. A first-use video (long-form and its Short) is **held unpublished** until Andrew approves that video, even with a standing approval; ask for it at 09 with the previews and say which look is new. Record his answer with `python3 tools/variation.py approve-first-use --run-id <id> --note "Andrew OK <date time ET, channel>"`; `check --stage publish` fails until then. After the first approved use, the option is no longer first-use.
+**First-use gate (Andrew 2026-10-29):** `first_use` lists any `visual_preset`, `caption_layout`, `short_layout` or `thumbnail_layout` never used in a recorded run. `pick` and `check` print it. A first-use video (long-form and its Short) is **held unpublished** until Andrew approves that video, even with a standing approval; ask for it at 09 with the previews and say which looks are new. **One approval of a held video clears every new look in it** (Andrew 2026-10-29): `approve-first-use` records all of that run's `first_use` items at once. Record his answer with `python3 tools/variation.py approve-first-use --run-id <id> --note "Andrew OK <date time ET, channel>"`; `check --stage publish` fails until then. After the first approved use, the option is no longer first-use.
 
 **Slide naming (so `scan` can tell scene types apart):** `sl_stat_*`, `sl_chart_*`, `sl_table_*`, `sl_vs_*`, `sl_ex_*`, `sl_steps_*`, `sl_timeline_*`, `sl_map_*`, `sl_quote_*`, `sl_recap_*`, `sl_end_*`; screenshots `ss_*`, demos `*demo*.mp4`, stock clips `*.mp4`, photos `bg_*`. Generic `sl_*` names count as one type `slide`.
 
@@ -287,7 +287,7 @@ These are the same settings and approach as the stock-analysis video reference u
 
 ### Voiceover
 
-**Playbook 2026-10-29:** keep the voice; vary pacing and emphasis to the script; keep a pronunciation dictionary (`templates/pronunciations.json`: CRA, TFSA, RRSP, FHSA, RRIF, LIRA, tickers, bank names) applied to the TTS text; insert pauses after key numbers; re-render flat lines; listen to minute one as a stranger before rendering. The `+12%` rate stays until Andrew decides (open question).
+**Playbook 2026-10-29:** keep the voice; vary pacing and emphasis to the script; keep a pronunciation dictionary (`templates/pronunciations.json`: CRA, TFSA, RRSP, FHSA, RRIF, LIRA, tickers, bank names) applied to the TTS text; insert pauses after key numbers; re-render flat lines; listen to minute one as a stranger before rendering. **Explicit exception to the playbook's normal-speed rule (Andrew 2026-10-29): AndrewNeural `+12%` stays until Andrew's custom voice.**
 
 | Setting | Value |
 |---|---|
@@ -546,3 +546,4 @@ Stop, save state, and report to Andrew (via the parent agent) when:
 - **2026-10-27:** Web screenshots and short live demos allowed only when they enhance the viewer (§8 + scene types `web_screenshot` / `screen_demo`). Official/educational captures OK; endorsement-looking misuse, login/PII, and invented UI stay banned. Stages 03–04 and §16 QA updated.
 - **2026-10-27:** YouTube descriptions must not include affiliate disclosure, AI-assistance, or image-credits paragraphs (Andrew via Make Money Optimizer Bot). Keep NFA/tax educational lines, chapters, site link, and UTM post link. Image credits stay in local `credits.md` only; site posts still keep bottom-of-post AffiliateDisclosure. Studio synthetic checkbox OK when needed. §2 rules 6/10, §8, §11 description template + disclaimers, and §16 QA updated.
 - **2026-10-29:** Per-video variation system (§7a, §2 rule 11) from Andrew's AI YouTube Video Playbook: presets in `templates/variation-presets.json`, `tools/variation.py` pick/scan/check/approve-first-use/record, history in `variation-log.csv` + `state.json → variation_history` (backfilled 10-21 → 10-28 incl. asset hashes), check stages axes / pre_build (render gate) / qa / publish, first-use approval gate for new looks, thumbnail layouts `text_right` / `photo_full_band`. Playbook rules added: topic gate (§3), hook template and 3–5 s cadence (§5), native 20–40 s Q&A Shorts without `#Shorts` (§6, §11), ≤55-char search-phrased titles (§11), 3 thumbnails ≤3 words (§10), pronunciation dictionary and pauses (§9), AI-use disclosure for photorealistic Grok Imagine (§16), AVD + retention cliff KPIs (§14). Music permanently out: voice only. Volume and AndrewNeural voice unchanged.
+- **2026-10-29 (Andrew's answers):** colour/layout presets trimmed to 3 (classic_white, slate_panels, red_band); one approval of a held first-use video clears all its new looks; AndrewNeural +12% kept until the custom voice as an explicit exception to the playbook's normal-speed rule; Shorts 20–40 s with no `#Shorts` title suffix approved; PR #79 merged.
