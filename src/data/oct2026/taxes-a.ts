@@ -210,5 +210,9 @@ export const oct2026TaxPostsA = [
 </div>`
   ),
   updated: '2026-10-29',
+  youtubeId: '-_ZGxW5o33M',
+  youtubeTitle: 'Which 2027 Tax Changes Are Official in Canada?',
+  youtubeUploadDate: '2026-10-30T05:38:00-04:00',
+  youtubeDuration: 'PT5M15S',
   },
 ];
