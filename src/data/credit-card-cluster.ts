@@ -36,9 +36,9 @@ function cardPost(
   };
 }
 
-const footer = (published: string) => `<div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about Canadian credit cards as of September 2026. It is not a recommendation to apply for or keep any product, and not credit, tax, or insurance advice. Fees, earn rates, income rules, merchant codes, insurance certificates, and welcome offers change without notice. Figures below are tied to issuer or Costco pages reviewed in September 2026; confirm them on those pages the day you apply. Paying interest can erase any reward. Illustrative point values are labelled as illustrations, not quotes from an issuer.</p>
-        <div class="footer-note">Published: ${published} | Category: Credit Cards | Author: Andrew</div>
+const footer = (published: string, updated?: string) => `<div class="article-footer">
+        <p><strong>Disclaimer:</strong> This is general education about Canadian credit cards as of ${updated ? updated.replace(/ \d+,/, '') : 'September 2026'}. It is not a recommendation to apply for or keep any product, and not credit, tax, or insurance advice. Fees, earn rates, income rules, merchant codes, insurance certificates, and welcome offers change without notice. Figures below are tied to issuer or Costco pages reviewed in ${updated ? updated.replace(/ \d+,/, '') : 'September 2026'}; confirm them on those pages the day you apply. Paying interest can erase any reward. Illustrative point values are labelled as illustrations, not quotes from an issuer.</p>
+        <div class="footer-note">Published: ${published}${updated ? ` | Updated: ${updated}` : ''} | Category: Credit Cards | Author: Andrew</div>
     </div>`;
 
 export const creditCardClusterPosts: CardPost[] = [
@@ -1413,97 +1413,171 @@ export const creditCardClusterPosts: CardPost[] = [
 </div>`
   ),
 
-  cardPost(
+  {
+    ...cardPost(
     'best-balance-transfer-credit-cards-canada',
     'Best Balance Transfer Credit Cards in Canada (2026)',
-    'As of September 2026, CIBC Select Visa states 0% for up to 10 months with a 1% fee, and MBNA True Line states 0% for 12 months on transfers within 90 days. The transfer fee on MBNA’s product page was not a single percent.',
+    'As of October 30, 2026, four issuer pages state balance-transfer promos: CIBC Select (0%, 10 months, 1% fee), Scotiabank Value (0%, 9 months, 1%), MBNA True Line (0%, 12 months, 3%) and Tangerine (1.95%, 6 months, 1%). On a $5,000 example, the fee mattered more than the longest clock.',
     `<div class="container">
 
     <div class="hook">
-        A balance transfer is a fee plus a clock. As of September 2026, CIBC’s Select Visa page offers <span class="highlight">0 percent interest for up to 10 months</span> on a transfer of $100 or more, with a 1 percent fee, and a $29 annual fee that is rebated in the first year. MBNA’s True Line Mastercard page offers 0 percent for 12 months on balance transfers completed within 90 days of account opening, with a $0 annual fee. Neither offer is a reason to keep spending.
+        The best balance transfer credit card in Canada is the one with the <span class="highlight">lowest fee on a clock you can actually finish</span>, not the longest 0 percent offer. As of October 30, 2026, CIBC Select Visa states 0 percent for up to 10 months with a 1 percent fee, Scotiabank Value Visa 0 percent for 9 months with a 1 percent fee, MBNA True Line 0 percent for 12 months with a 3 percent fee, and Tangerine Money-Back 1.95 percent for 6 statement periods with a 1 percent fee. In our $5,000 illustration, the 1 percent, 10-month offer cost less than the 3 percent, 12-month offer at every monthly payment we tested.
     </div>
 
-    <p>The card hub is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>. What to do with the payment you free up, once the high-interest balance is on a promo, is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>. A rewards card is the wrong tool while you carry a balance. The <a href="/blog/credit-card-rewards-calculator/">rewards calculator</a> assumes you pay in full. This page assumes you do not.</p>
+    <p>A balance transfer moves debt from one credit card to another, usually at a promotional rate for a set number of months, in exchange for a one-time fee. The <a href="/category/credit-cards/">credit cards hub</a> has the rest of the cluster, and the overview is <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a>. What to do with the payment you free up is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>. A rewards card is the wrong tool while you carry a balance. The <a href="/blog/credit-card-rewards-calculator/">rewards calculator</a> assumes you pay in full. This page assumes you do not.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Quote a promo rate only from the issuer page. Aggregator roundups are not the source for the numbers below.</li>
-            <li>CIBC Select Visa: 0 percent for up to 10 months, 1 percent fee, transfers up to 50 percent of the credit limit you are assigned, offer selected at online application. Annual fee $29, first year rebated. Minimum household income $15,000.</li>
-            <li>CIBC says the promo balance costs you the interest-free grace period on new purchases unless you pay the entire amount due, including the promo balance, every month.</li>
-            <li>MBNA True Line: $0 annual fee, 12.99 percent on purchases, 17.99 percent standard rate on balance transfers, 24.99 percent on cash advances, and a 0 percent promo for 12 months on transfers in the first 90 days. The product page did not print one transfer-fee percent. It says the fee, if any, shows up when you calculate the transfer.</li>
-            <li>MBNA says product rates and fees may vary by region, and its page notes that fee structures may differ for Quebec. Confirm the disclosure for your province.</li>
+            <li>Quote a promo only from the issuer page. Aggregator roundups are not the source for the numbers below. All four offers were read on the issuer sites on October 30, 2026.</li>
+            <li>The fee is paid up front and never comes back. The clock only helps if your monthly payment is big enough to finish inside it.</li>
+            <li>On $5,000, the payment that clears the balance inside the promo is about $561 a month on Scotiabank (9 months), $505 on CIBC (10 months) and $429 on MBNA (12 months), fee included.</li>
+            <li>Once you carry a promo balance, CIBC says new purchases lose the interest-free grace period unless you pay the whole amount due. Keep spending on a different card.</li>
+            <li>MBNA’s promo ends early if a minimum payment is late. Set up an automatic minimum payment the day the card arrives.</li>
+            <li>Quebec terms can differ. CIBC says Quebec residents are not charged its promotional transfer fee, and MBNA says fees may vary by region.</li>
         </ul>
     </div>
 
-    <h2>Which balance-transfer offers were on the issuer sites?</h2>
+    <h2>Which balance transfer offers are on issuer sites in October 2026?</h2>
 
-    <p>Two issuer pages were clear enough to quote in September 2026. Other banks advertise transfers too. If this table does not name the card in your other hand, the rate was not verified here. Open that issuer’s page. Do not borrow a review site’s “0 percent for 18 months.”</p>
+    <p>Four issuer pages stated a balance-transfer promo clearly enough to quote on October 30, 2026. If your bank is not in this table, its offer was not verified here. Open that issuer’s page. Do not borrow a review site’s “0 percent for 18 months.”</p>
 
     <table>
-        <caption>Balance-transfer terms stated by the issuer, September 2026</caption>
+        <caption>Balance-transfer terms stated by the issuer, checked October 30, 2026</caption>
         <thead>
             <tr>
                 <th>Card</th>
-                <th>Promo the page stated</th>
-                <th>Fee</th>
-                <th>After the promo, and the annual fee</th>
+                <th>Promo rate and clock</th>
+                <th>Transfer fee</th>
+                <th>Rate after the promo</th>
+                <th>Annual fee</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>CIBC Select Visa</td>
-                <td>0 percent for up to 10 months on a balance transfer of $100 or more, chosen at online application. Up to 50 percent of the assigned credit limit.</td>
-                <td>1 percent on amounts over $100.</td>
-                <td>Annual fee $29, rebated in the first year. Up to three additional cards at $0. The purchase interest rate on the marketing page did not render as a number in this review. Open CIBC’s summary of rates before you rely on a post-promo figure.</td>
+                <td>0% for up to 10 months on transfers of $100 or more, chosen at online application. Up to 50% of the assigned credit limit.</td>
+                <td>1%</td>
+                <td>13.99% (CIBC’s rate summary for balance transfers and cash advances on this card)</td>
+                <td>$29, first year rebated</td>
+            </tr>
+            <tr>
+                <td>Scotiabank Value Visa</td>
+                <td>0% for 9 months from account opening. Accounts opened July 2, 2026 to January 3, 2027.</td>
+                <td>1% (minimum $5)</td>
+                <td>13.99% (cash advance rate, which Scotiabank applies to balance transfers)</td>
+                <td>$29, first year waived</td>
             </tr>
             <tr>
                 <td>MBNA True Line Mastercard</td>
-                <td>0 percent promotional annual interest rate for 12 months on balance transfers completed within 90 days of account opening.</td>
-                <td>Not stated as a single percent on the product page. The page says to calculate the total, which includes the balance-transfer fee if one applies.</td>
-                <td>Annual fee $0. Purchases 12.99 percent. Standard balance-transfer rate 17.99 percent. Cash advances 24.99 percent. Rates may differ by region.</td>
+                <td>0% for 12 statement periods on transfers made within 90 days of account opening.</td>
+                <td>3% (minimum $3.50)</td>
+                <td>17.99% (standard balance-transfer rate)</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td>Tangerine Money-Back Credit Card</td>
+                <td>1.95% on balances transferred within 30 days of opening, for 6 statement periods from the last eligible transfer.</td>
+                <td>1%</td>
+                <td>22.95%</td>
+                <td>$0</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>How do you price the fee against the interest you stop paying?</h2>
+    <p>The purchase rates are different numbers again: 13.99 percent on CIBC Select and Scotiabank Value, 12.99 percent on MBNA True Line and 20.95 percent on Tangerine Money-Back, per the same issuer pages. Approval, your credit limit and the offer you are shown at application decide what you actually get.</p>
+
+    <h2>What does each offer cost on a $5,000 balance?</h2>
+
+    <p>Price the fee against the interest you stop paying, at the monthly payment you can really make. The table below runs the same $5,000 balance through each issuer’s stated terms at four payment levels, and compares it with staying on an old card at 21.99 percent, the purchase rate CIBC lists for most of its personal cards. The 21.99 percent is a stand-in for the card you are leaving. Use your own statement rate.</p>
 
     <div class="example-box">
-        <strong>Illustration only: $8,000, CIBC’s 1 percent fee, 10 months, an old rate you type as 20 percent</strong>
-        <p>The 1 percent fee is CIBC’s. The 20 percent is not anyone’s posted rate in this article. It is a placeholder for the purchase rate on the card you are leaving. Fee: $8,000 × 0.01 = $80. A rough interest sketch, balance times annual rate times 10/12, is $8,000 × 0.20 × 10/12 = $1,333.33. Difference about $1,253, if you pay the transferred balance off inside 10 months, make no new purchases, and the old issuer really was charging 20 percent. Credit-card interest is usually calculated daily. The sketch is not the issuer’s formula. It is a ceiling-check before you pay the fee.</p>
+        <strong>Illustration only: total interest plus fee to clear $5,000, by monthly payment</strong>
+        <table>
+            <thead>
+                <tr>
+                    <th>Monthly payment</th>
+                    <th>Stay at 21.99%</th>
+                    <th>CIBC Select</th>
+                    <th>Scotiabank Value</th>
+                    <th>MBNA True Line</th>
+                    <th>Tangerine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>$300</td><td>$1,021</td><td>$149</td><td>$179</td><td>$226</td><td>$531</td></tr>
+                <tr><td>$430</td><td>$675</td><td>$63</td><td>$77</td><td>$150</td><td>$266</td></tr>
+                <tr><td>$505</td><td>$568</td><td>$50</td><td>$56</td><td>$150</td><td>$193</td></tr>
+                <tr><td>$561</td><td>$510</td><td>$50</td><td>$50</td><td>$150</td><td>$156</td></tr>
+            </tbody>
+        </table>
+        <p>Method: the fee is added to the balance on day one, interest is the balance times the annual rate divided by 12 each month, the promo rate applies for the stated months, then the issuer’s stated after-promo rate. No new purchases, every payment on time. Card issuers calculate interest daily, so your statement will differ by a few dollars. This is a ceiling check, not a quote.</p>
     </div>
+
+    <p>Two things fall out of the table. First, the 3 percent fee is $150 on $5,000, and the longer clock never earned it back, even at $430 a month when the extra two months should help the most. Second, Tangerine’s rate jumps to 22.95 percent after six statement periods, so it only works if you can pay roughly $850 a month. If your realistic payment is under about $430, every option runs past its clock, and the after-promo rate starts to matter as much as the fee.</p>
+
+    <h2>How much do you need to pay each month to finish inside the promo?</h2>
+
+    <p>Divide the balance plus the fee by the number of promo months. On $5,000, that is about $561 a month for Scotiabank’s 9 months, $505 for CIBC’s 10 months and $429 for MBNA’s 12 months. Tangerine’s 1.95 percent over six periods needs about $846 a month. If that payment does not fit your budget, choose the offer with the lower after-promo rate, not the longer clock.</p>
+
+    <h2>How are payments applied when you have a promo balance?</h2>
+
+    <p>Federal law sets the rule for payments above the minimum. Under section 627.35 of the Bank Act, a bank must apply the extra either to the highest-rate balance first, or across your balances in proportion to their size. The bank chooses the method, and it is in your cardholder agreement. RBC, for example, publishes that it allocates excess payments proportionally.</p>
 
     <div class="warning-box">
-        <strong>New purchases on a promo balance are how the offer gets expensive.</strong>
-        <p>CIBC’s page says that once you have a promotional-rate balance, you lose the interest-free grace period on new purchases unless you pay the amount due, including the promo balance, in full each month. The practical reading: do not put groceries on the transfer card. Pay the old card’s minimum until the transfer posts, then pay the transfer card down. MBNA’s standard balance-transfer rate, after the 12 months, is the 17.99 percent printed on the product page. A balance that survives the clock is a new debt at that rate, plus whatever fee you already paid.</p>
+        <strong>New purchases on a promo card are how the offer gets expensive.</strong>
+        <p>CIBC’s page says that once you have a promotional-rate balance, you lose the interest-free grace period on new purchases unless you pay the amount due, including the promo balance, in full each month. If your issuer allocates payments proportionally, part of every payment goes to the 0 percent balance while groceries charged at the purchase rate keep accruing interest. Put spending on a card you pay in full. Put the debt on the promo card. They are different jobs.</p>
     </div>
 
-    <p>A transfer that uses half the new limit, which is CIBC’s own cap language, can also leave you with a high utilization on that card. Utilization is a credit-score input. The guide is <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization and applications</a>. Opening the card is a new inquiry. If you are about to apply for a mortgage, read that cost before you add an inquiry to save ten months of interest.</p>
+    <p>MBNA’s legal text adds a second trap: the promotional rate ends, and the remaining transferred balance moves to the 17.99 percent standard rate, from the second statement period after any late minimum payment. One missed autopay can cost you the rest of the clock.</p>
+
+    <h2>How do you do a balance transfer, step by step?</h2>
+
+    <ol>
+        <li><strong>Write down your current rate and balance.</strong> Use your statement, not memory.</li>
+        <li><strong>Pick the payment you can make every month.</strong> Then choose the clock and fee that fit that payment, using the table above as a check.</li>
+        <li><strong>Apply and request the transfer in the window.</strong> CIBC asks at online application, MBNA within 90 days of opening, Tangerine within 30 days. Check that the old card is with a different issuer. MBNA’s terms, for example, say a transfer cannot pay down another balance with MBNA or its TD Bank Group affiliates.</li>
+        <li><strong>Keep paying the old card until the transfer posts.</strong> Transfers take days, and a missed payment on the old card is still a missed payment.</li>
+        <li><strong>Set an automatic payment for the full monthly amount.</strong> At minimum, automate the minimum so a late payment cannot end the promo.</li>
+        <li><strong>Mark the promo end date in your calendar.</strong> MBNA and Tangerine count the clock in statement periods from the transfer, so confirm the exact end date on your statement or offer terms.</li>
+    </ol>
+
+    <p>A transfer that uses half the new limit, which is CIBC’s own cap language, can also leave you with high utilization on that card. Utilization is a credit-score input, covered in the guide to <a href="/blog/credit-card-utilization-applications-credit-score-canada/">utilization and applications</a>. Opening the card is a new inquiry. If you are about to apply for a mortgage, weigh that before you apply. If your balance is bigger than any promo you can finish, the <a href="/blog/consumer-proposal-vs-bankruptcy-canada/">consumer proposal versus bankruptcy guide</a> covers the formal options.</p>
 
     <h2>Frequently asked questions</h2>
 
-    <h3>What is the best balance-transfer card in Canada in 2026?</h3>
-    <p>The one whose clock is longer than your payoff, whose fee you have priced, and whose post-promo rate you have read. On the pages reviewed, CIBC’s 1 percent fee is the lower printed fee, and the clock is up to 10 months. MBNA’s clock is 12 months and the annual fee is $0, but the transfer fee was not a number on the product page. If you can finish in 10 months, price CIBC’s $80 on $8,000 against whatever fee MBNA shows you at the calculator step. If you need the 11th and 12th months, MBNA’s longer clock is the one the page actually offers.</p>
+    <h3>What is the best balance transfer card in Canada in 2026?</h3>
+    <p>The one whose clock is longer than your payoff, whose fee you have priced, and whose after-promo rate you have read. On the issuer pages checked October 30, 2026, CIBC Select and Scotiabank Value charge a 1 percent fee and fall back to 13.99 percent. MBNA True Line gives the longest 0 percent clock, 12 months, but charges 3 percent. In our $5,000 illustration, the 1 percent offers were cheaper at every payment level we tested.</p>
 
-    <h3>Is the CIBC purchase rate 13.99 percent?</h3>
-    <p>Not according to anything this review could read. The marketing page’s purchase-rate field did not come through as a number. Do not use a review site’s 13.99 percent as if it were CIBC’s disclosure. Open the summary of annual interest rates PDF linked from CIBC’s page.</p>
+    <h3>What is the CIBC Select Visa interest rate after the promo?</h3>
+    <p>CIBC’s summary of annual interest rates and fees (form 11995, October 2026) lists 13.99 percent for purchases and 13.99 percent for cash advances, balance transfers and convenience cheques on the CIBC Select Visa. Any transferred balance left after the 10 months moves to that rate.</p>
 
     <h3>Does MBNA charge 3 percent to transfer?</h3>
-    <p>The True Line product page reviewed in September 2026 did not say 3 percent. It said the total includes the fee if one applies, and that you should read the terms when you confirm the transfer. Type the amount into MBNA’s transfer screen and read the fee line. Quebec fee structures can differ. The page says so.</p>
+    <p>Yes, per the legal text on the True Line product page checked October 30, 2026: a transaction fee equal to 3.00 percent of each balance transfer initiated with the application, with a minimum of $3.50. MBNA says rates and fees may vary by region, so read the fee line on the transfer screen before you confirm.</p>
 
     <h3>Should I transfer a balance and keep spending on the new card?</h3>
-    <p>No. CIBC says the promo balance removes the grace period on new purchases unless the whole amount due is paid in full. New purchases can accrue interest immediately. Put spending on a card you pay in full. Put the debt on the promo card. They are different jobs.</p>
+    <p>No. CIBC says the promo balance removes the grace period on new purchases unless the whole amount due is paid in full. New purchases can accrue interest immediately. Put spending on a card you pay in full.</p>
+
+    <h3>What happens if I miss a payment during the promo?</h3>
+    <p>It depends on the issuer’s terms. MBNA’s True Line legal text says a late minimum payment ends the promotional rate from the second statement period after it. CIBC’s rate summary says that if a required payment is late two or more times in any 12-month period, higher rates (25.99 or 27.99 percent) apply for at least 12 months. Automate at least the minimum.</p>
 
     <h3>What if I cannot pay the balance off before the promo ends?</h3>
-    <p>Then the post-promo rate is the product. On MBNA’s page that standard balance-transfer rate is 17.99 percent. On CIBC’s page the ongoing purchase rate was not readable here. A 12-month 0 percent offer you only half pay is a fee plus a year of principal reduction plus a high rate on the rest. Run that rate for the months you will still owe. If the number is ugly, a payment plan you can finish beats a promo you cannot.</p>
+    <p>Then the after-promo rate is the product. It is 13.99 percent on CIBC Select and Scotiabank Value, 17.99 percent on MBNA True Line and 22.95 percent on Tangerine Money-Back, per the issuer pages. A payment plan you can finish beats a promo you cannot.</p>
 
     <h3>Does a balance transfer help my taxes?</h3>
     <p>Personal credit-card interest is not a deduction. Moving it does not create a credit. The value is the interest you do not pay. Business interest is a different test and is not what these consumer offers are for.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/select-visa-card.html">CIBC Select Visa</a></li>
+        <li><a href="https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/select-visa-card.html">CIBC Select Visa</a> (checked October 30, 2026)</li>
+        <li><a href="https://www.cibc.com/content/dam/cibc-public-assets/personal-banking/credit-cards/documents/cibc-creditcard-annual-interest-rate-fees-11995-en.pdf">CIBC summary of annual interest rates and fees (11995-2026/10)</a></li>
+        <li><a href="https://www.cibc.com/en/personal-banking/credit-cards/balance-transfers.html">CIBC: credit card balance transfers</a></li>
+        <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/visa/value-card.html">Scotiabank Value Visa</a></li>
         <li><a href="https://www.mbna.ca/en/credit-cards/low-interest/true-line-mastercard">MBNA True Line Mastercard</a></li>
+        <li><a href="https://www.tangerine.ca/en/products/spending/creditcard/money-back">Tangerine Money-Back Credit Card</a></li>
+        <li><a href="https://laws-lois.justice.gc.ca/eng/acts/B-1.01/section-627.35.html">Bank Act, section 627.35: allocation of payments</a></li>
+        <li><a href="https://www.rbcroyalbank.com/onlineservices/balancetransferinfo.html">RBC: balance transfer important information</a></li>
+        <li><a href="https://www.obsi.ca/en/news/posts/consumer-bulletin-things-to-consider-before-you-accept-a-balance-transfer-offer/">OBSI: things to consider before you accept a balance transfer offer</a></li>
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">FCAC: credit cards</a></li>
     </ul>
 
@@ -1513,10 +1587,12 @@ export const creditCardClusterPosts: CardPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer('September 27, 2026')}
+    ${footer('September 27, 2026', 'October 30, 2026')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-10-30',
+  },
 
   cardPost(
     'premium-credit-cards-canada-comparison',
