@@ -1,31 +1,33 @@
 import { articleFooter, octPost } from './types';
 
 const taxDisclaimer =
-  'This is general education about Canadian income tax as of October 4, 2026. It is not tax, legal, or investment advice, and it is not a filing position. Limits, brackets, credits, and proposed measures change. Confirmed figures are tied to CRA, the Department of Finance, ESDC, or Revenu Québec pages reviewed on October 4, 2026. Items described as proposals are not law until enacted. Dollar examples are illustrations of arithmetic on those sources, or on stated assumptions, not your assessment. Confirm the current page and consult a tax professional for your file.';
+  'This is general education about Canadian income tax as of October 29, 2026. It is not tax, legal, or investment advice, and it is not a filing position. Limits, brackets, credits, and proposed measures change. Confirmed figures are tied to CRA, the Department of Finance, ESDC, or Revenu Québec pages reviewed on October 29, 2026. Items described as proposals are not law until enacted. Dollar examples are illustrations of arithmetic on those sources, or on stated assumptions, not your assessment. Confirm the current page and consult a tax professional for your file.';
 
 const footer = articleFooter('Taxes', taxDisclaimer);
 
 export const oct2026TaxPostsA = [
-  octPost(
+  {
+  ...octPost(
     'Taxes',
     'taxes',
     'canada-tax-money-changes',
     "Canada's 2027 Tax and Money Changes: TFSA, RRSP, Brackets, CPP, and Budget 2026",
-    'The 2027 RRSP limit is $35,390. The 2027 TFSA limit is not announced. Here is what is confirmed, and what is still only a proposal.',
+    'CRA has confirmed the 2027 RRSP limit ($35,390), YMPE ($76,700) and YAMPE ($87,400). The 2027 TFSA limit and brackets are not announced, and Budget 2026 lands November 5.',
     `<div class="container">
 
     <div class="hook">
-        One 2027 number is already on the CRA table. The RRSP dollar limit will be <span class="highlight">$35,390</span>. The 2027 TFSA dollar limit is not on that table. Budget 2026 has no date. If a headline gives you a TFSA figure for 2027, it is a projection, and this page will not repeat one.
+        Three 2027 numbers are now on the CRA table. The RRSP dollar limit is <span class="highlight">$35,390</span>, the year's maximum pensionable earnings (YMPE) is $76,700, and the second CPP ceiling (YAMPE) is $87,400. The 2027 TFSA dollar limit and the 2027 tax brackets are still not on any CRA page. Budget 2026 is set for November 5, 2026. If a headline gives you a TFSA figure for 2027, it is a projection until CRA posts it.
     </div>
 
     <div class="callout">
-        <strong>Key takeaways, as of October 4, 2026:</strong>
+        <strong>Key takeaways, as of October 29, 2026:</strong>
         <ul>
             <li>CRA's limits table shows a 2027 RRSP dollar limit of $35,390. The 2026 RRSP dollar limit stays $33,810. The 2026 money-purchase limit is $35,390, which is why the next year's RRSP limit is already known.</li>
             <li>The 2026 TFSA dollar limit is $7,000, announced by CRA on December 1, 2025. There is no 2027 TFSA row.</li>
-            <li>2026 YMPE is $74,600 and 2026 YAMPE is $85,000. Both 2027 cells on the CRA table are blank. Base CPP employee contributions max at $4,230.45. CPP2 is 4 percent between those ceilings, max $416 for an employee.</li>
+            <li>On October 28, 2026, CRA announced the 2027 YMPE of $76,700 and YAMPE of $87,400 (2026: $74,600 and $85,000), plus a 2028 RRSP dollar limit of $36,390. In 2026, base CPP employee contributions max at $4,230.45 and CPP2 (4 percent between the two ceilings) maxes at $416.</li>
+            <li>Parliament has legislated a cut to the base CPP rate for 2027, from 4.95 percent to 4.75 percent each for employees and employers (Bill C-30, the Spring Economic Update 2026 Implementation Act). CRA has not yet posted its 2027 payroll maximums.</li>
             <li>Federal and provincial brackets for 2027 have not been released. CRA's usual indexation notice comes in November. Until it does, the 2026 brackets are the law you can plan on.</li>
-            <li>The Spring Economic Update of April 28, 2026 proposed a longer Home Buyers' Plan grace period and Disability Tax Credit certification changes. Those are proposals. Finance Canada has said Budget 2026 will be delivered this fall, without a day.</li>
+            <li>The Spring Economic Update of April 28, 2026 proposed a longer Home Buyers' Plan grace period and Disability Tax Credit certification changes. Those are proposals. Finance Canada announced on October 20, 2026 that Budget 2026 will be tabled on November 5, 2026.</li>
         </ul>
     </div>
 
@@ -33,10 +35,10 @@ export const oct2026TaxPostsA = [
 
     <h2>What is already confirmed for 2027?</h2>
 
-    <p>Registered-plan limits are set on a lag. The RRSP dollar limit for a year is tied to the money-purchase limit of the year before. CRA's page "MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE" already prints 2027 in the RRSP column and leaves the other 2027 pension cells as a dash or as a formula. The "What's new" note dated October 30, 2025 is the announcement behind that row: 2026 money-purchase limit $35,390, 2026 defined-benefit limit $3,932.22, 2027 RRSP limit $35,390, 2026 DPSP limit $17,695, 2026 YMPE $74,600, 2026 YAMPE $85,000.</p>
+    <p>Registered-plan limits are set on a lag. The RRSP dollar limit for a year is tied to the money-purchase limit of the year before. CRA's page "MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE" now prints a full 2027 row and a 2028 RRSP figure. Two "What's new" notes are behind it. The October 30, 2025 note set the 2027 RRSP limit at $35,390. The October 28, 2026 note set the 2027 money-purchase limit at $36,390, the 2027 defined-benefit limit at $4,043.33, the 2027 DPSP limit at $18,195, the 2027 YMPE at $76,700, the 2027 YAMPE at $87,400, and the 2028 RRSP limit at $36,390.</p>
 
     <table>
-        <caption>Confirmed dollar limits on CRA's table, reviewed October 4, 2026</caption>
+        <caption>Dollar limits on CRA's table, reviewed October 29, 2026</caption>
         <thead>
             <tr>
                 <th>Item</th>
@@ -50,60 +52,60 @@ export const oct2026TaxPostsA = [
                 <td>RRSP dollar limit</td>
                 <td>$33,810</td>
                 <td>$35,390</td>
-                <td>2027 figure is on the CRA table</td>
+                <td>Confirmed. 2028 limit also set: $36,390</td>
             </tr>
             <tr>
                 <td>Money-purchase limit</td>
                 <td>$35,390</td>
-                <td>Not printed</td>
-                <td>2027 cell is a dash</td>
+                <td>$36,390</td>
+                <td>Confirmed October 28, 2026</td>
             </tr>
             <tr>
                 <td>Defined-benefit limit</td>
                 <td>$3,932.22</td>
-                <td>Described as 1/9 of the money-purchase limit</td>
-                <td>No 2027 dollar yet</td>
+                <td>$4,043.33</td>
+                <td>Confirmed October 28, 2026</td>
             </tr>
             <tr>
                 <td>DPSP limit</td>
                 <td>$17,695</td>
-                <td>Not printed</td>
-                <td>Half the money-purchase limit, once that limit exists</td>
+                <td>$18,195</td>
+                <td>Confirmed October 28, 2026</td>
+            </tr>
+            <tr>
+                <td>YMPE (first CPP ceiling)</td>
+                <td>$74,600</td>
+                <td>$76,700</td>
+                <td>Confirmed October 28, 2026</td>
+            </tr>
+            <tr>
+                <td>YAMPE (second CPP ceiling)</td>
+                <td>$85,000</td>
+                <td>$87,400</td>
+                <td>Confirmed October 28, 2026</td>
             </tr>
             <tr>
                 <td>TFSA dollar limit</td>
                 <td>$7,000</td>
                 <td>Not announced</td>
-                <td>CRA's TFSA note for 2026 is dated December 1, 2025. No 2027 announcement</td>
+                <td>CRA's latest TFSA note is dated December 1, 2025</td>
             </tr>
             <tr>
                 <td>ALDA dollar limit</td>
                 <td>$180,000</td>
-                <td>Not printed</td>
+                <td>Not announced</td>
                 <td>2026 figure only</td>
-            </tr>
-            <tr>
-                <td>YMPE</td>
-                <td>$74,600</td>
-                <td>Not printed</td>
-                <td>2027 cell is a dash</td>
-            </tr>
-            <tr>
-                <td>YAMPE</td>
-                <td>$85,000</td>
-                <td>Not printed</td>
-                <td>2027 cell is a dash</td>
             </tr>
         </tbody>
     </table>
 
     <p>Your personal RRSP room is not the dollar limit. It is 18 percent of the previous year's earned income, up to that dollar limit, plus unused room, minus pension adjustments. A person who did not earn enough in 2026 to support a $35,390 contribution in 2027 does not get $35,390 of new room. The notice of assessment is the number. The dollar limit is only the ceiling.</p>
 
-    <p>FHSA participation room is a different statute. In the year you open a first FHSA, CRA says participation room is $8,000. The lifetime deduction cap CRA describes is $40,000. Transfers from an RRSP use that lifetime cap and are not deductible again. Nothing in the October 2026 CRA pages reviewed here announces a 2027 FHSA increase. Treat $8,000 and $40,000 as the standing rules until a page says otherwise. The account guide is the <a href="/blog/fhsa-guide/">FHSA guide</a>.</p>
+    <p>FHSA participation room is a different statute. In the year you open a first FHSA, CRA says participation room is $8,000. The lifetime deduction cap CRA describes is $40,000. Transfers from an RRSP use that lifetime cap and are not deductible again. Nothing in the CRA pages reviewed on October 29, 2026 announces a 2027 FHSA increase. Treat $8,000 and $40,000 as the standing rules until a page says otherwise. The account guide is the <a href="/blog/fhsa-guide/">FHSA guide</a>.</p>
 
     <h2>What is still not a number?</h2>
 
-    <p>The TFSA dollar limit is indexed to inflation and rounded to the nearest $500. CRA says that in the "before you contribute" page, and the same page lists 2024, 2025, and 2026 at $7,000. Rounding to $500 is why the limit can sit still for several years and then jump. A forecast that the 2027 limit will be $7,500 is a guess about the inflation factor and the rounding. CRA had not published that factor for 2027 on October 4, 2026. This article will not print the guess. When the November indexation release lands, the limit will be a sentence on canada.ca, the way the December 1, 2025 sentence set 2026 at $7,000.</p>
+    <p>The TFSA dollar limit is indexed to inflation and rounded to the nearest $500. CRA says that in the "before you contribute" page, and the same page lists 2024, 2025, and 2026 at $7,000. Rounding to $500 is why the limit can sit still for several years and then jump. A forecast that the 2027 limit will be $7,500 is a guess about the inflation factor and the rounding. CRA had not published that factor or a 2027 TFSA limit on October 29, 2026, even though Statistics Canada's September CPI is out. This article will not print the projection as a limit. When the November indexation release lands, the limit will be a sentence on canada.ca, the way the December 1, 2025 sentence set 2026 at $7,000.</p>
 
     <p>The same release is what normally sets the 2027 federal brackets and the basic personal amount. For 2026, the brackets this site's calculator uses, sourced to CRA, are 14 percent to $58,523, 20.5 percent to $117,045, 26 percent to $181,440, 29 percent to $258,482, and 33 percent above that. The 2026 basic personal amount is $16,452, phasing down to $14,829 between $181,440 and $258,482. Those are 2026 figures. They are not a preview of 2027. Provincial brackets are provincial statutes. They are also not republished here as 2027 law.</p>
 
@@ -124,11 +126,11 @@ export const oct2026TaxPostsA = [
 
     <h2>What has Budget 2026 not said?</h2>
 
-    <p>On July 6, 2026 the Minister of Finance announced pre-budget consultations and said the government will deliver Budget 2026 this fall. The consultation window on that release ran to September 8, 2026. The release does not name a tabling date. A fall budget can move brackets, credits, the capital-gains inclusion rate, housing rebates, or nothing you use. Until the budget document and, where required, a bill exist, there is nothing to implement. The inclusion rate in force for 2026 remains one-half. That history is the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. A budget speech is not an inclusion rate.</p>
+    <p>On July 6, 2026 the Minister of Finance announced pre-budget consultations, which ran to September 8, 2026. On October 20, 2026, Finance Canada announced that Budget 2026 will be tabled on November 5, 2026. A fall budget can move brackets, credits, the capital-gains inclusion rate, housing rebates, or nothing you use. Until the budget document and, where required, a bill exist, there is nothing to implement. The inclusion rate in force for 2026 remains one-half. That history is the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. A budget speech is not an inclusion rate.</p>
 
     <div class="tip-box">
         <strong>Confirmed versus proposed, on one card:</strong>
-        <p>Put the RRSP ceiling of $35,390 in the confirmed column for 2027. Put the TFSA, the YMPE, the YAMPE, and the brackets in the blank column. Put the Home Buyers' Plan grace extension and the Disability Tax Credit certification changes in the proposal column, with the April 28, 2026 annex as the source. When a CRA or Finance page moves an item, move the card. Do not move it because a newsletter did.</p>
+        <p>Put the RRSP ceiling of $35,390, the YMPE of $76,700 and the YAMPE of $87,400 in the confirmed column for 2027. Put the TFSA and the brackets in the blank column. Put the Home Buyers' Plan grace extension and the Disability Tax Credit certification changes in the proposal column, with the April 28, 2026 annex as the source. When a CRA or Finance page moves an item, move the card. Do not move it because a newsletter did.</p>
     </div>
 
     <h2>I ran the numbers on the RRSP ceiling</h2>
@@ -137,12 +139,14 @@ export const oct2026TaxPostsA = [
 
     <div class="example-box">
         <strong>Illustration: the extra $1,580 of ceiling, not a full return</strong>
-        <p>Assume, and this is an assumption, that a person already expects to deduct the full 2026 dollar limit and will also have the earned income to use the full 2027 dollar limit. The only new planning fact is $1,580 of additional ceiling. At a combined marginal rate of about 43 percent, which is in the range of the Ontario marginal rate this site's 2026 calculator shows around $120,000 of taxable income, the deduction on that extra ceiling is about $680 of tax in the year of the contribution. At about 30 percent, closer to a middle Ontario bracket on the same calculator, it is about $474. The investment inside the RRSP is still taxable on the way out. The $680 is not a grant. It is a shift in when tax is paid, and it is only available if the earned-income test and the pension adjustment leave the room. No CPP, no Ontario health premium, and no other credits are in that sketch.</p>
+        <p>Assume, and this is an assumption, that a person already expects to deduct the full 2026 dollar limit and will also have the earned income to use the full 2027 dollar limit. The only new planning fact is $1,580 of additional ceiling. At a combined marginal rate of about 43 percent, which is in the range of the Ontario marginal rate this site's 2026 calculator shows around $120,000 of taxable income, the deduction on that extra ceiling is about $680 of tax in the year of the contribution. At about 30 percent, closer to a middle Ontario bracket on the same calculator, it is about $474. The investment inside the RRSP is still taxable on the way out. The $680 is not a grant. It is a shift in when tax is paid, and it is only available if the earned-income test and the pension adjustment leave the room. No CPP, no Ontario health premium, and no other credits are in that sketch. The same lag already sets the next step: CRA's October 28, 2026 note puts the 2028 RRSP dollar limit at $36,390, another $1,000 of ceiling.</p>
     </div>
 
-    <h2>CPP ceilings you can already put on a 2026 paycheque</h2>
+    <h2>What changes for CPP on a 2027 paycheque?</h2>
 
-    <p>CPP amounts for a pension that starts in 2027 are not published as a maximum retirement cheque on the pages reviewed. What is published is the 2026 contribution machine. CRA's payroll table sets 2026 maximum pensionable earnings at $74,600, the basic exemption at $3,500, and the employee and employer rate at 5.95 percent. Maximum employee base CPP is $4,230.45. Self-employed base CPP is $8,460.90. Above the YMPE, CPP2 applies up to the YAMPE of $85,000 at 4 percent for an employee and the employer, and 8 percent if you are self-employed. CRA's CPP2 table caps the employee amount at $416 and the self-employed amount at $832. The gap from $74,600 to $85,000 is $10,400, and 4 percent of $10,400 is $416. That is the whole second tier for 2026. There is no 2027 YMPE to multiply yet.</p>
+    <p>CPP amounts for a pension that starts in 2027 are not published as a maximum retirement cheque on the pages reviewed. What is published is the 2026 contribution machine. CRA's payroll table sets 2026 maximum pensionable earnings at $74,600, the basic exemption at $3,500, and the employee and employer rate at 5.95 percent. Maximum employee base CPP is $4,230.45. Self-employed base CPP is $8,460.90. Above the YMPE, CPP2 applies up to the YAMPE of $85,000 at 4 percent for an employee and the employer, and 8 percent if you are self-employed. CRA's CPP2 table caps the employee amount at $416 and the self-employed amount at $832. The gap from $74,600 to $85,000 is $10,400, and 4 percent of $10,400 is $416. That is the whole second tier for 2026.</p>
+
+    <p>For 2027, CRA has now set the ceilings: YMPE $76,700 and YAMPE $87,400. The band between them is $10,700, and 4 percent of $10,700 is $428, so the employee CPP2 maximum on that arithmetic rises from $416 to $428 ($856 self-employed). The base rate is moving the other way. Bill C-30, the Spring Economic Update 2026 Implementation Act, amends the Canada Pension Plan to cut the base rate from 4.95 percent to 4.75 percent each for employees and employers (9.9 to 9.5 percent self-employed) for 2027 and later years, and the Chief Actuary's 33rd report confirms the 9.5 percent rate is sufficient. The first additional CPP rate of 1 percent is unchanged, so the combined employee rate on the first tier would be 5.75 percent instead of 5.95 percent. CRA's payroll table did not yet show a 2027 row on October 29, 2026. Use that table, not this paragraph, for payroll.</p>
 
     <p>The pension those contributions support is a different page. ESDC's figure for a maximum retirement pension at 65, for a benefit beginning in January 2026, is $1,507.65 a month. The average at 65, dated April 2026 on the same Canada.ca amount page, is $877.01. Starting before 65 cuts the pension by 0.6 percent a month. None of those payment figures is a 2027 or a 2036 promise. The personal estimate is My Service Canada Account. The longer version is <a href="/blog/how-much-cpp-will-i-get/">how much CPP you will get</a>.</p>
 
@@ -160,7 +164,7 @@ export const oct2026TaxPostsA = [
     <h2>Frequently asked questions</h2>
 
     <h3>Is the 2027 TFSA limit $7,500?</h3>
-    <p>Not on any CRA page reviewed on October 4, 2026. The announced limit is $7,000 for 2026. The dollar limit is indexed and rounded to the nearest $500, which is why commentators project a jump. A projection is not contribution room. Wait for the CRA announcement.</p>
+    <p>Not on any CRA page reviewed on October 29, 2026. The announced limit is $7,000 for 2026. The dollar limit is indexed and rounded to the nearest $500, which is why commentators project a jump. A projection is not contribution room. Wait for the CRA announcement.</p>
 
     <h3>Why is the 2027 RRSP limit already published?</h3>
     <p>The RRSP dollar limit follows the prior year's money-purchase limit. CRA announced the 2026 money-purchase limit of $35,390 and, with it, the 2027 RRSP dollar limit of $35,390. Your own room still depends on 2026 earned income, unused room, and any pension adjustment.</p>
@@ -169,10 +173,13 @@ export const oct2026TaxPostsA = [
     <p>It proposed to. The annex would extend the temporary five-year grace period to first withdrawals through the end of 2028. Budget 2024's version covered first withdrawals through the end of 2025. A proposal is not a cancelled repayment. Use the schedule that matches the law in force for your withdrawal year.</p>
 
     <h3>When is Budget 2026?</h3>
-    <p>The Department of Finance said on July 6, 2026 that Budget 2026 will be delivered this fall. That release does not give a date. Pre-budget consultations on the same release closed September 8, 2026. There is no measure in this article that depends on an untabled budget.</p>
+    <p>November 5, 2026. Finance Canada announced the date on October 20, 2026. Pre-budget consultations closed September 8, 2026. There is no measure in this article that depends on the untabled budget.</p>
+
+    <h3>What is the 2027 YMPE?</h3>
+    <p>$76,700, announced by CRA on October 28, 2026, up from $74,600. The 2027 YAMPE is $87,400, up from $85,000. CPP2 at 4 percent applies to earnings between the two.</p>
 
     <h3>Will federal tax brackets rise for 2027?</h3>
-    <p>They are indexed, and CRA announces the factor. As of October 4, 2026 that factor for 2027 was not in the pages reviewed. Plan contributions and payroll on the 2026 brackets until the indexation release replaces them. The <a href="/blog/canada-income-tax-calculator/">income tax calculator</a> is built on those 2026 brackets.</p>
+    <p>They are indexed, and CRA announces the factor. As of October 29, 2026 that factor for 2027 was not in the pages reviewed. Plan contributions and payroll on the 2026 brackets until the indexation release replaces them. The <a href="/blog/canada-income-tax-calculator/">income tax calculator</a> is built on those 2026 brackets.</p>
 
     <h3>Does a higher RRSP limit change the TFSA versus RRSP decision?</h3>
     <p>Only at the margin, and only if you have the earned income. A larger deduction is more valuable in a higher bracket and less valuable if the withdrawal will be taxed at a similar rate. Room you will not use is not a strategy. Fill the account that matches the bracket and the timeline you already wrote down.</p>
@@ -186,6 +193,8 @@ export const oct2026TaxPostsA = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html">CRA: CPP2 rates and maximums</a></li>
         <li><a href="https://budget.canada.ca/update-miseajour/2026/report-rapport/tm-mf-en.html">Department of Finance: Spring Economic Update 2026, tax measures</a></li>
         <li><a href="https://www.canada.ca/en/department-finance/news/2026/07/government-of-canada-launches-consultations-ahead-of-budget-2026.html">Department of Finance: Budget 2026 consultations, July 6, 2026</a></li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html">Department of Finance: Budget 2026 to be released November 5, 2026 (October 20, 2026)</a></li>
+        <li><a href="https://www.osfi-bsif.gc.ca/en/oca/actuarial-reports/33rd-actuarial-report-supplementing-revised-32nd-actuarial-report-canada-pension-plan">Office of the Chief Actuary: 33rd CPP Actuarial Report (Bill C-30 rate change)</a></li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html">ESDC: how much CPP you could receive</a></li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html">ESDC: when to start CPP, including the 0.6 percent monthly reduction</a></li>
     </ul>
@@ -200,4 +209,6 @@ export const oct2026TaxPostsA = [
 
 </div>`
   ),
+  updated: '2026-10-29',
+  },
 ];
