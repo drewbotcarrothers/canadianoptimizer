@@ -1592,6 +1592,10 @@ export const creditCardClusterPosts: CardPost[] = [
 </div>`
     ),
     updated: '2026-10-30',
+    youtubeId: '3YpljsPmKAw',
+    youtubeTitle: 'Is the Longest 0% Balance Transfer the Best?',
+    youtubeUploadDate: '2026-11-01T05:41:00-05:00',
+    youtubeDuration: 'PT5M37S',
   },
 
   cardPost(
