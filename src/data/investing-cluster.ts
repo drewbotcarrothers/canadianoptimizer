@@ -1555,7 +1555,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <ul>
             <li>Questwealth: 0.25% on $250 to $99,999, and 0.20% from $100,000. ETF MERs are extra.</li>
             <li>Wealthsimple managed: 0.5% at Core, 0.4% at Premium ($100,000 in assets), and 0.2% to 0.4% at Generation ($500,000). Wealthsimple Automated Investing is 0.25%, capped at $250 plus tax a year per account, but you choose the holdings yourself.</li>
-            <li>Justwealth: 0.50%, with a $4.99 monthly minimum fee and a $5,000 minimum account, except RESP, FHSA and RDSP accounts. Its own example adds about 0.20% in ETF fees.</li>
+            <li>Justwealth: 0.50% on the first $500,000 and 0.40% above, with a $4.99 monthly minimum fee and a $5,000 minimum account, except RESP, FHSA and RDSP accounts. Its own example adds about 0.20% in ETF fees.</li>
             <li>RBC InvestEase: 0.5% plus applicable sales tax, with weighted ETF MERs of 0.12% to 0.20% (Core) or 0.17% to 0.25% (Responsible Investing).</li>
             <li>On $100,000, the managed-robo fee ranges from $200 (Questwealth) to $500 (Justwealth, or RBC before tax). On $250,000 it is $500 to $1,250. XEQT's 0.19% MER is $190 on $100,000, all-in. The gap is the price of being managed.</li>
         </ul>
@@ -1593,7 +1593,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
                 <tr class="highlight-row"><td><a href="https://www.questrade.com/questwealth-portfolios">Questwealth Portfolios</a></td><td>0.25% on $250–$99,999; 0.20% from $100,000</td><td>The ETFs' MERs</td><td>Questrade describes the portfolios as actively managed, which is a different promise from a fixed 80/20 fund</td></tr>
                 <tr><td><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple managed</a></td><td>Core 0.5%; Premium 0.4%; Generation 0.2%–0.4%</td><td>The ETFs' MERs</td><td>Your tier depends on total assets at Wealthsimple ($100,000 for Premium, $500,000 for Generation). Generation starts at 0.4% at $500,000 and reaches 0.2% only at $10,000,000 or more</td></tr>
                 <tr><td><a href="https://www.wealthsimple.com/en-ca/legal/fees/trade">Wealthsimple Automated Investing</a></td><td>0.25%, capped at $250 plus tax a year per account (the cap is reached at $100,000)</td><td>The MERs of whatever you hold</td><td>Not a managed robo: you choose the stocks or ETFs and their targets, and Wealthsimple rebalances to them</td></tr>
-                <tr><td><a href="https://www.justwealth.com/pricing/">Justwealth</a></td><td>0.50%; minimum $4.99 a month</td><td>About 0.20% in ETF fees, in Justwealth's own $100,000 example</td><td>$5,000 minimum except RESP, FHSA and RDSP. The fee covers trading, custody and annual account fees</td></tr>
+                <tr><td><a href="https://www.justwealth.com/pricing/">Justwealth</a></td><td>0.50% on the first $500,000; 0.40% above that; minimum $4.99 a month</td><td>About 0.20% in ETF fees, in Justwealth's own $100,000 example</td><td>$5,000 minimum except RESP, FHSA and RDSP. The fee covers trading, custody and annual account fees</td></tr>
                 <tr><td><a href="https://www.rbcinvestease.com/pricing-fees.html">RBC InvestEase</a></td><td>0.5% plus applicable sales tax</td><td>Weighted ETF MERs: 0.12%–0.20% Core; 0.17%–0.25% Responsible Investing</td><td>RBC's page compares this with 1% to 2% for an advisor elsewhere</td></tr>
             </tbody>
         </table>
@@ -1641,7 +1641,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
             <tbody>
                 <tr class="highlight-row"><td>Questwealth (0.25%, then 0.20%)</td><td>$25</td><td>$125</td><td>$200</td><td>$500</td><td>$1,000</td></tr>
                 <tr><td>Wealthsimple managed (Core 0.5%, Premium 0.4%, Generation from 0.4%)</td><td>$50</td><td>$250</td><td>$400</td><td>$1,000</td><td>$2,000</td></tr>
-                <tr><td>Justwealth (0.50%, $4.99 monthly minimum)</td><td>$60</td><td>$250</td><td>$500</td><td>$1,250</td><td>$2,500</td></tr>
+                <tr><td>Justwealth (0.50% to $500,000, $4.99 monthly minimum)</td><td>$60</td><td>$250</td><td>$500</td><td>$1,250</td><td>$2,500</td></tr>
                 <tr><td>RBC InvestEase (0.5% plus tax)</td><td>$50 + tax</td><td>$250 + tax</td><td>$500 + tax</td><td>$1,250 + tax</td><td>$2,500 + tax</td></tr>
                 <tr><td>Wealthsimple Automated Investing (0.25%, $250 cap; you pick the funds)</td><td>$25</td><td>$125</td><td>$250</td><td>$250</td><td>$250</td></tr>
                 <tr><td>XEQT bought yourself (0.19% MER, no service fee)</td><td>$19</td><td>$95</td><td>$190</td><td>$475</td><td>$950</td></tr>
