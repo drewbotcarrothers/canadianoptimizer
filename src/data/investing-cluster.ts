@@ -1804,6 +1804,10 @@ const investingClusterPostsRaw: InvestingPost[] = [
 </div>`
   ),
     updated: '2026-10-23',
+    youtubeId: 'M6b7j22ozFs',
+    youtubeTitle: 'Which Robo-Advisor Is Cheapest at Your Balance?',
+    youtubeUploadDate: '2026-11-02T04:49:00-05:00',
+    youtubeDuration: 'PT5M4S',
   },
   {
     ...investingPost(
