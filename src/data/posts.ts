@@ -23493,7 +23493,11 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <div class="footer-note">Published: September 21, 2026 | Updated: November 2, 2026 | Category: Insurance | Author: Andrew</div>
     </div>
 
-</div>`
+</div>`,
+    youtubeId: "V-TJrc-wbIw",
+    youtubeTitle: "Does Your Province Pay for a US Hospital?",
+    youtubeUploadDate: "2026-11-03T04:57:00-05:00",
+    youtubeDuration: "PT5M7S",
   },
   {
     title: "Corporate-Owned Life Insurance: The CDA Credit, and When Personal Term Wins",
