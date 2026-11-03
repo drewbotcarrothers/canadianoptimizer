@@ -85,6 +85,17 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 
 **Daily pick output (`00_pick_post.json`):** slug, title, category, post_url, score breakdown, why_picked, candidates_considered, rotation_ok + notes, ga_gsc used or blocked, source file in the repo + commit.
 
+## 3a. Idea & positioning: stage-01 checklist (anchor + bet)
+
+Added 2026-11-03 from Andrew's AI YouTube Video Playbook section "Idea & positioning (anchor + bet)". Do this at stage 01, before research is finalized and before any script. Record the answers as a `positioning` block in `00_pick_post.json`, `03_script.json` and `variant.json` (keys `anchor`, `bet`, `ingredients`, `named_entities`, `edge_of_cluster`, `target_viewer`, `format_family`).
+
+- [ ] **Anchor + bet.** Name the anchor the audience already cares about (a real insurer, bank, plan, province, agency or account: OHIP, RAMQ, CRA, TFSA, Bank of Canada) and the fresh bet (a surprising sourced claim, a specific mechanism or an original calculation). Write both next to the one-sentence `thesis`.
+- [ ] **Name real entities.** Put the real provinces, plans, agencies and insurers in the title, the description and the spoken VO so the transcript carries them. Only name an insurer or product we fact-checked from a primary source this run. Never invent one.
+- [ ] **Pick 2-3 ingredients** the video bets on: timing/zeitgeist (a season, deadline or rate change), one step above the audience's level, a repeatable format, a named expert's or official method, or "what you didn't know X does or doesn't pay". Check them against several outlier videos across channels, not just one.
+- [ ] **Sit on the edge of a cluster.** Search the anchor on YouTube and note the suggested-video cluster the video should appear beside. It should be close enough to belong but different enough not to be another copy. Avoid empty-whitespace topics.
+- [ ] **Packaging for the exact viewer.** The title and thumbnail use the target viewer's words and level, for example "snowbird" or "your province". Don't broaden them to bait clicks from people the video isn't for.
+- [ ] **Keep it consistent, vary the surface.** Keep the audience, level and promise the same for every Canadian Optimizer video, inside 1-2 format families (1: claim -> proof explainer with an original calculation; 2: step-by-step how-to). §7a variety still rotates the look (classic_white / slate_panels / red_band), sound delivery, hook, visuals and structure. Expect a flat phase of about 15-20 uploads before a breakout.
+
 ## 4. Pre-video blog refresh checklist
 
 Do this **before scripting**, across two stages: research (`01`), then ship (`02`). Apply the SEO & AEO guide (https://docs.google.com/document/d/e/2PACX-1vT2ZQ_PPRc6jkxkxRqiBbaUb00iQ1y91MVP_KSYxZl2vNqRGDZVWrDhoiZJz8rjT62FdmXLc1F_zc41/pub, box copy `/workspace/aeo-doc.txt`). It was written for a sister site, so apply the mechanics here.
