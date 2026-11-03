@@ -85,6 +85,26 @@ This is the source of truth for the daily blog post → YouTube run on canadiano
 
 **Daily pick output (`00_pick_post.json`):** slug, title, category, post_url, score breakdown, why_picked, candidates_considered, rotation_ok + notes, ga_gsc used or blocked, source file in the repo + commit.
 
+## 3a. Idea & positioning: stage-01 checklist (anchor + bet)
+
+Added 2026-11-03 from Andrew's AI YouTube Video Playbook section "Idea & positioning (anchor + bet)". Do this at stage 01, before research is finalized and before any script. Record the answers as a `positioning` block in `00_pick_post.json`, `03_script.json` and `variant.json` (keys `anchor`, `bet`, `ingredients`, `named_entities`, `edge_of_cluster`, `target_viewer`, `format_family`).
+
+- [ ] **Anchor + bet.** Name the anchor the audience already cares about (a real insurer, bank, plan, province, agency or account: OHIP, RAMQ, CRA, TFSA, Bank of Canada) and the fresh bet (a surprising sourced claim, a specific mechanism or an original calculation). Write both next to the one-sentence `thesis`.
+- [ ] **Name real entities.** Put the real provinces, plans, agencies and insurers in the title, the description and the spoken VO so the transcript carries them. Only name an insurer or product we fact-checked from a primary source this run. Never invent one.
+- [ ] **Pick 2-3 ingredients** the video bets on: timing/zeitgeist (a season, deadline or rate change), one step above the audience's level, a repeatable format, a named expert's or official method, or "what you didn't know X does or doesn't pay". Check them against several outlier videos across channels, not just one.
+- [ ] **Sit on the edge of a cluster.** Search the anchor on YouTube and note the suggested-video cluster the video should appear beside. It should be close enough to belong but different enough not to be another copy. Avoid empty-whitespace topics.
+- [ ] **Packaging for the exact viewer.** The title and thumbnail use the target viewer's words and level, for example "snowbird" or "your province". Don't broaden them to bait clicks from people the video isn't for.
+- [ ] **Keep it consistent, vary the surface.** Keep the audience, level and promise the same for every Canadian Optimizer video, inside 1-2 format families (1: claim -> proof explainer with an original calculation; 2: step-by-step how-to). §7a variety still rotates the look (classic_white / slate_panels / red_band), sound delivery, hook, visuals and structure. Expect a flat phase of about 15-20 uploads before a breakout.
+
+## 3b. Packaging & stakes (Andrew's playbook, Paddy Galloway principles, added 2026-11-03)
+
+Idea + title + thumbnail are about half of a video's performance. Apply at stages 03 and 08; check at 09.
+- **Packaging effort:** for every video write **10+ title options** and **5–10 thumbnail concepts** (in `08_thumbnail_metadata.json`), then pick finalists with the glance test. The weekly flagship also starts from 20+ ideas.
+- **Glance test (understood in under 1 second):** thumbnail text **under 5 words** (the locked ≤3-word headline rule still applies), **1–3 focal elements**, strong text/background contrast. Titles stay **≤8 words and ≤55 characters** (stricter than the playbook's 60).
+- **"Could anyone just say this?"** Every idea must pass it by leaning on Canadian Optimizer's own calculations, tables and tools (worked CAD examples, comparison tables, the site's calculators). If a generic channel could make the same video, find the original angle or pick another post.
+- **Stakes in every intro:** the hook sets a truthful, sourced stake: a dollar consequence (e.g. the $ difference over years) or an enemy (fees, fine print, a clawback). The video must pay it off. No fear-mongering, no clickbait.
+- **Audience, not algorithm:** monthly reviews (§14) diagnose by audience behaviour: low CTR = packaging; early drop / retention cliff = hook or pacing; few returning viewers = topic or promise fit. Never blame "the algorithm".
+
 ## 4. Pre-video blog refresh checklist
 
 Do this **before scripting**, across two stages: research (`01`), then ship (`02`). Apply the SEO & AEO guide (https://docs.google.com/document/d/e/2PACX-1vT2ZQ_PPRc6jkxkxRqiBbaUb00iQ1y91MVP_KSYxZl2vNqRGDZVWrDhoiZJz8rjT62FdmXLc1F_zc41/pub, box copy `/workspace/aeo-doc.txt`). It was written for a sister site, so apply the mechanics here.
@@ -519,6 +539,9 @@ What should we break down next? Drop your question below.
 - [ ] Topic gate: autocomplete demand recorded, specific angle, not covered by a sister channel this month
 - [ ] Voice: every acronym/ticker pronounced right (pronunciation dictionary), no flat robotic questions; captions word-level, synced, active word highlighted, first caption = the hook line, not covering data
 - [ ] Titles ≤8 words and ≤55 chars, Why/How, claim or search question, ≤1 number, no year unless dated rate/deadline, no `#Shorts`; 3 thumbnails ≤3 words readable at 160 px
+- [ ] **Packaging (§3b, stage 08):** 10+ title options and 5–10 thumbnail concepts recorded; finalists pass the glance test (understood <1 s, thumbnail text <5 words, 1–3 focal elements, strong contrast; title ≤8 words / ≤55 chars)
+- [ ] **Could anyone just say this? (§3b, stage 09):** the video leans on at least one Canadian Optimizer calculation, table or tool
+- [ ] **Stakes (§3b, stage 09):** the intro states a truthful, sourced stake (a $ consequence or an enemy such as fees or fine print) and the video pays it off
 - [ ] Would a stranger in the niche stay past 0:30? If not, re-cut the open
 - [ ] Thumbnail from the locked template (layout per the variant), timestamp zone empty, < 2 MB, readable at 160×90
 - [ ] Metadata: CTR title (pattern not repeated), post link first, chapters from the render, tags ≤500, description ≤4,800, NFA/tax educational lines kept; YouTube description must **not** include affiliate disclosure, AI-assistance, or image-credits paragraphs
@@ -552,6 +575,8 @@ Stop, save state, and report to Andrew (via the parent agent) when:
 *Created 2026-10-06 from Andrew's YouTube strategy doc. Sister references: `/workspace/mmo-youtube/VIDEO-REFERENCE.md`, `/workspace/cccf-youtube/video-reference-guide.md`, `/workspace/stocksummarizer/brand/STOCK-ANALYSIS-VIDEO-REFERENCE.md`. Update this file (and the box copy) whenever Andrew changes a rule, and add a dated line below.*
 
 ## Changelog
+
+- 2026-11-03: Added §3b Packaging & stakes (title/thumbnail volume, glance test, "could anyone just say this?", sourced stakes, audience-not-algorithm reviews) and matching §16 QA checks.
 - **2026-10-06:** v1 created. Queue of 30 posts seeded by editorial judgement (no GA/GSC access). Channel @canadianoptimizer found publicly; upload access pending.
 - **2026-10-07:** Setup: brand set, thumbnail generator, OpenMontage playbook `canadianoptimizer`, and GA4/GSC access via the box service account. Embed PR #33 merged and deployed the same day; first video (IdjVKZOWDqU) published and embedded via PR #36.
 - **2026-10-09:** Renders run in the background with per-chunk state saves (`tools/render_long_bg.sh` + `tools/render_progress.py`); sessions must not block on a long render (§15 rules 4–5). Reason: the Oct 7 and Oct 8 7 PM runs ended mid-render without recording stage 06.
