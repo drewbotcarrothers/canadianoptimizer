@@ -23185,106 +23185,301 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     categorySlug: "insurance",
     author: "Andrew",
     date: "2026-09-21",
-    updated: "2026-09-21",
-    excerpt: "Your provincial plan is not a travel policy. Pre-existing stability, trip length, and age cutoffs decide the claim — and trip cancellation is a different product from emergency medical.",
+    updated: "2026-11-02",
+    excerpt: "What each province pays for a hospital stay outside Canada ($75 to $525 a day), what a three-day US ICU bill leaves you owing, snowbird absence limits, and the stability clauses that decide a claim.",
     image: "/images/blog/travel-medical-insurance-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        Provincial health insurance is a domestic promise. Outside Canada it is a token, sometimes a per-diem, sometimes less, and it is <span class="highlight">not a ceiling you can plan a hospital around</span>. The travel policy is the plan. The card in your wallet is a plan only if the certificate still likes your age, your trip length, and your medications.
+        If you land in a US hospital this winter, your province pays a fixed daily amount, not the bill. As of November 2, 2026, that is <span class="highlight">$75 a day from British Columbia, $100 from Quebec or Alberta, $400 from Ontario and $525 from Nova Scotia</span>, while B.C.'s own ministry warns a US intensive-care day can reach US$10,000. The travel policy is the plan. The card in your wallet is a plan only if its certificate still fits your age, your trip length and your medications.
     </div>
 
-    <p>The bills you face at home — drugs, dental, the gaps that show up in retirement — are <a href="/blog/healthcare-costs-retirement/">healthcare costs</a>. This article is the border. It will not quote a provincial out-of-country rate or a premium. Those numbers move, and a blog that freezes them will be wrong by the time you fly. Check this year's page from your ministry, then read the certificate you are about to rely on. Routine dental and drugs at home, including the Canadian Dental Care Plan test, are <a href="/blog/private-health-dental-insurance-canada/">private health and dental insurance</a>. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>. Day counts and dollar caps printed on TD and American Express card pages are <a href="/blog/credit-card-travel-insurance-canada/">credit card travel insurance</a>.</p>
+    <p>Travel medical insurance in Canada is private emergency health coverage that pays the part of a hospital or doctor bill abroad that your provincial plan does not. Every province covers only emergency care outside Canada, at its own rates, and the federal travel site says your plan "may cover none, or only a small part" of the cost and "will never pay your bills up front." This guide shows the published provincial rates, what a real three-day stay leaves you owing, how long snowbirds can be away and keep provincial coverage, and the clauses that decide a claim.</p>
+
+    <div class="callout">
+        <strong>Key takeaways (checked November 2, 2026):</strong>
+        <ul>
+            <li>Provinces pay $75 to $525 a day for emergency inpatient care outside Canada. On Quebec's own example of a CA$25,000, three-day Florida ICU stay, that leaves you owing $23,425 to $24,775.</li>
+            <li>Ambulance, prescriptions and the flight home are usually not covered by the province at all.</li>
+            <li>Snowbird limits differ: Ontario and Alberta work on 212 days in 12 months, B.C. and Nova Scotia on 7 months a calendar year, and Quebec on fewer than 183 days a calendar year.</li>
+            <li>A stability clause is a definition. A dose change can matter more than how you feel.</li>
+            <li>Medical, cancellation and interruption are three different coverages, even when one card bundles them.</li>
+        </ul>
+    </div>
+
+    <nav aria-label="On this page">
+        <ul>
+            <li><a href="#province-rates">How much does your province pay outside Canada?</a></li>
+            <li><a href="#icu-example">What would a three-day US hospital stay cost you?</a></li>
+            <li><a href="#not-covered">What does the province never pay abroad?</a></li>
+            <li><a href="#absence">How long can snowbirds be away and stay covered?</a></li>
+            <li><a href="#stability">What does a stability clause really mean?</a></li>
+            <li><a href="#card">When is credit card travel insurance enough?</a></li>
+            <li><a href="#checklist">What should a snowbird policy include?</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <p>The bills you face at home, such as drugs, dental and the gaps that show up in retirement, are <a href="/blog/healthcare-costs-retirement/">healthcare costs in retirement</a>. This article is the border. The hub is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>, and every insurance guide is in the <a href="/category/insurance/">Insurance category</a>. Day counts and dollar caps printed on card certificates are covered in <a href="/blog/credit-card-travel-insurance-canada/">credit card travel insurance</a>.</p>
 
     <div class="callout">
         <strong>Three products people buy as if they were one:</strong>
-        <p>Emergency medical pays for care. Trip cancellation pays forfeited prepaid costs if you cancel for a covered reason before you leave. Trip interruption pays when you cut a trip short or get delayed for a covered reason. Baggage delay is a fourth thing and irrelevant to a US emergency department. A credit-card certificate can include all of them with different caps. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>, and the habit of reading the certificate instead of the marketing tile is <a href="/blog/best-travel-rewards-cards-canada/">travel cards</a>. This page is what to look for when you do.</p>
+        <p>Emergency medical pays for care. Trip cancellation pays forfeited prepaid costs if you cancel for a covered reason before you leave. Trip interruption pays when you cut a trip short or are delayed for a covered reason after you leave. A credit-card certificate can include all three with different caps. The annual-fee test is <a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">annual fee versus no-fee</a>.</p>
     </div>
 
-    <h2>What the province is not doing for you</h2>
+    <h2 id="province-rates">How much does your province pay for a hospital stay outside Canada?</h2>
 
-    <p>At home, medically necessary physician and hospital services are the provincial plan's job. Outside Canada, reimbursement is a small fraction of a foreign bill. Some provinces have reduced out-of-country benefits to a token or removed routine coverage. A single day in a US hospital can dwarf whatever is left of that benefit. Treat the provincial payment as a rounding error and insure the rest, or do not go.</p>
-
-    <p>Inside Canada the problem is smaller and not the same problem. Provinces reciprocate for many physician and hospital bills. Ambulances, prescriptions, and some clinics still surprise people, and Quebec's arrangements have historically been the awkward one. A weekend in another province is not a snowbird policy question. A week in Arizona is.</p>
+    <p>Each province pays a fixed daily amount for emergency inpatient care outside Canada, and doctors at its own fee schedule. The care must be for a sudden illness or injury that needs treatment right away. Planned care abroad is not covered without prior approval. These are the rates on each ministry's page on November 2, 2026, in Canadian dollars.</p>
 
     <table>
+        <caption>Emergency hospital care outside Canada, by province (ministry pages, checked November 2, 2026)</caption>
         <thead>
             <tr>
-                <th>Question in the certificate</th>
-                <th>Why the claim dies here</th>
+                <th>Province</th>
+                <th>Inpatient, per day</th>
+                <th>Outpatient or ER</th>
+                <th>Doctors</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Maximum days per trip</td>
-                <td>A card that covers a few weeks does not cover a five-month stay. The number of days is in the certificate. Do not guess it from a points blog.</td>
+                <td>Nova Scotia</td>
+                <td>Up to $525, plus 50% of ancillary inpatient fees</td>
+                <td>Not covered</td>
+                <td>Nova Scotia rates</td>
             </tr>
             <tr>
-                <td>Age cutoff</td>
-                <td>Many certificates change or end at 65, sometimes later, sometimes with a reduced cap. Price the trip at the age you will be on the departure date.</td>
+                <td>Ontario</td>
+                <td>Up to $400 (ICU, coronary care, operating room, neonatal or pediatric special care); $200 for lower levels of care</td>
+                <td>Up to $50 a day</td>
+                <td>Ontario rates</td>
             </tr>
             <tr>
-                <td>Must you charge the trip to the card?</td>
-                <td>Some certificates require the full fare, or the trip, on that card. A flight bought on another card can void the medical coverage you thought was automatic.</td>
+                <td>Quebec</td>
+                <td>Up to $100</td>
+                <td>Up to $50 a day</td>
+                <td>Quebec rates</td>
             </tr>
             <tr>
-                <td>Medical maximum</td>
-                <td>A cap that sounds large next to a Canadian grocery bill can be a short US admission. Read the number, including any reduction for age or for pre-existing conditions.</td>
+                <td>Alberta</td>
+                <td>$100, not counting the day of discharge</td>
+                <td>$50 a day, one visit a day</td>
+                <td>Alberta rates</td>
             </tr>
             <tr>
-                <td>First payor or excess</td>
-                <td>A top-up over a provincial plan or another policy is useful. Two policies that both claim to be excess can leave you in the middle. Know which contract pays first.</td>
-            </tr>
-            <tr>
-                <td>Stability of pre-existing conditions</td>
-                <td>The lookback is commonly 90, 180, or 365 days and is defined in the policy. "I feel fine" is not the definition.</td>
+                <td>British Columbia</td>
+                <td>Up to $75</td>
+                <td>Hospital benefits are inpatient and day-care surgery only</td>
+                <td>B.C. rates</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>Stability means the definition</h2>
+    <p>Manitoba pays emergency hospital care abroad at "an average daily rate" it sets, and does not print the figure on its page. In every other province and territory, look up this year's out-of-country page before you book. The pattern is the same everywhere: a fixed amount per day, in Canadian dollars, after you have paid the bill.</p>
+
+    <h2 id="icu-example">What would a three-day US hospital stay cost you?</h2>
+
+    <p>Quebec's health insurance board publishes this example: a three-day intensive-care stay in Florida for a heart attack, with hospital charges of CA$25,000. Quebec reimburses CA$300. We applied each province's published daily rate to the same bill to show what is left for you, or your travel insurer, to pay.</p>
+
+    <table>
+        <caption>Calculated: one CA$25,000, three-day emergency ICU stay (hospital charges only), November 2, 2026</caption>
+        <thead>
+            <tr>
+                <th>Province</th>
+                <th>Province pays</th>
+                <th>You pay</th>
+                <th>Share covered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nova Scotia ($525 a day)</td>
+                <td>$1,575, plus 50% of ancillary fees</td>
+                <td>about $23,425</td>
+                <td>about 6%</td>
+            </tr>
+            <tr>
+                <td>Ontario ($400 a day, ICU)</td>
+                <td>$1,200</td>
+                <td>$23,800</td>
+                <td>4.8%</td>
+            </tr>
+            <tr>
+                <td>Quebec ($100 a day)</td>
+                <td>$300</td>
+                <td>$24,700</td>
+                <td>1.2%</td>
+            </tr>
+            <tr>
+                <td>Alberta ($100 a day)</td>
+                <td>up to $300</td>
+                <td>at least $24,700</td>
+                <td>1.2% or less</td>
+            </tr>
+            <tr>
+                <td>British Columbia ($75 a day)</td>
+                <td>$225</td>
+                <td>$24,775</td>
+                <td>0.9%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="chart-container">
+        <h3>What the province pays on a CA$25,000, three-day ICU bill (calculated)</h3>
+        <div class="bar-chart">
+            <div class="bar-item"><div class="bar-label wide">Nova Scotia</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"><span>$1,575</span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Ontario</div><div class="bar-wrapper"><div class="bar" style="width: 76%;"><span>$1,200</span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Quebec: $300</div><div class="bar-wrapper"><div class="bar" style="width: 19%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">Alberta: up to $300</div><div class="bar-wrapper"><div class="bar" style="width: 19%;"><span></span></div></div></div>
+            <div class="bar-item"><div class="bar-label wide">B.C.: $225</div><div class="bar-wrapper"><div class="bar" style="width: 14%;"><span></span></div></div></div>
+        </div>
+        <p>Daily rate × 3 days, from the ministry pages listed under Sources. Bill from RAMQ's published Florida example. Alberta excludes the day of discharge, so a stay that ends on day 3 pays less. Doctors' fees are billed separately and paid at home-province rates.</p>
+    </div>
+
+    <p>Even the most generous province covers about one dollar in sixteen. Doctors are billed on top: in the same Quebec example, CA$1,000 of physician fees was reimbursed at CA$435. B.C.'s ministry puts the gap plainly: the average US hospital day "often exceeds $1,000 (US)" and "can be as high as $10,000 (US) a day in intensive care."</p>
+
+    <h2 id="not-covered">What does the province never pay outside Canada?</h2>
+
+    <p>Some costs get no provincial reimbursement at all, at any rate. They are often the ones that arrive first.</p>
+
+    <ul>
+        <li><strong>Ambulance, ground or air.</strong> Not covered by Alberta, Quebec or Nova Scotia abroad, and Manitoba says ambulance is not an insured service.</li>
+        <li><strong>Getting you home.</strong> Ontario does not pay a transfer back to an Ontario hospital, and Quebec does not pay the cost of bringing you back.</li>
+        <li><strong>Prescription drugs bought abroad.</strong> Excluded by Alberta and Quebec.</li>
+        <li><strong>Outpatient and lab charges in Nova Scotia's case,</strong> and private or semi-private rooms in Quebec's.</li>
+        <li><strong>Anything pre-existing or planned.</strong> Ontario's travellers program covers conditions that are acute, unexpected and not pre-existing.</li>
+    </ul>
+
+    <p>This is why the federal travel site lists medical evacuation as the first thing a policy must cover.</p>
+
+    <h2 id="absence">How long can snowbirds be away and keep provincial coverage?</h2>
+
+    <p>Travel insurers almost always require valid provincial coverage. Lose the provincial plan and the private policy can fail with it. Each province counts days differently.</p>
+
+    <table>
+        <caption>Provincial presence rules for vacationers (ministry pages, checked November 2, 2026)</caption>
+        <thead>
+            <tr>
+                <th>Province</th>
+                <th>Rule</th>
+                <th>How it is counted</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ontario</td>
+                <td>In Ontario at least 153 days; more than 212 days away may mean reapplying</td>
+                <td>Any 12-month period, days outside Ontario</td>
+            </tr>
+            <tr>
+                <td>Alberta</td>
+                <td>Recurring vacation absences up to 212 days may keep coverage; contact AHCIP before you leave and when you return</td>
+                <td>12-month period; outside Canada under 6 consecutive months</td>
+            </tr>
+            <tr>
+                <td>British Columbia</td>
+                <td>Vacationers can be away up to 7 months; contact Health Insurance BC if away 6 months or more</td>
+                <td>Calendar year</td>
+            </tr>
+            <tr>
+                <td>Nova Scotia</td>
+                <td>Vacationing outside Nova Scotia up to 7 months; contact MSI if away more than 90 days</td>
+                <td>Calendar year</td>
+            </tr>
+            <tr>
+                <td>Quebec</td>
+                <td>Absent fewer than 183 days</td>
+                <td>Calendar year; trips of 21 consecutive days or less, and departure and return days, are not counted</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>A rolling window does not reset on January 1:</strong>
+        <p>Ontario counts any 12-month period, so a November-to-April winter plus a summer month at a cottage in another province can cross 212 days. Quebec is the opposite: it counts the calendar year, and breaking the rule can cost eligibility for the whole year, with covered services to repay. Count your days before you book the condo, not after.</p>
+    </div>
+
+    <p>A snowbird policy has to match the actual stay, plus a buffer, or you buy top-up days before you reach the limit. Buying the extension after you are already past the cap, or after a new symptom, is how coverage lapses in February.</p>
+
+    <h2 id="stability">What does a stability clause really mean?</h2>
 
     <div class="warning-box">
         <strong>A change in medication can reset the clock even when you feel better:</strong>
-        <p>Stable, in these contracts, usually means no new symptom, no change in treatment or medication including a dose change, no new prescription, no pending test with an undiagnosed result, and no recommendation for a test or specialist you have not completed. The exact list is in the policy. A claim denial for a condition that was not stable, or for an answer on the medical questionnaire that was hopeful rather than literal, is the expensive version of a cheap premium. If you are not stable, buy a contract that will cover that condition with a loading or a cap you have read, or do not travel. Guaranteed-issue travel medical usually has a low maximum. Read the maximum before you treat it as cover.</p>
+        <p>The federal travel site says a pre-existing condition should be covered in writing, with a stability clause: no changes to your condition, and no new conditions, symptoms or medications during the stability period before the trip. The lookback is set by the policy. A dose change, a new prescription, a pending test or a referral you have not completed can all count. Answer the medical questionnaire literally, for every traveller on the policy. If you are not stable, buy a contract that covers that condition, or change the trip.</p>
     </div>
 
-    <p>Answer for the older traveller and for every condition, not for the healthy spouse. A joint policy can be priced and excluded off the more complicated person. Two policies are fine if you know which one responds. Risky activities — heli-ski, scuba past a stated depth, travel against a doctor's advice, alcohol-related injuries — are ordinary exclusions. So is failing to call the assistance number before treatment when the contract requires the call. The assistance clause is not etiquette. It is a condition of coverage.</p>
+    <p>Ask for a compassion clause and a change-of-health clause too; the federal site names both. Risky activities, travel against a doctor's advice and alcohol-related injuries are ordinary exclusions. So is failing to call the assistance number before treatment when the contract requires the call. The call is a condition of coverage, not etiquette.</p>
 
-    <h2>Snowbirds</h2>
+    <h2 id="card">When is credit card travel insurance enough?</h2>
 
-    <p>A snowbird plan has to match the actual stay, plus a buffer, or you buy top-up days before you exceed the limit. Buying the extension after you are already past the cap, or after a new symptom, is how coverage lapses in February. The policy will almost always require you to be covered by a provincial plan. Provinces impose physical-presence tests that change. Confirm you will still qualify for your provincial plan on the dates you will be away before you buy a top-up that depends on it.</p>
+    <p>A card certificate is enough only when four things all pass: the trip length is inside the certificate's day limit, you are under its age cutoff on the departure date, you charged the trip the way the certificate requires, and the medical maximum is a number you have read. If any one fails, the card is not the plan.</p>
 
     <div class="example-box">
-        <strong>A decision pattern, not a premium</strong>
-        <p>You are 67. The credit-card certificate you used at 60 now caps trips at a length shorter than the condo you booked, and the medical maximum dropped at your last birthday. The card still pays trip interruption for a covered reason, up to a limit you have read, and it does not pay the hospital bill for a four-month stay. You buy a snowbird medical policy for the dates and the stability window you can truthfully answer, and you keep cancellation coverage only on the prepaid, non-refundable portion of the stay. You do not buy cancellation on a fully refundable fare. You do not assume the card and the new policy will coordinate unless both certificates say how. None of those limits are quoted here because they are not stable enough to print. They are stable enough to read the week you book.</p>
+        <strong>Example: a 67-year-old Ontario snowbird (illustrative)</strong>
+        <p>The card she used at 60 now covers fewer days than the four-month condo she booked. Ontario would pay up to $400 a day for an ICU stay and nothing for the ambulance or the flight home. She buys a snowbird medical policy for the full dates, answers the stability questions for her blood-pressure medication exactly as her pharmacist's record shows, and keeps cancellation coverage only on the non-refundable rent. She counts 151 days away this winter and leaves room for a summer week in Quebec without crossing 212.</p>
     </div>
 
     <div class="tip-box">
         <strong>Cancellation is not medical, and a refundable booking does not need cancellation insurance:</strong>
-        <p>Insure a loss you can actually have. A non-refundable rental, a tour, or a fare with a penalty is a cancellation problem. A hospital is a medical problem. Households buy the one their card advertises and discover they own the other. If a trip is short, inside Canada, refundable, and inside a card certificate you have checked for age and days, you can skip a separate policy. If any one of those fails, the card is not the plan. The self-insure test is the same one in <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</p>
+        <p>Insure a loss you can actually have. A non-refundable rental or a fare with a penalty is a cancellation problem. A hospital is a medical problem. If a trip is short, refundable, and inside a card certificate you have checked for age and days, you may not need a separate policy. The self-insure test is in <a href="/blog/insurance-shopping-without-over-insuring-canada/">shopping without over-insuring</a>.</p>
     </div>
 
-    <p>Travel medical is underwritten more heavily with age. The step-up in price is the risk, not a trick. Budget it next to the flight, as a cost of the trip, especially once you are past the age where card certificates quietly shrink. A decline or a stability exclusion is a reason to change the trip, not a reason to hope the questionnaire was interpreted kindly.</p>
+    <h2 id="checklist">What should a snowbird travel medical policy include?</h2>
 
-    <h2>Key takeaways</h2>
+    <ol>
+        <li>Count your days away under your province's rule, and confirm you will still be covered for every travel date.</li>
+        <li>Buy emergency medical for the full stay plus a buffer, renewable from abroad.</li>
+        <li>Confirm medical evacuation to Canada, a medical escort, and repatriation are included (the federal site's three must-haves).</li>
+        <li>Get pre-existing condition coverage and the stability period in writing.</li>
+        <li>Check the deductible, the medical maximum, and whether the insurer pays the hospital directly.</li>
+        <li>Save the 24/7 assistance number and call it before treatment when the policy requires it.</li>
+        <li>Keep itemized bills and receipts. B.C. wants inpatient claims within six months of discharge; Alberta allows 365 days.</li>
+    </ol>
 
+    <h2 id="faq">Frequently asked questions</h2>
+
+    <h3>Does OHIP cover me in the United States?</h3>
+    <p>Only for emergencies, and only at fixed rates: up to $400 a day for intensive or coronary care, $200 a day for lower levels of inpatient care, and up to $50 a day for outpatient care, as of November 2, 2026. Ontario recommends private travel insurance.</p>
+
+    <h3>How much does B.C. MSP pay for a hospital stay outside Canada?</h3>
+    <p>Up to $75 a day in Canadian dollars for emergency inpatient or day-care surgery, with physicians paid at B.C. rates. Any excess is yours.</p>
+
+    <h3>Can I be away for six months and keep provincial health coverage?</h3>
+    <p>Usually, but the count differs. Ontario allows up to 212 days away in any 12 months, Alberta up to 212 days for recurring vacations with notice, B.C. and Nova Scotia up to 7 months a calendar year, and Quebec fewer than 183 days a calendar year.</p>
+
+    <h3>Does my province pay for an air ambulance home?</h3>
+    <p>Generally no. Alberta, Quebec and Nova Scotia exclude ambulance abroad, and Ontario does not pay a transfer back to an Ontario hospital. Medical evacuation has to come from the travel policy.</p>
+
+    <h3>What is a stability period in travel insurance?</h3>
+    <p>A set window before departure in which a pre-existing condition must have had no change: no new symptoms, diagnosis, medication or dose change. The length and the exact definition are in the policy.</p>
+
+    <h3>Is credit card travel insurance enough for snowbirds?</h3>
+    <p>Rarely for long stays. Card certificates often cap days per trip and change or end at a set age. Check the day limit, age cutoff, charge-to-card rule and medical maximum in the certificate itself.</p>
+
+    <h2>Sources</h2>
     <ul>
-        <li><strong>Provincial out-of-country benefits are not travel insurance.</strong> Confirm this year's schedule, then insure the bill.</li>
-        <li><strong>Medical, cancellation, and interruption are different contracts,</strong> even when one card includes all three with different caps.</li>
-        <li><strong>Days per trip, age, the charge-to-card rule, and the medical maximum</strong> are the four places card coverage fails snowbirds.</li>
-        <li><strong>Stability is a definition.</strong> A dose change can matter more than how you feel. Answer the questionnaire literally.</li>
-        <li><strong>Buy the snowbird length before you exceed it,</strong> and confirm you will still qualify for your provincial plan.</li>
-        <li><strong>Call the assistance number</strong> when the contract says to call before treatment.</li>
+        <li><a href="https://www.ontario.ca/page/ohip-coverage-while-outside-canada">Ontario: OHIP coverage while outside Canada</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.ontario.ca/page/apply-ohip-and-get-health-card">Ontario: Apply for OHIP (153-day and 212-day rules)</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/benefits/services-covered-by-msp/medical-benefits/medical-benefits-outside-of-british-columbia">B.C.: Medical benefits outside of British Columbia</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp/bc-residents/managing-your-msp-account/leaving-bc-temporarily">B.C.: Leaving B.C. temporarily</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.alberta.ca/ahcip-coverage-outside-canada">Alberta: Health care coverage outside Canada</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.alberta.ca/ahcip-absence-from-alberta">Alberta: Leaving Alberta affects health care coverage</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.ramq.gouv.qc.ca/en/citizens/absence-quebec/know-which-services-are-covered-outside-quebec">RAMQ: Know which services are covered outside Québec</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/know-eligibility-conditions">RAMQ: Know the eligibility conditions (presence in Québec rule)</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.novascotia.ca/healthcare-coverage-outside-canada-health-card">Nova Scotia: Healthcare coverage outside Canada</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.novascotia.ca/temporary-absence-nova-scotia-health-card">Nova Scotia: Temporary absence from Nova Scotia</a>, reviewed November 2, 2026</li>
+        <li><a href="https://www.gov.mb.ca/health/mhsip/out-of-province-coverage.html">Manitoba: Out-of-province coverage</a>, reviewed November 2, 2026</li>
+        <li><a href="https://travel.gc.ca/travelling/documents/travel-insurance">Government of Canada: Trip interruption and travel health insurance</a>, reviewed November 2, 2026</li>
     </ul>
 
     <h2>Related reading</h2>
 
     <ul>
-        <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs in retirement</a> — the domestic bill travel insurance does not pay.</li>
-        <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">Annual fee versus no-fee</a> — count card insurance only if you would have bought it.</li>
-        <li><a href="/blog/best-travel-rewards-cards-canada/">Travel cards</a> — certificates, not marketing tiles.</li>
-        <li><a href="/blog/housing-decisions-retirement/">Housing decisions</a> — a long stay away is a housing plan as well as a medical one.</li>
+        <li><a href="/blog/credit-card-travel-insurance-canada/">Credit card travel insurance</a>: day limits and age cutoffs on real certificates.</li>
+        <li><a href="/blog/healthcare-costs-retirement/">Healthcare costs in retirement</a>: the domestic bill travel insurance does not pay.</li>
+        <li><a href="/blog/best-travel-rewards-cards-canada/">Travel cards</a>: certificates, not marketing tiles.</li>
+        <li><a href="/blog/housing-decisions-retirement/">Housing decisions</a>: a long stay away is a housing plan as well as a medical one.</li>
     </ul>
 
     <div class="cta-section">
@@ -23294,8 +23489,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about travel medical, cancellation, and interruption coverage for Canadians. It is not insurance, medical, or tax advice, and it is not a quote. Provincial out-of-country benefits, card certificates, stability definitions, and premiums change. This article deliberately does not print live rates or card day-counts. Read the current ministry page and the certificate, and answer the medical questionnaire against the policy's definition before you travel.</p>
-        <div class="footer-note">Published: September 21, 2026 | Category: Insurance | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about travel medical, cancellation and interruption coverage for Canadians. It is not insurance, medical or tax advice, and it is not a quote. Provincial out-of-country rates and presence rules were checked on the ministry pages listed above on November 2, 2026 and can change. Confirm this year's page and read your certificate before you travel. The three-day ICU table is our arithmetic on Quebec's published example and is illustrative.</p>
+        <div class="footer-note">Published: September 21, 2026 | Updated: November 2, 2026 | Category: Insurance | Author: Andrew</div>
     </div>
 
 </div>`
