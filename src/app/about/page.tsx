@@ -36,31 +36,31 @@ export default function About() {
           <div className="w-full md:w-2/3 prose prose-lg max-w-none text-gray-700">
             <h2 className="text-2xl font-bold text-charcoal mb-4">My Financial Optimization Journey</h2>
             <p className="mb-4">
-              I'm Andrew, the creator of Canadian Optimizer. For the past decade, I've obsessed over the mechanics of wealth building strictly within the Canadian financial ecosystem.
+              Andrew is a personal finance expert, DIY investor and life optimizer based in Toronto, Canada. With over 19 years of corporate experience at a leading Canadian company, Andrew combines deep industry knowledge with a passion for technology to help others navigate personal finance and streamline their daily lives.
             </p>
             <p className="mb-4">
-              Most personal finance advice stops at "buy index funds" and "max your RRSP". But true wealth acceleration happens at the margins. It happens when you implement the Smith Maneuver to make your mortgage tax-deductible. It happens when you structure your corporate dividends to minimize personal tax. It happens when you systematically churn credit cards for five-figure travel returns.
+              Most personal finance advice stops at "buy index funds" and "max your RRSP". But true wealth acceleration happens at the margins. It happens when you implement the Smith Maneuver to make your mortgage tax-deductible. It happens when you structure your corporate dividends to minimize personal tax.
             </p>
             <p>
-              I built this platform because I couldn't find a centralized resource specifically dedicated to high-level, actionable financial optimization strategies for Canadians. Everything here is based on deep research, consultation with professionals, and personal implementation.
+              I built this platform because I couldn't find a centralized resource specifically dedicated to high-level, actionable financial optimization strategies for Canadians. Everything here is based on research into how the Canadian rules actually work, checked against primary official sources.
             </p>
           </div>
         </div>
 
         <div className="bg-light-slate p-8 md:p-12 rounded-2xl border border-gray-100">
-          <h2 className="text-2xl font-bold text-charcoal mb-6 text-center">E-E-A-T Credentials & Transparency</h2>
+          <h2 className="text-2xl font-bold text-charcoal mb-6 text-center">How Content Is Researched</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="font-semibold text-lg text-canadian-red mb-3">Experience</h3>
               <p className="text-gray-600 text-sm">
-                Over 10 years of personal implementation of advanced wealth strategies including corporate structuring, tax-loss harvesting, and multi-property real estate investment in Ontario.
+                Andrew is a DIY investor with over 19 years of corporate experience at a leading Canadian company.
               </p>
             </div>
             <div>
               <h3 className="font-semibold text-lg text-canadian-red mb-3">Expertise</h3>
               <p className="text-gray-600 text-sm">
-                Extensive technical research background synthesizing CRA tax codes, Bank of Canada policies, and complex financial products into actionable frameworks.
+                Articles summarize CRA guidance, Bank of Canada policies, and financial product terms into practical, educational explanations. They are not personalized advice.
               </p>
             </div>
             <div>
