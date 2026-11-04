@@ -1897,32 +1897,33 @@ export const realEstateClusterPosts: EstatePost[] = [
     ...estatePost(
       'rental-property-tax-deductions-canada',
       'Rental Property Tax Deductions in Canada: Expenses, CCA, and Recapture',
-      'Current rental expenses are deductible. A building is capital cost allowance, usually Class 1 at 4%, and CCA cannot create or increase a rental loss. Selling can recapture it.',
+      'Which rental costs CRA lets you deduct on Form T776, how capital cost allowance (Class 1 at 4%) works in year one, why CCA cannot create a rental loss, and how recapture taxes it back when you sell. Worked CAD examples.',
       `<div class="container">
 
     <div class="hook">
-        You can deduct reasonable expenses you incur to earn rental income in Canada. CRA splits them in two. <span class="highlight">Current expenses</span>, such as insurance, interest, repairs, and property tax, come off the year's rent. <span class="highlight">Capital expenses</span>, including the building, are written off over time as capital cost allowance. Most buildings acquired after 1987 are Class 1 at 4%. You cannot use CCA to create or increase a rental loss.
+        Yes, you can deduct the reasonable costs of earning rental income in Canada, but CRA sorts them into two piles. <span class="highlight">Current expenses</span>, such as insurance, interest, repairs, and property tax, come off this year's rent on Form T776. <span class="highlight">Capital costs</span>, including the building itself, are written off slowly as capital cost allowance (CCA), usually Class 1 at 4%. CCA cannot create or increase a rental loss, and when you sell, the CCA you claimed can come back as fully taxable income called recapture.
     </div>
 
-    <p>The mortgage on a rental is still a mortgage. The hub is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>. Default insurance, if a small rental is insured, is the <a href="/blog/cmhc-mortgage-insurance-canada/">CMHC guide</a>, which publishes a separate small-rental premium table. Whether the property should have been a home you live in is <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a>. A sale, including recapture, connects to the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. The form is T776. The guide is T4036.</p>
+    <p>The mortgage on a rental is still a mortgage. The hub is the <a href="/blog/canadian-mortgage-guide/">Canadian mortgage guide</a>, and the rest of the property side is the <a href="/category/real-estate/">real estate hub</a>. Default insurance, if a small rental is insured, is the <a href="/blog/cmhc-mortgage-insurance-canada/">CMHC guide</a>, which publishes a separate small-rental premium table. Whether the property should have been a home you live in is <a href="/blog/primary-residence-vs-rental-property-canada/">primary residence versus rental</a>. A sale, including recapture, connects to the <a href="/blog/capital-gains-tax-canada/">capital gains guide</a>. The form is T776. The guide is T4036.</p>
 
     <div class="callout">
-        <strong>Key takeaways:</strong>
+        <strong>Key takeaways (checked November 3, 2026):</strong>
         <ul>
             <li>CRA's deductible list includes advertising, insurance, interest and bank charges, office expenses, professional fees, management fees, repairs and maintenance, salaries, property taxes, travel, utilities, motor vehicle expenses, and other rental expenses.</li>
-            <li>Interest on money borrowed to buy or improve the rental is deductible. Interest on funds you took out for personal use is not. A mortgage penalty or a fee to reduce the rate is prorated over the remaining term, not deducted in full.</li>
-            <li>Legal fees to buy the property are not a current expense. CRA's example splits them between land and building and adds them to cost.</li>
-            <li>Class 1 is 4% for most buildings acquired after 1987. Land is not depreciable. In the year of acquisition the half-year rule usually applies. CCA cannot create or increase a rental loss.</li>
-            <li>Recapture happens when sale proceeds exceed the undepreciated capital cost of the class plus additions. It goes on line 9947 of the T776. It is income, not a capital gain. A capital gain can exist on top of it.</li>
+            <li>Interest on money borrowed to buy or improve the rental is deductible. Interest on funds you took out for personal use is not. Fees to arrange the mortgage, such as appraisal, application, mortgage insurance, and broker fees, are deducted at 20% a year over five years.</li>
+            <li>Legal fees and land transfer tax to buy the property are not current expenses. They are split between land and building and added to cost.</li>
+            <li>Class 1 is 4% for most buildings acquired after 1987. Land is not depreciable. Each rental building that cost $50,000 or more goes in its own class. CCA cannot create or increase a rental loss.</li>
+            <li>Recapture happens when the sale price of the building, capped at its cost, is more than its undepreciated capital cost. It goes on line 9947 of the T776 and is fully taxable income, not a capital gain.</li>
+            <li>Since 2024, expenses and CCA for a short-term rental (under 90 consecutive days) are denied for the days it did not comply with provincial or municipal rules.</li>
         </ul>
     </div>
 
-    <h2>Which expenses are current?</h2>
+    <h2>Which rental expenses can you deduct in Canada?</h2>
 
-    <p>CRA's rental-expenses page says you can deduct any reasonable expense you incur to earn rental income. Current or operating expenses are recurring and short-term. The example CRA uses is repairs that keep the property in the same condition it was in when you acquired it. You deduct those in the year you incur them. Capital expenses provide a benefit that lasts for years. Buying or improving the property is the example. You do not deduct the full amount in the year. You deduct CCA instead.</p>
+    <p>CRA's rental-expenses page says you can deduct any reasonable expense you incur to earn rental income. Current or operating expenses recur and give a short-term benefit, like repairs that keep the property in the condition it was in when you acquired it. You deduct those in the year you incur them. Capital expenses give a benefit that lasts for years, like buying or improving the property. You do not deduct those in full. You claim CCA instead.</p>
 
     <table>
-        <caption>Where a common landlord cost goes on the T776, as of October 2026</caption>
+        <caption>Where a common landlord cost goes on the T776, checked November 3, 2026</caption>
         <thead>
             <tr>
                 <th>Cost</th>
@@ -1932,14 +1933,24 @@ export const realEstateClusterPosts: EstatePost[] = [
         </thead>
         <tbody>
             <tr>
-                <td>Insurance, repairs, utilities, management fees, advertising</td>
+                <td>Insurance (line 8690), repairs (8960), utilities (9220), management fees (8871), advertising (8521)</td>
                 <td>Current, if they earn rental income</td>
-                <td>Reasonable, and incurred to earn rent. A personal portion of a mixed property is not deductible.</td>
+                <td>Reasonable, and incurred to earn rent. A personal portion of a mixed property is not deductible. Your own labour is never deductible.</td>
             </tr>
             <tr>
-                <td>Interest on money borrowed to buy or improve the rental</td>
+                <td>An insurance policy that covers three years</td>
+                <td>Current, but spread</td>
+                <td>Deduct only the year's share. CRA's example: Maria pays $2,100 for three years and deducts $700 a year.</td>
+            </tr>
+            <tr>
+                <td>Interest on money borrowed to buy or improve the rental (line 8710)</td>
                 <td>Current, as interest</td>
-                <td>Personal use of refinanced funds is not deductible against the rental. CRA's example is a landlord who uses new mortgage money personally.</td>
+                <td>Personal use of refinanced funds is not deductible against the rental. CRA's example is Karim, who refinanced his rental to fund the down payment on his own home.</td>
+            </tr>
+            <tr>
+                <td>Mortgage application, appraisal, mortgage insurance, broker, and financing legal fees</td>
+                <td>Deducted over 5 years</td>
+                <td>20% in the current year and 20% in each of the next four, whatever the mortgage term. Repay the loan early and the rest is deductible then.</td>
             </tr>
             <tr>
                 <td>Fee or penalty to pay out or reduce the mortgage rate</td>
@@ -1947,19 +1958,19 @@ export const realEstateClusterPosts: EstatePost[] = [
                 <td>Prorate over the remaining original term. CRA's example is a five-year term and a fee paid in year three, deducted over the years left.</td>
             </tr>
             <tr>
-                <td>Property taxes</td>
+                <td>Property taxes (line 9180)</td>
                 <td>Current, for the period the property was available for rent</td>
                 <td>Vacant land has a further limit: interest and property taxes cannot create or increase a rental loss. CRA says they can be added to the cost of the land.</td>
             </tr>
             <tr>
-                <td>Legal fees to buy</td>
+                <td>Legal fees and land transfer tax to buy</td>
                 <td>Capital, split between land and building</td>
-                <td>Not deducted from gross rent. CRA's example: a $200,000 property, $50,000 land and $150,000 building, $10,000 of legal fees. $2,500 goes to land, $7,500 to the building.</td>
+                <td>Not deducted from gross rent. CRA's example: a $200,000 property, $50,000 land and $150,000 building, $10,000 of legal fees. $2,500 goes to land and $7,500 to the building, for a building cost of $157,500.</td>
             </tr>
             <tr>
                 <td>A new roof, an addition, a lasting improvement</td>
                 <td>Capital</td>
-                <td>Repairs that restore the old condition are current. Improvements that make it better than it was are capital. The line is factual. A paint job and a new storey are not the same invoice.</td>
+                <td>Repairs that restore the old condition are current. Improvements that make it better than it was are capital. A paint job and a new storey are not the same invoice.</td>
             </tr>
             <tr>
                 <td>Landscaping</td>
@@ -1969,67 +1980,130 @@ export const realEstateClusterPosts: EstatePost[] = [
             <tr>
                 <td>Condominium fees for upkeep and current common expenses</td>
                 <td>Current</td>
-                <td>CRA points at the portion that is upkeep, repairs, maintenance, and other current expenses. A special assessment that is a capital improvement to the building is not automatically that line.</td>
+                <td>CRA allows your share of the upkeep, repairs, maintenance, and other current expenses of the common property. A special assessment for a capital improvement is not automatically that line.</td>
             </tr>
         </tbody>
     </table>
 
-    <p>Table as of October 2026. Sources: CRA's "rental expenses you can deduct" page and Guide T4036 as returned in the rental-income chapter. Line numbers on the T776, including 8710 for interest and 8960 for repairs, are the ones CRA prints on that expenses page. Confirm the year's form. A renamed line is still the same test.</p>
+    <p>Sources: CRA's "Rental expenses you can deduct" page and Guide T4036, checked November 3, 2026. Line numbers are the ones CRA prints for the T776. Confirm the year's form before you file.</p>
 
     <h2>What is capital cost allowance on a rental?</h2>
 
-    <p>CRA says you cannot deduct the purchase price of a building, furniture, or equipment in the year you buy it. You deduct CCA over time. Land is not depreciable. Only the building goes in the class. CRA's class list for rentals includes Class 1 at 4%. CRA's T4002 chapter says Class 1 includes most buildings acquired after 1987, unless they belong in another class. The half-year rule, in that same chapter, generally lets you claim CCA on one-half of the net additions in the year you acquire the property.</p>
+    <p>CCA is how you deduct the cost of the building over time. CRA says you cannot deduct the purchase price of a building, furniture, or equipment in the year you buy it. Land is not depreciable, so only the building goes in the class. Class 1 at 4% covers most buildings acquired after 1987, applied to the declining balance each year. CRA's own example: Abeer buys a $60,000 rental building, claims $1,200 of CCA, and bases next year's claim on the $58,800 left. Each rental building that cost $50,000 or more must go in its own separate class, so recapture is worked out property by property.</p>
 
-    <p>The same T4002 chapter says that under proposed changes, a new purpose-built residential rental may be eligible for an accelerated rate of 10% if it becomes available for use before 2036 and construction, or a substantial renovation from commercial use, began after April 15, 2024 and before 2031. "Proposed" is CRA's word on that page. Do not file 10% because a summary said the incentive exists. Read the T776 instructions for the year you are filing. A building that misses the test stays at 4%.</p>
+    <p>The first year depends on when you acquired the building. The classic half-year rule lets you claim CCA on only half of the year's net additions. CRA's T776 instructions say the half-year rule does not apply to accelerated investment incentive property, which is property acquired after November 20, 2018 and available for use before 2028. Under proposed changes, property acquired after 2024 is "reaccelerated" property with a bigger first-year base. "Proposed" is CRA's word, so check the T776 instructions for the year you file.</p>
+
+    <table>
+        <caption>Example: year-one CCA on CRA's $157,500 building under three first-year rules (calculated)</caption>
+        <thead>
+            <tr>
+                <th>First-year rule</th>
+                <th>CCA base</th>
+                <th>Year-one CCA at 4%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Half-year rule (for example, acquired before November 21, 2018)</td>
+                <td>$78,750</td>
+                <td>$3,150</td>
+            </tr>
+            <tr>
+                <td>Accelerated investment incentive, acquired before 2025 and available in 2024 to 2027 (no half-year rule, factor 0)</td>
+                <td>$157,500</td>
+                <td>$6,300</td>
+            </tr>
+            <tr>
+                <td>Proposed reaccelerated incentive, acquired after 2024 (no half-year rule, factor 1/2)</td>
+                <td>$236,250</td>
+                <td>$9,450</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Calculated by Canadian Optimizer from CRA's Area A column instructions (columns 15, 17 and 18) and CRA's $157,500 building cost example, checked November 3, 2026. Illustrative only. The rental-loss limit below can still cut any of these to zero.</p>
+
+    <p>The same T4002 chapter says that under proposed changes, a new purpose-built residential rental may be eligible for an accelerated rate of 10% if it becomes available for use before 2036 and construction, or a substantial renovation from commercial use, began after April 15, 2024 and before 2031. The accelerated rate does not apply to renovations of an existing residential complex. A house or condo you bought to rent is Class 1 at 4%.</p>
+
+    <h2>Can CCA create a rental loss?</h2>
+
+    <p>No. CRA's page on how much CCA you can claim says you calculate net income or loss from all your rental properties before you claim CCA, and you cannot use CCA to create or increase a rental loss.</p>
 
     <div class="warning-box">
-        <strong>CCA cannot create or increase a rental loss:</strong>
-        <p>CRA's page on how much CCA you can claim says you calculate net income or loss from all your rental properties before you claim CCA. If the properties together are already in a loss, you cannot claim CCA to make the loss bigger. Salvador's example on that page is a net loss of $500, and he cannot claim CCA on the buildings or the appliances. Current expenses can still produce a loss. CCA is the deduction that stops at zero rental income. Recapture, if you have it, is included when you do that netting.</p>
+        <strong>CCA stops at zero rental income:</strong>
+        <p>Salvador's example on CRA's page: two buildings earn $1,500 and $2,000, a third loses $4,000. His overall result is a $500 loss, so he cannot claim any CCA on the buildings or the appliances. Current expenses can still produce a loss. CCA is the deduction that stops at zero. Example: if a rental nets $3,000 before CCA, the most CCA you can claim that year is $3,000, even if 4% of the building would be $6,300.</p>
     </div>
 
-    <div class="example-box">
-        <strong>Illustration: legal fees, using CRA's split</strong>
-        <p>The building is $150,000 of a $200,000 purchase and the land is $50,000. Legal fees are $10,000. Three-quarters of the fee, $7,500, joins the building. One-quarter, $2,500, joins the land and is never depreciated. Class 1 at 4% applies to the building pool, not to $157,500 in year one if the half-year rule applies. Half of the building addition would be the first-year base, before the 4%. This paragraph is the sequence, not a filled-in T776. Soft costs during construction follow a different rule. CRA points at them separately. Do not dump a construction-period property tax bill into repairs without reading that section.</p>
-    </div>
+    <h2>What is recapture when you sell a rental?</h2>
 
-    <h2>What is recapture when you sell?</h2>
+    <p>Recapture is the CCA you deducted in earlier years coming back as income because the building did not lose value the way the deductions assumed. CRA's T776 instructions say you enter the sale proceeds of the building, net of selling costs and capped at its capital cost, in column 5. If the undepreciated capital cost (UCC) after additions and dispositions in column 7 is negative, that negative amount is recapture, and you report it on line 9947. You cannot claim CCA in the class that year. Recapture is fully taxable income. A capital gain on any proceeds above the original cost is a separate amount, and you can owe both.</p>
 
-    <p>CRA's line 9947 page says a recapture of CCA can happen if the proceeds from the sale of depreciable rental property are more than the undepreciated capital cost of the class at the start of the period plus the capital cost of additions during the period. If the UCC after additions and dispositions is negative, that negative amount is the recapture, and you enter it on line 9947. A co-owner enters their share. You cannot claim CCA in the class when that column is negative.</p>
+    <table>
+        <caption>Example: 4% a year on CRA's $157,500 building, then a sale at or above cost (calculated)</caption>
+        <thead>
+            <tr>
+                <th>After year</th>
+                <th>Total CCA claimed</th>
+                <th>UCC left</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>$6,300</td><td>$151,200</td></tr>
+            <tr><td>3</td><td>$18,154</td><td>$139,346</td></tr>
+            <tr><td>5</td><td>$29,079</td><td>$128,421</td></tr>
+            <tr><td>10</td><td>$52,789</td><td>$104,711</td></tr>
+            <tr><td>Sale in year 11 (building proceeds capped at $157,500)</td><td>Recapture on line 9947</td><td>$52,789</td></tr>
+        </tbody>
+    </table>
 
-    <p>Recapture is income. It is the CCA you deducted in earlier years, coming back because the building did not decline the way the deductions assumed. A capital gain is a different amount: proceeds above the capital cost, after selling costs. You can owe both. Legal fees on the sale reduce proceeds for the capital gain and also affect the recapture calculation. T4036 says the legal fees on a sale are deducted from proceeds when you calculate the gain or loss, and that the same deduction matters for recapture and for a terminal loss. The capital gains guide is the inclusion rate. The principal residence exemption does not shelter a building you have been depreciating as a rental, except to the extent a real designation applies. Do not assume it does. The primary-residence page is the designation.</p>
+    <p>Calculated by Canadian Optimizer: full 4% claimed every year on the declining balance, no rental-loss limit hit, building acquired and available in 2024 (no half-year rule). Illustrative only. If the building sells for less than its UCC, there is no recapture. If no property is left in the class, the leftover UCC is a terminal loss on line 9948, which CRA says can create a rental loss.</p>
+
+    <p>Legal fees on the sale reduce proceeds for the capital gain and also count when you calculate recapture or a terminal loss. Real estate commissions on the sale go on Schedule 3 as outlays and expenses. The principal residence exemption does not shelter recapture on a building you have been depreciating as a rental. The <a href="/blog/primary-residence-vs-rental-property-canada/">primary-residence page</a> covers the designation.</p>
 
     <div class="tip-box">
         <strong>Skipping CCA is allowed:</strong>
-        <p>The claim is a maximum, not a requirement. Landlords who expect to sell into a high-income year sometimes claim less, or nothing, so there is less to recapture later. That is a timing choice. It is not a way to turn the building into a current expense. If you claim nothing, you also give up the deduction in the years the property was cash-flow positive. Write the choice down. A preparer can model it. This page will not.</p>
+        <p>CRA says you can claim any amount of CCA from zero to the maximum. Landlords who expect to sell into a high-income year sometimes claim less, or nothing, so there is less to recapture later. That is a timing choice, not a way to turn the building into a current expense. If you claim nothing, you also give up the deduction in the years the property was cash-flow positive. Write the choice down, and have a preparer model it with your real numbers.</p>
     </div>
+
+    <h2>Do short-term rentals have different rules?</h2>
+
+    <p>Yes, since 2024. CRA defines a short-term rental as a residential property rented or offered for rent for less than 90 consecutive days. If the province or municipality does not allow it at that location, or you did not meet its registration, licence, or permit rules, the expenses and CCA for the non-compliant days are denied. The formula is the year's short-term rental expenses times non-compliant days, divided by short-term rental days. CRA's example: $60,000 of expenses, 181 non-compliant days out of 365, so $29,753 is denied and only $30,247 is deductible. You report it on lines 9366 and 9367 of the T776.</p>
 
     <h2>Frequently asked questions</h2>
 
-    <h3>Can I deduct the full mortgage payment?</h3>
-    <p>No. The interest can be deductible when the borrowed money was used to earn rental income. The principal is not an expense. It is a repayment of the loan. A blended payment has to be split. The lender's annual statement is the split. Personal use of a refinance is not interest against the rental, even if the mortgage is registered on the rental.</p>
+    <h3>Can I deduct the full mortgage payment on a rental?</h3>
+    <p>No. The interest can be deductible when the borrowed money was used to earn rental income. The principal is a repayment of the loan, not an expense. A blended payment has to be split, and the lender's annual statement is the split. Interest on a refinance you used personally is not deductible against the rental, even if the mortgage is registered on the rental.</p>
+
+    <h3>Can you write off home insurance on a rental property in Canada?</h3>
+    <p>Yes. CRA lists insurance on line 8690 of the T776. You deduct the premiums for the current year. If a policy covers more than one year, you deduct each year's share in that year. If you live in part of the building, only the rental portion counts.</p>
+
+    <h3>Are condo fees tax deductible on a rental in Canada?</h3>
+    <p>Yes, for a condo you rent out. CRA says you can deduct condominium fees that represent your share of the upkeep, repairs, maintenance, and other current expenses of the common property. Condo fees on a home you live in are personal and not deductible.</p>
+
+    <h3>Can I deduct mortgage fees and the appraisal on a rental?</h3>
+    <p>Yes, over five years. CRA treats mortgage application, appraisal, processing, mortgage insurance, guarantee, broker, finder's, and financing legal fees as loan fees. You deduct 20% a year for five years, regardless of the term of the mortgage. Legal fees to buy the property itself are different: they are split between land and building and added to cost.</p>
 
     <h3>Is a new appliance a repair?</h3>
-    <p>Replacing a broken part so the property stays in the condition you bought it in is the current-expense idea. A new appliance is usually capital, in a class with its own rate, and CRA says you can claim CCA on appliances as well as on the building, still subject to the rental-loss limit. Read the class list before you put a fridge in Class 1.</p>
+    <p>Usually not. Replacing a broken part so the property stays in the condition you bought it in is the current-expense idea. A new appliance is usually capital, typically Class 8 at 20%, and CRA says you can claim CCA on appliances as well as on the building, still subject to the rental-loss limit.</p>
 
     <h3>What if I live in one unit and rent the other?</h3>
-    <p>You deduct the rental portion. Personal occupancy is not a rental expense. The split has to be reasonable, often by area, and it affects both expenses and CCA. Designating the whole building as a principal residence while you claim full CCA on it is the contradiction the primary-residence page is about. Keep the square footage and the leases.</p>
+    <p>You deduct the rental portion only. The split has to be reasonable, often by floor area, and it applies to both expenses and CCA. Keep the square footage and the leases. Claiming CCA on the part of a home you also designate as a principal residence is the conflict the primary-residence page covers.</p>
 
     <h3>Can rental losses offset my salary?</h3>
-    <p>A net rental loss, after current expenses that are allowed, is generally applied against other income. CCA cannot be used to create or enlarge that loss. Vacant-land interest and property taxes have their own stop. A loss that exists only because the rent is below market to a relative is a facts problem, not a strategy. CRA's reasonableness test is the sentence to read before you file one.</p>
-
-    <h3>Do I have to claim the 10% purpose-built rate?</h3>
-    <p>Only if the building meets the test on the current form, and only to the extent the change you are relying on is actually in force for that year. CRA's T4002 page described the 10% rate as a proposed change, with a construction window after April 15, 2024 and before 2031, available for use before 2036. If your building is an ordinary house acquired years ago, it is not that incentive. Class 1 at 4% is the default this page will stand behind.</p>
+    <p>A net rental loss from allowed current expenses is generally applied against other income. CCA cannot be used to create or enlarge that loss, and vacant-land interest and property taxes have their own stop. A loss that exists only because the rent to a relative is below market is a facts problem, not a strategy. CRA's reasonableness test applies.</p>
 
     <h3>Where does recapture go if I sell at a loss?</h3>
-    <p>If the proceeds do not exceed the UCC of the class, you do not have recapture. You may have a terminal loss if nothing remains in the class, which is a deduction, not an inclusion. A sale below your original cost can still recapture CCA if the proceeds are above the UCC you have left after years of claims. Run column 7 of Area A. Do not guess from the listing price.</p>
+    <p>If the building's proceeds do not exceed the UCC of its class, you have no recapture. If nothing remains in the class, the leftover UCC is a terminal loss on line 9948, which is a deduction. A sale below your original cost can still trigger recapture if the proceeds are above the UCC left after years of claims. Work through column 7 of Area A rather than guessing from the listing price.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals/rental-expenses-you-deduct.html">CRA: rental expenses you can deduct</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals/rental-expenses-you-deduct.html">CRA: rental expenses you can deduct</a> (checked November 3, 2026)</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/much-capital-cost-allowance-you-claim.html">CRA: how much CCA you can claim, including the rental-loss limit</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/complete-capital-cost-allowance-charts/part-a-calculation-capital-cost-allowance-claim-form-t776.html">CRA: how to complete the CCA charts (Area A, separate classes, AIIP and proposed RIIP)</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/rental-classes-depreciable-property.html">CRA: rental classes of depreciable property</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4002/t4002-6.html">CRA T4002 chapter 4: Class 1 at 4%, half-year rule, proposed 10% purpose-built rate</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals/line-9947-recaptured-capital-cost-allowance.html/1000">CRA: line 9947, recaptured CCA</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4002/t4002-6.html">CRA T4002 chapter 4: Class 1 at 4%, proposed 10% purpose-built rate</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/completing-form-t776-statement-real-estate-rentals.html">CRA: completing Form T776 (lines 9947 recapture and 9948 terminal loss)</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/changes-rules-eligible-deductions-short-term-rental-income.html">CRA: changes to deductions for short-term rental income</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4036/rental-income.html">CRA Guide T4036, Rental Income</a></li>
     </ul>
 
@@ -2040,15 +2114,15 @@ export const realEstateClusterPosts: EstatePost[] = [
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about Canadian rental expenses as of October 2026. It is not tax or legal advice. Current versus capital is factual. CCA rates and the purpose-built incentive can change. The legal-fee split uses CRA's published example. Confirm Guide T4036 and Form T776 for the year you file, and ask a tax preparer before you claim CCA or report a sale.</p>
-        <div class="footer-note">Published: October 3, 2026 | Category: Real Estate | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about Canadian rental expenses as of November 2026. It is not tax or legal advice. Current versus capital is factual. CCA rates, the proposed reaccelerated incentive, and the purpose-built incentive can change. Examples are arithmetic on CRA's published figures and are illustrative. Confirm Guide T4036 and Form T776 for the year you file, and ask a tax preparer before you claim CCA or report a sale.</p>
+        <div class="footer-note">Published: October 3, 2026 | Updated: November 3, 2026 | Category: Real Estate | Author: Andrew</div>
     </div>
 
 </div>`
     ),
     author: 'Andrew',
     date: '2026-10-03',
-    updated: '2026-10-03',
+    updated: '2026-11-03',
   },
   ...oct2026RealEstatePosts,
 ];
