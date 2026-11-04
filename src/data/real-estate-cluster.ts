@@ -2123,6 +2123,10 @@ export const realEstateClusterPosts: EstatePost[] = [
     author: 'Andrew',
     date: '2026-10-03',
     updated: '2026-11-03',
+    youtubeId: 'SCGpdIJcg-E',
+    youtubeTitle: 'Rental Property Tax Deductions: What CRA Takes Back',
+    youtubeUploadDate: '2026-11-04T03:25:22-05:00',
+    youtubeDuration: 'PT5M7S',
   },
   ...oct2026RealEstatePosts,
 ];
