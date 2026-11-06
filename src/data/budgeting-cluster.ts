@@ -191,47 +191,48 @@ export const budgetingClusterPosts: BudgetPost[] = [
 </div>`
   ),
 
-  budgetPost(
+  {
+    ...budgetPost(
     'best-high-interest-savings-accounts-canada',
-    'Best High-Interest Savings Accounts in Canada (2026): Ongoing Rates vs Promos',
-    'EQ Bank’s Personal Account pays 1.00%, or 2.75% with $2,000 of monthly pay deposits, effective 16 September 2026. A teaser that expires is a different product.',
+    "Best High-Interest Savings Accounts in Canada (2026): Ongoing Rates vs Promos",
+    "EQ Bank\u2019s Personal Account pays 1.50%, or 3.00% with $2,000 of monthly pay deposits, effective 3 November 2026. A teaser that expires is a different product from an ongoing rate with a printed hurdle.",
     `<div class="container">
 
     <div class="hook">
-        The savings rate that matters is the one still posted after the offer ends. As of EQ Bank’s rates page, effective <span class="highlight">16 September 2026</span>, the Personal Account pays 1.00%, or 2.75% if qualifying direct deposits of pay total at least $2,000 a month. That 2.75% is a bonus on top of the base, not a separate account, and EQ says it lasts while the deposits continue. A new-client teaser with an end date is a different contract.
+        The savings rate that matters is the one still posted after the offer ends. As of EQ Bank’s rates page, effective <span class="highlight">3 November 2026</span>, the Personal Account pays <span class="highlight">1.50%</span> as a base, or <span class="highlight">3.00%</span> with at least $2,000 of qualifying monthly direct deposits. Wealthsimple’s chequing page still lists <span class="highlight">1.25% / 1.75% / 2.25%</span> by asset tier. The Bank of Canada’s overnight target rose to <span class="highlight">2.50%</span> on 28 October 2026. This guide is how to read those pages without confusing a teaser with an ongoing rate.
     </div>
 
-    <p>The map of deposits, GICs, and cash ETFs is the <a href="/blog/canadian-cash-management-guide/">cash management guide</a>. How a fund yield compares once you are willing to hold a security is <a href="/blog/cash-vs-psa-vs-cbil-hisa-etf/">CASH versus PSA versus CBIL</a>. Whether the balance is even the right size is the <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a>.</p>
+    <p>The map of deposits, GICs, and cash ETFs is the <a href="/blog/canadian-cash-management-guide/">cash management guide</a>. How a fund yield compares once fees and tax land is <a href="/blog/hisa-vs-cash-etf-canada/">HISA versus cash ETF</a>. The rest of this cluster sits on the <a href="/category/budgeting-saving/">Budgeting &amp; Saving hub</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Write down the rate in month six, not the rate in the ad. If the page does not say what happens when the offer ends, you do not have an ongoing rate.</li>
-            <li>EQ’s 2.75% requires $2,000 a month of qualifying pay deposits. Without them the posted base is 1.00%. Both lines are effective 16 September 2026.</li>
-            <li>EQ notice savings pays 2.35% with 10 days’ notice or 2.75% with 30 days’ notice. The wait is the product. It is a bad first-layer emergency fund.</li>
-            <li>Wealthsimple’s chequing page lists 1.25% (Core), 1.75% (Premium), and 2.25% (Generation), with a 0.5 point boost for Core and Premium if $2,000 lands in 30 days, and not above 2.25%.</li>
-            <li>Tangerine’s and Simplii’s public rate tables did not return a readable number in a static fetch on 27 September 2026. This page does not invent one. Open the issuer page.</li>
+            <li>Write down the rate in month six, not the rate in the ad. If the page does not say what happens when the offer ends, you do not have an ongoing quote.</li>
+            <li>EQ’s 3.00% Personal Account line needs at least $2,000 a month of qualifying direct deposits. Without them the posted base is 1.50%. Both lines are effective 3 November 2026 on EQ’s rates page.</li>
+            <li>EQ notice savings pays 2.50% with 10 days’ notice or 3.00% with 30 days’ notice on that same page. The wait is the product. It is a bad first-layer emergency fund.</li>
+            <li>Wealthsimple’s chequing page lists 1.25% (Core), 1.75% (Premium), and 2.25% (Generation), with a 0.5 point boost for Core and Premium if at least $2,000 is direct-deposited in 30 days, capped at 2.25%. Wealthsimple says those rates have no set end date and that they follow Bank of Canada changes.</li>
+            <li>Tangerine’s rates index still advertises a special-offer “5.00% boost” in the nav on 5 November 2026, but the public rates table did not return a readable base rate in a static fetch. Simplii’s rates page likewise showed no readable savings percentage. This page does not invent either number.</li>
         </ul>
     </div>
 
     <div class="callout">
-        <p><strong>Choose an ongoing rate if…</strong> you will still qualify next quarter, because the hurdle is a direct deposit or an asset tier you already have. <strong>Treat a promo as a promo if…</strong> the page names an end date, a “new money” window, or a rate that applies only to clients who opened in a stated period. When the teaser ends, the comparison starts over.</p>
+        <p><strong>Choose an ongoing rate if…</strong> you will still qualify next quarter, because the hurdle is a direct deposit or an asset tier you already meet. <strong>Treat a line as a promo if…</strong> it has an expiry, a new-client gate, a balance cap, or FAQ wording that calls it a promotion even when the rates table prints no end date.</p>
     </div>
 
     <h2>What is an ongoing rate, and what is a promo?</h2>
 
-    <p>An ongoing rate is the number the institution says it pays now, with the conditions printed beside it, and with no calendar end on the page you are reading. It can still change. EQ’s notice-savings page says the rate is subject to change and that the bank will email you if it does. “Ongoing” means “not a countdown,” not “guaranteed.”</p>
+    <p>An ongoing rate is the number the institution says it pays now, with the conditions printed beside it, and with no calendar end on the page you are reading. It can still change when the Bank of Canada moves, or when the issuer revises the sheet. “Ongoing” means “not a dated teaser,” not “guaranteed forever.”</p>
 
-    <p>A promo is a higher number with an expiry, a cap on which dollars earn it, or a requirement that you be a new client. The honest test is mechanical. Copy the rate into a note, write the condition, and write the date it dies. If you cannot find the date, look for the sentence that says the bonus continues only while a deposit lands. That sentence is the condition. It is still not an expiry, and it is still not the base rate.</p>
+    <p>A promo is a higher number with an expiry, a cap on which dollars earn it, or a requirement that you be a new client. The honest test is mechanical. Copy the rate, the hurdle, and the end language into one note. If any of those three is missing, you do not have a complete quote.</p>
 
-    <p>EQ’s Personal Account FAQ uses the word “promotion” for the 2.75% line and, in the same set of answers, says existing customers earn it for as long as direct deposits total at least $2,000 each month. Read both sentences. The bonus is conditional and, on the page reviewed, not a five-month teaser. Miss the direct deposit and the rates page says you are at 1.00%.</p>
+    <p>EQ’s Personal Account FAQ uses the word “promotion” for the 3.00% line and, in the same set of answers, says existing customers earn it for as long as qualifying deposits stay at or above $2,000 a month. The rates page, effective 3 November 2026, prints the 1.50% / 3.00% split with no calendar end. Both facts belong in the same note.</p>
 
     <h2>Which rates were actually on the issuer pages?</h2>
 
-    <p>The table is limited to pages that returned a number on 27 September 2026. Tangerine’s rates index describes a savings account and a no-monthly-fee chequing account, and Simplii’s high-interest savings page describes balance tiers, but both sites filled the rate cells with a script this fetch could not read. Quoting a blog’s version of those rates would be how a stale 4-point teaser ends up presented as fact. Check those two sites yourself the day you move money, and write down the rate that applies after any introductory period.</p>
+    <p>The table is limited to pages that returned a number on 5 November 2026. Tangerine’s rates index describes a savings account and a special-offer “5.00% boost,” but the base rate did not render as a readable percentage in a static fetch. Simplii’s savings rate page likewise returned no usable percentage. Neither bank is invented into the table.</p>
 
     <table>
-        <caption>Deposit rates read from issuer pages on 27 September 2026. EQ’s table is effective 16 September 2026. Wealthsimple dates the comparison chart on its chequing page as collected 11 June 2026; the rate FAQ on that same page states the tiers below.</caption>
+        <caption>Deposit rates read from issuer pages on 5 November 2026. EQ’s table is effective 3 November 2026. Wealthsimple dates the comparison on its chequing page.</caption>
         <thead>
             <tr>
                 <th>Account</th>
@@ -243,33 +244,33 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <tbody>
             <tr>
                 <td>EQ Bank Personal Account</td>
-                <td>1.00% base, or 2.75% (1.00% plus a 1.75% bonus)</td>
+                <td>1.50% base, or 3.00% (1.50% plus a 1.50% bonus)</td>
                 <td>Direct deposits of pay totalling at least $2,000 in the month, for the bonus</td>
                 <td>Bonus continues while the deposits continue. The FAQ also calls the bonus a promotion. No end date was printed on the rates page.</td>
             </tr>
             <tr>
                 <td>EQ Bank Joint Account</td>
-                <td>Same 1.00% / 2.75% split</td>
+                <td>Same 1.50% / 3.00% split</td>
                 <td>Same direct-deposit test</td>
-                <td>Same rates page, effective 16 September 2026</td>
+                <td>Same rates page, effective 3 November 2026</td>
             </tr>
             <tr>
                 <td>EQ Bank 10-day notice savings</td>
-                <td>2.35%</td>
+                <td>2.50%</td>
                 <td>Give 10 days’ notice to withdraw</td>
                 <td>EQ says the rate can change and that it will email you</td>
             </tr>
             <tr>
                 <td>EQ Bank 30-day notice savings</td>
-                <td>2.75%</td>
+                <td>3.00%</td>
                 <td>Give 30 days’ notice to withdraw</td>
                 <td>Same change language as the 10-day account</td>
             </tr>
             <tr>
                 <td>EQ Bank TFSA, FHSA, and RRSP cash savings</td>
-                <td>1.50% on each</td>
+                <td>1.75% on each</td>
                 <td>Registered room, and the account has to be open</td>
-                <td>Posted on the same 16 September 2026 rates page. Not a bonus rate.</td>
+                <td>Posted on the same 3 November 2026 rates page. Not a bonus rate.</td>
             </tr>
             <tr>
                 <td>Wealthsimple chequing, Core</td>
@@ -292,63 +293,69 @@ export const budgetingClusterPosts: BudgetPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of 27 September 2026. EQ also lists a US-dollar account at 2.50% on that rates page. It is a currency decision, not a Canadian-dollar parking spot, and this page does not compare it with a Canadian HISA.</p>
+    <p>Table as of 5 November 2026. EQ also lists a US-dollar account at 2.50% on that rates page. It is a currency decision, not a Canadian-dollar parking spot. The Bank of Canada’s overnight target was raised by 25 basis points to 2.50% on 28 October 2026; EQ’s Personal Account base and bonus both moved up on the 3 November sheet versus the 16 September sheet this article previously cited.</p>
 
     <h2>What do you keep after tax?</h2>
 
-    <p>Outside a TFSA, RRSP, or FHSA, interest is included in your income. A posted 2.75% is not 2.75% in your pocket. Multiply by one minus your combined marginal rate. This page will not invent that rate. Look it up on the <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a> tables for your province and your bracket.</p>
+    <p>Outside a TFSA, RRSP, or FHSA, interest is included in your income. A posted 3.00% is not 3.00% in your pocket. Multiply by one minus your combined marginal rate. Inside a registered cash account, the posted rate is closer to what you keep, subject to the account’s own rules.</p>
 
     <div class="example-box">
-        <strong>Illustration only: 2.75% at an assumed 40% marginal rate</strong>
-        <p>Forty percent is not a Canadian average and not your rate. It is a round number so the arithmetic is easy to check. Keep 60% of the interest: 2.75% times 0.60 is 1.65%. On a $10,000 balance that stays $10,000, 2.75% is $275 of interest before tax. At this assumed 40%, tax is $110 and you keep $165. The same $10,000 inside a TFSA keeps the $275 if the rate is actually 2.75% for the whole year, and it spends TFSA room. EQ’s registered cash accounts were posted at 1.50% on the same day, which is $150 on $10,000 before any fee this page did not see. Shelter does not repair a lower posted rate. Run your own bracket before you move registered room onto cash.</p>
+        <strong>Illustration only: 3.00% at an assumed 40% marginal rate</strong>
+        <p>Forty percent is not a Canadian average and not your rate. It is a round number so the arithmetic is easy to check. Keep 60% of the interest: 3.00% times 0.60 is <strong>1.80%</strong> after tax. The same math on EQ’s 1.50% base is <strong>0.90%</strong> after tax. On $10,000 left for a year, that is about $180 versus $90 before you count compounding nuances. The $90 gap is what the direct-deposit hurdle is buying — if you already get paid that way. If you will not move your pay, do not quote yourself 3.00%.</p>
     </div>
 
     <h2>Who is each account actually for?</h2>
 
     <ul>
-        <li><strong>You already direct-deposit a paycheque of at least $2,000.</strong> EQ’s 2.75% is the ongoing line to beat, with the bonus condition written down. Pair it with a no-fee chequing account if EQ’s limits bother you: no cheques, no cash deposits, no bank drafts. That tradeoff is the <a href="/blog/best-no-fee-chequing-account-canada/">chequing comparison</a>.</li>
-        <li><strong>You will not move your pay.</strong> Do not quote yourself 2.75%. EQ’s base is 1.00%. Wealthsimple Core at 1.25%, or 1.75% if the boost applies, can be higher than a base you will actually earn. Read both pages the same day.</li>
-        <li><strong>The dollar has a date and you can wait.</strong> Notice savings pays for the wait. A 30-day notice account is not the rent money. The first layer of an emergency fund has to move without notice. The <a href="/blog/emergency-fund-heloc-investments-canada/">emergency-fund guide</a> is that test.</li>
-        <li><strong>The dollar is a house down payment inside an FHSA.</strong> EQ’s FHSA cash rate on the page was 1.50%, not the 2.75% personal-account bonus. A GIC inside the FHSA is the ladder post. Do not buy an equity ETF because the cash rate looks dull. The timeline is <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA sequencing</a>.</li>
+        <li><strong>You already direct-deposit a paycheque of at least $2,000.</strong> EQ’s 3.00% is the ongoing line to beat on the pages reviewed, with the bonus condition written next to it. Wealthsimple Core or Premium can reach 2.25% with the same style of deposit boost.</li>
+        <li><strong>You will not move your pay.</strong> Do not quote yourself 3.00%. EQ’s base is 1.50%. Wealthsimple Core at 1.25%, or 1.75% with the boost if you somehow qualify another way, is the honest comparison set.</li>
+        <li><strong>The dollar has a date and you can wait.</strong> Notice savings pays for the wait. A 30-day notice account at 3.00% matches the Personal Account bonus rate on EQ’s sheet, but it is not the rent money. The first emergency layer stays instantly available.</li>
+        <li><strong>The dollar is a house down payment inside an FHSA.</strong> EQ’s FHSA cash rate on the page was 1.75%, not the 3.00% personal-account bonus. Match the product to the room.</li>
     </ul>
 
     <div class="warning-box">
         <strong>CDIC is not automatic just because the ad says “savings”:</strong>
-        <p>CDIC’s depositor FAQ says it determines whether a given high-interest savings account is an eligible deposit case by case. EQ states that its deposits are eligible and that EQ Bank is a trade name of Equitable Bank, one CDIC member. Wealthsimple states that it is not a bank and not a CDIC member, and that chequing balances are held in trust at member institutions. Those are different sentences. The coverage map is <a href="/blog/cdic-coverage-explained-canada/">CDIC coverage</a>.</p>
+        <p>CDIC’s coverage pages list eligible deposits (including savings deposits and GICs at member institutions) and products that are not eligible. EQ states that its deposits may be insurable and that Equitable Bank is a CDIC member. Wealthsimple describes extending CDIC protection through partner Canadian financial institutions for chequing balances held in trust. Confirm the live CDIC member list and the product page before you treat a balance as insured.</p>
     </div>
 
     <h2>How often should you re-check?</h2>
 
-    <p>The Bank of Canada’s target was 2.25% at the 2 September 2026 announcement, and the next date on its 2026 schedule is 28 October. Banks do not have to wait for that date to change a deposit rate. A quarterly fifteen minutes is enough: today’s base rate, today’s bonus and its hurdle, the rate after any teaser, and the account the money sits in. Automate the transfer in the <a href="/blog/money-automation-stack-canada/">automation stack</a>. Do not automate the assumption that last quarter’s winner is still ahead.</p>
+    <p>The Bank of Canada’s target was raised to 2.50% at the 28 October 2026 announcement, and the next date on its 2026 schedule is 9 December. Banks do not have to wait for that calendar. Re-read the issuer rates page when you move a large balance, after each BoC date, and whenever an email says the bonus terms changed.</p>
 
     <h2>Frequently asked questions</h2>
 
     <h3>What is the highest ongoing savings rate in Canada right now?</h3>
-    <p>This page will not crown one. On the pages reviewed on 27 September 2026, EQ’s 2.75% Personal Account bonus and EQ’s 2.75% 30-day notice account are the highest Canadian-dollar figures that came back with a condition attached. Wealthsimple’s top posted chequing rate is 2.25% for Generation clients. Tangerine and Simplii did not return a readable rate in the fetch, so they are absent on purpose. Check them before you decide you have the highest number.</p>
+    <p>This page will not crown one. On the pages reviewed on 5 November 2026, EQ’s 3.00% Personal Account bonus and EQ’s 3.00% 30-day notice account are the top readable Canadian-dollar lines in the table, both with conditions. Wealthsimple tops out at 2.25% on the chequing page. Other banks may pay more; if their rate did not render in a static fetch, they are not invented here.</p>
 
-    <h3>Is EQ’s 2.75% a promo?</h3>
-    <p>EQ’s FAQ calls it a promotion and also says you keep it while monthly qualifying pay deposits stay at or above $2,000. The rates page, effective 16 September 2026, shows it as 1.00% base plus 1.75% bonus, with no end date on that table. Treat it as conditional and ongoing, and re-read the terms the month your pay schedule changes. If the deposits stop, the page says the rate does too.</p>
+    <h3>Is EQ’s 3.00% a promo?</h3>
+    <p>EQ’s FAQ calls it a promotion and also says you keep it while monthly qualifying pay deposits stay at or above $2,000. The rates page, effective 3 November 2026, prints no end date. Treat it as a conditional ongoing rate: ongoing only while the hurdle is met, and still labelled a promotion in the FAQ.</p>
 
     <h3>Why isn’t Tangerine or Simplii in the rate table?</h3>
-    <p>Their rate pages did not render a number in a static fetch on 27 September 2026. Simplii’s savings page showed balance tiers with the percentage replaced by a placeholder. Inventing a “base” or a “4 percent promo” from another site would break the rule this article is built on. Open the issuer page, record the rate, the end date, and which dollars it applies to, and compare that note with the table above.</p>
+    <p>Their rate pages did not render a usable base savings percentage in a static fetch on 5 November 2026. Tangerine’s site did advertise a special-offer “5.00% boost” in navigation copy the same day. A boost without a readable base is still not a complete quote, so both names stay out of the comparison table.</p>
 
     <h3>Should I chase a five-month teaser?</h3>
-    <p>Only if you will move the money on the day it ends, and only if the after-tax gap beats the hassle. A teaser on new money that then falls to a low base is how people earn a high rate for a season and a poor rate for the rest of the year. Write the month-six rate in the same note as the teaser. If you will not calendar the move, take the ongoing rate you will still have in month six.</p>
+    <p>Only if you will move the money on the day it ends, and only if the after-tax gap beats the hassle. A teaser on new money that then falls to a low base is a calendar task, not a set-and-forget rate.</p>
 
     <h3>Is a notice account a HISA?</h3>
-    <p>It is a savings deposit with a withdrawal delay. EQ pays 2.35% for 10 days’ notice and 2.75% for 30 days’ notice, on the 16 September 2026 page. The rate can look like a top HISA. The liquidity does not. Keep the bill money in an account you have already withdrawn from once, without notice.</p>
+    <p>It is a savings deposit with a withdrawal delay. EQ pays 2.50% for 10 days’ notice and 3.00% for 30 days’ notice, on the 3 November 2026 page. The rate can look identical to a bonus HISA; the liquidity is not.</p>
 
     <h3>Does a higher rate change my emergency fund?</h3>
-    <p>No. The size of the fund is months of spending you cannot easily cut, set in the emergency-fund guide. A better rate changes how much interest that pile earns. It does not make a HELOC a substitute for the pile, and it does not make a 30-day notice account the first layer.</p>
+    <p>No. The size of the fund is months of spending you cannot easily cut, set in the emergency-fund guide. A better rate changes how much interest that pile earns, not how large the pile should be.</p>
+
+    <h3>Did EQ’s rates move after the October 2026 BoC hike?</h3>
+    <p>Yes, on the pages compared for this refresh. The previous version of this article cited EQ’s 16 September 2026 sheet (1.00% base / 2.75% bonus). The 3 November 2026 sheet shows 1.50% base / 3.00% bonus, with notice savings at 2.50% / 3.00% and registered cash at 1.75%. Always re-read the live page before you move money.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.eqbank.ca/rates">EQ Bank: rates and accounts</a>, effective 16 September 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/personal-account">EQ Bank: Personal Account</a></li>
+        <li><a href="https://www.eqbank.ca/rates">EQ Bank: rates and accounts</a>, effective 3 November 2026 (checked 5 November 2026)</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/personal-account">EQ Bank: Personal Account</a> (FAQ: promotion wording, existing-customer eligibility, $2,000 direct-deposit hurdle)</li>
         <li><a href="https://www.eqbank.ca/personal-banking/notice-savings-account">EQ Bank: Notice Savings Account</a></li>
-        <li><a href="https://www.wealthsimple.com/en-ca/chequing">Wealthsimple: chequing</a></li>
-        <li><a href="https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/">Bank of Canada: policy interest rate</a></li>
-        <li><a href="https://www.cdic.ca/what-happens-in-a-failure/resolution-of-small-and-medium-size-banks/reimbursement-of-insured-deposits/for-depositors/">CDIC: for depositors</a>, including the HISA eligibility answer</li>
+        <li><a href="https://www.wealthsimple.com/en-ca/chequing">Wealthsimple: chequing</a> (tier rates, 0.5 point boost, “no set end date”)</li>
+        <li><a href="https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/">Bank of Canada: policy interest rate</a> (2.50% target as of 28 October 2026)</li>
+        <li><a href="https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/">Bank of Canada: 28 October 2026 rate announcement</a></li>
+        <li><a href="https://www.cdic.ca/depositors/whats-covered/">CDIC: what’s covered</a></li>
+        <li><a href="https://www.tangerine.ca/en/rates">Tangerine: rates</a> (special-offer boost copy visible; base rate not readable in static fetch on 5 November 2026)</li>
+        <li><a href="https://www.simplii.com/en/rates.html">Simplii Financial: interest rates</a> (no readable savings percentage in static fetch on 5 November 2026)</li>
     </ul>
 
     <div class="cta-section">
@@ -361,6 +368,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
 
 </div>`
   ),
+    updated: '2026-11-05',
+  },
 
   budgetPost(
     'cash-vs-psa-vs-cbil-hisa-etf',
