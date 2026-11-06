@@ -369,6 +369,10 @@ export const budgetingClusterPosts: BudgetPost[] = [
 </div>`
   ),
     updated: '2026-11-05',
+    youtubeId: 'vZtPYzknXyw',
+    youtubeTitle: 'Is That 3% HISA Rate Still There Later?',
+    youtubeUploadDate: '2026-11-06T04:35:54-05:00',
+    youtubeDuration: 'PT5M5S',
   },
 
   budgetPost(
