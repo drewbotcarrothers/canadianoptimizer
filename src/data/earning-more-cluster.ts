@@ -589,24 +589,25 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 </div>`
   ),
 
-  earningPost(
+  {
+    ...earningPost(
     'bonus-tax-canada',
     'Bonus Tax in Canada: Why Your Bonus Looks Over-Taxed',
-    'A bonus is employment income. CRA has employers withhold tax by comparing annual tax with the bonus to annual tax without it. The extra withholding is not a special bonus rate, and the return settles the difference.',
+    'In Canada a bonus is employment income. CRA withholding uses annual tax with the bonus minus tax without it. The return, not that withholding, settles the tax.',
     `<div class="container">
 
     <div class="hook">
-        A bonus is not taxed under a special bonus bracket. It is <span class="highlight">employment income in the year you receive it</span>. CRA tells employers to withhold by taking the tax on your annual pay including the bonus and subtracting the tax on your annual pay without that bonus. The cheque looks over-taxed because the withholding assumes the bonus sits on top of a full year of salary. Your return uses your actual income.
+        A bonus is not taxed under a special bonus bracket. It is <span class="highlight">employment income in the year you receive it</span>. CRA tells employers to withhold the gap between annual tax with the bonus and annual tax without it, so the cheque can look over-taxed against a full year of salary. Your return uses the income you actually had.
     </div>
 
-    <p>The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. What the salary alone costs, before the bonus, is <a href="/blog/salary-after-tax-by-province-canada/">salary after tax by province</a>. Room to put part of a bonus into an RRSP is the <a href="/blog/rrsp-playbook/">RRSP playbook</a> and the <a href="/blog/contribution-limits/">limits table</a>. A lump sum that is really severance is <a href="/blog/severance-pay-tax-canada/">a retiring allowance</a>, and the withholding rules are different.</p>
+    <p>More of the filing cluster is in <a href="/category/taxes/">Taxes</a>. The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. What the salary alone costs, before the bonus, is <a href="/blog/salary-after-tax-by-province-canada/">salary after tax by province</a>. Room to put part of a bonus into an RRSP is the <a href="/blog/rrsp-playbook/">RRSP playbook</a> and the <a href="/blog/contribution-limits/">limits table</a>. A lump sum that is really severance is <a href="/blog/severance-pay-tax-canada/">a retiring allowance</a>, and the withholding rules are different.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
             <li>CRA's payroll page says to report the bonus on the T4 in the year it is received, and to withhold income tax using the bonus method.</li>
             <li>CPP and EI apply to a bonus. They do not apply to a retiring allowance.</li>
-            <li>T4127's 2026 formulas describe the tax as annual tax with the payment, minus annual tax without it. If that annual taxable-income result is $5,000 or less, the formula says withhold 15% federally, or 10% in Quebec.</li>
+            <li>T4127's 2026 formulas describe the tax as annual tax with the payment, minus annual tax without it. If the Step 1 annual taxable-income result is $5,000 or less, the formula says withhold 15% federally, or 10% in Quebec.</li>
             <li>That 15% line is not "every bonus under $5,000." It is a test on the annual figure in the formula.</li>
             <li>An RRSP deduction reduces tax on the return only if you have room and you contribute. It does not automatically change the stub.</li>
         </ul>
@@ -614,24 +615,28 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 
     <h2>Why does the percentage on the stub look higher than your average rate?</h2>
 
-    <p>Payroll does not spread a bonus back over the year and tax it at your average rate. The bonus method, in the 122nd edition of T4127, effective January 1, 2026, taxes the bonus as the difference between two annual tax figures. One includes the bonus. One does not. The difference is withheld from the bonus. If your salary already fills the lower brackets, that difference is calculated at the brackets the extra dollars fall into. Your average rate on the whole year is lower. Both numbers can be right. They are answering different questions.</p>
+    <p>Payroll does not spread a bonus back over the year and tax it at your average rate. The bonus method, in the 122nd edition of T4127, effective January 1, 2026, taxes the bonus as the difference between two annual tax figures. One includes the bonus and one does not, and that difference is withheld from the bonus.</p>
+
+    <p>If your salary already fills the lower brackets, that difference is calculated at the brackets the extra dollars fall into. Your average rate on the whole year is lower. Both numbers can be right. They are answering different questions.</p>
 
     <p>CRA's plain-language page says the same thing in one sentence: calculate using the bonus or irregular-payments method, withhold CPP using that method, withhold EI, and report the payment on the T4 for the year received. A qualifying retroactive lump-sum payment can be eligible for a special calculation when the employee files. A normal annual bonus is not that special calculation.</p>
 
     <div class="example-box">
-        <strong>Illustration, not a pay stub: Ontario salary of $90,000 and a $10,000 bonus</strong>
-        <p>Using only the basic personal amount and the 2026 brackets, income tax on $90,000 is lower than income tax on $100,000 by about $3,058. That gap is 30.6% of the $10,000. It is an illustration of the difference method, on the same worksheet as the <a href="/blog/salary-after-tax-by-province-canada/">province table</a>. A real employer also withholds CPP and EI if those ceilings are not already maxed, and uses the TD1 claim code and the T4127 factors, not this worksheet. If the stub shows a different dollar, the stub is following the payroll formula. The T1 is where the year gets reconciled.</p>
+        <strong>Example / illustration, not a pay stub: Ontario salary of $90,000 and a $10,000 bonus</strong>
+        <p>Using only the basic personal amount and the 2026 brackets, income tax on $90,000 is lower than income tax on $100,000 by about $3,058. That gap is 30.6% of the $10,000. The ~$3,058 figure includes Ontario provincial surtax on the tax. It is an illustration of the difference method, on the same worksheet as the <a href="/blog/salary-after-tax-by-province-canada/">province table</a>. A real employer also withholds CPP and EI if those ceilings are not already maxed, and uses the TD1 claim code and the T4127 factors, not this worksheet. If the stub shows a different dollar, the stub is following the payroll formula. The T1 is where the year gets reconciled.</p>
     </div>
 
     <h2>When does the flat 15% withholding apply?</h2>
 
-    <p>T4127 says that if the annual taxable-income result in the bonus formula is $5,000 or less, deduct 15% tax from the bonus, or 10% in Quebec. Read that as a test on the formula's annual figure, not as a rule that every bonus of $5,000 or less is taxed at 15% forever. Someone who earns a normal salary will not be in that $5,000 annual-income case. Their bonus is withheld with the difference method. Quebec's 10% in that sentence is the federal instruction inside the payroll formula. Revenu Québec has its own provincial withholding.</p>
+    <p>T4127 says that if the Step 1 annual taxable-income result in the bonus formula is $5,000 or less, deduct 15% tax from the bonus, or 10% in Quebec. Read that as a test on the formula's annual figure, not as a rule that every bonus of $5,000 or less is taxed at 15% forever. Someone who earns a normal salary will not be in that $5,000 annual-income case.</p>
+
+    <p>Their bonus is withheld with the difference method. Quebec's 10% in that sentence is the federal instruction inside the payroll formula. Revenu Québec has its own provincial withholding.</p>
 
     <h2>Can you point the bonus at an RRSP?</h2>
 
-    <p>On the return, a deductible RRSP contribution reduces taxable income. The 2026 RRSP dollar limit is $33,810. Your personal room is on your CRA account and is also limited by a percentage of last year's earned income and by any pension adjustment. A bonus paid in 2026 is earned income for a later year's room. It does not create room on the morning it is paid.</p>
+    <p>Yes, on the return, if you have room and the contribution is deductible. It does not automatically lower the tax withheld on the stub. The 2026 RRSP dollar limit is $33,810. Your personal room is on your CRA account and is also limited by a percentage of last year's earned income and by any pension adjustment. A bonus paid in 2026 is earned income for a later year's room. It does not create room on the morning it is paid.</p>
 
-    <p>Whether the employer withholds less because the bonus is transferred directly to an RRSP depends on the employer's payroll practice and on whether you can actually deduct the contribution. Do not assume a verbal "send it to my RRSP" changes the T4. If the transfer is not direct, you receive the cash net of withholding and you contribute yourself. Any extra withholding comes back when you file, if the deduction is allowed. The contribution has to land in time: during the year, or in the first 60 days of the next year, for a deduction on this year's return. Confirm the deadline on the CRA page for the year. This article is not that calendar.</p>
+    <p>Whether the employer withholds less because the bonus is transferred directly to an RRSP depends on the employer's payroll practice and on whether you can actually deduct the contribution. Do not assume a verbal "send it to my RRSP" changes the T4. If the transfer is not direct, you receive the cash net of withholding and you contribute yourself. Any extra withholding comes back when you file, if the deduction is allowed. The contribution has to land in time: during the year, or in the first 60 days of the next year, for a deduction on this year's return. Confirm the CRA contribution deadline for the year. This article is not that calendar.</p>
 
     <div class="tip-box">
         <strong>A bonus and a raise do different things to next year's room:</strong>
@@ -639,6 +644,13 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
     </div>
 
     <h2>What should you check before you spend the deposit?</h2>
+
+    <p>Confirm what the payment is, whether CPP and EI are already maxed, which province you will live in on December 31, and whether the extra income changes a benefit. The deposit is withholding. The return is the tax.</p>
+
+    <div class="callout">
+        <strong>Year-end timing:</strong>
+        <p>Many employers pay bonuses from November through February, and a January payment is next year's T4 year even if the work was the prior year.</p>
+    </div>
 
     <ul>
         <li><strong>Is it a bonus or a retiring allowance?</strong> Loss of employment is the severance article. CPP and EI treatment flips.</li>
@@ -666,10 +678,10 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/determining-tax-treatment/bonuses-retroactive-pay-increases-irregular-amounts.html">CRA: bonuses, retroactive pay, and irregular amounts</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html">CRA: T4127 bonus formulas, 2026 edition</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/special-payments-chart.html">CRA: special payments chart</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: 2026 RRSP dollar limit</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/determining-tax-treatment/bonuses-retroactive-pay-increases-irregular-amounts.html">CRA: bonuses, retroactive pay, and irregular amounts</a>, reviewed November 6, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html">CRA: T4127 bonus formulas, 2026 edition</a>, reviewed November 6, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/special-payments/special-payments-chart.html">CRA: special payments chart</a>, reviewed November 6, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: 2026 RRSP dollar limit</a>, reviewed November 6, 2026</li>
     </ul>
 
     <div class="cta-section">
@@ -678,10 +690,15 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer}
+    ${footer.replace(
+      'Published: October 3, 2026 | Category: Earning More',
+      'Published: October 3, 2026 | Updated: November 6, 2026 | Category: Earning More'
+    ).replace('as of October 2026', 'as of November 6, 2026')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-11-06',
+  },
 
   earningPost(
     'severance-pay-tax-canada',
