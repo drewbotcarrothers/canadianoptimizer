@@ -698,6 +698,10 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 </div>`
     ),
     updated: '2026-11-06',
+    youtubeId: 'qnwYk_4oPRI',
+    youtubeTitle: 'Is Your Bonus Taxed at 30%?',
+    youtubeUploadDate: '2026-11-08T09:51:19-05:00',
+    youtubeDuration: 'PT5M33S',
   },
 
   earningPost(
