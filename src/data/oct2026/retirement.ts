@@ -6,7 +6,8 @@ const disclaimer =
 const footer = articleFooter('Retirement', disclaimer);
 
 export const oct2026RetirementPosts = [
-  octPost(
+  {
+    ...octPost(
     'Retirement',
     'retirement',
     'retire-at-55-one-million-canada',
@@ -233,5 +234,10 @@ export const oct2026RetirementPosts = [
 
 </div>`,
     '2026-11-09'
-  ),
+    ),
+    youtubeId: 'fWfhNPTZ13c',
+    youtubeTitle: 'How Long a Million Lasts From Age 55',
+    youtubeUploadDate: '2026-11-10T06:10:12-05:00',
+    youtubeDuration: 'PT5M22S',
+  },
 ];
