@@ -1089,6 +1089,10 @@ export const posts: BlogPostRecord[] = [
     author: "Andrew",
     date: "2026-09-21",
     updated: "2026-11-10",
+    youtubeId: "33Bd_WGRw-A",
+    youtubeTitle: "Tax-Loss Harvesting in Canada: The 61-Day Trap",
+    youtubeUploadDate: "2026-11-10T19:52:32-05:00",
+    youtubeDuration: "PT5M17S",
     excerpt: "Tax-loss harvesting in Canada for 2026: the December 30 last trade date, the 61-day superficial-loss window that catches TFSA and spouse buys, and the three-year carryback.",
     image: "/images/blog/tax-loss-harvesting-calendar-canada.png",
     content: `<div class="container">
