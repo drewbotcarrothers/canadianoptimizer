@@ -1088,40 +1088,131 @@ export const posts: BlogPostRecord[] = [
     subcategory: "stock-picking",
     author: "Andrew",
     date: "2026-09-21",
-    updated: "2026-09-21",
-    excerpt: "A year-end calendar for capital losses in a non-registered account: the 30-day superficial-loss rule, substitutes, and spouse accounts.",
+    updated: "2026-11-10",
+    excerpt: "Tax-loss harvesting in Canada for 2026: the December 30 last trade date, the 61-day superficial-loss window that catches TFSA and spouse buys, and the three-year carryback.",
     image: "/images/blog/tax-loss-harvesting-calendar-canada.png",
     content: `<div class="container">
 
     <div class="hook">
-        A capital loss in Canada is useful in one place: a non-registered account, against capital gains. It does not reduce your salary. The mistake that deletes it is small and dated. You, or your spouse, or your TFSA, buy the <span class="highlight">identical property</span> inside a window that runs 30 days before the sale and 30 days after.
+        Tax-loss harvesting in Canada means selling an investment below its cost in a non-registered account so the capital loss can offset capital gains. For 2026, the trade has to settle by December 31, which on the TSX means placing it by <strong>Wednesday, December 30, 2026</strong>. The loss is then lost if you, your spouse, or your own TFSA or RRSP buys the <span class="highlight">identical property</span> in the window that runs 30 days before and 30 days after the sale.
     </div>
 
-    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains. The tax concepts — inclusion, carryback, and the rule in outline — are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade. Where the taxable sleeve fits the rest of the portfolio is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>.</p>
+    <p>Tax-loss harvesting is the deliberate version of that sale. You realize a loss you already have, keep a similar market exposure with a fund that is not the same property, and use the loss against gains this year, in the three previous years, or later. The tax concepts are in <a href="/blog/tax-efficient-investing/">tax-efficient investing</a>. This article is the calendar. It is general education. If the loss is large, your accountant should see the substitute before you trade. Where the taxable sleeve fits the rest of the portfolio is <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a>, and every investing guide sits in the <a href="/category/investing/">Investing hub</a>.</p>
 
     <div class="callout">
         <strong>Registered accounts cannot harvest:</strong>
-        <p>A loss inside a TFSA or RRSP is not a capital loss on your return. Moving a loser into a TFSA in kind is worse: the transfer is a disposition, the superficial-loss rule denies the loss, and the cost-base bump lands inside an account that will never use it. The in-kind warning is also in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. Harvest only in the non-registered sleeve, and only with a replacement you do not already hold in an affiliated account.</p>
+        <p>A loss inside a TFSA or RRSP is not a capital loss on your return. Moving a loser into a TFSA in kind is worse: the transfer is a disposition, the loss is denied, and the cost-base bump lands inside an account that will never use it. The in-kind warning is also in the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. Harvest only in the non-registered sleeve, and only with a replacement you do not already hold in an affiliated account.</p>
     </div>
 
-    <h2>What a loss can and cannot offset</h2>
+    <h2>What is the last day to sell for a 2026 capital loss in Canada?</h2>
 
-    <p>Net capital losses offset capital gains. They carry back up to three tax years and forward indefinitely, still against capital gains. They do not offset employment income, interest, or dividends. The US rule that allows a few thousand dollars of capital loss against ordinary income is not a Canadian rule. Half of a net capital gain is included in income under the current inclusion rate, and an allowable capital loss follows that same inclusion. Practically: an $8,000 capital loss cancels an $8,000 capital gain. It does not cancel $8,000 of salary. Confirm the inclusion rate in the year you file. It has been changed in draft legislation before, and then not proceeded with.</p>
+    <p>Wednesday, December 30, 2026, for stocks and ETFs on the TSX. The tax year of a sale on an exchange follows the settlement date, Canadian equity trades settle one business day after the trade (T+1) since May 27, 2024, and the TSX is closed on Friday, December 25 and Monday, December 28, 2026.</p>
 
-    <p>You apply a carryback on Form T1A, with the return for the loss year or as soon as that year's result is known. A refund of tax you already paid on an earlier year's gain is the valuable version. A loss with no gains this year and none in the prior three years is still a carryforward. It is not an emergency. Do not trade a portfolio out of shape for a deduction you cannot use.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Trade date (TSX)</th>
+                <th>Settles</th>
+                <th>Loss counts for</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thursday, December 24, 2026</td>
+                <td>Tuesday, December 29, 2026</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>Tuesday, December 29, 2026</td>
+                <td>Wednesday, December 30, 2026</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>Wednesday, December 30, 2026</td>
+                <td>Thursday, December 31, 2026</td>
+                <td>2026 (last day)</td>
+            </tr>
+            <tr>
+                <td>Thursday, December 31, 2026</td>
+                <td>Monday, January 4, 2027</td>
+                <td>2027</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <h2>The 30-day rule, stated the way the Act states it</h2>
+    <p>The dates come from the TMX 2026 settlement schedule. Mutual funds were not required to move to T+1, so a fund sold through a fund company can settle later. Ask the broker or fund company which year the settlement lands in, and do not reuse a cutoff date you remember from a different December.</p>
 
-    <p>A superficial loss happens when you dispose of property at a loss and both of these are true. During the period that begins 30 days before the disposition and ends 30 days after, you or a person affiliated with you acquire the same or identical property. And at the end of that period, you or that person still owns it, or still has a right to buy it. The denied loss is added to the adjusted cost base of the replacement. If the replacement sits in a TFSA, RRSP, RRIF, FHSA, or RESP, that bump is generally useless, because those accounts do not produce a personal capital gain you can reduce. The loss is gone.</p>
+    <h2>What can a capital loss offset in Canada?</h2>
+
+    <p>Net capital losses offset capital gains only. They carry back up to three tax years and forward indefinitely, still against capital gains. They do not offset employment income, interest, or dividends. The US rule that allows a few thousand dollars of capital loss against ordinary income is not a Canadian rule.</p>
+
+    <p>Half of a capital gain is taxable, and an allowable capital loss is half of the loss. The proposed increase to a two-thirds inclusion rate was cancelled on March 21, 2025, so the inclusion rate stays one-half. Practically: an $8,000 capital loss cancels an $8,000 capital gain. It does not cancel $8,000 of salary.</p>
+
+    <h2>How does a 2026 loss get back tax you already paid?</h2>
+
+    <p>Through a carryback. If your 2026 losses are larger than your 2026 gains, the CRA lets you apply the net capital loss to taxable capital gains in any of the three previous years, so 2023, 2024 or 2025. You complete Part 5 of <strong>Form T1A, Request for Loss Carryback</strong>, and file it with your 2026 return. You do not amend the earlier return.</p>
+
+    <p>The carryback reduces that earlier year's taxable income, so it can produce a refund of tax you already paid. The CRA notes that it does not change that year's net income, which is the figure many credits and benefits use.</p>
+
+    <div class="example-box">
+        <strong>Example: carrying a 2026 loss back to 2024</strong>
+        <p>In 2024 you sold an ETF for a $12,000 capital gain and reported a $6,000 taxable capital gain. In 2026 you have no gains, and you sell a different fund at a $9,000 loss. The allowable capital loss is $4,500 (half of $9,000). On Form T1A you apply that $4,500 to 2024. Your 2024 taxable income falls by $4,500, and the refund is that amount times your 2024 marginal rate: about $1,350 at an assumed 30% rate, or $1,800 at 40%. The rates are illustrations, not quotes for your province.</p>
+    </div>
+
+    <p>A loss with no gains this year and none in the prior three years is still a carryforward. It is not an emergency. Do not trade a portfolio out of shape for a deduction you cannot use.</p>
+
+    <h2>What is the superficial loss rule?</h2>
+
+    <p>A superficial loss happens when you sell property at a loss and both of these are true. During the period that starts 30 calendar days before the sale and ends 30 calendar days after it, you or a person affiliated with you buys, or gets a right to buy, the same or identical property. And 30 calendar days after the sale, you or that person still owns it, or still has a right to buy it.</p>
+
+    <p>The CRA then denies the loss. If you are the one who bought the substituted property, the denied loss is usually added to its adjusted cost base, so it is deferred, not erased. If the replacement sits in a TFSA, RRSP, RRIF, FHSA, or RESP, that bump has no tax value, because those accounts do not produce a personal capital gain you can reduce. The loss is gone.</p>
 
     <div class="warning-box">
         <strong>Affiliated includes your spouse, and it includes the registered plans:</strong>
-        <p>Your spouse or common-law partner is an affiliated person. A purchase in their non-registered account counts. A purchase in your TFSA or RRSP, or in theirs, counts. A corporation you control counts. "We traded in different accounts" is not a workaround. Adult children are a different legal question; do not invent a family relay. If you want to use anyone other than yourself, ask before you trade. Partial repurchases deny only the matching portion of the loss, not automatically the entire sale — and that math is also accountant territory when the numbers are large.</p>
+        <p>Your spouse or common-law partner is an affiliated person. A purchase in their non-registered account counts. A purchase in your TFSA or RRSP, or in theirs, counts. A corporation you or your spouse controls counts. "We traded in different accounts" is not a workaround. Adult children are a different legal question; do not invent a family relay. Partial repurchases deny only the matching portion of the loss, and that math is accountant territory when the numbers are large.</p>
     </div>
 
-    <h2>Identical is not "a different ticker on the same index"</h2>
+    <h2>Which dates are off limits after a December 30 sale?</h2>
 
-    <p>Identical properties are properties a buyer would not prefer one over the other, in any material way. The same ETF is identical. A second manufacturer's fund that tracks the same index is often identical too. A new ticker does not save you. The CRA has not published a safe list of ETF pairs. Treat "same index, different brand" as the same property unless you have advice on that loss.</p>
+    <p>Count 30 calendar days on each side of the sale. A sale placed on Wednesday, December 30, 2026 settles on Thursday, December 31. Thirty days before is December 1, 2026, and thirty days after is January 30, 2027. That 61-day window covers the first weeks of January, when many people make their new-year TFSA contribution.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Purchase of the identical fund</th>
+                <th>Inside the window?</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Your automatic purchase on December 15, 2026</td>
+                <td>Yes (before the sale)</td>
+                <td>Loss denied on the matching units if you still hold them on January 30</td>
+            </tr>
+            <tr>
+                <td>Your spouse buys it on December 31, 2026</td>
+                <td>Yes</td>
+                <td>Loss denied</td>
+            </tr>
+            <tr>
+                <td>Your TFSA buys it with a January 4, 2027 contribution</td>
+                <td>Yes</td>
+                <td>Loss denied, and the cost-base bump inside the TFSA has no tax value</td>
+            </tr>
+            <tr>
+                <td>You buy it back on February 1, 2027</td>
+                <td>No</td>
+                <td>The loss stands</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>If your sale settles on a different day, recount 30 calendar days on each side of that day, and leave a day of margin at both ends.</p>
+
+    <h2>Is a different ETF on the same index identical property?</h2>
+
+    <p>Often, yes. Identical properties are properties that are the same in all material respects, so a buyer would have no preference for one over the other. The same ETF is identical. A second manufacturer's fund that tracks the same index can be identical too. A new ticker does not save you. The CRA has not published a safe list of ETF pairs. Treat "same index, different brand" as the same property unless you have advice on that loss.</p>
 
     <table>
         <thead>
@@ -1162,12 +1253,12 @@ export const posts: BlogPostRecord[] = [
 
     <div class="tip-box">
         <strong>Buy the replacement the same day if you want to stay invested:</strong>
-        <p>You do not have to sit in cash for 31 days. You have to avoid the identical property for the window. Sell the loser in the non-registered account and buy the similar fund the same day. Turn off the DRIP on the old ticker. A drip is an acquisition. So is a contribution that rebuys it in a TFSA in January because that is where new money usually goes.</p>
+        <p>You do not have to sit in cash for 31 days. You have to avoid the identical property for the window. Sell the loser in the non-registered account and buy the similar fund the same day. Turn off the DRIP on the old ticker. A DRIP purchase is an acquisition. So is a January TFSA contribution that buys the old ticker because that is where new money usually goes.</p>
     </div>
 
-    <h2>The calendar</h2>
+    <h2>What does the tax-loss harvesting calendar look like?</h2>
 
-    <p>Settlement matters. For listed securities the disposition date is generally the settlement date, not the moment you click sell. Canadian equities now typically settle on the next business day, but exchange holidays move it. A trade in the last days of December can settle in January and land in the wrong year. Ask the broker which year the settlement falls in. Do not reuse a cutoff date you remember from a different December.</p>
+    <p>Settlement matters. For listed securities the sale counts in the year it settles, not the moment you click sell. Use this sequence each year, with the 2026 dates above.</p>
 
     <table>
         <thead>
@@ -1179,7 +1270,7 @@ export const posts: BlogPostRecord[] = [
         <tbody>
             <tr>
                 <td>January</td>
-                <td>Fund the TFSA and RRSP on purpose before you go looking for losses. A harvest in non-registered while registered room sits empty is the wrong order. Record the adjusted cost base of the taxable account. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the system. If a December sale's 30-day window is still open, do not rebuy that ticker with the January contribution.</td>
+                <td>Fund the TFSA and RRSP on purpose before you go looking for losses. Record the adjusted cost base of the taxable account. The <a href="/blog/tax-record-keeping/">record-keeping guide</a> is the system. If a December sale's 30-day window is still open, do not rebuy that ticker with the January contribution.</td>
             </tr>
             <tr>
                 <td>When T3 and T5 slips arrive</td>
@@ -1187,7 +1278,7 @@ export const posts: BlogPostRecord[] = [
             </tr>
             <tr>
                 <td>With the tax return</td>
-                <td>If you have a net capital loss and you had taxable capital gains in any of the three prior years, file Form T1A. Confirm the current form instructions for timing.</td>
+                <td>If you have a net capital loss and you had taxable capital gains in any of the three prior years, complete Part 5 of Form T1A and file it with the return.</td>
             </tr>
             <tr>
                 <td>Summer</td>
@@ -1199,43 +1290,72 @@ export const posts: BlogPostRecord[] = [
             </tr>
             <tr>
                 <td>November</td>
-                <td>Read the issuers' year-end distribution estimates. A reinvested capital gain is taxable in a non-registered account and it changes your cost base. Choose substitutes that keep the allocation. Tell your spouse which tickers are off limits, in every account, until a date you both write down.</td>
+                <td>Read the issuers' year-end distribution estimates. A reinvested capital gain is taxable in a non-registered account and it changes your cost base. Choose substitutes that keep the allocation. Pause automatic purchases of any fund you plan to sell. Tell your spouse which tickers are off limits, in every account, until a date you both write down.</td>
             </tr>
             <tr>
-                <td>Early December</td>
+                <td>Early December (by December 30, 2026 at the latest)</td>
                 <td>Place the trade early enough that settlement falls in this calendar year. Buy the replacement the same day. Turn DRIPs off on the old ticker. Do not contribute the shares in kind to a TFSA.</td>
             </tr>
             <tr>
-                <td>The following 30 days</td>
-                <td>Nobody affiliated buys the identical property. If you want the original ticker back, the first eligible day is after that window, and only if nobody still holds a substitute that keeps the rule alive. Diary it.</td>
+                <td>The following 30 days (to January 30, 2027 for a December 31 settlement)</td>
+                <td>Nobody affiliated buys the identical property. If you want the original ticker back, the first eligible day is after that window. Diary it.</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>Spouse accounts, without the folklore</h2>
+    <h2>Can my spouse buy what I sold?</h2>
 
-    <p>You and your spouse can each realize losses on property you each own. You cannot sell in one name and have the other buy the same ETF inside the window. You cannot park the replacement in a spousal TFSA and call it a different person. Coordinate in one conversation: who is selling, what the replacement is, and the date the original ticker is allowed again. If both of you hold the same fund in non-registered accounts and only one of you sells, the other's later DRIP can still deny the loss.</p>
+    <p>Not inside the window. You and your spouse can each realize losses on property you each own. You cannot sell in one name and have the other buy the same ETF inside the window. You cannot park the replacement in a spousal TFSA and call it a different person. Coordinate in one conversation: who is selling, what the replacement is, and the date the original ticker is allowed again. If both of you hold the same fund in non-registered accounts and only one of you sells, the other's DRIP can still deny the loss.</p>
 
     <p>Attribution is a separate rule. Harvesting does not authorize shifting the investment into the lower-income spouse's name. A gift of capital that the other spouse invests personally is usually attributed back. The line between a TFSA gift, which is fine, and a taxable gift, which is not, is the <a href="/blog/income-splitting-strategies-couples/">couples guide</a>.</p>
 
     <div class="example-box">
         <strong>Illustration: a December swap that keeps the mix</strong>
-        <p>You realized $12,000 of capital gains earlier in the year in a non-registered account. A broad Canadian equity ETF in that same account is $9,000 below its average cost base. You sell it on a day your broker confirms will settle in December, and the same day you buy a different Canadian equity ETF that does not track the identical index. You turn the old DRIP off. Your spouse does not buy the old ticker in a TFSA with the January contribution. The $9,000 loss reduces the year's gain. The household still holds Canadian equity. If the two funds were in fact identical, the loss is denied. That is why a large dollar loss gets a human review before the click. The figures are a teaching example, not a target.</p>
+        <p>You realized $12,000 of capital gains earlier in 2026 in a non-registered account. A broad Canadian equity ETF in that same account is $9,000 below its adjusted cost base. You sell it on a day your broker confirms will settle in December, and the same day you buy a different Canadian equity ETF that does not track the identical index. You turn the old DRIP off. Your spouse does not buy the old ticker in a TFSA with the January contribution. The $9,000 loss cuts the year's gain to $3,000, so the taxable capital gain falls from $6,000 to $1,500. The household still holds Canadian equity. If the two funds were in fact identical, the loss is denied. That is why a large dollar loss gets a human review before the click. The figures are a teaching example, not a target.</p>
     </div>
 
-    <h2>How this meets rebalancing</h2>
+    <h2>How does tax-loss harvesting fit with rebalancing?</h2>
 
-    <p>A loss harvest and a rebalance can be the same trade when the overweight sleeve is also the one with the loss, and the sale is in the taxable account. They fight each other when you sell at a loss and then buy the same fund inside the TFSA because the TFSA was the account you were "topping up." Do the taxable sale, buy the <em>replacement</em> if the sleeve should stay full, and send new TFSA money somewhere that is not the old ticker. The order of accounts is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>.</p>
+    <p>A loss harvest and a rebalance can be the same trade when the overweight sleeve is also the one with the loss, and the sale is in the taxable account. They fight each other when you sell at a loss and then buy the same fund inside the TFSA because the TFSA was the account you were "topping up." Do the taxable sale, buy the <em>replacement</em> if the sleeve should stay full, and send new TFSA money somewhere that is not the old ticker. The order of accounts is <a href="/blog/rebalancing-without-tax-events-canada/">rebalancing without junk tax events</a>. The number you are protecting is the <a href="/blog/adjusted-cost-base-canada-guide/">adjusted cost base</a>, and the year-end list is the <a href="/blog/year-end-tax-checklist/">year-end tax checklist</a>.</p>
 
     <h2>Key takeaways</h2>
 
     <ul>
+        <li><strong>For 2026, place the sale by Wednesday, December 30.</strong> It settles December 31. A December 31 trade settles January 4, 2027.</li>
         <li><strong>Losses offset capital gains only,</strong> this year, back three years on Form T1A, or forward. Not salary.</li>
         <li><strong>The window is 30 days before and 30 days after,</strong> and someone affiliated must still hold the identical property at the end of it.</li>
-        <li><strong>Spouse accounts and TFSA, RRSP, FHSA, and RESP purchases count.</strong></li>
+        <li><strong>Spouse accounts and TFSA, RRSP, FHSA, and RESP purchases count.</strong> A January TFSA buy of the same fund can erase a December loss.</li>
         <li><strong>Same index, different brand, is not a safe substitute.</strong> Change something material, and confirm large losses.</li>
-        <li><strong>Settlement date is the year of the loss.</strong> Do not trust a remembered December cutoff.</li>
         <li><strong>Keep the allocation.</strong> A harvest that dumps you into a different country is a new bet.</li>
+    </ul>
+
+    <h2 id="faq">Frequently asked questions</h2>
+
+    <h3>What is the last day for tax-loss selling in 2026?</h3>
+    <p>Wednesday, December 30, 2026, for TSX stocks and ETFs. That trade settles on Thursday, December 31. A trade on December 31 settles on January 4, 2027, so the loss belongs to 2027.</p>
+
+    <h3>Can I buy the stock back in my TFSA?</h3>
+    <p>Not within 30 days before or after the sale. Your TFSA counts as you for the superficial loss rule. If it buys the identical property inside the window and still holds it 30 days after the sale, the loss is denied and the cost-base bump inside the TFSA has no tax value.</p>
+
+    <h3>How far back can I carry a capital loss in Canada?</h3>
+    <p>Three years. A 2026 net capital loss can reduce taxable capital gains in 2023, 2024 or 2025. You request it on Part 5 of Form T1A with your 2026 return. Unused losses carry forward indefinitely.</p>
+
+    <h3>Can a capital loss reduce my salary or dividend income?</h3>
+    <p>No. In Canada, capital losses offset only capital gains, in the current year, the three previous years, or later years.</p>
+
+    <h3>Does the superficial loss rule apply to my spouse?</h3>
+    <p>Yes. Your spouse or common-law partner is an affiliated person, so their purchase of the identical property inside the window, in any of their accounts, can deny your loss.</p>
+
+    <h3>Do I have to wait 30 days to reinvest?</h3>
+    <p>No. You can buy a replacement that is not identical property the same day. You only have to avoid the identical property for the window.</p>
+
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html">CRA: Capital losses and deductions (superficial loss, carryback, Form T1A)</a>, reviewed November 10, 2026</li>
+        <li><a href="https://www.tsx.com/en/resource/3407/">TMX: Settlement schedule for 2026</a>, reviewed November 10, 2026</li>
+        <li><a href="https://www.osc.ca/en/news-events/news/canadian-securities-regulators-announce-move-t1-settlement-cycle">Canadian Securities Administrators (via OSC): move to T+1 settlement, May 27, 2024</a>, reviewed November 10, 2026</li>
+        <li><a href="https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase">Prime Minister of Canada: proposed capital gains inclusion rate increase cancelled, March 21, 2025</a>, reviewed November 10, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/it387r2-consolid/archived-meaning-identical-properties.html">CRA: Meaning of identical properties (IT-387R2, archived)</a>, reviewed November 10, 2026</li>
     </ul>
 
     <div class="cta-section">
@@ -1245,11 +1365,12 @@ export const posts: BlogPostRecord[] = [
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about capital losses and the superficial-loss rule for Canadian individuals. It is not tax, legal, or investment advice. The rule is statutory, the identical-property test is factual, and settlement calendars change. Examples are illustrations, not instructions for a particular holding. Confirm with a tax professional before you realize a large loss or involve a spouse or a corporation.</p>
-        <div class="footer-note">Published: September 21, 2026 | Category: Investing | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about capital losses and the superficial loss rule for Canadian individuals. It is not tax, legal, or investment advice. The rule is statutory, the identical-property test is factual, and settlement calendars change. Examples are illustrations, not instructions for a particular holding. Figures and dates were checked November 10, 2026. Confirm with a tax professional before you realize a large loss or involve a spouse or a corporation.</p>
+        <div class="footer-note">Published: September 21, 2026 | Updated: November 10, 2026 | Category: Investing | Author: Andrew</div>
     </div>
 
-</div>`
+</div>
+`
   },
 
   {
