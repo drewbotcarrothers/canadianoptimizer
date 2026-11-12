@@ -27,7 +27,7 @@ export function commonFaqs(slug: ProductSlug, formats: string, pages: string): E
     {
       question: 'How do I get it after I pay?',
       answer: onSale
-        ? 'Checkout is handled by Stripe. After you pay, you are sent to a download page with your files, and Stripe emails your receipt. If anything goes wrong, contact us and we will send the files.'
+        ? 'Checkout is handled by Stripe. Right after you pay, the confirmation page shows your download link, and Stripe emails your receipt. If anything goes wrong, contact us and we will send the files.'
         : 'This book is not on sale yet. When it is, checkout will be handled by Stripe and you will be sent to a download page with your files right after you pay.',
     },
     {
@@ -84,7 +84,7 @@ export function GuaranteeStrip({ freeUpdate }: { freeUpdate?: string }) {
     <ul className="grid gap-4 text-sm text-gray-700 sm:grid-cols-3">
       <li className="rounded-xl bg-white p-4 shadow-sm">
         <strong className="block text-charcoal">Instant download</strong>
-        Secure checkout through Stripe, then straight to your download page.
+        Secure checkout through Stripe; your download link appears as soon as you pay.
       </li>
       <li className="rounded-xl bg-white p-4 shadow-sm">
         <strong className="block text-charcoal">{REFUND_DAYS}-day refund</strong>
