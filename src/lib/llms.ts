@@ -1,5 +1,6 @@
 import { posts } from '@/data/posts';
 import { CATEGORIES, SITE_URL } from '@/lib/site';
+import { ALL_PRODUCTS, formatPrice } from '@/data/ebooks';
 
 const KEY_POSTS = [
   'how-canadian-taxes-work',
@@ -108,7 +109,7 @@ ${subcategoryLines.join('\n')}
 - [About Andrew](${SITE_URL}/about/)
 - [All articles](${SITE_URL}/blog/)
 - [Ebooks](${SITE_URL}/ebooks/)
-- [Tax guide](${SITE_URL}/ebooks/tax-guide/)
+${ALL_PRODUCTS.map((p) => `- [${p.title}](${SITE_URL}/ebooks/${p.slug}/): ${formatPrice(p.slug)}, ${p.kind === 'bundle' ? '3 PDFs' : 'PDF'}`).join('\n')}
 - [Advertising disclosure](${SITE_URL}/disclosure/)
 - [Disclaimer](${SITE_URL}/disclaimer/)
 

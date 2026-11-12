@@ -12,6 +12,8 @@ import RewardsCalculator from '@/components/tools/RewardsCalculator';
 import RetirementCalculator from '@/components/tools/RetirementCalculator';
 import RentVsBuyCalculator from '@/components/tools/RentVsBuyCalculator';
 import MortgagePrepaymentCalculator from '@/components/tools/MortgagePrepaymentCalculator';
+import EbookCTA from '@/components/ebooks/EbookCTA';
+import { ebookForPost, type ProductSlug } from '@/data/ebooks';
 import { posts } from '@/data/posts';
 import { getPostVideo, videoObjectSchema, type PostVideo } from '@/lib/post-video';
 import {
@@ -39,6 +41,8 @@ const CALCULATOR_MARKERS = [
 ] as const;
 
 const VIDEO_MARKER = '<div id="post-video-embed"></div>';
+/** Optional: put this marker in a post's HTML to show the compact ebook box at that spot. */
+const EBOOK_MARKER = '<div id="ebook-cta"></div>';
 
 /**
  * Places the video marker right after the hook (and the hero image that follows it).
@@ -70,10 +74,21 @@ function PostVideoSection({ video }: { video: PostVideo }) {
   );
 }
 
-function BlogBody({ content, video }: { content: string; video?: PostVideo | null }) {
+function BlogBody({
+  content,
+  video,
+  ebook,
+  postSlug,
+}: {
+  content: string;
+  video?: PostVideo | null;
+  ebook?: ProductSlug | null;
+  postSlug?: string;
+}) {
   const active = CALCULATOR_MARKERS.filter((tool) => content.includes(tool.marker));
   const hasVideo = Boolean(video && content.includes(VIDEO_MARKER));
-  if (active.length === 0 && !hasVideo) {
+  const hasEbook = content.includes(EBOOK_MARKER);
+  if (active.length === 0 && !hasVideo && !hasEbook) {
     return (
       <div className="blog-content-exact">
         <div className="container mx-auto py-8">
@@ -83,13 +98,25 @@ function BlogBody({ content, video }: { content: string; video?: PostVideo | nul
     );
   }
 
-  const markers = [...active.map((tool) => tool.marker), ...(hasVideo ? [VIDEO_MARKER] : [])];
+  const markers = [
+    ...active.map((tool) => tool.marker),
+    ...(hasVideo ? [VIDEO_MARKER] : []),
+    ...(hasEbook ? [EBOOK_MARKER] : []),
+  ];
   const pattern = new RegExp(`(${markers.map((marker) => marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`);
   const parts = content.split(pattern);
 
   return (
     <>
       {parts.map((part, index) => {
+        if (part === EBOOK_MARKER) {
+          if (!ebook) return null;
+          return (
+            <div key={`ebook-inline-${index}`} className="mx-auto w-full max-w-[800px] px-5">
+              <EbookCTA slug={ebook} variant="inline" context={postSlug ?? 'post'} />
+            </div>
+          );
+        }
         if (part === VIDEO_MARKER) {
           if (!video) return null;
           return (
@@ -224,6 +251,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     { label: post.title },
   ];
 
+  const ebook = ebookForPost(post.categorySlug, post.subcategory);
+
   const faq = extractFaq(post.content);
   const howTo = extractHowTo(post.content);
   const videoSchema = video ? videoObjectSchema(post, video) : null;
@@ -278,7 +307,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           </header>
 
-          <BlogBody content={contentWithImage} video={video} />
+          <BlogBody content={contentWithImage} video={video} ebook={ebook} postSlug={post.slug} />
+
+          {ebook ? <EbookCTA slug={ebook} variant="end" context={post.slug} /> : null}
 
           <div className="mx-auto w-full max-w-[800px] px-5 pb-8">
             <AffiliateDisclosure />
@@ -332,6 +363,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+          {ebook ? <EbookCTA slug={ebook} variant="end" context={post.slug} /> : null}
           <div className="mt-10">
             <AffiliateDisclosure />
           </div>
