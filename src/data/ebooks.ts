@@ -63,7 +63,7 @@ export const PRICES_CAD: Record<ProductSlug, number> = {
 
 /** Refund window promised on every sales page (confirmed by Andrew, Nov 12, 2026). */
 export const REFUND_DAYS = 30;
-export const SUPPORT_PATH = '/contact/';
+export const SUPPORT_EMAIL = 'contact@canadianoptimizer.com';
 
 export type EbookPart = { name: string; chapters: string[] };
 export type EbookFaq = { question: string; answer: string };
