@@ -1324,62 +1324,80 @@ export const insuranceClusterPosts: InsurancePost[] = [
     ...insurancePost(
       'lower-car-insurance-canada',
       'How to Lower Your Car Insurance in Canada',
-      'Lower the premium by comparing the same liability limit and deductibles, and by dropping coverage you have replaced on purpose. This page does not publish a percent off.',
+      "Compare quotes at the same limits and benefits, then use discounts Ontario's regulator lists (5-20%). Since July 2026, a cheaper Ontario quote can drop income replacement.",
       `<div class="container">
 
     <div class="hook">
-        You lower car insurance in Canada by comparing quotes at the <span class="highlight">same liability limit and the same deductibles</span>, in the province where the car is plated, and by removing only the coverage you have deliberately replaced. A provincial average premium is not a target. This page does not publish one, and it does not publish a percent you will save.
+        You lower car insurance in Canada by comparing quotes at the <span class="highlight">same liability limit, the same deductibles and the same accident benefits</span>, in the province where the car is plated, and then using the discounts and facts you control. In Ontario, the regulator's own list puts multi-policy and multi-vehicle discounts at 5 to 15 percent and renewal discounts at 5 to 20 percent. Since July 1, 2026, a cheaper Ontario quote can also be a thinner policy, because most accident benefits are now optional.
     </div>
 
-    <p>The map of who even sells the mandatory policy is <a href="/blog/car-insurance-by-province-canada/">car insurance by province</a>. The order of the household's other policies is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>. Income you still need if you are injured is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>, not an optional auto benefit you declined to save premium. The home policy you might bundle is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant coverage</a>.</p>
+    <p>The map of who even sells the mandatory policy is <a href="/blog/car-insurance-by-province-canada/">car insurance by province</a>. More insurance guides are in the <a href="/category/insurance/">Insurance hub</a>. The order of the household's other policies is the <a href="/blog/canadian-insurance-planning-guide/">insurance planning guide</a>. Income you still need if you are injured is <a href="/blog/disability-insurance-canada-guide/">disability insurance</a>, not an optional auto benefit you declined to save premium. The home policy you might bundle is <a href="/blog/home-tenant-insurance-coverage-gaps-canada/">home and tenant coverage</a>.</p>
 
     <div class="callout">
-        <strong>Key takeaways:</strong>
+        <strong>Key takeaways (checked November 11, 2026):</strong>
         <ul>
-            <li>British Columbia, Saskatchewan, and Manitoba require the basic policy from the public insurer. Quebec splits bodily injury (SAAQ) from property damage (private). The other provinces and the territories use private insurers for the mandatory policy. You cannot "shop the market" in a province that does not have one.</li>
-            <li>Compare two quotes only after the liability limit, the deductibles, and the drivers are the same. A lower price with a lower limit is a different product.</li>
-            <li>In Ontario, FSRA says that on policies bought on or after July 1, 2026, medical, rehabilitation, and attendant care stay mandatory, and other accident benefits, including income replacement, are optional. Declining a benefit can change the premium. It also opens a gap.</li>
-            <li>Ask the insurer about winter tires, kilometres, occasional drivers, and usage-based programs. Do not budget a discount this page did not read on an insurer's schedule.</li>
-            <li>A legal minimum, including the $200,000 third-party liability floor described for several provinces on the province page, is a poor personal limit if a claim can exceed it. You pay the excess.</li>
+            <li>British Columbia, Saskatchewan, and Manitoba require the basic policy from the public insurer. Quebec splits bodily injury (SAAQ) from property damage (private). The other provinces and the territories use private insurers for the mandatory policy. You cannot "shop the market" for a basic policy in a province that does not have one.</li>
+            <li>Compare two quotes only after the liability limit, the deductibles, the drivers, and (in Ontario) the accident benefits are the same. A lower price with less coverage is a different product.</li>
+            <li>In Ontario, FSRA says that on policies bought or renewed on or after July 1, 2026, only medical, rehabilitation, and attendant care benefits stay mandatory. Income replacement, caregiver, housekeeping, death and funeral, and the other benefits are optional. Existing policies renew with the same coverage unless you agree in writing to change it.</li>
+            <li>FSRA's coverage page lists the standard income replacement benefit as 70 percent of gross income up to $400 a week, with options to raise the weekly limit to $600, $800, or $1,000. On a $70,000 salary, $400 a week is about 30 percent of gross pay.</li>
+            <li>Every Ontario insurer must offer a winter-tire discount on private passenger policies (a rule in force since January 1, 2016). The regulation does not set the amount, so ask yours.</li>
+            <li>Ontario's legal minimum third-party liability is $200,000. FSRA itself suggests considering $1 million or $2 million, because damages above your limit are yours to pay.</li>
         </ul>
     </div>
 
     <h2>What can you change without changing the protection?</h2>
 
+    <p>Most of the honest savings are discounts you have to ask for and facts on the application you have to correct. In Ontario, the regulator publishes the ranges.</p>
+
     <table>
-        <caption>Levers on a Canadian auto premium, and the evidence this page will cite, as of October 2026</caption>
+        <caption>Levers on a Canadian auto premium, and the evidence this page cites, as of November 11, 2026</caption>
         <thead>
             <tr>
                 <th>Lever</th>
-                <th>What it can do</th>
+                <th>What the source says</th>
                 <th>What not to assume</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Shop the same policy</td>
-                <td>In a private-market province, two insurers can price the same limit differently. FCAC says to shop around and compare coverage and cost.</td>
+                <td>FCAC: shop around, get quotes and compare coverage and cost. FSRA: do not assume companies charge the same price for the same benefits, and the cheapest insurer last year may not be the cheapest now.</td>
                 <td>That shopping exists inside ICBC, SGI, or MPI basic insurance. Optional coverages in those provinces can still be private. The province page separates them.</td>
             </tr>
             <tr>
+                <td>Multi-policy (home + auto)</td>
+                <td>FSRA (Ontario): "can range from 5 to 15 percent." FCAC also notes bundling discounts.</td>
+                <td>That a bundle is cheaper than two separate policies at the same coverage. Ask for both numbers.</td>
+            </tr>
+            <tr>
+                <td>Multi-vehicle</td>
+                <td>FSRA (Ontario): "can range from 5 to 15 percent."</td>
+                <td>That the top of the range is yours. The percent on your quote is the only one that counts.</td>
+            </tr>
+            <tr>
+                <td>Renewal / loyalty</td>
+                <td>FSRA (Ontario): 5 to 20 percent for years with the same company without an at-fault accident.</td>
+                <td>That loyalty beats shopping. Compare the renewal against a second quote at the same coverage.</td>
+            </tr>
+            <tr>
+                <td>Winter tires (Ontario)</td>
+                <td>All Ontario insurers must offer a discount for private passenger vehicles with winter tires (O. Reg. 664 as amended by O. Reg. 222/15, from January 1, 2016).</td>
+                <td>A set amount. The insurer sets the discount and the proof it needs.</td>
+            </tr>
+            <tr>
+                <td>Graduated licence (Ontario)</td>
+                <td>FSRA: a 10 percent reduction for one year on reaching G2, and again on reaching a full G, with no chargeable convictions or at-fault accidents.</td>
+                <td>That it lasts. Each reduction applies for one year.</td>
+            </tr>
+            <tr>
                 <td>Deductible</td>
-                <td>A higher deductible usually lowers the premium, because you pay more of a small claim yourself.</td>
+                <td>FSRA: raising deductibles can mean a lower premium, because you pay more of a loss.</td>
                 <td>A dollar saving. The quote is the saving. If you cannot pay the deductible from cash, you did not buy a deductible. You bought a problem.</td>
             </tr>
             <tr>
-                <td>Liability limit</td>
-                <td>Raising it costs something. Leaving it at the legal minimum can cost the excess over the limit if a claim is larger.</td>
-                <td>That $200,000 is "enough" because it is a floor in several jurisdictions. The province page's illustration is the arithmetic, not a required amount.</td>
-            </tr>
-            <tr>
-                <td>Optional accident benefits, Ontario</td>
-                <td>FSRA says income replacement and other benefits became optional on new policies from July 1, 2026. Medical, rehabilitation, and attendant care stayed mandatory.</td>
-                <td>That declining income replacement is free money. Replace the income with a disability policy you have read, or keep the benefit.</td>
-            </tr>
-            <tr>
-                <td>Kilometres, drivers, and the car</td>
-                <td>Insurers ask how far you drive, who else drives, and what the vehicle is. Fewer kilometres and fewer occasional drivers are facts you can correct if the application is wrong.</td>
-                <td>A national discount for winter tires, alumni memberships, or bundling. Ask your insurer. If the percent is not on the quote, it is not yours.</td>
+                <td>Kilometres, use and drivers</td>
+                <td>FSRA and FCAC: premiums depend on use and distance. Teleworking or retiring can lower them. Tell the insurer about changes.</td>
+                <td>That an outdated commute on the application is harmless. A wrong answer is a misrepresentation, not a discount.</td>
             </tr>
             <tr>
                 <td>Tickets and at-fault claims</td>
@@ -1389,85 +1407,153 @@ export const insuranceClusterPosts: InsurancePost[] = [
         </tbody>
     </table>
 
-    <p>Table as of October 2026. Structure of the mandatory market: the province-by-province guide and the insurer and regulator pages it cites. Shopping instruction: FCAC's getting-an-insurance-policy page. Ontario benefits: FSRA's July 1, 2026 accident-benefits page. No cell in this table is a promised reduction.</p>
+    <p>Table as of November 11, 2026. Ontario percentages: FSRA's "How to save on auto insurance" page. Winter tires: Ontario Regulation 222/15. Shopping instruction: FCAC's getting-an-insurance-policy page. No cell in this table is a promised reduction outside the source it names.</p>
+
+    <h2>How does Ontario's July 1, 2026 change affect the price you see?</h2>
+
+    <p>A lower Ontario quote can now mean fewer benefits. FSRA says that from July 1, 2026, medical, rehabilitation, and attendant care benefits stay in every policy, and the other accident benefits become optional.</p>
+
+    <table>
+        <caption>Ontario accident benefits after July 1, 2026 (FSRA)</caption>
+        <thead>
+            <tr>
+                <th>Benefit</th>
+                <th>Status</th>
+                <th>Standard limit FSRA lists</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Medical, rehabilitation and attendant care (non-catastrophic)</td>
+                <td>Mandatory</td>
+                <td>$65,000 combined; options to $130,000 or $1,000,000</td>
+            </tr>
+            <tr>
+                <td>Medical, rehabilitation and attendant care (catastrophic)</td>
+                <td>Mandatory</td>
+                <td>$1,000,000; option to $2,000,000</td>
+            </tr>
+            <tr>
+                <td>Income replacement</td>
+                <td>Optional</td>
+                <td>70% of gross income up to $400 a week; options to $600, $800 or $1,000 a week</td>
+            </tr>
+            <tr>
+                <td>Non-earner, caregiver, housekeeping and home maintenance, death, funeral, visitors, lost education, damaged personal items, dependant care, indexation</td>
+                <td>Optional</td>
+                <td>FSRA's fact sheet: available limits vary by insurer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Sources: FSRA's July 1, 2026 accident-benefits page, its 2026 consumer fact sheet, and its "Customize your liability and accident benefits coverage" page, which summarizes O. Reg. 34/10. FSRA also says that if you are an existing customer, your policy renews with the same coverage and limits unless you agree in writing to decline or change benefits, and that optional benefits now cover only the named insured, their spouse, their dependants, and listed drivers.</p>
+
+    <div class="example-box">
+        <strong>Example: what $400 a week replaces (illustrative)</strong>
+        <p>A driver earns $70,000 a year, about $1,346 a week before tax. Seventy percent of that is about $942, but the standard income replacement benefit stops at $400 a week. So the benefit replaces about 30 percent of gross pay. At $50,000 a year (about $962 a week), 70 percent is about $673, and the $400 cap still applies, about 42 percent of gross. Removing the benefit to save premium removes even that. Check your workplace disability coverage first, as FSRA suggests. The salaries are teaching numbers, not statistics.</p>
+    </div>
 
     <h2>Where does the province stop you from shopping?</h2>
 
-    <p>The province guide's table, built from ICBC, MPI, SAAQ, FSRA, Alberta's intentions paper, and the Insurance Bureau of Canada, is the constraint. In British Columbia the basic policy is ICBC. In Saskatchewan it is SGI. In Manitoba it is MPI. You can still choose optional physical damage and, in some of those systems, a higher liability limit. You cannot collect three "basic" quotes that do not exist. In Quebec, bodily injury is the public plan and property damage is private, with a liability floor the SAAQ describes. In Alberta, Ontario, the Atlantic provinces, and the territories, the mandatory policy is private, and shopping is the actual lever.</p>
+    <p>The province guide's table, built from ICBC, MPI, SAAQ, FSRA, Alberta's intentions paper, and the Insurance Bureau of Canada, is the constraint. In British Columbia the basic policy is ICBC. In Saskatchewan it is SGI. In Manitoba it is MPI. You can still choose optional physical damage and, in some of those systems, a higher liability limit. You cannot collect three "basic" quotes that do not exist. In Quebec, bodily injury is the public plan and property damage is private. In Alberta, Ontario, the Atlantic provinces, and the territories, the mandatory policy is private, and shopping is the actual lever.</p>
+
+    <p><strong>Alberta in 2026 and 2027:</strong> the Alberta government says good-driver rate increases are capped at 7.5 percent in 2026 for drivers who qualify. On January 1, 2027, its Care-First system begins for accidents on or after that date, and the province describes a new adjusted rate cap: average rate increases of no more than 5 percent, and premiums for average drivers capped at a 10 percent increase at renewal. A new at-fault accident, a new conviction, adding a driver, changing vehicles, or adjusting your coverage can end that protection, so check before you change a policy at renewal.</p>
 
     <div class="example-box">
-        <strong>Illustration: a lower quote that is not lower coverage</strong>
-        <p>A driver in a private-market province has a renewal at a $1,000,000 liability limit and a $500 collision deductible. A second insurer offers a lower premium at $200,000 liability and a $1,000 deductible. The second quote is not a discount on the first policy. It is less coverage. Ask the second insurer to rerun $1,000,000 and $500. Then compare. The dollar gap, if one remains, is the saving. The $1,000,000 and the deductibles are a teaching pair, not a recommendation and not a statistic about what Canadians buy. Alberta's intentions paper, cited on the province page, describes many drivers choosing $1,000,000 or $2,000,000. That is behaviour the government described, not your price.</p>
+        <strong>Example: a lower quote that is not lower coverage</strong>
+        <p>A driver in a private-market province has a renewal at a $1,000,000 liability limit and a $500 collision deductible. A second insurer offers a lower premium at $200,000 liability and a $1,000 deductible. The second quote is not a discount on the first policy. It is less coverage. Ask the second insurer to rerun $1,000,000 and $500, with the same accident benefits. Then compare. The dollar gap, if one remains, is the saving. These are teaching numbers, not a recommendation and not a statistic about what Canadians buy.</p>
     </div>
+
+    <h2>When does a higher deductible pay for itself?</h2>
+
+    <p>Divide the extra amount you would pay in a claim by the yearly premium saving. That is the number of claim-free years it takes to break even.</p>
+
+    <div class="example-box">
+        <strong>Example: deductible break-even (illustrative)</strong>
+        <p>Raising a collision deductible from $500 to $1,000 adds $500 to what you pay in one claim. If the quote shows the change saves $100 a year, break-even is five claim-free years. If it saves $50 a year, it is ten. The $100 and $50 are placeholders. Use the two numbers on your own quotes, and keep the higher deductible in cash, ideally in your <a href="/blog/emergency-fund-heloc-investments-canada/">emergency fund</a>.</p>
+    </div>
+
+    <p>FSRA adds one more rule of thumb: optional collision or comprehensive may not be cost-effective on a vehicle worth less than $2,000, because a claim would not substantially exceed the deductible. Check any loan or lease first, because the lender may require the coverage.</p>
 
     <h2>What should you not cancel to save the renewal?</h2>
 
     <ul>
-        <li><strong>Income replacement, if you have no other disability pay.</strong> Ontario's July 1, 2026 change made it optional on new policies. FSRA's consumer fact sheet, as described on the province page, says to check workplace and private benefits before you remove an auto benefit. The disability guide is the personal contract. EI sickness and CPP disability are ceilings for people who qualify. They are not an own-occupation plan.</li>
+        <li><strong>Income replacement, if you have no other disability pay.</strong> Ontario's July 1, 2026 change made it optional. FSRA says to check workplace and personal benefits before you remove an auto benefit. The <a href="/blog/disability-insurance-canada-guide/">disability guide</a> is the personal contract. EI sickness and CPP disability are ceilings for people who qualify. They are not an own-occupation plan.</li>
         <li><strong>Collision on a financed or leased car</strong> if the loan requires it. That requirement is the lender's. The province's mandatory layer often does not repair your own car when you are at fault.</li>
-        <li><strong>The liability limit, to the legal floor,</strong> because a claim above the floor is yours. The province page walks through that arithmetic without pretending the judgment is a national statistic.</li>
+        <li><strong>The liability limit, to the legal floor.</strong> Ontario's minimum is $200,000, and FSRA describes raising it to $1 million or $2 million so that damages above $200,000 do not come out of your pocket.</li>
+        <li><strong>Direct Compensation - Property Damage (Ontario), without advice.</strong> FSRA says that since January 2024 you may elect not to claim DCPD, and that opting out may not be the best option for you. Ask before you decline it.</li>
     </ul>
 
     <div class="warning-box">
         <strong>Credit information is a provincial rule, not a blog rule:</strong>
-        <p>FCAC's "how insurance works" page says the Insurance Bureau of Canada provides guidelines, and that insurers may choose to use your credit information. It does not, on the page reviewed, print a province-by-province ban or permission. Ask the insurer and the provincial regulator whether credit is used on your file. This page will not tell you that fixing a score will cut the premium by a stated percent. It will not tell you the practice is illegal in a province it has not read a statute for.</p>
+        <p>FCAC lists credit history among the information insurers may use when deciding to sell a policy, and says you may get a discount for a good credit score or an online application. It does not print a province-by-province ban or permission. Ask the insurer and the provincial regulator whether credit is used on your file. This page will not tell you that fixing a score cuts the premium by a stated percent.</p>
     </div>
 
-    <h2>A renewal checklist</h2>
+    <h2>What is the renewal checklist?</h2>
 
     <ol>
-        <li>Read the declaration. Write down the liability limit, the deductibles, the drivers, and the annual kilometres the insurer thinks you drive.</li>
-        <li>Correct the kilometres and the occasional drivers if they are wrong. Those are facts, not negotiating lines.</li>
-        <li>In a private market, get a second quote at those same limits. In a public basic market, ask what optional coverage is available and from whom.</li>
-        <li>If you are in Ontario and the policy is new or you are being asked to sign away an accident benefit, read the FSRA page dated July 1, 2026 before you sign.</li>
-        <li>Ask, in writing, which discounts the insurer actually applies: winter tires, bundling, alumni, usage-based. Accept only the ones on the new declaration.</li>
-        <li>Put the premium you kept into the same folder as the disability policy. A cheaper auto policy that leaves your income uninsured was not a saving.</li>
+        <li>Read the declaration. Write down the liability limit, the deductibles, the drivers, the annual kilometres the insurer thinks you drive, and, in Ontario, which accident benefits are on it.</li>
+        <li>Correct the kilometres, the use (commute or pleasure), and the occasional drivers if they are wrong. Those are facts, not negotiating lines.</li>
+        <li>Ask, in writing, which discounts the insurer applies: winter tires, multi-policy, multi-vehicle, renewal, group, mature driver, driver training. Accept only the ones on the new declaration.</li>
+        <li>In a private market, get a second quote at those same limits and benefits. In a public basic market, ask what optional coverage is available and from whom.</li>
+        <li>Run the deductible break-even on the two quotes. Raise it only if you hold that amount in cash.</li>
+        <li>In Ontario, before you sign away an accident benefit, read FSRA's July 1, 2026 fact sheet and check your workplace disability coverage. In Alberta, check whether a coverage change would end your rate-cap protection.</li>
+        <li>Switch at renewal, not mid-term, to avoid cancellation penalties (FSRA and FCAC both warn about them).</li>
     </ol>
 
     <h2>Frequently asked questions</h2>
 
-    <h3>What is a realistic discount?</h3>
-    <p>The one on the quote you accept, at the same limits. This page does not average Canadian premiums and does not publish "save 20 percent" or any other figure. Insurer pages that advertise a winter-tire or bundling percent are the source for that percent, and only for that insurer, in that province, on that date.</p>
+    <h3>What is a realistic car insurance discount in Canada?</h3>
+    <p>The one on the quote you accept, at the same limits. In Ontario, FSRA publishes ranges: 5 to 15 percent for multi-policy, 5 to 15 percent for multi-vehicle, and 5 to 20 percent for renewal discounts. Those are ranges some insurers offer, not a promise, and they come from Ontario's regulator, not a national rule.</p>
 
     <h3>Does bundling home and auto always help?</h3>
     <p>Only if the bundle price is lower than the two policies bought separately at the same coverage. Ask for both numbers. A bundle that drops a sewer-backup or liability feature on the home to make the auto look cheap is the home-insurance gaps page, not a win.</p>
 
     <h3>Will winter tires lower my premium?</h3>
-    <p>Some insurers say they consider them. This page did not retrieve a national amount. Ask yours, and keep the proof they ask for. Tires you do not actually install are not a discount. They are a misrepresentation.</p>
+    <p>In Ontario, every insurer must offer a winter-tire discount on private passenger vehicles, a rule in force since January 1, 2016. The amount and the proof are up to the insurer, so ask. Elsewhere, ask your insurer. Tires you do not actually install are not a discount. They are a misrepresentation.</p>
+
+    <h3>Should I drop income replacement in Ontario to save money?</h3>
+    <p>Only if other coverage replaces it. FSRA lists the standard benefit as 70 percent of gross income up to $400 a week, already well below most full-time pay. Check workplace and personal disability coverage first. Existing policies keep the benefit at renewal unless you agree in writing to remove it.</p>
 
     <h3>Can I lower the premium by dropping collision?</h3>
-    <p>Yes, if you can replace the car from cash and no lender requires the coverage. The premium falls because the insurer no longer pays for your own car in an at-fault crash. That is a real trade. It is a bad trade on a car you cannot replace, and it may breach a lease or a loan.</p>
+    <p>Yes, if you can replace the car from cash and no lender requires the coverage. FSRA notes optional collision or comprehensive may not be cost-effective on a vehicle worth less than $2,000. It is a bad trade on a car you cannot replace, and it may breach a lease or a loan.</p>
 
     <h3>Do public insurers let me compare companies?</h3>
     <p>Not for the basic policy in British Columbia, Saskatchewan, or Manitoba. Optional coverage can be a choice, including private insurers for some B.C. optional products, which ICBC's own pages describe. Quebec's property-damage policy is private. Start with the province page so you do not spend an evening requesting quotes the law will not sell you.</p>
 
     <h3>Does a ticket fall off if I switch insurers?</h3>
-    <p>No. The driving record is the record. A new insurer asks for it. Shopping does not delete a conviction. Time, and not collecting another one, is the lever. The application should match the record. A wrong answer is not a discount.</p>
+    <p>No. The driving record is the record. A new insurer asks for it. Shopping does not delete a conviction. Time, and not collecting another one, is the lever. The application should match the record.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/get-insurance.html">FCAC: shop around and compare coverage and cost</a></li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/determining-insurance-needs.html">FCAC: how premiums are set, including credit information</a></li>
+        <li><a href="https://www.fsrao.ca/consumers/auto-insurance/purchasing-your-policy/how-save-auto-insurance">FSRA: How to save on auto insurance (discount ranges, deductibles, $2,000 vehicle rule, $200,000 to $1 million or $2 million)</a> (checked November 11, 2026)</li>
         <li><a href="https://www.fsrao.ca/industry/auto-insurance/changes-statutory-accident-benefits-coverage-ontario-july-1-2026">FSRA: Ontario accident benefits, July 1, 2026</a></li>
+        <li><a href="https://www.fsrao.ca/media/29826/download">FSRA fact sheet: 2026 accident benefits reforms, what Ontario drivers need to know</a></li>
+        <li><a href="https://www.fsrao.ca/consumers/auto-insurance/purchasing-your-policy/customize-your-liability-and-accident-benefits-coverage">FSRA: Customize your liability and accident benefits coverage ($65,000, $400 a week and options)</a></li>
+        <li><a href="https://www.fsrao.ca/consumers/auto-insurance/purchasing-your-policy/what-standard-auto-insurance-policy">FSRA: What is in a standard auto insurance policy ($200,000 minimum, DCPD opt-out from January 2024)</a></li>
+        <li><a href="https://www.ontario.ca/laws/regulation/r15222">Ontario Regulation 222/15: winter-tire discount from January 1, 2016</a></li>
+        <li><a href="https://www.alberta.ca/automobile-insurance-reform">Alberta: automobile insurance reform and rate caps</a> and <a href="https://www.alberta.ca/care-first-auto-insurance">Care-First auto insurance (January 1, 2027)</a></li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/insurance/get-insurance.html">FCAC: getting an insurance policy (shop around, bundling, credit history, cancellation penalties)</a></li>
         <li><a href="/blog/car-insurance-by-province-canada/">Car insurance by province</a> — public, private, and the liability floors that page sources</li>
     </ul>
 
     <div class="cta-section">
-        <p><strong>The cheaper declaration is only cheaper at the same limit.</strong></p>
+        <p><strong>The cheaper declaration is only cheaper at the same coverage.</strong></p>
         <p>Accident benefits and a disability policy can overlap, and the tax treatment does not. The 2026 tax guide is the income side.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
     <div class="article-footer">
-        <p><strong>Disclaimer:</strong> This is general education about comparing Canadian auto insurance as of October 2026. It is not a quote, a broker recommendation, or insurance or legal advice. Premiums, discounts, and mandatory coverages differ by province and insurer. No savings percentage on this page is implied. Read the declaration and the FSRA or public-insurer page for your province before you decline a benefit.</p>
-        <div class="footer-note">Published: October 3, 2026 | Category: Insurance | Author: Andrew</div>
+        <p><strong>Disclaimer:</strong> This is general education about comparing Canadian auto insurance as of November 11, 2026. It is not a quote, a broker recommendation, or insurance or legal advice. Premiums, discounts, and mandatory coverages differ by province and insurer. Discount ranges quoted are Ontario regulator ranges, not promised savings. Read the declaration and the FSRA or public-insurer page for your province before you decline a benefit.</p>
+        <div class="footer-note">Published: October 3, 2026 | Updated: November 11, 2026 | Category: Insurance | Author: Andrew</div>
     </div>
 
-</div>`
+</div>
+`
     ),
     author: 'Andrew',
     date: '2026-10-03',
-    updated: '2026-10-03',
+    updated: '2026-11-11',
   },
   ...oct2026InsurancePosts,
 ];
