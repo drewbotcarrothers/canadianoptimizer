@@ -1554,6 +1554,10 @@ export const insuranceClusterPosts: InsurancePost[] = [
     author: 'Andrew',
     date: '2026-10-03',
     updated: '2026-11-11',
+    youtubeId: 'VWqV7CycR2o',
+    youtubeTitle: 'How to Lower Car Insurance Without Losing Coverage',
+    youtubeUploadDate: '2026-11-12T05:16:51-05:00',
+    youtubeDuration: 'PT5M25S',
   },
   ...oct2026InsurancePosts,
 ];
