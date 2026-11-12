@@ -5,7 +5,7 @@ import {
   getProduct,
   isBuyable,
   REFUND_DAYS,
-  SUPPORT_PATH,
+  SUPPORT_EMAIL,
   type EbookFaq,
   type ProductSlug,
 } from '@/data/ebooks';
@@ -27,12 +27,12 @@ export function commonFaqs(slug: ProductSlug, formats: string, pages: string): E
     {
       question: 'How do I get it after I pay?',
       answer: onSale
-        ? 'Checkout is handled by Stripe. After you pay, you are sent to a download page with your files, and Stripe emails your receipt. If anything goes wrong, contact us and we will send the files.'
+        ? `Checkout is handled by Stripe. After you pay, you are sent to a download page with your files, and Stripe emails your receipt. If anything goes wrong, email ${SUPPORT_EMAIL} and we will send the files.`
         : 'This book is not on sale yet. When it is, checkout will be handled by Stripe and you will be sent to a download page with your files right after you pay.',
     },
     {
       question: 'Can I get a refund?',
-      answer: `Yes. If it is not useful to you, contact us within ${REFUND_DAYS} days of purchase for a full refund.`,
+      answer: `Yes. If it is not useful to you, email ${SUPPORT_EMAIL} within ${REFUND_DAYS} days of purchase for a full refund.`,
     },
     {
       question: 'Is this financial advice?',
@@ -88,7 +88,7 @@ export function GuaranteeStrip({ freeUpdate }: { freeUpdate?: string }) {
       </li>
       <li className="rounded-xl bg-white p-4 shadow-sm">
         <strong className="block text-charcoal">{REFUND_DAYS}-day refund</strong>
-        Not useful? <Link href={SUPPORT_PATH} className="text-canadian-red hover:underline">Contact us</Link> within {REFUND_DAYS} days for a full refund.
+        Not useful? Email <a href={`mailto:${SUPPORT_EMAIL}`} className="text-canadian-red hover:underline">{SUPPORT_EMAIL}</a> within {REFUND_DAYS} days for a full refund.
       </li>
       <li className="rounded-xl bg-white p-4 shadow-sm">
         <strong className="block text-charcoal">{freeUpdate ? 'Free 2027 update' : 'Dated figures'}</strong>

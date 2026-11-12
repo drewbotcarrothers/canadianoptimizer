@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/site';
 
+const SUPPORT_EMAIL = 'contact@canadianoptimizer.com';
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'Privacy Policy',
   description:
@@ -17,7 +19,7 @@ export default function PrivacyPolicy() {
         
         <h2 className="text-2xl font-bold text-charcoal mt-8 mb-4">1. Information We Collect</h2>
         <p>
-          We only collect information you voluntarily provide to us, such as your email address when you sign up for our newsletter or contact information when you submit a form.
+          We only collect information you voluntarily provide to us, such as your email address when you sign up for our newsletter or when you email us.
         </p>
 
         <h2 className="text-2xl font-bold text-charcoal mt-8 mb-4">2. Use of Information</h2>
@@ -37,7 +39,8 @@ export default function PrivacyPolicy() {
         
         <h2 className="text-2xl font-bold text-charcoal mt-8 mb-4">5. Contacting Us</h2>
         <p>
-          If there are any questions regarding this privacy policy, you may contact us using the information on our Contact page.
+          If there are any questions regarding this privacy policy, email{' '}
+          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-canadian-red hover:underline">{SUPPORT_EMAIL}</a>.
         </p>
       </div>
     </div>

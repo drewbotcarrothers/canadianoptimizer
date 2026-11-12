@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SessionReference from './SessionReference';
 import {
@@ -9,7 +8,7 @@ import {
   getBook,
   getProduct,
   REFUND_DAYS,
-  SUPPORT_PATH,
+  SUPPORT_EMAIL,
   type Ebook,
 } from '@/data/ebooks';
 
@@ -72,8 +71,8 @@ export default async function ThankYouPage({ params }: { params: Promise<{ slug:
             <div className="mb-8 rounded-xl border-2 border-dashed border-amber-400 bg-amber-50 p-5" data-download-placeholder={product.slug}>
               <p className="mb-2 font-bold text-amber-900">[PLACEHOLDER] Download links not configured yet</p>
               <p className="mb-4 text-sm text-amber-900">
-                The download buttons for this product have not been set up. Please{' '}
-                <Link href={SUPPORT_PATH} className="font-semibold underline">contact us</Link> with the email you used at checkout
+                The download buttons for this product have not been set up. Please email{' '}
+                <a href={`mailto:${SUPPORT_EMAIL}`} className="font-semibold underline">{SUPPORT_EMAIL}</a> with the email you used at checkout
                 and we will send your files.
               </p>
               <div className="flex flex-col gap-3 sm:flex-row">
@@ -96,8 +95,8 @@ export default async function ThankYouPage({ params }: { params: Promise<{ slug:
 
           <h2 className="mb-2 text-lg font-bold text-charcoal">Need help?</h2>
           <p className="mb-4 text-gray-600">
-            If a link does not open, or you would like a refund within {REFUND_DAYS} days,{' '}
-            <Link href={SUPPORT_PATH} className="font-semibold text-canadian-red hover:underline">contact us</Link> and
+            If a link does not open, or you would like a refund within {REFUND_DAYS} days, email{' '}
+            <a href={`mailto:${SUPPORT_EMAIL}`} className="font-semibold text-canadian-red hover:underline">{SUPPORT_EMAIL}</a> and
             include the reference below.
           </p>
           <Suspense fallback={null}>

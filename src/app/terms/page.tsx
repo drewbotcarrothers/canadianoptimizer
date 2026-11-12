@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/site';
 
+const SUPPORT_EMAIL = 'contact@canadianoptimizer.com';
+
 export const metadata: Metadata = buildPageMetadata({
   title: 'Terms of Service',
   description:
@@ -33,6 +35,12 @@ export default function TermsOfService() {
         <h2 className="text-2xl font-bold text-charcoal mt-8 mb-4">4. Intellectual Property</h2>
         <p>
           All content, features, and functionality of this site are the exclusive property of Canadian Optimizer and are protected by international copyright, trademark, and other intellectual property laws.
+        </p>
+
+        <h2 className="text-2xl font-bold text-charcoal mt-8 mb-4">5. Contact</h2>
+        <p>
+          Questions about these terms can be sent to{' '}
+          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-canadian-red hover:underline">{SUPPORT_EMAIL}</a>.
         </p>
       </div>
     </div>
