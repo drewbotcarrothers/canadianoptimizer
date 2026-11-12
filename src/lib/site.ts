@@ -1,4 +1,7 @@
 import type { Metadata } from 'next';
+import { SUBCATEGORIES, PILLAR_SLUGS } from '../data/taxonomy';
+
+export { PILLAR_SLUGS };
 
 export const SITE_URL = 'https://canadianoptimizer.com';
 export const SITE_NAME = 'Canadian Optimizer';
@@ -25,14 +28,16 @@ export type CategorySubcategory = {
   description: string;
 };
 
-export const CATEGORIES: {
+type CategoryRecord = {
   slug: string;
   name: string;
   pageTitle: string;
   metaDescription: string;
   description: string;
   subcategories?: CategorySubcategory[];
-}[] = [
+};
+
+const CATEGORY_LIST: Omit<CategoryRecord, 'subcategories'>[] = [
   {
     slug: 'investing',
     name: 'Investing',
@@ -41,40 +46,6 @@ export const CATEGORIES: {
       'Investing in Canada by investor type: passive ETF portfolios, dividend income, DIY stock picking, and choosing a robo-advisor or advisor.',
     description:
       'Pick the investor you are: passive ETFs, dividend income, DIY stock picking, or hands-off with a robo-advisor or advisor. Accounts and brokerages first.',
-    subcategories: [
-      {
-        slug: 'passive-etf',
-        name: 'Passive ETF Investing',
-        pageTitle: 'Passive ETF Investing in Canada',
-        metaDescription:
-          'Couch Potato-style investing for Canadians: all-in-one ETFs, model portfolios by risk level, asset location, rebalancing, and staying invested in a crash.',
-        description: 'All-in-one ETFs, model portfolios, asset location, and holding on in a crash.',
-      },
-      {
-        slug: 'dividend-investing',
-        name: 'Dividend Investing',
-        pageTitle: 'Dividend Investing in Canada',
-        metaDescription:
-          'Dividend income for Canadians: the dividend tax credit by province, banks, utilities, pipelines and telcos, DRIPs, yield traps, and covered-call ETFs.',
-        description: 'Dividend tax credit, banks, utilities, pipelines, and income that lasts.',
-      },
-      {
-        slug: 'stock-picking',
-        name: 'Stock Picking',
-        pageTitle: 'DIY Stock Picking in Canada',
-        metaDescription:
-          'Picking stocks for total return in Canada: reading filings, valuation basics, Canadian vs US stocks, position sizing, when to sell, and ACB records.',
-        description: 'Analyzing a business, valuation, sizing, selling, and ACB records.',
-      },
-      {
-        slug: 'hands-off',
-        name: 'Hands-Off Investing',
-        pageTitle: 'Hands-Off Investing in Canada',
-        metaDescription:
-          'Robo-advisors, bank advisors, mutual funds, and fee-only planners in Canada: what you really pay, questions to ask, red flags, and how to switch.',
-        description: 'Robo-advisors, advisors, and planners: what you pay and how to choose.',
-      },
-    ],
   },
   {
     slug: 'taxes',
@@ -129,32 +100,6 @@ export const CATEGORIES: {
       'Raise and job-switch math, building a business, and side hustles that pay.',
     description:
       'Raise and job-switch math, building a business, and side hustles that pay.',
-    subcategories: [
-      {
-        slug: 'employee',
-        name: 'Employee',
-        pageTitle: 'Earning More as an Employee in Canada',
-        metaDescription:
-          'Raises, job offers, severance, overtime, and remote pay for Canadians who earn a salary.',
-        description: 'Raises, offers, severance, and the pay stub.',
-      },
-      {
-        slug: 'entrepreneur',
-        name: 'Entrepreneur',
-        pageTitle: 'Earning More as an Entrepreneur in Canada',
-        metaDescription:
-          'Freelance rates, business registration, first clients, self-employed EI, and raising prices in Canada.',
-        description: 'Rates, registration, clients, and getting paid.',
-      },
-      {
-        slug: 'side-hustles',
-        name: 'Side Hustles',
-        pageTitle: 'Side Hustles in Canada',
-        metaDescription:
-          'Side hustles with published earnings, Marketplace sales, platform reporting, reselling, and creator income.',
-        description: 'Extra income, and whether it still pays.',
-      },
-    ],
   },
   {
     slug: 'insurance',
@@ -175,6 +120,11 @@ export const CATEGORIES: {
       'Maximizing your entitlement to Canadian federal and provincial grants, credits, and programs.',
   },
 ];
+
+export const CATEGORIES: CategoryRecord[] = CATEGORY_LIST.map((category) => ({
+  ...category,
+  subcategories: SUBCATEGORIES[category.slug] ?? [],
+}));
 
 const MONTHS = [
   'January',

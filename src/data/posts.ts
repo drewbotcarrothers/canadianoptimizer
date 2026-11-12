@@ -14,6 +14,7 @@ import { insuranceClusterPosts } from './insurance-cluster';
 import { realEstateClusterPosts } from './real-estate-cluster';
 import { taxesClusterPosts } from './taxes-cluster';
 import { toolsClusterPosts } from './tools-cluster';
+import { SUBCATEGORY_ASSIGNMENTS } from './taxonomy';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -27200,6 +27201,13 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...retirementClusterPosts,
 
 ];
+
+// Subcategory (hub) for live posts whose record has none. Metadata only: URLs don't change.
+for (const post of allPosts) {
+  if (!post.subcategory && SUBCATEGORY_ASSIGNMENTS[post.slug]) {
+    post.subcategory = SUBCATEGORY_ASSIGNMENTS[post.slug];
+  }
+}
 
 // seo-date-guard: refuse to ship a post dated after today in America/Toronto.
 // A daily batch PR may carry its planned publish date. Posts dated after today are

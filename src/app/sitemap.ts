@@ -36,16 +36,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const subcategoryEntries: MetadataRoute.Sitemap = CATEGORIES.flatMap((category) =>
-    (category.subcategories ?? []).map((sub) => {
-      const newest = posts
-        .filter((post) => post.categorySlug === category.slug && post.subcategory === sub.slug)
+    (category.subcategories ?? []).flatMap((sub) => {
+      const hubPosts = posts.filter((post) => post.categorySlug === category.slug && post.subcategory === sub.slug);
+      // Hubs with fewer than 3 posts are noindex until they fill in (see the hub page).
+      if (hubPosts.length < 3) return [];
+      const newest = hubPosts
         .map((post) => post.updated || post.date)
         .sort()
         .pop();
-      return {
-        url: `${SITE_URL}/category/${category.slug}/${sub.slug}/`,
-        lastModified: newest ?? '2026-10-15',
-      };
+      return [
+        {
+          url: `${SITE_URL}/category/${category.slug}/${sub.slug}/`,
+          lastModified: newest ?? '2026-11-12',
+        },
+      ];
     })
   );
 
