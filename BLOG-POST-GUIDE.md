@@ -611,7 +611,7 @@ The live ebook is **How To Reduce Your Taxes & Maximize Your Refund**, $49 CAD, 
 
 Do not point the button at `/ebooks/` and call it a free download. Older posts do that. New posts do not.
 
-The homepage block at `#newsletter` ("5-Day Optimization Starter Guide") is a form with no action and no provider. It does not deliver a guide. Do not send a post's email CTA there, and do not write "join thousands," until a signup actually sends the thing you promised. When a real email product exists, link that URL and no other.
+The homepage no longer has a newsletter or "5-Day Optimization Starter Guide" block (removed 2026-11-12 at Andrew's request). Do not mention a free 5-day guide anywhere, and do not write "join thousands," until a signup actually sends the thing you promised. When a real email product exists, link that URL and no other.
 
 Affiliate or advertising links are allowed when the product is part of the decision the post is about (a brokerage in a brokerage comparison, a card in a card comparison). Say what you give up, not only the bonus. The template's disclosure under the article is the disclosure. Match `/disclosure/`: a commission does not raise the price, and a link is not a promise the product fits.
 

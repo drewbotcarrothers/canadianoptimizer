@@ -41,10 +41,7 @@ export default function Home() {
             Actionable strategies and advanced tactics to help Canadians extract the maximum value from their money. Go beyond the basics and start optimizing today.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="primary" href="#newsletter" className="w-full sm:w-auto text-lg px-8 py-4">
-              Get the Free 5-Day Guide
-            </Button>
-            <Button variant="secondary" href="/blog/" className="w-full sm:w-auto text-lg px-8 py-4 border-2">
+            <Button variant="primary" href="/blog/" className="w-full sm:w-auto text-lg px-8 py-4">
               Read the Latest Strategies
             </Button>
           </div>
@@ -150,30 +147,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section id="newsletter" className="py-24 bg-canadian-red text-white text-center">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Get the 5-Day Optimization Starter Guide</h2>
-          <p className="text-red-100 text-lg mb-10">
-            Join thousands of Canadians optimizing their wealth. Enter your email to receive our free starter guide and weekly actionable tips.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email address" 
-              className="px-4 py-4 rounded-md text-charcoal w-full focus:outline-none focus:ring-2 focus:ring-charcoal"
-              required
-            />
-            <button 
-              type="submit" 
-              className="bg-charcoal text-white px-8 py-4 rounded-md font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap"
-            >
-              Send My Guide
-            </button>
-          </form>
-          <p className="text-red-200 text-xs mt-4">No spam. Unsubscribe at any time.</p>
-        </div>
-      </section>
     </>
   );
 }
