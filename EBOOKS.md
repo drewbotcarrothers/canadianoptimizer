@@ -4,7 +4,7 @@ Everything lives in `src/data/ebooks.ts`.
 
 | What | Where |
 |---|---|
-| Prices (CAD) | `PRICES_CAD` |
+| Prices (CAD) | `PRICES_CAD`: 8 books at $29, tax guide $49, Earn More bundle $59 (vs $87 separately) |
 | Stripe Payment Link per product | `CHECKOUT_URLS` (empty string = "Coming soon", button disabled) |
 | Refund window shown on pages | `REFUND_DAYS` |
 | Book copy (contents, who it's for, FAQs) | `EBOOKS`, `BUNDLES` |

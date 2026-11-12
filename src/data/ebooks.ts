@@ -57,11 +57,11 @@ export const PRICES_CAD: Record<ProductSlug, number> = {
   'self-employed-guide': 29,
   'investing-guide': 29,
   'index-investing-guide': 29,
-  // Proposed Nov 12, 2026; not yet confirmed by Andrew.
-  'earn-more-bundle': 69,
+  // Set by Andrew, Nov 12, 2026.
+  'earn-more-bundle': 59,
 };
 
-/** Refund window promised on every sales page. Confirm with Andrew before launch. */
+/** Refund window promised on every sales page (confirmed by Andrew, Nov 12, 2026). */
 export const REFUND_DAYS = 30;
 export const SUPPORT_PATH = '/contact/';
 
