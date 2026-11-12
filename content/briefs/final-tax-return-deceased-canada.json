@@ -1,0 +1,40 @@
+{
+  "slug": "final-tax-return-deceased-canada",
+  "title": "Final Tax Return for a Deceased Person in Canada: Step by Step",
+  "family": "forms",
+  "category": "taxes",
+  "subcategory": "forms-slips",
+  "targetQuery": "final tax return deceased canada",
+  "secondaryQueries": [
+    "final return deadline deceased canada",
+    "rights or things return",
+    "how to file taxes for someone who died canada",
+    "clearance certificate tx19"
+  ],
+  "infoGain": "A filing calendar that turns the CRA's deadline rules into actual due dates for example 2026 deaths, and a table of which income goes on which of the five possible returns.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "notes": "Plan's tax-software hook not used: the CRA's File the returns page says online tax software does not currently support submitting the final return.",
+  "publishDate": "2026-11-16",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "Answer paragraph and the first lines under every question H2 and FAQ H3 read as direct answers (checked on the rendered preview)."
+    },
+    "4a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "No quotes, testing or experience claims. First-person \"I\" appears only in reader questions used as headings. Examples are labelled illustrations."
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "not a money page"
+    }
+  }
+}

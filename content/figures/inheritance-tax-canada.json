@@ -1,0 +1,453 @@
+{
+  "slug": "inheritance-tax-canada",
+  "publishDate": "2026-11-16",
+  "figures": [
+    {
+      "id": "6f087da1ea66",
+      "value": "50%",
+      "context": "The CRA's capital losses page states that the inclusion rate for 2025 is 50% , and the Prime Minister's March 21, 2025 release cancelled the proposed increase, so one-half still applies to a 2026 death.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "sourceName": "CRA: Capital losses",
+      "asOf": "2026-02-05",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"inclusion rate for 2025 is 50%\""
+      }
+    },
+    {
+      "id": "8e4caa142423",
+      "value": "March 21, 2025",
+      "context": "The CRA's capital losses page states that the inclusion rate for 2025 is 50% , and the Prime Minister's March 21, 2025 release cancelled the proposed increase, so one-half still applies to a 2026 death.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.pm.gc.ca/en/news/news-releases/2025/03/21/prime-minister-mark-carney-cancels-proposed-capital-gains-tax-increase",
+      "sourceName": "Prime Minister of Canada news release",
+      "asOf": "2025-03-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"March 21, 2025\""
+      }
+    },
+    {
+      "id": "da2092a3ddbf",
+      "value": "$30,000",
+      "context": "Pension, CPP and OAS received before death $30,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: pension, CPP and OAS received before death"
+      }
+    },
+    {
+      "id": "d8ba85e8a81b",
+      "value": "$300,000",
+      "context": "RRIF value at death (fully included) $300,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: RRIF value at death"
+      }
+    },
+    {
+      "id": "7a91b2036bbf",
+      "value": "$200,000,",
+      "context": "Taxable account: value $200,000, cost $120,000, gain $80,000; taxable half $40,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration"
+      }
+    },
+    {
+      "id": "ebcc9cad1653",
+      "value": "$120,000,",
+      "context": "Taxable account: value $200,000, cost $120,000, gain $80,000; taxable half $40,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration"
+      }
+    },
+    {
+      "id": "14bc51085fc9",
+      "value": "$80,000",
+      "context": "Taxable account: value $200,000, cost $120,000, gain $80,000; taxable half $40,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "gain = value 200,000 - cost 120,000 | recomputed 80,000.00 from 200000-120000"
+      },
+      "formula": "200000-120000"
+    },
+    {
+      "id": "83df769691db",
+      "value": "$40,000",
+      "context": "Taxable account: value $200,000, cost $120,000, gain $80,000; taxable half $40,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "taxable half at the 50% inclusion rate (caploss) | recomputed 40,000.00 from (200000-120000)*0.5"
+      },
+      "formula": "(200000-120000)*0.5"
+    },
+    {
+      "id": "fdce3917d0bd",
+      "value": "$750,000,",
+      "context": "Home worth $750,000, principal residence every year $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration"
+      }
+    },
+    {
+      "id": "843134257dd0",
+      "value": "$0",
+      "context": "Home worth $750,000, principal residence every year $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "principal residence designated every year: gain exempt (CRA capital gains at death page) | recomputed 0.00 from 0"
+      },
+      "formula": "0"
+    },
+    {
+      "id": "b0e16205f121",
+      "value": "$95,000",
+      "context": "TFSA worth $95,000 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration"
+      }
+    },
+    {
+      "id": "377646859757",
+      "value": "$0",
+      "context": "TFSA worth $95,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "TFSA adds nothing to the final return (CRA TFSA deceased page) | recomputed 0.00 from 0"
+      },
+      "formula": "0"
+    },
+    {
+      "id": "9bc5f7374c86",
+      "value": "$370,000",
+      "context": "Income on the final return $370,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
+      },
+      "formula": "30000+300000+(200000-120000)*0.5"
+    },
+    {
+      "id": "9560ff6d2c95",
+      "value": "$370,000",
+      "context": "Applying the CRA's 2026 federal brackets to $370,000 gives $96,076 of federal tax before credits.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
+      },
+      "formula": "30000+300000+(200000-120000)*0.5"
+    },
+    {
+      "id": "55fa2ad8ff11",
+      "value": "$96,076",
+      "context": "Applying the CRA's 2026 federal brackets to $370,000 gives $96,076 of federal tax before credits.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "2026 federal brackets from CRA rates page applied to 370,000 | recomputed 96,076.05 from FED(370000)"
+      },
+      "formula": "FED(370000)"
+    },
+    {
+      "id": "7ecaabe0150d",
+      "value": "$40,616",
+      "context": "Ontario's 2026 brackets add $40,616 before credits and the Ontario surtax.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "2026 Ontario brackets from CRA rates page applied to 370,000 | recomputed 40,615.99 from ON(370000)"
+      },
+      "formula": "ON(370000)"
+    },
+    {
+      "id": "d16d3dd5cd59",
+      "value": "$136,692",
+      "context": "That is $136,692 owed by the estate, roughly a tenth of the $1,345,000 the person owned, even though the house, the biggest asset, was tax-free.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "sum of federal and Ontario bracket tax | recomputed 136,692.04 from FED(370000)+ON(370000)"
+      },
+      "formula": "FED(370000)+ON(370000)"
+    },
+    {
+      "id": "c9a935943fdc",
+      "value": "$1,345,000",
+      "context": "That is $136,692 owed by the estate, roughly a tenth of the $1,345,000 the person owned, even though the house, the biggest asset, was tax-free.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "sum of example assets | recomputed 1,345,000.00 from 750000+300000+200000+95000"
+      },
+      "formula": "750000+300000+200000+95000"
+    },
+    {
+      "id": "9be7bf59d655",
+      "value": "$300,000",
+      "context": "Our worked estate shows where the bill comes from: the RRIF supplies $300,000 of the $370,000 of income, the investment gain only $40,000, and the home and TFSA nothing, so the registered plan, not the house, drives most of the final-return tax.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: RRIF value at death"
+      }
+    },
+    {
+      "id": "765b97c2e357",
+      "value": "$370,000",
+      "context": "Our worked estate shows where the bill comes from: the RRIF supplies $300,000 of the $370,000 of income, the investment gain only $40,000, and the home and TFSA nothing, so the registered plan, not the house, drives most of the final-return tax.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
+      },
+      "formula": "30000+300000+(200000-120000)*0.5"
+    },
+    {
+      "id": "984b65e53ec6",
+      "value": "$40,000,",
+      "context": "Our worked estate shows where the bill comes from: the RRIF supplies $300,000 of the $370,000 of income, the investment gain only $40,000, and the home and TFSA nothing, so the registered plan, not the house, drives most of the final-return tax.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "taxable half | recomputed 40,000.00 from (200000-120000)*0.5"
+      },
+      "formula": "(200000-120000)*0.5"
+    },
+    {
+      "id": "f0894f59a2af",
+      "value": "$370,000",
+      "context": "Where the example's $370,000 of final-return income comes from (illustration, 2026 death)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
+      },
+      "formula": "30000+300000+(200000-120000)*0.5"
+    },
+    {
+      "id": "445de368f9aa",
+      "value": "$300,000",
+      "context": "$300,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: RRIF value at death"
+      }
+    },
+    {
+      "id": "11dacc601498",
+      "value": "$40,000",
+      "context": "$40,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "taxable half at the 50% inclusion rate (caploss) | recomputed 40,000.00 from (200000-120000)*0.5"
+      },
+      "formula": "(200000-120000)*0.5"
+    },
+    {
+      "id": "189cf1f74ef2",
+      "value": "$30,000",
+      "context": "$30,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: pension, CPP and OAS received before death"
+      }
+    },
+    {
+      "id": "e6ff9b0fc5e1",
+      "value": "$0",
+      "context": "$0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "home contributes $0 (exempt principal residence) | recomputed 0.00 from 0"
+      },
+      "formula": "0"
+    },
+    {
+      "id": "cf322c219ee7",
+      "value": "$30,000",
+      "context": "In the example above, if the person had a surviving spouse who received the RRIF and the investments, the final return would show roughly the $30,000 of pension income and little else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: pension, CPP and OAS received before death"
+      }
+    }
+  ]
+}

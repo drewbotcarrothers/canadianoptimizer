@@ -1,0 +1,733 @@
+{
+  "slug": "gifting-money-to-children-canada",
+  "publishDate": "2026-11-16",
+  "figures": [
+    {
+      "id": "e69b311d136d",
+      "value": "18",
+      "context": "Two rules still matter for the 2026 tax year: income on money given to a child under 18 is taxed to you, and giving investments counts as selling them at fair market value.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "47d133bcf831",
+      "value": "18",
+      "context": "For a child under 18, interest and dividends on the gift are taxed to the parent or grandparent who gave it, but capital gains are the child's.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "d002b16d0ba6",
+      "value": "18",
+      "context": "For a child 18 or older, the child does.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "df89d0811933",
+      "value": "18",
+      "context": "For a younger child, the giver usually reports interest and dividends until the year the child turns 18, while capital gains go to the child.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "1e36e0da202b",
+      "value": "18",
+      "context": "Cash to a child under 18, invested in their name or in trust None You, until the year they turn 18 Child",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "a410747f9339",
+      "value": "18",
+      "context": "Our one-table rule of thumb: for an adult child, give cash and let them use their own TFSA or FHSA room; for a child under 18, the RESP and growth-oriented investments are the two places where attribution costs you little or nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2025-10-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"18 years of age\""
+      }
+    },
+    {
+      "id": "240d44d4b215",
+      "value": "18",
+      "context": "What are the attribution rules for a child under 18?",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "df4e7fb5059c",
+      "value": "18",
+      "context": "Section 74.1(2) of the Income Tax Act says that when you transfer or lend property, including money, to a person under 18 who does not deal with you at arm's length (or who is your niece or nephew), income from that property is deemed to be yours unless the child turned 18 before the end of the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "67565aa0ccd0",
+      "value": "$10,000",
+      "context": "Example (illustration): $10,000 given to a 15-year-old",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration gift"
+      }
+    },
+    {
+      "id": "ce8bc0c4c139",
+      "value": "15",
+      "context": "Example (illustration): $10,000 given to a 15-year-old",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration age"
+      }
+    },
+    {
+      "id": "5a365ee003aa",
+      "value": "3%",
+      "context": "Placed in a GIC paying an illustrative 3% a year $300 interest",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustrative rate, labelled"
+      }
+    },
+    {
+      "id": "70602c9d2b42",
+      "value": "$300",
+      "context": "Placed in a GIC paying an illustrative 3% a year $300 interest",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "illustration: 3% of 10,000 | recomputed 300.00 from 10000*0.03"
+      },
+      "formula": "10000*0.03"
+    },
+    {
+      "id": "054e990d2211",
+      "value": "$300",
+      "context": "Who reports the $300 each year until the child turns 18 The parent",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "illustration: 3% of 10,000 | recomputed 300.00 from 10000*0.03"
+      },
+      "formula": "10000*0.03"
+    },
+    {
+      "id": "e0a53d873f9a",
+      "value": "18",
+      "context": "Who reports the $300 each year until the child turns 18 The parent",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "45c26c405c9c",
+      "value": "$14,000",
+      "context": "Instead invested in a growth fund that later rises to $14,000 and is sold $4,000 gain",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration"
+      }
+    },
+    {
+      "id": "6b676c072cc3",
+      "value": "$4,000",
+      "context": "Instead invested in a growth fund that later rises to $14,000 and is sold $4,000 gain",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "illustration gain | recomputed 4,000.00 from 14000-10000"
+      },
+      "formula": "14000-10000"
+    },
+    {
+      "id": "20df2e1ac4d2",
+      "value": "$4,000",
+      "context": "Who reports the $4,000 gain The child",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "illustration gain | recomputed 4,000.00 from 14000-10000"
+      },
+      "formula": "14000-10000"
+    },
+    {
+      "id": "0a632f153f97",
+      "value": "18",
+      "context": "The minor-child rule in section 74.1(2) stops applying in the year the child turns 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "30fa2d84ddb7",
+      "value": "4.1",
+      "context": "Under section 56(4.1) of the Income Tax Act , if you lend money to a family member at low or no interest and one of the main reasons can reasonably be considered to be reducing tax, income from the borrowed money can be taxed back to you.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-56.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 56",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "section reference | page prints: \"(4.1)\""
+      }
+    },
+    {
+      "id": "38496bc3e94f",
+      "value": "$30,000",
+      "context": "Example (illustration): giving $30,000 of shares that cost $10,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration share value"
+      }
+    },
+    {
+      "id": "35ef7bff75d6",
+      "value": "$10,000",
+      "context": "Example (illustration): giving $30,000 of shares that cost $10,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration cost base"
+      }
+    },
+    {
+      "id": "5a938360ed50",
+      "value": "$30,000",
+      "context": "Fair market value on the day you give them $30,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration share value"
+      }
+    },
+    {
+      "id": "8cfecc2ed2e3",
+      "value": "$10,000",
+      "context": "Your adjusted cost base $10,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration cost base"
+      }
+    },
+    {
+      "id": "ae6e948e2665",
+      "value": "$20,000",
+      "context": "Capital gain you report that year $20,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "gain | recomputed 20,000.00 from 30000-10000"
+      },
+      "formula": "30000-10000"
+    },
+    {
+      "id": "685822142df7",
+      "value": "$10,000",
+      "context": "Taxable half added to your income $10,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "taxable half at one-half inclusion (T4037) | recomputed 10,000.00 from (30000-10000)*0.5"
+      },
+      "formula": "(30000-10000)*0.5"
+    },
+    {
+      "id": "197198bf548e",
+      "value": "$30,000,",
+      "context": "Your child's cost becomes $30,000, so the $20,000 of past growth is never taxed twice.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration share value"
+      }
+    },
+    {
+      "id": "f1f4e6b5648b",
+      "value": "$20,000",
+      "context": "Your child's cost becomes $30,000, so the $20,000 of past growth is never taxed twice.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "gain | recomputed 20,000.00 from 30000-10000"
+      },
+      "formula": "30000-10000"
+    },
+    {
+      "id": "f65d1c1c7c9c",
+      "value": "$1",
+      "context": "The same deemed sale applies to a cottage or rental you transfer to a child, and you cannot escape it by selling to them for $1.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration of a nominal sale price"
+      }
+    },
+    {
+      "id": "89cd5a3020e7",
+      "value": "20%",
+      "context": "The Canada Education Savings Grant adds up to 20% of the first $2,500 contributed each year, a maximum of $500 a year and $7,200 per child over their lifetime.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html",
+      "sourceName": "Government of Canada: Canada Education Savings Grant",
+      "asOf": "2026-08-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"20% of the first $2,500\""
+      }
+    },
+    {
+      "id": "0615d91a10ba",
+      "value": "$2,500",
+      "context": "The Canada Education Savings Grant adds up to 20% of the first $2,500 contributed each year, a maximum of $500 a year and $7,200 per child over their lifetime.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html",
+      "sourceName": "Government of Canada: Canada Education Savings Grant",
+      "asOf": "2026-08-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"20% of the first $2,500\""
+      }
+    },
+    {
+      "id": "649f87d1ad1a",
+      "value": "$500",
+      "context": "The Canada Education Savings Grant adds up to 20% of the first $2,500 contributed each year, a maximum of $500 a year and $7,200 per child over their lifetime.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html",
+      "sourceName": "Government of Canada: Canada Education Savings Grant",
+      "asOf": "2026-08-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"$500 each year\""
+      }
+    },
+    {
+      "id": "afc5c78fbc07",
+      "value": "$7,200",
+      "context": "The Canada Education Savings Grant adds up to 20% of the first $2,500 contributed each year, a maximum of $500 a year and $7,200 per child over their lifetime.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html",
+      "sourceName": "Government of Canada: Canada Education Savings Grant",
+      "asOf": "2026-08-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"$7,200 maximum per eligible child\""
+      }
+    },
+    {
+      "id": "666484b1e076",
+      "value": "18",
+      "context": "TFSA, for a child 18 or older.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2025-10-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"18 years of age\""
+      }
+    },
+    {
+      "id": "21f5168b436b",
+      "value": "18",
+      "context": "The CRA's TFSA opening rules require the holder to be 18; in provinces where the age of majority is 19, they open it at 19 and keep the room from the year they turned 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2025-10-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"18 years of age\""
+      }
+    },
+    {
+      "id": "f78fc4b3dd1e",
+      "value": "19",
+      "context": "The CRA's TFSA opening rules require the holder to be 18; in provinces where the age of majority is 19, they open it at 19 and keep the room from the year they turned 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2025-10-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"19 years of age\""
+      }
+    },
+    {
+      "id": "da48b57e1eca",
+      "value": "$7,000",
+      "context": "The 2026 TFSA dollar limit is $7,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html",
+      "sourceName": "CRA: Calculate your TFSA contribution room",
+      "asOf": "2026-02-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
+      }
+    },
+    {
+      "id": "c32b6a16646d",
+      "value": "$8,000",
+      "context": "The CRA's FHSA contribution page gives $8,000 of participation room in the year the first FHSA is opened, and the CRA's FHSA definitions set the lifetime limit at $40,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "sourceName": "CRA: Contributing to your FHSA",
+      "asOf": "2026-09-17",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"first FHSA is $8,000\""
+      }
+    },
+    {
+      "id": "91e19ecacd58",
+      "value": "$40,000",
+      "context": "The CRA's FHSA contribution page gives $8,000 of participation room in the year the first FHSA is opened, and the CRA's FHSA definitions set the lifetime limit at $40,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/definitions.html",
+      "sourceName": "CRA: Definitions for FHSAs",
+      "asOf": "2026-02-05",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"The lifetime FHSA limit = $40,000\""
+      }
+    },
+    {
+      "id": "0ffa2bbd9fd0",
+      "value": "16",
+      "context": "Opening a \"TFSA\" for a 16-year-old.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration age"
+      }
+    },
+    {
+      "id": "3d00644290fb",
+      "value": "18",
+      "context": "Holders must be at least 18; until then the RESP or an informal account is the option.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2025-10-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"18 years of age\""
+      }
+    },
+    {
+      "id": "409400bdfbc0",
+      "value": "18",
+      "context": "Interest and dividends are yours to report until the year they turn 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "2720c1392c7f",
+      "value": "$1",
+      "context": "Transferring a cottage for $1.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration of a nominal sale price"
+      }
+    },
+    {
+      "id": "f6c1f8078cbd",
+      "value": "18",
+      "context": "Section 74.1(2) covers transfers to anyone under 18 who does not deal with you at arm's length, which includes grandchildren, plus nieces and nephews.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.1.html",
+      "sourceName": "Justice Laws: Income Tax Act s. 74.1",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "s. 74.1(2): minor = under 18; attribution ends in the year the person turns 18 | page prints: \"18 years\""
+      }
+    },
+    {
+      "id": "28813ecf12bb",
+      "value": "$7,000",
+      "context": "Their contribution uses their own room, which for 2026 includes the $7,000 dollar limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html",
+      "sourceName": "CRA: Calculate your TFSA contribution room",
+      "asOf": "2026-02-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
+      }
+    },
+    {
+      "id": "34a59d91eaaa",
+      "value": "$500",
+      "context": "For education, the RESP, because of the grant of up to $500 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html",
+      "sourceName": "Government of Canada: Canada Education Savings Grant",
+      "asOf": "2026-08-10",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"$500 each year\""
+      }
+    }
+  ]
+}
