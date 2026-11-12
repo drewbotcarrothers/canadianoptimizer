@@ -1,0 +1,641 @@
+{
+  "slug": "final-tax-return-deceased-canada",
+  "publishDate": "2026-11-16",
+  "figures": [
+    {
+      "id": "80a6fbbe51b7",
+      "value": "January 1",
+      "context": "The final return is the T1 that reports a deceased person's income from January 1 to the date of death.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html",
+      "sourceName": "CRA: Taxable capital gains (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"January 1 to the date of death\""
+      }
+    },
+    {
+      "id": "4a6f86e53c49",
+      "value": "January 1",
+      "context": "For a death from January 1 to October 31, 2026, the CRA's due date to file and pay is April 30, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between January 1 and October 31\""
+      }
+    },
+    {
+      "id": "d32e4c0636d5",
+      "value": "October 31, 2026",
+      "context": "For a death from January 1 to October 31, 2026, the CRA's due date to file and pay is April 30, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "Jan 1-Oct 31 rule applied to 2026 deaths (deadlines page) | recomputed October 31, 2026"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "7c0230fc2ebe",
+      "value": "April 30, 2027",
+      "context": "For a death from January 1 to October 31, 2026, the CRA's due date to file and pay is April 30, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "April 30 of the year following a Jan 1-Oct 31, 2026 death (deadlines page) | recomputed April 30, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "e6259ce27ae1",
+      "value": "January 1",
+      "context": "Death between January 1 and October 31: file and pay by April 30 of the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between January 1 and October 31\""
+      }
+    },
+    {
+      "id": "dba17d042e73",
+      "value": "October 31",
+      "context": "Death between January 1 and October 31: file and pay by April 30 of the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between January 1 and October 31\""
+      }
+    },
+    {
+      "id": "e0cec56f2e6c",
+      "value": "April 30",
+      "context": "Death between January 1 and October 31: file and pay by April 30 of the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"April 30 of the year following the death\""
+      }
+    },
+    {
+      "id": "800ec8e8dbbe",
+      "value": "November 1",
+      "context": "Death between November 1 and December 31: file and pay six months after the death, on the same calendar day.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between November 1 and December 31\""
+      }
+    },
+    {
+      "id": "a1b3dc3ff0f5",
+      "value": "December 31",
+      "context": "Death between November 1 and December 31: file and pay six months after the death, on the same calendar day.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"December 31\""
+      }
+    },
+    {
+      "id": "e95320c3cedb",
+      "value": "June 15",
+      "context": "If the person or their cohabiting spouse or common-law partner operated a business: file by June 15 of the following year for a death between January 1 and December 15, or six months after a death between December 16 and December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"June 15 of the year following the death\""
+      }
+    },
+    {
+      "id": "5eaa29c0afbe",
+      "value": "January 1",
+      "context": "If the person or their cohabiting spouse or common-law partner operated a business: file by June 15 of the following year for a death between January 1 and December 15, or six months after a death between December 16 and December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between January 1 and December 15\""
+      }
+    },
+    {
+      "id": "e2aba349d721",
+      "value": "December 15",
+      "context": "If the person or their cohabiting spouse or common-law partner operated a business: file by June 15 of the following year for a death between January 1 and December 15, or six months after a death between December 16 and December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between January 1 and December 15\""
+      }
+    },
+    {
+      "id": "88701e55287f",
+      "value": "December 16",
+      "context": "If the person or their cohabiting spouse or common-law partner operated a business: file by June 15 of the following year for a death between January 1 and December 15, or six months after a death between December 16 and December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"between December 16 and December 31\""
+      }
+    },
+    {
+      "id": "42691dc5ae20",
+      "value": "December 31",
+      "context": "If the person or their cohabiting spouse or common-law partner operated a business: file by June 15 of the following year for a death between January 1 and December 15, or six months after a death between December 16 and December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"December 31\""
+      }
+    },
+    {
+      "id": "33f7c05a2da9",
+      "value": "March 10, 2026",
+      "context": "March 10, 2026 Retired, no business April 30, 2027 April 30, 2027",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "ed1804620cf3",
+      "value": "April 30, 2027",
+      "context": "March 10, 2026 Retired, no business April 30, 2027 April 30, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "April 30 of the year following a Jan 1-Oct 31, 2026 death (deadlines page) | recomputed April 30, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "5b268145f038",
+      "value": "November 20, 2026",
+      "context": "November 20, 2026 Retired, no business May 20, 2027 May 20, 2027",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "2735c2f17b05",
+      "value": "May 20, 2027",
+      "context": "November 20, 2026 Retired, no business May 20, 2027 May 20, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "six months after a November 20, 2026 death, same calendar day (deadlines page) | recomputed May 20, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "faa56a494a0d",
+      "value": "March 10, 2026",
+      "context": "March 10, 2026 Self-employed June 15, 2027 April 30, 2027",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "1ac156897fe9",
+      "value": "June 15, 2027",
+      "context": "March 10, 2026 Self-employed June 15, 2027 April 30, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "June 15 of the year following, business rule (deadlines page) | recomputed June 15, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "110e705a4636",
+      "value": "April 30, 2027",
+      "context": "March 10, 2026 Self-employed June 15, 2027 April 30, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "April 30 of the year following a Jan 1-Oct 31, 2026 death (deadlines page) | recomputed April 30, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "167f6ee572bf",
+      "value": "December 18, 2026",
+      "context": "December 18, 2026 Self-employed June 18, 2027 June 18, 2027",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "746bafead34f",
+      "value": "June 18, 2027",
+      "context": "December 18, 2026 Self-employed June 18, 2027 June 18, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "six months after a December 18, 2026 death (Dec 16-31 business rule and Nov-Dec rule) | recomputed June 18, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "ce756b8df1a8",
+      "value": "February 5, 2026",
+      "context": "February 5, 2026 2025 return not yet filed 2025 return: August 5, 2026 August 5, 2026",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "caf31b0daa37",
+      "value": "August 5, 2026",
+      "context": "February 5, 2026 2025 return not yet filed 2025 return: August 5, 2026 August 5, 2026",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "six months after a February 5, 2026 death for the unfiled 2025 return (deadlines page) | recomputed August 5, 2026"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "ee2396a65e1c",
+      "value": "April 30, 2027",
+      "context": "Our filing calendar turns the CRA's rules into real dates for 2026 deaths: a March death and a self-employed March death share the April 30, 2027 payment date even though the self-employed return can be filed until June 15, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "April 30 of the year following a Jan 1-Oct 31, 2026 death (deadlines page) | recomputed April 30, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "be855d5c0b14",
+      "value": "June 15, 2027",
+      "context": "Our filing calendar turns the CRA's rules into real dates for 2026 deaths: a March death and a self-employed March death share the April 30, 2027 payment date even though the self-employed return can be filed until June 15, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "June 15 of the year following, business rule (deadlines page) | recomputed June 15, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "c764d1d98093",
+      "value": "5%",
+      "context": "Late filing with a balance owing brings a penalty of 5% of the balance plus 1% for each full month late, up to 12 months, and the CRA charges compound daily interest on unpaid amounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"penalty is 5%\""
+      }
+    },
+    {
+      "id": "be0a55cee672",
+      "value": "1%",
+      "context": "Late filing with a balance owing brings a penalty of 5% of the balance plus 1% for each full month late, up to 12 months, and the CRA charges compound daily interest on unpaid amounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"plus 1%\""
+      }
+    },
+    {
+      "id": "30ba97bec289",
+      "value": "12",
+      "context": "Late filing with a balance owing brings a penalty of 5% of the balance plus 1% for each full month late, up to 12 months, and the CRA charges compound daily interest on unpaid amounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"maximum of 12 months\""
+      }
+    },
+    {
+      "id": "9e66ab13019a",
+      "value": "January 1",
+      "context": "Final return All income from January 1 to the date of death, the deemed sale of capital property, RRSP or RRIF values As in the calendar above",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/capital-gains.html",
+      "sourceName": "CRA: Taxable capital gains (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"January 1 to the date of death\""
+      }
+    },
+    {
+      "id": "0a1365fe7db3",
+      "value": "90",
+      "context": "Return for rights or things Amounts earned but not yet paid at death: unpaid salary for a finished pay period, the month-of-death CPP or OAS, declared but unpaid dividends Later of one year after death or 90 days after the final return's notice of assessment",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"90 days after the Notice of Assessment\""
+      }
+    },
+    {
+      "id": "8b961a29d44a",
+      "value": "December 31",
+      "context": "Return for a partner or proprietor Business income from a fiscal year-end that is not December 31 to the date of death Same as the final return",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/what-to-file.html",
+      "sourceName": "CRA: What returns you need to file",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"not December 31\""
+      }
+    },
+    {
+      "id": "f07b85df2f1d",
+      "value": "90",
+      "context": "T3 return for the estate Income the estate earns after the date of death and does not pay out to beneficiaries 90 days after the estate's tax year-end",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html",
+      "sourceName": "CRA: Filing and payment due dates (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"90 days after the trust's tax year-end\""
+      }
+    },
+    {
+      "id": "4bcc76c17e59",
+      "value": "36",
+      "context": "An estate can choose to be a graduated rate estate, taxed at the same graduated rates as individuals, for up to 36 months after the death.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/what-to-file.html",
+      "sourceName": "CRA: What returns you need to file",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"36 months\""
+      }
+    },
+    {
+      "id": "7aab113d9b1e",
+      "value": "$2,500",
+      "context": "The CRA's doing taxes for someone who died page lists the first steps, including applying for the CPP death benefit of up to $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died.html",
+      "sourceName": "CRA: Doing taxes for someone who died",
+      "asOf": "2026-10-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"up to $2,500\""
+      }
+    },
+    {
+      "id": "2bf435b53834",
+      "value": "100%",
+      "context": "Charitable donations: the CRA's donations page lets the final return claim gifts up to 100% of the person's net income, with any excess carried back to the prior year's return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/credits-deductions/donations-gifts.html",
+      "sourceName": "CRA: Donations and gifts (deceased persons)",
+      "asOf": "2026-01-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"100% of the deceased's net income\""
+      }
+    },
+    {
+      "id": "440a18763cfe",
+      "value": "December 18, 2026",
+      "context": "A December 18, 2026 death has a June 18, 2027 due date.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example date of death"
+      }
+    },
+    {
+      "id": "f7eae1a5f10c",
+      "value": "June 18, 2027",
+      "context": "A December 18, 2026 death has a June 18, 2027 due date.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "six months after a December 18, 2026 death (Dec 16-31 business rule and Nov-Dec rule) | recomputed June 18, 2027"
+      },
+      "formula": "RULE"
+    }
+  ]
+}

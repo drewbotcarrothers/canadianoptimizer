@@ -1,0 +1,409 @@
+{
+  "slug": "tfsa-successor-holder-vs-beneficiary",
+  "publishDate": "2026-11-16",
+  "figures": [
+    {
+      "id": "ec167cb435a8",
+      "value": "$120,000",
+      "context": "Example (illustration): a $120,000 trust-type TFSA, holder dies in March 2026, $3,000 of growth before payout",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration account value"
+      }
+    },
+    {
+      "id": "77425f24966f",
+      "value": "$3,000",
+      "context": "Example (illustration): a $120,000 trust-type TFSA, holder dies in March 2026, $3,000 of growth before payout",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration growth"
+      }
+    },
+    {
+      "id": "2d3b235ce27a",
+      "value": "$120,000",
+      "context": "Spouse as successor holder: tax on the $120,000 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration account value (same example)"
+      }
+    },
+    {
+      "id": "d1b859bb9182",
+      "value": "$0",
+      "context": "Spouse as successor holder: tax on the $120,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "value at death and successor-holder growth are not taxed (CRA successor holder page) | recomputed 0.00 from 0"
+      },
+      "formula": "0"
+    },
+    {
+      "id": "d9b5b69eb8bc",
+      "value": "$3,000",
+      "context": "Spouse as successor holder: tax on the $3,000 of growth $0, still in a TFSA",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration growth (same example)"
+      }
+    },
+    {
+      "id": "d85d35612c3c",
+      "value": "$0,",
+      "context": "Spouse as successor holder: tax on the $3,000 of growth $0, still in a TFSA",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "successor-holder growth not taxed (CRA successor holder page) | recomputed 0.00 from 0"
+      },
+      "formula": "0"
+    },
+    {
+      "id": "c88a7623070e",
+      "value": "$3,000",
+      "context": "Spouse as beneficiary: taxable income reported $3,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration growth (same example)"
+      }
+    },
+    {
+      "id": "79231aef476f",
+      "value": "December 31, 2027",
+      "context": "Spouse as beneficiary: can re-shelter as an exempt contribution by December 31, 2027 The $120,000 value at death",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "rollover period ends at end of the calendar year after a March 2026 death (CRA definitions) | recomputed December 31, 2027"
+      },
+      "formula": "RULE"
+    },
+    {
+      "id": "c38b79c521b6",
+      "value": "$120,000",
+      "context": "Spouse as beneficiary: can re-shelter as an exempt contribution by December 31, 2027 The $120,000 value at death",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration account value (same example)"
+      }
+    },
+    {
+      "id": "4ce298a613d9",
+      "value": "$3,000",
+      "context": "Adult child as beneficiary: taxable income reported $3,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration growth (same example)"
+      }
+    },
+    {
+      "id": "d7e045b10e3e",
+      "value": "$120,000",
+      "context": "Tracing one $120,000 TFSA through three designations shows the real gap: a spouse can keep the full $120,000 sheltered either way, as long as a beneficiary spouse files Form RC240 on time, but an adult child who has used their room can re-shelter only what their own room allows, which may be just the $7,000 the 2026 limit added, or nothing.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration account value (same example)"
+      }
+    },
+    {
+      "id": "eba8d1bafa29",
+      "value": "$7,000",
+      "context": "Tracing one $120,000 TFSA through three designations shows the real gap: a spouse can keep the full $120,000 sheltered either way, as long as a beneficiary spouse files Form RC240 on time, but an adult child who has used their room can re-shelter only what their own room allows, which may be just the $7,000 the 2026 limit added, or nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html",
+      "sourceName": "CRA: Calculate your TFSA contribution room",
+      "asOf": "2026-02-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
+      }
+    },
+    {
+      "id": "9f08fa7ba886",
+      "value": "$7,000",
+      "context": "The CRA's 2026 TFSA dollar limit is $7,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html",
+      "sourceName": "CRA: Calculate your TFSA contribution room",
+      "asOf": "2026-02-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
+      }
+    },
+    {
+      "id": "29e64378e6db",
+      "value": "1%",
+      "context": "If the deceased had over-contributed, the CRA charges 1% per month on the excess up to the month of death, and the successor is treated as contributing that excess to their own TFSA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/successor-holder.html",
+      "sourceName": "CRA: If you are a successor holder of a TFSA",
+      "asOf": "2026-02-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"1% per month\""
+      }
+    },
+    {
+      "id": "ddb67c7b9d3c",
+      "value": "134",
+      "context": "Payments above the value at death are reported in box 134 of a T4A slip.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"box 134\""
+      }
+    },
+    {
+      "id": "f3e4d932516c",
+      "value": "December 31",
+      "context": "receive and contribute it during the rollover period, which ends on December 31 of the year after the death;",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/what-happens.html",
+      "sourceName": "CRA: What happens when a TFSA holder is deceased",
+      "asOf": "2026-10-06",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"no later than December 31 of the year following the year of death\""
+      }
+    },
+    {
+      "id": "1ccc6b497efe",
+      "value": "30",
+      "context": "send Form RC240 to the CRA within 30 days of making the contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"within 30 days\""
+      }
+    },
+    {
+      "id": "1342df35186f",
+      "value": "January 1, 2026",
+      "context": "The CRA's beneficiary page also says that starting January 1, 2026, earnings that build up after the death, up to the end of the rollover period, could be designated as an exempt contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"Starting on January 1, 2026\""
+      }
+    },
+    {
+      "id": "517ce009662c",
+      "value": "30",
+      "context": "It keeps the account intact, needs no form from the survivor in most provinces, and removes the 30-day RC240 deadline from a grieving spouse's to-do list.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"within 30 days\""
+      }
+    },
+    {
+      "id": "850250aa5945",
+      "value": "36",
+      "context": "Charitable gift Charity as beneficiary The CRA lets the estate claim a donation credit once funds reach the charity within 36 months",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"within 36 months\""
+      }
+    },
+    {
+      "id": "48f089cdc78d",
+      "value": "30",
+      "context": "In Quebec the will directs the money, though a surviving spouse can still make an exempt contribution within the rollover period and file Form RC240 within 30 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"within 30 days\""
+      }
+    },
+    {
+      "id": "37d830b3bab4",
+      "value": "December 31",
+      "context": "A survivor who contributes after December 31 of the year after the death loses the exempt treatment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/what-happens.html",
+      "sourceName": "CRA: What happens when a TFSA holder is deceased",
+      "asOf": "2026-10-06",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"no later than December 31 of the year following the year of death\""
+      }
+    },
+    {
+      "id": "db2ff12560ea",
+      "value": "134",
+      "context": "Earnings after the date of death are taxable to the beneficiary, for a trust-type TFSA reported in box 134 of a T4A slip.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"box 134\""
+      }
+    },
+    {
+      "id": "81dff1d8661c",
+      "value": "December 31",
+      "context": "The contribution must be made by December 31 of the year after the death, and Form RC240 must reach the CRA within 30 days of the contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/what-happens.html",
+      "sourceName": "CRA: What happens when a TFSA holder is deceased",
+      "asOf": "2026-10-06",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"no later than December 31 of the year following the year of death\""
+      }
+    },
+    {
+      "id": "39a0cec175c6",
+      "value": "30",
+      "context": "The contribution must be made by December 31 of the year after the death, and Form RC240 must reach the CRA within 30 days of the contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/beneficiary.html",
+      "sourceName": "CRA: If you are a designated beneficiary of a TFSA",
+      "asOf": "2026-08-12",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-12",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "note": "page prints: \"within 30 days\""
+      }
+    }
+  ]
+}
