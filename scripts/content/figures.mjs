@@ -33,7 +33,7 @@ const NUMBER_RE = new RegExp(
   [
     String.raw`\$\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:million|billion|thousand|k)\b)?`,
     String.raw`\b\d[\d,]*(?:\.\d+)?\s?(?:%|percent\b)`,
-    String.raw`\b(?:${MONTHS})\s\d{1,2}(?:,\s\d{4})?`,
+    String.raw`\b(?:${MONTHS})\s\d{1,2}(?!\d)(?:,\s\d{4})?`,
     String.raw`\b\d[\d,]*\.\d+\b`,
     String.raw`\b\d{2,}[\d,]*\b`,
   ].join('|'),
