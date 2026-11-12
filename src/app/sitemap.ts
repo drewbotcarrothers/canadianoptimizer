@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { posts } from '@/data/posts';
 import { CATEGORIES, SITE_URL } from '@/lib/site';
+import { ALL_PRODUCTS } from '@/data/ebooks';
 
 export const dynamic = 'force-static';
 
@@ -10,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog/',
     '/about/',
     '/ebooks/',
-    '/ebooks/tax-guide/',
     '/contact/',
     '/privacy/',
     '/terms/',
@@ -21,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticEntries: MetadataRoute.Sitemap = staticPaths.map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: '2026-09-26',
+  }));
+
+  // Sales pages only; thank-you pages are noindex and stay out of the sitemap.
+  const ebookEntries: MetadataRoute.Sitemap = ALL_PRODUCTS.map((product) => ({
+    url: `${SITE_URL}/ebooks/${product.slug}/`,
+    lastModified: '2026-11-12',
   }));
 
   const categoryEntries: MetadataRoute.Sitemap = CATEGORIES.map((category) => ({
@@ -47,5 +53,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.updated || post.date,
   }));
 
-  return [...staticEntries, ...categoryEntries, ...subcategoryEntries, ...postEntries];
+  return [...staticEntries, ...ebookEntries, ...categoryEntries, ...subcategoryEntries, ...postEntries];
 }
