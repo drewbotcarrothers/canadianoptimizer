@@ -15,7 +15,7 @@ import { realEstateClusterPosts } from './real-estate-cluster';
 import { taxesClusterPosts } from './taxes-cluster';
 import { toolsClusterPosts } from './tools-cluster';
 
-export const posts: BlogPostRecord[] = [
+const allPosts: BlogPostRecord[] = [
   {
     title: "DIY ETF Portfolio for Canadians: Asset Allocation and Account Location",
     slug: "diy-etf-portfolio-asset-location-canada",
@@ -27202,6 +27202,10 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 ];
 
 // seo-date-guard: refuse to ship a post dated after today in America/Toronto.
+// A daily batch PR may carry its planned publish date. Posts dated after today are
+// "scheduled": they are left out of every route, the sitemap and the feeds, and they
+// go live on the first build (deploy) on or after their date. A post whose `updated`
+// is after today while its `date` is not still fails the build.
 const contentAsOf = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'America/Toronto',
   year: 'numeric',
@@ -27209,11 +27213,28 @@ const contentAsOf = new Intl.DateTimeFormat('en-CA', {
   day: '2-digit',
 }).format(new Date());
 
-for (const post of posts) {
-  if (post.date > contentAsOf) {
-    throw new Error(`Post "${post.slug}" is dated ${post.date}, after ${contentAsOf}. Future dates cannot ship.`);
+/** Posts with a future publish date, kept out of the build until that date. */
+export const scheduledPosts: BlogPostRecord[] = allPosts.filter((post) => post.date > contentAsOf);
+
+for (const post of scheduledPosts) {
+  if (post.updated !== post.date) {
+    throw new Error(`Scheduled post "${post.slug}" must have updated equal to date (${post.date}).`);
   }
-  if (post.updated > contentAsOf) {
+}
+
+// Preview builds for the pre-publish checklist: CO_PREVIEW_SCHEDULED=1 npm run build
+// renders scheduled posts too. Never set it in the deploy workflow.
+const previewScheduled = process.env.CO_PREVIEW_SCHEDULED === '1';
+
+export const posts: BlogPostRecord[] = previewScheduled
+  ? allPosts
+  : allPosts.filter((post) => post.date <= contentAsOf);
+
+for (const post of posts) {
+  if (post.date <= contentAsOf && post.updated > contentAsOf) {
     throw new Error(`Post "${post.slug}" was updated ${post.updated}, after ${contentAsOf}.`);
   }
 }
+
+/** Every post record, published or scheduled (used by scripts/content). */
+export { allPosts };
