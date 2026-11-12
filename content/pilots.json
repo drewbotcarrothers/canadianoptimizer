@@ -1,0 +1,9 @@
+{
+  "_note": "Programmatic families ship 3-5 pilot pages first (content strategy §4). Add a slug before drafting it; set passed=true only after Andrew sees the pilot review (~6-8 weeks of GSC/GA4 data).",
+  "families": {
+    "forms": { "pilots": ["final-tax-return-deceased-canada", "rrsp-deduction-limit-explained", "t2125-form-guide", "t776-rental-income-form-guide", "schedule-3-capital-gains-how-to-report"], "passed": false },
+    "province": { "pilots": ["land-transfer-tax-ontario", "property-transfer-tax-bc", "welcome-tax-quebec"], "passed": false },
+    "scenario": { "pilots": ["rrsp-or-tfsa-by-income"], "passed": false },
+    "glossary": { "pilots": [], "passed": false }
+  }
+}

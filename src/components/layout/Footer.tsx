@@ -62,6 +62,7 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4 border-b border-gray-700 pb-2">Company</h3>
           <ul className="space-y-2 text-sm text-gray-400">
             <li><Link href="/about/" className="hover:text-white transition-colors">About Andrew</Link></li>
+            <li><Link href="/how-we-use-ai/" className="hover:text-white transition-colors">How We Use AI</Link></li>
             <li><Link href="/blog/" className="hover:text-white transition-colors">Read the Blog</Link></li>
             <li><Link href="/ebooks/" className="hover:text-white transition-colors">Ebooks</Link></li>
             <li><Link href="/contact/" className="hover:text-white transition-colors">Contact</Link></li>

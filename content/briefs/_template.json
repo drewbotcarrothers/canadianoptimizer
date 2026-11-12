@@ -1,0 +1,19 @@
+{
+  "slug": "example-slug",
+  "title": "Natural-language title that matches the question",
+  "family": "core | vs | review | best-of | province | scenario | forms | how-to | qa | glossary | year | tools | data | pillar",
+  "category": "taxes",
+  "subcategory": "life-events-estates",
+  "targetQuery": "the main query, word for word",
+  "secondaryQueries": [],
+  "infoGain": "One line: the calculation, worked example, dated table or Andrew's own take this page adds. Must also appear on the page inside an element with data-info-gain.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-16",
+  "agentChecks": {
+    "2a": { "pass": null, "by": "", "on": "", "note": "answers read as answers under the title and each question heading" },
+    "4a": { "pass": null, "by": "", "on": "", "note": "no invented quotes, experience, tests or review claims" },
+    "6a": { "pass": null, "by": "", "on": "", "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown" }
+  }
+}
