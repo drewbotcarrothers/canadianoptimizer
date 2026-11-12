@@ -303,13 +303,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </h1>
             <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500 mb-8">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
-                  <Image
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=crop"
-                    alt={post.author}
-                    width={32}
-                    height={32}
-                  />
+                <div className="w-8 h-8 rounded-full bg-canadian-red text-white flex items-center justify-center font-bold text-sm" aria-hidden="true">
+                  {post.author.charAt(0)}
                 </div>
                 <Link href="/about/" className="font-semibold text-charcoal hover:text-canadian-red">
                   {post.author}

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import { authorSchema, buildPageMetadata } from '@/lib/site';
@@ -23,26 +22,20 @@ export default function About() {
         </header>
 
         <div className="flex flex-col md:flex-row gap-12 items-start mb-20">
-          <div className="w-full md:w-1/3 relative aspect-square rounded-2xl overflow-hidden shadow-lg">
-             {/* Placeholder for Andrew's headshot */}
-            <Image 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
-              alt="Andrew" 
-              fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
-            />
+          <div className="w-full md:w-1/3 aspect-square rounded-2xl bg-canadian-red text-white flex items-center justify-center shadow-lg" aria-hidden="true">
+            <span className="text-8xl font-bold">A</span>
           </div>
-          
+
           <div className="w-full md:w-2/3 prose prose-lg max-w-none text-gray-700">
-            <h2 className="text-2xl font-bold text-charcoal mb-4">My Financial Optimization Journey</h2>
+            <h2 className="text-2xl font-bold text-charcoal mb-4">Meet Andrew</h2>
             <p className="mb-4">
               Andrew is a personal finance expert, DIY investor and life optimizer based in Toronto, Canada. With over 19 years of corporate experience at a leading Canadian company, Andrew combines deep industry knowledge with a passion for technology to help others navigate personal finance and streamline their daily lives.
             </p>
             <p className="mb-4">
-              Most personal finance advice stops at "buy index funds" and "max your RRSP". But true wealth acceleration happens at the margins. It happens when you implement the Smith Maneuver to make your mortgage tax-deductible. It happens when you structure your corporate dividends to minimize personal tax.
+              Most personal finance advice stops at &quot;buy index funds&quot; and &quot;max your RRSP.&quot; Andrew started Canadian Optimizer to go further: practical strategies on taxes, registered accounts, investing, real estate, credit cards and government benefits, explained the way the Canadian rules actually work.
             </p>
             <p>
-              I built this platform because I couldn't find a centralized resource specifically dedicated to high-level, actionable financial optimization strategies for Canadians. Everything here is based on research into how the Canadian rules actually work, checked against primary official sources.
+              Every article is researched against primary official sources such as the CRA, ESDC, the Bank of Canada and provincial governments. It is general education, not personalized financial, tax or legal advice.
             </p>
           </div>
         </div>
@@ -66,7 +59,7 @@ export default function About() {
             <div>
               <h3 className="font-semibold text-lg text-canadian-red mb-3">Authoritativeness</h3>
               <p className="text-gray-600 text-sm">
-                Strategies are referenced directly against primary official sources (CRA folios, OSFI regulations).
+                Strategies are checked against primary official sources, such as CRA guidance and folios, ESDC benefit pages and provincial government sites, and posts are updated when the rules change.
               </p>
             </div>
             <div>
