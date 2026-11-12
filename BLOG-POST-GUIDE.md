@@ -24,32 +24,17 @@ Nine categories, matching `CATEGORIES` in `src/lib/site.ts`:
 | Insurance | Insurance | `insurance` | `/category/insurance/` |
 | Government Benefits | Government Benefits | `government-benefits` | `/category/government-benefits/` |
 
-Two categories have subcategories: Earning More and Investing.
+Every category has subcategories (57 in total, November 2026). Each subcategory has a hub page at `/category/{categorySlug}/{subcategory}/`. The full list — slug, name, hub intro, "start here" path — lives in `src/data/taxonomy.ts` (`SUBCATEGORIES`, `HUB_CONTENT`). Read it before choosing one.
 
-**Earning More is about earning the money.** Its three subcategories:
+**Every post belongs to exactly one subcategory**, except the one pillar guide per category (`PILLAR_SLUGS` in `src/data/taxonomy.ts`), which sits at the category root. The build fails if a published post has no valid subcategory. Pick the hub by the reader's job: RRSP tax rules go under Taxes › TFSA, RRSP & FHSA Tax Rules; opening and investing an RRSP goes under Investing › Accounts & Asset Location.
 
-| Subcategory | `subcategory` | Hub |
-|---|---|---|
-| Employee | `employee` | `/category/earning-more/employee/` |
-| Entrepreneur | `entrepreneur` | `/category/earning-more/entrepreneur/` |
-| Side Hustles | `side-hustles` | `/category/earning-more/side-hustles/` |
+**Earning More is about earning the money.** Its subcategories are `employee`, `entrepreneur`, `side-hustles`, `career-employment-rights` and `creator-online-income`. The tax mechanics of that income — brackets, CPP, EI, dividends, deductions — live in **Taxes**. Link the Taxes article. Do not rebuild the bracket table inside an Earning More post.
 
-Employee posts cover raises, offers, severance, overtime, and the pay stub. Entrepreneur posts cover rates, registration, clients, and getting paid. Side Hustles posts cover extra income and whether it still pays. The tax mechanics of that income — brackets, CPP, EI, dividends, deductions — live in **Taxes**. Link the Taxes article. Do not rebuild the bracket table inside an Earning More post. The hub states the order: pick the path first; tax prices the path after the dollar exists.
+**Investing is split by investor profile and by job:** `passive-etf`, `dividend-investing`, `stock-picking`, `hands-off`, `brokerages-platforms`, `accounts-asset-location`, `fixed-income-cash` and `us-global`. Tax mechanics still live in **Taxes**; link them.
 
-**Investing is split by investor profile.** Four subcategories:
+Live posts that predate the taxonomy get their subcategory from `SUBCATEGORY_ASSIGNMENTS` in `src/data/taxonomy.ts`. New posts set `subcategory` on the record. A hub with fewer than 3 posts is built but `noindex` and left out of the sitemap until it fills in.
 
-| Subcategory | `subcategory` | Hub |
-|---|---|---|
-| Passive ETF Investing | `passive-etf` | `/category/investing/passive-etf/` |
-| Dividend Investing | `dividend-investing` | `/category/investing/dividend-investing/` |
-| Stock Picking | `stock-picking` | `/category/investing/stock-picking/` |
-| Hands-Off Investing | `hands-off` | `/category/investing/hands-off/` |
-
-Passive ETF posts cover all-in-one ETFs, model portfolios, asset location, rebalancing, and staying invested. Dividend posts cover dividend income, the dividend tax credit, sectors, DRIPs, and yield traps. Stock Picking posts cover analyzing and valuing a business, sizing, selling, and record-keeping (ACB, T5008). Hands-Off posts cover robo-advisors, advisors, mutual funds, and planners: what they cost and how to choose. Accounts, brokerages, and tax plumbing every investor needs (TFSA vs RRSP, brokerage comparisons, Norbert's Gambit, withholding tax) stay **untagged** and render under "Start here" on the Investing hub. Tax mechanics still live in **Taxes**; link them.
-
-In the cluster modules, Investing tags are set with the `INVESTING_SUBCATEGORY` map in `src/data/investing-cluster.ts` or directly on the record. Investing posts link their subcategory hub in the first screen, as Earning More posts do.
-
-Set `subcategory` only on Earning More and Investing posts, and only to one of the slugs above. Other categories have no subcategories. A made-up slug is dropped from the breadcrumb.
+Every post links its subcategory hub in the first 150 words of body copy.
 
 ## 2. The post record
 
@@ -62,7 +47,7 @@ A post is a `BlogPostRecord` (`src/lib/post-video.ts`). Recent posts are built i
 | `title` | The H1, the hero alt, and the start of the `<title>`. See SEO. |
 | `slug` | Lowercase, hyphenated, unique. The URL is `/blog/{slug}/`. The hero file uses the same slug. Do not change it after publish. |
 | `category` / `categorySlug` | The pair from the table above. |
-| `subcategory` | Earning More: `employee`, `entrepreneur`, or `side-hustles`. Investing: `passive-etf`, `dividend-investing`, `stock-picking`, or `hands-off` (omit for general posts). |
+| `subcategory` | Required. One slug from `SUBCATEGORIES` in `src/data/taxonomy.ts` for the post's category. Only the category pillar omits it. |
 | `author` | The string `Andrew`. Nothing else. |
 | `date` | `YYYY-MM-DD`. First publication. The header prints the month and year: `Published October 2026`. |
 | `updated` | `YYYY-MM-DD`. On first publish, set it equal to `date`. The header prints `Updated {Month Year}` only when the two differ. |
@@ -78,7 +63,7 @@ There is no separate hero-alt field and no separate meta-description field. The 
 
 ### Date guard
 
-`src/data/posts.ts` throws while the module loads if `date` or `updated` is after today in `America/Toronto`. The comparison is the `YYYY-MM-DD` string. A future date fails the build. Use the Toronto calendar day you are shipping, or an earlier day. Never a planned date.
+`src/data/posts.ts` compares `date` and `updated` with today in `America/Toronto` (`YYYY-MM-DD` strings). A post dated after today is **scheduled**: it is left out of every route, the sitemap and the feeds, and goes live on the first deploy on or after its date. A scheduled post must have `updated` equal to `date`. A published post with `updated` after today fails the build. Daily batch PRs use the planned publish date and are merged on that day; see `CONTENT-QA.md`.
 
 ### What the template adds, so you do not author it
 
