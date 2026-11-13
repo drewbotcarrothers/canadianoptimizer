@@ -11,27 +11,34 @@ export const oct2026RealEstatePosts = [
     'real-estate',
     'first-time-home-buyers-gst-rebate',
     "The First-Time Home Buyers' GST/HST Rebate (Up to $50,000) and Ontario's Extra Rebate",
-    'The federal first-time buyers’ GST/HST rebate can return up to $50,000 on a new home. Ontario’s enhanced rebate is a separate, dated top-up.',
+    "Canada's first-time home buyers' GST/HST rebate returns up to $50,000 on a new home valued up to $1 million, nothing at $1.5 million, and nothing on a resale. Ontario adds a capped provincial top-up.",
     `<div class="container">
 
     <div class="hook">
-        A resale house and a new house can carry the same sticker. Only one of them can send you a GST/HST rebate of up to <span class="highlight">$50,000</span>. The rebate is not a discount the listing agent applies to a century bungalow. It is a claim on tax that was charged on a new or substantially renovated home, and Ontario has stacked a second, time-limited rebate on the provincial slice.
+        The first-time home buyers' GST/HST rebate in Canada returns up to <span class="highlight">$50,000</span> of the GST, or the federal part of the HST, on a new or substantially renovated first home valued up to $1 million. It shrinks between $1 million and $1.5 million and is zero at $1.5 million. A resale house and a new house can carry the same sticker, but only the new one can send you this rebate. The rebate is not a discount the listing agent applies to a century bungalow. It is a claim on tax that was charged on a new or substantially renovated home, and Ontario has stacked a second, time-limited rebate on the provincial slice.
     </div>
 
     <div class="callout">
-        <strong>Key takeaways, from CRA pages reviewed October 4, 2026:</strong>
+        <strong>Key takeaways, from CRA pages checked November 12, 2026:</strong>
         <ul>
             <li>The first-time home buyers' GST/HST rebate can recover up to 100 percent of the GST, or the federal part of the HST, up to $50,000. CRA says that full rebate applies at a value at or below $1 million. Between $1 million and $1.5 million the maximum is gradually reduced. At or above $1.5 million there is no rebate.</li>
             <li>CRA's own example: a new home valued at $1.25 million is the midpoint and is eligible for 50 percent of the $50,000 maximum, which is $25,000, when the other conditions are met.</li>
             <li>For a purchase from a builder, the agreement has to be on or after March 20, 2025 and before 2031. Construction has to begin before 2031 and be substantially completed before 2036, and ownership has to transfer before 2036. Owner-built homes use a construction-start window of the same dates. Royal Assent was March 12, 2026. The usual filing window is two years from ownership or possession, depending on the application type.</li>
+            <li>"First-time" has its own GST test: you are at least 18, a Canadian citizen or permanent resident, and you have not lived as your primary residence in a home you or your spouse or common-law partner owned in the year you take ownership or the previous four calendar years. Neither of you can have received this rebate before.</li>
             <li>Ontario's first-time buyers' rebate, noted on CRA's FTHB overview, can rebate up to $80,000 of the provincial part of the HST and follows the federal eligibility conditions.</li>
             <li>Ontario's enhanced new housing rebate is a different program. Notice 346 (August 2026) ties builder agreements and owner-built starts to April 1, 2026 through March 31, 2027. Combined with the existing Ontario new housing rebate, relief on the 8 percent provincial part can reach $80,000. It is not limited to first-time buyers.</li>
         </ul>
     </div>
 
-    <p>The purchase sequence around accounts and down payments is the <a href="/blog/first-time-home-buyer-guide-canada/">first-time home buyer guide</a>. The older GST/HST new housing rebate, the one that was already on the books, is discussed in <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">grants beyond the FHSA</a>. This page is the 2025–2031 federal rebate and the Ontario window that sits on top of it. The FHSA and the Home Buyers' Plan are cash for the down payment. They are not this rebate. Sequence them in <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA purchase sequencing</a> and the <a href="/blog/home-buyers-plan-hbp-guide/">Home Buyers' Plan guide</a>.</p>
+    <p>The purchase sequence around accounts and down payments is the <a href="/blog/first-time-home-buyer-guide-canada/">first-time home buyer guide</a>. The older GST/HST new housing rebate, the one that was already on the books, is discussed in <a href="/blog/first-home-buyer-grants-beyond-fhsa-canada/">grants beyond the FHSA</a>. More housing guides are in the <a href="/category/real-estate/">Real Estate hub</a>. This page is the 2025–2031 federal rebate and the Ontario window that sits on top of it. The FHSA and the Home Buyers' Plan are cash for the down payment. They are not this rebate. Sequence them in <a href="/blog/fhsa-home-purchase-sequencing-canada/">FHSA purchase sequencing</a> and the <a href="/blog/home-buyers-plan-hbp-guide/">Home Buyers' Plan guide</a>.</p>
 
-    <h2>Who is the rebate actually for?</h2>
+    <h2>Who counts as a first-time home buyer for this rebate?</h2>
+
+    <p>CRA's answer is a calendar test, not a feeling. On the date ownership transfers from the builder, you must be at least 18, a Canadian citizen or permanent resident, and you must not have lived, as your primary place of residence, in a home that you or your spouse or common-law partner owned, in Canada or abroad, at any time in that calendar year or the previous four calendar years. Neither you nor your spouse or partner can have received a first-time home buyers' GST/HST rebate before.</p>
+
+    <p>CRA's own pair of examples shows how the date moves the answer. Someone sold the home they lived in in June 2022 and has rented since. If the new home's ownership transfers in August 2026, 2022 is inside the previous four calendar years, so they are not a first-time buyer for this rebate. If ownership transfers in February 2027, the look-back is 2023 to 2027, and they can qualify if every other condition is met. For an owner-built home, the test date is the earlier of first occupancy and substantial completion.</p>
+
+    <h2>Which homes and contracts qualify for the rebate?</h2>
 
     <p>CRA's "who can apply" page is the test, and it is longer than a headline. For a house bought from a builder, the conditions in the page reviewed include: you meet the existing new-housing-rebate tests, or you would meet them if the maximum consideration were $1.5 million instead of $450,000; the agreement with the builder is dated on or after March 20, 2025 and before 2031; construction or substantial renovation begins before 2031 and is substantially completed before 2036; ownership transfers before 2036; you are buying it as your primary place of residence; and you are the first individual to occupy it as a residence after substantial completion. Owner-built homes shift the March 20, 2025 date onto the start of construction, still before 2031, with substantial completion before 2036. Guide RC4028 adds that you have not already received this rebate.</p>
 
@@ -42,7 +49,7 @@ export const oct2026RealEstatePosts = [
         <p>A used residential complex is generally an exempt supply. No GST/HST is charged, so there is no GST/HST to rebate. The $50,000 figure does not come off the price of a resale condo. If a builder is selling a new unit, tax is in the deal, and the rebate is a claim against that tax. If you are not sure which contract you signed, the lawyer's statement of adjustments is the document, not the listing photo.</p>
     </div>
 
-    <h2>I ran the numbers on CRA's midpoint</h2>
+    <h2>How much is the rebate at $1 million, $1.25 million and $1.5 million?</h2>
 
     <p>CRA's "what is the rebate" page does the midpoint for you. A new home valued at $1.25 million sits halfway between $1 million and $1.5 million. The page says the buyer is eligible for 50 percent of the $50,000 maximum, which is $25,000, when the other conditions are met. This article does not invent a formula past that example. Guide RC4028 is the line-by-line calculation, including whether the value is the builder's consideration or a fair-market-value test for an owner-built house. Use the guide's worksheet. Do not scale $50,000 by a ratio you built in a note app and hand it to a builder.</p>
 
@@ -76,12 +83,52 @@ export const oct2026RealEstatePosts = [
 
     <p>Five percent of $1,000,000 is $50,000. That is why the cap and the "$1 million" band meet. It is not a promise that every contract priced at $1,000,000 produces a $50,000 cheque. Assignment deals, rebates the builder already credited, and the existing new housing rebate, which this rebate tops up when both apply, all change the form. CRA says where both the existing new housing rebate and the FTHB rebate apply, the FTHB rebate acts as a top-up. You do not add two marketing numbers and call it $50,000 plus the old rebate without the worksheet.</p>
 
+    <table>
+        <caption>Illustration only: federal rebate at different values, assuming the buyer qualifies and 5 percent GST or federal HST was charged on the price</caption>
+        <thead>
+            <tr>
+                <th>New home value</th>
+                <th>Federal part of the tax (5 percent)</th>
+                <th>Federal FTHB rebate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>$600,000</td>
+                <td>$30,000</td>
+                <td>Up to $30,000 (up to 100 percent of the tax)</td>
+            </tr>
+            <tr>
+                <td>$1,000,000</td>
+                <td>$50,000</td>
+                <td>Up to $50,000 (the cap)</td>
+            </tr>
+            <tr>
+                <td>$1,250,000</td>
+                <td>$62,500</td>
+                <td>$25,000 (CRA's own midpoint example)</td>
+            </tr>
+            <tr>
+                <td>$1,500,000 or more</td>
+                <td>$75,000 or more</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td>$900,000 resale (exempt supply)</td>
+                <td>$0</td>
+                <td>$0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>The $600,000 and $1,000,000 rows are simple arithmetic on CRA's "up to 100 percent of the GST, maximum $50,000" rule. The $1.25 million row is CRA's example. Your actual rebate is calculated in Guide RC4028 and depends on the price, credits on the statement of adjustments, and the existing new housing rebate it tops up.</p>
+
     <div class="example-box">
         <strong>Illustration: same $900,000 headline, two different tax lives</strong>
         <p>These are not listings. They are a teaching contrast. Case A is a resale condo at $900,000 with no GST/HST on the purchase because the supply is exempt. The federal rebate is zero. Case B is a new condo from a builder, agreement dated after March 20, 2025 and before 2031, valued under $1 million, buyer qualifies, and GST or the federal part of the HST was charged. The federal rebate can be up to 100 percent of that federal tax, capped at $50,000. The cash due on closing still includes everything in the <a href="/blog/land-transfer-tax-closing-costs-canada/">closing cost guide</a>, and the mortgage math is unchanged by a rebate the builder has not yet credited. If the builder credits the rebate at closing, the funds you need are lower. If the builder does not, you pay the tax and file. CMHC insurance, if the down payment requires it, is a separate premium. It is the <a href="/blog/cmhc-mortgage-insurance-canada/">mortgage insurance guide</a>, not a housing rebate.</p>
     </div>
 
-    <h2>Ontario is two programs, and they do not stack without a cap</h2>
+    <h2>How do Ontario's two HST rebates combine?</h2>
 
     <p>CRA's FTHB overview says the Ontario first-time home buyers' rebate provides up to $80,000 of the provincial part of the HST and follows the federal FTHB eligibility conditions. That is the first-time program. Notice 346, GST/HST Notice, August 2026, describes a second program: the Ontario enhanced new housing rebate. Together with the existing Ontario new housing rebate, it can relieve up to $80,000 of the 8 percent provincial part of the HST on a new or substantially renovated home valued up to $1,850,000, for use as the buyer's or a relation's primary place of residence. Builder agreements entered into on or after April 1, 2026 and on or before March 31, 2027 can qualify, with further dates: construction begun by December 31, 2028, substantially completed by December 31, 2031, consideration under $1,850,000, and tax payable by December 31, 2032. Owner-built homes look at a construction start inside April 1, 2026 to March 31, 2027, substantial completion before 2030, and fair market value under $1,850,000. An agreement signed before April 1, 2026 that is later varied is deemed, for this rebate, to have been entered into before April 1, 2026. You do not amend your way in.</p>
 
@@ -117,18 +164,27 @@ export const oct2026RealEstatePosts = [
 
     <p>The Ontario new home affordability payment is provincial, not a CRA rebate. Notice 346 says it provides up to $50,000, equivalent to up to 100 percent of the 5 percent federal part, for someone who is also entitled to the enhanced rebate. It is reduced by the federal part of any new housing rebate or FTHB GST/HST rebate the person is entitled to. A first-time buyer who can claim the full federal rebate has to claim that first. Whatever federal tax is left, if any, is what the affordability payment can still cover. A buyer who is not a first-time buyer can be in the enhanced rebate and in the affordability payment without the federal FTHB rebate eating the payment. Consent on the GST190 or GST191 lets CRA share details with Ontario. ServiceOntario's number on the notice is 1-800-267-8097. There is no separate CRA form just for the payment.</p>
 
-    <h2>How the claim actually gets filed</h2>
+    <h2>How do you apply for the first-time home buyers' GST/HST rebate?</h2>
 
     <ol>
         <li>Read the agreement date out loud. March 20, 2025 and April 1, 2026 are different gates for different rebates.</li>
         <li>Ask the builder, in writing, which rebates they will credit on the statement of adjustments. A credit you already received is not a second application.</li>
-        <li>If the builder credits the federal and Ontario rebates, the builder files GST190 and, in Ontario, RC7190-ON with the GST/HST return. Electronic filing for the enhanced rebate was not available on the CRA page reviewed. The builder cannot deduct the Ontario affordability payment on the GST/HST return. Ontario pays that.</li>
-        <li>If the builder does not credit a rebate you are entitled to, you file. CRA's application page says you generally have two years from ownership or possession, depending on the application type. A purchase that closed before Royal Assent on March 12, 2026 can be the subject of a later FTHB application inside that two-year limit.</li>
+        <li>If the builder credits the federal and Ontario rebates, you sign Form GST190 (and, in Ontario, RC7190-ON) with the builder or your lawyer around closing, and the builder files it with its GST/HST return, along with a copy of the statement of adjustments and the signed agreement of purchase and sale. CRA does not process a builder-filed application until those documents arrive. The builder cannot deduct the Ontario affordability payment on the GST/HST return. Ontario pays that.</li>
+        <li>If the builder does not credit a rebate you are entitled to, you file. CRA's builder-purchase page says you have up to two years from the date ownership was transferred to you (possession, for a house on leased land), and the fastest way is online: sign in to your CRA account and choose "File a GST/HST rebate." You can also mail GST190 and RC7190-ON. If the builder credited only the older new housing rebate, you file a separate application for the FTHB rebate inside the same two years. A purchase that closed before Royal Assent on March 12, 2026 can get a later FTHB application inside that limit.</li>
+        <li>Do not let a builder credit a rebate you do not qualify for. Notice 346 says that when a builder pays or credits a housing rebate the buyer was not entitled to, the builder and the buyer are jointly and severally liable to repay it to CRA.</li>
         <li>Owner-builders use GST191 and, in Ontario, RC7191-ON. The dates are construction dates, not the day you bought the lot.</li>
         <li>Keep the occupancy document. "First occupant" and "primary place of residence" are facts with evidence, not moods.</li>
     </ol>
 
+    <p>The rebate is a sales-tax claim, so it sits next to your income-tax planning rather than inside it. If you want the rest of the year's tax moves in one place, our <a href="/ebooks/tax-guide/">2026 Canadian tax guide</a> covers the FHSA, the Home Buyers' Plan and the credits a new owner files for.</p>
+
     <h2>Frequently asked questions</h2>
+
+    <h3>I sold my last home a few years ago. Am I a first-time buyer again?</h3>
+    <p>Possibly. CRA looks at the calendar year ownership of the new home transfers and the four calendar years before it. If you, or your spouse or common-law partner, owned and lived in a home as your primary residence anywhere in that window, you fail the test. CRA's example: a home sold in June 2022 disqualifies a buyer who takes ownership in August 2026 but not one who takes ownership in February 2027.</p>
+
+    <h3>Does the rebate apply outside Ontario, for example in Alberta or B.C.?</h3>
+    <p>Yes. The federal rebate covers the GST, or the federal part of the HST, on a qualifying new home anywhere in Canada. The Ontario first-time and enhanced rebates on this page are Ontario programs for the 8 percent provincial part of the HST, so they do not apply in other provinces.</p>
 
     <h3>Does the $50,000 come off a resale purchase?</h3>
     <p>No. The rebate recovers GST or the federal part of the HST on a new or substantially renovated home. A resale that is an exempt supply did not charge that tax. There is nothing to rebate.</p>
@@ -160,7 +216,8 @@ export const oct2026RealEstatePosts = [
 
     ${footer}
 
-</div>`
+</div>`,
+    '2026-11-12'
   ),
   octPost(
     'Real Estate',
