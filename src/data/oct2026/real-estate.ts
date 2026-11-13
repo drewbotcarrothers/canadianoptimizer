@@ -6,7 +6,8 @@ const disclaimer =
 const footer = articleFooter('Real Estate', disclaimer);
 
 export const oct2026RealEstatePosts = [
-  octPost(
+  {
+    ...octPost(
     'Real Estate',
     'real-estate',
     'first-time-home-buyers-gst-rebate',
@@ -218,7 +219,12 @@ export const oct2026RealEstatePosts = [
 
 </div>`,
     '2026-11-12'
-  ),
+    ),
+    youtubeId: 'UTmvLhDQXIs',
+    youtubeTitle: 'First-Time Buyer GST Rebate: Why Resale Gets $0',
+    youtubeUploadDate: '2026-11-13T13:23:43-05:00',
+    youtubeDuration: 'PT5M16S',
+  },
   octPost(
     'Real Estate',
     'real-estate',
