@@ -1,0 +1,9122 @@
+{
+ "r0.03_A_80": {
+  "min": {
+   "withdrawn": 261175,
+   "life_income_tax": 28509.891536656392,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 363382,
+   "final_income_tax": 101155,
+   "final_oas_recovery": 10065,
+   "total_tax": 139730,
+   "estate_after_tax": 252162
+  },
+  "level": {
+   "withdrawn": 287139,
+   "life_income_tax": 32690.106186497862,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 332910,
+   "final_income_tax": 91588,
+   "final_oas_recovery": 10065,
+   "total_tax": 134343,
+   "estate_after_tax": 231257
+  },
+  "tfsa_from_surplus": 24821,
+  "level_net_advantage": 3916,
+  "max_annual_surplus": 2426,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 47492,
+    "income_tax": 2799,
+    "oas_recovery": 0,
+    "aftertax": 44693
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 47435,
+    "income_tax": 2790,
+    "oas_recovery": 0,
+    "aftertax": 44645
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 47374,
+    "income_tax": 2780,
+    "oas_recovery": 0,
+    "aftertax": 44594
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 48218,
+    "income_tax": 2916,
+    "oas_recovery": 0,
+    "aftertax": 45302
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 48132,
+    "income_tax": 2902,
+    "oas_recovery": 0,
+    "aftertax": 45230
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 48111,
+    "income_tax": 2898,
+    "oas_recovery": 0,
+    "aftertax": 45212
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 48012,
+    "income_tax": 2882,
+    "oas_recovery": 0,
+    "aftertax": 45129
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 47956,
+    "income_tax": 2873,
+    "oas_recovery": 0,
+    "aftertax": 45083
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 47887,
+    "income_tax": 2862,
+    "oas_recovery": 0,
+    "aftertax": 45025
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   }
+  ]
+ },
+ "r0.03_A_85": {
+  "min": {
+   "withdrawn": 389044,
+   "life_income_tax": 42621.67808449048,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 281386,
+   "final_income_tax": 74027,
+   "final_oas_recovery": 10065,
+   "total_tax": 126713,
+   "estate_after_tax": 197294
+  },
+  "level": {
+   "withdrawn": 430709,
+   "life_income_tax": 49329.789279746794,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 228914,
+   "final_income_tax": 57269,
+   "final_oas_recovery": 10065,
+   "total_tax": 116664,
+   "estate_after_tax": 161580
+  },
+  "tfsa_from_surplus": 42741,
+  "level_net_advantage": 7027,
+  "max_annual_surplus": 2771,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 47492,
+    "income_tax": 2799,
+    "oas_recovery": 0,
+    "aftertax": 44693
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 47435,
+    "income_tax": 2790,
+    "oas_recovery": 0,
+    "aftertax": 44645
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 47374,
+    "income_tax": 2780,
+    "oas_recovery": 0,
+    "aftertax": 44594
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 48218,
+    "income_tax": 2916,
+    "oas_recovery": 0,
+    "aftertax": 45302
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 48132,
+    "income_tax": 2902,
+    "oas_recovery": 0,
+    "aftertax": 45230
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 48111,
+    "income_tax": 2898,
+    "oas_recovery": 0,
+    "aftertax": 45212
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 48012,
+    "income_tax": 2882,
+    "oas_recovery": 0,
+    "aftertax": 45129
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 47956,
+    "income_tax": 2873,
+    "oas_recovery": 0,
+    "aftertax": 45083
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 47887,
+    "income_tax": 2862,
+    "oas_recovery": 0,
+    "aftertax": 45025
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 47792,
+    "income_tax": 2847,
+    "oas_recovery": 0,
+    "aftertax": 44945
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 47731,
+    "income_tax": 2837,
+    "oas_recovery": 0,
+    "aftertax": 44894
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 47645,
+    "income_tax": 2823,
+    "oas_recovery": 0,
+    "aftertax": 44822
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 47548,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44740
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 47476,
+    "income_tax": 2796,
+    "oas_recovery": 0,
+    "aftertax": 44680
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   }
+  ]
+ },
+ "r0.03_A_90": {
+  "min": {
+   "withdrawn": 514434,
+   "life_income_tax": 56334.444371578335,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 189030,
+   "final_income_tax": 44661,
+   "final_oas_recovery": 10065,
+   "total_tax": 111060,
+   "estate_after_tax": 134304
+  },
+  "level": {
+   "withdrawn": 574279,
+   "life_income_tax": 65969.47237299572,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 108355,
+   "final_income_tax": 22733,
+   "final_oas_recovery": 9572,
+   "total_tax": 98275,
+   "estate_after_tax": 76050
+  },
+  "tfsa_from_surplus": 65715,
+  "level_net_advantage": 7460,
+  "max_annual_surplus": 3253,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 47492,
+    "income_tax": 2799,
+    "oas_recovery": 0,
+    "aftertax": 44693
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 47435,
+    "income_tax": 2790,
+    "oas_recovery": 0,
+    "aftertax": 44645
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 47374,
+    "income_tax": 2780,
+    "oas_recovery": 0,
+    "aftertax": 44594
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 48218,
+    "income_tax": 2916,
+    "oas_recovery": 0,
+    "aftertax": 45302
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 48132,
+    "income_tax": 2902,
+    "oas_recovery": 0,
+    "aftertax": 45230
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 48111,
+    "income_tax": 2898,
+    "oas_recovery": 0,
+    "aftertax": 45212
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 48012,
+    "income_tax": 2882,
+    "oas_recovery": 0,
+    "aftertax": 45129
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 47956,
+    "income_tax": 2873,
+    "oas_recovery": 0,
+    "aftertax": 45083
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 47887,
+    "income_tax": 2862,
+    "oas_recovery": 0,
+    "aftertax": 45025
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 47792,
+    "income_tax": 2847,
+    "oas_recovery": 0,
+    "aftertax": 44945
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 47731,
+    "income_tax": 2837,
+    "oas_recovery": 0,
+    "aftertax": 44894
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 47645,
+    "income_tax": 2823,
+    "oas_recovery": 0,
+    "aftertax": 44822
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 47548,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44740
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 47476,
+    "income_tax": 2796,
+    "oas_recovery": 0,
+    "aftertax": 44680
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 47362,
+    "income_tax": 2778,
+    "oas_recovery": 0,
+    "aftertax": 44584
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 47255,
+    "income_tax": 2761,
+    "oas_recovery": 0,
+    "aftertax": 44495
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 47155,
+    "income_tax": 2744,
+    "oas_recovery": 0,
+    "aftertax": 44410
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 47042,
+    "income_tax": 2726,
+    "oas_recovery": 0,
+    "aftertax": 44316
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 46902,
+    "income_tax": 2704,
+    "oas_recovery": 0,
+    "aftertax": 44198
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   }
+  ]
+ },
+ "r0.03_A_95": {
+  "min": {
+   "withdrawn": 633641,
+   "life_income_tax": 69116.9798617318,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 88546,
+   "final_income_tax": 17862,
+   "final_oas_recovery": 5517,
+   "total_tax": 92496,
+   "estate_after_tax": 65167
+  },
+  "level": {
+   "withdrawn": 687408,
+   "life_income_tax": 79003.3021986123,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 79003,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 70897,
+  "level_net_advantage": 5730,
+  "max_annual_surplus": 3652,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 47492,
+    "income_tax": 2799,
+    "oas_recovery": 0,
+    "aftertax": 44693
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 47435,
+    "income_tax": 2790,
+    "oas_recovery": 0,
+    "aftertax": 44645
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 47374,
+    "income_tax": 2780,
+    "oas_recovery": 0,
+    "aftertax": 44594
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 48218,
+    "income_tax": 2916,
+    "oas_recovery": 0,
+    "aftertax": 45302
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 48132,
+    "income_tax": 2902,
+    "oas_recovery": 0,
+    "aftertax": 45230
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 48111,
+    "income_tax": 2898,
+    "oas_recovery": 0,
+    "aftertax": 45212
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 48012,
+    "income_tax": 2882,
+    "oas_recovery": 0,
+    "aftertax": 45129
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 47956,
+    "income_tax": 2873,
+    "oas_recovery": 0,
+    "aftertax": 45083
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 47887,
+    "income_tax": 2862,
+    "oas_recovery": 0,
+    "aftertax": 45025
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 47792,
+    "income_tax": 2847,
+    "oas_recovery": 0,
+    "aftertax": 44945
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 47731,
+    "income_tax": 2837,
+    "oas_recovery": 0,
+    "aftertax": 44894
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 47645,
+    "income_tax": 2823,
+    "oas_recovery": 0,
+    "aftertax": 44822
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 47548,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44740
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 47476,
+    "income_tax": 2796,
+    "oas_recovery": 0,
+    "aftertax": 44680
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 47362,
+    "income_tax": 2778,
+    "oas_recovery": 0,
+    "aftertax": 44584
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 47255,
+    "income_tax": 2761,
+    "oas_recovery": 0,
+    "aftertax": 44495
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 47155,
+    "income_tax": 2744,
+    "oas_recovery": 0,
+    "aftertax": 44410
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 47042,
+    "income_tax": 2726,
+    "oas_recovery": 0,
+    "aftertax": 44316
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 46902,
+    "income_tax": 2704,
+    "oas_recovery": 0,
+    "aftertax": 44198
+   },
+   {
+    "age": 91,
+    "start": 189030,
+    "withdrawal": 24687,
+    "minimum": 24687,
+    "net_income": 46752,
+    "income_tax": 2680,
+    "oas_recovery": 0,
+    "aftertax": 44073
+   },
+   {
+    "age": 92,
+    "start": 169273,
+    "withdrawal": 24528,
+    "minimum": 24528,
+    "net_income": 46593,
+    "income_tax": 2654,
+    "oas_recovery": 0,
+    "aftertax": 43939
+   },
+   {
+    "age": 93,
+    "start": 149087,
+    "withdrawal": 24361,
+    "minimum": 24361,
+    "net_income": 46426,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43799
+   },
+   {
+    "age": 94,
+    "start": 128468,
+    "withdrawal": 24139,
+    "minimum": 24139,
+    "net_income": 46204,
+    "income_tax": 2596,
+    "oas_recovery": 0,
+    "aftertax": 43608
+   },
+   {
+    "age": 95,
+    "start": 107459,
+    "withdrawal": 21492,
+    "minimum": 21492,
+    "net_income": 43557,
+    "income_tax": 2226,
+    "oas_recovery": 0,
+    "aftertax": 41331
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 49864,
+    "income_tax": 3181,
+    "oas_recovery": 0,
+    "aftertax": 46683
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 91,
+    "start": 108355,
+    "withdrawal": 28714,
+    "minimum": 14151,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 92,
+    "start": 82030,
+    "withdrawal": 28714,
+    "minimum": 11886,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 93,
+    "start": 54916,
+    "withdrawal": 28714,
+    "minimum": 8973,
+    "net_income": 50779,
+    "income_tax": 3328,
+    "oas_recovery": 0,
+    "aftertax": 47451
+   },
+   {
+    "age": 94,
+    "start": 26988,
+    "withdrawal": 26988,
+    "minimum": 5071,
+    "net_income": 49053,
+    "income_tax": 3050,
+    "oas_recovery": 0,
+    "aftertax": 46003
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 22065,
+    "income_tax": 0,
+    "oas_recovery": 0,
+    "aftertax": 22065
+   }
+  ]
+ },
+ "r0.03_B_80": {
+  "min": {
+   "withdrawn": 261175,
+   "life_income_tax": 111950.68532474748,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 363382,
+   "final_income_tax": 106006,
+   "final_oas_recovery": 10065,
+   "total_tax": 228022,
+   "estate_after_tax": 247311
+  },
+  "level": {
+   "withdrawn": 287139,
+   "life_income_tax": 117818.56427421437,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 332910,
+   "final_income_tax": 96251,
+   "final_oas_recovery": 10065,
+   "total_tax": 224135,
+   "estate_after_tax": 226594
+  },
+  "tfsa_from_surplus": 22898,
+  "level_net_advantage": 2181,
+  "max_annual_surplus": 2238,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 87492,
+    "income_tax": 11122,
+    "oas_recovery": 0,
+    "aftertax": 76370
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 87435,
+    "income_tax": 11109,
+    "oas_recovery": 0,
+    "aftertax": 76326
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 87374,
+    "income_tax": 11095,
+    "oas_recovery": 0,
+    "aftertax": 76279
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 88218,
+    "income_tax": 11286,
+    "oas_recovery": 0,
+    "aftertax": 76932
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 88132,
+    "income_tax": 11266,
+    "oas_recovery": 0,
+    "aftertax": 76866
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 88111,
+    "income_tax": 11262,
+    "oas_recovery": 0,
+    "aftertax": 76849
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 88012,
+    "income_tax": 11239,
+    "oas_recovery": 0,
+    "aftertax": 76773
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 87956,
+    "income_tax": 11227,
+    "oas_recovery": 0,
+    "aftertax": 76730
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 87887,
+    "income_tax": 11211,
+    "oas_recovery": 0,
+    "aftertax": 76676
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   }
+  ]
+ },
+ "r0.03_B_85": {
+  "min": {
+   "withdrawn": 389044,
+   "life_income_tax": 167725.07156580652,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 281386,
+   "final_income_tax": 78905,
+   "final_oas_recovery": 10065,
+   "total_tax": 256695,
+   "estate_after_tax": 192416
+  },
+  "level": {
+   "withdrawn": 430709,
+   "life_income_tax": 177141.42641132156,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 228914,
+   "final_income_tax": 61933,
+   "final_oas_recovery": 10065,
+   "total_tax": 249139,
+   "estate_after_tax": 156917
+  },
+  "tfsa_from_surplus": 39430,
+  "level_net_advantage": 3931,
+  "max_annual_surplus": 2557,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 87492,
+    "income_tax": 11122,
+    "oas_recovery": 0,
+    "aftertax": 76370
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 87435,
+    "income_tax": 11109,
+    "oas_recovery": 0,
+    "aftertax": 76326
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 87374,
+    "income_tax": 11095,
+    "oas_recovery": 0,
+    "aftertax": 76279
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 88218,
+    "income_tax": 11286,
+    "oas_recovery": 0,
+    "aftertax": 76932
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 88132,
+    "income_tax": 11266,
+    "oas_recovery": 0,
+    "aftertax": 76866
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 88111,
+    "income_tax": 11262,
+    "oas_recovery": 0,
+    "aftertax": 76849
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 88012,
+    "income_tax": 11239,
+    "oas_recovery": 0,
+    "aftertax": 76773
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 87956,
+    "income_tax": 11227,
+    "oas_recovery": 0,
+    "aftertax": 76730
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 87887,
+    "income_tax": 11211,
+    "oas_recovery": 0,
+    "aftertax": 76676
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 87792,
+    "income_tax": 11190,
+    "oas_recovery": 0,
+    "aftertax": 76603
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 87731,
+    "income_tax": 11176,
+    "oas_recovery": 0,
+    "aftertax": 76556
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 87645,
+    "income_tax": 11156,
+    "oas_recovery": 0,
+    "aftertax": 76489
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 87548,
+    "income_tax": 11134,
+    "oas_recovery": 0,
+    "aftertax": 76414
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 87476,
+    "income_tax": 11118,
+    "oas_recovery": 0,
+    "aftertax": 76358
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   }
+  ]
+ },
+ "r0.03_B_90": {
+  "min": {
+   "withdrawn": 514434,
+   "life_income_tax": 222939.3424097932,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 189030,
+   "final_income_tax": 48368,
+   "final_oas_recovery": 10065,
+   "total_tax": 281372,
+   "estate_after_tax": 130597
+  },
+  "level": {
+   "withdrawn": 574279,
+   "life_income_tax": 236464.28854842874,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 108355,
+   "final_income_tax": 24720,
+   "final_oas_recovery": 10065,
+   "total_tax": 271249,
+   "estate_after_tax": 73570
+  },
+  "tfsa_from_surplus": 60624,
+  "level_net_advantage": 3596,
+  "max_annual_surplus": 3001,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 87492,
+    "income_tax": 11122,
+    "oas_recovery": 0,
+    "aftertax": 76370
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 87435,
+    "income_tax": 11109,
+    "oas_recovery": 0,
+    "aftertax": 76326
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 87374,
+    "income_tax": 11095,
+    "oas_recovery": 0,
+    "aftertax": 76279
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 88218,
+    "income_tax": 11286,
+    "oas_recovery": 0,
+    "aftertax": 76932
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 88132,
+    "income_tax": 11266,
+    "oas_recovery": 0,
+    "aftertax": 76866
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 88111,
+    "income_tax": 11262,
+    "oas_recovery": 0,
+    "aftertax": 76849
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 88012,
+    "income_tax": 11239,
+    "oas_recovery": 0,
+    "aftertax": 76773
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 87956,
+    "income_tax": 11227,
+    "oas_recovery": 0,
+    "aftertax": 76730
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 87887,
+    "income_tax": 11211,
+    "oas_recovery": 0,
+    "aftertax": 76676
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 87792,
+    "income_tax": 11190,
+    "oas_recovery": 0,
+    "aftertax": 76603
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 87731,
+    "income_tax": 11176,
+    "oas_recovery": 0,
+    "aftertax": 76556
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 87645,
+    "income_tax": 11156,
+    "oas_recovery": 0,
+    "aftertax": 76489
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 87548,
+    "income_tax": 11134,
+    "oas_recovery": 0,
+    "aftertax": 76414
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 87476,
+    "income_tax": 11118,
+    "oas_recovery": 0,
+    "aftertax": 76358
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 87362,
+    "income_tax": 11092,
+    "oas_recovery": 0,
+    "aftertax": 76269
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 87255,
+    "income_tax": 11068,
+    "oas_recovery": 0,
+    "aftertax": 76187
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 87155,
+    "income_tax": 11046,
+    "oas_recovery": 0,
+    "aftertax": 76109
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 87042,
+    "income_tax": 11020,
+    "oas_recovery": 0,
+    "aftertax": 76022
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 86902,
+    "income_tax": 10988,
+    "oas_recovery": 0,
+    "aftertax": 75913
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   }
+  ]
+ },
+ "r0.03_B_95": {
+  "min": {
+   "withdrawn": 633641,
+   "life_income_tax": 276756.17081585445,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 88546,
+   "final_income_tax": 19073,
+   "final_oas_recovery": 10065,
+   "total_tax": 305894,
+   "estate_after_tax": 59408
+  },
+  "level": {
+   "withdrawn": 687408,
+   "life_income_tax": 288907.6822353191,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 288908,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 66539,
+  "level_net_advantage": 7130,
+  "max_annual_surplus": 3369,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 87492,
+    "income_tax": 11122,
+    "oas_recovery": 0,
+    "aftertax": 76370
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 87435,
+    "income_tax": 11109,
+    "oas_recovery": 0,
+    "aftertax": 76326
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 87374,
+    "income_tax": 11095,
+    "oas_recovery": 0,
+    "aftertax": 76279
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 88218,
+    "income_tax": 11286,
+    "oas_recovery": 0,
+    "aftertax": 76932
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 88132,
+    "income_tax": 11266,
+    "oas_recovery": 0,
+    "aftertax": 76866
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 88111,
+    "income_tax": 11262,
+    "oas_recovery": 0,
+    "aftertax": 76849
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 88012,
+    "income_tax": 11239,
+    "oas_recovery": 0,
+    "aftertax": 76773
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 87956,
+    "income_tax": 11227,
+    "oas_recovery": 0,
+    "aftertax": 76730
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 87887,
+    "income_tax": 11211,
+    "oas_recovery": 0,
+    "aftertax": 76676
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 87792,
+    "income_tax": 11190,
+    "oas_recovery": 0,
+    "aftertax": 76603
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 87731,
+    "income_tax": 11176,
+    "oas_recovery": 0,
+    "aftertax": 76556
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 87645,
+    "income_tax": 11156,
+    "oas_recovery": 0,
+    "aftertax": 76489
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 87548,
+    "income_tax": 11134,
+    "oas_recovery": 0,
+    "aftertax": 76414
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 87476,
+    "income_tax": 11118,
+    "oas_recovery": 0,
+    "aftertax": 76358
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 87362,
+    "income_tax": 11092,
+    "oas_recovery": 0,
+    "aftertax": 76269
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 87255,
+    "income_tax": 11068,
+    "oas_recovery": 0,
+    "aftertax": 76187
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 87155,
+    "income_tax": 11046,
+    "oas_recovery": 0,
+    "aftertax": 76109
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 87042,
+    "income_tax": 11020,
+    "oas_recovery": 0,
+    "aftertax": 76022
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 86902,
+    "income_tax": 10988,
+    "oas_recovery": 0,
+    "aftertax": 75913
+   },
+   {
+    "age": 91,
+    "start": 189030,
+    "withdrawal": 24687,
+    "minimum": 24687,
+    "net_income": 86752,
+    "income_tax": 10955,
+    "oas_recovery": 0,
+    "aftertax": 75798
+   },
+   {
+    "age": 92,
+    "start": 169273,
+    "withdrawal": 24528,
+    "minimum": 24528,
+    "net_income": 86593,
+    "income_tax": 10918,
+    "oas_recovery": 0,
+    "aftertax": 75674
+   },
+   {
+    "age": 93,
+    "start": 149087,
+    "withdrawal": 24361,
+    "minimum": 24361,
+    "net_income": 86426,
+    "income_tax": 10881,
+    "oas_recovery": 0,
+    "aftertax": 75545
+   },
+   {
+    "age": 94,
+    "start": 128468,
+    "withdrawal": 24139,
+    "minimum": 24139,
+    "net_income": 86204,
+    "income_tax": 10831,
+    "oas_recovery": 0,
+    "aftertax": 75374
+   },
+   {
+    "age": 95,
+    "start": 107459,
+    "withdrawal": 21492,
+    "minimum": 21492,
+    "net_income": 83557,
+    "income_tax": 10232,
+    "oas_recovery": 0,
+    "aftertax": 73324
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 89864,
+    "income_tax": 11658,
+    "oas_recovery": 0,
+    "aftertax": 78206
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 91,
+    "start": 108355,
+    "withdrawal": 28714,
+    "minimum": 14151,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 92,
+    "start": 82030,
+    "withdrawal": 28714,
+    "minimum": 11886,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 93,
+    "start": 54916,
+    "withdrawal": 28714,
+    "minimum": 8973,
+    "net_income": 90779,
+    "income_tax": 11865,
+    "oas_recovery": 0,
+    "aftertax": 78914
+   },
+   {
+    "age": 94,
+    "start": 26988,
+    "withdrawal": 26988,
+    "minimum": 5071,
+    "net_income": 89053,
+    "income_tax": 11474,
+    "oas_recovery": 0,
+    "aftertax": 77578
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 62065,
+    "income_tax": 5375,
+    "oas_recovery": 0,
+    "aftertax": 56690
+   }
+  ]
+ },
+ "r0.03_C_80": {
+  "min": {
+   "withdrawn": 261175,
+   "life_income_tax": 149073.37902603537,
+   "life_oas_recovery": 15740.293357133283,
+   "deemed_balance": 363382,
+   "final_income_tax": 108236,
+   "final_oas_recovery": 8480,
+   "total_tax": 281531,
+   "estate_after_tax": 246665
+  },
+  "level": {
+   "withdrawn": 287139,
+   "life_income_tax": 154061.0761330822,
+   "life_oas_recovery": 19634.903279345817,
+   "deemed_balance": 332910,
+   "final_income_tax": 98579,
+   "final_oas_recovery": 8047,
+   "total_tax": 280322,
+   "estate_after_tax": 226284
+  },
+  "tfsa_from_surplus": 19464,
+  "level_net_advantage": -918,
+  "max_annual_surplus": 1903,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 103966,
+    "income_tax": 14845,
+    "oas_recovery": 1525,
+    "aftertax": 89121
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 103918,
+    "income_tax": 14834,
+    "oas_recovery": 1517,
+    "aftertax": 89084
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 103866,
+    "income_tax": 14822,
+    "oas_recovery": 1508,
+    "aftertax": 89044
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 104584,
+    "income_tax": 14984,
+    "oas_recovery": 1634,
+    "aftertax": 89599
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 104511,
+    "income_tax": 14968,
+    "oas_recovery": 1621,
+    "aftertax": 89543
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 104492,
+    "income_tax": 14964,
+    "oas_recovery": 1618,
+    "aftertax": 89529
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 104409,
+    "income_tax": 14945,
+    "oas_recovery": 1603,
+    "aftertax": 89464
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 104361,
+    "income_tax": 14934,
+    "oas_recovery": 1595,
+    "aftertax": 89427
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 104302,
+    "income_tax": 14921,
+    "oas_recovery": 1585,
+    "aftertax": 89381
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   }
+  ]
+ },
+ "r0.03_C_85": {
+  "min": {
+   "withdrawn": 389044,
+   "life_income_tax": 223439.25558093554,
+   "life_oas_recovery": 23477.06187996007,
+   "deemed_balance": 281386,
+   "final_income_tax": 81121,
+   "final_oas_recovery": 8542,
+   "total_tax": 336579,
+   "estate_after_tax": 191723
+  },
+  "level": {
+   "withdrawn": 430709,
+   "life_income_tax": 231443.1571996233,
+   "life_oas_recovery": 29726.854919018722,
+   "deemed_balance": 228914,
+   "final_income_tax": 64261,
+   "final_oas_recovery": 8047,
+   "total_tax": 333477,
+   "estate_after_tax": 156607
+  },
+  "tfsa_from_surplus": 33515,
+  "level_net_advantage": -1600,
+  "max_annual_surplus": 2173,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 103966,
+    "income_tax": 14845,
+    "oas_recovery": 1525,
+    "aftertax": 89121
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 103918,
+    "income_tax": 14834,
+    "oas_recovery": 1517,
+    "aftertax": 89084
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 103866,
+    "income_tax": 14822,
+    "oas_recovery": 1508,
+    "aftertax": 89044
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 104584,
+    "income_tax": 14984,
+    "oas_recovery": 1634,
+    "aftertax": 89599
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 104511,
+    "income_tax": 14968,
+    "oas_recovery": 1621,
+    "aftertax": 89543
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 104492,
+    "income_tax": 14964,
+    "oas_recovery": 1618,
+    "aftertax": 89529
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 104409,
+    "income_tax": 14945,
+    "oas_recovery": 1603,
+    "aftertax": 89464
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 104361,
+    "income_tax": 14934,
+    "oas_recovery": 1595,
+    "aftertax": 89427
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 104302,
+    "income_tax": 14921,
+    "oas_recovery": 1585,
+    "aftertax": 89381
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 104222,
+    "income_tax": 14903,
+    "oas_recovery": 1570,
+    "aftertax": 89319
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 104170,
+    "income_tax": 14891,
+    "oas_recovery": 1561,
+    "aftertax": 89279
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 104097,
+    "income_tax": 14874,
+    "oas_recovery": 1548,
+    "aftertax": 89223
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 104014,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89159
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 103953,
+    "income_tax": 14842,
+    "oas_recovery": 1523,
+    "aftertax": 89111
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   }
+  ]
+ },
+ "r0.03_C_90": {
+  "min": {
+   "withdrawn": 514434,
+   "life_income_tax": 297329.0340483242,
+   "life_oas_recovery": 30842.072395880434,
+   "deemed_balance": 189030,
+   "final_income_tax": 50564,
+   "final_oas_recovery": 8628,
+   "total_tax": 387364,
+   "estate_after_tax": 129837
+  },
+  "level": {
+   "withdrawn": 574279,
+   "life_income_tax": 308825.2382661644,
+   "life_oas_recovery": 39818.806558691635,
+   "deemed_balance": 108355,
+   "final_income_tax": 26381,
+   "final_oas_recovery": 8047,
+   "total_tax": 383072,
+   "estate_after_tax": 73927
+  },
+  "tfsa_from_surplus": 51530,
+  "level_net_advantage": -4380,
+  "max_annual_surplus": 2551,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 103966,
+    "income_tax": 14845,
+    "oas_recovery": 1525,
+    "aftertax": 89121
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 103918,
+    "income_tax": 14834,
+    "oas_recovery": 1517,
+    "aftertax": 89084
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 103866,
+    "income_tax": 14822,
+    "oas_recovery": 1508,
+    "aftertax": 89044
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 104584,
+    "income_tax": 14984,
+    "oas_recovery": 1634,
+    "aftertax": 89599
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 104511,
+    "income_tax": 14968,
+    "oas_recovery": 1621,
+    "aftertax": 89543
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 104492,
+    "income_tax": 14964,
+    "oas_recovery": 1618,
+    "aftertax": 89529
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 104409,
+    "income_tax": 14945,
+    "oas_recovery": 1603,
+    "aftertax": 89464
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 104361,
+    "income_tax": 14934,
+    "oas_recovery": 1595,
+    "aftertax": 89427
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 104302,
+    "income_tax": 14921,
+    "oas_recovery": 1585,
+    "aftertax": 89381
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 104222,
+    "income_tax": 14903,
+    "oas_recovery": 1570,
+    "aftertax": 89319
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 104170,
+    "income_tax": 14891,
+    "oas_recovery": 1561,
+    "aftertax": 89279
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 104097,
+    "income_tax": 14874,
+    "oas_recovery": 1548,
+    "aftertax": 89223
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 104014,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89159
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 103953,
+    "income_tax": 14842,
+    "oas_recovery": 1523,
+    "aftertax": 89111
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 103856,
+    "income_tax": 14820,
+    "oas_recovery": 1506,
+    "aftertax": 89036
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 103765,
+    "income_tax": 14800,
+    "oas_recovery": 1490,
+    "aftertax": 88966
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 103680,
+    "income_tax": 14780,
+    "oas_recovery": 1475,
+    "aftertax": 88900
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 103584,
+    "income_tax": 14759,
+    "oas_recovery": 1458,
+    "aftertax": 88825
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 103465,
+    "income_tax": 14732,
+    "oas_recovery": 1437,
+    "aftertax": 88733
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   }
+  ]
+ },
+ "r0.03_C_95": {
+  "min": {
+   "withdrawn": 633641,
+   "life_income_tax": 370030.9864434763,
+   "life_oas_recovery": 37279.57686892995,
+   "deemed_balance": 88546,
+   "final_income_tax": 19896,
+   "final_oas_recovery": 9130,
+   "total_tax": 436337,
+   "estate_after_tax": 59520
+  },
+  "level": {
+   "withdrawn": 687408,
+   "life_income_tax": 379842.5249500212,
+   "life_oas_recovery": 47633.43931547727,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 427476,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 54786,
+  "level_net_advantage": -4734,
+  "max_annual_surplus": 2864,
+  "level_payment": 28714,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 487808,
+    "withdrawal": 26342,
+    "minimum": 26342,
+    "net_income": 103966,
+    "income_tax": 14845,
+    "oas_recovery": 1525,
+    "aftertax": 89121
+   },
+   {
+    "age": 73,
+    "start": 475310,
+    "withdrawal": 26285,
+    "minimum": 26285,
+    "net_income": 103918,
+    "income_tax": 14834,
+    "oas_recovery": 1517,
+    "aftertax": 89084
+   },
+   {
+    "age": 74,
+    "start": 462496,
+    "withdrawal": 26224,
+    "minimum": 26224,
+    "net_income": 103866,
+    "income_tax": 14822,
+    "oas_recovery": 1508,
+    "aftertax": 89044
+   },
+   {
+    "age": 75,
+    "start": 449361,
+    "withdrawal": 26153,
+    "minimum": 26153,
+    "net_income": 104584,
+    "income_tax": 14984,
+    "oas_recovery": 1634,
+    "aftertax": 89599
+   },
+   {
+    "age": 76,
+    "start": 435905,
+    "withdrawal": 26067,
+    "minimum": 26067,
+    "net_income": 104511,
+    "income_tax": 14968,
+    "oas_recovery": 1621,
+    "aftertax": 89543
+   },
+   {
+    "age": 77,
+    "start": 422133,
+    "withdrawal": 26046,
+    "minimum": 26046,
+    "net_income": 104492,
+    "income_tax": 14964,
+    "oas_recovery": 1618,
+    "aftertax": 89529
+   },
+   {
+    "age": 78,
+    "start": 407970,
+    "withdrawal": 25947,
+    "minimum": 25947,
+    "net_income": 104409,
+    "income_tax": 14945,
+    "oas_recovery": 1603,
+    "aftertax": 89464
+   },
+   {
+    "age": 79,
+    "start": 393483,
+    "withdrawal": 25891,
+    "minimum": 25891,
+    "net_income": 104361,
+    "income_tax": 14934,
+    "oas_recovery": 1595,
+    "aftertax": 89427
+   },
+   {
+    "age": 80,
+    "start": 378620,
+    "withdrawal": 25822,
+    "minimum": 25822,
+    "net_income": 104302,
+    "income_tax": 14921,
+    "oas_recovery": 1585,
+    "aftertax": 89381
+   },
+   {
+    "age": 81,
+    "start": 363382,
+    "withdrawal": 25727,
+    "minimum": 25727,
+    "net_income": 104222,
+    "income_tax": 14903,
+    "oas_recovery": 1570,
+    "aftertax": 89319
+   },
+   {
+    "age": 82,
+    "start": 347784,
+    "withdrawal": 25666,
+    "minimum": 25666,
+    "net_income": 104170,
+    "income_tax": 14891,
+    "oas_recovery": 1561,
+    "aftertax": 89279
+   },
+   {
+    "age": 83,
+    "start": 331781,
+    "withdrawal": 25580,
+    "minimum": 25580,
+    "net_income": 104097,
+    "income_tax": 14874,
+    "oas_recovery": 1548,
+    "aftertax": 89223
+   },
+   {
+    "age": 84,
+    "start": 315387,
+    "withdrawal": 25483,
+    "minimum": 25483,
+    "net_income": 104014,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89159
+   },
+   {
+    "age": 85,
+    "start": 298601,
+    "withdrawal": 25411,
+    "minimum": 25411,
+    "net_income": 103953,
+    "income_tax": 14842,
+    "oas_recovery": 1523,
+    "aftertax": 89111
+   },
+   {
+    "age": 86,
+    "start": 281386,
+    "withdrawal": 25297,
+    "minimum": 25297,
+    "net_income": 103856,
+    "income_tax": 14820,
+    "oas_recovery": 1506,
+    "aftertax": 89036
+   },
+   {
+    "age": 87,
+    "start": 263772,
+    "withdrawal": 25190,
+    "minimum": 25190,
+    "net_income": 103765,
+    "income_tax": 14800,
+    "oas_recovery": 1490,
+    "aftertax": 88966
+   },
+   {
+    "age": 88,
+    "start": 245739,
+    "withdrawal": 25090,
+    "minimum": 25090,
+    "net_income": 103680,
+    "income_tax": 14780,
+    "oas_recovery": 1475,
+    "aftertax": 88900
+   },
+   {
+    "age": 89,
+    "start": 227268,
+    "withdrawal": 24977,
+    "minimum": 24977,
+    "net_income": 103584,
+    "income_tax": 14759,
+    "oas_recovery": 1458,
+    "aftertax": 88825
+   },
+   {
+    "age": 90,
+    "start": 208360,
+    "withdrawal": 24837,
+    "minimum": 24837,
+    "net_income": 103465,
+    "income_tax": 14732,
+    "oas_recovery": 1437,
+    "aftertax": 88733
+   },
+   {
+    "age": 91,
+    "start": 189030,
+    "withdrawal": 24687,
+    "minimum": 24687,
+    "net_income": 103338,
+    "income_tax": 14703,
+    "oas_recovery": 1414,
+    "aftertax": 88635
+   },
+   {
+    "age": 92,
+    "start": 169273,
+    "withdrawal": 24528,
+    "minimum": 24528,
+    "net_income": 103202,
+    "income_tax": 14672,
+    "oas_recovery": 1390,
+    "aftertax": 88530
+   },
+   {
+    "age": 93,
+    "start": 149087,
+    "withdrawal": 24361,
+    "minimum": 24361,
+    "net_income": 103060,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88420
+   },
+   {
+    "age": 94,
+    "start": 128468,
+    "withdrawal": 24139,
+    "minimum": 24139,
+    "net_income": 102872,
+    "income_tax": 14598,
+    "oas_recovery": 1332,
+    "aftertax": 88274
+   },
+   {
+    "age": 95,
+    "start": 107459,
+    "withdrawal": 21492,
+    "minimum": 21492,
+    "net_income": 100622,
+    "income_tax": 14089,
+    "oas_recovery": 935,
+    "aftertax": 86533
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 28714,
+    "minimum": 26400,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 72,
+    "start": 485425,
+    "withdrawal": 28714,
+    "minimum": 26213,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 73,
+    "start": 470412,
+    "withdrawal": 28714,
+    "minimum": 26014,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 74,
+    "start": 454949,
+    "withdrawal": 28714,
+    "minimum": 25796,
+    "net_income": 105983,
+    "income_tax": 15301,
+    "oas_recovery": 1881,
+    "aftertax": 90682
+   },
+   {
+    "age": 75,
+    "start": 439022,
+    "withdrawal": 28714,
+    "minimum": 25551,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 76,
+    "start": 422617,
+    "withdrawal": 28714,
+    "minimum": 25273,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 77,
+    "start": 405721,
+    "withdrawal": 28714,
+    "minimum": 25033,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 78,
+    "start": 388317,
+    "withdrawal": 28714,
+    "minimum": 24697,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 79,
+    "start": 370391,
+    "withdrawal": 28714,
+    "minimum": 24372,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 80,
+    "start": 351927,
+    "withdrawal": 28714,
+    "minimum": 24001,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 81,
+    "start": 332910,
+    "withdrawal": 28714,
+    "minimum": 23570,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 82,
+    "start": 313322,
+    "withdrawal": 28714,
+    "minimum": 23123,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 83,
+    "start": 293146,
+    "withdrawal": 28714,
+    "minimum": 22602,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 84,
+    "start": 272365,
+    "withdrawal": 28714,
+    "minimum": 22007,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 85,
+    "start": 250961,
+    "withdrawal": 28714,
+    "minimum": 21357,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 86,
+    "start": 228914,
+    "withdrawal": 28714,
+    "minimum": 20579,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 87,
+    "start": 206206,
+    "withdrawal": 28714,
+    "minimum": 19693,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 88,
+    "start": 182817,
+    "withdrawal": 28714,
+    "minimum": 18666,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 89,
+    "start": 158726,
+    "withdrawal": 28714,
+    "minimum": 17444,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 90,
+    "start": 133913,
+    "withdrawal": 28714,
+    "minimum": 15962,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 91,
+    "start": 108355,
+    "withdrawal": 28714,
+    "minimum": 14151,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 92,
+    "start": 82030,
+    "withdrawal": 28714,
+    "minimum": 11886,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 93,
+    "start": 54916,
+    "withdrawal": 28714,
+    "minimum": 8973,
+    "net_income": 106761,
+    "income_tax": 15476,
+    "oas_recovery": 2018,
+    "aftertax": 91284
+   },
+   {
+    "age": 94,
+    "start": 26988,
+    "withdrawal": 26988,
+    "minimum": 5071,
+    "net_income": 105293,
+    "income_tax": 15145,
+    "oas_recovery": 1759,
+    "aftertax": 90148
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 80065,
+    "income_tax": 9443,
+    "oas_recovery": 0,
+    "aftertax": 70622
+   }
+  ]
+ },
+ "r0.01_A_80": {
+  "min": {
+   "withdrawn": 239592,
+   "life_income_tax": 25232.52024041483,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 298679,
+   "final_income_tax": 79040,
+   "final_oas_recovery": 10065,
+   "total_tax": 114337,
+   "estate_after_tax": 209574
+  },
+  "level": {
+   "withdrawn": 241307,
+   "life_income_tax": 25472.545917592437,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 296940,
+   "final_income_tax": 78667,
+   "final_oas_recovery": 10065,
+   "total_tax": 114205,
+   "estate_after_tax": 208208
+  },
+  "tfsa_from_surplus": 1481,
+  "level_net_advantage": 114,
+  "max_annual_surplus": 911,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 44684,
+    "income_tax": 2383,
+    "oas_recovery": 0,
+    "aftertax": 42301
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 44197,
+    "income_tax": 2315,
+    "oas_recovery": 0,
+    "aftertax": 41882
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 43709,
+    "income_tax": 2247,
+    "oas_recovery": 0,
+    "aftertax": 41462
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   }
+  ]
+ },
+ "r0.01_A_85": {
+  "min": {
+   "withdrawn": 340702,
+   "life_income_tax": 35471.43319470514,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 209683,
+   "final_income_tax": 49876,
+   "final_oas_recovery": 10065,
+   "total_tax": 95412,
+   "estate_after_tax": 149743
+  },
+  "level": {
+   "withdrawn": 354824,
+   "life_income_tax": 37448.40960778423,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 195119,
+   "final_income_tax": 46128,
+   "final_oas_recovery": 10065,
+   "total_tax": 93641,
+   "estate_after_tax": 138926
+  },
+  "tfsa_from_surplus": 12401,
+  "level_net_advantage": 1585,
+  "max_annual_surplus": 2918,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 44684,
+    "income_tax": 2383,
+    "oas_recovery": 0,
+    "aftertax": 42301
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 44197,
+    "income_tax": 2315,
+    "oas_recovery": 0,
+    "aftertax": 41882
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 43709,
+    "income_tax": 2247,
+    "oas_recovery": 0,
+    "aftertax": 41462
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 43211,
+    "income_tax": 2177,
+    "oas_recovery": 0,
+    "aftertax": 41034
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 42752,
+    "income_tax": 2113,
+    "oas_recovery": 0,
+    "aftertax": 40639
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 42282,
+    "income_tax": 2047,
+    "oas_recovery": 0,
+    "aftertax": 40235
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 41814,
+    "income_tax": 1982,
+    "oas_recovery": 0,
+    "aftertax": 39833
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 41376,
+    "income_tax": 1920,
+    "oas_recovery": 0,
+    "aftertax": 39456
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   }
+  ]
+ },
+ "r0.01_A_90": {
+  "min": {
+   "withdrawn": 430598,
+   "life_income_tax": 44140.29153409062,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 127706,
+   "final_income_tax": 26336,
+   "final_oas_recovery": 10065,
+   "total_tax": 80541,
+   "estate_after_tax": 91306
+  },
+  "level": {
+   "withdrawn": 468341,
+   "life_income_tax": 49424.273297976026,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 88104,
+   "final_income_tax": 17862,
+   "final_oas_recovery": 5632,
+   "total_tax": 72919,
+   "estate_after_tax": 64609
+  },
+  "tfsa_from_surplus": 33721,
+  "level_net_advantage": 7024,
+  "max_annual_surplus": 4809,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 44684,
+    "income_tax": 2383,
+    "oas_recovery": 0,
+    "aftertax": 42301
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 44197,
+    "income_tax": 2315,
+    "oas_recovery": 0,
+    "aftertax": 41882
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 43709,
+    "income_tax": 2247,
+    "oas_recovery": 0,
+    "aftertax": 41462
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 43211,
+    "income_tax": 2177,
+    "oas_recovery": 0,
+    "aftertax": 41034
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 42752,
+    "income_tax": 2113,
+    "oas_recovery": 0,
+    "aftertax": 40639
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 42282,
+    "income_tax": 2047,
+    "oas_recovery": 0,
+    "aftertax": 40235
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 41814,
+    "income_tax": 1982,
+    "oas_recovery": 0,
+    "aftertax": 39833
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 41376,
+    "income_tax": 1920,
+    "oas_recovery": 0,
+    "aftertax": 39456
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 40916,
+    "income_tax": 1856,
+    "oas_recovery": 0,
+    "aftertax": 39060
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 40472,
+    "income_tax": 1794,
+    "oas_recovery": 0,
+    "aftertax": 38678
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 40043,
+    "income_tax": 1734,
+    "oas_recovery": 0,
+    "aftertax": 38309
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 39614,
+    "income_tax": 1674,
+    "oas_recovery": 0,
+    "aftertax": 37940
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 39177,
+    "income_tax": 1612,
+    "oas_recovery": 0,
+    "aftertax": 37564
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   }
+  ]
+ },
+ "r0.01_A_95": {
+  "min": {
+   "withdrawn": 508151,
+   "life_income_tax": 51081.230159654246,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 54234,
+   "final_income_tax": 10530,
+   "final_oas_recovery": 0,
+   "total_tax": 61611,
+   "estate_after_tax": 43704
+  },
+  "level": {
+   "withdrawn": 557743,
+   "life_income_tax": 58807.36428834348,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 58807,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 45396,
+  "level_net_advantage": 1692,
+  "max_annual_surplus": 5915,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 44684,
+    "income_tax": 2383,
+    "oas_recovery": 0,
+    "aftertax": 42301
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 44197,
+    "income_tax": 2315,
+    "oas_recovery": 0,
+    "aftertax": 41882
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 43709,
+    "income_tax": 2247,
+    "oas_recovery": 0,
+    "aftertax": 41462
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 43211,
+    "income_tax": 2177,
+    "oas_recovery": 0,
+    "aftertax": 41034
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 42752,
+    "income_tax": 2113,
+    "oas_recovery": 0,
+    "aftertax": 40639
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 42282,
+    "income_tax": 2047,
+    "oas_recovery": 0,
+    "aftertax": 40235
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 41814,
+    "income_tax": 1982,
+    "oas_recovery": 0,
+    "aftertax": 39833
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 41376,
+    "income_tax": 1920,
+    "oas_recovery": 0,
+    "aftertax": 39456
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 40916,
+    "income_tax": 1856,
+    "oas_recovery": 0,
+    "aftertax": 39060
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 40472,
+    "income_tax": 1794,
+    "oas_recovery": 0,
+    "aftertax": 38678
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 40043,
+    "income_tax": 1734,
+    "oas_recovery": 0,
+    "aftertax": 38309
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 39614,
+    "income_tax": 1674,
+    "oas_recovery": 0,
+    "aftertax": 37940
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 39177,
+    "income_tax": 1612,
+    "oas_recovery": 0,
+    "aftertax": 37564
+   },
+   {
+    "age": 91,
+    "start": 127706,
+    "withdrawal": 16678,
+    "minimum": 16678,
+    "net_income": 38743,
+    "income_tax": 1552,
+    "oas_recovery": 0,
+    "aftertax": 37192
+   },
+   {
+    "age": 92,
+    "start": 112138,
+    "withdrawal": 16249,
+    "minimum": 16249,
+    "net_income": 38314,
+    "income_tax": 1492,
+    "oas_recovery": 0,
+    "aftertax": 36822
+   },
+   {
+    "age": 93,
+    "start": 96848,
+    "withdrawal": 15825,
+    "minimum": 15825,
+    "net_income": 37890,
+    "income_tax": 1432,
+    "oas_recovery": 0,
+    "aftertax": 36458
+   },
+   {
+    "age": 94,
+    "start": 81834,
+    "withdrawal": 15377,
+    "minimum": 15377,
+    "net_income": 37442,
+    "income_tax": 1369,
+    "oas_recovery": 0,
+    "aftertax": 36072
+   },
+   {
+    "age": 95,
+    "start": 67122,
+    "withdrawal": 13424,
+    "minimum": 13424,
+    "net_income": 35489,
+    "income_tax": 1096,
+    "oas_recovery": 0,
+    "aftertax": 34393
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 47550,
+    "income_tax": 2808,
+    "oas_recovery": 0,
+    "aftertax": 44742
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 46980,
+    "income_tax": 2716,
+    "oas_recovery": 0,
+    "aftertax": 44264
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 46424,
+    "income_tax": 2627,
+    "oas_recovery": 0,
+    "aftertax": 43797
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 45875,
+    "income_tax": 2550,
+    "oas_recovery": 0,
+    "aftertax": 43325
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 46245,
+    "income_tax": 2602,
+    "oas_recovery": 0,
+    "aftertax": 43643
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 45698,
+    "income_tax": 2525,
+    "oas_recovery": 0,
+    "aftertax": 43172
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 45220,
+    "income_tax": 2458,
+    "oas_recovery": 0,
+    "aftertax": 42761
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 91,
+    "start": 88104,
+    "withdrawal": 22703,
+    "minimum": 11506,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 92,
+    "start": 66054,
+    "withdrawal": 22703,
+    "minimum": 9571,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 93,
+    "start": 43785,
+    "withdrawal": 22703,
+    "minimum": 7154,
+    "net_income": 44768,
+    "income_tax": 2395,
+    "oas_recovery": 0,
+    "aftertax": 42373
+   },
+   {
+    "age": 94,
+    "start": 21292,
+    "withdrawal": 21292,
+    "minimum": 4001,
+    "net_income": 43357,
+    "income_tax": 2198,
+    "oas_recovery": 0,
+    "aftertax": 41159
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 22065,
+    "income_tax": 0,
+    "oas_recovery": 0,
+    "aftertax": 22065
+   }
+  ]
+ },
+ "r0.01_B_80": {
+  "min": {
+   "withdrawn": 239592,
+   "life_income_tax": 107072.9446779268,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 298679,
+   "final_income_tax": 84220,
+   "final_oas_recovery": 10065,
+   "total_tax": 201358,
+   "estate_after_tax": 204394
+  },
+  "level": {
+   "withdrawn": 241307,
+   "life_income_tax": 107460.41469965636,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 296940,
+   "final_income_tax": 83756,
+   "final_oas_recovery": 10065,
+   "total_tax": 201282,
+   "estate_after_tax": 203119
+  },
+  "tfsa_from_surplus": 1333,
+  "level_net_advantage": 57,
+  "max_annual_surplus": 820,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 84684,
+    "income_tax": 10487,
+    "oas_recovery": 0,
+    "aftertax": 74197
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 84197,
+    "income_tax": 10377,
+    "oas_recovery": 0,
+    "aftertax": 73820
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 83709,
+    "income_tax": 10267,
+    "oas_recovery": 0,
+    "aftertax": 73443
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   }
+  ]
+ },
+ "r0.01_B_85": {
+  "min": {
+   "withdrawn": 340702,
+   "life_income_tax": 156799.94058985257,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 209683,
+   "final_income_tax": 54609,
+   "final_oas_recovery": 10065,
+   "total_tax": 221474,
+   "estate_after_tax": 145010
+  },
+  "level": {
+   "withdrawn": 354824,
+   "life_income_tax": 159991.34537096598,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 195119,
+   "final_income_tax": 50155,
+   "final_oas_recovery": 10065,
+   "total_tax": 220211,
+   "estate_after_tax": 134899
+  },
+  "tfsa_from_surplus": 11161,
+  "level_net_advantage": 1050,
+  "max_annual_surplus": 2626,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 84684,
+    "income_tax": 10487,
+    "oas_recovery": 0,
+    "aftertax": 74197
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 84197,
+    "income_tax": 10377,
+    "oas_recovery": 0,
+    "aftertax": 73820
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 83709,
+    "income_tax": 10267,
+    "oas_recovery": 0,
+    "aftertax": 73443
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 83211,
+    "income_tax": 10154,
+    "oas_recovery": 0,
+    "aftertax": 73057
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 82752,
+    "income_tax": 10050,
+    "oas_recovery": 0,
+    "aftertax": 72701
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 82282,
+    "income_tax": 9944,
+    "oas_recovery": 0,
+    "aftertax": 72338
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 81814,
+    "income_tax": 9839,
+    "oas_recovery": 0,
+    "aftertax": 71976
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 81376,
+    "income_tax": 9739,
+    "oas_recovery": 0,
+    "aftertax": 71636
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   }
+  ]
+ },
+ "r0.01_B_90": {
+  "min": {
+   "withdrawn": 430598,
+   "life_income_tax": 203992.41976628915,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 127706,
+   "final_income_tax": 29612,
+   "final_oas_recovery": 10065,
+   "total_tax": 243670,
+   "estate_after_tax": 88029
+  },
+  "level": {
+   "withdrawn": 468341,
+   "life_income_tax": 212522.27604227557,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 88104,
+   "final_income_tax": 18999,
+   "final_oas_recovery": 10065,
+   "total_tax": 241586,
+   "estate_after_tax": 59040
+  },
+  "tfsa_from_surplus": 30349,
+  "level_net_advantage": 1360,
+  "max_annual_surplus": 4328,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 84684,
+    "income_tax": 10487,
+    "oas_recovery": 0,
+    "aftertax": 74197
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 84197,
+    "income_tax": 10377,
+    "oas_recovery": 0,
+    "aftertax": 73820
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 83709,
+    "income_tax": 10267,
+    "oas_recovery": 0,
+    "aftertax": 73443
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 83211,
+    "income_tax": 10154,
+    "oas_recovery": 0,
+    "aftertax": 73057
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 82752,
+    "income_tax": 10050,
+    "oas_recovery": 0,
+    "aftertax": 72701
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 82282,
+    "income_tax": 9944,
+    "oas_recovery": 0,
+    "aftertax": 72338
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 81814,
+    "income_tax": 9839,
+    "oas_recovery": 0,
+    "aftertax": 71976
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 81376,
+    "income_tax": 9739,
+    "oas_recovery": 0,
+    "aftertax": 71636
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 80916,
+    "income_tax": 9635,
+    "oas_recovery": 0,
+    "aftertax": 71280
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 80472,
+    "income_tax": 9535,
+    "oas_recovery": 0,
+    "aftertax": 70937
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 80043,
+    "income_tax": 9438,
+    "oas_recovery": 0,
+    "aftertax": 70604
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 79614,
+    "income_tax": 9341,
+    "oas_recovery": 0,
+    "aftertax": 70273
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 79177,
+    "income_tax": 9242,
+    "oas_recovery": 0,
+    "aftertax": 69934
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   }
+  ]
+ },
+ "r0.01_B_95": {
+  "min": {
+   "withdrawn": 508151,
+   "life_income_tax": 248395.54283327042,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 54234,
+   "final_income_tax": 11153,
+   "final_oas_recovery": 5160,
+   "total_tax": 264708,
+   "estate_after_tax": 37922
+  },
+  "level": {
+   "withdrawn": 557743,
+   "life_income_tax": 259603.26078386875,
+   "life_oas_recovery": 0.0,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 259603,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 41562,
+  "level_net_advantage": 3640,
+  "max_annual_surplus": 5324,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 84684,
+    "income_tax": 10487,
+    "oas_recovery": 0,
+    "aftertax": 74197
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 84197,
+    "income_tax": 10377,
+    "oas_recovery": 0,
+    "aftertax": 73820
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 83709,
+    "income_tax": 10267,
+    "oas_recovery": 0,
+    "aftertax": 73443
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 83211,
+    "income_tax": 10154,
+    "oas_recovery": 0,
+    "aftertax": 73057
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 82752,
+    "income_tax": 10050,
+    "oas_recovery": 0,
+    "aftertax": 72701
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 82282,
+    "income_tax": 9944,
+    "oas_recovery": 0,
+    "aftertax": 72338
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 81814,
+    "income_tax": 9839,
+    "oas_recovery": 0,
+    "aftertax": 71976
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 81376,
+    "income_tax": 9739,
+    "oas_recovery": 0,
+    "aftertax": 71636
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 80916,
+    "income_tax": 9635,
+    "oas_recovery": 0,
+    "aftertax": 71280
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 80472,
+    "income_tax": 9535,
+    "oas_recovery": 0,
+    "aftertax": 70937
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 80043,
+    "income_tax": 9438,
+    "oas_recovery": 0,
+    "aftertax": 70604
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 79614,
+    "income_tax": 9341,
+    "oas_recovery": 0,
+    "aftertax": 70273
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 79177,
+    "income_tax": 9242,
+    "oas_recovery": 0,
+    "aftertax": 69934
+   },
+   {
+    "age": 91,
+    "start": 127706,
+    "withdrawal": 16678,
+    "minimum": 16678,
+    "net_income": 78743,
+    "income_tax": 9145,
+    "oas_recovery": 0,
+    "aftertax": 69599
+   },
+   {
+    "age": 92,
+    "start": 112138,
+    "withdrawal": 16249,
+    "minimum": 16249,
+    "net_income": 78314,
+    "income_tax": 9047,
+    "oas_recovery": 0,
+    "aftertax": 69266
+   },
+   {
+    "age": 93,
+    "start": 96848,
+    "withdrawal": 15825,
+    "minimum": 15825,
+    "net_income": 77890,
+    "income_tax": 8952,
+    "oas_recovery": 0,
+    "aftertax": 68938
+   },
+   {
+    "age": 94,
+    "start": 81834,
+    "withdrawal": 15377,
+    "minimum": 15377,
+    "net_income": 77442,
+    "income_tax": 8850,
+    "oas_recovery": 0,
+    "aftertax": 68591
+   },
+   {
+    "age": 95,
+    "start": 67122,
+    "withdrawal": 13424,
+    "minimum": 13424,
+    "net_income": 75489,
+    "income_tax": 8409,
+    "oas_recovery": 0,
+    "aftertax": 67080
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 87550,
+    "income_tax": 11135,
+    "oas_recovery": 0,
+    "aftertax": 76415
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 86980,
+    "income_tax": 11006,
+    "oas_recovery": 0,
+    "aftertax": 75974
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 86424,
+    "income_tax": 10880,
+    "oas_recovery": 0,
+    "aftertax": 75543
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 85875,
+    "income_tax": 10756,
+    "oas_recovery": 0,
+    "aftertax": 75119
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 86245,
+    "income_tax": 10840,
+    "oas_recovery": 0,
+    "aftertax": 75405
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 85698,
+    "income_tax": 10716,
+    "oas_recovery": 0,
+    "aftertax": 74981
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 85220,
+    "income_tax": 10608,
+    "oas_recovery": 0,
+    "aftertax": 74612
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 91,
+    "start": 88104,
+    "withdrawal": 22703,
+    "minimum": 11506,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 92,
+    "start": 66054,
+    "withdrawal": 22703,
+    "minimum": 9571,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 93,
+    "start": 43785,
+    "withdrawal": 22703,
+    "minimum": 7154,
+    "net_income": 84768,
+    "income_tax": 10506,
+    "oas_recovery": 0,
+    "aftertax": 74262
+   },
+   {
+    "age": 94,
+    "start": 21292,
+    "withdrawal": 21292,
+    "minimum": 4001,
+    "net_income": 83357,
+    "income_tax": 10187,
+    "oas_recovery": 0,
+    "aftertax": 73170
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 62065,
+    "income_tax": 5375,
+    "oas_recovery": 0,
+    "aftertax": 56690
+   }
+  ]
+ },
+ "r0.01_C_80": {
+  "min": {
+   "withdrawn": 239592,
+   "life_income_tax": 144927.2994762378,
+   "life_oas_recovery": 12502.854874730176,
+   "deemed_balance": 298679,
+   "final_income_tax": 86308,
+   "final_oas_recovery": 9107,
+   "total_tax": 252846,
+   "estate_after_tax": 203264
+  },
+  "level": {
+   "withdrawn": 241307,
+   "life_income_tax": 145256.6489947079,
+   "life_oas_recovery": 12760.025243134754,
+   "deemed_balance": 296940,
+   "final_income_tax": 85881,
+   "final_oas_recovery": 8948,
+   "total_tax": 252845,
+   "estate_after_tax": 202111
+  },
+  "tfsa_from_surplus": 1133,
+  "level_net_advantage": -20,
+  "max_annual_surplus": 697,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 101580,
+    "income_tax": 14306,
+    "oas_recovery": 1104,
+    "aftertax": 87274
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 101166,
+    "income_tax": 14212,
+    "oas_recovery": 1031,
+    "aftertax": 86954
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 100751,
+    "income_tax": 14118,
+    "oas_recovery": 958,
+    "aftertax": 86633
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   }
+  ]
+ },
+ "r0.01_C_85": {
+  "min": {
+   "withdrawn": 340702,
+   "life_income_tax": 214152.8942513747,
+   "life_oas_recovery": 16225.868754326935,
+   "deemed_balance": 209683,
+   "final_income_tax": 56618,
+   "final_oas_recovery": 9457,
+   "total_tax": 296454,
+   "estate_after_tax": 143608
+  },
+  "level": {
+   "withdrawn": 354824,
+   "life_income_tax": 216865.5883153211,
+   "life_oas_recovery": 18344.057768340248,
+   "deemed_balance": 195119,
+   "final_income_tax": 52280,
+   "final_oas_recovery": 8948,
+   "total_tax": 296437,
+   "estate_after_tax": 133891
+  },
+  "tfsa_from_surplus": 9487,
+  "level_net_advantage": -230,
+  "max_annual_surplus": 2232,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 101580,
+    "income_tax": 14306,
+    "oas_recovery": 1104,
+    "aftertax": 87274
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 101166,
+    "income_tax": 14212,
+    "oas_recovery": 1031,
+    "aftertax": 86954
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 100751,
+    "income_tax": 14118,
+    "oas_recovery": 958,
+    "aftertax": 86633
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 100328,
+    "income_tax": 14023,
+    "oas_recovery": 883,
+    "aftertax": 86306
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 99937,
+    "income_tax": 13934,
+    "oas_recovery": 814,
+    "aftertax": 86003
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 99538,
+    "income_tax": 13844,
+    "oas_recovery": 744,
+    "aftertax": 85694
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 99141,
+    "income_tax": 13754,
+    "oas_recovery": 674,
+    "aftertax": 85386
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 98768,
+    "income_tax": 13670,
+    "oas_recovery": 608,
+    "aftertax": 85098
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   }
+  ]
+ },
+ "r0.01_C_90": {
+  "min": {
+   "withdrawn": 430598,
+   "life_income_tax": 281224.1498013458,
+   "life_oas_recovery": 18266.681260811372,
+   "deemed_balance": 127706,
+   "final_income_tax": 30880,
+   "final_oas_recovery": 9787,
+   "total_tax": 340158,
+   "estate_after_tax": 87039
+  },
+  "level": {
+   "withdrawn": 468341,
+   "life_income_tax": 288474.5276359343,
+   "life_oas_recovery": 23928.09029354574,
+   "deemed_balance": 88104,
+   "final_income_tax": 19863,
+   "final_oas_recovery": 8948,
+   "total_tax": 341214,
+   "estate_after_tax": 59292
+  },
+  "tfsa_from_surplus": 25797,
+  "level_net_advantage": -1950,
+  "max_annual_surplus": 3679,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 101580,
+    "income_tax": 14306,
+    "oas_recovery": 1104,
+    "aftertax": 87274
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 101166,
+    "income_tax": 14212,
+    "oas_recovery": 1031,
+    "aftertax": 86954
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 100751,
+    "income_tax": 14118,
+    "oas_recovery": 958,
+    "aftertax": 86633
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 100328,
+    "income_tax": 14023,
+    "oas_recovery": 883,
+    "aftertax": 86306
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 99937,
+    "income_tax": 13934,
+    "oas_recovery": 814,
+    "aftertax": 86003
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 99538,
+    "income_tax": 13844,
+    "oas_recovery": 744,
+    "aftertax": 85694
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 99141,
+    "income_tax": 13754,
+    "oas_recovery": 674,
+    "aftertax": 85386
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 98768,
+    "income_tax": 13670,
+    "oas_recovery": 608,
+    "aftertax": 85098
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 98377,
+    "income_tax": 13582,
+    "oas_recovery": 539,
+    "aftertax": 84795
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 97999,
+    "income_tax": 13496,
+    "oas_recovery": 472,
+    "aftertax": 84503
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 97635,
+    "income_tax": 13414,
+    "oas_recovery": 408,
+    "aftertax": 84221
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 97270,
+    "income_tax": 13332,
+    "oas_recovery": 344,
+    "aftertax": 83939
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 96899,
+    "income_tax": 13248,
+    "oas_recovery": 278,
+    "aftertax": 83651
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   }
+  ]
+ },
+ "r0.01_C_95": {
+  "min": {
+   "withdrawn": 508151,
+   "life_income_tax": 345862.29071545915,
+   "life_oas_recovery": 18731.204061111705,
+   "deemed_balance": 54234,
+   "final_income_tax": 11063,
+   "final_oas_recovery": 7860,
+   "total_tax": 383516,
+   "estate_after_tax": 35312
+  },
+  "level": {
+   "withdrawn": 557743,
+   "life_income_tax": 354933.76671628846,
+   "life_oas_recovery": 28183.602068939443,
+   "deemed_balance": 0,
+   "final_income_tax": 0,
+   "final_oas_recovery": 0,
+   "total_tax": 383117,
+   "estate_after_tax": 0
+  },
+  "tfsa_from_surplus": 33769,
+  "level_net_advantage": -1543,
+  "max_annual_surplus": 4525,
+  "level_payment": 22703,
+  "rows_min": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22619,
+    "minimum": 22619,
+    "net_income": 101580,
+    "income_tax": 14306,
+    "oas_recovery": 1104,
+    "aftertax": 87274
+   },
+   {
+    "age": 79,
+    "start": 336356,
+    "withdrawal": 22132,
+    "minimum": 22132,
+    "net_income": 101166,
+    "income_tax": 14212,
+    "oas_recovery": 1031,
+    "aftertax": 86954
+   },
+   {
+    "age": 80,
+    "start": 317366,
+    "withdrawal": 21644,
+    "minimum": 21644,
+    "net_income": 100751,
+    "income_tax": 14118,
+    "oas_recovery": 958,
+    "aftertax": 86633
+   },
+   {
+    "age": 81,
+    "start": 298679,
+    "withdrawal": 21146,
+    "minimum": 21146,
+    "net_income": 100328,
+    "income_tax": 14023,
+    "oas_recovery": 883,
+    "aftertax": 86306
+   },
+   {
+    "age": 82,
+    "start": 280308,
+    "withdrawal": 20687,
+    "minimum": 20687,
+    "net_income": 99937,
+    "income_tax": 13934,
+    "oas_recovery": 814,
+    "aftertax": 86003
+   },
+   {
+    "age": 83,
+    "start": 262217,
+    "withdrawal": 20217,
+    "minimum": 20217,
+    "net_income": 99538,
+    "income_tax": 13844,
+    "oas_recovery": 744,
+    "aftertax": 85694
+   },
+   {
+    "age": 84,
+    "start": 244421,
+    "withdrawal": 19749,
+    "minimum": 19749,
+    "net_income": 99141,
+    "income_tax": 13754,
+    "oas_recovery": 674,
+    "aftertax": 85386
+   },
+   {
+    "age": 85,
+    "start": 226918,
+    "withdrawal": 19311,
+    "minimum": 19311,
+    "net_income": 98768,
+    "income_tax": 13670,
+    "oas_recovery": 608,
+    "aftertax": 85098
+   },
+   {
+    "age": 86,
+    "start": 209683,
+    "withdrawal": 18851,
+    "minimum": 18851,
+    "net_income": 98377,
+    "income_tax": 13582,
+    "oas_recovery": 539,
+    "aftertax": 84795
+   },
+   {
+    "age": 87,
+    "start": 192741,
+    "withdrawal": 18407,
+    "minimum": 18407,
+    "net_income": 97999,
+    "income_tax": 13496,
+    "oas_recovery": 472,
+    "aftertax": 84503
+   },
+   {
+    "age": 88,
+    "start": 176078,
+    "withdrawal": 17978,
+    "minimum": 17978,
+    "net_income": 97635,
+    "income_tax": 13414,
+    "oas_recovery": 408,
+    "aftertax": 84221
+   },
+   {
+    "age": 89,
+    "start": 159681,
+    "withdrawal": 17549,
+    "minimum": 17549,
+    "net_income": 97270,
+    "income_tax": 13332,
+    "oas_recovery": 344,
+    "aftertax": 83939
+   },
+   {
+    "age": 90,
+    "start": 143554,
+    "withdrawal": 17112,
+    "minimum": 17112,
+    "net_income": 96899,
+    "income_tax": 13248,
+    "oas_recovery": 278,
+    "aftertax": 83651
+   },
+   {
+    "age": 91,
+    "start": 127706,
+    "withdrawal": 16678,
+    "minimum": 16678,
+    "net_income": 96530,
+    "income_tax": 13164,
+    "oas_recovery": 213,
+    "aftertax": 83366
+   },
+   {
+    "age": 92,
+    "start": 112138,
+    "withdrawal": 16249,
+    "minimum": 16249,
+    "net_income": 96165,
+    "income_tax": 13082,
+    "oas_recovery": 149,
+    "aftertax": 83083
+   },
+   {
+    "age": 93,
+    "start": 96848,
+    "withdrawal": 15825,
+    "minimum": 15825,
+    "net_income": 95805,
+    "income_tax": 13000,
+    "oas_recovery": 85,
+    "aftertax": 82805
+   },
+   {
+    "age": 94,
+    "start": 81834,
+    "withdrawal": 15377,
+    "minimum": 15377,
+    "net_income": 95424,
+    "income_tax": 12914,
+    "oas_recovery": 18,
+    "aftertax": 82509
+   },
+   {
+    "age": 95,
+    "start": 67122,
+    "withdrawal": 13424,
+    "minimum": 13424,
+    "net_income": 93489,
+    "income_tax": 12477,
+    "oas_recovery": 0,
+    "aftertax": 81012
+   }
+  ],
+  "rows_level": [
+   {
+    "age": 71,
+    "start": 500000,
+    "withdrawal": 26400,
+    "minimum": 26400,
+    "net_income": 104016,
+    "income_tax": 14856,
+    "oas_recovery": 1534,
+    "aftertax": 89160
+   },
+   {
+    "age": 72,
+    "start": 478336,
+    "withdrawal": 25830,
+    "minimum": 25830,
+    "net_income": 103532,
+    "income_tax": 14747,
+    "oas_recovery": 1449,
+    "aftertax": 88785
+   },
+   {
+    "age": 73,
+    "start": 457031,
+    "withdrawal": 25274,
+    "minimum": 25274,
+    "net_income": 103059,
+    "income_tax": 14640,
+    "oas_recovery": 1365,
+    "aftertax": 88419
+   },
+   {
+    "age": 74,
+    "start": 436075,
+    "withdrawal": 24725,
+    "minimum": 24725,
+    "net_income": 102593,
+    "income_tax": 14534,
+    "oas_recovery": 1283,
+    "aftertax": 88058
+   },
+   {
+    "age": 75,
+    "start": 415463,
+    "withdrawal": 24180,
+    "minimum": 24180,
+    "net_income": 102907,
+    "income_tax": 14605,
+    "oas_recovery": 1338,
+    "aftertax": 88301
+   },
+   {
+    "age": 76,
+    "start": 395196,
+    "withdrawal": 23633,
+    "minimum": 23633,
+    "net_income": 102441,
+    "income_tax": 14500,
+    "oas_recovery": 1256,
+    "aftertax": 87941
+   },
+   {
+    "age": 77,
+    "start": 375279,
+    "withdrawal": 23155,
+    "minimum": 23155,
+    "net_income": 102035,
+    "income_tax": 14408,
+    "oas_recovery": 1185,
+    "aftertax": 87627
+   },
+   {
+    "age": 78,
+    "start": 355645,
+    "withdrawal": 22703,
+    "minimum": 22619,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 79,
+    "start": 336271,
+    "withdrawal": 22703,
+    "minimum": 22127,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 80,
+    "start": 316703,
+    "withdrawal": 22703,
+    "minimum": 21599,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 81,
+    "start": 296940,
+    "withdrawal": 22703,
+    "minimum": 21023,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 82,
+    "start": 276979,
+    "withdrawal": 22703,
+    "minimum": 20441,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 83,
+    "start": 256818,
+    "withdrawal": 22703,
+    "minimum": 19801,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 84,
+    "start": 236456,
+    "withdrawal": 22703,
+    "minimum": 19106,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 85,
+    "start": 215890,
+    "withdrawal": 22703,
+    "minimum": 18372,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 86,
+    "start": 195119,
+    "withdrawal": 22703,
+    "minimum": 17541,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 87,
+    "start": 174140,
+    "withdrawal": 22703,
+    "minimum": 16630,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 88,
+    "start": 152951,
+    "withdrawal": 22703,
+    "minimum": 15616,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 89,
+    "start": 131550,
+    "withdrawal": 22703,
+    "minimum": 14457,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 90,
+    "start": 109935,
+    "withdrawal": 22703,
+    "minimum": 13104,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 91,
+    "start": 88104,
+    "withdrawal": 22703,
+    "minimum": 11506,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 92,
+    "start": 66054,
+    "withdrawal": 22703,
+    "minimum": 9571,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 93,
+    "start": 43785,
+    "withdrawal": 22703,
+    "minimum": 7154,
+    "net_income": 101652,
+    "income_tax": 14322,
+    "oas_recovery": 1117,
+    "aftertax": 87330
+   },
+   {
+    "age": 94,
+    "start": 21292,
+    "withdrawal": 21292,
+    "minimum": 4001,
+    "net_income": 100452,
+    "income_tax": 14051,
+    "oas_recovery": 905,
+    "aftertax": 86401
+   },
+   {
+    "age": 95,
+    "start": 0,
+    "withdrawal": 0,
+    "minimum": 0,
+    "net_income": 80065,
+    "income_tax": 9443,
+    "oas_recovery": 0,
+    "aftertax": 70622
+   }
+  ]
+ }
+}

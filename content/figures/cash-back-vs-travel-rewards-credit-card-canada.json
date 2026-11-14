@@ -1,0 +1,3122 @@
+{
+  "slug": "cash-back-vs-travel-rewards-credit-card-canada",
+  "publishDate": "2026-11-17",
+  "figures": [
+    {
+      "id": "cda5e3412028",
+      "value": "$18.12",
+      "context": "In our model, Amex SimplyCash Preferred beats the Scotiabank Gold American Express by $18.12 to $60.12 a year at $1,500 to $5,000 of monthly spend, unless you can get over 1.04 cents from each Scene+ point or spend heavily at Sobeys-family grocers.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "bcf21ab608d0",
+      "value": "$60.12",
+      "context": "In our model, Amex SimplyCash Preferred beats the Scotiabank Gold American Express by $18.12 to $60.12 a year at $1,500 to $5,000 of monthly spend, unless you can get over 1.04 cents from each Scene+ point or spend heavily at Sobeys-family grocers.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "961f4573efe8",
+      "value": "$1,500",
+      "context": "In our model, Amex SimplyCash Preferred beats the Scotiabank Gold American Express by $18.12 to $60.12 a year at $1,500 to $5,000 of monthly spend, unless you can get over 1.04 cents from each Scene+ point or spend heavily at Sobeys-family grocers.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c60ed39b18d3",
+      "value": "$5,000",
+      "context": "In our model, Amex SimplyCash Preferred beats the Scotiabank Gold American Express by $18.12 to $60.12 a year at $1,500 to $5,000 of monthly spend, unless you can get over 1.04 cents from each Scene+ point or spend heavily at Sobeys-family grocers.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "b32d6680cb3d",
+      "value": "1.04",
+      "context": "In our model, Amex SimplyCash Preferred beats the Scotiabank Gold American Express by $18.12 to $60.12 a year at $1,500 to $5,000 of monthly spend, unless you can get over 1.04 cents from each Scene+ point or spend heavily at Sobeys-family grocers.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "76bdd5b5314e",
+      "value": "$340.92",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp net"
+      }
+    },
+    {
+      "id": "a296e67338c6",
+      "value": "$801.72",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp net"
+      }
+    },
+    {
+      "id": "2243cdadc978",
+      "value": "$1,416.12",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp net"
+      }
+    },
+    {
+      "id": "4da8d1cfe5bf",
+      "value": "$1,500,",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "efd12157cef8",
+      "value": "$3,000",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "94b3d4107b89",
+      "value": "$5,000",
+      "context": "After each card's annual fee, the cash-back card earned $340.92, $801.72 and $1,416.12 a year at $1,500, $3,000 and $5,000 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "f67071ed5bc0",
+      "value": "$322.80",
+      "context": "The points card earned $322.80, $765.60 and $1,356.00 at a flat 1 cent a point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 points net"
+      }
+    },
+    {
+      "id": "ebf42cf90376",
+      "value": "$765.60",
+      "context": "The points card earned $322.80, $765.60 and $1,356.00 at a flat 1 cent a point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points net"
+      }
+    },
+    {
+      "id": "b501d5c83f54",
+      "value": "$1,356.00",
+      "context": "The points card earned $322.80, $765.60 and $1,356.00 at a flat 1 cent a point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 points net"
+      }
+    },
+    {
+      "id": "0ee4bd00bd25",
+      "value": "1.04",
+      "context": "The points card only pulls ahead if each point is worth more than about 1.04 cents in our standard spending mix, or if a family spends much more of its budget at Sobeys-family grocers (the break-even drops to 0.96 cents).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "64f36ba7a971",
+      "value": "0.96",
+      "context": "The points card only pulls ahead if each point is worth more than about 1.04 cents in our standard spending mix, or if a family spends much more of its budget at Sobeys-family grocers (the break-even drops to 0.96 cents).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 breakeven cpp"
+      }
+    },
+    {
+      "id": "fd359af5a3e5",
+      "value": "November 14, 2026",
+      "context": "We read the rates from the issuers' own pages on November 14, 2026, did the multiplication ourselves, and labelled every spending profile as an example.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
+      }
+    },
+    {
+      "id": "40dd4eaee89b",
+      "value": "November 14, 2026",
+      "context": "The two cards compared (issuer pages, reviewed November 14, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
+      }
+    },
+    {
+      "id": "d2eda4fb42e4",
+      "value": "$9.99",
+      "context": "Annual fee $9.99 a month, $119.88 a year ($119 in Quebec) ( Amex ) $120 a year, waived with an eligible account ( Scotiabank )",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
+      }
+    },
+    {
+      "id": "17541ef47c4f",
+      "value": "$119.88",
+      "context": "Annual fee $9.99 a month, $119.88 a year ($119 in Quebec) ( Amex ) $120 a year, waived with an eligible account ( Scotiabank )",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
+      }
+    },
+    {
+      "id": "408c63b777ec",
+      "value": "$119",
+      "context": "Annual fee $9.99 a month, $119.88 a year ($119 in Quebec) ( Amex ) $120 a year, waived with an eligible account ( Scotiabank )",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"For Quebec residents, $119/year\""
+      }
+    },
+    {
+      "id": "13d971254905",
+      "value": "$120",
+      "context": "Annual fee $9.99 a month, $119.88 a year ($119 in Quebec) ( Amex ) $120 a year, waived with an eligible account ( Scotiabank )",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "d1cee9d2e8b0",
+      "value": "4%",
+      "context": "Groceries 4% at stand-alone grocery stores, on up to $30,000 of purchases a year 6 points per $1 at Sobeys, Safeway, FreshCo and Foodland; 5 points at other eligible grocery stores",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
+      }
+    },
+    {
+      "id": "77867683654b",
+      "value": "$30,000",
+      "context": "Groceries 4% at stand-alone grocery stores, on up to $30,000 of purchases a year 6 points per $1 at Sobeys, Safeway, FreshCo and Foodland; 5 points at other eligible grocery stores",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
+      }
+    },
+    {
+      "id": "3594fba24fc1",
+      "value": "$1",
+      "context": "Groceries 4% at stand-alone grocery stores, on up to $30,000 of purchases a year 6 points per $1 at Sobeys, Safeway, FreshCo and Foodland; 5 points at other eligible grocery stores",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
+      }
+    },
+    {
+      "id": "f26de0395eb3",
+      "value": "4%",
+      "context": "Gas 4% at stand-alone gas stations 3 points per $1 on gas and transit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
+      }
+    },
+    {
+      "id": "434a98c4358d",
+      "value": "$1",
+      "context": "Gas 4% at stand-alone gas stations 3 points per $1 on gas and transit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
+      }
+    },
+    {
+      "id": "f7a42f9380a8",
+      "value": "2%",
+      "context": "Dining 2% 5 points per $1, including food delivery",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"2% CASH BACK on everything else\""
+      }
+    },
+    {
+      "id": "a61312a1be81",
+      "value": "$1,",
+      "context": "Dining 2% 5 points per $1, including food delivery",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
+      }
+    },
+    {
+      "id": "de189055f8ac",
+      "value": "2%",
+      "context": "Everything else 2% 1 point per $1 (3 extra points on hotels and car rentals booked through Scene+ Travel)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"2% CASH BACK on everything else\""
+      }
+    },
+    {
+      "id": "3c9f6e9c2f5d",
+      "value": "$1",
+      "context": "Everything else 2% 1 point per $1 (3 extra points on hotels and car rentals booked through Scene+ Travel)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
+      }
+    },
+    {
+      "id": "e361a8acce63",
+      "value": "$1",
+      "context": "Foreign currency purchases Not stated on the card page, so we do not price it 1 point per $1; no foreign transaction fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
+      }
+    },
+    {
+      "id": "421112470915",
+      "value": "$50,000",
+      "context": "Scotiabank's page says the higher earn rates apply to the first $50,000 a year on the card, calculated from January 1 to December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"applies to the first $50,000 in purchases charged to the Scotiabank Gold American Express Card Account annually\""
+      }
+    },
+    {
+      "id": "439f904028ae",
+      "value": "January 1",
+      "context": "Scotiabank's page says the higher earn rates apply to the first $50,000 a year on the card, calculated from January 1 to December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
+      }
+    },
+    {
+      "id": "0b6b420436f4",
+      "value": "December 31",
+      "context": "Scotiabank's page says the higher earn rates apply to the first $50,000 a year on the card, calculated from January 1 to December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
+      }
+    },
+    {
+      "id": "e1d538daf414",
+      "value": "4%",
+      "context": "Amex says the 4% grocery rate covers purchases at stand-alone grocery stores, and superstores, wholesale clubs, alcohol retailers and general merchandise retailers do not qualify for it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
+      }
+    },
+    {
+      "id": "175d10061a75",
+      "value": "$1,500,",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "bbb79f8c9c44",
+      "value": "$3,000",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "36c6d80404b4",
+      "value": "$5,000",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "041733f7b982",
+      "value": "10%",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "784d6dcb7fc3",
+      "value": "8%",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "2d2199e80473",
+      "value": "62%",
+      "context": "Standard mix at $1,500, $3,000 and $5,000 a month 10% 10% 8% 10% 62%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 100%-10%-10%-8%-10% (standard mix, everything else)"
+      }
+    },
+    {
+      "id": "a35d3acb2154",
+      "value": "$3,000",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "28fdb55a697b",
+      "value": "15%",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "64847c38d90a",
+      "value": "20%",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "91bbd4c544c7",
+      "value": "8%",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "a1cf01ba3118",
+      "value": "7%",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "973869dcfbb5",
+      "value": "50%",
+      "context": "Grocery-heavy family at $3,000 a month 15% 20% 8% 7% 50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 100%-15%-20%-8%-7% (family, everything else)"
+      }
+    },
+    {
+      "id": "663262568ef7",
+      "value": "10,000",
+      "context": "Scotiabank's page lists its own redemption examples: 10,000 points for $100 off at eligible grocery stores and 20,000 points for $200 off travel, which is 1 cent per point, and we use 1 cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "f8c45cbf4094",
+      "value": "$100",
+      "context": "Scotiabank's page lists its own redemption examples: 10,000 points for $100 off at eligible grocery stores and 20,000 points for $200 off travel, which is 1 cent per point, and we use 1 cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "991c2a8b8854",
+      "value": "20,000",
+      "context": "Scotiabank's page lists its own redemption examples: 10,000 points for $100 off at eligible grocery stores and 20,000 points for $200 off travel, which is 1 cent per point, and we use 1 cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "dbbb32857ef4",
+      "value": "$200",
+      "context": "Scotiabank's page lists its own redemption examples: 10,000 points for $100 off at eligible grocery stores and 20,000 points for $200 off travel, which is 1 cent per point, and we use 1 cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "515efe656208",
+      "value": "000",
+      "context": "The same page also shows 3,000 points for a $20 account credit, which is about 0.67 cents, so not every redemption is worth a cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "bb9556aad144",
+      "value": "$20",
+      "context": "The same page also shows 3,000 points for a $20 account credit, which is about 0.67 cents, so not every redemption is worth a cent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "b325ff77ce94",
+      "value": "0.67",
+      "context": "The same page also shows 3,000 points for a $20 account credit, which is about 0.67 cents, so not every redemption is worth a cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cpp 3000pt/$20"
+      }
+    },
+    {
+      "id": "c86a1cd134b1",
+      "value": "$1,500,",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c5bb53382b75",
+      "value": "$3,000",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "8db449e36006",
+      "value": "$5,000",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"assum\"; declared input: True)"
+      }
+    },
+    {
+      "id": "a61ed3a68e79",
+      "value": "$18.12",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "dffc49482b4f",
+      "value": "$36.12",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp ahead"
+      }
+    },
+    {
+      "id": "54f3653a05aa",
+      "value": "$60.12",
+      "context": "At $1,500, $3,000 and $5,000 a month, the cash-back card is ahead by $18.12, $36.12 and $60.12 a year after fees, with points at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "96c594c072dd",
+      "value": "4%",
+      "context": "The gap grows with spending because Amex's 4% gas and grocery rates and 2% on everything else beat the points card's 1 point per dollar on the other 62% of spend.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
+      }
+    },
+    {
+      "id": "2eaed73b19e4",
+      "value": "2%",
+      "context": "The gap grows with spending because Amex's 4% gas and grocery rates and 2% on everything else beat the points card's 1 point per dollar on the other 62% of spend.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"2% CASH BACK on everything else\""
+      }
+    },
+    {
+      "id": "a908d3848b9d",
+      "value": "62%",
+      "context": "The gap grows with spending because Amex's 4% gas and grocery rates and 2% on everything else beat the points card's 1 point per dollar on the other 62% of spend.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 100%-10%-10%-8%-10% (standard mix, everything else)"
+      }
+    },
+    {
+      "id": "ad8fb507a9d4",
+      "value": "$119.88",
+      "context": "Spend Cash back Cash back after $119.88 fee Points earned Points worth Points after $120 fee Cash-back card ahead by",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
+      }
+    },
+    {
+      "id": "79810afacf3c",
+      "value": "$120",
+      "context": "Spend Cash back Cash back after $119.88 fee Points earned Points worth Points after $120 fee Cash-back card ahead by",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "9dbca037cb7a",
+      "value": "$1,500",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "ea84ae839e20",
+      "value": "$460.80",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp cashback"
+      }
+    },
+    {
+      "id": "5243251b9fc8",
+      "value": "$340.92",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp net"
+      }
+    },
+    {
+      "id": "987a535f6409",
+      "value": "44,280",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 points"
+      }
+    },
+    {
+      "id": "276f7a13cd6b",
+      "value": "$442.80",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 points worth 1c"
+      }
+    },
+    {
+      "id": "d2313038dc67",
+      "value": "$322.80",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 points net"
+      }
+    },
+    {
+      "id": "308c81056f9e",
+      "value": "$18.12",
+      "context": "$1,500 a month $460.80 $340.92 44,280 $442.80 $322.80 +$18.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "588cad57edc8",
+      "value": "$3,000",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "58ca9b0a101e",
+      "value": "$921.60",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp cashback"
+      }
+    },
+    {
+      "id": "95635f0edd81",
+      "value": "$801.72",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp net"
+      }
+    },
+    {
+      "id": "c1836149b583",
+      "value": "88,560",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points"
+      }
+    },
+    {
+      "id": "b1235e338626",
+      "value": "$885.60",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points worth 1c"
+      }
+    },
+    {
+      "id": "8b99af2ed538",
+      "value": "$765.60",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points net"
+      }
+    },
+    {
+      "id": "e53948502c9e",
+      "value": "$36.12",
+      "context": "$3,000 a month $921.60 $801.72 88,560 $885.60 $765.60 +$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp ahead"
+      }
+    },
+    {
+      "id": "b030ef842717",
+      "value": "$5,000",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "daf3714906b6",
+      "value": "$1,536.00",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp cashback"
+      }
+    },
+    {
+      "id": "2bee3a3edc26",
+      "value": "$1,416.12",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp net"
+      }
+    },
+    {
+      "id": "e59435f3646e",
+      "value": "147,600",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 points"
+      }
+    },
+    {
+      "id": "2a732ad96fee",
+      "value": "$1,476.00",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 points worth 1c"
+      }
+    },
+    {
+      "id": "a59b7932e75d",
+      "value": "$1,356.00",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 points net"
+      }
+    },
+    {
+      "id": "02c2a7ad7ece",
+      "value": "$60.12",
+      "context": "$5,000 a month $1,536.00 $1,416.12 147,600 $1,476.00 $1,356.00 +$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "fcbea12dce53",
+      "value": "$18.12",
+      "context": "Did you know: our own calculation shows the cash-back card wins at every spending level we modelled, by $18.12 to $60.12 a year, unless a point is worth more than 1.04 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "1941c5cb5682",
+      "value": "$60.12",
+      "context": "Did you know: our own calculation shows the cash-back card wins at every spending level we modelled, by $18.12 to $60.12 a year, unless a point is worth more than 1.04 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "4b00751e0fc8",
+      "value": "1.04",
+      "context": "Did you know: our own calculation shows the cash-back card wins at every spending level we modelled, by $18.12 to $60.12 a year, unless a point is worth more than 1.04 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "a97275d02dca",
+      "value": "0.96",
+      "context": "A family spending more of its budget at Sobeys-family grocers lowers that line to 0.96 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 breakeven cpp"
+      }
+    },
+    {
+      "id": "5e4c1f23000c",
+      "value": "$3,000",
+      "context": "Yearly rewards after annual fee at $3,000 a month (points at 1 cent)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "0e5183508d35",
+      "value": "$801.72",
+      "context": "$801.72",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp net"
+      }
+    },
+    {
+      "id": "0d04d1813a5f",
+      "value": "$765.60",
+      "context": "$765.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points net"
+      }
+    },
+    {
+      "id": "2db33e0d594a",
+      "value": "1.041",
+      "context": "In the standard mix, each Scene+ point has to be worth 1.041 cents or more for the points card to match the cash-back card after fees.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "c8b18d2b5b46",
+      "value": "1.04",
+      "context": "At 1.04 cents a point, the two tie.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "6b212459ef7e",
+      "value": "$120",
+      "context": "Points card after the $120 fee at $3,000 a month, at different point values (our calculation from 88,560 points; example values)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "31fcf4f7733a",
+      "value": "$3,000",
+      "context": "Points card after the $120 fee at $3,000 a month, at different point values (our calculation from 88,560 points; example values)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "55e58f230683",
+      "value": "88,560",
+      "context": "Points card after the $120 fee at $3,000 a month, at different point values (our calculation from 88,560 points; example values)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points"
+      }
+    },
+    {
+      "id": "c2a6ae3fb2ee",
+      "value": "$120",
+      "context": "Value per point Points worth After $120 fee Against cash back after fee ($801.72)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "a4ebc3cdc85f",
+      "value": "$801.72",
+      "context": "Value per point Points worth After $120 fee Against cash back after fee ($801.72)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp net"
+      }
+    },
+    {
+      "id": "d96c2cd4d7aa",
+      "value": "0.67",
+      "context": "0.67 cents (Scotiabank's 3,000-point account credit example) $593.35 $473.35 &minus;$328.37",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cpp 3000pt/$20"
+      }
+    },
+    {
+      "id": "5ef13347cc7f",
+      "value": "000",
+      "context": "0.67 cents (Scotiabank's 3,000-point account credit example) $593.35 $473.35 &minus;$328.37",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "f8888d2b6887",
+      "value": "$593.35",
+      "context": "0.67 cents (Scotiabank's 3,000-point account credit example) $593.35 $473.35 &minus;$328.37",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 worth@0.67c"
+      }
+    },
+    {
+      "id": "245ec1446caa",
+      "value": "$473.35",
+      "context": "0.67 cents (Scotiabank's 3,000-point account credit example) $593.35 $473.35 &minus;$328.37",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 net@0.67c"
+      }
+    },
+    {
+      "id": "d480455744b2",
+      "value": "$328.37",
+      "context": "0.67 cents (Scotiabank's 3,000-point account credit example) $593.35 $473.35 &minus;$328.37",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 vs sp@0.67c"
+      }
+    },
+    {
+      "id": "fea80af3d63b",
+      "value": "$885.60",
+      "context": "1 cent (Scotiabank's grocery and travel examples) $885.60 $765.60 &minus;$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points worth 1c"
+      }
+    },
+    {
+      "id": "092fc1fd94df",
+      "value": "$765.60",
+      "context": "1 cent (Scotiabank's grocery and travel examples) $885.60 $765.60 &minus;$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points net"
+      }
+    },
+    {
+      "id": "802c30caf5b2",
+      "value": "$36.12",
+      "context": "1 cent (Scotiabank's grocery and travel examples) $885.60 $765.60 &minus;$36.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 sp ahead"
+      }
+    },
+    {
+      "id": "5bde8ead2133",
+      "value": "1.25",
+      "context": "1.25 cents (an example above the issuer's) $1,107.00 $987.00 +$185.28",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: False)"
+      }
+    },
+    {
+      "id": "dc19bfda43be",
+      "value": "$1,107.00",
+      "context": "1.25 cents (an example above the issuer's) $1,107.00 $987.00 +$185.28",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 worth@1.25c"
+      }
+    },
+    {
+      "id": "44e221b8e0cd",
+      "value": "$987.00",
+      "context": "1.25 cents (an example above the issuer's) $1,107.00 $987.00 +$185.28",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 net@1.25c"
+      }
+    },
+    {
+      "id": "5857f4726677",
+      "value": "$185.28",
+      "context": "1.25 cents (an example above the issuer's) $1,107.00 $987.00 +$185.28",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 vs sp@1.25c"
+      }
+    },
+    {
+      "id": "ede8002503c9",
+      "value": "1.5",
+      "context": "1.5 cents (an example above the issuer's) $1,328.40 $1,208.40 +$406.68",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"budget\"; declared input: False)"
+      }
+    },
+    {
+      "id": "aa68d73cf769",
+      "value": "$1,328.40",
+      "context": "1.5 cents (an example above the issuer's) $1,328.40 $1,208.40 +$406.68",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 worth@1.5c"
+      }
+    },
+    {
+      "id": "c7e0274578a4",
+      "value": "$1,208.40",
+      "context": "1.5 cents (an example above the issuer's) $1,328.40 $1,208.40 +$406.68",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 net@1.5c"
+      }
+    },
+    {
+      "id": "3d961f921d48",
+      "value": "$406.68",
+      "context": "1.5 cents (an example above the issuer's) $1,328.40 $1,208.40 +$406.68",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 vs sp@1.5c"
+      }
+    },
+    {
+      "id": "565518025a37",
+      "value": "$3,000",
+      "context": "Take a family with a $3,000 monthly budget where 15% goes to Sobeys-family stores, 20% to other grocers, 8% to gas and 7% to dining.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "8b08d614179c",
+      "value": "15%",
+      "context": "Take a family with a $3,000 monthly budget where 15% goes to Sobeys-family stores, 20% to other grocers, 8% to gas and 7% to dining.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "2f7eb8ebfc87",
+      "value": "20%",
+      "context": "Take a family with a $3,000 monthly budget where 15% goes to Sobeys-family stores, 20% to other grocers, 8% to gas and 7% to dining.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "7e173a20f74b",
+      "value": "8%",
+      "context": "Take a family with a $3,000 monthly budget where 15% goes to Sobeys-family stores, 20% to other grocers, 8% to gas and 7% to dining.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "be927c307327",
+      "value": "7%",
+      "context": "Take a family with a $3,000 monthly budget where 15% goes to Sobeys-family stores, 20% to other grocers, 8% to gas and 7% to dining.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
+      }
+    },
+    {
+      "id": "537e6c64c416",
+      "value": "$1,029.60",
+      "context": "The cash-back card earns $1,029.60 and the points card earns 107,640 points, worth $1,076.40 at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 sp cashback"
+      }
+    },
+    {
+      "id": "b7e1f6caa8a8",
+      "value": "107,640",
+      "context": "The cash-back card earns $1,029.60 and the points card earns 107,640 points, worth $1,076.40 at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 points"
+      }
+    },
+    {
+      "id": "1fccd65b72ec",
+      "value": "$1,076.40",
+      "context": "The cash-back card earns $1,029.60 and the points card earns 107,640 points, worth $1,076.40 at 1 cent.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 points worth 1c"
+      }
+    },
+    {
+      "id": "1e00084b799c",
+      "value": "$46.68",
+      "context": "After fees, the points card is ahead by $46.68.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 sp ahead"
+      }
+    },
+    {
+      "id": "7d4f444d3c7e",
+      "value": "$3,000",
+      "context": "Grocery-heavy family, $3,000 a month, welcome offers excluded (our calculation; example)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "70c7fa511609",
+      "value": "$1,029.60",
+      "context": "Amex SimplyCash Preferred $1,029.60 $119.88 $909.72",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 sp cashback"
+      }
+    },
+    {
+      "id": "31f902332f17",
+      "value": "$119.88",
+      "context": "Amex SimplyCash Preferred $1,029.60 $119.88 $909.72",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
+      }
+    },
+    {
+      "id": "36bb5cd640e2",
+      "value": "$909.72",
+      "context": "Amex SimplyCash Preferred $1,029.60 $119.88 $909.72",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 sp net"
+      }
+    },
+    {
+      "id": "81d49557f884",
+      "value": "$1,076.40",
+      "context": "Scotiabank Gold American Express $1,076.40 (at 1 cent) $120.00 $956.40",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 points worth 1c"
+      }
+    },
+    {
+      "id": "0e3b2d374865",
+      "value": "$120.00",
+      "context": "Scotiabank Gold American Express $1,076.40 (at 1 cent) $120.00 $956.40",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "5a6670560ad0",
+      "value": "$956.40",
+      "context": "Scotiabank Gold American Express $1,076.40 (at 1 cent) $120.00 $956.40",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 points net"
+      }
+    },
+    {
+      "id": "2224872540ad",
+      "value": "$566.10",
+      "context": "Amex SimplyCash (no annual fee) $566.10 $0 $566.10",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 nofee cashback"
+      }
+    },
+    {
+      "id": "3b5fa4a0a71b",
+      "value": "$0",
+      "context": "Amex SimplyCash (no annual fee) $566.10 $0 $566.10",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual Fee No annual fee\""
+      }
+    },
+    {
+      "id": "6bb6927cc0e1",
+      "value": "2%",
+      "context": "The no-fee Amex SimplyCash earns 2% on gas and on groceries up to $300 of cash back, and 1.25% on everything else, per Amex's page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"2% CASH BACK On gas 2% CASH BACK On gas For eligible gas station purchases in Canada3 2% CASH BACK On grocery 2% CASH BACK On grocery\""
+      }
+    },
+    {
+      "id": "b474a059040d",
+      "value": "$300",
+      "context": "The no-fee Amex SimplyCash earns 2% on gas and on groceries up to $300 of cash back, and 1.25% on everything else, per Amex's page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"up to $300 cash back annually\""
+      }
+    },
+    {
+      "id": "f9882926413b",
+      "value": "1.25%",
+      "context": "The no-fee Amex SimplyCash earns 2% on gas and on groceries up to $300 of cash back, and 1.25% on everything else, per Amex's page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1.25% CASH BACK On everything else\""
+      }
+    },
+    {
+      "id": "4b35a9dd772a",
+      "value": "$18.12",
+      "context": "Simple spender: wants statement credits, no redemption decisions Amex SimplyCash Preferred, or the no-fee Amex SimplyCash at low spend Cash back beat points by $18.12 to $60.12 a year at 1 cent a point Best cash-back cards by category",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "f082c64e2911",
+      "value": "$60.12",
+      "context": "Simple spender: wants statement credits, no redemption decisions Amex SimplyCash Preferred, or the no-fee Amex SimplyCash at low spend Cash back beat points by $18.12 to $60.12 a year at 1 cent a point Best cash-back cards by category",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "c7257ae2ff1c",
+      "value": "1.04",
+      "context": "Frequent flyer: books travel and may redeem for more than 1 cent a point A travel card, only if you can reach 1.04 cents a point or more Scotiabank's own redemptions are flat at 1 cent; transfer-partner cards are a separate comparison Best travel rewards cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "2ca02aad518f",
+      "value": "$46.68",
+      "context": "Grocery-heavy family that shops at Sobeys-family stores Scotiabank Gold American Express Ahead by $46.68 a year in our example, with a break-even of 0.96 cents Best grocery credit cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 sp ahead"
+      }
+    },
+    {
+      "id": "6e66a26ea616",
+      "value": "0.96",
+      "context": "Grocery-heavy family that shops at Sobeys-family stores Scotiabank Gold American Express Ahead by $46.68 a year in our example, with a break-even of 0.96 cents Best grocery credit cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fam3000 breakeven cpp"
+      }
+    },
+    {
+      "id": "e2c0951876f4",
+      "value": "21.99%",
+      "context": "Neither card is right if you carry a balance: at 21.99% purchase interest on both, interest costs more than the rewards pay.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"21.99% on purchases and 21.99% on funds advances\""
+      }
+    },
+    {
+      "id": "7b1411206c4e",
+      "value": "$5,000",
+      "context": "In an example with $5,000 of annual foreign spending, the points card's lack of a foreign transaction fee is worth about $125 against a card that charges the typical 2.5% (Scotiabank's page describes 2.5% as the typical fee).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "46f2c838abe6",
+      "value": "$125",
+      "context": "In an example with $5,000 of annual foreign spending, the points card's lack of a foreign transaction fee is worth about $125 against a card that charges the typical 2.5% (Scotiabank's page describes 2.5% as the typical fee).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): fx saving 5000"
+      }
+    },
+    {
+      "id": "b4a583522cbb",
+      "value": "2.5%",
+      "context": "In an example with $5,000 of annual foreign spending, the points card's lack of a foreign transaction fee is worth about $125 against a card that charges the typical 2.5% (Scotiabank's page describes 2.5% as the typical fee).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Shop online or abroad without the typical 2.5% foreign transaction fee on purchases made in a foreign currency\""
+      }
+    },
+    {
+      "id": "02bc130eafa4",
+      "value": "$5,000",
+      "context": "The points card earns only 1 point per dollar in a foreign currency, though, so the same example $5,000 earns 5,000 points.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "d96c35710463",
+      "value": "000",
+      "context": "The points card earns only 1 point per dollar in a foreign currency, though, so the same example $5,000 earns 5,000 points.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5,000 points = $5,000 x 1 point (indep_cards)"
+      }
+    },
+    {
+      "id": "3563f5b883ea",
+      "value": "November 14, 2026",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
+      }
+    },
+    {
+      "id": "e9e4e093b076",
+      "value": "65,000",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Get up to 65,000 bonus Scene+ points - that's up to $650\""
+      }
+    },
+    {
+      "id": "66fa4d5f3fae",
+      "value": "$650,",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Get up to 65,000 bonus Scene+ points - that's up to $650\""
+      }
+    },
+    {
+      "id": "4f96ad7bd19b",
+      "value": "November 2, 2026",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"between November 2, 2026, and January 3, 2027\""
+      }
+    },
+    {
+      "id": "ce4e7d7544ce",
+      "value": "January 3, 2027",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"between November 2, 2026, and January 3, 2027\""
+      }
+    },
+    {
+      "id": "971a4e200d80",
+      "value": "40,000",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"40,000 bonus Scene + points Spend at least $2,000 on eligible purchases in your first 3 months\""
+      }
+    },
+    {
+      "id": "148f1fb56d31",
+      "value": "$2,000",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"40,000 bonus Scene + points Spend at least $2,000 on eligible purchases in your first 3 months\""
+      }
+    },
+    {
+      "id": "71a5265ce4d7",
+      "value": "25,000",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
+      }
+    },
+    {
+      "id": "55a7d6f0c41d",
+      "value": "$7,500",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
+      }
+    },
+    {
+      "id": "baec144c883a",
+      "value": "12",
+      "context": "As of November 14, 2026, Scotiabank's page advertises up to 65,000 bonus Scene+ points, which it equates to up to $650, for accounts opened between November 2, 2026 and January 3, 2027: 40,000 points after $2,000 in the first 3 months and 25,000 more after $7,500 in the first 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
+      }
+    },
+    {
+      "id": "fc466b114709",
+      "value": "$200",
+      "context": "Amex's page shows up to $200 in bonus cash back (10% on up to $2,000 in the first 3 months) plus a $50 statement credit for a purchase in month 13.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Earn up to $200 in bonus cash back\""
+      }
+    },
+    {
+      "id": "48caf407ed99",
+      "value": "10%",
+      "context": "Amex's page shows up to $200 in bonus cash back (10% on up to $2,000 in the first 3 months) plus a $50 statement credit for a purchase in month 13.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"bonus 10% cash back on all purchases (up to $2,000 in purchases) in your first 3 months\""
+      }
+    },
+    {
+      "id": "158ab5c6eb0e",
+      "value": "$2,000",
+      "context": "Amex's page shows up to $200 in bonus cash back (10% on up to $2,000 in the first 3 months) plus a $50 statement credit for a purchase in month 13.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"bonus 10% cash back on all purchases (up to $2,000 in purchases) in your first 3 months\""
+      }
+    },
+    {
+      "id": "590e9c2e2116",
+      "value": "$50",
+      "context": "Amex's page shows up to $200 in bonus cash back (10% on up to $2,000 in the first 3 months) plus a $50 statement credit for a purchase in month 13.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"$50 statement credit1* when you make a purchase in month 13\""
+      }
+    },
+    {
+      "id": "e7151163f738",
+      "value": "13",
+      "context": "Amex's page shows up to $200 in bonus cash back (10% on up to $2,000 in the first 3 months) plus a $50 statement credit for a purchase in month 13.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"$50 statement credit1* when you make a purchase in month 13\""
+      }
+    },
+    {
+      "id": "2ca5f9de0603",
+      "value": "$18.12",
+      "context": "In our example, the cash-back card beat the points card by $18.12 to $60.12 a year at 1 cent a point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 sp ahead"
+      }
+    },
+    {
+      "id": "8b1ae4e4d1c2",
+      "value": "$60.12",
+      "context": "In our example, the cash-back card beat the points card by $18.12 to $60.12 a year at 1 cent a point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5000 sp ahead"
+      }
+    },
+    {
+      "id": "bbac87386103",
+      "value": "1.04",
+      "context": "Travel cards win when each point is worth over about 1.04 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 1500 breakeven cpp"
+      }
+    },
+    {
+      "id": "6aa2a35544ee",
+      "value": "10,000",
+      "context": "Scotiabank's page gives examples at about 1 cent a point: 10,000 points for $100 off groceries and 20,000 for $200 off travel.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "24f93c523ccc",
+      "value": "$100",
+      "context": "Scotiabank's page gives examples at about 1 cent a point: 10,000 points for $100 off groceries and 20,000 for $200 off travel.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "4ad9e01164f0",
+      "value": "20,000",
+      "context": "Scotiabank's page gives examples at about 1 cent a point: 10,000 points for $100 off groceries and 20,000 for $200 off travel.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "0cc5db0be12d",
+      "value": "$200",
+      "context": "Scotiabank's page gives examples at about 1 cent a point: 10,000 points for $100 off groceries and 20,000 for $200 off travel.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "49e64a1ff58f",
+      "value": "000",
+      "context": "It also shows 3,000 points for a $20 credit, about 0.67 cents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "264418aa3f1a",
+      "value": "$20",
+      "context": "It also shows 3,000 points for a $20 credit, about 0.67 cents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
+      }
+    },
+    {
+      "id": "ae39000fe735",
+      "value": "0.67",
+      "context": "It also shows 3,000 points for a $20 credit, about 0.67 cents.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cpp 3000pt/$20"
+      }
+    },
+    {
+      "id": "704811e900fe",
+      "value": "$3,000",
+      "context": "At $3,000 a month the points card earns $885.60 at 1 cent against $525.60 on the no-fee Amex SimplyCash, so the $120 fee is covered in our standard mix.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "917d3fa98ee1",
+      "value": "$885.60",
+      "context": "At $3,000 a month the points card earns $885.60 at 1 cent against $525.60 on the no-fee Amex SimplyCash, so the $120 fee is covered in our standard mix.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 points worth 1c"
+      }
+    },
+    {
+      "id": "65bf53d0773d",
+      "value": "$525.60",
+      "context": "At $3,000 a month the points card earns $885.60 at 1 cent against $525.60 on the no-fee Amex SimplyCash, so the $120 fee is covered in our standard mix.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 3000 nofee cashback"
+      }
+    },
+    {
+      "id": "2efd145d1bcb",
+      "value": "$120",
+      "context": "At $3,000 a month the points card earns $885.60 at 1 cent against $525.60 on the no-fee Amex SimplyCash, so the $120 fee is covered in our standard mix.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
+      }
+    },
+    {
+      "id": "e1d8d063773d",
+      "value": "$800",
+      "context": "At $800 a month it is not, as our Scotiabank review shows.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "e22121e4be98",
+      "value": "2%",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"2% CASH BACK On gas 2% CASH BACK On gas For eligible gas station purchases in Canada3 2% CASH BACK On grocery 2% CASH BACK On grocery\""
+      }
+    },
+    {
+      "id": "d0c76d1e487e",
+      "value": "$300",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"up to $300 cash back annually\""
+      }
+    },
+    {
+      "id": "76c59c3227ab",
+      "value": "1.25%",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1.25% CASH BACK On everything else\""
+      }
+    },
+    {
+      "id": "b9cb68113725",
+      "value": "4%",
+      "context": "Amex's cash-back card pays 4% at stand-alone grocery stores up to $30,000 a year, but not at superstores or wholesale clubs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
+      }
+    },
+    {
+      "id": "34b7a7dafb7c",
+      "value": "$30,000",
+      "context": "Amex's cash-back card pays 4% at stand-alone grocery stores up to $30,000 a year, but not at superstores or wholesale clubs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
+      }
+    }
+  ]
+}

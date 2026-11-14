@@ -1,0 +1,142 @@
+{
+ "p1500": {
+  "monthly": 1500,
+  "annual": 18000,
+  "sp_cashback": 460.8,
+  "sp_net": 340.92,
+  "nf_cashback": 262.8,
+  "scotia_points": 44280,
+  "scotia_value": 442.8,
+  "scotia_net": 322.8,
+  "sp_minus_scotia": 18.12,
+  "breakeven_cpp": 1.041,
+  "sp_gain_vs_nofee": 78.12
+ },
+ "p3000": {
+  "monthly": 3000,
+  "annual": 36000,
+  "sp_cashback": 921.6,
+  "sp_net": 801.72,
+  "nf_cashback": 525.6,
+  "scotia_points": 88560,
+  "scotia_value": 885.6,
+  "scotia_net": 765.6,
+  "sp_minus_scotia": 36.12,
+  "breakeven_cpp": 1.041,
+  "sp_gain_vs_nofee": 276.12
+ },
+ "p5000": {
+  "monthly": 5000,
+  "annual": 60000,
+  "sp_cashback": 1536.0,
+  "sp_net": 1416.12,
+  "nf_cashback": 876.0,
+  "scotia_points": 147600,
+  "scotia_value": 1476.0,
+  "scotia_net": 1356.0,
+  "sp_minus_scotia": 60.12,
+  "breakeven_cpp": 1.041,
+  "sp_gain_vs_nofee": 540.12
+ },
+ "family3000": {
+  "monthly": 3000,
+  "annual": 36000,
+  "sp_cashback": 1029.6,
+  "sp_net": 909.72,
+  "nf_cashback": 566.1,
+  "scotia_points": 107640,
+  "scotia_value": 1076.4,
+  "scotia_net": 956.4,
+  "sp_minus_scotia": -46.68,
+  "breakeven_cpp": 0.957,
+  "sp_gain_vs_nofee": 343.62
+ },
+ "amex_review": {
+  "lean": {
+   "monthly": 1200,
+   "groc": 0.3,
+   "gas": 0.1,
+   "sp_cashback": 403.2,
+   "nf_cashback": 223.2,
+   "extra": 180.0,
+   "sp_net": 283.32,
+   "sp_minus_nf": 60.12,
+   "breakeven_annual": 9590.4,
+   "breakeven_monthly": 799.2,
+   "extra_rate": 0.0125
+  },
+  "typical": {
+   "monthly": 3000,
+   "groc": 0.2,
+   "gas": 0.08,
+   "sp_cashback": 921.6,
+   "nf_cashback": 525.6,
+   "extra": 396.0,
+   "sp_net": 801.72,
+   "sp_minus_nf": 276.12,
+   "breakeven_annual": 10898.18,
+   "breakeven_monthly": 908.18,
+   "extra_rate": 0.011
+  },
+  "high": {
+   "monthly": 5000,
+   "groc": 0.15,
+   "gas": 0.06,
+   "sp_cashback": 1452.0,
+   "nf_cashback": 844.5,
+   "extra": 607.5,
+   "sp_net": 1332.12,
+   "sp_minus_nf": 487.62,
+   "breakeven_annual": 11840.0,
+   "breakeven_monthly": 986.67,
+   "extra_rate": 0.01012
+  }
+ },
+ "scotia_review": {
+  "dining": {
+   "monthly": 3000,
+   "sob": 0.05,
+   "og": 0.1,
+   "gas": 0.05,
+   "din": 0.25,
+   "foreign": 0,
+   "points": 99000,
+   "value": 990.0,
+   "net": 870.0,
+   "fx_saving": 0.0,
+   "net_with_fx": 870.0,
+   "nofee_cashback": 504.0,
+   "sp_net": 744.12
+  },
+  "traveller": {
+   "monthly": 2500,
+   "sob": 0.1,
+   "og": 0.1,
+   "gas": 0.08,
+   "din": 0.1,
+   "foreign": 5000,
+   "points": 78800,
+   "value": 788.0,
+   "net": 668.0,
+   "fx_saving": 125.0,
+   "net_with_fx": 793.0,
+   "nofee_cashback": 438.0,
+   "sp_net": 648.12
+  },
+  "low": {
+   "monthly": 800,
+   "sob": 0.1,
+   "og": 0.1,
+   "gas": 0.08,
+   "din": 0.1,
+   "foreign": 0,
+   "points": 23616,
+   "value": 236.16,
+   "net": 116.16,
+   "fx_saving": 0.0,
+   "net_with_fx": 116.16,
+   "nofee_cashback": 140.16,
+   "sp_net": 125.88
+  }
+ }
+}

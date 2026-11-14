@@ -1,0 +1,3956 @@
+{
+  "slug": "rrif-minimum-only-mistake",
+  "publishDate": "2026-11-17",
+  "figures": [
+    {
+      "id": "0d26182ad4a8",
+      "value": "$500,000",
+      "context": "We ran $500,000 through both paths, year by year, with the CRA's own factors and brackets.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "b721ce8c942d",
+      "value": "$500,000",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "31fd60f5563b",
+      "value": "71",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "0574c8542f4e",
+      "value": "$3,596",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
+      }
+    },
+    {
+      "id": "66f2ef2be56d",
+      "value": "$7,460",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "ebd3a772bc05",
+      "value": "90",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c99fa1922e13",
+      "value": "$4,380",
+      "context": "In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "a67467026c10",
+      "value": "71",
+      "context": "At 71, the CRA's factor of 5.28% makes the minimum on $500,000 equal to $26,400.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "581203f9c8d3",
+      "value": "5.28%",
+      "context": "At 71, the CRA's factor of 5.28% makes the minimum on $500,000 equal to $26,400.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "f6f13997d7b9",
+      "value": "$500,000",
+      "context": "At 71, the CRA's factor of 5.28% makes the minimum on $500,000 equal to $26,400.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "717ca6bfd3f2",
+      "value": "$26,400",
+      "context": "At 71, the CRA's factor of 5.28% makes the minimum on $500,000 equal to $26,400.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
+      }
+    },
+    {
+      "id": "87d701952c3f",
+      "value": "3%",
+      "context": "In constant 2026 dollars it barely moves for years, because a 3% real return roughly offsets the rising factor.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c03195f64b72",
+      "value": "$28,714",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "98da23392b9b",
+      "value": "95",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "cb5e6ce04d64",
+      "value": "$7,460",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "60a2a378d616",
+      "value": "$12,000",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "5d455be1b03d",
+      "value": "$3,596",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
+      }
+    },
+    {
+      "id": "a4118c657c00",
+      "value": "$52,000,",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "6a6c60e7a362",
+      "value": "90",
+      "context": "Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
+      }
+    },
+    {
+      "id": "25408d651100",
+      "value": "$70,000,",
+      "context": "When other income is $70,000, level withdrawals lose by $4,380, because they push more income over the OAS recovery threshold while you are alive.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our 2026-dollar\"; declared input: True)"
+      }
+    },
+    {
+      "id": "de819e77b653",
+      "value": "$4,380,",
+      "context": "When other income is $70,000, level withdrawals lose by $4,380, because they push more income over the OAS recovery threshold while you are alive.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "9bebc4d8678f",
+      "value": "January 1",
+      "context": "The minimum is your RRIF's value on January 1 multiplied by a CRA factor that depends on your age.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "e8eae74d7b4d",
+      "value": "90",
+      "context": "The CRA's page on the minimum amount from a RRIF says the factor is 1 divided by (90 minus your age), and the chart of prescribed factors says that formula applies to age 70 or younger and lists the factor from age 71.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1 divided by (90 minus the age)\""
+      }
+    },
+    {
+      "id": "54a2511e4d29",
+      "value": "70",
+      "context": "The CRA's page on the minimum amount from a RRIF says the factor is 1 divided by (90 minus your age), and the chart of prescribed factors says that formula applies to age 70 or younger and lists the factor from age 71.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"If the age is 70 years or younger\""
+      }
+    },
+    {
+      "id": "b85ca06a223e",
+      "value": "71",
+      "context": "The CRA's page on the minimum amount from a RRIF says the factor is 1 divided by (90 minus your age), and the chart of prescribed factors says that formula applies to age 70 or younger and lists the factor from age 71.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "7693fd58be78",
+      "value": "November 14, 2026",
+      "context": "CRA prescribed RRIF factors for \"all other RRIFs\" (reviewed November 14, 2026), with the minimum each would force on an example balance that stayed at $500,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
+      }
+    },
+    {
+      "id": "3f4df15f9420",
+      "value": "$500,000",
+      "context": "CRA prescribed RRIF factors for \"all other RRIFs\" (reviewed November 14, 2026), with the minimum each would force on an example balance that stayed at $500,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "cdfcdc769e20",
+      "value": "January 1",
+      "context": "Age at January 1 Factor Minimum on an example $500,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "9db45b11ea09",
+      "value": "$500,000",
+      "context": "Age at January 1 Factor Minimum on an example $500,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "9ec94a2fb556",
+      "value": "71",
+      "context": "71 5.28% $26,400",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "7ca609f3d8a0",
+      "value": "5.28%",
+      "context": "71 5.28% $26,400",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "fdbc9d630ea9",
+      "value": "$26,400",
+      "context": "71 5.28% $26,400",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
+      }
+    },
+    {
+      "id": "8f2f42485759",
+      "value": "75",
+      "context": "75 5.82% $29,100",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"75 | .0667 | .0582 | .0582\""
+      }
+    },
+    {
+      "id": "86bc2e67f788",
+      "value": "5.82%",
+      "context": "75 5.82% $29,100",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"75 | .0667 | .0582 | .0582\""
+      }
+    },
+    {
+      "id": "a56d5ccf32d9",
+      "value": "$29,100",
+      "context": "75 5.82% $29,100",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): minimum on 500,000 at 75"
+      }
+    },
+    {
+      "id": "accbdfb3f504",
+      "value": "80",
+      "context": "80 6.82% $34,100",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"80 | .1000 | .0682 | .0682\""
+      }
+    },
+    {
+      "id": "cfac0270fb9a",
+      "value": "6.82%",
+      "context": "80 6.82% $34,100",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"80 | .1000 | .0682 | .0682\""
+      }
+    },
+    {
+      "id": "36f70715a782",
+      "value": "$34,100",
+      "context": "80 6.82% $34,100",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): minimum on 500,000 at 80"
+      }
+    },
+    {
+      "id": "cbd662c3e707",
+      "value": "85",
+      "context": "85 8.51% $42,550",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"85 | .2000 | .0851 | .0851\""
+      }
+    },
+    {
+      "id": "1f5274a3d42e",
+      "value": "8.51%",
+      "context": "85 8.51% $42,550",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"85 | .2000 | .0851 | .0851\""
+      }
+    },
+    {
+      "id": "49cced4711d2",
+      "value": "$42,550",
+      "context": "85 8.51% $42,550",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): minimum on 500,000 at 85"
+      }
+    },
+    {
+      "id": "59f6a9e45572",
+      "value": "90",
+      "context": "90 11.92% $59,600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"90 | .0000 | .1192 | .1192\""
+      }
+    },
+    {
+      "id": "84e1b47985fc",
+      "value": "11.92%",
+      "context": "90 11.92% $59,600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"90 | .0000 | .1192 | .1192\""
+      }
+    },
+    {
+      "id": "3106dda3d2d1",
+      "value": "$59,600",
+      "context": "90 11.92% $59,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): minimum on 500,000 at 90"
+      }
+    },
+    {
+      "id": "e48122c4c71f",
+      "value": "95",
+      "context": "95 or older 20.00% $100,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
+      }
+    },
+    {
+      "id": "7a8adecbb025",
+      "value": "20.00%",
+      "context": "95 or older 20.00% $100,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
+      }
+    },
+    {
+      "id": "c2f1a91d8d95",
+      "value": "$100,000",
+      "context": "95 or older 20.00% $100,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): minimum on 500,000 at 95+"
+      }
+    },
+    {
+      "id": "bb40a2b50168",
+      "value": "January 1",
+      "context": "RRIF at January 1 of the year you are 71 $500,000 Example",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "e410e2ba0ca7",
+      "value": "71",
+      "context": "RRIF at January 1 of the year you are 71 $500,000 Example",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "1bb6486486cd",
+      "value": "$500,000",
+      "context": "RRIF at January 1 of the year you are 71 $500,000 Example",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "9502fe4345cc",
+      "value": "3%",
+      "context": "Real return 3% a year (1% shown as a check) Example",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c2398368d315",
+      "value": "1%",
+      "context": "Real return 3% a year (1% shown as a check) Example",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "240f1b12a320",
+      "value": "$28,714",
+      "context": "Level path $28,714 a year, or the minimum if higher The payment that would empty $500,000 by the end of age 95 at 3% (our arithmetic)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "cf9124d1b692",
+      "value": "$500,000",
+      "context": "Level path $28,714 a year, or the minimum if higher The payment that would empty $500,000 by the end of age 95 at 3% (our arithmetic)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "776918b5457c",
+      "value": "95",
+      "context": "Level path $28,714 a year, or the minimum if higher The payment that would empty $500,000 by the end of age 95 at 3% (our arithmetic)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c7c94fc3cdd8",
+      "value": "3%",
+      "context": "Level path $28,714 a year, or the minimum if higher The payment that would empty $500,000 by the end of age 95 at 3% (our arithmetic)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "05a1da348480",
+      "value": "$12,000,",
+      "context": "Other income $12,000, $52,000 or $70,000 a year (CPP, work pension) Examples",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "b74e66527447",
+      "value": "$52,000",
+      "context": "Other income $12,000, $52,000 or $70,000 a year (CPP, work pension) Examples",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "e9197e14e59a",
+      "value": "$70,000",
+      "context": "Other income $12,000, $52,000 or $70,000 a year (CPP, work pension) Examples",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "41c5fb3bc811",
+      "value": "$762.50",
+      "context": "OAS pension $762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat Canada.ca OAS payment amounts , October to December 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "6c3dc31cb2b1",
+      "value": "65",
+      "context": "OAS pension $762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat Canada.ca OAS payment amounts , October to December 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "681685af5d4a",
+      "value": "74",
+      "context": "OAS pension $762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat Canada.ca OAS payment amounts , October to December 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "60f1a87c8743",
+      "value": "$838.75",
+      "context": "OAS pension $762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat Canada.ca OAS payment amounts , October to December 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "425283d4a3f3",
+      "value": "75",
+      "context": "OAS pension $762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat Canada.ca OAS payment amounts , October to December 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "9253369f3d12",
+      "value": "14%",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "3c3f54746bdd",
+      "value": "$58,523",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "4d8fa394a48f",
+      "value": "20.5%",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "3c40470d9bdd",
+      "value": "$117,045",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "e2151434f91a",
+      "value": "26%",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "6679ca396ee4",
+      "value": "$181,440",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "50b53504a6ba",
+      "value": "29%",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "205111f31e6a",
+      "value": "$258,482",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "635c898c5951",
+      "value": "33%",
+      "context": "Federal brackets 14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above CRA 2026 federal rates",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "864b2c1fbcf2",
+      "value": "$16,452",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Basic personal amount (maximum) for individuals whose net income for the year is less than or equal to the amount at which the 29% tax bracket beginsFootnote 1 | $16,452\""
+      }
+    },
+    {
+      "id": "68b7097736b3",
+      "value": "$14,829",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"greater than or equal to the amount at which the 33% tax bracket beginsFootnote 1 | $14,829\""
+      }
+    },
+    {
+      "id": "6554848ef174",
+      "value": "33%",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"greater than or equal to the amount at which the 33% tax bracket beginsFootnote 1 | $14,829\""
+      }
+    },
+    {
+      "id": "604cdb64fb4a",
+      "value": "$9,208",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Age amount | $9,208\""
+      }
+    },
+    {
+      "id": "8f984668aa9d",
+      "value": "$46,432,",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Net income threshold for age amount | $46,432\""
+      }
+    },
+    {
+      "id": "6669fff71b37",
+      "value": "$2,000,",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"B is the lesser of * (a) $2,000, and\""
+      }
+    },
+    {
+      "id": "9ba67094d591",
+      "value": "14%",
+      "context": "Credits Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "2b59a30920ea",
+      "value": "15%",
+      "context": "The age amount is reduced by 15% of net income above that threshold, under section 118(2) of the Income Tax Act; section 118(3) sets the $2,000 pension amount CRA indexation table, 2026 ; Income Tax Act, section 118",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"B is 15% of the amount, if any, by which the individual's income for the year would exceed $25,921\""
+      }
+    },
+    {
+      "id": "b8f0250042ab",
+      "value": "$2,000",
+      "context": "The age amount is reduced by 15% of net income above that threshold, under section 118(2) of the Income Tax Act; section 118(3) sets the $2,000 pension amount CRA indexation table, 2026 ; Income Tax Act, section 118",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"B is the lesser of * (a) $2,000, and\""
+      }
+    },
+    {
+      "id": "e13ec4a4f9ca",
+      "value": "15%",
+      "context": "OAS recovery tax 15% of net income above $95,323, up to the OAS received Income Tax Act, section 180.2 ; CRA 2026 threshold",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
+      }
+    },
+    {
+      "id": "8d9dd68ea8e7",
+      "value": "$95,323,",
+      "context": "OAS recovery tax 15% of net income above $95,323, up to the OAS received Income Tax Act, section 180.2 ; CRA 2026 threshold",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old age security repayment threshold | $95,323\""
+      }
+    },
+    {
+      "id": "82ec418ac882",
+      "value": "90",
+      "context": "Death At the end of the year you turn 90 (80, 85 and 95 also run); the whole remaining RRIF is added to that year's income; no spouse CRA RC4178",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "ff1fdc92427c",
+      "value": "80",
+      "context": "Death At the end of the year you turn 90 (80, 85 and 95 also run); the whole remaining RRIF is added to that year's income; no spouse CRA RC4178",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "4cf69274dd64",
+      "value": "85",
+      "context": "Death At the end of the year you turn 90 (80, 85 and 95 also run); the whole remaining RRIF is added to that year's income; no spouse CRA RC4178",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "72ce72268fd0",
+      "value": "95",
+      "context": "Death At the end of the year you turn 90 (80, 85 and 95 also run); the whole remaining RRIF is added to that year's income; no spouse CRA RC4178",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "371e48d9ce69",
+      "value": "3%",
+      "context": "Any extra after-tax cash from the level path goes into a Tax-Free Savings Account (TFSA) that earns the same 3% real return, and a shortfall comes out of it.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
+      }
+    },
+    {
+      "id": "65153e254dad",
+      "value": "3%",
+      "context": "The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit on the CRA indexation table .",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "ef4168b642d8",
+      "value": "$3,652,",
+      "context": "The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit on the CRA indexation table .",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D95 maxsur"
+      }
+    },
+    {
+      "id": "220e9ef29f35",
+      "value": "$7,000",
+      "context": "The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit on the CRA indexation table .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual TFSA dollar limitFootnote 5 | $7,000\""
+      }
+    },
+    {
+      "id": "29fb3c0b0967",
+      "value": "$12,000",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "ae8e78a680f0",
+      "value": "$26,400",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
+      }
+    },
+    {
+      "id": "1fbb3f163db4",
+      "value": "71",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "aa891c9248fc",
+      "value": "$24,837",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 w"
+      }
+    },
+    {
+      "id": "2af6b01888cd",
+      "value": "90",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "cb94bd3fef9b",
+      "value": "$28,714",
+      "context": "With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "6aa1c3f9fb84",
+      "value": "$2,704",
+      "context": "Federal income tax stays between $2,704 and $3,328 a year on both paths, because the income never leaves the 14% bracket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 tax"
+      }
+    },
+    {
+      "id": "a84b4ffd1fc4",
+      "value": "$3,328",
+      "context": "Federal income tax stays between $2,704 and $3,328 a year on both paths, because the income never leaves the 14% bracket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
+      }
+    },
+    {
+      "id": "6e1c94d42f9b",
+      "value": "14%",
+      "context": "Federal income tax stays between $2,704 and $3,328 a year on both paths, because the income never leaves the 14% bracket.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "d6c12be98d00",
+      "value": "$12,000",
+      "context": "Profile A ($12,000 other income, 3% real return), selected years, constant 2026 dollars (model output)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "d0632f09b619",
+      "value": "3%",
+      "context": "Profile A ($12,000 other income, 3% real return), selected years, constant 2026 dollars (model output)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "916debc9fbeb",
+      "value": "January 1",
+      "context": "Age Min-only: balance at January 1 Min-only: withdrawal Min-only: federal tax Level: balance at January 1 Level: withdrawal Level: federal tax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "f9e5ee6b4f72",
+      "value": "71",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "03abfbfac7a8",
+      "value": "$500,000",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "5ec814195a17",
+      "value": "$26,400",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
+      }
+    },
+    {
+      "id": "3129959bfb17",
+      "value": "$2,808",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 tax"
+      }
+    },
+    {
+      "id": "cc5a77270021",
+      "value": "$28,714",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "1b61e96f6a36",
+      "value": "$3,181",
+      "context": "71 $500,000 $26,400 $2,808 $500,000 $28,714 $3,181",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age71 tax"
+      }
+    },
+    {
+      "id": "e784c867f516",
+      "value": "75",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: False)"
+      }
+    },
+    {
+      "id": "964b80f09021",
+      "value": "$449,361",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 start"
+      }
+    },
+    {
+      "id": "5cc52e3b2c74",
+      "value": "$26,153",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 w"
+      }
+    },
+    {
+      "id": "174874cb35eb",
+      "value": "$2,916",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 tax"
+      }
+    },
+    {
+      "id": "20602a887623",
+      "value": "$439,022",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 start"
+      }
+    },
+    {
+      "id": "06d7590f6009",
+      "value": "$28,714",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "3e56eb3643f8",
+      "value": "$3,328",
+      "context": "75 $449,361 $26,153 $2,916 $439,022 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
+      }
+    },
+    {
+      "id": "d41e9bb058ee",
+      "value": "80",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "b4332df1a897",
+      "value": "$378,620",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 start"
+      }
+    },
+    {
+      "id": "27d0ea1c9bca",
+      "value": "$25,822",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 w"
+      }
+    },
+    {
+      "id": "ed085134ec3b",
+      "value": "$2,862",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 tax"
+      }
+    },
+    {
+      "id": "469af7f26507",
+      "value": "$351,927",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age80 start"
+      }
+    },
+    {
+      "id": "6638f111e3cf",
+      "value": "$28,714",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "1d4577a866d7",
+      "value": "$3,328",
+      "context": "80 $378,620 $25,822 $2,862 $351,927 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
+      }
+    },
+    {
+      "id": "63493faa131f",
+      "value": "85",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "69acfdafd38d",
+      "value": "$298,601",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 start"
+      }
+    },
+    {
+      "id": "205a7f5cc8ea",
+      "value": "$25,411",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 w"
+      }
+    },
+    {
+      "id": "f637602b24c3",
+      "value": "$2,796",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 tax"
+      }
+    },
+    {
+      "id": "8b681b5110fe",
+      "value": "$250,961",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D85 rl age85 start"
+      }
+    },
+    {
+      "id": "76f57caad40d",
+      "value": "$28,714",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "2a1624eb9e7e",
+      "value": "$3,328",
+      "context": "85 $298,601 $25,411 $2,796 $250,961 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
+      }
+    },
+    {
+      "id": "fbf77ecb994f",
+      "value": "90",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "54fba7fb917a",
+      "value": "$208,360",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 start"
+      }
+    },
+    {
+      "id": "8a7ba30a7dc4",
+      "value": "$24,837",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 w"
+      }
+    },
+    {
+      "id": "6f301dc351f3",
+      "value": "$2,704",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 tax"
+      }
+    },
+    {
+      "id": "d575dfd2e593",
+      "value": "$133,913",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rl age90 start"
+      }
+    },
+    {
+      "id": "75fa743597b6",
+      "value": "$28,714",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 L"
+      }
+    },
+    {
+      "id": "8a3884f0e856",
+      "value": "$3,328",
+      "context": "90 $208,360 $24,837 $2,704 $133,913 $28,714 $3,328",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
+      }
+    },
+    {
+      "id": "ca7d874f1a71",
+      "value": "$2,314",
+      "context": "The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 level-min withdrawal at 71"
+      }
+    },
+    {
+      "id": "772c28fb28c6",
+      "value": "71",
+      "context": "The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "edcd7f81c9f8",
+      "value": "90",
+      "context": "The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "ba0929fd98b9",
+      "value": "$133,913",
+      "context": "The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rl age90 start"
+      }
+    },
+    {
+      "id": "c70274f0c537",
+      "value": "$208,360",
+      "context": "The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 start"
+      }
+    },
+    {
+      "id": "e8f7efd4caa2",
+      "value": "90",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "7e3e183b8b57",
+      "value": "$7,460",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "cf0818ba8796",
+      "value": "$12,000",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "efe8149d02d3",
+      "value": "$3,596",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
+      }
+    },
+    {
+      "id": "40e438b2706b",
+      "value": "$52,000,",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "593ca56898ad",
+      "value": "$4,380",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "770dd4d9f318",
+      "value": "$70,000",
+      "context": "At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "4a91a174a817",
+      "value": "2%",
+      "context": "In each case the gap is under 2% of the starting $500,000, so the path matters less than the headlines suggest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed: largest |edge| at death 90, 3% = $7,460 = 1.49% of $500,000"
+      }
+    },
+    {
+      "id": "cbd542f54590",
+      "value": "$500,000,",
+      "context": "In each case the gap is under 2% of the starting $500,000, so the path matters less than the headlines suggest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "f264c772bc60",
+      "value": "$500,000",
+      "context": "Did you know: our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,460 more than level withdrawals by age 90 and wins when other income is high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "61db1f73e392",
+      "value": "71",
+      "context": "Did you know: our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,460 more than level withdrawals by age 90 and wins when other income is high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "6fc4855330d9",
+      "value": "$7,460",
+      "context": "Did you know: our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,460 more than level withdrawals by age 90 and wins when other income is high.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "c1c893aa8360",
+      "value": "90",
+      "context": "Did you know: our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,460 more than level withdrawals by age 90 and wins when other income is high.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "44d0d08a942f",
+      "value": "90",
+      "context": "Death at 90, federal tax only, 3% real return, constant 2026 dollars (model output; examples, not forecasts)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "6e866ea1ca50",
+      "value": "3%",
+      "context": "Death at 90, federal tax only, 3% real return, constant 2026 dollars (model output; examples, not forecasts)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "48c0eb1a68e1",
+      "value": "$12,000",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "65f7b3217f27",
+      "value": "$111,060",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 tot_min"
+      }
+    },
+    {
+      "id": "8b0d36f4e11d",
+      "value": "$98,275",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 tot_lvl"
+      }
+    },
+    {
+      "id": "c716faff1a9b",
+      "value": "$134,304",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 est_min"
+      }
+    },
+    {
+      "id": "7e61a2bf58b5",
+      "value": "$141,764",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 heirs level incl TFSA"
+      }
+    },
+    {
+      "id": "55ca34715066",
+      "value": "$7,460",
+      "context": "$12,000 $111,060 $98,275 $134,304 $141,764 +$7,460",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "4542a5cc1ab5",
+      "value": "$52,000",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "7c3e0e57d016",
+      "value": "$281,372",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 tot_min"
+      }
+    },
+    {
+      "id": "3921020871d4",
+      "value": "$271,249",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 tot_lvl"
+      }
+    },
+    {
+      "id": "ca86948cd9ce",
+      "value": "$130,597",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 est_min"
+      }
+    },
+    {
+      "id": "fcc40e718022",
+      "value": "$134,193",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 heirs level incl TFSA"
+      }
+    },
+    {
+      "id": "31c2bef72c1a",
+      "value": "$3,596",
+      "context": "$52,000 $281,372 $271,249 $130,597 $134,193 +$3,596",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
+      }
+    },
+    {
+      "id": "a1ba1c590706",
+      "value": "$70,000",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "2eb52c88beca",
+      "value": "$387,364",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 tot_min"
+      }
+    },
+    {
+      "id": "14fde60c874f",
+      "value": "$383,072",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 tot_lvl"
+      }
+    },
+    {
+      "id": "fc59edc4f5d4",
+      "value": "$129,837",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 est_min"
+      }
+    },
+    {
+      "id": "9e6c18947072",
+      "value": "$125,457",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 heirs level incl TFSA"
+      }
+    },
+    {
+      "id": "68074fe22199",
+      "value": "$4,380",
+      "context": "$70,000 $387,364 $383,072 $129,837 $125,457 &minus;$4,380",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "8ebed01c1aa7",
+      "value": "$70,000",
+      "context": "In the $70,000 row the level path pays less total tax and still loses.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "392845b41e15",
+      "value": "1%",
+      "context": "At a 1% real return the edge is $7,024, $1,360 and &minus;$1,950, so the sign does not change.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "0bf584d8cb1b",
+      "value": "$7,024,",
+      "context": "At a 1% real return the edge is $7,024, $1,360 and &minus;$1,950, so the sign does not change.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.01 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "3ccb8f746dd3",
+      "value": "$1,360",
+      "context": "At a 1% real return the edge is $7,024, $1,360 and &minus;$1,950, so the sign does not change.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.01 o52000 D90 adv"
+      }
+    },
+    {
+      "id": "9e0dcd6ee6e2",
+      "value": "$1,950,",
+      "context": "At a 1% real return the edge is $7,024, $1,360 and &minus;$1,950, so the sign does not change.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.01 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "b72d9450095f",
+      "value": "90",
+      "context": "Profile A: tax on the leftover RRIF at death at 90 (federal income tax plus OAS recovery tax)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "e37171dd14d6",
+      "value": "$54,726",
+      "context": "$54,726",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 final_min"
+      }
+    },
+    {
+      "id": "01aca7311dfa",
+      "value": "$32,305",
+      "context": "$32,305",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 final_lvl"
+      }
+    },
+    {
+      "id": "c020d819be8d",
+      "value": "$189,030",
+      "context": "The minimum-only path leaves $189,030 in the RRIF at 90 and the level path leaves $108,355.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 bm"
+      }
+    },
+    {
+      "id": "d5de97f944f6",
+      "value": "90",
+      "context": "The minimum-only path leaves $189,030 in the RRIF at 90 and the level path leaves $108,355.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
+      }
+    },
+    {
+      "id": "db17cdf495bf",
+      "value": "$108,355",
+      "context": "The minimum-only path leaves $189,030 in the RRIF at 90 and the level path leaves $108,355.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 bl"
+      }
+    },
+    {
+      "id": "4b9608c496bb",
+      "value": "$3,916",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 adv"
+      }
+    },
+    {
+      "id": "24a101d5590a",
+      "value": "80",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "5c24eb7559b0",
+      "value": "$7,027",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D85 adv"
+      }
+    },
+    {
+      "id": "7b4e126a1b88",
+      "value": "85",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "af0a57febf67",
+      "value": "$7,460",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "2ccb7a53c69d",
+      "value": "90",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "c106ee385318",
+      "value": "$5,730",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D95 adv"
+      }
+    },
+    {
+      "id": "6bc9e909c614",
+      "value": "95",
+      "context": "For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "265286f4dc6b",
+      "value": "95",
+      "context": "At 95 the level path has emptied the RRIF, so there is no deemed income at all.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "141078cf3600",
+      "value": "15%",
+      "context": "The recovery tax is 15% of net income above $95,323 for 2026, up to the OAS you received, under section 180.2 of the Income Tax Act , with the $95,323 threshold from the CRA's 2026 indexation table .",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
+      }
+    },
+    {
+      "id": "f6ac0d8f163f",
+      "value": "$95,323",
+      "context": "The recovery tax is 15% of net income above $95,323 for 2026, up to the OAS you received, under section 180.2 of the Income Tax Act , with the $95,323 threshold from the CRA's 2026 indexation table .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old age security repayment threshold | $95,323\""
+      }
+    },
+    {
+      "id": "607414b60fb2",
+      "value": "$70,000",
+      "context": "In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,819 for level.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "17015b5c6ed7",
+      "value": "$30,842",
+      "context": "In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,819 for level.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 rec_min"
+      }
+    },
+    {
+      "id": "f6cfbd8c2566",
+      "value": "90",
+      "context": "In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,819 for level.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    },
+    {
+      "id": "5580055559ac",
+      "value": "$39,819",
+      "context": "In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,819 for level.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 rec_lvl"
+      }
+    },
+    {
+      "id": "662aceff7fce",
+      "value": "$8,977",
+      "context": "That is the $8,977 gap that sinks the level path in that row.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 recovery gap"
+      }
+    },
+    {
+      "id": "0cbd2e02e9c5",
+      "value": "$10,065",
+      "context": "In profile A the final-year recovery tax is $10,065 on minimum-only and $9,572 on level, nearly the whole year's OAS either way.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D80 fm"
+      }
+    },
+    {
+      "id": "8d33f1cf720e",
+      "value": "$9,572",
+      "context": "In profile A the final-year recovery tax is $10,065 on minimum-only and $9,572 on level, nearly the whole year's OAS either way.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 fl"
+      }
+    },
+    {
+      "id": "4fff4ce12826",
+      "value": "75",
+      "context": "Watch out: OAS pays more at 75 and over than at 65 to 74 ( $838.75 a month against $762.50 in the October to December 2026 quarter), and the CRA's recovery thresholds are indexed, but this model holds both flat in 2026 dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "47116cb72131",
+      "value": "65",
+      "context": "Watch out: OAS pays more at 75 and over than at 65 to 74 ( $838.75 a month against $762.50 in the October to December 2026 quarter), and the CRA's recovery thresholds are indexed, but this model holds both flat in 2026 dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "f8b4fda22771",
+      "value": "74",
+      "context": "Watch out: OAS pays more at 75 and over than at 65 to 74 ( $838.75 a month against $762.50 in the October to December 2026 quarter), and the CRA's recovery thresholds are indexed, but this model holds both flat in 2026 dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "d03d2d4e53cb",
+      "value": "$838.75",
+      "context": "Watch out: OAS pays more at 75 and over than at 65 to 74 ( $838.75 a month against $762.50 in the October to December 2026 quarter), and the CRA's recovery thresholds are indexed, but this model holds both flat in 2026 dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "47bd7b434ca9",
+      "value": "$762.50",
+      "context": "Watch out: OAS pays more at 75 and over than at 65 to 74 ( $838.75 a month against $762.50 in the October to December 2026 quarter), and the CRA's recovery thresholds are indexed, but this model holds both flat in 2026 dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
+      }
+    },
+    {
+      "id": "7880d7a0558d",
+      "value": "$23,112",
+      "context": "Also, the Guaranteed Income Supplement (GIS) is cut by income: the single-person income limit for the October to December 2026 quarter is $23,112 on the Canada.ca payment page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"I am single, widowed or divorced | less than $23,112 | up to $1,138.90\""
+      }
+    },
+    {
+      "id": "7dd6ed3d5a85",
+      "value": "November 14, 2026",
+      "context": "Decision guide (based on the model above and CRA rules reviewed November 14, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
+      }
+    },
+    {
+      "id": "371256350c99",
+      "value": "$50,000",
+      "context": "Single, large RRIF, other income under about $50,000 Withdraw more than the minimum Extra withdrawals fill the 14% bracket and shrink the final-year inclusion (profile A)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed: top of 14% bracket $58,523 - OAS at 75+ $10,065 = $48,458, \"about $50,000\" (rule of thumb, rounded)"
+      }
+    },
+    {
+      "id": "d45cd064dc2c",
+      "value": "14%",
+      "context": "Single, large RRIF, other income under about $50,000 Withdraw more than the minimum Extra withdrawals fill the 14% bracket and shrink the final-year inclusion (profile A)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
+      }
+    },
+    {
+      "id": "e362eac31a1b",
+      "value": "$95,323",
+      "context": "Other income near $95,323 Stay near the minimum Extra income triggers 15% recovery tax while you are alive (profile C)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old age security repayment threshold | $95,323\""
+      }
+    },
+    {
+      "id": "16b8dad899fa",
+      "value": "15%",
+      "context": "Other income near $95,323 Stay near the minimum Extra income triggers 15% recovery tax while you are alive (profile C)",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
+      }
+    },
+    {
+      "id": "673773f0175d",
+      "value": "$23,112",
+      "context": "Small RRIF, low income, GIS recipient Check the GIS cut before withdrawing more GIS is income-tested; the single limit is $23,112 for Oct to Dec 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
+      "sourceName": "Canada.ca: Old Age Security payment amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"I am single, widowed or divorced | less than $23,112 | up to $1,138.90\""
+      }
+    },
+    {
+      "id": "f9c28f604f42",
+      "value": "January 1",
+      "context": "Find your January 1 balance and your factor, then write down the minimum in dollars.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "0f9ff1c78ce0",
+      "value": "$95,323",
+      "context": "Add up your other taxable income for the year, including CPP, OAS and any pension, and compare it with $95,323.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old age security repayment threshold | $95,323\""
+      }
+    },
+    {
+      "id": "ce1e25956d56",
+      "value": "$5,000",
+      "context": "Run two numbers: the tax on the minimum, and the tax if you add $5,000 and then $10,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Decision guide\"; declared input: True)"
+      }
+    },
+    {
+      "id": "34a7e9460fee",
+      "value": "$10,000",
+      "context": "Run two numbers: the tax on the minimum, and the tax if you add $5,000 and then $10,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Decision guide\"; declared input: True)"
+      }
+    },
+    {
+      "id": "0ec4d054cc72",
+      "value": "$500,000",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "68c509f468f8",
+      "value": "71",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "4eb07e8d582f",
+      "value": "$4,380",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
+      }
+    },
+    {
+      "id": "03df18b68e41",
+      "value": "$7,460",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_rrif.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
+      }
+    },
+    {
+      "id": "4c3897226e8f",
+      "value": "90",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
+      }
+    },
+    {
+      "id": "dc7f426588da",
+      "value": "2%",
+      "context": "In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed: largest |edge| at death 90, 3% = $7,460 = 1.49% of $500,000"
+      }
+    },
+    {
+      "id": "4228764e2143",
+      "value": "January 1",
+      "context": "It is your RRIF's value on January 1 times a CRA factor for your age, or for a younger spouse's age if you elected it when the RRIF was set up.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
+      "sourceName": "CRA: Minimum amount from a RRIF",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
+      }
+    },
+    {
+      "id": "9a0082ee92fa",
+      "value": "71",
+      "context": "The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's chart of prescribed factors.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "9863d1eb2f94",
+      "value": "5.28%",
+      "context": "The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's chart of prescribed factors.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"71 | .0526 | .0526 | .0528\""
+      }
+    },
+    {
+      "id": "3af42eb8f247",
+      "value": "95",
+      "context": "The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's chart of prescribed factors.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
+      }
+    },
+    {
+      "id": "218ff6008613",
+      "value": "20%",
+      "context": "The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's chart of prescribed factors.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
+      "sourceName": "CRA: Chart - Prescribed factors",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
+      }
+    },
+    {
+      "id": "607a7d59bfa9",
+      "value": "15%",
+      "context": "OAS recovery tax is 15% of net income above $95,323 for 2026, up to the OAS received.",
+      "kind": "sourced",
+      "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
+      "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
+      }
+    },
+    {
+      "id": "2c0683a080ae",
+      "value": "$95,323",
+      "context": "OAS recovery tax is 15% of net income above $95,323 for 2026, up to the OAS received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Old age security repayment threshold | $95,323\""
+      }
+    },
+    {
+      "id": "dc7d0029d6ac",
+      "value": "$70,000",
+      "context": "In profile C, with $70,000 of other income, extra withdrawals added recovery tax every year and the level path lost.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
+      }
+    }
+  ]
+}

@@ -403,6 +403,8 @@ export const retirementClusterPosts: RetirementPost[] = [
         <li><a href="/category/retirement/">Retirement hub</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
     <div class="cta-section">
         <p><strong>The factor is public. The tax on the payment is your return.</strong></p>
         <p>Line 11500 versus line 13000, and the brackets on the extra dollar, are the filing side of a minimum you cannot refuse.</p>
@@ -507,6 +509,8 @@ export const retirementClusterPosts: RetirementPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/setting-a-rrif.html">CRA: setting up a RRIF</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, RRSP, ALDA, TFSA limits and the YMPE</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
 
     <div class="cta-section">
         <p><strong>The deadline is a date. The tax is the door you pick.</strong></p>
