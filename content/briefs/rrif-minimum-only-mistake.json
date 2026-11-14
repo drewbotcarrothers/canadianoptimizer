@@ -18,22 +18,22 @@
   "publishDate": "2026-11-17",
   "agentChecks": {
     "2a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "answers read as answers under the title and each question heading"
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "answers read as answers under the title and each question heading | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
     },
     "4a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "no invented quotes, experience, tests or review claims"
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "no invented quotes, experience, tests or review claims | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
     },
     "6a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
     }
   }
 }

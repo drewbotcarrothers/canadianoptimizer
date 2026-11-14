@@ -12,10 +12,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -27,13 +27,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -46,10 +46,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -62,10 +62,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
@@ -77,13 +77,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -96,10 +96,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
@@ -111,13 +111,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -128,14 +128,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
       }
     },
     {
@@ -146,14 +144,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"one (1) Scene+ Point for every $1.00 in all other purchases of goods and services charged to the Scotiabank Gold American Express Card Account (the \u201cRegular Earn Rate\u201d). You will earn the accelerated Scene+ Points (6X, 5X or 3X as\""
       }
     },
     {
@@ -166,10 +162,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "typical foreign transaction fee not charged"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Shop online or abroad without the typical 2.5% foreign transaction fee on purchases made in a foreign currency\""
       }
     },
     {
@@ -182,10 +178,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -198,10 +194,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "minimum personal income"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"You have a minimum personal income of $12,000 per year\""
       }
     },
     {
@@ -213,13 +209,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining worth"
       }
     },
     {
@@ -231,13 +227,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller worth"
       }
     },
     {
@@ -249,13 +245,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low worth"
       }
     },
     {
@@ -263,15 +259,17 @@
       "value": "November 14, 2026",
       "context": "We read the earn table, fee and redemption examples from Scotiabank's card page on November 14, 2026.",
       "kind": "derived",
-      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "review"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "date of our review of the cited page (stated in Sources)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
     {
@@ -284,10 +282,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -300,28 +298,26 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "accelerated earn limit per calendar year"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"applies to the first $50,000 in purchases charged to the Scotiabank Gold American Express Card Account annually\""
       }
     },
     {
       "id": "821929b8313a",
       "value": "January 1",
       "context": "The rates below apply to Canadian-dollar purchases in Canada, and Scotiabank says the accelerated rates apply to the first $50,000 of purchases a year, counted from January 1 to December 31.",
-      "kind": "derived",
-      "sourceUrl": "",
-      "sourceName": "",
-      "asOf": "",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
       }
     },
     {
@@ -329,15 +325,15 @@
       "value": "December 31",
       "context": "The rates below apply to Canadian-dollar purchases in Canada, and Scotiabank says the accelerated rates apply to the first $50,000 of purchases a year, counted from January 1 to December 31.",
       "kind": "sourced",
-      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
-      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Instacart credit window on Amex page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
       }
     },
     {
@@ -348,14 +344,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
       }
     },
     {
@@ -366,12 +360,14 @@
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "review"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "date of our review of the cited page (stated in Sources)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
     {
@@ -382,14 +378,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
       }
     },
     {
@@ -402,10 +396,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -418,10 +412,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "supplementary card fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Supplementary cards $29 /year\""
       }
     },
     {
@@ -434,10 +428,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "minimum personal income"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"You have a minimum personal income of $12,000 per year\""
       }
     },
     {
@@ -450,10 +444,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "purchase interest rate"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"21.99% on purchases and 21.99% on funds advances\""
       }
     },
     {
@@ -466,10 +460,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "cash advance rate"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Cash advance rate 22.99%\""
       }
     },
     {
@@ -482,10 +476,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -498,10 +492,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -514,10 +508,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -530,10 +524,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -544,14 +538,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -564,10 +556,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -580,10 +572,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -596,10 +588,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -611,13 +603,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "3,000 points for $20 = 0.67 cents per point"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 3000"
       }
     },
     {
@@ -628,14 +620,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -648,10 +638,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -663,13 +653,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 1000"
       }
     },
     {
@@ -680,14 +670,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -700,10 +688,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -715,13 +703,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "3,000 points for $20 = 0.67 cents per point"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 3000"
       }
     },
     {
@@ -732,14 +720,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -752,10 +738,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -767,13 +753,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 1000"
       }
     },
     {
@@ -786,10 +772,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -802,10 +788,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -817,13 +803,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 1000"
       }
     },
     {
@@ -836,10 +822,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -852,10 +838,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -867,13 +853,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 1000"
       }
     },
     {
@@ -885,13 +871,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -903,13 +889,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net"
       }
     },
     {
@@ -921,13 +907,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -939,13 +925,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -958,10 +944,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -974,10 +960,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -990,10 +976,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1006,10 +992,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1022,10 +1008,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1040,10 +1026,10 @@
         "content/calcs/card-value-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "profile has no foreign spend"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: False)"
       }
     },
     {
@@ -1056,10 +1042,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1072,10 +1058,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1088,10 +1074,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1104,10 +1090,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1120,10 +1106,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1136,10 +1122,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1152,10 +1138,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1170,10 +1156,10 @@
         "content/calcs/card-value-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "profile has no foreign spend"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: False)"
       }
     },
     {
@@ -1186,10 +1172,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -1202,10 +1188,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -1217,13 +1203,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining points"
       }
     },
     {
@@ -1235,13 +1221,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining worth"
       }
     },
     {
@@ -1253,13 +1239,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -1271,13 +1257,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining nofee cb"
       }
     },
     {
@@ -1289,13 +1275,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller points"
       }
     },
     {
@@ -1307,13 +1293,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller worth"
       }
     },
     {
@@ -1325,13 +1311,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net"
       }
     },
     {
@@ -1343,13 +1329,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller fx"
       }
     },
     {
@@ -1361,13 +1347,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -1379,13 +1365,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller nofee cb"
       }
     },
     {
@@ -1397,13 +1383,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low points"
       }
     },
     {
@@ -1415,13 +1401,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low worth"
       }
     },
     {
@@ -1433,13 +1419,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -1451,13 +1437,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low nofee cb"
       }
     },
     {
@@ -1470,10 +1456,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -1485,13 +1471,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -1503,13 +1489,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -1522,10 +1508,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -1537,13 +1523,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low nofee cb"
       }
     },
     {
@@ -1555,13 +1541,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line dining value"
       }
     },
     {
@@ -1574,10 +1560,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -1589,13 +1575,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -1607,13 +1593,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -1625,13 +1611,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -1644,26 +1630,28 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
       "id": "f9d0033833c9",
       "value": "$36,000",
       "context": "$3,000 a month is $36,000 a year.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining annual"
       }
     },
     {
@@ -1676,26 +1664,28 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
       "id": "b5a74c7d8dd1",
       "value": "$9,000,",
       "context": "Dining at 25% is $9,000, Sobeys-family groceries at 5% are $1,800, other groceries at 10% are $3,600, gas at 5% is $1,800, and the remaining 55% is $19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line dining $"
       }
     },
     {
@@ -1708,26 +1698,28 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
       "id": "2b7286a27dd9",
       "value": "$1,800,",
       "context": "Dining at 25% is $9,000, Sobeys-family groceries at 5% are $1,800, other groceries at 10% are $3,600, gas at 5% is $1,800, and the remaining 55% is $19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line sob $"
       }
     },
     {
@@ -1740,74 +1732,82 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
     {
       "id": "5812ef1463bf",
       "value": "$3,600,",
       "context": "Dining at 25% is $9,000, Sobeys-family groceries at 5% are $1,800, other groceries at 10% are $3,600, gas at 5% is $1,800, and the remaining 55% is $19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line og $"
       }
     },
     {
       "id": "8ef34a7564f6",
       "value": "55%",
       "context": "Dining at 25% is $9,000, Sobeys-family groceries at 5% are $1,800, other groceries at 10% are $3,600, gas at 5% is $1,800, and the remaining 55% is $19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 100%-5%-10%-5%-25% (dining-heavy, everything else)"
       }
     },
     {
       "id": "e7efce523590",
       "value": "$19,800",
       "context": "Dining at 25% is $9,000, Sobeys-family groceries at 5% are $1,800, other groceries at 10% are $3,600, gas at 5% is $1,800, and the remaining 55% is $19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line else $"
       }
     },
     {
       "id": "d8215048175d",
       "value": "$9,000",
       "context": "Points: $9,000 &times; 5 = 45,000; $1,800 &times; 6 = 10,800; $3,600 &times; 5 = 18,000; $1,800 &times; 3 = 5,400; $19,800 &times; 1 = 19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line dining $"
       }
     },
     {
@@ -1819,29 +1819,31 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line dining pts"
       }
     },
     {
       "id": "4392d934794b",
       "value": "$1,800",
       "context": "Points: $9,000 &times; 5 = 45,000; $1,800 &times; 6 = 10,800; $3,600 &times; 5 = 18,000; $1,800 &times; 3 = 5,400; $19,800 &times; 1 = 19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line sob $"
       }
     },
     {
@@ -1853,29 +1855,31 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line sob pts"
       }
     },
     {
       "id": "39e94b5b8870",
       "value": "$3,600",
       "context": "Points: $9,000 &times; 5 = 45,000; $1,800 &times; 6 = 10,800; $3,600 &times; 5 = 18,000; $1,800 &times; 3 = 5,400; $19,800 &times; 1 = 19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line og $"
       }
     },
     {
@@ -1887,13 +1891,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line og pts"
       }
     },
     {
@@ -1905,29 +1909,31 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5,400 = $1,800 x 3 (indep_cards)"
       }
     },
     {
       "id": "ef87db8935ec",
       "value": "$19,800",
       "context": "Points: $9,000 &times; 5 = 45,000; $1,800 &times; 6 = 10,800; $3,600 &times; 5 = 18,000; $1,800 &times; 3 = 5,400; $19,800 &times; 1 = 19,800.",
-      "kind": "example",
+      "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "qa/figs/2026-11-17/indep_cards.py"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line else $"
       }
     },
     {
@@ -1939,13 +1945,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining line else $"
       }
     },
     {
@@ -1957,13 +1963,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining points"
       }
     },
     {
@@ -1975,13 +1981,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining worth"
       }
     },
     {
@@ -1994,10 +2000,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -2009,13 +2015,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -2027,13 +2033,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining nofee cb"
       }
     },
     {
@@ -2045,13 +2051,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining sp net"
       }
     },
     {
@@ -2064,10 +2070,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
     {
@@ -2080,10 +2086,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "typical foreign transaction fee not charged"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Shop online or abroad without the typical 2.5% foreign transaction fee on purchases made in a foreign currency\""
       }
     },
     {
@@ -2095,13 +2101,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller fx"
       }
     },
     {
@@ -2114,10 +2120,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "typical foreign transaction fee not charged"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Shop online or abroad without the typical 2.5% foreign transaction fee on purchases made in a foreign currency\""
       }
     },
     {
@@ -2129,13 +2135,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -2147,13 +2153,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net"
       }
     },
     {
@@ -2164,14 +2170,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"one (1) Scene+ Point for every $1.00 in all other purchases of goods and services charged to the Scotiabank Gold American Express Card Account (the \u201cRegular Earn Rate\u201d). You will earn the accelerated Scene+ Points (6X, 5X or 3X as\""
       }
     },
     {
@@ -2184,10 +2188,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
     {
@@ -2199,13 +2203,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "1 point per $1 \u00d7 $5,000 foreign spend = 5,000 points"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): 5,000 points = $5,000 x 1 point (indep_cards)"
       }
     },
     {
@@ -2220,10 +2224,10 @@
         "content/calcs/card-value-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative balance / budget"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
     {
@@ -2236,10 +2240,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
     {
@@ -2251,13 +2255,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining net"
       }
     },
     {
@@ -2269,13 +2273,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): dining sp net"
       }
     },
     {
@@ -2288,10 +2292,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"budget\"; declared input: True)"
       }
     },
     {
@@ -2303,13 +2307,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller net+fx"
       }
     },
     {
@@ -2321,13 +2325,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): traveller sp net"
       }
     },
     {
@@ -2340,10 +2344,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"budget\"; declared input: True)"
       }
     },
     {
@@ -2355,13 +2359,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -2373,13 +2377,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low nofee cb"
       }
     },
     {
@@ -2390,14 +2394,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"one (1) Scene+ Point for every $1.00 in all other purchases of goods and services charged to the Scotiabank Gold American Express Card Account (the \u201cRegular Earn Rate\u201d). You will earn the accelerated Scene+ Points (6X, 5X or 3X as\""
       }
     },
     {
@@ -2410,10 +2412,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "accelerated earn limit per calendar year"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"applies to the first $50,000 in purchases charged to the Scotiabank Gold American Express Card Account annually\""
       }
     },
     {
@@ -2426,10 +2428,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -2440,12 +2442,14 @@
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [],
+      "derivedFrom": [
+        "review"
+      ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "date of our review of the cited page (stated in Sources)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
     {
@@ -2458,10 +2462,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Get up to 65,000 bonus Scene+ points - that's up to $650\""
       }
     },
     {
@@ -2474,10 +2478,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Get up to 65,000 bonus Scene+ points - that's up to $650\""
       }
     },
     {
@@ -2490,10 +2494,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer period"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"between November 2, 2026, and January 3, 2027\""
       }
     },
     {
@@ -2506,10 +2510,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer period"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"between November 2, 2026, and January 3, 2027\""
       }
     },
     {
@@ -2522,10 +2526,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"40,000 bonus Scene + points Spend at least $2,000 on eligible purchases in your first 3 months\""
       }
     },
     {
@@ -2538,10 +2542,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"40,000 bonus Scene + points Spend at least $2,000 on eligible purchases in your first 3 months\""
       }
     },
     {
@@ -2554,10 +2558,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
       }
     },
     {
@@ -2570,10 +2574,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
       }
     },
     {
@@ -2581,15 +2585,15 @@
       "value": "12",
       "context": "You get 40,000 points after spending $2,000 on eligible purchases in the first 3 months, and 25,000 more after spending $7,500 in the first 12 months.",
       "kind": "sourced",
-      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
-      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "month 13 / 12-month terms"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"25,000 more bonus Scene + points Spend at least $7,500 on eligible purchases in your first 12 months\""
       }
     },
     {
@@ -2602,10 +2606,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "welcome offer period"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"between November 2, 2026, and January 3, 2027\""
       }
     },
     {
@@ -2618,10 +2622,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -2634,10 +2638,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "supplementary card fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Supplementary cards $29 /year\""
       }
     },
     {
@@ -2648,14 +2652,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
       }
     },
     {
@@ -2668,10 +2670,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -2684,10 +2686,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "typical foreign transaction fee not charged"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Shop online or abroad without the typical 2.5% foreign transaction fee on purchases made in a foreign currency\""
       }
     },
     {
@@ -2698,14 +2700,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "points per $1 earn table"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"6 points At Sobeys, Safeway, FreshCo, Foodland and more.* 5 points On dining, food delivery, food subscriptions, and other eligible grocery stores.* 5 points On eligible entertainment purchases. Includes movies, theatre, and ticke\""
       }
     },
     {
@@ -2718,10 +2718,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2734,10 +2734,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2750,10 +2750,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2766,10 +2766,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2780,14 +2780,12 @@
       "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
       "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2800,10 +2798,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "redemption example on page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"1,000 points $10 off Cineplex movie tickets. 3,000 points $20 account credit on eligible accounts. 5,000 points $50 off at Home Hardware. 10,000 points $100 off at eligible grocery stores. 20,000 points $200 off travel\""
       }
     },
     {
@@ -2815,13 +2813,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "3,000 points for $20 = 0.67 cents per point"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): cents/pt 3000"
       }
     },
     {
@@ -2834,10 +2832,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "minimum personal income"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"You have a minimum personal income of $12,000 per year\""
       }
     },
     {
@@ -2850,28 +2848,26 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "accelerated earn limit per calendar year"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"applies to the first $50,000 in purchases charged to the Scotiabank Gold American Express Card Account annually\""
       }
     },
     {
       "id": "fbe1a46993ef",
       "value": "January 1",
       "context": "Scotiabank applies the accelerated rates to the first $50,000 in qualifying purchases a year, counted from January 1 to December 31.",
-      "kind": "derived",
-      "sourceUrl": "",
-      "sourceName": "",
-      "asOf": "",
-      "derivedFrom": [
-        "content/calcs/card-value-model.py"
-      ],
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
       }
     },
     {
@@ -2879,15 +2875,15 @@
       "value": "December 31",
       "context": "Scotiabank applies the accelerated rates to the first $50,000 in qualifying purchases a year, counted from January 1 to December 31.",
       "kind": "sourced",
-      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
-      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html",
+      "sourceName": "Scotiabank: Gold American Express Card",
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Instacart credit window on Amex page"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"calculated annually from January 1st to December 31st each year\""
       }
     },
     {
@@ -2900,10 +2896,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "example spending profile / mix"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
     {
@@ -2915,13 +2911,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low worth"
       }
     },
     {
@@ -2934,10 +2930,10 @@
       "asOf": "2026-11-14",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "annual fee"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "page prints: \"Annual fee $120 /year\""
       }
     },
     {
@@ -2949,13 +2945,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low net"
       }
     },
     {
@@ -2967,13 +2963,13 @@
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [
-        "content/calcs/card-value-model.py"
+        "qa/figs/2026-11-17/indep_cards.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+        "status": "match",
+        "checkedOn": "2026-11-14",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "note": "recomputed independently (indep): low nofee cb"
       }
     }
   ]

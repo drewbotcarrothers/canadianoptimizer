@@ -10,14 +10,14 @@ const content = `<div class="container">
         The RRIF minimum is a floor, not a plan, but what do the extra withdrawals actually save? <span class="highlight">We ran $500,000 through both paths, year by year, with the CRA's own factors and brackets.</span> The answer on this page from our <a href="/category/retirement/decumulation-rrif/">withdrawals and RRIFs hub</a> is smaller, and more conditional, than the usual warning suggests.
     </div>
 
-    <p>Not always. In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,586 to $7,459 more after tax than the minimum at death at 90, and $4,384 less when other income was high. We used the CRA's 2026 federal brackets and its RRIF factors; provincial tax is excluded.</p>
+    <p>Not always. In our 2026-dollar model of a single retiree with $500,000 in a RRIF from age 71, level withdrawals left $3,596 to $7,460 more after tax than the minimum at death at 90, and $4,380 less when other income was high. We used the CRA's 2026 federal brackets and its RRIF factors; provincial tax is excluded.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
             <li>At 71, the CRA's factor of 5.28% makes the minimum on $500,000 equal to $26,400. In constant 2026 dollars it barely moves for years, because a 3% real return roughly offsets the rising factor.</li>
-            <li>Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,459 when other income is $12,000 and by $3,586 when it is $52,000, at death at 90.</li>
-            <li>When other income is $70,000, level withdrawals lose by $4,384, because they push more income over the OAS recovery threshold while you are alive.</li>
+            <li>Level withdrawals (about $28,714 a year, sized to empty the RRIF by 95) beat minimum-only by $7,460 when other income is $12,000 and by $3,596 when it is $52,000, at death at 90.</li>
+            <li>When other income is $70,000, level withdrawals lose by $4,380, because they push more income over the OAS recovery threshold while you are alive.</li>
             <li>The big tax event is the final return, where the whole leftover RRIF is added to income. A spouse who receives it as a rollover changes that completely.</li>
         </ul>
     </div>
@@ -36,13 +36,13 @@ const content = `<div class="container">
     </nav>
 
     <h2 id="minimum">What does the RRIF minimum force you to take each year?</h2>
-    <p>The minimum is your RRIF's value on January 1 multiplied by a CRA factor that depends on your age. The CRA's page on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html">minimum amount from a RRIF</a> says the factor is 1 divided by (90 minus your age) up to age 70, and the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html">chart of prescribed factors</a> sets it from age 71. You can withdraw more but not less, according to the CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html">receiving income from a RRIF</a> page.</p>
+    <p>The minimum is your RRIF's value on January 1 multiplied by a CRA factor that depends on your age. The CRA's page on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html">minimum amount from a RRIF</a> says the factor is 1 divided by (90 minus your age), and the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html">chart of prescribed factors</a> says that formula applies to age 70 or younger and lists the factor from age 71. You can withdraw more but not less, according to the CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html">receiving income from a RRIF</a> page.</p>
 
     <div class="table-wrapper">
         <table>
-            <caption>CRA prescribed RRIF factors for "all other RRIFs" (reviewed November 14, 2026), with the minimum each would force on a balance that stayed at $500,000</caption>
+            <caption>CRA prescribed RRIF factors for "all other RRIFs" (reviewed November 14, 2026), with the minimum each would force on an example balance that stayed at $500,000</caption>
             <thead>
-                <tr><th>Age at January 1</th><th>Factor</th><th>Minimum on $500,000</th></tr>
+                <tr><th>Age at January 1</th><th>Factor</th><th>Minimum on an example $500,000</th></tr>
             </thead>
             <tbody>
                 <tr><td>71</td><td>5.28%</td><td>$26,400</td></tr>
@@ -73,17 +73,17 @@ const content = `<div class="container">
                 <tr><td>Other income</td><td>$12,000, $52,000 or $70,000 a year (CPP, work pension)</td><td>Examples</td></tr>
                 <tr><td>OAS pension</td><td>$762.50 a month at 65 to 74 and $838.75 at 75 and over, held flat</td><td><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html">Canada.ca OAS payment amounts</a>, October to December 2026</td></tr>
                 <tr><td>Federal brackets</td><td>14% to $58,523; 20.5% to $117,045; 26% to $181,440; 29% to $258,482; 33% above</td><td><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA 2026 federal rates</a></td></tr>
-                <tr><td>Credits</td><td>Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%. The model uses the Income Tax Act's 15% reduction rate for the age amount; the CRA pages cited here do not print it</td><td><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table, 2026</a>; <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA line 31400</a></td></tr>
-                <tr><td>OAS recovery tax</td><td>15% of net income above $95,323, up to the OAS received</td><td><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/recovery-tax.html">Canada.ca recovery tax</a>; <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA 2026 threshold</a></td></tr>
+                <tr><td>Credits</td><td>Basic personal amount $16,452 (reduced to $14,829 above the 33% bracket start), age amount $9,208 reduced as net income rises above $46,432, pension amount $2,000, all at 14%. The age amount is reduced by 15% of net income above that threshold, under section 118(2) of the Income Tax Act; section 118(3) sets the $2,000 pension amount</td><td><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table, 2026</a>; <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html">Income Tax Act, section 118</a></td></tr>
+                <tr><td>OAS recovery tax</td><td>15% of net income above $95,323, up to the OAS received</td><td><a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html">Income Tax Act, section 180.2</a>; <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA 2026 threshold</a></td></tr>
                 <tr><td>Death</td><td>At the end of the year you turn 90 (80, 85 and 95 also run); the whole remaining RRIF is added to that year's income; no spouse</td><td><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4178/death-a-rrif-annuitant.html">CRA RC4178</a></td></tr>
             </tbody>
         </table>
     </div>
 
-    <p>To compare fairly, both paths must support the same lifestyle. We fix spending at what the minimum-only path leaves after tax each year. Any extra after-tax cash from the level path goes into a Tax-Free Savings Account (TFSA) that earns the same 3% real return, and a shortfall comes out of it. The largest yearly top-up in the 3% runs is $3,253, which fits within the $7,000 2026 annual TFSA dollar limit on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table</a>. TFSA room already used elsewhere would change that.</p>
+    <p>To compare fairly, both paths must support the same lifestyle. We fix spending at what the minimum-only path leaves after tax each year. Any extra after-tax cash from the level path goes into a Tax-Free Savings Account (TFSA) that earns the same 3% real return, and a shortfall comes out of it. The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table</a>. TFSA room already used elsewhere would change that.</p>
 
     <h2 id="year-by-year">What does each path look like year by year?</h2>
-    <p>With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year. Federal income tax stays near $2,808 to $3,328 a year on both paths, because the income never leaves the 14% bracket.</p>
+    <p>With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year. Federal income tax stays between $2,704 and $3,328 a year on both paths, because the income never leaves the 14% bracket.</p>
 
     <div class="table-wrapper">
         <table>
@@ -103,9 +103,9 @@ const content = `<div class="container">
     <p>The minimum barely moves in real dollars because two things offset: the factor rises each year, but the balance falls. The level path takes about $2,314 more than the minimum at 71 and ends up taking much more than the minimum by 90, when its balance is down to $133,913 against $208,360.</p>
 
     <h2 id="result">Which path leaves more after tax?</h2>
-    <p>At death at 90, level withdrawals come out ahead by $7,459 with $12,000 of other income and $3,586 with $52,000, and behind by $4,384 with $70,000. In each case the gap is under 2% of the starting $500,000, so the path matters less than the headlines suggest.</p>
+    <p>At death at 90, level withdrawals come out ahead by $7,460 with $12,000 of other income and $3,596 with $52,000, and behind by $4,380 with $70,000. In each case the gap is under 2% of the starting $500,000, so the path matters less than the headlines suggest.</p>
 
-    <p class="did-you-know" data-info-gain><strong>Did you know:</strong> our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,459 more than level withdrawals by age 90 and wins when other income is high. The bigger tax event is the leftover RRIF added to income in the final return, not the early years.</p>
+    <p class="did-you-know" data-info-gain><strong>Did you know:</strong> our own calculation shows that on $500,000 from 71, minimum-only costs at most $7,460 more than level withdrawals by age 90 and wins when other income is high. The bigger tax event is the leftover RRIF added to income in the final return, not the early years.</p>
 
     <div class="table-wrapper">
         <table>
@@ -114,13 +114,13 @@ const content = `<div class="container">
                 <tr><th>Other income a year</th><th>Tax plus OAS recovery tax: min-only</th><th>Tax plus OAS recovery tax: level</th><th>Left to heirs after tax: min-only</th><th>Left to heirs after tax: level, plus TFSA</th><th>Level's edge</th></tr>
             </thead>
             <tbody>
-                <tr class="highlight-row"><td>$12,000</td><td>$111,060</td><td>$98,277</td><td>$134,304</td><td>$141,763</td><td>+$7,459</td></tr>
-                <tr><td>$52,000</td><td>$281,373</td><td>$271,257</td><td>$130,597</td><td>$134,183</td><td>+$3,586</td></tr>
-                <tr><td>$70,000</td><td>$387,364</td><td>$383,060</td><td>$129,837</td><td>$125,453</td><td>&minus;$4,384</td></tr>
+                <tr class="highlight-row"><td>$12,000</td><td>$111,060</td><td>$98,275</td><td>$134,304</td><td>$141,764</td><td>+$7,460</td></tr>
+                <tr><td>$52,000</td><td>$281,372</td><td>$271,249</td><td>$130,597</td><td>$134,193</td><td>+$3,596</td></tr>
+                <tr><td>$70,000</td><td>$387,364</td><td>$383,072</td><td>$129,837</td><td>$125,457</td><td>&minus;$4,380</td></tr>
             </tbody>
         </table>
     </div>
-    <p>In the $70,000 row the level path pays less total tax and still loses. It pays more of the tax early, and tax paid early has less time to compound. Read the last column, not the tax columns. At a 1% real return the edge is $7,021, $1,357 and &minus;$1,948, so the sign does not change.</p>
+    <p>In the $70,000 row the level path pays less total tax and still loses. It pays more of the tax early, and tax paid early has less time to compound. Read the last column, not the tax columns. At a 1% real return the edge is $7,024, $1,360 and &minus;$1,950, so the sign does not change.</p>
 
     <div class="chart-container">
         <h3>Profile A: tax on the leftover RRIF at death at 90 (federal income tax plus OAS recovery tax)</h3>
@@ -138,12 +138,12 @@ const content = `<div class="container">
     </div>
 
     <h2>Does the death age change the answer?</h2>
-    <p>Not the direction, but the size. For profile A, the level path's edge is $3,915 at death at 80, $7,027 at 85, $7,459 at 90 and $5,728 at 95. At 95 the level path has emptied the RRIF, so there is no deemed income at all. Dying early favours neither path much. The model cannot tell you your death age, which is the reason to avoid a plan that only works at one.</p>
+    <p>Not the direction, but the size. For profile A, the level path's edge is $3,916 at death at 80, $7,027 at 85, $7,460 at 90 and $5,730 at 95. At 95 the level path has emptied the RRIF, so there is no deemed income at all. Dying early favours neither path much. The model cannot tell you your death age, which is the reason to avoid a plan that only works at one.</p>
 
     <h2 id="oas">Does taking only the minimum protect your OAS?</h2>
-    <p>Only if your other income is high enough for OAS recovery tax to matter while you are alive. The recovery tax is 15% of net income above $95,323 for 2026, up to the OAS you received, per Canada.ca's <a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/recovery-tax.html">recovery tax page</a> and the CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">2026 threshold</a>. In profiles A and B no RRIF withdrawal on either path crosses it before death.</p>
+    <p>Only if your other income is high enough for OAS recovery tax to matter while you are alive. The recovery tax is 15% of net income above $95,323 for 2026, up to the OAS you received, under <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html">section 180.2 of the Income Tax Act</a>, with the $95,323 threshold from the CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">2026 indexation table</a>. In profiles A and B no RRIF withdrawal on either path crosses it before death.</p>
 
-    <p>In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,812 for level. That is the $8,970 gap that sinks the level path in that row. If you are already near the line, the minimum is the better friend. Our guide to the <a href="/blog/oas-gis-clawback-canada/">OAS clawback and GIS</a> covers the income stacking in detail.</p>
+    <p>In profile C, with $70,000 of other income, both paths pay recovery tax every year: $30,842 in total to age 90 for minimum-only and $39,819 for level. That is the $8,977 gap that sinks the level path in that row. If you are already near the line, the minimum is the better friend. Our guide to the <a href="/blog/oas-gis-clawback-canada/">OAS clawback and GIS</a> covers the income stacking in detail.</p>
 
     <p>Every path pays recovery tax in the year of death. The CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-23500-social-benefits-repayment.html">line 23500 page</a> compares your net income for the year with the threshold, and the deemed RRIF income is part of that year's net income. In profile A the final-year recovery tax is $10,065 on minimum-only and $9,572 on level, nearly the whole year's OAS either way. Withdrawing more earlier does not avoid that.</p>
 
@@ -195,9 +195,9 @@ const content = `<div class="container">
 
     <h2>Frequently asked questions</h2>
     <h3>Is it bad to only take the RRIF minimum?</h3>
-    <p>Not necessarily. In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,384 in favour of minimum-only and $7,459 in favour of level at death at 90, under 2% of the starting balance.</p>
+    <p>Not necessarily. In our model of $500,000 from age 71, the gap between minimum-only and level withdrawals was between $4,380 in favour of minimum-only and $7,460 in favour of level at death at 90, under 2% of the starting balance.</p>
     <h3>How is the RRIF minimum calculated?</h3>
-    <p>It is your RRIF's value on January 1 times a CRA factor for your age, or for a younger spouse's age if you elected it when the RRIF was set up. The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's 2026 chart.</p>
+    <p>It is your RRIF's value on January 1 times a CRA factor for your age, or for a younger spouse's age if you elected it when the RRIF was set up. The factor at 71 is 5.28%, and at 95 or older it is 20%, per the CRA's chart of prescribed factors.</p>
     <h3>Does a RRIF withdrawal affect OAS?</h3>
     <p>Yes, through net income. OAS recovery tax is 15% of net income above $95,323 for 2026, up to the OAS received. RRIF withdrawals count in net income.</p>
     <h3>What happens to a RRIF when you die?</h3>
@@ -217,9 +217,9 @@ const content = `<div class="container">
         <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4178/death-a-rrif-annuitant.html">CRA: Information Sheet RC4178, Death of a RRIF Annuitant, PRPP Member, or ALDA Annuitant</a>, reviewed November 14, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Current year tax rates and income brackets (2026)</a>, reviewed November 14, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 14, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA: Line 31400 – Pension income amount</a>, reviewed November 14, 2026</li>
+        <li><a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html">Justice Laws: Income Tax Act, section 118 (personal credits)</a>, current to October 19, 2026, reviewed November 14, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-23500-social-benefits-repayment.html">CRA: Line 23500 – Social benefits repayment</a>, reviewed November 14, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/recovery-tax.html">Canada.ca: Old Age Security pension recovery tax</a>, reviewed November 14, 2026</li>
+        <li><a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html">Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)</a>, current to October 19, 2026, reviewed November 14, 2026</li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html">Canada.ca: Old Age Security payment amounts</a>, reviewed November 14, 2026</li>
     </ul>
 
@@ -251,6 +251,6 @@ export const rrifMinimumOnlyPost = batchPost({
   slug: 'rrif-minimum-only-mistake',
   title: "Should You Only Take the RRIF Minimum? The Tax and OAS Math",
   excerpt:
-    "Taking only the RRIF minimum is not always a mistake. On $500,000 from age 71, level withdrawals beat it by $3,586 to $7,459 at 90 unless other income is high.",
+    "Taking only the RRIF minimum is not always a mistake. On $500,000 from age 71, level withdrawals beat it by $3,596 to $7,460 at 90 unless other income is high.",
   content,
 });

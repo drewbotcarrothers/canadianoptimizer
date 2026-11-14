@@ -56,9 +56,10 @@ def run(strategy, other, r, death_age, start=500000.0, level=None):
         mn = bal * factor(a)
         w = mn if strategy == 'min' else min(bal, max(mn, level))
         tax, rec, ni = year(a, w, other)
-        rows.append(dict(age=a, start=round(bal), withdrawal=round(w), minimum=round(mn), net_income=round(ni),
-                         income_tax=round(tax), oas_recovery=round(rec),
-                         aftertax=round(w + other + (OAS_75 if a >= 75 else OAS_65_74) - tax - rec)))
+        # Keep full precision inside the model; only the displayed/output numbers are rounded to whole dollars.
+        rows.append(dict(age=a, start=bal, withdrawal=w, minimum=mn, net_income=ni,
+                         income_tax=tax, oas_recovery=rec,
+                         aftertax=w + other + (OAS_75 if a >= 75 else OAS_65_74) - tax - rec))
         tot['withdrawn'] += w; tot['tax'] += tax; tot['rec'] += rec
         bal = (bal - w) * (1 + r)
         if a == death_age:
@@ -102,7 +103,8 @@ def compare(other, r, death_age):
     out['level_net_advantage'] = round(el + tfsa - em)
     out['max_annual_surplus'] = round(max(b['aftertax'] - a['aftertax'] for a, b in zip(rm, rl)))
     out['level_payment'] = round(L)
-    out['rows_min'] = rm; out['rows_level'] = rl
+    rd = lambda rows: [{k: (v if k == 'age' else round(v)) for k, v in x.items()} for x in rows]
+    out['rows_min'] = rd(rm); out['rows_level'] = rd(rl)
     return out
 
 if __name__ == '__main__':
