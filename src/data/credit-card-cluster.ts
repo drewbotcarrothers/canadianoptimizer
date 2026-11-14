@@ -1221,6 +1221,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="/blog/travel-medical-insurance-canada/">Travel medical insurance</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
+
     <div class="cta-section">
         <p><strong>The certificate is the product. The metal card is the packaging.</strong></p>
         <p>If you would have bought a policy anyway, do not count the card’s medical line as a reason to pay a premium fee. The tax side of a year of travel and work is the 2026 tax guide.</p>

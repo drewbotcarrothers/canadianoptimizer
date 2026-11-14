@@ -1,0 +1,38 @@
+{
+  "slug": "amex-simplycash-preferred-review",
+  "title": "Amex SimplyCash Preferred Review: When the $119.88 Fee Pays for Itself",
+  "family": "review",
+  "category": "credit-cards",
+  "subcategory": "cash-back",
+  "targetQuery": "amex simplycash preferred review",
+  "secondaryQueries": [
+    "amex simplycash preferred annual fee",
+    "simplycash preferred vs simplycash",
+    "amex simplycash preferred 4% groceries"
+  ],
+  "infoGain": "Break-even yearly spend against the $119.88 fee, vs Amex's no-fee SimplyCash, for lean, typical and high household budgets (content/calcs/card-value-model.py).",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-17",
+  "agentChecks": {
+    "2a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "answers read as answers under the title and each question heading"
+    },
+    "4a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "no invented quotes, experience, tests or review claims"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

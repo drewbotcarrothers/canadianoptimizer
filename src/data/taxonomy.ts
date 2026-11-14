@@ -710,7 +710,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you travel more than a couple of times a year, compare against the travel rewards hub before you apply.",
     ],
     decisions: ["Which cash back card pays most on my budget?", "Is an annual fee worth it at my spending?", "Which card works at Costco and grocery stores?", "Should I use one card or two?"],
-    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada"],
+    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada", "cash-back-vs-travel-rewards-credit-card-canada", "amex-simplycash-preferred-review"],
   },
   "credit-cards/travel-points": {
     intro: [
@@ -719,7 +719,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Lounge access, travel insurance and other premium perks are covered in the premium cards hub.",
     ],
     decisions: ["What is a point worth in each program?", "Which travel card fits how often I fly?", "Is Aeroplan the right program for me?", "When do points beat cash back?"],
-    startHere: ["credit-card-points-valuations-aeroplan-avion-amex-canada", "best-travel-rewards-cards-canada", "aeroplan-points-guide-canada", "best-aeroplan-credit-cards-canada", "amex-cobalt-review-canada"],
+    startHere: ["credit-card-points-valuations-aeroplan-avion-amex-canada", "best-travel-rewards-cards-canada", "aeroplan-points-guide-canada", "best-aeroplan-credit-cards-canada", "amex-cobalt-review-canada", "scotiabank-gold-american-express-review"],
   },
   "credit-cards/no-fee-student-newcomer": {
     intro: [
@@ -782,7 +782,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "CPP and OAS timing has its own hub, because the start date interacts with every withdrawal decision here.",
     ],
     decisions: ["Which account should I draw from first?", "When should I convert my RRSP to a RRIF?", "Should I take only the RRIF minimum?", "Can my spouse and I split pension income?"],
-    startHere: ["retirement-withdrawal-strategy", "rrsp-to-rrif-conversion", "rrif-minimum-withdrawal", "rrsp-meltdown-strategy", "pension-income-splitting-canada"],
+    startHere: ["retirement-withdrawal-strategy", "rrsp-to-rrif-conversion", "rrif-minimum-withdrawal", "rrsp-meltdown-strategy", "pension-income-splitting-canada", "rrif-minimum-only-mistake"],
   },
   "retirement/pensions-lira": {
     intro: [

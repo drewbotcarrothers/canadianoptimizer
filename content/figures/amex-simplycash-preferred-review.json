@@ -1,0 +1,2846 @@
+{
+  "slug": "amex-simplycash-preferred-review",
+  "publishDate": "2026-11-17",
+  "figures": [
+    {
+      "id": "3659747d93c6",
+      "value": "$9.99",
+      "context": "A card that charges $9.99 every month has to earn its place.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $9.99/month = $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "9252ad109644",
+      "value": "November 14, 2026",
+      "context": "This review from our cash back cards hub uses the earn rates on Amex's pages, read on November 14, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "date of our review of the cited page (stated in Sources)"
+      }
+    },
+    {
+      "id": "3051dc7f8c65",
+      "value": "$119.88",
+      "context": "Amex SimplyCash Preferred is worth its $119.88 annual fee once you spend roughly $9,590 to $11,840 a year, depending on how much goes to groceries and gas.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "ff511970d00e",
+      "value": "$9,590",
+      "context": "Amex SimplyCash Preferred is worth its $119.88 annual fee once you spend roughly $9,590 to $11,840 a year, depending on how much goes to groceries and gas.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "ecd174f80c1a",
+      "value": "$11,840",
+      "context": "Amex SimplyCash Preferred is worth its $119.88 annual fee once you spend roughly $9,590 to $11,840 a year, depending on how much goes to groceries and gas.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "36f178423037",
+      "value": "$3,000",
+      "context": "At $3,000 a month, the Preferred card's extra earnings beat its fee by $276.12.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "f5bb4a435151",
+      "value": "$276.12",
+      "context": "At $3,000 a month, the Preferred card's extra earnings beat its fee by $276.12.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "4e524ad1276a",
+      "value": "4%",
+      "context": "The card earns 4% cash back at stand-alone gas stations and stand-alone grocery stores (groceries up to $30,000 a year, or $1,200 of cash back) and 2% on everything else, according to Amex.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "6eddcc9774a1",
+      "value": "$30,000",
+      "context": "The card earns 4% cash back at stand-alone gas stations and stand-alone grocery stores (groceries up to $30,000 a year, or $1,200 of cash back) and 2% on everything else, according to Amex.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cap on purchases"
+      }
+    },
+    {
+      "id": "2e20924108bc",
+      "value": "$1,200",
+      "context": "The card earns 4% cash back at stand-alone gas stations and stand-alone grocery stores (groceries up to $30,000 a year, or $1,200 of cash back) and 2% on everything else, according to Amex.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cash-back cap"
+      }
+    },
+    {
+      "id": "57827cc1e570",
+      "value": "2%",
+      "context": "The card earns 4% cash back at stand-alone gas stations and stand-alone grocery stores (groceries up to $30,000 a year, or $1,200 of cash back) and 2% on everything else, according to Amex.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "6be11e584c8e",
+      "value": "$9.99",
+      "context": "The fee is $9.99 a month, or $119.88 a year, outside Quebec, and $119 a year in Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $9.99/month = $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "4c063f1501a8",
+      "value": "$119.88",
+      "context": "The fee is $9.99 a month, or $119.88 a year, outside Quebec, and $119 a year in Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "9692be728d91",
+      "value": "$119",
+      "context": "The fee is $9.99 a month, or $119.88 a year, outside Quebec, and $119 a year in Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Quebec annual fee"
+      }
+    },
+    {
+      "id": "375baa76047e",
+      "value": "$180.00",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "c420ebd755c8",
+      "value": "$396.00",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "c8ccd3d823cd",
+      "value": "$607.50",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "ab9377393694",
+      "value": "$60.12",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "d1a11664f24a",
+      "value": "$276.12",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "10de5b63f3ee",
+      "value": "$487.62",
+      "context": "The extra cash back over the no-fee card is $180.00, $396.00 and $607.50 a year in our lean, typical and high budgets, so the net gain is $60.12, $276.12 and $487.62.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "71efcded6dad",
+      "value": "4%",
+      "context": "Superstores, wholesale clubs, alcohol retailers and general merchandise retailers do not earn the 4% rate, so check where you shop before you count on it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "b9da72930a40",
+      "value": "November 14, 2026",
+      "context": "We took each card's rates, caps and fee from Amex's pages on November 14, 2026, built three yearly budgets, multiplied the earn rate through each category, and solved for the yearly spend where the Preferred card's extra earnings equal its fee.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "date of our review of the cited page (stated in Sources)"
+      }
+    },
+    {
+      "id": "a1d2697440a8",
+      "value": "4%",
+      "context": "It pays 4% on gas and groceries and 2% on everything else, with a yearly cap on the grocery rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "b9c5e0a3ff31",
+      "value": "2%",
+      "context": "It pays 4% on gas and groceries and 2% on everything else, with a yearly cap on the grocery rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "c87c8354d7b4",
+      "value": "November 14, 2026",
+      "context": "SimplyCash Preferred compared with SimplyCash (Amex pages, reviewed November 14, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "date of our review of the cited page (stated in Sources)"
+      }
+    },
+    {
+      "id": "7a57625fe675",
+      "value": "$9.99",
+      "context": "Annual fee $9.99 a month ($119.88 a year); $119 in Quebec None",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $9.99/month = $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "4cd202348d62",
+      "value": "$119.88",
+      "context": "Annual fee $9.99 a month ($119.88 a year); $119 in Quebec None",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "ee674881ddbf",
+      "value": "$119",
+      "context": "Annual fee $9.99 a month ($119.88 a year); $119 in Quebec None",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Quebec annual fee"
+      }
+    },
+    {
+      "id": "08339b96bcd4",
+      "value": "4%",
+      "context": "Stand-alone gas stations 4% 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "7b0e10f322c2",
+      "value": "2%",
+      "context": "Stand-alone gas stations 4% 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "6aac2449f567",
+      "value": "4%",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "b90fc8f71680",
+      "value": "$30,000",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cap on purchases"
+      }
+    },
+    {
+      "id": "bfb3dc2cd116",
+      "value": "$1,200",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cash-back cap"
+      }
+    },
+    {
+      "id": "7e36740d1800",
+      "value": "2%",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "c1c3a1d1bdb8",
+      "value": "$300",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card grocery cash-back cap"
+      }
+    },
+    {
+      "id": "80fa0c6ca9be",
+      "value": "$15,000",
+      "context": "Groceries 4% at stand-alone grocery stores, up to $30,000 of purchases ($1,200 cash back) a year 2%, up to $300 of cash back (a $15,000 spend)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$300 cap \u00f7 2% = $15,000 of grocery spend"
+      }
+    },
+    {
+      "id": "0b8457c9100f",
+      "value": "2%",
+      "context": "Everything else 2% 1.25%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "9b0c1b1974d3",
+      "value": "1.25%",
+      "context": "Everything else 2% 1.25%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card base rate"
+      }
+    },
+    {
+      "id": "768dd11362de",
+      "value": "21.99%",
+      "context": "Interest on purchases 21.99% See Amex's page",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "purchase interest rate"
+      }
+    },
+    {
+      "id": "ce4879cfd036",
+      "value": "30%",
+      "context": "In a lean budget with 30% of spending on groceries and 10% on gas, the Preferred card pays back its fee at $9,590 a year ($799 a month).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "531c1132e5c1",
+      "value": "10%",
+      "context": "In a lean budget with 30% of spending on groceries and 10% on gas, the Preferred card pays back its fee at $9,590 a year ($799 a month).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "07a222956032",
+      "value": "$9,590",
+      "context": "In a lean budget with 30% of spending on groceries and 10% on gas, the Preferred card pays back its fee at $9,590 a year ($799 a month).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "c7d096648cea",
+      "value": "$799",
+      "context": "In a lean budget with 30% of spending on groceries and 10% on gas, the Preferred card pays back its fee at $9,590 a year ($799 a month).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "796f21e80bbb",
+      "value": "15%",
+      "context": "In a high-spending budget with only 15% on groceries and 6% on gas, it takes $11,840 a year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "efaeee816fe2",
+      "value": "6%",
+      "context": "In a high-spending budget with only 15% on groceries and 6% on gas, it takes $11,840 a year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "86f259659fd2",
+      "value": "$11,840",
+      "context": "In a high-spending budget with only 15% on groceries and 6% on gas, it takes $11,840 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "7d918cd645f3",
+      "value": "0.75",
+      "context": "The reason is that the Preferred card beats the no-fee card by 0.75 points on everything else and by 2 points on groceries and gas, so a household with fewer groceries and gas needs more total spend to cover the fee.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "eaa041871c6d",
+      "value": "$119.88",
+      "context": "Budget Yearly spend Mix Preferred cash back No-fee cash back Extra before fee Net after $119.88 fee Break-even yearly spend",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "5a7b50694ae1",
+      "value": "$14,400",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "eca071fc8aa7",
+      "value": "30%",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "21e1e803e5f4",
+      "value": "10%",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "5e3c38cb2ff2",
+      "value": "$403.20",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "9cdb106f5192",
+      "value": "$223.20",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "68f2b52870f1",
+      "value": "$180.00",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "7398d237680d",
+      "value": "$60.12",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "7d5f57f9adcb",
+      "value": "$9,590",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "ccec6ca85329",
+      "value": "$799",
+      "context": "Lean $14,400 30% groceries, 10% gas $403.20 $223.20 $180.00 +$60.12 $9,590 ($799 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "cec7d0d60f27",
+      "value": "$36,000",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "fb5d0320a78f",
+      "value": "20%",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "35d2bf73e780",
+      "value": "8%",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "f6d2923cd028",
+      "value": "$921.60",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "a3ad89474011",
+      "value": "$525.60",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "1247b7114988",
+      "value": "$396.00",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "486e0e8a6b38",
+      "value": "$276.12",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "03e4995183a5",
+      "value": "$10,898",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "210b9eaa575c",
+      "value": "$908",
+      "context": "Typical $36,000 20% groceries, 8% gas $921.60 $525.60 $396.00 +$276.12 $10,898 ($908 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "5a5a8d760da4",
+      "value": "$60,000",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "bc024619e539",
+      "value": "15%",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "6cc9c81496ca",
+      "value": "6%",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "03af1ced74ab",
+      "value": "$1,452.00",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "88a75619143b",
+      "value": "$844.50",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "b62af0a9d520",
+      "value": "$607.50",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "fe7086e02882",
+      "value": "$487.62",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "9f99dac298d7",
+      "value": "$11,840",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "b4ce357f8a1a",
+      "value": "$987",
+      "context": "High $60,000 15% groceries, 6% gas $1,452.00 $844.50 $607.50 +$487.62 $11,840 ($987 a month)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "8ca34b1854d0",
+      "value": "$119.88",
+      "context": "Did you know: our own calculation shows the Preferred card's $119.88 fee is covered at $9,590 to $11,840 of yearly spend, depending on the mix, and that even a lean $1,200-a-month budget nets $60.12 more than the no-fee card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "fcd9cc3c8f67",
+      "value": "$9,590",
+      "context": "Did you know: our own calculation shows the Preferred card's $119.88 fee is covered at $9,590 to $11,840 of yearly spend, depending on the mix, and that even a lean $1,200-a-month budget nets $60.12 more than the no-fee card.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "4fa8d4c7264f",
+      "value": "$11,840",
+      "context": "Did you know: our own calculation shows the Preferred card's $119.88 fee is covered at $9,590 to $11,840 of yearly spend, depending on the mix, and that even a lean $1,200-a-month budget nets $60.12 more than the no-fee card.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "5672c188f5f7",
+      "value": "$1,200",
+      "context": "Did you know: our own calculation shows the Preferred card's $119.88 fee is covered at $9,590 to $11,840 of yearly spend, depending on the mix, and that even a lean $1,200-a-month budget nets $60.12 more than the no-fee card.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "2fd3f39b2bca",
+      "value": "$60.12",
+      "context": "Did you know: our own calculation shows the Preferred card's $119.88 fee is covered at $9,590 to $11,840 of yearly spend, depending on the mix, and that even a lean $1,200-a-month budget nets $60.12 more than the no-fee card.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "1bfea4987a29",
+      "value": "$119.88",
+      "context": "Net yearly gain over the no-fee SimplyCash, after the Preferred card's $119.88 fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "d569888ac053",
+      "value": "$60.12",
+      "context": "$60.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "5843b996f5b0",
+      "value": "$276.12",
+      "context": "$276.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "d51d36c5b9d5",
+      "value": "$487.62",
+      "context": "$487.62",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "3f1c5aabec02",
+      "value": "$3,000",
+      "context": "Spending $3,000 a month is $36,000 a year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "8adf4b59d82b",
+      "value": "$36,000",
+      "context": "Spending $3,000 a month is $36,000 a year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "7701dbdf2491",
+      "value": "20%",
+      "context": "Groceries at 20% are $7,200, gas at 8% is $2,880, and everything else is $25,920.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "a0a0dfae7f49",
+      "value": "$7,200,",
+      "context": "Groceries at 20% are $7,200, gas at 8% is $2,880, and everything else is $25,920.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "ca80c93d9051",
+      "value": "8%",
+      "context": "Groceries at 20% are $7,200, gas at 8% is $2,880, and everything else is $25,920.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "61926e8a6ddc",
+      "value": "$2,880,",
+      "context": "Groceries at 20% are $7,200, gas at 8% is $2,880, and everything else is $25,920.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "65e8a0d72be0",
+      "value": "$25,920",
+      "context": "Groceries at 20% are $7,200, gas at 8% is $2,880, and everything else is $25,920.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "12842b03d4f6",
+      "value": "$7,200",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "81bbda6214b1",
+      "value": "4%",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "ab0ab1c31966",
+      "value": "$288.00",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "b4c4285d1ddd",
+      "value": "$2,880",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "c5fd7277b566",
+      "value": "$115.20",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "403a9cbbec84",
+      "value": "$25,920",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "a1c24c425236",
+      "value": "2%",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "8705b7b0bfba",
+      "value": "$518.40",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "fa793256b847",
+      "value": "$921.60",
+      "context": "Preferred card: $7,200 &times; 4% = $288.00, plus $2,880 &times; 4% = $115.20, plus $25,920 &times; 2% = $518.40, for $921.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "a320e0cc3a92",
+      "value": "$119.88",
+      "context": "After the $119.88 fee, $801.72.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "97e3624b492c",
+      "value": "$801.72",
+      "context": "After the $119.88 fee, $801.72.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "bd42de092558",
+      "value": "$7,200",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "539e925c4988",
+      "value": "2%",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "9ecd69807e3d",
+      "value": "$144.00",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "1d6c359eae2a",
+      "value": "$2,880",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "1cb8cb6bbf8f",
+      "value": "$57.60",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "9033d97b5f75",
+      "value": "$25,920",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "049e18888687",
+      "value": "1.25%",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card base rate"
+      }
+    },
+    {
+      "id": "3c0699403f56",
+      "value": "$324.00",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "eb127e40f638",
+      "value": "$525.60",
+      "context": "No-fee card: $7,200 &times; 2% = $144.00, plus $2,880 &times; 2% = $57.60, plus $25,920 &times; 1.25% = $324.00, for $525.60.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "1f4063600d84",
+      "value": "4%",
+      "context": "The 4% applies to stand-alone grocery stores.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "09c9c56dc29b",
+      "value": "2%",
+      "context": "Amex lists superstores, wholesale clubs, alcohol retailers and general merchandise retailers among the retailers that do not qualify for it, so those purchases earn 2%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "755e18932113",
+      "value": "$3,600",
+      "context": "Every $3,600 of groceries moved from a stand-alone store to a superstore costs $72 (2% of $3,600) a year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "aae8fc785d1e",
+      "value": "$72",
+      "context": "Every $3,600 of groceries moved from a stand-alone store to a superstore costs $72 (2% of $3,600) a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "90789777c069",
+      "value": "2%",
+      "context": "Every $3,600 of groceries moved from a stand-alone store to a superstore costs $72 (2% of $3,600) a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "bd7686c303ea",
+      "value": "4%",
+      "context": "The 4% stops at $30,000 of grocery purchases, worth $1,200 of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "8c2d6a024ebc",
+      "value": "$30,000",
+      "context": "The 4% stops at $30,000 of grocery purchases, worth $1,200 of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cap on purchases"
+      }
+    },
+    {
+      "id": "9491df16774d",
+      "value": "$1,200",
+      "context": "The 4% stops at $30,000 of grocery purchases, worth $1,200 of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cash-back cap"
+      }
+    },
+    {
+      "id": "6c0ec4e80767",
+      "value": "21.99%",
+      "context": "The purchase rate is 21.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "purchase interest rate"
+      }
+    },
+    {
+      "id": "4937c544c120",
+      "value": "$1,000",
+      "context": "At that rate, $1,000 carried for a year costs about $220 of interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustrative balance / budget"
+      }
+    },
+    {
+      "id": "14d9ac032e7a",
+      "value": "$220",
+      "context": "At that rate, $1,000 carried for a year costs about $220 of interest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "62a5a9c234e4",
+      "value": "0.75",
+      "context": "The Preferred card earns 2 points of cash back more than the no-fee card on the first two and 0.75 points more on everything else, so the extra earnings are 2% of your groceries and gas plus 0.75% of the rest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "543c419cb795",
+      "value": "2%",
+      "context": "The Preferred card earns 2 points of cash back more than the no-fee card on the first two and 0.75 points more on everything else, so the extra earnings are 2% of your groceries and gas plus 0.75% of the rest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "62d3ff5966dd",
+      "value": "0.75%",
+      "context": "The Preferred card earns 2 points of cash back more than the no-fee card on the first two and 0.75 points more on everything else, so the extra earnings are 2% of your groceries and gas plus 0.75% of the rest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "efcce53f26dd",
+      "value": "$119.88",
+      "context": "If that sum is more than $119.88, the fee is covered.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "d301e31d4369",
+      "value": "$30,000",
+      "context": "Add up the last twelve months of spending at stand-alone grocery stores, up to $30,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cap on purchases"
+      }
+    },
+    {
+      "id": "f2d3e899b622",
+      "value": "2%",
+      "context": "Multiply by 2%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "dc16bed28362",
+      "value": "0.75%",
+      "context": "Subtract both from your total spending, and multiply what is left by 0.75%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "1932353abb44",
+      "value": "$119.88",
+      "context": "Add the three results and compare with $119.88.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "c4520d6da8f9",
+      "value": "$300",
+      "context": "The formula uses the no-fee card's rates as they appear on Amex's page , including its $300 grocery cash-back cap, which is a $15,000 spend.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card grocery cash-back cap"
+      }
+    },
+    {
+      "id": "e05107acd13e",
+      "value": "$15,000",
+      "context": "The formula uses the no-fee card's rates as they appear on Amex's page , including its $300 grocery cash-back cap, which is a $15,000 spend.",
+      "kind": "derived",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$300 cap \u00f7 2% = $15,000 of grocery spend"
+      }
+    },
+    {
+      "id": "c685576854a2",
+      "value": "$15,000",
+      "context": "A household that spends more than $15,000 a year at stand-alone grocers gains a little more from the Preferred card than the 2-point shortcut shows, because the no-fee card's grocery rate falls after the cap.",
+      "kind": "derived",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$300 cap \u00f7 2% = $15,000 of grocery spend"
+      }
+    },
+    {
+      "id": "d7d82faa184d",
+      "value": "$50",
+      "context": "Amex's pages list several extras: a referral bonus of $50 cash back per approved referral up to $750 a year, free additional cards, mobile device insurance, travel insurance and Instacart statement credits of up to $60 within a 12-month period until December 31, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$50 statement credit in month 13 / referral"
+      }
+    },
+    {
+      "id": "f1bc4865388c",
+      "value": "$750",
+      "context": "Amex's pages list several extras: a referral bonus of $50 cash back per approved referral up to $750 a year, free additional cards, mobile device insurance, travel insurance and Instacart statement credits of up to $60 within a 12-month period until December 31, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "referral bonus maximum"
+      }
+    },
+    {
+      "id": "f761c2a1b24b",
+      "value": "$60",
+      "context": "Amex's pages list several extras: a referral bonus of $50 cash back per approved referral up to $750 a year, free additional cards, mobile device insurance, travel insurance and Instacart statement credits of up to $60 within a 12-month period until December 31, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Instacart statement credits"
+      }
+    },
+    {
+      "id": "592f62b39a50",
+      "value": "12",
+      "context": "Amex's pages list several extras: a referral bonus of $50 cash back per approved referral up to $750 a year, free additional cards, mobile device insurance, travel insurance and Instacart statement credits of up to $60 within a 12-month period until December 31, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "month 13 / 12-month terms"
+      }
+    },
+    {
+      "id": "75215d98c75a",
+      "value": "December 31, 2027",
+      "context": "Amex's pages list several extras: a referral bonus of $50 cash back per approved referral up to $750 a year, free additional cards, mobile device insurance, travel insurance and Instacart statement credits of up to $60 within a 12-month period until December 31, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Instacart credit window on Amex page"
+      }
+    },
+    {
+      "id": "981e55d78723",
+      "value": "$800",
+      "context": "Pick it if your household spends about $800 to $990 a month or more, with groceries and gas at stand-alone stores.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "7a8040935475",
+      "value": "$990",
+      "context": "Pick it if your household spends about $800 to $990 a month or more, with groceries and gas at stand-alone stores.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "cf6d9e3a762a",
+      "value": "$1,200",
+      "context": "Lean household: about $1,200 a month, groceries and gas at stand-alone stores SimplyCash Preferred is ahead by a small margin Nets $60.12 more than the no-fee card, with a break-even of $799 a month Best no-annual-fee cards",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "0b63bcd5c308",
+      "value": "$60.12",
+      "context": "Lean household: about $1,200 a month, groceries and gas at stand-alone stores SimplyCash Preferred is ahead by a small margin Nets $60.12 more than the no-fee card, with a break-even of $799 a month Best no-annual-fee cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "c6d826518df4",
+      "value": "$799",
+      "context": "Lean household: about $1,200 a month, groceries and gas at stand-alone stores SimplyCash Preferred is ahead by a small margin Nets $60.12 more than the no-fee card, with a break-even of $799 a month Best no-annual-fee cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "cd6310066935",
+      "value": "$3,000",
+      "context": "Typical household: $3,000 a month SimplyCash Preferred Nets $276.12 more than the no-fee card Best cash-back cards",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "28b52ff81cfd",
+      "value": "$276.12",
+      "context": "Typical household: $3,000 a month SimplyCash Preferred Nets $276.12 more than the no-fee card Best cash-back cards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "6ffe5d9b3d8a",
+      "value": "$5,000",
+      "context": "High spender: $5,000 a month SimplyCash Preferred, then compare a points card Nets $487.62 more than the no-fee card; points cards can beat it if you redeem well Cash back vs travel rewards",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "example spending profile / mix"
+      }
+    },
+    {
+      "id": "4002a36d80d9",
+      "value": "$487.62",
+      "context": "High spender: $5,000 a month SimplyCash Preferred, then compare a points card Nets $487.62 more than the no-fee card; points cards can beat it if you redeem well Cash back vs travel rewards",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "aed8a551896e",
+      "value": "$799",
+      "context": "The no-fee Amex SimplyCash stays the right pick if you spend well under $799 a month or hate paying a fee.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "e69cc69499b5",
+      "value": "November 14, 2026",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "date of our review of the cited page (stated in Sources)"
+      }
+    },
+    {
+      "id": "e63e067a4fbe",
+      "value": "$200",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "welcome offer: up to $200 bonus cash back"
+      }
+    },
+    {
+      "id": "9a8c70b5a385",
+      "value": "10%",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "welcome offer rate"
+      }
+    },
+    {
+      "id": "13f8303c0e62",
+      "value": "$2,000",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "welcome offer terms"
+      }
+    },
+    {
+      "id": "457439f4d627",
+      "value": "$50",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$50 statement credit in month 13 / referral"
+      }
+    },
+    {
+      "id": "f65ba3595c07",
+      "value": "13",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "month 13 / 12-month terms"
+      }
+    },
+    {
+      "id": "0913ed7e5757",
+      "value": "$250",
+      "context": "As of November 14, 2026, Amex's page shows up to $200 in bonus cash back, from 10% cash back on up to $2,000 of purchases in the first 3 months, plus a $50 statement credit for a purchase in month 13, which it describes as up to $250 in bonus value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "welcome offer: up to $250 in bonus value"
+      }
+    },
+    {
+      "id": "f6647fc87deb",
+      "value": "$9.99",
+      "context": "It is $9.99 a month, which equals $119.88 a year, for non-Quebec residents, and $119 a year for Quebec residents, according to Amex's card page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $9.99/month = $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "f2a18c83e36e",
+      "value": "$119.88",
+      "context": "It is $9.99 a month, which equals $119.88 a year, for non-Quebec residents, and $119 a year for Quebec residents, according to Amex's card page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "annual fee $119.88 (non-Quebec)"
+      }
+    },
+    {
+      "id": "0ad8db646941",
+      "value": "$119",
+      "context": "It is $9.99 a month, which equals $119.88 a year, for non-Quebec residents, and $119 a year for Quebec residents, according to Amex's card page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Quebec annual fee"
+      }
+    },
+    {
+      "id": "f0712196073c",
+      "value": "$9,590",
+      "context": "About $9,590 to $11,840 a year in our three example budgets, compared with the no-fee Amex SimplyCash.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "a40365bd59ad",
+      "value": "$11,840",
+      "context": "About $9,590 to $11,840 a year in our three example budgets, compared with the no-fee Amex SimplyCash.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-value-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "our arithmetic / model output (content/calcs/card-value-model.py)"
+      }
+    },
+    {
+      "id": "127ef4a3af70",
+      "value": "4%",
+      "context": "What earns 4% cash back?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "7418869010c8",
+      "value": "$30,000",
+      "context": "Groceries are capped at $30,000 of purchases a year, which is $1,200 of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cap on purchases"
+      }
+    },
+    {
+      "id": "cf75de4d72ea",
+      "value": "$1,200",
+      "context": "Groceries are capped at $30,000 of purchases a year, which is $1,200 of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "grocery cash-back cap"
+      }
+    },
+    {
+      "id": "f468d71fd7fd",
+      "value": "4%",
+      "context": "Does Costco or Walmart earn the 4% grocery rate?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "4% on stand-alone gas and groceries"
+      }
+    },
+    {
+      "id": "8b6812233ec0",
+      "value": "2%",
+      "context": "Amex says superstores and wholesale clubs do not qualify for the grocery accelerator, so those purchases earn the base rate, which is 2%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "e22121e4be98",
+      "value": "2%",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "2% rate (Preferred: everything else; no-fee: gas and groceries)"
+      }
+    },
+    {
+      "id": "d0c76d1e487e",
+      "value": "$300",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card grocery cash-back cap"
+      }
+    },
+    {
+      "id": "76c59c3227ab",
+      "value": "1.25%",
+      "context": "Amex SimplyCash has no annual fee and earns 2% on gas, 2% on groceries up to $300 of cash back and 1.25% on everything else, per Amex's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
+      "sourceName": "Amex Canada: SimplyCash Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "no-fee card base rate"
+      }
+    },
+    {
+      "id": "e2c7a7da9ce3",
+      "value": "21.99%",
+      "context": "The purchase rate is 21.99%, so interest on a carried balance costs more than the cash back pays.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
+      "sourceName": "Amex Canada: SimplyCash Preferred Card",
+      "asOf": "2026-11-14",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "purchase interest rate"
+      }
+    }
+  ]
+}
