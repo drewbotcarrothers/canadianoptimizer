@@ -710,7 +710,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you travel more than a couple of times a year, compare against the travel rewards hub before you apply.",
     ],
     decisions: ["Which cash back card pays most on my budget?", "Is an annual fee worth it at my spending?", "Which card works at Costco and grocery stores?", "Should I use one card or two?"],
-    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada", "cash-back-vs-travel-rewards-credit-card-canada", "amex-simplycash-preferred-review", "tangerine-money-back-credit-card-review"],
+    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada", "cash-back-vs-travel-rewards-credit-card-canada", "amex-simplycash-preferred-review"],
   },
   "credit-cards/travel-points": {
     intro: [
@@ -728,7 +728,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you're rebuilding after missed payments, the credit scores hub covers secured cards and the steps that move a score.",
     ],
     decisions: ["Which no-fee card earns the most for me?", "What can I get with no income or credit history?", "Which card avoids foreign transaction fees?", "How does a first card build my credit file?"],
-    startHere: ["best-no-annual-fee-credit-cards-canada", "best-no-foreign-transaction-fee-credit-cards-canada", "best-student-credit-cards-canada", "best-credit-cards-newcomers-canada"],
+    startHere: ["best-no-annual-fee-credit-cards-canada", "best-no-foreign-transaction-fee-credit-cards-canada", "best-credit-cards-newcomers-canada"],
   },
   "credit-cards/credit-score-building": {
     intro: [
@@ -737,7 +737,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you're choosing a first card, the no-fee, student and newcomer hub shows what you can qualify for.",
     ],
     decisions: ["What actually moves my credit score?", "How much of my limit should I use?", "How do new applications affect my score?", "How do I rebuild after missed payments?"],
-    startHere: ["credit-card-utilization-applications-credit-score-canada", "best-secured-credit-cards-canada"],
+    startHere: ["credit-card-utilization-applications-credit-score-canada"],
   },
   "credit-cards/premium-travel-perks": {
     intro: [

@@ -113,7 +113,7 @@ const content = `<div class="container">
 
     <h2>Is a secured card ever the better first card?</h2>
     <p>Yes, if you do not qualify for a newcomer program. The FCAC says a secured card may be an option if you are a newcomer with no credit history: you give the issuer a security deposit, and the limit is normally equal to or higher than the deposit. That covers people outside the programs' time windows, statuses the programs do not cover, or anyone declined for an unsecured card.</p>
-    <p>A secured card costs you a deposit up front, and some charge a set-up fee or an annual fee, according to the FCAC. Our <a href="/blog/best-secured-credit-cards-canada/">best secured credit cards</a> guide compares the deposit, 12-month cost and bureau reporting of the main options in Canada.</p>
+    <p>A secured card costs you a deposit up front, and some charge a set-up fee or an annual fee, according to the FCAC. Whichever card you end up with, our <a href="/blog/credit-card-utilization-applications-credit-score-canada/">guide to utilization and applications</a> explains how much of a small limit to use each month.</p>
 
     <h2>What should a newcomer do in the first months?</h2>
     <p>Open a bank account, get one card through a newcomer program, and use it lightly and on time. A short, steady record in your first year does more than several cards opened at once.</p>
@@ -124,7 +124,7 @@ const content = `<div class="container">
         <li><strong>Pay the full statement balance automatically.</strong> The FCAC calls payment history the most important part of your credit score.</li>
         <li><strong>Wait before the next application.</strong> Amex limits Global Card Transfer applicants to one card until they have Canadian bureau history, which is a sensible pace for everyone.</li>
     </ol>
-    <p>Students who are also newcomers should compare the program cards with our <a href="/blog/best-student-credit-cards-canada/">best student credit cards</a>, which covers which student cards international students can apply for online. Once your history is established, our <a href="/blog/best-no-annual-fee-credit-cards-canada/">best no-annual-fee credit cards</a> list shows the everyday cards worth moving to.</p>
+    <p>Students who are also newcomers should compare the program cards with the student cards at the same banks, because CIBC and BMO route international students to separate student offers. Once your history is established, our <a href="/blog/best-no-annual-fee-credit-cards-canada/">best no-annual-fee credit cards</a> list shows the everyday cards worth moving to, and our <a href="/blog/best-credit-cards-canada/">best credit cards in Canada</a> guide covers the wider market. If you often travel back to your home country, also see our list of <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">credit cards with no foreign transaction fee</a>.</p>
 
     <h2 id="picks">Which newcomer card should you pick? Picks by situation</h2>
     <p>Choose by where you are in the process: whether you have a SIN, whether you have Canadian or foreign history, and how long you have been here.</p>
@@ -151,7 +151,7 @@ const content = `<div class="container">
     <h3>What documents do newcomers need for a credit card?</h3>
     <p>Usually a passport or other government photo ID, proof of status such as a Permanent Resident Card, IMM 5292 or IMM 5688, or a study or work permit, and proof of a Canadian address. The table above lists each bank's requirements.</p>
     <h3>Can international students use a newcomer program?</h3>
-    <p>Scotiabank's StartRight program includes international students. CIBC and BMO send international students to separate student banking offers, and our student card guide compares those.</p>
+    <p>Scotiabank's StartRight program includes international students. CIBC and BMO send international students to separate student banking offers, so check those pages as well.</p>
     <h3>Does a foreign credit score count in Canada?</h3>
     <p>Not on your Canadian credit report. American Express can approve existing foreign Amex cardholders without a Canadian report, and Scotiabank's Nova Credit option can raise your limit based on a report from one of 15 countries.</p>
     <h3>Should a newcomer get a secured credit card?</h3>
@@ -177,11 +177,10 @@ const content = `<div class="container">
 
     <h2>Related reading</h2>
     <ul>
-        <li><a href="/blog/best-secured-credit-cards-canada/">Best secured credit cards for rebuilding credit</a></li>
-        <li><a href="/blog/best-student-credit-cards-canada/">Best student credit cards in Canada</a></li>
         <li><a href="/blog/credit-card-utilization-applications-credit-score-canada/">Credit card utilization, applications and your score</a></li>
         <li><a href="/blog/best-no-annual-fee-credit-cards-canada/">Best no-annual-fee credit cards in Canada</a></li>
         <li><a href="/blog/best-credit-cards-canada/">Best credit cards in Canada</a></li>
+        <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
     ${batchFooter(D, 'Credit Cards', disclaimer)}

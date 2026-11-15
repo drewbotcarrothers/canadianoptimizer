@@ -842,24 +842,6 @@
       }
     },
     {
-      "id": "42b31934e481",
-      "value": "12",
-      "context": "Our best secured credit cards guide compares the deposit, 12-month cost and bureau reporting of the main options in Canada.",
-      "kind": "derived",
-      "sourceUrl": "",
-      "sourceName": "",
-      "asOf": "",
-      "derivedFrom": [
-        "content/calcs/card-batch-20261118-model.py"
-      ],
-      "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "period of a cost calculation (12 months), linking to the secured-card guide"
-      }
-    },
-    {
       "id": "ae40585bbab4",
       "value": "12",
       "context": "Check how long you have been in Canada against the RBC 12-month and 48-month windows and the five-year windows at CIBC, Scotiabank and BMO.",

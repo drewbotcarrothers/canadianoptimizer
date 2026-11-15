@@ -2810,7 +2810,7 @@ const allPosts: BlogPostRecord[] = [
         <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/tangerine-money-back-credit-card-review/">Tangerine Money-Back Credit Card review: choosing your 2% categories</a></p>
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a></p>
 
     <div class="cta-section">
         <p><strong>Cash back is a basis point. Tax is a bracket.</strong></p>
@@ -3181,7 +3181,7 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Interest is not a credit-building tool.</strong></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/best-secured-credit-cards-canada/">Best secured credit cards in Canada for rebuilding credit</a> &middot; <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/best-student-credit-cards-canada/">Best student credit cards in Canada</a></p>
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
 
     <div class="cta-section">
         <p><strong>Credit capacity is infrastructure. Tax is cash flow.</strong></p>
