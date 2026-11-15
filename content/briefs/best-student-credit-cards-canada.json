@@ -1,0 +1,38 @@
+{
+  "slug": "best-student-credit-cards-canada",
+  "title": "Best Student Credit Cards in Canada",
+  "family": "best-of",
+  "category": "credit-cards",
+  "subcategory": "no-fee-student-newcomer",
+  "targetQuery": "best student credit cards canada",
+  "secondaryQueries": [
+    "student credit card no income canada",
+    "credit card for international students canada",
+    "best first credit card for students"
+  ],
+  "infoGain": "First-year and two-year value of five no-fee student cards on one $600-a-month student budget, plus an eligibility table (income, age, international students) (content/calcs/card-batch-20261118-model.py).",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-18",
+  "agentChecks": {
+    "2a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "answers read as answers under the title and each question heading"
+    },
+    "4a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "no invented quotes, experience, tests or review claims"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

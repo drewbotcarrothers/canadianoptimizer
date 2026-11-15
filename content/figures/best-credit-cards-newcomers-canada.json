@@ -1,0 +1,1086 @@
+{
+  "slug": "best-credit-cards-newcomers-canada",
+  "publishDate": "2026-11-18",
+  "figures": [
+    {
+      "id": "43d6fe49b768",
+      "value": "November 15, 2026",
+      "context": "This guide, part of our no-fee, student and newcomer cards hub , puts their rules side by side, as printed on November 15, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "6411dca27a3a",
+      "value": "$15,000",
+      "context": "RBC, CIBC and Scotiabank advertise unsecured cards with limits of up to $15,000 without Canadian credit history, and BMO says no credit history is required.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/higher-credit-limit-for-newcomers-to-canada.html",
+      "sourceName": "Scotiabank: Higher credit limit with Nova Credit",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_nova, fetched 2026-11-15): \"d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A\""
+      },
+      "needle": "d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A"
+    },
+    {
+      "id": "f98b05f4f6e4",
+      "value": "$15,000",
+      "context": "RBC, CIBC and Scotiabank print limits of up to $15,000 for newcomers with no Canadian credit history; the bank still sets your actual limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://startright.scotiabank.com/ca/en/credit-cards.html",
+      "sourceName": "Scotiabank StartRight: Credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_sr_cc, fetched 2026-11-15): \"offer Book an appointment Book an appointment Get up to a $15,000 credit limit on an unsecured credit card As a newcomer, cho\""
+      },
+      "needle": "offer Book an appointment Book an appointment Get up to a $15,000 credit limit on an unsecured credit card As a newcomer, cho"
+    },
+    {
+      "id": "576bde61fca3",
+      "value": "12",
+      "context": "Each program has a time window: RBC's limit offer covers permanent residents who arrived within 12 months and temporary resident workers within 48 months; CIBC, Scotiabank and BMO use five years for permanent residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "c09c1c12a3f9",
+      "value": "48",
+      "context": "Each program has a time window: RBC's limit offer covers permanent residents who arrived within 12 months and temporary resident workers within 48 months; CIBC, Scotiabank and BMO use five years for permanent residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c\""
+      },
+      "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
+    },
+    {
+      "id": "7dd9cea6fc2b",
+      "value": "November 15, 2026",
+      "context": "We read the newcomer credit card pages of RBC, CIBC, Scotiabank, BMO and TD, plus American Express Canada's Global Card Transfer page, on November 15, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "6f14d51b8604",
+      "value": "November 15, 2026",
+      "context": "Newcomer credit card programs and the documents each asks for (bank pages, reviewed November 15, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "a11f82e22f29",
+      "value": "12",
+      "context": "RBC newcomer credit cards Limit offer: permanent residents who arrived within the last 12 months, or temporary resident workers who arrived within the last 48 months; existing RBC cardholders excluded Up to $15,000, with no Canadian credit history Government ID (passport, Permanent Resident Card, study or work permit), proof of Canadian address (utility bill, bank statement or lease); SIN listed a…",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "659221a98ad7",
+      "value": "48",
+      "context": "RBC newcomer credit cards Limit offer: permanent residents who arrived within the last 12 months, or temporary resident workers who arrived within the last 48 months; existing RBC cardholders excluded Up to $15,000, with no Canadian credit history Government ID (passport, Permanent Resident Card, study or work permit), proof of Canadian address (utility bill, bank statement or lease); SIN listed a…",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c\""
+      },
+      "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
+    },
+    {
+      "id": "d0f0bb7cb41a",
+      "value": "$15,000,",
+      "context": "RBC newcomer credit cards Limit offer: permanent residents who arrived within the last 12 months, or temporary resident workers who arrived within the last 48 months; existing RBC cardholders excluded Up to $15,000, with no Canadian credit history Government ID (passport, Permanent Resident Card, study or work permit), proof of Canadian address (utility bill, bank statement or lease); SIN listed a…",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C\""
+      },
+      "needle": "ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C"
+    },
+    {
+      "id": "d5e246c46a39",
+      "value": "$15,000",
+      "context": "CIBC newcomer offer Landed or permanent resident within the last 5 years, living in Canada, age of majority, no existing CIBC credit card Up to $15,000 on your first CIBC card, without a security deposit Government-issued photo ID; valid immigration document (IMM 5292 or IMM 5688, or a permanent resident card) Higher-limit program at a CIBC Banking Centre only",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
+      "sourceName": "CIBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cibc_nc_cc, fetched 2026-11-15): \"our credit card✦, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured\""
+      },
+      "needle": "our credit card✦, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured"
+    },
+    {
+      "id": "d3f1bf063469",
+      "value": "5292",
+      "context": "CIBC newcomer offer Landed or permanent resident within the last 5 years, living in Canada, age of majority, no existing CIBC credit card Up to $15,000 on your first CIBC card, without a security deposit Government-issued photo ID; valid immigration document (IMM 5292 or IMM 5688, or a permanent resident card) Higher-limit program at a CIBC Banking Centre only",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
+      "sourceName": "CIBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cibc_nc_cc, fetched 2026-11-15): \"ng Centres. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you’re n\""
+      },
+      "needle": "ng Centres. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you’re n"
+    },
+    {
+      "id": "7c658e579645",
+      "value": "5688",
+      "context": "CIBC newcomer offer Landed or permanent resident within the last 5 years, living in Canada, age of majority, no existing CIBC credit card Up to $15,000 on your first CIBC card, without a security deposit Government-issued photo ID; valid immigration document (IMM 5292 or IMM 5688, or a permanent resident card) Higher-limit program at a CIBC Banking Centre only",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
+      "sourceName": "CIBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cibc_nc_cc, fetched 2026-11-15): \"es. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you’re new to CI\""
+      },
+      "needle": "es. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you’re new to CI"
+    },
+    {
+      "id": "37161b64c070",
+      "value": "$15,000",
+      "context": "Scotiabank StartRight Permanent residents in Canada less than five years, foreign workers, international students Up to $15,000 on an unsecured card, with no Canadian credit history Valid foreign passport or a Canadian government-issued document (to open the bank account) Apply online or book an appointment",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/higher-credit-limit-for-newcomers-to-canada.html",
+      "sourceName": "Scotiabank: Higher credit limit with Nova Credit",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_nova, fetched 2026-11-15): \"d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A\""
+      },
+      "needle": "d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A"
+    },
+    {
+      "id": "e73a981fd321",
+      "value": "5292",
+      "context": "BMO NewStart Permanent residents and foreign workers in their first five years in Canada Not printed on the page we read; no credit history required Proof of status (Permanent Resident Card, IMM 5292 or IMM 5688, or work permit IM 1442) and one government photo ID (passport or Canadian driver's licence) Visit a BMO branch",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
+      "sourceName": "BMO: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page bmo_newcomer, fetched 2026-11-15): \"ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g\""
+      },
+      "needle": "ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g"
+    },
+    {
+      "id": "e36bcda46794",
+      "value": "5688",
+      "context": "BMO NewStart Permanent residents and foreign workers in their first five years in Canada Not printed on the page we read; no credit history required Proof of status (Permanent Resident Card, IMM 5292 or IMM 5688, or work permit IM 1442) and one government photo ID (passport or Canadian driver's licence) Visit a BMO branch",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
+      "sourceName": "BMO: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page bmo_newcomer, fetched 2026-11-15): \"Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph\""
+      },
+      "needle": "Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph"
+    },
+    {
+      "id": "8a11c1301636",
+      "value": "1442",
+      "context": "BMO NewStart Permanent residents and foreign workers in their first five years in Canada Not printed on the page we read; no credit history required Proof of status (Permanent Resident Card, IMM 5292 or IMM 5688, or work permit IM 1442) and one government photo ID (passport or Canadian driver's licence) Visit a BMO branch",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
+      "sourceName": "BMO: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page bmo_newcomer, fetched 2026-11-15): \"rd, Confirmation of permanent residency or work permit (IMM 1442). A credit history in Canada is not required in order to be\""
+      },
+      "needle": "rd, Confirmation of permanent residency or work permit (IMM 1442). A credit history in Canada is not required in order to be"
+    },
+    {
+      "id": "48a65067562a",
+      "value": "$15,000",
+      "context": "RBC's up-to-$15,000 offer is for permanent residents in their first 12 months but temporary resident workers in their first 48 months, while CIBC, Scotiabank and BMO use five years for permanent residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \", you may qualify for a higher limit – for instance, up to $15,000* on the RBC Cash Back Mastercard – depending on your situat\""
+      },
+      "needle": ", you may qualify for a higher limit – for instance, up to $15,000* on the RBC Cash Back Mastercard – depending on your situat"
+    },
+    {
+      "id": "eb87376ca108",
+      "value": "12",
+      "context": "RBC's up-to-$15,000 offer is for permanent residents in their first 12 months but temporary resident workers in their first 48 months, while CIBC, Scotiabank and BMO use five years for permanent residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "cfa55284d8e0",
+      "value": "48",
+      "context": "RBC's up-to-$15,000 offer is for permanent residents in their first 12 months but temporary resident workers in their first 48 months, while CIBC, Scotiabank and BMO use five years for permanent residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c\""
+      },
+      "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
+    },
+    {
+      "id": "eb539b7e43ec",
+      "value": "14",
+      "context": "A permanent resident in month 14 has missed RBC's window but not the others.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: a permanent resident 14 months after arrival"
+      }
+    },
+    {
+      "id": "2a6e49b6c199",
+      "value": "$15,000",
+      "context": "RBC says newcomers can get a card with up to a $15,000 limit even with no Canadian credit history, and that the limit is based on financial information including income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C\""
+      },
+      "needle": "ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C"
+    },
+    {
+      "id": "fc51074019d1",
+      "value": "2%",
+      "context": "Its featured no-fee card for newcomers is the RBC Cash Back Mastercard, with 2% on groceries and a 5% extra cash back welcome offer on the first $2,000 over six months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"000 in spend for 6 months\". Apply by February 2, 2027. Earn 2% cash back on groceries3 Earn 1% cash back on gas, EV chargi\""
+      },
+      "needle": "000 in spend for 6 months\". Apply by February 2, 2027. Earn 2% cash back on groceries3 Earn 1% cash back on gas, EV chargi"
+    },
+    {
+      "id": "a5e0730b3567",
+      "value": "5%",
+      "context": "Its featured no-fee card for newcomers is the RBC Cash Back Mastercard, with 2% on groceries and a 5% extra cash back welcome offer on the first $2,000 over six months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"ory while earning cash back on everyday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\"\""
+      },
+      "needle": "ory while earning cash back on everyday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\""
+    },
+    {
+      "id": "56680c780a33",
+      "value": "$2,000",
+      "context": "Its featured no-fee card for newcomers is the RBC Cash Back Mastercard, with 2% on groceries and a 5% extra cash back welcome offer on the first $2,000 over six months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"ryday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by February 2, 2027. Earn 2%\""
+      },
+      "needle": "ryday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by February 2, 2027. Earn 2%"
+    },
+    {
+      "id": "f88f4bbe583d",
+      "value": "$15,000",
+      "context": "CIBC says newcomers need no security deposit or credit history, and that you may be eligible for up to a $15,000 limit on your first CIBC card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
+      "sourceName": "CIBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cibc_nc_cc, fetched 2026-11-15): \"our credit card✦, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured\""
+      },
+      "needle": "our credit card✦, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured"
+    },
+    {
+      "id": "2a6ad521239b",
+      "value": "$15,000",
+      "context": "It says you do not need a Canadian credit history to apply and could be approved for up to $15,000 on an unsecured card.",
+      "kind": "sourced",
+      "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
+      "sourceName": "Scotiabank StartRight: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_sr, fetched 2026-11-15): \"ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe\""
+      },
+      "needle": "ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe"
+    },
+    {
+      "id": "479bc68b06dc",
+      "value": "15",
+      "context": "Scotiabank's partnership with Nova Credit lets newcomers from 15 countries use a home-country credit report to apply for a higher limit.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "count of the countries listed on the Nova Credit page: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, the United Kingdom, United States or Ukraine = 15"
+      }
+    },
+    {
+      "id": "3957fccc8f24",
+      "value": "10",
+      "context": "Amex says delivery takes about 10 business days after approval.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.americanexpress.com/en-ca/support/customer-service/global-card-transfer/",
+      "sourceName": "American Express Canada: Global Card Transfer",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page amex_gct, fetched 2026-11-15): \"on. 6. Upon approval, Card delivery will take approximately 10 business days. 7. If you wish to transfer Membership Reward\""
+      },
+      "needle": "on. 6. Upon approval, Card delivery will take approximately 10 business days. 7. If you wish to transfer Membership Reward"
+    },
+    {
+      "id": "eae3065e49c1",
+      "value": "15",
+      "context": "You must already have a Scotiabank credit card, have been in Canada for less than two years, be a permanent resident, foreign worker, temporary worker or international student, and come from one of 15 countries: Australia, Austria, the Dominican Republic, India, Kenya, Mexico, Nigeria, the Philippines, South Africa, South Korea, Spain, Switzerland, the United Kingdom, the United States or Ukraine.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "count of the countries listed on the Nova Credit page: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, the United Kingdom, United States or Ukraine = 15"
+      }
+    },
+    {
+      "id": "17b5fb9f353c",
+      "value": "30%",
+      "context": "Enough that your normal spending stays well under 30% of it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"less than 30% of your total credit limit\""
+      },
+      "needle": "less than 30% of your total credit limit"
+    },
+    {
+      "id": "19df090010c2",
+      "value": "30%",
+      "context": "The FCAC suggests using less than 30% of your total credit limit, so the limit you are given affects your score from the first statement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "678f13c2f539",
+      "value": "$1,500",
+      "context": "What a $1,500 monthly card bill means at different limits (our calculation; example)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "484eed95583b",
+      "value": "30%",
+      "context": "Credit limit 30% of the limit $1,500 as a share of the limit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "e3d7b484c536",
+      "value": "$1,500",
+      "context": "Credit limit 30% of the limit $1,500 as a share of the limit",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "4d4e24074d05",
+      "value": "$15,000",
+      "context": "$15,000 (program maximum at RBC, CIBC, Scotiabank) $4,500 10%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"up to a $15,000\""
+      },
+      "needle": "up to a $15,000"
+    },
+    {
+      "id": "6a1fbba82cfe",
+      "value": "$4,500",
+      "context": "$15,000 (program maximum at RBC, CIBC, Scotiabank) $4,500 10%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "b4f56961105f",
+      "value": "10%",
+      "context": "$15,000 (program maximum at RBC, CIBC, Scotiabank) $4,500 10%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "e29c993a9f9b",
+      "value": "$2,000",
+      "context": "$2,000 $600 75%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration credit limit"
+      }
+    },
+    {
+      "id": "d0d8ee029576",
+      "value": "$600",
+      "context": "$2,000 $600 75%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "b462c643d92a",
+      "value": "75%",
+      "context": "$2,000 $600 75%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "9b82f1958264",
+      "value": "$1,000",
+      "context": "$1,000 $300 150%, over the limit",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration credit limit"
+      }
+    },
+    {
+      "id": "475da571c38a",
+      "value": "$300",
+      "context": "$1,000 $300 150%, over the limit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "ac4327d743d9",
+      "value": "150%",
+      "context": "$1,000 $300 150%, over the limit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "f555068eef78",
+      "value": "$1,500",
+      "context": "A newcomer household putting groceries, transit, phone and other everyday costs on one card can easily reach $1,500 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "8494670c087e",
+      "value": "$15,000",
+      "context": "On a $15,000 limit that is 10% utilization; on a $2,000 limit it is 75%, and you would need to pay during the month to keep the reported balance down.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"up to a $15,000\""
+      },
+      "needle": "up to a $15,000"
+    },
+    {
+      "id": "ce81a6da0aa6",
+      "value": "10%",
+      "context": "On a $15,000 limit that is 10% utilization; on a $2,000 limit it is 75%, and you would need to pay during the month to keep the reported balance down.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "dc89576dbec8",
+      "value": "$2,000",
+      "context": "On a $15,000 limit that is 10% utilization; on a $2,000 limit it is 75%, and you would need to pay during the month to keep the reported balance down.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration credit limit"
+      }
+    },
+    {
+      "id": "2f73d2cd8810",
+      "value": "75%",
+      "context": "On a $15,000 limit that is 10% utilization; on a $2,000 limit it is 75%, and you would need to pay during the month to keep the reported balance down.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "42b31934e481",
+      "value": "12",
+      "context": "Our best secured credit cards guide compares the deposit, 12-month cost and bureau reporting of the main options in Canada.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of a cost calculation (12 months), linking to the secured-card guide"
+      }
+    },
+    {
+      "id": "ae40585bbab4",
+      "value": "12",
+      "context": "Check how long you have been in Canada against the RBC 12-month and 48-month windows and the five-year windows at CIBC, Scotiabank and BMO.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "0d41e54c1597",
+      "value": "48",
+      "context": "Check how long you have been in Canada against the RBC 12-month and 48-month windows and the five-year windows at CIBC, Scotiabank and BMO.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"within the last 48 months\""
+      },
+      "needle": "within the last 48 months"
+    },
+    {
+      "id": "99d49158e887",
+      "value": "$15,000",
+      "context": "No SIN yet RBC newcomer credit card RBC lists the SIN as optional; up to $15,000 for permanent residents in their first 12 months and temporary resident workers in their first 48 Ask any bank to add your SIN later; the SIN Code of Practice says it is not legally required for a credit check",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"network (Visa) or Royal Bank by the last day of the Period. 15,000 additional Avion points (“Anniversary Points”) will appear\""
+      },
+      "needle": "network (Visa) or Royal Bank by the last day of the Period. 15,000 additional Avion points (“Anniversary Points”) will appear"
+    },
+    {
+      "id": "5a4ed3bcab95",
+      "value": "12",
+      "context": "No SIN yet RBC newcomer credit card RBC lists the SIN as optional; up to $15,000 for permanent residents in their first 12 months and temporary resident workers in their first 48 Ask any bank to add your SIN later; the SIN Code of Practice says it is not legally required for a credit check",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "4b672b34a4a3",
+      "value": "48",
+      "context": "No SIN yet RBC newcomer credit card RBC lists the SIN as optional; up to $15,000 for permanent residents in their first 12 months and temporary resident workers in their first 48 Ask any bank to add your SIN later; the SIN Code of Practice says it is not legally required for a credit check",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c\""
+      },
+      "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
+    },
+    {
+      "id": "b815ee04708a",
+      "value": "$15,000",
+      "context": "SIN but no Canadian credit history Scotiabank StartRight Covers permanent residents under five years, foreign workers and international students; up to $15,000 unsecured; apply online or by appointment CIBC (permanent residents, Banking Centre) or BMO NewStart (branch)",
+      "kind": "sourced",
+      "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
+      "sourceName": "Scotiabank StartRight: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_sr, fetched 2026-11-15): \"ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe\""
+      },
+      "needle": "ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe"
+    },
+    {
+      "id": "878fe7fef5c1",
+      "value": "15",
+      "context": "Credit history in another country American Express Global Card Transfer, if you hold a foreign Amex Approval possible without a Canadian credit report after 3 months as a Basic Cardholder Scotiabank plus Nova Credit for a higher limit, if you are from one of the 15 countries",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "count of the countries listed on the Nova Credit page: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, the United Kingdom, United States or Ukraine = 15"
+      }
+    },
+    {
+      "id": "2fbd1a2f70c2",
+      "value": "$15,000,",
+      "context": "RBC, CIBC and Scotiabank say newcomers can be approved without Canadian credit history for limits of up to $15,000, and BMO says no credit history is required for its newcomer card.",
+      "kind": "sourced",
+      "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
+      "sourceName": "Scotiabank StartRight: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page scotia_sr, fetched 2026-11-15): \"roved, eligible clients can apply for a higher limit up to $15,000 by leveraging their credit history from back home.6 Explore\""
+      },
+      "needle": "roved, eligible clients can apply for a higher limit up to $15,000 by leveraging their credit history from back home.6 Explore"
+    },
+    {
+      "id": "f567b5cce9b9",
+      "value": "5292",
+      "context": "Usually a passport or other government photo ID, proof of status such as a Permanent Resident Card, IMM 5292 or IMM 5688, or a study or work permit, and proof of a Canadian address.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
+      "sourceName": "BMO: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page bmo_newcomer, fetched 2026-11-15): \"ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g\""
+      },
+      "needle": "ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g"
+    },
+    {
+      "id": "d2a2ea9c698a",
+      "value": "5688",
+      "context": "Usually a passport or other government photo ID, proof of status such as a Permanent Resident Card, IMM 5292 or IMM 5688, or a study or work permit, and proof of a Canadian address.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
+      "sourceName": "BMO: Banking for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page bmo_newcomer, fetched 2026-11-15): \"Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph\""
+      },
+      "needle": "Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph"
+    },
+    {
+      "id": "481b72fb4fb4",
+      "value": "15",
+      "context": "American Express can approve existing foreign Amex cardholders without a Canadian report, and Scotiabank's Nova Credit option can raise your limit based on a report from one of 15 countries.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "count of the countries listed on the Nova Credit page: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, the United Kingdom, United States or Ukraine = 15"
+      }
+    },
+    {
+      "id": "701863107449",
+      "value": "12",
+      "context": "RBC's limit offer covers permanent residents within 12 months of arrival and temporary resident workers within 48 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C\""
+      },
+      "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
+    },
+    {
+      "id": "30ef513d8648",
+      "value": "48",
+      "context": "RBC's limit offer covers permanent residents within 12 months of arrival and temporary resident workers within 48 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
+      "sourceName": "RBC: Credit cards for newcomers",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_nc_cc, fetched 2026-11-15): \"rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c\""
+      },
+      "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
+    }
+  ]
+}

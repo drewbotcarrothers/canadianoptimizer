@@ -1,0 +1,2568 @@
+{
+  "slug": "best-secured-credit-cards-canada",
+  "publishDate": "2026-11-18",
+  "figures": [
+    {
+      "id": "d9e996df0d25",
+      "value": "12",
+      "context": "We costed 12 months on each of Canada's three best-known secured cards, and checked which ones say they report to both credit bureaus.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "24fb7a1c871d",
+      "value": "November 15, 2026",
+      "context": "This guide is part of our credit score building hub , using issuer pages read on November 15, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "eadb8d78340d",
+      "value": "$0",
+      "context": "The best secured credit card in Canada for most people rebuilding credit is the no-fee Home Trust Secured Visa: $0 a year, 19.99% interest and a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "ea11e370d3d0",
+      "value": "19.99%",
+      "context": "The best secured credit card in Canada for most people rebuilding credit is the no-fee Home Trust Secured Visa: $0 a year, 19.99% interest and a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan\""
+      },
+      "needle": "Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan"
+    },
+    {
+      "id": "0642dd411396",
+      "value": "$500",
+      "context": "The best secured credit card in Canada for most people rebuilding credit is the no-fee Home Trust Secured Visa: $0 a year, 19.99% interest and a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your\""
+      },
+      "needle": "it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your"
+    },
+    {
+      "id": "8c9345da0411",
+      "value": "$50",
+      "context": "Neo's secured Mastercard needs only $50 down and names both credit bureaus, but its required membership costs $119.88 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "c7a058bed75e",
+      "value": "$119.88",
+      "context": "Neo's secured Mastercard needs only $50 down and names both credit bureaus, but its required membership costs $119.88 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "6de040b56a75",
+      "value": "$0",
+      "context": "Capital One is $0 too, with guaranteed approval if you meet four conditions, but charges 29.9%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"Establish or repair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residen\""
+      },
+      "needle": "Establish or repair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residen"
+    },
+    {
+      "id": "ebdb6a58b7c4",
+      "value": "29.9%",
+      "context": "Capital One is $0 too, with guaranteed approval if you meet four conditions, but charges 29.9%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21.\""
+      },
+      "needle": "epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21."
+    },
+    {
+      "id": "668303450f15",
+      "value": "12",
+      "context": "Paid in full every month, the 12-month cost is $0 for the Home Trust no-fee option and Capital One, $59 for Home Trust's low-rate option and $119.88 for Neo's required Build membership.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "4578cd7672ef",
+      "value": "$0",
+      "context": "Paid in full every month, the 12-month cost is $0 for the Home Trust no-fee option and Capital One, $59 for Home Trust's low-rate option and $119.88 for Neo's required Build membership.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "9a774d6941b0",
+      "value": "$59",
+      "context": "Paid in full every month, the 12-month cost is $0 for the Home Trust no-fee option and Capital One, $59 for Home Trust's low-rate option and $119.88 for Neo's required Build membership.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"allowed me to pave my way to a better credit score.” Huffley59 – Capital One customer Fantastic card. It has been awesome\""
+      },
+      "needle": "allowed me to pave my way to a better credit score.” Huffley59 – Capital One customer Fantastic card. It has been awesome"
+    },
+    {
+      "id": "779e0463e1f2",
+      "value": "$119.88",
+      "context": "Paid in full every month, the 12-month cost is $0 for the Home Trust no-fee option and Capital One, $59 for Home Trust's low-rate option and $119.88 for Neo's required Build membership.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "48e8663cb139",
+      "value": "$150",
+      "context": "Carrying a $150 balance all year, Home Trust no-fee costs about $29.99, Capital One about $44.85 and Neo $149.87 to $164.87, membership included.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "ea866ce2a4ca",
+      "value": "$29.99",
+      "context": "Carrying a $150 balance all year, Home Trust no-fee costs about $29.99, Capital One about $44.85 and Neo $149.87 to $164.87, membership included.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "47488fa6a8a1",
+      "value": "$44.85",
+      "context": "Carrying a $150 balance all year, Home Trust no-fee costs about $29.99, Capital One about $44.85 and Neo $149.87 to $164.87, membership included.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "1e2b31d1d6ac",
+      "value": "$149.87",
+      "context": "Carrying a $150 balance all year, Home Trust no-fee costs about $29.99, Capital One about $44.85 and Neo $149.87 to $164.87, membership included.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "f0edc47439a5",
+      "value": "$164.87",
+      "context": "Carrying a $150 balance all year, Home Trust no-fee costs about $29.99, Capital One about $44.85 and Neo $149.87 to $164.87, membership included.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "7d7b904eca01",
+      "value": "$59",
+      "context": "Home Trust's $59 low-rate option only beats its no-fee option if your average carried balance is above $1,159.14.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "94892fe8e1d2",
+      "value": "$1,159.14",
+      "context": "Home Trust's $59 low-rate option only beats its no-fee option if your average carried balance is above $1,159.14.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "0f003917777e",
+      "value": "12",
+      "context": "12-month cost of each card",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "f91ff39b66cc",
+      "value": "November 15, 2026",
+      "context": "On November 15, 2026, we read each issuer's card page, fee page and support articles for the minimum and maximum deposit, annual or monthly fees, interest rates, which credit bureaus each says it reports to, and how you move to an unsecured card.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "8b7061f0b7f3",
+      "value": "12",
+      "context": "We then calculated a 12-month cost two ways: paying in full every month, and carrying an average balance of $150 all year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "fa4ecc33349f",
+      "value": "$150",
+      "context": "We then calculated a 12-month cost two ways: paying in full every month, and carrying an average balance of $150 all year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "97d226c874d2",
+      "value": "$150",
+      "context": "We chose $150 because it is 30% of a $500 limit, the top of the range the Financial Consumer Agency of Canada (FCAC) suggests for credit utilization.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html",
+      "sourceName": "FCAC: Choosing a credit card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_choose, fetched 2026-11-15): \".gc.ca', 'www66.statcan.gc.ca', 'www144.statcan.gc.ca', 'www150.statcan.gc.ca', 'www159.statcan.gc.ca', 'www160.statcan.gc.\""
+      },
+      "needle": ".gc.ca', 'www66.statcan.gc.ca', 'www144.statcan.gc.ca', 'www150.statcan.gc.ca', 'www159.statcan.gc.ca', 'www160.statcan.gc."
+    },
+    {
+      "id": "68790bd5a1e4",
+      "value": "30%",
+      "context": "We chose $150 because it is 30% of a $500 limit, the top of the range the Financial Consumer Agency of Canada (FCAC) suggests for credit utilization.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "95ddc6c11a6a",
+      "value": "$500",
+      "context": "We chose $150 because it is 30% of a $500 limit, the top of the range the Financial Consumer Agency of Canada (FCAC) suggests for credit utilization.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html",
+      "sourceName": "FCAC: Choosing a credit card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_choose, fetched 2026-11-15): \"ion(){ if(typeof jQuery === \"function\"){ MediaSetup(); } }, 500); } //*************************************************** /\""
+      },
+      "needle": "ion(){ if(typeof jQuery === \"function\"){ MediaSetup(); } }, 500); } //*************************************************** /"
+    },
+    {
+      "id": "321c63668106",
+      "value": "12",
+      "context": "What does each secured card cost over 12 months?",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "f4ede88ad1b4",
+      "value": "$59",
+      "context": "If you pay in full, the Home Trust no-fee option and Capital One cost nothing to hold, Home Trust's low-rate option costs $59 and Neo costs $119.88 in membership fees.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V\""
+      },
+      "needle": "interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V"
+    },
+    {
+      "id": "eb39f9ce4617",
+      "value": "$119.88",
+      "context": "If you pay in full, the Home Trust no-fee option and Capital One cost nothing to hold, Home Trust's low-rate option costs $59 and Neo costs $119.88 in membership fees.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "90429b15910e",
+      "value": "29.9%",
+      "context": "If you carry a balance, interest is added on top, and Capital One's 29.9% rate starts to matter.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21.\""
+      },
+      "needle": "epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21."
+    },
+    {
+      "id": "46d5fb7707fe",
+      "value": "12",
+      "context": "12-month cost per secured card, and the bureaus each names (our calculation from issuer pages, reviewed November 15, 2026; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "2de12dfad1fa",
+      "value": "November 15, 2026",
+      "context": "12-month cost per secured card, and the bureaus each names (our calculation from issuer pages, reviewed November 15, 2026; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "38fdaa169441",
+      "value": "12",
+      "context": "Card Minimum deposit Yearly fee Purchase rate 12-month cost, paid in full 12-month cost, carrying $150 Bureaus named",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "b0e2b0f84891",
+      "value": "$150",
+      "context": "Card Minimum deposit Yearly fee Purchase rate 12-month cost, paid in full 12-month cost, carrying $150 Bureaus named",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "028406138940",
+      "value": "$500",
+      "context": "Home Trust Secured Visa, no-fee option $500 $0 19.99% $0.00 $29.99 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your\""
+      },
+      "needle": "it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your"
+    },
+    {
+      "id": "5471f1a4636a",
+      "value": "$0",
+      "context": "Home Trust Secured Visa, no-fee option $500 $0 19.99% $0.00 $29.99 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "b8b69d7b51f6",
+      "value": "19.99%",
+      "context": "Home Trust Secured Visa, no-fee option $500 $0 19.99% $0.00 $29.99 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan\""
+      },
+      "needle": "Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan"
+    },
+    {
+      "id": "a30ced6e68a9",
+      "value": "$0.00",
+      "context": "Home Trust Secured Visa, no-fee option $500 $0 19.99% $0.00 $29.99 \"The credit bureau\" (not named)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "a901d190e542",
+      "value": "$29.99",
+      "context": "Home Trust Secured Visa, no-fee option $500 $0 19.99% $0.00 $29.99 \"The credit bureau\" (not named)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "f186807cb9f4",
+      "value": "$500",
+      "context": "Home Trust Secured Visa, low-rate option $500 $59 14.90% $59.00 $81.35 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your\""
+      },
+      "needle": "it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your"
+    },
+    {
+      "id": "0df369539d72",
+      "value": "$59",
+      "context": "Home Trust Secured Visa, low-rate option $500 $59 14.90% $59.00 $81.35 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V\""
+      },
+      "needle": "interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V"
+    },
+    {
+      "id": "9020164806db",
+      "value": "14.90%",
+      "context": "Home Trust Secured Visa, low-rate option $500 $59 14.90% $59.00 $81.35 \"The credit bureau\" (not named)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \", you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The Visa card that hel\""
+      },
+      "needle": ", you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The Visa card that hel"
+    },
+    {
+      "id": "d1c7d877c33d",
+      "value": "$59.00",
+      "context": "Home Trust Secured Visa, low-rate option $500 $59 14.90% $59.00 $81.35 \"The credit bureau\" (not named)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "3bdac3e8e0ce",
+      "value": "$81.35",
+      "context": "Home Trust Secured Visa, low-rate option $500 $59 14.90% $59.00 $81.35 \"The credit bureau\" (not named)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "a53abaabba31",
+      "value": "$50",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "3c9e1f2b5dac",
+      "value": "$119.88",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "a22ffe9cc0ec",
+      "value": "$9.99",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"uires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "uires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    },
+    {
+      "id": "e9e149749b8e",
+      "value": "19.99%",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f\""
+      },
+      "needle": "r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f"
+    },
+    {
+      "id": "6ebea00f4099",
+      "value": "29.99%",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \":\\\"The purchase credit rate on the Neo Mastercard is 19.99%-29.99% and the cash advance rate is 22.99%-31.99%. For Quebec, the\""
+      },
+      "needle": ":\\\"The purchase credit rate on the Neo Mastercard is 19.99%-29.99% and the cash advance rate is 22.99%-31.99%. For Quebec, the"
+    },
+    {
+      "id": "b60984c6911c",
+      "value": "$149.87",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "e7598dc9d81f",
+      "value": "$164.87",
+      "context": "Neo Mastercard, secured $50 $119.88 (Build membership, $9.99 a month) 19.99% to 29.99% $119.88 $149.87 to $164.87 TransUnion and Equifax",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "9a9d73ac2e68",
+      "value": "29.9%",
+      "context": "Capital One Guaranteed Secured Mastercard Not printed on the card page $0 29.9% (21.9% in Quebec) $0.00 $44.85 ($32.85 in Quebec) Not named on the card page",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21.\""
+      },
+      "needle": "epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21."
+    },
+    {
+      "id": "67ea4766e488",
+      "value": "21.9%",
+      "context": "Capital One Guaranteed Secured Mastercard Not printed on the card page $0 29.9% (21.9% in Quebec) $0.00 $44.85 ($32.85 in Quebec) Not named on the card page",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it\""
+      },
+      "needle": ".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it"
+    },
+    {
+      "id": "7b9104c9c0d9",
+      "value": "$0.00",
+      "context": "Capital One Guaranteed Secured Mastercard Not printed on the card page $0 29.9% (21.9% in Quebec) $0.00 $44.85 ($32.85 in Quebec) Not named on the card page",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "5247548f5725",
+      "value": "$44.85",
+      "context": "Capital One Guaranteed Secured Mastercard Not printed on the card page $0 29.9% (21.9% in Quebec) $0.00 $44.85 ($32.85 in Quebec) Not named on the card page",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "56665c496534",
+      "value": "$32.85",
+      "context": "Capital One Guaranteed Secured Mastercard Not printed on the card page $0 29.9% (21.9% in Quebec) $0.00 $44.85 ($32.85 in Quebec) Not named on the card page",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "87b3d96f947f",
+      "value": "$50",
+      "context": "Did you know: Neo has the smallest deposit by far, $50 against $500 at Home Trust, but the $119.88 a year Build membership means that with $500 of security funds, your first-year cash outlay is $619.88, of which only the $500 comes back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "b12d7b6a3de8",
+      "value": "$500",
+      "context": "Did you know: Neo has the smallest deposit by far, $50 against $500 at Home Trust, but the $119.88 a year Build membership means that with $500 of security funds, your first-year cash outlay is $619.88, of which only the $500 comes back.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "17d6fbd12161",
+      "value": "$119.88",
+      "context": "Did you know: Neo has the smallest deposit by far, $50 against $500 at Home Trust, but the $119.88 a year Build membership means that with $500 of security funds, your first-year cash outlay is $619.88, of which only the $500 comes back.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "997f6d546fd6",
+      "value": "$619.88",
+      "context": "Did you know: Neo has the smallest deposit by far, $50 against $500 at Home Trust, but the $119.88 a year Build membership means that with $500 of security funds, your first-year cash outlay is $619.88, of which only the $500 comes back.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "54af70d8bd8a",
+      "value": "12",
+      "context": "12-month cost carrying a $150 balance (our calculation; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "2c68b8b02137",
+      "value": "$150",
+      "context": "12-month cost carrying a $150 balance (our calculation; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "5d1fda5ed151",
+      "value": "$0",
+      "context": "HT $0",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "0277bda1e15d",
+      "value": "$29.99",
+      "context": "$29.99",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "3d65ecf2ea1a",
+      "value": "$44.85",
+      "context": "$44.85",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "7e55b808b6f8",
+      "value": "$59",
+      "context": "HT $59",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V\""
+      },
+      "needle": "interest rate, you can choose to pay an annual fee of only $59 and get a 14.90% interest rate. Zero Liability policy The V"
+    },
+    {
+      "id": "386539efd09e",
+      "value": "$81.35",
+      "context": "$81.35",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "140e86875de2",
+      "value": "$149.87",
+      "context": "$149.87 to $164.87",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "e29f74cc7563",
+      "value": "$164.87",
+      "context": "$149.87 to $164.87",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "9d72d2afa0fc",
+      "value": "$150",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "f4ff37e7a72f",
+      "value": "$29.99",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "ad6658b15c5f",
+      "value": "$44.85",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "5f3ba4e434e8",
+      "value": "$81.35",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "9f96958612c9",
+      "value": "$149.87",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "bd03c5c05b33",
+      "value": "$164.87",
+      "context": "Carrying $150 for a year costs about $29.99 on Home Trust's no-fee option, $44.85 on Capital One, $81.35 on Home Trust's low-rate option and $149.87 to $164.87 on Neo, depending on the rate Neo assigns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "5816a0c1d42f",
+      "value": "$59",
+      "context": "Example: when does Home Trust's $59 option pay off?",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "5630bccb2245",
+      "value": "19.99%",
+      "context": "Rate saved by paying the fee: 19.99% minus 14.90% 5.09 points",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"with a 19.99% interest rate\""
+      },
+      "needle": "with a 19.99% interest rate"
+    },
+    {
+      "id": "9a1f2ae2fea7",
+      "value": "14.90%",
+      "context": "Rate saved by paying the fee: 19.99% minus 14.90% 5.09 points",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"$59 and get a 14.90% interest rate\""
+      },
+      "needle": "$59 and get a 14.90% interest rate"
+    },
+    {
+      "id": "6982d3cf4d5d",
+      "value": "5.09",
+      "context": "Rate saved by paying the fee: 19.99% minus 14.90% 5.09 points",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "e10f2f53bb87",
+      "value": "$150",
+      "context": "Interest saved on a $150 average balance about $7.64",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "067e322a1e75",
+      "value": "$7.64",
+      "context": "Interest saved on a $150 average balance about $7.64",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "fd111f2cf2b6",
+      "value": "$59.00",
+      "context": "Annual fee $59.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "672cbafe2b87",
+      "value": "$59",
+      "context": "Average balance where the saving equals the fee: $59 &divide; 5.09% $1,159.14",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "519159d4b48b",
+      "value": "5.09%",
+      "context": "Average balance where the saving equals the fee: $59 &divide; 5.09% $1,159.14",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "2a5fdb5e1837",
+      "value": "$1,159.14",
+      "context": "Average balance where the saving equals the fee: $59 &divide; 5.09% $1,159.14",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "0c8513c90e5e",
+      "value": "$1,159.14",
+      "context": "Below an average carried balance of about $1,159.14, the no-fee option is cheaper.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "b66ffcde1d6c",
+      "value": "$500",
+      "context": "On a $500 deposit, you cannot carry that much, so the low-rate option only makes sense with a larger deposit and a habit of carrying a balance, which is the habit a rebuilding card should break.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "56de8002eb6c",
+      "value": "$500",
+      "context": "Home Trust's limit equals your deposit, from $500 to $10,000, and the deposit stays with Home Trust while the account is open.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your\""
+      },
+      "needle": "it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your"
+    },
+    {
+      "id": "f31e6ce34609",
+      "value": "$10,000,",
+      "context": "Home Trust's limit equals your deposit, from $500 to $10,000, and the deposit stays with Home Trust while the account is open.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"sed on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your account is\""
+      },
+      "needle": "sed on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your account is"
+    },
+    {
+      "id": "5d72737659cb",
+      "value": "19.99%",
+      "context": "You choose between no annual fee at 19.99% or a $59 annual fee at 14.90%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"f Québec. 2Cardholders can choose between no annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Cert\""
+      },
+      "needle": "f Québec. 2Cardholders can choose between no annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Cert"
+    },
+    {
+      "id": "9ed6cd295d9f",
+      "value": "$59",
+      "context": "You choose between no annual fee at 19.99% or a $59 annual fee at 14.90%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"ween no annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Certain restrictions, limitations and\""
+      },
+      "needle": "ween no annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Certain restrictions, limitations and"
+    },
+    {
+      "id": "a827161acd71",
+      "value": "14.90%",
+      "context": "You choose between no annual fee at 19.99% or a $59 annual fee at 14.90%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Certain restrictions, limitations and exclusions\""
+      },
+      "needle": "annual fee and 19.99% interest or an annual fee of $59 and 14.90% interest. 3Certain restrictions, limitations and exclusions"
+    },
+    {
+      "id": "6b50c9be3e90",
+      "value": "$500",
+      "context": "To apply, you must be a permanent Canadian resident, not be in bankruptcy, and provide the $500 minimum deposit from a Canadian account in your name.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b\""
+      },
+      "needle": "province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b"
+    },
+    {
+      "id": "b540b3ddfeeb",
+      "value": "20%",
+      "context": "Cash advances are limited to 20% of your limit, and the no-fee disclosure statement lists a $29 over-limit fee and a 2% foreign currency conversion charge.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"y the Visa or MasterCard logo. Cash advances are limited to 20% of your credit limit and may be subject to additional fees.\""
+      },
+      "needle": "y the Visa or MasterCard logo. Cash advances are limited to 20% of your credit limit and may be subject to additional fees."
+    },
+    {
+      "id": "736db0d4ced8",
+      "value": "$29",
+      "context": "Cash advances are limited to 20% of your limit, and the no-fee disclosure statement lists a $29 over-limit fee and a 2% foreign currency conversion charge.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/content/dam/hometrust/pdfs/credit-cards/secured-visa-card/HT-CVSC6-Secured-Disclosure-no-fee-8.5x11-WEB-11.2023.pdf",
+      "sourceName": "Home Trust: Secured Visa disclosure statement (no fee)",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_disc_nofee, fetched 2026-11-15): \"al Fees There is no annual fee. Other Fees Over Limit Fee: $29.00 charged at the end of the billing period if the Debt exc\""
+      },
+      "needle": "al Fees There is no annual fee. Other Fees Over Limit Fee: $29.00 charged at the end of the billing period if the Debt exc"
+    },
+    {
+      "id": "fdc2c140fc91",
+      "value": "2%",
+      "context": "Cash advances are limited to 20% of your limit, and the no-fee disclosure statement lists a $29 over-limit fee and a 2% foreign currency conversion charge.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/content/dam/hometrust/pdfs/credit-cards/secured-visa-card/HT-CVSC6-Secured-Disclosure-no-fee-8.5x11-WEB-11.2023.pdf",
+      "sourceName": "Home Trust: Secured Visa disclosure statement (no fee)",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_disc_nofee, fetched 2026-11-15): \"on the day the transaction is posted to the Account, plus a 2% currency conversion charge. Annual Fees There is no annual\""
+      },
+      "needle": "on the day the transaction is posted to the Account, plus a 2% currency conversion charge. Annual Fees There is no annual"
+    },
+    {
+      "id": "e656fa22261f",
+      "value": "$50",
+      "context": "Neo lets you set your limit with security funds from $50 for most cards, up to $10,000, adding in $50 steps.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "39340d0d62c1",
+      "value": "$10,000,",
+      "context": "Neo lets you set your limit with security funds from $50 for most cards, up to $10,000, adding in $50 steps.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009880-is-there-a-minimum-maximum-amount-of-funds-to-be-secured",
+      "sourceName": "Neo Help Centre: Minimum and maximum security funds",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_minmax, fetched 2026-11-15): \"200 for World Elite® credit cards) Maximum security funds: $10,000 You can add more security funds to increase your credit lim\""
+      },
+      "needle": "200 for World Elite® credit cards) Maximum security funds: $10,000 You can add more security funds to increase your credit lim"
+    },
+    {
+      "id": "5130993279a6",
+      "value": "$9.99",
+      "context": "The card has no annual fee, but the secured limit needs Neo's Build membership at $9.99 a month, or Grow at $14.99.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009843-fees-on-your-credit-card",
+      "sourceName": "Neo Help Centre: Fees on your credit card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_fees, fetched 2026-11-15): \"uired to unlock the secured credit limit feature (Build is $9.99 / month) Neo World Mastercard® (standard credit): $0 annual\""
+      },
+      "needle": "uired to unlock the secured credit limit feature (Build is $9.99 / month) Neo World Mastercard® (standard credit): $0 annual"
+    },
+    {
+      "id": "df1a37e8998d",
+      "value": "$14.99",
+      "context": "The card has no annual fee, but the secured limit needs Neo's Build membership at $9.99 a month, or Grow at $14.99.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009873-monthly-fee-for-secured-credit-cards",
+      "sourceName": "Neo Help Centre: Monthly fee for secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_fee, fetched 2026-11-15): \"row membership. Build costs $9.99 per month and Grow costs $14.99. Both memberships replace the previous monthly fee for secu\""
+      },
+      "needle": "row membership. Build costs $9.99 per month and Grow costs $14.99. Both memberships replace the previous monthly fee for secu"
+    },
+    {
+      "id": "60158158978c",
+      "value": "19.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% (19.99% to 24.99% in Quebec), says the Neo Mastercard has no income requirement, and charges a $29 over-limit fee and a 3% foreign currency fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f\""
+      },
+      "needle": "r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f"
+    },
+    {
+      "id": "1efe9a1ec0a7",
+      "value": "29.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% (19.99% to 24.99% in Quebec), says the Neo Mastercard has no income requirement, and charges a $29 over-limit fee and a 3% foreign currency fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \":\\\"The purchase credit rate on the Neo Mastercard is 19.99%-29.99% and the cash advance rate is 22.99%-31.99%. For Quebec, the\""
+      },
+      "needle": ":\\\"The purchase credit rate on the Neo Mastercard is 19.99%-29.99% and the cash advance rate is 22.99%-31.99%. For Quebec, the"
+    },
+    {
+      "id": "587a99f1673d",
+      "value": "24.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% (19.99% to 24.99% in Quebec), says the Neo Mastercard has no income requirement, and charges a $29 over-limit fee and a 3% foreign currency fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"0 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security funds ar\""
+      },
+      "needle": "0 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security funds ar"
+    },
+    {
+      "id": "42fadf1e0cf8",
+      "value": "$29",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% (19.99% to 24.99% in Quebec), says the Neo Mastercard has no income requirement, and charges a $29 over-limit fee and a 3% foreign currency fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009843-fees-on-your-credit-card",
+      "sourceName": "Neo Help Centre: Fees on your credit card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_fees, fetched 2026-11-15): \"M fees. Overlimit fees on your credit card You may incur a $29 overlimit fee if you spend more than your credit limit. The\""
+      },
+      "needle": "M fees. Overlimit fees on your credit card You may incur a $29 overlimit fee if you spend more than your credit limit. The"
+    },
+    {
+      "id": "13449e1db69b",
+      "value": "3%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% (19.99% to 24.99% in Quebec), says the Neo Mastercard has no income requirement, and charges a $29 over-limit fee and a 3% foreign currency fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009843-fees-on-your-credit-card",
+      "sourceName": "Neo Help Centre: Fees on your credit card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_fees, fetched 2026-11-15): \"Dollars are subject to a foreign currency conversion fee of 3%. Tip: Skip the foreign currency conversion fee with the Gro\""
+      },
+      "needle": "Dollars are subject to a foreign currency conversion fee of 3%. Tip: Skip the foreign currency conversion fee with the Gro"
+    },
+    {
+      "id": "867ad45038d6",
+      "value": "$2,500",
+      "context": "You can raise the limit up to $2,500 by adding funds, $1 of limit for every $1.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.capitalone.ca/managing-credit/how-to-get-a-credit-limit-increase-on-your-secured-card",
+      "sourceName": "Capital One: Credit limit increase on your secured card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_s1, fetched 2026-11-15): \"Card You can increase your credit limit, up to a maximum of $2,500, by providing additional security funds – we’ll increase yo\""
+      },
+      "needle": "Card You can increase your credit limit, up to a maximum of $2,500, by providing additional security funds – we’ll increase yo"
+    },
+    {
+      "id": "1eacac3b0c72",
+      "value": "$1",
+      "context": "You can raise the limit up to $2,500 by adding funds, $1 of limit for every $1.",
+      "kind": "sourced",
+      "sourceUrl": "https://support.capitalone.ca/managing-credit/how-to-get-a-credit-limit-increase-on-your-secured-card",
+      "sourceName": "Capital One: Credit limit increase on your secured card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_s1, fetched 2026-11-15): \"by $1 for every $1\""
+      },
+      "needle": "by $1 for every $1"
+    },
+    {
+      "id": "c826ef8b427b",
+      "value": "60",
+      "context": "Capital One says the funds come back within 60 days of closing the account, if the balance is paid in full and the account is in good standing.",
+      "kind": "sourced",
+      "sourceUrl": "https://creditblog.capitalone.ca/latest-stories/security-funds",
+      "sourceName": "Capital One: Security funds",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_funds, fetched 2026-11-15): \"security funds back? Yes, they’ll be returned to you within 60 days of closing your account, as long as you’ve paid off yo\""
+      },
+      "needle": "security funds back? Yes, they’ll be returned to you within 60 days of closing your account, as long as you’ve paid off yo"
+    },
+    {
+      "id": "70588075741a",
+      "value": "$150",
+      "context": "If your card bill is about $150 a month, a $500 deposit keeps you at 30%; on Neo's $50 minimum, 30% is only $15.00, so you would need to pay several times a month to keep the reported balance low.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "ffd72247e834",
+      "value": "$500",
+      "context": "If your card bill is about $150 a month, a $500 deposit keeps you at 30%; on Neo's $50 minimum, 30% is only $15.00, so you would need to pay several times a month to keep the reported balance low.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "7fc1756d56e6",
+      "value": "30%",
+      "context": "If your card bill is about $150 a month, a $500 deposit keeps you at 30%; on Neo's $50 minimum, 30% is only $15.00, so you would need to pay several times a month to keep the reported balance low.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "a16bfdfedc12",
+      "value": "$50",
+      "context": "If your card bill is about $150 a month, a $500 deposit keeps you at 30%; on Neo's $50 minimum, 30% is only $15.00, so you would need to pay several times a month to keep the reported balance low.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "9e9b291c5962",
+      "value": "$15.00",
+      "context": "If your card bill is about $150 a month, a $500 deposit keeps you at 30%; on Neo's $50 minimum, 30% is only $15.00, so you would need to pay several times a month to keep the reported balance low.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "66d19a0c49e1",
+      "value": "30%",
+      "context": "Enough that your normal monthly card spending stays under 30% of your limit, because the FCAC suggests using less than 30% of your total credit limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "2d82014fe922",
+      "value": "30%",
+      "context": "Deposit, limit and the 30% guideline (our calculation; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output or arithmetic on labelled example inputs (card-batch-20261118-model.py)"
+      }
+    },
+    {
+      "id": "70549e14c005",
+      "value": "30%",
+      "context": "Deposit and limit 30% of the limit Which card allows it",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "4db114bc1d94",
+      "value": "$50",
+      "context": "$50 $15.00 Neo minimum",
+      "kind": "sourced",
+      "sourceUrl": "https://support.neofinancial.com/en/articles/14009880-is-there-a-minimum-maximum-amount-of-funds-to-be-secured",
+      "sourceName": "Neo Help Centre: Minimum and maximum security funds",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_minmax, fetched 2026-11-15): \"Minimum security funds: $50\""
+      },
+      "needle": "Minimum security funds: $50"
+    },
+    {
+      "id": "f38336f47af6",
+      "value": "$15.00",
+      "context": "$50 $15.00 Neo minimum",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "130fd72f01d1",
+      "value": "$500",
+      "context": "$500 $150.00 Home Trust minimum; Neo; Capital One",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b\""
+      },
+      "needle": "province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b"
+    },
+    {
+      "id": "514ac183af17",
+      "value": "$150.00",
+      "context": "$500 $150.00 Home Trust minimum; Neo; Capital One",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "4906ddd65681",
+      "value": "$2,500",
+      "context": "$2,500 $750.00 Home Trust; Neo; Capital One maximum",
+      "kind": "sourced",
+      "sourceUrl": "https://support.capitalone.ca/managing-credit/how-to-get-a-credit-limit-increase-on-your-secured-card",
+      "sourceName": "Capital One: Credit limit increase on your secured card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_s1, fetched 2026-11-15): \"up to a maximum of $2,500\""
+      },
+      "needle": "up to a maximum of $2,500"
+    },
+    {
+      "id": "a18e90c97f30",
+      "value": "$750.00",
+      "context": "$2,500 $750.00 Home Trust; Neo; Capital One maximum",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "4e3705ac36c9",
+      "value": "12",
+      "context": "What should your first 12 months on a secured card look like?",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "a71fee6ba0a1",
+      "value": "30%",
+      "context": "Months 2 to 3: keep the balance reported on each statement under 30% of your limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page fcac_improve, fetched 2026-11-15): \"use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi\""
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "77ffceb54841",
+      "value": "$500",
+      "context": "On a $500 limit, that means paying down anything above $150.00 before the statement date.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration limit (Home Trust minimum deposit)"
+      }
+    },
+    {
+      "id": "6be9bee26b38",
+      "value": "$150.00",
+      "context": "On a $500 limit, that means paying down anything above $150.00 before the statement date.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "ed415b5c12b6",
+      "value": "12",
+      "context": "Months 6 to 12: avoid other credit applications.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "period of the cost calculation (12 months)"
+      }
+    },
+    {
+      "id": "508a78a6fe8c",
+      "value": "$50",
+      "context": "Smallest deposit Neo Mastercard, secured Starts from $50 of security funds and names both TransUnion and Equifax Build membership costs $119.88 a year",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "cd4a5ccbf786",
+      "value": "$119.88",
+      "context": "Smallest deposit Neo Mastercard, secured Starts from $50 of security funds and names both TransUnion and Equifax Build membership costs $119.88 a year",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "92d0f3fead93",
+      "value": "$0",
+      "context": "Lowest fee Home Trust Secured Visa, no-fee option $0 a year with the lowest no-fee rate here, 19.99%; $29.99 to carry $150 for a year $500 minimum deposit; not available in Quebec; bureau not named",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "d8035cae2fc5",
+      "value": "19.99%",
+      "context": "Lowest fee Home Trust Secured Visa, no-fee option $0 a year with the lowest no-fee rate here, 19.99%; $29.99 to carry $150 for a year $500 minimum deposit; not available in Quebec; bureau not named",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan\""
+      },
+      "needle": "Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan"
+    },
+    {
+      "id": "abe604fdf244",
+      "value": "$29.99",
+      "context": "Lowest fee Home Trust Secured Visa, no-fee option $0 a year with the lowest no-fee rate here, 19.99%; $29.99 to carry $150 for a year $500 minimum deposit; not available in Quebec; bureau not named",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (card-batch-20261118-model.out.json)"
+      }
+    },
+    {
+      "id": "22c05ae0d72e",
+      "value": "$150",
+      "context": "Lowest fee Home Trust Secured Visa, no-fee option $0 a year with the lowest no-fee rate here, 19.99%; $29.99 to carry $150 for a year $500 minimum deposit; not available in Quebec; bureau not named",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration average carried balance (30% of a $500 limit)"
+      }
+    },
+    {
+      "id": "6e355355d838",
+      "value": "$500",
+      "context": "Lowest fee Home Trust Secured Visa, no-fee option $0 a year with the lowest no-fee rate here, 19.99%; $29.99 to carry $150 for a year $500 minimum deposit; not available in Quebec; bureau not named",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b\""
+      },
+      "needle": "province Not currently be in bankruptcy Provide a minimum $500 security deposit from a Canadian account in your name Not b"
+    },
+    {
+      "id": "2d536ca17ecd",
+      "value": "21.9%",
+      "context": "Capital One is the fallback if you have been declined elsewhere: its approval is guaranteed when you meet the four conditions, it is available in Quebec at 21.9%, and it charges no annual fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it\""
+      },
+      "needle": ".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it"
+    },
+    {
+      "id": "abbdb7718174",
+      "value": "29.9%",
+      "context": "Just keep the balance at zero, because 29.9% outside Quebec is the highest rate in this comparison.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \"epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21.\""
+      },
+      "needle": "epair your credit Security funds are required $0 Annual fee 29.9% Standard annual interest rate (Non-residents of Quebec) 21."
+    },
+    {
+      "id": "aae3a15d9441",
+      "value": "$0",
+      "context": "For most people, the no-fee Home Trust Secured Visa, at $0 a year and 19.99% with a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"NO annual fee\""
+      },
+      "needle": "NO annual fee"
+    },
+    {
+      "id": "2e9eae710275",
+      "value": "19.99%",
+      "context": "For most people, the no-fee Home Trust Secured Visa, at $0 a year and 19.99% with a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan\""
+      },
+      "needle": "Home Trust Secured Visa are yours for NO annual fee2 with a 19.99% interest rate, which is only charged when you carry a balan"
+    },
+    {
+      "id": "88e0bf198d7c",
+      "value": "$500",
+      "context": "For most people, the no-fee Home Trust Secured Visa, at $0 a year and 19.99% with a $500 minimum deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your\""
+      },
+      "needle": "it is based on your security deposit, which can range from $500 to $10,000. Your deposit remains with Home Trust while your"
+    },
+    {
+      "id": "22f8eb5bd0cf",
+      "value": "$50,",
+      "context": "Neo is better if you can only spare $50, and Capital One if you need guaranteed approval.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "9fb7fec8232c",
+      "value": "$50",
+      "context": "From $50 at Neo and $500 at Home Trust.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/secured",
+      "sourceName": "Neo Financial: Secured credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_secured, fetched 2026-11-15): \"as little as $50\""
+      },
+      "needle": "as little as $50"
+    },
+    {
+      "id": "62cbed47014d",
+      "value": "$500",
+      "context": "From $50 at Neo and $500 at Home Trust.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.hometrust.ca/en/credit-cards/secured-visa-card",
+      "sourceName": "Home Trust: Secured Visa card",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page ht_secured, fetched 2026-11-15): \"Provide a minimum $500 security deposit\""
+      },
+      "needle": "Provide a minimum $500 security deposit"
+    },
+    {
+      "id": "3bf4fb9488f6",
+      "value": "60",
+      "context": "Capital One says it returns the funds within 60 days of closing if the account is in good standing.",
+      "kind": "sourced",
+      "sourceUrl": "https://creditblog.capitalone.ca/latest-stories/security-funds",
+      "sourceName": "Capital One: Security funds",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_funds, fetched 2026-11-15): \"security funds back? Yes, they’ll be returned to you within 60 days of closing your account, as long as you’ve paid off yo\""
+      },
+      "needle": "security funds back? Yes, they’ll be returned to you within 60 days of closing your account, as long as you’ve paid off yo"
+    },
+    {
+      "id": "f0b741284e17",
+      "value": "21.9%",
+      "context": "Capital One prints a Quebec rate of 21.9%, and Neo prints Quebec rates of 19.99% to 24.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.capitalone.ca/credit-cards/guaranteed-secured-mastercard2",
+      "sourceName": "Capital One: Guaranteed Secured Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cap1_sec, fetched 2026-11-15): \".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it\""
+      },
+      "needle": ".9% Standard annual interest rate (Non-residents of Quebec) 21.9% Standard annual interest rate (Residents of Quebec) How it"
+    },
+    {
+      "id": "326be04635bf",
+      "value": "19.99%",
+      "context": "Capital One prints a Quebec rate of 21.9%, and Neo prints Quebec rates of 19.99% to 24.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f\""
+      },
+      "needle": "r of $10 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security f"
+    },
+    {
+      "id": "a8555254de9a",
+      "value": "24.99%",
+      "context": "Capital One prints a Quebec rate of 21.9%, and Neo prints Quebec rates of 19.99% to 24.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-15): \"0 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security funds ar\""
+      },
+      "needle": "0 or 5% of total statement balance; Purchase rate is 19.99%-24.99% and cash advance rate is 22.99%-25.99%. ³ Security funds ar"
+    }
+  ]
+}
