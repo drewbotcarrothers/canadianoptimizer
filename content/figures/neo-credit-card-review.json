@@ -1,0 +1,3201 @@
+{
+  "slug": "neo-credit-card-review",
+  "publishDate": "2026-11-19",
+  "figures": [
+    {
+      "id": "7c80505c0b60",
+      "value": "November 16, 2026",
+      "context": "This review, part of our cash back cards hub , prices every version against three household budgets using Neo's own rates, read on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "e2f00d5679d3",
+      "value": "$3,000",
+      "context": "For most households that qualify, the best Neo credit card is the Neo World Elite Mastercard in its Gas & Grocery version: on our typical $3,000-a-month budget it returns about $745 a year after its $149 fee, per Neo's November 2026 rates.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "933e3c27cd47",
+      "value": "$745",
+      "context": "For most households that qualify, the best Neo credit card is the Neo World Elite Mastercard in its Gas & Grocery version: on our typical $3,000-a-month budget it returns about $745 a year after its $149 fee, per Neo's November 2026 rates.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "d2d19a5881fd",
+      "value": "$149",
+      "context": "For most households that qualify, the best Neo credit card is the Neo World Elite Mastercard in its Gas & Grocery version: on our typical $3,000-a-month budget it returns about $745 a year after its $149 fee, per Neo's November 2026 rates.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "f2885b2173f5",
+      "value": "$80,000",
+      "context": "Without $80,000 of personal income, the no-fee World Gas & Grocery card is the pick.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+    },
+    {
+      "id": "809c5bec735b",
+      "value": "2%",
+      "context": "Neo's no-fee World Mastercard earns 2% in its chosen categories and 0.5% elsewhere, or a flat 1% on the Everywhere version; it needs $50,000 of personal income or $80,000 of household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in\""
+      },
+      "needle": "income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in"
+    },
+    {
+      "id": "de0201498e5f",
+      "value": "0.5%",
+      "context": "Neo's no-fee World Mastercard earns 2% in its chosen categories and 0.5% elsewhere, or a flat 1% on the Everywhere version; it needs $50,000 of personal income or $80,000 of household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "0a4f7ea6b35a",
+      "value": "1%",
+      "context": "Neo's no-fee World Mastercard earns 2% in its chosen categories and 0.5% elsewhere, or a flat 1% on the Everywhere version; it needs $50,000 of personal income or $80,000 of household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"m income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual fee. Ge\""
+      },
+      "needle": "m income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual fee. Ge"
+    },
+    {
+      "id": "91197d0a8172",
+      "value": "$50,000",
+      "context": "Neo's no-fee World Mastercard earns 2% in its chosen categories and 0.5% elsewhere, or a flat 1% on the Everywhere version; it needs $50,000 of personal income or $80,000 of household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      },
+      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+    },
+    {
+      "id": "82239a6f1976",
+      "value": "$80,000",
+      "context": "Neo's no-fee World Mastercard earns 2% in its chosen categories and 0.5% elsewhere, or a flat 1% on the Everywhere version; it needs $50,000 of personal income or $80,000 of household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+    },
+    {
+      "id": "d98e426ba77a",
+      "value": "$149",
+      "context": "The $149 World Elite card earns up to 5% on groceries but needs $80,000 personal or $150,000 household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "5758571ffe50",
+      "value": "5%",
+      "context": "The $149 World Elite card earns up to 5% on groceries but needs $80,000 personal or $150,000 household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
+      },
+      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+    },
+    {
+      "id": "9cd56aa16713",
+      "value": "$80,000",
+      "context": "The $149 World Elite card earns up to 5% on groceries but needs $80,000 personal or $150,000 household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      },
+      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+    },
+    {
+      "id": "78e72883a831",
+      "value": "$150,000",
+      "context": "The $149 World Elite card earns up to 5% on groceries but needs $80,000 personal or $150,000 household income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
+      },
+      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+    },
+    {
+      "id": "eab47d7ac11c",
+      "value": "$500,",
+      "context": "Every bonus category has a monthly spending limit, as low as $500, after which the rate drops.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
+      },
+      "needle": "astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh"
+    },
+    {
+      "id": "d9448f977176",
+      "value": "$14,900",
+      "context": "Neo's own break-even for the World Elite Everywhere card compares it with earning nothing; compared with the free Everywhere card, you need about $14,900 of yearly spending.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b6fa03b07132",
+      "value": "$9.99",
+      "context": "The Neo Mastercard (no income minimum) is a credit-building card that can require security funds and a $9.99-a-month membership.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    },
+    {
+      "id": "408fae3358b3",
+      "value": "November 16, 2026",
+      "context": "We read Neo Financial's credit card comparison page and the Everywhere, Gas & Grocery and Shop & Dine pages on November 16, 2026, and recorded each card's earn rates, monthly spending limits, the rate paid above each limit, the annual fee and the income minimum.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "fe45c7b8db37",
+      "value": "$1,500,",
+      "context": "We then ran three illustrative monthly budgets through every card: a lean $1,500, a typical $3,000 and a high $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "2d0de6d09e1d",
+      "value": "$3,000",
+      "context": "We then ran three illustrative monthly budgets through every card: a lean $1,500, a typical $3,000 and a high $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "cc2d764d5d3e",
+      "value": "$5,000",
+      "context": "We then ran three illustrative monthly budgets through every card: a lean $1,500, a typical $3,000 and a high $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "a29058b7b9d5",
+      "value": "$400",
+      "context": "Groceries $400 $800 $1,200",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "bedd85e15e25",
+      "value": "$800",
+      "context": "Groceries $400 $800 $1,200",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "1427f4deacc1",
+      "value": "$1,200",
+      "context": "Groceries $400 $800 $1,200",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "3d5b95d3787d",
+      "value": "$150",
+      "context": "Gas and EV charging $150 $250 $400",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "15e605481b17",
+      "value": "$250",
+      "context": "Gas and EV charging $150 $250 $400",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "90f38113d5a4",
+      "value": "$400",
+      "context": "Gas and EV charging $150 $250 $400",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "f16364040731",
+      "value": "$100",
+      "context": "Recurring bills $100 $250 $500",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "043c4d543c8e",
+      "value": "$250",
+      "context": "Recurring bills $100 $250 $500",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "6a9515a319a9",
+      "value": "$500",
+      "context": "Recurring bills $100 $250 $500",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "619a27a08243",
+      "value": "$150",
+      "context": "Dining and food delivery $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "da1f59d4e384",
+      "value": "$300",
+      "context": "Dining and food delivery $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "efd6880bf77f",
+      "value": "$600",
+      "context": "Dining and food delivery $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "db21594b629a",
+      "value": "$150",
+      "context": "Retail shopping $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "e03487583afc",
+      "value": "$300",
+      "context": "Retail shopping $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "a4eb1c5d7196",
+      "value": "$600",
+      "context": "Retail shopping $150 $300 $600",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "ff99c945a30d",
+      "value": "$550",
+      "context": "Everything else $550 $1,100 $1,700",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "feaaf9277071",
+      "value": "$1,100",
+      "context": "Everything else $550 $1,100 $1,700",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "dc4b22b2be79",
+      "value": "$1,700",
+      "context": "Everything else $550 $1,100 $1,700",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+      }
+    },
+    {
+      "id": "97cf7ae8cc0f",
+      "value": "$1,500",
+      "context": "Total a month $1,500 $3,000 $5,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "e3d8946197a2",
+      "value": "$3,000",
+      "context": "Total a month $1,500 $3,000 $5,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "8fcf38000271",
+      "value": "$5,000",
+      "context": "Total a month $1,500 $3,000 $5,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "1238b6fb5512",
+      "value": "$149",
+      "context": "Neo sells four kinds of card: the Neo World Mastercard with no annual fee, the Neo World Elite Mastercard at $149 a year, two airline cards, and the Neo Mastercard for building credit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "ef007b39e71d",
+      "value": "November 16, 2026",
+      "context": "Neo cash back cards, earn rates and requirements (Neo Financial card pages, reviewed November 16, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "a56614a2d690",
+      "value": "$0",
+      "context": "Neo World Mastercard, Gas & Grocery $0 2% groceries, 2% gas and EV charging, 2% recurring payments 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $8\""
+      },
+      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $8"
+    },
+    {
+      "id": "6abd12adc615",
+      "value": "2%",
+      "context": "Neo World Mastercard, Gas & Grocery $0 2% groceries, 2% gas and EV charging, 2% recurring payments 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ceries¹ 2% Recurring bill payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,\""
+      },
+      "needle": "ceries¹ 2% Recurring bill payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,"
+    },
+    {
+      "id": "d629dd019649",
+      "value": "0.5%",
+      "context": "Neo World Mastercard, Gas & Grocery $0 2% groceries, 2% gas and EV charging, 2% recurring payments 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "0f74622ad7cf",
+      "value": "$50,000",
+      "context": "Neo World Mastercard, Gas & Grocery $0 2% groceries, 2% gas and EV charging, 2% recurring payments 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
+      },
+      "needle": "¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required."
+    },
+    {
+      "id": "353f584ca7e6",
+      "value": "$80,000",
+      "context": "Neo World Mastercard, Gas & Grocery $0 2% groceries, 2% gas and EV charging, 2% recurring payments 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®\""
+      },
+      "needle": "0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®"
+    },
+    {
+      "id": "3b66d51790bf",
+      "value": "$0",
+      "context": "Neo World Mastercard, Shop & Dine $0 2% food and drink, 2% shopping 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"one for you. Neo World Mastercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum inco\""
+      },
+      "needle": "one for you. Neo World Mastercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum inco"
+    },
+    {
+      "id": "1fd8c3a40d94",
+      "value": "2%",
+      "context": "Neo World Mastercard, Shop & Dine $0 2% food and drink, 2% shopping 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"m income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashba\""
+      },
+      "needle": "m income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashba"
+    },
+    {
+      "id": "34fa9e0402c5",
+      "value": "0.5%",
+      "context": "Neo World Mastercard, Shop & Dine $0 2% food and drink, 2% shopping 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining. Wi\""
+      },
+      "needle": "d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining. Wi"
+    },
+    {
+      "id": "3d19dd1cafa9",
+      "value": "$50,000",
+      "context": "Neo World Mastercard, Shop & Dine $0 2% food and drink, 2% shopping 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹\""
+      },
+      "needle": "ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹"
+    },
+    {
+      "id": "0971ecbc2b2d",
+      "value": "$80,000",
+      "context": "Neo World Mastercard, Shop & Dine $0 2% food and drink, 2% shopping 0.5% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+    },
+    {
+      "id": "0e32c324ccb9",
+      "value": "$0",
+      "context": "Neo World Mastercard, Everywhere $0 1% on all purchases 1% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"hout paying an annual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (ind\""
+      },
+      "needle": "hout paying an annual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (ind"
+    },
+    {
+      "id": "73cb1fb1d7b7",
+      "value": "1%",
+      "context": "Neo World Mastercard, Everywhere $0 1% on all purchases 1% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "3a25b9a48d60",
+      "value": "$50,000",
+      "context": "Neo World Mastercard, Everywhere $0 1% on all purchases 1% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
+      },
+      "needle": "¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required."
+    },
+    {
+      "id": "bc069db32778",
+      "value": "$80,000",
+      "context": "Neo World Mastercard, Everywhere $0 1% on all purchases 1% $50,000 or $80,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®\""
+      },
+      "needle": "0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®"
+    },
+    {
+      "id": "6b15169b8c47",
+      "value": "$149",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "f0a7f7e7b6ae",
+      "value": "5%",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
+      },
+      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+    },
+    {
+      "id": "6ab9f2abc5d0",
+      "value": "4%",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"Grocery Cashback¹ — 2% 5% Recurring Payments Cashback⁹ – 2% 4% Gas & EV Charging Cashback¹ — 2% 3% Everything Else Cashbac\""
+      },
+      "needle": "Grocery Cashback¹ — 2% 5% Recurring Payments Cashback⁹ – 2% 4% Gas & EV Charging Cashback¹ — 2% 3% Everything Else Cashbac"
+    },
+    {
+      "id": "940bc855639f",
+      "value": "3%",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ceries¹ 5% Recurring bill payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,00\""
+      },
+      "needle": "ceries¹ 5% Recurring bill payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,00"
+    },
+    {
+      "id": "529fcc9c1ea8",
+      "value": "1%",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,\""
+      },
+      "needle": "ll payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,"
+    },
+    {
+      "id": "63b455b41f02",
+      "value": "$80,000",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      },
+      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+    },
+    {
+      "id": "379c383813c2",
+      "value": "$150,000",
+      "context": "Neo World Elite Mastercard, Gas & Grocery $149 5% groceries, 4% recurring payments, 3% gas and EV charging 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
+      },
+      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+    },
+    {
+      "id": "0a7d56b9e382",
+      "value": "$149",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "4a74970bb4e5",
+      "value": "5%",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
+      },
+      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+    },
+    {
+      "id": "cef25b4294ba",
+      "value": "3%",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ear Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping\""
+      },
+      "needle": "ear Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping"
+    },
+    {
+      "id": "454dcafa2eab",
+      "value": "1%",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr\""
+      },
+      "needle": "minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr"
+    },
+    {
+      "id": "b8974e8d86ee",
+      "value": "$80,000",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+    },
+    {
+      "id": "786d7a11b51e",
+      "value": "$150,000",
+      "context": "Neo World Elite Mastercard, Shop & Dine $149 5% food and drink, 3% shopping 1% $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn\""
+      },
+      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn"
+    },
+    {
+      "id": "7c58c8d63c90",
+      "value": "$149",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "707cc1f34f36",
+      "value": "2%",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in\""
+      },
+      "needle": "income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in"
+    },
+    {
+      "id": "112f660e86df",
+      "value": "$4,000",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      },
+      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+    },
+    {
+      "id": "6905cbe53b28",
+      "value": "1%",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "507f0b2302d0",
+      "value": "$80,000",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      },
+      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+    },
+    {
+      "id": "7a8f5432e395",
+      "value": "$150,000",
+      "context": "Neo World Elite Mastercard, Everywhere $149 2% on all purchases, up to $4,000 a month 1% above the limit $80,000 or $150,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
+      },
+      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+    },
+    {
+      "id": "388df0298bfa",
+      "value": "$0",
+      "context": "Neo Mastercard $0 Cashback at Neo partners Not printed None",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"core required⁴ Rewards type Cashback at Partners Annual fee $0 Get this card Compare No minimum income required. ¹⁶ ​ Trav\""
+      },
+      "needle": "core required⁴ Rewards type Cashback at Partners Annual fee $0 Get this card Compare No minimum income required. ¹⁶ ​ Trav"
+    },
+    {
+      "id": "335492382ef9",
+      "value": "$50,000",
+      "context": "The World cards ask for a minimum of $50,000 in personal or $80,000 in household income; the World Elite cards ask for $80,000 or $150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      },
+      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+    },
+    {
+      "id": "7a452551169e",
+      "value": "$80,000",
+      "context": "The World cards ask for a minimum of $50,000 in personal or $80,000 in household income; the World Elite cards ask for $80,000 or $150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"ercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹²\""
+      },
+      "needle": "ercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹²"
+    },
+    {
+      "id": "ea5b047481b5",
+      "value": "$150,000",
+      "context": "The World cards ask for a minimum of $50,000 in personal or $80,000 in household income; the World Elite cards ask for $80,000 or $150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
+      },
+      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+    },
+    {
+      "id": "ce06177716ee",
+      "value": "19.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% and a cash advance rate of 22.99% to 31.99% on all of these cards, set by its assessment of your application and your province; Quebec rates differ, and Neo's travel insurance is not available to Quebec residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-world-elite-mastercard",
+      "sourceName": "Neo Financial: Neo World Elite Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_we, fetched 2026-11-16): \"purchase credit rate on the Neo World Elite® Mastercard is 19.99% to 25.24%. The standard rate on purchases and cash advance\""
+      },
+      "needle": "purchase credit rate on the Neo World Elite® Mastercard is 19.99% to 25.24%. The standard rate on purchases and cash advance"
+    },
+    {
+      "id": "d260e41b53ee",
+      "value": "29.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% and a cash advance rate of 22.99% to 31.99% on all of these cards, set by its assessment of your application and your province; Quebec rates differ, and Neo's travel insurance is not available to Quebec residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"is offer at any time. ¹⁶ The Purchase Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard ra\""
+      },
+      "needle": "is offer at any time. ¹⁶ The Purchase Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard ra"
+    },
+    {
+      "id": "8e1aa26ae425",
+      "value": "22.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% and a cash advance rate of 22.99% to 31.99% on all of these cards, set by its assessment of your application and your province; Quebec rates differ, and Neo's travel insurance is not available to Quebec residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"e Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is\""
+      },
+      "needle": "e Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is"
+    },
+    {
+      "id": "01de28927a26",
+      "value": "31.99%",
+      "context": "Neo prints a purchase rate of 19.99% to 29.99% and a cash advance rate of 22.99% to 31.99% on all of these cards, set by its assessment of your application and your province; Quebec rates differ, and Neo's travel insurance is not available to Quebec residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"t Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is depen\""
+      },
+      "needle": "t Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is depen"
+    },
+    {
+      "id": "eab9cc5be3ab",
+      "value": "November 16, 2026",
+      "context": "Yearly cash back after the annual fee, by Neo card and budget (our calculation from Neo's rates and limits, reviewed November 16, 2026; partner offers excluded)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "3eea8edc0a61",
+      "value": "$0",
+      "context": "Budget World Gas & Grocery ($0) World Shop & Dine ($0) World Everywhere ($0) World Elite Gas & Grocery ($149) World Elite Shop & Dine ($149) World Elite Everywhere ($149)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining.\""
+      },
+      "needle": "d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining."
+    },
+    {
+      "id": "49524bb0beb0",
+      "value": "$149",
+      "context": "Budget World Gas & Grocery ($0) World Shop & Dine ($0) World Everywhere ($0) World Elite Gas & Grocery ($149) World Elite Shop & Dine ($149) World Elite Everywhere ($149)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "1c8922990e11",
+      "value": "$1,500",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "d2f61578b46a",
+      "value": "$207",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b855c54b78c4",
+      "value": "$144",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "11ab1a908ea9",
+      "value": "$180",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "448b392283ce",
+      "value": "$295",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "ea8c40dee5b5",
+      "value": "$139",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "72e42edc0e16",
+      "value": "$211",
+      "context": "Lean ($1,500 a month) $207 $144 $180 $295 $139 $211",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "74f3a85a51c0",
+      "value": "$3,000",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "675e2d5f83a6",
+      "value": "$414",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "c41d84e48c18",
+      "value": "$288",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "3da17fb8b382",
+      "value": "$360",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "7e6c59de0dde",
+      "value": "$745",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "45ac615cee55",
+      "value": "$427",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "5d2403935221",
+      "value": "$571",
+      "context": "Typical ($3,000 a month) $414 $288 $360 $745 $427 $571",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "72d05c3b7306",
+      "value": "$5,000",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "c38409381110",
+      "value": "$642",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b38f5896bb28",
+      "value": "$480",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "4788a2ec8cd1",
+      "value": "$600",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b3de357ba410",
+      "value": "$1,207",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "52117d910e6a",
+      "value": "$883",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "e582a414c323",
+      "value": "$931",
+      "context": "High ($5,000 a month) $642 $480 $600 $1,207 $883 $931",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "bf34027d3e69",
+      "value": "$800",
+      "context": "Groceries, $800 a month at 5% $40.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: typical budget groceries"
+      }
+    },
+    {
+      "id": "c9130ca53a5c",
+      "value": "5%",
+      "context": "Groceries, $800 a month at 5% $40.00",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
+      },
+      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+    },
+    {
+      "id": "f07509b93a6e",
+      "value": "$40.00",
+      "context": "Groceries, $800 a month at 5% $40.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$800 x 5%"
+      }
+    },
+    {
+      "id": "c80a7f46a9e6",
+      "value": "$250",
+      "context": "Gas, $250 a month at 3% $7.50",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: typical budget gas"
+      }
+    },
+    {
+      "id": "2336edc23512",
+      "value": "3%",
+      "context": "Gas, $250 a month at 3% $7.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything els\""
+      },
+      "needle": "000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything els"
+    },
+    {
+      "id": "66bd20ba5c0a",
+      "value": "$7.50",
+      "context": "Gas, $250 a month at 3% $7.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$250 x 3%"
+      }
+    },
+    {
+      "id": "bc632aa44332",
+      "value": "$250",
+      "context": "Recurring bills, $250 a month at 4% $10.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration: typical budget recurring"
+      }
+    },
+    {
+      "id": "af5d86ed3a8e",
+      "value": "4%",
+      "context": "Recurring bills, $250 a month at 4% $10.00",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"imum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else Earn cashback on you\""
+      },
+      "needle": "imum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else Earn cashback on you"
+    },
+    {
+      "id": "38e387f1ada0",
+      "value": "$10.00",
+      "context": "Recurring bills, $250 a month at 4% $10.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$250 x 4%"
+      }
+    },
+    {
+      "id": "bee632c705d0",
+      "value": "$1,700",
+      "context": "Dining, shopping and everything else, $1,700 a month at 1% $17.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "dining $300 + shopping $300 + everything else $1,100 (typical budget)"
+      }
+    },
+    {
+      "id": "95f0af0459d6",
+      "value": "1%",
+      "context": "Dining, shopping and everything else, $1,700 a month at 1% $17.00",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr\""
+      },
+      "needle": "minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr"
+    },
+    {
+      "id": "c4d1799d8828",
+      "value": "$17.00",
+      "context": "Dining, shopping and everything else, $1,700 a month at 1% $17.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$1,700 x 1%"
+      }
+    },
+    {
+      "id": "63a4e565fbee",
+      "value": "$74.50",
+      "context": "Cash back per month $74.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$40 + $7.50 + $10 + $17 per month"
+      }
+    },
+    {
+      "id": "8cc4905966d9",
+      "value": "12",
+      "context": "Per year (&times; 12) $894",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "months in a year"
+      }
+    },
+    {
+      "id": "40d77873dab3",
+      "value": "$894",
+      "context": "Per year (&times; 12) $894",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "35739a8e0ec7",
+      "value": "$149",
+      "context": "After the $149 annual fee $745",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      },
+      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+    },
+    {
+      "id": "7a2b6c964586",
+      "value": "$745",
+      "context": "After the $149 annual fee $745",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "ab16a72ecd95",
+      "value": "$414",
+      "context": "The same budget earns $414 a year on the free World Gas & Grocery card, so the fee buys about $331 of extra cash back a year at this spending level.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "5b03e069d53f",
+      "value": "$331",
+      "context": "The same budget earns $414 a year on the free World Gas & Grocery card, so the fee buys about $331 of extra cash back a year at this spending level.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$745 net World Elite Gas & Grocery minus $414 World Gas & Grocery (typical budget)"
+      }
+    },
+    {
+      "id": "082babbda005",
+      "value": "$295",
+      "context": "Even our lean budget comes out ahead on the World Elite Gas & Grocery card ($295 after the fee, against $207 on the free version), because 5% on groceries does most of the work.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "05443ae5ee81",
+      "value": "$207",
+      "context": "Even our lean budget comes out ahead on the World Elite Gas & Grocery card ($295 after the fee, against $207 on the free version), because 5% on groceries does most of the work.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "63bcc8e6e7d0",
+      "value": "5%",
+      "context": "Even our lean budget comes out ahead on the World Elite Gas & Grocery card ($295 after the fee, against $207 on the free version), because 5% on groceries does most of the work.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
+      },
+      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+    },
+    {
+      "id": "121b9dab8be4",
+      "value": "2%",
+      "context": "Neo's Everywhere page says that at 2% you would need to spend roughly $625 a month, or $7,500 a year, to earn back the $149 fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
+      },
+      "needle": "spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7"
+    },
+    {
+      "id": "17e6ec9fb72d",
+      "value": "$625",
+      "context": "Neo's Everywhere page says that at 2% you would need to spend roughly $625 a month, or $7,500 a year, to earn back the $149 fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking\""
+      },
+      "needle": "pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking"
+    },
+    {
+      "id": "25259bdf91a7",
+      "value": "$7,500",
+      "context": "Neo's Everywhere page says that at 2% you would need to spend roughly $625 a month, or $7,500 a year, to earn back the $149 fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the a\""
+      },
+      "needle": "2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the a"
+    },
+    {
+      "id": "805d4f72736e",
+      "value": "$149",
+      "context": "Neo's Everywhere page says that at 2% you would need to spend roughly $625 a month, or $7,500 a year, to earn back the $149 fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the annual fee. Partner cash\""
+      },
+      "needle": "need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the annual fee. Partner cash"
+    },
+    {
+      "id": "c580d229329c",
+      "value": "1%",
+      "context": "The free World Everywhere card already pays 1% on the same spending, so the World Elite version only adds one extra percentage point.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "b76c368f6046",
+      "value": "$14,900",
+      "context": "On that comparison you need about $14,900 of yearly spending, or roughly $1,242 a month, before the paid card wins.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8a5136ea744f",
+      "value": "$1,242",
+      "context": "On that comparison you need about $14,900 of yearly spending, or roughly $1,242 a month, before the paid card wins.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$14,900 / 12 = $1,241.67"
+      }
+    },
+    {
+      "id": "403c5461b54c",
+      "value": "$4,000",
+      "context": "Did you know: above $4,000 of spending in a month, the World Elite Everywhere card drops to 1%, the same as the free Everywhere card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      },
+      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+    },
+    {
+      "id": "4e7216a9f1e5",
+      "value": "1%",
+      "context": "Did you know: above $4,000 of spending in a month, the World Elite Everywhere card drops to 1%, the same as the free Everywhere card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "4f11f8288ceb",
+      "value": "1%",
+      "context": "A household that puts every bill on one card can hit that limit, and the extra 1% only applies to the first $4,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      },
+      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+    },
+    {
+      "id": "44fd244c0ec7",
+      "value": "$4,000",
+      "context": "A household that puts every bill on one card can hit that limit, and the extra 1% only applies to the first $4,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      },
+      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+    },
+    {
+      "id": "cf9aee8137ea",
+      "value": "$1,000",
+      "context": "On the World cards, groceries and gas earn the bonus rate on the first $1,000 a month each, food and drink and shopping on the first $500 each, and recurring payments on the first $500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nd b) food and drink is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and $500\""
+      },
+      "needle": "nd b) food and drink is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and $500"
+    },
+    {
+      "id": "5735eb2a094b",
+      "value": "$500",
+      "context": "On the World cards, groceries and gas earn the bonus rate on the first $1,000 a month each, food and drink and shopping on the first $500 each, and recurring payments on the first $500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"h month. ⁹ Cashback earned on recurring payments subject to $500 monthly spend limit. Cashback is earned on the MCC categori\""
+      },
+      "needle": "h month. ⁹ Cashback earned on recurring payments subject to $500 monthly spend limit. Cashback is earned on the MCC categori"
+    },
+    {
+      "id": "531c6bb454fe",
+      "value": "0.5%",
+      "context": "Above a limit you drop to 0.5%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"e categories earns 1% with the Neo World Elite® Mastercard, 0.5% with the Neo World Mastercard®, and 0% with the Neo Masterc\""
+      },
+      "needle": "e categories earns 1% with the Neo World Elite® Mastercard, 0.5% with the Neo World Mastercard®, and 0% with the Neo Masterc"
+    },
+    {
+      "id": "3cd07eb9ce3b",
+      "value": "$1,000",
+      "context": "On the World Elite cards the limit is $1,000 per category ($500 for recurring payments) and the rate above it is 1%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N\""
+      },
+      "needle": "ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N"
+    },
+    {
+      "id": "34ac72c86c1f",
+      "value": "$500",
+      "context": "On the World Elite cards the limit is $1,000 per category ($500 for recurring payments) and the rate above it is 1%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"World Elite® Mastercard and the Neo World Mastercard®, and $500 with the Neo Mastercard. Cashback earned on recurring payme\""
+      },
+      "needle": "World Elite® Mastercard and the Neo World Mastercard®, and $500 with the Neo Mastercard. Cashback earned on recurring payme"
+    },
+    {
+      "id": "6df1d01508e3",
+      "value": "1%",
+      "context": "On the World Elite cards the limit is $1,000 per category ($500 for recurring payments) and the rate above it is 1%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
+      },
+      "needle": "t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste"
+    },
+    {
+      "id": "86468447c33c",
+      "value": "$49",
+      "context": "Additional cards are free on the World card and cost $49 a year each on the World Elite card, and their cashback goes to the account owner.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rcard or additional Neo World Mastercard. An annual fee of $49 will be charged for each additional Neo World Elite Masterc\""
+      },
+      "needle": "rcard or additional Neo World Mastercard. An annual fee of $49 will be charged for each additional Neo World Elite Masterc"
+    },
+    {
+      "id": "4b986fb585ab",
+      "value": "15%",
+      "context": "Neo advertises up to 15% at partners, but says cashback \"may be limited and varies by perks, offer, and partner.\" Treat partner cashback as a bonus on top of the table above, not as a reason to pick a card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"here Cashback on everything 1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Maste\""
+      },
+      "needle": "here Cashback on everything 1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Maste"
+    },
+    {
+      "id": "7be5777f85c9",
+      "value": "19.99%",
+      "context": "At Neo's lowest printed purchase rate of 19.99%, a $1,000 balance carried for a year costs roughly $200 in interest, more than the lean budget earns on any free Neo card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"Available with secured credit Purchase Rate⁴ 19.99%–29.99% 19.99%–29.99% Cash Advance Rate⁴ 22.99%–31.99% 22.99%–31.99% Appl\""
+      },
+      "needle": "Available with secured credit Purchase Rate⁴ 19.99%–29.99% 19.99%–29.99% Cash Advance Rate⁴ 22.99%–31.99% 22.99%–31.99% Appl"
+    },
+    {
+      "id": "05ff7bf43e84",
+      "value": "$1,000",
+      "context": "At Neo's lowest printed purchase rate of 19.99%, a $1,000 balance carried for a year costs roughly $200 in interest, more than the lean budget earns on any free Neo card.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration carried balance"
+      }
+    },
+    {
+      "id": "be41b79ee6de",
+      "value": "$200",
+      "context": "At Neo's lowest printed purchase rate of 19.99%, a $1,000 balance carried for a year costs roughly $200 in interest, more than the lean budget earns on any free Neo card.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$1,000 x 19.99% for a year, rounded"
+      }
+    },
+    {
+      "id": "1f52a84dabdf",
+      "value": "$10,000",
+      "context": "Neo says you will be offered either a traditional card with a limit of up to $10,000 or a card with a secured limit, depending on your credit history.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"et an offer for a Neo Mastercard with a credit limit up to $10,000. Card with secured credit limit If you're starting out or r\""
+      },
+      "needle": "et an offer for a Neo Mastercard with a credit limit up to $10,000. Card with secured credit limit If you're starting out or r"
+    },
+    {
+      "id": "538580db87df",
+      "value": "$50,",
+      "context": "The secured version needs refundable security funds, from a minimum of $50, and the Build membership at $9.99 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
+      },
+      "needle": "The minimum amount of security funds to get started is $50."
+    },
+    {
+      "id": "be42615889c3",
+      "value": "$9.99",
+      "context": "The secured version needs refundable security funds, from a minimum of $50, and the Build membership at $9.99 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    },
+    {
+      "id": "0831927bf7d0",
+      "value": "$119.88",
+      "context": "That membership is about $119.88 a year, so check what you would pay elsewhere.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$9.99 Neo Build monthly fee x 12"
+      }
+    },
+    {
+      "id": "df73406f223d",
+      "value": "$50,000",
+      "context": "Check the income rule first: $50,000 personal or $80,000 household for the World card, $80,000 or $150,000 for World Elite.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      },
+      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+    },
+    {
+      "id": "6c8c6b1bda30",
+      "value": "$80,000",
+      "context": "Check the income rule first: $50,000 personal or $80,000 household for the World card, $80,000 or $150,000 for World Elite.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+    },
+    {
+      "id": "c293ffc28142",
+      "value": "$150,000",
+      "context": "Check the income rule first: $50,000 personal or $80,000 household for the World card, $80,000 or $150,000 for World Elite.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
+      },
+      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+    },
+    {
+      "id": "39e22826f5a7",
+      "value": "$149",
+      "context": "Run the numbers for the free and the $149 version of the best-matching card, and subtract the fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"travel insurance² Rewards type Premium Cashback Annual fee $149 Groceries¹ 5% Recurring bill payments¹ 4% Gas and EV chargi\""
+      },
+      "needle": "travel insurance² Rewards type Premium Cashback Annual fee $149 Groceries¹ 5% Recurring bill payments¹ 4% Gas and EV chargi"
+    },
+    {
+      "id": "486e302e76f5",
+      "value": "November 16, 2026",
+      "context": "Neo picks by situation (our reading of Neo's pages, reviewed November 16, 2026; no affiliate links)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "ef4c3c3b6cb0",
+      "value": "$80,000",
+      "context": "Earn $80,000+ (or $150,000 household) and spend mostly on groceries, gas and bills Neo World Elite, Gas & Grocery Highest net value on all three of our budgets: $295, $745 and $1,207 a year Groceries, gas and bills are a small share of your spending, or you will not pay a fee Our best grocery credit cards list",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Grocery¹ 2% Gas & EV charging¹ 2% Recurring payment\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Grocery¹ 2% Gas & EV charging¹ 2% Recurring payment"
+    },
+    {
+      "id": "ca1ff90f8447",
+      "value": "$150,000",
+      "context": "Earn $80,000+ (or $150,000 household) and spend mostly on groceries, gas and bills Neo World Elite, Gas & Grocery Highest net value on all three of our budgets: $295, $745 and $1,207 a year Groceries, gas and bills are a small share of your spending, or you will not pay a fee Our best grocery credit cards list",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
+      "sourceName": "Neo Financial: Gas & Grocery credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payment\""
+      },
+      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payment"
+    },
+    {
+      "id": "b85e5fbb946b",
+      "value": "$295,",
+      "context": "Earn $80,000+ (or $150,000 household) and spend mostly on groceries, gas and bills Neo World Elite, Gas & Grocery Highest net value on all three of our budgets: $295, $745 and $1,207 a year Groceries, gas and bills are a small share of your spending, or you will not pay a fee Our best grocery credit cards list",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "4d9d81384049",
+      "value": "$745",
+      "context": "Earn $80,000+ (or $150,000 household) and spend mostly on groceries, gas and bills Neo World Elite, Gas & Grocery Highest net value on all three of our budgets: $295, $745 and $1,207 a year Groceries, gas and bills are a small share of your spending, or you will not pay a fee Our best grocery credit cards list",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "a6c0bb0fcfbf",
+      "value": "$1,207",
+      "context": "Earn $80,000+ (or $150,000 household) and spend mostly on groceries, gas and bills Neo World Elite, Gas & Grocery Highest net value on all three of our budgets: $295, $745 and $1,207 a year Groceries, gas and bills are a small share of your spending, or you will not pay a fee Our best grocery credit cards list",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "1bee3004375c",
+      "value": "$50,000",
+      "context": "Earn $50,000+ (or $80,000 household) and want no annual fee Neo World, Gas & Grocery Best free version on our budgets: $207 to $642 a year You spend mostly on dining and retail (look at Shop & Dine) Our best cash back credit cards list",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹\""
+      },
+      "needle": "ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹"
+    },
+    {
+      "id": "18bbc1495dda",
+      "value": "$80,000",
+      "context": "Earn $50,000+ (or $80,000 household) and want no annual fee Neo World, Gas & Grocery Best free version on our budgets: $207 to $642 a year You spend mostly on dining and retail (look at Shop & Dine) Our best cash back credit cards list",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
+      "sourceName": "Neo Financial: Shop & Dine credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+    },
+    {
+      "id": "4fa8b5967500",
+      "value": "$207",
+      "context": "Earn $50,000+ (or $80,000 household) and want no annual fee Neo World, Gas & Grocery Best free version on our budgets: $207 to $642 a year You spend mostly on dining and retail (look at Shop & Dine) Our best cash back credit cards list",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "9977d1262fee",
+      "value": "$642",
+      "context": "Earn $50,000+ (or $80,000 household) and want no annual fee Neo World, Gas & Grocery Best free version on our budgets: $207 to $642 a year You spend mostly on dining and retail (look at Shop & Dine) Our best cash back credit cards list",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "e06ad6b17285",
+      "value": "$50",
+      "context": "Have thin or damaged credit, or no income minimum Neo Mastercard Reports to Equifax and TransUnion; secured option from $50 in security funds You can qualify for a regular no-fee card, or the $9.99 monthly membership is a strain Our KOHO review for a credit-building add-on",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
+      },
+      "needle": "The minimum amount of security funds to get started is $50."
+    },
+    {
+      "id": "fbf03d5686bb",
+      "value": "$9.99",
+      "context": "Have thin or damaged credit, or no income minimum Neo Mastercard Reports to Equifax and TransUnion; secured option from $50 in security funds You can qualify for a regular no-fee card, or the $9.99 monthly membership is a strain Our KOHO review for a credit-building add-on",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    },
+    {
+      "id": "fab9c293ed43",
+      "value": "$745",
+      "context": "On our typical budget the World Elite Gas & Grocery card returns about $745 a year after its fee, using Neo's November 2026 rates.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "40854886ae67",
+      "value": "$149",
+      "context": "The Neo World Elite Mastercard costs $149 a year, and additional World Elite cards cost $49 each.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extende\""
+      },
+      "needle": "1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extende"
+    },
+    {
+      "id": "808e12005fb1",
+      "value": "$49",
+      "context": "The Neo World Elite Mastercard costs $149 a year, and additional World Elite cards cost $49 each.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"p to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extended Warranty & Purchase Pro\""
+      },
+      "needle": "p to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extended Warranty & Purchase Pro"
+    },
+    {
+      "id": "1331b02b1fe9",
+      "value": "$50,000",
+      "context": "Neo asks for $50,000 personal or $80,000 household income for the World card, and $80,000 personal or $150,000 household for the World Elite card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      },
+      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+    },
+    {
+      "id": "e50de29b324f",
+      "value": "$80,000",
+      "context": "Neo asks for $50,000 personal or $80,000 household income for the World card, and $80,000 personal or $150,000 household for the World Elite card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      },
+      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+    },
+    {
+      "id": "586e5e8db302",
+      "value": "$150,000",
+      "context": "Neo asks for $50,000 personal or $80,000 household income for the World card, and $80,000 personal or $150,000 household for the World Elite card.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
+      },
+      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+    },
+    {
+      "id": "6d732b474bc4",
+      "value": "$500",
+      "context": "Bonus categories have monthly spending limits of $500 or $1,000, and the World Elite Everywhere card earns 2% only on the first $4,000 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards",
+      "sourceName": "Neo Financial: Compare Neo credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
+      },
+      "needle": "astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh"
+    },
+    {
+      "id": "aa25b9bdfd6f",
+      "value": "$1,000,",
+      "context": "Bonus categories have monthly spending limits of $500 or $1,000, and the World Elite Everywhere card earns 2% only on the first $4,000 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N\""
+      },
+      "needle": "ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N"
+    },
+    {
+      "id": "177221ba661d",
+      "value": "2%",
+      "context": "Bonus categories have monthly spending limits of $500 or $1,000, and the World Elite Everywhere card earns 2% only on the first $4,000 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
+      },
+      "needle": "spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7"
+    },
+    {
+      "id": "fa8b54c405c7",
+      "value": "$4,000",
+      "context": "Bonus categories have monthly spending limits of $500 or $1,000, and the World Elite Everywhere card earns 2% only on the first $4,000 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      },
+      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+    },
+    {
+      "id": "35088c28a021",
+      "value": "0.5%",
+      "context": "Above a limit the rate drops to 0.5% or 1%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Mastercard. Spend limit resets monthly. Any r\""
+      },
+      "needle": "payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Mastercard. Spend limit resets monthly. Any r"
+    },
+    {
+      "id": "020b8384e898",
+      "value": "1%",
+      "context": "Above a limit the rate drops to 0.5% or 1%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
+      "sourceName": "Neo Financial: Everywhere credit cards",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
+      },
+      "needle": "t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste"
+    },
+    {
+      "id": "c5a802157ca6",
+      "value": "$50",
+      "context": "It needs at least $50 in security funds and the $9.99-a-month Build membership, so compare its yearly cost with other credit-building options.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
+      },
+      "needle": "The minimum amount of security funds to get started is $50."
+    },
+    {
+      "id": "d1f6e10a3a67",
+      "value": "$9.99",
+      "context": "It needs at least $50 in security funds and the $9.99-a-month Build membership, so compare its yearly cost with other credit-building options.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    }
+  ]
+}

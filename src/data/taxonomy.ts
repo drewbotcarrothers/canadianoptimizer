@@ -710,7 +710,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you travel more than a couple of times a year, compare against the travel rewards hub before you apply.",
     ],
     decisions: ["Which cash back card pays most on my budget?", "Is an annual fee worth it at my spending?", "Which card works at Costco and grocery stores?", "Should I use one card or two?"],
-    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada", "cash-back-vs-travel-rewards-credit-card-canada", "amex-simplycash-preferred-review"],
+    startHere: ["best-cash-back-credit-cards-canada", "best-grocery-credit-cards-canada", "best-credit-card-for-costco-canada", "cash-back-vs-travel-rewards-credit-card-canada", "amex-simplycash-preferred-review", "neo-credit-card-review"],
   },
   "credit-cards/travel-points": {
     intro: [
@@ -827,7 +827,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Deposit insurance rules are covered in the banking hub.",
     ],
     decisions: ["Where should my emergency fund sit?", "High-interest savings account or GIC?", "How do I build a GIC ladder?", "Cash ETF or savings account?"],
-    startHere: ["canadian-cash-management-guide", "best-high-interest-savings-accounts-canada", "gic-ladder-canada", "hisa-vs-cash-etf-canada", "cash-vs-psa-vs-cbil-hisa-etf"],
+    startHere: ["canadian-cash-management-guide", "best-high-interest-savings-accounts-canada", "gic-ladder-canada", "hisa-vs-cash-etf-canada", "cash-vs-psa-vs-cbil-hisa-etf", "gic-vs-hisa-canada", "eq-bank-review"],
   },
   "budgeting-saving/banking": {
     intro: [
@@ -836,7 +836,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "For savings rather than spending money, see the savings accounts and GICs hub.",
     ],
     decisions: ["Which chequing account has no fees for me?", "Is my money covered by CDIC?", "Online bank or big bank?", "How do I protect more than the coverage limit?"],
-    startHere: ["best-no-fee-chequing-account-canada", "cdic-coverage-explained-canada"],
+    startHere: ["best-no-fee-chequing-account-canada", "cdic-coverage-explained-canada", "koho-review"],
   },
   "budgeting-saving/debt-payoff": {
     intro: [

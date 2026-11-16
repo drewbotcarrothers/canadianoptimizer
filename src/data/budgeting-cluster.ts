@@ -180,6 +180,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.purposeinvest.com/funds/purpose-high-interest-savings-fund">Purpose: High Interest Savings Fund (PSA)</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a></p>
+
     <div class="cta-section">
         <p><strong>The rate is a quote. The tax on the interest is a return.</strong></p>
         <p>Marginal rates decide what a taxable HISA actually pays you. The 2026 tax guide is that half of the comparison.</p>
@@ -357,6 +359,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.tangerine.ca/en/rates">Tangerine: rates</a> (special-offer boost copy visible; base rate not readable in static fetch on 5 November 2026)</li>
         <li><a href="https://www.simplii.com/en/rates.html">Simplii Financial: interest rates</a> (no readable savings percentage in static fetch on 5 November 2026)</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a> &middot; <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a></p>
 
     <div class="cta-section">
         <p><strong>A posted rate is not an after-tax rate.</strong></p>
@@ -679,6 +683,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.cdic.ca/what-happens-in-a-failure/resolution-of-small-and-medium-size-banks/reimbursement-of-insured-deposits/for-depositors/">CDIC: for depositors</a>, including what happens to a GIC if a member fails</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a></p>
+
     <div class="cta-section">
         <p><strong>The contract rate is guaranteed. The tax on a non-registered GIC is not optional.</strong></p>
         <p>A T5 changes the after-tax yield. The 2026 tax guide is how interest is reported.</p>
@@ -810,6 +816,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.eqbank.ca/personal-banking/personal-account">EQ Bank: Personal Account</a>, including the CDIC aggregation answer</li>
         <li><a href="https://www.wealthsimple.com/en-ca/chequing">Wealthsimple: chequing</a>, including the trust-coverage description</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a> &middot; <a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a> &middot; <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
 
     <div class="cta-section">
         <p><strong>Coverage is a category. The tax on the interest is a different file.</strong></p>
@@ -965,6 +973,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.wealthsimple.com/en-ca/chequing">Wealthsimple: chequing</a></li>
         <li><a href="https://www.tangerine.ca/en/rates/">Tangerine: rates index</a>, which describes a no-monthly-fee chequing account without a readable interest figure in this fetch</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a> &middot; <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a></p>
 
     <div class="cta-section">
         <p><strong>A $0 fee is not a savings plan.</strong></p>

@@ -1,0 +1,1660 @@
+{
+  "slug": "gic-vs-hisa-canada",
+  "publishDate": "2026-11-19",
+  "figures": [
+    {
+      "id": "9a40fa31346e",
+      "value": "November 16, 2026",
+      "context": "This comparison, part of our savings accounts, GICs and cash hub , puts after-tax numbers on it with rates read on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "3218cfdbef4e",
+      "value": "3.70%",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
+      },
+      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+    },
+    {
+      "id": "969cc4a3c407",
+      "value": "4.30%",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      },
+      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+    },
+    {
+      "id": "34c4e76d5a2d",
+      "value": "1.50%",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi\""
+      },
+      "needle": "Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi"
+    },
+    {
+      "id": "35bde8e8173f",
+      "value": "3.00%",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible a\""
+      },
+      "needle": "Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible a"
+    },
+    {
+      "id": "36cd4912b16f",
+      "value": "$20,000",
+      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "55f16dc6f338",
+      "value": "4.15%",
+      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
+      },
+      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+    },
+    {
+      "id": "8717bc0b00ac",
+      "value": "$2,595",
+      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "c75e640bbf0d",
+      "value": "$914",
+      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "27b07e0de557",
+      "value": "1.50%",
+      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "587e08a843f5",
+      "value": "$100,000",
+      "context": "GICs and savings deposits at a CDIC member are covered up to $100,000 per insured category, including interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
+      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      },
+      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+    },
+    {
+      "id": "65b8f99d5cb3",
+      "value": "November 6, 2026",
+      "context": "We read EQ Bank's rates page (rates effective November 6, 2026) for GIC and savings rates, RBC's posted personal account rates for a big-bank savings comparison, the CRA's line 12100 page for how interest is taxed, and CDIC's coverage page, all on November 16, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+      },
+      "needle": "hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra"
+    },
+    {
+      "id": "fe9ffd20849b",
+      "value": "November 16, 2026",
+      "context": "We read EQ Bank's rates page (rates effective November 6, 2026) for GIC and savings rates, RBC's posted personal account rates for a big-bank savings comparison, the CRA's line 12100 page for how interest is taxed, and CDIC's coverage page, all on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "5251ac980512",
+      "value": "$20,000",
+      "context": "We then put an illustrative $20,000 into each option for one, three and five years, and applied two example marginal tax rates, 30% and 45%, to the interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "d62ee119fa8c",
+      "value": "30%",
+      "context": "We then put an illustrative $20,000 into each option for one, three and five years, and applied two example marginal tax rates, 30% and 45%, to the interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "1bf85a5cb95d",
+      "value": "45%",
+      "context": "We then put an illustrative $20,000 into each option for one, three and five years, and applied two example marginal tax rates, 30% and 45%, to the interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "081b84634df0",
+      "value": "November 16, 2026",
+      "context": "GIC vs HISA at a glance (EQ Bank, RBC, CRA and CDIC pages, reviewed November 16, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "2de661239d48",
+      "value": "3.70%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
+      },
+      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+    },
+    {
+      "id": "52255bd3d382",
+      "value": "4.30%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      },
+      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+    },
+    {
+      "id": "685cd60590b5",
+      "value": "1.50%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi\""
+      },
+      "needle": "Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi"
+    },
+    {
+      "id": "4e63451aa6fe",
+      "value": "3.00%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
+      },
+      "needle": "han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered"
+    },
+    {
+      "id": "977baee7cec0",
+      "value": "0.650%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
+      "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
+      },
+      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+    },
+    {
+      "id": "3fa6c764ebe7",
+      "value": "10",
+      "context": "Access At maturity; EQ's GICs are non-redeemable Any time (notice accounts: after 10 or 30 days)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
+      "sourceName": "EQ Bank: Notice Savings Account",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"the notice period you selected when the account was opened (10 days or 30 days) is completed. After 10 or 30 days (on 11th\""
+      },
+      "needle": "the notice period you selected when the account was opened (10 days or 30 days) is completed. After 10 or 30 days (on 11th"
+    },
+    {
+      "id": "41c78b53b47a",
+      "value": "30",
+      "context": "Access At maturity; EQ's GICs are non-redeemable Any time (notice accounts: after 10 or 30 days)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
+      "sourceName": "EQ Bank: Notice Savings Account",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
+      },
+      "needle": "30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor"
+    },
+    {
+      "id": "e85f337b48c8",
+      "value": "2.70%",
+      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 y\""
+      },
+      "needle": "m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 y"
+    },
+    {
+      "id": "72c512bdd9b5",
+      "value": "3.00%",
+      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
+      },
+      "needle": "han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered"
+    },
+    {
+      "id": "a8d089a98f54",
+      "value": "3.30%",
+      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered GICs TFSA Te\""
+      },
+      "needle": "n-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered GICs TFSA Te"
+    },
+    {
+      "id": "26da4f8e453d",
+      "value": "3.00%",
+      "context": "A six-month GIC at 3.00% pays the same rate as EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you the rate without the lock.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
+      },
+      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+    },
+    {
+      "id": "314c90e5e7c1",
+      "value": "30",
+      "context": "A six-month GIC at 3.00% pays the same rate as EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you the rate without the lock.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
+      },
+      "needle": "roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi"
+    },
+    {
+      "id": "7905d29400b9",
+      "value": "$20,000",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "561ee79ca588",
+      "value": "30%",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "ac4086d78a82",
+      "value": "45%",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "12671d0970a5",
+      "value": "November 16, 2026",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "da5bcb0b3383",
+      "value": "30%",
+      "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "a8fd055a6f65",
+      "value": "1.50%",
+      "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "f9cc94da3972",
+      "value": "3.00%",
+      "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
+      },
+      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+    },
+    {
+      "id": "fb5c2a8b934b",
+      "value": "45%",
+      "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "67481b041c6f",
+      "value": "3.70%",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
+      },
+      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+    },
+    {
+      "id": "689daca7a07d",
+      "value": "$518",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "5c684b788b5e",
+      "value": "$210",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "e02e44da111e",
+      "value": "$420",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "0c7a771d14c4",
+      "value": "$407",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "1b72182f98a9",
+      "value": "$165",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8c1c00337fb6",
+      "value": "$330",
+      "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "12cb52b603d8",
+      "value": "4.15%",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
+      },
+      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+    },
+    {
+      "id": "f319bbbf5001",
+      "value": "$1,816",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "68a219dac433",
+      "value": "$640",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "20a25bd4f4e5",
+      "value": "$1,298",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "514ab4a4efd5",
+      "value": "$1,427",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "d69c5ff8a8cc",
+      "value": "$502",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8d76d225594a",
+      "value": "$1,020",
+      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "a75109862060",
+      "value": "4.30%",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      },
+      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+    },
+    {
+      "id": "ea918c1e4a96",
+      "value": "$3,280",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "fb873100c40a",
+      "value": "$1,082",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "4c175cd73fae",
+      "value": "$2,230",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "6edf28b5a7f5",
+      "value": "$2,577",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "56776cf9be8a",
+      "value": "$850",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "adb2ed9fd4f0",
+      "value": "$1,752",
+      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "043e8ef2d5bc",
+      "value": "$20,000",
+      "context": "Example: $20,000 for a down payment in three years (illustration)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "6c44fb9f1f1b",
+      "value": "4.15%",
+      "context": "EQ 3-year GIC at 4.15%, compounded yearly $2,595",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
+      },
+      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+    },
+    {
+      "id": "075738a8529c",
+      "value": "$2,595",
+      "context": "EQ 3-year GIC at 4.15%, compounded yearly $2,595",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "fc6279958bc6",
+      "value": "3.00%",
+      "context": "EQ savings at 3.00% held flat, compounded yearly $1,855",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
+      },
+      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+    },
+    {
+      "id": "2a53a18b67d3",
+      "value": "$1,855",
+      "context": "EQ savings at 3.00% held flat, compounded yearly $1,855",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "6b1c50323d40",
+      "value": "1.50%",
+      "context": "EQ savings at 1.50% held flat $914",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "c37ab4226e29",
+      "value": "$914",
+      "context": "EQ savings at 1.50% held flat $914",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "794b5a635e67",
+      "value": "0.650%",
+      "context": "RBC High Interest eSavings at 0.650% held flat $393",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
+      "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
+      },
+      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+    },
+    {
+      "id": "c9a68d668084",
+      "value": "$393",
+      "context": "RBC High Interest eSavings at 0.650% held flat $393",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "81821fb567d8",
+      "value": "1.50%",
+      "context": "GIC advantage over 1.50% savings, before tax $1,681",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "1d1a5fc191a9",
+      "value": "$1,681",
+      "context": "GIC advantage over 1.50% savings, before tax $1,681",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "3-year GIC interest $2,594.76 minus 1.50% savings interest $913.57"
+      }
+    },
+    {
+      "id": "808cfe2fe718",
+      "value": "30%",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "3f8572579020",
+      "value": "$1,816",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "bea581f9a932",
+      "value": "$1,298",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "59d62317ea5f",
+      "value": "3.00%",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
+      "sourceName": "EQ Bank: Notice Savings Account",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accoun\""
+      },
+      "needle": "withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accoun"
+    },
+    {
+      "id": "9bd0d2e5641c",
+      "value": "$640",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "a514b0c354fc",
+      "value": "1.50%",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "eca7c9425d9a",
+      "value": "90",
+      "context": "RBC's savings page advertises a bonus rate for 90 days on a new High Interest eSavings account, after which balances earn the posted regular rate, which was 0.650% on November 16, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/bank-accounts/savings-accounts/",
+      "sourceName": "RBC Royal Bank: Savings accounts",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_sav, fetched 2026-11-16): \"eposits made in the Eligible eSavings Account for 3 months (90 days) from the date the Eligible eSavings Account was opene\""
+      },
+      "needle": "eposits made in the Eligible eSavings Account for 3 months (90 days) from the date the Eligible eSavings Account was opene"
+    },
+    {
+      "id": "c7996d020656",
+      "value": "0.650%",
+      "context": "RBC's savings page advertises a bonus rate for 90 days on a new High Interest eSavings account, after which balances earn the posted regular rate, which was 0.650% on November 16, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
+      "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
+      },
+      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+    },
+    {
+      "id": "ef93a893f637",
+      "value": "November 16, 2026",
+      "context": "RBC's savings page advertises a bonus rate for 90 days on a new High Interest eSavings account, after which balances earn the posted regular rate, which was 0.650% on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "1def755a3df8",
+      "value": "$830",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "bc60dd9ce02c",
+      "value": "$20,000",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "22a58b8de89a",
+      "value": "4.15%",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
+      },
+      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+    },
+    {
+      "id": "ea71f0aa43e3",
+      "value": "$50",
+      "context": "The CRA also says you must report interest even if you did not receive a T5 slip, which banks may not issue for amounts under $50.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12100-interest-other-investment-income.html",
+      "sourceName": "Canada Revenue Agency: Line 12100, Interest and other investment income",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cra_12100, fetched 2026-11-16): \"tion slip. You may not receive a T5 slip for amounts under $50. If you hold a joint bank account, generally you report you\""
+      },
+      "needle": "tion slip. You may not receive a T5 slip for amounts under $50. If you hold a joint bank account, generally you report you"
+    },
+    {
+      "id": "eb7001be7ecd",
+      "value": "1.75%",
+      "context": "EQ Bank shows the same GIC rates for TFSA, RRSP and FHSA GICs as for non-registered ones, and pays 1.75% on its TFSA, FHSA and RRSP cash savings accounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Savings Account 1.75%* Learn more RRSP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investment\""
+      },
+      "needle": "Savings Account 1.75%* Learn more RRSP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investment"
+    },
+    {
+      "id": "3bdf9c50daaf",
+      "value": "$100,000,",
+      "context": "CDIC lists GICs and deposits as eligible, and insures each category (deposits in one name, joint deposits, TFSA, RRSP, RRIF, FHSA and others) separately up to $100,000, including principal and interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
+      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      },
+      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+    },
+    {
+      "id": "bd08834608c0",
+      "value": "$100,000",
+      "context": "Include the interest when you add up a category: a GIC that grows past $100,000 by maturity is only covered up to the limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
+      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      },
+      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+    },
+    {
+      "id": "455975227656",
+      "value": "$100,000",
+      "context": "Check CDIC limits per category, and split across banks above $100,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
+      "sourceName": "EQ Bank: Personal Account",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_pa, fetched 2026-11-16): \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
+      },
+      "needle": "ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's"
+    },
+    {
+      "id": "326330055588",
+      "value": "November 16, 2026",
+      "context": "GIC or HISA picks by situation (our calculation and reading of EQ Bank, RBC, CRA and CDIC pages, reviewed November 16, 2026; no affiliate links)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "d4865819eeae",
+      "value": "1.50%",
+      "context": "An emergency fund High-interest savings account Withdraw any time; at EQ 1.50%, or 3.00% with direct deposits You keep far more than three to six months of spending in cash Our EQ Bank review",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
+      },
+      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+    },
+    {
+      "id": "fb4b987ab9d2",
+      "value": "3.00%",
+      "context": "An emergency fund High-interest savings account Withdraw any time; at EQ 1.50%, or 3.00% with direct deposits You keep far more than three to six months of spending in cash Our EQ Bank review",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
+      "sourceName": "EQ Bank: Personal Account",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_pa, fetched 2026-11-16): \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2,\""
+      },
+      "needle": "osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2,"
+    },
+    {
+      "id": "b0d2122e9a2c",
+      "value": "$1,816",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "1a2ea4216f68",
+      "value": "30%",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "e593260e3993",
+      "value": "$20,000",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "86a5108f4fab",
+      "value": "3.70%",
+      "context": "For money with a fixed date, usually yes: EQ Bank's one-year GIC paid 3.70% against 1.50% on its savings account as of November 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
+      },
+      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+    },
+    {
+      "id": "4e6f622a5efa",
+      "value": "1.50%",
+      "context": "For money with a fixed date, usually yes: EQ Bank's one-year GIC paid 3.70% against 1.50% on its savings account as of November 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+      },
+      "needle": "ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**"
+    },
+    {
+      "id": "a43093b4bd28",
+      "value": "$100,000",
+      "context": "CDIC covers GICs up to $100,000 per insured category, including interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
+      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      },
+      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+    },
+    {
+      "id": "e0b311c43f03",
+      "value": "$100,000",
+      "context": "Yes, at CDIC member institutions, up to $100,000 per insured category, per institution, including principal and interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
+      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      },
+      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+    }
+  ]
+}

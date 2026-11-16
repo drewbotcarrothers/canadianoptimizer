@@ -1,0 +1,19 @@
+{
+  "slug": "koho-review",
+  "title": "KOHO Review: Fees, Interest and Credit Building",
+  "family": "review",
+  "category": "budgeting-saving",
+  "subcategory": "banking",
+  "targetQuery": "koho review",
+  "secondaryQueries": [
+    "koho fees",
+    "koho interest rate",
+    "koho credit building review"
+  ],
+  "infoGain": "Break-even balance table showing how much you must keep in KOHO for each paid plan's extra interest to cover its fee (monthly vs yearly billing), plus net-yearly examples per plan.",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-19",
+  "agentChecks": null
+}

@@ -963,7 +963,7 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.americanexpress.com/en-ca/benefits/simplycash-card/">SimplyCash from American Express</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
 
     ${footer('September 27, 2026')}
 
@@ -1105,6 +1105,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.bmo.com/main/personal/credit-cards/bmo-cashback-mastercard/">BMO CashBack Mastercard</a></li>
         <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html">Scotiabank Gold American Express</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
 
     ${footer('September 27, 2026')}
 

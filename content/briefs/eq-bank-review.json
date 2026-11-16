@@ -1,0 +1,19 @@
+{
+  "slug": "eq-bank-review",
+  "title": "EQ Bank Review: Personal Account, GICs and Transfers",
+  "family": "review",
+  "category": "budgeting-saving",
+  "subcategory": "savings-gics-cash",
+  "targetQuery": "eq bank review",
+  "secondaryQueries": [
+    "eq bank personal account interest rate",
+    "eq bank gic rates",
+    "eq bank transfer limits"
+  ],
+  "infoGain": "Dated $10,000 one-year table: EQ base rate, direct-deposit rate and 30 Day Notice account vs RBC's posted High Interest eSavings rate, plus a consolidated table of EQ's transfer limits from its FAQs.",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-19",
+  "agentChecks": null
+}
