@@ -61,8 +61,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "value at death and successor-holder growth are not taxed (CRA successor holder page) | recomputed 0.00 from 0"
       },
       "formula": "0"
@@ -94,8 +94,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "successor-holder growth not taxed (CRA successor holder page) | recomputed 0.00 from 0"
       },
       "formula": "0"
@@ -127,8 +127,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "rollover period ends at end of the calendar year after a March 2026 death (CRA definitions) | recomputed December 31, 2027"
       },
       "formula": "RULE"
@@ -192,8 +192,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
       }
     },
@@ -208,8 +208,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"The TFSA dollar limit for 2026 is $7,000\""
       }
     },
@@ -224,8 +224,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"1% per month\""
       }
     },
@@ -240,8 +240,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"box 134\""
       }
     },
@@ -256,8 +256,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"no later than December 31 of the year following the year of death\""
       }
     },
@@ -272,8 +272,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"within 30 days\""
       }
     },
@@ -288,8 +288,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"Starting on January 1, 2026\""
       }
     },
@@ -304,8 +304,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"within 30 days\""
       }
     },
@@ -320,8 +320,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"within 36 months\""
       }
     },
@@ -336,8 +336,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"within 30 days\""
       }
     },
@@ -352,8 +352,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"no later than December 31 of the year following the year of death\""
       }
     },
@@ -368,8 +368,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"box 134\""
       }
     },
@@ -384,8 +384,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"no later than December 31 of the year following the year of death\""
       }
     },
@@ -400,8 +400,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"within 30 days\""
       }
     }

@@ -13,8 +13,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"inclusion rate for 2025 is 50%\""
       }
     },
@@ -29,8 +29,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "page prints: \"March 21, 2025\""
       }
     },
@@ -109,8 +109,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "gain = value 200,000 - cost 120,000 | recomputed 80,000.00 from 200000-120000"
       },
       "formula": "200000-120000"
@@ -126,8 +126,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "taxable half at the 50% inclusion rate (caploss) | recomputed 40,000.00 from (200000-120000)*0.5"
       },
       "formula": "(200000-120000)*0.5"
@@ -159,8 +159,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "principal residence designated every year: gain exempt (CRA capital gains at death page) | recomputed 0.00 from 0"
       },
       "formula": "0"
@@ -192,8 +192,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "TFSA adds nothing to the final return (CRA TFSA deceased page) | recomputed 0.00 from 0"
       },
       "formula": "0"
@@ -209,8 +209,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
       },
       "formula": "30000+300000+(200000-120000)*0.5"
@@ -226,8 +226,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
       },
       "formula": "30000+300000+(200000-120000)*0.5"
@@ -243,8 +243,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "2026 federal brackets from CRA rates page applied to 370,000 | recomputed 96,076.05 from FED(370000)"
       },
       "formula": "FED(370000)"
@@ -260,8 +260,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "2026 Ontario brackets from CRA rates page applied to 370,000 | recomputed 40,615.99 from ON(370000)"
       },
       "formula": "ON(370000)"
@@ -277,8 +277,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "sum of federal and Ontario bracket tax | recomputed 136,692.04 from FED(370000)+ON(370000)"
       },
       "formula": "FED(370000)+ON(370000)"
@@ -294,8 +294,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "sum of example assets | recomputed 1,345,000.00 from 750000+300000+200000+95000"
       },
       "formula": "750000+300000+200000+95000"
@@ -327,8 +327,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
       },
       "formula": "30000+300000+(200000-120000)*0.5"
@@ -344,8 +344,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "taxable half | recomputed 40,000.00 from (200000-120000)*0.5"
       },
       "formula": "(200000-120000)*0.5"
@@ -361,8 +361,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "income on final return | recomputed 370,000.00 from 30000+300000+(200000-120000)*0.5"
       },
       "formula": "30000+300000+(200000-120000)*0.5"
@@ -394,8 +394,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "taxable half at the 50% inclusion rate (caploss) | recomputed 40,000.00 from (200000-120000)*0.5"
       },
       "formula": "(200000-120000)*0.5"
@@ -427,8 +427,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-12",
-        "verifier": "recheck.py fresh-fetch pass, 2026-11-12 (executor; separate from drafting)",
+        "checkedOn": "2026-11-16",
+        "verifier": "recheck.py fresh-fetch pass, 2026-11-16 (executor; separate from drafting)",
         "note": "home contributes $0 (exempt principal residence) | recomputed 0.00 from 0"
       },
       "formula": "0"
