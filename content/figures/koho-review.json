@@ -1,0 +1,2326 @@
+{
+  "slug": "koho-review",
+  "publishDate": "2026-11-19",
+  "figures": [
+    {
+      "id": "f477468fe8e1",
+      "value": "November 16, 2026",
+      "context": "This review, part of our banking and accounts hub , works out both from KOHO's own prices on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "d91442e6b90b",
+      "value": "$0",
+      "context": "As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "4d5bf0853277",
+      "value": "2%",
+      "context": "As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,\""
+      },
+      "needle": "e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,"
+    },
+    {
+      "id": "53e259c77aad",
+      "value": "$14.75",
+      "context": "As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": ", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "011b961bd6f2",
+      "value": "3.5%",
+      "context": "As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/save/",
+      "sourceName": "KOHO: High interest savings",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_save, fetched 2026-11-16): \"rate? Depending on what plan you choose, you'll earn up to 3.5% interest on your entire KOHO balance — your Spendable, Roun\""
+      },
+      "needle": "rate? Depending on what plan you choose, you'll earn up to 3.5% interest on your entire KOHO balance — your Spendable, Roun"
+    },
+    {
+      "id": "e94fc03c330f",
+      "value": "$11,800",
+      "context": "As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "f7320e952f47",
+      "value": "$0",
+      "context": "KOHO's plans are Core ($0), Extra ($18 a month, or $12 a month billed yearly) and Everything ($22 a month, or $14.75 a month billed yearly).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "ed9860d90673",
+      "value": "$18",
+      "context": "KOHO's plans are Core ($0), Extra ($18 a month, or $12 a month billed yearly) and Everything ($22 a month, or $14.75 a month billed yearly).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "369ee3fd2a4c",
+      "value": "$12",
+      "context": "KOHO's plans are Core ($0), Extra ($18 a month, or $12 a month billed yearly) and Everything ($22 a month, or $14.75 a month billed yearly).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "00ab5d8ea195",
+      "value": "$22",
+      "context": "KOHO's plans are Core ($0), Extra ($18 a month, or $12 a month billed yearly) and Everything ($22 a month, or $14.75 a month billed yearly).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": "extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "3a0c61539d82",
+      "value": "$14.75",
+      "context": "KOHO's plans are Core ($0), Extra ($18 a month, or $12 a month billed yearly) and Everything ($22 a month, or $14.75 a month billed yearly).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": ", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "5031dff1b0b1",
+      "value": "$28,800",
+      "context": "On interest alone, Extra needs about $28,800 on deposit to pay for itself on yearly billing; Everything needs about $11,800 (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "7f28baa67a96",
+      "value": "$11,800",
+      "context": "On interest alone, Extra needs about $28,800 on deposit to pay for itself on yearly billing; Everything needs about $11,800 (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "523e2842643a",
+      "value": "$10",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/does-koho-build-credit/",
+      "sourceName": "KOHO: Does KOHO build credit?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_does, fetched 2026-11-16): \"d transportation. You can subscribe to Credit Building for $10/month, it's an affordable way to build your credit history.\""
+      },
+      "needle": "d transportation. You can subscribe to Credit Building for $10/month, it's an affordable way to build your credit history."
+    },
+    {
+      "id": "f1b9ff74067d",
+      "value": "30%",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open\""
+      },
+      "needle": "pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open"
+    },
+    {
+      "id": "00fdcdf2dd87",
+      "value": "50%",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat\""
+      },
+      "needle": "Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat"
+    },
+    {
+      "id": "8aece54ec8f6",
+      "value": "$120,",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "6126eb894f23",
+      "value": "$84",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8e75292272ec",
+      "value": "$60",
+      "context": "Credit Building costs $10 a month on Core, with 30% off on Extra and 50% off on Everything: about $120, $84 or $60 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "aac8c0409685",
+      "value": "November 16, 2026",
+      "context": "We read KOHO's plan comparison page with both the Monthly and Yearly price toggles, its high-interest savings page, its Credit Building page and two KOHO articles on how Credit Building works and what it costs, plus the fee section of KOHO's cardholder terms, on November 16, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "f67922730ed5",
+      "value": "$10,000",
+      "context": "The example keeps $10,000 in the account, spends $1,000 a month in KOHO's bonus categories (groceries, transportation, food and drinks) and $1,000 a month on everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "250927735699",
+      "value": "$1,000",
+      "context": "The example keeps $10,000 in the account, spends $1,000 a month in KOHO's bonus categories (groceries, transportation, food and drinks) and $1,000 a month on everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "ba3cf14cca3e",
+      "value": "$0,",
+      "context": "KOHO has three plans: Core at $0, Extra at $18 a month (or $12 a month with yearly billing), and Everything at $22 a month (or $14.75 a month with yearly billing).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "affd24eadc1d",
+      "value": "$18",
+      "context": "KOHO has three plans: Core at $0, Extra at $18 a month (or $12 a month with yearly billing), and Everything at $22 a month (or $14.75 a month with yearly billing).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "21a605aca553",
+      "value": "$12",
+      "context": "KOHO has three plans: Core at $0, Extra at $18 a month (or $12 a month with yearly billing), and Everything at $22 a month (or $14.75 a month with yearly billing).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "9fa84f069bb8",
+      "value": "$22",
+      "context": "KOHO has three plans: Core at $0, Extra at $18 a month (or $12 a month with yearly billing), and Everything at $22 a month (or $14.75 a month with yearly billing).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": "extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "ff641e4f7035",
+      "value": "$14.75",
+      "context": "KOHO has three plans: Core at $0, Extra at $18 a month (or $12 a month with yearly billing), and Everything at $22 a month (or $14.75 a month with yearly billing).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": ", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "8d6f54dc0e19",
+      "value": "November 16, 2026",
+      "context": "KOHO plans compared (KOHO accounts page, Monthly and Yearly toggles, reviewed November 16, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "62a91957dada",
+      "value": "$0",
+      "context": "Price, monthly billing $0 $18 a month $22 a month",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "9ae004de95c5",
+      "value": "$18",
+      "context": "Price, monthly billing $0 $18 a month $22 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "3e542074eb23",
+      "value": "$22",
+      "context": "Price, monthly billing $0 $18 a month $22 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": "extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "b5476481d900",
+      "value": "$0",
+      "context": "Price, yearly billing $0 $12 a month $14.75 a month",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "9055bad6507c",
+      "value": "$12",
+      "context": "Price, yearly billing $0 $12 a month $14.75 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "6a2824a930b4",
+      "value": "$14.75",
+      "context": "Price, yearly billing $0 $12 a month $14.75 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": ", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "82f14fe32102",
+      "value": "$0",
+      "context": "Yearly cost on yearly billing (our arithmetic) $0 $144 $177",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "77808acf6466",
+      "value": "$144",
+      "context": "Yearly cost on yearly billing (our arithmetic) $0 $144 $177",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "5e64d8fd32fc",
+      "value": "$177",
+      "context": "Yearly cost on yearly billing (our arithmetic) $0 $144 $177",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "2a4a9b8c91db",
+      "value": "2%",
+      "context": "Interest on your balance 2% 2.5% 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,\""
+      },
+      "needle": "e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,"
+    },
+    {
+      "id": "17a8ce784fdb",
+      "value": "2.5%",
+      "context": "Interest on your balance 2% 2.5% 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/save/",
+      "sourceName": "KOHO: High interest savings",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_save, fetched 2026-11-16): \"anning DON'T JUST TAKE OUR WORD FOR IT 4.8 App Store Rating 2.5M+ Happy Customers #1 Rated Canadian Financial App Read our\""
+      },
+      "needle": "anning DON'T JUST TAKE OUR WORD FOR IT 4.8 App Store Rating 2.5M+ Happy Customers #1 Rated Canadian Financial App Read our"
+    },
+    {
+      "id": "b091d810e9db",
+      "value": "3.5%",
+      "context": "Interest on your balance 2% 2.5% 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"debt. Grow your money with high interest savings Earn up to 3.5% on your entire balance with no minimum requirements. An eas\""
+      },
+      "needle": "debt. Grow your money with high interest savings Earn up to 3.5% on your entire balance with no minimum requirements. An eas"
+    },
+    {
+      "id": "bf7221404818",
+      "value": "1%",
+      "context": "Cash back on groceries, transportation, food and drinks 1% 1.5% 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"mited Cash Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on e\""
+      },
+      "needle": "mited Cash Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on e"
+    },
+    {
+      "id": "6af8ab8a2df4",
+      "value": "1.5%",
+      "context": "Cash back on groceries, transportation, food and drinks 1% 1.5% 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"ed Cash Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on everyt\""
+      },
+      "needle": "ed Cash Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on everyt"
+    },
+    {
+      "id": "58331e6df559",
+      "value": "2%",
+      "context": "Cash back on groceries, transportation, food and drinks 1% 1.5% 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"sh Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on everythin\""
+      },
+      "needle": "sh Back on groceries, transportation, food & drinks 1% 1.5% 2% Earn interest 2% 2.5% 3.5% Unlimited Cash Back on everythin"
+    },
+    {
+      "id": "38356b5a8bdd",
+      "value": "0%",
+      "context": "Cash back on everything else 0% 0.25% 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"nterest 2% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interes\""
+      },
+      "needle": "nterest 2% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interes"
+    },
+    {
+      "id": "6fc0c6e25ea9",
+      "value": "0.25%",
+      "context": "Cash back on everything else 0% 0.25% 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"rest 2% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interest rat\""
+      },
+      "needle": "rest 2% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interest rat"
+    },
+    {
+      "id": "3b5274fdade3",
+      "value": "0.5%",
+      "context": "Cash back on everything else 0% 0.25% 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interest rates app\""
+      },
+      "needle": "% 2.5% 3.5% Unlimited Cash Back on everything else 0% 0.25% 0.5% Up to 6.5% extra Cash Back Cash Back and interest rates app"
+    },
+    {
+      "id": "7b0c4c9c04f0",
+      "value": "30%",
+      "context": "Discount on Credit Building None 30% 50%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e e-transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No Fore\""
+      },
+      "needle": "e e-transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No Fore"
+    },
+    {
+      "id": "462000223678",
+      "value": "50%",
+      "context": "Discount on Credit Building None 30% 50%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No Foreign\""
+      },
+      "needle": "transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No Foreign"
+    },
+    {
+      "id": "4336336b3f80",
+      "value": "30",
+      "context": "Every plan includes a free credit score, unlimited transactions and free real-time e-Transfers, and KOHO says each plan comes with a free 30-day trial.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e e-transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No For\""
+      },
+      "needle": "e e-transfers Credit Building Discount on Credit Building - 30% 50% Free Credit Report - - Free Credit Score Travel No For"
+    },
+    {
+      "id": "e6be29e23b34",
+      "value": "$28,800",
+      "context": "On interest alone, a paid plan pays for itself only on a large balance: about $28,800 for Extra and $11,800 for Everything on yearly billing.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "83c732a1c4cd",
+      "value": "$11,800",
+      "context": "On interest alone, a paid plan pays for itself only on a large balance: about $28,800 for Extra and $11,800 for Everything on yearly billing.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "2d70f895de8b",
+      "value": "November 16, 2026",
+      "context": "Balance needed for a paid KOHO plan's extra interest to cover its fee, vs the free Core plan (our calculation from KOHO's prices and rates, reviewed November 16, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "3dfbb34b3a71",
+      "value": "0.5",
+      "context": "Extra 0.5 percentage points $144 $28,800 $216 $43,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Extra interest 2.5% minus Core 2%"
+      }
+    },
+    {
+      "id": "e1720bd1a0fb",
+      "value": "$144",
+      "context": "Extra 0.5 percentage points $144 $28,800 $216 $43,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8f1a1f99a260",
+      "value": "$28,800",
+      "context": "Extra 0.5 percentage points $144 $28,800 $216 $43,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "a2a12e4195e0",
+      "value": "$216",
+      "context": "Extra 0.5 percentage points $144 $28,800 $216 $43,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "75d3f2385476",
+      "value": "$43,200",
+      "context": "Extra 0.5 percentage points $144 $28,800 $216 $43,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "e8683f96b4d3",
+      "value": "1.5",
+      "context": "Everything 1.5 percentage points $177 $11,800 $264 $17,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Everything interest 3.5% minus Core 2%"
+      }
+    },
+    {
+      "id": "12f9a499ff65",
+      "value": "$177",
+      "context": "Everything 1.5 percentage points $177 $11,800 $264 $17,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "d608bf794936",
+      "value": "$11,800",
+      "context": "Everything 1.5 percentage points $177 $11,800 $264 $17,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "df1fe6a63859",
+      "value": "$264",
+      "context": "Everything 1.5 percentage points $177 $11,800 $264 $17,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "e25294861087",
+      "value": "$17,600",
+      "context": "Everything 1.5 percentage points $177 $11,800 $264 $17,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "2e5363894bce",
+      "value": "$10,000",
+      "context": "Example: $10,000 balance, $1,000 a month in bonus categories, $1,000 a month elsewhere (illustration)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "1cc647404eb0",
+      "value": "$1,000",
+      "context": "Example: $10,000 balance, $1,000 a month in bonus categories, $1,000 a month elsewhere (illustration)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustration input, labelled as an example on the page"
+      }
+    },
+    {
+      "id": "914ba3c49a95",
+      "value": "$200",
+      "context": "Core: $200 interest + $120 cash back &minus; $0 $320",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "$10,000 x 2% Core interest"
+      }
+    },
+    {
+      "id": "33a993e36670",
+      "value": "$120",
+      "context": "Core: $200 interest + $120 cash back &minus; $0 $320",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "6f35a3e48616",
+      "value": "$0",
+      "context": "Core: $200 interest + $120 cash back &minus; $0 $320",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"ht fit. Monthly Yearly The perfect plan for your needs Core $0/mo Over $100/year in value¹ Get rewarded on everyday spendi\""
+      },
+      "needle": "ht fit. Monthly Yearly The perfect plan for your needs Core $0/mo Over $100/year in value¹ Get rewarded on everyday spendi"
+    },
+    {
+      "id": "26487e53a6c0",
+      "value": "$320",
+      "context": "Core: $200 interest + $120 cash back &minus; $0 $320",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "d6d8148e4a50",
+      "value": "$250",
+      "context": "Extra, yearly billing: $250 + $210 &minus; $144 $316",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "3c9ec70165d2",
+      "value": "$210",
+      "context": "Extra, yearly billing: $250 + $210 &minus; $144 $316",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "69465c967df0",
+      "value": "$144",
+      "context": "Extra, yearly billing: $250 + $210 &minus; $144 $316",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "646055a37691",
+      "value": "$316",
+      "context": "Extra, yearly billing: $250 + $210 &minus; $144 $316",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b715adff6451",
+      "value": "$350",
+      "context": "Everything, yearly billing: $350 + $300 &minus; $177 $473",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "dc54220a2dbb",
+      "value": "$300",
+      "context": "Everything, yearly billing: $350 + $300 &minus; $177 $473",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "763ae64f9b9e",
+      "value": "$177",
+      "context": "Everything, yearly billing: $350 + $300 &minus; $177 $473",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "c04a41459974",
+      "value": "$473",
+      "context": "Everything, yearly billing: $350 + $300 &minus; $177 $473",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "48970fff130f",
+      "value": "$350",
+      "context": "Everything, monthly billing: $350 + $300 &minus; $264 $386",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "4ba5e079fcc8",
+      "value": "$300",
+      "context": "Everything, monthly billing: $350 + $300 &minus; $264 $386",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "77a92fef12ce",
+      "value": "$264",
+      "context": "Everything, monthly billing: $350 + $300 &minus; $264 $386",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "46396fbcc039",
+      "value": "$386",
+      "context": "Everything, monthly billing: $350 + $300 &minus; $264 $386",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "0fb0ef452c4a",
+      "value": "$316",
+      "context": "For this household Extra comes out slightly behind Core on yearly billing ($316 vs $320), while Everything on yearly billing comes out ahead by $153.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b74047154d7a",
+      "value": "$320",
+      "context": "For this household Extra comes out slightly behind Core on yearly billing ($316 vs $320), while Everything on yearly billing comes out ahead by $153.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "1ed045daf747",
+      "value": "$153",
+      "context": "For this household Extra comes out slightly behind Core on yearly billing ($316 vs $320), while Everything on yearly billing comes out ahead by $153.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Everything yearly net $473 minus Core net $320 (example household)"
+      }
+    },
+    {
+      "id": "6d562e3dc5df",
+      "value": "1.50%",
+      "context": "EQ Bank's posted Personal Account rate was 1.50%, or 3.00% with direct deposits, as of its November 6, 2026 rates; our EQ Bank review has the details, and our best high-interest savings accounts guide compares more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+      },
+      "needle": "ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**"
+    },
+    {
+      "id": "99833ef31083",
+      "value": "3.00%",
+      "context": "EQ Bank's posted Personal Account rate was 1.50%, or 3.00% with direct deposits, as of its November 6, 2026 rates; our EQ Bank review has the details, and our best high-interest savings accounts guide compares more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"ate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more J\""
+      },
+      "needle": "ate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more J"
+    },
+    {
+      "id": "9bafaa21a3f5",
+      "value": "November 6, 2026",
+      "context": "EQ Bank's posted Personal Account rate was 1.50%, or 3.00% with direct deposits, as of its November 6, 2026 rates; our EQ Bank review has the details, and our best high-interest savings accounts guide compares more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+      },
+      "needle": "hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra"
+    },
+    {
+      "id": "569d8dd740b0",
+      "value": "$10",
+      "context": "KOHO Credit Building costs $10 a month at standard pricing, per KOHO's own article, with a 30% discount on Extra and 50% on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"Learn Company Back HOW DOES KOHO CREDIT BUILDING WORK? July 10th, 2026 [Updated July 17th, 2026] • 4 min read Written By Q\""
+      },
+      "needle": "Learn Company Back HOW DOES KOHO CREDIT BUILDING WORK? July 10th, 2026 [Updated July 17th, 2026] • 4 min read Written By Q"
+    },
+    {
+      "id": "4353a3e2cf14",
+      "value": "30%",
+      "context": "KOHO Credit Building costs $10 a month at standard pricing, per KOHO's own article, with a 30% discount on Extra and 50% on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open\""
+      },
+      "needle": "pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open"
+    },
+    {
+      "id": "7111f82adccc",
+      "value": "50%",
+      "context": "KOHO Credit Building costs $10 a month at standard pricing, per KOHO's own article, with a 30% discount on Extra and 50% on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat\""
+      },
+      "needle": "Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat"
+    },
+    {
+      "id": "a4f931c062b2",
+      "value": "$120",
+      "context": "That works out to about $120 a year on Core, $84 on Extra and $60 on Everything.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "3b848cf293e7",
+      "value": "$84",
+      "context": "That works out to about $120 a year on Core, $84 on Extra and $60 on Everything.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "8895b4343ef1",
+      "value": "$60",
+      "context": "That works out to about $120 a year on Core, $84 on Extra and $60 on Everything.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "f04f7e860886",
+      "value": "$225",
+      "context": "When you subscribe, KOHO opens a $225 line of credit in your name with no interest charges.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"k? When you subscribe to Credit Building: You'll receive a $225 line of credit with no interest charges. This line of credi\""
+      },
+      "needle": "k? When you subscribe to Credit Building: You'll receive a $225 line of credit with no interest charges. This line of credi"
+    },
+    {
+      "id": "c749ad2c1f74",
+      "value": "1%",
+      "context": "KOHO's how-it-works article says it reports to Equifax and recommends keeping utilization at 1% or lower; its Credit Building page says payment activity is reported to both Equifax and TransUnion.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"r optimal results, we recommend keeping your utilization at 1% or lower. Each month, we'll report your selected utilizatio\""
+      },
+      "needle": "r optimal results, we recommend keeping your utilization at 1% or lower. Each month, we'll report your selected utilizatio"
+    },
+    {
+      "id": "d93ffe529c62",
+      "value": "November 16, 2026",
+      "context": "Yearly cost of a credit-building tool (KOHO and Neo pages, reviewed November 16, 2026; yearly totals are our arithmetic)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "9253d4f4a162",
+      "value": "$10",
+      "context": "KOHO Credit Building on Core $10 $120 $225 interest-free line of credit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/does-koho-build-credit/",
+      "sourceName": "KOHO: Does KOHO build credit?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_does, fetched 2026-11-16): \"d transportation. You can subscribe to Credit Building for $10/month, it's an affordable way to build your credit history.\""
+      },
+      "needle": "d transportation. You can subscribe to Credit Building for $10/month, it's an affordable way to build your credit history."
+    },
+    {
+      "id": "51c0ed3d5772",
+      "value": "$120",
+      "context": "KOHO Credit Building on Core $10 $120 $225 interest-free line of credit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "81b0600b1df6",
+      "value": "$225",
+      "context": "KOHO Credit Building on Core $10 $120 $225 interest-free line of credit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/legal/",
+      "sourceName": "KOHO: Legal terms and cardholder agreement",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_legal, fetched 2026-11-16): \"your KOHO Credit Building line of credit are: Credit Limit $225 or such other limit, as may be extended to you, at our disc\""
+      },
+      "needle": "your KOHO Credit Building line of credit are: Credit Limit $225 or such other limit, as may be extended to you, at our disc"
+    },
+    {
+      "id": "8411234d8530",
+      "value": "30%",
+      "context": "KOHO Credit Building on Extra (30% off) $7.00 $84 Same, plus the Extra plan fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open\""
+      },
+      "needle": "pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open"
+    },
+    {
+      "id": "577d7faafbe4",
+      "value": "$7.00",
+      "context": "KOHO Credit Building on Extra (30% off) $7.00 $84 Same, plus the Extra plan fee",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "13991899ce5c",
+      "value": "$84",
+      "context": "KOHO Credit Building on Extra (30% off) $7.00 $84 Same, plus the Extra plan fee",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "fe56073e7051",
+      "value": "50%",
+      "context": "KOHO Credit Building on Everything (50% off) $5.00 $60 Same, plus the Everything plan fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat\""
+      },
+      "needle": "Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat"
+    },
+    {
+      "id": "ebb7f217b63b",
+      "value": "$5.00",
+      "context": "KOHO Credit Building on Everything (50% off) $5.00 $60 Same, plus the Everything plan fee",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "51a517f9f7ef",
+      "value": "$60",
+      "context": "KOHO Credit Building on Everything (50% off) $5.00 $60 Same, plus the Everything plan fee",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "48a3603b0f09",
+      "value": "$9.99",
+      "context": "Neo Mastercard with a secured limit $9.99 (Build membership) $119.88 Secured credit card, security funds from $50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      },
+      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+    },
+    {
+      "id": "2626ba541f15",
+      "value": "$119.88",
+      "context": "Neo Mastercard with a secured limit $9.99 (Build membership) $119.88 Secured credit card, security funds from $50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "9144ea250462",
+      "value": "$50",
+      "context": "Neo Mastercard with a secured limit $9.99 (Build membership) $119.88 Secured credit card, security funds from $50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
+      "sourceName": "Neo Financial: Neo Mastercard",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"el. The minimum amount of security funds to get started is $50.\\\",\\\"type\\\":\\\"text\\\",\\\"version\\\":1}],\\\"direction\\\":null,\\\"f\""
+      },
+      "needle": "el. The minimum amount of security funds to get started is $50.\\\",\\\"type\\\":\\\"text\\\",\\\"version\\\":1}],\\\"direction\\\":null,\\\"f"
+    },
+    {
+      "id": "a53c5f88ec3b",
+      "value": "$60",
+      "context": "The discount alone never justifies a paid plan: on Everything you save $60 a year on Credit Building but pay $177 for the plan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "b765bcbc7300",
+      "value": "$177",
+      "context": "The discount alone never justifies a paid plan: on Everything you save $60 a year on Credit Building but pay $177 for the plan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "7e5b22873a8b",
+      "value": "$100,000",
+      "context": "KOHO says those funds are then placed in trust with one or more CDIC member institutions and are eligible for CDIC protection of up to $100,000 per beneficiary, per member institution; KOHO accounts not earning interest are not eligible.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/save/",
+      "sourceName": "KOHO: High interest savings",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_save, fetched 2026-11-16): \"mber institutions are eligible for CDIC protection of up to $100,000 per beneficiary, per member institution, if the member inst\""
+      },
+      "needle": "mber institutions are eligible for CDIC protection of up to $100,000 per beneficiary, per member institution, if the member inst"
+    },
+    {
+      "id": "8ef551cda003",
+      "value": "1.5%",
+      "context": "Apart from the plan fee and Credit Building, KOHO's cardholder terms list two card fees: ATM withdrawals are free from KOHO (the ATM operator may charge), and foreign currency purchases carry a 1.5% foreign exchange fee per transaction, which KOHO may discount on some plans.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/legal/",
+      "sourceName": "KOHO: Legal terms and cardholder agreement",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_legal, fetched 2026-11-16): \"ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha\""
+      },
+      "needle": "ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha"
+    },
+    {
+      "id": "a1eeb98567a4",
+      "value": "1.5%",
+      "context": "Foreign exchange: 1.5% per transaction under the cardholder terms; none on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/legal/",
+      "sourceName": "KOHO: Legal terms and cardholder agreement",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_legal, fetched 2026-11-16): \"ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha\""
+      },
+      "needle": "ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha"
+    },
+    {
+      "id": "a61152aa4908",
+      "value": "0.5%",
+      "context": "Crypto trading: 0.5% on every plan, per the plan table.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"Savings goals + Roundups Phone Support Crypto trading fees 0.5% 0.5% 0.5% Free real-time e-transfers Credit Building Discou\""
+      },
+      "needle": "Savings goals + Roundups Phone Support Crypto trading fees 0.5% 0.5% 0.5% Free real-time e-transfers Credit Building Discou"
+    },
+    {
+      "id": "c9ce15e2d3e6",
+      "value": "2%",
+      "context": "Open the free Core plan and opt in to Earn Interest so your balance earns 2% and is CDIC-eligible.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,\""
+      },
+      "needle": "e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,"
+    },
+    {
+      "id": "ff4f5dba7e2e",
+      "value": "30",
+      "context": "If a paid plan wins, use the 30-day trial and choose monthly billing until you are sure.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"free KOHO plans start at $0 each month and come with a free 30 day trial, so you can see if it's the right fit. Monthly Ye\""
+      },
+      "needle": "free KOHO plans start at $0 each month and come with a free 30 day trial, so you can see if it's the right fit. Monthly Ye"
+    },
+    {
+      "id": "f9189bc45c1e",
+      "value": "November 16, 2026",
+      "context": "KOHO picks by situation (our calculation and reading of KOHO's pages, reviewed November 16, 2026; no affiliate links)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: day the sources were read"
+      }
+    },
+    {
+      "id": "a9a1dc7cc9e7",
+      "value": "$11,800",
+      "context": "Keep under about $11,800 and spend moderately KOHO Core $0, 2% interest and 1% cash back in the bonus categories You need cheques or branch service Our best no-fee chequing accounts",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "58525e38539b",
+      "value": "$0,",
+      "context": "Keep under about $11,800 and spend moderately KOHO Core $0, 2% interest and 1% cash back in the bonus categories You need cheques or branch service Our best no-fee chequing accounts",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"Is it possible to open a free online account with KOHO for $0? Absolutely. You can get the monthly Core plan for free. He\""
+      },
+      "needle": "Is it possible to open a free online account with KOHO for $0? Absolutely. You can get the monthly Core plan for free. He"
+    },
+    {
+      "id": "d19188db68d4",
+      "value": "2%",
+      "context": "Keep under about $11,800 and spend moderately KOHO Core $0, 2% interest and 1% cash back in the bonus categories You need cheques or branch service Our best no-fee chequing accounts",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"ther with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant account for newcom\""
+      },
+      "needle": "ther with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant account for newcom"
+    },
+    {
+      "id": "4c920a9bb34e",
+      "value": "1%",
+      "context": "Keep under about $11,800 and spend moderately KOHO Core $0, 2% interest and 1% cash back in the bonus categories You need cheques or branch service Our best no-fee chequing accounts",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries, eating and drinking and transport U\""
+      },
+      "needle": "Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries, eating and drinking and transport U"
+    },
+    {
+      "id": "3d8551e621e4",
+      "value": "3.5%",
+      "context": "Keep a large balance or spend heavily in the bonus categories KOHO Everything, yearly billing 3.5% interest and 2% category cash back; came out ahead in our example Your balance or spending is below our example Our EQ Bank review for interest without a fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"earn rewards together with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant ac\""
+      },
+      "needle": "earn rewards together with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant ac"
+    },
+    {
+      "id": "d42343c7989b",
+      "value": "2%",
+      "context": "Keep a large balance or spend heavily in the bonus categories KOHO Everything, yearly billing 3.5% interest and 2% category cash back; came out ahead in our example Your balance or spending is below our example Our EQ Bank review for interest without a fee",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"ther with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant account for newcom\""
+      },
+      "needle": "ther with a KOHO Joint account. Get up to 3.5% Interest and 2% Cash Back on shared spending. An instant account for newcom"
+    },
+    {
+      "id": "e7642e19e525",
+      "value": "$120",
+      "context": "Need to build credit history KOHO Core plus Credit Building $120 a year, no hard check, no deposit You can already get a no-fee credit card Our Neo credit card review",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261119-model.py"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model output (batch-20261119-model.out.json)"
+      }
+    },
+    {
+      "id": "070b2aa2b84f",
+      "value": "2%",
+      "context": "The Core plan is free and pays 2% interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,\""
+      },
+      "needle": "e. Here's everything you get with a Core plan–all for free! 2% interest on your entire balance 1% Cash Back on groceries,"
+    },
+    {
+      "id": "aa67c37af366",
+      "value": "$18",
+      "context": "Extra and Everything cost $18 and $22 a month on monthly billing, or $12 and $14.75 a month on yearly billing, per KOHO's November 2026 prices.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $18/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "5232e297259e",
+      "value": "$22",
+      "context": "Extra and Everything cost $18 and $22 a month on monthly billing, or $12 and $14.75 a month on yearly billing, per KOHO's November 2026 prices.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_monthly, fetched 2026-11-16): \"extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": "extra cash back, and extra savings Get started Everything $22/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "b30758df564b",
+      "value": "$12",
+      "context": "Extra and Everything cost $18 and $22 a month on monthly billing, or $12 and $14.75 a month on yearly billing, per KOHO's November 2026 prices.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \"spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac\""
+      },
+      "needle": "spending with Cash Back on the essentials Get started Extra $12/mo Over $200/year in value¹ Get extra perks, extra cash bac"
+    },
+    {
+      "id": "cb1f032539ec",
+      "value": "$14.75",
+      "context": "Extra and Everything cost $18 and $22 a month on monthly billing, or $12 and $14.75 a month on yearly billing, per KOHO's November 2026 prices.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/accounts/",
+      "sourceName": "KOHO: Plans and online account (Monthly and Yearly prices)",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_accounts_yearly, fetched 2026-11-16): \", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort\""
+      },
+      "needle": ", extra cash back, and extra savings Get started Everything $14.75/mo Over $500/year in value¹ Get more than your money's wort"
+    },
+    {
+      "id": "1fff42fc1a41",
+      "value": "$100,000",
+      "context": "KOHO says those funds are eligible for CDIC protection up to $100,000 per beneficiary, per member institution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/save/",
+      "sourceName": "KOHO: High interest savings",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_save, fetched 2026-11-16): \"mber institutions are eligible for CDIC protection of up to $100,000 per beneficiary, per member institution, if the member inst\""
+      },
+      "needle": "mber institutions are eligible for CDIC protection of up to $100,000 per beneficiary, per member institution, if the member inst"
+    },
+    {
+      "id": "f34c6fc52df1",
+      "value": "$10",
+      "context": "KOHO lists $10 a month at standard pricing, with 30% off on Extra and 50% off on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"disabilities who are using a screen reader; Press Control-F10 to open an accessibility menu. Press enter for Accessibilit\""
+      },
+      "needle": "disabilities who are using a screen reader; Press Control-F10 to open an accessibility menu. Press enter for Accessibilit"
+    },
+    {
+      "id": "2c7c1b73c8cd",
+      "value": "30%",
+      "context": "KOHO lists $10 a month at standard pricing, with 30% off on Extra and 50% off on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open\""
+      },
+      "needle": "pends on your KOHO plan: Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open"
+    },
+    {
+      "id": "4dc26e0a41e9",
+      "value": "50%",
+      "context": "KOHO lists $10 a month at standard pricing, with 30% off on Extra and 50% off on Everything.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/learn/how-does-koho-credit-building-work/",
+      "sourceName": "KOHO: How does KOHO Credit Building work?",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_learn_cb, fetched 2026-11-16): \"Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat\""
+      },
+      "needle": "Essential: Standard pricing Extra: 30% discount Everything: 50% discount For current pricing, open the KOHO app and navigat"
+    },
+    {
+      "id": "e152cddbafaf",
+      "value": "1.5%",
+      "context": "KOHO's cardholder terms list a 1.5% foreign exchange fee per transaction, discounted on some plans; KOHO says the Everything plan has none.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.koho.ca/legal/",
+      "sourceName": "KOHO: Legal terms and cardholder agreement",
+      "asOf": "2026-11-16",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "drafter needle (found in saved page koho_legal, fetched 2026-11-16): \"ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha\""
+      },
+      "needle": "ATM Withdrawal Fees* Free Foreign Exchange Transaction Fee^ 1.5% per transaction** Notes: Your financial institution may cha"
+    }
+  ]
+}
