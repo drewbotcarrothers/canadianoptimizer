@@ -166,7 +166,7 @@ const content = `<div class="container">
         <li><a href="https://www.cibc.com/en/journeys/banking-offers-for-newcomers/permanent-residents-card-account-offer.html">CIBC: Card and account offer for permanent residents</a>, reviewed November 15, 2026</li>
         <li><a href="https://startright.scotiabank.com/ca/en/credit-cards.html">Scotiabank StartRight: Credit cards for newcomers</a>, reviewed November 15, 2026</li>
         <li><a href="https://startright.scotiabank.com/ca/en.html">Scotiabank StartRight: Banking for newcomers</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/higher-credit-limit-for-newcomers-to-canada.html">Scotiabank: Higher credit limit for newcomers with Nova Credit</a>, reviewed November 15, 2026</li>
+        <li><a href="https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html">Scotiabank: Higher credit limit for newcomers with Nova Credit</a>, reviewed November 15, 2026</li>
         <li><a href="https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/">BMO: Banking for newcomers to Canada</a>, reviewed November 15, 2026</li>
         <li><a href="https://www.americanexpress.com/en-ca/support/customer-service/global-card-transfer/">American Express Canada: Global Card Transfer</a>, reviewed November 15, 2026</li>
         <li><a href="https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html">Employment and Social Development Canada: The Social Insurance Number Code of Practice</a>, reviewed November 15, 2026</li>

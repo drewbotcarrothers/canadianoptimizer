@@ -17,22 +17,22 @@
   "publishDate": "2026-11-18",
   "agentChecks": {
     "2a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "answers read as answers under the title and each question heading"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-15 (separate from drafter)",
+      "on": "2026-11-15",
+      "note": "answers read as answers under the title and each question heading | read post module src/data/nov2026/p-best-newcomer-cards.ts on 2026-11-15: the hook and opening paragraph answer the title; every question H2 (SIN, foreign history, credit limit, secured cards, first months, picks) and each FAQ H3 opens with a direct answer paragraph"
     },
     "4a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "no invented quotes, experience, tests or review claims"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-15 (separate from drafter)",
+      "on": "2026-11-15",
+      "note": "no invented quotes, experience, tests or review claims | read the same module on 2026-11-15: wording is attributed to bank, ESDC and FCAC pages; no first-person experience, tests or \"reviewed by\" claims; \"our calculation\" and \"our reading of the bank pages\" are labelled as such"
     },
     "6a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-15 (separate from drafter)",
+      "on": "2026-11-15",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown | three picks by situation (no SIN, SIN but no Canadian history, foreign history) with an Also consider column; no affiliate links or offer CTAs (registry still pending); disclosure page is linked in the method section"
     }
   }
 }
