@@ -1157,17 +1157,18 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 
 </div>`
   ),
-  benefitsPost(
+  {
+    ...benefitsPost(
     'how-much-cpp-will-i-get',
     'How Much CPP Will I Get? Estimating Your Pension With My Service Canada',
-    'CPP starting in January 2026 pays at most $1,507.65 a month at age 65. New beneficiaries average $877.01. Use your Service Canada estimate.',
+    'The maximum CPP at 65 is $1,507.65 a month (January 2026), but new pensions average $858.34. Your real number is your Service Canada estimate. 2027 CPP figures inside.',
     `<div class="container">
 
     <div class="hook">
-        The maximum CPP retirement pension at age 65, for a benefit beginning in January 2026, is <span class="highlight">$1,507.65 a month</span>. The average for new beneficiaries is $877.01. Neither number is your pension. The estimate that uses your contributions is in My Service Canada Account, under Canada Pension Plan, "View my benefit estimates." Starting at 60 cuts that estimate by 0.6% a month. Waiting until 70 raises it by 0.7% a month.
+        The maximum CPP retirement pension at age 65, for a benefit beginning in January 2026, is <span class="highlight">$1,507.65 a month</span>. The average for new beneficiaries is $858.34 (ESDC, July 2026), about 57% of that maximum. Neither number is your pension. The estimate that uses your contributions is in My Service Canada Account, under Canada Pension Plan, "View my benefit estimates." Starting at 60 cuts that estimate by 0.6% a month. Waiting until 70 raises it by 0.7% a month.
     </div>
 
-    <p>This page is how the dollar is built. It sits under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a>. When to start, once you have the dollar, is <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a>. What that larger or smaller cheque does to GIS, OAS recovery, and a survivor benefit is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing in a stack</a>. Quebec workers use the QPP and Retraite Québec. Do not paste this estimate onto a Quebec record.</p>
+    <p>This page is how the dollar is built. It sits under the <a href="/blog/canada-government-benefits-guide/">government benefits guide</a> and the <a href="/category/government-benefits/">government benefits category</a>. When to start, once you have the dollar, is <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a>. What that larger or smaller cheque does to GIS, OAS recovery, and a survivor benefit is <a href="/blog/cpp-timing-benefits-stacking-canada/">CPP timing in a stack</a>. Quebec workers use the QPP and Retraite Québec. Do not paste this estimate onto a Quebec record.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
@@ -1177,14 +1178,15 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
             <li>ESDC says maximums in its 2026 table are for benefits beginning in January 2026, and that maximums increase every month because of the CPP enhancement. A September start is not locked to $1,507.65.</li>
             <li>In 2026 the year's maximum pensionable earnings are $74,600. The basic exemption is $3,500. The employee and employer rate on the base is 5.95%, and the maximum contribution is $4,230.45 each.</li>
             <li>CPP2, the second ceiling, applies from $74,600 to $85,000 at 4%. The 2026 maximum CPP2 contribution is $416 for an employee and $416 for the employer.</li>
+            <li>For 2027, CRA lists a CPP rate of 5.75% (down from 5.95%), maximum pensionable earnings of $76,700, and a maximum employee contribution of $4,209. CPP2 applies up to $87,400, with a maximum of $428.</li>
         </ul>
     </div>
 
     <h2>Where do you see your own number?</h2>
 
-    <p>ESDC's instructions are short. Register or sign in to My Service Canada Account. Go to the Canada Pension Plan section. Choose "View my benefit estimates." The same account can show "View my contributions," which is the detailed record of pensionable earnings. You can ask for a paper statement of contributions if you want one mailed. The estimate already reflects the record Service Canada holds, including the dropout of low-earning months and the child-rearing provision if that provision is on the file. If a year of earnings is missing, the estimate is missing it too. Fix the record before you treat the estimate as a plan.</p>
+    <p>ESDC's instructions are short. Register or sign in to My Service Canada Account. Go to the Canada Pension Plan section. Choose "View my benefit estimates." The same account can show "View my contributions," which is the detailed record of pensionable earnings. You can ask for a paper statement of contributions if you want one mailed. The estimate already reflects the record Service Canada holds, including the dropout of low-earning months and the child-rearing provision if that provision is on the file. If a year of earnings is missing, the estimate is missing it too. Fix the record before you treat the estimate as a plan. For a rough household projection, Canada.ca also has the <a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/retirement-income-calculator.html">Canadian Retirement Income Calculator</a>, which combines CPP, OAS and other income. It is only as good as the earnings you give it, so start from the estimate in your account.</p>
 
-    <p>There is a second, rougher benchmark on the public page, and it is useful only as a scale. People who contributed at the maximum for enough years can approach the maximum. Most people will not. The gap between $877.01 and $1,507.65 is the point of opening the account. An average is not a forecast of your cheque, and it is not a reason to delay or to start.</p>
+    <p>There is a second, rougher benchmark on the public page, and it is useful only as a scale. People who contributed at the maximum for enough years can approach the maximum. Most people will not. The gap between $858.34 and $1,507.65, $649.31 a month, is the point of opening the account. An average is not a forecast of your cheque, and it is not a reason to delay or to start.</p>
 
     <h2>What do the age adjustments do to that estimate?</h2>
 
@@ -1206,11 +1208,11 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026, from ESDC's "when to start" page. A month that is not a birthday uses the same monthly rate. Fourteen months after 65 is 14 times 0.7%, which is 9.8%.</p>
+    <p>Table checked November 13, 2026, from ESDC's "when to start" page. A month that is not a birthday uses the same monthly rate. Fourteen months after 65 is 14 times 0.7%, which is 9.8%.</p>
 
     <div class="example-box">
-        <strong>Illustration: an estimate of $900 at 65, which is not a published average</strong>
-        <p>Suppose My Service Canada Account says $900 a month at 65. That $900 is a teaching number, chosen because it sits near the $877.01 average and far from the maximum. It is not your file. At 60 the pension is 64% of $900, or $576. At 70 it is 142% of $900, or $1,278. The gap between those two illustrated cheques is $702 a month. The percentages are the law of the adjustment. The $900 is not. If the age-65 pension were instead the January 2026 maximum of $1,507.65, the same percentages produce $964.90 at 60 and $2,140.86 at 70. Use that pair only as arithmetic. ESDC says maximums rise every month for benefits that begin after January 2026, because of the enhancement, so a start later in 2026 is a different maximum. Read the estimate for the month you will actually start. Then decide whether the larger cheque helps or hurts the rest of the file, which is the <a href="/blog/oas-eligibility-deferral-canada/">OAS deferral guide</a> and the <a href="/blog/oas-gis-clawback-canada/">OAS clawback guide</a>.</p>
+        <strong>Illustration: what the start age does to an estimate</strong>
+        <p>Suppose My Service Canada Account says $858.34 a month at 65. That is ESDC's July 2026 average for new pensions, used here as a teaching number, not your file. At 60 the pension is 64% of that, or $549.34. At 70 it is 142%, or $1,218.84. The gap between those two cheques is $669.50 a month. The percentages are the law of the adjustment. The $858.34 is not your estimate. If the age-65 pension were instead the January 2026 maximum of $1,507.65, the same percentages produce $964.90 at 60 and $2,140.86 at 70. Use that pair only as arithmetic. ESDC says maximums rise every month for benefits that begin after January 2026, because of the enhancement, so a start later in 2026 is a different maximum. Read the estimate for the month you will actually start. Then decide whether the larger cheque helps or hurts the rest of the file, which is the <a href="/blog/oas-eligibility-deferral-canada/">OAS deferral guide</a> and the <a href="/blog/oas-gis-clawback-canada/">OAS clawback guide</a>.</p>
     </div>
 
     <h2>What are you contributing in 2026, and why is that not this year's pension?</h2>
@@ -1239,20 +1241,43 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026, from CRA's CPP and CPP2 payroll pages. An employee who hits both ceilings pays $4,230.45 plus $416, which is $4,646.45. A self-employed person who hits both pays $8,460.90 plus $832, which is $9,292.90. Those sums are arithmetic on the two published maximums. Self-employed contributions are based on net business income, not on investment income. The base CPP rate of 11.9% combined, and the enhancement that began in 2019, are why a younger contributor's eventual maximum can exceed the maximum of someone who spent most of a career under the old rate. The estimate, not this table, is how that shows up for you.</p>
+    <p>Table checked November 13, 2026, from CRA's CPP and CPP2 payroll pages. An employee who hits both ceilings pays $4,230.45 plus $416, which is $4,646.45. A self-employed person who hits both pays $8,460.90 plus $832, which is $9,292.90. Those sums are arithmetic on the two published maximums. Self-employed contributions are based on net business income, not on investment income. The base CPP rate of 11.9% combined, and the enhancement that began in 2019, are why a younger contributor's eventual maximum can exceed the maximum of someone who spent most of a career under the old rate. The estimate, not this table, is how that shows up for you.</p>
 
-    <p>If you have already started CPP and you keep working between 65 and 70, further contributions can create a post-retirement benefit. ESDC's 2026 table lists that benefit, at age 65, at an average of $25.76 for new beneficiaries and a maximum of $54.69. It is a small additional amount. It is not a reason to start the retirement pension early. The opt-out from contributions at 65 to 70 is Form CPT30, which the <a href="/blog/cpp-timing-benefits-stacking-canada/">stacking article</a> already walks through. After 70, contributions stop.</p>
+    <p>If you have already started CPP and you keep working between 65 and 70, further contributions can create a post-retirement benefit. ESDC's 2026 table lists that benefit, at age 65, at an average of $26.25 (July 2026) for new beneficiaries and a maximum of $54.69. It is a small additional amount. It is not a reason to start the retirement pension early. The opt-out from contributions at 65 to 70 is Form CPT30, which the <a href="/blog/cpp-timing-benefits-stacking-canada/">stacking article</a> already walks through. After 70, contributions stop.</p>
+
+    <h2>What changes for CPP contributions in 2027?</h2>
+
+    <p>CRA has posted the 2027 figures. The first earnings ceiling rises by $2,100, and the base contribution rate falls from 5.95% to 5.75% for employees and employers. Because the rate falls, the maximum employee contribution drops by $21.45 even though more earnings are covered.</p>
+
+    <table>
+        <caption>CPP and CPP2 contribution figures, 2026 vs 2027</caption>
+        <thead>
+            <tr><th>Piece</th><th>2026</th><th>2027</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Year's maximum pensionable earnings</td><td>$74,600</td><td>$76,700</td></tr>
+            <tr><td>Basic exemption</td><td>$3,500</td><td>$3,500</td></tr>
+            <tr><td>Employee and employer rate</td><td>5.95% each</td><td>5.75% each</td></tr>
+            <tr><td>Maximum employee contribution</td><td>$4,230.45</td><td>$4,209.00</td></tr>
+            <tr><td>Maximum self-employed contribution</td><td>$8,460.90</td><td>$8,418.00</td></tr>
+            <tr><td>CPP2 ceiling</td><td>$85,000</td><td>$87,400</td></tr>
+            <tr><td>Maximum CPP2, employee</td><td>$416</td><td>$428</td></tr>
+            <tr><td>Maximum CPP2, self-employed</td><td>$832</td><td>$856</td></tr>
+        </tbody>
+    </table>
+
+    <p>Figures from CRA's CPP and CPP2 payroll pages, checked November 13, 2026. An employee earning $70,000 pays $3,956.75 on the base in 2026 and $3,823.75 in 2027, which is 5.95% and then 5.75% of the $66,500 above the exemption. An employee who hits both 2027 ceilings pays $4,209 plus $428, or $4,637. Those are our sums of CRA's figures. CRA's table does not explain the rate change, and a contribution table is not a pension forecast. The estimate in your account is.</p>
 
     <h2>What will the estimate not tell you by itself?</h2>
 
-    <p>A survivor pension and your own retirement pension are combined. They do not both pay in full. ESDC's 2026 table lists a combined survivor and retirement pension at 65 with an average of $1,103.97 for new beneficiaries and a maximum of $1,531.56. Adding your estimate to a survivor statement overstates the household. The death benefit is a one-time payment with a maximum of $2,500 in that table. CPP disability is a different test and a different maximum, $1,741.20 in the same table, and approval for it is not approval for the Disability Tax Credit.</p>
+    <p>A survivor pension and your own retirement pension are combined. They do not both pay in full. ESDC's 2026 table lists a combined survivor and retirement pension at 65 with an average of $1,086.16 (July 2026) for new beneficiaries and a maximum of $1,531.56. Adding your estimate to a survivor statement overstates the household. The death benefit is a one-time payment with a maximum of $2,500 in that table. CPP disability is a different test and a different maximum, $1,741.20 in the same table, and approval for it is not approval for the Disability Tax Credit.</p>
 
     <p>The estimate is also silent on tax and on income-tested benefits. CPP is taxable. You can ask for withholding. If you do not, the tax shows up on the return. A larger CPP can reduce GIS or push OAS into recovery. Run those tests with the estimate in hand, not with the $1,507.65 maximum, unless the estimate actually says you are at the maximum. The retirement income picture that sits above the pension is <a href="/blog/how-much-money-retire-canada/">how much you need to retire</a>.</p>
 
     <h2>Frequently asked questions</h2>
 
-    <h3>Is the average CPP really only $877?</h3>
-    <p>ESDC lists $877.01 as the average retirement pension at 65 for new beneficiaries. The payment-amounts page dates that average to April 2026. The CPP retirement page also shows $877.01 for July to September 2026. It is an average of new pensions, not of every pension in pay, and not a target. Your statement is the relevant figure. People with many years near the earnings ceiling land closer to the maximum. People with years out of the workforce, or with earnings under the ceiling, land lower, subject to the dropout rules.</p>
+    <h3>Is the average CPP really only $858?</h3>
+    <p>ESDC lists $858.34 as the average retirement pension at 65 for new beneficiaries in July 2026, and the CPP overview page shows the same $858.34 for October to December 2026. It is an average of new pensions, not of every pension in pay, and not a target. Your statement is the relevant figure. People with many years near the earnings ceiling land closer to the maximum. People with years out of the workforce, or with earnings under the ceiling, land lower, subject to the dropout rules.</p>
 
     <h3>Why might my September 2026 maximum differ from $1,507.65?</h3>
     <p>ESDC says the maximums in the 2026 table are for benefits beginning in January 2026, and that maximum CPP amounts increase every month because of the enhancement. Quote $1,507.65 as the January 2026 age-65 maximum. For any other start month, use the estimate. Do not inflate the January figure by a homemade monthly percentage.</p>
@@ -1264,10 +1289,13 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
     <p>You pay both the employee and employer amounts, up to $8,460.90 on the 2026 base and $832 of CPP2 if you are over the first ceiling. The pension is still based on pensionable earnings, not on the dollars of contribution as a separate multiplier. Paying both halves is how a self-employed person funds the same earnings record an employee and an employer would have funded together. Investment income is not pensionable.</p>
 
     <h3>Can I get a number without an account?</h3>
-    <p>You can request a paper statement of contributions, and the statement includes an estimate if you or your family could receive a benefit now. There is no trustworthy public calculator that knows your earnings. A blog that multiplies the maximum by your age is guessing. The account is free. The alternative is a phone call to Service Canada with the same record.</p>
+    <p>You can request a paper statement of contributions, and the statement includes an estimate if you or your family could receive a benefit now. The Canadian Retirement Income Calculator on Canada.ca can project CPP and OAS from the earnings you enter, but it does not replace your record. A blog that multiplies the maximum by your age is guessing. The account is free. The alternative is a phone call to Service Canada with the same record.</p>
 
     <h3>Does this replace the decision of when to start?</h3>
     <p>It supplies the input. A 42% increase on a $400 pension is a different life from a 42% increase on $1,500. Health, other income, and GIS change the answer after the math. Read <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a> for the timing frame, and <a href="/blog/cpp-timing-benefits-stacking-canada/">the stacking piece</a> before you delay into a supplement you were counting on.</p>
+
+    <h3>Does the lower 2027 contribution rate cut my pension?</h3>
+    <p>CRA's 2027 table shows the contribution rate and ceilings. It says nothing about a pension change, so do not read one into it. Your benefit still comes from your pensionable earnings record and your start age. Check the estimate in My Service Canada Account once a year and after any year with unusual earnings.</p>
 
     <h2>Sources</h2>
     <ul>
@@ -1275,20 +1303,25 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html">ESDC, how much you could receive, and the My Service Canada estimate</a></li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html">ESDC, when to start, 0.6% and 0.7% adjustments</a></li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/statement-contributions.html">ESDC, statement of contributions</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html">CRA, CPP rates, maximums, and exemptions for 2026</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html">CRA, CPP2 rates and maximums for 2026</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html">CRA, CPP rates, maximums, and exemptions for 2026 and 2027</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html">CRA, CPP2 rates and maximums for 2026 and 2027</a></li>
+        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp.html">ESDC, CPP overview with the October to December 2026 average</a></li>
+        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/retirement-income-calculator.html">Canada.ca, Canadian Retirement Income Calculator</a></li>
     </ul>
 
     <div class="cta-section">
-        <p><strong>The estimate is a record. The return is where the taxable pension will land.</strong></p>
-        <p>Once you have the dollar, the 2026 tax guide is how it interacts with the rest of the file.</p>
-        <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
+        <p><strong>The estimate is one input. CPP, OAS, GIS and the survivor rules decide the household cheque.</strong></p>
+        <p>The Canadian Government Benefits Guide puts those programs on one page set. For the whole retirement income plan, see the <a href="/ebooks/retirement-guide/">Canadian Retirement Guide</a>.</p>
+        <a href="/ebooks/government-benefits-guide/" class="cta-button">Get the Government Benefits Guide — $29 CAD</a>
     </div>
 
-    ${footer(published)}
+    ${footer(published, 'November 13, 2026', 'This is general education about the Canada Pension Plan. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. Figures are from Canada.ca, ESDC and CRA pages checked November 13, 2026. Dollar examples marked as illustrations are arithmetic on those figures, not a quote of your file. Confirm My Service Canada Account and your statement of contributions before you choose a start date.')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-11-13',
+  },
+
   benefitsPost(
     'oas-eligibility-deferral-canada',
     'OAS Eligibility, Deferral, and the Age-75 Increase',
