@@ -9,12 +9,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -31,8 +31,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -43,12 +43,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -65,8 +65,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven yr"
       }
     },
@@ -83,8 +83,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven yr"
       }
     },
@@ -99,8 +99,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
@@ -117,8 +117,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical net"
       }
     },
@@ -129,12 +129,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -145,12 +145,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -161,12 +161,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -177,12 +177,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -193,12 +193,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -209,12 +209,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -225,12 +225,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For Quebec residents, $119/year\""
       }
     },
@@ -247,8 +247,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean extra"
       }
     },
@@ -265,8 +265,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical extra"
       }
     },
@@ -283,8 +283,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high extra"
       }
     },
@@ -301,8 +301,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean net"
       }
     },
@@ -319,8 +319,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical net"
       }
     },
@@ -337,8 +337,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high net"
       }
     },
@@ -349,12 +349,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -371,8 +371,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -383,12 +383,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -399,12 +399,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -421,8 +421,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -433,12 +433,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -449,12 +449,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -465,12 +465,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For Quebec residents, $119/year\""
       }
     },
@@ -481,12 +481,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -497,12 +497,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -513,12 +513,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -529,12 +529,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -545,12 +545,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -561,12 +561,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -577,12 +577,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $300 cash back annually\""
       }
     },
@@ -599,8 +599,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): nf cap spend"
       }
     },
@@ -611,12 +611,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -627,12 +627,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"1.25% CASH BACK On everything else\""
       }
     },
@@ -643,12 +643,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"21.99% on purchases and 21.99% on funds advances\""
       }
     },
@@ -663,8 +663,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -679,8 +679,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -697,8 +697,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven yr"
       }
     },
@@ -715,8 +715,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven mo"
       }
     },
@@ -731,8 +731,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -747,8 +747,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -765,8 +765,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven yr"
       }
     },
@@ -783,8 +783,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): rate gap else (pts)"
       }
     },
@@ -795,12 +795,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -817,8 +817,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean annual"
       }
     },
@@ -833,8 +833,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -849,8 +849,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -867,8 +867,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean sp cb"
       }
     },
@@ -885,8 +885,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean nf cb"
       }
     },
@@ -903,8 +903,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean extra"
       }
     },
@@ -921,8 +921,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean net"
       }
     },
@@ -939,8 +939,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven yr"
       }
     },
@@ -957,8 +957,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven mo"
       }
     },
@@ -975,8 +975,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical annual"
       }
     },
@@ -991,8 +991,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -1007,8 +1007,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -1025,8 +1025,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical sp cb"
       }
     },
@@ -1043,8 +1043,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical nf cb"
       }
     },
@@ -1061,8 +1061,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical extra"
       }
     },
@@ -1079,8 +1079,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical net"
       }
     },
@@ -1097,8 +1097,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical breakeven yr"
       }
     },
@@ -1115,8 +1115,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical breakeven mo"
       }
     },
@@ -1133,8 +1133,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high annual"
       }
     },
@@ -1149,8 +1149,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -1165,8 +1165,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -1183,8 +1183,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high sp cb"
       }
     },
@@ -1201,8 +1201,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high nf cb"
       }
     },
@@ -1219,8 +1219,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high extra"
       }
     },
@@ -1237,8 +1237,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high net"
       }
     },
@@ -1255,8 +1255,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven yr"
       }
     },
@@ -1273,8 +1273,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven mo"
       }
     },
@@ -1285,12 +1285,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -1307,8 +1307,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven yr"
       }
     },
@@ -1325,8 +1325,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven yr"
       }
     },
@@ -1341,8 +1341,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"mix\"; declared input: True)"
       }
     },
@@ -1359,8 +1359,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean net"
       }
     },
@@ -1371,12 +1371,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -1393,8 +1393,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean net"
       }
     },
@@ -1411,8 +1411,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical net"
       }
     },
@@ -1429,8 +1429,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high net"
       }
     },
@@ -1445,8 +1445,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -1463,8 +1463,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical annual"
       }
     },
@@ -1479,8 +1479,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -1497,8 +1497,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line groc"
       }
     },
@@ -1513,8 +1513,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -1531,8 +1531,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line gas"
       }
     },
@@ -1549,8 +1549,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line else"
       }
     },
@@ -1567,8 +1567,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line groc"
       }
     },
@@ -1579,12 +1579,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -1601,8 +1601,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line sp groc"
       }
     },
@@ -1619,8 +1619,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line gas"
       }
     },
@@ -1637,8 +1637,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line sp gas"
       }
     },
@@ -1655,8 +1655,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line else"
       }
     },
@@ -1667,12 +1667,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -1689,8 +1689,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line sp else"
       }
     },
@@ -1707,8 +1707,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical sp cb"
       }
     },
@@ -1719,12 +1719,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -1741,8 +1741,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical sp net after fee"
       }
     },
@@ -1759,8 +1759,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line groc"
       }
     },
@@ -1771,12 +1771,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK On gas 2% CASH BACK On gas For eligible gas station purchases in Canada3 2% CASH BACK On grocery 2% CASH BACK On grocery\""
       }
     },
@@ -1793,8 +1793,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line nf groc"
       }
     },
@@ -1811,8 +1811,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line gas"
       }
     },
@@ -1829,8 +1829,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line nf gas"
       }
     },
@@ -1847,8 +1847,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line else"
       }
     },
@@ -1859,12 +1859,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"1.25% CASH BACK On everything else\""
       }
     },
@@ -1881,8 +1881,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical line nf else"
       }
     },
@@ -1899,8 +1899,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical nf cb"
       }
     },
@@ -1911,12 +1911,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -1927,12 +1927,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -1947,8 +1947,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -1965,8 +1965,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): superstore shift"
       }
     },
@@ -1977,12 +1977,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -1993,12 +1993,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -2009,12 +2009,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -2025,12 +2025,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -2041,12 +2041,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"21.99% on purchases and 21.99% on funds advances\""
       }
     },
@@ -2063,8 +2063,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -2081,8 +2081,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): interest 1000"
       }
     },
@@ -2099,8 +2099,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): rate gap else (pts)"
       }
     },
@@ -2111,12 +2111,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -2133,8 +2133,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): rate gap else (pts)"
       }
     },
@@ -2145,12 +2145,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -2161,12 +2161,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -2177,12 +2177,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -2199,8 +2199,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): rate gap else (pts)"
       }
     },
@@ -2211,12 +2211,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -2227,12 +2227,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $300 cash back annually\""
       }
     },
@@ -2249,8 +2249,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): nf cap spend"
       }
     },
@@ -2267,8 +2267,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): nf cap spend"
       }
     },
@@ -2279,12 +2279,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"maximum annual referral bonus of $750 cash back\""
       }
     },
@@ -2295,12 +2295,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $60 in statement credits within a 12 month period until December 31, 2027\""
       }
     },
@@ -2311,12 +2311,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $60 in statement credits within a 12 month period until December 31, 2027\""
       }
     },
@@ -2327,12 +2327,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $60 in statement credits within a 12 month period until December 31, 2027\""
       }
     },
@@ -2349,8 +2349,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean break-even $799/month, \"about $800\""
       }
     },
@@ -2367,8 +2367,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): rounded break-even/12 to nearest $10"
       }
     },
@@ -2383,8 +2383,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -2401,8 +2401,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean net"
       }
     },
@@ -2419,8 +2419,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven mo"
       }
     },
@@ -2435,8 +2435,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -2453,8 +2453,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): typical net"
       }
     },
@@ -2469,8 +2469,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -2487,8 +2487,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high net"
       }
     },
@@ -2505,8 +2505,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven mo"
       }
     },
@@ -2523,8 +2523,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -2535,12 +2535,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Earn up to $200 in bonus cash back\""
       }
     },
@@ -2551,12 +2551,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"bonus 10% cash back on all purchases (up to $2,000 in purchases) in your first 3 months\""
       }
     },
@@ -2567,12 +2567,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"bonus 10% cash back on all purchases (up to $2,000 in purchases) in your first 3 months\""
       }
     },
@@ -2583,12 +2583,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"$50 statement credit1* when you make a purchase in month 13\""
       }
     },
@@ -2599,12 +2599,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"$50 statement credit1* when you make a purchase in month 13\""
       }
     },
@@ -2615,12 +2615,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"UP TO $250 IN BONUS VALUE\""
       }
     },
@@ -2631,12 +2631,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -2647,12 +2647,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For non-Quebec residents, $9.99/month (Equals $119.88 annually)\""
       }
     },
@@ -2663,12 +2663,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"For Quebec residents, $119/year\""
       }
     },
@@ -2685,8 +2685,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): lean breakeven yr"
       }
     },
@@ -2703,8 +2703,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): high breakeven yr"
       }
     },
@@ -2715,12 +2715,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -2731,12 +2731,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -2747,12 +2747,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to a maximum of $30,000 in purchases posted to your account on this category (equal to $1,200 cash back) annually\""
       }
     },
@@ -2763,12 +2763,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"4% cash back for eligible purchases at American Express retail merchants as follows: (i) at stand-alone automobile gasoline stations in Canada, and (ii) at stand-alone grocery stores in Canada\""
       }
     },
@@ -2779,12 +2779,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK on everything else\""
       }
     },
@@ -2795,12 +2795,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"2% CASH BACK On gas 2% CASH BACK On gas For eligible gas station purchases in Canada3 2% CASH BACK On grocery 2% CASH BACK On grocery\""
       }
     },
@@ -2811,12 +2811,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"up to $300 cash back annually\""
       }
     },
@@ -2827,12 +2827,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash/",
       "sourceName": "Amex Canada: SimplyCash Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"1.25% CASH BACK On everything else\""
       }
     },
@@ -2843,12 +2843,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/credit-cards/simply-cash-preferred/",
       "sourceName": "Amex Canada: SimplyCash Preferred Card",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"21.99% on purchases and 21.99% on funds advances\""
       }
     }
