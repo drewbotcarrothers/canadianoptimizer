@@ -3,9 +3,9 @@
   "publishDate": "2026-11-19",
   "figures": [
     {
-      "id": "7c80505c0b60",
-      "value": "November 16, 2026",
-      "context": "This review, part of our cash back cards hub , prices every version against three household budgets using Neo's own rates, read on November 16, 2026.",
+      "id": "6d993c4f5a69",
+      "value": "November 18, 2026",
+      "context": "This review, part of our cash back cards hub , prices every version against three household budgets using Neo's own rates, read on November 18, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -14,10 +14,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -30,10 +30,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -48,10 +48,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, typical budget"
       }
     },
     {
@@ -61,15 +61,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ard Neo World Elite Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "f2885b2173f5",
@@ -78,15 +77,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      }
     },
     {
       "id": "809c5bec735b",
@@ -95,15 +93,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in\""
-      },
-      "needle": "income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"income $80,000/year Household minimum income $150,000/year 2% Everything Earn cashback on everything. Premium travel in\""
+      }
     },
     {
       "id": "de0201498e5f",
@@ -112,15 +109,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ll payments 2% Gas and EV charging 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "0a4f7ea6b35a",
@@ -129,15 +125,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"m income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual fee. Ge\""
-      },
-      "needle": "m income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual fee. Ge"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"m income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual fee. Ge\""
+      }
     },
     {
       "id": "91197d0a8172",
@@ -146,15 +141,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
-      },
-      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ercard - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      }
     },
     {
       "id": "82239a6f1976",
@@ -163,15 +157,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      }
     },
     {
       "id": "d98e426ba77a",
@@ -180,15 +173,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s card Neo World Elite Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "5758571ffe50",
@@ -197,15 +189,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
-      },
-      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else\""
+      }
     },
     {
       "id": "9cd56aa16713",
@@ -214,15 +205,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
-      },
-      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ng 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      }
     },
     {
       "id": "78e72883a831",
@@ -231,15 +221,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
-      },
-      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required. Neo World Elite Mast\""
+      }
     },
     {
       "id": "eab47d7ac11c",
@@ -248,15 +237,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
-      },
-      "needle": "astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
+      }
     },
     {
       "id": "d9448f977176",
@@ -270,10 +258,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $149 / 1% extra"
       }
     },
     {
@@ -283,20 +271,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
-      },
-      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"quires refundable security funds and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      }
     },
     {
-      "id": "408fae3358b3",
-      "value": "November 16, 2026",
-      "context": "We read Neo Financial's credit card comparison page and the Everywhere, Gas & Grocery and Shop & Dine pages on November 16, 2026, and recorded each card's earn rates, monthly spending limits, the rate paid above each limit, the annual fee and the income minimum.",
+      "id": "6ca273d2b1f7",
+      "value": "November 18, 2026",
+      "context": "We read Neo Financial's credit card comparison page and the Everywhere, Gas & Grocery and Shop & Dine pages on November 18, 2026, and recorded each card's earn rates, monthly spending limits, the rate paid above each limit, the annual fee and the income minimum.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -305,10 +292,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -321,10 +308,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -337,10 +324,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -353,10 +340,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -369,10 +356,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -385,10 +372,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -401,10 +388,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -417,10 +404,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -433,10 +420,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -449,10 +436,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -465,10 +452,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -481,10 +468,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -497,10 +484,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -513,10 +500,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -529,10 +516,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -545,10 +532,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -561,10 +548,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -577,10 +564,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -593,10 +580,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -609,10 +596,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -625,10 +612,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -641,10 +628,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration budget (lean / typical / high monthly spend), labelled on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -657,10 +644,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -673,10 +660,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -689,10 +676,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -702,20 +689,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s card Neo World Elite Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
-      "id": "ef007b39e71d",
-      "value": "November 16, 2026",
-      "context": "Neo cash back cards, earn rates and requirements (Neo Financial card pages, reviewed November 16, 2026)",
+      "id": "cde6ede25f4e",
+      "value": "November 18, 2026",
+      "context": "Neo cash back cards, earn rates and requirements (Neo Financial card pages, reviewed November 18, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -724,10 +710,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -737,15 +723,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $8\""
-      },
-      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $8"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; drafter needle was wrong, corrected to the source that prints it: \"Annual fee $0\""
+      }
     },
     {
       "id": "6abd12adc615",
@@ -754,15 +739,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ceries¹ 2% Recurring bill payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,\""
-      },
-      "needle": "ceries¹ 2% Recurring bill payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ceries 2% Recurring bill payments 2% Gas and EV charging 2% All other purchases 0.5% Get this card Compare Minimum $50,\""
+      }
     },
     {
       "id": "d629dd019649",
@@ -771,15 +755,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "ll payments¹ 2% Gas and EV charging¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ll payments 2% Gas and EV charging 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "0f74622ad7cf",
@@ -788,15 +771,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
-      },
-      "needle": "¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
+      }
     },
     {
       "id": "353f584ca7e6",
@@ -805,15 +787,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®\""
-      },
-      "needle": "0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required. Neo World Mastercard\""
+      }
     },
     {
       "id": "3b66d51790bf",
@@ -822,15 +803,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"one for you. Neo World Mastercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum inco\""
-      },
-      "needle": "one for you. Neo World Mastercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ne for you. Neo World Mastercard - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum inco\""
+      }
     },
     {
       "id": "1fd8c3a40d94",
@@ -839,15 +819,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"m income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashba\""
-      },
-      "needle": "m income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashba"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"m income $50,000/year Household minimum income $80,000/year 2% Food & drink 2% Shopping 0.5% Everything else Earn cashba\""
+      }
     },
     {
       "id": "34fa9e0402c5",
@@ -856,15 +835,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining. Wi\""
-      },
-      "needle": "d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining. Wi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d minimum income $80,000/year 2% Food & drink 2% Shopping 0.5% Everything else Earn cashback on your shopping & dining. Wi\""
+      }
     },
     {
       "id": "3d19dd1cafa9",
@@ -873,15 +851,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹\""
-      },
-      "needle": "ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rcard - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink\""
+      }
     },
     {
       "id": "0971ecbc2b2d",
@@ -890,15 +867,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink 2% Shopping 0.5% Everything else Ear\""
+      }
     },
     {
       "id": "0e32c324ccb9",
@@ -907,15 +883,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"hout paying an annual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (ind\""
-      },
-      "needle": "hout paying an annual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (ind"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; drafter needle was wrong, corrected to the source that prints it: \"Annual fee $0\""
+      }
     },
     {
       "id": "73cb1fb1d7b7",
@@ -924,15 +899,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "3a25b9a48d60",
@@ -941,15 +915,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
-      },
-      "needle": "¹ 2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"2% All other purchases 0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.\""
+      }
     },
     {
       "id": "bc069db32778",
@@ -958,15 +931,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®\""
-      },
-      "needle": "0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required.¹⁶ Neo World Mastercard®"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"0.5% Get this card Compare Minimum $50,000 (individual) or $80,000 (household) annual income required. Neo World Mastercard\""
+      }
     },
     {
       "id": "6b15169b8c47",
@@ -975,15 +947,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ard Neo World Elite Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "f0a7f7e7b6ae",
@@ -992,15 +963,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
-      },
-      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else\""
+      }
     },
     {
       "id": "6ab9f2abc5d0",
@@ -1009,15 +979,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"Grocery Cashback¹ — 2% 5% Recurring Payments Cashback⁹ – 2% 4% Gas & EV Charging Cashback¹ — 2% 3% Everything Else Cashbac\""
-      },
-      "needle": "Grocery Cashback¹ — 2% 5% Recurring Payments Cashback⁹ – 2% 4% Gas & EV Charging Cashback¹ — 2% 3% Everything Else Cashbac"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Grocery Cashback - 2% 5% Recurring Payments Cashback - 2% 4% Gas & EV Charging Cashback - 2% 3% Everything Else Cashbac\""
+      }
     },
     {
       "id": "940bc855639f",
@@ -1026,15 +995,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ceries¹ 5% Recurring bill payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,00\""
-      },
-      "needle": "ceries¹ 5% Recurring bill payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,00"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ceries 5% Recurring bill payments 4% Gas and EV charging 3% All other purchases 1% Get this card Compare Minimum $80,00\""
+      }
     },
     {
       "id": "529fcc9c1ea8",
@@ -1043,15 +1011,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ll payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,\""
-      },
-      "needle": "ll payments¹ 4% Gas and EV charging¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ll payments 4% Gas and EV charging 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,\""
+      }
     },
     {
       "id": "63b455b41f02",
@@ -1060,15 +1027,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
-      },
-      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ng 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      }
     },
     {
       "id": "379c383813c2",
@@ -1077,15 +1043,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
-      },
-      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required. Neo World Elite Mast\""
+      }
     },
     {
       "id": "0a7d56b9e382",
@@ -1094,15 +1059,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"card Neo World Elite Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "4a74970bb4e5",
@@ -1111,15 +1075,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
-      },
-      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else\""
+      }
     },
     {
       "id": "cef25b4294ba",
@@ -1128,15 +1091,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ear Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping\""
-      },
-      "needle": "ear Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ear Household minimum income $150,000/year 5% Food & drink 3% Shopping 1% Everything else Earn cashback on your shopping\""
+      }
     },
     {
       "id": "454dcafa2eab",
@@ -1145,15 +1107,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr\""
-      },
-      "needle": "minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"minimum income $150,000/year 5% Food & drink 3% Shopping 1% Everything else Earn cashback on your shopping & dining. Pr\""
+      }
     },
     {
       "id": "b8974e8d86ee",
@@ -1162,15 +1123,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink 2% Shopping 0.5% Everything else Ear\""
+      }
     },
     {
       "id": "786d7a11b51e",
@@ -1179,15 +1139,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn\""
-      },
-      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Food & drink 3% Shopping 1% Everything else Earn\""
+      }
     },
     {
       "id": "7c58c8d63c90",
@@ -1196,15 +1155,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "is card Neo World Elite® Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s card Neo World Elite Mastercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "707cc1f34f36",
@@ -1213,15 +1171,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in\""
-      },
-      "needle": "income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium travel in"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"income $80,000/year Household minimum income $150,000/year 2% Everything Earn cashback on everything. Premium travel in\""
+      }
     },
     {
       "id": "112f660e86df",
@@ -1230,15 +1187,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
-      },
-      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"conditions. Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      }
     },
     {
       "id": "6905cbe53b28",
@@ -1247,15 +1203,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "507f0b2302d0",
@@ -1264,15 +1219,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
-      },
-      "needle": "ng¹ 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ng 3% All other purchases 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required\""
+      }
     },
     {
       "id": "7a8f5432e395",
@@ -1281,15 +1235,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast\""
-      },
-      "needle": "s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required.¹⁶ Neo World Elite® Mast"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"s 1% Get this card Compare Minimum $80,000 (individual) or $150,000 (household) annual income required. Neo World Elite Mast\""
+      }
     },
     {
       "id": "388df0298bfa",
@@ -1298,15 +1251,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"core required⁴ Rewards type Cashback at Partners Annual fee $0 Get this card Compare No minimum income required. ¹⁶ ​ Trav\""
-      },
-      "needle": "core required⁴ Rewards type Cashback at Partners Annual fee $0 Get this card Compare No minimum income required. ¹⁶ ​ Trav"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ore required Rewards type Cashback at Partners Annual fee $0 Get this card Compare No minimum income required. ​ Trav\""
+      }
     },
     {
       "id": "335492382ef9",
@@ -1315,15 +1267,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
-      },
-      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ercard - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      }
     },
     {
       "id": "7a452551169e",
@@ -1332,15 +1283,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"ercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹²\""
-      },
-      "needle": "ercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹²"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ercard - Everywhere Annual fee $149 Personal minimum income $80,000/year Household minimum income $150,000/year 2% Everything\""
+      }
     },
     {
       "id": "ea5b047481b5",
@@ -1349,15 +1299,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
-      },
-      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything Earn cashback on everything. Premium t\""
+      }
     },
     {
       "id": "ce06177716ee",
@@ -1366,15 +1315,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-world-elite-mastercard",
       "sourceName": "Neo Financial: Neo World Elite Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_we, fetched 2026-11-16): \"purchase credit rate on the Neo World Elite® Mastercard is 19.99% to 25.24%. The standard rate on purchases and cash advance\""
-      },
-      "needle": "purchase credit rate on the Neo World Elite® Mastercard is 19.99% to 25.24%. The standard rate on purchases and cash advance"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"purchase credit rate on the Neo World Elite Mastercard is 19.99% to 25.24%. The standard rate on purchases and cash advance\""
+      }
     },
     {
       "id": "d260e41b53ee",
@@ -1383,15 +1331,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"is offer at any time. ¹⁶ The Purchase Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard ra\""
-      },
-      "needle": "is offer at any time. ¹⁶ The Purchase Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard ra"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"is offer at any time. The Purchase Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard r\""
+      }
     },
     {
       "id": "8e1aa26ae425",
@@ -1400,15 +1347,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"e Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is\""
-      },
-      "needle": "e Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e Credit Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances i\""
+      }
     },
     {
       "id": "01de28927a26",
@@ -1417,20 +1363,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"t Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is depen\""
-      },
-      "needle": "t Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is depen"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"t Rate is 19.99%-29.99% and the Cash Advance Rate is 22.99%-31.99%. The standard rate on purchases and cash advances is depen\""
+      }
     },
     {
-      "id": "eab9cc5be3ab",
-      "value": "November 16, 2026",
-      "context": "Yearly cash back after the annual fee, by Neo card and budget (our calculation from Neo's rates and limits, reviewed November 16, 2026; partner offers excluded)",
+      "id": "7b2aa2790537",
+      "value": "November 18, 2026",
+      "context": "Yearly cash back after the annual fee, by Neo card and budget (our calculation from Neo's rates and limits, reviewed November 18, 2026; partner offers excluded)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1439,10 +1384,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -1452,15 +1397,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining.\""
-      },
-      "needle": "d minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Earn cashback on your shopping & dining."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; drafter needle was wrong, corrected to the source that prints it: \"Annual fee $0\""
+      }
     },
     {
       "id": "49524bb0beb0",
@@ -1469,15 +1413,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "s card Neo World Elite® Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"card Neo World Elite Mastercard - Shop & Dine Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "1c8922990e11",
@@ -1489,10 +1432,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1507,10 +1450,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, lean budget"
       }
     },
     {
@@ -1525,10 +1468,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World S&D gross, lean budget"
       }
     },
     {
@@ -1543,10 +1486,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World Everywhere gross, lean budget"
       }
     },
     {
@@ -1561,10 +1504,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, lean budget"
       }
     },
     {
@@ -1579,10 +1522,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE S&D net of $149 fee, lean budget"
       }
     },
     {
@@ -1597,10 +1540,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE Everywhere net of $149 fee, lean budget"
       }
     },
     {
@@ -1613,10 +1556,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1631,10 +1574,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, typical budget"
       }
     },
     {
@@ -1649,10 +1592,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE S&D gross, lean budget"
       }
     },
     {
@@ -1667,10 +1610,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE Everywhere gross, lean budget"
       }
     },
     {
@@ -1685,10 +1628,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, typical budget"
       }
     },
     {
@@ -1703,10 +1646,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE S&D net of $149 fee, typical budget"
       }
     },
     {
@@ -1721,10 +1664,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE Everywhere net of $149 fee, typical budget"
       }
     },
     {
@@ -1737,10 +1680,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1755,10 +1698,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, high budget"
       }
     },
     {
@@ -1773,10 +1716,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World S&D gross, high budget"
       }
     },
     {
@@ -1791,10 +1734,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World Everywhere gross, high budget"
       }
     },
     {
@@ -1809,10 +1752,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, high budget"
       }
     },
     {
@@ -1827,10 +1770,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE S&D net of $149 fee, high budget"
       }
     },
     {
@@ -1845,10 +1788,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE Everywhere net of $149 fee, high budget"
       }
     },
     {
@@ -1861,10 +1804,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration: typical budget groceries"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1874,15 +1817,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
-      },
-      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else\""
+      }
     },
     {
       "id": "f07509b93a6e",
@@ -1896,10 +1838,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$800 x 5%"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $800 x 5%"
       }
     },
     {
@@ -1912,10 +1854,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration: typical budget gas"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1925,15 +1867,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything els\""
-      },
-      "needle": "000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything els"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"000/year Household minimum income $150,000/year 5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything els\""
+      }
     },
     {
       "id": "66bd20ba5c0a",
@@ -1947,10 +1888,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$250 x 3%"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $250 x 3%"
       }
     },
     {
@@ -1963,10 +1904,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration: typical budget recurring"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1976,15 +1917,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"imum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else Earn cashback on you\""
-      },
-      "needle": "imum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else Earn cashback on you"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"imum income $150,000/year 5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else Earn cashback on you\""
+      }
     },
     {
       "id": "38e387f1ada0",
@@ -1998,10 +1938,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$250 x 4%"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $250 x 4%"
       }
     },
     {
@@ -2016,10 +1956,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "dining $300 + shopping $300 + everything else $1,100 (typical budget)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: typical other spend"
       }
     },
     {
@@ -2029,15 +1969,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr\""
-      },
-      "needle": "minimum income $150,000/year 5% Food & drink¹ 3% Shopping¹ 1% Everything else Earn cashback on your shopping & dining. Pr"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"minimum income $150,000/year 5% Food & drink 3% Shopping 1% Everything else Earn cashback on your shopping & dining. Pr\""
+      }
     },
     {
       "id": "c4d1799d8828",
@@ -2051,10 +1990,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$1,700 x 1%"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $1,700 x 1%"
       }
     },
     {
@@ -2069,10 +2008,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$40 + $7.50 + $10 + $17 per month"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: typical WE G&G monthly"
       }
     },
     {
@@ -2087,10 +2026,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "months in a year"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed: months in a year"
       }
     },
     {
@@ -2105,10 +2044,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G gross, typical budget"
       }
     },
     {
@@ -2118,15 +2057,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
-      },
-      "needle": "card Neo World Elite® Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ard Neo World Elite Mastercard - Gas & Grocery Annual fee $149 Personal minimum income $80,000/year Household minimum inco\""
+      }
     },
     {
       "id": "7a2b6c964586",
@@ -2140,10 +2078,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, typical budget"
       }
     },
     {
@@ -2158,10 +2096,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, typical budget"
       }
     },
     {
@@ -2176,10 +2114,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$745 net World Elite Gas & Grocery minus $414 World Gas & Grocery (typical budget)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net minus World G&G net, typical"
       }
     },
     {
@@ -2194,10 +2132,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, lean budget"
       }
     },
     {
@@ -2212,10 +2150,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, lean budget"
       }
     },
     {
@@ -2225,15 +2163,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else\""
-      },
-      "needle": "5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payments⁹ 1% Everything else"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"5% Grocery 3% Gas & EV charging 4% Recurring payments 1% Everything else\""
+      }
     },
     {
       "id": "121b9dab8be4",
@@ -2242,15 +2179,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
-      },
-      "needle": "spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
+      }
     },
     {
       "id": "17e6ec9fb72d",
@@ -2259,15 +2195,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking\""
-      },
-      "needle": "pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback - breaking\""
+      }
     },
     {
       "id": "25259bdf91a7",
@@ -2276,15 +2211,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the a\""
-      },
-      "needle": "2% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the a"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"% back everywhere, you'd need to spend roughly $625/month ($7,500/year) to generate $149 in cashback - breaking even on the a\""
+      }
     },
     {
       "id": "805d4f72736e",
@@ -2293,15 +2227,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the annual fee. Partner cash\""
-      },
-      "needle": "need to spend roughly $625/month ($7,500/year) to generate $149 in cashback — breaking even on the annual fee. Partner cash"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"need to spend roughly $625/month ($7,500/year) to generate $149 in cashback - breaking even on the annual fee. Partner cash\""
+      }
     },
     {
       "id": "c580d229329c",
@@ -2310,15 +2243,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "b76c368f6046",
@@ -2332,10 +2264,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $149 / 1% extra"
       }
     },
     {
@@ -2350,10 +2282,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$14,900 / 12 = $1,241.67"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $14,900 / 12"
       }
     },
     {
@@ -2363,15 +2295,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
-      },
-      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"conditions. Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      }
     },
     {
       "id": "4e7216a9f1e5",
@@ -2380,15 +2311,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "4f11f8288ceb",
@@ -2397,15 +2327,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
-      },
-      "needle": "nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nual fee. Rewards type Cashback Annual fee $0 All purchases 1% Get this card Compare Minimum $50,000 (individual) or $80,0\""
+      }
     },
     {
       "id": "44fd244c0ec7",
@@ -2414,15 +2343,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
-      },
-      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"conditions. Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      }
     },
     {
       "id": "cf9aee8137ea",
@@ -2431,15 +2359,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"nd b) food and drink is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and $500\""
-      },
-      "needle": "nd b) food and drink is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and $500"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"nd b) food and drink is subject to a monthly spend limit of $1,000 per category with the Neo World Elite Mastercard and $500\""
+      }
     },
     {
       "id": "5735eb2a094b",
@@ -2448,15 +2375,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"h month. ⁹ Cashback earned on recurring payments subject to $500 monthly spend limit. Cashback is earned on the MCC categori\""
-      },
-      "needle": "h month. ⁹ Cashback earned on recurring payments subject to $500 monthly spend limit. Cashback is earned on the MCC categori"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"month. Cashback earned on recurring payments subject to $500 monthly spend limit. Cashback is earned on the MCC categori\""
+      }
     },
     {
       "id": "531c6bb454fe",
@@ -2465,15 +2391,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"e categories earns 1% with the Neo World Elite® Mastercard, 0.5% with the Neo World Mastercard®, and 0% with the Neo Masterc\""
-      },
-      "needle": "e categories earns 1% with the Neo World Elite® Mastercard, 0.5% with the Neo World Mastercard®, and 0% with the Neo Masterc"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e categories earns 1% with the Neo World Elite Mastercard, 0.5% with the Neo World Mastercard, and 0% with the Neo Masterc\""
+      }
     },
     {
       "id": "3cd07eb9ce3b",
@@ -2482,15 +2407,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N\""
-      },
-      "needle": "ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite Mastercard and the N\""
+      }
     },
     {
       "id": "34ac72c86c1f",
@@ -2499,15 +2423,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"World Elite® Mastercard and the Neo World Mastercard®, and $500 with the Neo Mastercard. Cashback earned on recurring payme\""
-      },
-      "needle": "World Elite® Mastercard and the Neo World Mastercard®, and $500 with the Neo Mastercard. Cashback earned on recurring payme"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"World Elite Mastercard and the Neo World Mastercard, and $500 with the Neo Mastercard. Cashback earned on recurring payme\""
+      }
     },
     {
       "id": "6df1d01508e3",
@@ -2516,15 +2439,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
-      },
-      "needle": "t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
+      }
     },
     {
       "id": "86468447c33c",
@@ -2533,15 +2455,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rcard or additional Neo World Mastercard. An annual fee of $49 will be charged for each additional Neo World Elite Masterc\""
-      },
-      "needle": "rcard or additional Neo World Mastercard. An annual fee of $49 will be charged for each additional Neo World Elite Masterc"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rcard or additional Neo World Mastercard. An annual fee of $49 will be charged for each additional Neo World Elite Masterc\""
+      }
     },
     {
       "id": "4b986fb585ab",
@@ -2550,15 +2471,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"here Cashback on everything 1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Maste\""
-      },
-      "needle": "here Cashback on everything 1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Maste"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"here Cashback on everything 1% 2% Partner Cashback Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards $0 $49 Maste\""
+      }
     },
     {
       "id": "7be5777f85c9",
@@ -2567,15 +2487,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"Available with secured credit Purchase Rate⁴ 19.99%–29.99% 19.99%–29.99% Cash Advance Rate⁴ 22.99%–31.99% 22.99%–31.99% Appl\""
-      },
-      "needle": "Available with secured credit Purchase Rate⁴ 19.99%–29.99% 19.99%–29.99% Cash Advance Rate⁴ 22.99%–31.99% 22.99%–31.99% Appl"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Available with secured credit Purchase Rate 19.99%-29.99% 19.99%-29.99% Cash Advance Rate 22.99%-31.99% 22.99%-31.99% Appl\""
+      }
     },
     {
       "id": "05ff7bf43e84",
@@ -2587,10 +2506,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration carried balance"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -2605,10 +2524,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$1,000 x 19.99% for a year, rounded"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: $1,000 x 19.99% a year"
       }
     },
     {
@@ -2618,15 +2537,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"et an offer for a Neo Mastercard with a credit limit up to $10,000. Card with secured credit limit If you're starting out or r\""
-      },
-      "needle": "et an offer for a Neo Mastercard with a credit limit up to $10,000. Card with secured credit limit If you're starting out or r"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"et an offer for a Neo Mastercard with a credit limit up to $10,000. Card with secured credit limit If you're starting out or r\""
+      }
     },
     {
       "id": "538580db87df",
@@ -2635,15 +2553,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
-      },
-      "needle": "The minimum amount of security funds to get started is $50."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"The minimum amount of security funds to get started is $50.\""
+      }
     },
     {
       "id": "be42615889c3",
@@ -2652,15 +2569,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
-      },
-      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"quires refundable security funds and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      }
     },
     {
       "id": "0831927bf7d0",
@@ -2674,10 +2590,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "$9.99 Neo Build monthly fee x 12"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: Build $9.99 x 12"
       }
     },
     {
@@ -2687,15 +2603,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
-      },
-      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ercard - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      }
     },
     {
       "id": "6c8c6b1bda30",
@@ -2704,15 +2619,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      }
     },
     {
       "id": "c293ffc28142",
@@ -2721,15 +2635,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
-      },
-      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything Earn cashback on everything. Premium t\""
+      }
     },
     {
       "id": "39e22826f5a7",
@@ -2738,20 +2651,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"travel insurance² Rewards type Premium Cashback Annual fee $149 Groceries¹ 5% Recurring bill payments¹ 4% Gas and EV chargi\""
-      },
-      "needle": "travel insurance² Rewards type Premium Cashback Annual fee $149 Groceries¹ 5% Recurring bill payments¹ 4% Gas and EV chargi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"travel insurance Rewards type Premium Cashback Annual fee $149 Groceries 5% Recurring bill payments 4% Gas and EV chargi\""
+      }
     },
     {
-      "id": "486e302e76f5",
-      "value": "November 16, 2026",
-      "context": "Neo picks by situation (our reading of Neo's pages, reviewed November 16, 2026; no affiliate links)",
+      "id": "4fc27279ef39",
+      "value": "November 18, 2026",
+      "context": "Neo picks by situation (our reading of Neo's pages, reviewed November 18, 2026; no affiliate links)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -2760,10 +2672,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -2773,15 +2685,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Grocery¹ 2% Gas & EV charging¹ 2% Recurring payment\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Grocery¹ 2% Gas & EV charging¹ 2% Recurring payment"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Grocery 2% Gas & EV charging 2% Recurring payment\""
+      }
     },
     {
       "id": "ca1ff90f8447",
@@ -2790,15 +2701,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/gas-and-grocery",
       "sourceName": "Neo Financial: Gas & Grocery credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_gg, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payment\""
-      },
-      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 5% Grocery¹ 3% Gas & EV charging¹ 4% Recurring payment"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"sonal minimum income $80,000/year Household minimum income $150,000/year 5% Grocery 3% Gas & EV charging 4% Recurring payment\""
+      }
     },
     {
       "id": "b85e5fbb946b",
@@ -2812,10 +2722,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, lean budget"
       }
     },
     {
@@ -2830,10 +2740,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, typical budget"
       }
     },
     {
@@ -2848,10 +2758,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, high budget"
       }
     },
     {
@@ -2861,15 +2771,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹\""
-      },
-      "needle": "ercard® - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rcard - Shop & Dine Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink\""
+      }
     },
     {
       "id": "18bbc1495dda",
@@ -2878,15 +2787,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/shop-and-dine",
       "sourceName": "Neo Financial: Shop & Dine credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_sd, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink¹ 2% Shopping¹ 0.5% Everything else Ear"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 2% Food & drink 2% Shopping 0.5% Everything else Ear\""
+      }
     },
     {
       "id": "4fa8b5967500",
@@ -2900,10 +2808,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, lean budget"
       }
     },
     {
@@ -2918,10 +2826,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: World G&G gross, high budget"
       }
     },
     {
@@ -2931,15 +2839,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
-      },
-      "needle": "The minimum amount of security funds to get started is $50."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"The minimum amount of security funds to get started is $50.\""
+      }
     },
     {
       "id": "fbf03d5686bb",
@@ -2948,15 +2855,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
-      },
-      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"quires refundable security funds and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      }
     },
     {
       "id": "fab9c293ed43",
@@ -2970,10 +2876,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: WE G&G net of $149 fee, typical budget"
       }
     },
     {
@@ -2983,15 +2889,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extende\""
-      },
-      "needle": "1% 2%¹² Partner Cashback² Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extende"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"% 2% Partner Cashback Up to 15% Up to 15% Annual Fee $0 $149 Additional Cards $0 $49 Mastercard Zero Liability Extende\""
+      }
     },
     {
       "id": "808e12005fb1",
@@ -3000,15 +2905,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"p to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extended Warranty & Purchase Pro\""
-      },
-      "needle": "p to 15% Up to 15% Annual Fee $0 $149 Additional Cards⁵ $0 $49 Mastercard Zero Liability³ Extended Warranty & Purchase Pro"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"p to 15% Up to 15% Annual Fee $0 $149 Additional Cards $0 $49 Mastercard Zero Liability Extended Warranty & Purchase Pro\""
+      }
     },
     {
       "id": "1331b02b1fe9",
@@ -3017,15 +2921,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
-      },
-      "needle": "tercard® - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ercard - Everywhere Annual fee $0 Personal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Ea\""
+      }
     },
     {
       "id": "e50de29b324f",
@@ -3034,15 +2937,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
-      },
-      "needle": "rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rsonal minimum income $50,000/year Household minimum income $80,000/year 1% Everything Earn cashback everywhere. With no annual\""
+      }
     },
     {
       "id": "586e5e8db302",
@@ -3051,15 +2953,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t\""
-      },
-      "needle": "sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything¹² Earn cashback on everything. Premium t"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"sonal minimum income $80,000/year Household minimum income $150,000/year 2% Everything Earn cashback on everything. Premium t\""
+      }
     },
     {
       "id": "6d732b474bc4",
@@ -3068,15 +2969,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards",
       "sourceName": "Neo Financial: Compare Neo credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_cards, fetched 2026-11-16): \"astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
-      },
-      "needle": "astercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"stercard. Cashback earned on recurring payments subject to $500 monthly spend limit and is earned on the MCC categories, wh\""
+      }
     },
     {
       "id": "aa25b9bdfd6f",
@@ -3085,15 +2985,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N\""
-      },
-      "needle": "ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite® Mastercard and the N"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ing and d) groceries is subject to a monthly spend limit of $1,000 per category with the Neo World Elite Mastercard and the N\""
+      }
     },
     {
       "id": "177221ba661d",
@@ -3102,15 +3001,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
-      },
-      "needle": "spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"spend needed for the World Elite annual fee to pay off? At 2% back everywhere, you'd need to spend roughly $625/month ($7\""
+      }
     },
     {
       "id": "fa8b54c405c7",
@@ -3119,15 +3017,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
-      },
-      "needle": "conditions. ¹² Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"conditions. Cashback earned on all purchases subject to $4,000 monthly spend limit. When monthly spend limit is reached, s\""
+      }
     },
     {
       "id": "35088c28a021",
@@ -3136,15 +3033,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Mastercard. Spend limit resets monthly. Any r\""
-      },
-      "needle": "payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Mastercard. Spend limit resets monthly. Any r"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Mastercard. Spend limit resets monthly. Any r\""
+      }
     },
     {
       "id": "020b8384e898",
@@ -3153,15 +3049,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/everywhere",
       "sourceName": "Neo Financial: Everywhere credit cards",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_every, fetched 2026-11-16): \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
-      },
-      "needle": "t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"t is reached, earn rate for recurring payments decreases to 1% for Neo World Elite Mastercard and 0.5% for Neo World Maste\""
+      }
     },
     {
       "id": "c5a802157ca6",
@@ -3170,15 +3065,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"The minimum amount of security funds to get started is $50.\""
-      },
-      "needle": "The minimum amount of security funds to get started is $50."
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"The minimum amount of security funds to get started is $50.\""
+      }
     },
     {
       "id": "d1f6e10a3a67",
@@ -3187,15 +3081,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.neofinancial.com/credit-cards/neo-mastercard",
       "sourceName": "Neo Financial: Neo Mastercard",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page neo_mc, fetched 2026-11-16): \"quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
-      },
-      "needle": "quires refundable security funds³ and the Build membership ($9.99/month, with ways to get it for free) to get features to hel"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"quires refundable security funds and the Build membership ($9.99/month, with ways to get it for free) to get features to hel\""
+      }
     }
   ]
 }

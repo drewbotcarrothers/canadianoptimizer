@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Model behind the Nov 19 batch (our own arithmetic, CAD, annual unless stated).
 
-SOURCED (issuer, bank and government pages, read 2026-11-16; see each post's Sources):
+SOURCED (issuer, bank and government pages, re-read 2026-11-18; see each post's Sources):
   Neo (neofinancial.com/credit-cards and the Everywhere, Gas & Grocery, Shop & Dine pages):
     Neo World Mastercard ($0 fee): Gas & Grocery 2% groceries, 2% gas & EV charging, 2% recurring payments, 0.5% other;
       Shop & Dine 2% food & drink, 2% shopping, 0.5% other; Everywhere 1% on all purchases.
@@ -10,9 +10,9 @@ SOURCED (issuer, bank and government pages, read 2026-11-16; see each post's Sou
     Neo World Elite Mastercard ($149 fee): Gas & Grocery 5% groceries, 3% gas & EV, 4% recurring, 1% other;
       Shop & Dine 5% food & drink, 3% shopping, 1% other; Everywhere 2% on all purchases up to $4,000 a month, then 1%.
       Monthly limits $1,000 per category (recurring $500). Over a limit the category earns 1%.
-  EQ Bank (eqbank.ca/rates, effective November 6, 2026): Personal Account 1.50% base, 3.00% with qualifying recurring
-    direct deposits of at least $2,000 a month; 30 Day Notice Savings 3.00%; GICs 1 yr 3.70%, 2 yr 4.15%, 3 yr 4.15%,
-    5 yr 4.30%.
+  EQ Bank (eqbank.ca/rates, effective November 18, 2026): Personal Account 1.50% base, 3.00% with qualifying recurring
+    direct deposits of at least $2,000 a month; 30 Day Notice Savings 3.00%; GICs 1 yr 3.70%, 2 yr 4.10%, 3 yr 4.00%,
+    5 yr 4.25%.
   RBC (rbcroyalbank.com/rates/persacct.html): RBC High Interest eSavings 0.650% on all balances.
   KOHO (koho.ca/accounts, Monthly and Yearly toggles): Core $0; Extra $18/mo (monthly) or $12/mo (yearly);
     Everything $22/mo (monthly) or $14.75/mo (yearly). Interest 2% / 2.5% / 3.5%. Cash back on groceries,
@@ -107,18 +107,20 @@ out['koho'] = koho
 # ---------- GIC vs HISA ----------
 P = 20000
 gic = {'principal': P, 'terms': {}}
-for term, rate in ((1, .037), (3, .0415), (5, .043)):
+for term, rate in ((1, .037), (3, .04), (5, .0425)):
     g = {'gic_rate': rate}
     g['gic_interest'] = round(P * ((1 + rate) ** term - 1), 2)
+    raw = {'gic': P * ((1 + rate) ** term - 1)}
     for name, hr in (('eq_base', .015), ('eq_bonus', .03), ('rbc', .0065)):
-        g[name] = round(P * ((1 + hr) ** term - 1), 2)
-    for mtr in (.30, .45):
+        raw[name] = P * ((1 + hr) ** term - 1)
+        g[name] = round(raw[name], 2)
+    for mtr in (.30, .45):  # after-tax from unrounded interest (avoids double rounding)
         key = f'mtr{int(mtr*100)}'
-        g[key] = {'gic_after_tax': round(g['gic_interest'] * (1 - mtr), 2),
-                  'eq_base_after_tax': round(g['eq_base'] * (1 - mtr), 2),
-                  'eq_bonus_after_tax': round(g['eq_bonus'] * (1 - mtr), 2)}
+        g[key] = {'gic_after_tax': round(raw['gic'] * (1 - mtr), 2),
+                  'eq_base_after_tax': round(raw['eq_base'] * (1 - mtr), 2),
+                  'eq_bonus_after_tax': round(raw['eq_bonus'] * (1 - mtr), 2)}
     gic['terms'][term] = g
-gic['first_year_interest_3y'] = round(P * .0415, 2)
+gic['first_year_interest_3y'] = round(P * .04, 2)
 out['gic'] = gic
 
 json.dump(out, open(__file__.replace('.py', '.out.json'), 'w'), indent=1)

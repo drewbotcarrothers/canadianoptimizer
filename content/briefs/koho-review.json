@@ -15,5 +15,24 @@
   "offers": [],
   "ebook": null,
   "publishDate": "2026-11-19",
-  "agentChecks": null
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "read the rendered post on 2026-11-18: the opening paragraph gives the verdict (Core for most; paid plans only with a large balance, Everything needs about $11,800 on deposit); every question H2 and FAQ opens with its answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "no invented quotes, experience, tests or review claims; plan prices, rates, Credit Building terms and CDIC wording attributed to KOHO pages and cardholder terms re-read today; break-even and example totals labelled our calculation/illustration"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "three picks by situation (moderate balance, large balance/heavy spend, credit building), one row each with Not-for-you and Also-consider; no affiliate link (no KOHO offer in the registry); disclosure linked"
+    }
+  }
 }

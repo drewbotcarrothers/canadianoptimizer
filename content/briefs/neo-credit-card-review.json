@@ -15,5 +15,24 @@
   "offers": [],
   "ebook": null,
   "publishDate": "2026-11-19",
-  "agentChecks": null
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "read the rendered post on 2026-11-18: the opening paragraph names the pick (World Elite Gas & Grocery, about $745/yr after the fee on the typical budget) and the no-fee fallback; every question H2 (which cards, how much cash back, the catch, credit building, which card) and each FAQ opens with a direct answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "no invented quotes, experience, tests or review claims: the only quote is Neo's own partner-offer wording; claims are attributed to Neo's card pages (re-checked today: Equifax/TransUnion, Amazon/wholesale exclusion, Costco gas, pre-approval with no hard check, Quebec rates, refunds); totals are labelled our calculation/illustration; no 'reviewed by'"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "three picks by situation (income and spending pattern), one row each with Not-for-you and Also-consider columns; no affiliate links or offer CTAs because the registry has no active Neo offer; disclosure linked in the method section"
+    }
+  }
 }

@@ -2,12 +2,12 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-19';
 
-const disclaimer = `General education, not financial advice. Plan prices, interest rates, cash back rates, fees and Credit Building terms were read from KOHO's pages and cardholder terms listed under Sources on November 16, 2026; KOHO says it can change plan fees, rates and benefits at any time, so check the app before you subscribe. The balances, spending amounts and yearly totals are our own illustrations and calculations, with rates held flat for a year. KOHO's extra cash back at select merchants is not included. Canadian Optimizer has no affiliate relationship with KOHO at the time of writing and links to no sign-up page.`;
+const disclaimer = `General education, not financial advice. Plan prices, interest rates, cash back rates, fees and Credit Building terms were read from KOHO's pages and cardholder terms listed under Sources on November 18, 2026; KOHO says it can change plan fees, rates and benefits at any time, so check the app before you subscribe. The balances, spending amounts and yearly totals are our own illustrations and calculations, with rates held flat for a year. KOHO's extra cash back at select merchants is not included. Canadian Optimizer has no affiliate relationship with KOHO at the time of writing and links to no sign-up page.`;
 
 const content = `<div class="container">
 
     <div class="hook">
-        KOHO looks like a bank account, works like a prepaid card, and sells three plans. <span class="highlight">Whether a paid plan pays for itself comes down to two numbers: how much you keep in the account and how much you spend in KOHO's bonus categories.</span> This review, part of our <a href="/category/budgeting-saving/banking/">banking and accounts hub</a>, works out both from KOHO's own prices on November 16, 2026.
+        KOHO looks like a bank account, works like a prepaid card, and sells three plans. <span class="highlight">Whether a paid plan pays for itself comes down to two numbers: how much you keep in the account and how much you spend in KOHO's bonus categories.</span> This review, part of our <a href="/category/budgeting-saving/banking/">banking and accounts hub</a>, works out both from KOHO's own prices on November 18, 2026.
     </div>
 
     <p>KOHO is worth it on the free Core plan for most people, and a paid plan only pays off with a large balance or heavy spending. As of November 2026, KOHO's Core plan costs $0 and pays 2% interest; Everything costs $14.75 a month billed yearly and pays 3.5%, which needs about $11,800 on deposit to cover its fee from interest alone.</p>
@@ -37,7 +37,7 @@ const content = `<div class="container">
     </nav>
 
     <h2 id="how">How we calculated KOHO's plan value</h2>
-    <p>We read KOHO's plan comparison page with both the Monthly and Yearly price toggles, its high-interest savings page, its Credit Building page and two KOHO articles on how Credit Building works and what it costs, plus the fee section of KOHO's cardholder terms, on November 16, 2026. We then worked out two things: the balance at which each paid plan's extra interest covers its fee, and the yearly result for an example household. The example keeps $10,000 in the account, spends $1,000 a month in KOHO's bonus categories (groceries, transportation, food and drinks) and $1,000 a month on everything else.</p>
+    <p>We read KOHO's plan comparison page with both the Monthly and Yearly price toggles, its high-interest savings page, its Credit Building page and two KOHO articles on how Credit Building works and what it costs, plus the fee section of KOHO's cardholder terms, on November 18, 2026. We then worked out two things: the balance at which each paid plan's extra interest covers its fee, and the yearly result for an example household. The example keeps $10,000 in the account, spends $1,000 a month in KOHO's bonus categories (groceries, transportation, food and drinks) and $1,000 a month on everything else.</p>
     <p>We left out KOHO's extra cash back at select merchants because it depends on the offer. KOHO is not a partner of ours. How we source and check numbers is on <a href="/how-we-use-ai/">how we use AI</a>, and our <a href="/disclosure/">disclosure page</a> explains how the site earns money.</p>
 
     <h2 id="plans">What do KOHO's plans cost and include?</h2>
@@ -45,7 +45,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>KOHO plans compared (KOHO accounts page, Monthly and Yearly toggles, reviewed November 16, 2026)</caption>
+            <caption>KOHO plans compared (KOHO accounts page, Monthly and Yearly toggles, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Feature</th><th>Core</th><th>Extra</th><th>Everything</th></tr>
             </thead>
@@ -69,7 +69,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper" data-info-gain>
         <table>
-            <caption>Balance needed for a paid KOHO plan's extra interest to cover its fee, vs the free Core plan (our calculation from KOHO's prices and rates, reviewed November 16, 2026)</caption>
+            <caption>Balance needed for a paid KOHO plan's extra interest to cover its fee, vs the free Core plan (our calculation from KOHO's prices and rates, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Plan</th><th>Extra interest vs Core</th><th>Yearly fee, yearly billing</th><th>Break-even balance</th><th>Yearly fee, monthly billing</th><th>Break-even balance</th></tr>
             </thead>
@@ -94,7 +94,7 @@ const content = `<div class="container">
         <p>For this household Extra comes out slightly behind Core on yearly billing ($316 vs $320), while Everything on yearly billing comes out ahead by $153. With half the balance or half the spending, Core wins.</p>
     </div>
 
-    <p>Compare the interest with a high-interest savings account too. EQ Bank's posted Personal Account rate was 1.50%, or 3.00% with direct deposits, as of its November 6, 2026 rates; our <a href="/blog/eq-bank-review/">EQ Bank review</a> has the details, and our <a href="/blog/best-high-interest-savings-accounts-canada/">best high-interest savings accounts</a> guide compares more.</p>
+    <p>Compare the interest with a high-interest savings account too. EQ Bank's posted Personal Account rate was 1.50%, or 3.00% with direct deposits, as of its November 18, 2026 rates; our <a href="/blog/eq-bank-review/">EQ Bank review</a> has the details, and our <a href="/blog/best-high-interest-savings-accounts-canada/">best high-interest savings accounts</a> guide compares more.</p>
 
     <h2 id="credit">How much does KOHO Credit Building cost?</h2>
     <p>KOHO Credit Building costs $10 a month at standard pricing, per KOHO's own article, with a 30% discount on Extra and 50% on Everything. That works out to about $120 a year on Core, $84 on Extra and $60 on Everything.</p>
@@ -102,7 +102,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Yearly cost of a credit-building tool (KOHO and Neo pages, reviewed November 16, 2026; yearly totals are our arithmetic)</caption>
+            <caption>Yearly cost of a credit-building tool (KOHO and Neo pages, reviewed November 18, 2026; yearly totals are our arithmetic)</caption>
             <thead>
                 <tr><th>Option</th><th>Monthly cost</th><th>Yearly cost</th><th>What it is</th></tr>
             </thead>
@@ -156,7 +156,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>KOHO picks by situation (our calculation and reading of KOHO's pages, reviewed November 16, 2026; no affiliate links)</caption>
+            <caption>KOHO picks by situation (our calculation and reading of KOHO's pages, reviewed November 18, 2026; no affiliate links)</caption>
             <thead>
                 <tr><th>If you&hellip;</th><th>Pick</th><th>Why</th><th>Not for you if&hellip;</th><th>Also consider</th></tr>
             </thead>
@@ -188,14 +188,14 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.koho.ca/accounts/">KOHO: Plans and online account (Monthly and Yearly prices)</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.koho.ca/save/">KOHO: High interest savings</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.koho.ca/credit-building/">KOHO: Credit Building</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.koho.ca/learn/how-does-koho-credit-building-work/">KOHO: How does KOHO Credit Building work?</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.koho.ca/learn/does-koho-build-credit/">KOHO: Does KOHO build credit?</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.koho.ca/legal/">KOHO: Legal terms and cardholder agreement</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/rates">EQ Bank: Rates (effective November 6, 2026)</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/neo-mastercard">Neo Financial: Neo Mastercard</a>, reviewed November 16, 2026</li>
+        <li><a href="https://www.koho.ca/accounts/">KOHO: Plans and online account (Monthly and Yearly prices)</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.koho.ca/save/">KOHO: High interest savings</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.koho.ca/credit-building/">KOHO: Credit Building</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.koho.ca/learn/how-does-koho-credit-building-work/">KOHO: How does KOHO Credit Building work?</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.koho.ca/learn/does-koho-build-credit/">KOHO: Does KOHO build credit?</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.koho.ca/legal/">KOHO: Legal terms and cardholder agreement</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/rates">EQ Bank: Rates (effective November 18, 2026)</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/neo-mastercard">Neo Financial: Neo Mastercard</a>, reviewed November 18, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

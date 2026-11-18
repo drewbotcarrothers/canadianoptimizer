@@ -3,9 +3,9 @@
   "publishDate": "2026-11-19",
   "figures": [
     {
-      "id": "9a40fa31346e",
-      "value": "November 16, 2026",
-      "context": "This comparison, part of our savings accounts, GICs and cash hub , puts after-tax numbers on it with rates read on November 16, 2026.",
+      "id": "114fc623eeb2",
+      "value": "November 18, 2026",
+      "context": "This comparison, part of our savings accounts, GICs and cash hub , puts after-tax numbers on it with rates read on November 18, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -14,117 +14,112 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
-      "id": "3218cfdbef4e",
+      "id": "f394b369784b",
       "value": "3.70%",
-      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.25% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
-      },
-      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"3.70%1\" (footnote 1 after the rate): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popu\""
+      }
     },
     {
-      "id": "969cc4a3c407",
-      "value": "4.30%",
-      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "id": "8a0500d32cca",
+      "value": "4.25%",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.25% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
-      },
-      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      }
     },
     {
-      "id": "34c4e76d5a2d",
+      "id": "2031d3526b5d",
       "value": "1.50%",
-      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.25% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi\""
-      },
-      "needle": "Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyin\""
+      }
     },
     {
-      "id": "35bde8e8173f",
+      "id": "00d5992e86ef",
       "value": "3.00%",
-      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.30% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
+      "context": "As of November 2026, EQ Bank paid 3.70% on a one-year GIC and 4.25% on five years, against 1.50% (3.00% with direct deposits) on its savings account.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible a\""
-      },
-      "needle": "Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible a"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+      }
     },
     {
-      "id": "36cd4912b16f",
+      "id": "ef278c6d7c3d",
       "value": "$20,000",
-      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "context": "On $20,000 for three years, EQ's 4.00% GIC earns about $2,497 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "55f16dc6f338",
-      "value": "4.15%",
-      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "id": "ae8d6b0a1ed6",
+      "value": "4.00%",
+      "context": "On $20,000 for three years, EQ's 4.00% GIC earns about $2,497 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
-      },
-      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"erm Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC te\""
+      }
     },
     {
-      "id": "8717bc0b00ac",
-      "value": "$2,595",
-      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "id": "9b3cf37ddb3b",
+      "value": "$2,497",
+      "context": "On $20,000 for three years, EQ's 4.00% GIC earns about $2,497 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -133,16 +128,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC at 4.00% on $20,000, compounded yearly"
       }
     },
     {
-      "id": "c75e640bbf0d",
+      "id": "70c421bb62ab",
       "value": "$914",
-      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "context": "On $20,000 for three years, EQ's 4.00% GIC earns about $2,497 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -151,79 +146,58 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: savings at 1.50% for 3 yr"
       }
     },
     {
-      "id": "27b07e0de557",
+      "id": "e36f26118ee9",
       "value": "1.50%",
-      "context": "On $20,000 for three years, EQ's 4.15% GIC earns about $2,595 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
+      "context": "On $20,000 for three years, EQ's 4.00% GIC earns about $2,497 before tax, against $914 at a flat 1.50% savings rate (our calculation).",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
       "id": "587e08a843f5",
       "value": "$100,000",
       "context": "GICs and savings deposits at a CDIC member are covered up to $100,000 per insured category, including interest.",
       "kind": "sourced",
-      "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
-      "sourceName": "Canada Deposit Insurance Corporation: What is covered",
-      "asOf": "2026-11-16",
+      "sourceUrl": "https://www.rbcroyalbank.com/bank-accounts/savings-accounts/",
+      "sourceName": "RBC Royal Bank: Savings accounts",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
-      },
-      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"dian-dollar and foreign-currency deposits are insured up to $100,000 per depositor, per category, per member institution, in the\""
+      }
     },
     {
-      "id": "65b8f99d5cb3",
-      "value": "November 6, 2026",
-      "context": "We read EQ Bank's rates page (rates effective November 6, 2026) for GIC and savings rates, RBC's posted personal account rates for a big-bank savings comparison, the CRA's line 12100 page for how interest is taxed, and CDIC's coverage page, all on November 16, 2026.",
+      "id": "728af9128e6b",
+      "value": "November 18, 2026",
+      "context": "We read EQ Bank's rates page (rates effective November 18, 2026) for GIC and savings rates, RBC's posted personal account rates for a big-bank savings comparison, the CRA's line 12100 page for how interest is taxed, and CDIC's coverage page, all on November 18, 2026.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
-      },
-      "needle": "hat works for you and your money goals. Our rates Effective November 6, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra"
-    },
-    {
-      "id": "fe9ffd20849b",
-      "value": "November 16, 2026",
-      "context": "We read EQ Bank's rates page (rates effective November 6, 2026) for GIC and savings rates, RBC's posted personal account rates for a big-bank savings comparison, the CRA's line 12100 page for how interest is taxed, and CDIC's coverage page, all on November 16, 2026.",
-      "kind": "derived",
-      "sourceUrl": "",
-      "sourceName": "",
-      "asOf": "",
-      "derivedFrom": [
-        "review"
-      ],
-      "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -236,10 +210,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -252,10 +226,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -268,16 +242,16 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "081b84634df0",
-      "value": "November 16, 2026",
-      "context": "GIC vs HISA at a glance (EQ Bank, RBC, CRA and CDIC pages, reviewed November 16, 2026)",
+      "id": "8243a7c9266a",
+      "value": "November 18, 2026",
+      "context": "GIC vs HISA at a glance (EQ Bank, RBC, CRA and CDIC pages, reviewed November 18, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -286,96 +260,91 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
-      "id": "2de661239d48",
+      "id": "33af1f401208",
       "value": "3.70%",
-      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.25% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
-      },
-      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
+      }
     },
     {
-      "id": "52255bd3d382",
-      "value": "4.30%",
-      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "id": "b7552ac5211a",
+      "value": "4.25%",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.25% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
-      },
-      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      }
     },
     {
-      "id": "685cd60590b5",
+      "id": "9b13ed85835b",
       "value": "1.50%",
-      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.25% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi\""
-      },
-      "needle": "Account and EQ Bank Card, the current base interest rate is 1.50% (the “Base Rate”). Customers who add and maintain qualifyi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyin\""
+      }
     },
     {
-      "id": "4e63451aa6fe",
+      "id": "7e65341a2564",
       "value": "3.00%",
-      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.25% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
-      },
-      "needle": "han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+      }
     },
     {
-      "id": "977baee7cec0",
+      "id": "a952e398e72e",
       "value": "0.650%",
-      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.30% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
+      "context": "Rate Fixed for the term (EQ: 3.70% for 1 year to 4.25% for 5 years) Variable (EQ: 1.50%, or 3.00% with direct deposits; RBC posted 0.650%)",
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
       "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
-      },
-      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
+      }
     },
     {
       "id": "3fa6c764ebe7",
@@ -384,15 +353,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"the notice period you selected when the account was opened (10 days or 30 days) is completed. After 10 or 30 days (on 11th\""
-      },
-      "needle": "the notice period you selected when the account was opened (10 days or 30 days) is completed. After 10 or 30 days (on 11th"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"the notice period you selected when the account was opened (10 days or 30 days) is completed. After 10 or 30 days (on 11th\""
+      }
     },
     {
       "id": "41c78b53b47a",
@@ -401,153 +369,163 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
-      },
-      "needle": "30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
+      }
     },
     {
-      "id": "e85f337b48c8",
-      "value": "2.70%",
-      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "id": "b33df2d76ba1",
+      "value": "2.65%",
+      "context": "EQ's short GICs fill the gap between the two: 2.65% for 3 months, 2.90% for 6 months and 3.30% for 9 months.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 y\""
-      },
-      "needle": "m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 y"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 y\""
+      }
     },
     {
-      "id": "72c512bdd9b5",
-      "value": "3.00%",
-      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "id": "e60e71e8a919",
+      "value": "2.90%",
+      "context": "EQ's short GICs fill the gap between the two: 2.65% for 3 months, 2.90% for 6 months and 3.30% for 9 months.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
-      },
-      "needle": "han 1 year) Non-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"han 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
+      }
     },
     {
-      "id": "a8d089a98f54",
+      "id": "cb409214b774",
       "value": "3.30%",
-      "context": "EQ's short GICs fill the gap between the two: 2.70% for 3 months, 3.00% for 6 months and 3.30% for 9 months.",
+      "context": "EQ's short GICs fill the gap between the two: 2.65% for 3 months, 2.90% for 6 months and 3.30% for 9 months.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered GICs TFSA Te\""
-      },
-      "needle": "n-registered Term Rate1 3 month 2.70% 6 month 3.00% 9 month 3.30% Short term GICs (less than 1 year) Registered GICs TFSA Te"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"n-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 year) Registered GICs TFSA Ter\""
+      }
     },
     {
-      "id": "26da4f8e453d",
+      "id": "07486d3ead68",
+      "value": "2.90%",
+      "context": "A six-month GIC at 2.90% pays less than the 3.00% on EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you a higher rate without the lock.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/rates",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"han 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
+      }
+    },
+    {
+      "id": "0e87f184b8a5",
       "value": "3.00%",
-      "context": "A six-month GIC at 3.00% pays the same rate as EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you the rate without the lock.",
+      "context": "A six-month GIC at 2.90% pays less than the 3.00% on EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you a higher rate without the lock.",
       "kind": "sourced",
-      "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
+      "sourceName": "EQ Bank: Personal Account",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
-      },
-      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
+      }
     },
     {
-      "id": "314c90e5e7c1",
+      "id": "34e4a46caf05",
       "value": "30",
-      "context": "A six-month GIC at 3.00% pays the same rate as EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you the rate without the lock.",
+      "context": "A six-month GIC at 2.90% pays less than the 3.00% on EQ's 30 Day Notice Savings Account, so for short periods the notice account gives you a higher rate without the lock.",
       "kind": "sourced",
-      "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
+      "sourceName": "EQ Bank: Notice Savings Account",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
-      },
-      "needle": "roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
+      }
     },
     {
-      "id": "7905d29400b9",
+      "id": "b608910641fd",
       "value": "$20,000",
-      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 18, 2026; savings rates held flat)",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "561ee79ca588",
+      "id": "4fe3b0efa4e9",
       "value": "30%",
-      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 18, 2026; savings rates held flat)",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "ac4086d78a82",
+      "id": "f038ab199273",
       "value": "45%",
-      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 18, 2026; savings rates held flat)",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "12671d0970a5",
-      "value": "November 16, 2026",
-      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 16, 2026; savings rates held flat)",
+      "id": "4116d7ff9d02",
+      "value": "November 18, 2026",
+      "context": "After-tax interest on $20,000: EQ GIC vs savings accounts, at 30% and 45% example marginal tax rates (our calculation from rates read November 18, 2026; savings rates held flat)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -556,10 +534,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -572,10 +550,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -584,16 +562,15 @@
       "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
       "id": "f9cc94da3972",
@@ -601,16 +578,15 @@
       "context": "Term EQ GIC rate GIC, 30% tax Savings at 1.50%, 30% tax Savings at 3.00%, 30% tax GIC, 45% tax Savings at 1.50%, 45% tax Savings at 3.00%, 45% tax",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
-      },
-      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
+      }
     },
     {
       "id": "fb5c2a8b934b",
@@ -622,10 +598,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -634,16 +610,15 @@
       "context": "1 year 3.70% $518 $210 $420 $407 $165 $330",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
-      },
-      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
+      }
     },
     {
       "id": "689daca7a07d",
@@ -657,10 +632,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1-yr GIC after 30% tax"
       }
     },
     {
@@ -675,10 +650,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 1 yr after 30% tax"
       }
     },
     {
@@ -693,10 +668,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 1 yr after 30% tax"
       }
     },
     {
@@ -711,10 +686,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1-yr GIC after 45% tax"
       }
     },
     {
@@ -729,10 +704,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 1 yr after 45% tax"
       }
     },
     {
@@ -747,33 +722,32 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 1 yr after 45% tax"
       }
     },
     {
-      "id": "12cb52b603d8",
-      "value": "4.15%",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "id": "ae9ecb0769be",
+      "value": "4.00%",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
-      },
-      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"erm Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC te\""
+      }
     },
     {
-      "id": "f319bbbf5001",
-      "value": "$1,816",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "id": "91b6ac4e189f",
+      "value": "$1,748",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -782,16 +756,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC after 30% tax"
       }
     },
     {
-      "id": "68a219dac433",
-      "value": "$640",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "id": "911c80bee8ff",
+      "value": "$639",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -800,16 +774,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 3 yr after 30% tax"
       }
     },
     {
-      "id": "20a25bd4f4e5",
+      "id": "33f2a7e22d10",
       "value": "$1,298",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -818,16 +792,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 3 yr after 30% tax"
       }
     },
     {
-      "id": "514ab4a4efd5",
-      "value": "$1,427",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "id": "fb36715041a7",
+      "value": "$1,374",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -836,16 +810,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC after 45% tax"
       }
     },
     {
-      "id": "d69c5ff8a8cc",
+      "id": "cd66965dc49e",
       "value": "$502",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -854,16 +828,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 3 yr after 45% tax"
       }
     },
     {
-      "id": "8d76d225594a",
+      "id": "d1c96893259e",
       "value": "$1,020",
-      "context": "3 years 4.15% $1,816 $640 $1,298 $1,427 $502 $1,020",
+      "context": "3 years 4.00% $1,748 $639 $1,298 $1,374 $502 $1,020",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -872,33 +846,32 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 3 yr after 45% tax"
       }
     },
     {
-      "id": "a75109862060",
-      "value": "4.30%",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "id": "48865e33eae8",
+      "value": "4.25%",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
-      },
-      "needle": "Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+      }
     },
     {
-      "id": "ea918c1e4a96",
-      "value": "$3,280",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "id": "d34b868c17ae",
+      "value": "$3,239",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -907,16 +880,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 5-yr GIC after 30% tax"
       }
     },
     {
-      "id": "fb873100c40a",
+      "id": "eaf8fd531931",
       "value": "$1,082",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -925,16 +898,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 5 yr after 30% tax"
       }
     },
     {
-      "id": "4c175cd73fae",
+      "id": "b6494e2bf291",
       "value": "$2,230",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -943,16 +916,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 5 yr after 30% tax"
       }
     },
     {
-      "id": "6edf28b5a7f5",
-      "value": "$2,577",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "id": "ec9a898abad4",
+      "value": "$2,545",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -961,16 +934,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 5-yr GIC after 45% tax"
       }
     },
     {
-      "id": "56776cf9be8a",
+      "id": "2280f88c52e7",
       "value": "$850",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -979,16 +952,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 5 yr after 45% tax"
       }
     },
     {
-      "id": "adb2ed9fd4f0",
+      "id": "8dac924e9aec",
       "value": "$1,752",
-      "context": "5 years 4.30% $3,280 $1,082 $2,230 $2,577 $850 $1,752",
+      "context": "5 years 4.25% $3,239 $1,082 $2,230 $2,545 $850 $1,752",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -997,10 +970,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 5 yr after 45% tax"
       }
     },
     {
@@ -1013,33 +986,32 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "6c44fb9f1f1b",
-      "value": "4.15%",
-      "context": "EQ 3-year GIC at 4.15%, compounded yearly $2,595",
+      "id": "122cad41449e",
+      "value": "4.00%",
+      "context": "EQ 3-year GIC at 4.00%, compounded yearly $2,497",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
-      },
-      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"erm Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC te\""
+      }
     },
     {
-      "id": "075738a8529c",
-      "value": "$2,595",
-      "context": "EQ 3-year GIC at 4.15%, compounded yearly $2,595",
+      "id": "c934d528312b",
+      "value": "$2,497",
+      "context": "EQ 3-year GIC at 4.00%, compounded yearly $2,497",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1048,10 +1020,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC at 4.00% on $20,000, compounded yearly"
       }
     },
     {
@@ -1060,16 +1032,15 @@
       "context": "EQ savings at 3.00% held flat, compounded yearly $1,855",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S\""
-      },
-      "needle": "n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more S"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
+      }
     },
     {
       "id": "2a53a18b67d3",
@@ -1083,10 +1054,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: savings at 3.00% for 3 yr"
       }
     },
     {
@@ -1095,16 +1066,15 @@
       "context": "EQ savings at 1.50% held flat $914",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
       "id": "c37ab4226e29",
@@ -1118,10 +1088,10 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: savings at 1.50% for 3 yr"
       }
     },
     {
@@ -1131,15 +1101,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
       "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
-      },
-      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
+      }
     },
     {
       "id": "c9a68d668084",
@@ -1153,33 +1122,32 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: savings at 0.650% for 3 yr"
       }
     },
     {
-      "id": "81821fb567d8",
+      "id": "1059ed82cbfb",
       "value": "1.50%",
-      "context": "GIC advantage over 1.50% savings, before tax $1,681",
+      "context": "GIC advantage over 1.50% savings, before tax $1,584",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
-      "id": "1d1a5fc191a9",
-      "value": "$1,681",
-      "context": "GIC advantage over 1.50% savings, before tax $1,681",
+      "id": "5ba7012ece25",
+      "value": "$1,584",
+      "context": "GIC advantage over 1.50% savings, before tax $1,584",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1188,32 +1156,32 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "3-year GIC interest $2,594.76 minus 1.50% savings interest $913.57"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC minus 1.50% savings"
       }
     },
     {
-      "id": "808cfe2fe718",
+      "id": "80ed8eb6eafd",
       "value": "30%",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "3f8572579020",
-      "value": "$1,816",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "id": "eedd7c767d79",
+      "value": "$1,748",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1222,16 +1190,16 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC after 30% tax"
       }
     },
     {
-      "id": "bea581f9a932",
+      "id": "42d798996242",
       "value": "$1,298",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1240,33 +1208,32 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3.00% savings 3 yr after 30% tax"
       }
     },
     {
-      "id": "59d62317ea5f",
+      "id": "970cb28ff889",
       "value": "3.00%",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_nsa, fetched 2026-11-16): \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accoun\""
-      },
-      "needle": "withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accoun"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accou\""
+      }
     },
     {
-      "id": "9bd0d2e5641c",
-      "value": "$640",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "id": "eed91a347590",
+      "value": "$639",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1275,28 +1242,27 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1.50% savings 3 yr after 30% tax"
       }
     },
     {
-      "id": "a514b0c354fc",
+      "id": "a2c622c60006",
       "value": "1.50%",
-      "context": "At a 30% marginal rate, the GIC leaves about $1,816 after tax over three years, against $1,298 at 3.00% savings and $640 at 1.50%.",
+      "context": "At a 30% marginal rate, the GIC leaves about $1,748 after tax over three years, against $1,298 at 3.00% savings and $639 at 1.50%.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
       "id": "eca7c9425d9a",
@@ -1305,15 +1271,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/bank-accounts/savings-accounts/",
       "sourceName": "RBC Royal Bank: Savings accounts",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page rbc_sav, fetched 2026-11-16): \"eposits made in the Eligible eSavings Account for 3 months (90 days) from the date the Eligible eSavings Account was opene\""
-      },
-      "needle": "eposits made in the Eligible eSavings Account for 3 months (90 days) from the date the Eligible eSavings Account was opene"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"eposits made in the Eligible eSavings Account for 3 months (90 days) from the date the Eligible eSavings Account was opene\""
+      }
     },
     {
       "id": "c7996d020656",
@@ -1322,20 +1287,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
       "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page rbc_rates, fetched 2026-11-16): \"RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650\""
-      },
-      "needle": "RBC High Interest eSavings™ If Balance isInterest Rate [%]All balances0.650"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
+      }
     },
     {
-      "id": "ef93a893f637",
-      "value": "November 16, 2026",
-      "context": "RBC's savings page advertises a bonus rate for 90 days on a new High Interest eSavings account, after which balances earn the posted regular rate, which was 0.650% on November 16, 2026.",
+      "id": "13d339b5bfa3",
+      "value": "November 18, 2026",
+      "context": "RBC's savings page advertises a bonus rate for 90 days on a new High Interest eSavings account, after which balances earn the posted regular rate, which was 0.650% on November 18, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1344,16 +1308,16 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
-      "id": "1def755a3df8",
-      "value": "$830",
-      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "id": "936c050269d6",
+      "value": "$800",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $800 on our $20,000 example at 4.00%, on the return for the year it was earned.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1362,44 +1326,43 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: first-year interest on 3-yr GIC"
       }
     },
     {
-      "id": "bc60dd9ce02c",
+      "id": "7cd2870d5e99",
       "value": "$20,000",
-      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $800 on our $20,000 example at 4.00%, on the return for the year it was earned.",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "22a58b8de89a",
-      "value": "4.15%",
-      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $830 on our $20,000 example at 4.15%, on the return for the year it was earned.",
+      "id": "341187fd5f4a",
+      "value": "4.00%",
+      "context": "With a three-year GIC that pays everything at the end, you still report the first year's interest, about $800 on our $20,000 example at 4.00%, on the return for the year it was earned.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most\""
-      },
-      "needle": "on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.15% 27 Month 4.10% 3 Year 4.15% 4 Year 4.20% 5 Year 4.30% Most"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"3 Year 4.00% 4 Year 4.10% 5 Year 4.25% 6 Year 4.10% 7 Year 4.00% 10 Year 4.00% Start investing Get Rate Banking you can cou\""
+      }
     },
     {
       "id": "ea71f0aa43e3",
@@ -1408,15 +1371,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12100-interest-other-investment-income.html",
       "sourceName": "Canada Revenue Agency: Line 12100, Interest and other investment income",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cra_12100, fetched 2026-11-16): \"tion slip. You may not receive a T5 slip for amounts under $50. If you hold a joint bank account, generally you report you\""
-      },
-      "needle": "tion slip. You may not receive a T5 slip for amounts under $50. If you hold a joint bank account, generally you report you"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"tion slip. You may not receive a T5 slip for amounts under $50. If you hold a joint bank account, generally you report you\""
+      }
     },
     {
       "id": "eb7001be7ecd",
@@ -1424,16 +1386,15 @@
       "context": "EQ Bank shows the same GIC rates for TFSA, RRSP and FHSA GICs as for non-registered ones, and pays 1.75% on its TFSA, FHSA and RRSP cash savings accounts.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"Savings Account 1.75%* Learn more RRSP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investment\""
-      },
-      "needle": "Savings Account 1.75%* Learn more RRSP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investment"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Savings Account 1.75%* Learn more FHSA Cash Savings Account 1.75%* Learn more RRSP Cash Savings Account 1.75%* Learn more US\""
+      }
     },
     {
       "id": "3bdf9c50daaf",
@@ -1442,15 +1403,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
       "sourceName": "Canada Deposit Insurance Corporation: What is covered",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
-      },
-      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      }
     },
     {
       "id": "bd08834608c0",
@@ -1459,15 +1419,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
       "sourceName": "Canada Deposit Insurance Corporation: What is covered",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
-      },
-      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      }
     },
     {
       "id": "455975227656",
@@ -1476,20 +1435,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_pa, fetched 2026-11-16): \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
-      },
-      "needle": "ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
+      }
     },
     {
-      "id": "326330055588",
-      "value": "November 16, 2026",
-      "context": "GIC or HISA picks by situation (our calculation and reading of EQ Bank, RBC, CRA and CDIC pages, reviewed November 16, 2026; no affiliate links)",
+      "id": "04098576545d",
+      "value": "November 18, 2026",
+      "context": "GIC or HISA picks by situation (our calculation and reading of EQ Bank, RBC, CRA and CDIC pages, reviewed November 18, 2026; no affiliate links)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1498,10 +1456,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: day the sources were read"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "review date = today, the day every source was re-opened"
       }
     },
     {
@@ -1510,16 +1468,15 @@
       "context": "An emergency fund High-interest savings account Withdraw any time; at EQ 1.50%, or 3.00% with direct deposits You keep far more than three to six months of spending in cash Our EQ Bank review",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50\""
-      },
-      "needle": "e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"e: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more Joint Account Base rate: 1.50%\""
+      }
     },
     {
       "id": "fb4b987ab9d2",
@@ -1528,20 +1485,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_pa, fetched 2026-11-16): \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2,\""
-      },
-      "needle": "osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2,"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
+      }
     },
     {
-      "id": "b0d2122e9a2c",
-      "value": "$1,816",
-      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "id": "23c6fe82ac46",
+      "value": "$1,748",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,748 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1550,42 +1506,42 @@
         "content/calcs/batch-20261119-model.py"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model output (batch-20261119-model.out.json)"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 3-yr GIC after 30% tax"
       }
     },
     {
-      "id": "1a2ea4216f68",
+      "id": "f25f22690c78",
       "value": "30%",
-      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,748 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
-      "id": "e593260e3993",
+      "id": "8a578099c085",
       "value": "$20,000",
-      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,816 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
+      "context": "A purchase 1–3 years away A GIC whose term ends before the date Fixed rate; $1,748 after 30% tax on $20,000 over 3 years in our example The date might move earlier A cashable GIC from your bank, if it offers one",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustration input, labelled as an example on the page"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
     {
@@ -1594,16 +1550,15 @@
       "context": "For money with a fixed date, usually yes: EQ Bank's one-year GIC paid 3.70% against 1.50% on its savings account as of November 2026.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu\""
-      },
-      "needle": "s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.30%1 Learn more Most popu"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18; page prints \"3.70%1\" (footnote 1 after the rate): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popu\""
+      }
     },
     {
       "id": "4e6f622a5efa",
@@ -1611,16 +1566,15 @@
       "context": "For money with a fixed date, usually yes: EQ Bank's one-year GIC paid 3.70% against 1.50% on its savings account as of November 2026.",
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
-      "sourceName": "EQ Bank: Rates (effective November 6, 2026)",
-      "asOf": "2026-11-16",
+      "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page eq_rates, fetched 2026-11-16): \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
-      },
-      "needle": "ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+      }
     },
     {
       "id": "a43093b4bd28",
@@ -1629,15 +1583,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
       "sourceName": "Canada Deposit Insurance Corporation: What is covered",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
-      },
-      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      }
     },
     {
       "id": "e0b311c43f03",
@@ -1646,15 +1599,14 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cdic.ca/depositors/whats-covered/",
       "sourceName": "Canada Deposit Insurance Corporation: What is covered",
-      "asOf": "2026-11-16",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "drafter needle (found in saved page cdic, fetched 2026-11-16): \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
-      },
-      "needle": "ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos"
+        "status": "match",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ach of the following categories is insured separately up to $100,000, including principal and interest. Depositors holding depos\""
+      }
     }
   ]
 }

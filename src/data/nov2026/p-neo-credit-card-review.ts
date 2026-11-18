@@ -2,12 +2,12 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-19';
 
-const disclaimer = `General education, not financial advice. Earn rates, spending limits, annual fees, income minimums and interest rates were read from Neo Financial's card pages listed under Sources on November 16, 2026; card terms change, so confirm the current figures with Neo before you apply. The three monthly spending profiles and every yearly cash back total are our own illustrations and calculations, not a promise of what you will earn. Partner cashback offers vary by merchant and are not included in our totals. Canadian Optimizer has no affiliate relationship with Neo Financial at the time of writing and links to no application page.`;
+const disclaimer = `General education, not financial advice. Earn rates, spending limits, annual fees, income minimums and interest rates were read from Neo Financial's card pages listed under Sources on November 18, 2026; card terms change, so confirm the current figures with Neo before you apply. The three monthly spending profiles and every yearly cash back total are our own illustrations and calculations, not a promise of what you will earn. Partner cashback offers vary by merchant and are not included in our totals. Canadian Optimizer has no affiliate relationship with Neo Financial at the time of writing and links to no application page.`;
 
 const content = `<div class="container">
 
     <div class="hook">
-        Neo no longer sells one card with a pile of partner offers. <span class="highlight">It now sells three cash back "flavours" at two price points, and the right one depends on where your money actually goes each month.</span> This review, part of our <a href="/category/credit-cards/cash-back/">cash back cards hub</a>, prices every version against three household budgets using Neo's own rates, read on November 16, 2026.
+        Neo no longer sells one card with a pile of partner offers. <span class="highlight">It now sells three cash back "flavours" at two price points, and the right one depends on where your money actually goes each month.</span> This review, part of our <a href="/category/credit-cards/cash-back/">cash back cards hub</a>, prices every version against three household budgets using Neo's own rates, read on November 18, 2026.
     </div>
 
     <p>For most households that qualify, the best Neo credit card is the Neo World Elite Mastercard in its Gas &amp; Grocery version: on our typical $3,000-a-month budget it returns about $745 a year after its $149 fee, per Neo's November 2026 rates. Without $80,000 of personal income, the no-fee World Gas &amp; Grocery card is the pick.</p>
@@ -36,7 +36,7 @@ const content = `<div class="container">
     </nav>
 
     <h2 id="how">How we compared Neo's cards</h2>
-    <p>We read Neo Financial's credit card comparison page and the Everywhere, Gas &amp; Grocery and Shop &amp; Dine pages on November 16, 2026, and recorded each card's earn rates, monthly spending limits, the rate paid above each limit, the annual fee and the income minimum. We then ran three illustrative monthly budgets through every card: a lean $1,500, a typical $3,000 and a high $5,000. Each budget is split across groceries, gas, recurring bills, dining, shopping and everything else. The result is the yearly cash back minus the annual fee.</p>
+    <p>We read Neo Financial's credit card comparison page and the Everywhere, Gas &amp; Grocery and Shop &amp; Dine pages on November 18, 2026, and recorded each card's earn rates, monthly spending limits, the rate paid above each limit, the annual fee and the income minimum. We then ran three illustrative monthly budgets through every card: a lean $1,500, a typical $3,000 and a high $5,000. Each budget is split across groceries, gas, recurring bills, dining, shopping and everything else. The result is the yearly cash back minus the annual fee.</p>
     <p>We left out partner cashback, because Neo says those offers vary by merchant and are limited, and we left out the travel cards (United and Cathay), which earn airline miles rather than cash. Neo is not a partner of ours, so partner status played no part. Our wider method, and what AI drafts on this site, is on <a href="/how-we-use-ai/">how we use AI</a>; our <a href="/disclosure/">disclosure page</a> explains how the site earns money.</p>
 
     <div class="table-wrapper">
@@ -62,7 +62,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Neo cash back cards, earn rates and requirements (Neo Financial card pages, reviewed November 16, 2026)</caption>
+            <caption>Neo cash back cards, earn rates and requirements (Neo Financial card pages, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Card</th><th>Annual fee</th><th>Bonus earn rates</th><th>Everything else</th><th>Income minimum (personal or household)</th></tr>
             </thead>
@@ -85,7 +85,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper" data-info-gain>
         <table>
-            <caption>Yearly cash back after the annual fee, by Neo card and budget (our calculation from Neo's rates and limits, reviewed November 16, 2026; partner offers excluded)</caption>
+            <caption>Yearly cash back after the annual fee, by Neo card and budget (our calculation from Neo's rates and limits, reviewed November 18, 2026; partner offers excluded)</caption>
             <thead>
                 <tr><th>Budget</th><th>World Gas &amp; Grocery ($0)</th><th>World Shop &amp; Dine ($0)</th><th>World Everywhere ($0)</th><th>World Elite Gas &amp; Grocery ($149)</th><th>World Elite Shop &amp; Dine ($149)</th><th>World Elite Everywhere ($149)</th></tr>
             </thead>
@@ -158,7 +158,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Neo picks by situation (our reading of Neo's pages, reviewed November 16, 2026; no affiliate links)</caption>
+            <caption>Neo picks by situation (our reading of Neo's pages, reviewed November 18, 2026; no affiliate links)</caption>
             <thead>
                 <tr><th>If you&hellip;</th><th>Pick</th><th>Why</th><th>Not for you if&hellip;</th><th>Also consider</th></tr>
             </thead>
@@ -190,12 +190,12 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.neofinancial.com/credit-cards">Neo Financial: Compare Neo credit cards</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/everywhere">Neo Financial: Everywhere credit cards</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/gas-and-grocery">Neo Financial: Gas &amp; Grocery credit cards</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/shop-and-dine">Neo Financial: Shop &amp; Dine credit cards</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/neo-world-elite-mastercard">Neo Financial: Neo World Elite Mastercard</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.neofinancial.com/credit-cards/neo-mastercard">Neo Financial: Neo Mastercard</a>, reviewed November 16, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards">Neo Financial: Compare Neo credit cards</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/everywhere">Neo Financial: Everywhere credit cards</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/gas-and-grocery">Neo Financial: Gas &amp; Grocery credit cards</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/shop-and-dine">Neo Financial: Shop &amp; Dine credit cards</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/neo-world-elite-mastercard">Neo Financial: Neo World Elite Mastercard</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.neofinancial.com/credit-cards/neo-mastercard">Neo Financial: Neo Mastercard</a>, reviewed November 18, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

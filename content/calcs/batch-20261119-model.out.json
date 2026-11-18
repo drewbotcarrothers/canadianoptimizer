@@ -187,40 +187,40 @@
     }
    },
    "3": {
-    "gic_rate": 0.0415,
-    "gic_interest": 2594.76,
+    "gic_rate": 0.04,
+    "gic_interest": 2497.28,
     "eq_base": 913.57,
     "eq_bonus": 1854.54,
     "rbc": 392.54,
     "mtr30": {
-     "gic_after_tax": 1816.33,
+     "gic_after_tax": 1748.1,
      "eq_base_after_tax": 639.5,
      "eq_bonus_after_tax": 1298.18
     },
     "mtr45": {
-     "gic_after_tax": 1427.12,
+     "gic_after_tax": 1373.5,
      "eq_base_after_tax": 502.46,
      "eq_bonus_after_tax": 1020.0
     }
    },
    "5": {
-    "gic_rate": 0.043,
-    "gic_interest": 4686.05,
+    "gic_rate": 0.0425,
+    "gic_interest": 4626.93,
     "eq_base": 1545.68,
     "eq_bonus": 3185.48,
     "rbc": 658.51,
     "mtr30": {
-     "gic_after_tax": 3280.24,
+     "gic_after_tax": 3238.85,
      "eq_base_after_tax": 1081.98,
      "eq_bonus_after_tax": 2229.84
     },
     "mtr45": {
-     "gic_after_tax": 2577.33,
+     "gic_after_tax": 2544.81,
      "eq_base_after_tax": 850.12,
      "eq_bonus_after_tax": 1752.01
     }
    }
   },
-  "first_year_interest_3y": 830.0
+  "first_year_interest_3y": 800.0
  }
 }

@@ -2,15 +2,15 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-19';
 
-const disclaimer = `General education, not financial advice. Interest rates, fees, limits and deposit insurance rules were read from EQ Bank's, RBC's and the Canada Deposit Insurance Corporation's pages listed under Sources on November 16, 2026. EQ Bank's rates were effective November 6, 2026 and can change without notice, so confirm the current rate before you move money. The $10,000 balance and the interest totals are our own illustrations, calculated as balance times the annual rate for one year with the rate held flat; actual interest is calculated daily and paid monthly. Canadian Optimizer has no live affiliate relationship with EQ Bank at the time of writing and links to no sign-up page.`;
+const disclaimer = `General education, not financial advice. Interest rates, fees, limits and deposit insurance rules were read from EQ Bank's, RBC's and the Canada Deposit Insurance Corporation's pages listed under Sources on November 18, 2026. EQ Bank's rates were effective November 18, 2026 and can change without notice, so confirm the current rate before you move money. The $10,000 balance and the interest totals are our own illustrations, calculated as balance times the annual rate for one year with the rate held flat; actual interest is calculated daily and paid monthly. Canadian Optimizer has no live affiliate relationship with EQ Bank at the time of writing and links to no sign-up page.`;
 
 const content = `<div class="container">
 
     <div class="hook">
-        EQ Bank is the online bank most Canadians hear about first, usually because of the rate. <span class="highlight">The real question is which EQ account your money belongs in, and what you give up for the extra interest.</span> This review, part of our <a href="/category/budgeting-saving/savings-gics-cash/">savings accounts, GICs and cash hub</a>, checks every rate, fee and limit on EQ Bank's own pages as of November 16, 2026.
+        EQ Bank is the online bank most Canadians hear about first, usually because of the rate. <span class="highlight">The real question is which EQ account your money belongs in, and what you give up for the extra interest.</span> This review, part of our <a href="/category/budgeting-saving/savings-gics-cash/">savings accounts, GICs and cash hub</a>, checks every rate, fee and limit on EQ Bank's own pages as of November 18, 2026.
     </div>
 
-    <p>EQ Bank is a good home for savings and everyday cash if you are comfortable banking online only. As of November 2026, EQ Bank pays 1.50% on its Personal Account, or 3.00% when you direct-deposit at least $2,000 a month, with no everyday banking fees. Its GICs paid 3.70% for one year and 4.30% for five.</p>
+    <p>EQ Bank is a good home for savings and everyday cash if you are comfortable banking online only. As of November 2026, EQ Bank pays 1.50% on its Personal Account, or 3.00% when you direct-deposit at least $2,000 a month, with no everyday banking fees. Its GICs paid 3.70% for one year and 4.25% for five.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
@@ -38,15 +38,15 @@ const content = `<div class="container">
     </nav>
 
     <h2 id="how">How we compared EQ Bank</h2>
-    <p>We read EQ Bank's rates page (rates effective November 6, 2026), the Personal Account page and its fees and features table, the EQ Bank Card page and its fee table, the Notice Savings Account page and the deposit insurance page on November 16, 2026. For a comparison point we used RBC's posted rate for its RBC High Interest eSavings account, and CDIC's own page for the coverage rules.</p>
+    <p>We read EQ Bank's rates page (rates effective November 18, 2026), the Personal Account page and its fees and features table, the EQ Bank Card page and its fee table, the Notice Savings Account page and the deposit insurance page on November 18, 2026. For a comparison point we used RBC's posted rate for its RBC High Interest eSavings account, and CDIC's own page for the coverage rules.</p>
     <p>We compared three jobs cash usually has to do: an emergency fund, everyday spending, and money set aside for a known date. For each job we looked at the rate, how fast you can get the money back, and what it costs. EQ Bank's referral or affiliate programs played no part; we link to no sign-up page. The method behind our numbers is on <a href="/how-we-use-ai/">how we use AI</a>, and our <a href="/disclosure/">disclosure page</a> explains how the site makes money.</p>
 
     <h2 id="rates">What interest rate does EQ Bank pay?</h2>
-    <p>EQ Bank's posted rates, effective November 6, 2026, range from 1.50% on the Personal Account base rate to 4.30% on a five-year GIC. The Personal Account rate doubles to 3.00% with qualifying direct deposits.</p>
+    <p>EQ Bank's posted rates, effective November 18, 2026, range from 1.50% on the Personal Account base rate to 4.25% on a five-year GIC. The Personal Account rate doubles to 3.00% with qualifying direct deposits.</p>
 
     <div class="table-wrapper">
         <table>
-            <caption>EQ Bank rates by account (EQ Bank rates page, effective November 6, 2026, reviewed November 16, 2026)</caption>
+            <caption>EQ Bank rates by account (EQ Bank rates page, effective November 18, 2026, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Account</th><th>Rate</th><th>Access to your money</th></tr>
             </thead>
@@ -58,7 +58,7 @@ const content = `<div class="container">
                 <tr><td>TFSA, FHSA and RRSP Cash Savings Accounts</td><td>1.75%</td><td>Any time</td></tr>
                 <tr><td>US Dollar Account</td><td>2.50%</td><td>Any time</td></tr>
                 <tr><td>1-year GIC</td><td>3.70%</td><td>At maturity only</td></tr>
-                <tr><td>5-year GIC</td><td>4.30%</td><td>At maturity only</td></tr>
+                <tr><td>5-year GIC</td><td>4.25%</td><td>At maturity only</td></tr>
             </tbody>
         </table>
     </div>
@@ -71,7 +71,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper" data-info-gain>
         <table>
-            <caption>Interest on $10,000 for one year, EQ Bank vs RBC's posted rate (our calculation from rates read November 16, 2026; rate held flat)</caption>
+            <caption>Interest on $10,000 for one year, EQ Bank vs RBC's posted rate (our calculation from rates read November 18, 2026; rate held flat)</caption>
             <thead>
                 <tr><th>Account</th><th>Rate</th><th>Interest in a year</th><th>Difference vs RBC</th></tr>
             </thead>
@@ -109,7 +109,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>EQ Bank Personal Account transfer limits (EQ fees and features table, reviewed November 16, 2026)</caption>
+            <caption>EQ Bank Personal Account transfer limits (EQ fees and features table, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Transfer</th><th>Limit</th></tr>
             </thead>
@@ -130,26 +130,26 @@ const content = `<div class="container">
     </div>
 
     <h2 id="gics">Are EQ Bank GICs worth it?</h2>
-    <p>They are worth it for money you will not need before the term ends, because the rate is fixed and higher than EQ's savings rates, but EQ Bank GICs are non-redeemable. You cannot cash one early.</p>
+    <p>They are worth it for money you will not need before the term ends, because the rate is fixed and, for terms of a year or more, higher than EQ's savings rates (the 3- and 6-month GICs pay less than the 3.00% notice account), but EQ Bank GICs are non-redeemable. You cannot cash one early.</p>
 
     <div class="table-wrapper">
         <table>
-            <caption>EQ Bank non-registered GIC rates (EQ Bank rates page, effective November 6, 2026, reviewed November 16, 2026)</caption>
+            <caption>EQ Bank non-registered GIC rates (EQ Bank rates page, effective November 18, 2026, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Term</th><th>Rate</th></tr>
             </thead>
             <tbody>
-                <tr><td>3 months</td><td>2.70%</td></tr>
-                <tr><td>6 months</td><td>3.00%</td></tr>
+                <tr><td>3 months</td><td>2.65%</td></tr>
+                <tr><td>6 months</td><td>2.90%</td></tr>
                 <tr><td>1 year</td><td>3.70%</td></tr>
-                <tr><td>2 years</td><td>4.15%</td></tr>
-                <tr><td>3 years</td><td>4.15%</td></tr>
-                <tr><td>5 years</td><td>4.30%</td></tr>
+                <tr><td>2 years</td><td>4.10%</td></tr>
+                <tr><td>3 years</td><td>4.00%</td></tr>
+                <tr><td>5 years</td><td>4.25%</td></tr>
             </tbody>
         </table>
     </div>
 
-    <p>EQ shows the same rates for TFSA, RRSP and FHSA GICs. Each GIC is capped at $100,000, and you can hold up to 20 active non-registered GICs. On a two-year GIC at 4.15%, the rate is 1.15 percentage points above the 3.00% bonus savings rate, which is the price of locking the money up. If you want staggered maturities, our <a href="/blog/gic-ladder-canada/">GIC ladder guide</a> shows how to build one, and our <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA comparison</a> works out the after-tax difference by term.</p>
+    <p>EQ shows the same rates for TFSA, RRSP and FHSA GICs. Each GIC is capped at $100,000, and you can hold up to 20 active non-registered GICs. On a two-year GIC at 4.10%, the rate is 1.10 percentage points above the 3.00% bonus savings rate, which is the price of locking the money up. If you want staggered maturities, our <a href="/blog/gic-ladder-canada/">GIC ladder guide</a> shows how to build one, and our <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA comparison</a> works out the after-tax difference by term.</p>
 
     <h2 id="safe">Is EQ Bank safe?</h2>
     <p>Yes, within CDIC limits. EQ Bank is a trade name of Equitable Bank, a federally regulated bank and CDIC member, and deposits at EQ Bank and Equitable Bank together are eligible for CDIC protection up to $100,000 per insured category, per depositor.</p>
@@ -177,14 +177,14 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>EQ Bank picks by job (our reading of EQ Bank's pages, reviewed November 16, 2026; no affiliate links)</caption>
+            <caption>EQ Bank picks by job (our reading of EQ Bank's pages, reviewed November 18, 2026; no affiliate links)</caption>
             <thead>
                 <tr><th>Job</th><th>Pick</th><th>Why</th><th>Not for you if&hellip;</th><th>Also consider</th></tr>
             </thead>
             <tbody>
                 <tr data-pick="emergency-fund"><td>Emergency fund</td><td>EQ Personal Account</td><td>Any-time access; 1.50%, or 3.00% with direct deposits</td><td>You want cash in a branch the same day</td><td>Keep part at your main bank for same-day access</td></tr>
                 <tr data-pick="everyday"><td>Everyday spending and bills</td><td>EQ Personal Account plus the EQ Bank Card</td><td>No everyday banking fees; 0.5% cash back; no foreign transaction fee</td><td>You write cheques or need an overdraft</td><td>Our <a href="/blog/best-no-fee-chequing-account-canada/">best no-fee chequing accounts</a></td></tr>
-                <tr data-pick="fixed-date"><td>Money with a fixed date 1&ndash;5 years out</td><td>EQ Bank GICs</td><td>3.70% for 1 year to 4.30% for 5 years</td><td>You might need the money early (they are non-redeemable)</td><td>Our <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA comparison</a></td></tr>
+                <tr data-pick="fixed-date"><td>Money with a fixed date 1&ndash;5 years out</td><td>EQ Bank GICs</td><td>3.70% for 1 year to 4.25% for 5 years</td><td>You might need the money early (they are non-redeemable)</td><td>Our <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA comparison</a></td></tr>
             </tbody>
         </table>
     </div>
@@ -195,7 +195,7 @@ const content = `<div class="container">
     <h3>Is EQ Bank a real bank?</h3>
     <p>Yes. EQ Bank is a trade name of Equitable Bank, a federally regulated deposit-taking institution and a member of CDIC.</p>
     <h3>What is EQ Bank's interest rate right now?</h3>
-    <p>As of rates effective November 6, 2026, the Personal Account pays 1.50%, or 3.00% with at least $2,000 a month of recurring direct deposits. Check EQ's rates page before you move money, because rates can change without notice.</p>
+    <p>As of rates effective November 18, 2026, the Personal Account pays 1.50%, or 3.00% with at least $2,000 a month of recurring direct deposits. Check EQ's rates page before you move money, because rates can change without notice.</p>
     <h3>Does EQ Bank have a monthly fee?</h3>
     <p>No. EQ's fee table lists no monthly fee and free everyday transactions, including Interac e-Transfers and bill payments.</p>
     <h3>Can I write cheques from EQ Bank?</h3>
@@ -209,16 +209,16 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.eqbank.ca/rates">EQ Bank: Rates (effective November 6, 2026)</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/personal-account">EQ Bank: Personal Account</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/personal-account/fees-and-features">EQ Bank: Personal Account fees and features</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/payments/card">EQ Bank: EQ Bank Card</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/payments/card/fees-features">EQ Bank: EQ Bank Card fees and features</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/personal-banking/notice-savings-account">EQ Bank: Notice Savings Account</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.eqbank.ca/legal/deposit-insurance-information">EQ Bank: Deposit insurance information</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.rbcroyalbank.com/rates/persacct.html">RBC Royal Bank: Personal deposit accounts interest rates</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.rbcroyalbank.com/bank-accounts/savings-accounts/">RBC Royal Bank: Savings accounts</a>, reviewed November 16, 2026</li>
-        <li><a href="https://www.cdic.ca/depositors/whats-covered/">Canada Deposit Insurance Corporation: What is covered</a>, reviewed November 16, 2026</li>
+        <li><a href="https://www.eqbank.ca/rates">EQ Bank: Rates (effective November 18, 2026)</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/personal-account">EQ Bank: Personal Account</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/personal-account/fees-and-features">EQ Bank: Personal Account fees and features</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/payments/card">EQ Bank: EQ Bank Card</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/payments/card/fees-features">EQ Bank: EQ Bank Card fees and features</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/personal-banking/notice-savings-account">EQ Bank: Notice Savings Account</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.eqbank.ca/legal/deposit-insurance-information">EQ Bank: Deposit insurance information</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.rbcroyalbank.com/rates/persacct.html">RBC Royal Bank: Personal deposit accounts interest rates</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.rbcroyalbank.com/bank-accounts/savings-accounts/">RBC Royal Bank: Savings accounts</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.cdic.ca/depositors/whats-covered/">Canada Deposit Insurance Corporation: What is covered</a>, reviewed November 18, 2026</li>
     </ul>
 
     <h2>Related reading</h2>
