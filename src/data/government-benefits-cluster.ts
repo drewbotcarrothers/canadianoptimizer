@@ -1320,6 +1320,10 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
 </div>`
     ),
     updated: '2026-11-13',
+    youtubeId: 'Zp2i7PNqcKg',
+    youtubeTitle: 'How Much CPP Will You Actually Get?',
+    youtubeUploadDate: '2026-11-18T05:11:23-05:00',
+    youtubeDuration: 'PT5M11S',
   },
 
   benefitsPost(
