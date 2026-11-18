@@ -3,9 +3,9 @@
   "publishDate": "2026-11-18",
   "figures": [
     {
-      "id": "43d6fe49b768",
-      "value": "November 15, 2026",
-      "context": "This guide, part of our no-fee, student and newcomer cards hub , puts their rules side by side, as printed on November 15, 2026.",
+      "id": "8995970a6fdf",
+      "value": "November 18, 2026",
+      "context": "This guide, part of our no-fee, student and newcomer cards hub , puts their rules side by side, as printed on November 18, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -15,9 +15,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
-        "note": "review date equals today (2026-11-15), the day sources were read and re-opened"
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "note": "review date equals today (2026-11-18), the day sources were read and re-opened"
       }
     },
     {
@@ -27,12 +27,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html",
       "sourceName": "Scotiabank: Higher credit limit with Nova Credit",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"rd Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 Previous\""
       },
       "needle": "d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A"
@@ -44,12 +44,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en/credit-cards.html",
       "sourceName": "Scotiabank StartRight: Credit cards",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"Chinese Book an appointment Book an appointment Get up to a $15,000 credit limit on an unsecured credit card As a newcomer, cho\""
       },
       "needle": "offer Book an appointment Book an appointment Get up to a $15,000 credit limit on an unsecured credit card As a newcomer, cho"
@@ -61,12 +61,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -78,20 +78,20 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit card (excluding the\""
       },
       "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
     },
     {
-      "id": "7dd9cea6fc2b",
-      "value": "November 15, 2026",
-      "context": "We read the newcomer credit card pages of RBC, CIBC, Scotiabank, BMO and TD, plus American Express Canada's Global Card Transfer page, on November 15, 2026.",
+      "id": "361c8b986a66",
+      "value": "November 18, 2026",
+      "context": "We read the newcomer credit card pages of RBC, CIBC, Scotiabank, BMO and TD, plus American Express Canada's Global Card Transfer page, on November 18, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -101,15 +101,15 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
-        "note": "review date equals today (2026-11-15), the day sources were read and re-opened"
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "note": "review date equals today (2026-11-18), the day sources were read and re-opened"
       }
     },
     {
-      "id": "6f14d51b8604",
-      "value": "November 15, 2026",
-      "context": "Newcomer credit card programs and the documents each asks for (bank pages, reviewed November 15, 2026)",
+      "id": "f11cf1ec1b32",
+      "value": "November 18, 2026",
+      "context": "Newcomer credit card programs and the documents each asks for (bank pages, reviewed November 18, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -119,9 +119,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
-        "note": "review date equals today (2026-11-15), the day sources were read and re-opened"
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "note": "review date equals today (2026-11-18), the day sources were read and re-opened"
       }
     },
     {
@@ -131,12 +131,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -148,12 +148,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit card (excluding the\""
       },
       "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
@@ -165,12 +165,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"h Us To Apply Popular Credit Cards for Newcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC Cash Back Maste\""
       },
       "needle": "ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C"
@@ -182,12 +182,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
       "sourceName": "CIBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"nk with us to get the highest limit on your credit card\u2726, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured deposits. Vis\""
       },
       "needle": "our credit card\u2726, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured"
@@ -199,12 +199,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
       "sourceName": "CIBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"available in CIBC Banking Centres. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you're new to CIBC and don't have any CIB\""
       },
       "needle": "ng Centres. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you\u2019re n"
@@ -216,12 +216,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
       "sourceName": "CIBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"e in CIBC Banking Centres. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you're new to CIBC and don't have any CIBC produc\""
       },
       "needle": "es. You must present your immigration documents (IMM5292/IMM5688) to confirm eligibility. Only available if you\u2019re new to CI"
@@ -233,12 +233,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html",
       "sourceName": "Scotiabank: Higher credit limit with Nova Credit",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"rd Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 Previous\""
       },
       "needle": "d Featured credit cards Apply for a credit card with up to $15,000 in credit, even without previous credit history.10 TRAVEL A"
@@ -250,12 +250,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
       "sourceName": "BMO: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"us: Your Canadian Permanent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442)- One piece of government photo ID: This can incl\""
       },
       "needle": "ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g"
@@ -267,12 +267,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
       "sourceName": "BMO: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"adian Permanent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442)- One piece of government photo ID: This can include your pas\""
       },
       "needle": "Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph"
@@ -284,12 +284,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
       "sourceName": "BMO: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"by their Canadian Permanent Resident Card, Confirmation of permanent residency or work permit (IMM 1442). A credit history in Canada is not required in order to be eligible for a c\""
       },
       "needle": "rd, Confirmation of permanent residency or work permit (IMM 1442). A credit history in Canada is not required in order to be"
@@ -301,12 +301,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"build your credit history. In some cases, you may qualify for a higher limit \u2013 for instance, up to $15,000* on the RBC Cash Back Mastercard \u2013 depending on your situation. As you us\""
       },
       "needle": ", you may qualify for a higher limit \u2013 for instance, up to $15,000* on the RBC Cash Back Mastercard \u2013 depending on your situat"
@@ -318,12 +318,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -335,12 +335,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit card (excluding the\""
       },
       "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
@@ -356,8 +356,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "labelled illustration: a permanent resident in month 14 (after RBC's 12-month window)"
       }
     },
@@ -368,12 +368,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"h Us To Apply Popular Credit Cards for Newcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC Cash Back Maste\""
       },
       "needle": "ewcomers Newcomers can get an RBC credit card with up to a $15,000* credit limit, even with no Canadian credit history1. RBC C"
@@ -385,12 +385,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by February 2, 2027. Earn 2% cash back on groceries3 Earn 1% cash back on gas, EV charging, transit, and r\""
       },
       "needle": "000 in spend for 6 months\". Apply by February 2, 2027. Earn 2% cash back on groceries3 Earn 1% cash back on gas, EV chargi"
@@ -402,12 +402,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"l fee, so you can build your credit history while earning cash back on everyday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by Februar\""
       },
       "needle": "ory while earning cash back on everyday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\""
@@ -419,12 +419,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"t history while earning cash back on everyday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by February 2, 2027. Earn 2% cash back on gr\""
       },
       "needle": "ryday spending. OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months\". Apply by February 2, 2027. Earn 2%"
@@ -436,12 +436,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html",
       "sourceName": "CIBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"nk with us to get the highest limit on your credit card\u2726, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured deposits. Vis\""
       },
       "needle": "our credit card\u2726, up front You may be eligible for up to a $15,000 limit with your first CIBC Credit Card, without any secured"
@@ -453,12 +453,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
       "sourceName": "Scotiabank StartRight: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"to have a credit history in Canada to apply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfer your credit \""
       },
       "needle": "ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe"
@@ -476,8 +476,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed country count from Nova Credit page list = 15: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, United Kingdom, United States, Ukraine"
       }
     },
@@ -488,12 +488,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.americanexpress.com/en-ca/support/customer-service/global-card-transfer/",
       "sourceName": "American Express Canada: Global Card Transfer",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"cial information, and address verification. 6. Upon approval, Card delivery will take approximately 10 business days. 7. If you wish to transfer Membership Rewards\u00ae points to your \""
       },
       "needle": "on. 6. Upon approval, Card delivery will take approximately 10 business days. 7. If you wish to transfer Membership Reward"
@@ -511,8 +511,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed country count from Nova Credit page list = 15: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, United Kingdom, United States, Ukraine"
       }
     },
@@ -523,12 +523,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
       "sourceName": "FCAC: Improving your credit score",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"ed to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credit card\""
       },
       "needle": "less than 30% of your total credit limit"
@@ -540,12 +540,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
       "sourceName": "FCAC: Improving your credit score",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"r credit use, shows how much credit you use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credit card has a $5,0\""
       },
       "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
@@ -561,8 +561,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "labelled as an example/illustration on the page"
       }
     },
@@ -573,12 +573,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
       "sourceName": "FCAC: Improving your credit score",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"r credit use, shows how much credit you use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credit card has a $5,0\""
       },
       "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
@@ -594,8 +594,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "sits in the utilization table captioned \"our calculation; example\"; $1,500 is also called an illustration in the disclaimer"
       }
     },
@@ -606,12 +606,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"ow your money. Credit Cards You can get up to a $15,000 credit limit, no credit history require\""
       },
       "needle": "up to a $15,000"
@@ -629,8 +629,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 15000 = 4500; 1500/15000 = 10%"
       }
     },
@@ -647,8 +647,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 15000 = 4500; 1500/15000 = 10%"
       }
     },
@@ -663,8 +663,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "sits in the utilization table captioned \"our calculation; example\"; $1,500 is also called an illustration in the disclaimer"
       }
     },
@@ -681,8 +681,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 2000 = 600; 1500/2000 = 75%"
       }
     },
@@ -699,8 +699,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 2000 = 600; 1500/2000 = 75%"
       }
     },
@@ -715,8 +715,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "sits in the utilization table captioned \"our calculation; example\"; $1,500 is also called an illustration in the disclaimer"
       }
     },
@@ -733,8 +733,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 1000 = 300; 1500/1000 = 150%"
       }
     },
@@ -751,8 +751,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 1000 = 300; 1500/1000 = 150%"
       }
     },
@@ -767,8 +767,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "continues the same labelled $1,500 monthly illustration from the example table"
       }
     },
@@ -779,12 +779,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"ow your money. Credit Cards You can get up to a $15,000 credit limit, no credit history require\""
       },
       "needle": "up to a $15,000"
@@ -802,8 +802,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 15000 = 4500; 1500/15000 = 10%"
       }
     },
@@ -818,8 +818,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "continues the same labelled $1,500 monthly illustration from the example table"
       }
     },
@@ -836,8 +836,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed independently from labelled $1,500 monthly example: 0.30 * 2000 = 600; 1500/2000 = 75%"
       }
     },
@@ -848,12 +848,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -865,12 +865,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank pers\""
       },
       "needle": "within the last 48 months"
@@ -882,12 +882,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"processed by the merchant, the payment network (Visa) or Royal Bank by the last day of the Period. 15,000 additional Avion points (\u201cAnniversary Points\u201d) will appear on your monthly\""
       },
       "needle": "network (Visa) or Royal Bank by the last day of the Period. 15,000 additional Avion points (\u201cAnniversary Points\u201d) will appear"
@@ -899,12 +899,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -916,12 +916,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit card (excluding the\""
       },
       "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"
@@ -933,12 +933,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
       "sourceName": "Scotiabank StartRight: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"to have a credit history in Canada to apply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfer your credit \""
       },
       "needle": "ply and you could get approved for a credit limit of up to $15,000. Plus, Scotiabank has partnered with Nova Credit to transfe"
@@ -956,8 +956,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed country count from Nova Credit page list = 15: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, United Kingdom, United States, Ukraine"
       }
     },
@@ -968,12 +968,12 @@
       "kind": "sourced",
       "sourceUrl": "https://startright.scotiabank.com/ca/en.html",
       "sourceName": "Scotiabank StartRight: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"a credit history in Canada. Plus, if approved, eligible clients can apply for a higher limit up to $15,000 by leveraging their credit history from back home.6 Explore our credit ca\""
       },
       "needle": "roved, eligible clients can apply for a higher limit up to $15,000 by leveraging their credit history from back home.6 Explore"
@@ -985,12 +985,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
       "sourceName": "BMO: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"us: Your Canadian Permanent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442)- One piece of government photo ID: This can incl\""
       },
       "needle": "ent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of g"
@@ -1002,12 +1002,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/",
       "sourceName": "BMO: Banking for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"adian Permanent Resident Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442)- One piece of government photo ID: This can include your pas\""
       },
       "needle": "Card, confirmation of Permanent Residence (IMM 5292 or IMM 5688) or your work permit (IM 1442) - One piece of government ph"
@@ -1025,8 +1025,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "recomputed country count from Nova Credit page list = 15: Australia, Austria, Dominican Republic, India, Kenya, Mexico, Nigeria, Philippines, South Africa, South Korea, Spain, Switzerland, United Kingdom, United States, Ukraine"
       }
     },
@@ -1037,12 +1037,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"er available to RBC Newcomers who are (i) permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the l\""
       },
       "needle": ") permanent residents who arrived in Canada within the last 12 months, or (ii) temporary resident workers who arrived in C"
@@ -1054,12 +1054,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html",
       "sourceName": "RBC: Credit cards for newcomers",
-      "asOf": "2026-11-15",
+      "asOf": "2026-11-18",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-15",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-15 (qa/figs/2026-11-18/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-18",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-18/recheck.py); separate from drafting",
         "note": "page prints the figure; snippet: \"within the last 12 months, or (ii) temporary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit card (excluding the\""
       },
       "needle": "rary resident workers who arrived in Canada within the last 48 months, applying for a new RBC Royal Bank personal credit c"

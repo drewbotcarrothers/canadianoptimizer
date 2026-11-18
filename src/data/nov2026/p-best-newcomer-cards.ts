@@ -2,12 +2,12 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-18';
 
-const disclaimer = `General education, not financial or immigration advice. Program rules, eligible statuses, time limits, documents and credit limits were read from each bank's and the Government of Canada's pages listed under Sources on November 15, 2026; they change, so confirm with the bank before you go to a branch. A program's maximum limit is not a promise: every bank says your limit depends on its own review, including income. The $1,500 monthly spending figure is our illustration. Canadian Optimizer has no affiliate relationship with any bank or card issuer named here at the time of writing and links to no application page.`;
+const disclaimer = `General education, not financial or immigration advice. Program rules, eligible statuses, time limits, documents and credit limits were read from each bank's and the Government of Canada's pages listed under Sources on November 18, 2026; they change, so confirm with the bank before you go to a branch. A program's maximum limit is not a promise: every bank says your limit depends on its own review, including income. The $1,500 monthly spending figure is our illustration. Canadian Optimizer has no affiliate relationship with any bank or card issuer named here at the time of writing and links to no application page.`;
 
 const content = `<div class="container">
 
     <div class="hook">
-        Arriving in Canada with no credit file does not mean starting with a secured card. <span class="highlight">Four big banks run newcomer programs that can approve an unsecured card with no Canadian credit history, and each asks for a different set of documents.</span> This guide, part of our <a href="/category/credit-cards/no-fee-student-newcomer/">no-fee, student and newcomer cards hub</a>, puts their rules side by side, as printed on November 15, 2026.
+        Arriving in Canada with no credit file does not mean starting with a secured card. <span class="highlight">Four big banks run newcomer programs that can approve an unsecured card with no Canadian credit history, and each asks for a different set of documents.</span> This guide, part of our <a href="/category/credit-cards/no-fee-student-newcomer/">no-fee, student and newcomer cards hub</a>, puts their rules side by side, as printed on November 18, 2026.
     </div>
 
     <p>The best credit card for a newcomer to Canada usually comes through a bank newcomer program. RBC, CIBC and Scotiabank advertise unsecured cards with limits of up to $15,000 without Canadian credit history, and BMO says no credit history is required. If you held an American Express card abroad, Amex can approve you without a Canadian credit report.</p>
@@ -35,7 +35,7 @@ const content = `<div class="container">
     </nav>
 
     <h2 id="how">How we compared newcomer programs</h2>
-    <p>We read the newcomer credit card pages of RBC, CIBC, Scotiabank, BMO and TD, plus American Express Canada's Global Card Transfer page, on November 15, 2026. For each program, we recorded who qualifies and for how long after arrival, the maximum limit the bank prints, whether Canadian credit history is needed, the documents it asks for, and whether you can apply online or must visit a branch. TD's newcomer page did not set out card-specific rules or documents, so TD is not in the table. We also read the Government of Canada's SIN Code of Practice and the Financial Consumer Agency of Canada (FCAC) pages on credit scores and secured cards. Our method and limits are on <a href="/how-we-use-ai/">how we use AI</a>; there are no affiliate links, as our <a href="/disclosure/">disclosure page</a> explains.</p>
+    <p>We read the newcomer credit card pages of RBC, CIBC, Scotiabank, BMO and TD, plus American Express Canada's Global Card Transfer page, on November 18, 2026. For each program, we recorded who qualifies and for how long after arrival, the maximum limit the bank prints, whether Canadian credit history is needed, the documents it asks for, and whether you can apply online or must visit a branch. TD's newcomer page did not set out card-specific rules or documents, so TD is not in the table. We also read the Government of Canada's SIN Code of Practice and the Financial Consumer Agency of Canada (FCAC) pages on credit scores and secured cards. Our method and limits are on <a href="/how-we-use-ai/">how we use AI</a>; there are no affiliate links, as our <a href="/disclosure/">disclosure page</a> explains.</p>
     <p>We ranked programs by how well they serve three common situations: no SIN yet, a SIN but no Canadian credit history, and an established credit history in another country. We did not rank on rewards, because a newcomer's first card is mainly a credit-building tool, and every program lets you choose from several of the bank's regular cards.</p>
 
     <h2 id="programs">Which banks give newcomers a credit card without credit history?</h2>
@@ -43,7 +43,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper" data-info-gain>
         <table>
-            <caption>Newcomer credit card programs and the documents each asks for (bank pages, reviewed November 15, 2026)</caption>
+            <caption>Newcomer credit card programs and the documents each asks for (bank pages, reviewed November 18, 2026)</caption>
             <thead>
                 <tr><th>Program</th><th>Who qualifies, per the bank</th><th>Maximum limit printed</th><th>Documents the page lists</th><th>How to apply</th></tr>
             </thead>
@@ -161,18 +161,18 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html">RBC Royal Bank: Credit cards for newcomers to Canada</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html">CIBC: Credit cards for newcomers</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.cibc.com/en/journeys/banking-offers-for-newcomers/permanent-residents-card-account-offer.html">CIBC: Card and account offer for permanent residents</a>, reviewed November 15, 2026</li>
-        <li><a href="https://startright.scotiabank.com/ca/en/credit-cards.html">Scotiabank StartRight: Credit cards for newcomers</a>, reviewed November 15, 2026</li>
-        <li><a href="https://startright.scotiabank.com/ca/en.html">Scotiabank StartRight: Banking for newcomers</a>, reviewed November 15, 2026</li>
-        <li><a href="https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html">Scotiabank: Higher credit limit for newcomers with Nova Credit</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/">BMO: Banking for newcomers to Canada</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.americanexpress.com/en-ca/support/customer-service/global-card-transfer/">American Express Canada: Global Card Transfer</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html">Employment and Social Development Canada: The Social Insurance Number Code of Practice</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html">Financial Consumer Agency of Canada: Choosing a credit card</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html">Financial Consumer Agency of Canada: Credit report and score basics</a>, reviewed November 15, 2026</li>
-        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html">Financial Consumer Agency of Canada: Improving your credit score</a>, reviewed November 15, 2026</li>
+        <li><a href="https://www.rbcroyalbank.com/new-to-canada/credit-cards/index.html">RBC Royal Bank: Credit cards for newcomers to Canada</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.cibc.com/en/journeys/banking-offers-for-newcomers/newcomer-credit-cards.html">CIBC: Credit cards for newcomers</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.cibc.com/en/journeys/banking-offers-for-newcomers/permanent-residents-card-account-offer.html">CIBC: Card and account offer for permanent residents</a>, reviewed November 18, 2026</li>
+        <li><a href="https://startright.scotiabank.com/ca/en/credit-cards.html">Scotiabank StartRight: Credit cards for newcomers</a>, reviewed November 18, 2026</li>
+        <li><a href="https://startright.scotiabank.com/ca/en.html">Scotiabank StartRight: Banking for newcomers</a>, reviewed November 18, 2026</li>
+        <li><a href="https://startright.scotiabank.com/ca/en/higher-credit-limit-for-newcomers-to-canada.html">Scotiabank: Higher credit limit for newcomers with Nova Credit</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.bmo.com/en-ca/main/personal/newcomers-to-canada/">BMO: Banking for newcomers to Canada</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.americanexpress.com/en-ca/support/customer-service/global-card-transfer/">American Express Canada: Global Card Transfer</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.canada.ca/en/employment-social-development/services/sin/reports/code-of-practice.html">Employment and Social Development Canada: The Social Insurance Number Code of Practice</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/choose-credit-card.html">Financial Consumer Agency of Canada: Choosing a credit card</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html">Financial Consumer Agency of Canada: Credit report and score basics</a>, reviewed November 18, 2026</li>
+        <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html">Financial Consumer Agency of Canada: Improving your credit score</a>, reviewed November 18, 2026</li>
     </ul>
 
     <h2>Related reading</h2>
