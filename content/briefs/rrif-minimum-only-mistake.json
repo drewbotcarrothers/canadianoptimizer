@@ -1,0 +1,39 @@
+{
+  "slug": "rrif-minimum-only-mistake",
+  "title": "Should You Only Take the RRIF Minimum? The Tax and OAS Math",
+  "family": "qa",
+  "category": "retirement",
+  "subcategory": "decumulation-rrif",
+  "targetQuery": "should i only take the rrif minimum",
+  "secondaryQueries": [
+    "rrif minimum only",
+    "rrif minimum vs level withdrawals",
+    "rrif oas clawback",
+    "rrif tax at death"
+  ],
+  "infoGain": "Our own year-by-year model of $500,000 in a RRIF from age 71: minimum-only vs level withdrawals at three other-income levels, with lifetime tax, OAS recovery tax and the final-return inclusion (content/calcs/rrif-minimum-only-model.py).",
+  "money": false,
+  "offers": [],
+  "ebook": "retirement-guide",
+  "publishDate": "2026-11-17",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "answers read as answers under the title and each question heading | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
+    },
+    "4a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "no invented quotes, experience, tests or review claims | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
+    },
+    "6a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown | read rendered preview out/blog/rrif-minimum-only-mistake/index.html on 2026-11-14: pass"
+    }
+  }
+}

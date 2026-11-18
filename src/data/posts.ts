@@ -16,6 +16,7 @@ import { taxesClusterPosts } from './taxes-cluster';
 import { toolsClusterPosts } from './tools-cluster';
 import { SUBCATEGORY_ASSIGNMENTS } from './taxonomy';
 import { batch20261116Posts } from './nov2026/batch-2026-11-16';
+import { batch20261117Posts } from './nov2026/batch-2026-11-17';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -2337,6 +2338,8 @@ const allPosts: BlogPostRecord[] = [
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">Financial Consumer Agency of Canada: credit cards</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
+
     <div class="cta-section">
         <p><strong>Points do not shelter investment income.</strong></p>
         <p>The card decision is a few hundred dollars a year. Asset location — what sits in the TFSA versus a taxable account — is larger. The 2026 tax guide is the companion piece.</p>
@@ -2805,6 +2808,8 @@ const allPosts: BlogPostRecord[] = [
         <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">When a credit card annual fee beats a no-fee card</a></li>
         <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a></p>
 
     <div class="cta-section">
         <p><strong>Cash back is a basis point. Tax is a bracket.</strong></p>
@@ -3514,6 +3519,8 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Verify live fees and benefits</strong> with the issuer before renewal.</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
+
     <div class="cta-section">
         <p><strong>Card fees are small. Tax drag is large.</strong></p>
         <p>Clear the annual-fee test, then put the serious hours into brackets, registered accounts, and deductions. The 2026 tax guide is the longer play.</p>
@@ -3899,6 +3906,8 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Amex earn requires acceptance;</strong> haircut before you celebrate CPP.</li>
         <li><strong>Verify every ratio and award</strong> with the issuer and program before transferring.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a> &middot; <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a></p>
 
     <div class="cta-section">
         <p><strong>Points are a rebate. Tax is the system.</strong></p>
@@ -17245,7 +17254,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -17879,7 +17890,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -18542,7 +18555,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -27201,6 +27216,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...earningMore2026SidePosts,
   ...retirementClusterPosts,
   ...batch20261116Posts,
+  ...batch20261117Posts,
 
 ];
 
