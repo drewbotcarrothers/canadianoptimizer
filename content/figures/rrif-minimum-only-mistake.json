@@ -13,8 +13,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -29,8 +29,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -45,8 +45,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -63,8 +63,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
       }
     },
@@ -81,8 +81,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -97,8 +97,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -115,8 +115,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
       }
     },
@@ -131,8 +131,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -143,12 +143,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -163,8 +163,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -181,8 +181,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
       }
     },
@@ -197,8 +197,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -215,8 +215,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -231,8 +231,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -249,8 +249,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -265,8 +265,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -283,8 +283,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
       }
     },
@@ -299,8 +299,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -315,8 +315,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"household\"; declared input: True)"
       }
     },
@@ -331,8 +331,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our 2026-dollar\"; declared input: True)"
       }
     },
@@ -349,8 +349,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
       }
     },
@@ -361,12 +361,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -377,12 +377,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"1 divided by (90 minus the age)\""
       }
     },
@@ -393,12 +393,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"If the age is 70 years or younger\""
       }
     },
@@ -409,12 +409,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -431,8 +431,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -447,8 +447,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -459,12 +459,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -479,8 +479,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -491,12 +491,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -507,12 +507,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -529,8 +529,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
       }
     },
@@ -541,12 +541,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"75 | .0667 | .0582 | .0582\""
       }
     },
@@ -557,12 +557,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"75 | .0667 | .0582 | .0582\""
       }
     },
@@ -579,8 +579,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): minimum on 500,000 at 75"
       }
     },
@@ -591,12 +591,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"80 | .1000 | .0682 | .0682\""
       }
     },
@@ -607,12 +607,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"80 | .1000 | .0682 | .0682\""
       }
     },
@@ -629,8 +629,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): minimum on 500,000 at 80"
       }
     },
@@ -641,12 +641,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"85 | .2000 | .0851 | .0851\""
       }
     },
@@ -657,12 +657,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"85 | .2000 | .0851 | .0851\""
       }
     },
@@ -679,8 +679,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): minimum on 500,000 at 85"
       }
     },
@@ -691,12 +691,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"90 | .0000 | .1192 | .1192\""
       }
     },
@@ -707,12 +707,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"90 | .0000 | .1192 | .1192\""
       }
     },
@@ -729,8 +729,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): minimum on 500,000 at 90"
       }
     },
@@ -741,12 +741,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
       }
     },
@@ -757,12 +757,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
       }
     },
@@ -779,8 +779,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): minimum on 500,000 at 95+"
       }
     },
@@ -791,12 +791,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -811,8 +811,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -827,8 +827,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -843,8 +843,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -859,8 +859,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -877,8 +877,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -893,8 +893,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -909,8 +909,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -925,8 +925,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"example\"; declared input: True)"
       }
     },
@@ -941,8 +941,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -957,8 +957,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -973,8 +973,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -985,12 +985,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -1001,12 +1001,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -1017,12 +1017,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -1033,12 +1033,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -1049,12 +1049,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -1065,12 +1065,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1081,12 +1081,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1097,12 +1097,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1113,12 +1113,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1129,12 +1129,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1145,12 +1145,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1161,12 +1161,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1177,12 +1177,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1193,12 +1193,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1209,12 +1209,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Basic personal amount (maximum) for individuals whose net income for the year is less than or equal to the amount at which the 29% tax bracket beginsFootnote 1 | $16,452\""
       }
     },
@@ -1225,12 +1225,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"greater than or equal to the amount at which the 33% tax bracket beginsFootnote 1 | $14,829\""
       }
     },
@@ -1241,12 +1241,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"greater than or equal to the amount at which the 33% tax bracket beginsFootnote 1 | $14,829\""
       }
     },
@@ -1257,12 +1257,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Age amount | $9,208\""
       }
     },
@@ -1273,12 +1273,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Net income threshold for age amount | $46,432\""
       }
     },
@@ -1289,12 +1289,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
       "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"B is the lesser of * (a) $2,000, and\""
       }
     },
@@ -1305,12 +1305,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1321,12 +1321,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
       "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"B is 15% of the amount, if any, by which the individual's income for the year would exceed $25,921\""
       }
     },
@@ -1337,12 +1337,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-118.html",
       "sourceName": "Justice Laws: Income Tax Act, section 118 (personal credits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"B is the lesser of * (a) $2,000, and\""
       }
     },
@@ -1353,12 +1353,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
       "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
       }
     },
@@ -1369,12 +1369,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old age security repayment threshold | $95,323\""
       }
     },
@@ -1389,8 +1389,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -1405,8 +1405,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -1421,8 +1421,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -1437,8 +1437,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -1453,8 +1453,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Example\"; declared input: True)"
       }
     },
@@ -1469,8 +1469,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1487,8 +1487,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D95 maxsur"
       }
     },
@@ -1499,12 +1499,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Annual TFSA dollar limitFootnote 5 | $7,000\""
       }
     },
@@ -1519,8 +1519,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1537,8 +1537,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
       }
     },
@@ -1553,8 +1553,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1571,8 +1571,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 w"
       }
     },
@@ -1587,8 +1587,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1605,8 +1605,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -1623,8 +1623,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 tax"
       }
     },
@@ -1641,8 +1641,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
       }
     },
@@ -1653,12 +1653,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -1673,8 +1673,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1689,8 +1689,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1701,12 +1701,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -1721,8 +1721,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1737,8 +1737,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1755,8 +1755,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 w"
       }
     },
@@ -1773,8 +1773,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age71 tax"
       }
     },
@@ -1791,8 +1791,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -1809,8 +1809,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age71 tax"
       }
     },
@@ -1827,8 +1827,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: False)"
       }
     },
@@ -1845,8 +1845,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 start"
       }
     },
@@ -1863,8 +1863,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 w"
       }
     },
@@ -1881,8 +1881,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age75 tax"
       }
     },
@@ -1899,8 +1899,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 start"
       }
     },
@@ -1917,8 +1917,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -1935,8 +1935,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
       }
     },
@@ -1951,8 +1951,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -1969,8 +1969,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 start"
       }
     },
@@ -1987,8 +1987,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 w"
       }
     },
@@ -2005,8 +2005,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rm age80 tax"
       }
     },
@@ -2023,8 +2023,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age80 start"
       }
     },
@@ -2041,8 +2041,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -2059,8 +2059,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
       }
     },
@@ -2075,8 +2075,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2093,8 +2093,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 start"
       }
     },
@@ -2111,8 +2111,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 w"
       }
     },
@@ -2129,8 +2129,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D85 rm age85 tax"
       }
     },
@@ -2147,8 +2147,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D85 rl age85 start"
       }
     },
@@ -2165,8 +2165,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -2183,8 +2183,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
       }
     },
@@ -2199,8 +2199,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2217,8 +2217,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 start"
       }
     },
@@ -2235,8 +2235,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 w"
       }
     },
@@ -2253,8 +2253,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 tax"
       }
     },
@@ -2271,8 +2271,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rl age90 start"
       }
     },
@@ -2289,8 +2289,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 L"
       }
     },
@@ -2307,8 +2307,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 rl age75 tax"
       }
     },
@@ -2325,8 +2325,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 level-min withdrawal at 71"
       }
     },
@@ -2341,8 +2341,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2357,8 +2357,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2375,8 +2375,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rl age90 start"
       }
     },
@@ -2393,8 +2393,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 rm age90 start"
       }
     },
@@ -2409,8 +2409,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2427,8 +2427,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -2443,8 +2443,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2461,8 +2461,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
       }
     },
@@ -2477,8 +2477,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2495,8 +2495,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
       }
     },
@@ -2511,8 +2511,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2529,8 +2529,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed: largest |edge| at death 90, 3% = $7,460 = 1.49% of $500,000"
       }
     },
@@ -2545,8 +2545,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2561,8 +2561,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2577,8 +2577,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2595,8 +2595,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -2611,8 +2611,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -2627,8 +2627,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2643,8 +2643,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2659,8 +2659,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2677,8 +2677,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 tot_min"
       }
     },
@@ -2695,8 +2695,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 tot_lvl"
       }
     },
@@ -2713,8 +2713,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 est_min"
       }
     },
@@ -2731,8 +2731,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 heirs level incl TFSA"
       }
     },
@@ -2749,8 +2749,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -2765,8 +2765,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2783,8 +2783,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 tot_min"
       }
     },
@@ -2801,8 +2801,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 tot_lvl"
       }
     },
@@ -2819,8 +2819,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 est_min"
       }
     },
@@ -2837,8 +2837,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 heirs level incl TFSA"
       }
     },
@@ -2855,8 +2855,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o52000 D90 adv"
       }
     },
@@ -2871,8 +2871,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2889,8 +2889,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 tot_min"
       }
     },
@@ -2907,8 +2907,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 tot_lvl"
       }
     },
@@ -2925,8 +2925,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 est_min"
       }
     },
@@ -2943,8 +2943,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 heirs level incl TFSA"
       }
     },
@@ -2961,8 +2961,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
       }
     },
@@ -2977,8 +2977,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -2993,8 +2993,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -3011,8 +3011,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.01 o12000 D90 adv"
       }
     },
@@ -3029,8 +3029,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.01 o52000 D90 adv"
       }
     },
@@ -3047,8 +3047,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.01 o70000 D90 adv"
       }
     },
@@ -3063,8 +3063,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -3081,8 +3081,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 final_min"
       }
     },
@@ -3099,8 +3099,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 final_lvl"
       }
     },
@@ -3117,8 +3117,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 bm"
       }
     },
@@ -3133,8 +3133,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"our own calculation\"; declared input: True)"
       }
     },
@@ -3151,8 +3151,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 bl"
       }
     },
@@ -3169,8 +3169,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 adv"
       }
     },
@@ -3185,8 +3185,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3203,8 +3203,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D85 adv"
       }
     },
@@ -3219,8 +3219,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3237,8 +3237,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -3253,8 +3253,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3271,8 +3271,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D95 adv"
       }
     },
@@ -3287,8 +3287,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3303,8 +3303,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Profile\"; declared input: True)"
       }
     },
@@ -3315,12 +3315,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
       "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
       }
     },
@@ -3331,12 +3331,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old age security repayment threshold | $95,323\""
       }
     },
@@ -3351,8 +3351,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
@@ -3369,8 +3369,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 rec_min"
       }
     },
@@ -3385,8 +3385,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     },
@@ -3403,8 +3403,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 rec_lvl"
       }
     },
@@ -3421,8 +3421,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 recovery gap"
       }
     },
@@ -3439,8 +3439,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D80 fm"
       }
     },
@@ -3457,8 +3457,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 fl"
       }
     },
@@ -3469,12 +3469,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -3485,12 +3485,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -3501,12 +3501,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -3517,12 +3517,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -3533,12 +3533,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old Age Security pension (65+ years old) Your situation | Your annual net world income in 2025 must be | Maximum monthly payment amount ---|---|--- I am age 65 to 74 | less than $152,062 | up to $762.50 I am age 75 and over | less\""
       }
     },
@@ -3549,12 +3549,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"I am single, widowed or divorced | less than $23,112 | up to $1,138.90\""
       }
     },
@@ -3571,8 +3571,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "review date: the day this independent check was run (2026-11-14)"
       }
     },
@@ -3589,8 +3589,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed: top of 14% bracket $58,523 - OAS at 75+ $10,065 = $48,458, \"about $50,000\" (rule of thumb, rounded)"
       }
     },
@@ -3601,12 +3601,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Federal rate: 2026 Each portion of your taxable income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26% $181,440.01 | $258,482 | 29% $258,482.01 | unlimited | 33%\""
       }
     },
@@ -3617,12 +3617,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old age security repayment threshold | $95,323\""
       }
     },
@@ -3633,12 +3633,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
       "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
       }
     },
@@ -3649,12 +3649,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html",
       "sourceName": "Canada.ca: Old Age Security payment amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"I am single, widowed or divorced | less than $23,112 | up to $1,138.90\""
       }
     },
@@ -3665,12 +3665,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -3681,12 +3681,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old age security repayment threshold | $95,323\""
       }
     },
@@ -3701,8 +3701,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Decision guide\"; declared input: True)"
       }
     },
@@ -3717,8 +3717,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"Decision guide\"; declared input: True)"
       }
     },
@@ -3733,8 +3733,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3749,8 +3749,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3767,8 +3767,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o70000 D90 adv"
       }
     },
@@ -3785,8 +3785,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed independently (indep): r0.03 o12000 D90 adv"
       }
     },
@@ -3801,8 +3801,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"model\"; declared input: True)"
       }
     },
@@ -3819,8 +3819,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "recomputed: largest |edge| at death 90, 3% = $7,460 = 1.49% of $500,000"
       }
     },
@@ -3831,12 +3831,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/minimum-amount-a-rrif.html",
       "sourceName": "CRA: Minimum amount from a RRIF",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"multiplying the fair market value (FMV) of the property held in the RRIF at the start of the year by a prescribed factor\" [start of the year = January 1 for a calendar-year RRIF]"
       }
     },
@@ -3847,12 +3847,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -3863,12 +3863,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"71 | .0526 | .0526 | .0528\""
       }
     },
@@ -3879,12 +3879,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
       }
     },
@@ -3895,12 +3895,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/t4rsp-t4rif-information-returns/payments/chart-prescribed-factors.html",
       "sourceName": "CRA: Chart - Prescribed factors",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"95 or older | .0000 | .2000 | .2000\""
       }
     },
@@ -3911,12 +3911,12 @@
       "kind": "sourced",
       "sourceUrl": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-180.2.html",
       "sourceName": "Justice Laws: Income Tax Act, section 180.2 (tax on old age security benefits)",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"(b) 15% of the amount, if any, by which the individual's adjusted income for the year exceeds $50,000\""
       }
     },
@@ -3927,12 +3927,12 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-14",
+      "asOf": "2026-11-17",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "page prints: \"Old age security repayment threshold | $95,323\""
       }
     },
@@ -3947,8 +3947,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-14",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-14 (qa/figs/2026-11-17/recheck.py)",
+        "checkedOn": "2026-11-17",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-17 (qa/figs/2026-11-17/recheck.py)",
         "note": "labelled as example/illustration on the page (nearby wording: \"profile\"; declared input: True)"
       }
     }
