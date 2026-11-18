@@ -1,0 +1,269 @@
+{
+ "tangerine": {
+  "renter": {
+   "monthly": 2000,
+   "annual": 24000,
+   "budget": {
+    "Grocery": 450,
+    "Restaurants": 220,
+    "Public Transportation and Parking": 156,
+    "Recurring Bill Payments": 240,
+    "Drug Store": 60,
+    "Entertainment": 80,
+    "E-Games": 30,
+    "Fitness and Sports Clubs": 64,
+    "Other": 700
+   },
+   "all_at_base": 120.0,
+   "best2": [
+    "Grocery",
+    "Recurring Bill Payments"
+   ],
+   "best2_value": 244.2,
+   "best2_eff_rate_pct": 1.018,
+   "best3": [
+    "Grocery",
+    "Restaurants",
+    "Recurring Bill Payments"
+   ],
+   "best3_value": 283.8,
+   "best3_eff_rate_pct": 1.183,
+   "third_category_gain": 39.6,
+   "ranked": [
+    "Grocery",
+    "Recurring Bill Payments",
+    "Restaurants",
+    "Public Transportation and Parking",
+    "Entertainment",
+    "Fitness and Sports Clubs",
+    "Drug Store",
+    "E-Games"
+   ]
+  },
+  "family": {
+   "monthly": 4000,
+   "annual": 48000,
+   "budget": {
+    "Grocery": 1100,
+    "Gas": 400,
+    "Recurring Bill Payments": 600,
+    "Restaurants": 250,
+    "Home Improvement": 150,
+    "Drug Store": 120,
+    "Fitness and Sports Clubs": 100,
+    "Entertainment": 80,
+    "Other": 1200
+   },
+   "all_at_base": 240.0,
+   "best2": [
+    "Grocery",
+    "Recurring Bill Payments"
+   ],
+   "best2_value": 546.0,
+   "best2_eff_rate_pct": 1.137,
+   "best3": [
+    "Grocery",
+    "Gas",
+    "Recurring Bill Payments"
+   ],
+   "best3_value": 618.0,
+   "best3_eff_rate_pct": 1.287,
+   "third_category_gain": 72.0,
+   "ranked": [
+    "Grocery",
+    "Recurring Bill Payments",
+    "Gas",
+    "Restaurants",
+    "Home Improvement",
+    "Drug Store",
+    "Fitness and Sports Clubs",
+    "Entertainment"
+   ],
+   "grocery_gas_value": 510.0
+  },
+  "traveller": {
+   "monthly": 3000,
+   "annual": 36000,
+   "budget": {
+    "Grocery": 500,
+    "Restaurants": 450,
+    "Hotel-Motel": 300,
+    "Foreign Currency Spend": 400,
+    "Gas": 100,
+    "Recurring Bill Payments": 250,
+    "Public Transportation and Parking": 150,
+    "Entertainment": 100,
+    "Other": 750
+   },
+   "all_at_base": 180.0,
+   "best2": [
+    "Grocery",
+    "Restaurants"
+   ],
+   "best2_value": 351.0,
+   "best2_eff_rate_pct": 0.975,
+   "best3": [
+    "Grocery",
+    "Restaurants",
+    "Foreign Currency Spend"
+   ],
+   "best3_value": 423.0,
+   "best3_eff_rate_pct": 1.175,
+   "third_category_gain": 72.0,
+   "ranked": [
+    "Grocery",
+    "Restaurants",
+    "Foreign Currency Spend",
+    "Hotel-Motel",
+    "Recurring Bill Payments",
+    "Public Transportation and Parking",
+    "Gas",
+    "Entertainment"
+   ],
+   "fx_annual": 4800,
+   "fx_fee": 120.0,
+   "fx_cb_at_2": 96.0,
+   "fx_net_at_2": -24.0,
+   "fx_net_at_05": -96.0
+  },
+  "points_gap": 1.5
+ },
+ "student": {
+  "budget_monthly": {
+   "groceries": 220,
+   "transit": 100,
+   "phone_streaming": 80,
+   "dining": 80,
+   "other": 120
+  },
+  "annual_total": 7200,
+  "scotia": {
+   "base_year": 60.0,
+   "base_month": 5.0,
+   "eff_rate_pct": 0.833,
+   "promo_spend": 1800,
+   "welcome_value": 75.0,
+   "first_year": 135.0,
+   "two_year": 195.0
+  },
+  "bmo": {
+   "base_year": 106.8,
+   "base_month": 8.9,
+   "eff_rate_pct": 1.483,
+   "promo_spend": 0,
+   "welcome_value": 0.0,
+   "first_year": 106.8,
+   "two_year": 213.6
+  },
+  "cibc": {
+   "base_year": 91.2,
+   "base_month": 7.6,
+   "eff_rate_pct": 1.267,
+   "promo_spend": 1000,
+   "welcome_value": 112.33,
+   "first_year": 203.53,
+   "two_year": 294.73
+  },
+  "rbc": {
+   "base_year": 81.6,
+   "base_month": 6.8,
+   "eff_rate_pct": 1.133,
+   "promo_spend": 2000,
+   "welcome_value": 100.0,
+   "first_year": 181.6,
+   "two_year": 263.2
+  },
+  "td": {
+   "base_year": 60.0,
+   "base_month": 5.0,
+   "eff_rate_pct": 0.833,
+   "promo_spend": 1800,
+   "welcome_value": 125.0,
+   "first_year": 185.0,
+   "two_year": 245.0
+  },
+  "bmo_cap_annual_spend": 6000,
+  "bmo_cap_annual_cb": 180.0,
+  "scotia_cap_annual": 15000
+ },
+ "secured": {
+  "carry_example": 150.0,
+  "carry_basis_limit": 500,
+  "fcac_pct": 30,
+  "ht_nofee": {
+   "deposit_min": 500,
+   "fee_12m": 0.0,
+   "pay_in_full_12m": 0.0,
+   "interest_12m": [
+    29.99
+   ],
+   "carry_12m": [
+    29.99
+   ]
+  },
+  "ht_lowfee": {
+   "deposit_min": 500,
+   "fee_12m": 59.0,
+   "pay_in_full_12m": 59.0,
+   "interest_12m": [
+    22.35
+   ],
+   "carry_12m": [
+    81.35
+   ]
+  },
+  "neo": {
+   "deposit_min": 50,
+   "fee_12m": 119.88,
+   "pay_in_full_12m": 119.88,
+   "interest_12m": [
+    29.99,
+    44.99
+   ],
+   "carry_12m": [
+    149.87,
+    164.87
+   ]
+  },
+  "cap1": {
+   "deposit_min": null,
+   "fee_12m": 0.0,
+   "pay_in_full_12m": 0.0,
+   "interest_12m": [
+    44.85
+   ],
+   "carry_12m": [
+    44.85
+   ]
+  },
+  "cap1_qc": {
+   "deposit_min": null,
+   "fee_12m": 0.0,
+   "pay_in_full_12m": 0.0,
+   "interest_12m": [
+    32.85
+   ],
+   "carry_12m": [
+    32.85
+   ]
+  },
+  "ht_breakeven_balance": 1159.14,
+  "ht_rate_gap_pts": 5.09,
+  "ht_saving_at_150": 7.64,
+  "neo_build_monthly": 9.99,
+  "neo_build_annual": 119.88,
+  "neo_limit_30pct_at_min": 15.0,
+  "limit_30pct_500": 150.0,
+  "limit_30pct_2500": 750.0,
+  "neo_500_first_year_cash_out": 619.88
+ },
+ "newcomer": {
+  "example_monthly_spend": 1500,
+  "limit_15000_30pct": 4500.0,
+  "limit_2000_30pct": 600.0,
+  "limit_1000_30pct": 300.0,
+  "spend_pct_of_15000": 10.0,
+  "spend_pct_of_2000": 75.0,
+  "spend_pct_of_1000": 150.0
+ }
+}

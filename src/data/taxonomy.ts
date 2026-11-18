@@ -728,7 +728,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you're rebuilding after missed payments, the credit scores hub covers secured cards and the steps that move a score.",
     ],
     decisions: ["Which no-fee card earns the most for me?", "What can I get with no income or credit history?", "Which card avoids foreign transaction fees?", "How does a first card build my credit file?"],
-    startHere: ["best-no-annual-fee-credit-cards-canada", "best-no-foreign-transaction-fee-credit-cards-canada"],
+    startHere: ["best-no-annual-fee-credit-cards-canada", "best-no-foreign-transaction-fee-credit-cards-canada", "best-credit-cards-newcomers-canada"],
   },
   "credit-cards/credit-score-building": {
     intro: [

@@ -198,6 +198,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">FCAC: credit cards</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
+
     <div class="cta-section">
         <p><strong>The card is a few hundred dollars. The tax return is larger.</strong></p>
         <p>Once the plastic is chosen, contribution room and brackets move more money. The 2026 tax guide is the companion, not a card offer.</p>
@@ -960,6 +962,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.bmo.com/main/personal/credit-cards/bmo-cashback-mastercard/">BMO CashBack Mastercard</a></li>
         <li><a href="https://www.americanexpress.com/en-ca/benefits/simplycash-card/">SimplyCash from American Express</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
 
     ${footer('September 27, 2026')}
 

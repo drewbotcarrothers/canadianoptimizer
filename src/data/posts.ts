@@ -17,6 +17,7 @@ import { toolsClusterPosts } from './tools-cluster';
 import { SUBCATEGORY_ASSIGNMENTS } from './taxonomy';
 import { batch20261116Posts } from './nov2026/batch-2026-11-16';
 import { batch20261117Posts } from './nov2026/batch-2026-11-17';
+import { batch20261118Posts } from './nov2026/batch-2026-11-18';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -3179,6 +3180,8 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Authorized user status is not magic</strong> and shares liability risk.</li>
         <li><strong>Interest is not a credit-building tool.</strong></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
 
     <div class="cta-section">
         <p><strong>Credit capacity is infrastructure. Tax is cash flow.</strong></p>
@@ -27217,6 +27220,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...retirementClusterPosts,
   ...batch20261116Posts,
   ...batch20261117Posts,
+  ...batch20261118Posts,
 
 ];
 
