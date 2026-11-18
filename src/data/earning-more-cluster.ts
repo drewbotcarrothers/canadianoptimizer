@@ -297,39 +297,74 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 </div>`
   ),
 
-  earningPost(
+  {
+    ...earningPost(
     'salary-after-tax-by-province-canada',
     'Salary After Tax by Province: $50k to $250k Take-Home Pay',
-    'At $100,000 of taxable income in 2026, basic-personal-amount income tax is about $20,771 in Ontario and $21,347 in Alberta. That is not the paycheque. CPP and EI come off too.',
+    'On a $100,000 salary in 2026, take-home pay after income tax, CPP and EI ranges from about $67,170 in Nova Scotia to $73,935 in British Columbia on a basic-personal-amount worksheet. That is a $6,765 gap.',
     `<div class="container">
 
     <div class="hook">
-        Provincial tax, not the federal bracket, is why the same salary cashes differently across Canada. On a 2026 worksheet that taxes the salary as taxable income and subtracts only the basic personal amount, <span class="highlight">$100,000</span> produces about $20,771 of income tax in Ontario and about $21,347 in Alberta. Employee CPP and EI then take about another $5,770 outside Quebec. This is not a pay stub.
+        The same salary does not cash the same across Canada, and provincial tax is the reason. On a 2026 worksheet that taxes the salary as taxable income and subtracts only the basic personal amount, <span class="highlight">$100,000</span> leaves about $73,935 after income tax, CPP and EI in British Columbia and about $67,170 in Nova Scotia. That is a $6,765 a year gap between provinces on the same paycheque. Alberta, the province people assume wins, lands at about $72,883. This is a worksheet, not a pay stub.
     </div>
 
-    <p>The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. Type a different number into the <a href="/blog/canada-income-tax-calculator/">2026 income tax calculator</a>. The bracket lists are <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a>. A move, as opposed to a table, is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage</a>.</p>
+    <p>This page sits in <a href="/category/taxes/">Taxes</a>, under <a href="/category/taxes/brackets-basics/">tax brackets and how tax works</a>. The hub is the <a href="/blog/tax-aware-income-guide/">tax-aware income guide</a>. Type a different number into the <a href="/blog/canada-income-tax-calculator/">2026 income tax calculator</a>. The bracket lists are <a href="/blog/federal-tax-brackets/">federal</a> and <a href="/blog/provincial-tax-rates/">provincial</a>. A move, as opposed to a table, is <a href="/blog/geographic-arbitrage-canada/">geographic arbitrage</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Federal tax in 2026 is 14% to $58,523, then 20.5%, 26%, 29%, and 33% above $258,482. Provinces add their own brackets.</li>
-            <li>The dollars below use the basic personal amount, Ontario surtax, the Quebec abatement, and Manitoba's clawback of its basic amount. They skip the Canada employment amount, so a real T1 is a bit lower.</li>
-            <li>Employee CPP outside Quebec is 5.95% up to the $74,600 YMPE, after a $3,500 exemption, plus 4% from $74,600 to $85,000. EI is 1.63% up to $68,900.</li>
-            <li>Quebec uses QPP at 6.30%, a lower EI rate of 1.30%, and QPIP at 0.430% up to $103,000 of insurable earnings. Federal tax is after the 16.5% abatement.</li>
-            <li>Two sources disagree on Manitoba's thresholds and on whether Prince Edward Island has a 20% band above $200,000. The table follows CRA's T4127 formulas and says so.</li>
+            <li>Federal tax in 2026 is 14% to $58,523, then 20.5%, 26%, 29%, and 33% above $258,482. Provinces and territories add their own brackets, and that is where the gap comes from.</li>
+            <li>At $100,000, British Columbia leaves the most take-home pay of the ten provinces ($73,935) and Nova Scotia the least ($67,170). Nunavut, at $75,298, is the highest of all 13 jurisdictions.</li>
+            <li>Alberta is not the lowest-tax province at every salary. On this worksheet British Columbia charges less income tax than Alberta from about $46,000 to about $150,000. Above that, Alberta wins.</li>
+            <li>The dollars use the basic personal amount, the Ontario surtax and Ontario health premium, the Quebec abatement, and Manitoba's clawback of its basic amount. They skip the Canada employment amount and CPP and EI credits, so a real T1 is a bit lower.</li>
+            <li>Employee CPP outside Quebec is 5.95% up to the $74,600 maximum pensionable earnings, after a $3,500 exemption, plus 4% from $74,600 to $85,000. EI is 1.63% up to $68,900. For 2027, CRA lists CPP at 5.75% up to $76,700 and EI at 1.64% up to $70,800.</li>
         </ul>
     </div>
 
-    <h2>What is in the table, and what is left out?</h2>
+    <h2>Which province leaves the most take-home pay on the same salary?</h2>
 
-    <p>Each salary is treated as taxable income. There is no RRSP deduction, no spouse, no age amount, and no Canada employment amount. T4127 lists that federal employment amount at $1,501 for 2026. Claiming it would cut federal tax by 14% of $1,501. The table leaves it out so the method matches the calculator, which also leaves it out.</p>
-
-    <p>Ontario includes the surtax in T4127: 20% of basic Ontario tax above $5,818, plus 36% of basic Ontario tax above $7,446. Quebec federal tax is reduced by the 16.5% abatement, and Quebec tax uses Revenu Québec's 2026 brackets (14% to $54,345, 19% to $108,680, 24% to $132,245, 25.75% above) and the $18,952 basic amount from Québec's 2026 parameters. At $50,000, that arithmetic lands on $8,268 of combined tax, which is the figure on Revenu Québec's 2026 estimation table.</p>
-
-    <p>British Columbia's personal-rates page lists 5.60% on the first $50,363. T4127's January 2026 withholding table still prints 5.06% on that band. This table uses 5.60% for tax on the return, and 5.60% as the credit rate on British Columbia's $13,216 basic amount. A paycheque can still be withheld at 5.06% until the payroll table catches up. Do not treat a stub as the T1.</p>
+    <p>At $100,000, British Columbia leaves the most of any province and Nova Scotia the least, a gap of $6,765 a year. The table subtracts worksheet income tax and employee CPP and EI (QPP, Quebec EI and QPIP in Quebec) from the salary. It is sorted by the $100,000 column.</p>
 
     <table>
-        <caption>Income tax on salary treated as taxable income, tax year 2026, basic personal amount only, rounded to the nearest dollar. As of October 2026. Not a paycheque.</caption>
+        <caption>Take-home pay after worksheet income tax and employee CPP/EI (QPP/EI/QPIP in Quebec), tax year 2026, single person, basic personal amount only, rounded to the nearest dollar. As of November 15, 2026. Not a paycheque.</caption>
+        <thead>
+            <tr>
+                <th>Province or territory</th>
+                <th>$50,000</th>
+                <th>$75,000</th>
+                <th>$100,000</th>
+                <th>$150,000</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Nunavut</td><td>$40,508</td><td>$57,573</td><td>$75,298</td><td>$108,967</td></tr>
+            <tr><td>British Columbia</td><td>$39,661</td><td>$56,385</td><td>$73,935</td><td>$105,797</td></tr>
+            <tr><td>Northwest Territories</td><td>$39,845</td><td>$56,417</td><td>$73,742</td><td>$105,796</td></tr>
+            <tr><td>Yukon</td><td>$39,574</td><td>$56,187</td><td>$73,412</td><td>$106,223</td></tr>
+            <tr><td>Alberta</td><td>$39,543</td><td>$55,908</td><td>$72,883</td><td>$105,820</td></tr>
+            <tr><td>Ontario</td><td>$39,252</td><td>$55,615</td><td>$72,709</td><td>$102,604</td></tr>
+            <tr><td>Saskatchewan</td><td>$38,611</td><td>$54,218</td><td>$70,568</td><td>$102,255</td></tr>
+            <tr><td>Manitoba</td><td>$37,967</td><td>$53,421</td><td>$69,708</td><td>$98,945</td></tr>
+            <tr><td>New Brunswick</td><td>$38,306</td><td>$53,554</td><td>$69,529</td><td>$99,560</td></tr>
+            <tr><td>Newfoundland and Labrador</td><td>$38,202</td><td>$53,218</td><td>$68,929</td><td>$98,967</td></tr>
+            <tr><td>Quebec</td><td>$37,937</td><td>$52,668</td><td>$68,132</td><td>$96,170</td></tr>
+            <tr><td>Prince Edward Island</td><td>$37,758</td><td>$52,744</td><td>$68,069</td><td>$97,164</td></tr>
+            <tr><td>Nova Scotia</td><td>$37,204</td><td>$51,884</td><td>$67,170</td><td>$96,358</td></tr>
+        </tbody>
+    </table>
+
+    <p>The order shifts with the salary. At $150,000, Alberta ($105,820) edges out British Columbia ($105,797), and Quebec drops to the bottom. The territories rank high because their basic amounts are large and their low brackets are cheap. Nobody should move for a table: rent, home prices and provincial benefits are not in it.</p>
+
+    <h2>What is in the table, and what is left out?</h2>
+
+    <p>Each salary is treated as taxable income. There is no RRSP deduction, no spouse, no age amount, no CPP or EI credit, and no Canada employment amount. T4127 lists that federal employment amount at $1,501 for 2026. Claiming it would cut federal tax by 14% of $1,501. The table leaves it out so the method matches the calculator, which also leaves it out.</p>
+
+    <p>Ontario includes the surtax in T4127: 20% of basic Ontario tax above $5,818, plus 36% of basic Ontario tax above $7,446. Ontario also includes the Ontario health premium from T4127's formula: $600 at $50,000, $750 from about $72,600 to $200,000, and $900 at $250,000. Quebec federal tax is reduced by the 16.5% abatement, and Quebec tax uses Revenu Québec's 2026 brackets (14% to $54,345, 19% to $108,680, 24% to $132,245, 25.75% above) and the $18,952 basic amount from Québec's 2026 parameters. At $50,000, that arithmetic lands on $8,268 of combined tax, which is the figure on Revenu Québec's 2026 estimation table.</p>
+
+    <p>British Columbia's rate on the first $50,363 is 5.60% for 2026. CRA's July 2026 payroll formulas withhold 6.14% on that band for the rest of the year to catch up for months withheld at 5.06%. This table uses 5.60% for tax on the return, and 5.60% as the credit rate on British Columbia's $13,216 basic amount. Do not treat a stub as the T1.</p>
+
+    <table>
+        <caption>Income tax on salary treated as taxable income, tax year 2026, basic personal amount only, rounded to the nearest dollar. Ontario includes surtax and the Ontario health premium. As of November 15, 2026. Not a paycheque.</caption>
         <thead>
             <tr>
                 <th>Province or territory</th>
@@ -346,28 +381,30 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
             <tr><td>British Columbia</td><td>$6,757</td><td>$13,245</td><td>$20,295</td><td>$38,433</td><td>$59,596</td><td>$82,643</td></tr>
             <tr><td>Manitoba</td><td>$8,451</td><td>$16,209</td><td>$24,522</td><td>$45,285</td><td>$67,596</td><td>$91,370</td></tr>
             <tr><td>New Brunswick</td><td>$8,112</td><td>$16,076</td><td>$24,701</td><td>$44,670</td><td>$66,497</td><td>$90,894</td></tr>
-            <tr><td>Newfoundland and Labrador</td><td>$8,382</td><td>$16,578</td><td>$25,466</td><td>$45,429</td><td>$67,750</td><td>$91,831</td></tr>
+            <tr><td>Newfoundland and Labrador</td><td>$8,216</td><td>$16,412</td><td>$25,301</td><td>$45,263</td><td>$67,584</td><td>$91,665</td></tr>
             <tr><td>Nova Scotia</td><td>$9,214</td><td>$17,746</td><td>$27,060</td><td>$47,872</td><td>$71,735</td><td>$96,882</td></tr>
             <tr><td>Northwest Territories</td><td>$6,573</td><td>$13,213</td><td>$20,488</td><td>$38,434</td><td>$58,657</td><td>$80,330</td></tr>
             <tr><td>Nunavut</td><td>$5,910</td><td>$12,057</td><td>$18,932</td><td>$35,263</td><td>$53,838</td><td>$74,236</td></tr>
-            <tr><td>Ontario</td><td>$6,566</td><td>$13,265</td><td>$20,771</td><td>$40,876</td><td>$63,972</td><td>$88,572</td></tr>
-            <tr><td>Prince Edward Island</td><td>$8,660</td><td>$16,886</td><td>$26,161</td><td>$47,066</td><td>$70,178</td><td>$94,325</td></tr>
+            <tr><td>Ontario</td><td>$7,166</td><td>$14,015</td><td>$21,521</td><td>$41,626</td><td>$64,722</td><td>$89,472</td></tr>
+            <tr><td>Prince Edward Island</td><td>$8,660</td><td>$16,886</td><td>$26,161</td><td>$47,066</td><td>$70,178</td><td>$94,825</td></tr>
             <tr><td>Quebec</td><td>$8,268</td><td>$16,618</td><td>$25,647</td><td>$47,596</td><td>$71,837</td><td>$96,943</td></tr>
             <tr><td>Saskatchewan</td><td>$7,807</td><td>$15,412</td><td>$23,662</td><td>$41,975</td><td>$62,720</td><td>$84,618</td></tr>
             <tr><td>Yukon</td><td>$6,844</td><td>$13,443</td><td>$20,818</td><td>$38,007</td><td>$57,446</td><td>$78,561</td></tr>
         </tbody>
     </table>
 
-    <p>Table as of October 2026. Federal basic amount is $16,452, phasing down to $14,829 between $181,440 and $258,482 of income. Provincial basic amounts used here are the T4127 Table 8.2 figures: Alberta $22,769, British Columbia $13,216, Manitoba $15,780 (reduced above $200,000 by the T4127 formula, to zero at $400,000), New Brunswick $13,664, Newfoundland and Labrador $11,188, Nova Scotia $11,932, Northwest Territories $18,198, Nunavut $19,659, Ontario $12,989, Prince Edward Island $15,000, Saskatchewan $20,381. Yukon's basic amount mirrors the federal amount. The credit rate is the province's lowest bracket rate, except British Columbia at 5.60%.</p>
+    <p>Table as of November 15, 2026. Federal basic amount is $16,452, phasing down to $14,829 between $181,440 and $258,482 of income. Provincial basic amounts: Alberta $22,769, British Columbia $13,216, Manitoba $15,780 (reduced above $200,000, to zero at $400,000), New Brunswick $13,664, Newfoundland and Labrador $13,094, Nova Scotia $11,932, Northwest Territories $18,198, Nunavut $19,659, Ontario $12,989, Prince Edward Island $15,000, Saskatchewan $20,381. Yukon's basic amount mirrors the federal amount. The credit rate is the province's lowest bracket rate (8% in Alberta, 5.60% in British Columbia).</p>
 
     <div class="warning-box">
-        <strong>Three places this table can disagree with another CRA page:</strong>
-        <p>Manitoba: T4127 says the basic amount and the brackets are not indexed, and it prints thresholds of $47,000 and $100,000. A retrieval of CRA's personal-rates page in October 2026 showed $47,564 and $101,200. This table uses $47,000 and $100,000. Newfoundland and Labrador: T4127 lists a basic amount of $11,188. The calculator on this site has used $15,000. This table uses $11,188. Prince Edward Island: T4127, with a May 2026 update, puts 19% on income above $142,520 and does not show a further band. A personal-rates retrieval also showed 20% above $200,000. This table does not apply 20%. Confirm the PEI line before you rely on $200,000 or $250,000.</p>
+        <strong>Three rows that changed in this update, and why:</strong>
+        <p>Newfoundland and Labrador: on April 29, 2026, the province raised its basic personal amount from $11,188 to $13,094, effective January 1, 2026. The $15,000 in CRA's July payroll tables is a prorated withholding amount for the second half of the year, not the amount on the return. This table now uses $13,094, which cuts the row by about $166.</p>
+        <p>Prince Edward Island: the province added a 20% band on taxable income above $200,000 for 2026 (proposed in Bill No. 23), and CRA's 2026 rates page shows it. CRA's July payroll tables withhold 21% above $200,000 to catch up. This table applies 20%, which adds $500 at $250,000.</p>
+        <p>Manitoba: Manitoba froze its basic amount and brackets for 2025 and later, and CRA's T4127 and Manitoba payroll tables print $47,000 and $100,000. CRA's 2026 rates page shows $47,564 and $101,200. This table uses $47,000 and $100,000. Check CRA's page before you file.</p>
     </div>
 
     <h2>What do CPP and EI take off the same salary?</h2>
 
-    <p>The tax table is not take-home pay. Employee payroll deductions, from T4127's 2026 contribution tables, are the same at a given salary for every province except Quebec. The basic CPP exemption is $3,500. Nothing in this block is the employer share.</p>
+    <p>The tax table is not take-home pay. Employee payroll deductions, from CRA's 2026 contribution tables, are the same at a given salary for every province except Quebec. The basic CPP exemption is $3,500. Nothing in this block is the employer share.</p>
 
     <table>
         <caption>Employee payroll deductions on salary, 2026, rounded to the nearest dollar. Quebec is QPP, Quebec EI, and QPIP. Everyone else is CPP, CPP2, and EI.</caption>
@@ -402,11 +439,13 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of October 2026. Outside Quebec the $100,000 line is the $4,230.45 CPP maximum, plus $416 of CPP2, plus the $1,123.07 EI maximum. Quebec's $100,000 line uses the $4,479.30 QPP employee maximum, $416 of the second additional contribution, the $895.70 Quebec EI maximum, and QPIP at 0.430% of $100,000. At $150,000 and above, QPIP hits its $442.90 maximum because insurable earnings cap at $103,000. Rounding to the nearest dollar can put a row off by $1.</p>
+    <p>Table as of November 15, 2026. Outside Quebec the $100,000 line is the $4,230.45 CPP maximum, plus $416 of CPP2, plus the $1,123.07 EI maximum. Quebec's $100,000 line uses the $4,479.30 QPP employee maximum, $416 of the second additional contribution, the $895.70 Quebec EI maximum, and QPIP at 0.430% of $100,000. At $150,000 and above, QPIP hits its $442.90 maximum because insurable earnings cap at $103,000. Rounding to the nearest dollar can put a row off by $1.</p>
+
+    <p>For 2027, CRA has posted a CPP rate of 5.75% (down from 5.95%) on pensionable earnings up to $76,700, with a maximum employee contribution of $4,209. EI rises to 1.64% on insurable earnings up to $70,800, a $1,161.12 maximum. Tax brackets for 2027 are not on CRA's rates page yet.</p>
 
     <div class="example-box">
-        <strong>Illustration: Ontario, $100,000 salary</strong>
-        <p>Income tax on the worksheet is $20,771. Employee CPP and EI are about $5,770. Salary minus those two is about $73,460. That figure still ignores the Ontario health premium, the Ontario tax reduction, and the Canada employment amount. It is the right order of magnitude for a single person with only the basic amount. It is the wrong number to argue with a pay stub that has a pension adjustment, a taxable benefit, or a mid-year start.</p>
+        <strong>Illustration: Ontario versus Alberta, $100,000 salary</strong>
+        <p>Ontario income tax on the worksheet is $21,521, including $750 of Ontario health premium. Alberta's is $21,347. Employee CPP and EI are about $5,770 in both. That leaves about $72,709 in Ontario and about $72,883 in Alberta, a difference of $174 a year. British Columbia leaves about $73,935, which is $1,052 a year more than Alberta. These figures ignore the Canada employment amount, CPP and EI credits, and any deduction. They are the right order of magnitude for a single person with only the basic amount, and the wrong number to argue with a pay stub that has a pension adjustment, a taxable benefit, or a mid-year start.</p>
     </div>
 
     <h2>Why is the marginal rate not the tax divided by the salary?</h2>
@@ -415,28 +454,37 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 
     <h2>Frequently asked questions</h2>
 
+    <h3>Which province has the lowest income tax on a $100,000 salary?</h3>
+    <p>On this 2026 worksheet, Nunavut has the lowest income tax of all 13 jurisdictions at $18,932. Among the provinces, British Columbia is lowest at $20,295, ahead of Alberta at $21,347 and Ontario at $21,521. Nova Scotia is highest at $27,060.</p>
+
     <h3>Why doesn't this match my pay stub?</h3>
-    <p>The stub withholds tax from tables that use your TD1 claim code, the pay period, and sometimes a bonus method. It also withholds CPP and EI. This page computes tax once, on the whole salary, with only the basic personal amount. A person who started in June, pays union dues, or has a taxable benefit will not hit these cells. The calculator is the same simplified method.</p>
+    <p>The stub withholds tax from tables that use your TD1 claim code, the pay period, and sometimes a bonus method. In 2026 some provinces also changed mid-year, so July payroll tables use catch-up rates (British Columbia, Prince Edward Island) or a prorated basic amount (Newfoundland and Labrador). This page computes tax once, on the whole salary, with only the basic personal amount. A person who started in June, pays union dues, or has a taxable benefit will not hit these cells.</p>
 
     <h3>Which figure should I use for Manitoba or Prince Edward Island?</h3>
-    <p>Use the table as T4127 arithmetic, then open CRA's current-year rates page before you file. Manitoba's indexed-looking thresholds ($47,564 and $101,200) showed up on one retrieval and not in T4127. Prince Edward Island's 20% band above $200,000 showed up on one retrieval and not in T4127. If those pages have been revised since October 2026, the page wins.</p>
+    <p>For Manitoba, the province froze its brackets at $47,000 and $100,000, and that is what CRA's payroll formulas use, even though CRA's rates page shows $47,564 and $101,200. For Prince Edward Island, use 20% above $200,000 for 2026. If CRA revises either page, the page wins.</p>
 
     <h3>Does Quebec really pay less federal tax?</h3>
     <p>Basic federal tax is reduced by 16.5% for Quebec residents. That is the abatement in T4127. Quebec then charges its own tax, plus QPP, QPIP, and a lower EI rate. The combined result is in the Quebec row. Do not subtract 16.5% yourself and also use a non-Quebec federal column.</p>
 
-    <h3>Where is the Ontario health premium?</h3>
-    <p>Not in this table. It is a separate Ontario charge based on taxable income, and this worksheet does not apply it. Do not add a guessed premium. Look up the current Ontario health premium brackets on the provincial form before you treat the Ontario "left over" figure as cash.</p>
+    <h3>Is the Ontario health premium included?</h3>
+    <p>Yes, as of this update. The premium follows T4127's formula on taxable income: $600 at $50,000, $750 from about $72,600 to $200,000, and $900 at $250,000 and above. It is collected with Ontario tax, which is why it sits inside the Ontario row.</p>
 
     <h3>Will an RRSP change the table?</h3>
     <p>A deductible RRSP contribution lowers taxable income. The table assumes zero. The 2026 dollar limit is $33,810, and your room can be lower. Run the lower taxable income through the calculator. Room rules are the <a href="/blog/contribution-limits/">limits guide</a>.</p>
 
     <h2>Sources</h2>
     <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: current year tax rates and income brackets (2026)</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html">CRA: T4127, 122nd edition, effective January 1, 2026</a></li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html">CRA: federal and provincial rates index</a></li>
-        <li><a href="https://www.revenuquebec.ca/fr/citoyens/declaration-de-revenus/produire-votre-declaration-de-revenus/taux-dimposition/">Revenu Québec: 2026 income tax rates</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jul.html">CRA: T4127, 123rd edition, effective July 1, 2026</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4032-payroll-deductions-tables/t4032nl-july/t4032nl-july-general-information.html">CRA: Newfoundland and Labrador payroll tables, July 2026 (basic amount change)</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4032-payroll-deductions-tables/t4032pe-july/t4032pe-july-general-information.html">CRA: Prince Edward Island payroll tables, July 2026 (new 20% band)</a></li>
+        <li><a href="https://www.princeedwardisland.ca/fr/information/finances-et-abordabilite/regime-provincial-dimpot-sur-le-revenu">Government of Prince Edward Island: provincial income tax system</a></li>
+        <li><a href="https://www.gov.mb.ca/finance/taxation/pubs/bulletins/2026budget.pdf">Manitoba Finance: taxation changes, Budget 2026</a></li>
+        <li><a href="https://www.revenuquebec.ca/en/citizens/income-tax-return/completing-your-income-tax-return/income-tax-rates/">Revenu Québec: 2026 income tax rates</a></li>
         <li><a href="https://www.finances.gouv.qc.ca/Budget_et_mise_a_jour/maj/documents/AUTFR_RegimeImpot2026.pdf">Québec finance: 2026 personal income tax parameters</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html">CRA: CPP contribution rates and maximums</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html">CRA: EI premium rates and maximums</a></li>
     </ul>
 
     <div class="cta-section">
@@ -445,10 +493,19 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer}
+    ${footer.replace(
+      'Published: October 3, 2026 | Category: Earning More',
+      'Published: October 3, 2026 | Updated: November 15, 2026 | Category: Earning More'
+    ).replace('as of October 2026', 'as of November 15, 2026')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-11-15',
+    youtubeId: '6sWG4oca81A',
+    youtubeTitle: '$100,000 Salary After Tax: Every Province Ranked',
+    youtubeUploadDate: '2026-11-16T05:01:21-05:00',
+    youtubeDuration: 'PT5M31S',
+  },
 
   earningPost(
     'rideshare-delivery-driver-taxes-canada',
