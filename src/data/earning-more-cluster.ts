@@ -501,6 +501,10 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
 </div>`
     ),
     updated: '2026-11-15',
+    youtubeId: '6sWG4oca81A',
+    youtubeTitle: '$100,000 Salary After Tax: Every Province Ranked',
+    youtubeUploadDate: '2026-11-16T05:01:21-05:00',
+    youtubeDuration: 'PT5M31S',
   },
 
   earningPost(
