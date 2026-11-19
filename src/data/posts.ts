@@ -18,6 +18,7 @@ import { SUBCATEGORY_ASSIGNMENTS } from './taxonomy';
 import { batch20261116Posts } from './nov2026/batch-2026-11-16';
 import { batch20261117Posts } from './nov2026/batch-2026-11-17';
 import { batch20261118Posts } from './nov2026/batch-2026-11-18';
+import { batch20261119Posts } from './nov2026/batch-2026-11-19';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -2810,7 +2811,7 @@ const allPosts: BlogPostRecord[] = [
         <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a></p>
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
 
     <div class="cta-section">
         <p><strong>Cash back is a basis point. Tax is a bracket.</strong></p>
@@ -3181,7 +3182,7 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Interest is not a credit-building tool.</strong></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a> &middot; <a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a></p>
 
     <div class="cta-section">
         <p><strong>Credit capacity is infrastructure. Tax is cash flow.</strong></p>
@@ -25401,6 +25402,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the wait your cash has to cover.</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
+
     <div class="cta-section">
         <p><strong>A personal HELOC draw and an investment HELOC draw are different tax files.</strong></p>
         <p>Interest deductibility is a use test, not a product feature. The 2026 tax guide is the filing side of borrowed money.</p>
@@ -25546,6 +25549,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/tax-efficient-investing/">Tax-efficient investing</a> — why interest and dividends are not rivals.</li>
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the payday transfer that funds the vehicle.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
 
     <div class="cta-section">
         <p><strong>The rate is a quote. The tax on the interest is a return.</strong></p>
@@ -27221,6 +27226,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261116Posts,
   ...batch20261117Posts,
   ...batch20261118Posts,
+  ...batch20261119Posts,
 
 ];
 

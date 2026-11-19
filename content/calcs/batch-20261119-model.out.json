@@ -1,0 +1,226 @@
+{
+ "neo": {
+  "lean": {
+   "monthly_total": 1500,
+   "annual_total": 18000,
+   "cards": {
+    "w_gg": {
+     "gross": 207.0,
+     "net": 207.0
+    },
+    "w_sd": {
+     "gross": 144.0,
+     "net": 144.0
+    },
+    "w_ev": {
+     "gross": 180.0,
+     "net": 180.0
+    },
+    "we_gg": {
+     "gross": 444.0,
+     "net": 295.0
+    },
+    "we_sd": {
+     "gross": 288.0,
+     "net": 139.0
+    },
+    "we_ev": {
+     "gross": 360.0,
+     "net": 211.0
+    }
+   }
+  },
+  "typical": {
+   "monthly_total": 3000,
+   "annual_total": 36000,
+   "cards": {
+    "w_gg": {
+     "gross": 414.0,
+     "net": 414.0
+    },
+    "w_sd": {
+     "gross": 288.0,
+     "net": 288.0
+    },
+    "w_ev": {
+     "gross": 360.0,
+     "net": 360.0
+    },
+    "we_gg": {
+     "gross": 894.0,
+     "net": 745.0
+    },
+    "we_sd": {
+     "gross": 576.0,
+     "net": 427.0
+    },
+    "we_ev": {
+     "gross": 720.0,
+     "net": 571.0
+    }
+   }
+  },
+  "high": {
+   "monthly_total": 5000,
+   "annual_total": 60000,
+   "cards": {
+    "w_gg": {
+     "gross": 642.0,
+     "net": 642.0
+    },
+    "w_sd": {
+     "gross": 480.0,
+     "net": 480.0
+    },
+    "w_ev": {
+     "gross": 600.0,
+     "net": 600.0
+    },
+    "we_gg": {
+     "gross": 1356.0,
+     "net": 1207.0
+    },
+    "we_sd": {
+     "gross": 1032.0,
+     "net": 883.0
+    },
+    "we_ev": {
+     "gross": 1080.0,
+     "net": 931.0
+    }
+   }
+  },
+  "ev_breakeven_vs_world": 14900.0,
+  "ev_breakeven_vs_zero": 7450.0,
+  "ev_breakeven_monthly_vs_world": 1241.67
+ },
+ "eq": {
+  "balance": 10000,
+  "eq_base": 150.0,
+  "eq_bonus": 300.0,
+  "eq_notice30": 300.0,
+  "rbc_hies": 65.0,
+  "gap_base_vs_rbc": 85.0,
+  "gap_bonus_vs_rbc": 235.0,
+  "dd_annual": 24000
+ },
+ "koho": {
+  "plans": {
+   "core": {
+    "monthly": 0,
+    "yearly_pm": 0,
+    "int": 0.02,
+    "cat": 0.01,
+    "oth": 0.0,
+    "annual_monthly_billing": 0,
+    "annual_yearly_billing": 0,
+    "ex_interest": 200.0,
+    "ex_cashback": 120.0,
+    "ex_net_yearly": 320.0,
+    "ex_net_monthly": 320.0
+   },
+   "extra": {
+    "monthly": 18,
+    "yearly_pm": 12,
+    "int": 0.025,
+    "cat": 0.015,
+    "oth": 0.0025,
+    "annual_monthly_billing": 216,
+    "annual_yearly_billing": 144,
+    "extra_interest_rate": 0.005,
+    "breakeven_balance_yearly": 28800.0,
+    "breakeven_balance_monthly": 43200.0,
+    "ex_interest": 250.0,
+    "ex_cashback": 210.0,
+    "ex_net_yearly": 316.0,
+    "ex_net_monthly": 244.0
+   },
+   "everything": {
+    "monthly": 22,
+    "yearly_pm": 14.75,
+    "int": 0.035,
+    "cat": 0.02,
+    "oth": 0.005,
+    "annual_monthly_billing": 264,
+    "annual_yearly_billing": 177.0,
+    "extra_interest_rate": 0.015,
+    "breakeven_balance_yearly": 11800.0,
+    "breakeven_balance_monthly": 17600.0,
+    "ex_interest": 350.0,
+    "ex_cashback": 300.0,
+    "ex_net_yearly": 473.0,
+    "ex_net_monthly": 386.0
+   }
+  },
+  "example": {
+   "balance": 10000,
+   "cat_monthly": 1000,
+   "oth_monthly": 1000
+  },
+  "cb": {
+   "core": 120,
+   "extra": 84.0,
+   "everything": 60.0,
+   "extra_pm": 7.0,
+   "everything_pm": 5.0
+  },
+  "neo_build_annual": 119.88
+ },
+ "gic": {
+  "principal": 20000,
+  "terms": {
+   "1": {
+    "gic_rate": 0.037,
+    "gic_interest": 740.0,
+    "eq_base": 300.0,
+    "eq_bonus": 600.0,
+    "rbc": 130.0,
+    "mtr30": {
+     "gic_after_tax": 518.0,
+     "eq_base_after_tax": 210.0,
+     "eq_bonus_after_tax": 420.0
+    },
+    "mtr45": {
+     "gic_after_tax": 407.0,
+     "eq_base_after_tax": 165.0,
+     "eq_bonus_after_tax": 330.0
+    }
+   },
+   "3": {
+    "gic_rate": 0.04,
+    "gic_interest": 2497.28,
+    "eq_base": 913.57,
+    "eq_bonus": 1854.54,
+    "rbc": 392.54,
+    "mtr30": {
+     "gic_after_tax": 1748.1,
+     "eq_base_after_tax": 639.5,
+     "eq_bonus_after_tax": 1298.18
+    },
+    "mtr45": {
+     "gic_after_tax": 1373.5,
+     "eq_base_after_tax": 502.46,
+     "eq_bonus_after_tax": 1020.0
+    }
+   },
+   "5": {
+    "gic_rate": 0.0425,
+    "gic_interest": 4626.93,
+    "eq_base": 1545.68,
+    "eq_bonus": 3185.48,
+    "rbc": 658.51,
+    "mtr30": {
+     "gic_after_tax": 3238.85,
+     "eq_base_after_tax": 1081.98,
+     "eq_bonus_after_tax": 2229.84
+    },
+    "mtr45": {
+     "gic_after_tax": 2544.81,
+     "eq_base_after_tax": 850.12,
+     "eq_bonus_after_tax": 1752.01
+    }
+   }
+  },
+  "first_year_interest_3y": 800.0
+ }
+}

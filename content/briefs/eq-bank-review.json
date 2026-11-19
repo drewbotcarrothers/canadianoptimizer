@@ -1,0 +1,38 @@
+{
+  "slug": "eq-bank-review",
+  "title": "EQ Bank Review: Personal Account, GICs and Transfers",
+  "family": "review",
+  "category": "budgeting-saving",
+  "subcategory": "savings-gics-cash",
+  "targetQuery": "eq bank review",
+  "secondaryQueries": [
+    "eq bank personal account interest rate",
+    "eq bank gic rates",
+    "eq bank transfer limits"
+  ],
+  "infoGain": "Dated $10,000 one-year table: EQ base rate, direct-deposit rate and 30 Day Notice account vs RBC's posted High Interest eSavings rate, plus a consolidated table of EQ's transfer limits from its FAQs.",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-19",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "read the rendered post on 2026-11-18: the opening paragraph answers the title (good for online-only savers, 1.50%/3.00%, GIC 3.70%-4.25%); each question H2 (rate, vs big bank, fees, transfers, GICs, safety, which account) and each FAQ opens with a direct answer. Fixed today: GIC section no longer says every GIC beats EQ's savings rates (3- and 6-month GICs now pay less than the 3.00% notice account)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "no invented quotes, experience, tests or review claims; every fee, limit and rule is attributed to EQ Bank, RBC or CDIC pages; interest totals are labelled our calculation on an illustrative $10,000; 'I' appears only in an FAQ question"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "three picks by job (emergency fund, everyday spending, fixed-date money), one row each with Not-for-you and Also-consider; no affiliate link (EQ Bank offer is pending in the registry); disclosure linked"
+    }
+  }
+}
