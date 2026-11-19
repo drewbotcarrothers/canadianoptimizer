@@ -18328,249 +18328,130 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "The Retirement Withdrawal Strategy That Could Save You $100K+ in Taxes",
+    title: "Retirement Withdrawal Order in Canada: RRSP, TFSA and RRIF",
     slug: "retirement-withdrawal-strategy",
     category: "Retirement",
     categorySlug: "retirement",
     author: "Andrew",
     date: "2026-03-19",
-    updated: "2026-09-26",
-    excerpt: "Drawing from the wrong account in the wrong year can cost a Canadian retiree over $100,000 in unnecessary taxes over a 25-year retirement.",
+    updated: "2026-11-18",
+    excerpt: "In what order should you draw an RRSP, TFSA and RRIF in Canada? Tax math on 2026 brackets, the OAS clawback and RRIF minimums, with worked examples.",
     image: "/images/blog/retirement-withdrawal-strategy.png",
-    content: `<div class="container"><h1>The Retirement Withdrawal Strategy That Could Save You $100K+ in Taxes</h1>
-<div class="hook"><strong>Drawing from the wrong account in the wrong year can cost a Canadian retiree over $100,000 in unnecessary taxes over a 25-year retirement.</strong> Most people spend decades carefully accumulating wealth, yet never plan their withdrawal sequence at all. The good news? With a deliberate strategy, you can legally keep tens of thousands more.</div>
-<p>Your retirement income will come from multiple sources — CPP, OAS, pensions, RRSPs, TFSAs, and taxable investments — all with different tax treatment. The order you draw from them doesn't feel urgent until April 30th arrives with a tax bill that stings. This guide walks you through a tax-efficient withdrawal plan that coordinates all your accounts.</p>
-<h2>The Withdrawal Sequencing Puzzle</h2>
-<p>By the time you retire, you likely have money scattered across several account types. Your CPP and OAS are locked into government schedules, but your RRSP, TFSA, and non-registered accounts give you choices. Those choices stack up.</p>
-<p>A retiree with $500,000 split across RRSP, TFSA, and non-registered accounts faces this question each year: Which account should I withdraw from? This matters profoundly because each account type triggers different tax consequences, creates different exposure to clawbacks, and allows different growth shelters.</p>
-<p>The math is real. Withdraw $30,000 from an RRSP, and you might trigger $12,000 in combined federal and provincial tax. Withdraw the same $30,000 from a non-registered account holding dividend stocks, and your tax might be $4,000. Same lifestyle, $8,000 different tax bill. Over 25 years, those decisions compound.</p>
-<h2>Principle 1: Non-Registered Accounts Often Come First</h2>
-<p>This is counterintuitive because non-registered accounts feel less tax-sheltered than registered ones. Yet for many retirees, drawing down non-registered accounts first is the optimal move.</p>
-<p>Why? <strong>Capital gains are only 50% taxable.</strong> If you sell a stock in your non-registered account that has appreciated $10,000, only $5,000 counts as taxable income. Compare this to interest income, which is <strong>100% taxable</strong> whether you withdraw it or leave it sitting there. In a non-registered account earning 3% interest, you're paying tax on that interest every year — even if you don't touch the money. That's a tax leak.</p>
-<p>The strategy: In your non-registered account, prioritize drawing down interest-bearing investments (bonds, GICs, savings accounts) before selling equities. Equities generate capital gains (50% taxable) and may have embedded losses (tax-deductible). This leaves your RRSP and TFSA undisturbed to grow inside their tax shelters.</p>
-<div class="callout-tip">
-<strong>Pro Tip:</strong> After age 65, you become eligible for the pension income credit (worth up to $2,000 in tax savings). Non-registered dividends and capital gains don't qualify — but eligible pension income from an RRIF does. So timing RRIF withdrawals to maximize this credit is another layer of optimization.
-</div>
-<p>A concrete example: $500,000 in non-registered savings earning 2% annually generates $10,000 in taxable interest per year. That's roughly $2,500–$3,000 in combined federal and provincial tax each year, even though you didn't withdraw anything. Emptying that non-registered account over 8 years lets you shift that $10,000 to an RRIF (where it's not taxed until withdrawal, and then qualifies for the pension income credit if you're over 65).</p>
-<h2>Principle 2: RRSP/RRIF Meltdown in Low-Income Years</h2>
-<p><strong>RRSP withdrawals are fully taxable as income.</strong> If you withdraw $40,000 from an RRSP in a year where your other income is zero, you've just pushed yourself into a higher tax bracket. That same $40,000 withdrawal when your CPP and OAS are also flowing might push you into a much higher bracket, costing an extra $5,000–$8,000 in tax.</p>
-<p>The opportunity: For many retirees, there's a "low-income gap" between when you retire and when CPP/OAS kick in. If you retire at 60 but don't take CPP until 65, those five years are your lowest-income years. This is your chance to do a strategic RRSP/RRIF meltdown.</p>
-<p>Fill the lower tax brackets with RRSP withdrawals during these gap years. Canada's federal tax brackets for 2026 start at 15% on the first ~$55,000 of income. Provincial brackets vary, but in most provinces, you can withdraw $40,000–$50,000 annually and stay in the lowest bracket. Once CPP kicks in, your taxable income jumps, and you'll use your TFSA and non-registered accounts instead.</p>
-<div class="example-box">
-<strong>Example: The RRSP <a href="/blog/rrsp-meltdown-strategy/">Meltdown</a> in the Gap Years</strong>
-<p>Sarah retires at 60 with $400,000 in an RRSP, $100,000 in a TFSA, and $50,000 in non-registered savings. She plans to take CPP at 65.</p>
+    content: `<div class="container"><h1>Retirement Withdrawal Order in Canada: RRSP, TFSA and RRIF</h1>
+<div class="hook"><strong>There is no single best order to draw your accounts, but there is a best question: how much tax does the next dollar cost this year?</strong> On 2026 federal rules, the same $200,000 of RRSP money costs about <span class="highlight">$16,500</span> in federal tax if you draw it at 60 to 64 with no other income, and about <span class="highlight">$29,500</span> if you draw it at 65 to 69 on top of CPP and OAS. That is the order problem in one number.</div>
+
+<p>This guide is for Canadians planning how to fund retirement from an RRSP or RRIF, a TFSA, a non-registered account and government pensions. It sits in <a href="/category/retirement/">Retirement</a>, next to the guides on <a href="/blog/rrsp-meltdown-strategy/">the RRSP meltdown</a>, <a href="/blog/rrif-minimum-withdrawal/">RRIF minimums</a> and <a href="/blog/oas-gis-clawback-canada/">the OAS clawback</a>. The thresholds come from CRA and Service Canada pages. The examples are labelled and use simple, stated inputs, with the arithmetic shown.</p>
+
+<div class="callout">
+<strong>Key takeaways:</strong>
 <ul>
-<li><strong>Age 60–64 (low-income years):</strong> Sarah withdraws $45,000 annually from her RRSP. With no other income, she's in the lowest tax bracket. Tax on $45,000 roughly $8,000–$9,000 combined federal/provincial. She reinvests the after-tax amount.</li>
-<li><strong>Age 65+ (CPP begins):</strong> CPP and OAS now flow. Her taxable income is $30,000+ from CPP, $6,500+ from OAS. She shifts to withdrawing from her TFSA ($25,000/year) and non-registered account ($15,000/year). The RRSP is substantially drawn down, reducing future RRIF withdrawals and OAS clawback pressure.</li>
-<li><strong>Tax saved vs. alternative:</strong> If Sarah had waited until 65 and then withdrawn $45,000 from her RRSP on top of CPP/OAS (totaling ~$80,000 taxable income), that $45,000 would be taxed at ~30%, costing ~$13,500. By doing it now in the low-income gap, she saves ~$4,500–$5,000 on that withdrawal. Over five gap years, that's $22,500–$25,000 in tax savings.</li>
+<li>RRSP and RRIF withdrawals are fully taxable income. TFSA withdrawals are not income, and the CRA says they do not reduce OAS or GIS.</li>
+<li>The cost of one extra $20,000 RRSP or RRIF withdrawal ranges from about $500 of federal tax (no other income, under 65) to about $8,200 (income of $120,000, including OAS clawback).</li>
+<li>Three thresholds do most of the damage for 2026 income: the age amount starts shrinking at $46,432, the 20.5% federal bracket starts at $58,523, and the OAS recovery tax starts at $95,323.</li>
+<li>Your RRSP must mature by December 31 of the year you turn 71. After that, a RRIF minimum forces taxable income whether you need it or not.</li>
+<li>The figures here are federal tax only. Provincial tax is added on top, and it differs by province.</li>
 </ul>
 </div>
-<p>This works only if you have enough cash flow to live on during the gap years. If you don't, you'd be forced to withdraw anyway — but at a higher tax rate. That's why early planning matters.</p>
-<h2>Principle 3: Deploy the TFSA Strategically in High-Income Years</h2>
-<p>The TFSA is your most flexible account. Withdrawals don't count as income. That makes it extraordinarily valuable once CPP and OAS are flowing and your taxable income is high.</p>
-<p>Many retirees make a critical mistake: they empty their TFSA early to live on, then fund lifestyle spending from their RRSP once the TFSA is gone. This is backwards. The TFSA is most valuable when your other income is highest, because withdrawals from it don't trigger tax or clawbacks.</p>
-<p><strong>OAS clawback begins at roughly $90,000 of net income (2026).</strong> Every dollar of income above that threshold costs you $0.15 in OAS. If you're over that threshold, pulling $30,000 from your TFSA instead of your RRSP saves you $0.15 × $30,000 = $4,500 in OAS clawback, plus income tax on that $30,000. That's a $10,000+ difference in a single year.</p>
-<p>The strategic sequence: In early retirement (low-income years), use non-registered accounts and do RRSP meltdowns. Once CPP/OAS flow and your income climbs, switch to TFSA withdrawals to avoid clawbacks and stay in lower tax brackets. Reserve the TFSA as your "insurance policy" for high-income years.</p>
-<h2>Principle 4: Coordinate CPP and OAS Timing with Your Plan</h2>
-<p>CPP and OAS are not automatic. You choose when to start (CPP: age 60–70, OAS: age 65–70). Delaying either increases monthly payments permanently — roughly 6% per year of delay for CPP, 6% per year for OAS (up to age 70).</p>
-<p>Delaying CPP until 70 instead of 60 increases your lifetime payment by roughly 42%. Whether that makes sense depends on your health, family longevity, and—critically—how it affects your withdrawal plan.</p>
-<p>If you delay CPP to 70, you need a withdrawal plan for ages 60–70 that doesn't involve forcing large RRSP withdrawals (which would waste your low-income gap years and trigger unnecessary tax). That's where non-registered accounts and TFSA come in. If you delay and then have to withdraw heavily from RRSP anyway because of CPP gap, you've lost the optimization opportunity.</p>
-<p>Work backward from your CPP/OAS start date. If you're delaying to 70, use your gap years strategically: RRSP meltdowns early, non-registered accounts middle, TFSA reserved for later.</p>
-<div class="callout-important">
-<strong>Important:</strong> OAS clawback also depends on your taxable income in the calendar year you turn 65 (the "OAS eligibility year"). Plan that year carefully. Even one large RRSP withdrawal can trigger clawback that reduces your OAS by $1,500–$3,000 permanently. This is permanent because the reduced OAS amount locks in for life.
-</div>
-<h2>Pension Income Splitting (T1032 Election)</h2>
-<p><strong>Eligible pension income can be split 50/50 with a spouse via a T1032 election.</strong> This is one of the most powerful tax tools available to couples — and most people don't know about it.</p>
-<p>Here's why it matters: If one spouse has an income of $80,000 and the other has $20,000, you're paying more combined tax than if you could split that income 50/50 ($50,000 each). The second spouse uses lower tax brackets that would otherwise be wasted. Over a 25-year retirement, income splitting can save $50,000–$150,000 for couples with asymmetrical retirement income.</p>
-<p><strong>What qualifies as eligible pension income for splitting:</strong></p>
-<ul>
-<li>RRIF withdrawals (any age)</li>
-<li>Life annuity payments from a registered pension plan (RPP)</li>
-<li>Eligible pension from an employer's defined benefit or defined contribution plan</li>
-</ul>
-<p><strong>What does NOT qualify:</strong></p>
-<ul>
-<li>CPP</li>
-<li>OAS</li>
-<li>RRSP withdrawals (before age 65)</li>
-<li>Non-registered investment income</li>
-<li><a href="/blog/tfsa-retirement-strategy/">TFSA</a> withdrawals</li>
-</ul>
-<p>If you have an RPP pension, you likely already qualify. If you have an RRSP, you only qualify once you convert it to an RRIF. If you're under 65 and withdraw from an RRSP, it doesn't qualify — but any RRIF withdrawal qualifies at any age. This is another reason to do RRSP-to-RRIF conversions early: it unlocks income-splitting eligibility.</p>
-<div class="example-box">
-<strong>Example: Income Splitting with RRIF</strong>
-<p>David and Diana are both retired. David has CPP of $18,000 and an RRIF of $50,000 (total income $68,000). Diana has minimal income ($5,000 from part-time consulting). Without splitting, David is taxed on $68,000 (roughly $14,000 federal/provincial tax). Diana pays ~$750 on her $5,000.</p>
-<p>Combined tax: ~$14,750.</p>
-<p>With T1032 splitting: David declares $34,000 of RRIF income (after splitting $50,000 50/50). His taxable income is now $52,000 ($18,000 CPP + $34,000 RRIF). Diana declares $5,000 + $25,000 (her share of RRIF) = $30,000.</p>
-<p>David's tax: ~$8,500. Diana's tax: ~$4,500.</p>
-<p>Combined tax: ~$13,000.</p>
-<p><strong>Tax saved: $1,750 per year.</strong> Over 25 years: $43,750.</p>
-</div>
-<h2>Key Tax Credits for Retirees</h2>
-<p>Beyond the mechanics of withdrawal sequencing, retirees have access to several tax credits that can offset or eliminate tax on income. These are often overlooked.</p>
+
+<h2>What is the right order to withdraw from an RRSP, TFSA and non-registered account?</h2>
+<p>The right order is the one that keeps your taxable income level from year to year, because Canada's tax brackets rise with income. Taxable money (RRSP, RRIF and pensions) is the account you control the size of. The TFSA is the account that does not add to income. The non-registered account sits in between, because only the gain or the income it earns is taxed.</p>
+<p>That is why advice that says "always draw this account first" is wrong for some people. A retiree with no other income at 60 and a retiree with a large pension at 67 face different brackets on the same withdrawal.</p>
+
+<h2>What does one extra $20,000 withdrawal really cost?</h2>
+<p>The table shows the federal tax, plus OAS recovery tax, caused by adding $20,000 of RRSP or RRIF income on top of income you already have. From 65 on, it includes the loss of the federal age amount, which shrinks by 15 cents for every dollar of net income above $46,432.</p>
+
 <table>
-<thead>
-<tr>
-<th>Tax Credit</th>
-<th>Eligibility</th>
-<th>Approximate Value (2026)</th>
-<th>Notes</th>
-</tr>
-</thead>
+<caption>Extra federal cost of a $20,000 RRSP or RRIF withdrawal, 2026 rules, single person, federal tax only. Example. Base income from 65 includes CPP of $14,000 (illustrative) and OAS of $9,150 (Service Canada's maximum, $762.50 a month). As of November 18, 2026.</caption>
+<thead><tr><th>Income before the withdrawal</th><th>Extra federal tax</th><th>OAS recovery tax</th><th>Total</th><th>Share of the $20,000</th></tr></thead>
 <tbody>
-<tr>
-<td><strong>Pension Income Credit</strong></td>
-<td>Age 65+, or eligible pension at any age (RRIF, RPP annuity, CPP/OAS at 65+). Up to $2,000 of eligible income.</td>
-<td>Up to $300–$600 depending on province</td>
-<td>This is in addition to any regular tax. Very powerful if your only income is eligible pension income.</td>
-</tr>
-<tr>
-<td><strong>Age Credit (Spousal Amount if applicable)</strong></td>
-<td>Age 65+, net income below ~$44,000 (2026). Phased out above.</td>
-<td>$300–$700</td>
-<td>One of the last major credits. Protect your income to stay under $44,000 if possible.</td>
-</tr>
-<tr>
-<td><strong>Medical Expense Credit</strong></td>
-<td>Medical expenses exceeding 3% of net income (or $2,352 in 2026, whichever is less).</td>
-<td>$500–$2,000+ if you have significant medical costs</td>
-<td>Includes premiums, dental, glasses, mobility aids, home renovations for disabilities.</td>
-</tr>
-<tr>
-<td><strong>Disability Tax Credit (DTC)</strong></td>
-<td>Certified by a physician; markedly restricted in physical or mental functions. Transferable to spouse.</td>
-<td>Up to $3,000–$5,000+</td>
-<td>If eligible, this is huge. Often overlooked by people who could qualify.</td>
-</tr>
-<tr>
-<td><strong>Home Accessibility Credit</strong></td>
-<td>Age 65+, or have a disability tax credit. Eligible expenses: ramps, handrails, widened doorways, accessible bathroom modifications (up to $20,000).</td>
-<td>Up to $3,000</td>
-<td>Applies to principal residence only. Very underutilized.</td>
-</tr>
-<tr>
-<td><strong>Caregiver Amount</strong></td>
-<td>Supporting a dependent adult (child, parent, grandparent, sibling, aunt, uncle, niece, nephew, cousin) who is dependent due to a mental or physical impairment.</td>
-<td>$500–$2,000</td>
-<td>Can be claimed by the caregiver. Transferable to spouse if not fully used.</td>
-</tr>
+<tr><td>$0 (age 60 to 64)</td><td>$497</td><td>$0</td><td>$497</td><td>2.5%</td></tr>
+<tr><td>$23,150 (CPP and OAS only)</td><td>$2,449</td><td>$0</td><td>$2,449</td><td>12.2%</td></tr>
+<tr><td>$40,000</td><td>$3,181</td><td>$0</td><td>$3,181</td><td>15.9%</td></tr>
+<tr><td>$60,000</td><td>$4,520</td><td>$0</td><td>$4,520</td><td>22.6%</td></tr>
+<tr><td>$85,000</td><td>$4,520</td><td>$1,452</td><td>$5,972</td><td>29.9%</td></tr>
+<tr><td>$100,000</td><td>$4,427</td><td>$3,000</td><td>$7,427</td><td>37.1%</td></tr>
+<tr><td>$120,000</td><td>$5,200</td><td>$3,000</td><td>$8,200</td><td>41.0%</td></tr>
 </tbody>
 </table>
-<p>The age credit is critical for many retirees. If you can keep your net income below $44,000–$45,000, you'll receive a material tax credit. This might mean withdrawing from a TFSA instead of an RRSP in a given year, even if it feels backwards, to stay under that threshold.</p>
-<h2>A Worked Example: Five Years of Coordinated Withdrawals</h2>
-<p>Let's walk through how these principles work in practice for a real-world retiree.</p>
-<div class="callout">
-<strong>Case: Margaret's Five-Year Withdrawal Plan (Age 60–64)</strong>
-<p><strong>Starting Position (Age 60):</strong></p>
-<ul>
-<li>RRSP: $350,000</li>
-<li>TFSA: $120,000</li>
-<li>Non-registered (high interest savings): $80,000</li>
-<li>Workplace pension: $16,000/year (starts at age 65)</li>
-<li>CPP: Not yet claimed (will claim at 65 for ~$22,000/year)</li>
-<li>OAS: Not yet eligible (will be eligible at 65)</li>
-</ul>
-<p><strong>Annual withdrawal needs: $55,000 (to fund lifestyle)</strong></p>
-<p><strong>Year 1 (Age 60):</strong> Margaret has zero income.</p>
-<ul>
-<li>Non-registered withdrawal: $30,000 (RRSP meltdown is higher priority, but non-registered carries interest annually anyway)</li>
-<li>RRSP withdrawal: $25,000 (taxable income = $25,000)</li>
-<li>Tax owing: ~$3,500 (combined fed/prov in mid-bracket province at 14%)</li>
-<li>After-tax flow: $55,000 − $3,500 tax = livable</li>
-<li>RRSP meltdown benefit: At 14% marginal rate vs. 30%+ later, this $25,000 costs $3,500 now vs. $7,500+ when CPP flows.</li>
-</ul>
-<p><strong>Year 2 (Age 61):</strong> Still no CPP/OAS.</p>
-<ul>
-<li>Non-registered: $20,000 (interest-bearing account running down)</li>
-<li>RRSP: $35,000 (staying in low bracket; taxable income = $35,000)</li>
-<li>Tax: ~$4,900</li>
-<li>After-tax: $55,000 livable</li>
-<li>Cumulative RRSP withdrawal (2 years): $60,000. RRSP reduced to $290,000.</li>
-</ul>
-<p><strong>Year 3 (Age 62):</strong> Still waiting for CPP/OAS.</p>
-<ul>
-<li>Non-registered: $15,000</li>
-<li>RRSP: $40,000 (pushing closer to the low-income ceiling)</li>
-<li>Tax: ~$5,600</li>
-<li>After-tax: $55,000</li>
-<li>Cumulative RRSP: $100,000 withdrawn. RRSP balance: $250,000.</li>
-</ul>
-<p><strong>Year 4 (Age 63):</strong> Still waiting.</p>
-<ul>
-<li>Non-registered: $15,000</li>
-<li>RRSP: $40,000</li>
-<li>Tax: ~$5,600</li>
-<li>After-tax: $55,000</li>
-<li>Cumulative RRSP: $140,000 withdrawn. RRSP balance: $210,000.</li>
-</ul>
-<p><strong>Year 5 (Age 64):</strong> Final year before CPP/OAS.</p>
-<ul>
-<li>Non-registered: $0 (fully drawn down)</li>
-<li>RRSP: $55,000 (full withdrawal for the year, in low bracket)</li>
-<li>TFSA: $0 (reserved for years 6+)</li>
-<li>Tax: ~$7,700</li>
-<li>After-tax: $55,000 − $7,700 = $47,300. Need $7,700 from somewhere, or dip into TFSA by $7,700.</li>
-<li>Cumulative RRSP: $195,000 withdrawn. RRSP balance: $155,000.</li>
-</ul>
-<p><strong>Summary of the Five-Year Gap (Age 60–64):</strong></p>
-<ul>
-<li>RRSP reduced from $350,000 to $155,000 (drawn down 56% in gap years)</li>
-<li>Non-registered reduced from $80,000 to $0 (fully consumed, avoiding ongoing interest tax drag)</li>
-<li>TFSA untouched at $120,000 (reserved for age 65+)</li>
-<li>Total tax paid in 5 years: ~$27,300</li>
-<li>Average marginal tax rate on withdrawals: ~15%</li>
-</ul>
-<p><strong>Why this matters (Age 65 onward):</strong></p>
-<p>At age 65, Margaret's income is now:</p>
-<ul>
-<li>Workplace pension: $16,000</li>
-<li>CPP: $22,000</li>
-<li>OAS: ~$6,800 (indexed)</li>
-<li>Subtotal: $44,800</li>
-</ul>
-<p>She still needs ~$10,200/year to reach her $55,000 target. She can now:</p>
-<ul>
-<li>Withdraw from TFSA: $10,200 (no tax, no clawback)</li>
-<li>Total income reported: $44,800 (no clawback, age credit still applies)</li>
-</ul>
-<p>Her RRSP, now at $155,000, can stay untouched until age 72 (when mandatory RRIF withdrawals begin). She's added a 7-8 year growth period, and she's extracted the bulk of it at 14–16% tax rates instead of 30%+.</p>
-<p><strong>The tax saved (rough estimate):</strong></p>
-<p>If Margaret had instead withdrawn in a conventional "take <a href="/blog/cpp-when-to-take-canada/">CPP</a>/OAS first, then RRSP" pattern starting at 65, those $195,000 RRSP withdrawals would have occurred at 28–32% marginal rates, costing ~$54,600–$62,400 in total tax. By withdrawing in the gap years at 14–16% rates, she paid ~$27,300. <strong>Estimated tax saved: ~$27,000–$35,000.</strong></p>
-</div>
-<h2>Avoiding Common Withdrawal Mistakes</h2>
-<p>Even with the principles above, retirees often make costly errors. Here are the most damaging:</p>
-<p><strong>Mistake 1: Drawing RRSP instead of TFSA in high-income years.</strong> If your taxable income is already above the OAS clawback threshold ($90,000), every dollar from an RRSP withdrawal triggers income tax plus OAS clawback. Your effective tax rate is 40%+. A TFSA withdrawal in the same year costs zero additional tax. Yet many retirees do the opposite, saving the TFSA because it "feels precious." The TFSA is most precious when income is highest.</p>
-<p><strong>Mistake 2: Leaving interest-bearing non-registered accounts untouched.</strong> If you have $80,000 in a non-registered savings account earning 2%, you're paying tax on $1,600 of interest annually (~$400–$500 in combined tax) even though you're not touching it. Over 20 years, that's $8,000–$10,000 in avoidable tax. Withdrawing this account strategically and reinvesting after-tax proceeds in a TFSA eliminates that drag.</p>
-<p><strong>Mistake 3: Not converting RRSP to RRIF early enough.</strong> RRIF withdrawals qualify for income splitting (at any age); RRSP withdrawals don't (before 65). If you have a high-income and low-income spouse, converting to RRIF at 55 or 60 lets you start splitting years earlier and recover substantial tax.</p>
-<p><strong>Mistake 4: Ignoring the pension income credit.</strong> If your only income is an RRIF or eligible pension after age 65, you can receive up to $2,000 in eligible pension income and owe zero federal tax, thanks to the pension income credit. Yet many retirees don't claim it. Similarly, staying below the ~$44,000 age credit threshold is worth thousands in tax savings.</p>
-<p><strong>Mistake 5: Taking CPP too early to match lifestyle spending without a withdrawal plan.</strong> If you claim CPP at 60 instead of 65, you receive 36% less per month for life. Many people claim early because they need the cash, then are forced to withdraw heavily from RRSP anyway — paying tax on top of the CPP penalty. A withdrawal plan could have let you delay CPP by using non-registered and TFSA funds during the gap years. The combination often yields far more lifetime income.</p>
-<h2>Getting Professional Help vs. DIY</h2>
-<p>Withdrawal sequencing is complex, and the stakes are high. A $5,000 mistake repeated over 25 years costs $125,000. Yet many retirees avoid professional advice thinking it's too expensive.</p>
-<p>A fee-only financial planner (charging a flat fee or hourly rate, not commission) can model your withdrawal plan for roughly $2,000–$4,000. A tax accountant specializing in retiree tax planning costs $1,500–$3,000 to build a multi-year projection. For most retirees with $300,000+ in retirement savings, this pays for itself within two years.</p>
-<p>If you're going DIY, use tax software that supports projections (like StudioTax, WealthSimple Tax, or Wealthsimple's planning tools). Model your first 10 years year-by-year, accounting for CPP/OAS timing and withdrawal sequencing. The time investment is finite; the payoff compounds for decades.</p>
-<h2>Conclusion</h2>
-<p><strong>A deliberate withdrawal sequence doesn't just reduce your tax bill — it can add $100,000+ to your spendable lifetime income.</strong> The difference between a strategic plan and a reactive "withdraw what I need" approach is often the margin between a comfortable retirement and financial stress later on.</p>
-<p>The principles are straightforward: use non-registered accounts first (especially interest-bearing ones), melt down RRSP in low-income gap years, deploy your TFSA strategically when income is high, coordinate CPP and OAS timing, and split eligible pension income with a spouse if you're a couple. Layer in the pension income credit and age credit, and you've recovered thousands more.</p>
-<p>Your future self — the one enjoying your 75th birthday — will thank you for doing this work now.</p>
-<div class="cta-box">
-Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning. <strong><a href="#">[Get the Free Ebook]</a></strong>
-</div>
+<p>The same $20,000 costs about 16 times more in the last row than in the first. Nothing about the money changed. Only the other income around it did.</p>
 
+<h2>Which income thresholds should a retiree watch in 2026?</h2>
+<p>Four numbers matter most. All are for 2026 income, from the CRA indexation table and Service Canada.</p>
+<table>
+<caption>Federal thresholds for 2026 income. Sources: CRA tax rates and indexation tables, Service Canada OAS recovery tax page. Checked November 18, 2026.</caption>
+<thead><tr><th>Threshold</th><th>Amount</th><th>What happens</th></tr></thead>
+<tbody>
+<tr><td>Age amount phase-out starts</td><td>$46,432</td><td>The $9,208 federal age amount (65+) shrinks by 15% of income above this.</td></tr>
+<tr><td>20.5% federal bracket starts</td><td>$58,523 of taxable income</td><td>The 14% rate stops. Next brackets: $117,045, $181,440, $258,482.</td></tr>
+<tr><td>OAS recovery tax starts</td><td>$95,323 net income</td><td>You repay 15 cents of OAS per dollar above this. For the July 2026 to June 2027 payments, the 2025 threshold of $93,454 applies.</td></tr>
+<tr><td>OAS fully repaid (age 65 to 74)</td><td>$155,320</td><td>Final 2026 figure on Service Canada's chart.</td></tr>
+</tbody>
+</table>
+<p>For a retiree 65 or older, the federal marginal rate is 14% up to $46,432. It is about 16.1% from there (14% plus 2.1 points from the age amount shrinking), then about 22.6% above $58,523. Above $95,323 the OAS recovery tax adds 15 points, so the federal marginal rate reaches about 37.6% before the age amount is gone and 41% above $117,045.</p>
 
+<h2>Should you draw the RRSP in the gap years before CPP and OAS?</h2>
+<p>Often yes, if you have other money to live on. If you stop working at 60 and start CPP and OAS at 65, your taxable income in between can be very low. Withdrawing RRSP money then fills cheap brackets, instead of stacking the same money on top of CPP, OAS and a RRIF minimum later.</p>
+<p><strong>Example: the same $200,000, two timetables.</strong> Take $40,000 a year out of an RRSP for five years. At ages 60 to 64, with no other income, federal tax is $3,297 a year, or $16,484 over five years. At ages 65 to 69, on top of CPP of $14,000 and OAS of $9,150, income is $63,150 and the extra federal tax is $5,900 a year, or $29,502 over five years. The gap is about $13,000 of federal tax, before provincial tax, for the same pre-tax dollars. The calculation uses the 2026 federal brackets, the basic personal amount of $16,452 and the age amount, and it ignores investment growth, so it is an illustration, not a forecast.</p>
+<div class="warning-box"><strong>Two limits on this idea.</strong> You need cash or TFSA money to live on while the RRSP draws are taxed, and pulling money out early gives up years of tax-deferred growth. The RRSP meltdown is a trade, not a free lunch. Read <a href="/blog/rrsp-meltdown-strategy/">the RRSP meltdown guide</a> before you act on it.</div>
 
-    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+<h2>Why does the TFSA belong in the high-income years?</h2>
+<p>A TFSA withdrawal is not taxable income. The CRA's TFSA guide says income earned in a TFSA, and withdrawals from it, do not reduce federal income-tested benefits such as OAS and GIS. So the TFSA is the account to use in a year when an RRSP or RRIF withdrawal would land on a 22.6% or 37.1% dollar, and for one-off costs such as a roof or a car. The 2026 annual TFSA limit is $7,000. See <a href="/blog/tfsa-retirement-strategy/">the TFSA retirement strategy guide</a> for how to build room.</p>
 
-    <div class="cta-section">
-<p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
-<p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
-<a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
+<h2>What does the RRIF minimum force you to take?</h2>
+<p>The RRSP must be closed, converted to a RRIF or used to buy an annuity by the end of the year you turn 71, according to the CRA. A RRIF then has to pay a minimum each year: your January 1 balance times a factor. The factor is 1 divided by (90 minus your age) up to age 70, then 5.28% at 71 and 5.40% at 72.</p>
+<p><strong>Example: the minimum at 72.</strong> With CPP of $14,000 and OAS of $9,150, a RRIF of $1,000,000 must pay at least $54,000 at 72, for income of $77,150 and federal tax of $8,784 after the $2,000 pension income amount. A RRIF of $1,800,000 must pay at least $97,200, for income of $120,350, federal tax of $18,466 and an OAS recovery tax of $3,754. The larger fund pays the clawback without the owner taking a dollar more than the rule requires. If that is your situation, <a href="/blog/rrif-minimum-only-mistake/">taking only the minimum</a> may not be the cheapest path.</p>
+
+<h2>Does RRIF income qualify for the pension credit and for splitting?</h2>
+<p>From age 65, yes. The CRA's pension income amount page lists RRIF income as eligible when you are 65 or older. Under 65, RRIF income only qualifies when it is received because a spouse or common-law partner died. The federal pension income amount is $2,000, worth $280 of federal tax at 14%. Provinces set their own amounts.</p>
+<p>Eligible pension income can be split with a spouse or common-law partner using Form T1032, filed by the filing due date. The CRA allows one joint election per year. Converting an RRSP to a RRIF earlier than 71 can make sense for couples, but only when you are 65 or older does the RRIF income qualify. See <a href="/blog/pension-income-splitting-canada/">the pension income splitting guide</a>.</p>
+
+<h2>How do CPP and OAS timing change your withdrawal plan?</h2>
+<p>Starting CPP before 65 reduces the payment by 0.6% a month, up to 36% at 60. Starting after 65 raises it by 0.7% a month, up to 42% at 70. OAS can start at 65 or be deferred to 70 for 0.6% more a month, up to 36%. The Service Canada table for October to December 2026 shows the maximum OAS rising from $762.50 a month at 65 to $1,037.00 at 70.</p>
+<p>Deferring means you need money for the gap, and that is where RRSP draws, TFSA savings or non-registered savings come in. The best answer depends on your health, other income and a spouse's income. See <a href="/blog/cpp-when-to-take-canada/">when to take CPP</a> for the decision itself.</p>
+
+<h2>What are the common mistakes?</h2>
+<ul>
+<li><strong>Letting RRSP income pile up until the RRIF forces it.</strong> A large RRIF can push income over $95,323, and the minimum is not optional.</li>
+<li><strong>Using the TFSA early and the RRSP late.</strong> The TFSA is worth most in the years when a taxable withdrawal would cost the most.</li>
+<li><strong>Counting RRIF income as pension income under 65.</strong> It does not qualify for the pension income amount unless it is received after a spouse's death.</li>
+<li><strong>Ignoring the age amount.</strong> From $46,432 of net income the credit shrinks by 15 cents per dollar, a hidden 2.1 points of marginal tax.</li>
+<li><strong>Planning with federal tax only.</strong> Add your province before you decide. Ontario, Quebec and the other provinces all have different brackets.</li>
+</ul>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>Should I withdraw from my RRSP or my TFSA first?</h3>
+<p>Neither always comes first. Withdraw from the RRSP up to the bracket you are willing to fill, and use the TFSA for amounts above it, because TFSA withdrawals are not taxable income.</p>
+<h3>When must I convert my RRSP to a RRIF?</h3>
+<p>By December 31 of the year you turn 71. You can also withdraw the money in full or buy an annuity, but a full withdrawal is taxed as income that year.</p>
+<h3>What is the minimum RRIF withdrawal at 72?</h3>
+<p>5.40% of the RRIF's value on January 1. For a $500,000 RRIF that is $27,000.</p>
+<h3>When does the OAS clawback start in 2026?</h3>
+<p>At $95,323 of net income for 2026, with 15 cents repaid for each dollar above it. For 2025 income, which sets payments from July 2026 to June 2027, the threshold is $93,454.</p>
+<h3>Does a TFSA withdrawal reduce OAS or GIS?</h3>
+<p>No. The CRA says TFSA income and withdrawals do not reduce federal income-tested benefits such as OAS and GIS.</p>
+<h3>Can I split RRIF income with my spouse at any age?</h3>
+<p>No. RRIF income qualifies as eligible pension income at 65 or older. Under 65 it qualifies only when it follows the death of a spouse or common-law partner.</p>
+
+<h2>Sources</h2>
+<ul>
+<li>CRA, tax rates and income brackets 2026, and indexation adjustment table (basic personal amount $16,452, age amount $9,208, threshold $46,432, OAS repayment threshold $95,323, TFSA limit $7,000), checked November 18, 2026.</li>
+<li>Service Canada, Old Age Security pension recovery tax, and when to start OAS (October to December 2026 amounts), checked November 18, 2026.</li>
+<li>Service Canada, when to start your CPP retirement pension, checked November 18, 2026.</li>
+<li>CRA, line 31400 pension income amount, line 11600 elected split-pension amount, minimum amount from a RRIF with prescribed factors, and options for your RRSPs at 71, checked November 18, 2026.</li>
+</ul>
+
+<div class="cta-section">
+<p><strong>A withdrawal order is one decision inside a full retirement income plan.</strong></p>
+<p>The Canadian Optimizer Retirement Guide covers CPP and OAS timing, RRIFs, workplace pensions and the order to draw your accounts, with the math worked in full.</p>
+<a href="/ebooks/retirement-guide/" class="cta-button">See the Retirement Guide</a>
 </div>
 
 <div class="article-footer">
-<p><strong>Disclaimer:</strong> This guide is for informational purposes only and does not constitute financial, legal, or tax advice. Canadian retirement rules are complex and subject to change. Always consult with a qualified financial planner or tax professional before making major retirement decisions.</p>
-<p><em>Last updated: March 2026. Based on 2026 CRA and Service Canada thresholds.</em></p>
+<p><strong>Disclaimer:</strong> This guide is for general education and is not financial, legal or tax advice. The examples are illustrations that use federal tax only and simple assumptions, not a forecast for your situation. Rules and thresholds change. Check your own numbers with the CRA, Service Canada or a qualified professional before you act.</p>
+<p><em>Last updated: November 18, 2026. Based on 2026 CRA and Service Canada figures.</em></p>
 </div>
-</div>`
+</div>
+`
   },
   {
     title: "Investing in Retirement: The Bucket Strategy & How to Protect Your Portfolio",
