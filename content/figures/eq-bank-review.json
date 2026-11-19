@@ -15,8 +15,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "review date = today, the day every source was re-opened"
       }
     },
@@ -27,13 +27,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
       }
     },
     {
@@ -43,13 +43,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"gages & Lending customers Get Started Personal Account Earn 3.00% interest* on every dollar Zero everyday banking fees Earn\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"gages & Lending customers Get Started Personal Account Earn 3.00% interest* on every dollar Zero everyday banking fees Earn\""
       }
     },
     {
@@ -59,13 +59,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
       }
     },
     {
@@ -75,13 +75,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
       }
     },
     {
@@ -91,13 +91,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC terms (1 to 5 years) Registered GICs TFSA\""
       }
     },
     {
@@ -111,8 +111,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -129,8 +129,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 1.50%"
       }
     },
@@ -147,8 +147,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 3.00%"
       }
     },
@@ -165,8 +165,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 0.650%"
       }
     },
@@ -177,13 +177,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -193,13 +193,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
       }
     },
     {
@@ -209,13 +209,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. EQ Bank does not offe\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. EQ Bank does not offe\""
       }
     },
     {
@@ -225,13 +225,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -241,13 +241,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -257,13 +257,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
       }
     },
     {
@@ -273,13 +273,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
       }
     },
     {
@@ -289,13 +289,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -305,13 +305,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -321,13 +321,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
       }
     },
     {
@@ -337,13 +337,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
       }
     },
     {
@@ -353,13 +353,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -369,13 +369,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"processing period of 2-3 business days. Access funds after 10 or 30 days Based on the rate you selected, you can access y\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"processing period of 2-3 business days. Access funds after 10 or 30 days Based on the rate you selected, you can access y\""
       }
     },
     {
@@ -385,13 +385,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"How it works Eligibility 10 Day Notice Savings Account Earn 2.50%* when you provide 10 days notice to withdraw Open an accoun\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"How it works Eligibility 10 Day Notice Savings Account Earn 2.50%* when you provide 10 days notice to withdraw Open an accou\""
       }
     },
     {
@@ -401,13 +401,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
       }
     },
     {
@@ -417,13 +417,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accou\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accou\""
       }
     },
     {
@@ -433,13 +433,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Savings Account 3.00%* Learn more TFSA Cash Savings Account 1.75%* Learn more FHSA Cash Savings Account 1.75%* Learn more RRS\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Savings Account 3.00%* Learn more TFSA Cash Savings Account 1.75%* Learn more FHSA Cash Savings Account 1.75%* Learn more RRS\""
       }
     },
     {
@@ -449,13 +449,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"SP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investments GICs Featured Rates EQ Bank Product\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"SP Cash Savings Account 1.75%* Learn more US Dollar Account 2.50%* Learn more Investments GICs Featured Rates EQ Bank Produc\""
       }
     },
     {
@@ -465,13 +465,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
       }
     },
     {
@@ -481,13 +481,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC terms (1 to 5 years) Registered GICs TFSA\""
       }
     },
     {
@@ -497,13 +497,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"two weeks of the following month. You will continue to earn 3.00%* interest as long as your direct deposits total at least $\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"two weeks of the following month. You will continue to earn 3.00%* interest as long as your direct deposits total at least $\""
       }
     },
     {
@@ -513,13 +513,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"%* interest as long as your direct deposits total at least $2,000 each month. 2. How will I know when I start earning 3.00%*\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0%* interest as long as your direct deposits total at least $2,000 each month. 2. How will I know when I start earning 3.00%*\""
       }
     },
     {
@@ -529,13 +529,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
       }
     },
     {
@@ -545,13 +545,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
       }
     },
     {
@@ -561,13 +561,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accou\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"withdraw Open an account 30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an accou\""
       }
     },
     {
@@ -577,13 +577,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"30 Day Notice Savings Account Earn 3.00%* when you provide 30 days notice to withdraw Open an account Earn up to 7x** mor\""
       }
     },
     {
@@ -597,8 +597,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -615,8 +615,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ base minus RBC"
       }
     },
@@ -633,8 +633,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ bonus minus RBC"
       }
     },
@@ -649,8 +649,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -667,8 +667,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "review date = today, the day every source was re-opened"
       }
     },
@@ -679,13 +679,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
       "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
       }
     },
     {
@@ -701,8 +701,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 0.650%"
       }
     },
@@ -713,13 +713,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
       }
     },
     {
@@ -735,8 +735,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 1.50%"
       }
     },
@@ -753,8 +753,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ base minus RBC"
       }
     },
@@ -765,13 +765,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"roduct Rate 10 Day Notice Savings Account 2.50%* Learn more 30 Day Notice Savings Account 3.00%* Learn more TFSA Cash Savi\""
       }
     },
     {
@@ -781,13 +781,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
       }
     },
     {
@@ -803,8 +803,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 3.00%"
       }
     },
@@ -821,8 +821,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ bonus minus RBC"
       }
     },
@@ -833,13 +833,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -855,8 +855,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 3.00%"
       }
     },
@@ -873,8 +873,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ bonus minus RBC"
       }
     },
@@ -889,8 +889,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -905,8 +905,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -917,13 +917,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/rates/persacct.html",
       "sourceName": "RBC Royal Bank: Personal deposit accounts interest rates",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; page prints \"Interest Rate [%] All balances 0.650\" (unit in the column header): \"RBC High Interest eSavings If Balance isInterest Rate [%]All balances0.650\""
       }
     },
     {
@@ -939,8 +939,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 0.650%"
       }
     },
@@ -955,8 +955,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -967,13 +967,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ay Banking EQ Bank Product Rate Personal Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%**\""
       }
     },
     {
@@ -989,8 +989,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 1.50%"
       }
     },
@@ -1005,8 +1005,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -1017,13 +1017,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -1039,8 +1039,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: $10,000 x 3.00%"
       }
     },
@@ -1057,8 +1057,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: EQ bonus minus RBC"
       }
     },
@@ -1069,13 +1069,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.rbcroyalbank.com/bank-accounts/savings-accounts/",
       "sourceName": "RBC Royal Bank: Savings accounts",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"for 3 months (90 days) from the date the Eligible eSavings Account was opened\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"for 3 months (90 days) from the date the Eligible eSavings Account was opened\""
       }
     },
     {
@@ -1085,13 +1085,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"lars only Dormant account notice Free Unclaimed balance for 10 years - transfer to Bank of Canada Free Maximum Number of L\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"lars only Dormant account notice Free Unclaimed balance for 10 years - transfer to Bank of Canada Free Maximum Number of L\""
       }
     },
     {
@@ -1101,13 +1101,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/payments/card/fees-features",
       "sourceName": "EQ Bank: EQ Bank Card fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ncreased charge on our website (www.eqbank.ca) for at least 60 days before the change is stated to come into effect. Any c\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ncreased charge on our website (www.eqbank.ca) for at least 60 days before the change is stated to come into effect. Any c\""
       }
     },
     {
@@ -1117,13 +1117,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/payments/card/fees-features",
       "sourceName": "EQ Bank: EQ Bank Card fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"chases Earn 0.5%* Cash back on international purchases Earn 0.5%* Interest earned on card balance Earn the same interest as\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"chases Earn 0.5%* Cash back on international purchases Earn 0.5%* Interest earned on card balance Earn the same interest as\""
       }
     },
     {
@@ -1133,13 +1133,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"fees or surcharges charged by Canadian ATM providers-up to $5 per withdrawal, up to 5 times per month5-within 10 business\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"fees or surcharges charged by Canadian ATM providers-up to $5 per withdrawal, up to 5 times per month5-within 10 business\""
       }
     },
     {
@@ -1153,8 +1153,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "illustration input, labelled as an example/illustration on the page (inside an example table, example box or labelled sentence)"
       }
     },
@@ -1171,8 +1171,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "review date = today, the day every source was re-opened"
       }
     },
@@ -1183,13 +1183,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Limit Maximums Outbound Interac e-Transfer 24-hour Maximum $5,000 Outbound Interac e-Transfer Weekly Maximum $20,000 Outboun\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Limit Maximums Outbound Interac e-Transfer 24-hour Maximum $5,000 Outbound Interac e-Transfer Weekly Maximum $20,000 Outboun\""
       }
     },
     {
@@ -1199,13 +1199,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"vailable Dollar Limit Maximums Outbound Interac e-Transfer 24-hour Maximum $5,000 Outbound Interac e-Transfer Weekly Max\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"vailable Dollar Limit Maximums Outbound Interac e-Transfer 24-hour Maximum $5,000 Outbound Interac e-Transfer Weekly Max\""
       }
     },
     {
@@ -1215,13 +1215,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Maximum $5,000 Outbound Interac e-Transfer Weekly Maximum $20,000 Outbound Interac e-Transfer Monthly Maximum $50,000 Inboun\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Maximum $5,000 Outbound Interac e-Transfer Weekly Maximum $20,000 Outbound Interac e-Transfer Monthly Maximum $50,000 Inboun\""
       }
     },
     {
@@ -1231,13 +1231,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ximum $20,000 Outbound Interac e-Transfer Monthly Maximum $50,000 Inbound Interac e-Transfer e-Transfer $25,000 per transact\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aximum $20,000 Outbound Interac e-Transfer Monthly Maximum $50,000 Inbound Interac e-Transfer e-Transfer $25,000 per transact\""
       }
     },
     {
@@ -1247,13 +1247,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hly Maximum $50,000 Inbound Interac e-Transfer e-Transfer $25,000 per transaction EQ to EQ Transfers Daily Maximum $30,000 EQ\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"thly Maximum $50,000 Inbound Interac e-Transfer e-Transfer $25,000 per transaction EQ to EQ Transfers Daily Maximum $30,000 EQ\""
       }
     },
     {
@@ -1263,13 +1263,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r $25,000 per transaction EQ to EQ Transfers Daily Maximum $30,000 EQ to EQ Transfers Weekly Maximum $100,000 EQ to EQ Transfe\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"er $25,000 per transaction EQ to EQ Transfers Daily Maximum $30,000 EQ to EQ Transfers Weekly Maximum $100,000 EQ to EQ Transfe\""
       }
     },
     {
@@ -1279,13 +1279,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ers Daily Maximum $30,000 EQ to EQ Transfers Weekly Maximum $100,000 EQ to EQ Transfers Monthly Maximum $250,000 International M\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ers Daily Maximum $30,000 EQ to EQ Transfers Weekly Maximum $100,000 EQ to EQ Transfers Monthly Maximum $250,000 International M\""
       }
     },
     {
@@ -1295,13 +1295,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Weekly Maximum $100,000 EQ to EQ Transfers Monthly Maximum $250,000 International Money Transfer powered by Wise Transaction Ma\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Weekly Maximum $100,000 EQ to EQ Transfers Monthly Maximum $250,000 International Money Transfer powered by Wise Transaction Ma\""
       }
     },
     {
@@ -1311,13 +1311,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"R or CAD equivalent) only Electronic Funds Transfers [EFT] $30,000 outbound to linked external bank, and $100,000 limit for in\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"PR or CAD equivalent) only Electronic Funds Transfers [EFT] $30,000 outbound to linked external bank, and $100,000 limit for in\""
       }
     },
     {
@@ -1327,13 +1327,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ansfers [EFT] $30,000 outbound to linked external bank, and $100,000 limit for inbound from external bank account per transactio\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ansfers [EFT] $30,000 outbound to linked external bank, and $100,000 limit for inbound from external bank account per transactio\""
       }
     },
     {
@@ -1343,13 +1343,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account/fees-and-features",
       "sourceName": "EQ Bank: Personal Account fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ansaction. Cheque Deposit $100,000 per cheque Bill Payment $25,000 per payment Payment to CRA Up to $100,000 per payment, depe\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ransaction. Cheque Deposit $100,000 per cheque Bill Payment $25,000 per payment Payment to CRA Up to $100,000 per payment, depe\""
       }
     },
     {
@@ -1359,13 +1359,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"), Joint Account(s), one 10-day Notice Savings Account, one 30-day Notice Savings Account, and one US Dollar Account. 2 Es\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"), Joint Account(s), one 10-day Notice Savings Account, one 30-day Notice Savings Account, and one US Dollar Account. 2 Es\""
       }
     },
     {
@@ -1375,13 +1375,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"osit your pay.* Join now Learn more How can I start earning 3.00%* interest? If you set up direct deposit for your pay of $2\""
       }
     },
     {
@@ -1391,13 +1391,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -1407,13 +1407,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 y\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"m GICs (less than 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 y\""
       }
     },
     {
@@ -1423,13 +1423,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"han 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 year) Registered\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"han 1 year) Non-registered Term Rate1 3 month 2.65% 6 month 2.90% 9 month 3.30% Short term GICs (less than 1 year) Registere\""
       }
     },
     {
@@ -1439,13 +1439,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r GIC terms (1 to 5 years) Non-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Y\""
       }
     },
     {
@@ -1455,13 +1455,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"on-registered Term Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most\""
       }
     },
     {
@@ -1471,13 +1471,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"erm Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC te\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"erm Rate1 1 Year 3.70% 15 Month 3.80% 2 Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC ter\""
       }
     },
     {
@@ -1487,13 +1487,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Year 4.10% 27 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% Most popular GIC terms (1 to 5 years) Registered GICs TFSA\""
       }
     },
     {
@@ -1503,13 +1503,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ccrued for the entire GIC term. Per GIC investment limit of $100,000. For non-registered GICs, maximum of 20 active GICs per cus\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ccrued for the entire GIC term. Per GIC investment limit of $100,000. For non-registered GICs, maximum of 20 active GICs per cus\""
       }
     },
     {
@@ -1519,13 +1519,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ment limit of $100,000. For non-registered GICs, maximum of 20 active GICs per customer. Unlimited registered GICs per cus\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ment limit of $100,000. For non-registered GICs, maximum of 20 active GICs per customer. Unlimited registered GICs per cus\""
       }
     },
     {
@@ -1535,13 +1535,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"7 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% 6 Year 4.10% 7 Year 4.00% 10 Year 4.00% Start investing Get Rate Bankin\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"7 Month 4.00% 3 Year 4.00% 4 Year 4.10% 5 Year 4.25% 6 Year 4.10% 7 Year 4.00% 10 Year 4.00% Start investing Get Rate Banking\""
       }
     },
     {
@@ -1557,8 +1557,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "recomputed: 2-yr GIC 4.10% minus 3.00% = 1.10 points"
       }
     },
@@ -1569,13 +1569,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"n more Joint Account Base rate: 1.50%* Bonus interest rate: 3.00%** ( 1.50%* base rate + 1.50%** bonus interest) Learn more\""
       }
     },
     {
@@ -1585,13 +1585,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. EQ Bank does not offe\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. EQ Bank does not offe\""
       }
     },
     {
@@ -1601,13 +1601,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
       }
     },
     {
@@ -1617,13 +1617,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
       }
     },
     {
@@ -1633,13 +1633,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -1649,13 +1649,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/notice-savings-account",
       "sourceName": "EQ Bank: Notice Savings Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Notice Savings Account, the interest rate is 2.50%* For the 30 Day Notice Savings Account, the interest rate is 3.00%* 2.5\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Notice Savings Account, the interest rate is 2.50%* For the 30 Day Notice Savings Account, the interest rate is 3.00%* 2.5\""
       }
     },
     {
@@ -1665,13 +1665,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
       }
     },
     {
@@ -1681,13 +1681,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"0%* interest? If you set up direct deposit for your pay of $2,000/month or more, you will start earning 3.00%*interest within\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"00%* interest? If you set up direct deposit for your pay of $2,000/month or more, you will start earning 3.00%*interest within\""
       }
     },
     {
@@ -1703,8 +1703,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
         "note": "review date = today, the day every source was re-opened"
       }
     },
@@ -1715,13 +1715,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyin\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyi\""
       }
     },
     {
@@ -1731,13 +1731,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"gages & Lending customers Get Started Personal Account Earn 3.00% interest* on every dollar Zero everyday banking fees Earn\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"gages & Lending customers Get Started Personal Account Earn 3.00% interest* on every dollar Zero everyday banking fees Earn\""
       }
     },
     {
@@ -1747,13 +1747,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/payments/card/fees-features",
       "sourceName": "EQ Bank: EQ Bank Card fees and features",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"chases Earn 0.5%* Cash back on international purchases Earn 0.5%* Interest earned on card balance Earn the same interest as\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"chases Earn 0.5%* Cash back on international purchases Earn 0.5%* Interest earned on card balance Earn the same interest as\""
       }
     },
     {
@@ -1763,13 +1763,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"3.70%1\" (footnote 1 after the rate): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popu\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; page prints \"3.70%1\" (footnote 1 after the rate): \"s Featured Rates EQ Bank Product Rate Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popu\""
       }
     },
     {
@@ -1779,13 +1779,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; page prints \"4.25%1\" (footnote 1 after the rate): \"Non-registered 1 Year 3.70%1 Learn more Registered 5 years 4.25%1 Learn more Most popular GIC terms (1 to 5 years) Non-regi\""
       }
     },
     {
@@ -1795,13 +1795,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"hat works for you and your money goals. Our rates Effective November 18, 2026. Rates Compare Accounts Everyday Banking EQ Bank Product Ra\""
       }
     },
     {
@@ -1811,13 +1811,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyin\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Account and EQ Bank Card, the current base interest rate is 1.50% (the \"Base Rate\"). Customers who add and maintain qualifyi\""
       }
     },
     {
@@ -1827,13 +1827,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"Joint Account are eligible to earn a bonus interest rate of 3.00% (the Base Rate plus an additional 1.50%) for the eligible\""
       }
     },
     {
@@ -1843,13 +1843,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/rates",
       "sourceName": "EQ Bank: Rates (effective November 18, 2026)",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d maintain qualifying recurring direct deposits of at least $2000/month to a Personal Account or Joint Account are eligible t\""
       }
     },
     {
@@ -1859,13 +1859,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/personal-account",
       "sourceName": "EQ Bank: Personal Account",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ble Bank are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor, as outlined in CDIC's\""
       }
     },
     {
@@ -1875,13 +1875,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.eqbank.ca/personal-banking/payments/card",
       "sourceName": "EQ Bank: EQ Bank Card",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-18",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-18 (qa/figs/2026-11-19/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-18 (HTTP 200); page prints: \"rectly to you, without the 2.50% fee that most cards charge 0.5% cash back* Your EQ Bank Card gives you 0.5% cash back* on e\""
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-19/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rectly to you, without the 2.50% fee that most cards charge 0.5% cash back* Your EQ Bank Card gives you 0.5% cash back* on e\""
       }
     }
   ]
