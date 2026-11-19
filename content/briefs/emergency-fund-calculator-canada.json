@@ -1,0 +1,38 @@
+{
+  "slug": "emergency-fund-calculator-canada",
+  "title": "Emergency Fund Calculator for Canadians, With EI Built In",
+  "family": "tools",
+  "category": "budgeting-saving",
+  "subcategory": "saving-goals",
+  "targetQuery": "emergency fund calculator canada",
+  "secondaryQueries": [
+    "how much emergency fund canada",
+    "emergency fund ei",
+    "ei waiting period waived"
+  ],
+  "infoGain": "A calculator that nets EI (55% to $729/week, 14-week minimum, waiting period waived to Oct 9, 2027) and a four-week bridge floor out of the fund, with targets for three example households at 3 and 6 months.",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-20",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "read the post on 2026-11-19: the first sentence answers the question (essential spending for the months without pay, minus EI and other income, never under about four weeks because the first EI payment comes about 28 days after applying); the calculator follows; each H2 and FAQ opens with its answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "no invented quotes, tests or experience; EI rules attributed to Service Canada pages (benefit amount, after applying, eligibility, self-employed, temporary measures incl. the waiting-week waiver to October 9, 2027); the three households are labelled examples and every target is recomputed independently"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "tools/money page with no product picks: the calculator itself is the CTA, parking advice is by need (same-day HISA for the four-week floor, rest somewhere safe) linking our own guides; no affiliate links (all offers pending), no ebook CTA (no budgeting book)"
+    }
+  }
+}

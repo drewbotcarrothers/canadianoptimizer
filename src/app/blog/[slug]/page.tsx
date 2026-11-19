@@ -12,6 +12,7 @@ import RewardsCalculator from '@/components/tools/RewardsCalculator';
 import RetirementCalculator from '@/components/tools/RetirementCalculator';
 import RentVsBuyCalculator from '@/components/tools/RentVsBuyCalculator';
 import MortgagePrepaymentCalculator from '@/components/tools/MortgagePrepaymentCalculator';
+import EmergencyFundCalculator from '@/components/tools/EmergencyFundCalculator';
 import EbookCTA from '@/components/ebooks/EbookCTA';
 import { ebookForPost, type ProductSlug } from '@/data/ebooks';
 import { posts } from '@/data/posts';
@@ -37,6 +38,7 @@ const CALCULATOR_MARKERS = [
   { marker: '<div id="canadian-retirement-calculator"></div>', Component: RetirementCalculator },
   { marker: '<div id="rent-vs-buy-canada"></div>', Component: RentVsBuyCalculator },
   { marker: '<div id="mortgage-prepayment-calculator"></div>', Component: MortgagePrepaymentCalculator },
+  { marker: '<div id="emergency-fund-calculator"></div>', Component: EmergencyFundCalculator },
 ] as const;
 
 const VIDEO_MARKER = '<div id="post-video-embed"></div>';

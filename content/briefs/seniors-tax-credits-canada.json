@@ -1,0 +1,38 @@
+{
+  "slug": "seniors-tax-credits-canada",
+  "title": "Tax Credits for Seniors in Canada: Age Amount, Pension Amount and More",
+  "family": "core",
+  "category": "taxes",
+  "subcategory": "credits-deductions",
+  "targetQuery": "tax credits for seniors canada",
+  "secondaryQueries": [
+    "age amount 2026",
+    "pension income amount canada",
+    "pension splitting age amount"
+  ],
+  "infoGain": "Worked 2026 federal return for a couple aged 67 at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as the full 50%, because it restores the age amount and keeps both incomes in the 14% bracket.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-20",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "read the post on 2026-11-19: the first two sentences answer the title (age amount up to $9,208 at 65+, pension income amount on up to $2,000, both at 14%, plus splitting and transfers); every question H2 and FAQ opens with a direct answer (Yes/No/Generally not, or the figure)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "no invented quotes, experience, tests or review claims; every rule attributed to CRA pages (lines 30100, 31400, 31285, 33099, pension splitting, indexation table, Federal Worksheet) or the OAS recovery tax page; Helen and Raj labelled illustration incomes, all tax figures labelled our calculation and recomputed independently; I/my appear only in FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

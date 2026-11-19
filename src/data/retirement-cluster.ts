@@ -510,7 +510,7 @@ export const retirementClusterPosts: RetirementPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, RRSP, ALDA, TFSA limits and the YMPE</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+        <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a> &middot; <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
 
     <div class="cta-section">
         <p><strong>The deadline is a date. The tax is the door you pick.</strong></p>
@@ -637,6 +637,8 @@ export const retirementClusterPosts: RetirementPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA: line 31400 pension income amount</a>, tax year 2025 page</li>
         <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html">Canada.ca: CPP payment amounts, including pension sharing</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
 
     <div class="cta-section">
         <p><strong>The form moves income. The return prices it.</strong></p>

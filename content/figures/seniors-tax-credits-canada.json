@@ -1,0 +1,3016 @@
+{
+  "slug": "seniors-tax-credits-canada",
+  "publishDate": "2026-11-20",
+  "figures": [
+    {
+      "id": "43f3a934d6ca",
+      "value": "65",
+      "context": "Turning 65 adds two federal credits to your return, and being part of a couple can add a third lever.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+      }
+    },
+    {
+      "id": "33c8d5471b1b",
+      "value": "$9,208",
+      "context": "The main federal tax credits for seniors are the age amount, worth up to $9,208 for the 2026 tax year if you are 65 or older, and the pension income amount on up to $2,000 of eligible pension income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"eligible dependant $2,740 $2,687 $2,616 $2,499 Age amount $9,208 $9,028 $8,790 $8,396 Net income threshold for age amount $4\""
+      }
+    },
+    {
+      "id": "5f38b19f00df",
+      "value": "65",
+      "context": "The main federal tax credits for seniors are the age amount, worth up to $9,208 for the 2026 tax year if you are 65 or older, and the pension income amount on up to $2,000 of eligible pension income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    },
+    {
+      "id": "8565ba8778eb",
+      "value": "$2,000",
+      "context": "The main federal tax credits for seniors are the age amount, worth up to $9,208 for the 2026 tax year if you are 65 or older, and the pension income amount on up to $2,000 of eligible pension income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+      }
+    },
+    {
+      "id": "d8263f33a57c",
+      "value": "14%",
+      "context": "Both are credited at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "16b986ec7dcc",
+      "value": "$9,208,",
+      "context": "The 2026 age amount is $9,208, reduced by 15% of net income above $46,432, and gone at about $107,819 (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "66bc9848833b",
+      "value": "15%",
+      "context": "The 2026 age amount is $9,208, reduced by 15% of net income above $46,432, and gone at about $107,819 (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+      }
+    },
+    {
+      "id": "8b87fd746928",
+      "value": "$46,432,",
+      "context": "The 2026 age amount is $9,208, reduced by 15% of net income above $46,432, and gone at about $107,819 (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+      }
+    },
+    {
+      "id": "c1c054053c38",
+      "value": "$107,819",
+      "context": "The 2026 age amount is $9,208, reduced by 15% of net income above $46,432, and gone at about $107,819 (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
+      }
+    },
+    {
+      "id": "77fbfaf88e92",
+      "value": "$2,000",
+      "context": "The pension income amount covers up to $2,000 of eligible pension income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your eligible pension income excluding amounts\""
+      }
+    },
+    {
+      "id": "eb26687be2c9",
+      "value": "65",
+      "context": "From 65, RRIF payments count; CPP and OAS never do.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ur return (box 16 of all your T4RSP slips) only if you were 65 years of age or older on December 31, 2025, or you received\""
+      }
+    },
+    {
+      "id": "352c69ec89b2",
+      "value": "14",
+      "context": "Each dollar of these amounts cuts federal tax by 14 cents in 2026, so the age amount is worth up to $1,289.12 and the pension amount up to $280.00.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "8ae199a5e115",
+      "value": "$1,289.12",
+      "context": "Each dollar of these amounts cuts federal tax by 14 cents in 2026, so the age amount is worth up to $1,289.12 and the pension amount up to $280.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
+      }
+    },
+    {
+      "id": "a44563af25cc",
+      "value": "$280.00",
+      "context": "Each dollar of these amounts cuts federal tax by 14 cents in 2026, so the age amount is worth up to $1,289.12 and the pension amount up to $280.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
+      }
+    },
+    {
+      "id": "22bd7565517d",
+      "value": "$16,400",
+      "context": "In our example couple, splitting $16,400 or more of RRIF income cuts their combined federal tax by $993.01; splitting the maximum 50% saves no more.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
+      }
+    },
+    {
+      "id": "587d17488bc4",
+      "value": "$993.01",
+      "context": "In our example couple, splitting $16,400 or more of RRIF income cuts their combined federal tax by $993.01; splitting the maximum 50% saves no more.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: saving 4252.21 - 3259.20"
+      }
+    },
+    {
+      "id": "f277ccc1c660",
+      "value": "50%",
+      "context": "In our example couple, splitting $16,400 or more of RRIF income cuts their combined federal tax by $993.01; splitting the maximum 50% saves no more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
+      }
+    },
+    {
+      "id": "ca2e980a3a66",
+      "value": "67",
+      "context": "A worked 2026 return for a couple aged 67",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "661ddc42e324",
+      "value": "65",
+      "context": "Which other credits matter after 65?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100 - Age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+      }
+    },
+    {
+      "id": "aead8ec60e51",
+      "value": "65",
+      "context": "Several others are open to everyone but come up far more often after 65: the disability amount, medical expenses, the Canada caregiver amount and the home accessibility expenses credit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100 - Age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+      }
+    },
+    {
+      "id": "3a21b7634b9d",
+      "value": "14%",
+      "context": "The Department of Finance's report on the lowest tax rate and non-refundable credits confirms that most of these credits are worth the lowest federal rate, which is 14% for 2026, so a $1,000 credit amount saves $140 of federal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"reshold | Marginal Tax Rate ---|---|--- 1 | Up to $58,523 | 14% 2 | $58,523 to $117,045 | 20.5% 3 | $117,045 to $181,440 |\""
+      }
+    },
+    {
+      "id": "1ca8111e0a04",
+      "value": "$1,000",
+      "context": "The Department of Finance's report on the lowest tax rate and non-refundable credits confirms that most of these credits are worth the lowest federal rate, which is 14% for 2026, so a $1,000 credit amount saves $140 of federal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ndividual is eligible for a credit with a maximum amount of $1,000, the credit would reduce federal tax payable by $140. Non-r\""
+      }
+    },
+    {
+      "id": "ced7f7fd7e88",
+      "value": "$140",
+      "context": "The Department of Finance's report on the lowest tax rate and non-refundable credits confirms that most of these credits are worth the lowest federal rate, which is 14% for 2026, so a $1,000 credit amount saves $140 of federal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"of $1,000, the credit would reduce federal tax payable by $140. Non-refundable tax credits are valued at the lowest person\""
+      }
+    },
+    {
+      "id": "3b4e06040253",
+      "value": "14%",
+      "context": "The CRA's 2026 rates page shows that same 14% on the first $58,523 of taxable income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "68d047aa6efe",
+      "value": "$58,523",
+      "context": "The CRA's 2026 rates page shows that same 14% on the first $58,523 of taxable income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"west marginal tax rate of 14 per cent applies to the first $58,523 (2026) of an individual's taxable income. Each additional d\""
+      }
+    },
+    {
+      "id": "00c4c36e11ce",
+      "value": "November 19, 2026",
+      "context": "Federal credits seniors most often claim, 2026 tax year (CRA indexation table and line pages, reviewed November 19, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-19)"
+      }
+    },
+    {
+      "id": "344e9c748a96",
+      "value": "14%",
+      "context": "Credit Line 2026 maximum amount Federal value at 14% Who gets it",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
+      }
+    },
+    {
+      "id": "52f75854ff9a",
+      "value": "30100",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"come tax # Age amount - Personal income tax * Federal: Line 30100 * Provincial or territorial: Line 58080 * Tax year: 2025 |\""
+      }
+    },
+    {
+      "id": "4e54c3ff6a1a",
+      "value": "$9,208",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "ad57e1a24570",
+      "value": "$1,289.12",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
+      }
+    },
+    {
+      "id": "ffe1c5445521",
+      "value": "65",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+      }
+    },
+    {
+      "id": "07dcb5e87182",
+      "value": "December 31",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
+      }
+    },
+    {
+      "id": "0e8651c27d9d",
+      "value": "$46,432",
+      "context": "Age amount 30100 $9,208 $1,289.12 65 or older on December 31; shrinks above $46,432 of net income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+      }
+    },
+    {
+      "id": "27367847e11f",
+      "value": "31400",
+      "context": "Pension income amount 31400 $2,000 $280.00 Anyone with eligible pension income; from 65 that includes RRIF payments",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"accessibility expenses = 4 5000-D1 E (25) Page 4 of 9 Line 31400 - Pension income amount Complete the calculation below if y\""
+      }
+    },
+    {
+      "id": "530225252ab4",
+      "value": "$2,000",
+      "context": "Pension income amount 31400 $2,000 $280.00 Anyone with eligible pension income; from 65 that includes RRIF payments",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+      }
+    },
+    {
+      "id": "241ac5524a14",
+      "value": "$280.00",
+      "context": "Pension income amount 31400 $2,000 $280.00 Anyone with eligible pension income; from 65 that includes RRIF payments",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
+      }
+    },
+    {
+      "id": "c2e4b32b6a14",
+      "value": "65",
+      "context": "Pension income amount 31400 $2,000 $280.00 Anyone with eligible pension income; from 65 that includes RRIF payments",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    },
+    {
+      "id": "b5b8fbbe2f32",
+      "value": "31600",
+      "context": "Disability amount 31600 $10,341 $1,447.74 An approved disability tax credit certificate (Form T2201)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"amount to enter on line 31400 of your return instead. Line 31600 - Disability amount for self You may be able to claim the d\""
+      }
+    },
+    {
+      "id": "319505295d8f",
+      "value": "$10,341",
+      "context": "Disability amount 31600 $10,341 $1,447.74 An approved disability tax credit certificate (Form T2201)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
+      }
+    },
+    {
+      "id": "47b4711db50e",
+      "value": "$1,447.74",
+      "context": "Disability amount 31600 $10,341 $1,447.74 An approved disability tax credit certificate (Form T2201)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: disability amount 10,341 x 14%"
+      }
+    },
+    {
+      "id": "dfb046e08201",
+      "value": "18",
+      "context": "Canada caregiver amount (infirm dependant 18 or older) 30450 $8,773 $1,228.22 You support an infirm relative",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
+      }
+    },
+    {
+      "id": "c9d51cc13e74",
+      "value": "30450",
+      "context": "Canada caregiver amount (infirm dependant 18 or older) 30450 $8,773 $1,228.22 You support an infirm relative",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \", uncle, niece, or nephew and you claimed an amount on line 30450 of your return for that dependant, or you could have if the\""
+      }
+    },
+    {
+      "id": "37cf1e3140a3",
+      "value": "$8,773",
+      "context": "Canada caregiver amount (infirm dependant 18 or older) 30450 $8,773 $1,228.22 You support an infirm relative",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"or other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
+      }
+    },
+    {
+      "id": "9b6917d67830",
+      "value": "$1,228.22",
+      "context": "Canada caregiver amount (infirm dependant 18 or older) 30450 $8,773 $1,228.22 You support an infirm relative",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: caregiver amount 8,773 x 14%"
+      }
+    },
+    {
+      "id": "38b59ac83062",
+      "value": "33099",
+      "context": "Medical expenses 33099 Costs above 3% of net income or $2,890, whichever is less 14% of the excess Anyone with eligible costs",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
+      "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"gible medical expenses. ##### Step 2 On the line below line 33099, enter the lesser of the following amounts: * 3% of your ne\""
+      }
+    },
+    {
+      "id": "ab214a6a6099",
+      "value": "3%",
+      "context": "Medical expenses 33099 Costs above 3% of net income or $2,890, whichever is less 14% of the excess Anyone with eligible costs",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
+      "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
+      }
+    },
+    {
+      "id": "791f7ffee1ec",
+      "value": "$2,890,",
+      "context": "Medical expenses 33099 Costs above 3% of net income or $2,890, whichever is less 14% of the excess Anyone with eligible costs",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
+      }
+    },
+    {
+      "id": "f881e663e97e",
+      "value": "14%",
+      "context": "Medical expenses 33099 Costs above 3% of net income or $2,890, whichever is less 14% of the excess Anyone with eligible costs",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+      }
+    },
+    {
+      "id": "e04752cb684a",
+      "value": "31285",
+      "context": "Home accessibility expenses 31285 $20,000 of eligible renovation costs a year Up to $2,800.00 Renovations for someone 65 or older, or eligible for the disability credit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
+      "sourceName": "CRA: Line 31285, home accessibility expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ccessibility expenses - Personal income tax * Federal: Line 31285 * Provincial or territorial: Not applicable * Tax year: 202\""
+      }
+    },
+    {
+      "id": "30fd22757133",
+      "value": "$20,000",
+      "context": "Home accessibility expenses 31285 $20,000 of eligible renovation costs a year Up to $2,800.00 Renovations for someone 65 or older, or eligible for the disability credit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"s' amount | $10,000 | 199,000 Home accessibility expenses | $20,000 | 39,000 Adoption expenses | $19,972 2 | 1,570 Pension inco\""
+      }
+    },
+    {
+      "id": "73fe13e1166f",
+      "value": "$2,800.00",
+      "context": "Home accessibility expenses 31285 $20,000 of eligible renovation costs a year Up to $2,800.00 Renovations for someone 65 or older, or eligible for the disability credit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: home accessibility amount 20,000 x 14%"
+      }
+    },
+    {
+      "id": "edda4224e161",
+      "value": "65",
+      "context": "Home accessibility expenses 31285 $20,000 of eligible renovation costs a year Up to $2,800.00 Renovations for someone 65 or older, or eligible for the disability credit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
+      "sourceName": "CRA: Line 31285, home accessibility expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
+      }
+    },
+    {
+      "id": "7a596fdee02f",
+      "value": "$2,000,",
+      "context": "The dollar amounts are the 2026 column of the CRA's indexation table for personal income tax and benefit amounts , except the pension amount, which the line 31400 page sets at $2,000, and the home accessibility limit from the line 31285 page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ption expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
+      }
+    },
+    {
+      "id": "7337ff994edf",
+      "value": "65",
+      "context": "You can claim the age amount if you are 65 or older on December 31 of the tax year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+      }
+    },
+    {
+      "id": "b17cc326b0a8",
+      "value": "December 31",
+      "context": "You can claim the age amount if you are 65 or older on December 31 of the tax year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
+      }
+    },
+    {
+      "id": "08a4c213ddbc",
+      "value": "$9,208",
+      "context": "For 2026 the full amount is $9,208 when your net income (line 23600) is $46,432 or less.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "e622ec4047de",
+      "value": "$46,432",
+      "context": "For 2026 the full amount is $9,208 when your net income (line 23600) is $46,432 or less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+      }
+    },
+    {
+      "id": "c16155ed79ba",
+      "value": "15%",
+      "context": "Above that, the amount drops by 15% of every dollar over the threshold until it reaches zero.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+      }
+    },
+    {
+      "id": "9ac142004781",
+      "value": "15%",
+      "context": "The CRA's age amount page states the rule and points to the chart on the Federal Worksheet , which applies the 15% rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+      }
+    },
+    {
+      "id": "c4c812574dca",
+      "value": "$107,819",
+      "context": "Working the 2026 numbers through, the credit disappears at a net income of about $107,819 (our calculation: $46,432 plus $9,208 divided by 15%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
+      }
+    },
+    {
+      "id": "bbfd76d3df10",
+      "value": "$46,432",
+      "context": "Working the 2026 numbers through, the credit disappears at a net income of about $107,819 (our calculation: $46,432 plus $9,208 divided by 15%).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
+      }
+    },
+    {
+      "id": "128ad0874c72",
+      "value": "$9,208",
+      "context": "Working the 2026 numbers through, the credit disappears at a net income of about $107,819 (our calculation: $46,432 plus $9,208 divided by 15%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "c8ca64bc35ea",
+      "value": "15%",
+      "context": "Working the 2026 numbers through, the credit disappears at a net income of about $107,819 (our calculation: $46,432 plus $9,208 divided by 15%).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+      }
+    },
+    {
+      "id": "0a7add2fa2d4",
+      "value": "14%",
+      "context": "Net income (line 23600) Age amount Federal credit at 14%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
+      }
+    },
+    {
+      "id": "ce22729e56ec",
+      "value": "$40,000",
+      "context": "$40,000 $9,208.00 $1,289.12",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "4e764e63d005",
+      "value": "$9,208.00",
+      "context": "$40,000 $9,208.00 $1,289.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "a00dd0960436",
+      "value": "$1,289.12",
+      "context": "$40,000 $9,208.00 $1,289.12",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
+      }
+    },
+    {
+      "id": "7b9ae3a725e6",
+      "value": "$55,000",
+      "context": "$55,000 $7,922.80 $1,109.19",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "f4821c3f0249",
+      "value": "$7,922.80",
+      "context": "$55,000 $7,922.80 $1,109.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: age amount at net income 55000: 9208.0 - 15% x (55000 - 46432.0)"
+      }
+    },
+    {
+      "id": "2dbacda032e0",
+      "value": "$1,109.19",
+      "context": "$55,000 $7,922.80 $1,109.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 55000"
+      }
+    },
+    {
+      "id": "c64fcb4a5a3b",
+      "value": "$70,000",
+      "context": "$70,000 $5,672.80 $794.19",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "f1a0f6fff416",
+      "value": "$5,672.80",
+      "context": "$70,000 $5,672.80 $794.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: age amount at net income 70000: 9208.0 - 15% x (70000 - 46432.0)"
+      }
+    },
+    {
+      "id": "dfcd55035a90",
+      "value": "$794.19",
+      "context": "$70,000 $5,672.80 $794.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 70000"
+      }
+    },
+    {
+      "id": "60c864bde279",
+      "value": "$85,000",
+      "context": "$85,000 $3,422.80 $479.19",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "385dbfb849f0",
+      "value": "$3,422.80",
+      "context": "$85,000 $3,422.80 $479.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: age amount at net income 85000: 9208.0 - 15% x (85000 - 46432.0)"
+      }
+    },
+    {
+      "id": "7060eed985bc",
+      "value": "$479.19",
+      "context": "$85,000 $3,422.80 $479.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 85000"
+      }
+    },
+    {
+      "id": "2c7b70f13d22",
+      "value": "$100,000",
+      "context": "$100,000 $1,172.80 $164.19",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "dfd3a08ede0d",
+      "value": "$1,172.80",
+      "context": "$100,000 $1,172.80 $164.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: age amount at net income 100000: 9208.0 - 15% x (100000 - 46432.0)"
+      }
+    },
+    {
+      "id": "452da55366fb",
+      "value": "$164.19",
+      "context": "$100,000 $1,172.80 $164.19",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 100000"
+      }
+    },
+    {
+      "id": "11328e170372",
+      "value": "$2,000",
+      "context": "Anyone who reports eligible pension income can claim the pension income amount, on the lesser of $2,000 or that income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+      }
+    },
+    {
+      "id": "bff194577e50",
+      "value": "65",
+      "context": "What counts depends on your age: before 65, mainly lifetime pension payments from an employer plan; from 65, RRIF and life income fund payments and RRSP annuity payments as well.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    },
+    {
+      "id": "dbe7664a4295",
+      "value": "65",
+      "context": "The common fix is to convert part of an RRSP to a RRIF at 65 and withdraw at least $2,000 a year from it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    },
+    {
+      "id": "eae981e274fd",
+      "value": "$2,000",
+      "context": "The common fix is to convert part of an RRSP to a RRIF at 65 and withdraw at least $2,000 a year from it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"e 31400 of your return whichever amount is less: line 8 or $2,000. However, if you are electing to split your eligible pensio\""
+      }
+    },
+    {
+      "id": "ec6d60e15f8d",
+      "value": "14%",
+      "context": "At 14%, that unlocks up to $280.00 of federal credit each year, plus the provincial version.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "3fa6188e3b3f",
+      "value": "$280.00",
+      "context": "At 14%, that unlocks up to $280.00 of federal credit each year, plus the provincial version.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
+      }
+    },
+    {
+      "id": "70ac63012696",
+      "value": "67",
+      "context": "Our worked 2026 federal return for a couple aged 67 shows the combined tax at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as splitting the full 50%, because the gain comes from restoring the age amount and keeping both incomes in the 14% bracket.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "22b8b85c3933",
+      "value": "$16,400",
+      "context": "Our worked 2026 federal return for a couple aged 67 shows the combined tax at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as splitting the full 50%, because the gain comes from restoring the age amount and keeping both incomes in the 14% bracket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
+      }
+    },
+    {
+      "id": "06bd423747ed",
+      "value": "$993.01",
+      "context": "Our worked 2026 federal return for a couple aged 67 shows the combined tax at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as splitting the full 50%, because the gain comes from restoring the age amount and keeping both incomes in the 14% bracket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: saving 4252.21 - 3259.20"
+      }
+    },
+    {
+      "id": "21b626bc89fb",
+      "value": "50%",
+      "context": "Our worked 2026 federal return for a couple aged 67 shows the combined tax at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as splitting the full 50%, because the gain comes from restoring the age amount and keeping both incomes in the 14% bracket.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+      }
+    },
+    {
+      "id": "11d5f3162f43",
+      "value": "14%",
+      "context": "Our worked 2026 federal return for a couple aged 67 shows the combined tax at five pension-split amounts: splitting $16,400 of RRIF income saves $993.01, the same as splitting the full 50%, because the gain comes from restoring the age amount and keeping both incomes in the 14% bracket.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+      }
+    },
+    {
+      "id": "7357d7f76511",
+      "value": "67",
+      "context": "Helen and Raj are both 67 at the end of 2026.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "af8c62e8e4e8",
+      "value": "$40,000",
+      "context": "Helen withdraws $40,000 from her RRIF and receives $22,800 of CPP and OAS, for a net income of $62,800.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "3c5d027bc454",
+      "value": "$22,800",
+      "context": "Helen withdraws $40,000 from her RRIF and receives $22,800 of CPP and OAS, for a net income of $62,800.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "7537695e5f33",
+      "value": "$62,800",
+      "context": "Helen withdraws $40,000 from her RRIF and receives $22,800 of CPP and OAS, for a net income of $62,800.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "9b242f20915a",
+      "value": "$15,800",
+      "context": "Raj receives $15,800 of CPP and OAS and has no other income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "bb3073661a36",
+      "value": "$16,452,",
+      "context": "We worked out each spouse's federal tax using the 2026 brackets, the basic personal amount of $16,452, the age amount and the pension income amount, plus a transfer of Raj's unused age and pension amounts to Helen on line 32600.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"of the rate structure by allowing individuals to earn up to $16,452 (in 2026) before owing federal income tax.Footnote 1 Table\""
+      }
+    },
+    {
+      "id": "ae93179c34f7",
+      "value": "$62,800",
+      "context": "None $62,800 $15,800 $9,208.00 $4,252.21 $0.00 $4,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "72030c287e7c",
+      "value": "$15,800",
+      "context": "None $62,800 $15,800 $9,208.00 $4,252.21 $0.00 $4,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "f19ef1186405",
+      "value": "$9,208.00",
+      "context": "None $62,800 $15,800 $9,208.00 $4,252.21 $0.00 $4,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "110f0988d2bc",
+      "value": "$4,252.21",
+      "context": "None $62,800 $15,800 $9,208.00 $4,252.21 $0.00 $4,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "744f48dad49d",
+      "value": "$0.00",
+      "context": "None $62,800 $15,800 $9,208.00 $4,252.21 $0.00 $4,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "d3aeff6eefe5",
+      "value": "$5,000",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "beaf37468564",
+      "value": "$57,800",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 5000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "6cce18d4032a",
+      "value": "$20,800",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 5000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "292669d88b4f",
+      "value": "$6,860.00",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 5000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "09228b4343ed",
+      "value": "$3,497.93",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 5000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "769148960a04",
+      "value": "$0.00",
+      "context": "$5,000 $57,800 $20,800 $6,860.00 $3,497.93 $0.00 $3,497.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "683b4f11cf5b",
+      "value": "$10,000",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "4b27f07491fc",
+      "value": "$52,800",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 10000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "127146a1b3b9",
+      "value": "$25,800",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 10000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "4e73f99ca0d6",
+      "value": "$1,860.00",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 10000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "2fe929f14cfd",
+      "value": "$3,392.93",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 10000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "cd41b99efb21",
+      "value": "$0.00",
+      "context": "$10,000 $52,800 $25,800 $1,860.00 $3,392.93 $0.00 $3,392.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "c216cce3fee6",
+      "value": "$15,000",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "82885a5a44f7",
+      "value": "$47,800",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 15000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "e61e06e7fe3b",
+      "value": "$30,800",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 15000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "27bae107a108",
+      "value": "$0.00",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "68a6691df3e9",
+      "value": "$2,848.33",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 15000: Helen tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "c48d922e32ca",
+      "value": "$439.60",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 15000: Raj tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "e2b4759e0a87",
+      "value": "$3,287.93",
+      "context": "$15,000 $47,800 $30,800 $0.00 $2,848.33 $439.60 $3,287.93",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 15000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "5359aeef71f0",
+      "value": "$20,000",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "18e8689bb1a2",
+      "value": "50%",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+      }
+    },
+    {
+      "id": "f94ba6ab5806",
+      "value": "$42,800",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "12b00baf43f8",
+      "value": "$35,800",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "c6cd068fff42",
+      "value": "$0.00",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "00295e4af480",
+      "value": "$2,119.60",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: Helen tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "fc711f9966fe",
+      "value": "$1,139.60",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: Raj tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "9425913ff5be",
+      "value": "$3,259.20",
+      "context": "$20,000 (the 50% maximum) $42,800 $35,800 $0.00 $2,119.60 $1,139.60 $3,259.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "b8204fc318a5",
+      "value": "$62,800",
+      "context": "Without a split, Helen's net income of $62,800 is over the age amount threshold, so her own age amount falls to $6,752.80, and the part of her income above $58,523 is taxed at 20.5%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "3d6b5de67dab",
+      "value": "$6,752.80",
+      "context": "Without a split, Helen's net income of $62,800 is over the age amount threshold, so her own age amount falls to $6,752.80, and the part of her income above $58,523 is taxed at 20.5%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: Helen's own age amount at 62,800"
+      }
+    },
+    {
+      "id": "cd3ce607858a",
+      "value": "$58,523",
+      "context": "Without a split, Helen's net income of $62,800 is over the age amount threshold, so her own age amount falls to $6,752.80, and the part of her income above $58,523 is taxed at 20.5%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"14% ---|---|--- Step 1: Determining tax on income | First $58,523 is taxed at 15%. Amount above that threshold is taxed at 20\""
+      }
+    },
+    {
+      "id": "ad1fec645ace",
+      "value": "20.5%",
+      "context": "Without a split, Helen's net income of $62,800 is over the age amount threshold, so her own age amount falls to $6,752.80, and the part of her income above $58,523 is taxed at 20.5%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"23 is taxed at 15%. Amount above that threshold is taxed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amoun\""
+      }
+    },
+    {
+      "id": "88babc35369d",
+      "value": "$9,208",
+      "context": "Raj owes no tax, so his whole age amount of $9,208 moves to Helen's return, which is why their combined bill is only $4,252.21.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "e22c1f3d45c1",
+      "value": "$4,252.21",
+      "context": "Raj owes no tax, so his whole age amount of $9,208 moves to Helen's return, which is why their combined bill is only $4,252.21.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "bd63d00df161",
+      "value": "14%",
+      "context": "Helen drops into the 14% bracket, her age amount climbs back toward the full $9,208, and Raj gains his own $2,000 pension income amount on the RRIF income he now reports.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+      }
+    },
+    {
+      "id": "60bc8e446e6e",
+      "value": "$9,208,",
+      "context": "Helen drops into the 14% bracket, her age amount climbs back toward the full $9,208, and Raj gains his own $2,000 pension income amount on the RRIF income he now reports.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "16f281c38152",
+      "value": "$2,000",
+      "context": "Helen drops into the 14% bracket, her age amount climbs back toward the full $9,208, and Raj gains his own $2,000 pension income amount on the RRIF income he now reports.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ption expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
+      }
+    },
+    {
+      "id": "23f0fae40079",
+      "value": "$16,400,",
+      "context": "Once the split reaches $16,400, Helen's net income is under $46,432, both spouses get the full age amount and both are taxed only at 14%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
+      }
+    },
+    {
+      "id": "b06983f4c603",
+      "value": "$46,432,",
+      "context": "Once the split reaches $16,400, Helen's net income is under $46,432, both spouses get the full age amount and both are taxed only at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+      }
+    },
+    {
+      "id": "245169d571c8",
+      "value": "14%",
+      "context": "Once the split reaches $16,400, Helen's net income is under $46,432, both spouses get the full age amount and both are taxed only at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"c Personal Amount (BPA). Table 3 Tax Calculation at 15% vs. 14% | First Bracket Rate of 15% | First Bracket Rate of 14% ---\""
+      }
+    },
+    {
+      "id": "45bcebd74bca",
+      "value": "50%",
+      "context": "From there to the 50% maximum the combined bill stays at $3,259.20, because every extra dollar moved is taxed at the same 14% on either return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+      }
+    },
+    {
+      "id": "24e5f7c8f031",
+      "value": "$3,259.20",
+      "context": "From there to the 50% maximum the combined bill stays at $3,259.20, because every extra dollar moved is taxed at the same 14% on either return.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 20000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "b0e0e3bf5d59",
+      "value": "14%",
+      "context": "From there to the 50% maximum the combined bill stays at $3,259.20, because every extra dollar moved is taxed at the same 14% on either return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "42967e242bef",
+      "value": "50%",
+      "context": "The lesson is that the best split is often less than 50%, and that the age amount is part of the reason to split, not only the brackets.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+      }
+    },
+    {
+      "id": "a053bb8d5a96",
+      "value": "3%",
+      "context": "Medical expenses work differently: one spouse can claim the couple's combined expenses, which usually belongs on the lower-income return because the 3% floor is smaller.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
+      "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"me (on line 23600 of her return) is $55,000. She calculates 3% of that amount, which is $1,650. Because the result is less\""
+      }
+    },
+    {
+      "id": "291e771eed10",
+      "value": "65",
+      "context": "The disability amount, medical expenses, the Canada caregiver amount and the home accessibility credit matter most after 65, because health costs, care for a partner and home changes tend to arrive together.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100 - Age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+      }
+    },
+    {
+      "id": "f3da96bfe8d5",
+      "value": "$10,341",
+      "context": "Disability amount ($10,341 for 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
+      }
+    },
+    {
+      "id": "72ecc81282d0",
+      "value": "$1,447.74",
+      "context": "The CRA's disability tax credit page explains the application; once approved, the credit is worth $1,447.74 federally a year, and any part you can't use can move to a spouse on line 32600.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: disability amount 10,341 x 14%"
+      }
+    },
+    {
+      "id": "ca1d9d36cf60",
+      "value": "3%",
+      "context": "The medical expenses page sets the floor at 3% of net income or a fixed dollar amount, whichever is less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
+      "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
+      }
+    },
+    {
+      "id": "967e0880fac3",
+      "value": "$2,890",
+      "context": "The fixed amount is $2,890 for 2026, so the 3% test is the lower one for anyone with net income under about $96,333 (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
+      }
+    },
+    {
+      "id": "397578315442",
+      "value": "3%",
+      "context": "The fixed amount is $2,890 for 2026, so the 3% test is the lower one for anyone with net income under about $96,333 (our calculation).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
+      "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0 Tuition amounts | n.a. 4 | 3.0 million Medical expenses | 3% of net income | 5.8 million Charitable donations5 | $200 |\""
+      }
+    },
+    {
+      "id": "3c83c9501044",
+      "value": "$96,333",
+      "context": "The fixed amount is $2,890 for 2026, so the 3% test is the lower one for anyone with net income under about $96,333 (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 2890.0/0.03 = 96333.33"
+      }
+    },
+    {
+      "id": "20af1489628a",
+      "value": "18",
+      "context": "If you support an infirm parent, sibling or adult child, the 2026 maximum for a dependant 18 or older is $8,773, reduced by the dependant's income above $20,601.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
+      }
+    },
+    {
+      "id": "5566f05b17aa",
+      "value": "$8,773,",
+      "context": "If you support an infirm parent, sibling or adult child, the 2026 maximum for a dependant 18 or older is $8,773, reduced by the dependant's income above $20,601.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"or other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
+      }
+    },
+    {
+      "id": "e3ba2852b476",
+      "value": "$20,601",
+      "context": "If you support an infirm parent, sibling or adult child, the 2026 maximum for a dependant 18 or older is $8,773, reduced by the dependant's income above $20,601.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"75 $7,999 Net income threshold for Canada caregiver amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $\""
+      }
+    },
+    {
+      "id": "da72b817b31c",
+      "value": "$20,000",
+      "context": "The line 31285 page allows up to $20,000 a year of eligible renovation costs for a home that becomes safer or more accessible for someone 65 or older.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
+      "sourceName": "CRA: Line 31285, home accessibility expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"much you can claim A qualifying individual can claim up to $20,000 per year in eligible expenses. When there is more than one\""
+      }
+    },
+    {
+      "id": "72d5a2d7f857",
+      "value": "65",
+      "context": "The line 31285 page allows up to $20,000 a year of eligible renovation costs for a home that becomes safer or more accessible for someone 65 or older.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
+      "sourceName": "CRA: Line 31285, home accessibility expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
+      }
+    },
+    {
+      "id": "5493b9d05b22",
+      "value": "14%",
+      "context": "At 14%, the full $20,000 is worth $2,800.00 federally.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "a8235fe74e94",
+      "value": "$20,000",
+      "context": "At 14%, the full $20,000 is worth $2,800.00 federally.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
+      "sourceName": "CRA: Line 31285 - Home accessibility expenses",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; reclassified from example (it is a rule, not an illustration): \"up to $20,000 per year\""
+      }
+    },
+    {
+      "id": "12dfe071ea90",
+      "value": "$2,800.00",
+      "context": "At 14%, the full $20,000 is worth $2,800.00 federally.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: home accessibility amount 20,000 x 14%"
+      }
+    },
+    {
+      "id": "8faf45ed3428",
+      "value": "$95,323,",
+      "context": "The OAS recovery tax page sets the threshold for 2026 income at $95,323, which applies to payments from July 2027 to June 2028.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: Old Age Security pension recovery tax",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \",454 | $152,062 | $157,923 July 2027 to June 2028 | 2026 | $95,323 | $155,3201 | $161,3201 * 1 From January to September of th\""
+      }
+    },
+    {
+      "id": "a6de3af769c2",
+      "value": "15%",
+      "context": "Above it you repay 15% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You must repay 15% of that amount\""
+      }
+    },
+    {
+      "id": "c2f1bdff00eb",
+      "value": "$107,819,",
+      "context": "The age amount is already gone well before that point, at about $107,819, so a retiree near the OAS threshold should plan the split around the clawback, not the age amount.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
+      }
+    },
+    {
+      "id": "4418c28f7b32",
+      "value": "65",
+      "context": "Only eligible pension income does, and from 65 a small RRIF withdrawal is the easiest way to get it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
+      }
+    },
+    {
+      "id": "fc65562d2d18",
+      "value": "50%",
+      "context": "Splitting the full 50% by habit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+      }
+    },
+    {
+      "id": "3353341243db",
+      "value": "3%",
+      "context": "The 3% floor rises with income, so the lower-income spouse usually gets more of the credit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$19,972 $19,580 $19,066 $18,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundab\""
+      }
+    },
+    {
+      "id": "8664197bdde3",
+      "value": "$9,208",
+      "context": "For the 2026 tax year the age amount is $9,208 if you are 65 or older and your net income is $46,432 or less.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
+      }
+    },
+    {
+      "id": "bf4cc99dcf18",
+      "value": "65",
+      "context": "For the 2026 tax year the age amount is $9,208 if you are 65 or older and your net income is $46,432 or less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
+      "sourceName": "CRA: Line 30100, age amount",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+      }
+    },
+    {
+      "id": "0a9d055b2edb",
+      "value": "$46,432",
+      "context": "For the 2026 tax year the age amount is $9,208 if you are 65 or older and your net income is $46,432 or less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+      }
+    },
+    {
+      "id": "917eb56743ca",
+      "value": "15%",
+      "context": "It shrinks by 15% of income above that threshold and is gone at about $107,819.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
+      "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+      }
+    },
+    {
+      "id": "f06f59b3a51c",
+      "value": "$107,819",
+      "context": "It shrinks by 15% of income above that threshold and is gone at about $107,819.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
+      }
+    },
+    {
+      "id": "6c9859c5684b",
+      "value": "$1,289.12",
+      "context": "Federally it is worth up to $1,289.12.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
+      }
+    },
+    {
+      "id": "3ca1c479cf26",
+      "value": "65",
+      "context": "From age 65, RRIF payments, life income fund payments and RRSP annuity payments qualify, as do employer pension payments at any age.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    },
+    {
+      "id": "3ae4c50df49c",
+      "value": "50%",
+      "context": "Is pension splitting always 50%?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+      }
+    },
+    {
+      "id": "4df28d0ab1f7",
+      "value": "50%",
+      "context": "Up to 50% of eligible pension income can be allocated, and any lower amount is allowed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
+      }
+    },
+    {
+      "id": "4f810507dc38",
+      "value": "$16,400",
+      "context": "In our example, a split of $16,400 saves as much as the full 50%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
+      }
+    },
+    {
+      "id": "a767078e5fc1",
+      "value": "50%",
+      "context": "In our example, a split of $16,400 saves as much as the full 50%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+      }
+    },
+    {
+      "id": "28bb6a5f1f7f",
+      "value": "65",
+      "context": "Can you split RRIF income before 65?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
+      }
+    },
+    {
+      "id": "2c8361acdf7b",
+      "value": "65",
+      "context": "RRIF payments count as eligible pension income for splitting only if the transferring spouse is 65 or older at the end of the year, or the payments follow the death of a spouse.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
+      "sourceName": "CRA: Pension income splitting",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+      }
+    }
+  ]
+}

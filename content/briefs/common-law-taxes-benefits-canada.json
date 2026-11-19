@@ -1,0 +1,38 @@
+{
+  "slug": "common-law-taxes-benefits-canada",
+  "title": "Common-Law in Canada: When the CRA Says You Are, and What It Costs",
+  "family": "how-to",
+  "category": "taxes",
+  "subcategory": "life-events-estates",
+  "targetQuery": "common law taxes canada",
+  "secondaryQueries": [
+    "when are you considered common law canada",
+    "common law ccb",
+    "tell cra common law"
+  ],
+  "infoGain": "CCB and Canada Groceries and Essentials Benefit for a single parent and a new partner before and after becoming common-law (July 2026-June 2027): $9,658.19 vs $4,805.10 a year, plus the eligible dependant credit lost.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-20",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "read the post on 2026-11-19: opening answers the title (12 continuous months or a shared child, then combined income for benefits, tell the CRA by the end of the following month); each H2 and FAQ opens with its answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-19 (separate from drafter)",
+      "on": "2026-11-19",
+      "note": "no invented quotes, experience or anecdotes; status rules quoted from the CRA marital status page, benefit amounts from the CCB page and the CGEB payments chart (all chart rows re-read today); Sam and Jordan labelled a worked example; I appears only in FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

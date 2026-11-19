@@ -1014,6 +1014,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-family-benefits-calculator.html">CRA, Child and family benefits calculator</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/common-law-taxes-benefits-canada/">Common-law in Canada: when the CRA says you are, and what it costs</a></p>
+
     <div class="cta-section">
         <p><strong>The notice is the calculation. The return is the input.</strong></p>
         <p>If the 2025 return is still open, the benefit is still waiting. The 2026 tax guide is the filing side.</p>

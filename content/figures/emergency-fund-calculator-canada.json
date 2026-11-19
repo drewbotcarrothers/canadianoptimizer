@@ -1,0 +1,1156 @@
+{
+  "slug": "emergency-fund-calculator-canada",
+  "publishDate": "2026-11-20",
+  "figures": [
+    {
+      "id": "0ba2dae6a32c",
+      "value": "28",
+      "context": "A Canadian emergency fund should cover your essential spending for the months you might be without pay, minus what EI and any other income would pay in that time, and never less than about four weeks of the shortfall, because EI's first payment arrives about 28 days after you apply.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
+      "sourceName": "Government of Canada: EI regular benefits, after you apply",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+      }
+    },
+    {
+      "id": "2a8cb216e2b9",
+      "value": "55%",
+      "context": "EI regular benefits pay up to 55% of average insurable weekly earnings, to a maximum of $729 a week in 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+      }
+    },
+    {
+      "id": "a77115956d7f",
+      "value": "$729",
+      "context": "EI regular benefits pay up to 55% of average insurable weekly earnings, to a maximum of $729 a week in 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+      }
+    },
+    {
+      "id": "c78b8f354a40",
+      "value": "March 30, 2025",
+      "context": "The usual one-week waiting period is waived for new claims that start between March 30, 2025 and October 9, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+      }
+    },
+    {
+      "id": "74a2ff3028e9",
+      "value": "October 9, 2027",
+      "context": "The usual one-week waiting period is waived for new claims that start between March 30, 2025 and October 9, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+      }
+    },
+    {
+      "id": "3c60fa736a3c",
+      "value": "28",
+      "context": "Service Canada aims to pay the first EI payment about 28 days after you apply, so the first month is always yours to fund.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
+      "sourceName": "Government of Canada: EI regular benefits, after you apply",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+      }
+    },
+    {
+      "id": "979cabcb6733",
+      "value": "36%",
+      "context": "In our examples, counting EI cuts a six-month fund by 36% for a single renter and 66% for a one-layoff couple; a self-employed person gets no regular EI and needs the full amount.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1 - 12277.40/19200 = 36.1%"
+      }
+    },
+    {
+      "id": "40651d2b6b16",
+      "value": "66%",
+      "context": "In our examples, counting EI cuts a six-month fund by 36% for a single renter and 66% for a one-layoff couple; a self-employed person gets no regular EI and needs the full amount.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 1 - 4524.90/13200 = 65.7%"
+      }
+    },
+    {
+      "id": "c8f8fc69a4ee",
+      "value": "55%",
+      "context": "For EI, it takes 55% of your average weekly insurable earnings, working from your yearly earnings spread evenly over the year, capped at $729 a week, the 2026 maximum on the EI benefit amount page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+      }
+    },
+    {
+      "id": "a6c8e3afe9ba",
+      "value": "$729",
+      "context": "For EI, it takes 55% of your average weekly insurable earnings, working from your yearly earnings spread evenly over the year, capped at $729 a week, the 2026 maximum on the EI benefit amount page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+      }
+    },
+    {
+      "id": "7646d78202d9",
+      "value": "14",
+      "context": "It pays EI for the weeks in your chosen period, up to the number of benefit weeks you enter, starting at 14 weeks, the shortest entitlement in Service Canada's table.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
+      }
+    },
+    {
+      "id": "32c3f000fc18",
+      "value": "October 9, 2027",
+      "context": "It leaves out the one-week waiting period while the temporary waiver applies, and you can switch it back on for a claim that would start after October 9, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+      }
+    },
+    {
+      "id": "56ee90f47ebe",
+      "value": "$12,277",
+      "context": "We ran the calculator for three example households at three and six months: with EI counted, a single renter needs $12,277 for six months instead of $19,200, a couple with one layoff needs $4,525 instead of $13,200, and a self-employed person with no regular EI needs the full $24,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 6-month target with EI"
+      }
+    },
+    {
+      "id": "b71b81eeee3d",
+      "value": "$19,200,",
+      "context": "We ran the calculator for three example households at three and six months: with EI counted, a single renter needs $12,277 for six months instead of $19,200, a couple with one layoff needs $4,525 instead of $13,200, and a self-employed person with no regular EI needs the full $24,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 6-month target without EI"
+      }
+    },
+    {
+      "id": "6e0986135ea7",
+      "value": "$4,525",
+      "context": "We ran the calculator for three example households at three and six months: with EI counted, a single renter needs $12,277 for six months instead of $19,200, a couple with one layoff needs $4,525 instead of $13,200, and a self-employed person with no regular EI needs the full $24,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 6-month target with EI"
+      }
+    },
+    {
+      "id": "10a0d50e7238",
+      "value": "$13,200,",
+      "context": "We ran the calculator for three example households at three and six months: with EI counted, a single renter needs $12,277 for six months instead of $19,200, a couple with one layoff needs $4,525 instead of $13,200, and a self-employed person with no regular EI needs the full $24,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 6-month target without EI"
+      }
+    },
+    {
+      "id": "f61b2d110e95",
+      "value": "$24,000",
+      "context": "We ran the calculator for three example households at three and six months: with EI counted, a single renter needs $12,277 for six months instead of $19,200, a couple with one layoff needs $4,525 instead of $13,200, and a self-employed person with no regular EI needs the full $24,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
+      }
+    },
+    {
+      "id": "d6e24fbd0492",
+      "value": "$3,200",
+      "context": "The single renter spends $3,200 a month on essentials and earned $55,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "1347684344a9",
+      "value": "$55,000",
+      "context": "The single renter spends $3,200 a month on essentials and earned $55,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "7919eed1801a",
+      "value": "$6,000",
+      "context": "The couple spends $6,000 a month; one partner earning $95,000 is laid off, and the other's take-home pay of $3,800 a month continues.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "94a600ff361b",
+      "value": "$95,000",
+      "context": "The couple spends $6,000 a month; one partner earning $95,000 is laid off, and the other's take-home pay of $3,800 a month continues.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "511d30f113ac",
+      "value": "$3,800",
+      "context": "The couple spends $6,000 a month; one partner earning $95,000 is laid off, and the other's take-home pay of $3,800 a month continues.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "3cc9bed41abf",
+      "value": "$4,000",
+      "context": "The self-employed person spends $4,000 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "03982eeab8eb",
+      "value": "14",
+      "context": "EI is counted for 14 weeks, with an example 15% lost to tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
+      }
+    },
+    {
+      "id": "00b4362300bc",
+      "value": "15%",
+      "context": "EI is counted for 14 weeks, with an example 15% lost to tax.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "b60f911b93a1",
+      "value": "November 19, 2026",
+      "context": "Emergency fund targets for three example households (our calculation, EI rules from Canada.ca reviewed November 19, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-19)"
+      }
+    },
+    {
+      "id": "d27d9569c637",
+      "value": "$9,600",
+      "context": "Single renter $9,600 $3,172 $19,200 $12,277",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 3-month target without EI"
+      }
+    },
+    {
+      "id": "f6a499a0be98",
+      "value": "$3,172",
+      "context": "Single renter $9,600 $3,172 $19,200 $12,277",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 3-month target with EI"
+      }
+    },
+    {
+      "id": "127b81549fb6",
+      "value": "$19,200",
+      "context": "Single renter $9,600 $3,172 $19,200 $12,277",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 6-month target without EI"
+      }
+    },
+    {
+      "id": "cd1af7130fd5",
+      "value": "$12,277",
+      "context": "Single renter $9,600 $3,172 $19,200 $12,277",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: single 6-month target with EI"
+      }
+    },
+    {
+      "id": "89d348a4bb83",
+      "value": "$6,600",
+      "context": "Couple, one layoff $6,600 $2,031 $13,200 $4,525",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 3-month target without EI"
+      }
+    },
+    {
+      "id": "1e126d12fbf3",
+      "value": "$2,031",
+      "context": "Couple, one layoff $6,600 $2,031 $13,200 $4,525",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
+      }
+    },
+    {
+      "id": "5275ad0c873f",
+      "value": "$13,200",
+      "context": "Couple, one layoff $6,600 $2,031 $13,200 $4,525",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 6-month target without EI"
+      }
+    },
+    {
+      "id": "1118cf2bc381",
+      "value": "$4,525",
+      "context": "Couple, one layoff $6,600 $2,031 $13,200 $4,525",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 6-month target with EI"
+      }
+    },
+    {
+      "id": "3ebb454afd3f",
+      "value": "$12,000",
+      "context": "Self-employed, no regular EI $12,000 $12,000 $24,000 $24,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: self 3-month target without EI"
+      }
+    },
+    {
+      "id": "b17fd8938e96",
+      "value": "$24,000",
+      "context": "Self-employed, no regular EI $12,000 $12,000 $24,000 $24,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
+      }
+    },
+    {
+      "id": "7a39daae8e47",
+      "value": "$581.73",
+      "context": "The single renter's EI is about $581.73 a week, which pays $6,923 after tax over 14 weeks and covers a little over a third of six months of spending.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: min(729, 55% x 55,000 / 52)"
+      }
+    },
+    {
+      "id": "1d85c184ad65",
+      "value": "$6,923",
+      "context": "The single renter's EI is about $581.73 a week, which pays $6,923 after tax over 14 weeks and covers a little over a third of six months of spending.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: 14 weeks x 581.73 x 85%"
+      }
+    },
+    {
+      "id": "38ee1ac8dc41",
+      "value": "14",
+      "context": "The single renter's EI is about $581.73 a week, which pays $6,923 after tax over 14 weeks and covers a little over a third of six months of spending.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+      }
+    },
+    {
+      "id": "4e1a546b287d",
+      "value": "$729",
+      "context": "The couple's laid-off partner hits the $729 cap, so earning more than the maximum insurable earnings of $68,900 doesn't raise the benefit, and their three-month target is set by the four-week floor ($2,031), not by the gap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers.html",
+      "sourceName": "Government of Canada: EI benefits for self-employed people",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"port of up to 55% of your earnings, to a maximum amount of $729 per week in 2026. ## Are you considered self-employed? If y\""
+      }
+    },
+    {
+      "id": "678fed78acda",
+      "value": "$68,900",
+      "context": "The couple's laid-off partner hits the $729 cap, so earning more than the maximum insurable earnings of $68,900 doesn't raise the benefit, and their three-month target is set by the four-week floor ($2,031), not by the gap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+      }
+    },
+    {
+      "id": "0aded0f83e6c",
+      "value": "$2,031",
+      "context": "The couple's laid-off partner hits the $729 cap, so earning more than the maximum insurable earnings of $68,900 doesn't raise the benefit, and their three-month target is set by the four-week floor ($2,031), not by the gap.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
+      }
+    },
+    {
+      "id": "7b5b7b016aaa",
+      "value": "14",
+      "context": "The six-month figures assume EI stops after 14 weeks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+      }
+    },
+    {
+      "id": "dcd643bb4a14",
+      "value": "20",
+      "context": "If you are a long-tenured worker, the temporary measures can add up to 20 weeks, to a maximum of 65.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enured workers Under the temporary measure, you may receive 20 additional weeks of regular benefits, up to a maximum of 65\""
+      }
+    },
+    {
+      "id": "d068f2da4dee",
+      "value": "65",
+      "context": "If you are a long-tenured worker, the temporary measures can add up to 20 weeks, to a maximum of 65.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"20 additional weeks of regular benefits, up to a maximum of 65 weeks, if you: * have a claim that starts between June 15,\""
+      }
+    },
+    {
+      "id": "6c00f901757a",
+      "value": "55%",
+      "context": "For most people, EI regular benefits pay 55% of average insurable weekly earnings, up to a maximum.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+      }
+    },
+    {
+      "id": "c0002a779f03",
+      "value": "January 1, 2026",
+      "context": "As of January 1, 2026, the maximum yearly insurable earnings are $68,900, so the most anyone receives is $729 a week.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ge insurable weekly earnings, up to a maximum amount. As of January 1, 2026, the maximum yearly insurable earnings amount is $68,900. T\""
+      }
+    },
+    {
+      "id": "064962ee0355",
+      "value": "$68,900,",
+      "context": "As of January 1, 2026, the maximum yearly insurable earnings are $68,900, so the most anyone receives is $729 a week.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+      }
+    },
+    {
+      "id": "26d9c58ef039",
+      "value": "$729",
+      "context": "As of January 1, 2026, the maximum yearly insurable earnings are $68,900, so the most anyone receives is $729 a week.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+      }
+    },
+    {
+      "id": "56748a29a7de",
+      "value": "14",
+      "context": "You can get 14 to 45 weeks, depending on your region's unemployment rate and your insurable hours.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+      }
+    },
+    {
+      "id": "2635baf02736",
+      "value": "45",
+      "context": "You can get 14 to 45 weeks, depending on your region's unemployment rate and your insurable hours.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"5 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of unemployment in your region\""
+      }
+    },
+    {
+      "id": "f016b0adf7ac",
+      "value": "52",
+      "context": "To qualify, the eligibility page says you must have lost your job through no fault of your own, been without work and pay for at least 7 consecutive days, worked enough insurable hours in the last 52 weeks, and be ready and able to work and looking for a job.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/eligibility.html",
+      "sourceName": "Government of Canada: EI regular benefits, do you qualify",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"and without pay for at least 7 consecutive days in the last 52 weeks * have worked for the required number of insurable em\""
+      }
+    },
+    {
+      "id": "3d180a37cf50",
+      "value": "28",
+      "context": "Service Canada's standard is a decision within 28 days of your application, met 80% of the time, and you'll receive your first payment about 28 days after you apply if you're eligible and have sent everything needed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
+      "sourceName": "Service Canada: EI regular benefits - after you apply",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"decision within 28 days of filing your application. We aim to meet this standard 80% of the time\""
+      }
+    },
+    {
+      "id": "8843d051ecc9",
+      "value": "80%",
+      "context": "Service Canada's standard is a decision within 28 days of your application, met 80% of the time, and you'll receive your first payment about 28 days after you apply if you're eligible and have sent everything needed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
+      "sourceName": "Government of Canada: EI regular benefits, after you apply",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ys of filing your application. We aim to meet this standard 80% of the time. To avoid delays in processing your application\""
+      }
+    },
+    {
+      "id": "7971eac37875",
+      "value": "March 30, 2025",
+      "context": "The temporary EI measures page says the one-week waiting period is waived for new claims that start between March 30, 2025 and October 9, 2027, and that severance, vacation pay and pay in lieu of notice are not deducted from benefits for claims or allocations that start in that window.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+      }
+    },
+    {
+      "id": "ab09d7d5dc55",
+      "value": "October 9, 2027",
+      "context": "The temporary EI measures page says the one-week waiting period is waived for new claims that start between March 30, 2025 and October 9, 2027, and that severance, vacation pay and pay in lieu of notice are not deducted from benefits for claims or allocations that start in that window.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+      }
+    },
+    {
+      "id": "0216bb5f0799",
+      "value": "55%",
+      "context": "Assuming EI replaces 55% of a high salary.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"How much you could receive On this page You could get up to 55% of your earnings You can get benefits for up to a maximum o\""
+      }
+    },
+    {
+      "id": "a289d04d32b8",
+      "value": "$68,900",
+      "context": "Above $68,900 of insurable earnings, the benefit is capped at $729 a week.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+      }
+    },
+    {
+      "id": "549c889591b8",
+      "value": "$729",
+      "context": "Above $68,900 of insurable earnings, the benefit is capped at $729 a week.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+      }
+    },
+    {
+      "id": "44fce6ab18db",
+      "value": "$2,031",
+      "context": "In our examples that is between $2,031 and $24,000, depending on the household and whether EI applies.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
+      }
+    },
+    {
+      "id": "d9e7af7279d9",
+      "value": "$24,000,",
+      "context": "In our examples that is between $2,031 and $24,000, depending on the household and whether EI applies.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
+      }
+    },
+    {
+      "id": "b28240b7d90a",
+      "value": "28",
+      "context": "Service Canada's first payment arrives about 28 days after you apply, so keep at least four weeks of your shortfall in cash.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
+      "sourceName": "Government of Canada: EI regular benefits, after you apply",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+      }
+    },
+    {
+      "id": "f84210a2aaec",
+      "value": "March 30, 2025",
+      "context": "Not for new claims that start between March 30, 2025 and October 9, 2027, under the temporary EI measures.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+      }
+    },
+    {
+      "id": "b5c52976627f",
+      "value": "October 9, 2027",
+      "context": "Not for new claims that start between March 30, 2025 and October 9, 2027, under the temporary EI measures.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+      }
+    },
+    {
+      "id": "76768e4145b3",
+      "value": "$729",
+      "context": "$729 a week, based on maximum yearly insurable earnings of $68,900 and the 55% basic rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+      }
+    },
+    {
+      "id": "57fe699a0039",
+      "value": "$68,900",
+      "context": "$729 a week, based on maximum yearly insurable earnings of $68,900 and the 55% basic rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+      }
+    },
+    {
+      "id": "7ece1c8a882c",
+      "value": "55%",
+      "context": "$729 a week, based on maximum yearly insurable earnings of $68,900 and the 55% basic rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+      }
+    },
+    {
+      "id": "4465eac3cbde",
+      "value": "March 30, 2025",
+      "context": "Not for claims or allocations starting between March 30, 2025 and October 9, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+      }
+    },
+    {
+      "id": "d6dadb8a0b1f",
+      "value": "October 9, 2027",
+      "context": "Not for claims or allocations starting between March 30, 2025 and October 9, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
+      "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
+      "asOf": "2026-11-19",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-19",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+      }
+    }
+  ]
+}
