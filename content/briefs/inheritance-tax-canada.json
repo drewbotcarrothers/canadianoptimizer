@@ -1,0 +1,40 @@
+{
+  "slug": "inheritance-tax-canada",
+  "title": "Inheritance Tax in Canada: Who Pays and What the Estate Owes",
+  "family": "how-to",
+  "category": "taxes",
+  "subcategory": "life-events-estates",
+  "targetQuery": "inheritance tax canada",
+  "secondaryQueries": [
+    "is there inheritance tax in canada",
+    "tax on inheritance canada",
+    "who pays tax on an estate in canada",
+    "rrif tax at death"
+  ],
+  "infoGain": "A worked 2026 Ontario estate ($1,345,000 of assets) showing the final-return income line by line and the federal and Ontario bracket tax on it: the RRIF, not the house, drives most of the bill.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "secondaryEbook": "retirement-guide",
+  "publishDate": "2026-11-16",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "Answer paragraph and the first lines under every question H2 and FAQ H3 read as direct answers (checked on the rendered preview)."
+    },
+    "4a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "No quotes, testing or experience claims. First-person \"I\" appears only in reader questions used as headings. Examples are labelled illustrations."
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "not a money page"
+    }
+  }
+}

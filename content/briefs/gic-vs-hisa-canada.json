@@ -1,0 +1,38 @@
+{
+  "slug": "gic-vs-hisa-canada",
+  "title": "GIC vs HISA: Where Your Cash Should Sit in Canada",
+  "family": "vs",
+  "category": "budgeting-saving",
+  "subcategory": "savings-gics-cash",
+  "targetQuery": "gic vs hisa",
+  "secondaryQueries": [
+    "gic vs high interest savings account canada",
+    "is a gic better than a savings account",
+    "gic interest tax canada"
+  ],
+  "infoGain": "After-tax interest on $20,000 over 1, 3 and 5 years for EQ's GIC vs its savings account at base and direct-deposit rates, at 30% and 45% example marginal tax rates, with savings rates held flat.",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-19",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "read the rendered post on 2026-11-18: the first two sentences answer the title (GIC for dated money 1-5 years out, HISA for money you may need any day, with EQ's rates); each question H2 and FAQ opens with its answer. Updated today for EQ's November 18, 2026 rate change (3-yr 4.00%, 5-yr 4.25%, 6-month 2.90%) with all after-tax totals recomputed"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "no invented quotes, experience, tests or review claims; tax rules attributed to CRA line 12100, coverage to CDIC, rates to EQ/RBC pages; all totals labelled our calculation on an illustrative $20,000 with example 30%/45% rates; 'I' appears only in FAQ questions"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-18 (separate from drafter)",
+      "on": "2026-11-18",
+      "note": "three picks by what the money is for (emergency fund, dated purchase, retirement income ladder), one row each with Not-for-you and Also-consider; no affiliate links (bank offers pending); disclosure linked"
+    }
+  }
+}

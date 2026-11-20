@@ -27,8 +27,8 @@ export default function Disclosure() {
           <Link href="/disclaimer/" className="text-canadian-red hover:underline">disclaimer</Link>.
         </p>
         <p>
-          Questions about a page, including a correction, can be sent from the{' '}
-          <Link href="/contact/" className="text-canadian-red hover:underline">contact page</Link>.
+          Questions about a page, including a correction, can be emailed to{' '}
+          <a href="mailto:contact@canadianoptimizer.com" className="text-canadian-red hover:underline">contact@canadianoptimizer.com</a>.
         </p>
       </div>
     </div>

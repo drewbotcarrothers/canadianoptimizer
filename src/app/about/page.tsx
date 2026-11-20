@@ -37,6 +37,10 @@ export default function About() {
             <p>
               Every article is researched against primary official sources such as the CRA, ESDC, the Bank of Canada and provincial governments. It is general education, not personalized financial, tax or legal advice.
             </p>
+            <p className="mt-4">
+              AI tools help research and draft articles, and every number is re-checked against its source before publishing. Read{' '}
+              <Link href="/how-we-use-ai/" className="text-canadian-red hover:underline">how we use AI</Link>.
+            </p>
           </div>
         </div>
 

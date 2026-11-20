@@ -16,6 +16,7 @@ import EbookCTA from '@/components/ebooks/EbookCTA';
 import { ebookForPost, type ProductSlug } from '@/data/ebooks';
 import { posts } from '@/data/posts';
 import { getPostVideo, videoObjectSchema, type PostVideo } from '@/lib/post-video';
+import { renderOffers } from '@/lib/offers';
 import {
   articleSchema,
   AUTHOR_NAME,
@@ -23,9 +24,7 @@ import {
   buildPageMetadata,
   findSubcategory,
   extractFaq,
-  extractHowTo,
   faqSchema,
-  howToSchema,
   formatMonthYear,
   blogHeroSrc,
   toMetaDescription,
@@ -211,9 +210,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const showUpdated = Boolean(post.updated && post.updated !== post.date);
 
   const heroSrc = post.image ? blogHeroSrc(post.image) : '';
-  let contentWithImage = post.content;
-  if (heroSrc && post.content.includes('class="hook"')) {
-    contentWithImage = post.content.replace(
+  const renderedContent = renderOffers(post.content, post.slug);
+  let contentWithImage = renderedContent;
+  if (heroSrc && renderedContent.includes('class="hook"')) {
+    contentWithImage = renderedContent.replace(
       /(<div class="hook">[\s\S]*?<\/div>)/,
       `$1<img src="${heroSrc}" alt="${post.title.replace(/"/g, '&quot;')}" class="post-featured-image" />`
     );
@@ -254,13 +254,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const ebook = ebookForPost(post.categorySlug, post.subcategory);
 
   const faq = extractFaq(post.content);
-  const howTo = extractHowTo(post.content);
   const videoSchema = video ? videoObjectSchema(post, video) : null;
   const schemas = [
     articleSchema(post),
     breadcrumbSchema(crumbs),
     ...(faq ? [faqSchema(faq)] : []),
-    ...(howTo ? [howToSchema(howTo)] : []),
     ...(videoSchema ? [videoSchema] : []),
   ];
 
@@ -361,7 +359,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           ) : null}
           <div
             className="prose prose-lg prose-red max-w-none prose-headings:text-charcoal prose-blockquote:border-canadian-red prose-blockquote:bg-red-50 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-img:rounded-2xl blog-content"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: renderedContent }}
           />
           {ebook ? <EbookCTA slug={ebook} variant="end" context={post.slug} /> : null}
           <div className="mt-10">

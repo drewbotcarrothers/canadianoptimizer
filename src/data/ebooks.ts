@@ -64,7 +64,7 @@ export const PRICES_CAD: Record<ProductSlug, number> = {
 
 /** Refund window promised on every sales page (confirmed by Andrew, Nov 12, 2026). */
 export const REFUND_DAYS = 30;
-export const SUPPORT_PATH = '/contact/';
+export const SUPPORT_EMAIL = 'contact@canadianoptimizer.com';
 
 export type EbookPart = { name: string; chapters: string[] };
 export type EbookFaq = { question: string; answer: string };
@@ -755,7 +755,7 @@ export function salesUrlWithUtm(slug: ProductSlug, medium: 'cta_full' | 'cta_com
  * (Credit Cards, Real Estate, Budgeting & Saving) return null and show no CTA.
  */
 export const CATEGORY_EBOOKS: Record<string, { default: ProductSlug | null; bySubcategory?: Record<string, ProductSlug> }> = {
-  taxes: { default: 'tax-guide' },
+  taxes: { default: 'tax-guide', bySubcategory: { 'self-employed-business-tax': 'self-employed-guide' } },
   retirement: { default: 'retirement-guide' },
   'government-benefits': { default: 'government-benefits-guide' },
   insurance: { default: 'insurance-guide' },

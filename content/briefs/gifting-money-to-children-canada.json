@@ -1,0 +1,41 @@
+{
+  "slug": "gifting-money-to-children-canada",
+  "title": "Gifting Money to Children in Canada: The Tax Rules Parents Need",
+  "family": "qa",
+  "category": "taxes",
+  "subcategory": "life-events-estates",
+  "targetQuery": "gifting money to children canada",
+  "secondaryQueries": [
+    "gift tax canada",
+    "attribution rules minor child",
+    "gifting shares to child canada",
+    "giving money to adult child for house canada"
+  ],
+  "infoGain": "One table of who reports the income on each way of giving (cash to adult or minor child, shares, TFSA, FHSA, RESP), plus worked examples of minor-child attribution and a deemed sale on gifted shares.",
+  "money": false,
+  "offers": [
+    "questrade-self-directed"
+  ],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-16",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "Answer paragraph and the first lines under every question H2 and FAQ H3 read as direct answers (checked on the rendered preview)."
+    },
+    "4a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "No quotes, testing or experience claims. First-person \"I\" appears only in reader questions used as headings. Examples are labelled illustrations."
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "not a money page"
+    }
+  }
+}

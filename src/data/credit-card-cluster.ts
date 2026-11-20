@@ -198,6 +198,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">FCAC: credit cards</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
+
     <div class="cta-section">
         <p><strong>The card is a few hundred dollars. The tax return is larger.</strong></p>
         <p>Once the plastic is chosen, contribution room and brackets move more money. The 2026 tax guide is the companion, not a card offer.</p>
@@ -961,6 +963,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.americanexpress.com/en-ca/benefits/simplycash-card/">SimplyCash from American Express</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
+
     ${footer('September 27, 2026')}
 
 </div>`
@@ -1102,6 +1106,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.scotiabank.com/ca/en/personal/credit-cards/american-express/gold-card.html">Scotiabank Gold American Express</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
+
     ${footer('September 27, 2026')}
 
 </div>`
@@ -1220,6 +1226,8 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.americanexpress.com/ca/en/credit-cards/aeroplan-cards/compare-cards/">American Express: compare Aeroplan cards</a></li>
         <li><a href="/blog/travel-medical-insurance-canada/">Travel medical insurance</a></li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
 
     <div class="cta-section">
         <p><strong>The certificate is the product. The metal card is the packaging.</strong></p>

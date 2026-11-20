@@ -1,0 +1,38 @@
+{
+  "slug": "scotiabank-gold-american-express-review",
+  "title": "Scotiabank Gold American Express Review: Worth the $120 Fee?",
+  "family": "review",
+  "category": "credit-cards",
+  "subcategory": "travel-points",
+  "targetQuery": "scotiabank gold american express review",
+  "secondaryQueries": [
+    "scotiabank gold amex fee",
+    "scotia gold amex no foreign transaction fee",
+    "scene+ points dining"
+  ],
+  "infoGain": "Value math at 1 cent a point for dining-heavy, traveller and low-spender profiles, including the no-FX-fee saving on $5,000 of foreign spend and the no-fee Amex comparison (content/calcs/card-value-model.py).",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-17",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "answers read as answers under the title and each question heading | read rendered preview out/blog/scotiabank-gold-american-express-review/index.html on 2026-11-14: pass"
+    },
+    "4a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "no invented quotes, experience, tests or review claims | read rendered preview out/blog/scotiabank-gold-american-express-review/index.html on 2026-11-14: pass"
+    },
+    "6a": {
+      "pass": true,
+      "by": "independent source checker (Grok Bot, separate from drafter)",
+      "on": "2026-11-14",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown | read rendered preview out/blog/scotiabank-gold-american-express-review/index.html on 2026-11-14: pass"
+    }
+  }
+}

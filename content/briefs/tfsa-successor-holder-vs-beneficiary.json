@@ -1,0 +1,41 @@
+{
+  "slug": "tfsa-successor-holder-vs-beneficiary",
+  "title": "TFSA Successor Holder vs Beneficiary: What Your Spouse and Kids Get",
+  "family": "vs",
+  "category": "retirement",
+  "subcategory": "estate-legacy",
+  "targetQuery": "tfsa successor holder vs beneficiary",
+  "secondaryQueries": [
+    "tfsa successor holder",
+    "tfsa beneficiary tax",
+    "tfsa exempt contribution rc240",
+    "what happens to tfsa when you die canada"
+  ],
+  "infoGain": "One $120,000 TFSA traced through three designations (spouse as successor holder, spouse as beneficiary, adult child as beneficiary) showing what is taxed and what can be re-sheltered, with a decision table.",
+  "money": false,
+  "offers": [
+    "wealthsimple-invest"
+  ],
+  "ebook": "retirement-guide",
+  "publishDate": "2026-11-16",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "Answer paragraph and the first lines under every question H2 and FAQ H3 read as direct answers (checked on the rendered preview)."
+    },
+    "4a": {
+      "pass": true,
+      "by": "executor agent run (same run as drafting; no separate reviewer available)",
+      "on": "2026-11-12",
+      "note": "No quotes, testing or experience claims. First-person \"I\" appears only in reader questions used as headings. Examples are labelled illustrations."
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "not a money page"
+    }
+  }
+}

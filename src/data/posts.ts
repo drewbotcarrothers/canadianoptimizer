@@ -14,8 +14,13 @@ import { insuranceClusterPosts } from './insurance-cluster';
 import { realEstateClusterPosts } from './real-estate-cluster';
 import { taxesClusterPosts } from './taxes-cluster';
 import { toolsClusterPosts } from './tools-cluster';
+import { SUBCATEGORY_ASSIGNMENTS } from './taxonomy';
+import { batch20261116Posts } from './nov2026/batch-2026-11-16';
+import { batch20261117Posts } from './nov2026/batch-2026-11-17';
+import { batch20261118Posts } from './nov2026/batch-2026-11-18';
+import { batch20261119Posts } from './nov2026/batch-2026-11-19';
 
-export const posts: BlogPostRecord[] = [
+const allPosts: BlogPostRecord[] = [
   {
     title: "DIY ETF Portfolio for Canadians: Asset Allocation and Account Location",
     slug: "diy-etf-portfolio-asset-location-canada",
@@ -2335,6 +2340,8 @@ export const posts: BlogPostRecord[] = [
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">Financial Consumer Agency of Canada: credit cards</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
+
     <div class="cta-section">
         <p><strong>Points do not shelter investment income.</strong></p>
         <p>The card decision is a few hundred dollars a year. Asset location — what sits in the TFSA versus a taxable account — is larger. The 2026 tax guide is the companion piece.</p>
@@ -2804,6 +2811,8 @@ export const posts: BlogPostRecord[] = [
         <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a> &middot; <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
+
     <div class="cta-section">
         <p><strong>Cash back is a basis point. Tax is a bracket.</strong></p>
         <p>Squeeze the card stack, then put the larger effort into the return you file. The 2026 tax guide covers the bracket, the registered accounts, and the deductions that dwarf a grocery multiplier.</p>
@@ -3173,6 +3182,8 @@ export const posts: BlogPostRecord[] = [
         <li><strong>Interest is not a credit-building tool.</strong></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a> &middot; <a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a></p>
+
     <div class="cta-section">
         <p><strong>Credit capacity is infrastructure. Tax is cash flow.</strong></p>
         <p>Keep the score boring and put the optimization hours into the return you file. The 2026 tax guide covers the brackets and registered-account moves that dwarf a utilization tweak.</p>
@@ -3511,6 +3522,8 @@ export const posts: BlogPostRecord[] = [
         <li><strong>Interest or manufactured spend</strong> voids the exercise.</li>
         <li><strong>Verify live fees and benefits</strong> with the issuer before renewal.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/amex-simplycash-preferred-review/">Amex SimplyCash Preferred review: when the $119.88 fee pays for itself</a> &middot; <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a></p>
 
     <div class="cta-section">
         <p><strong>Card fees are small. Tax drag is large.</strong></p>
@@ -3897,6 +3910,8 @@ export const posts: BlogPostRecord[] = [
         <li><strong>Amex earn requires acceptance;</strong> haircut before you celebrate CPP.</li>
         <li><strong>Verify every ratio and award</strong> with the issuer and program before transferring.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/scotiabank-gold-american-express-review/">Scotiabank Gold American Express review</a> &middot; <a href="/blog/cash-back-vs-travel-rewards-credit-card-canada/">Cash back vs travel rewards credit cards: what each is worth</a></p>
 
     <div class="cta-section">
         <p><strong>Points are a rebate. Tax is the system.</strong></p>
@@ -17243,7 +17258,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -17877,7 +17894,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -18540,7 +18559,9 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
 
 
 
-<div class="cta-section">
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+
+    <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
 <p>Download <em>The Canadian Retirement Guide</em> — our free 71-page ebook covering everything from CPP optimization to estate planning.</p>
 <a class="cta-button" href="https://canadianoptimizer.com/ebooks/">Get the Free Ebook →</a>
@@ -25381,6 +25402,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the wait your cash has to cover.</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
+
     <div class="cta-section">
         <p><strong>A personal HELOC draw and an investment HELOC draw are different tax files.</strong></p>
         <p>Interest deductibility is a use test, not a product feature. The 2026 tax guide is the filing side of borrowed money.</p>
@@ -25526,6 +25549,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/tax-efficient-investing/">Tax-efficient investing</a> — why interest and dividends are not rivals.</li>
         <li><a href="/blog/cash-flow-system-canada/">Cash-flow system</a> — the payday transfer that funds the vehicle.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
 
     <div class="cta-section">
         <p><strong>The rate is a quote. The tax on the interest is a return.</strong></p>
@@ -27198,10 +27223,25 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...earningMore2026EntrepreneurPosts,
   ...earningMore2026SidePosts,
   ...retirementClusterPosts,
+  ...batch20261116Posts,
+  ...batch20261117Posts,
+  ...batch20261118Posts,
+  ...batch20261119Posts,
 
 ];
 
+// Subcategory (hub) for live posts whose record has none. Metadata only: URLs don't change.
+for (const post of allPosts) {
+  if (!post.subcategory && SUBCATEGORY_ASSIGNMENTS[post.slug]) {
+    post.subcategory = SUBCATEGORY_ASSIGNMENTS[post.slug];
+  }
+}
+
 // seo-date-guard: refuse to ship a post dated after today in America/Toronto.
+// A daily batch PR may carry its planned publish date. Posts dated after today are
+// "scheduled": they are left out of every route, the sitemap and the feeds, and they
+// go live on the first build (deploy) on or after their date. A post whose `updated`
+// is after today while its `date` is not still fails the build.
 const contentAsOf = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'America/Toronto',
   year: 'numeric',
@@ -27209,11 +27249,28 @@ const contentAsOf = new Intl.DateTimeFormat('en-CA', {
   day: '2-digit',
 }).format(new Date());
 
-for (const post of posts) {
-  if (post.date > contentAsOf) {
-    throw new Error(`Post "${post.slug}" is dated ${post.date}, after ${contentAsOf}. Future dates cannot ship.`);
+/** Posts with a future publish date, kept out of the build until that date. */
+export const scheduledPosts: BlogPostRecord[] = allPosts.filter((post) => post.date > contentAsOf);
+
+for (const post of scheduledPosts) {
+  if (post.updated !== post.date) {
+    throw new Error(`Scheduled post "${post.slug}" must have updated equal to date (${post.date}).`);
   }
-  if (post.updated > contentAsOf) {
+}
+
+// Preview builds for the pre-publish checklist: CO_PREVIEW_SCHEDULED=1 npm run build
+// renders scheduled posts too. Never set it in the deploy workflow.
+const previewScheduled = process.env.CO_PREVIEW_SCHEDULED === '1';
+
+export const posts: BlogPostRecord[] = previewScheduled
+  ? allPosts
+  : allPosts.filter((post) => post.date <= contentAsOf);
+
+for (const post of posts) {
+  if (post.date <= contentAsOf && post.updated > contentAsOf) {
     throw new Error(`Post "${post.slug}" was updated ${post.updated}, after ${contentAsOf}.`);
   }
 }
+
+/** Every post record, published or scheduled (used by scripts/content). */
+export { allPosts };
