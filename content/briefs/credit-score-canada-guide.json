@@ -1,0 +1,38 @@
+{
+  "slug": "credit-score-canada-guide",
+  "title": "How Credit Scores Work in Canada: Equifax vs TransUnion",
+  "family": "core",
+  "category": "credit-cards",
+  "subcategory": "credit-score-building",
+  "targetQuery": "credit score canada",
+  "secondaryQueries": [
+    "equifax vs transunion canada",
+    "how long does information stay on credit report canada",
+    "free credit score canada"
+  ],
+  "infoGain": "Side-by-side Equifax vs TransUnion table of every rule the FCAC and the bureaus print differently (inquiries 3 vs 6 years, closed accounts 10 vs 20 years, free score by province, bankruptcy and judgment periods by province, freeze and dispute times), plus a dated removal timeline and a two-card utilization example.",
+  "money": false,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-21",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-20 (separate from drafter)",
+      "on": "2026-11-20",
+      "note": "read rendered preview on 2026-11-20: opening answers how scores work (300-900, two bureaus, main factors); each H2 and FAQ opens with its answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-20 (separate from drafter)",
+      "on": "2026-11-20",
+      "note": "no invented quotes or experience; bureau retention, freeze and dispute rules from FCAC, Equifax and TransUnion pages re-read 2026-11-20; utilization and Ontario timeline labelled examples; I appears only in an FAQ question"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

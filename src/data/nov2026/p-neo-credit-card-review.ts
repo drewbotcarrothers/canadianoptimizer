@@ -207,6 +207,8 @@ const content = `<div class="container">
         <li><a href="/blog/koho-review/">KOHO review: fees, interest and credit building</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/best-secured-credit-cards-canada/">Best secured credit cards in Canada for rebuilding credit</a> &middot; <a href="/blog/tangerine-money-back-credit-card-review/">Tangerine Money-Back Credit Card review: choosing your 2% categories</a></p>
+
     ${batchFooter(D, 'Credit Cards', disclaimer)}
 
 </div>`;

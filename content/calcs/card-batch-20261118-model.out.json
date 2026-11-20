@@ -177,10 +177,10 @@
    "base_year": 60.0,
    "base_month": 5.0,
    "eff_rate_pct": 0.833,
-   "promo_spend": 1800,
-   "welcome_value": 125.0,
-   "first_year": 185.0,
-   "two_year": 245.0
+   "promo_spend": 0,
+   "welcome_value": 0.0,
+   "first_year": 60.0,
+   "two_year": 120.0
   },
   "bmo_cap_annual_spend": 6000,
   "bmo_cap_annual_cb": 180.0,

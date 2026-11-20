@@ -1,0 +1,863 @@
+{
+  "slug": "credit-score-canada-guide",
+  "publishDate": "2026-11-21",
+  "figures": [
+    {
+      "id": "931cd89c0c23",
+      "value": "November 20, 2026",
+      "context": "This guide is part of our credit score building hub , using FCAC and bureau pages read on November 20, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-20)"
+      }
+    },
+    {
+      "id": "7afcd8e0b188",
+      "value": "300",
+      "context": "A Canadian credit score usually runs from 300 to 900, and higher is better.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    },
+    {
+      "id": "7af504084540",
+      "value": "900",
+      "context": "A Canadian credit score usually runs from 300 to 900, and higher is better.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    },
+    {
+      "id": "ec62f11af1e4",
+      "value": "10",
+      "context": "The bureaus keep some items for different lengths of time: hard inquiries stay 3 years at Equifax but 6 years at TransUnion, and closed accounts paid in full stay up to 10 years at Equifax but up to 20 years at TransUnion.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "Closed accounts stay on your report for up to 10 years"
+    },
+    {
+      "id": "3baf1025cc5b",
+      "value": "20",
+      "context": "The bureaus keep some items for different lengths of time: hard inquiries stay 3 years at Equifax but 6 years at TransUnion, and closed accounts paid in full stay up to 10 years at Equifax but up to 20 years at TransUnion.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "information stays on your report for up to 20 years, even if you close the account"
+    },
+    {
+      "id": "01ad2a796c62",
+      "value": "300",
+      "context": "The FCAC says scores usually range from 300 to 900, and TransUnion uses the same range on its own page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    },
+    {
+      "id": "38274d430e19",
+      "value": "900",
+      "context": "The FCAC says scores usually range from 300 to 900, and TransUnion uses the same range on its own page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    },
+    {
+      "id": "9865d468850a",
+      "value": "November 20, 2026",
+      "context": "The factors both the FCAC and TransUnion name, and what helps (reviewed November 20, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-20)"
+      }
+    },
+    {
+      "id": "250b3c79da36",
+      "value": "30%",
+      "context": "Credit utilization How much of your available credit you use The FCAC suggests using less than 30% of your total credit limit",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+      },
+      "needle": "Try to use less than 30% of your total credit limit"
+    },
+    {
+      "id": "ce0557acf086",
+      "value": "20",
+      "context": "Did you know: a hard inquiry from November 2026 is gone from your Equifax file after 3 years but stays on your TransUnion file for 6, and a card you closed in good standing can stay on your TransUnion file up to twice as long as on Equifax (20 years vs 10), so the two bureaus can tell a lender noticeably different stories about the same person.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "information stays on your report for up to 20 years, even if you close the account"
+    },
+    {
+      "id": "6f06813faae2",
+      "value": "10",
+      "context": "Did you know: a hard inquiry from November 2026 is gone from your Equifax file after 3 years but stays on your TransUnion file for 6, and a card you closed in good standing can stay on your TransUnion file up to twice as long as on Equifax (20 years vs 10), so the two bureaus can tell a lender noticeably different stories about the same person.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "Closed accounts stay on your report for up to 10 years"
+    },
+    {
+      "id": "94b41075b49a",
+      "value": "November 20, 2026",
+      "context": "Equifax vs TransUnion: the rules that differ (FCAC, Equifax and TransUnion pages, reviewed November 20, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-20)"
+      }
+    },
+    {
+      "id": "657edd647477",
+      "value": "10",
+      "context": "Closed accounts paid in full Up to 10 years after closing (open accounts stay while open) Up to 20 years, even if closed",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "Closed accounts stay on your report for up to 10 years"
+    },
+    {
+      "id": "76af65024e67",
+      "value": "20",
+      "context": "Closed accounts paid in full Up to 10 years after closing (open accounts stay while open) Up to 20 years, even if closed",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "information stays on your report for up to 20 years, even if you close the account"
+    },
+    {
+      "id": "615fdef6bb5d",
+      "value": "10",
+      "context": "Court judgments 6 years 6 years; 7 years in Newfoundland and Labrador, Ontario and Quebec; 10 years in Prince Edward Island",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "10 years in Prince Edward Island"
+    },
+    {
+      "id": "cad13114d43c",
+      "value": "30",
+      "context": "Credit freeze or lock Credit Lock for Quebec and Ontario residents Free credit freeze for Ontario and Quebec residents; by mail it can take up to 30 days",
+      "kind": "sourced",
+      "sourceUrl": "https://www.transunion.ca/consumer/credit-freeze",
+      "sourceName": "TransUnion Canada: Credit freeze",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (tu_freeze, HTTP 200)"
+      },
+      "needle": "the mail method can take up to 30 days"
+    },
+    {
+      "id": "3d5e1332c595",
+      "value": "15",
+      "context": "How long a dispute takes About 15 to 20 days online, 20 to 25 days by mail Typically concluded within 30 days of receiving the request",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "d12027b90e0d",
+      "value": "20",
+      "context": "How long a dispute takes About 15 to 20 days online, 20 to 25 days by mail Typically concluded within 30 days of receiving the request",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "8a89b70e6e57",
+      "value": "25",
+      "context": "How long a dispute takes About 15 to 20 days online, 20 to 25 days by mail Typically concluded within 30 days of receiving the request",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "43143c21af88",
+      "value": "30",
+      "context": "How long a dispute takes About 15 to 20 days online, 20 to 25 days by mail Typically concluded within 30 days of receiving the request",
+      "kind": "sourced",
+      "sourceUrl": "https://www.transunion.ca/consumer/credit-disputes",
+      "sourceName": "TransUnion Canada: Credit disputes",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (tu_disputes, HTTP 200)"
+      },
+      "needle": "Investigations are typically concluded within 30 days"
+    },
+    {
+      "id": "cafaf4c2d6b6",
+      "value": "14",
+      "context": "A second bankruptcy stays for 14 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/information-credit-report.html",
+      "sourceName": "FCAC: How long information stays on your credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+      },
+      "needle": "credit bureaus keep the information on your credit report for 14 years"
+    },
+    {
+      "id": "b12afbc0ed73",
+      "value": "30%",
+      "context": "Less than 30% of your total limit, according to the FCAC, which uses the example of a $5,000 limit with $1,000 normally used, a 20% utilization rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+      },
+      "needle": "Try to use less than 30% of your total credit limit"
+    },
+    {
+      "id": "df43f6f3987d",
+      "value": "$5,000",
+      "context": "Less than 30% of your total limit, according to the FCAC, which uses the example of a $5,000 limit with $1,000 normally used, a 20% utilization rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+      },
+      "needle": "your credit card has a $5,000 limit and you normally use $1,000"
+    },
+    {
+      "id": "ad27c4b5dad8",
+      "value": "$1,000",
+      "context": "Less than 30% of your total limit, according to the FCAC, which uses the example of a $5,000 limit with $1,000 normally used, a 20% utilization rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+      },
+      "needle": "you normally use $1,000"
+    },
+    {
+      "id": "fd67b7c8b613",
+      "value": "20%",
+      "context": "Less than 30% of your total limit, according to the FCAC, which uses the example of a $5,000 limit with $1,000 normally used, a 20% utilization rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+      },
+      "needle": "Your credit utilization rate is at 20%"
+    },
+    {
+      "id": "98239611a745",
+      "value": "$2,000",
+      "context": "Card A limit $2,000 + card B limit $3,000 $5,000 total",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "8bdbf5e8256c",
+      "value": "$3,000",
+      "context": "Card A limit $2,000 + card B limit $3,000 $5,000 total",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "30c8dd947333",
+      "value": "$5,000",
+      "context": "Card A limit $2,000 + card B limit $3,000 $5,000 total",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "12db174614fb",
+      "value": "$1,200",
+      "context": "Balances when reported: $1,200 on A + $300 on B $1,500, 30% overall",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "dc6f4798a708",
+      "value": "$300",
+      "context": "Balances when reported: $1,200 on A + $300 on B $1,500, 30% overall",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "2949e7047a21",
+      "value": "$1,500,",
+      "context": "Balances when reported: $1,200 on A + $300 on B $1,500, 30% overall",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "805766e99dda",
+      "value": "30%",
+      "context": "Balances when reported: $1,200 on A + $300 on B $1,500, 30% overall",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "3317e6334105",
+      "value": "60%",
+      "context": "Card A on its own 60% of its limit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "c22170c35d7a",
+      "value": "$500",
+      "context": "Pay $500 on card A before its balance is reported $1,000, 20% overall",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "22ae3ccbc720",
+      "value": "$1,000,",
+      "context": "Pay $500 on card A before its balance is reported $1,000, 20% overall",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "390d297cebf4",
+      "value": "20%",
+      "context": "Pay $500 on card A before its balance is reported $1,000, 20% overall",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "4e40de44459a",
+      "value": "35%",
+      "context": "Card A on its own after the payment 35% of its limit",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "5e94f1e742a0",
+      "value": "30%",
+      "context": "The same month of spending reads as 30% or 20% depending on when the payment lands.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "88df324a9043",
+      "value": "20%",
+      "context": "The same month of spending reads as 30% or 20% depending on when the payment lands.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "qa/figs/2026-11-21/recheck.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f45b0b1b2066",
+      "value": "$4,500",
+      "context": "The FCAC's own example of a regularly owed $4,500 on a $5,000 limit is the pattern to avoid: lenders may see it as riskier than owing $1,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "You regularly owe $4,500"
+    },
+    {
+      "id": "526012dfa13a",
+      "value": "$5,000",
+      "context": "The FCAC's own example of a regularly owed $4,500 on a $5,000 limit is the pattern to avoid: lenders may see it as riskier than owing $1,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "a credit card with a $5,000 limit"
+    },
+    {
+      "id": "4de7ce391718",
+      "value": "$1,000",
+      "context": "The FCAC's own example of a regularly owed $4,500 on a $5,000 limit is the pattern to avoid: lenders may see it as riskier than owing $1,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "someone who owes $1,000 each month"
+    },
+    {
+      "id": "32158303853b",
+      "value": "15",
+      "context": "Equifax takes disputes online or by mail for free and says it takes about 15 to 20 days online and 20 to 25 days by mail.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "cddcb1527d0c",
+      "value": "20",
+      "context": "Equifax takes disputes online or by mail for free and says it takes about 15 to 20 days online and 20 to 25 days by mail.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "8991511a2497",
+      "value": "25",
+      "context": "Equifax takes disputes online or by mail for free and says it takes about 15 to 20 days online and 20 to 25 days by mail.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
+    },
+    {
+      "id": "7cc852c7f7d1",
+      "value": "30",
+      "context": "TransUnion says its investigations are typically concluded within 30 days, and if it cannot verify the item, it is removed or updated.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.transunion.ca/consumer/credit-disputes",
+      "sourceName": "TransUnion Canada: Credit disputes",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (tu_disputes, HTTP 200)"
+      },
+      "needle": "Investigations are typically concluded within 30 days"
+    },
+    {
+      "id": "a573be361697",
+      "value": "800",
+      "context": "Equifax allows up to 800 characters, free.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.equifax.ca/personal/dispute-credit-report/",
+      "sourceName": "Equifax Canada: How to dispute information on your Equifax credit report",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+      },
+      "needle": "800 characters or less"
+    },
+    {
+      "id": "136bbe7f18ec",
+      "value": "July 1, 2027",
+      "context": "TransUnion says that from July 1, 2027 you will be able to set a date for a temporary suspension.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.transunion.ca/consumer/credit-freeze",
+      "sourceName": "TransUnion Canada: Credit freeze",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (tu_freeze, HTTP 200)"
+      },
+      "needle": "Beginning July 1, 2027"
+    },
+    {
+      "id": "c94a982c0816",
+      "value": "300",
+      "context": "Scores run from 300 to 900 and higher is better, but each lender sets its own cut-offs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    },
+    {
+      "id": "84ecb1df7fa2",
+      "value": "900",
+      "context": "Scores run from 300 to 900 and higher is better, but each lender sets its own cut-offs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+      },
+      "needle": "Scores usually range from 300 to 900"
+    }
+  ]
+}
