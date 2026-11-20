@@ -9,13 +9,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
       "sourceName": "Government of Canada: EI regular benefits, after you apply",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
       }
     },
     {
@@ -25,13 +25,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
       }
     },
     {
@@ -41,13 +41,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"68,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
       }
     },
     {
@@ -57,13 +57,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
       }
     },
     {
@@ -73,13 +73,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
       }
     },
     {
@@ -89,13 +89,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
       "sourceName": "Government of Canada: EI regular benefits, after you apply",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
       }
     },
     {
@@ -111,8 +111,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 1 - 12277.40/19200 = 36.1%"
       }
     },
@@ -129,8 +129,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 1 - 4524.90/13200 = 65.7%"
       }
     },
@@ -141,13 +141,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
       }
     },
     {
@@ -157,13 +157,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"68,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
       }
     },
     {
@@ -173,13 +173,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
       }
     },
     {
@@ -189,13 +189,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
       }
     },
     {
@@ -211,8 +211,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 6-month target with EI"
       }
     },
@@ -229,8 +229,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 6-month target without EI"
       }
     },
@@ -247,8 +247,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 6-month target with EI"
       }
     },
@@ -265,8 +265,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 6-month target without EI"
       }
     },
@@ -283,8 +283,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
       }
     },
@@ -299,8 +299,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -315,8 +315,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -331,8 +331,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -347,8 +347,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -363,8 +363,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -379,8 +379,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -391,13 +391,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ghest rates of unemployment, we'll calculate using the best 14 weeks. In regions of Canada with the lowest rates of unempl\""
       }
     },
     {
@@ -411,15 +411,15 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
     {
-      "id": "b60f911b93a1",
-      "value": "November 19, 2026",
-      "context": "Emergency fund targets for three example households (our calculation, EI rules from Canada.ca reviewed November 19, 2026)",
+      "id": "91795e95b3c4",
+      "value": "November 20, 2026",
+      "context": "Emergency fund targets for three example households (our calculation, EI rules from Canada.ca reviewed November 20, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -429,9 +429,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-19)"
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-20)"
       }
     },
     {
@@ -447,8 +447,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 3-month target without EI"
       }
     },
@@ -465,8 +465,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 3-month target with EI"
       }
     },
@@ -483,8 +483,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 6-month target without EI"
       }
     },
@@ -501,8 +501,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: single 6-month target with EI"
       }
     },
@@ -519,8 +519,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 3-month target without EI"
       }
     },
@@ -537,8 +537,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
       }
     },
@@ -555,8 +555,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 6-month target without EI"
       }
     },
@@ -573,8 +573,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 6-month target with EI"
       }
     },
@@ -591,8 +591,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: self 3-month target without EI"
       }
     },
@@ -609,8 +609,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
       }
     },
@@ -627,8 +627,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: min(729, 55% x 55,000 / 52)"
       }
     },
@@ -645,8 +645,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14 weeks x 581.73 x 85%"
       }
     },
@@ -657,13 +657,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
       }
     },
     {
@@ -673,13 +673,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers.html",
       "sourceName": "Government of Canada: EI benefits for self-employed people",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"port of up to 55% of your earnings, to a maximum amount of $729 per week in 2026. ## Are you considered self-employed? If y\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"pport of up to 55% of your earnings, to a maximum amount of $729 per week in 2026. ## Are you considered self-employed? If y\""
       }
     },
     {
@@ -689,13 +689,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"y 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
       }
     },
     {
@@ -711,8 +711,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
       }
     },
@@ -723,13 +723,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
       }
     },
     {
@@ -739,13 +739,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enured workers Under the temporary measure, you may receive 20 additional weeks of regular benefits, up to a maximum of 65\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"enured workers Under the temporary measure, you may receive 20 additional weeks of regular benefits, up to a maximum of 65\""
       }
     },
     {
@@ -755,13 +755,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"20 additional weeks of regular benefits, up to a maximum of 65 weeks, if you: * have a claim that starts between June 15,\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"20 additional weeks of regular benefits, up to a maximum of 65 weeks, if you: * have a claim that starts between June 15,\""
       }
     },
     {
@@ -771,13 +771,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
       }
     },
     {
@@ -787,13 +787,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ge insurable weekly earnings, up to a maximum amount. As of January 1, 2026, the maximum yearly insurable earnings amount is $68,900. T\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ge insurable weekly earnings, up to a maximum amount. As of January 1, 2026, the maximum yearly insurable earnings amount is $68,900. T\""
       }
     },
     {
@@ -803,13 +803,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"y 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
       }
     },
     {
@@ -819,13 +819,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"68,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
       }
     },
     {
@@ -835,13 +835,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"its for up to a maximum of 45 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of\""
       }
     },
     {
@@ -851,13 +851,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"5 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of unemployment in your region\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"5 weeks You can receive EI from 14 weeks up to a maximum of 45 weeks, depending on the rate of unemployment in your region\""
       }
     },
     {
@@ -867,13 +867,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/eligibility.html",
       "sourceName": "Government of Canada: EI regular benefits, do you qualify",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"and without pay for at least 7 consecutive days in the last 52 weeks * have worked for the required number of insurable em\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"and without pay for at least 7 consecutive days in the last 52 weeks * have worked for the required number of insurable em\""
       }
     },
     {
@@ -883,13 +883,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
       "sourceName": "Service Canada: EI regular benefits - after you apply",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"decision within 28 days of filing your application. We aim to meet this standard 80% of the time\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"decision within 28 days of filing your application. We aim to meet this standard 80% of the time\""
       }
     },
     {
@@ -899,13 +899,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
       "sourceName": "Government of Canada: EI regular benefits, after you apply",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ys of filing your application. We aim to meet this standard 80% of the time. To avoid delays in processing your application\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ys of filing your application. We aim to meet this standard 80% of the time. To avoid delays in processing your application\""
       }
     },
     {
@@ -915,13 +915,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
       }
     },
     {
@@ -931,13 +931,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
       }
     },
     {
@@ -947,13 +947,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"How much you could receive On this page You could get up to 55% of your earnings You can get benefits for up to a maximum o\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"How much you could receive On this page You could get up to 55% of your earnings You can get benefits for up to a maximum o\""
       }
     },
     {
@@ -963,13 +963,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"y 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
       }
     },
     {
@@ -979,13 +979,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"68,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
       }
     },
     {
@@ -1001,8 +1001,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: couple 3-month target with EI"
       }
     },
@@ -1019,8 +1019,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: self 6-month target without EI"
       }
     },
@@ -1031,13 +1031,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html",
       "sourceName": "Government of Canada: EI regular benefits, after you apply",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ave been processed. You'll receive your first payment about 28 days after you apply if you're eligible and have provided a\""
       }
     },
     {
@@ -1047,13 +1047,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
       }
     },
     {
@@ -1063,13 +1063,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
       }
     },
     {
@@ -1079,13 +1079,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"68,900. This means that you can receive a maximum amount of $729 per week. Insurable earnings include most of the different\""
       }
     },
     {
@@ -1095,13 +1095,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ry 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"y 1, 2026, the maximum yearly insurable earnings amount is $68,900. This means that you can receive a maximum amount of $729 p\""
       }
     },
     {
@@ -1111,13 +1111,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
       "sourceName": "Government of Canada: EI regular benefits, how much you could receive",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"rate for calculating Employment Insurance (EI) benefits is 55% of their average insurable weekly earnings, up to a maximum\""
       }
     },
     {
@@ -1127,13 +1127,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aived for all new claims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting pe\""
       }
     },
     {
@@ -1143,13 +1143,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html",
       "sourceName": "Government of Canada: Temporary EI measures to respond to major changes in economic conditions",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"aims for EI benefits that start between March 30, 2025, and October 9, 2027. ### Note You may serve the waiting period if it's to your\""
       }
     }
   ]

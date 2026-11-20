@@ -9,13 +9,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
       }
     },
     {
@@ -25,13 +25,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"eligible dependant $2,740 $2,687 $2,616 $2,499 Age amount $9,208 $9,028 $8,790 $8,396 Net income threshold for age amount $4\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"eligible dependant $2,740 $2,687 $2,616 $2,499 Age amount $9,208 $9,028 $8,790 $8,396 Net income threshold for age amount $4\""
       }
     },
     {
@@ -41,13 +41,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     },
     {
@@ -57,13 +57,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"w partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
       }
     },
     {
@@ -73,13 +73,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -95,8 +95,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -107,13 +107,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
       }
     },
     {
@@ -123,13 +123,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
       }
     },
     {
@@ -145,8 +145,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
       }
     },
@@ -157,13 +157,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your eligible pension income excluding amounts\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"w partner will be able to claim whichever amount is less: * $2,000 * amount of your eligible pension income excluding amounts\""
       }
     },
     {
@@ -173,13 +173,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ur return (box 16 of all your T4RSP slips) only if you were 65 years of age or older on December 31, 2025, or you received\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ur return (box 16 of all your T4RSP slips) only if you were 65 years of age or older on December 31, 2025, or you received\""
       }
     },
     {
@@ -189,13 +189,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -211,8 +211,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
       }
     },
@@ -229,8 +229,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
       }
     },
@@ -247,8 +247,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
       }
     },
@@ -265,8 +265,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: saving 4252.21 - 3259.20"
       }
     },
@@ -277,13 +277,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
       }
     },
     {
@@ -297,8 +297,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -309,13 +309,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100 - Age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
       }
     },
     {
@@ -325,13 +325,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100 - Age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
       }
     },
     {
@@ -341,13 +341,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"reshold | Marginal Tax Rate ---|---|--- 1 | Up to $58,523 | 14% 2 | $58,523 to $117,045 | 20.5% 3 | $117,045 to $181,440 |\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"reshold | Marginal Tax Rate ---|---|--- 1 | Up to $58,523 | 14% 2 | $58,523 to $117,045 | 20.5% 3 | $117,045 to $181,440 |\""
       }
     },
     {
@@ -357,13 +357,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ndividual is eligible for a credit with a maximum amount of $1,000, the credit would reduce federal tax payable by $140. Non-r\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ndividual is eligible for a credit with a maximum amount of $1,000, the credit would reduce federal tax payable by $140. Non-r\""
       }
     },
     {
@@ -373,13 +373,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"of $1,000, the credit would reduce federal tax payable by $140. Non-refundable tax credits are valued at the lowest person\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"of $1,000, the credit would reduce federal tax payable by $140. Non-refundable tax credits are valued at the lowest person\""
       }
     },
     {
@@ -389,13 +389,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -405,19 +405,19 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"west marginal tax rate of 14 per cent applies to the first $58,523 (2026) of an individual's taxable income. Each additional d\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"owest marginal tax rate of 14 per cent applies to the first $58,523 (2026) of an individual's taxable income. Each additional d\""
       }
     },
     {
-      "id": "00c4c36e11ce",
-      "value": "November 19, 2026",
-      "context": "Federal credits seniors most often claim, 2026 tax year (CRA indexation table and line pages, reviewed November 19, 2026)",
+      "id": "69bb99fb6959",
+      "value": "November 20, 2026",
+      "context": "Federal credits seniors most often claim, 2026 tax year (CRA indexation table and line pages, reviewed November 20, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -427,9 +427,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-19)"
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: review date = the day every source was re-opened (2026-11-20)"
       }
     },
     {
@@ -439,13 +439,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
       }
     },
     {
@@ -455,13 +455,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"come tax # Age amount - Personal income tax * Federal: Line 30100 * Provincial or territorial: Line 58080 * Tax year: 2025 |\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"come tax # Age amount - Personal income tax * Federal: Line 30100 * Provincial or territorial: Line 58080 * Tax year: 2025 |\""
       }
     },
     {
@@ -477,8 +477,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -495,8 +495,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
       }
     },
@@ -507,13 +507,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
       }
     },
     {
@@ -523,13 +523,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
       }
     },
     {
@@ -539,13 +539,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
       }
     },
     {
@@ -555,13 +555,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"accessibility expenses = 4 5000-D1 E (25) Page 4 of 9 Line 31400 - Pension income amount Complete the calculation below if y\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"accessibility expenses = 4 5000-D1 E (25) Page 4 of 9 Line 31400 - Pension income amount Complete the calculation below if y\""
       }
     },
     {
@@ -571,13 +571,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"w partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
       }
     },
     {
@@ -593,8 +593,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
       }
     },
@@ -605,13 +605,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     },
     {
@@ -621,13 +621,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"amount to enter on line 31400 of your return instead. Line 31600 - Disability amount for self You may be able to claim the d\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"amount to enter on line 31400 of your return instead. Line 31600 - Disability amount for self You may be able to claim the d\""
       }
     },
     {
@@ -637,13 +637,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
       }
     },
     {
@@ -659,8 +659,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: disability amount 10,341 x 14%"
       }
     },
@@ -671,13 +671,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
       }
     },
     {
@@ -687,13 +687,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \", uncle, niece, or nephew and you claimed an amount on line 30450 of your return for that dependant, or you could have if the\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \", uncle, niece, or nephew and you claimed an amount on line 30450 of your return for that dependant, or you could have if the\""
       }
     },
     {
@@ -703,13 +703,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"or other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"r other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
       }
     },
     {
@@ -725,8 +725,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: caregiver amount 8,773 x 14%"
       }
     },
@@ -737,13 +737,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
       "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"gible medical expenses. ##### Step 2 On the line below line 33099, enter the lesser of the following amounts: * 3% of your ne\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"gible medical expenses. ##### Step 2 On the line below line 33099, enter the lesser of the following amounts: * 3% of your ne\""
       }
     },
     {
@@ -753,13 +753,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
       "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
       }
     },
     {
@@ -769,13 +769,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \",210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
       }
     },
     {
@@ -785,13 +785,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
       }
     },
     {
@@ -801,13 +801,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
       "sourceName": "CRA: Line 31285, home accessibility expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ccessibility expenses - Personal income tax * Federal: Line 31285 * Provincial or territorial: Not applicable * Tax year: 202\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ccessibility expenses - Personal income tax * Federal: Line 31285 * Provincial or territorial: Not applicable * Tax year: 202\""
       }
     },
     {
@@ -817,13 +817,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"s' amount | $10,000 | 199,000 Home accessibility expenses | $20,000 | 39,000 Adoption expenses | $19,972 2 | 1,570 Pension inco\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"s' amount | $10,000 | 199,000 Home accessibility expenses | $20,000 | 39,000 Adoption expenses | $19,972 2 | 1,570 Pension inco\""
       }
     },
     {
@@ -839,8 +839,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: home accessibility amount 20,000 x 14%"
       }
     },
@@ -851,13 +851,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
       "sourceName": "CRA: Line 31285, home accessibility expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
       }
     },
     {
@@ -867,13 +867,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ption expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"option expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
       }
     },
     {
@@ -883,13 +883,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
       }
     },
     {
@@ -899,13 +899,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ollowing conditions: * You were 65 years of age or older on December 31, 2025 * Your net income (line 23600 of your return) is less\""
       }
     },
     {
@@ -921,8 +921,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -933,13 +933,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
       }
     },
     {
@@ -949,13 +949,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
       }
     },
     {
@@ -965,13 +965,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
       }
     },
     {
@@ -987,8 +987,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
       }
     },
@@ -999,13 +999,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
       }
     },
     {
@@ -1021,8 +1021,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1033,13 +1033,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
       }
     },
     {
@@ -1049,13 +1049,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amount above that threshold is taxed at 20.5%. Tax on inco\""
       }
     },
     {
@@ -1069,8 +1069,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1087,8 +1087,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1105,8 +1105,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
       }
     },
@@ -1121,8 +1121,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1139,8 +1139,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: age amount at net income 55000: 9208.0 - 15% x (55000 - 46432.0)"
       }
     },
@@ -1157,8 +1157,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 55000"
       }
     },
@@ -1173,8 +1173,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1191,8 +1191,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: age amount at net income 70000: 9208.0 - 15% x (70000 - 46432.0)"
       }
     },
@@ -1209,8 +1209,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 70000"
       }
     },
@@ -1225,8 +1225,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1243,8 +1243,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: age amount at net income 85000: 9208.0 - 15% x (85000 - 46432.0)"
       }
     },
@@ -1261,8 +1261,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 85000"
       }
     },
@@ -1277,8 +1277,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1295,8 +1295,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: age amount at net income 100000: 9208.0 - 15% x (100000 - 46432.0)"
       }
     },
@@ -1313,8 +1313,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 100000"
       }
     },
@@ -1325,13 +1325,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"w partner will be able to claim whichever amount is less: * $2,000 * amount of your pension income that is eligible for the pe\""
       }
     },
     {
@@ -1341,13 +1341,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     },
     {
@@ -1357,13 +1357,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     },
     {
@@ -1373,13 +1373,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"e 31400 of your return whichever amount is less: line 8 or $2,000. However, if you are electing to split your eligible pensio\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ne 31400 of your return whichever amount is less: line 8 or $2,000. However, if you are electing to split your eligible pensio\""
       }
     },
     {
@@ -1389,13 +1389,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -1411,8 +1411,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: pension amount 2,000 x 14%"
       }
     },
@@ -1427,8 +1427,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1445,8 +1445,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
       }
     },
@@ -1463,8 +1463,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: saving 4252.21 - 3259.20"
       }
     },
@@ -1475,13 +1475,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
       }
     },
     {
@@ -1491,13 +1491,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
       }
     },
     {
@@ -1511,8 +1511,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1527,8 +1527,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1543,8 +1543,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1561,8 +1561,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1579,8 +1579,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1591,13 +1591,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"of the rate structure by allowing individuals to earn up to $16,452 (in 2026) before owing federal income tax.Footnote 1 Table\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"f the rate structure by allowing individuals to earn up to $16,452 (in 2026) before owing federal income tax.Footnote 1 Table\""
       }
     },
     {
@@ -1613,8 +1613,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1631,8 +1631,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1649,8 +1649,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1667,8 +1667,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1685,8 +1685,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1701,8 +1701,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1719,8 +1719,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 5000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1737,8 +1737,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 5000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1755,8 +1755,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 5000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1773,8 +1773,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 5000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1791,8 +1791,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1807,8 +1807,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1825,8 +1825,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 10000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1843,8 +1843,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 10000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1861,8 +1861,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 10000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1879,8 +1879,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 10000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1897,8 +1897,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1913,8 +1913,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1931,8 +1931,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 15000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1949,8 +1949,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 15000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1967,8 +1967,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -1985,8 +1985,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 15000: Helen tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2003,8 +2003,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 15000: Raj tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2021,8 +2021,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 15000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2037,8 +2037,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -2049,13 +2049,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
       }
     },
     {
@@ -2071,8 +2071,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2089,8 +2089,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: Raj net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2107,8 +2107,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2125,8 +2125,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: Helen tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2143,8 +2143,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: Raj tax recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2161,8 +2161,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2179,8 +2179,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: Helen net recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2197,8 +2197,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: Helen's own age amount at 62,800"
       }
     },
@@ -2209,13 +2209,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"14% ---|---|--- Step 1: Determining tax on income | First $58,523 is taxed at 15%. Amount above that threshold is taxed at 20\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"f 14% ---|---|--- Step 1: Determining tax on income | First $58,523 is taxed at 15%. Amount above that threshold is taxed at 20\""
       }
     },
     {
@@ -2225,13 +2225,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"23 is taxed at 15%. Amount above that threshold is taxed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amoun\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"23 is taxed at 15%. Amount above that threshold is taxed at 20.5%. Tax on income: $9,081 | First $58,523 taxed at 14%. Amoun\""
       }
     },
     {
@@ -2247,8 +2247,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2265,8 +2265,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2277,13 +2277,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ow reducing the lowest personal income tax rate from 15% to 14% affects an individual earning $60,000 in 2026, assuming the\""
       }
     },
     {
@@ -2299,8 +2299,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2311,13 +2311,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ption expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"option expenses | $19,972 2 | 1,570 Pension income amount | $2,000 | 6.0 million Disability amounts | $10,341 3 | 1.9 million\""
       }
     },
     {
@@ -2333,8 +2333,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
       }
     },
@@ -2345,13 +2345,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
       }
     },
     {
@@ -2361,13 +2361,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"c Personal Amount (BPA). Table 3 Tax Calculation at 15% vs. 14% | First Bracket Rate of 15% | First Bracket Rate of 14% ---\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"c Personal Amount (BPA). Table 3 Tax Calculation at 15% vs. 14% | First Bracket Rate of 15% | First Bracket Rate of 14% ---\""
       }
     },
     {
@@ -2377,13 +2377,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
       }
     },
     {
@@ -2399,8 +2399,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 20000: combined recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2411,13 +2411,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -2427,13 +2427,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
       }
     },
     {
@@ -2443,13 +2443,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
       "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"me (on line 23600 of her return) is $55,000. She calculates 3% of that amount, which is $1,650. Because the result is less\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"me (on line 23600 of her return) is $55,000. She calculates 3% of that amount, which is $1,650. Because the result is less\""
       }
     },
     {
@@ -2459,13 +2459,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100 - Age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"You were 65 years of age or older on December 31\""
       }
     },
     {
@@ -2475,13 +2475,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"r amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $9,872 $9,428 Supplement for children with disabili\""
       }
     },
     {
@@ -2497,8 +2497,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: disability amount 10,341 x 14%"
       }
     },
@@ -2509,13 +2509,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html",
       "sourceName": "CRA: Lines 33099 and 33199, eligible medical expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"enses. ##### Step 2 Find out which amountis less between: * 3% of your dependant's net income (line 23600) or * $2,834 ###\""
       }
     },
     {
@@ -2525,13 +2525,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"8,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \",210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundable medical expense supplement\""
       }
     },
     {
@@ -2541,13 +2541,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html",
       "sourceName": "Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0 Tuition amounts | n.a. 4 | 3.0 million Medical expenses | 3% of net income | 5.8 million Charitable donations5 | $200 |\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0 Tuition amounts | n.a. 4 | 3.0 million Medical expenses | 3% of net income | 5.8 million Charitable donations5 | $200 |\""
       }
     },
     {
@@ -2563,8 +2563,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 2890.0/0.03 = 96333.33"
       }
     },
@@ -2575,13 +2575,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"other infirm dependants age 18 or older (maximum amount) $8,773\""
       }
     },
     {
@@ -2591,13 +2591,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"or other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"r other infirm dependants age 18 or older (maximum amount) $8,773 $8,601 $8,375 $7,999 Net income threshold for Canada caregi\""
       }
     },
     {
@@ -2607,13 +2607,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"75 $7,999 Net income threshold for Canada caregiver amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"75 $7,999 Net income threshold for Canada caregiver amount $20,601 $20,197 $19,666 $18,783 Disability amount $10,341 $10,138 $\""
       }
     },
     {
@@ -2623,13 +2623,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
       "sourceName": "CRA: Line 31285, home accessibility expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"much you can claim A qualifying individual can claim up to $20,000 per year in eligible expenses. When there is more than one\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"much you can claim A qualifying individual can claim up to $20,000 per year in eligible expenses. When there is more than one\""
       }
     },
     {
@@ -2639,13 +2639,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
       "sourceName": "CRA: Line 31285, home accessibility expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"law partnership (amount for an eligible dependant) * who is 65 years of age or older at the end of a year and is not eligi\""
       }
     },
     {
@@ -2655,13 +2655,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -2671,13 +2671,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html",
       "sourceName": "CRA: Line 31285 - Home accessibility expenses",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; reclassified from example (it is a rule, not an illustration): \"up to $20,000 per year\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; reclassified from example (it is a rule, not an illustration): \"up to $20,000 per year\""
       }
     },
     {
@@ -2693,8 +2693,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: home accessibility amount 20,000 x 14%"
       }
     },
@@ -2705,13 +2705,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
       "sourceName": "Government of Canada: Old Age Security pension recovery tax",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \",454 | $152,062 | $157,923 July 2027 to June 2028 | 2026 | $95,323 | $155,3201 | $161,3201 * 1 From January to September of th\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"3,454 | $152,062 | $157,923 July 2027 to June 2028 | 2026 | $95,323 | $155,3201 | $161,3201 * 1 From January to September of th\""
       }
     },
     {
@@ -2721,13 +2721,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
       "sourceName": "Government of Canada: OAS pension recovery tax",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"You must repay 15% of that amount\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"You must repay 15% of that amount\""
       }
     },
     {
@@ -2743,8 +2743,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
       }
     },
@@ -2755,13 +2755,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
       }
     },
     {
@@ -2771,13 +2771,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA: Federal Worksheet (5000-D1), line 30100 chart",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ine 1 minus line 2 (if negative, enter \"0\") = = = 3 × 75% × 50% × 33.33% 4 Line 3 multiplied by the percentage from line 4\""
       }
     },
     {
@@ -2787,13 +2787,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$19,972 $19,580 $19,066 $18,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundab\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"$19,972 $19,580 $19,066 $18,210 Medical expense tax credit (3% of net income ceiling) $2,890 $2,834 $2,759 $2,635 Refundab\""
       }
     },
     {
@@ -2809,8 +2809,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: split 0: transfer recomputed (14%/20.5% brackets, BPA, age amount with 15% reduction, $2,000 pension amount, line 32600 transfer)"
       }
     },
@@ -2821,13 +2821,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html",
       "sourceName": "CRA: Line 30100, age amount",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ount if you meetall of the following conditions: * You were 65 years of age or older on December 31, 2025 * Your net incom\""
       }
     },
     {
@@ -2837,13 +2837,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"08 $9,028 $8,790 $8,396 Net income threshold for age amount $46,432 $45,522 $44,325 $42,335 Canada employment amount (maximum)\""
       }
     },
     {
@@ -2853,13 +2853,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf",
       "sourceName": "CRA Federal Worksheet (5000-D1), latest published (2025), line 30100 calculation",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; drafter source printed the number in another sense, moved to the page that states this rule: \"Applicable rate × 15%\""
       }
     },
     {
@@ -2875,8 +2875,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 46432.0 + 9208.0/0.15 = 107818.67"
       }
     },
@@ -2893,8 +2893,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: 14% of age amount at 40000"
       }
     },
@@ -2905,13 +2905,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     },
     {
@@ -2921,13 +2921,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
       }
     },
     {
@@ -2937,13 +2937,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"if the transferring spouse or common-law partner allocates 50% of their eligible pension income to the receiving spouse or\""
       }
     },
     {
@@ -2959,8 +2959,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: smallest split in $100 steps reaching the minimum combined tax 3259.20"
       }
     },
@@ -2971,13 +2971,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ation on the forms must be the same. You can allocate up to 50% of your eligible pension income to your spouse or common-la\""
       }
     },
     {
@@ -2987,13 +2987,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"arrangement (box 17 of your T4A-RCA slips) and you reached 65 years of age before the end of the tax year. ## How to spli\""
       }
     },
     {
@@ -3003,13 +3003,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html",
       "sourceName": "CRA: Pension income splitting",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ner, or if the transferring spouse or common-law partner is 65 years of age or older at the end of the year: * annuity and\""
       }
     }
   ]

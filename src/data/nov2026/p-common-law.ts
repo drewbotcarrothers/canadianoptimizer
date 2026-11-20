@@ -2,7 +2,7 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-20';
 
-const disclaimer = `General education, not tax or legal advice. The definition of common-law, the reporting deadline and the benefit formulas come from the Canada Revenue Agency pages listed under Sources, read on November 19, 2026; benefit amounts are for the July 2026 to June 2027 payment period, which uses 2025 income. Sam and Jordan are an illustration with round example incomes. The example counts only the federal Canada child benefit and Canada Groceries and Essentials Benefit, not provincial benefits, and assumes a full payment year at each status. Family law has its own definitions of common-law that can differ from the CRA's; speak to a family lawyer about property and support.`;
+const disclaimer = `General education, not tax or legal advice. The definition of common-law, the reporting deadline and the benefit formulas come from the Canada Revenue Agency pages listed under Sources, read on November 20, 2026; benefit amounts are for the July 2026 to June 2027 payment period, which uses 2025 income. Sam and Jordan are an illustration with round example incomes. The example counts only the federal Canada child benefit and Canada Groceries and Essentials Benefit, not provincial benefits, and assumes a full payment year at each status. Family law has its own definitions of common-law that can differ from the CRA's; speak to a family lawyer about property and support.`;
 
 const content = `<div class="container">
 
@@ -127,16 +127,16 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html">CRA: Change your marital status (definition of common-law partner)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html">CRA: How much you can get, Canada child benefit (July 2026 to June 2027)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html">CRA: How much you can get, Canada Groceries and Essentials Benefit</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html">CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Current year tax rates and income brackets (2026)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30400-amount-eligible-dependant.html">CRA: Line 30400, amount for an eligible dependant</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30300-spouse-common-law-partner-amount.html">CRA: Line 30300, spouse or common-law partner amount</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32600-amounts-transferred-your-spouse-common-law-partner.html">CRA: Line 32600, amounts transferred from your spouse or common-law partner</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA: Pension income splitting</a>, reviewed November 19, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html">CRA: Change your marital status (definition of common-law partner)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html">CRA: How much you can get, Canada child benefit (July 2026 to June 2027)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html">CRA: How much you can get, Canada Groceries and Essentials Benefit</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html">CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Current year tax rates and income brackets (2026)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30400-amount-eligible-dependant.html">CRA: Line 30400, amount for an eligible dependant</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30300-spouse-common-law-partner-amount.html">CRA: Line 30300, spouse or common-law partner amount</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32600-amounts-transferred-your-spouse-common-law-partner.html">CRA: Line 32600, amounts transferred from your spouse or common-law partner</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA: Pension income splitting</a>, reviewed November 20, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

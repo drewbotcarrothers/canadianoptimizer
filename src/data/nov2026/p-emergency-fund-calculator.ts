@@ -2,7 +2,7 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-20';
 
-const disclaimer = `General education, not financial advice. EI rules and amounts come from the Government of Canada pages listed under Sources, read on November 19, 2026; the EI estimate in the calculator is an approximation, and only Service Canada can tell you your benefit rate and number of weeks. The three households, their spending and earnings, the 15% tax on EI and the 14-week benefit period are our own illustrations. Canadian Optimizer has no live affiliate relationship with any bank or savings account at the time of writing.`;
+const disclaimer = `General education, not financial advice. EI rules and amounts come from the Government of Canada pages listed under Sources, read on November 20, 2026; the EI estimate in the calculator is an approximation, and only Service Canada can tell you your benefit rate and number of weeks. The three households, their spending and earnings, the 15% tax on EI and the 14-week benefit period are our own illustrations. Canadian Optimizer has no live affiliate relationship with any bank or savings account at the time of writing.`;
 
 const content = `<div class="container">
 
@@ -47,7 +47,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Emergency fund targets for three example households (our calculation, EI rules from Canada.ca reviewed November 19, 2026)</caption>
+            <caption>Emergency fund targets for three example households (our calculation, EI rules from Canada.ca reviewed November 20, 2026)</caption>
             <thead>
                 <tr><th>Household</th><th>3 months, no EI</th><th>3 months, with EI</th><th>6 months, no EI</th><th>6 months, with EI</th></tr>
             </thead>
@@ -106,12 +106,12 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html">Government of Canada: EI regular benefits, how much you could receive</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html">Government of Canada: EI regular benefits, after you apply</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/eligibility.html">Government of Canada: EI regular benefits, do you qualify</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/apply.html">Government of Canada: EI regular benefits, apply</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html">Government of Canada: Temporary EI measures to respond to major changes in economic conditions</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers.html">Government of Canada: EI benefits for self-employed people</a>, reviewed November 19, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html">Government of Canada: EI regular benefits, how much you could receive</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/after-applying.html">Government of Canada: EI regular benefits, after you apply</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/eligibility.html">Government of Canada: EI regular benefits, do you qualify</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/apply.html">Government of Canada: EI regular benefits, apply</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/temporary-measures-for-major-economic-conditions.html">Government of Canada: Temporary EI measures to respond to major changes in economic conditions</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/ei/ei-self-employed-workers.html">Government of Canada: EI benefits for self-employed people</a>, reviewed November 20, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

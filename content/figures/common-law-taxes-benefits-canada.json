@@ -9,13 +9,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -25,13 +25,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -41,13 +41,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -61,8 +61,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -77,8 +77,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -95,8 +95,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: before - after"
       }
     },
@@ -113,8 +113,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
       }
     },
@@ -125,13 +125,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -141,13 +141,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
       }
     },
     {
@@ -157,13 +157,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -173,13 +173,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -189,13 +189,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ll not be reduced. For each child: * under 6 years of age: $8,157 per year ($679.75 per month) * 6 to 17 years of age: $6,883\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ill not be reduced. For each child: * under 6 years of age: $8,157 per year ($679.75 per month) * 6 to 17 years of age: $6,883\""
       }
     },
     {
@@ -205,13 +205,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
       }
     },
     {
@@ -221,13 +221,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ve based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"e based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
       }
     },
     {
@@ -237,13 +237,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
       }
     },
     {
@@ -253,13 +253,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
       }
     },
     {
@@ -269,13 +269,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19; page prints the rate with a space (\"3.2 %\") in the worked calculation; same figure: \"00,000 (AFNI) − $82,847 = $17,153 (income over threshold) × 3.2 % = $548.89 (partial reduction) + $3,123 = $3,671.89 (total\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; page prints the rate with a space (\"3.2 %\") in the worked calculation; same figure: \"00,000 (AFNI) − $82,847 = $17,153 (income over threshold) × 3.2 % = $548.89 (partial reduction) + $3,123 = $3,671.89 (total\""
       }
     },
     {
@@ -285,13 +285,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada Groceries and Essentials Benefit",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"period from July 2026 to June 2027. You could get up to: * $679 if you are a single individual * $890 if you are married or\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"period from July 2026 to June 2027. You could get up to: * $679 if you are a single individual * $890 if you are married or\""
       }
     },
     {
@@ -301,13 +301,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada Groceries and Essentials Benefit",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ou could get up to: * $679 if you are a single individual * $890 if you are married or have a common-law partner * $234 for\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"u could get up to: * $679 if you are a single individual * $890 if you are married or have a common-law partner * $234 for\""
       }
     },
     {
@@ -317,13 +317,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"2024 2023 Adult maximum $445 $349 $340 $325 Child maximum $234 $184 $179 $171 Single supplement $234 $184 $179 $171 Phase-\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"2024 2023 Adult maximum $445 $349 $340 $325 Child maximum $234 $184 $179 $171 Single supplement $234 $184 $179 $171 Phase-\""
       }
     },
     {
@@ -333,13 +333,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
       }
     },
     {
@@ -353,8 +353,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -371,8 +371,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 2 x single no-children $40,000 row"
       }
     },
@@ -387,8 +387,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -399,13 +399,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law in\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law\""
       }
     },
     {
@@ -421,8 +421,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: Sam CCB + Sam CGEB + Jordan CGEB"
       }
     },
@@ -439,8 +439,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
       }
     },
@@ -457,8 +457,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: yearly drop / 12"
       }
     },
@@ -473,8 +473,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -489,8 +489,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -507,8 +507,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "reclassified from example to derived; recomputed: couple's combined income = Sam $40,000 + Jordan $50,000 = $90,000"
       }
     },
@@ -525,8 +525,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 8157.0 - 7% x (40,000 - 38237.0)"
       }
     },
@@ -543,8 +543,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
       }
     },
@@ -555,13 +555,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"2026 2025 2024 2023 CCB (base benefit, child under age 6) $8,157 $7,997 $7,787 $7,437 CCB (base benefit, child aged 6 to 17)\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"n 2026 2025 2024 2023 CCB (base benefit, child under age 6) $8,157 $7,997 $7,787 $7,437 CCB (base benefit, child aged 6 to 17)\""
       }
     },
     {
@@ -571,13 +571,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
       }
     },
     {
@@ -587,13 +587,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ve based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"e based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
       }
     },
     {
@@ -609,8 +609,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 7% x 1,763"
       }
     },
@@ -621,13 +621,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"s based on your eligible children: * under 6 years of age: $8,157 per year * 6 to 17 years of age: $6,883 per year Calculatio\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"is based on your eligible children: * under 6 years of age: $8,157 per year * 6 to 17 years of age: $6,883 per year Calculatio\""
       }
     },
     {
@@ -637,13 +637,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
       }
     },
     {
@@ -653,13 +653,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"ater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of the to\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of the to\""
       }
     },
     {
@@ -669,13 +669,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
       "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
       }
     },
     {
@@ -691,8 +691,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 3123.0 + 3.2% x (90,000 - 82847.0)"
       }
     },
@@ -709,8 +709,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $40,000 row, 1 child"
       }
     },
@@ -727,8 +727,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, married table, $85,000 row, 1 child"
       }
     },
@@ -739,13 +739,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"children or more ($ per year) ---|---|---|---|---|--- Under $46,432 | $890.00 | $1,124.00 | $1,358.00 | $1,592.00 | $1,826.00 $\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"children or more ($ per year) ---|---|---|---|---|--- Under $46,432 | $890.00 | $1,124.00 | $1,358.00 | $1,592.00 | $1,826.00 $\""
       }
     },
     {
@@ -759,8 +759,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -777,8 +777,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, married table, $85,000 row, 1 child"
       }
     },
@@ -789,13 +789,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$397.60 $80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or commo\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"| $397.60 $80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or commo\""
       }
     },
     {
@@ -811,8 +811,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $50,000 row, no children"
       }
     },
@@ -829,8 +829,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: Sam CCB + Sam CGEB + Jordan CGEB"
       }
     },
@@ -847,8 +847,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
       }
     },
@@ -865,8 +865,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: before - after"
       }
     },
@@ -883,8 +883,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: single CCB / 12"
       }
     },
@@ -901,8 +901,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: couple CCB / 12"
       }
     },
@@ -913,13 +913,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"| $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $17\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"| $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $17\""
       }
     },
     {
@@ -929,13 +929,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$60,000 | $0.60 | $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0 $60,000 | $0.60 | $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $\""
       }
     },
     {
@@ -945,13 +945,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law in\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law\""
       }
     },
     {
@@ -961,13 +961,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
       "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \".60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $179.60 | $413.60 | $647.60 $75,000 | $0.\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \".60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $179.60 | $413.60 | $647.60 $75,000 | $0.\""
       }
     },
     {
@@ -981,8 +981,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -999,8 +999,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $50,000 row, no children"
       }
     },
@@ -1011,13 +1011,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"o the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Amount for an eligible dependant fo\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Amount for an eligible dependant fo\""
       }
     },
     {
@@ -1033,8 +1033,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
       }
     },
@@ -1045,13 +1045,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
       "sourceName": "CRA: Current year tax rates and income brackets (2026)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
       }
     },
     {
@@ -1065,8 +1065,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     },
@@ -1083,8 +1083,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 14% x 40,000"
       }
     },
@@ -1101,8 +1101,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: (BPA + eligible dependant) x 14%"
       }
     },
@@ -1119,8 +1119,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
       }
     },
@@ -1131,13 +1131,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -1147,13 +1147,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
       "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"o the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Spouse or common-law partner amount\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Spouse or common-law partner amount\""
       }
     },
     {
@@ -1163,13 +1163,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
       }
     },
     {
@@ -1179,13 +1179,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
       }
     },
     {
@@ -1195,13 +1195,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
       }
     },
     {
@@ -1211,13 +1211,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -1227,13 +1227,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -1243,13 +1243,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
       }
     },
     {
@@ -1259,13 +1259,13 @@
       "kind": "sourced",
       "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
       "sourceName": "CRA: Change your marital status (definition of common-law partner)",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
-        "note": "re-fetched 2026-11-19 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
       }
     },
     {
@@ -1281,8 +1281,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: 8157.0 - 7% x (40,000 - 38237.0)"
       }
     },
@@ -1299,8 +1299,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
       }
     },
@@ -1315,8 +1315,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-19",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-19 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
         "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
       }
     }

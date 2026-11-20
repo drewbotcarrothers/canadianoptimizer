@@ -2,7 +2,7 @@ import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-20';
 
-const disclaimer = `General education, not tax advice. The 2026 federal amounts come from the Canada Revenue Agency's indexation table and its 2026 rates page, and the rules from the CRA pages listed under Sources, all read on November 19, 2026. Helen and Raj are an illustration: their incomes are round example numbers, the tax shown is federal only, and it ignores provincial tax, CPP and OAS details, and any other credits they might have. Your own return will differ; tax software or a tax professional will optimize your pension split.`;
+const disclaimer = `General education, not tax advice. The 2026 federal amounts come from the Canada Revenue Agency's indexation table and its 2026 rates page, and the rules from the CRA pages listed under Sources, all read on November 20, 2026. Helen and Raj are an illustration: their incomes are round example numbers, the tax shown is federal only, and it ignores provincial tax, CPP and OAS details, and any other credits they might have. Your own return will differ; tax software or a tax professional will optimize your pension split.`;
 
 const content = `<div class="container">
 
@@ -42,7 +42,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Federal credits seniors most often claim, 2026 tax year (CRA indexation table and line pages, reviewed November 19, 2026)</caption>
+            <caption>Federal credits seniors most often claim, 2026 tax year (CRA indexation table and line pages, reviewed November 20, 2026)</caption>
             <thead>
                 <tr><th>Credit</th><th>Line</th><th>2026 maximum amount</th><th>Federal value at 14%</th><th>Who gets it</th></tr>
             </thead>
@@ -153,19 +153,19 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Current year tax rates and income brackets (2026)</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html">Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html">CRA: Line 30100, age amount</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf">CRA: Federal Worksheet (5000-D1), line 30100 chart</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA: Line 31400, pension income amount</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA: Pension income splitting</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1032.html">CRA: Form T1032, Joint Election to Split Pension Income</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32600-amounts-transferred-your-spouse-common-law-partner.html">CRA: Line 32600, amounts transferred from your spouse or common-law partner</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html">CRA: Lines 33099 and 33199, eligible medical expenses</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">CRA: Disability tax credit</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html">CRA: Line 31285, home accessibility expenses</a>, reviewed November 19, 2026</li>
-        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html">Government of Canada: Old Age Security pension recovery tax</a>, reviewed November 19, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Current year tax rates and income brackets (2026)</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html">Department of Finance: Report on the impact of reducing the lowest marginal personal income tax rate on non-refundable tax credits</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30100-amount.html">CRA: Line 30100, age amount</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-d1/5000-d1-25e.pdf">CRA: Federal Worksheet (5000-D1), line 30100 chart</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">CRA: Line 31400, pension income amount</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA: Pension income splitting</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1032.html">CRA: Form T1032, Joint Election to Split Pension Income</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32600-amounts-transferred-your-spouse-common-law-partner.html">CRA: Line 32600, amounts transferred from your spouse or common-law partner</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html">CRA: Lines 33099 and 33199, eligible medical expenses</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html">CRA: Disability tax credit</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html">CRA: Line 31285, home accessibility expenses</a>, reviewed November 20, 2026</li>
+        <li><a href="https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html">Government of Canada: Old Age Security pension recovery tax</a>, reviewed November 20, 2026</li>
     </ul>
 
     <h2>Related reading</h2>
