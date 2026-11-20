@@ -35,15 +35,16 @@ export type ProductSlug = BookSlug | BundleSlug;
 export const CHECKOUT_URLS: Record<ProductSlug, string> = {
   // Live since before Nov 2026 (existing C$49 Payment Link). Keep as is.
   'tax-guide': 'https://buy.stripe.com/aFa8wPejNdIy4jK1Z89oc01',
-  'retirement-guide': '',
-  'government-benefits-guide': '',
-  'insurance-guide': '',
-  'side-hustle-guide': '',
-  'raise-guide': '',
-  'self-employed-guide': '',
-  'investing-guide': '',
-  'index-investing-guide': '',
-  'earn-more-bundle': '',
+  // Live Payment Links created Nov 12, 2026 (hosted confirmation message with the Drive download link).
+  'retirement-guide': 'https://buy.stripe.com/cNibJ17Vp7ka9E433c9oc0m',
+  'government-benefits-guide': 'https://buy.stripe.com/7sYaEXdfJcEuaI85bk9oc0n',
+  'insurance-guide': 'https://buy.stripe.com/dRm7sL7Vp8oe5nOeLU9oc0o',
+  'side-hustle-guide': 'https://buy.stripe.com/bJe4gzejN1ZQ2bC6fo9oc0p',
+  'raise-guide': 'https://buy.stripe.com/3cIcN5fnRawm3fG1Z89oc0q',
+  'self-employed-guide': 'https://buy.stripe.com/8x2cN58Zt0VMcQgbzI9oc0r',
+  'investing-guide': 'https://buy.stripe.com/4gM6oHcbFdIy03u47g9oc0s',
+  'index-investing-guide': 'https://buy.stripe.com/8x2aEXfnR1ZQ3fG9rA9oc0t',
+  'earn-more-bundle': 'https://buy.stripe.com/dRmaEX4Jd5c203ufPY9oc0u',
 };
 
 /** Prices in whole Canadian dollars. Change here and every page, button and schema follows. */
