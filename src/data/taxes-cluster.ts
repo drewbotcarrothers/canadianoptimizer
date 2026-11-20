@@ -1098,6 +1098,8 @@ export const taxesClusterPosts: TaxPost[] = [
         <li><a href="https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html">Department of Finance, June 2026: lowest rate of 14 percent on non-refundable credits</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
+
     <div class="cta-section">
         <p><strong>The credit is 14 percent of what clears the threshold, not the receipt total.</strong></p>
         <p>Which spouse claims, and which 12 months you use, is the optimization. The 2026 tax guide is the broader filing map, $49 CAD.</p>

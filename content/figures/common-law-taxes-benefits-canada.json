@@ -1,0 +1,1324 @@
+{
+  "slug": "common-law-taxes-benefits-canada",
+  "publishDate": "2026-11-20",
+  "figures": [
+    {
+      "id": "6299bd83b578",
+      "value": "12",
+      "context": "To the Canada Revenue Agency it is also a date on a calendar, and 12 months after it your benefits start to be based on two incomes instead of one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "a28061ca1171",
+      "value": "12",
+      "context": "The CRA treats you as common-law once you have lived with a partner in a conjugal relationship for 12 continuous months, or sooner if you have a child together.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "6e0d0671e97f",
+      "value": "12",
+      "context": "There are three ways to become common-law for tax purposes: 12 months living together, having a child together, or a partner who has custody of your child who depends on them.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "d234e014df53",
+      "value": "$40,000",
+      "context": "In our example, a single parent earning $40,000 and a partner earning $50,000 lose $4,853.09 a year of federal benefits by becoming common-law (our calculation).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "e1471c079054",
+      "value": "$50,000",
+      "context": "In our example, a single parent earning $40,000 and a partner earning $50,000 lose $4,853.09 a year of federal benefits by becoming common-law (our calculation).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "164ee740cd11",
+      "value": "$4,853.09",
+      "context": "In our example, a single parent earning $40,000 and a partner earning $50,000 lose $4,853.09 a year of federal benefits by becoming common-law (our calculation).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: before - after"
+      }
+    },
+    {
+      "id": "0de51f2b9ddd",
+      "value": "$2,303.28",
+      "context": "The single parent also loses the eligible dependant credit after the year the relationship starts, worth up to $2,303.28 of federal tax for 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
+      }
+    },
+    {
+      "id": "850bd28743bf",
+      "value": "12",
+      "context": "You are common-law partners when you live with someone in a conjugal relationship, are not married to them, and one of three things is true: you have lived together for at least 12 continuous months, they are the parent of your child by birth or adoption, or they have custody and control of your child and the child depends on them for support.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "3c6948541ee0",
+      "value": "90",
+      "context": "A separation of less than 90 days because of a breakdown in the relationship does not reset the 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+      }
+    },
+    {
+      "id": "13807cd9e44d",
+      "value": "12",
+      "context": "A separation of less than 90 days because of a breakdown in the relationship does not reset the 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "dd9be1615395",
+      "value": "12",
+      "context": "If you have a baby together, you are common-law from the birth, not after 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "43cbc35a5794",
+      "value": "$8,157",
+      "context": "For July 2026 to June 2027, the CRA's CCB calculation page gives up to $8,157 a year for each child under 6.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ill not be reduced. For each child: * under 6 years of age: $8,157 per year ($679.75 per month) * 6 to 17 years of age: $6,883\""
+      }
+    },
+    {
+      "id": "78e20a02ea54",
+      "value": "7%",
+      "context": "With one child, the benefit falls by 7% of family income above $38,237, and above $82,847 by $3,123 plus 3.2% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
+      }
+    },
+    {
+      "id": "c81541af4cc7",
+      "value": "$38,237,",
+      "context": "With one child, the benefit falls by 7% of family income above $38,237, and above $82,847 by $3,123 plus 3.2% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"e based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
+      }
+    },
+    {
+      "id": "7d5cb1b36a2f",
+      "value": "$82,847",
+      "context": "With one child, the benefit falls by 7% of family income above $38,237, and above $82,847 by $3,123 plus 3.2% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
+      }
+    },
+    {
+      "id": "0f4f2169ca37",
+      "value": "$3,123",
+      "context": "With one child, the benefit falls by 7% of family income above $38,237, and above $82,847 by $3,123 plus 3.2% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
+      }
+    },
+    {
+      "id": "64a325e75017",
+      "value": "3.2%",
+      "context": "With one child, the benefit falls by 7% of family income above $38,237, and above $82,847 by $3,123 plus 3.2% of the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20; page prints the rate with a space (\"3.2 %\") in the worked calculation; same figure: \"00,000 (AFNI) − $82,847 = $17,153 (income over threshold) × 3.2 % = $548.89 (partial reduction) + $3,123 = $3,671.89 (total\""
+      }
+    },
+    {
+      "id": "baa8137f1be4",
+      "value": "$679",
+      "context": "The CGEB page gives up to $679 for a single person, $890 for a couple and $234 per child, and the payments chart shows the amount falling as family income passes $46,432.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada Groceries and Essentials Benefit",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"period from July 2026 to June 2027. You could get up to: * $679 if you are a single individual * $890 if you are married or\""
+      }
+    },
+    {
+      "id": "a981c6d47760",
+      "value": "$890",
+      "context": "The CGEB page gives up to $679 for a single person, $890 for a couple and $234 per child, and the payments chart shows the amount falling as family income passes $46,432.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada Groceries and Essentials Benefit",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"u could get up to: * $679 if you are a single individual * $890 if you are married or have a common-law partner * $234 for\""
+      }
+    },
+    {
+      "id": "9932b13b7c50",
+      "value": "$234",
+      "context": "The CGEB page gives up to $679 for a single person, $890 for a couple and $234 per child, and the payments chart shows the amount falling as family income passes $46,432.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"2024 2023 Adult maximum $445 $349 $340 $325 Child maximum $234 $184 $179 $171 Single supplement $234 $184 $179 $171 Phase-\""
+      }
+    },
+    {
+      "id": "60e84e936b30",
+      "value": "$46,432",
+      "context": "The CGEB page gives up to $679 for a single person, $890 for a couple and $234 per child, and the payments chart shows the amount falling as family income passes $46,432.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0,544 Family net income at which credit begins to phase out $46,432 $45,521 $44,324 $42,335 Tax-free savings account (TFSA) Des\""
+      }
+    },
+    {
+      "id": "80cd01793d1b",
+      "value": "$40,000",
+      "context": "Two singles with $40,000 each would get $1,358.00 between them; as a couple with $80,000 of family income, the payments chart shows $0.00.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "7979cc766f69",
+      "value": "$1,358.00",
+      "context": "Two singles with $40,000 each would get $1,358.00 between them; as a couple with $80,000 of family income, the payments chart shows $0.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 2 x single no-children $40,000 row"
+      }
+    },
+    {
+      "id": "de54661819df",
+      "value": "$80,000",
+      "context": "Two singles with $40,000 each would get $1,358.00 between them; as a couple with $80,000 of family income, the payments chart shows $0.00.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "c7a689aed85d",
+      "value": "$0.00",
+      "context": "Two singles with $40,000 each would get $1,358.00 between them; as a couple with $80,000 of family income, the payments chart shows $0.00.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law\""
+      }
+    },
+    {
+      "id": "315480f8be8d",
+      "value": "$9,658.19",
+      "context": "Our worked example prices the CCB and Canada Groceries and Essentials Benefit for a single parent and a new partner before and after they become common-law: the household's federal benefits fall from $9,658.19 to $4,805.10 a year, a drop of about $404.42 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: Sam CCB + Sam CGEB + Jordan CGEB"
+      }
+    },
+    {
+      "id": "f24ecea01e29",
+      "value": "$4,805.10",
+      "context": "Our worked example prices the CCB and Canada Groceries and Essentials Benefit for a single parent and a new partner before and after they become common-law: the household's federal benefits fall from $9,658.19 to $4,805.10 a year, a drop of about $404.42 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
+      }
+    },
+    {
+      "id": "937e2fa00393",
+      "value": "$404.42",
+      "context": "Our worked example prices the CCB and Canada Groceries and Essentials Benefit for a single parent and a new partner before and after they become common-law: the household's federal benefits fall from $9,658.19 to $4,805.10 a year, a drop of about $404.42 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: yearly drop / 12"
+      }
+    },
+    {
+      "id": "575f55715c4b",
+      "value": "$40,000",
+      "context": "Sam is a single parent with one child aged 4 and a 2025 net income of $40,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "c88d85aec506",
+      "value": "$50,000",
+      "context": "Jordan has no children and a 2025 net income of $50,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "d956079de21e",
+      "value": "$90,000",
+      "context": "We compare a full payment year (July 2026 to June 2027) with each of them single, and with them as common-law partners whose adjusted family net income is $90,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "reclassified from example to derived; recomputed: couple's combined income = Sam $40,000 + Jordan $50,000 = $90,000"
+      }
+    },
+    {
+      "id": "8f4d3a923a81",
+      "value": "$8,033.59",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 8157.0 - 7% x (40,000 - 38237.0)"
+      }
+    },
+    {
+      "id": "869981b7c619",
+      "value": "$4,805.10",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
+      }
+    },
+    {
+      "id": "309b67a1c7c0",
+      "value": "$8,157",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"n 2026 2025 2024 2023 CCB (base benefit, child under age 6) $8,157 $7,997 $7,787 $7,437 CCB (base benefit, child aged 6 to 17)\""
+      }
+    },
+    {
+      "id": "73bb630023e3",
+      "value": "7%",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"than $38,237 up to $82,847 Your total payment is reduced by 7% of your income greater than $38,237. Calculation of the tot\""
+      }
+    },
+    {
+      "id": "3a382ad78e00",
+      "value": "$38,237",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"e based on your 2025 adjusted family net income: Less than $38,237 You get the maximum benefit amount for each eligible child.\""
+      }
+    },
+    {
+      "id": "3342e1e488ec",
+      "value": "$123.41",
+      "context": "Sam's Canada child benefit $8,033.59 $4,805.10 Single: $8,157 less 7% of income above $38,237 ($123.41).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 7% x 1,763"
+      }
+    },
+    {
+      "id": "bf2f2f5b9758",
+      "value": "$8,157",
+      "context": "Couple: $8,157 less $3,123 and 3.2% of income above $82,847 ($3,351.90 in total)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"is based on your eligible children: * under 6 years of age: $8,157 per year * 6 to 17 years of age: $6,883 per year Calculatio\""
+      }
+    },
+    {
+      "id": "9d4f77ae4f56",
+      "value": "$3,123",
+      "context": "Couple: $8,157 less $3,123 and 3.2% of income above $82,847 ($3,351.90 in total)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"I is greater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of\""
+      }
+    },
+    {
+      "id": "f0c89e18a081",
+      "value": "3.2%",
+      "context": "Couple: $8,157 less $3,123 and 3.2% of income above $82,847 ($3,351.90 in total)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"ater than $82,847 Your total payment is reduced by $3,123 + 3.2% of your income greater than $82,847. Calculation of the to\""
+      }
+    },
+    {
+      "id": "9c471a506524",
+      "value": "$82,847",
+      "context": "Couple: $8,157 less $3,123 and 3.2% of income above $82,847 ($3,351.90 in total)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "CRA: How much you can get, Canada child benefit (July 2026 to June 2027)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"le child. There is no reduction. Greater than $38,237 up to $82,847 Your benefit amount is reduced by a percentage of your inco\""
+      }
+    },
+    {
+      "id": "f412290845d3",
+      "value": "$3,351.90",
+      "context": "Couple: $8,157 less $3,123 and 3.2% of income above $82,847 ($3,351.90 in total)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 3123.0 + 3.2% x (90,000 - 82847.0)"
+      }
+    },
+    {
+      "id": "c42b89dbd3be",
+      "value": "$1,124.00",
+      "context": "Sam's CGEB (with one child) $1,124.00 $0.00 Single parent: full amount under $46,432 (payments chart).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $40,000 row, 1 child"
+      }
+    },
+    {
+      "id": "901609f01fa1",
+      "value": "$0.00",
+      "context": "Sam's CGEB (with one child) $1,124.00 $0.00 Single parent: full amount under $46,432 (payments chart).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, married table, $85,000 row, 1 child"
+      }
+    },
+    {
+      "id": "744a42af4f8e",
+      "value": "$46,432",
+      "context": "Sam's CGEB (with one child) $1,124.00 $0.00 Single parent: full amount under $46,432 (payments chart).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"children or more ($ per year) ---|---|---|---|---|--- Under $46,432 | $890.00 | $1,124.00 | $1,358.00 | $1,592.00 | $1,826.00 $\""
+      }
+    },
+    {
+      "id": "3fc176f5b5b0",
+      "value": "$50,000,",
+      "context": "Jordan: chart row for $50,000, single, no children.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "a9bb4cd4319f",
+      "value": "$0.00",
+      "context": "Couple with one child: the chart shows $0.00 at $85,000 and above",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, married table, $85,000 row, 1 child"
+      }
+    },
+    {
+      "id": "db77e9d01e78",
+      "value": "$85,000",
+      "context": "Couple with one child: the chart shows $0.00 at $85,000 and above",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"| $397.60 $80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or commo\""
+      }
+    },
+    {
+      "id": "28adb2ff21fe",
+      "value": "$500.60",
+      "context": "Jordan's CGEB $500.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $50,000 row, no children"
+      }
+    },
+    {
+      "id": "601fb4880778",
+      "value": "$9,658.19",
+      "context": "Total $9,658.19 $4,805.10 A drop of $4,853.09 a year",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: Sam CCB + Sam CGEB + Jordan CGEB"
+      }
+    },
+    {
+      "id": "856cedd59743",
+      "value": "$4,805.10",
+      "context": "Total $9,658.19 $4,805.10 A drop of $4,853.09 a year",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
+      }
+    },
+    {
+      "id": "a50ce82ce0fb",
+      "value": "$4,853.09",
+      "context": "Total $9,658.19 $4,805.10 A drop of $4,853.09 a year",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: before - after"
+      }
+    },
+    {
+      "id": "e51cfd6d77a7",
+      "value": "$669.47",
+      "context": "Sam's CCB falls from about $669.47 to $400.43 a month, and the CGEB stops entirely.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: single CCB / 12"
+      }
+    },
+    {
+      "id": "19ac3395199a",
+      "value": "$400.43",
+      "context": "Sam's CCB falls from about $669.47 to $400.43 a month, and the CGEB stops entirely.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: couple CCB / 12"
+      }
+    },
+    {
+      "id": "0c96271554ae",
+      "value": "$195.60",
+      "context": "For a couple with one child, the payments chart shows the CGEB falling to $195.60 at $65,000 of family income and to $0.00 at $70,000, well below their combined $90,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"| $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $17\""
+      }
+    },
+    {
+      "id": "82ba4ed31fbd",
+      "value": "$65,000",
+      "context": "For a couple with one child, the payments chart shows the CGEB falling to $195.60 at $65,000 of family income and to $0.00 at $70,000, well below their combined $90,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"0 $60,000 | $0.60 | $445.60 | $679.60 | $913.60 | $1,147.60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $\""
+      }
+    },
+    {
+      "id": "49da61412aec",
+      "value": "$0.00",
+      "context": "For a couple with one child, the payments chart shows the CGEB falling to $195.60 at $65,000 of family income and to $0.00 at $70,000, well below their combined $90,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"$80,000 | $0.00 | $0.00 | $0.00 | $0.00 | $147.60 $85,000 | $0.00 | $0.00 | $0.00 | $0.00 | $0.00 ## Married or common-law\""
+      }
+    },
+    {
+      "id": "9f3514792ff1",
+      "value": "$70,000,",
+      "context": "For a couple with one child, the payments chart shows the CGEB falling to $195.60 at $65,000 of family income and to $0.00 at $70,000, well below their combined $90,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payments-chart.html",
+      "sourceName": "CRA: CGEB payments chart, July 2026 to June 2027 (2025 base year)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \".60 $65,000 | $0.00 | $195.60 | $429.60 | $663.60 | $897.60 $70,000 | $0.00 | $0.00 | $179.60 | $413.60 | $647.60 $75,000 | $0.\""
+      }
+    },
+    {
+      "id": "1e845dca0fe6",
+      "value": "$90,000",
+      "context": "For a couple with one child, the payments chart shows the CGEB falling to $195.60 at $65,000 of family income and to $0.00 at $70,000, well below their combined $90,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "6a2517f21129",
+      "value": "$500.60",
+      "context": "Jordan's own $500.60 disappears too, because a couple gets one benefit, not two.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: CGEB chart, single table, $50,000 row, no children"
+      }
+    },
+    {
+      "id": "18cb207f98e9",
+      "value": "$16,452",
+      "context": "As a single parent, Sam can claim the amount for an eligible dependant for the child, up to $16,452 for the 2026 tax year, which is worth $2,303.28 at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Amount for an eligible dependant fo\""
+      }
+    },
+    {
+      "id": "d94b53ae04f5",
+      "value": "$2,303.28",
+      "context": "As a single parent, Sam can claim the amount for an eligible dependant for the child, up to $16,452 for the 2026 tax year, which is worth $2,303.28 at 14%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
+      }
+    },
+    {
+      "id": "1d3ce9f01ce2",
+      "value": "14%",
+      "context": "As a single parent, Sam can claim the amount for an eligible dependant for the child, up to $16,452 for the 2026 tax year, which is worth $2,303.28 at 14%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Current year tax rates and income brackets (2026)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"income | ---|--- from | up to | is taxed at $0 | $58,523 | 14% $58,523.01 | $117,045 | 20.5% $117,045.01 | $181,440 | 26%\""
+      }
+    },
+    {
+      "id": "7b1f535282e6",
+      "value": "$40,000",
+      "context": "At $40,000 of income, Sam owes $5,600.00 of federal tax before credits, more than the basic personal amount and the eligible dependant credits combined ($4,606.56), so the whole credit is being used.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    },
+    {
+      "id": "975ff9eeb2da",
+      "value": "$5,600.00",
+      "context": "At $40,000 of income, Sam owes $5,600.00 of federal tax before credits, more than the basic personal amount and the eligible dependant credits combined ($4,606.56), so the whole credit is being used.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 14% x 40,000"
+      }
+    },
+    {
+      "id": "c6ebf2b6402d",
+      "value": "$4,606.56",
+      "context": "At $40,000 of income, Sam owes $5,600.00 of federal tax before credits, more than the basic personal amount and the eligible dependant credits combined ($4,606.56), so the whole credit is being used.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: (BPA + eligible dependant) x 14%"
+      }
+    },
+    {
+      "id": "f2e8ee4b70e1",
+      "value": "$2,303.28",
+      "context": "Once Sam is common-law and living with Jordan, that credit generally goes, which is a further cost of up to $2,303.28 a year from the next tax year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: eligible dependant amount (= BPA) x 14%"
+      }
+    },
+    {
+      "id": "25bebf0243d9",
+      "value": "12",
+      "context": "It does mean the first 12 months together are a good time to adjust a budget that was built on two singles' benefits, and to avoid a surprise repayment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "24e4bc1f0a9a",
+      "value": "$16,452",
+      "context": "If your partner's net income is low, you may claim up to $16,452 for 2026, reduced by their income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "sourceName": "CRA: Indexation adjustment for personal income tax and benefit amounts (2026 column)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"the amount at which the 29% tax bracket begins Footnote 1 $16,452 $16,129 $15,705 $15,000 Spouse or common-law partner amount\""
+      }
+    },
+    {
+      "id": "09db3a0d8318",
+      "value": "90",
+      "context": "You are treated as separated once you have lived apart for 90 days because of a breakdown in the relationship.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+      }
+    },
+    {
+      "id": "8220a416e301",
+      "value": "90",
+      "context": "Wait until the 90 consecutive days have passed, then tell the CRA; your benefits are recalculated on your own income from the month after your status changed, per the CRA's marital status page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
+      }
+    },
+    {
+      "id": "e5fcb97c6961",
+      "value": "90",
+      "context": "The same page says a separation of less than 90 days does not break the 12-month common-law clock, so a short split followed by a reconciliation usually changes nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"d * You became common-law * You are separated for more than 90 days (due to a breakdown in the relationship) * You got div\""
+      }
+    },
+    {
+      "id": "061e6983e3ec",
+      "value": "12",
+      "context": "The same page says a separation of less than 90 days does not break the 12-month common-law clock, so a short split followed by a reconciliation usually changes nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "221b9439a6ff",
+      "value": "12",
+      "context": "Count 12 continuous months from the day you moved in, or use the birth or adoption date of a child you share.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "648cee9a677b",
+      "value": "12",
+      "context": "For the CRA, 12 continuous months, counting short separations of less than 90 days as continuous.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \"tions apply. They: * have been living with you for at least 12 continuous months. This includes any period you were separa\""
+      }
+    },
+    {
+      "id": "2cc6481615b1",
+      "value": "90",
+      "context": "For the CRA, 12 continuous months, counting short separations of less than 90 days as continuous.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/update-your-marital-status-canada-revenue-agency.html",
+      "sourceName": "CRA: Change your marital status (definition of common-law partner)",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "re-fetched 2026-11-20 (HTTP 200); page prints: \". This includes any period you were separated for less than 90 days because of a breakdown in the relationship * are the p\""
+      }
+    },
+    {
+      "id": "8f74cb9376de",
+      "value": "$8,033.59",
+      "context": "In our example, a single parent's CCB falls from $8,033.59 to $4,805.10 a year once a partner earning $50,000 is counted.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: 8157.0 - 7% x (40,000 - 38237.0)"
+      }
+    },
+    {
+      "id": "74813289286f",
+      "value": "$4,805.10",
+      "context": "In our example, a single parent's CCB falls from $8,033.59 to $4,805.10 a year once a partner earning $50,000 is counted.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261120-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "recomputed independently from inputs re-read today: recomputed: couple CCB at AFNI 90,000"
+      }
+    },
+    {
+      "id": "6585767d63a1",
+      "value": "$50,000",
+      "context": "In our example, a single parent's CCB falls from $8,033.59 to $4,805.10 a year once a partner earning $50,000 is counted.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-20",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-20/recheck.py); separate from drafting",
+        "note": "illustration input, inside a labelled example (worked example, example table or named example household)"
+      }
+    }
+  ]
+}

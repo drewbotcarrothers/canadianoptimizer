@@ -19,6 +19,7 @@ import { batch20261116Posts } from './nov2026/batch-2026-11-16';
 import { batch20261117Posts } from './nov2026/batch-2026-11-17';
 import { batch20261118Posts } from './nov2026/batch-2026-11-18';
 import { batch20261119Posts } from './nov2026/batch-2026-11-19';
+import { batch20261120Posts } from './nov2026/batch-2026-11-20';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -4457,6 +4458,8 @@ const allPosts: BlogPostRecord[] = [
         <li><strong>Prescribed-rate loans</strong> must use the CRA rate on the day of the loan, in writing, with interest paid by January 30. Miss a year and the structure can fail going forward.</li>
         <li><strong>Dividend sprinkling</strong> through a corporation is constrained by TOSI. Do not treat it as a couple’s routine.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/common-law-taxes-benefits-canada/">Common-law in Canada: when the CRA says you are, and what it costs</a> &middot; <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
 
     <div class="cta-section">
         <p><strong>Splitting only works if the rest of the return is clean.</strong></p>
@@ -9631,6 +9634,8 @@ const allPosts: BlogPostRecord[] = [
 <li><strong>Get professional help:</strong> A tax accountant costs $200–$500 but finds $2,000–$5,000 in missed credits for most people.</li>
 </ol>
 
+        <p><strong>Related:</strong> <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
+
     <div class="cta-section">
             <p><strong>Don't Leave Money on the Table</strong></p>
             <p>
@@ -12128,6 +12133,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>Each of these events is an opportunity to review your tax position, update your beneficiaries, and align your planning with your current life stage. Don't wait until April 30th to deal with tax. Deal with it as life happens.</p>
 
         <p>If you'd like personalized guidance on how any of these events affects your specific situation, consider consulting a tax professional or certified financial planner. The cost of the consultation will likely pay for itself many times over.</p>
+
+        <p><strong>Related:</strong> <a href="/blog/common-law-taxes-benefits-canada/">Common-law in Canada: when the CRA says you are, and what it costs</a></p>
 
     <div class="cta-section">
             <p><strong>Ready to Optimize Your Tax Position?</strong></p>
@@ -17258,7 +17265,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
 
 
-    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a></p>
+    <p><strong>Related:</strong> <a href="/blog/rrif-minimum-only-mistake/">Should you only take the RRIF minimum? The tax and OAS math</a> &middot; <a href="/blog/seniors-tax-credits-canada/">Tax credits for seniors: age amount, pension amount and more</a></p>
 
     <div class="cta-section">
 <p><strong>Ready to Build Your Complete Retirement Plan?</strong></p>
@@ -24366,6 +24373,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP, TFSA, and FHSA</a> — which deduction is worth using against AFNI.</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/common-law-taxes-benefits-canada/">Common-law in Canada: when the CRA says you are, and what it costs</a></p>
+
     <div class="cta-section">
         <p><strong>The benefit is a function of the return.</strong></p>
         <p>Deductions, custody, and the year you recognize a gain are tax decisions with a July consequence. The 2026 tax guide is the return.</p>
@@ -24512,6 +24521,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/tax-tips-families/">Family tax tips</a> — the return in a year of parental benefits.</li>
         <li><a href="/blog/government-benefits-stacking-map-canada/">Benefits stacking map</a> — where EI sits among the other tests.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/emergency-fund-calculator-canada/">Emergency fund calculator for Canadians, with EI built in</a></p>
 
     <div class="cta-section">
         <p><strong>EI lands on a T4E, and then on your return.</strong></p>
@@ -25402,7 +25413,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/disability-insurance-canada-guide/">Disability insurance</a> — the wait your cash has to cover.</li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a></p>
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/emergency-fund-calculator-canada/">Emergency fund calculator for Canadians, with EI built in</a></p>
 
     <div class="cta-section">
         <p><strong>A personal HELOC draw and an investment HELOC draw are different tax files.</strong></p>
@@ -25933,6 +25944,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/life-events-tax-implications/">Life events and tax</a> — marriage, common-law, separation.</li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/common-law-taxes-benefits-canada/">Common-law in Canada: when the CRA says you are, and what it costs</a></p>
+
     <div class="cta-section">
         <p><strong>The account structure is domestic. The deduction is federal.</strong></p>
         <p>Spousal RRSPs, family benefits, and whose name takes the deduction are tax. The 2026 tax guide is the return side of the household.</p>
@@ -26054,6 +26067,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <li><a href="/blog/rrsp-vs-tfsa-vs-fhsa/">RRSP versus TFSA versus FHSA</a> — which account receives the dollar.</li>
         <li><a href="/blog/debt-payoff-vs-investing-canada/">Debt payoff versus investing</a> — when the "saving" should be a payment instead.</li>
     </ul>
+
+        <p><strong>Related:</strong> <a href="/blog/emergency-fund-calculator-canada/">Emergency fund calculator for Canadians, with EI built in</a></p>
 
     <div class="cta-section">
         <p><strong>An RRSP in the numerator is a deduction on the return.</strong></p>
@@ -27227,6 +27242,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261117Posts,
   ...batch20261118Posts,
   ...batch20261119Posts,
+  ...batch20261120Posts,
 
 ];
 

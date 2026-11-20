@@ -593,7 +593,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you are filing for a family or a retiree, read the credits guides together: several claims can be transferred or pooled, and the order you claim them in changes the total.",
     ],
     decisions: ["Which deductions and credits can I claim this year?", "Is a deduction or a credit worth more to me?", "Should my spouse or I claim medical expenses and donations?", "Which income-splitting moves are still allowed?"],
-    startHere: ["missed-tax-credits", "tax-deductions-employees", "tax-deduction-checklist", "medical-expense-tax-credit-canada", "charitable-donation-tax-credit-canada"],
+    startHere: ["missed-tax-credits", "tax-deductions-employees", "tax-deduction-checklist", "medical-expense-tax-credit-canada", "charitable-donation-tax-credit-canada", "seniors-tax-credits-canada"],
   },
   "taxes/registered-accounts-tax": {
     intro: [
@@ -629,7 +629,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "If you are handling an estate, the CRA forms hub has the line-by-line guides for the returns; the Retirement estate hub covers wills, beneficiaries and probate.",
     ],
     decisions: ["What changes on my return when I marry or become common-law?", "How is income taxed when I retire?", "What tax is due when someone dies, and who files?", "Are gifts to family taxed or attributed back to me?"],
-    startHere: ["life-events-tax-implications", "retirement-income-planning"],
+    startHere: ["life-events-tax-implications", "retirement-income-planning", "common-law-taxes-benefits-canada"],
   },
   "taxes/filing-cra": {
     intro: [
@@ -863,7 +863,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Where to hold the emergency fund itself is covered in the savings accounts and GICs hub.",
     ],
     decisions: ["How big should my emergency fund be?", "Cash, HELOC or investments as a backstop?", "What saving rate should I aim for?", "How do I save for a goal and still invest?"],
-    startHere: ["emergency-fund-heloc-investments-canada", "saving-rate-targets-canada"],
+    startHere: ["emergency-fund-heloc-investments-canada", "saving-rate-targets-canada", "emergency-fund-calculator-canada"],
   },
   "earning-more/employee": {
     intro: [

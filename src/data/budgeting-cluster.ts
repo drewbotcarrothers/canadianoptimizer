@@ -180,7 +180,7 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <li><a href="https://www.purposeinvest.com/funds/purpose-high-interest-savings-fund">Purpose: High Interest Savings Fund (PSA)</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a></p>
+        <p><strong>Related:</strong> <a href="/blog/gic-vs-hisa-canada/">GIC vs HISA: where your cash should sit</a> &middot; <a href="/blog/eq-bank-review/">EQ Bank review: Personal Account, GICs and transfers</a> &middot; <a href="/blog/emergency-fund-calculator-canada/">Emergency fund calculator for Canadians, with EI built in</a></p>
 
     <div class="cta-section">
         <p><strong>The rate is a quote. The tax on the interest is a return.</strong></p>

@@ -880,6 +880,8 @@ const earningMoreClusterPostsRaw: EarningPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: 2026 RRSP dollar limit</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/emergency-fund-calculator-canada/">Emergency fund calculator for Canadians, with EI built in</a></p>
+
     <div class="cta-section">
         <p><strong>Withholding is a deposit. The eligible years are a formula.</strong></p>
         <p>Room, slips, and the year of payment decide the bill. The 2026 tax guide walks the return side.</p>
