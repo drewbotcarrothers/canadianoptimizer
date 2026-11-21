@@ -741,6 +741,8 @@ export const taxesClusterPosts: TaxPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/tfsa-withdrawal-rules/">TFSA withdrawal rules: when your room comes back</a> &middot; <a href="/blog/investing-when-leaving-canada-tfsa-rrsp/">Leaving Canada? What happens to your TFSA, RRSP and investments</a></p>
+
     ${footer(published)}
 
 </div>`

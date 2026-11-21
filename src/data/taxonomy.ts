@@ -556,8 +556,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "The guides cover TFSA contribution timing, corporate versus personal investing, and how to place investments across accounts so tax and foreign withholding land where they cost least. The tax rules for each account live in the Taxes hub for TFSA, RRSP and FHSA rules; these guides focus on opening, funding and investing.",
       "If you haven't chosen a brokerage yet, start with the brokerages hub.",
     ],
-    decisions: ["Which account should I open first?", "When in the year should I contribute to my TFSA?", "Should I invest personally or through my corporation?", "Which investment belongs in which account?"],
-    startHere: ["tfsa-contribution-optimization", "corporate-vs-personal-investing-canada"],
+    decisions: ["Which account should I open first?", "RRSP or TFSA at my income?", "When in the year should I contribute to my TFSA?", "Should I invest personally or through my corporation?", "Which investment belongs in which account?"],
+    startHere: ["tfsa-contribution-optimization", "rrsp-or-tfsa-by-income", "how-to-open-tfsa", "tfsa-withdrawal-rules", "investing-when-leaving-canada-tfsa-rrsp", "corporate-vs-personal-investing-canada"],
   },
   "investing/fixed-income-cash": {
     intro: [

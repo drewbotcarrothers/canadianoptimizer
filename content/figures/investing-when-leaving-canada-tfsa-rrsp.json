@@ -1,0 +1,1331 @@
+{
+  "slug": "investing-when-leaving-canada-tfsa-rrsp",
+  "publishDate": "2026-11-22",
+  "figures": [
+    {
+      "id": "e36a5d73b87b",
+      "value": "1%",
+      "context": "The TFSA stays tax-free in Canada, but new contributions are taxed at 1% a month and you earn no new room.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "6e96aee6a48f",
+      "value": "25%",
+      "context": "RRSP withdrawals face 25% Part XIII withholding unless a treaty lowers it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "280ef67361ad",
+      "value": "1%",
+      "context": "A non-resident contribution is taxed at 1% for every month it stays in the account.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "df3e77c10be5",
+      "value": "25%",
+      "context": "RRSP payments to a non-resident have 25% Part XIII tax withheld, reduced by any tax treaty, and that is usually your final Canadian tax on them.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "75c86579a61d",
+      "value": "$25,000,",
+      "context": "If your property is worth more than $25,000, you must file Form T1161 with your departure-year return, or face a penalty of up to $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
+    },
+    {
+      "id": "5e387ddc5f71",
+      "value": "$2,500",
+      "context": "If your property is worth more than $25,000, you must file Form T1161 with your departure-year return, or face a penalty of up to $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you do not have to file a return, you"
+    },
+    {
+      "id": "cb296dbbba77",
+      "value": "November 21, 2026",
+      "context": "Your accounts when you become a non-resident (CRA rules, checked November 21, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "review date: the day the sources were read for this batch"
+      }
+    },
+    {
+      "id": "89edd3043627",
+      "value": "1%",
+      "context": "TFSA No, excluded Yes Taxed at 1% a month; no new room for full non-resident years Not taxed in Canada; room only comes back when you are resident again",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "8e63316e05bb",
+      "value": "18%",
+      "context": "RRSP and RRIF No, excluded Yes New room is 18% of earned income, so it usually stops growing when Canadian earned income stops 25% Part XIII withholding unless a treaty reduces it; a section 217 election can apply",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "0fe67aead4fb",
+      "value": "25%",
+      "context": "RRSP and RRIF No, excluded Yes New room is 18% of earned income, so it usually stops growing when Canadian earned income stops 25% Part XIII withholding unless a treaty reduces it; a section 217 election can apply",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "440c67f57c08",
+      "value": "1%",
+      "context": "You can contribute up to the date you become a non-resident; after that, every deposit is a non-resident contribution taxed at 1% for each month it stays in the account, until you withdraw it or become resident again.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "85cf8046b315",
+      "value": "1%",
+      "context": "If it also exceeds your room, the regular 1% monthly tax on excess amounts is added on top.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "d3a63f0b2a4d",
+      "value": "$7,000",
+      "context": "You get the full annual dollar limit for any year in which you are resident for at least part of the year, so a person leaving in 2026 still gets the 2026 limit of $7,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "dollar limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
+    },
+    {
+      "id": "65bd6b07962a",
+      "value": "January 1",
+      "context": "But withdrawals you make as a non-resident are only added back as room when you become a resident again, not the next January 1 as they are for residents.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "f48f75be9f3a",
+      "value": "$5,000",
+      "context": "The CRA's example: Daniel moves to the U.K. in September 2020, withdraws $5,000 in 2021 and $3,000 in 2024, and gets that room back only after returning in 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "maximum he is allowed.) 2021 In 2021, he withdraws $5,000 from his TFSA. Because he isn\u2019t a Canadian resident"
+    },
+    {
+      "id": "b4cfac7f78c9",
+      "value": "$3,000",
+      "context": "The CRA's example: Daniel moves to the U.K. in September 2020, withdraws $5,000 in 2021 and $3,000 in 2024, and gets that room back only after returning in 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Transactions: $7,000 Amount in his TFSA from previous year \u2212 $3,000 2024 withdrawal = $4,000 Amount in his TFSA ($0 unused"
+    },
+    {
+      "id": "6ece375b4943",
+      "value": "25%",
+      "context": "The usual rate is 25% unless a tax treaty between Canada and your new country reduces it, and if the correct amount is withheld, it is your final tax obligation to Canada on that income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "5c8bbe9577cc",
+      "value": "25%",
+      "context": "It tends to help people whose total Canadian-source income is low, because resident rates on a small income can be well below 25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "f13d54a94b87",
+      "value": "10%",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in"
+    },
+    {
+      "id": "813445dd2e59",
+      "value": "$5,000,",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
+    },
+    {
+      "id": "18c85e75b12f",
+      "value": "20%",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up to"
+    },
+    {
+      "id": "e98f4f6b52fa",
+      "value": "$5,000",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
+    },
+    {
+      "id": "a14124ec68b0",
+      "value": "$15,000",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "on amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
+    },
+    {
+      "id": "a08c609bd167",
+      "value": "30%",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
+    },
+    {
+      "id": "cac1dc947ea3",
+      "value": "5%",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec)"
+    },
+    {
+      "id": "66d678bc7cb0",
+      "value": "15%",
+      "context": "As a resident, the CRA's withholding rates are 10% on up to $5,000, 20% on $5,000 to $15,000 and 30% over $15,000 (5%, 10% and 15% in Quebec).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds held"
+    },
+    {
+      "id": "f8021bff66b7",
+      "value": "44.97%",
+      "context": "The whole withdrawal is added to your income for the year and taxed at your marginal rates, which in Ontario reach 44.97% at $150,000 of income by our 2026 bracket calculation.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "engine: Ontario 2026 combined marginal rate at $150,000 = 44.97% (model byIncome)"
+      }
+    },
+    {
+      "id": "7f0fc24a0bfe",
+      "value": "$150,000",
+      "context": "The whole withdrawal is added to your income for the year and taxed at your marginal rates, which in Ontario reach 44.97% at $150,000 of income by our 2026 bracket calculation.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "engine: Ontario 2026 combined marginal rate at $150,000 = 44.97% (model byIncome)"
+      }
+    },
+    {
+      "id": "52a8aad27501",
+      "value": "$10,000",
+      "context": "It also lists what you do not have to include on Form T1161: cash, including bank deposits, registered plans such as RRSPs and TFSAs, and personal-use property such as household effects, clothing and cars worth less than $10,000 per item.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "collectibles) that has a fair market value of less than $10,000 (see the definition of \"personal-use property\" in"
+    },
+    {
+      "id": "8c056a205cef",
+      "value": "$25,000,",
+      "context": "If the total fair market value of the property you own when you leave is more than $25,000, you must file Form T1161, List of Properties by an Emigrant of Canada, by your filing due date, even if you do not otherwise have to file a return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
+    },
+    {
+      "id": "6f7e43cb65c5",
+      "value": "$25",
+      "context": "The penalty for filing it late is $25 for each day, with a minimum of $100 and a maximum of $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "for failing to file Form T1161 by the due date is $25 for each day the return is late. There is a minimum"
+    },
+    {
+      "id": "3d6761005e99",
+      "value": "$100",
+      "context": "The penalty for filing it late is $25 for each day, with a minimum of $100 and a maximum of $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "the return is late. There is a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you"
+    },
+    {
+      "id": "d68da37029cb",
+      "value": "$2,500",
+      "context": "The penalty for filing it late is $25 for each day, with a minimum of $100 and a maximum of $2,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you do not have to file a return, you"
+    },
+    {
+      "id": "6184c3da12a0",
+      "value": "April 30",
+      "context": "The election is due by April 30 of the year after you emigrate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
+    },
+    {
+      "id": "f20d7785d7e3",
+      "value": "$16,500",
+      "context": "If the federal tax owing on the deemed disposition is more than $16,500 (more than $13,777.50 for former Quebec residents), you have to give the CRA adequate security.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
+    },
+    {
+      "id": "b0b4700f20af",
+      "value": "$13,777.50",
+      "context": "If the federal tax owing on the deemed disposition is more than $16,500 (more than $13,777.50 for former Quebec residents), you have to give the CRA adequate security.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec), you have to provide"
+    },
+    {
+      "id": "650269cf535c",
+      "value": "July 31, 2026",
+      "context": "Sam lives in Ontario and moves to another country on July 31, 2026, with his spouse and children leaving the same day.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "b1dba8c9a000",
+      "value": "$60,000",
+      "context": "He holds a $60,000 TFSA, a $150,000 RRSP, a non-registered brokerage account worth $80,000 that cost him $50,000, and $20,000 in a chequing account.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "0ee6dc5430d7",
+      "value": "$150,000",
+      "context": "He holds a $60,000 TFSA, a $150,000 RRSP, a non-registered brokerage account worth $80,000 that cost him $50,000, and $20,000 in a chequing account.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "66fa1906af57",
+      "value": "$80,000",
+      "context": "He holds a $60,000 TFSA, a $150,000 RRSP, a non-registered brokerage account worth $80,000 that cost him $50,000, and $20,000 in a chequing account.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "b557c33a35fe",
+      "value": "$50,000,",
+      "context": "He holds a $60,000 TFSA, a $150,000 RRSP, a non-registered brokerage account worth $80,000 that cost him $50,000, and $20,000 in a chequing account.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "101756a1e58a",
+      "value": "$20,000",
+      "context": "He holds a $60,000 TFSA, a $150,000 RRSP, a non-registered brokerage account worth $80,000 that cost him $50,000, and $20,000 in a chequing account.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "e8265eaea822",
+      "value": "$60,000",
+      "context": "TFSA $60,000 Nothing No $0 Canadian tax; room only returns if he moves back",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "a8a7f491be91",
+      "value": "$0",
+      "context": "TFSA $60,000 Nothing No $0 Canadian tax; room only returns if he moves back",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_nonres"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "TFSA withdrawals by a non-resident are not taxed in Canada (CRA non-resident TFSA page)"
+      }
+    },
+    {
+      "id": "181047b89b53",
+      "value": "$150,000",
+      "context": "RRSP $150,000 Nothing No $37,500 withheld at 25%, leaving $112,500",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "d93bdb982247",
+      "value": "$37,500",
+      "context": "RRSP $150,000 Nothing No $37,500 withheld at 25%, leaving $112,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 150,000 x 25% Part XIII = 37,500"
+      }
+    },
+    {
+      "id": "a80ee3d601ce",
+      "value": "25%",
+      "context": "RRSP $150,000 Nothing No $37,500 withheld at 25%, leaving $112,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "9dc1b6f773d8",
+      "value": "$112,500",
+      "context": "RRSP $150,000 Nothing No $37,500 withheld at 25%, leaving $112,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 150,000 - 37,500 = 112,500"
+      }
+    },
+    {
+      "id": "0686e0b2854e",
+      "value": "$80,000",
+      "context": "Non-registered $80,000 (cost $50,000) Deemed sale: $30,000 capital gain on his 2026 return Yes No further Canadian tax on the deemed gain already reported",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "fe0c509d7305",
+      "value": "$50,000",
+      "context": "Non-registered $80,000 (cost $50,000) Deemed sale: $30,000 capital gain on his 2026 return Yes No further Canadian tax on the deemed gain already reported",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "01ea7060053f",
+      "value": "$30,000",
+      "context": "Non-registered $80,000 (cost $50,000) Deemed sale: $30,000 capital gain on his 2026 return Yes No further Canadian tax on the deemed gain already reported",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+      }
+    },
+    {
+      "id": "c594ffbef07f",
+      "value": "$20,000",
+      "context": "Chequing $20,000 Nothing No Nothing",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "b2e8c1518ee6",
+      "value": "$310,000",
+      "context": "Our worked example: of Sam's $310,000 across four accounts, only the $80,000 brokerage account triggers departure tax, on a $30,000 deemed gain.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 60,000 + 150,000 + 80,000 + 20,000 = 310,000"
+      }
+    },
+    {
+      "id": "fec236c1ff15",
+      "value": "$80,000",
+      "context": "Our worked example: of Sam's $310,000 across four accounts, only the $80,000 brokerage account triggers departure tax, on a $30,000 deemed gain.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "7eba7843fca0",
+      "value": "$30,000",
+      "context": "Our worked example: of Sam's $310,000 across four accounts, only the $80,000 brokerage account triggers departure tax, on a $30,000 deemed gain.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+      }
+    },
+    {
+      "id": "52dff86411ea",
+      "value": "$150,000",
+      "context": "His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "95fa76749f9e",
+      "value": "$37,500",
+      "context": "His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 150,000 x 25% Part XIII = 37,500"
+      }
+    },
+    {
+      "id": "4ca68e998f1c",
+      "value": "25%",
+      "context": "His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "ef5fe7cc01e5",
+      "value": "30%",
+      "context": "His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
+    },
+    {
+      "id": "ecf72f71f924",
+      "value": "$45,000",
+      "context": "His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 150,000 x 30% resident withholding (over $15,000) = 45,000"
+      }
+    },
+    {
+      "id": "a18bfc99f041",
+      "value": "$80,000",
+      "context": "First, he must file T1161, because his reportable property ($80,000) is over $25,000; the TFSA, RRSP and cash do not count toward it.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "Sam illustration input"
+      }
+    },
+    {
+      "id": "2de8fadb318e",
+      "value": "$25,000",
+      "context": "First, he must file T1161, because his reportable property ($80,000) is over $25,000; the TFSA, RRSP and cash do not count toward it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
+    },
+    {
+      "id": "1d0767c1fbc6",
+      "value": "$30,000",
+      "context": "Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+      }
+    },
+    {
+      "id": "98aa1d3deeec",
+      "value": "33%",
+      "context": "Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial rates for 2026 The rate"
+    },
+    {
+      "id": "dec1cb75f497",
+      "value": "$9,900,",
+      "context": "Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "30,000 x 33% top 2026 federal rate = 9,900 (upper bound)"
+      }
+    },
+    {
+      "id": "2e21e7513899",
+      "value": "$16,500",
+      "context": "Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
+    },
+    {
+      "id": "75cadfd287e7",
+      "value": "$7,000",
+      "context": "If an automatic $7,000 contribution went in during January 2027 and stayed for five months, the non-resident tax alone would be $350 (1% a month), and up to another $350 if it also exceeded his room.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "illustrative automatic contribution amount"
+      }
+    },
+    {
+      "id": "4b56a08ab5cc",
+      "value": "$350",
+      "context": "If an automatic $7,000 contribution went in during January 2027 and stayed for five months, the non-resident tax alone would be $350 (1% a month), and up to another $350 if it also exceeded his room.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "model sam: 7,000 x 1% x 5 months = 350"
+      }
+    },
+    {
+      "id": "10a6bb0df0c0",
+      "value": "1%",
+      "context": "If an automatic $7,000 contribution went in during January 2027 and stayed for five months, the non-resident tax alone would be $350 (1% a month), and up to another $350 if it also exceeded his room.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "66c64195c09c",
+      "value": "60",
+      "context": "The CRA's HBP repayment page says that if you become a non-resident after you buy or build a qualifying home, you must either repay the remaining balance to your RRSPs by the earlier of the time you file your return for the year you become a non-resident and 60 days after you become a non-resident, or include the balance as RRSP income on line 12900 of that return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html",
+      "sourceName": "CRA: Repay funds withdrawn under the Home Buyers' Plan",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "SPP in the year the repayment is due or in the first 60 days of the year after. Once your contributions are made,"
+    },
+    {
+      "id": "1a3f6e629060",
+      "value": "April 30",
+      "context": "Decide on T1244 if the deemed gain is large; it is due by April 30 of the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
+    },
+    {
+      "id": "9744b1ea7955",
+      "value": "60",
+      "context": "Settle any HBP balance within 60 days of becoming a non-resident, or plan for it as income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html",
+      "sourceName": "CRA: Repay funds withdrawn under the Home Buyers' Plan",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "SPP in the year the repayment is due or in the first 60 days of the year after. Once your contributions are made,"
+    },
+    {
+      "id": "40e049e8259d",
+      "value": "25%",
+      "context": "Withdrawals are subject to Part XIII withholding at 25% unless a treaty reduces it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html",
+      "sourceName": "CRA: Non-residents of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
+    },
+    {
+      "id": "3822873cca67",
+      "value": "1%",
+      "context": "You can, but any contribution after you become a non-resident is taxed at 1% a month until you withdraw it or become resident again, and you earn no room for full non-resident years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html",
+      "sourceName": "CRA: How non-residency affects your TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
+    },
+    {
+      "id": "ecdddde25394",
+      "value": "$25,000",
+      "context": "You must file it if the total fair market value of your reportable property is more than $25,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
+    },
+    {
+      "id": "121bb3c995b5",
+      "value": "$10,000",
+      "context": "Cash, registered plans and personal-use items under $10,000 are left out.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "collectibles) that has a fair market value of less than $10,000 (see the definition of \"personal-use property\" in"
+    },
+    {
+      "id": "a47422e50efd",
+      "value": "April 30",
+      "context": "Yes, with Form T1244 by April 30 of the year after you leave.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
+    },
+    {
+      "id": "ee72076c24c8",
+      "value": "$16,500",
+      "context": "You pay no interest, but the CRA requires security if the federal tax is over $16,500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html",
+      "sourceName": "CRA: Dispositions of property for emigrants of Canada",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
+    }
+  ]
+}

@@ -21,6 +21,7 @@ import { batch20261118Posts } from './nov2026/batch-2026-11-18';
 import { batch20261119Posts } from './nov2026/batch-2026-11-19';
 import { batch20261120Posts } from './nov2026/batch-2026-11-20';
 import { batch20261121Posts } from './nov2026/batch-2026-11-21';
+import { batch20261122Posts } from './nov2026/batch-2026-11-22';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -4314,6 +4315,8 @@ const allPosts: BlogPostRecord[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-to-open-tfsa/">How to open a TFSA in Canada, step by step</a> &middot; <a href="/blog/tfsa-withdrawal-rules/">TFSA withdrawal rules: when your room comes back</a> &middot; <a href="/blog/rrsp-or-tfsa-by-income/">RRSP or TFSA by income: the 2026 answer at 12 income levels</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the Tax-Free Savings Account for the 2026 planning year. It is not tax advice for your file. Contribution limits are set by the Department of Finance and administered by the Canada Revenue Agency; confirm your room in CRA My Account before you contribute. Dollar figures cited as this site’s planning totals should be checked against the CRA’s official TFSA dollar limit for 2026. Rules on attribution, superficial losses, withholding tax, and successor holders are summarized, not reproduced in full.</p>
         <div class="footer-note">Published: September 15, 2026 | Category: Investing | Author: Andrew</div>
@@ -7723,6 +7726,8 @@ const allPosts: BlogPostRecord[] = [
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Ebook</a>
         </div>
 
+    <p><strong>Related:</strong> <a href="/blog/tfsa-withdrawal-rules/">TFSA withdrawal rules: when your room comes back</a> &middot; <a href="/blog/investing-when-leaving-canada-tfsa-rrsp/">Leaving Canada? What happens to your TFSA, RRSP and investments</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, investment, or tax advice. Consult a qualified financial advisor or tax professional before making any investment decisions. Individual circumstances vary, and what works for one person may not work for another.</p>
 <p>Published: February 10, 2026 | Author: Andrew | Category: <a href="https://canadianoptimizer.com/category/taxes/">Taxes</a></p>
@@ -8826,6 +8831,8 @@ const allPosts: BlogPostRecord[] = [
                 </p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Checklist</a>
         </div>
+
+    <p><strong>Related:</strong> <a href="/blog/rrsp-or-tfsa-by-income/">RRSP or TFSA by income: the 2026 answer at 12 income levels</a> &middot; <a href="/blog/how-to-open-tfsa/">How to open a TFSA in Canada, step by step</a></p>
 
     <div class="article-footer">
         <p>
@@ -27130,6 +27137,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261119Posts,
   ...batch20261120Posts,
   ...batch20261121Posts,
+  ...batch20261122Posts,
 
 ];
 

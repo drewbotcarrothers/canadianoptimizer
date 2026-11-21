@@ -1,0 +1,38 @@
+{
+  "slug": "how-to-open-tfsa",
+  "title": "How to Open a TFSA in Canada, Step by Step",
+  "family": "how-to",
+  "category": "investing",
+  "subcategory": "accounts-asset-location",
+  "targetQuery": "how to open a tfsa",
+  "secondaryQueries": [
+    "how to open a tfsa online",
+    "tfsa eligibility",
+    "what do i need to open a tfsa"
+  ],
+  "infoGain": "Dated side-by-side table of what four providers (Questrade, Wealthsimple, EQ Bank, TD Direct Investing) let you do when opening a TFSA, from their own pages, plus a table of 2026 room by the first year you became eligible ($109,000 for 2009 down to $7,000 for 2026).",
+  "money": false,
+  "offers": [],
+  "ebook": "investing-guide",
+  "publishDate": "2026-11-22",
+  "agentChecks": {
+    "2a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "answers read as answers under the title and each question heading"
+    },
+    "4a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "no invented quotes, experience, tests or review claims"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}
