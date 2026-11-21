@@ -18343,6 +18343,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     author: "Andrew",
     date: "2026-03-19",
     updated: "2026-11-18",
+    youtubeId: "aoEIBI0hO6c",
+    youtubeTitle: "When Should You Withdraw From Your RRSP?",
+    youtubeUploadDate: "2026-11-20T19:35:06-05:00",
+    youtubeDuration: "PT5M33S",
     excerpt: "In what order should you draw an RRSP, TFSA and RRIF in Canada? Tax math on 2026 brackets, the OAS clawback and RRIF minimums, with worked examples.",
     image: "/images/blog/retirement-withdrawal-strategy.png",
     content: `<div class="container"><h1>Retirement Withdrawal Order in Canada: RRSP, TFSA and RRIF</h1>
