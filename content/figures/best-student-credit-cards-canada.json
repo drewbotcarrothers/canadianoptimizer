@@ -15,8 +15,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -33,9 +33,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -51,8 +51,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -69,8 +69,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -85,9 +85,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "h back? How will I know which grocery purchases qualify for 3% cash back? How will I know which payments qualify for 1% ca"
     },
@@ -104,8 +104,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -122,8 +122,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -140,8 +140,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -158,8 +158,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -176,8 +176,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -194,8 +194,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -212,9 +212,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -230,8 +230,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -246,8 +246,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -262,8 +262,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -280,8 +280,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -296,8 +296,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -312,8 +312,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -330,8 +330,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -346,9 +346,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "e first 4 monthly statement periods. Plus, you will receive 10% cash back on the net purchases posted to your account withi"
     },
@@ -365,8 +365,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -383,8 +383,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -401,8 +401,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -417,9 +417,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "nths!\u2021\u2021 APPLY NOW Turn everyday purchases into cash rewards 3% cash back on groceries On grocery purchases, so you can ear"
     },
@@ -436,8 +436,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -454,9 +454,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -472,8 +472,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -490,8 +490,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -508,8 +508,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -526,8 +526,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -544,8 +544,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -562,8 +562,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -580,8 +580,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -598,8 +598,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -616,8 +616,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -634,8 +634,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -652,8 +652,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -670,8 +670,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -688,8 +688,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -706,8 +706,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -724,8 +724,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -742,8 +742,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -760,8 +760,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -778,8 +778,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -796,8 +796,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -814,8 +814,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -830,9 +830,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Account must be opened by November 2, 2026"
     },
@@ -849,8 +849,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -867,8 +867,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -885,8 +885,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -903,8 +903,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -921,8 +921,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -939,8 +939,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -957,8 +957,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -975,8 +975,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -993,8 +993,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1011,8 +1011,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1029,8 +1029,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1047,8 +1047,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1065,8 +1065,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1081,9 +1081,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Account must be opened by November 2, 2026"
     },
@@ -1100,8 +1100,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1116,9 +1116,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "2% cash back on groceries"
     },
@@ -1135,8 +1135,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1153,8 +1153,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1171,8 +1171,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1189,8 +1189,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1207,8 +1207,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1223,9 +1223,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "0.5% cash back on everything else"
     },
@@ -1242,8 +1242,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1260,8 +1260,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1276,9 +1276,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Get $25 cash back after you make your first purchase"
     },
@@ -1293,9 +1293,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "do not apply on purchases on which the promotional rate of 10% applies. Cash back is earned on purchases less returns and"
     },
@@ -1310,9 +1310,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "$1,000 in total net purchases"
     },
@@ -1327,9 +1327,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "$1,000 in total net purchases"
     },
@@ -1346,8 +1346,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1364,8 +1364,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -1380,9 +1380,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "do not apply on purchases on which the promotional rate of 10% applies. Cash back is earned on purchases less returns and"
     },
@@ -1397,9 +1397,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "$1,000 in total net purchases"
     },
@@ -1414,9 +1414,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "mentum\u00ae No-Fee Visa* Card (for students) Special offer Earn 5% cash back on all purchases for the first 3 months (up to $2"
     },
@@ -1431,8 +1431,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "issuer page cibc_div_st prints no annual fee / $0 today"
       },
       "needle": "student referral offer. Fees and interest rates Annual fee $0 $0 for up to 3 additional cards Purchase interest rate3 21."
@@ -1448,9 +1448,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "Purchase interest rate 20.99%"
     },
@@ -1465,9 +1465,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Purchase interest rate4 21.99%"
     },
@@ -1484,9 +1484,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -1500,8 +1500,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "issuer page cibc_div_st prints no annual fee / $0 today"
       },
       "needle": "g Transportation Dining Recurring Payments CIBC by Expedia6 0.5% cash back on everything else.5 Everything Else Earn maxi"
@@ -1517,9 +1517,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "2% cash back on groceries"
     },
@@ -1534,9 +1534,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "1% cash back on eligible gas, electric vehicle charging, transportation, dining, recurring payments"
     },
@@ -1551,9 +1551,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "0.5% cash back on everything else"
     },
@@ -1568,9 +1568,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Purchase interest rate4 21.99%"
     },
@@ -1585,9 +1585,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Get $25 cash back after you make your first purchase"
     },
@@ -1602,9 +1602,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "e first 4 monthly statement periods. Plus, you will receive 10% cash back on the net purchases posted to your account withi"
     },
@@ -1619,9 +1619,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "net purchases up to $1,000"
     },
@@ -1636,9 +1636,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000 $5,000 Amount Between $0 and $5,000 Recur"
     },
@@ -1653,9 +1653,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "nths!\u2021\u2021 APPLY NOW Turn everyday purchases into cash rewards 3% cash back on groceries On grocery purchases, so you can ear"
     },
@@ -1670,9 +1670,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "r monthly spending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000 $5,000 Amount Between $0 and $"
     },
@@ -1687,9 +1687,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "or 3% cash back? How will I know which payments qualify for 1% cash back on recurring bill payments? Where can I find my c"
     },
@@ -1704,9 +1704,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "mobile phones, streaming services, or subscriptions.2B,D,E 0.5% cash back on every day essentials On all other purchases, s"
     },
@@ -1721,9 +1721,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "cash back 101? Here\u2019s what you need to know. $0 annual fee8 21.99% for purchases8 23.99% for cash advances8 21.99% for Quebec"
     },
@@ -1738,9 +1738,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ayments!2B,C,D,E Plus, pay no annual fee. Welcome offer Get 5% cash back in your first 3 months!\u2021\u2021 APPLY NOW Turn everyday"
     },
@@ -1755,9 +1755,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "Apply Now RBC ION+ Visa RBC Cash Back Mastercard Annual Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 i"
     },
@@ -1772,9 +1772,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "ack2 on all purchases1 on all purchases with no annual fee. 2% unlimited cash back on grocery store purchases1 1% unlimite"
     },
@@ -1789,9 +1789,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "r been easier. 2% Cash Back Earn 2% cash back on groceries1 1% Cash Back Earn 1% cash back on gas, EV charging, rideshare,"
     },
@@ -1806,9 +1806,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "on gas, EV charging, rideshare, and transit purchases1 and 0.5% cash back on all other purchases1. Redeem Your Cash Back Ea"
     },
@@ -1823,9 +1823,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "ffer Details Annual Fee $0 Additional Card $0 Purchase Rate 21.99% Cash Advance Rate 22.99%* Apply Now View Legal Disclaimers"
     },
@@ -1840,9 +1840,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "sa RBC Cash Back Mastercard Annual Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^"
     },
@@ -1857,9 +1857,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. For stud"
     },
@@ -1874,9 +1874,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. For students who want to earn unlimited cash back2 on all"
     },
@@ -1891,9 +1891,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Annual Fee $0"
     },
@@ -1908,9 +1908,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Earn 1% in Cash Back Dollars on Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media"
     },
@@ -1925,9 +1925,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Earn 0.5% in Cash Back Dollars on all other Purchases"
     },
@@ -1942,9 +1942,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Interest: Purchases 21.99%"
     },
@@ -1959,9 +1959,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Earn $125 in Cash Back Dollars when you spend $1000+ in the first 3 months"
     },
@@ -1976,9 +1976,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "when you spend $1,000+ in the first 3 months"
     },
@@ -1993,9 +1993,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Account must be opened by November 2, 2026"
     },
@@ -2010,8 +2010,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "issuer page scotia_mom_st prints no annual fee / $0 today"
       },
       "needle": "rring subscription services like music and video streaming2 0.5% On all other eligible purchases2 Browse the Scotia Momen"
@@ -2027,9 +2027,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "recurring bill payments like utilities and gym memberships2 1% On eligible recurring subscription services like music and"
     },
@@ -2044,9 +2044,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "on eligible Net Purchases (up to an annual spend limit of $15,000) at Gas Stations (Merchant Category Codes (\u201cMCC\u201d): 5541, 55"
     },
@@ -2061,9 +2061,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "rring subscription services like music and video streaming2 0.5% On all other eligible purchases2 Browse the Scotia Momentum"
     },
@@ -2078,9 +2078,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "e $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your cash advance rate applies to"
     },
@@ -2095,9 +2095,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "mentum\u00ae No-Fee Visa* Card (for students) Special offer Earn 5% cash back on all purchases for the first 3 months (up to $2"
     },
@@ -2112,9 +2112,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "% cash back on all purchases for the first 3 months (up to $2,000 in total purchases).1 Plus, get a 0.99% introductory intere"
     },
@@ -2129,9 +2129,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "a credit card accounts (\u201cAccounts\u201d) that are opened between November 2, 2026, and April 30, 2027 (regardless of the date you apply for t"
     },
@@ -2146,9 +2146,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "(\u201cAccounts\u201d) that are opened between November 2, 2026, and April 30, 2027 (regardless of the date you apply for the Account) and is s"
     },
@@ -2163,9 +2163,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "2% cash back on groceries"
     },
@@ -2180,9 +2180,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "1% cash back on eligible gas, electric vehicle charging, transportation, dining, recurring payments"
     },
@@ -2197,9 +2197,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Canadian students can get a credit limit of up to $5,000"
     },
@@ -2214,9 +2214,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "edit criteria requirements for the maximum credit limit of $2,000, you may be approved for a lower credit limit. The final li"
     },
@@ -2231,9 +2231,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "re! Your cash back will grow over time, and once it reaches $10 or more, you can easily redeem it through CIBC Online Banki"
     },
@@ -2248,9 +2248,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "2% cash back on groceries"
     },
@@ -2267,8 +2267,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2283,9 +2283,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "icy on bmo.com. ACCEPT AND CONTINUE Manage your preferences 3% cash back on eligible grocery purchases up to a maximum of"
     },
@@ -2300,9 +2300,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "cash back on eligible grocery purchases up to a maximum of $500 spent per statement cycle period 1% cash back on eligible r"
     },
@@ -2319,8 +2319,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2337,8 +2337,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2353,9 +2353,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "es up to a maximum of $500 spent per statement cycle period 1% cash back on eligible recurring bill payments up to a maxim"
     },
@@ -2370,9 +2370,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "cash back on eligible grocery purchases up to a maximum of $500 spent per statement cycle period 1% cash back on eligible r"
     },
@@ -2387,9 +2387,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "mobile phones, streaming services, or subscriptions.2B,D,E 0.5% cash back on every day essentials On all other purchases, s"
     },
@@ -2404,9 +2404,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "redeem your cash back for as little as $1"
     },
@@ -2421,9 +2421,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "Top Credit Card Benefits Get Unlimited Cash Back Fast2 Earn 2% cash back on groceries, 1% cash back on gas, EV charging, r"
     },
@@ -2438,9 +2438,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "t Unlimited Cash Back Fast2 Earn 2% cash back on groceries, 1% cash back on gas, EV charging, rideshare, and transit purch"
     },
@@ -2455,9 +2455,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ayments!2B,C,D,E Plus, pay no annual fee. Welcome offer Get 5% cash back in your first 3 months!\u2021\u2021 APPLY NOW Turn everyday"
     },
@@ -2472,9 +2472,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "SH BACK SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. View Off"
     },
@@ -2491,8 +2491,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2509,8 +2509,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2525,9 +2525,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "on eligible purchases on: Gas EV charging Transit Rideshare 0.5% cash back1 on: All other eligible purchases How do I redeem"
     },
@@ -2542,9 +2542,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "with a minimum of $25"
     },
@@ -2559,9 +2559,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Earn 1% in Cash Back Dollars on Recurring Bill Payments, and Streaming, Digital Gaming & Media"
     },
@@ -2576,9 +2576,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Earn 0.5% in Cash Back Dollars on all other Purchases"
     },
@@ -2593,9 +2593,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Earn $125 in Cash Back Dollars when you spend $1000+ in the first 3 months"
     },
@@ -2610,9 +2610,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "when you spend $1,000+ in the first 3 months"
     },
@@ -2627,9 +2627,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
       },
       "needle": "Account must be opened by November 2, 2026"
     },
@@ -2644,9 +2644,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (td_cbv, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
       },
       "needle": "Earn 1% in Cash Back Dollars on Grocery"
     },
@@ -2661,9 +2661,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "Earn 2% cash back on groceries"
     },
@@ -2678,9 +2678,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "3% cash back on groceries"
     },
@@ -2695,9 +2695,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "ry and food subscription services, and drugstore purchases2 1% On gas, electric vehicle charging, and daily transit like b"
     },
@@ -2712,9 +2712,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "up to an annual spend limit of $15,000"
     },
@@ -2729,9 +2729,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
     },
@@ -2746,9 +2746,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "e $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your cash advance rate applies to"
     },
@@ -2763,9 +2763,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
     },
@@ -2780,9 +2780,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "ion: Once the cash back balance on your credit card reaches $25 or more, you can have the full amount credited to your acco"
     },
@@ -2799,9 +2799,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -2815,9 +2815,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "maximum credit limit of $2,000"
     },
@@ -2832,9 +2832,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ched the age of majority in the province in which you live (18 years in AB, MB, ON, PE, QC and SK. 19 years in all other p"
     },
@@ -2849,9 +2849,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "between the ages of 18 and 24"
     },
@@ -2866,9 +2866,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": ", Saskatchewan, Ontario, Quebec and PEI, the minimum age is 18. In all other provinces and territories, the minimum age is"
     },
@@ -2883,9 +2883,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_student, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
       },
       "needle": "In all other provinces and territories, the minimum age is 19. I\u2019m an International Student looking for an RBC credit car"
     },
@@ -2900,9 +2900,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "Purchase interest rate 20.99%"
     },
@@ -2917,9 +2917,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "cash back 101? Here\u2019s what you need to know. $0 annual fee8 21.99% for purchases8 23.99% for cash advances8 21.99% for Quebec"
     },
@@ -2934,8 +2934,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -2950,9 +2950,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Purchase interest rate4 21.99%"
     },
@@ -2969,8 +2969,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -2985,9 +2985,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "ss payments or have too much debt Scores usually range from 300 to 900. A higher score is better. Learn how to improve your"
     },
@@ -3002,9 +3002,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "ents or have too much debt Scores usually range from 300 to 900. A higher score is better. Learn how to improve your credit"
     },
@@ -3019,9 +3019,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
     },
@@ -3036,9 +3036,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
     },
@@ -3053,9 +3053,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
     },
@@ -3072,8 +3072,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3090,8 +3090,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3106,8 +3106,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -3122,9 +3122,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "th a free SPC+ membership\u2726 Level up your savings with up to 30% off 450+ brands you love. Unlock VIP contests, next-level g"
     },
@@ -3141,8 +3141,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3159,8 +3159,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3175,9 +3175,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
     },
@@ -3194,8 +3194,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3210,9 +3210,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
     },
@@ -3227,9 +3227,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ack\u00ae Mastercard\u00ae* Estimate your monthly spending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000"
     },
@@ -3246,8 +3246,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3262,9 +3262,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (rbc_cbmc, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
       },
       "needle": "ck with the RBC Cash Back Mastercard has never been easier. 2% Cash Back Earn 2% cash back on groceries1 1% Cash Back Earn"
     },
@@ -3279,9 +3279,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "maximum credit limit of $2,000"
     },
@@ -3298,8 +3298,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3316,8 +3316,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3334,8 +3334,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3352,8 +3352,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -3368,9 +3368,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "maximum credit limit of $2,000"
     },
@@ -3385,9 +3385,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (scotia_mom_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
       },
       "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
     },
@@ -3402,9 +3402,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "Canadian students can get a credit limit of up to $5,000"
     },
@@ -3419,9 +3419,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (cibc_div_st, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
       },
       "needle": "International students can get a credit limit of up to $2,000"
     },
@@ -3436,9 +3436,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
     },
@@ -3453,9 +3453,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "eint l\u2019\u00e2ge de la majorit\u00e9 dans votre province de r\u00e9sidence (18 ans dans les provinces suivantes : Alberta, Manitoba, Ontar"
     },
@@ -3470,9 +3470,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "ba, Ontario, \u00cele-du-Prince-\u00c9douard, Qu\u00e9bec et Saskatchewan; 19 ans dans toutes les autres provinces) Avoir un revenu annue"
     },
@@ -3487,9 +3487,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "tudent credit card with us.Be a student between the ages of 18 and 24 at a recognized post-secondary school.Be a Canadian"
     },
@@ -3504,9 +3504,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (bmo_st_cb, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
       },
       "needle": "between the ages of 18 and 24"
     }

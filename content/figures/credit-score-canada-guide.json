@@ -15,9 +15,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -31,9 +31,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     },
@@ -48,9 +48,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     },
@@ -65,9 +65,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "Closed accounts stay on your report for up to 10 years"
     },
@@ -82,9 +82,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "information stays on your report for up to 20 years, even if you close the account"
     },
@@ -99,9 +99,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     },
@@ -116,9 +116,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     },
@@ -135,9 +135,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -151,9 +151,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "Try to use less than 30% of your total credit limit"
     },
@@ -168,9 +168,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "information stays on your report for up to 20 years, even if you close the account"
     },
@@ -185,9 +185,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "Closed accounts stay on your report for up to 10 years"
     },
@@ -204,9 +204,9 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "review date = day sources were re-read (2026-11-20)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
       }
     },
     {
@@ -220,9 +220,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "Closed accounts stay on your report for up to 10 years"
     },
@@ -237,9 +237,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "information stays on your report for up to 20 years, even if you close the account"
     },
@@ -254,9 +254,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "10 years in Prince Edward Island"
     },
@@ -271,9 +271,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (tu_freeze, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (tu_freeze, HTTP 200)"
       },
       "needle": "the mail method can take up to 30 days"
     },
@@ -288,9 +288,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -305,9 +305,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -322,9 +322,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -339,9 +339,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (tu_disputes, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (tu_disputes, HTTP 200)"
       },
       "needle": "Investigations are typically concluded within 30 days"
     },
@@ -356,9 +356,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_info, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_info, HTTP 200)"
       },
       "needle": "credit bureaus keep the information on your credit report for 14 years"
     },
@@ -373,9 +373,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "Try to use less than 30% of your total credit limit"
     },
@@ -390,9 +390,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "your credit card has a $5,000 limit and you normally use $1,000"
     },
@@ -407,9 +407,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "you normally use $1,000"
     },
@@ -424,9 +424,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_improve, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
       },
       "needle": "Your credit utilization rate is at 20%"
     },
@@ -441,8 +441,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -457,8 +457,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -475,8 +475,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -491,8 +491,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -507,8 +507,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -525,8 +525,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -543,8 +543,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -561,8 +561,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -577,8 +577,8 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "labelled example on the page"
       }
     },
@@ -595,8 +595,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -613,8 +613,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -631,8 +631,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -649,8 +649,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -667,8 +667,8 @@
       ],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
         "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
       }
     },
@@ -683,9 +683,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "You regularly owe $4,500"
     },
@@ -700,9 +700,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "a credit card with a $5,000 limit"
     },
@@ -717,9 +717,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "someone who owes $1,000 each month"
     },
@@ -734,9 +734,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -751,9 +751,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -768,9 +768,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "about 15-20 days for online submissions and 20-25 days for mailed submissions"
     },
@@ -785,9 +785,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (tu_disputes, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (tu_disputes, HTTP 200)"
       },
       "needle": "Investigations are typically concluded within 30 days"
     },
@@ -802,9 +802,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (efx_dispute, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (efx_dispute, HTTP 200)"
       },
       "needle": "800 characters or less"
     },
@@ -819,9 +819,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (tu_freeze, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (tu_freeze, HTTP 200)"
       },
       "needle": "Beginning July 1, 2027"
     },
@@ -836,9 +836,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     },
@@ -853,9 +853,9 @@
       "derivedFrom": [],
       "verify": {
         "status": "match",
-        "checkedOn": "2026-11-20",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-20 (qa/figs/2026-11-21/recheck.py); separate from drafting",
-        "note": "needle found on page fetched 2026-11-20 (fcac_basics, HTTP 200)"
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
       },
       "needle": "Scores usually range from 300 to 900"
     }
