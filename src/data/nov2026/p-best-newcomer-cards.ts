@@ -183,6 +183,8 @@ const content = `<div class="container">
         <li><a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">Credit cards with no foreign transaction fee</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/credit-score-canada-guide/">How credit scores work in Canada: Equifax vs TransUnion</a> &middot; <a href="/blog/best-student-credit-cards-canada/">Best student credit cards in Canada</a> &middot; <a href="/blog/best-secured-credit-cards-canada/">Best secured credit cards in Canada for rebuilding credit</a></p>
+
     ${batchFooter(D, 'Credit Cards', disclaimer)}
 
 </div>`;

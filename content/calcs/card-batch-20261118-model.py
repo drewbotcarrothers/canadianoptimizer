@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Model behind the Nov 18 credit-card batch (our own arithmetic, annual, CAD, all spend in Canada unless stated).
 
-SOURCED (issuer and government pages, reviewed 2026-11-15; see each post's Sources):
+SOURCED (issuer and government pages, reviewed 2026-11-15, re-verified 2026-11-20 for the Nov 21 batch; see each post's Sources):
   Tangerine Money-Back Credit Card: $0 fee; 2% in two chosen categories (three if rewards go to a Tangerine
      Savings Account); 0.5% on everything else; 13 category options; categories changeable every 90 days;
      foreign currency conversion fee 2.50%; purchase rate 20.95%.
@@ -17,7 +17,8 @@ SOURCED (issuer and government pages, reviewed 2026-11-15; see each post's Sourc
      RBC Cash Back Mastercard: 2% groceries, 1% gas/EV/rideshare/transit, 0.5% other; welcome: 5% extra on first
         $2,000 of spend for 6 months (apply by Feb 2, 2027).
      TD Cash Back Visa (students): 1% grocery, gas/EV, public transit, recurring bills, streaming/digital gaming/media;
-        0.5% other; welcome: $125 when $1,000+ is spent in the first 3 months.
+        0.5% other; welcome: $125 when $1,000+ is spent in the first 3 months -- re-check 2026-11-20: TD's printed
+        terms say the offer ended November 2, 2026 (accounts opened by Nov 2), so no welcome value is counted.
   Secured cards:
      Home Trust Secured Visa: deposit $500-$10,000; no-fee option 19.99%; low-fee option $59/yr and 14.90%.
      Neo Mastercard with a secured limit: $0 card fee, Build membership required at $9.99/month; security funds
@@ -118,9 +119,9 @@ for card in ['scotia', 'bmo', 'cibc', 'rbc', 'td']:
     elif card == 'rbc':    # 5% extra on first $2,000 of spend within 6 months
         promo_spend = min(2000, 6 * 600)
         bonus = promo_spend * 0.05
-    elif card == 'td':     # $125 when $1,000+ spent in first 3 months (3 x $600 = $1,800 qualifies)
-        promo_spend = 3 * 600
-        bonus = 125 if promo_spend >= 1000 else 0
+    elif card == 'td':     # $125 offer ended November 2, 2026 per TD's printed terms (re-checked 2026-11-20): not counted
+        promo_spend = 0
+        bonus = 0
     else:                  # BMO: not counted (offer terms not printed in full)
         promo_spend = 0
         bonus = 0

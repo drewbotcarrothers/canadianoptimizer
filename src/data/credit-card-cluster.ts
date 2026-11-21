@@ -198,7 +198,7 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.canada.ca/en/financial-consumer-agency/services/credit-cards.html">FCAC: credit cards</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a></p>
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/best-student-credit-cards-canada/">Best student credit cards in Canada</a> &middot; <a href="/blog/best-secured-credit-cards-canada/">Best secured credit cards in Canada for rebuilding credit</a></p>
 
     <div class="cta-section">
         <p><strong>The card is a few hundred dollars. The tax return is larger.</strong></p>
@@ -963,7 +963,7 @@ export const creditCardClusterPosts: CardPost[] = [
         <li><a href="https://www.americanexpress.com/en-ca/benefits/simplycash-card/">SimplyCash from American Express</a></li>
     </ul>
 
-        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a></p>
+        <p><strong>Related:</strong> <a href="/blog/best-credit-cards-newcomers-canada/">Best credit cards for newcomers to Canada (no credit history)</a> &middot; <a href="/blog/neo-credit-card-review/">Neo credit card review: which Neo Mastercard pays you most</a> &middot; <a href="/blog/best-student-credit-cards-canada/">Best student credit cards in Canada</a> &middot; <a href="/blog/credit-score-canada-guide/">How credit scores work in Canada: Equifax vs TransUnion</a></p>
 
     ${footer('September 27, 2026')}
 

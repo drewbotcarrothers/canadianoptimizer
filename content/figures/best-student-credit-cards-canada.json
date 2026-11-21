@@ -1,0 +1,3514 @@
+{
+  "slug": "best-student-credit-cards-canada",
+  "publishDate": "2026-11-21",
+  "figures": [
+    {
+      "id": "5cf763e9e096",
+      "value": "$600",
+      "context": "We ran five no-fee student cards through the same $600-a-month student budget to see which pays most in year one and year two.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "87ce83968ab9",
+      "value": "November 20, 2026",
+      "context": "This guide sits in our no-fee, student and newcomer cards hub , with every rate taken from issuer pages on November 20, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
+      }
+    },
+    {
+      "id": "769cb1afd18c",
+      "value": "$203.53",
+      "context": "The best student credit card in Canada for most first-year students is the CIBC Dividend Visa for Students: no annual fee, no minimum income requirement, and $203.53 of value in year one on our $600-a-month budget.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "260ef25d778c",
+      "value": "$600",
+      "context": "The best student credit card in Canada for most first-year students is the CIBC Dividend Visa for Students: no annual fee, no minimum income requirement, and $203.53 of value in year one on our $600-a-month budget.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "4dbc7a9681fa",
+      "value": "3%",
+      "context": "Students with a part-time job who buy their own groceries should look at BMO's student card, which pays 3% on groceries.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "h back? How will I know which grocery purchases qualify for 3% cash back? How will I know which payments qualify for 1% ca"
+    },
+    {
+      "id": "2655e77b6e4a",
+      "value": "$0",
+      "context": "All five cards we compared have a $0 annual fee, so the first-year value is cash back plus any welcome offer, as long as you pay in full.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "43ce014cc5e0",
+      "value": "$600",
+      "context": "On a $600-a-month student budget, first-year value ranged from $60.00 to $203.53; ongoing value from $60.00 to $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "083f908d889d",
+      "value": "$60.00",
+      "context": "On a $600-a-month student budget, first-year value ranged from $60.00 to $203.53; ongoing value from $60.00 to $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "760966a24ca9",
+      "value": "$203.53",
+      "context": "On a $600-a-month student budget, first-year value ranged from $60.00 to $203.53; ongoing value from $60.00 to $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "5ad2cf952358",
+      "value": "$106.80",
+      "context": "On a $600-a-month student budget, first-year value ranged from $60.00 to $203.53; ongoing value from $60.00 to $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "817069d56ec0",
+      "value": "$600",
+      "context": "First-year value on a $600 budget",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "4134fd9395fb",
+      "value": "November 20, 2026",
+      "context": "For each, we read the annual fee, earn rates, caps, interest rates, eligibility rules and welcome offer on the issuer's page on November 20, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
+      }
+    },
+    {
+      "id": "929382557425",
+      "value": "$600",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f4688fb6debf",
+      "value": "$7,200",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "8df5f655d6af",
+      "value": "$220",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "fdd7dd012c7f",
+      "value": "$100",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "b764cd061aaf",
+      "value": "$80",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "e6478c339ff2",
+      "value": "$120",
+      "context": "We then applied every card to the same example budget of $600 a month, $7,200 a year: $220 of groceries, $100 of transit, $80 of phone and streaming bills, $80 of dining out and $120 of everything else.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "d6c006887795",
+      "value": "$203.53",
+      "context": "The CIBC Dividend Visa for Students came first on our budget at $203.53, thanks to its 10% welcome rate, with RBC second at $181.60 and Scotiabank third at $135.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f52ca835c030",
+      "value": "10%",
+      "context": "The CIBC Dividend Visa for Students came first on our budget at $203.53, thanks to its 10% welcome rate, with RBC second at $181.60 and Scotiabank third at $135.00.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "e first 4 monthly statement periods. Plus, you will receive 10% cash back on the net purchases posted to your account withi"
+    },
+    {
+      "id": "84159634d091",
+      "value": "$181.60",
+      "context": "The CIBC Dividend Visa for Students came first on our budget at $203.53, thanks to its 10% welcome rate, with RBC second at $181.60 and Scotiabank third at $135.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "94e15f9e7857",
+      "value": "$135.00",
+      "context": "The CIBC Dividend Visa for Students came first on our budget at $203.53, thanks to its 10% welcome rate, with RBC second at $181.60 and Scotiabank third at $135.00.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e0a5be255396",
+      "value": "$106.80",
+      "context": "From year two, BMO pays the most at $106.80 a year, because 3% on groceries is the richest everyday rate in the group.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "c8d533b13f00",
+      "value": "3%",
+      "context": "From year two, BMO pays the most at $106.80 a year, because 3% on groceries is the richest everyday rate in the group.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "nths!\u2021\u2021 APPLY NOW Turn everyday purchases into cash rewards 3% cash back on groceries On grocery purchases, so you can ear"
+    },
+    {
+      "id": "8d13b40c4ff8",
+      "value": "$600",
+      "context": "Student card value on a $600-a-month budget (our calculation from issuer rates, reviewed November 20, 2026; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "65c179f8b856",
+      "value": "November 20, 2026",
+      "context": "Student card value on a $600-a-month budget (our calculation from issuer rates, reviewed November 20, 2026; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
+      }
+    },
+    {
+      "id": "09d5f296dd46",
+      "value": "$91.20",
+      "context": "CIBC Dividend Visa for Students $91.20 1.27% $112.33 $203.53 $294.73",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "d3597387dc63",
+      "value": "1.27%",
+      "context": "CIBC Dividend Visa for Students $91.20 1.27% $112.33 $203.53 $294.73",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "a4a14a37674e",
+      "value": "$112.33",
+      "context": "CIBC Dividend Visa for Students $91.20 1.27% $112.33 $203.53 $294.73",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "8e76e3eda347",
+      "value": "$203.53",
+      "context": "CIBC Dividend Visa for Students $91.20 1.27% $112.33 $203.53 $294.73",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "a3963bfc0966",
+      "value": "$294.73",
+      "context": "CIBC Dividend Visa for Students $91.20 1.27% $112.33 $203.53 $294.73",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "d41c78bd923a",
+      "value": "$81.60",
+      "context": "RBC Cash Back Mastercard $81.60 1.13% $100.00 $181.60 $263.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "0c6bc795106f",
+      "value": "1.13%",
+      "context": "RBC Cash Back Mastercard $81.60 1.13% $100.00 $181.60 $263.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "776aa3616442",
+      "value": "$100.00",
+      "context": "RBC Cash Back Mastercard $81.60 1.13% $100.00 $181.60 $263.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "cfab8294bbe4",
+      "value": "$181.60",
+      "context": "RBC Cash Back Mastercard $81.60 1.13% $100.00 $181.60 $263.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "dadaeb0386ea",
+      "value": "$263.20",
+      "context": "RBC Cash Back Mastercard $81.60 1.13% $100.00 $181.60 $263.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "711e48e5b867",
+      "value": "$60.00",
+      "context": "Scotia Momentum No-Fee Visa (students) $60.00 0.83% $75.00 $135.00 $195.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "eb8e274d72fd",
+      "value": "0.83%",
+      "context": "Scotia Momentum No-Fee Visa (students) $60.00 0.83% $75.00 $135.00 $195.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "969006ae5feb",
+      "value": "$75.00",
+      "context": "Scotia Momentum No-Fee Visa (students) $60.00 0.83% $75.00 $135.00 $195.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "9325ca56e1fb",
+      "value": "$135.00",
+      "context": "Scotia Momentum No-Fee Visa (students) $60.00 0.83% $75.00 $135.00 $195.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "8a13dc2e5553",
+      "value": "$195.00",
+      "context": "Scotia Momentum No-Fee Visa (students) $60.00 0.83% $75.00 $135.00 $195.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "bd582b524071",
+      "value": "$106.80",
+      "context": "BMO CashBack Mastercard (students) $106.80 1.48% Not counted (full terms not found) $106.80 $213.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f5372f065e0a",
+      "value": "1.48%",
+      "context": "BMO CashBack Mastercard (students) $106.80 1.48% Not counted (full terms not found) $106.80 $213.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "dd51961476eb",
+      "value": "$213.60",
+      "context": "BMO CashBack Mastercard (students) $106.80 1.48% Not counted (full terms not found) $106.80 $213.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e3c34cdabffc",
+      "value": "$60.00",
+      "context": "TD Cash Back Visa $60.00 0.83% None (printed offer ended November 2, 2026) $60.00 $120.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "3143249a8b59",
+      "value": "0.83%",
+      "context": "TD Cash Back Visa $60.00 0.83% None (printed offer ended November 2, 2026) $60.00 $120.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "309dad6deed9",
+      "value": "November 2, 2026",
+      "context": "TD Cash Back Visa $60.00 0.83% None (printed offer ended November 2, 2026) $60.00 $120.00",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Account must be opened by November 2, 2026"
+    },
+    {
+      "id": "a9e5f58acc3c",
+      "value": "$120.00",
+      "context": "TD Cash Back Visa $60.00 0.83% None (printed offer ended November 2, 2026) $60.00 $120.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "401224aca9b7",
+      "value": "$600",
+      "context": "Did you know: on the same $600-a-month student budget, the card with the biggest first-year value (CIBC, $203.53) is not the card with the biggest ongoing value (BMO, $106.80 a year), so over two years the gap narrows to $81.13 even before BMO's uncounted welcome offer.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "feb3fc49aefd",
+      "value": "$203.53",
+      "context": "Did you know: on the same $600-a-month student budget, the card with the biggest first-year value (CIBC, $203.53) is not the card with the biggest ongoing value (BMO, $106.80 a year), so over two years the gap narrows to $81.13 even before BMO's uncounted welcome offer.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "9731b0909526",
+      "value": "$106.80",
+      "context": "Did you know: on the same $600-a-month student budget, the card with the biggest first-year value (CIBC, $203.53) is not the card with the biggest ongoing value (BMO, $106.80 a year), so over two years the gap narrows to $81.13 even before BMO's uncounted welcome offer.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "071d089f9954",
+      "value": "$81.13",
+      "context": "Did you know: on the same $600-a-month student budget, the card with the biggest first-year value (CIBC, $203.53) is not the card with the biggest ongoing value (BMO, $106.80 a year), so over two years the gap narrows to $81.13 even before BMO's uncounted welcome offer.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "3b1930247f34",
+      "value": "$600",
+      "context": "First-year value on a $600-a-month student budget (our calculation; example)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f64bfa1aa3f7",
+      "value": "$203.53",
+      "context": "$203.53",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "5f56b4f213ea",
+      "value": "$181.60",
+      "context": "$181.60",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "8cef359d625b",
+      "value": "$135.00",
+      "context": "$135.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "7a18c0046111",
+      "value": "$106.80",
+      "context": "$106.80",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e39b81ddc9cb",
+      "value": "$60.00",
+      "context": "$60.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f12d7db2e1d5",
+      "value": "$60.00",
+      "context": "First-year value runs from $60.00 (TD) to $203.53 (CIBC).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "81291dc2e588",
+      "value": "$203.53",
+      "context": "First-year value runs from $60.00 (TD) to $203.53 (CIBC).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "7ea2ac2cabff",
+      "value": "November 2, 2026",
+      "context": "TD's has none because the student offer printed in its terms ended on November 2, 2026, even though the headline still appeared on the page when we checked.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Account must be opened by November 2, 2026"
+    },
+    {
+      "id": "abeccd0de205",
+      "value": "$2,640",
+      "context": "Groceries, $2,640 a year at 2% $52.80",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "c2f094fb07e5",
+      "value": "2%",
+      "context": "Groceries, $2,640 a year at 2% $52.80",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "2% cash back on groceries"
+    },
+    {
+      "id": "ed823cb67644",
+      "value": "$52.80",
+      "context": "Groceries, $2,640 a year at 2% $52.80",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "fcbd11c4ab47",
+      "value": "$3,120",
+      "context": "Transit, phone and dining, $3,120 a year at 1% $31.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "360609bdacc5",
+      "value": "1%",
+      "context": "Transit, phone and dining, $3,120 a year at 1% $31.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "66869808ed85",
+      "value": "$31.20",
+      "context": "Transit, phone and dining, $3,120 a year at 1% $31.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "d696c88b0932",
+      "value": "$1,440",
+      "context": "Everything else, $1,440 a year at 0.5% $7.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e0bb35b77283",
+      "value": "0.5%",
+      "context": "Everything else, $1,440 a year at 0.5% $7.20",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "0.5% cash back on everything else"
+    },
+    {
+      "id": "c47cf5f6c184",
+      "value": "$7.20",
+      "context": "Everything else, $1,440 a year at 0.5% $7.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "7e0e09119096",
+      "value": "$91.20",
+      "context": "Regular cash back for a year $91.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "055324b28494",
+      "value": "$25",
+      "context": "Welcome: $25 + 10% of the first $1,000, less the regular rate that $1,000 would have earned $112.33",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Get $25 cash back after you make your first purchase"
+    },
+    {
+      "id": "16e8e81098aa",
+      "value": "10%",
+      "context": "Welcome: $25 + 10% of the first $1,000, less the regular rate that $1,000 would have earned $112.33",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "do not apply on purchases on which the promotional rate of 10% applies. Cash back is earned on purchases less returns and"
+    },
+    {
+      "id": "3076e1043b39",
+      "value": "$1,000,",
+      "context": "Welcome: $25 + 10% of the first $1,000, less the regular rate that $1,000 would have earned $112.33",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "$1,000 in total net purchases"
+    },
+    {
+      "id": "17856d73e95a",
+      "value": "$1,000",
+      "context": "Welcome: $25 + 10% of the first $1,000, less the regular rate that $1,000 would have earned $112.33",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "$1,000 in total net purchases"
+    },
+    {
+      "id": "77f4879a80cd",
+      "value": "$112.33",
+      "context": "Welcome: $25 + 10% of the first $1,000, less the regular rate that $1,000 would have earned $112.33",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "731077ee132a",
+      "value": "$203.53",
+      "context": "First-year value $203.53",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "6551b5de7532",
+      "value": "10%",
+      "context": "CIBC's terms say regular cash back rates do not apply to purchases that earn the 10% promotional rate, so we subtracted the regular rate on that $1,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "do not apply on purchases on which the promotional rate of 10% applies. Cash back is earned on purchases less returns and"
+    },
+    {
+      "id": "1e18a8abf509",
+      "value": "$1,000",
+      "context": "CIBC's terms say regular cash back rates do not apply to purchases that earn the 10% promotional rate, so we subtracted the regular rate on that $1,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "$1,000 in total net purchases"
+    },
+    {
+      "id": "1237d9120dcd",
+      "value": "5%",
+      "context": "Scotiabank's 5% offer works the same way, while RBC's offer is printed as 5% extra on top of the regular rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "mentum\u00ae No-Fee Visa* Card (for students) Special offer Earn 5% cash back on all purchases for the first 3 months (up to $2"
+    },
+    {
+      "id": "29fe1058e99d",
+      "value": "$0",
+      "context": "Each card has a $0 annual fee and purchase interest between 20.99% and 21.99%, so the differences are in the earn rates, caps and offer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "issuer page cibc_div_st prints no annual fee / $0 today"
+      },
+      "needle": "student referral offer. Fees and interest rates Annual fee $0 $0 for up to 3 additional cards Purchase interest rate3 21."
+    },
+    {
+      "id": "4169aef6d910",
+      "value": "20.99%",
+      "context": "Each card has a $0 annual fee and purchase interest between 20.99% and 21.99%, so the differences are in the earn rates, caps and offer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "Purchase interest rate 20.99%"
+    },
+    {
+      "id": "5e71f6b14b6e",
+      "value": "21.99%",
+      "context": "Each card has a $0 annual fee and purchase interest between 20.99% and 21.99%, so the differences are in the earn rates, caps and offer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Purchase interest rate4 21.99%"
+    },
+    {
+      "id": "20203d53bced",
+      "value": "November 20, 2026",
+      "context": "Student cards at a glance (issuer pages, reviewed November 20, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
+      }
+    },
+    {
+      "id": "fa0beafa5658",
+      "value": "$0",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "issuer page cibc_div_st prints no annual fee / $0 today"
+      },
+      "needle": "g Transportation Dining Recurring Payments CIBC by Expedia6 0.5% cash back on everything else.5 Everything Else Earn maxi"
+    },
+    {
+      "id": "86af6324a20d",
+      "value": "2%",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "2% cash back on groceries"
+    },
+    {
+      "id": "2d412013a9b2",
+      "value": "1%",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "1% cash back on eligible gas, electric vehicle charging, transportation, dining, recurring payments"
+    },
+    {
+      "id": "e37ec6462b33",
+      "value": "0.5%",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "0.5% cash back on everything else"
+    },
+    {
+      "id": "039d00b7b93b",
+      "value": "21.99%",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Purchase interest rate4 21.99%"
+    },
+    {
+      "id": "007b7439676f",
+      "value": "$25",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Get $25 cash back after you make your first purchase"
+    },
+    {
+      "id": "bfa7c7820770",
+      "value": "10%",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "e first 4 monthly statement periods. Plus, you will receive 10% cash back on the net purchases posted to your account withi"
+    },
+    {
+      "id": "aaca1dba862f",
+      "value": "$1,000",
+      "context": "CIBC Dividend Visa for Students $0 2% groceries; 1% gas, EV charging, transportation, dining, recurring payments 0.5% 21.99% $25 after first purchase, plus 10% on up to $1,000 of purchases in the first 4 statements",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "net purchases up to $1,000"
+    },
+    {
+      "id": "60966d53ec25",
+      "value": "$0",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000 $5,000 Amount Between $0 and $5,000 Recur"
+    },
+    {
+      "id": "e2a17ef400a0",
+      "value": "3%",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "nths!\u2021\u2021 APPLY NOW Turn everyday purchases into cash rewards 3% cash back on groceries On grocery purchases, so you can ear"
+    },
+    {
+      "id": "726b43148568",
+      "value": "$500",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "r monthly spending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000 $5,000 Amount Between $0 and $"
+    },
+    {
+      "id": "e1c774fb5944",
+      "value": "1%",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "or 3% cash back? How will I know which payments qualify for 1% cash back on recurring bill payments? Where can I find my c"
+    },
+    {
+      "id": "6654a6b83911",
+      "value": "0.5%",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "mobile phones, streaming services, or subscriptions.2B,D,E 0.5% cash back on every day essentials On all other purchases, s"
+    },
+    {
+      "id": "8d68fab4da3a",
+      "value": "21.99%",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "cash back 101? Here\u2019s what you need to know. $0 annual fee8 21.99% for purchases8 23.99% for cash advances8 21.99% for Quebec"
+    },
+    {
+      "id": "96e5e5878dbd",
+      "value": "5%",
+      "context": "BMO CashBack Mastercard (students) $0 3% groceries (first $500 per statement cycle); 1% recurring bills (first $500 per cycle) 0.5% 21.99% 5% cash back in the first 3 months (full terms not found)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ayments!2B,C,D,E Plus, pay no annual fee. Welcome offer Get 5% cash back in your first 3 months!\u2021\u2021 APPLY NOW Turn everyday"
+    },
+    {
+      "id": "591ca761b2fd",
+      "value": "$0",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "Apply Now RBC ION+ Visa RBC Cash Back Mastercard Annual Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 i"
+    },
+    {
+      "id": "ed68b5c2d5d8",
+      "value": "2%",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "ack2 on all purchases1 on all purchases with no annual fee. 2% unlimited cash back on grocery store purchases1 1% unlimite"
+    },
+    {
+      "id": "7e3d7f5ad3fd",
+      "value": "1%",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "r been easier. 2% Cash Back Earn 2% cash back on groceries1 1% Cash Back Earn 1% cash back on gas, EV charging, rideshare,"
+    },
+    {
+      "id": "3c157e7155aa",
+      "value": "0.5%",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "on gas, EV charging, rideshare, and transit purchases1 and 0.5% cash back on all other purchases1. Redeem Your Cash Back Ea"
+    },
+    {
+      "id": "c77a20c3a1c2",
+      "value": "21.99%",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "ffer Details Annual Fee $0 Additional Card $0 Purchase Rate 21.99% Cash Advance Rate 22.99%* Apply Now View Legal Disclaimers"
+    },
+    {
+      "id": "3d3ded6c2c9e",
+      "value": "5%",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "sa RBC Cash Back Mastercard Annual Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^"
+    },
+    {
+      "id": "10f17e5b4e69",
+      "value": "$2,000",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "Fee $0 SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. For stud"
+    },
+    {
+      "id": "a42e72728247",
+      "value": "February 2, 2027",
+      "context": "RBC Cash Back Mastercard $0 2% groceries; 1% gas, EV charging, rideshare, transit 0.5% 21.99% 5% extra on the first $2,000 of spend for 6 months, apply by February 2, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. For students who want to earn unlimited cash back2 on all"
+    },
+    {
+      "id": "85e0877016ba",
+      "value": "$0",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Annual Fee $0"
+    },
+    {
+      "id": "d60774a1a66a",
+      "value": "1%",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Earn 1% in Cash Back Dollars on Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media"
+    },
+    {
+      "id": "6dc30e2e58a9",
+      "value": "0.5%",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Earn 0.5% in Cash Back Dollars on all other Purchases"
+    },
+    {
+      "id": "4009d0e798a0",
+      "value": "21.99%",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Interest: Purchases 21.99%"
+    },
+    {
+      "id": "6a816ececf9f",
+      "value": "$125",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Earn $125 in Cash Back Dollars when you spend $1000+ in the first 3 months"
+    },
+    {
+      "id": "0bd47559f6c3",
+      "value": "$1,000",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "when you spend $1,000+ in the first 3 months"
+    },
+    {
+      "id": "ca5d6cc3448e",
+      "value": "November 2, 2026",
+      "context": "TD Cash Back Visa $0 1% groceries, gas, EV charging, public transit, recurring bills, streaming and digital gaming 0.5% 21.99% $125 for $1,000 of spend in 3 months, but TD's printed terms say the offer ended November 2, 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Account must be opened by November 2, 2026"
+    },
+    {
+      "id": "35b4bd0d08d5",
+      "value": "$0",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "issuer page scotia_mom_st prints no annual fee / $0 today"
+      },
+      "needle": "rring subscription services like music and video streaming2 0.5% On all other eligible purchases2 Browse the Scotia Momen"
+    },
+    {
+      "id": "ddc651bf8d94",
+      "value": "1%",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "recurring bill payments like utilities and gym memberships2 1% On eligible recurring subscription services like music and"
+    },
+    {
+      "id": "e13d903895fb",
+      "value": "$15,000",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "on eligible Net Purchases (up to an annual spend limit of $15,000) at Gas Stations (Merchant Category Codes (\u201cMCC\u201d): 5541, 55"
+    },
+    {
+      "id": "7fc9216d04dc",
+      "value": "0.5%",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "rring subscription services like music and video streaming2 0.5% On all other eligible purchases2 Browse the Scotia Momentum"
+    },
+    {
+      "id": "048bb50cc621",
+      "value": "20.99%",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "e $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your cash advance rate applies to"
+    },
+    {
+      "id": "934ba316017a",
+      "value": "5%",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "mentum\u00ae No-Fee Visa* Card (for students) Special offer Earn 5% cash back on all purchases for the first 3 months (up to $2"
+    },
+    {
+      "id": "82d15df5fdd4",
+      "value": "$2,000",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "% cash back on all purchases for the first 3 months (up to $2,000 in total purchases).1 Plus, get a 0.99% introductory intere"
+    },
+    {
+      "id": "b5e1472baadf",
+      "value": "November 2, 2026",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "a credit card accounts (\u201cAccounts\u201d) that are opened between November 2, 2026, and April 30, 2027 (regardless of the date you apply for t"
+    },
+    {
+      "id": "08f0fcf18768",
+      "value": "April 30, 2027",
+      "context": "Scotia Momentum No-Fee Visa (students) $0 1% groceries, drugstore, gas, transit, recurring bills and subscriptions (up to $15,000 a year) 0.5% 20.99% 5% on the first $2,000 of purchases in the first 3 months, accounts opened November 2, 2026 to April 30, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "(\u201cAccounts\u201d) that are opened between November 2, 2026, and April 30, 2027 (regardless of the date you apply for the Account) and is s"
+    },
+    {
+      "id": "40d886025b5c",
+      "value": "2%",
+      "context": "CIBC's card pays 2% at grocery stores and 1% on a wide list that includes dining and transportation, which suits a student who eats out and takes transit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "2% cash back on groceries"
+    },
+    {
+      "id": "801623009a30",
+      "value": "1%",
+      "context": "CIBC's card pays 2% at grocery stores and 1% on a wide list that includes dining and transportation, which suits a student who eats out and takes transit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "1% cash back on eligible gas, electric vehicle charging, transportation, dining, recurring payments"
+    },
+    {
+      "id": "6c5d0d47fb68",
+      "value": "$5,000",
+      "context": "CIBC prints no minimum income requirement, a credit limit of up to $5,000 for Canadian students and up to $2,000 for international students, and cash back that can be redeemed once it reaches $10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Canadian students can get a credit limit of up to $5,000"
+    },
+    {
+      "id": "d2e1d9985b42",
+      "value": "$2,000",
+      "context": "CIBC prints no minimum income requirement, a credit limit of up to $5,000 for Canadian students and up to $2,000 for international students, and cash back that can be redeemed once it reaches $10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "edit criteria requirements for the maximum credit limit of $2,000, you may be approved for a lower credit limit. The final li"
+    },
+    {
+      "id": "726a3a5a1877",
+      "value": "$10",
+      "context": "CIBC prints no minimum income requirement, a credit limit of up to $5,000 for Canadian students and up to $2,000 for international students, and cash back that can be redeemed once it reaches $10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "re! Your cash back will grow over time, and once it reaches $10 or more, you can easily redeem it through CIBC Online Banki"
+    },
+    {
+      "id": "697d572a73c0",
+      "value": "2%",
+      "context": "The 2% and 1% rates apply up to annual spending limits printed in CIBC's terms, which are far above a student budget.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "2% cash back on groceries"
+    },
+    {
+      "id": "370d31033b62",
+      "value": "1%",
+      "context": "The 2% and 1% rates apply up to annual spending limits printed in CIBC's terms, which are far above a student budget.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "ded5db832f52",
+      "value": "3%",
+      "context": "BMO's 3% grocery rate is the strongest everyday rate here, but it stops after $500 of grocery spending per statement cycle.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "icy on bmo.com. ACCEPT AND CONTINUE Manage your preferences 3% cash back on eligible grocery purchases up to a maximum of"
+    },
+    {
+      "id": "4471b41a3ff7",
+      "value": "$500",
+      "context": "BMO's 3% grocery rate is the strongest everyday rate here, but it stops after $500 of grocery spending per statement cycle.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "cash back on eligible grocery purchases up to a maximum of $500 spent per statement cycle period 1% cash back on eligible r"
+    },
+    {
+      "id": "64d653751ea5",
+      "value": "$6,000",
+      "context": "That cap is about $6,000 of groceries a year, or up to $180.00 of grocery cash back, which is more than most students spend.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f2a5087d4b46",
+      "value": "$180.00",
+      "context": "That cap is about $6,000 of groceries a year, or up to $180.00 of grocery cash back, which is more than most students spend.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "b976f10d7b42",
+      "value": "1%",
+      "context": "The 1% recurring-bill rate has the same $500-per-cycle cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "es up to a maximum of $500 spent per statement cycle period 1% cash back on eligible recurring bill payments up to a maxim"
+    },
+    {
+      "id": "95d322e5294a",
+      "value": "$500",
+      "context": "The 1% recurring-bill rate has the same $500-per-cycle cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "cash back on eligible grocery purchases up to a maximum of $500 spent per statement cycle period 1% cash back on eligible r"
+    },
+    {
+      "id": "2c7bbe9b6306",
+      "value": "0.5%",
+      "context": "Transit and dining earn only 0.5%, which is why BMO pays less than CIBC on a transit-heavy budget in year one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "mobile phones, streaming services, or subscriptions.2B,D,E 0.5% cash back on every day essentials On all other purchases, s"
+    },
+    {
+      "id": "6fa1ae7f3c4d",
+      "value": "$1",
+      "context": "BMO lets you redeem from $1.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "redeem your cash back for as little as $1"
+    },
+    {
+      "id": "ca265eb8bc18",
+      "value": "2%",
+      "context": "RBC lists its regular Cash Back Mastercard on its student card page, with 2% on groceries and 1% on gas, EV charging, rideshare and transit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "Top Credit Card Benefits Get Unlimited Cash Back Fast2 Earn 2% cash back on groceries, 1% cash back on gas, EV charging, r"
+    },
+    {
+      "id": "f3f1b9363c09",
+      "value": "1%",
+      "context": "RBC lists its regular Cash Back Mastercard on its student card page, with 2% on groceries and 1% on gas, EV charging, rideshare and transit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "t Unlimited Cash Back Fast2 Earn 2% cash back on groceries, 1% cash back on gas, EV charging, rideshare, and transit purch"
+    },
+    {
+      "id": "c4801ba12b11",
+      "value": "5%",
+      "context": "The welcome offer is 5% extra on your first $2,000 over six months, worth $100 if you reach the $2,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ayments!2B,C,D,E Plus, pay no annual fee. Welcome offer Get 5% cash back in your first 3 months!\u2021\u2021 APPLY NOW Turn everyday"
+    },
+    {
+      "id": "a7b894ea4f58",
+      "value": "$2,000",
+      "context": "The welcome offer is 5% extra on your first $2,000 over six months, worth $100 if you reach the $2,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "SH BACK SPECIAL OFFER Get 5% extra cash back on your first $2,000 in spend for 6 months^. Apply by February 2, 2027. View Off"
+    },
+    {
+      "id": "47ca4942d1c2",
+      "value": "$100",
+      "context": "The welcome offer is 5% extra on your first $2,000 over six months, worth $100 if you reach the $2,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "5c7de756e5b4",
+      "value": "$600",
+      "context": "Our $600 budget does, in a little over three months.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "f2339283166e",
+      "value": "0.5%",
+      "context": "Phone bills and streaming earn the base 0.5%, and RBC's page says redemptions start at $25.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "on eligible purchases on: Gas EV charging Transit Rideshare 0.5% cash back1 on: All other eligible purchases How do I redeem"
+    },
+    {
+      "id": "060f364d1a0a",
+      "value": "$25",
+      "context": "Phone bills and streaming earn the base 0.5%, and RBC's page says redemptions start at $25.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC Royal Bank: RBC Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "with a minimum of $25"
+    },
+    {
+      "id": "034d26ea473a",
+      "value": "1%",
+      "context": "TD pays 1% on a broad list of everyday categories, including streaming and digital gaming, and 0.5% on everything else.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Earn 1% in Cash Back Dollars on Recurring Bill Payments, and Streaming, Digital Gaming & Media"
+    },
+    {
+      "id": "1d048e90f840",
+      "value": "0.5%",
+      "context": "TD pays 1% on a broad list of everyday categories, including streaming and digital gaming, and 0.5% on everything else.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Earn 0.5% in Cash Back Dollars on all other Purchases"
+    },
+    {
+      "id": "ee4cfdaa575d",
+      "value": "$125",
+      "context": "TD's student page still headlined $125 for spending $1,000 in three months when we checked, but the offer terms printed below it say accounts had to be opened by November 2, 2026, so we counted no welcome value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Earn $125 in Cash Back Dollars when you spend $1000+ in the first 3 months"
+    },
+    {
+      "id": "28d60f29caa6",
+      "value": "$1,000",
+      "context": "TD's student page still headlined $125 for spending $1,000 in three months when we checked, but the offer terms printed below it say accounts had to be opened by November 2, 2026, so we counted no welcome value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "when you spend $1,000+ in the first 3 months"
+    },
+    {
+      "id": "628714dd2e5b",
+      "value": "November 2, 2026",
+      "context": "TD's student page still headlined $125 for spending $1,000 in three months when we checked, but the offer terms printed below it say accounts had to be opened by November 2, 2026, so we counted no welcome value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/student",
+      "sourceName": "TD Canada Trust: Credit cards for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_student, HTTP 200)"
+      },
+      "needle": "Account must be opened by November 2, 2026"
+    },
+    {
+      "id": "c1f10855edf1",
+      "value": "1%",
+      "context": "Without an offer, TD's flat 1% earns less than the cards with a 2% or 3% grocery rate, and it ties Scotiabank for the lowest yearly cash back on our budget.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "sourceName": "TD Canada Trust: TD Cash Back Visa Card",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (td_cbv, HTTP 200)"
+      },
+      "needle": "Earn 1% in Cash Back Dollars on Grocery"
+    },
+    {
+      "id": "34a0d4095ac6",
+      "value": "2%",
+      "context": "Without an offer, TD's flat 1% earns less than the cards with a 2% or 3% grocery rate, and it ties Scotiabank for the lowest yearly cash back on our budget.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: RBC Cash Back Mastercard",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "Earn 2% cash back on groceries"
+    },
+    {
+      "id": "e026371019c2",
+      "value": "3%",
+      "context": "Without an offer, TD's flat 1% earns less than the cards with a 2% or 3% grocery rate, and it ties Scotiabank for the lowest yearly cash back on our budget.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-20",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "3% cash back on groceries"
+    },
+    {
+      "id": "814bc7114d48",
+      "value": "1%",
+      "context": "Scotiabank's student version pays 1% on groceries, drugstores, gas, transit, recurring bills and subscriptions, up to $15,000 a year of 1% spending, with a minimum credit limit of $500 and the lowest purchase rate of the five at 20.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "ry and food subscription services, and drugstore purchases2 1% On gas, electric vehicle charging, and daily transit like b"
+    },
+    {
+      "id": "ddf8d03e697d",
+      "value": "$15,000",
+      "context": "Scotiabank's student version pays 1% on groceries, drugstores, gas, transit, recurring bills and subscriptions, up to $15,000 a year of 1% spending, with a minimum credit limit of $500 and the lowest purchase rate of the five at 20.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "up to an annual spend limit of $15,000"
+    },
+    {
+      "id": "1d7546e49a62",
+      "value": "$500",
+      "context": "Scotiabank's student version pays 1% on groceries, drugstores, gas, transit, recurring bills and subscriptions, up to $15,000 a year of 1% spending, with a minimum credit limit of $500 and the lowest purchase rate of the five at 20.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
+    },
+    {
+      "id": "f27b03660a93",
+      "value": "20.99%",
+      "context": "Scotiabank's student version pays 1% on groceries, drugstores, gas, transit, recurring bills and subscriptions, up to $15,000 a year of 1% spending, with a minimum credit limit of $500 and the lowest purchase rate of the five at 20.99%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "e $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your cash advance rate applies to"
+    },
+    {
+      "id": "edbe9d7d6111",
+      "value": "$12,000",
+      "context": "Its page says the card may not be right if you have steady income of more than $12,000 a year, because you may qualify for other cards.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
+    },
+    {
+      "id": "4edae17bdafd",
+      "value": "$25",
+      "context": "Cash back can be redeemed once you have $25.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "ion: Once the cash back balance on your credit card reaches $25 or more, you can have the full amount credited to your acco"
+    },
+    {
+      "id": "0c7bcd2a84fe",
+      "value": "November 20, 2026",
+      "context": "Student card eligibility as printed by each issuer (reviewed November 20, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-21)"
+      }
+    },
+    {
+      "id": "e36cb0b245c5",
+      "value": "$2,000",
+      "context": "CIBC Dividend Visa for Students No minimum income requirement Student card Can apply online; limit up to $2,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "maximum credit limit of $2,000"
+    },
+    {
+      "id": "c6cbb86bb9d4",
+      "value": "18",
+      "context": "BMO CashBack Mastercard (students) Income from employment, scholarship or grant, student loan or family allowance Aged 18 to 24 at a recognized post-secondary school; Canadian citizen or permanent resident Apply by visiting a branch",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ched the age of majority in the province in which you live (18 years in AB, MB, ON, PE, QC and SK. 19 years in all other p"
+    },
+    {
+      "id": "1c270243a1bb",
+      "value": "24",
+      "context": "BMO CashBack Mastercard (students) Income from employment, scholarship or grant, student loan or family allowance Aged 18 to 24 at a recognized post-secondary school; Canadian citizen or permanent resident Apply by visiting a branch",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "between the ages of 18 and 24"
+    },
+    {
+      "id": "3a5c3ac95b66",
+      "value": "18",
+      "context": "RBC Cash Back Mastercard Not stated on the student page for this card Minimum age 18 or 19 depending on province Visit a branch or call an advisor",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": ", Saskatchewan, Ontario, Quebec and PEI, the minimum age is 18. In all other provinces and territories, the minimum age is"
+    },
+    {
+      "id": "cd012e46644c",
+      "value": "19",
+      "context": "RBC Cash Back Mastercard Not stated on the student page for this card Minimum age 18 or 19 depending on province Visit a branch or call an advisor",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/student.html",
+      "sourceName": "RBC: Student credit cards",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_student, HTTP 200)"
+      },
+      "needle": "In all other provinces and territories, the minimum age is 19. I\u2019m an International Student looking for an RBC credit car"
+    },
+    {
+      "id": "0e141a083329",
+      "value": "20.99%",
+      "context": "Watch out: every one of these cards charges 20.99% to 21.99% on purchases you do not pay off.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "Purchase interest rate 20.99%"
+    },
+    {
+      "id": "6dbac5f68a09",
+      "value": "21.99%",
+      "context": "Watch out: every one of these cards charges 20.99% to 21.99% on purchases you do not pay off.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "cash back 101? Here\u2019s what you need to know. $0 annual fee8 21.99% for purchases8 23.99% for cash advances8 21.99% for Quebec"
+    },
+    {
+      "id": "fe2edafe3ff3",
+      "value": "$500",
+      "context": "Carrying $500 for a year at 21.99% costs about $110 in interest, more than most of these cards pay in a year of cash back.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "6aecb58e91c1",
+      "value": "21.99%",
+      "context": "Carrying $500 for a year at 21.99% costs about $110 in interest, more than most of these cards pay in a year of cash back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Purchase interest rate4 21.99%"
+    },
+    {
+      "id": "a8f1ca87a336",
+      "value": "$110",
+      "context": "Carrying $500 for a year at 21.99% costs about $110 in interest, more than most of these cards pay in a year of cash back.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "9fc28e6e64be",
+      "value": "300",
+      "context": "The Financial Consumer Agency of Canada (FCAC) says scores usually range from 300 to 900, that payment history is the most important part of your score, and that too many inquiries close together can worry lenders.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
+      },
+      "needle": "ss payments or have too much debt Scores usually range from 300 to 900. A higher score is better. Learn how to improve your"
+    },
+    {
+      "id": "acc1165f6123",
+      "value": "900",
+      "context": "The Financial Consumer Agency of Canada (FCAC) says scores usually range from 300 to 900, that payment history is the most important part of your score, and that too many inquiries close together can worry lenders.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html",
+      "sourceName": "FCAC: Credit report and score basics",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_basics, HTTP 200)"
+      },
+      "needle": "ents or have too much debt Scores usually range from 300 to 900. A higher score is better. Learn how to improve your credit"
+    },
+    {
+      "id": "02f0a2690e80",
+      "value": "30%",
+      "context": "It suggests using less than 30% of your total credit limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "05da1bb51d19",
+      "value": "$500",
+      "context": "On a $500 limit , the minimum on Scotiabank's student card, 30% is $150.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
+    },
+    {
+      "id": "fb1442de5a92",
+      "value": "30%",
+      "context": "On a $500 limit , the minimum on Scotiabank's student card, 30% is $150.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "a1402633cff7",
+      "value": "$150",
+      "context": "On a $500 limit , the minimum on Scotiabank's student card, 30% is $150.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e78882c93494",
+      "value": "$600",
+      "context": "A $600 monthly budget is more than that, so pay the card off during the month, not only at the due date, if you want the reported balance to stay low.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "6fa769812532",
+      "value": "$2,000",
+      "context": "On a $2,000 limit , CIBC's maximum for international students, 30% is $600, which matches our whole example budget.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "labelled example on the page"
+      }
+    },
+    {
+      "id": "95abf2d07ba8",
+      "value": "30%",
+      "context": "On a $2,000 limit , CIBC's maximum for international students, 30% is $600, which matches our whole example budget.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "th a free SPC+ membership\u2726 Level up your savings with up to 30% off 450+ brands you love. Unlock VIP contests, next-level g"
+    },
+    {
+      "id": "1680e44578ba",
+      "value": "$600,",
+      "context": "On a $2,000 limit , CIBC's maximum for international students, 30% is $600, which matches our whole example budget.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "4c4d7a7d6cb8",
+      "value": "12",
+      "context": "Our best secured credit cards guide compares the 12-month cost of the main options.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "e1a408bb30de",
+      "value": "$12,000",
+      "context": "Scotiabank's note about income above $12,000 a year is a hint that its student card is built for students with little income, and that the bank may suggest a different product later.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
+    },
+    {
+      "id": "563b5d73b118",
+      "value": "$203.53",
+      "context": "No income yet CIBC Dividend Visa for Students Prints no minimum income requirement, and the highest first-year value on our budget ($203.53) Scotia Momentum No-Fee Visa for students (built for incomes under $12,000)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "791585c4c8ff",
+      "value": "$12,000",
+      "context": "No income yet CIBC Dividend Visa for Students Prints no minimum income requirement, and the highest first-year value on our budget ($203.53) Scotia Momentum No-Fee Visa for students (built for incomes under $12,000)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "it for debt consolidation Have a steady income of more than $12000/year (income requirement subject to change) as you may qual"
+    },
+    {
+      "id": "6d4f3c89a74a",
+      "value": "3%",
+      "context": "Part-time job and your own groceries BMO CashBack Mastercard for students 3% on groceries gives the best ongoing value on our budget ($106.80 a year); accepts employment, student loan or family allowance as income RBC Cash Back Mastercard (2% groceries, no age limit stated)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ack\u00ae Mastercard\u00ae* Estimate your monthly spending Groceries (3% cash back) Footnote 2C 2C $500 Minimum $0 $0 Maximum $5,000"
+    },
+    {
+      "id": "035704cb1dbe",
+      "value": "$106.80",
+      "context": "Part-time job and your own groceries BMO CashBack Mastercard for students 3% on groceries gives the best ongoing value on our budget ($106.80 a year); accepts employment, student loan or family allowance as income RBC Cash Back Mastercard (2% groceries, no age limit stated)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "c54d21d22226",
+      "value": "2%",
+      "context": "Part-time job and your own groceries BMO CashBack Mastercard for students 3% on groceries gives the best ongoing value on our budget ($106.80 a year); accepts employment, student loan or family allowance as income RBC Cash Back Mastercard (2% groceries, no age limit stated)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.rbcroyalbank.com/credit-cards/cash-back/rbc-cashback-mastercard.html",
+      "sourceName": "RBC: Cash Back Mastercard",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (rbc_cbmc, HTTP 200)"
+      },
+      "needle": "ck with the RBC Cash Back Mastercard has never been easier. 2% Cash Back Earn 2% cash back on groceries1 1% Cash Back Earn"
+    },
+    {
+      "id": "5e873033cf60",
+      "value": "$2,000",
+      "context": "International student CIBC Dividend Visa for Students International students can apply online, with a limit of up to $2,000 RBC or Scotiabank (by appointment, branch or phone)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "maximum credit limit of $2,000"
+    },
+    {
+      "id": "9e6be5b1b6de",
+      "value": "12",
+      "context": "If you are between two cards, use your own numbers: multiply your monthly groceries by 12 and by the grocery rate, do the same for your next-largest category, and add the welcome offer if you will meet its spending target without buying anything extra.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "0a0a03c36d6f",
+      "value": "$600",
+      "context": "On our $600-a-month example budget, the CIBC Dividend Visa for Students had the highest first-year value at $203.53, and BMO's student card the highest ongoing value at $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "11095eda124a",
+      "value": "$203.53",
+      "context": "On our $600-a-month example budget, the CIBC Dividend Visa for Students had the highest first-year value at $203.53, and BMO's student card the highest ongoing value at $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "6c04f4be9706",
+      "value": "$106.80",
+      "context": "On our $600-a-month example budget, the CIBC Dividend Visa for Students had the highest first-year value at $203.53, and BMO's student card the highest ongoing value at $106.80 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/card-batch-20261118-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-21/recheck.py"
+      }
+    },
+    {
+      "id": "0b548077ff38",
+      "value": "$2,000",
+      "context": "CIBC lets international students apply online for its student card with a limit of up to $2,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "maximum credit limit of $2,000"
+    },
+    {
+      "id": "d8eaa039b397",
+      "value": "$500",
+      "context": "Scotiabank prints a $500 minimum limit, and CIBC prints maximums of $5,000 for Canadian students and $2,000 for international students.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.scotiabank.com/ca/en/personal/credit-cards/visa/student-scotia-momentum-no-fee-visa.html",
+      "sourceName": "Scotiabank: Scotia Momentum No-Fee Visa for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (scotia_mom_st, HTTP 200)"
+      },
+      "needle": "d at a glance 3,4 Annual fee $0 /year Minimum credit limit $500 Purchase interest rate 20.99% Cash advance rate 22.99% Your"
+    },
+    {
+      "id": "3b84235c45ac",
+      "value": "$5,000",
+      "context": "Scotiabank prints a $500 minimum limit, and CIBC prints maximums of $5,000 for Canadian students and $2,000 for international students.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "Canadian students can get a credit limit of up to $5,000"
+    },
+    {
+      "id": "7ff5f273dbf7",
+      "value": "$2,000",
+      "context": "Scotiabank prints a $500 minimum limit, and CIBC prints maximums of $5,000 for Canadian students and $2,000 for international students.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/dividend-visa-for-students.html",
+      "sourceName": "CIBC: Dividend Visa Card for Students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (cibc_div_st, HTTP 200)"
+      },
+      "needle": "International students can get a credit limit of up to $2,000"
+    },
+    {
+      "id": "3ae6819f8d47",
+      "value": "30%",
+      "context": "The FCAC suggests keeping balances under 30% of your limit and paying by the due date, which matter more than the card you choose.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/improve-credit-score.html",
+      "sourceName": "FCAC: Improving your credit score",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (fcac_improve, HTTP 200)"
+      },
+      "needle": "use compared to your credit limit. Tip Try to use less than 30% of your total credit limit. For example, suppose your credi"
+    },
+    {
+      "id": "5fd01f3e659c",
+      "value": "18",
+      "context": "The age of majority in your province: 18 in Alberta, Manitoba, Ontario, Prince Edward Island, Quebec and Saskatchewan, and 19 elsewhere, according to BMO and RBC.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "eint l\u2019\u00e2ge de la majorit\u00e9 dans votre province de r\u00e9sidence (18 ans dans les provinces suivantes : Alberta, Manitoba, Ontar"
+    },
+    {
+      "id": "164ef19fd67c",
+      "value": "19",
+      "context": "The age of majority in your province: 18 in Alberta, Manitoba, Ontario, Prince Edward Island, Quebec and Saskatchewan, and 19 elsewhere, according to BMO and RBC.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "ba, Ontario, \u00cele-du-Prince-\u00c9douard, Qu\u00e9bec et Saskatchewan; 19 ans dans toutes les autres provinces) Avoir un revenu annue"
+    },
+    {
+      "id": "6759b2bd8b5a",
+      "value": "18",
+      "context": "BMO's student card is for students aged 18 to 24.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "tudent credit card with us.Be a student between the ages of 18 and 24 at a recognized post-secondary school.Be a Canadian"
+    },
+    {
+      "id": "0f8dd7603b6f",
+      "value": "24",
+      "context": "BMO's student card is for students aged 18 to 24.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.bmo.com/en-ca/main/personal/credit-cards/student-bmo-cashback-mastercard/",
+      "sourceName": "BMO: CashBack Mastercard for students",
+      "asOf": "2026-11-15",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-21",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-21 (qa/figs/2026-11-21/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-21 (bmo_st_cb, HTTP 200)"
+      },
+      "needle": "between the ages of 18 and 24"
+    }
+  ]
+}

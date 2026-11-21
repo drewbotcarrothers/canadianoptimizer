@@ -355,8 +355,12 @@ export async function runChecklist({ slugs, date, outDir, verifyDate, sisters })
         return inter / Math.max(1, new Set([...A, ...B]).size);
       };
       const sisterHits = (sisters ?? []).filter((s) => s.slug === post.slug || norm(s.title) === norm(post.title) || jac(s.slug, post.slug) >= 0.75);
-      const status = dupTitle || sisterHits.length ? 'FAIL' : sisters ? 'PASS' : 'WARN';
-      r.push(result(15, 'No duplicate here or on sister sites', status, dupTitle ? `same title as ${dupTitle.slug}` : sisterHits.length ? sisterHits.map((s) => `${s.site}/${s.slug}`).join(', ') : sisters ? `checked against ${sisters.length} sister-site URLs` : 'sister-site list not supplied (--sisters)'));
+      // Andrew, 2026-11-20: topic/slug overlap with sister sites is allowed and is never a reason to hold a post.
+      // Sister hits are reported for the record only; copied or near-copied text still fails (checked by the
+      // separate sister-page text-similarity pass recorded in the batch PR). A same-title post on this site still fails.
+      const status = dupTitle ? 'FAIL' : sisters ? 'PASS' : 'WARN';
+      const sisterNote = sisterHits.length ? `topic overlap allowed (Andrew 2026-11-20), text similarity checked separately: ${sisterHits.map((s) => `${s.site}/${s.slug}`).join(', ')}` : sisters ? `checked against ${sisters.length} sister-site URLs` : 'sister-site list not supplied (--sisters)';
+      r.push(result(15, 'No duplicate here or on sister sites', status, dupTitle ? `same title as ${dupTitle.slug}` : sisterNote));
     }
     // 16 Byline
     {

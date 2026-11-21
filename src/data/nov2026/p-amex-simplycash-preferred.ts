@@ -183,6 +183,8 @@ const content = `<div class="container">
         <li><a href="/blog/credit-card-annual-fee-vs-no-fee-canada/">Annual fee vs no-fee: when it pays</a></li>
     </ul>
 
+        <p><strong>Related:</strong> <a href="/blog/tangerine-money-back-credit-card-review/">Tangerine Money-Back Credit Card review: choosing your 2% categories</a></p>
+
     ${batchFooter(D, 'Credit Cards', disclaimer)}
 
 </div>`;

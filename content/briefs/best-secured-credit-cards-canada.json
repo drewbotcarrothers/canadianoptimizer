@@ -1,0 +1,38 @@
+{
+  "slug": "best-secured-credit-cards-canada",
+  "title": "Best Secured Credit Cards in Canada for Rebuilding Credit",
+  "family": "best-of",
+  "category": "credit-cards",
+  "subcategory": "credit-score-building",
+  "targetQuery": "best secured credit cards canada",
+  "secondaryQueries": [
+    "secured credit card canada both credit bureaus",
+    "neo secured card vs home trust secured visa",
+    "capital one guaranteed secured mastercard canada"
+  ],
+  "infoGain": "12-month cost per secured card paid in full and carrying a $150 balance, and whether each names both credit bureaus (content/calcs/card-batch-20261118-model.py).",
+  "money": true,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-21",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-20 (separate from drafter)",
+      "on": "2026-11-20",
+      "note": "read rendered preview on 2026-11-20: opening answers which secured card to pick and why; each question H2/FAQ opens with its answer"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-20 (separate from drafter)",
+      "on": "2026-11-20",
+      "note": "no invented quotes or experience; fees, rates, deposits and bureau reporting from Home Trust, Neo and Capital One pages re-read 2026-11-20; $150 balance / $500 limit labelled example"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-20 (separate from drafter)",
+      "on": "2026-11-20",
+      "note": "picks by goal section (lowest cost paying in full, carrying a balance, declined elsewhere, Quebec, newcomer); no CTAs since no offer is approved; all picks non-affiliate"
+    }
+  }
+}
