@@ -4486,6 +4486,10 @@ const allPosts: BlogPostRecord[] = [
     author: "Andrew",
     date: "2026-02-01",
     updated: "2026-11-21",
+    youtubeId: "skR8poIcfQc",
+    youtubeTitle: "2027 Tax Brackets: Same Pay, Less Federal Tax",
+    youtubeUploadDate: "2026-11-22T12:05:42-05:00",
+    youtubeDuration: "PT5M22S",
     excerpt: "The 2027 federal tax brackets in Canada from the CRA's payroll tables: 14% to $60,044, then 20.5%, 26%, 29% and 33%, the $16,879 basic personal amount, and what changed from 2026.",
     image: "/images/blog/federal-tax-brackets.png",
     content: `<div class="container"><h1>2027 Canadian Federal Tax Brackets: Rates, Thresholds and What Changed</h1>
