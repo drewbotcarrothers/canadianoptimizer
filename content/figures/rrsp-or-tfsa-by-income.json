@@ -1,0 +1,4648 @@
+{
+  "slug": "rrsp-or-tfsa-by-income",
+  "publishDate": "2026-11-22",
+  "figures": [
+    {
+      "id": "cd6cd7d7d553",
+      "value": "$53,891",
+      "context": "In Ontario in 2026, the TFSA usually wins or ties below $53,891 of income, where the second provincial bracket starts, because the RRSP refund is small and retirement withdrawals can be taxed at the same 19.05%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
+    },
+    {
+      "id": "c6be14d56ecc",
+      "value": "19.05%",
+      "context": "In Ontario in 2026, the TFSA usually wins or ties below $53,891 of income, where the second provincial bracket starts, because the RRSP refund is small and retirement withdrawals can be taxed at the same 19.05%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f73279c62328",
+      "value": "$60,000,",
+      "context": "From about $60,000, the RRSP pulls ahead if you expect a lower income in retirement and invest the refund.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8299c59b989e",
+      "value": "$120,000",
+      "context": "At $120,000 and up, the RRSP gap is large.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c0c7ed2d4871",
+      "value": "$50,000",
+      "context": "In Ontario in 2026, a $50,000 earner pays 19.05% on their last dollar and a $120,000 earner pays 43.41%, per our bracket calculation.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3a45b17e421c",
+      "value": "19.05%",
+      "context": "In Ontario in 2026, a $50,000 earner pays 19.05% on their last dollar and a $120,000 earner pays 43.41%, per our bracket calculation.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d3682777dd08",
+      "value": "$120,000",
+      "context": "In Ontario in 2026, a $50,000 earner pays 19.05% on their last dollar and a $120,000 earner pays 43.41%, per our bracket calculation.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "25829e01fa62",
+      "value": "43.41%",
+      "context": "In Ontario in 2026, a $50,000 earner pays 19.05% on their last dollar and a $120,000 earner pays 43.41%, per our bracket calculation.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "2d8a22bdc4c9",
+      "value": "18%",
+      "context": "RRSP room is 18% of last year's earned income, capped at $33,810 for 2026, so high earners usually need both accounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "a8914c5fdf03",
+      "value": "$33,810",
+      "context": "RRSP room is 18% of last year's earned income, capped at $33,810 for 2026, so high earners usually need both accounts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
+    },
+    {
+      "id": "4655f9bba276",
+      "value": "$85,000",
+      "context": "A worked example at $85,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "db4e6a72dc8b",
+      "value": "$1,000",
+      "context": "Take $1,000 of salary.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f676561c9912",
+      "value": "29.65%",
+      "context": "Into a TFSA, you first pay tax at your marginal rate, say 29.65%, and deposit $703.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a98ad9e7ec34",
+      "value": "$703.50",
+      "context": "Into a TFSA, you first pay tax at your marginal rate, say 29.65%, and deposit $703.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "408135c2b837",
+      "value": "$1,000",
+      "context": "Into an RRSP, you deposit the full $1,000 and the tax is deferred.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "66373c999b2b",
+      "value": "29.65%",
+      "context": "If both investments grow by the same percentage and you later withdraw the RRSP at the same 29.65%, you keep $703.50 times the growth, the same as the TFSA.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "cec598613295",
+      "value": "$703.50",
+      "context": "If both investments grow by the same percentage and you later withdraw the RRSP at the same 29.65%, you keep $703.50 times the growth, the same as the TFSA.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c7f666908bc8",
+      "value": "$10",
+      "context": "Change either rate and one account pulls ahead by $10 for every percentage point of difference, per $1,000 of salary.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a37cad5ca3cb",
+      "value": "$1,000",
+      "context": "Change either rate and one account pulls ahead by $10 for every percentage point of difference, per $1,000 of salary.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a808c3a8d643",
+      "value": "14%",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26%"
+    },
+    {
+      "id": "187a720341b1",
+      "value": "$58,523",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
+    },
+    {
+      "id": "b8a8235f6fc0",
+      "value": "20.5%",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29%"
+    },
+    {
+      "id": "6487209809e3",
+      "value": "26%",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29% $258,482.01 unlimited 33%"
+    },
+    {
+      "id": "82bfa395af79",
+      "value": "29%",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial"
+    },
+    {
+      "id": "3212ec2e20a2",
+      "value": "33%",
+      "context": "The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial rates for 2026 The rate"
+    },
+    {
+      "id": "65ccc1960ac9",
+      "value": "5.05%",
+      "context": "Ontario starts at 5.05% up to $53,891 and steps to 9.15% and higher, plus the Ontario surtax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000 11.16%"
+    },
+    {
+      "id": "5e672c980828",
+      "value": "$53,891",
+      "context": "Ontario starts at 5.05% up to $53,891 and steps to 9.15% and higher, plus the Ontario surtax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
+    },
+    {
+      "id": "669bc0a8e9a5",
+      "value": "9.15%",
+      "context": "Ontario starts at 5.05% up to $53,891 and steps to 9.15% and higher, plus the Ontario surtax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000 11.16% $150,000.01 $220,000 12.16%"
+    },
+    {
+      "id": "30a083e43101",
+      "value": "$5,000",
+      "context": "The table shows, for each income, the marginal rate today, the refund on a $5,000 RRSP contribution, and how many dollars the RRSP comes out ahead (or behind) per $1,000 of salary at four retirement incomes.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ddc48d6ef7a6",
+      "value": "$1,000",
+      "context": "The table shows, for each income, the marginal rate today, the refund on a $5,000 RRSP contribution, and how many dollars the RRSP comes out ahead (or behind) per $1,000 of salary at four retirement incomes.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d0e8eb110c01",
+      "value": "$1,000",
+      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 22, 2026)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "32ed4d0e6ebf",
+      "value": "November 22, 2026",
+      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 22, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "bced313eb588",
+      "value": "$5,000",
+      "context": "Income today Marginal rate Refund on $5,000 Retire on $30,000 Retire on $50,000 Retire on $70,000 Retire on $100,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f09d5e76525f",
+      "value": "$30,000",
+      "context": "Income today Marginal rate Refund on $5,000 Retire on $30,000 Retire on $50,000 Retire on $70,000 Retire on $100,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3d1381235ff3",
+      "value": "$50,000",
+      "context": "Income today Marginal rate Refund on $5,000 Retire on $30,000 Retire on $50,000 Retire on $70,000 Retire on $100,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d4a9f8169f5d",
+      "value": "$70,000",
+      "context": "Income today Marginal rate Refund on $5,000 Retire on $30,000 Retire on $50,000 Retire on $70,000 Retire on $100,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "180c0f48af87",
+      "value": "$100,000",
+      "context": "Income today Marginal rate Refund on $5,000 Retire on $30,000 Retire on $50,000 Retire on $70,000 Retire on $100,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "decb8203bd0b",
+      "value": "$40,000",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "09d40df1d7eb",
+      "value": "19.05%",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bc438d8a0f26",
+      "value": "$952.50",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "da43d70ebf7d",
+      "value": "$0",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "93946ca55f1c",
+      "value": "$106",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "85e004f0a113",
+      "value": "$124",
+      "context": "$40,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7676477767bd",
+      "value": "$50,000",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f111f2f25901",
+      "value": "19.05%",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b557bab69e2b",
+      "value": "$952.50",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7263bd663a5d",
+      "value": "$0",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "864226540c40",
+      "value": "$106",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bccda278931f",
+      "value": "$124",
+      "context": "$50,000 19.05% $952.50 $0 $0 &minus;$106 &minus;$124",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "06c95966a018",
+      "value": "$60,000",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "138763057e97",
+      "value": "29.65%",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8311b7c71121",
+      "value": "$1,253.51",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "cc9b7a430355",
+      "value": "$106",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3967a57bc22b",
+      "value": "$0",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4d6000deaadb",
+      "value": "$18",
+      "context": "$60,000 29.65% $1,253.51 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "51c3a09f96a9",
+      "value": "$70,000",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2a165d96c9ea",
+      "value": "29.65%",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b52293389c2d",
+      "value": "$1,482.50",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7fc361aec11b",
+      "value": "$106",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3e6a64cc7245",
+      "value": "$0",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5397226019e3",
+      "value": "$18",
+      "context": "$70,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "71e93afa55b0",
+      "value": "$80,000",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "253eb83fc4c8",
+      "value": "29.65%",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f41e023190cd",
+      "value": "$1,482.50",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "adee14fe7d90",
+      "value": "$106",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e273126e7dd4",
+      "value": "$0",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b36f2918aa5a",
+      "value": "$18",
+      "context": "$80,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "caeb69776899",
+      "value": "$90,000",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6eb3e0717102",
+      "value": "29.65%",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "74613ab4da85",
+      "value": "$1,482.50",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4be1f6fcf988",
+      "value": "$106",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "938ffcfba4b1",
+      "value": "$0",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b4e7150052f5",
+      "value": "$18",
+      "context": "$90,000 29.65% $1,482.50 +$106 +$106 $0 &minus;$18",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ee140d91f39f",
+      "value": "$100,000",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "cb4994d731dc",
+      "value": "31.48%",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3879e9cd42cd",
+      "value": "$1,574.00",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "fd59324ed426",
+      "value": "$124",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a8a07a228c60",
+      "value": "$18",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "351ae86bacef",
+      "value": "$0",
+      "context": "$100,000 31.48% $1,574.00 +$124 +$124 +$18 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c3a1d4ff7b5c",
+      "value": "$120,000",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3426916f34e9",
+      "value": "43.41%",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b2b4d0de7a73",
+      "value": "$2,058.00",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b8c8ea5c1454",
+      "value": "$244",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8ed3b391220c",
+      "value": "$138",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bc74702f0ecd",
+      "value": "$119",
+      "context": "$120,000 43.41% $2,058.00 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "84c7d1e24fa4",
+      "value": "$150,000",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "dad5ec7298e9",
+      "value": "44.97%",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "21082df52b11",
+      "value": "$2,170.48",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "34b872bbacde",
+      "value": "$244",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "563be386b711",
+      "value": "$138",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "481412d90603",
+      "value": "$119",
+      "context": "$150,000 44.97% $2,170.48 +$244 +$244 +$138 +$119",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3e5661e8a3cb",
+      "value": "$180,000",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "847b4fb0e232",
+      "value": "44.97%",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "75b6b777e6f5",
+      "value": "$2,248.48",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "cafe7e3316e4",
+      "value": "$259",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "6db50e29837e",
+      "value": "$153",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4833d8296bc5",
+      "value": "$135",
+      "context": "$180,000 44.97% $2,248.48 +$259 +$259 +$153 +$135",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "909eb73151cf",
+      "value": "$200,000",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "06a78ae30663",
+      "value": "48.26%",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7cd3268287b5",
+      "value": "$2,413.23",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "aa771aeeec06",
+      "value": "$292",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7971d754d1ab",
+      "value": "$186",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a471ba800ca3",
+      "value": "$168",
+      "context": "$200,000 48.26% $2,413.23 +$292 +$292 +$186 +$168",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bf29eac8fc88",
+      "value": "$250,000",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4075bb17b721",
+      "value": "49.82%",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "22eeafb11bbe",
+      "value": "$2,491.23",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b32f45619be9",
+      "value": "$308",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c654475f75d8",
+      "value": "$202",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e205961ae2e6",
+      "value": "$183",
+      "context": "$250,000 49.82% $2,491.23 +$308 +$308 +$202 +$183",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "34d80d2d8ff4",
+      "value": "$5,000,",
+      "context": "How to read a row: the refund column is the tax saved on the whole $5,000, so it can span two brackets, which is why the $60,000 row shows $1,253.51 rather than 29.65% of $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "af03f381fb0f",
+      "value": "$60,000",
+      "context": "How to read a row: the refund column is the tax saved on the whole $5,000, so it can span two brackets, which is why the $60,000 row shows $1,253.51 rather than 29.65% of $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "22c881d9ceaa",
+      "value": "$1,253.51",
+      "context": "How to read a row: the refund column is the tax saved on the whole $5,000, so it can span two brackets, which is why the $60,000 row shows $1,253.51 rather than 29.65% of $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3fb4b4392831",
+      "value": "29.65%",
+      "context": "How to read a row: the refund column is the tax saved on the whole $5,000, so it can span two brackets, which is why the $60,000 row shows $1,253.51 rather than 29.65% of $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e0212367a9fa",
+      "value": "$5,000",
+      "context": "How to read a row: the refund column is the tax saved on the whole $5,000, so it can span two brackets, which is why the $60,000 row shows $1,253.51 rather than 29.65% of $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "1bff75b741c4",
+      "value": "$1,000",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e31f811968a2",
+      "value": "19.05%",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f04b862c2ccd",
+      "value": "$30,000",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "efa57ee27997",
+      "value": "$50,000,",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "cc26df263911",
+      "value": "29.65%",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "13630f422791",
+      "value": "$70,000",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2fc509d9f4e8",
+      "value": "31.48%",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "90c21c1bdad4",
+      "value": "$100,000",
+      "context": "The four right-hand columns use the marginal rate on the last $1,000 of salary today and on the next $1,000 withdrawn in retirement, at Ontario's 2026 rates of 19.05% at $30,000 and $50,000, 29.65% at $70,000 and 31.48% at $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6dad9fc22a88",
+      "value": "$1,000",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7b0f6898a65f",
+      "value": "$244",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "537c34158205",
+      "value": "$120,000",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "93bf0e4b1734",
+      "value": "$50,000",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "63662f0b5dd7",
+      "value": "$106",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c513ca9aca70",
+      "value": "$70,000",
+      "context": "Our calculation: in Ontario with 2026 brackets, every $1,000 of salary put in an RRSP instead of a TFSA comes out $244 ahead for a $120,000 earner who retires on $50,000 of taxable income, but $106 behind for a $50,000 earner who retires on $70,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a46df051ede3",
+      "value": "$70,000",
+      "context": "Between those, a $70,000 to $90,000 earner who retires on $70,000 ends up exactly even, because both rates are 29.65%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "95c625dfe0ef",
+      "value": "$90,000",
+      "context": "Between those, a $70,000 to $90,000 earner who retires on $70,000 ends up exactly even, because both rates are 29.65%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7da8f017ff81",
+      "value": "29.65%",
+      "context": "Between those, a $70,000 to $90,000 earner who retires on $70,000 ends up exactly even, because both rates are 29.65%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "2ee63763173e",
+      "value": "$50,000",
+      "context": "The pattern that jumps out is the step between $50,000 and $60,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8b3dc193a0c1",
+      "value": "$60,000",
+      "context": "The pattern that jumps out is the step between $50,000 and $60,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "1b61ca2f00c8",
+      "value": "$53,891",
+      "context": "Ontario's second bracket starts at $53,891 and the federal second bracket at $58,523, so the marginal rate jumps from 19.05% to 29.65% in that range.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
+    },
+    {
+      "id": "3abc84b922ad",
+      "value": "$58,523,",
+      "context": "Ontario's second bracket starts at $53,891 and the federal second bracket at $58,523, so the marginal rate jumps from 19.05% to 29.65% in that range.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
+    },
+    {
+      "id": "9f2d0001dc86",
+      "value": "19.05%",
+      "context": "Ontario's second bracket starts at $53,891 and the federal second bracket at $58,523, so the marginal rate jumps from 19.05% to 29.65% in that range.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "6f15652830fe",
+      "value": "29.65%",
+      "context": "Ontario's second bracket starts at $53,891 and the federal second bracket at $58,523, so the marginal rate jumps from 19.05% to 29.65% in that range.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "cb62bb23c46b",
+      "value": "$60,000",
+      "context": "That is why the refund at $60,000 is $1,253.51, not $1,482.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d5d0fa544a1c",
+      "value": "$1,253.51",
+      "context": "That is why the refund at $60,000 is $1,253.51, not $1,482.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "cbc2a1f0dcb2",
+      "value": "$1,482.50",
+      "context": "That is why the refund at $60,000 is $1,253.51, not $1,482.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3a2789ed9bdb",
+      "value": "$10",
+      "context": "Use them with the same logic: subtract your expected retirement rate in that province and multiply by $10 for each percentage point, per $1,000 of salary.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "34452ab2c008",
+      "value": "$1,000",
+      "context": "Use them with the same logic: subtract your expected retirement rate in that province and multiply by $10 for each percentage point, per $1,000 of salary.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9bd4aada2273",
+      "value": "November 22, 2026",
+      "context": "Combined federal and provincial marginal rate, 2026 brackets (our calculation, November 22, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "fe48453079a9",
+      "value": "$40,000",
+      "context": "$40,000 19.05% 19.60% 22.00%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2f9f8910b062",
+      "value": "19.05%",
+      "context": "$40,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "76bfba7c5417",
+      "value": "19.60%",
+      "context": "$40,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "666d6d408b9f",
+      "value": "22.00%",
+      "context": "$40,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ff61ca8ae00b",
+      "value": "$50,000",
+      "context": "$50,000 19.05% 19.60% 22.00%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "be777bc7da56",
+      "value": "19.05%",
+      "context": "$50,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "50f58720ca03",
+      "value": "19.60%",
+      "context": "$50,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e60ae771994c",
+      "value": "22.00%",
+      "context": "$50,000 19.05% 19.60% 22.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "10a60f4dcf55",
+      "value": "$60,000",
+      "context": "$60,000 29.65% 28.20% 28.50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "cbf780360af3",
+      "value": "29.65%",
+      "context": "$60,000 29.65% 28.20% 28.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "813111b35d06",
+      "value": "28.20%",
+      "context": "$60,000 29.65% 28.20% 28.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "00f2a1602ccd",
+      "value": "28.50%",
+      "context": "$60,000 29.65% 28.20% 28.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "40339cce9051",
+      "value": "$70,000",
+      "context": "$70,000 29.65% 28.20% 30.50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d52b3049a36a",
+      "value": "29.65%",
+      "context": "$70,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8804733641a4",
+      "value": "28.20%",
+      "context": "$70,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "50b54a0d80da",
+      "value": "30.50%",
+      "context": "$70,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "107ed49e58e8",
+      "value": "$80,000",
+      "context": "$80,000 29.65% 28.20% 30.50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "050706510ecd",
+      "value": "29.65%",
+      "context": "$80,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ac0a3a13ad05",
+      "value": "28.20%",
+      "context": "$80,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b43cd0a146a3",
+      "value": "30.50%",
+      "context": "$80,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4b5f45d27910",
+      "value": "$90,000",
+      "context": "$90,000 29.65% 28.20% 30.50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ac021bcb2c42",
+      "value": "29.65%",
+      "context": "$90,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "41198967855f",
+      "value": "28.20%",
+      "context": "$90,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "0240ae1fa7fe",
+      "value": "30.50%",
+      "context": "$90,000 29.65% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f8002d781224",
+      "value": "$100,000",
+      "context": "$100,000 31.48% 28.20% 30.50%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3a060b9366c5",
+      "value": "31.48%",
+      "context": "$100,000 31.48% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8af9e67e6f9e",
+      "value": "28.20%",
+      "context": "$100,000 31.48% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c8fcff4f38dd",
+      "value": "30.50%",
+      "context": "$100,000 31.48% 28.20% 30.50%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "765ab518b344",
+      "value": "$120,000",
+      "context": "$120,000 43.41% 38.29% 36.00%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c6544b0cceca",
+      "value": "43.41%",
+      "context": "$120,000 43.41% 38.29% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b91ef0e030b0",
+      "value": "38.29%",
+      "context": "$120,000 43.41% 38.29% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3aa818379fbb",
+      "value": "36.00%",
+      "context": "$120,000 43.41% 38.29% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "936fe3282bb4",
+      "value": "$150,000",
+      "context": "$150,000 44.97% 40.70% 36.00%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "987a4229d948",
+      "value": "44.97%",
+      "context": "$150,000 44.97% 40.70% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "b6d17ee8e56d",
+      "value": "40.70%",
+      "context": "$150,000 44.97% 40.70% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8818fb760616",
+      "value": "36.00%",
+      "context": "$150,000 44.97% 40.70% 36.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "21fc050bcbdb",
+      "value": "$180,000",
+      "context": "$180,000 44.97% 40.70% 38.00%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "14628f22d110",
+      "value": "44.97%",
+      "context": "$180,000 44.97% 40.70% 38.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4156761130d5",
+      "value": "40.70%",
+      "context": "$180,000 44.97% 40.70% 38.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d794634753f8",
+      "value": "38.00%",
+      "context": "$180,000 44.97% 40.70% 38.00%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bd4206e88125",
+      "value": "$200,000",
+      "context": "$200,000 48.26% 46.09% 42.29%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7ad3473bf71d",
+      "value": "48.26%",
+      "context": "$200,000 48.26% 46.09% 42.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f3ede0a531eb",
+      "value": "46.09%",
+      "context": "$200,000 48.26% 46.09% 42.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5d53d4a3a510",
+      "value": "42.29%",
+      "context": "$200,000 48.26% 46.09% 42.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "13d1f83c33d7",
+      "value": "$250,000",
+      "context": "$250,000 49.82% 46.09% 43.29%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "1f074d3550e9",
+      "value": "49.82%",
+      "context": "$250,000 49.82% 46.09% 43.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7323e3e1d908",
+      "value": "46.09%",
+      "context": "$250,000 49.82% 46.09% 43.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5f6dd78ef1d4",
+      "value": "43.29%",
+      "context": "$250,000 49.82% 46.09% 43.29%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "0ce18c1e8090",
+      "value": "$40,000",
+      "context": "Alberta's flat start means its rate at $40,000 to $50,000 is higher than Ontario's or BC's, which makes the RRSP slightly more useful at modest incomes there, as long as retirement income stays in the same bracket.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f99f4409a164",
+      "value": "$50,000",
+      "context": "Alberta's flat start means its rate at $40,000 to $50,000 is higher than Ontario's or BC's, which makes the RRSP slightly more useful at modest incomes there, as long as retirement income stays in the same bracket.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "86d2a33e7437",
+      "value": "28.20%",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5b8de48d9b2e",
+      "value": "$60,000",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "bbb980d9d2ba",
+      "value": "$100,000,",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "eed720f2812f",
+      "value": "$50,000",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d3821dcceb8e",
+      "value": "$86",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "697c39d04f0a",
+      "value": "$1,000",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e404a9c1a8c1",
+      "value": "19.60%",
+      "context": "British Columbia stays at 28.20% from $60,000 to $100,000, so a BC earner in that range who retires in BC on about $50,000 gains about $86 per $1,000 of salary (28.20% minus 19.60%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f4deedeaad46",
+      "value": "$85,000",
+      "context": "Worked example: Maya, $85,000 in Ontario",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f3288de6f141",
+      "value": "$85,000",
+      "context": "Maya earns $85,000 in Toronto and has $5,000 of salary she wants to save this year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "1f402eaf20ff",
+      "value": "$5,000",
+      "context": "Maya earns $85,000 in Toronto and has $5,000 of salary she wants to save this year.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "dbc29c88ae54",
+      "value": "$50,000",
+      "context": "She expects to retire on about $50,000 of taxable income from CPP, OAS and RRIF withdrawals.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "351c90b0c1c7",
+      "value": "$5,000",
+      "context": "She contributes $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8ab072c6dbc7",
+      "value": "$1,482.50",
+      "context": "Her refund is $1,482.50 (29.65% on income between $80,000 and $85,000), so the contribution costs her $3,517.50 out of pocket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ed566b2d1d9a",
+      "value": "29.65%",
+      "context": "Her refund is $1,482.50 (29.65% on income between $80,000 and $85,000), so the contribution costs her $3,517.50 out of pocket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "db7a87f86c76",
+      "value": "$80,000",
+      "context": "Her refund is $1,482.50 (29.65% on income between $80,000 and $85,000), so the contribution costs her $3,517.50 out of pocket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5f7959f059c7",
+      "value": "$85,000",
+      "context": "Her refund is $1,482.50 (29.65% on income between $80,000 and $85,000), so the contribution costs her $3,517.50 out of pocket.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4d8dc7ec8dce",
+      "value": "$3,517.50",
+      "context": "Her refund is $1,482.50 (29.65% on income between $80,000 and $85,000), so the contribution costs her $3,517.50 out of pocket.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d9b4fac9feec",
+      "value": "$1,482.50",
+      "context": "She pays the same $1,482.50 of tax first and deposits the remaining $3,517.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "6a1012728c07",
+      "value": "$3,517.50",
+      "context": "She pays the same $1,482.50 of tax first and deposits the remaining $3,517.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "decf14a51a4b",
+      "value": "$5,000",
+      "context": "The RRSP $5,000 is taxed at 19.05%, leaving $4,047.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a02bc7a41afc",
+      "value": "19.05%",
+      "context": "The RRSP $5,000 is taxed at 19.05%, leaving $4,047.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3d59cd369e0c",
+      "value": "$4,047.50",
+      "context": "The RRSP $5,000 is taxed at 19.05%, leaving $4,047.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bdbbb91630de",
+      "value": "$3,517.50",
+      "context": "The TFSA $3,517.50 comes out tax-free.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "dd4df45c87a3",
+      "value": "$530",
+      "context": "The RRSP is ahead by $530.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "994e8cefbe8f",
+      "value": "$10,000",
+      "context": "The RRSP is worth $10,000 and leaves $8,095 after 19.05%; the TFSA is worth $7,035.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e34fbf3891a8",
+      "value": "$8,095",
+      "context": "The RRSP is worth $10,000 and leaves $8,095 after 19.05%; the TFSA is worth $7,035.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "0f78b5efe2a6",
+      "value": "19.05%",
+      "context": "The RRSP is worth $10,000 and leaves $8,095 after 19.05%; the TFSA is worth $7,035.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3265c4d55c65",
+      "value": "$7,035",
+      "context": "The RRSP is worth $10,000 and leaves $8,095 after 19.05%; the TFSA is worth $7,035.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f5b0012f5695",
+      "value": "$1,060",
+      "context": "The gap doubles to $1,060.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "99944d8be439",
+      "value": "$530",
+      "context": "The $530 is just the rate difference: 29.65% minus 19.05% is 10.6 percentage points, times $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ebccdc2928f6",
+      "value": "29.65%",
+      "context": "The $530 is just the rate difference: 29.65% minus 19.05% is 10.6 percentage points, times $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f84a8835c51c",
+      "value": "19.05%",
+      "context": "The $530 is just the rate difference: 29.65% minus 19.05% is 10.6 percentage points, times $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f1ad4388450f",
+      "value": "10.6",
+      "context": "The $530 is just the rate difference: 29.65% minus 19.05% is 10.6 percentage points, times $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ac2428edf769",
+      "value": "$5,000",
+      "context": "The $530 is just the rate difference: 29.65% minus 19.05% is 10.6 percentage points, times $5,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "49b43d2d4515",
+      "value": "$100,000",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "78dad50a1dc1",
+      "value": "31.48%",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "6d7c7d8172c3",
+      "value": "$91.50",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e32a485b3d15",
+      "value": "$5,000",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "70a5e94f63d3",
+      "value": "$18.30",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e603774c3441",
+      "value": "$1,000,",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e811c9e9c023",
+      "value": "$18",
+      "context": "If Maya instead expected to retire on $100,000 of taxable income in Ontario, her withdrawal rate would be 31.48%, and the TFSA would win by $91.50 on the same $5,000 ($18.30 per $1,000, shown as $18 in the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "38ffde5eddea",
+      "value": "$5,000",
+      "context": "One more thing about Maya: the RRSP route only wins because she contributes the full $5,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "55eb7185627b",
+      "value": "$1,482.50",
+      "context": "That needs her to fund the $1,482.50 gap up front and get it back as a refund in the spring, or to ask her employer to reduce withholding at source, using the CRA's Form T1213, Request to Reduce Tax Deductions at Source.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "68e95e59217b",
+      "value": "$5,000,",
+      "context": "In real life most people contribute a round number of after-tax dollars, say $5,000, and then get a refund.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0802af148629",
+      "value": "$5,000",
+      "context": "If it pays for a holiday, you have compared a $5,000 TFSA with a $5,000 RRSP that carries a future tax bill, and the TFSA wins at every income where your retirement rate is above zero.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7e241234ad8b",
+      "value": "18%",
+      "context": "The CRA's deduction limit page sets new RRSP room at 18% of the previous year's earned income, up to the annual limit of $33,810 for 2026, minus any pension adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "819c75c3018f",
+      "value": "$33,810",
+      "context": "The CRA's deduction limit page sets new RRSP room at 18% of the previous year's earned income, up to the annual limit of $33,810 for 2026, minus any pension adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
+    },
+    {
+      "id": "dd23da9ca12b",
+      "value": "$187,833",
+      "context": "That cap is reached at $187,833 of earned income ($33,810 divided by 18%).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3ff2b3adba1f",
+      "value": "$33,810",
+      "context": "That cap is reached at $187,833 of earned income ($33,810 divided by 18%).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
+    },
+    {
+      "id": "d8c65a6a26bf",
+      "value": "18%",
+      "context": "That cap is reached at $187,833 of earned income ($33,810 divided by 18%).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "98d758dde5c0",
+      "value": "$35,390,",
+      "context": "The 2027 limit is $35,390, per the CRA's limits table .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "db35f65dcd94",
+      "value": "$95,323",
+      "context": "The Government of Canada's recovery tax page sets the threshold at $95,323 of net income for the 2026 income year, which applies to OAS paid from July 2027 to June 2028, and the repayment is 15% of income above it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
+      },
+      "needle": "$93,454 $152,062 $157,923 July 2027 to June 2028 2026 $95,323 $155,3201 $161,3201 1 From January to September of"
+    },
+    {
+      "id": "376945691f7a",
+      "value": "15%",
+      "context": "The Government of Canada's recovery tax page sets the threshold at $95,323 of net income for the 2026 income year, which applies to OAS paid from July 2027 to June 2028, and the repayment is 15% of income above it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
+      },
+      "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
+    },
+    {
+      "id": "0e55b820fad2",
+      "value": "$100,000",
+      "context": "A retiree with $100,000 of net income would repay $701.55 (15% of $4,677).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "07eb7b96983f",
+      "value": "$701.55",
+      "context": "A retiree with $100,000 of net income would repay $701.55 (15% of $4,677).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d56bf3aac92b",
+      "value": "15%",
+      "context": "A retiree with $100,000 of net income would repay $701.55 (15% of $4,677).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
+      },
+      "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
+    },
+    {
+      "id": "1c7b1c976f52",
+      "value": "$4,677",
+      "context": "A retiree with $100,000 of net income would repay $701.55 (15% of $4,677).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c40e87006c29",
+      "value": "$1,000",
+      "context": "On the next $1,000 they withdraw, the effective rate in Ontario is 46.48%: 31.48% income tax plus 15% recovery.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0ad24c681abb",
+      "value": "46.48%",
+      "context": "On the next $1,000 they withdraw, the effective rate in Ontario is 46.48%: 31.48% income tax plus 15% recovery.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e2ab8fbbd064",
+      "value": "31.48%",
+      "context": "On the next $1,000 they withdraw, the effective rate in Ontario is 46.48%: 31.48% income tax plus 15% recovery.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "20062da39c59",
+      "value": "15%",
+      "context": "On the next $1,000 they withdraw, the effective rate in Ontario is 46.48%: 31.48% income tax plus 15% recovery.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
+      },
+      "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
+    },
+    {
+      "id": "d6685ece35f9",
+      "value": "43.41%",
+      "context": "At that point an RRSP built at a 43.41% rate loses to a TFSA.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "2ef36274a002",
+      "value": "10%",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in"
+    },
+    {
+      "id": "6cdc1018e931",
+      "value": "20%",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up to"
+    },
+    {
+      "id": "1de5cb3483f2",
+      "value": "30%",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
+    },
+    {
+      "id": "c6bcc9bea53f",
+      "value": "5%",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec)"
+    },
+    {
+      "id": "f22e02fb966a",
+      "value": "15%",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds held"
+    },
+    {
+      "id": "464070e8b89d",
+      "value": "$5,000,",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
+    },
+    {
+      "id": "cdcb6e53e720",
+      "value": "$5,000",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
+    },
+    {
+      "id": "a0ec97b381e4",
+      "value": "$15,000",
+      "context": "An RRSP withdrawal while working is taxed at your working rate, and the CRA's withholding rates of 10%, 20% and 30% (5%, 10% and 15% in Quebec) on amounts up to $5,000, $5,000 to $15,000 and over $15,000 are taken at source.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html",
+      "sourceName": "CRA: Tax rates on RRSP withdrawals",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
+      },
+      "needle": "on amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
+    },
+    {
+      "id": "0b9ada54bee0",
+      "value": "$53,891",
+      "context": "In Ontario in 2026, that usually starts once income is above the second bracket thresholds of $53,891 provincially and $58,523 federally, if you expect to retire on a modest income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
+    },
+    {
+      "id": "79ecd9eafd4a",
+      "value": "$58,523",
+      "context": "In Ontario in 2026, that usually starts once income is above the second bracket thresholds of $53,891 provincially and $58,523 federally, if you expect to retire on a modest income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "sourceName": "CRA: Tax rates and income brackets for individuals, current year",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
+      },
+      "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
+    },
+    {
+      "id": "657b65e79f04",
+      "value": "18%",
+      "context": "18% of your 2025 earned income, up to $33,810, minus any pension adjustment, plus unused room carried forward.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "841dd858e54a",
+      "value": "$33,810,",
+      "context": "18% of your 2025 earned income, up to $33,810, minus any pension adjustment, plus unused room carried forward.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
+    },
+    {
+      "id": "d54ec57b4f7b",
+      "value": "$95,323",
+      "context": "RRSP and RRIF withdrawals are, which is why large RRSPs can push retirees past the $95,323 threshold for the 2026 income year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html",
+      "sourceName": "Government of Canada: OAS pension recovery tax",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
+      },
+      "needle": "$93,454 $152,062 $157,923 July 2027 to June 2028 2026 $95,323 $155,3201 $161,3201 1 From January to September of"
+    }
+  ]
+}

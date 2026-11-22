@@ -1,0 +1,1635 @@
+{
+  "slug": "tfsa-withdrawal-rules",
+  "publishDate": "2026-11-22",
+  "figures": [
+    {
+      "id": "15a9fabef178",
+      "value": "January 1",
+      "context": "According to the CRA's 2026 TFSA pages, the amount you withdraw is added back to your contribution room on January 1 of the next year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "f8170c3bc123",
+      "value": "1%",
+      "context": "Re-contribute sooner without unused room and the excess is taxed at 1% a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "a41b6f7c6b2d",
+      "value": "January 1, 2027",
+      "context": "A withdrawal in 2026 becomes new room on January 1, 2027, on top of the 2027 dollar limit.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_withdraw"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7428df758056",
+      "value": "1%",
+      "context": "The tax on an excess is 1% of the highest excess in each month, with no grace amount, and it counts the month you fix it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "f76dd6d48a53",
+      "value": "January 1",
+      "context": "On January 1 of the calendar year after the withdrawal, not before.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "8dee92f0c2ed",
+      "value": "January 1",
+      "context": "This year's TFSA dollar limit Adds Arrives on January 1 for every eligible resident",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "dadeb8d3e360",
+      "value": "$7,000",
+      "context": "For scale: the dollar limit is $7,000 for 2026, the same as 2024 and 2025, per the CRA's limits table .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
+    },
+    {
+      "id": "5324e8b6faa6",
+      "value": "$109,000",
+      "context": "Someone who has been an adult resident since 2009 and never contributed has $109,000 of room in 2026, which is the sum of every annual limit from 2009 to 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c7160f596a38",
+      "value": "November 22, 2026",
+      "context": "The 2027 dollar limit was not on that table when this guide was checked on November 22, 2026, so this guide does not print a number for it.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "274b9c5a2c9b",
+      "value": "$12,000",
+      "context": "Example (illustration): Priya withdraws $12,000 on March 3, 2026",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "5b0199ba22d9",
+      "value": "March 3, 2026",
+      "context": "Example (illustration): Priya withdraws $12,000 on March 3, 2026",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2b4b18b2d9df",
+      "value": "$0",
+      "context": "Unused room at the end of 2025 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "03c5648394b3",
+      "value": "January 1, 2026",
+      "context": "2026 dollar limit, added January 1, 2026 $7,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "54525e23fc7a",
+      "value": "$7,000",
+      "context": "2026 dollar limit, added January 1, 2026 $7,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
+    },
+    {
+      "id": "7ff232b1d42c",
+      "value": "$7,000",
+      "context": "Contribution in January 2026 \u2212$7,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f2f22efb079a",
+      "value": "March 3, 2026",
+      "context": "Withdrawal on March 3, 2026 (no effect on 2026 room) $12,000 out",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8c5fdb149291",
+      "value": "$12,000",
+      "context": "Withdrawal on March 3, 2026 (no effect on 2026 room) $12,000 out",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4a79bf13a0f5",
+      "value": "$0",
+      "context": "Room left for the rest of 2026 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0b9e78a6b634",
+      "value": "January 1, 2027",
+      "context": "Room on January 1, 2027 $12,000 + the 2027 limit",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "55f83a300547",
+      "value": "$12,000",
+      "context": "Room on January 1, 2027 $12,000 + the 2027 limit",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "128af55f51de",
+      "value": "$12,000",
+      "context": "The rule that the $12,000 returns only in January comes from the CRA withdrawal page.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0ccbfb95164b",
+      "value": "March 3, 2026",
+      "context": "March 3, 2026 $12,000 leaves her TFSA, tax-free Nothing goes back in during 2026 unless she has unused room (she has none)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ace62f2c2792",
+      "value": "$12,000",
+      "context": "March 3, 2026 $12,000 leaves her TFSA, tax-free Nothing goes back in during 2026 unless she has unused room (she has none)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "aabdca348e6c",
+      "value": "January 1, 2027",
+      "context": "January 1, 2027 $12,000 is added back as room, plus the 2027 dollar limit She can re-contribute from this date",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "39dfd4925b69",
+      "value": "$12,000",
+      "context": "January 1, 2027 $12,000 is added back as room, plus the 2027 dollar limit She can re-contribute from this date",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7bedb555f69e",
+      "value": "January 1",
+      "context": "On January 1 the CRA account can show room that you have already used.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "011bc44bbdc3",
+      "value": "1%",
+      "context": "If you had no unused room, it costs 1% of the re-contributed amount for every month from the re-contribution to December, counting the month you put it back.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "81482fc31e0d",
+      "value": "January 1",
+      "context": "The excess then disappears on January 1, because the withdrawal is added back as room that day.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "220e4ab164ec",
+      "value": "$5,000",
+      "context": "Tax on a $5,000 withdrawal re-contributed in 2026 with $0 unused room, by month of re-contribution (our calculation from the CRA's 1%-a-month rule)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "ccbf1ea93113",
+      "value": "$0",
+      "context": "Tax on a $5,000 withdrawal re-contributed in 2026 with $0 unused room, by month of re-contribution (our calculation from the CRA's 1%-a-month rule)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d25a07691a22",
+      "value": "1%",
+      "context": "Tax on a $5,000 withdrawal re-contributed in 2026 with $0 unused room, by month of re-contribution (our calculation from the CRA's 1%-a-month rule)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "bf68caa33a33",
+      "value": "$5,000",
+      "context": "Month the $5,000 goes back in Months taxed in 2026 Tax owed",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "059fe5f52128",
+      "value": "March 10",
+      "context": "March 10 $500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "0d9f9f4e9a14",
+      "value": "$500",
+      "context": "March 10 $500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5001a3fb6eec",
+      "value": "April 9",
+      "context": "April 9 $450",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "0926baf9f91b",
+      "value": "$450",
+      "context": "April 9 $450",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "539f3d7c04bd",
+      "value": "May 8",
+      "context": "May 8 $400",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "df4060734482",
+      "value": "$400",
+      "context": "May 8 $400",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "adfeb4dd773a",
+      "value": "June 7",
+      "context": "June 7 $350",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f26ac6ed8d7b",
+      "value": "$350",
+      "context": "June 7 $350",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "44a469cee5c8",
+      "value": "July 6",
+      "context": "July 6 $300",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4471b86c5a64",
+      "value": "$300",
+      "context": "July 6 $300",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "025e2b65e50f",
+      "value": "August 5",
+      "context": "August 5 $250",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "6c8ac08c6412",
+      "value": "$250",
+      "context": "August 5 $250",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "01d3d50641c5",
+      "value": "September 4",
+      "context": "September 4 $200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c6299e596870",
+      "value": "$200",
+      "context": "September 4 $200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "1192d19c4ea8",
+      "value": "October 3",
+      "context": "October 3 $150",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "55deac30a354",
+      "value": "$150",
+      "context": "October 3 $150",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "f7c72e188635",
+      "value": "November 2",
+      "context": "November 2 $100",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d6483ae85a93",
+      "value": "$100",
+      "context": "November 2 $100",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a3931ba3d9b1",
+      "value": "December 1",
+      "context": "December 1 $50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a36277bdcb09",
+      "value": "$50",
+      "context": "December 1 $50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e33a483753c5",
+      "value": "$0",
+      "context": "January 2027 or later 0 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7638f5c5515b",
+      "value": "$5,000",
+      "context": "Our calculation: for someone with no unused room, a $5,000 withdrawal put back in March 2026 costs $500 in TFSA tax, and even a December re-deposit costs $50, while the same deposit made on or after January 1, 2027 costs $0.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3a02f42c8623",
+      "value": "$500",
+      "context": "Our calculation: for someone with no unused room, a $5,000 withdrawal put back in March 2026 costs $500 in TFSA tax, and even a December re-deposit costs $50, while the same deposit made on or after January 1, 2027 costs $0.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "dc991c9f3620",
+      "value": "$50,",
+      "context": "Our calculation: for someone with no unused room, a $5,000 withdrawal put back in March 2026 costs $500 in TFSA tax, and even a December re-deposit costs $50, while the same deposit made on or after January 1, 2027 costs $0.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5a7562a3ede5",
+      "value": "January 1, 2027",
+      "context": "Our calculation: for someone with no unused room, a $5,000 withdrawal put back in March 2026 costs $500 in TFSA tax, and even a December re-deposit costs $50, while the same deposit made on or after January 1, 2027 costs $0.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_withdraw"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "538cf52b2d23",
+      "value": "$0",
+      "context": "Our calculation: for someone with no unused room, a $5,000 withdrawal put back in March 2026 costs $500 in TFSA tax, and even a December re-deposit costs $50, while the same deposit made on or after January 1, 2027 costs $0.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5c64e856ac31",
+      "value": "$3,000",
+      "context": "With $3,000 of unused room, re-contributing the $5,000 creates a $2,000 excess, which is $20 a month, so a June re-contribution left in until January costs $140.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3b90d697a0cf",
+      "value": "$5,000",
+      "context": "With $3,000 of unused room, re-contributing the $5,000 creates a $2,000 excess, which is $20 a month, so a June re-contribution left in until January costs $140.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "e62a623aecd0",
+      "value": "$2,000",
+      "context": "With $3,000 of unused room, re-contributing the $5,000 creates a $2,000 excess, which is $20 a month, so a June re-contribution left in until January costs $140.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "110b98350231",
+      "value": "$20",
+      "context": "With $3,000 of unused room, re-contributing the $5,000 creates a $2,000 excess, which is $20 a month, so a June re-contribution left in until January costs $140.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "2902f020cee8",
+      "value": "$140",
+      "context": "With $3,000 of unused room, re-contributing the $5,000 creates a $2,000 excess, which is $20 a month, so a June re-contribution left in until January costs $140.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "fe305ccafeb6",
+      "value": "$2,000",
+      "context": "Its own example puts a $2,000 excess in during June and removes it in September, and charges four months, $80 in all.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "sooner can reduce your tax If you over-contribute $2,000 in June and remove it in September of the same year,"
+    },
+    {
+      "id": "54ef3525f4f1",
+      "value": "$80",
+      "context": "Its own example puts a $2,000 excess in during June and removes it in September, and charges four months, $80 in all.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "month for June, July, August and September (a total of $80). But if you remove the excess amount later in June,"
+    },
+    {
+      "id": "b5822af15fac",
+      "value": "$2,000",
+      "context": "The CRA's worked examples point out that RRSPs have a $2,000 cushion and TFSAs do not: the 1% applies from the first dollar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html",
+      "sourceName": "CRA: Examples, tax payable on excess TFSA amount",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess_ex, HTTP 200)"
+      },
+      "needle": "contributions except that in the case of a TFSA, there is no $2,000 \"grace\" amount. The tax of 1% on an excess TFSA amount"
+    },
+    {
+      "id": "03df07ad13dd",
+      "value": "1%",
+      "context": "The CRA's worked examples point out that RRSPs have a $2,000 cushion and TFSAs do not: the 1% applies from the first dollar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "fe757bbadc52",
+      "value": "$3,000",
+      "context": "The CRA's own example is a $3,000 trip withdrawal re-deposited in the same year by someone who had already used the full year's room.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "after contribution Later that year, she withdraws $3,000 for a trip. Unfortunately, her plans change and she"
+    },
+    {
+      "id": "9e26067981c9",
+      "value": "$7,000",
+      "context": "Example (illustration): the same $7,000 contribution, two outcomes",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8b395f11ccd8",
+      "value": "$7,000",
+      "context": "Contributed in an earlier year $7,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8e3f6e49355f",
+      "value": "$9,000",
+      "context": "Account grows to $9,000; all of it is withdrawn in 2026 $9,000 of room returns January 1, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7818e9747a22",
+      "value": "January 1, 2027",
+      "context": "Account grows to $9,000; all of it is withdrawn in 2026 $9,000 of room returns January 1, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_withdraw"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "410248fef3d9",
+      "value": "$6,000",
+      "context": "Account falls to $6,000; all of it is withdrawn in 2026 $6,000 of room returns January 1, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "c6ec6de43402",
+      "value": "January 1, 2027",
+      "context": "Account falls to $6,000; all of it is withdrawn in 2026 $6,000 of room returns January 1, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_withdraw"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "aba23c71f354",
+      "value": "$1,000",
+      "context": "Room the falling account never gets back $1,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "d25329e58715",
+      "value": "January 1",
+      "context": "Withdraw cash to your bank account Yes Amount returns next January 1",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "7c5659748920",
+      "value": "$50,000",
+      "context": "The CRA's transfer page shows how expensive a do-it-yourself move can be: a holder who withdrew $50,000 to chase a better rate at another bank and deposited it herself had a $50,000 excess, taxed at $500 a month until removed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/transfer.html",
+      "sourceName": "CRA: Requesting a TFSA transfer",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (transfer, HTTP 200)"
+      },
+      "needle": "advantage of the offer. In April 2025, she withdraws $50,000 from her TFSA and contributes it to a TFSA at the"
+    },
+    {
+      "id": "197d91badf94",
+      "value": "$500",
+      "context": "The CRA's transfer page shows how expensive a do-it-yourself move can be: a holder who withdrew $50,000 to chase a better rate at another bank and deposited it herself had a $50,000 excess, taxed at $500 a month until removed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/transfer.html",
+      "sourceName": "CRA: Requesting a TFSA transfer",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (transfer, HTTP 200)"
+      },
+      "needle": "1% monthly tax on the excess amount. This comes to $500 per month until she removes the excess amount. To"
+    },
+    {
+      "id": "5983ab15a1f0",
+      "value": "January 1",
+      "context": "Anything I could not prove waits until January 1.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "d1ed3653ce66",
+      "value": "June 30",
+      "context": "File Form RC243, the TFSA Return, with Schedule A by June 30 of the year after the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/pay.html",
+      "sourceName": "CRA: If you have to pay tax on a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
+      },
+      "needle": "must complete and file a TFSA Return (Form RC243) by June 30 of the calendar year after the year the tax applies."
+    },
+    {
+      "id": "c98c8a8edf76",
+      "value": "June 30, 2027",
+      "context": "A 2026 excess means filing by June 30, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_paytax"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5452f982f97e",
+      "value": "90",
+      "context": "You have 90 days from the date on the TFSA notice of assessment to file a notice of objection.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/pay.html",
+      "sourceName": "CRA: If you have to pay tax on a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
+      },
+      "needle": "calculated, you may submit a notice of objection within 90 days of the date on your NOA. To file an objection,"
+    },
+    {
+      "id": "11e28e5a657d",
+      "value": "100%",
+      "context": "A deliberate over-contribution is treated more harshly: the CRA says it may be taxed at the 100% advantage rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "of deliberate over-contribution may be taxed at the 100% advantage rate. For more information: How an advantage"
+    },
+    {
+      "id": "3f9b51aeeb45",
+      "value": "January 1",
+      "context": "The withdrawn amount itself returns as room on January 1 of the next year, so re-depositing it earlier without spare room creates an excess taxed at 1% a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "575156f79c94",
+      "value": "1%",
+      "context": "The withdrawn amount itself returns as room on January 1 of the next year, so re-depositing it earlier without spare room creates an excess taxed at 1% a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "084fd3aa9089",
+      "value": "$7,000",
+      "context": "The amount withdrawn is what returns as room, so if $7,000 grew to $9,000 and you take it all out, $9,000 of room comes back the next January 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bb1c6f3475bf",
+      "value": "$9,000",
+      "context": "The amount withdrawn is what returns as room, so if $7,000 grew to $9,000 and you take it all out, $9,000 of room comes back the next January 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "03ddae63acea",
+      "value": "January 1",
+      "context": "The amount withdrawn is what returns as room, so if $7,000 grew to $9,000 and you take it all out, $9,000 of room comes back the next January 1.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html",
+      "sourceName": "CRA: Withdrawing from a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
+      },
+      "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
+    },
+    {
+      "id": "494730378a69",
+      "value": "1%",
+      "context": "How is the 1% tax calculated if I fix the excess mid-month?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "07a76ed23266",
+      "value": "1%",
+      "context": "The tax is 1% of the highest excess in the account during each month, so the month you remove it is still charged in full.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html",
+      "sourceName": "CRA: Tax on excess TFSA amounts",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
+      },
+      "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
+    },
+    {
+      "id": "367dbbafd890",
+      "value": "June 30",
+      "context": "File Form RC243 and Schedule A, and pay, by June 30 of the year after the year the tax applies.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/pay.html",
+      "sourceName": "CRA: If you have to pay tax on a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
+      },
+      "needle": "must complete and file a TFSA Return (Form RC243) by June 30 of the calendar year after the year the tax applies."
+    },
+    {
+      "id": "ee3f3d962422",
+      "value": "November 22, 2026",
+      "context": "It had not been published on the CRA's limits table when this guide was checked on November 22, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "c447c4b4530d",
+      "value": "$7,000,",
+      "context": "The 2026 limit is $7,000, and the limit is indexed to inflation and rounded to the nearest $500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
+    },
+    {
+      "id": "33c6f17554bd",
+      "value": "$500",
+      "context": "The 2026 limit is $7,000, and the limit is indexed to inflation and rounded to the nearest $500.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html",
+      "sourceName": "CRA: Before you contribute to a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
+      },
+      "needle": "is indexed to inflation and rounded to the nearest $500. Contributions reduce your available room Any amount"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "investing-when-leaving-canada-tfsa-rrsp",
+  "title": "Leaving Canada? What Happens to Your TFSA, RRSP and Investments",
+  "family": "core",
+  "category": "investing",
+  "subcategory": "accounts-asset-location",
+  "targetQuery": "tfsa rrsp leaving canada",
+  "secondaryQueries": [
+    "what happens to my tfsa if i leave canada",
+    "rrsp non-resident withdrawal tax",
+    "departure tax canada"
+  ],
+  "infoGain": "Worked example of one emigrant's four accounts ($310,000 total) showing only the $80,000 non-registered account triggers departure tax on a $30,000 deemed gain, the T1161 and T1244 thresholds applied, and Part XIII 25% withholding ($37,500) on the RRSP versus 30% resident withholding ($45,000).",
+  "money": false,
+  "offers": [],
+  "ebook": "investing-guide",
+  "publishDate": "2026-11-22",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "read rendered preview on 2026-11-22: opening answers that leaving does not close or tax the TFSA/RRSP; all 11 question headings open with a direct answer (\"You can keep it...\", \"No.\", \"Yes, with Form T1244...\", \"Only when you become a resident of Canada again\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "no invented quotes or experience; emigrant, Part XIII, section 217, T1161/T1244 and TFSA non-resident rules from CRA pages re-read 2026-11-22; Sam is a labelled illustration; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

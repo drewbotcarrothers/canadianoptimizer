@@ -1,0 +1,333 @@
+{
+  "cumulativeRoom2026ByFirstYear": {
+    "2009": 109000,
+    "2010": 104000,
+    "2011": 99000,
+    "2012": 94000,
+    "2013": 89000,
+    "2014": 83500,
+    "2015": 78000,
+    "2016": 68000,
+    "2017": 62500,
+    "2018": 57000,
+    "2019": 51500,
+    "2020": 45500,
+    "2021": 39500,
+    "2022": 33500,
+    "2023": 27500,
+    "2024": 21000,
+    "2025": 14000,
+    "2026": 7000
+  },
+  "recontribute5000": [
+    {
+      "month": "March",
+      "monthsTaxed": 10,
+      "tax": 500
+    },
+    {
+      "month": "April",
+      "monthsTaxed": 9,
+      "tax": 450
+    },
+    {
+      "month": "May",
+      "monthsTaxed": 8,
+      "tax": 400
+    },
+    {
+      "month": "June",
+      "monthsTaxed": 7,
+      "tax": 350
+    },
+    {
+      "month": "July",
+      "monthsTaxed": 6,
+      "tax": 300
+    },
+    {
+      "month": "August",
+      "monthsTaxed": 5,
+      "tax": 250
+    },
+    {
+      "month": "September",
+      "monthsTaxed": 4,
+      "tax": 200
+    },
+    {
+      "month": "October",
+      "monthsTaxed": 3,
+      "tax": 150
+    },
+    {
+      "month": "November",
+      "monthsTaxed": 2,
+      "tax": 100
+    },
+    {
+      "month": "December",
+      "monthsTaxed": 1,
+      "tax": 50
+    }
+  ],
+  "partialRoom": {
+    "unused": 3000,
+    "recontributed": 5000,
+    "excess": 2000,
+    "perMonth": 20,
+    "juneToDec": 140
+  },
+  "growth": {
+    "contributed": 7000,
+    "value": 9000,
+    "withdrawn": 9000,
+    "roomBack": 9000
+  },
+  "loss": {
+    "contributed": 7000,
+    "value": 6000,
+    "withdrawn": 6000,
+    "roomBack": 6000,
+    "roomGone": 1000
+  },
+  "priya": {
+    "unusedStart2026": 7000,
+    "withdraw2026": 12000,
+    "contrib2026": 7000,
+    "roomJan2027": "0 unused + 12,000 withdrawal + 2027 limit"
+  },
+  "byIncome": [
+    {
+      "income": 40000,
+      "marg_ON": 19.05,
+      "marg_BC": 19.6,
+      "marg_AB": 22,
+      "refund5000_ON": 952.5,
+      "taxOn1000Now_ON": 190.5,
+      "tfsaDeposit_ON": 809.5,
+      "rrspMinusTfsa": {
+        "30000": 0,
+        "50000": 0,
+        "70000": -106,
+        "100000": -124
+      }
+    },
+    {
+      "income": 50000,
+      "marg_ON": 19.05,
+      "marg_BC": 19.6,
+      "marg_AB": 22,
+      "refund5000_ON": 952.5,
+      "taxOn1000Now_ON": 190.5,
+      "tfsaDeposit_ON": 809.5,
+      "rrspMinusTfsa": {
+        "30000": 0,
+        "50000": 0,
+        "70000": -106,
+        "100000": -124
+      }
+    },
+    {
+      "income": 60000,
+      "marg_ON": 29.65,
+      "marg_BC": 28.2,
+      "marg_AB": 28.5,
+      "refund5000_ON": 1253.51,
+      "taxOn1000Now_ON": 296.5,
+      "tfsaDeposit_ON": 703.5,
+      "rrspMinusTfsa": {
+        "30000": 106,
+        "50000": 106,
+        "70000": 0,
+        "100000": -18
+      }
+    },
+    {
+      "income": 70000,
+      "marg_ON": 29.65,
+      "marg_BC": 28.2,
+      "marg_AB": 30.5,
+      "refund5000_ON": 1482.5,
+      "taxOn1000Now_ON": 296.5,
+      "tfsaDeposit_ON": 703.5,
+      "rrspMinusTfsa": {
+        "30000": 106,
+        "50000": 106,
+        "70000": 0,
+        "100000": -18
+      }
+    },
+    {
+      "income": 80000,
+      "marg_ON": 29.65,
+      "marg_BC": 28.2,
+      "marg_AB": 30.5,
+      "refund5000_ON": 1482.5,
+      "taxOn1000Now_ON": 296.5,
+      "tfsaDeposit_ON": 703.5,
+      "rrspMinusTfsa": {
+        "30000": 106,
+        "50000": 106,
+        "70000": 0,
+        "100000": -18
+      }
+    },
+    {
+      "income": 90000,
+      "marg_ON": 29.65,
+      "marg_BC": 28.2,
+      "marg_AB": 30.5,
+      "refund5000_ON": 1482.5,
+      "taxOn1000Now_ON": 296.5,
+      "tfsaDeposit_ON": 703.5,
+      "rrspMinusTfsa": {
+        "30000": 106,
+        "50000": 106,
+        "70000": 0,
+        "100000": -18
+      }
+    },
+    {
+      "income": 100000,
+      "marg_ON": 31.48,
+      "marg_BC": 28.2,
+      "marg_AB": 30.5,
+      "refund5000_ON": 1574,
+      "taxOn1000Now_ON": 314.8,
+      "tfsaDeposit_ON": 685.2,
+      "rrspMinusTfsa": {
+        "30000": 124,
+        "50000": 124,
+        "70000": 18,
+        "100000": 0
+      }
+    },
+    {
+      "income": 120000,
+      "marg_ON": 43.41,
+      "marg_BC": 38.29,
+      "marg_AB": 36,
+      "refund5000_ON": 2058,
+      "taxOn1000Now_ON": 434.09,
+      "tfsaDeposit_ON": 565.91,
+      "rrspMinusTfsa": {
+        "30000": 244,
+        "50000": 244,
+        "70000": 138,
+        "100000": 119
+      }
+    },
+    {
+      "income": 150000,
+      "marg_ON": 44.97,
+      "marg_BC": 40.7,
+      "marg_AB": 36,
+      "refund5000_ON": 2170.48,
+      "taxOn1000Now_ON": 434.09,
+      "tfsaDeposit_ON": 565.91,
+      "rrspMinusTfsa": {
+        "30000": 244,
+        "50000": 244,
+        "70000": 138,
+        "100000": 119
+      }
+    },
+    {
+      "income": 180000,
+      "marg_ON": 44.97,
+      "marg_BC": 40.7,
+      "marg_AB": 38,
+      "refund5000_ON": 2248.48,
+      "taxOn1000Now_ON": 449.69,
+      "tfsaDeposit_ON": 550.31,
+      "rrspMinusTfsa": {
+        "30000": 259,
+        "50000": 259,
+        "70000": 153,
+        "100000": 135
+      }
+    },
+    {
+      "income": 200000,
+      "marg_ON": 48.26,
+      "marg_BC": 46.09,
+      "marg_AB": 42.29,
+      "refund5000_ON": 2413.23,
+      "taxOn1000Now_ON": 482.64,
+      "tfsaDeposit_ON": 517.36,
+      "rrspMinusTfsa": {
+        "30000": 292,
+        "50000": 292,
+        "70000": 186,
+        "100000": 168
+      }
+    },
+    {
+      "income": 250000,
+      "marg_ON": 49.82,
+      "marg_BC": 46.09,
+      "marg_AB": 43.29,
+      "refund5000_ON": 2491.23,
+      "taxOn1000Now_ON": 498.25,
+      "tfsaDeposit_ON": 501.75,
+      "rrspMinusTfsa": {
+        "30000": 308,
+        "50000": 308,
+        "70000": 202,
+        "100000": 183
+      }
+    }
+  ],
+  "retirementMarg_ON": {
+    "30000": 19.05,
+    "50000": 19.05,
+    "70000": 29.65,
+    "100000": 31.48
+  },
+  "retirementNet1000_ON": {
+    "30000": 809.5,
+    "50000": 809.5,
+    "70000": 703.5,
+    "100000": 685.2
+  },
+  "rrspRoom2026": {
+    "40000": 7200,
+    "50000": 9000,
+    "60000": 10800,
+    "70000": 12600,
+    "80000": 14400,
+    "90000": 16200,
+    "100000": 18000,
+    "120000": 21600,
+    "150000": 27000,
+    "180000": 32400,
+    "200000": 33810,
+    "250000": 33810
+  },
+  "rrspCapIncome": 187833.33,
+  "oas": {
+    "threshold2026": 95323,
+    "income": 100000,
+    "over": 4677,
+    "recovery": 701.55
+  },
+  "oasEffective": 46.48,
+  "sam": {
+    "tfsa": 60000,
+    "rrsp": 150000,
+    "nonregFMV": 80000,
+    "nonregACB": 50000,
+    "cash": 20000,
+    "deemedGain": 30000,
+    "t1161Property": 80000,
+    "partXIII": 37500,
+    "rrspNetAt25": 112500,
+    "residentWithholding": 45000,
+    "nonresContrib": {
+      "amount": 7000,
+      "months": 5,
+      "tax": 350
+    }
+  }
+}

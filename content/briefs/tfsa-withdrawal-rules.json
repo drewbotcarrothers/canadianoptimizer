@@ -1,0 +1,38 @@
+{
+  "slug": "tfsa-withdrawal-rules",
+  "title": "TFSA Withdrawal Rules: When Your Room Comes Back",
+  "family": "qa",
+  "category": "investing",
+  "subcategory": "accounts-asset-location",
+  "targetQuery": "tfsa withdrawal rules",
+  "secondaryQueries": [
+    "when does tfsa room come back",
+    "tfsa re-contribution penalty",
+    "can i put money back in my tfsa after withdrawal"
+  ],
+  "infoGain": "Month-by-month cost of re-contributing a $5,000 TFSA withdrawal in 2026 with no unused room ($500 in March down to $50 in December, $0 on or after January 1, 2027), plus a partial-room case and the growth and loss cases, all calculated from the CRA's 1%-a-month rule.",
+  "money": false,
+  "offers": [],
+  "ebook": "investing-guide",
+  "publishDate": "2026-11-22",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "read rendered preview on 2026-11-22: opening answers when room returns (January 1 of next year) and the 1%-a-month cost; all 16 question headings open with a direct answer (e.g. \"On January 1 of the calendar year after the withdrawal\", \"Only up to the unused room you had\", \"No, not in Canada\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "no invented quotes or experience; withdrawal, excess-tax, RC243 and transfer rules from CRA pages re-read 2026-11-22; Priya and the $5,000/$7,000 cases are labelled illustrations/our calculation; \"I\" appears only in reader-voice FAQ questions and the reader checklist"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

@@ -1,0 +1,1131 @@
+{
+  "slug": "how-to-open-tfsa",
+  "publishDate": "2026-11-22",
+  "figures": [
+    {
+      "id": "f6ce9c7eeb9f",
+      "value": "18",
+      "context": "To open a TFSA you must be a resident of Canada, at least 18, and have a valid Social Insurance Number, according to the CRA in 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "826233a6c869",
+      "value": "19",
+      "context": "In provinces where adulthood starts at 19, you wait a year but keep the room.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
+    },
+    {
+      "id": "49c1ae9ae435",
+      "value": "18",
+      "context": "Room starts the year you turn 18 (or arrive as a resident), even if you can only open the account at 19.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "afff949335cd",
+      "value": "19",
+      "context": "Room starts the year you turn 18 (or arrive as a resident), even if you can only open the account at 19.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
+    },
+    {
+      "id": "522f2ab0d286",
+      "value": "18",
+      "context": "A new resident can open one from the day residency starts, but room only begins in the year of residency, not from age 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "cde6b98e6f23",
+      "value": "18",
+      "context": "Age: 18 or older.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "5fb3134572b2",
+      "value": "19",
+      "context": "Where the age of majority is 19, the CRA says you can open the account after you turn 19 and carry over the room from the year you turned 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
+    },
+    {
+      "id": "2310f87127d8",
+      "value": "18",
+      "context": "Where the age of majority is 19, the CRA says you can open the account after you turn 19 and carry over the room from the year you turned 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "ad0e24b7095e",
+      "value": "19",
+      "context": "Which provinces wait until 19?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
+    },
+    {
+      "id": "f23e60eece7d",
+      "value": "18",
+      "context": "Wealthsimple's eligibility page lists 18 for Alberta, Manitoba, Ontario, Prince Edward Island, Quebec and Saskatchewan, and 19 for British Columbia, New Brunswick, Newfoundland and Labrador, Nova Scotia and the three territories.",
+      "kind": "sourced",
+      "sourceUrl": "https://help.wealthsimple.com/hc/en-ca/articles/4404721755287-Eligibility-requirements-to-open-an-account-with-Wealthsimple",
+      "sourceName": "Wealthsimple: Eligibility requirements to open an account",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
+      },
+      "needle": "Ontario, Prince Edward Island, Quebec, Saskatchewan 18 British Columbia, New Brunswick, Newfoundland and"
+    },
+    {
+      "id": "fc1967c0fdad",
+      "value": "19",
+      "context": "Wealthsimple's eligibility page lists 18 for Alberta, Manitoba, Ontario, Prince Edward Island, Quebec and Saskatchewan, and 19 for British Columbia, New Brunswick, Newfoundland and Labrador, Nova Scotia and the three territories.",
+      "kind": "sourced",
+      "sourceUrl": "https://help.wealthsimple.com/hc/en-ca/articles/4404721755287-Eligibility-requirements-to-open-an-account-with-Wealthsimple",
+      "sourceName": "Wealthsimple: Eligibility requirements to open an account",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
+      },
+      "needle": "Northwest Territories, Nova Scotia, Nunavut, Yukon 19 Social Insurance Number (SIN) We require a valid SIN"
+    },
+    {
+      "id": "4fd23332744c",
+      "value": "November 22, 2026",
+      "context": "Opening a TFSA at four providers: requirements and limits from each provider's own pages (read November 22, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "1c7c392d4eee",
+      "value": "18",
+      "context": "Questrade Canadian resident, 18 or older, valid SIN; identity verified online; financial background questions A self-directed TFSA (the page names ETFs, mutual funds and GICs) or Questwealth Portfolios States \"No annual account fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.questrade.com/learning/accounts-taxes/how-to-open-a-tfsa-account-in-canada",
+      "sourceName": "Questrade: How to open a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (qt_open, HTTP 200)"
+      },
+      "needle": "criteria (opens in a new tab) : A Canadian resident, 18 years of age or older A valid Social Insurance Number"
+    },
+    {
+      "id": "4abe432966b0",
+      "value": "$100,000",
+      "context": "EQ Bank Existing EQ Bank Personal Account; age of majority in your province; valid SIN (not temporary); Canadian mobile number to sign up online TFSA Cash Savings Account and TFSA GICs A deposit TFSA, eligible for CDIC protection up to $100,000 per insured category; available in Quebec",
+      "kind": "sourced",
+      "sourceUrl": "https://www.eqbank.ca/personal-banking/tfsa",
+      "sourceName": "EQ Bank: TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (eq_tfsa, HTTP 200)"
+      },
+      "needle": "are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. 1 Annual limit"
+    },
+    {
+      "id": "c5f3fc5a4e00",
+      "value": "18",
+      "context": "Confirm you are 18 (or 19 where required), a resident, and have a valid SIN.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "4969e7f7b427",
+      "value": "19",
+      "context": "Confirm you are 18 (or 19 where required), a resident, and have a valid SIN.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
+    },
+    {
+      "id": "c0adf2b894a5",
+      "value": "18",
+      "context": "Your room is every annual dollar limit since the year you turned 18, or 2009 if that came earlier, minus anything you have contributed, plus past withdrawals.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "e8049c10d094",
+      "value": "18",
+      "context": "TFSA room available in 2026 if you never contributed, by the first year you were 18 and a resident (our sum of the CRA's annual limits)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "1726a8c05bb6",
+      "value": "$5,000",
+      "context": "2009 or earlier $5,000 $109,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give feedback about this page Did"
+    },
+    {
+      "id": "21f50295687c",
+      "value": "$109,000",
+      "context": "2009 or earlier $5,000 $109,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "715e8b78a260",
+      "value": "$5,000",
+      "context": "2010 $5,000 $104,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give feedback about"
+    },
+    {
+      "id": "d972e5122018",
+      "value": "$104,000",
+      "context": "2010 $5,000 $104,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "100695f64814",
+      "value": "$5,000",
+      "context": "2011 $5,000 $99,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give"
+    },
+    {
+      "id": "4fac4223d6c2",
+      "value": "$99,000",
+      "context": "2011 $5,000 $99,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5c950ac8ed8c",
+      "value": "$5,000",
+      "context": "2012 $5,000 $94,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a"
+    },
+    {
+      "id": "cae3f7c8abd1",
+      "value": "$94,000",
+      "context": "2012 $5,000 $94,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3538e1db6c81",
+      "value": "$5,500",
+      "context": "2013 $5,500 $89,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a"
+    },
+    {
+      "id": "7d2949ca724d",
+      "value": "$89,000",
+      "context": "2013 $5,500 $89,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "9f83cb334f2a",
+      "value": "$5,500",
+      "context": "2014 $5,500 $83,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a"
+    },
+    {
+      "id": "f01155609e50",
+      "value": "$83,500",
+      "context": "2014 $5,500 $83,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "dae7dc0d7542",
+      "value": "$10,000",
+      "context": "2015 $10,000 $78,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a"
+    },
+    {
+      "id": "075627cacd46",
+      "value": "$78,000",
+      "context": "2015 $10,000 $78,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "a4908d09be89",
+      "value": "$5,500",
+      "context": "2016 $5,500 $68,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a"
+    },
+    {
+      "id": "1178b2224a98",
+      "value": "$68,000",
+      "context": "2016 $5,500 $68,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "bf8a80317f85",
+      "value": "$5,500",
+      "context": "2017 $5,500 $62,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a"
+    },
+    {
+      "id": "1d46e74dcf0e",
+      "value": "$62,500",
+      "context": "2017 $5,500 $62,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "9aedf0660f77",
+      "value": "$5,500",
+      "context": "2018 $5,500 $57,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a"
+    },
+    {
+      "id": "03dc3f23e1ad",
+      "value": "$57,000",
+      "context": "2018 $5,500 $57,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "3c46c7399783",
+      "value": "$6,000",
+      "context": "2019 $6,000 $51,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a"
+    },
+    {
+      "id": "a95adc15f40d",
+      "value": "$51,500",
+      "context": "2019 $6,000 $51,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "4f72c88e5b4f",
+      "value": "$6,000",
+      "context": "2020 $6,000 $45,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500"
+    },
+    {
+      "id": "5b5eb23f264d",
+      "value": "$45,500",
+      "context": "2020 $6,000 $45,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5a05e1508cfc",
+      "value": "$6,000",
+      "context": "2021 $6,000 $39,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018"
+    },
+    {
+      "id": "9a2231b05e75",
+      "value": "$39,500",
+      "context": "2021 $6,000 $39,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "68351a9168cd",
+      "value": "$6,000",
+      "context": "2022 $6,000 $33,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000"
+    },
+    {
+      "id": "09e69bd49f34",
+      "value": "$33,500",
+      "context": "2022 $6,000 $33,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "5ae747eb1c1f",
+      "value": "$6,500",
+      "context": "2023 $6,500 $27,500",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "$180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000"
+    },
+    {
+      "id": "c38ef3b063a9",
+      "value": "$27,500",
+      "context": "2023 $6,500 $27,500",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "8318edb348e0",
+      "value": "$7,000",
+      "context": "2024 $7,000 $21,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000"
+    },
+    {
+      "id": "d1207dce44cf",
+      "value": "$21,000",
+      "context": "2024 $7,000 $21,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "7a010a707357",
+      "value": "$7,000",
+      "context": "2025 $7,000 $14,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000"
+    },
+    {
+      "id": "4f78023cff6b",
+      "value": "$14,000",
+      "context": "2025 $7,000 $14,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261122-model.mjs"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "efdbd3709293",
+      "value": "$7,000",
+      "context": "2026 $7,000 $7,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
+      },
+      "needle": "dollar limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
+    },
+    {
+      "id": "319a34e67b53",
+      "value": "40",
+      "context": "A newcomer counts from the year they became a resident, and the CRA's own example is a 40-year-old who arrived in 2024, assumed room back to 2009, and created an $88,000 excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html",
+      "sourceName": "CRA: Before you contribute to a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
+      },
+      "needle": "room begins the year you have residency David turned 40 in 2024 and became a resident of Canada the same year."
+    },
+    {
+      "id": "b4a9842dc119",
+      "value": "$88,000",
+      "context": "A newcomer counts from the year they became a resident, and the CRA's own example is a 40-year-old who arrived in 2024, assumed room back to 2009, and created an $88,000 excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html",
+      "sourceName": "CRA: Before you contribute to a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
+      },
+      "needle": "(2024 dollar limit) \u2212 $95,000 2024 contribution = ($88,000) Excess amount in TFSA due to over-contribution If"
+    },
+    {
+      "id": "60cc0ceaef53",
+      "value": "November 22, 2026",
+      "context": "The 2027 limit was not yet on the CRA's limits table on November 22, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
+      }
+    },
+    {
+      "id": "fca295ea0b1d",
+      "value": "January 1, 2027",
+      "context": "When it is published it is added to everyone's room on January 1, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "tfsa_room"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
+      }
+    },
+    {
+      "id": "15916cd6c784",
+      "value": "1%",
+      "context": "If you contributed anywhere last year, the January figure can be too high, and the 1%-a-month tax applies to any excess from the first dollar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html",
+      "sourceName": "CRA: Before you contribute to a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
+      },
+      "needle": "excess contribution right away, he will have to pay a 1% tax on the excess for every month the excess remains"
+    },
+    {
+      "id": "0634975df7f8",
+      "value": "18",
+      "context": "Can I open a TFSA at 18 in British Columbia?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "0f09edb9d6d8",
+      "value": "19",
+      "context": "B.C.'s age of majority is 19, so providers open the account at 19.",
+      "kind": "sourced",
+      "sourceUrl": "https://help.wealthsimple.com/hc/en-ca/articles/4404721755287-Eligibility-requirements-to-open-an-account-with-Wealthsimple",
+      "sourceName": "Wealthsimple: Eligibility requirements to open an account",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
+      },
+      "needle": "Northwest Territories, Nova Scotia, Nunavut, Yukon 19 Social Insurance Number (SIN) We require a valid SIN"
+    },
+    {
+      "id": "f3f2f6ebd637",
+      "value": "18",
+      "context": "The room from the year you turned 18 still carries forward.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "38e19af9312f",
+      "value": "18",
+      "context": "Not until they are 18, or 19 where that is the age of majority.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "34735966097c",
+      "value": "19",
+      "context": "Not until they are 18, or 19 where that is the age of majority.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
+    },
+    {
+      "id": "e3259a859ff9",
+      "value": "18",
+      "context": "Their room starts accumulating the year they turn 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    },
+    {
+      "id": "ad9509fae65b",
+      "value": "18",
+      "context": "Yes, from the day they become a resident if they are 18 or older and have a valid SIN, but room starts only in the year of residency.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/opening.html",
+      "sourceName": "CRA: Opening a TFSA",
+      "asOf": "2026-11-21",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
+      },
+      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+    }
+  ]
+}
