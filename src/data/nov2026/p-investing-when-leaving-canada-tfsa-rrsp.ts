@@ -5,7 +5,7 @@ const EMIG = 'https://www.canada.ca/en/revenue-agency/services/tax/international
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const RRSP = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans';
 
-const disclaimer = `General education, not tax, legal or financial advice. Rules come from the Canada Revenue Agency pages listed under Sources, read on November 21, 2026. Sam, his July 31, 2026 departure, his account balances and the withholding amounts are illustrations, not your numbers, and they ignore any tax treaty, which can change the rates and the outcome. Residency is decided case by case on your residential ties, and the country you move to will have its own rules for your TFSA, RRSP and gains. Get advice from a cross-border tax professional in both countries before you leave.`;
+const disclaimer = `General education, not tax, legal or financial advice. Rules come from the Canada Revenue Agency pages listed under Sources, read on November 22, 2026. Sam, his July 31, 2026 departure, his account balances and the withholding amounts are illustrations, not your numbers, and they ignore any tax treaty, which can change the rates and the outcome. Residency is decided case by case on your residential ties, and the country you move to will have its own rules for your TFSA, RRSP and gains. Get advice from a cross-border tax professional in both countries before you leave.`;
 
 const content = `<div class="container">
 
@@ -49,7 +49,7 @@ const content = `<div class="container">
     <p>Here is the short version, account by account, from the CRA pages listed under Sources.</p>
     <div class="table-wrapper">
         <table>
-            <caption>Your accounts when you become a non-resident (CRA rules, checked November 21, 2026)</caption>
+            <caption>Your accounts when you become a non-resident (CRA rules, checked November 22, 2026)</caption>
             <thead>
                 <tr><th>Account</th><th>Departure tax?</th><th>Can you keep it?</th><th>Contributions after leaving</th><th>Withdrawals after leaving</th></tr>
             </thead>
@@ -140,17 +140,17 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="${EMIG}/leaving-canada-emigrants.html">CRA: Leaving Canada (emigrants)</a>, reviewed November 21, 2026</li>
-        <li><a href="${EMIG}/dispositions-property.html">CRA: Dispositions of property for emigrants of Canada</a>, reviewed November 21, 2026</li>
-        <li><a href="${EMIG}/non-residents-canada.html">CRA: Non-residents of Canada (Part XIII tax)</a>, reviewed November 21, 2026</li>
-        <li><a href="${EMIG}/electing-under-section-217.html">CRA: Electing under section 217</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/non-resident.html">CRA: How non-residency affects your TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/withdraw.html">CRA: Withdrawing from a TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${RRSP}/making-withdrawals/tax-rates-on-withdrawals.html">CRA: Tax rates on RRSP withdrawals</a>, reviewed November 21, 2026</li>
-        <li><a href="${RRSP}/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html">CRA: Repay funds withdrawn under the Home Buyers' Plan</a>, reviewed November 21, 2026</li>
-        <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 21, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 21, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 21, 2026</li>
+        <li><a href="${EMIG}/leaving-canada-emigrants.html">CRA: Leaving Canada (emigrants)</a>, reviewed November 22, 2026</li>
+        <li><a href="${EMIG}/dispositions-property.html">CRA: Dispositions of property for emigrants of Canada</a>, reviewed November 22, 2026</li>
+        <li><a href="${EMIG}/non-residents-canada.html">CRA: Non-residents of Canada (Part XIII tax)</a>, reviewed November 22, 2026</li>
+        <li><a href="${EMIG}/electing-under-section-217.html">CRA: Electing under section 217</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/non-resident.html">CRA: How non-residency affects your TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/withdraw.html">CRA: Withdrawing from a TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${RRSP}/making-withdrawals/tax-rates-on-withdrawals.html">CRA: Tax rates on RRSP withdrawals</a>, reviewed November 22, 2026</li>
+        <li><a href="${RRSP}/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html">CRA: Repay funds withdrawn under the Home Buyers' Plan</a>, reviewed November 22, 2026</li>
+        <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 22, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 22, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

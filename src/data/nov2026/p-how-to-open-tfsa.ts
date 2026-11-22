@@ -12,7 +12,7 @@ const EQ_FAQ = 'https://www.eqbank.ca/about-us/help/common-questions';
 const TD_REVIEW = 'https://www.td.com/ca/en/investing/direct-investing/accounts/review';
 const TD_OPEN = 'https://td.intelliresponse.com/tddirectinvesting/public/?id=2684&question=How+do+I+open+a+TD+Direct+Investing+account&requestType=NormalRequest&uuid=a3fca458-1065-11f0-86f4-7f4ecdd4ec08';
 
-const disclaimer = `General education, not financial or tax advice, and not a recommendation of any provider. Eligibility rules come from the Canada Revenue Agency TFSA pages, and provider requirements from each provider's own pages listed under Sources, all read on November 21, 2026. Providers change their sign-up steps often, so check the provider's current page before you apply. The room table assumes you were a resident of Canada every year and never contributed; your own room depends on your history.`;
+const disclaimer = `General education, not financial or tax advice, and not a recommendation of any provider. Eligibility rules come from the Canada Revenue Agency TFSA pages, and provider requirements from each provider's own pages listed under Sources, all read on November 22, 2026. Providers change their sign-up steps often, so check the provider's current page before you apply. The room table assumes you were a resident of Canada every year and never contributed; your own room depends on your history.`;
 
 const content = `<div class="container">
 
@@ -76,7 +76,7 @@ const content = `<div class="container">
 
     <div class="table-wrapper">
         <table>
-            <caption>Opening a TFSA at four providers: requirements and limits from each provider's own pages (read November 21, 2026)</caption>
+            <caption>Opening a TFSA at four providers: requirements and limits from each provider's own pages (read November 22, 2026)</caption>
             <thead>
                 <tr><th>Provider</th><th>What you need</th><th>What the TFSA holds</th><th>Worth knowing</th></tr>
             </thead>
@@ -166,7 +166,7 @@ const content = `<div class="container">
         </table>
     </div>
     <p>Two cases need care. A newcomer counts from the year they became a resident, and the CRA's own example is a 40-year-old who arrived in 2024, assumed room back to 2009, and created an $88,000 excess. And anyone who was a non-resident for a whole year gets no limit for that year. If either applies, rebuild your room year by year rather than reading the table.</p>
-    <p>The 2027 limit was not yet on the CRA's <a href="${LIMITS}">limits table</a> on November 21, 2026. When it is published it is added to everyone's room on January 1, 2027.</p>
+    <p>The 2027 limit was not yet on the CRA's <a href="${LIMITS}">limits table</a> on November 22, 2026. When it is published it is added to everyone's room on January 1, 2027.</p>
 
     <div class="warning-box">
         <strong>Do not trust the first number you see.</strong> The CRA account shows TFSA room as of its last annual update. If you contributed anywhere last year, the January figure can be too high, and the 1%-a-month tax applies to any excess from the first dollar. Our <a href="/blog/tfsa-overcontribution-penalty/">over-contribution penalty</a> guide shows the cost.
@@ -199,20 +199,20 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="${TFSA}/opening.html">CRA: Opening a TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (types of TFSAs)</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits, new residents)</a>, reviewed November 21, 2026</li>
-        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/death-of-holder/what-happens.html">CRA: What happens when a TFSA holder is deceased (successor holders, beneficiaries)</a>, reviewed November 21, 2026</li>
-        <li><a href="${QT_OPEN}">Questrade: How to open a TFSA account in Canada</a>, reviewed November 21, 2026</li>
-        <li><a href="${QT_WHAT}">Questrade: What is a TFSA? (account fees, currencies)</a>, reviewed November 21, 2026</li>
-        <li><a href="${WS_ELIG}">Wealthsimple Help Centre: Eligibility requirements</a>, reviewed November 21, 2026</li>
-        <li><a href="${WS_OPEN}">Wealthsimple Help Centre: Open a TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${EQ_TFSA}">EQ Bank: Tax-Free Savings Account</a>, reviewed November 21, 2026</li>
-        <li><a href="${EQ_FAQ}">EQ Bank: Common questions</a>, reviewed November 21, 2026</li>
-        <li><a href="${TD_REVIEW}">TD Direct Investing: What you'll need</a>, reviewed November 21, 2026</li>
-        <li><a href="${TD_OPEN}">TD Direct Investing: How do I open an account?</a>, reviewed November 21, 2026</li>
+        <li><a href="${TFSA}/opening.html">CRA: Opening a TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (types of TFSAs)</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits, new residents)</a>, reviewed November 22, 2026</li>
+        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/death-of-holder/what-happens.html">CRA: What happens when a TFSA holder is deceased (successor holders, beneficiaries)</a>, reviewed November 22, 2026</li>
+        <li><a href="${QT_OPEN}">Questrade: How to open a TFSA account in Canada</a>, reviewed November 22, 2026</li>
+        <li><a href="${QT_WHAT}">Questrade: What is a TFSA? (account fees, currencies)</a>, reviewed November 22, 2026</li>
+        <li><a href="${WS_ELIG}">Wealthsimple Help Centre: Eligibility requirements</a>, reviewed November 22, 2026</li>
+        <li><a href="${WS_OPEN}">Wealthsimple Help Centre: Open a TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${EQ_TFSA}">EQ Bank: Tax-Free Savings Account</a>, reviewed November 22, 2026</li>
+        <li><a href="${EQ_FAQ}">EQ Bank: Common questions</a>, reviewed November 22, 2026</li>
+        <li><a href="${TD_REVIEW}">TD Direct Investing: What you'll need</a>, reviewed November 22, 2026</li>
+        <li><a href="${TD_OPEN}">TD Direct Investing: How do I open an account?</a>, reviewed November 22, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

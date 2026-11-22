@@ -12,10 +12,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
     },
@@ -31,10 +31,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -47,10 +47,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -63,10 +63,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -79,10 +79,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -97,10 +97,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -113,10 +113,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -131,10 +131,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -147,10 +147,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
     },
@@ -164,10 +164,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
     },
@@ -183,10 +183,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -199,10 +199,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -217,10 +217,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -235,10 +235,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -251,10 +251,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -269,10 +269,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -287,10 +287,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -305,10 +305,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -321,10 +321,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -337,10 +337,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26%"
     },
@@ -354,10 +354,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
     },
@@ -371,10 +371,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29%"
     },
@@ -388,10 +388,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "14% $58,523.01 $117,045 20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29% $258,482.01 unlimited 33%"
     },
@@ -405,10 +405,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "20.5% $117,045.01 $181,440 26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial"
     },
@@ -422,10 +422,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial rates for 2026 The rate"
     },
@@ -439,10 +439,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000 11.16%"
     },
@@ -456,10 +456,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
     },
@@ -473,10 +473,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000 11.16% $150,000.01 $220,000 12.16%"
     },
@@ -490,10 +490,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -506,32 +506,32 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
-      "id": "427454523af1",
+      "id": "d0e8eb110c01",
       "value": "$1,000",
-      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 21, 2026)",
+      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 22, 2026)",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
-      "id": "2da90a767c66",
-      "value": "November 21, 2026",
-      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 21, 2026)",
+      "id": "32ed4d0e6ebf",
+      "value": "November 22, 2026",
+      "context": "RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 22, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -540,10 +540,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -556,10 +556,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -572,10 +572,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -588,10 +588,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -604,10 +604,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -620,10 +620,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -636,10 +636,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -654,10 +654,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -672,10 +672,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -690,10 +690,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -708,10 +708,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -726,10 +726,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -742,10 +742,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -760,10 +760,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -778,10 +778,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -796,10 +796,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -814,10 +814,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -832,10 +832,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -848,10 +848,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -866,10 +866,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -884,10 +884,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -902,10 +902,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -920,10 +920,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -938,10 +938,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -954,10 +954,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -972,10 +972,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -990,10 +990,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1008,10 +1008,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1026,10 +1026,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1044,10 +1044,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1060,10 +1060,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1078,10 +1078,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1096,10 +1096,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1114,10 +1114,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1132,10 +1132,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1150,10 +1150,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1166,10 +1166,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1184,10 +1184,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1202,10 +1202,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1220,10 +1220,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1238,10 +1238,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1256,10 +1256,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1272,10 +1272,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1290,10 +1290,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1308,10 +1308,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1326,10 +1326,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1344,10 +1344,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1362,10 +1362,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1378,10 +1378,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1396,10 +1396,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1414,10 +1414,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1432,10 +1432,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1450,10 +1450,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1468,10 +1468,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1484,10 +1484,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1502,10 +1502,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1520,10 +1520,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1538,10 +1538,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1556,10 +1556,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1574,10 +1574,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1590,10 +1590,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1608,10 +1608,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1626,10 +1626,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1644,10 +1644,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1662,10 +1662,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1680,10 +1680,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1696,10 +1696,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1714,10 +1714,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1732,10 +1732,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1750,10 +1750,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1768,10 +1768,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1786,10 +1786,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1802,10 +1802,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1820,10 +1820,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1838,10 +1838,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1856,10 +1856,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1874,10 +1874,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1892,10 +1892,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1908,10 +1908,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1924,10 +1924,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1942,10 +1942,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1960,10 +1960,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1976,10 +1976,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1992,10 +1992,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2010,10 +2010,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2026,10 +2026,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2042,10 +2042,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2060,10 +2060,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2076,10 +2076,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2094,10 +2094,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2110,10 +2110,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2126,10 +2126,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2144,10 +2144,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2160,10 +2160,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2176,10 +2176,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2194,10 +2194,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2210,10 +2210,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2226,10 +2226,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2242,10 +2242,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2260,10 +2260,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2276,10 +2276,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2292,10 +2292,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2308,10 +2308,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
     },
@@ -2325,10 +2325,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
     },
@@ -2344,10 +2344,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2362,10 +2362,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2380,10 +2380,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2398,10 +2398,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2416,10 +2416,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2434,10 +2434,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2450,16 +2450,16 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
-      "id": "d6bbdb326111",
-      "value": "November 21, 2026",
-      "context": "Combined federal and provincial marginal rate, 2026 brackets (our calculation, November 21, 2026)",
+      "id": "9bd4aada2273",
+      "value": "November 22, 2026",
+      "context": "Combined federal and provincial marginal rate, 2026 brackets (our calculation, November 22, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -2468,10 +2468,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -2484,10 +2484,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2502,10 +2502,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2520,10 +2520,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2538,10 +2538,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2554,10 +2554,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2572,10 +2572,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2590,10 +2590,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2608,10 +2608,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2624,10 +2624,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2642,10 +2642,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2660,10 +2660,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2678,10 +2678,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2694,10 +2694,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2712,10 +2712,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2730,10 +2730,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2748,10 +2748,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2764,10 +2764,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2782,10 +2782,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2800,10 +2800,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2818,10 +2818,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2834,10 +2834,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2852,10 +2852,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2870,10 +2870,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2888,10 +2888,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2904,10 +2904,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2922,10 +2922,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2940,10 +2940,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2958,10 +2958,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -2974,10 +2974,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -2992,10 +2992,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3010,10 +3010,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3028,10 +3028,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3044,10 +3044,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3062,10 +3062,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3080,10 +3080,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3098,10 +3098,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3114,10 +3114,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3132,10 +3132,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3150,10 +3150,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3168,10 +3168,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3184,10 +3184,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3202,10 +3202,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3220,10 +3220,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3238,10 +3238,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3254,10 +3254,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3272,10 +3272,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3290,10 +3290,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3308,10 +3308,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3324,10 +3324,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3340,10 +3340,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3358,10 +3358,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3374,10 +3374,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3390,10 +3390,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3406,10 +3406,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3424,10 +3424,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3440,10 +3440,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3458,10 +3458,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3474,10 +3474,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3490,10 +3490,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3506,10 +3506,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3522,10 +3522,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3538,10 +3538,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3556,10 +3556,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3574,10 +3574,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3592,10 +3592,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "bracket band containing the refund: income $80,000-$85,000 at 29.65% (engine)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3608,10 +3608,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -3626,10 +3626,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3644,10 +3644,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3662,10 +3662,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3680,10 +3680,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3698,10 +3698,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3716,10 +3716,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3734,10 +3734,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3752,10 +3752,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3770,10 +3770,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3788,10 +3788,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3806,10 +3806,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3824,10 +3824,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3842,10 +3842,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3860,10 +3860,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3878,10 +3878,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3896,10 +3896,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3914,10 +3914,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3932,10 +3932,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3950,10 +3950,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3968,10 +3968,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -3986,10 +3986,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4004,10 +4004,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4022,10 +4022,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4040,10 +4040,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4058,10 +4058,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4074,10 +4074,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -4092,10 +4092,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Maya: refund 5,000 x 29.65% = 1,482.50; net cost 3,517.50; RRSP 5,000 x (1-19.05%) = 4,047.50; gap 530 = 5 x 106; doubled 8,095 vs 7,035 = 1,060; at 31.48%: 5,000 x (31.48-29.65)% = 91.50, 18.30 per 1,000 (engine marginal rates, model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4108,10 +4108,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -4124,10 +4124,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -4140,10 +4140,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
     },
@@ -4157,10 +4157,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
     },
@@ -4176,10 +4176,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model rrspCapIncome: 33,810 / 0.18 = 187,833.33"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4192,10 +4192,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
     },
@@ -4209,10 +4209,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
     },
@@ -4226,10 +4226,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
     },
@@ -4243,10 +4243,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
       },
       "needle": "$93,454 $152,062 $157,923 July 2027 to June 2028 2026 $95,323 $155,3201 $161,3201 1 From January to September of"
     },
@@ -4260,10 +4260,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
       },
       "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
     },
@@ -4277,10 +4277,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative retiree net income"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -4295,10 +4295,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model oas/oasEffective: (100,000 - 95,323) x 15% = 701.55; 31.48% + 15% = 46.48%"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4311,10 +4311,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
       },
       "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
     },
@@ -4330,10 +4330,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model oas/oasEffective: (100,000 - 95,323) x 15% = 701.55; 31.48% + 15% = 46.48%"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4346,10 +4346,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative income level / contribution amount chosen for the model grid"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -4364,10 +4364,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model oas/oasEffective: (100,000 - 95,323) x 15% = 701.55; 31.48% + 15% = 46.48%"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4382,10 +4382,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4398,10 +4398,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
       },
       "needle": "your income is than the threshold. You must repay 15% of that amount. Example: The threshold for 2025 is"
     },
@@ -4417,10 +4417,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "our 2026 tax engine (src/lib/income-tax-2026.ts) via model byIncome / retirementMarg_ON: marginal rates, refunds on $5,000 and RRSP-minus-TFSA per $1,000 = 1,000 x (rate now - rate in retirement)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -4433,10 +4433,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in"
     },
@@ -4450,10 +4450,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up to"
     },
@@ -4467,10 +4467,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
     },
@@ -4484,10 +4484,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec)"
     },
@@ -4501,10 +4501,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds held"
     },
@@ -4518,10 +4518,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
     },
@@ -4535,10 +4535,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
     },
@@ -4552,10 +4552,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "on amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
     },
@@ -4569,10 +4569,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $53,891 5.05% $53,891.01 $107,785 9.15% $107,785.01 $150,000"
     },
@@ -4586,10 +4586,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "of your taxable income from up to is taxed at $0 $58,523 14% $58,523.01 $117,045 20.5% $117,045.01 $181,440"
     },
@@ -4603,10 +4603,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
     },
@@ -4620,10 +4620,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
     },
@@ -4637,10 +4637,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (oas_rt, HTTP 200)"
       },
       "needle": "$93,454 $152,062 $157,923 July 2027 to June 2028 2026 $95,323 $155,3201 $161,3201 1 From January to September of"
     }

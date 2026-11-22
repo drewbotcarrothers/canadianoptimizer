@@ -7,7 +7,7 @@ const RRSP = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/t
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const OAS = 'https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html';
 
-const disclaimer = `General education, not tax or financial advice. Tax rates, thresholds and limits come from the Canada Revenue Agency and Government of Canada pages listed under Sources, read on November 21, 2026. The marginal rates, refunds and RRSP-versus-TFSA differences are our own calculations with 2026 federal and provincial brackets for Ontario, British Columbia and Alberta; they leave out CPP and EI credits, the Canada employment amount, the Ontario Health Premium, the Ontario tax reduction and every other credit, so your own rates can differ. Maya and the other people and dollar amounts are illustrations, not your numbers. Retirement tax rates are unknown in advance and assume today's brackets. Check your own notice of assessment and ask a tax professional before you decide.`;
+const disclaimer = `General education, not tax or financial advice. Tax rates, thresholds and limits come from the Canada Revenue Agency and Government of Canada pages listed under Sources, read on November 22, 2026. The marginal rates, refunds and RRSP-versus-TFSA differences are our own calculations with 2026 federal and provincial brackets for Ontario, British Columbia and Alberta; they leave out CPP and EI credits, the Canada employment amount, the Ontario Health Premium, the Ontario tax reduction and every other credit, so your own rates can differ. Maya and the other people and dollar amounts are illustrations, not your numbers. Retirement tax rates are unknown in advance and assume today's brackets. Check your own notice of assessment and ask a tax professional before you decide.`;
 
 const content = `<div class="container">
 
@@ -51,7 +51,7 @@ const content = `<div class="container">
     <p>We ran the 2026 federal and Ontario brackets from the CRA's <a href="${BRACKETS}">2026 tax rates page</a> through our tax engine for twelve incomes. The federal rate starts at 14% on taxable income up to $58,523 and steps up to 20.5%, 26%, 29% and 33%. Ontario starts at 5.05% up to $53,891 and steps to 9.15% and higher, plus the Ontario surtax. The table shows, for each income, the marginal rate today, the refund on a $5,000 RRSP contribution, and how many dollars the RRSP comes out ahead (or behind) per $1,000 of salary at four retirement incomes.</p>
     <div class="table-wrapper">
         <table>
-            <caption>RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 21, 2026)</caption>
+            <caption>RRSP minus TFSA per $1,000 of salary, Ontario, 2026 brackets (our calculation, November 22, 2026)</caption>
             <thead>
                 <tr><th>Income today</th><th>Marginal rate</th><th>Refund on $5,000</th><th>Retire on $30,000</th><th>Retire on $50,000</th><th>Retire on $70,000</th><th>Retire on $100,000</th></tr>
             </thead>
@@ -79,7 +79,7 @@ const content = `<div class="container">
     <p>The rule is the same in every province, but the rates differ. Here are the 2026 combined marginal rates our engine gives at each income for the three provinces. Use them with the same logic: subtract your expected retirement rate in that province and multiply by $10 for each percentage point, per $1,000 of salary.</p>
     <div class="table-wrapper">
         <table>
-            <caption>Combined federal and provincial marginal rate, 2026 brackets (our calculation, November 21, 2026)</caption>
+            <caption>Combined federal and provincial marginal rate, 2026 brackets (our calculation, November 22, 2026)</caption>
             <thead>
                 <tr><th>Income</th><th>Ontario</th><th>British Columbia</th><th>Alberta</th></tr>
             </thead>
@@ -154,14 +154,14 @@ const content = `<div class="container">
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="${BRACKETS}">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 21, 2026</li>
-        <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 21, 2026</li>
-        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 21, 2026</li>
-        <li><a href="${RRSP}/making-withdrawals/tax-rates-on-withdrawals.html">CRA: Tax rates on RRSP withdrawals</a>, reviewed November 21, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1213.html">CRA: Form T1213, Request to Reduce Tax Deductions at Source</a>, reviewed November 21, 2026</li>
-        <li><a href="${OAS}">Government of Canada: OAS pension recovery tax</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (impact on benefits)</a>, reviewed November 21, 2026</li>
-        <li>Our 2026 tax engine (federal, Ontario, British Columbia and Alberta brackets from the CRA page above), run November 21, 2026</li>
+        <li><a href="${BRACKETS}">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 22, 2026</li>
+        <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 22, 2026</li>
+        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
+        <li><a href="${RRSP}/making-withdrawals/tax-rates-on-withdrawals.html">CRA: Tax rates on RRSP withdrawals</a>, reviewed November 22, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1213.html">CRA: Form T1213, Request to Reduce Tax Deductions at Source</a>, reviewed November 22, 2026</li>
+        <li><a href="${OAS}">Government of Canada: OAS pension recovery tax</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (impact on benefits)</a>, reviewed November 22, 2026</li>
+        <li>Our 2026 tax engine (federal, Ontario, British Columbia and Alberta brackets from the CRA page above), run November 22, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

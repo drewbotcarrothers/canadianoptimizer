@@ -12,10 +12,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -29,10 +29,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -46,10 +46,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -63,10 +63,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -80,10 +80,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
     },
@@ -97,17 +97,17 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you do not have to file a return, you"
     },
     {
-      "id": "cb296dbbba77",
-      "value": "November 21, 2026",
-      "context": "Your accounts when you become a non-resident (CRA rules, checked November 21, 2026)",
+      "id": "9c58ddf27630",
+      "value": "November 22, 2026",
+      "context": "Your accounts when you become a non-resident (CRA rules, checked November 22, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -116,10 +116,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -132,10 +132,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -149,10 +149,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (rrsp_limit, HTTP 200)"
       },
       "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
     },
@@ -166,10 +166,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -183,10 +183,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -200,10 +200,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -217,10 +217,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "dollar limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
     },
@@ -234,10 +234,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -251,10 +251,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "maximum he is allowed.) 2021 In 2021, he withdraws $5,000 from his TFSA. Because he isn\u2019t a Canadian resident"
     },
@@ -268,10 +268,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "Transactions: $7,000 Amount in his TFSA from previous year \u2212 $3,000 2024 withdrawal = $4,000 Amount in his TFSA ($0 unused"
     },
@@ -285,10 +285,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -302,10 +302,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -319,10 +319,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in"
     },
@@ -336,10 +336,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
     },
@@ -353,10 +353,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up to"
     },
@@ -370,10 +370,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec) on amounts exceeding $5,000, up"
     },
@@ -387,10 +387,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "on amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
     },
@@ -404,10 +404,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
     },
@@ -421,10 +421,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "withdraw. For residents of Canada, the rates are: 10% (5% in Quebec) on amounts up to $5,000 20% (10% in Quebec)"
     },
@@ -438,10 +438,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds held"
     },
@@ -457,10 +457,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "engine: Ontario 2026 combined marginal rate at $150,000 = 44.97% (model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -475,10 +475,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "engine: Ontario 2026 combined marginal rate at $150,000 = 44.97% (model byIncome)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -491,10 +491,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "collectibles) that has a fair market value of less than $10,000 (see the definition of \"personal-use property\" in"
     },
@@ -508,10 +508,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
     },
@@ -525,10 +525,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "for failing to file Form T1161 by the due date is $25 for each day the return is late. There is a minimum"
     },
@@ -542,10 +542,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "the return is late. There is a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you"
     },
@@ -559,10 +559,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "a minimum penalty of $100 and a maximum penalty of $2,500. Note Even if you do not have to file a return, you"
     },
@@ -576,10 +576,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
     },
@@ -593,10 +593,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
     },
@@ -610,10 +610,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec), you have to provide"
     },
@@ -627,10 +627,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -643,10 +643,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -659,10 +659,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -675,10 +675,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -691,10 +691,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -707,10 +707,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -723,10 +723,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -741,10 +741,10 @@
         "tfsa_nonres"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "TFSA withdrawals by a non-resident are not taxed in Canada (CRA non-resident TFSA page)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -757,10 +757,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -775,10 +775,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 150,000 x 25% Part XIII = 37,500"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -791,10 +791,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -810,10 +810,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 150,000 - 37,500 = 112,500"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -826,10 +826,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -842,10 +842,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -860,10 +860,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -876,10 +876,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -894,10 +894,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 60,000 + 150,000 + 80,000 + 20,000 = 310,000"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -910,10 +910,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -928,10 +928,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -944,10 +944,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -962,10 +962,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 150,000 x 25% Part XIII = 37,500"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -978,10 +978,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -995,10 +995,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (wh_rates, HTTP 200)"
       },
       "needle": "amounts exceeding $5,000, up to and including $15,000 30% (15% in Quebec) on amounts over $15,000 For funds"
     },
@@ -1014,10 +1014,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 150,000 x 30% resident withholding (over $15,000) = 45,000"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1030,10 +1030,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Sam illustration input"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1046,10 +1046,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
     },
@@ -1065,10 +1065,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: deemed gain FMV 80,000 - ACB 50,000 = 30,000"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1081,10 +1081,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (brackets, HTTP 200)"
       },
       "needle": "26% $181,440.01 $258,482 29% $258,482.01 unlimited 33% Provincial or territorial rates for 2026 The rate"
     },
@@ -1100,10 +1100,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "30,000 x 33% top 2026 federal rate = 9,900 (upper bound)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1116,10 +1116,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
     },
@@ -1133,10 +1133,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "illustrative automatic contribution amount"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1151,10 +1151,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model sam: 7,000 x 1% x 5 months = 350"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1167,10 +1167,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -1184,10 +1184,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (hbp_repay, HTTP 200)"
       },
       "needle": "SPP in the year the repayment is due or in the first 60 days of the year after. Once your contributions are made,"
     },
@@ -1201,10 +1201,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
     },
@@ -1218,10 +1218,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (hbp_repay, HTTP 200)"
       },
       "needle": "SPP in the year the repayment is due or in the first 60 days of the year after. Once your contributions are made,"
     },
@@ -1235,10 +1235,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres_can, HTTP 200)"
       },
       "needle": "amount is deducted) The usual Part XIII tax rate is 25% unless a tax treaty between Canada and your home country"
     },
@@ -1252,10 +1252,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (nonres, HTTP 200)"
       },
       "needle": "transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the"
     },
@@ -1269,10 +1269,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "that you owned when you left Canada was more than $25,000, complete Form T1161, List of Properties by an Emigrant"
     },
@@ -1286,10 +1286,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "collectibles) that has a fair market value of less than $10,000 (see the definition of \"personal-use property\" in"
     },
@@ -1303,10 +1303,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "Disposition of Property. You must make this election by April 30 of the year after you emigrate from Canada. If you"
     },
@@ -1320,10 +1320,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (disp, HTTP 200)"
       },
       "needle": "from the deemed disposition of property is more than $16,500 (more than $13,777.50 for former residents of Quebec),"
     }

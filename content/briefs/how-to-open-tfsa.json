@@ -17,16 +17,16 @@
   "publishDate": "2026-11-22",
   "agentChecks": {
     "2a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "answers read as answers under the title and each question heading"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "read rendered preview on 2026-11-22: opening answers who can open (resident, 18+, valid SIN); all 13 question headings open with a direct answer (e.g. \"Any adult resident of Canada with a valid SIN\", \"No.\" for BC at 18, joint TFSA \"No.\")"
     },
     "4a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "no invented quotes, experience, tests or review claims"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "no invented quotes, tests or account-opening experience; provider requirements are described from Questrade, Wealthsimple, EQ Bank and TD pages re-read 2026-11-22 (no claim that we opened accounts); \"I\" appears only in reader-voice FAQ questions"
     },
     "6a": {
       "pass": null,

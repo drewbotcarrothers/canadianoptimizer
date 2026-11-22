@@ -12,10 +12,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -29,10 +29,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
     },
@@ -46,10 +46,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -63,12 +63,12 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
-      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
     },
     {
       "id": "522f2ab0d286",
@@ -80,10 +80,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -97,10 +97,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -114,10 +114,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
     },
@@ -131,10 +131,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -148,10 +148,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)."
     },
@@ -165,10 +165,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
       },
       "needle": "Ontario, Prince Edward Island, Quebec, Saskatchewan 18 British Columbia, New Brunswick, Newfoundland and"
     },
@@ -182,17 +182,17 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
       },
       "needle": "Northwest Territories, Nova Scotia, Nunavut, Yukon 19 Social Insurance Number (SIN) We require a valid SIN"
     },
     {
-      "id": "2a6ff11ec4d8",
-      "value": "November 21, 2026",
-      "context": "Opening a TFSA at four providers: requirements and limits from each provider's own pages (read November 21, 2026)",
+      "id": "4fd23332744c",
+      "value": "November 22, 2026",
+      "context": "Opening a TFSA at four providers: requirements and limits from each provider's own pages (read November 22, 2026)",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -201,10 +201,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -217,10 +217,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (qt_open, HTTP 200)"
       },
       "needle": "criteria (opens in a new tab) : A Canadian resident, 18 years of age or older A valid Social Insurance Number"
     },
@@ -234,10 +234,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (eq_tfsa, HTTP 200)"
       },
       "needle": "are aggregately eligible for CDIC protection up to $100,000, per insured category, per depositor. 1 Annual limit"
     },
@@ -251,10 +251,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -268,12 +268,12 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
-      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
     },
     {
       "id": "c0adf2b894a5",
@@ -285,10 +285,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -302,10 +302,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -319,10 +319,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give feedback about this page Did"
     },
@@ -338,10 +338,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2009]: sum of CRA annual limits 2009-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -354,10 +354,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give feedback about"
     },
@@ -373,10 +373,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2010]: sum of CRA annual limits 2010-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -389,10 +389,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a Page details Give"
     },
@@ -408,10 +408,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2011]: sum of CRA annual limits 2011-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -424,10 +424,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a 2009 $5,000 n/a"
     },
@@ -443,10 +443,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2012]: sum of CRA annual limits 2012-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -459,10 +459,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a 2010 $5,000 n/a"
     },
@@ -478,10 +478,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2013]: sum of CRA annual limits 2013-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -494,10 +494,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a 2011 $5,000 n/a"
     },
@@ -513,10 +513,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2014]: sum of CRA annual limits 2014-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -529,10 +529,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a 2012 $5,000 n/a"
     },
@@ -548,10 +548,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2015]: sum of CRA annual limits 2015-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -564,10 +564,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a 2013 $5,500 n/a"
     },
@@ -583,10 +583,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2016]: sum of CRA annual limits 2016-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -599,10 +599,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a 2014 $5,500 n/a"
     },
@@ -618,10 +618,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2017]: sum of CRA annual limits 2017-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -634,10 +634,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a 2015 $10,000 n/a"
     },
@@ -653,10 +653,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2018]: sum of CRA annual limits 2018-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -669,10 +669,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500 n/a 2016 $5,500 n/a"
     },
@@ -688,10 +688,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2019]: sum of CRA annual limits 2019-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -704,10 +704,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018 $5,500 n/a 2017 $5,500"
     },
@@ -723,10 +723,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2020]: sum of CRA annual limits 2020-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -739,10 +739,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000 2019 $6,000 n/a 2018"
     },
@@ -758,10 +758,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2021]: sum of CRA annual limits 2021-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -774,10 +774,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000 2020 $6,000 $150,000"
     },
@@ -793,10 +793,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2022]: sum of CRA annual limits 2022-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -809,10 +809,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "$180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000 2021 $6,000 $150,000"
     },
@@ -828,10 +828,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2023]: sum of CRA annual limits 2023-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -844,10 +844,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000 2022 $6,000 $160,000"
     },
@@ -863,10 +863,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2024]: sum of CRA annual limits 2024-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -879,10 +879,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000 2023 $6,500 $160,000"
     },
@@ -898,10 +898,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model cumulativeRoom2026ByFirstYear[2025]: sum of CRA annual limits 2025-2026"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -914,10 +914,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "dollar limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
     },
@@ -931,10 +931,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
       },
       "needle": "room begins the year you have residency David turned 40 in 2024 and became a resident of Canada the same year."
     },
@@ -948,17 +948,17 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
       },
       "needle": "(2024 dollar limit) \u2212 $95,000 2024 contribution = ($88,000) Excess amount in TFSA due to over-contribution If"
     },
     {
-      "id": "42acecbaacdf",
-      "value": "November 21, 2026",
-      "context": "The 2027 limit was not yet on the CRA's limits table on November 21, 2026.",
+      "id": "60cc0ceaef53",
+      "value": "November 22, 2026",
+      "context": "The 2027 limit was not yet on the CRA's limits table on November 22, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -967,10 +967,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -985,10 +985,10 @@
         "tfsa_room"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "next year's limit is added January 1 (CRA calculate-room page): January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1001,10 +1001,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
       },
       "needle": "excess contribution right away, he will have to pay a 1% tax on the excess for every month the excess remains"
     },
@@ -1018,10 +1018,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -1035,10 +1035,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (ws_elig, HTTP 200)"
       },
       "needle": "Northwest Territories, Nova Scotia, Nunavut, Yukon 19 Social Insurance Number (SIN) We require a valid SIN"
     },
@@ -1052,10 +1052,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -1069,10 +1069,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -1086,12 +1086,12 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
-      "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
+      "needle": "In some provinces and territories, you must be at least 19 years of age to enter a contract (such as a TFSA)"
     },
     {
       "id": "e3259a859ff9",
@@ -1103,10 +1103,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     },
@@ -1120,10 +1120,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (opening, HTTP 200)"
       },
       "needle": "Be a resident of Canada for income tax purposes Be 18 years of age or older Have a valid Social Insurance"
     }

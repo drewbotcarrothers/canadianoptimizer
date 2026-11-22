@@ -17,16 +17,16 @@
   "publishDate": "2026-11-22",
   "agentChecks": {
     "2a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "answers read as answers under the title and each question heading"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "read rendered preview on 2026-11-22: opening answers that leaving does not close or tax the TFSA/RRSP; all 11 question headings open with a direct answer (\"You can keep it...\", \"No.\", \"Yes, with Form T1244...\", \"Only when you become a resident of Canada again\")"
     },
     "4a": {
-      "pass": null,
-      "by": "",
-      "on": "",
-      "note": "no invented quotes, experience, tests or review claims"
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-22 (separate from drafter)",
+      "on": "2026-11-22",
+      "note": "no invented quotes or experience; emigrant, Part XIII, section 217, T1161/T1244 and TFSA non-resident rules from CRA pages re-read 2026-11-22; Sam is a labelled illustration; \"I\" appears only in reader-voice FAQ questions"
     },
     "6a": {
       "pass": null,

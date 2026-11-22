@@ -4,7 +4,7 @@ const D = '2026-11-22';
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const LIMITS = 'https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html';
 
-const disclaimer = `General education, not tax or financial advice. Rules come from the Canada Revenue Agency TFSA pages listed under Sources, read on November 21, 2026. Priya, the $5,000 re-contribution, the $7,000 account that grows to $9,000 or falls to $6,000, and the other dollar amounts in examples are illustrations, not your numbers. Your own room depends on your full transaction history with every TFSA issuer, so check your records, confirm the current CRA pages, and ask a tax professional about your own file.`;
+const disclaimer = `General education, not tax or financial advice. Rules come from the Canada Revenue Agency TFSA pages listed under Sources, read on November 22, 2026. Priya, the $5,000 re-contribution, the $7,000 account that grows to $9,000 or falls to $6,000, and the other dollar amounts in examples are illustrations, not your numbers. Your own room depends on your full transaction history with every TFSA issuer, so check your records, confirm the current CRA pages, and ask a tax professional about your own file.`;
 
 const content = `<div class="container">
 
@@ -56,7 +56,7 @@ const content = `<div class="container">
         </table>
     </div>
     <p>The asymmetry is the whole rule. A contribution reduces your room the day you make it; a withdrawal restores room only at the next January. The CRA lists three things that have no effect on your room in either direction: qualifying transfers, exempt contributions and specified distributions.</p>
-    <p>For scale: the dollar limit is $7,000 for 2026, the same as 2024 and 2025, per the CRA's <a href="${LIMITS}">limits table</a>. Someone who has been an adult resident since 2009 and never contributed has $109,000 of room in 2026, which is the sum of every annual limit from 2009 to 2026. The 2027 dollar limit was not on that table when this guide was checked on November 21, 2026, so this guide does not print a number for it.</p>
+    <p>For scale: the dollar limit is $7,000 for 2026, the same as 2024 and 2025, per the CRA's <a href="${LIMITS}">limits table</a>. Someone who has been an adult resident since 2009 and never contributed has $109,000 of room in 2026, which is the sum of every annual limit from 2009 to 2026. The 2027 dollar limit was not on that table when this guide was checked on November 22, 2026, so this guide does not print a number for it.</p>
 
     <h2 id="timeline">How does one withdrawal move through the calendar?</h2>
     <p>A withdrawal touches three dates: the day you take the money, the January it returns as room, and the spring the CRA's records catch up. The gap between the second and third is where most over-contributions start.</p>
@@ -211,22 +211,22 @@ const content = `<div class="container">
     <h3>What is the deadline to report a TFSA excess?</h3>
     <p>File Form RC243 and Schedule A, and pay, by June 30 of the year after the year the tax applies.</p>
     <h3>What is the 2027 TFSA limit?</h3>
-    <p>It had not been published on the CRA's limits table when this guide was checked on November 21, 2026. The 2026 limit is $7,000, and the limit is indexed to inflation and rounded to the nearest $500.</p>
+    <p>It had not been published on the CRA's limits table when this guide was checked on November 22, 2026. The 2026 limit is $7,000, and the limit is indexed to inflation and rounded to the nearest $500.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="${TFSA}/withdraw.html">CRA: Withdrawing from a TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits by year)</a>, reviewed November 21, 2026</li>
-        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/how.html">CRA: How to contribute to a TFSA (investment losses)</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/owing-tax/excess.html">CRA: Tax on excess TFSA amounts</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html">CRA: Examples, tax payable on excess TFSA amount</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/contributing/overcontribute.html">CRA: If you over-contribute to a TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/owing-tax/pay.html">CRA: If you have to pay tax on a TFSA (RC243, waivers, objections)</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/transfer.html">CRA: Requesting a TFSA transfer</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/non-resident.html">CRA: How non-residency affects your TFSA</a>, reviewed November 21, 2026</li>
-        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (impact on benefits)</a>, reviewed November 21, 2026</li>
+        <li><a href="${TFSA}/withdraw.html">CRA: Withdrawing from a TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits by year)</a>, reviewed November 22, 2026</li>
+        <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/how.html">CRA: How to contribute to a TFSA (investment losses)</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/owing-tax/excess.html">CRA: Tax on excess TFSA amounts</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html">CRA: Examples, tax payable on excess TFSA amount</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/contributing/overcontribute.html">CRA: If you over-contribute to a TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/owing-tax/pay.html">CRA: If you have to pay tax on a TFSA (RC243, waivers, objections)</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/transfer.html">CRA: Requesting a TFSA transfer</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/non-resident.html">CRA: How non-residency affects your TFSA</a>, reviewed November 22, 2026</li>
+        <li><a href="${TFSA}/what.html">CRA: What is a TFSA (impact on benefits)</a>, reviewed November 22, 2026</li>
     </ul>
 
     <h2>Related reading</h2>

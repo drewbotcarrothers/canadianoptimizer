@@ -12,10 +12,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -29,10 +29,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -48,10 +48,10 @@
         "tfsa_withdraw"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "2026 withdrawal returns as room January 1 of next year (CRA withdraw page) = January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -64,10 +64,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -81,10 +81,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -98,10 +98,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -115,10 +115,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
     },
@@ -134,16 +134,16 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "sum of CRA annual TFSA limits 2009-2026 = $109,000 (model cumulativeRoom2026ByFirstYear[2009])"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
-      "id": "7857a69e5a21",
-      "value": "November 21, 2026",
-      "context": "The 2027 dollar limit was not on that table when this guide was checked on November 21, 2026, so this guide does not print a number for it.",
+      "id": "c7160f596a38",
+      "value": "November 22, 2026",
+      "context": "The 2027 dollar limit was not on that table when this guide was checked on November 22, 2026, so this guide does not print a number for it.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -152,10 +152,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -168,10 +168,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "labelled illustration"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -184,10 +184,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "labelled illustration"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -200,10 +200,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -216,10 +216,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -232,10 +232,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
     },
@@ -249,10 +249,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -265,10 +265,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -281,10 +281,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -297,10 +297,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -313,10 +313,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -329,10 +329,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -345,10 +345,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration amount"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -361,10 +361,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -377,10 +377,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -393,10 +393,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -409,10 +409,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "Priya illustration: $12,000 withdrawal on March 3, 2026 with $0 unused room; room math per CRA withdraw page"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -425,10 +425,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -442,10 +442,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -459,10 +459,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -478,10 +478,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -496,10 +496,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -512,10 +512,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -531,10 +531,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -549,10 +549,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -567,10 +567,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -585,10 +585,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -603,10 +603,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -621,10 +621,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -639,10 +639,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -657,10 +657,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -675,10 +675,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -693,10 +693,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -711,10 +711,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -729,10 +729,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -747,10 +747,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -765,10 +765,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -783,10 +783,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -801,10 +801,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -819,10 +819,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -837,10 +837,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -855,10 +855,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -873,10 +873,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -891,10 +891,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -909,10 +909,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -927,10 +927,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -945,10 +945,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -963,10 +963,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -981,10 +981,10 @@
         "tfsa_withdraw"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "2026 withdrawal returns as room January 1 of next year (CRA withdraw page) = January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -999,10 +999,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model recontribute5000: $5,000 x 1% x months remaining in 2026 (Mar=10 ... Dec=1), $0 from January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1017,10 +1017,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model partialRoom: $5,000 - $3,000 = $2,000 excess x 1% = $20/month; June-Dec 7 months = $140"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1035,10 +1035,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model partialRoom: $5,000 - $3,000 = $2,000 excess x 1% = $20/month; June-Dec 7 months = $140"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1053,10 +1053,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model partialRoom: $5,000 - $3,000 = $2,000 excess x 1% = $20/month; June-Dec 7 months = $140"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1071,10 +1071,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model partialRoom: $5,000 - $3,000 = $2,000 excess x 1% = $20/month; June-Dec 7 months = $140"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1089,10 +1089,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model partialRoom: $5,000 - $3,000 = $2,000 excess x 1% = $20/month; June-Dec 7 months = $140"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1105,10 +1105,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "sooner can reduce your tax If you over-contribute $2,000 in June and remove it in September of the same year,"
     },
@@ -1122,10 +1122,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "month for June, July, August and September (a total of $80). But if you remove the excess amount later in June,"
     },
@@ -1139,10 +1139,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess_ex, HTTP 200)"
       },
       "needle": "contributions except that in the case of a TFSA, there is no $2,000 \"grace\" amount. The tax of 1% on an excess TFSA amount"
     },
@@ -1156,10 +1156,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -1173,10 +1173,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "after contribution Later that year, she withdraws $3,000 for a trip. Unfortunately, her plans change and she"
     },
@@ -1190,10 +1190,10 @@
       "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "labelled illustration"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
       }
     },
     {
@@ -1208,10 +1208,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model growth/loss: amount withdrawn returns as room ($9,000 or $6,000); $7,000 - $6,000 = $1,000 room lost"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1226,10 +1226,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model growth/loss: amount withdrawn returns as room ($9,000 or $6,000); $7,000 - $6,000 = $1,000 room lost"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1244,10 +1244,10 @@
         "tfsa_withdraw"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "2026 withdrawal returns as room January 1 of next year (CRA withdraw page) = January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1262,10 +1262,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model growth/loss: amount withdrawn returns as room ($9,000 or $6,000); $7,000 - $6,000 = $1,000 room lost"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1280,10 +1280,10 @@
         "tfsa_withdraw"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "2026 withdrawal returns as room January 1 of next year (CRA withdraw page) = January 1, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1298,10 +1298,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "model growth/loss: amount withdrawn returns as room ($9,000 or $6,000); $7,000 - $6,000 = $1,000 room lost"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1314,10 +1314,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -1331,10 +1331,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (transfer, HTTP 200)"
       },
       "needle": "advantage of the offer. In April 2025, she withdraws $50,000 from her TFSA and contributes it to a TFSA at the"
     },
@@ -1348,10 +1348,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (transfer, HTTP 200)"
       },
       "needle": "1% monthly tax on the excess amount. This comes to $500 per month until she removes the excess amount. To"
     },
@@ -1365,10 +1365,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -1382,10 +1382,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
       },
       "needle": "must complete and file a TFSA Return (Form RC243) by June 30 of the calendar year after the year the tax applies."
     },
@@ -1401,10 +1401,10 @@
         "tfsa_paytax"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "2026 excess: RC243 due June 30 of the following year (CRA pay page) = June 30, 2027"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1417,10 +1417,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
       },
       "needle": "calculated, you may submit a notice of objection within 90 days of the date on your NOA. To file an objection,"
     },
@@ -1434,10 +1434,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "of deliberate over-contribution may be taxed at the 100% advantage rate. For more information: How an advantage"
     },
@@ -1451,10 +1451,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -1468,10 +1468,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -1487,10 +1487,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "growth illustration: withdrawn amount ($9,000) returns as room January 1 (CRA withdraw page)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1505,10 +1505,10 @@
         "content/calcs/batch-20261122-model.mjs"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "growth illustration: withdrawn amount ($9,000) returns as room January 1 (CRA withdraw page)"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-22/recheck.py from inputs on pages fetched 2026-11-22"
       }
     },
     {
@@ -1521,10 +1521,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (withdraw, HTTP 200)"
       },
       "needle": "only be added back as available contribution room on January 1 of the next calendar year. If you withdraw funds,"
     },
@@ -1538,10 +1538,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -1555,10 +1555,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (excess, HTTP 200)"
       },
       "needle": "excess amount in your TFSA is taxable at a rate of 1% per month. This is calculated on the highest amount"
     },
@@ -1572,17 +1572,17 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (pay, HTTP 200)"
       },
       "needle": "must complete and file a TFSA Return (Form RC243) by June 30 of the calendar year after the year the tax applies."
     },
     {
-      "id": "35afc5fb0bc3",
-      "value": "November 21, 2026",
-      "context": "It had not been published on the CRA's limits table when this guide was checked on November 21, 2026.",
+      "id": "ee3f3d962422",
+      "value": "November 22, 2026",
+      "context": "It had not been published on the CRA's limits table when this guide was checked on November 22, 2026.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1591,10 +1591,10 @@
         "review"
       ],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": "review date: the day the sources were read for this batch"
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-22)"
       }
     },
     {
@@ -1607,10 +1607,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (limits, HTTP 200)"
       },
       "needle": "limits Year TFSA dollar limit ALDA dollar limit 2026 $7,000 $180,000 2025 $7,000 $180,000 2024 $7,000 $170,000"
     },
@@ -1624,10 +1624,10 @@
       "asOf": "2026-11-21",
       "derivedFrom": [],
       "verify": {
-        "status": "unverified",
-        "checkedOn": "",
-        "verifier": "",
-        "note": ""
+        "status": "match",
+        "checkedOn": "2026-11-22",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-22 (qa/figs/2026-11-22/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-22 (before, HTTP 200)"
       },
       "needle": "is indexed to inflation and rounded to the nearest $500. Contributions reduce your available room Any amount"
     }
