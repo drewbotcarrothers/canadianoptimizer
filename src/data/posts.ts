@@ -4476,302 +4476,150 @@ const allPosts: BlogPostRecord[] = [
 </div>`
   },
   {
-    title: "2026 Canadian Federal Tax Brackets — Rates, Thresholds & How They Work",
+    title: "2027 Canadian Federal Tax Brackets: Rates, Thresholds and What Changed",
     slug: "federal-tax-brackets",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-02-01",
-    updated: "2026-09-26",
-    excerpt: "How Canada's federal tax brackets work in 2026, including marginal versus effective rates, and why a higher bracket does not tax your entire income.",
+    updated: "2026-11-21",
+    excerpt: "The 2027 federal tax brackets in Canada from the CRA's payroll tables: 14% to $60,044, then 20.5%, 26%, 29% and 33%, the $16,879 basic personal amount, and what changed from 2026.",
     image: "/images/blog/federal-tax-brackets.png",
-    content: `<div class="container">
+    content: `<div class="container"><h1>2027 Canadian Federal Tax Brackets: Rates, Thresholds and What Changed</h1>
+<div class="hook"><strong>For 2027, the federal tax brackets are 14% on the first $60,044 of taxable income, 20.5% up to $120,088, 26% up to $186,157, 29% up to $265,203 and 33% above that.</strong> Every threshold is <span class="highlight">2.6%</span> higher than in 2026 and the rates did not change, so the same income pays a little less federal tax in 2027.</div>
 
-    <div class="hook">
-        The average Canadian overpays roughly $2,000 in taxes every year — and it often starts with a single misunderstanding about how tax brackets actually work.
-    </div>
+<p>This guide covers Canada's federal income tax brackets for the 2027 tax year: the rates, the dollar thresholds, the basic personal amount, and what the change means for your pay. It sits in <a href="/category/taxes/">Taxes</a>, next to <a href="/blog/provincial-tax-rates/">provincial tax rates</a>, <a href="/blog/salary-after-tax-by-province-canada/">salary after tax by province</a> and <a href="/blog/how-canadian-taxes-work/">how Canadian taxes work</a>.</p>
 
-    <h2>Introduction: Why Tax Brackets Matter</h2>
+<div class="callout"><strong>Where these numbers come from.</strong> The 2027 figures are from the Canada Revenue Agency's payroll deductions formulas, T4127, 124th edition, effective January 1, 2027 (Tables 8.1 and 8.2 and the federal basic personal amount formula), the CRA page dated November 19, 2026. The CRA notes that the guide reflects changes that apply "if enacted as proposed". As of November 21, 2026, the CRA's indexation page still lists 2026 as its latest year. Quebec is not in T4127, because Revenu Québec sets Quebec's provincial tax.</div>
 
-        <p>
-                If you earn more than $58,523 this year, you're probably going to pay federal taxes at multiple different rates. But here's what most people get wrong: you don't pay your entire income at one single rate. That misunderstanding leads to anxiety, poor financial decisions, and yes — overpaying by thousands of dollars.
-            </p>
-
-        <p>
-                This guide walks you through the 2026 federal tax bracket system in Canada with real numbers, clear examples, and no jargon. Whether you're a salaried employee, a freelancer, or a business owner, understanding how these brackets work is the foundation of smart tax planning.
-            </p>
-
-        <div class="tip-box">
-<strong>Quick Context:</strong> The rates shown here are federal taxes only. Provinces add their own tax brackets on top. This guide focuses exclusively on federal brackets — your combined rate will be higher when you add <a href="/blog/provincial-tax-rates/">provincial</a> tax.
-            </div>
-
-        <h2>The 5 Federal Tax Brackets for 2026</h2>
-
-        <p>
-                Canada's federal income tax system uses five brackets. Each bracket has a threshold (the income level at which the bracket begins) and a tax rate (the percentage you pay on income in that bracket).
-            </p>
-
-        <table>
-<thead>
-<tr>
-<th>Income Range</th>
-<th>Federal Tax Rate</th>
-</tr>
-</thead>
+<h2>What are the federal tax brackets for 2027?</h2>
+<p>There are five federal brackets in 2027. Each rate applies only to the part of your taxable income that falls inside that bracket.</p>
+<table>
+<thead><tr><th>2027 taxable income</th><th>Federal rate</th><th>2026 bracket, for comparison</th></tr></thead>
 <tbody>
-<tr>
-<td>$0 – $58,523</td>
-<td><span class="highlight">14.00%</span></td>
-</tr>
-<tr>
-<td>$58,523 – $117,045</td>
-<td><span class="highlight">20.50%</span></td>
-</tr>
-<tr>
-<td>$117,045 – $181,440</td>
-<td><span class="highlight">26.00%</span></td>
-</tr>
-<tr>
-<td>$181,440 – $258,482</td>
-<td><span class="highlight">29.29%</span></td>
-</tr>
-<tr>
-<td>Over $258,482</td>
-<td><span class="highlight">33.00%</span></td>
-</tr>
+<tr><td>$0 to $60,044</td><td><span class="highlight">14%</span></td><td>$0 to $58,523</td></tr>
+<tr><td>$60,044 to $120,088</td><td><span class="highlight">20.5%</span></td><td>$58,523 to $117,045</td></tr>
+<tr><td>$120,088 to $186,157</td><td><span class="highlight">26%</span></td><td>$117,045 to $181,440</td></tr>
+<tr><td>$186,157 to $265,203</td><td><span class="highlight">29%</span></td><td>$181,440 to $258,482</td></tr>
+<tr><td>Over $265,203</td><td><span class="highlight">33%</span></td><td>Over $258,482</td></tr>
 </tbody>
 </table>
+<p>Sources: CRA T4127 (January 2027), Table 8.1, for 2027. CRA indexation adjustment table and T4127 (July 2026) for 2026.</p>
 
-        <p>
-                These rates became effective for the full 2026 tax year. The lowest federal rate (the first bracket) <span class="highlight">dropped from 15% to 14% effective July 1, 2025</span>, which means all of 2026 will use the 14% rate for the lowest bracket. This reduction saves every Canadian earning income roughly $150–$300 per year depending on their province.
-            </p>
-
-        <h2>How Progressive Taxation Actually Works: A Real Example</h2>
-
-        <p>
-                Here's the mistake most people make: they think that if a bracket goes up to $58,523 at 14%, then crossing that threshold means paying 20.50% on your entire income. That's wrong.
-            </p>
-
-        <p>
-                Progressive taxation means you only pay the higher rate on the income that actually falls in that higher bracket. Think of it like climbing stairs. You don't jump to the top — you pay tax on each step as you climb.
-            </p>
-
-        <h3>Example: $95,000 Annual Income</h3>
-
-        <div class="example-box">
-<strong>Scenario: Sarah earns $95,000 gross income in 2026</strong>
-<div class="calculation">
-                    First bracket:     $58,523 × 14.00% = $8,193.22<br/>
-                    Second bracket:    ($95,000 − $58,523) × 20.50% = $7,477.50<br/>
-                    ─────────────────────────────────────────<br/>
-<strong>Total federal tax: $15,670.72</strong><br/>
-                    Effective federal rate: 16.5%
-                </div>
-<div class="result">
-<strong>Key insight:</strong> Sarah pays 14% on the first $58,523 (the first step), and 20.50% only on the next $36,477 (the second step). Her overall effective rate is just 16.5%, not 20.50%.
-                </div>
-</div>
-
-        <p>
-                This is why the difference between marginal rate and effective rate matters so much. When someone tells you "you're in the 20.50% bracket," they're referring to your marginal rate (the rate on your next dollar earned). But your actual tax burden is your effective rate — what you pay across all your income.
-            </p>
-
-        <h2>Marginal vs. Effective Tax Rate — Why Your Real Rate Is Lower</h2>
-
-        <p>
-                Understanding the difference between marginal and effective tax rates is perhaps the single most important piece of tax knowledge a Canadian can have. Many people panic thinking they're in a certain bracket and will pay that rate on all their income. In reality, the system is much kinder than they think.
-            </p>
-
-        <h3>What Is Marginal Tax Rate?</h3>
-
-        <p>
-                Your <span class="highlight"><a href="/blog/how-canadian-taxes-work/">marginal tax</a> rate is the rate you pay on your next dollar of income</span>. If you earn $95,000 and consider taking a consulting contract worth $5,000, your marginal federal rate is 20.50% — meaning that extra $5,000 would be taxed at 20.50%, not at your overall rate.
-            </p>
-
-        <h3>What Is Effective Tax Rate?</h3>
-
-        <p>
-                Your <span class="highlight">effective tax rate is your total tax divided by your total income</span>. Using Sarah's example above, even though she's technically "in the 20.50% bracket," her effective federal rate is only 16.5% because much of her income was taxed at the lower 14% rate.
-            </p>
-
-        <h3>Example: $150,000 Income</h3>
-
-        <div class="example-box">
-<strong>Scenario: Marco earns $150,000 gross income in 2026</strong>
-<div class="calculation">
-                    First bracket:     $58,523 × 14.00% = $8,193.22<br/>
-                    Second bracket:    ($117,045 − $58,523) × 20.50% = $12,000.51<br/>
-                    Third bracket:     ($150,000 − $117,045) × 26.00% = $8,568.70<br/>
-                    ─────────────────────────────────────────<br/>
-<strong>Total federal tax: $28,762.43</strong><br/>
-                    Effective federal rate: 19.2%<br/>
-                    Marginal federal rate: 26.0%
-                </div>
-<div class="result">
-<strong>The difference:</strong> Marco's marginal rate (26%) sounds scary, but his actual effective rate is 19.2%. If he earns $1,000 more, that $1,000 is taxed at 26%, but his overall rate across all income remains at 19.2%.
-                </div>
-</div>
-
-        <div class="tip-box">
-<strong>Rule of thumb:</strong> Your effective tax rate is always lower than your marginal rate (unless you're in the lowest bracket). This is by design — the progressive system ensures lower-income dollars are taxed at lower rates.
-            </div>
-
-        <h2>The 2026 Rate Change: What the 14% Drop Means for You</h2>
-
-        <p>
-                In 2025, the lowest federal bracket was 15%. Starting July 1, 2025 (and carrying through all of 2026), that dropped to 14%. This is the first time in years the lowest bracket decreased, and it delivers real savings.
-            </p>
-
-        <h3>Who Benefits Most?</h3>
-
-        <ul>
-<li><strong>Everyone earning any income:</strong> If you earn between $0 and $58,523, you pay 1% less federal tax on that income.</li>
-<li><strong>Low to middle-income earners:</strong> For someone earning $50,000, this saves roughly $500 per year in federal tax alone.</li>
-<li><strong>Higher earners:</strong> The benefit caps at $585 in federal savings (1% × $58,523), but it still helps.</li>
-</ul>
-
-        <h3>Concrete Savings</h3>
-
-        <p>
-                For a Canadian earning exactly $58,523 (the top of the first bracket):
-            </p>
-
-        <ul>
-<li><strong>Under old 15% rate:</strong> $8,778.45 federal tax</li>
-<li><strong>Under new 14% rate:</strong> $8,193.22 federal tax</li>
-<li><strong>Annual savings:</strong> $585.23</li>
-</ul>
-
-        <p>
-                While $585 might not sound life-changing, remember that most Canadians also get provincial tax relief, and this federal saving compounds year after year. Over a decade, that's nearly $6,000 in tax savings — money that stays in your pocket instead of going to the government.
-            </p>
-
-        <h2>How Brackets Are Indexed to Inflation</h2>
-
-        <p>
-                If tax brackets stayed frozen at exactly the same dollar amounts year after year, something unhelpful would happen: wages would naturally rise with inflation, pushing people into higher brackets even if their purchasing power stayed the same. This is called "bracket creep," and it's a silent way the government collects more tax over time.
-            </p>
-
-        <p>
-                To prevent bracket creep, Canada's tax system includes automatic indexation: each year, the bracket thresholds are increased by a certain percentage based on inflation.
-            </p>
-
-        <h3>The 2026 Indexation Factor: 2.0%</h3>
-
-        <p>
-                For 2026, the indexation factor is 2.0%. This means every bracket threshold increased by 2% from 2025 to 2026. The thresholds shown in this guide already reflect that adjustment.
-            </p>
-
-        <h3>What This Means Over Time</h3>
-
-        <p>
-                Indexation protects your purchasing power, but it's not perfect. If inflation exceeds the indexation factor, you still experience bracket creep. For example, in a high-inflation year with 3% indexation but 4% actual price increases, you've effectively moved into a slightly higher tax bracket in real terms.
-            </p>
-
-        <p>
-                Conversely, in low-inflation years, the indexation is conservative and protects you even more than needed. It's an imperfect but reasonable system that Congress reviews annually.
-            </p>
-
-        <div class="tip-box">
-<strong>Future Planning:</strong> When planning your finances, assume bracket thresholds will increase roughly 1.5% to 2.5% annually. This helps you project whether you'll cross into a higher bracket in coming years.
-            </div>
-
-        <h2>Quick Reference: Approximate Federal Tax at Common Incomes</h2>
-
-        <p>
-                Below is a table showing the approximate federal tax owing and effective federal tax rate at common income levels in 2026. These are calculated using the full progressive bracket system and include the basic personal amount credit of $2,303.
-            </p>
-
-        <table>
-<thead>
-<tr>
-<th>Gross Income</th>
-<th>Federal Tax</th>
-<th>Effective Rate</th>
-</tr>
-</thead>
+<h2>How much did the brackets go up for 2027?</h2>
+<p>The CRA's 2027 federal indexation rate is <strong>2.6%</strong>. Each threshold rose by that amount, and the five rates stayed the same as in 2026, including the 14% lowest rate.</p>
+<table>
+<thead><tr><th>Bracket starts at</th><th>2026</th><th>2027</th><th>Change</th></tr></thead>
 <tbody>
-<tr>
-<td>$50,000</td>
-<td><span class="currency">$6,347</span></td>
-<td>12.7%</td>
-</tr>
-<tr>
-<td>$75,000</td>
-<td><span class="currency">$10,126</span></td>
-<td>13.5%</td>
-</tr>
-<tr>
-<td>$100,000</td>
-<td><span class="currency">$15,283</span></td>
-<td>15.3%</td>
-</tr>
-<tr>
-<td>$150,000</td>
-<td><span class="currency">$28,762</span></td>
-<td>19.2%</td>
-</tr>
-<tr>
-<td>$250,000</td>
-<td><span class="currency">$50,621</span></td>
-<td>20.2%</td>
-</tr>
+<tr><td>20.5% bracket</td><td>$58,523</td><td>$60,044</td><td>+$1,521</td></tr>
+<tr><td>26% bracket</td><td>$117,045</td><td>$120,088</td><td>+$3,043</td></tr>
+<tr><td>29% bracket</td><td>$181,440</td><td>$186,157</td><td>+$4,717</td></tr>
+<tr><td>33% bracket</td><td>$258,482</td><td>$265,203</td><td>+$6,721</td></tr>
 </tbody>
 </table>
+<p>Indexing stops "bracket creep". Without it, a raise that only kept up with prices would push more of your income into higher brackets every year.</p>
 
-        <p>
-<strong>Note:</strong> These calculations include the basic personal amount (BPA) non-refundable tax credit of approximately $2,303. The BPA effectively makes the first $16,452 of income tax-free for most Canadians (it phases out at higher incomes). Your actual tax may vary slightly based on provincial credits, deductions, and credits you're eligible for.
-            </p>
+<h2>What is the basic personal amount for 2027?</h2>
+<p>The federal basic personal amount (BPA) for 2027 is <strong>$16,879</strong> if your net income is $186,157 or less. Between $186,157 and $265,203 it shrinks gradually, and at $265,203 or more it is <strong>$15,214</strong>. For 2026 the same amounts are $16,452 and $14,829.</p>
+<p>The BPA is a non-refundable credit at the lowest rate, so the full 2027 amount is worth $16,879 × 14% = <strong>$2,363.06</strong> off your federal tax. That matches the CRA's 2027 federal claim code 1.</p>
 
-        <h2>Key Takeaways: What You Need to Know</h2>
+<h2>How do tax brackets work? A 2027 example</h2>
+<p>Crossing into a higher bracket never raises the tax on the income below it. Only the dollars above the threshold pay the higher rate.</p>
+<div class="example-box">
+<strong>Example: $75,000 of taxable income in 2027 (federal tax only, illustrative)</strong>
+<ul>
+<li>First $60,044 at 14%: <strong>$8,406.16</strong></li>
+<li>Next $14,956 at 20.5%: <strong>$3,065.98</strong></li>
+<li>Tax before credits: $11,472.14</li>
+<li>Minus the basic personal amount credit: −$2,363.06</li>
+<li><strong>Basic federal tax: about $9,109</strong>, an average federal rate of about 12.1%. The marginal rate on the next dollar is 20.5%.</li>
+</ul>
+<p>Only the basic personal amount is applied here. CPP and EI credits, the Canada employment amount, deductions and provincial tax would change the real number.</p>
+</div>
+<p><strong>Marginal rate</strong> is the rate on your next dollar. Use it to price a raise, a bonus or an RRSP deduction: at a 20.5% marginal federal rate, a $1,000 RRSP deduction cuts federal tax by $205. <strong>Average (effective) rate</strong> is total tax divided by income. It is always lower than the marginal rate once you are past the first bracket.</p>
 
-        <ul>
-<li><strong>Tax brackets are progressive:</strong> You pay each rate only on income within that bracket, not on your entire income.</li>
-<li><strong>Your effective rate is lower than your marginal rate:</strong> Unless you're in the lowest bracket, most of your income is taxed at lower rates.</li>
-<li><strong>The 14% federal rate is a recent win:</strong> Implemented mid-2025 and applying to all of 2026, it saves every Canadian earning income a bit of money.</li>
-<li><strong>Indexation protects you from bracket creep:</strong> Each year, brackets increase by roughly 2% to account for inflation, but this isn't perfect protection in high-inflation years.</li>
-<li><strong>Don't forget provincial tax:</strong> Your total tax burden includes provincial brackets on top of federal. Most provinces have their own 5-bracket systems.</li>
-<li><strong>Know your marginal rate:</strong> Understanding your marginal rate helps you make smart decisions about additional income, deductions, and contributions to registered accounts like RRSPs.</li>
+<h2>Will I pay less federal tax in 2027 on the same income?</h2>
+<p>Yes, a little. Wider brackets and a larger basic personal amount mean the same income pays less basic federal tax in 2027 than in 2026. Our calculation uses the CRA's 2026 and 2027 brackets and basic personal amounts only.</p>
+<table>
+<thead><tr><th>Taxable income</th><th>Basic federal tax 2026</th><th>Basic federal tax 2027</th><th>Difference</th></tr></thead>
+<tbody>
+<tr><td>$40,000</td><td>$3,297</td><td>$3,237</td><td>−$60</td></tr>
+<tr><td>$75,000</td><td>$9,268</td><td>$9,109</td><td>−$159</td></tr>
+<tr><td>$100,000</td><td>$14,393</td><td>$14,234</td><td>−$159</td></tr>
+<tr><td>$150,000</td><td>$26,455</td><td>$26,129</td><td>−$326</td></tr>
+<tr><td>$200,000</td><td>$40,067</td><td>$39,585</td><td>−$481</td></tr>
+<tr><td>$300,000</td><td>$70,900</td><td>$70,170</td><td>−$730</td></tr>
+</tbody>
+</table>
+<p><strong>Decision rule:</strong> anywhere from $60,044 to $117,045 of taxable income, the same income pays about <strong>$159 less</strong> basic federal tax in 2027. That is $1,521 of income moving from the 20.5% rate to 14%, plus $427 more basic personal amount at 14%. Your real pay will rise or fall with CPP, EI and your province as well.</p>
+<p><em>Canadian Optimizer calculation, illustrative. Basic federal tax = bracket tax minus 14% of the federal basic personal amount; no other credits, deductions or provincial tax.</em></p>
+
+<h2>Why is the top federal rate sometimes 29.29%?</h2>
+<p>Between $186,157 and $265,203, the basic personal amount shrinks by $1,665 over $79,046 of income. Each extra dollar there pays 29% and also loses about 0.3 cents of credit, so the federal marginal rate in that range works out to about <strong>29.29%</strong>. Above $265,203 the rate is a flat 33%.</p>
+
+<h2>How do provincial and territorial brackets change in 2027?</h2>
+<p>Your province or territory adds its own brackets on top of federal tax. The CRA's 2027 payroll tables show the lowest and top rates below. Quebec is not included, because Revenu Québec administers Quebec income tax.</p>
+<table>
+<thead><tr><th>Province or territory</th><th>Lowest rate (2027)</th><th>Top rate (2027)</th><th>2027 indexation</th></tr></thead>
+<tbody>
+<tr><td>Alberta</td><td>8% up to $62,424</td><td>15% over $377,625</td><td>2.0% (capped)</td></tr>
+<tr><td>British Columbia</td><td>5.6% up to $50,363</td><td>20.5% over $265,545</td><td>Paused for 2027 to 2030</td></tr>
+<tr><td>Manitoba</td><td>10.8% up to $47,000</td><td>17.4% over $100,000</td><td>Not indexed</td></tr>
+<tr><td>New Brunswick</td><td>9.4% up to $53,693</td><td>19.5% over $198,902</td><td>2.6%</td></tr>
+<tr><td>Newfoundland and Labrador</td><td>8.7% up to $46,152</td><td>21.8% over $1,178,938</td><td>3.3%</td></tr>
+<tr><td>Nova Scotia</td><td>8.79% up to $32,080</td><td>21% over $162,624</td><td>3.5%</td></tr>
+<tr><td>Ontario</td><td>5.05% up to $55,023</td><td>13.16% over $220,000</td><td>2.1%</td></tr>
+<tr><td>Prince Edward Island</td><td>9.5% up to $33,928</td><td>20% over $200,000</td><td>Not indexed</td></tr>
+<tr><td>Saskatchewan</td><td>10.5% up to $55,950</td><td>14.5% over $159,856</td><td>2.6%</td></tr>
+<tr><td>Northwest Territories</td><td>5.9% up to $54,381</td><td>14.05% over $176,827</td><td>2.6%</td></tr>
+<tr><td>Nunavut</td><td>4% up to $57,252</td><td>11.5% over $186,156</td><td>2.6%</td></tr>
+<tr><td>Yukon</td><td>6.4% up to $60,044</td><td>15% over $500,000</td><td>2.6%</td></tr>
+</tbody>
+</table>
+<p>Source: CRA T4127 (January 2027), Tables 8.1 and 8.2. Alberta's index is the lower of inflation and 2.0%. British Columbia paused indexation of its brackets and most credits for 2027 to 2030, so its 2027 thresholds equal its 2026 thresholds. Ontario also charges a surtax of 20% of Ontario tax above $5,940 and a further 36% above $7,603 (2027). For every bracket in your province, see <a href="/blog/provincial-tax-rates/">provincial tax rates</a>.</p>
+
+<h2>When do the 2027 brackets apply?</h2>
+<p>Indexed bracket thresholds take effect on January 1 of the year, so employers use the 2027 tables from the first payroll of 2027. The 2027 brackets then apply to the income you report on your 2027 return, which you file in 2028.</p>
+
+<h2>What are the common mistakes with tax brackets?</h2>
+<ul>
+<li><strong>Turning down a raise to "stay in a lower bracket".</strong> Only the dollars above the threshold pay the higher rate. A raise always leaves you with more after federal tax.</li>
+<li><strong>Planning 2027 with 2026 numbers.</strong> The 20.5% bracket now starts at $60,044, not $58,523. Use the new thresholds when you size RRSP contributions or bonuses.</li>
+<li><strong>Forgetting the province.</strong> Your combined marginal rate is federal plus provincial. In British Columbia the provincial thresholds did not move for 2027.</li>
+<li><strong>Using the marginal rate as your average rate.</strong> At $75,000 the next dollar pays 20.5% federal, but the average federal rate is about 12%.</li>
 </ul>
 
-        <h2>Planning Your Taxes: Next Steps</h2>
+<h2 id="faq">Frequently asked questions</h2>
+<h3>What are the 2027 federal tax brackets in Canada?</h3>
+<p>14% up to $60,044, 20.5% up to $120,088, 26% up to $186,157, 29% up to $265,203 and 33% above $265,203, per the CRA's T4127 payroll formulas effective January 1, 2027.</p>
+<h3>How much did the tax brackets increase for 2027?</h3>
+<p>2.6%, the CRA's 2027 federal indexation rate. The 20.5% bracket now starts $1,521 higher, at $60,044.</p>
+<h3>What is the 2027 basic personal amount?</h3>
+<p>$16,879 for net income up to $186,157, reducing to $15,214 at $265,203 or more (CRA T4127, January 2027).</p>
+<h3>Is the lowest federal tax rate still 14% in 2027?</h3>
+<p>Yes. The CRA's 2027 tables use 14% for the first bracket, the same as 2026.</p>
+<h3>Will I pay less tax in 2027?</h3>
+<p>On the same income, basic federal tax is slightly lower in 2027. From $60,044 to $117,045 of taxable income the difference is about $159 (our calculation, federal only). If your income rises, your tax can still go up.</p>
+<h3>Are Quebec's 2027 brackets in the CRA tables?</h3>
+<p>No. T4127 covers federal tax and every province and territory except Quebec. Check Revenu Québec for Quebec's provincial rates.</p>
 
-        <p>
-                Understanding tax brackets is step one. Smart tax planning involves using tools like Registered Retirement Savings Plans (RRSPs), Tax-Free Savings Accounts (TFSAs), and income splitting strategies to reduce your taxable income or push income into lower brackets.
-            </p>
+<h2>Sources</h2>
+<ul>
+<li>CRA, T4127 Payroll Deductions Formulas, 124th edition, effective January 1, 2027: Table 8.1 (rates and thresholds), Table 8.2 (other rates and amounts, including index rates and provincial basic amounts), federal basic personal amount (BPAF) formula and Table 8.9 claim codes. Page updated November 19, 2026; checked November 21, 2026.</li>
+<li>CRA, Indexation adjustment for personal income tax and benefit amounts (2026 brackets and basic personal amount; 2027 not yet listed), checked November 21, 2026.</li>
+<li>CRA, T4127 Payroll Deductions Formulas effective July 1, 2026, Table 8.1 (2026 rates and thresholds).</li>
+</ul>
 
-        <p>
-                For most Canadians, the simple action of maximizing <a href="/blog/rrsp-playbook/">RRSP</a> contributions in a high-income year can save thousands in federal and provincial tax. For example, a $10,000 RRSP contribution at a 26% marginal rate saves you $2,600 in taxes — which you can reinvest into your RRSP!
-            </p>
+<div class="cta-section">
+<p><strong>Brackets are the starting point for every tax decision.</strong></p>
+<p>The Canadian Optimizer tax guide walks through RRSP deductions, credits, and how to plan around your marginal rate, with the math worked out.</p>
+<a href="/ebooks/tax-guide/" class="cta-button">See the Tax Guide</a>
+</div>
 
-        <p>
-                The Canada Revenue Agency (CRA) publishes detailed tax rates and brackets each year on their website. For 2026, their official notice will specify exact bracket amounts, basic personal amounts, and other indexed figures. This guide uses verified CRA data current as of April 2026.
-            </p>
-
-        <div class="tip-box">
-<strong>Professional Help:</strong> While this guide covers federal brackets thoroughly, your complete tax situation — including deductions, credits, and optimization strategies — is worth discussing with a qualified accountant or tax planner, especially if you're self-employed or have complex income sources.
-            </div>
-
-    <div class="cta-section">
-            <p><strong>Maximize Your Tax Savings</strong></p>
-            <p>
-                Understanding tax brackets is the foundation, but smart tax planning goes deeper. Download our complete Canadian tax optimization guide and discover how to keep more of what you earn.
-            </p>
-            <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Free Guide</a>
-        </div>
-
-    <div class="article-footer">
-        <p>
-<strong>Disclaimer:</strong> This guide provides general educational information about Canadian federal tax brackets for 2026. It is not personalized tax advice. Tax situations vary widely based on provincial residence, employment type, deductions, and credits. Please consult with a qualified tax professional or the Canada Revenue Agency (CRA) for advice specific to your circumstances.
-            </p>
-<p>
-                Data sources: Canada Revenue Agency (CRA), 2026 tax year information and indexation factors published as of April 2026.
-            </p>
-<div class="footer-note">
-                Published: February 1, 2026 | Category: Taxes | Author: Andrew
-            </div>
-    </div>
-
+<div class="article-footer">
+<p><strong>Disclaimer:</strong> This guide is for general education and is not financial, legal or tax advice. The examples are illustrations that use federal tax and the basic personal amount only, not a forecast for your situation. The 2027 figures come from the CRA's payroll formulas, which reflect proposed changes as if enacted. Check your own numbers with the CRA or a qualified professional before you act.</p>
+<p><em>Last updated: November 21, 2026. Based on CRA T4127 (January 2027) figures.</em></p>
+</div>
 </div>`
   },
   {
