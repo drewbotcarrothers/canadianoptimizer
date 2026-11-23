@@ -24,6 +24,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: '2026-09-26',
   }));
 
+  const referenceEntries: MetadataRoute.Sitemap = [
+    '/2027-contribution-limits/',
+    '/2027-combined-marginal-tax-rates/',
+    '/tfsa-rrsp-fhsa-calculator/',
+  ].map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: '2026-11-23',
+  }));
+
   // Sales pages only; thank-you pages are noindex and stay out of the sitemap.
   const ebookEntries: MetadataRoute.Sitemap = ALL_PRODUCTS.map((product) => ({
     url: `${SITE_URL}/ebooks/${product.slug}/`,
@@ -58,5 +67,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.updated || post.date,
   }));
 
-  return [...staticEntries, ...ebookEntries, ...categoryEntries, ...subcategoryEntries, ...postEntries];
+  return [...staticEntries, ...referenceEntries, ...ebookEntries, ...categoryEntries, ...subcategoryEntries, ...postEntries];
 }
