@@ -1,0 +1,39 @@
+{
+  "slug": "how-to-apply-for-gis",
+  "title": "How to Apply for the GIS and Keep It Coming Every July",
+  "family": "how-to",
+  "category": "government-benefits",
+  "subcategory": "seniors-cpp-oas",
+  "targetQuery": "how to apply for gis",
+  "secondaryQueries": [
+    "gis application form",
+    "gis renewal tax return",
+    "am i automatically enrolled in gis",
+    "gis income threshold 2026"
+  ],
+  "infoGain": "An income-year-to-payment-year table (which tax return sets which July\u2013June GIS year, and its filing deadline), the ISP-3025 versus ISP-3550 decision table, and worked examples for an income drop (ISP-3026 estimate), the Allowance for a 60\u201364 spouse, and the Allowance for the Survivor, all against the October\u2013December 2026 thresholds.",
+  "money": false,
+  "offers": [],
+  "ebook": "government-benefits-guide",
+  "publishDate": "2026-11-23",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "read rendered preview on 2026-11-23: opening answers who qualifies, that enrolment may be automatic or by application, and that renewal is from the tax return every July; all 14 question headings open with a direct answer (e.g. \"Maybe\", \"From your tax return, every July\", \"No. Canada.ca says you cannot get the GIS while you do not receive the OAS pension\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "no invented quotes or experience; thresholds, maximums, forms, renewal, income-estimate, sponsorship and absence rules re-read on Canada.ca GIS/OAS pages 2026-11-23; Ruth and Ken are labelled illustrations; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

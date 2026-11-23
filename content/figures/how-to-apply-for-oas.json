@@ -1,0 +1,1474 @@
+{
+  "slug": "how-to-apply-for-oas",
+  "publishDate": "2026-11-23",
+  "figures": [
+    {
+      "id": "2045c7a5c020",
+      "value": "14",
+      "context": "Canada.ca says online decisions take about 14 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "0ee40db6d0ff",
+      "value": "64",
+      "context": "No letter one month after you turn 64?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "information, you will get an enrollment letter around your 64th birthday. This means that you are enrolled automatically"
+    },
+    {
+      "id": "c4aabc355718",
+      "value": "0.6%",
+      "context": "Delaying adds 0.6% a month up to 36% at 70, but it is a poor trade if you qualify for the Guaranteed Income Supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "65 to start your OAS pension, payments increase by 0.6% each month (7.2% per year), up to 36% at age 70. Calculation"
+    },
+    {
+      "id": "a76b4aad7f97",
+      "value": "36%",
+      "context": "Delaying adds 0.6% a month up to 36% at 70, but it is a poor trade if you qualify for the Guaranteed Income Supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "increase by 0.6% each month (7.2% per year), up to 36% at age 70. Calculation example: How delaying Old Age"
+    },
+    {
+      "id": "29145ea6b1b6",
+      "value": "70",
+      "context": "Delaying adds 0.6% a month up to 36% at 70, but it is a poor trade if you qualify for the Guaranteed Income Supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "for the Guaranteed Income Supplement Over the age of 70 (the maximum monthly amount is reached when you turn"
+    },
+    {
+      "id": "e2843364a0c2",
+      "value": "65",
+      "context": "Already past 65 and never started?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "Request a retroactive start date If you are already over 65, we may be able to give you a retroactive payment"
+    },
+    {
+      "id": "869dd9091d32",
+      "value": "11",
+      "context": "You can be paid up to 11 months back, but not for months you chose to defer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "36dd352f7e8b",
+      "value": "65",
+      "context": "you have turned 65 but have not started the pension or delayed it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "want to delay or change your start date You turned 65, but you have not started your pension or delayed"
+    },
+    {
+      "id": "b0dc5b2ab034",
+      "value": "65",
+      "context": "To qualify at all, you must be 65 or older and, if you live in Canada, a citizen or legal resident who has lived here at least 10 years since age 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/eligibility.html",
+      "sourceName": "Government of Canada: OAS pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_elig, HTTP 200)"
+      },
+      "needle": "can receive an Old Age Security pension You must be 65 years or older to receive the Old Age Security (OAS)"
+    },
+    {
+      "id": "037c5f1e1c41",
+      "value": "10",
+      "context": "To qualify at all, you must be 65 or older and, if you live in Canada, a citizen or legal resident who has lived here at least 10 years since age 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/eligibility.html",
+      "sourceName": "Government of Canada: OAS pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_elig, HTTP 200)"
+      },
+      "needle": "pension application Have resided in Canada for at least 10 years since the age of 18 If you are living outside"
+    },
+    {
+      "id": "6b49485c2b3e",
+      "value": "18",
+      "context": "To qualify at all, you must be 65 or older and, if you live in Canada, a citizen or legal resident who has lived here at least 10 years since age 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/eligibility.html",
+      "sourceName": "Government of Canada: OAS pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_elig, HTTP 200)"
+      },
+      "needle": "resided in Canada for at least 10 years since the age of 18 If you are living outside Canada, you must: Have been"
+    },
+    {
+      "id": "2ff13569e4ca",
+      "value": "20",
+      "context": "Living abroad, you need 20 years of residence after 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_recv, HTTP 200)"
+      },
+      "needle": "living abroad if: You lived in Canada for at least 20 years after turning 18 : Option 1 You lived and worked"
+    },
+    {
+      "id": "44b14f2182a9",
+      "value": "18",
+      "context": "Living abroad, you need 20 years of residence after 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_recv, HTTP 200)"
+      },
+      "needle": "lived in Canada for at least 20 years after turning 18 : Option 1 You lived and worked in a country with"
+    },
+    {
+      "id": "a7dc24344d1d",
+      "value": "40",
+      "context": "The full pension takes 40 years; with fewer you get a partial pension of years in Canada divided by 40.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "Security pension if you've lived in Canada for fewer than 40 years after turning 18. The partial pension you could"
+    },
+    {
+      "id": "2515ff08b0b0",
+      "value": "November 23, 2026",
+      "context": "OAS letter and action guide (from Canada.ca's apply, when-to-start and after-you-apply pages, read November 23, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-23)"
+      }
+    },
+    {
+      "id": "719dec363a31",
+      "value": "65",
+      "context": "Letter confirms automatic enrolment and the details are right Your pension will start the month after you turn 65 Nothing, unless you want to delay.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "want to delay or change your start date You turned 65, but you have not started your pension or delayed"
+    },
+    {
+      "id": "7c31f092ac7d",
+      "value": "65",
+      "context": "You want a later start Each month of delay after 65 adds 0.6% Delay online (Profile, then \"Delay Receiving OAS/GIS Pension\") or on paper",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "start your retirement pension You can start at age 65 or as late as age 70. Starting later means larger"
+    },
+    {
+      "id": "64f16703a2f0",
+      "value": "0.6%",
+      "context": "You want a later start Each month of delay after 65 adds 0.6% Delay online (Profile, then \"Delay Receiving OAS/GIS Pension\") or on paper",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "65 to start your OAS pension, payments increase by 0.6% each month (7.2% per year), up to 36% at age 70. Calculation"
+    },
+    {
+      "id": "cdda3a7787fd",
+      "value": "65",
+      "context": "You are past 65 and nothing has started You may be owed back payments Apply now and ask for a retroactive start (up to 11 months)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "Request a retroactive start date If you are already over 65, we may be able to give you a retroactive payment"
+    },
+    {
+      "id": "009a52dae5be",
+      "value": "11",
+      "context": "You are past 65 and nothing has started You may be owed back payments Apply now and ask for a retroactive start (up to 11 months)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "78cd5f56533d",
+      "value": "64",
+      "context": "What the timeline below adds: a dated walk-through for one example birthday, from the letter check at 64 and one month to the first payment, with the last dates to submit online (14 days) or on paper (120 days) so a decision arrives before the first OAS month, using Canada.ca's published 2027 payment calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "information, you will get an enrollment letter around your 64th birthday. This means that you are enrolled automatically"
+    },
+    {
+      "id": "44c80866f77f",
+      "value": "14",
+      "context": "What the timeline below adds: a dated walk-through for one example birthday, from the letter check at 64 and one month to the first payment, with the last dates to submit online (14 days) or on paper (120 days) so a decision arrives before the first OAS month, using Canada.ca's published 2027 payment calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "66bedddaa3fa",
+      "value": "120",
+      "context": "What the timeline below adds: a dated walk-through for one example birthday, from the letter check at 64 and one month to the first payment, with the last dates to submit online (14 days) or on paper (120 days) so a decision arrives before the first OAS month, using Canada.ca's published 2027 payment calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 14 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "586cb78eb399",
+      "value": "18",
+      "context": "Where you have lived since age 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "birth) Information about where you have lived since age 18 The date you would like your pension to start For"
+    },
+    {
+      "id": "524660e68af1",
+      "value": "18",
+      "context": "OAS is based on years lived in Canada after 18, not on work or contributions, so a gap you forget to list can shrink the pension.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "lived in Canada for fewer than 40 years after turning 18. The partial pension you could receive is based on"
+    },
+    {
+      "id": "4e95249b92ee",
+      "value": "March 14, 1962",
+      "context": "Illustration: Margaret, born March 14, 1962",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6c87379037e6",
+      "value": "March 14, 2026",
+      "context": "Around March 14, 2026 She turns 64; the enrolment letter is expected around now",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "1429d5c90953",
+      "value": "64",
+      "context": "Around March 14, 2026 She turns 64; the enrolment letter is expected around now",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "information, you will get an enrollment letter around your 64th birthday. This means that you are enrolled automatically"
+    },
+    {
+      "id": "d90ee584b096",
+      "value": "April 14, 2026",
+      "context": "April 14, 2026 One month past 64: if no letter, she contacts Service Canada.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "4c083b55f5bf",
+      "value": "64",
+      "context": "April 14, 2026 One month past 64: if no letter, she contacts Service Canada.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "information, you will get an enrollment letter around your 64th birthday. This means that you are enrolled automatically"
+    },
+    {
+      "id": "49bd330e8d7b",
+      "value": "December 2, 2026",
+      "context": "December 2, 2026 Last day to mail ISP-3550 if she wants a decision before April 1, 2027 (120 days)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "973fe6f19bc3",
+      "value": "April 1, 2027",
+      "context": "December 2, 2026 Last day to mail ISP-3550 if she wants a decision before April 1, 2027 (120 days)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "982015ad4d31",
+      "value": "120",
+      "context": "December 2, 2026 Last day to mail ISP-3550 if she wants a decision before April 1, 2027 (120 days)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 14 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "ab9381fb563f",
+      "value": "March 14, 2027",
+      "context": "March 14, 2027 She turns 65",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "d216e1871c08",
+      "value": "65",
+      "context": "March 14, 2027 She turns 65",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/eligibility.html",
+      "sourceName": "Government of Canada: OAS pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_elig, HTTP 200)"
+      },
+      "needle": "can receive an Old Age Security pension You must be 65 years or older to receive the Old Age Security (OAS)"
+    },
+    {
+      "id": "dfeea19e0557",
+      "value": "March 18, 2027",
+      "context": "March 18, 2027 Last day to apply online for a decision before April 1, 2027 (14 days)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "bab2e4081cce",
+      "value": "April 1, 2027",
+      "context": "March 18, 2027 Last day to apply online for a decision before April 1, 2027 (14 days)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "6250a41f4664",
+      "value": "14",
+      "context": "March 18, 2027 Last day to apply online for a decision before April 1, 2027 (14 days)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "6b0350987e60",
+      "value": "April 28, 2027",
+      "context": "April 28, 2027 First OAS payment, for April, the month after she turns 65",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27,"
+    },
+    {
+      "id": "a33443a2027d",
+      "value": "65",
+      "context": "April 28, 2027 First OAS payment, for April, the month after she turns 65",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_recv, HTTP 200)"
+      },
+      "needle": "Age Security (OAS) payment the month after you turn 65 or on the specific date on your decision letter. You"
+    },
+    {
+      "id": "27e97cfb2fc6",
+      "value": "65",
+      "context": "OAS starts the month after you turn 65, or on the date in your decision letter, and is then paid monthly.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_recv, HTTP 200)"
+      },
+      "needle": "Age Security (OAS) payment the month after you turn 65 or on the specific date on your decision letter. You"
+    },
+    {
+      "id": "3a97c1f8b24c",
+      "value": "January 27",
+      "context": "The Canada.ca payment calendar lists the 2027 OAS dates, from January 27 to December 22, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "children's and survivor benefits. Canada Pension Plan 2027 January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027"
+    },
+    {
+      "id": "4b195acdf3c8",
+      "value": "December 22, 2027",
+      "context": "The Canada.ca payment calendar lists the 2027 OAS dates, from January 27 to December 22, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "September 27, 2027 October 27, 2027 November 26, 2027 December 22, 2027 Canada Pension Plan 2026 January 28, 2026 February"
+    },
+    {
+      "id": "8aac3bb47f6b",
+      "value": "65",
+      "context": "Canada.ca's when-to-start page says each month of delay after 65 adds 0.6%, up to 36% at 70, and gives these maximums for October to December 2026:",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "the earliest you can start your OAS pension is age 65. How age affects your pension If you wait until after"
+    },
+    {
+      "id": "165b183dc578",
+      "value": "0.6%",
+      "context": "Canada.ca's when-to-start page says each month of delay after 65 adds 0.6%, up to 36% at 70, and gives these maximums for October to December 2026:",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "65 to start your OAS pension, payments increase by 0.6% each month (7.2% per year), up to 36% at age 70. Calculation"
+    },
+    {
+      "id": "2adbaeac9640",
+      "value": "36%",
+      "context": "Canada.ca's when-to-start page says each month of delay after 65 adds 0.6%, up to 36% at 70, and gives these maximums for October to December 2026:",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "increase by 0.6% each month (7.2% per year), up to 36% at age 70. Calculation example: How delaying Old Age"
+    },
+    {
+      "id": "492269df060c",
+      "value": "70",
+      "context": "Canada.ca's when-to-start page says each month of delay after 65 adds 0.6%, up to 36% at 70, and gives these maximums for October to December 2026:",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "0.6% each month (7.2% per year), up to 36% at age 70. Calculation example: How delaying Old Age Security"
+    },
+    {
+      "id": "b6f7ea3543c1",
+      "value": "65",
+      "context": "65 None $762.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "start your retirement pension You can start at age 65 or as late as age 70. Starting later means larger"
+    },
+    {
+      "id": "0bf1555d510a",
+      "value": "$762.50",
+      "context": "65 None $762.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "monthly payment amount (October to December 2026) 65 n/a $762.50 66 12 months X 0.6% = 7.2% $ 817.40 67 24 months X"
+    },
+    {
+      "id": "7884f9305fa3",
+      "value": "66",
+      "context": "66 7.2% $817.40",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "09fc75cf522a",
+      "value": "7.2%",
+      "context": "66 7.2% $817.40",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "0cecb18c1808",
+      "value": "$817.40",
+      "context": "66 7.2% $817.40",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "6941cdc899f0",
+      "value": "67",
+      "context": "67 14.4% $872.30",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "219bfd17773c",
+      "value": "14.4%",
+      "context": "67 14.4% $872.30",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "6f5199263665",
+      "value": "$872.30",
+      "context": "67 14.4% $872.30",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "92c31d40ea82",
+      "value": "68",
+      "context": "68 21.6% $927.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "708e59a90ff1",
+      "value": "21.6%",
+      "context": "68 21.6% $927.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "9d9cae9af627",
+      "value": "$927.20",
+      "context": "68 21.6% $927.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "29657734188f",
+      "value": "69",
+      "context": "69 28.8% $982.10",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "be769da27b60",
+      "value": "28.8%",
+      "context": "69 28.8% $982.10",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "00ade877d4e7",
+      "value": "$982.10",
+      "context": "69 28.8% $982.10",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "263171671b25",
+      "value": "70",
+      "context": "70 36% $1,037.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "1946407625a1",
+      "value": "36%",
+      "context": "70 36% $1,037.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "292376502c7c",
+      "value": "$1,037.00",
+      "context": "70 36% $1,037.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "7a249841111f",
+      "value": "$93,454",
+      "context": "If you are working, OAS can be partly repaid once net income passes $93,454 for 2025, the recovery tax threshold for the July 2026 to June 2027 payments.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/benefit-amount.html",
+      "sourceName": "Government of Canada: OAS pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_amount, HTTP 200)"
+      },
+      "needle": "are still working and your net income is higher than $93,454 (2025), you may have to pay back part of your Old"
+    },
+    {
+      "id": "e58001d93948",
+      "value": "65",
+      "context": "What if you are already past 65 and never applied?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "Request a retroactive start date If you are already over 65, we may be able to give you a retroactive payment"
+    },
+    {
+      "id": "9036ea77b2b2",
+      "value": "11",
+      "context": "Canada.ca says a payment can go back up to 11 months from the date your application is received, but not for any period you chose to defer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "7ced37721644",
+      "value": "65",
+      "context": "Maximum monthly OAS, age 65 to 74 (October to December 2026) $762.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "monthly payment amount (October to December 2026) 65 n/a $762.50 66 12 months X 0.6% = 7.2% $ 817.40 67"
+    },
+    {
+      "id": "10d719c4e405",
+      "value": "74",
+      "context": "Maximum monthly OAS, age 65 to 74 (October to December 2026) $762.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/benefit-amount.html",
+      "sourceName": "Government of Canada: OAS pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_amount, HTTP 200)"
+      },
+      "needle": "your annual net world income in 2025 must be 65 to 74 $762.50 Less than $152,062 75 and over $838.75 Less"
+    },
+    {
+      "id": "461347a027de",
+      "value": "$762.50",
+      "context": "Maximum monthly OAS, age 65 to 74 (October to December 2026) $762.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "monthly payment amount (October to December 2026) 65 n/a $762.50 66 12 months X 0.6% = 7.2% $ 817.40 67 24 months X"
+    },
+    {
+      "id": "1af170d602c9",
+      "value": "11",
+      "context": "Months that can be paid back 11",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "da7881afae63",
+      "value": "11",
+      "context": "Most that 11 months at that rate would come to $8,387.50",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "c6f27429552d",
+      "value": "$8,387.50",
+      "context": "Most that 11 months at that rate would come to $8,387.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "55e2543cf2d4",
+      "value": "11",
+      "context": "Anything older than 11 months is not paid, which is why the \"turned 65, nothing started\" case in the table above is urgent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "give you a retroactive payment for up to a maximum of 11 months from the date we receive your application."
+    },
+    {
+      "id": "3126cd8d2685",
+      "value": "65",
+      "context": "Anything older than 11 months is not paid, which is why the \"turned 65, nothing started\" case in the table above is urgent.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "want to delay or change your start date You turned 65, but you have not started your pension or delayed"
+    },
+    {
+      "id": "7cce2220320b",
+      "value": "14",
+      "context": "Canada.ca's after-you-apply page gives 14 days for online applications and 120 days by mail, longer if documents are missing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "46d3f8375b77",
+      "value": "120",
+      "context": "Canada.ca's after-you-apply page gives 14 days for online applications and 120 days by mail, longer if documents are missing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 14 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "5c01b908259a",
+      "value": "90",
+      "context": "You have 90 days from receiving the letter to ask for a reconsideration.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "application status. Ask to reconsider the decision You have 90 days from the date you receive your decision letter"
+    },
+    {
+      "id": "b45c9370f49b",
+      "value": "April 30",
+      "context": "File your tax return by April 30 every year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_recv, HTTP 200)"
+      },
+      "needle": "to avoid payment delays You must file your taxes by April 30 every year to avoid any disruption of payments. Annual"
+    },
+    {
+      "id": "ca156abe7ed0",
+      "value": "65",
+      "context": "The pension itself cannot start before 65.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/apply.html",
+      "sourceName": "Government of Canada: Apply for the OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_apply, HTTP 200)"
+      },
+      "needle": "want to delay or change your start date You turned 65, but you have not started your pension or delayed"
+    },
+    {
+      "id": "155670fcd27a",
+      "value": "14",
+      "context": "About 14 days online and 120 days by mail, according to Canada.ca, from when it is received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "7ea3ad57f258",
+      "value": "120",
+      "context": "About 14 days online and 120 days by mail, according to Canada.ca, from when it is received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/after-apply.html",
+      "sourceName": "Government of Canada: OAS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 14 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "bcc1d2d49bde",
+      "value": "18",
+      "context": "OAS is based on age and years of residence in Canada after 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "lived in Canada for fewer than 40 years after turning 18. The partial pension you could receive is based on"
+    },
+    {
+      "id": "6f65d5e895e4",
+      "value": "20",
+      "context": "You need at least 20 years of residence in Canada after 18 to be paid abroad.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your OAS pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_when, HTTP 200)"
+      },
+      "needle": "10 years if you currently live in Canada At least 20 years if you currently live outside of Canada Calculation"
+    },
+    {
+      "id": "caf98cc3da6f",
+      "value": "18",
+      "context": "You need at least 20 years of residence in Canada after 18 to be paid abroad.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/benefit-amount.html",
+      "sourceName": "Government of Canada: OAS pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (oas_amount, HTTP 200)"
+      },
+      "needle": "lived in Canada for less than 40 years (after age 18): You may get a partial pension based on how long"
+    }
+  ]
+}

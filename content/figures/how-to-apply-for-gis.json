@@ -1,0 +1,738 @@
+{
+  "slug": "how-to-apply-for-gis",
+  "publishDate": "2026-11-23",
+  "figures": [
+    {
+      "id": "4d2754e923dc",
+      "value": "$23,112",
+      "context": "To get the Guaranteed Income Supplement you must receive Old Age Security, live in Canada and have income under the limit, which is $23,112 a year for a single person (October to December 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "amount I am single, widowed or divorced less than $23,112 up to $1,138.90 I have a spouse/common-law partner"
+    },
+    {
+      "id": "c447bca851d4",
+      "value": "$1,138.90",
+      "context": "The single maximum is up to $1,138.90 a month for October to December 2026, and GIS is not taxable.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "single, divorced or widowed Less than $23,112 up to $1,138.90 I have a spouse or common-law partner who receives"
+    },
+    {
+      "id": "5dd3c9a3d8fe",
+      "value": "April 30",
+      "context": "File a tax return by April 30 every year, even with little income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_recv, HTTP 200)"
+      },
+      "needle": "Supplement payments, but you must file your taxes by April 30 every year to avoid any disruption of payments. Annual"
+    },
+    {
+      "id": "168e909c69f2",
+      "value": "65",
+      "context": "Someone 65 or older who receives the OAS pension, lives in Canada, is not under a sponsorship agreement, and has annual income below the limit for their situation.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "the Guaranteed Income Supplement (GIS), you must: Be 65 years old or older Receive the Old Age Security (OAS)"
+    },
+    {
+      "id": "7ca081152049",
+      "value": "October 1, 2025",
+      "context": "Since October 1, 2025, parent and grandparent sponsorships run 20 years instead of 10 in every province except Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "Declares personal bankruptcy Sponsorship rules (effective October 1, 2025) If you are under a sponsorship agreement, you cannot"
+    },
+    {
+      "id": "e27d37356f7c",
+      "value": "20",
+      "context": "Since October 1, 2025, parent and grandparent sponsorships run 20 years instead of 10 in every province except Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "sponsorship agreements have been extended from 10 to 20 years in all provinces except Quebec Immigrants who"
+    },
+    {
+      "id": "4b902f5c16bb",
+      "value": "10",
+      "context": "Since October 1, 2025, parent and grandparent sponsorships run 20 years instead of 10 in every province except Quebec.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "grandparent sponsorship agreements have been extended from 10 to 20 years in all provinces except Quebec Immigrants"
+    },
+    {
+      "id": "47ade0dc1d31",
+      "value": "$23,112",
+      "context": "Single, divorced or widowed $23,112 $1,138.90",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "must be I am single, divorced, or widowed. Less than $23,112 I have a spouse or common-law partner who receives"
+    },
+    {
+      "id": "61450dc1239b",
+      "value": "$1,138.90",
+      "context": "Single, divorced or widowed $23,112 $1,138.90",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "single, divorced or widowed Less than $23,112 up to $1,138.90 I have a spouse or common-law partner who receives"
+    },
+    {
+      "id": "07c02406b2a4",
+      "value": "$30,528",
+      "context": "Partner receives the full OAS pension $30,528 (combined) $685.56",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "partner who receives the full OAS pension. Less than $30,528 (combined annual income of couple) I have a spouse"
+    },
+    {
+      "id": "581a8fb658f2",
+      "value": "$685.56",
+      "context": "Partner receives the full OAS pension $30,528 (combined) $685.56",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "than $30,528 (combined annual income of couple) up to $685.56 I have a spouse/common-law partner who receives the"
+    },
+    {
+      "id": "c256e6683c39",
+      "value": "$42,768",
+      "context": "Partner receives the Allowance $42,768 (combined) $685.56",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "common-law partner who receives the Allowance. Less than $42,768 (combined annual income of couple) I have a spouse"
+    },
+    {
+      "id": "383ff70a21d2",
+      "value": "$685.56",
+      "context": "Partner receives the Allowance $42,768 (combined) $685.56",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "than $30,528 (combined annual income of couple) up to $685.56 I have a spouse/common-law partner who receives the"
+    },
+    {
+      "id": "8279367e42bc",
+      "value": "$55,392",
+      "context": "Partner receives neither OAS nor the Allowance $55,392 (combined) $1,138.90",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "common-law partner who does not receive OAS. Less than $55,392 (combined annual income of couple) What is included"
+    },
+    {
+      "id": "fe427ce639c5",
+      "value": "$1,138.90",
+      "context": "Partner receives neither OAS nor the Allowance $55,392 (combined) $1,138.90",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "single, divorced or widowed Less than $23,112 up to $1,138.90 I have a spouse or common-law partner who receives"
+    },
+    {
+      "id": "f249acd49989",
+      "value": "November 23, 2026",
+      "context": "Which GIS application fits your situation (Canada.ca, read November 23, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-23)"
+      }
+    },
+    {
+      "id": "db43370385d4",
+      "value": "18",
+      "context": "SIN and date of birth; your partner's SIN and date of birth; where you have lived since 18; any drop in employment or pension income in the last two years; income earned in another country by you or your partner; banking details for direct deposit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/apply.html",
+      "sourceName": "Government of Canada: Apply for the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_apply, HTTP 200)"
+      },
+      "needle": "birth) Information about where you have lived since age 18 Information about a reduction in employment or pension"
+    },
+    {
+      "id": "8cef2c0690f9",
+      "value": "14",
+      "context": "Canada.ca's after-you-apply page gives 14 days for an online decision and 120 days for one by mail.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/after-apply.html",
+      "sourceName": "Government of Canada: GIS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 14 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "70aaebc30948",
+      "value": "120",
+      "context": "Canada.ca's after-you-apply page gives 14 days for an online decision and 120 days for one by mail.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/after-apply.html",
+      "sourceName": "Government of Canada: GIS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 14 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "4e58d6ed98a6",
+      "value": "90",
+      "context": "An approval letter shows the monthly amount and first payment date, and you have 90 days from receiving a decision to ask for a reconsideration.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/after-apply.html",
+      "sourceName": "Government of Canada: GIS, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_after, HTTP 200)"
+      },
+      "needle": "application status. Ask to reconsider the decision You have 90 days from the date you receive your decision letter"
+    },
+    {
+      "id": "6cd4d9ec42f4",
+      "value": "April 30",
+      "context": "You must file by April 30 every year to avoid a gap in payments.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_recv, HTTP 200)"
+      },
+      "needle": "Supplement payments, but you must file your taxes by April 30 every year to avoid any disruption of payments. Annual"
+    },
+    {
+      "id": "235e9d71e9bc",
+      "value": "April 30, 2026",
+      "context": "2025 April 30, 2026 July 2026 to June 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "58c6287de490",
+      "value": "April 30, 2027",
+      "context": "2026 April 30, 2027 July 2027 to June 2028",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "51b03a1c593f",
+      "value": "April 30, 2028",
+      "context": "2027 April 30, 2028 July 2028 to June 2029",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a99702d19a5f",
+      "value": "66",
+      "context": "Illustration: Ruth retires at 66",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0564f1e07e79",
+      "value": "$23,112,",
+      "context": "If her income stays under $23,112, she can qualify; the amount depends on the estimate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/benefit-amount.html",
+      "sourceName": "Government of Canada: GIS benefit amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_amount, HTTP 200)"
+      },
+      "needle": "amount I am single, divorced or widowed Less than $23,112 up to $1,138.90 I have a spouse or common-law partner"
+    },
+    {
+      "id": "8edf3e784e5a",
+      "value": "65",
+      "context": "On combined income, and the partner under 65 may get the Allowance.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "you get the Old Age Security (OAS) pension you are 65 or older you are a Canadian citizen or a legal resident"
+    },
+    {
+      "id": "ee12f8d6433b",
+      "value": "60",
+      "context": "If you qualify for the GIS, your spouse or common-law partner aged 60 to 64 can receive the Allowance if they have lived in Canada at least 10 years since 18 and your combined income is under the limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "partner may also receive the Allowance if they: Are 60 to 64 years old Are a Canadian citizen or legal resident"
+    },
+    {
+      "id": "6c3c38ad9c8e",
+      "value": "64",
+      "context": "If you qualify for the GIS, your spouse or common-law partner aged 60 to 64 can receive the Allowance if they have lived in Canada at least 10 years since 18 and your combined income is under the limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "may also receive the Allowance if they: Are 60 to 64 years old Are a Canadian citizen or legal resident"
+    },
+    {
+      "id": "bcc916f35292",
+      "value": "10",
+      "context": "If you qualify for the GIS, your spouse or common-law partner aged 60 to 64 can receive the Allowance if they have lived in Canada at least 10 years since 18 and your combined income is under the limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "or legal resident Have lived in Canada for at least 10 years since age 18 Have a combined annual income below"
+    },
+    {
+      "id": "4d06a7127e3f",
+      "value": "18",
+      "context": "If you qualify for the GIS, your spouse or common-law partner aged 60 to 64 can receive the Allowance if they have lived in Canada at least 10 years since 18 and your combined income is under the limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "lived in Canada for at least 10 years since the age of 18, and you and your spouse or common-law partner's combined"
+    },
+    {
+      "id": "7f8ba5a7a235",
+      "value": "$1,448.06",
+      "context": "For October to December 2026 the Allowance pays up to $1,448.06 a month with combined income under $42,768.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "less than $42,768 (combined income of couple) up to $1,448.06 Allowance for the Survivor (60 to 64 years old) Your"
+    },
+    {
+      "id": "fb3c1b29eaf5",
+      "value": "$42,768",
+      "context": "For October to December 2026 the Allowance pays up to $1,448.06 a month with combined income under $42,768.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "common-law partner who receives the Allowance. Less than $42,768 (combined annual income of couple) I have a spouse"
+    },
+    {
+      "id": "75dea09d9218",
+      "value": "60",
+      "context": "Widowed at 60 to 64: the Allowance for the Survivor pays up to $1,726.18 a month with income under $31,152 (October to December 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_recv, HTTP 200)"
+      },
+      "needle": "survivor: A monthly payment for the surviving spouse aged 60 to 64 with low income Death benefit: A one-time payment"
+    },
+    {
+      "id": "3ec51bd0a51a",
+      "value": "64",
+      "context": "Widowed at 60 to 64: the Allowance for the Survivor pays up to $1,726.18 a month with income under $31,152 (October to December 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_recv, HTTP 200)"
+      },
+      "needle": "monthly payment for the surviving spouse aged 60 to 64 with low income Death benefit: A one-time payment"
+    },
+    {
+      "id": "a993ceff7662",
+      "value": "$1,726.18",
+      "context": "Widowed at 60 to 64: the Allowance for the Survivor pays up to $1,726.18 a month with income under $31,152 (October to December 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "spouse or common-law partner less than $31,152 up to $1,726.18 For combined Old Age Security pension and Guaranteed"
+    },
+    {
+      "id": "d77f246759b0",
+      "value": "$31,152",
+      "context": "Widowed at 60 to 64: the Allowance for the Survivor pays up to $1,726.18 a month with income under $31,152 (October to December 2026).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/payments.html",
+      "sourceName": "Government of Canada: OAS payments",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_pay, HTTP 200)"
+      },
+      "needle": "a surviving spouse or common-law partner less than $31,152 up to $1,726.18 For combined Old Age Security pension"
+    },
+    {
+      "id": "54357f61e06c",
+      "value": "67",
+      "context": "Ken, 67, gets OAS; his wife is 62.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c5636fb4ee9f",
+      "value": "62",
+      "context": "Ken, 67, gets OAS; his wife is 62.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "fa0c935502bc",
+      "value": "$42,768",
+      "context": "Their combined income puts them under $42,768.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "common-law partner who receives the Allowance. Less than $42,768 (combined annual income of couple) I have a spouse"
+    },
+    {
+      "id": "c7373a2f1adf",
+      "value": "65",
+      "context": "If she later turns 65 and starts her own OAS, the row of the table that applies to them changes, and so does the GIS limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/eligibility.html",
+      "sourceName": "Government of Canada: GIS eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_elig, HTTP 200)"
+      },
+      "needle": "the Guaranteed Income Supplement (GIS), you must: Be 65 years old or older Receive the Old Age Security (OAS)"
+    },
+    {
+      "id": "66e8777d04ed",
+      "value": "64",
+      "context": "Find out whether your letter at 64 confirmed automatic enrolment or asked you to apply.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/apply.html",
+      "sourceName": "Government of Canada: Apply for the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_apply, HTTP 200)"
+      },
+      "needle": "Didn't get a letter? If it's been one month since your 64th birthday and you still have not received an enrollment"
+    },
+    {
+      "id": "5e5cfffbc104",
+      "value": "April 30",
+      "context": "File your tax return by April 30 every year, and your partner too.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/while-receiving.html",
+      "sourceName": "Government of Canada: While receiving the GIS",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (gis_recv, HTTP 200)"
+      },
+      "needle": "Supplement payments, but you must file your taxes by April 30 every year to avoid any disruption of payments. Annual"
+    }
+  ]
+}

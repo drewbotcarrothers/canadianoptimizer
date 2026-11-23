@@ -1,0 +1,39 @@
+{
+  "slug": "rrsp-deadline-first-60-days",
+  "title": "RRSP Deadline for the 2026 Tax Year: How the First 60 Days Work",
+  "family": "year",
+  "category": "taxes",
+  "subcategory": "registered-accounts-tax",
+  "targetQuery": "rrsp deadline 2026 tax year",
+  "secondaryQueries": [
+    "rrsp first 60 days",
+    "rrsp deadline march 1 2027",
+    "schedule 7 contribution periods",
+    "can i contribute to rrsp in january for last year"
+  ],
+  "infoGain": "A dated calendar for the 2026 tax year (Schedule 7 contribution periods, the March 1, 2027 deadline, the HBP/LLP repayment window and the T1-OVP due date), a three-choice table for first-60-days contributions (deduct now, carry forward, or HBP/LLP repayment), the age-71 rule with an example, and a worked over-contribution penalty example.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-23",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "read rendered preview on 2026-11-23: opening answers that the 2026-tax-year deadline is March 1, 2027 and what first-60-days contributions can do; all 13 question headings open with a direct answer (e.g. \"March 1, 2027\", \"No. You can deduct it for the 2026 tax year, a later year, or split it\", \"There is no first-60-days grace for your own RRSP\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "no invented quotes or experience; deadline, Schedule 7 windows, age-71, HBP/LLP, excess-contribution and T1-OVP rules re-read on CRA pages and Guide T4040 2026-11-23; Dev and Anika are labelled illustrations and the over-contribution numbers are labelled our arithmetic; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

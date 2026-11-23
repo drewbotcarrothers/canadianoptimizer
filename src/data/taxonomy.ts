@@ -601,8 +601,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Use the comparison guide first if you are deciding where the next dollar goes. Then read the account you picked: the RRSP playbook, TFSA strategies, the FHSA guide, spousal RRSPs and the withdrawal-tax guide each explain one account in depth, with the limits for the year named and linked to the CRA.",
       "Over-contributions are the most expensive mistake in this hub, so the penalty guide shows how the monthly tax is calculated and how to fix it before it compounds.",
     ],
-    decisions: ["Should my next dollar go to an RRSP, TFSA or FHSA?", "How much contribution room do I have, and where do I find it?", "What tax do I pay when I withdraw?", "How do I fix an over-contribution before the penalty grows?"],
-    startHere: ["rrsp-vs-tfsa-vs-fhsa", "contribution-limits", "rrsp-playbook", "tfsa-strategies", "fhsa-guide"],
+    decisions: ["Should my next dollar go to an RRSP, TFSA or FHSA?", "How much contribution room do I have, and where do I find it?", "Can a January or February contribution count for last year?", "What tax do I pay when I withdraw?", "How do I fix an over-contribution before the penalty grows?"],
+    startHere: ["rrsp-vs-tfsa-vs-fhsa", "contribution-limits", "rrsp-deduction-limit-explained", "rrsp-deadline-first-60-days", "rrsp-playbook", "tfsa-strategies", "fhsa-guide"],
   },
   "taxes/investment-tax": {
     intro: [
@@ -979,8 +979,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with how much CPP you'll get and OAS eligibility and deferral, then the stacking guides that show how other income affects OAS and GIS. Amounts and thresholds link to Canada.ca for the period named, because OAS and GIS amounts are adjusted during the year.",
       "When to start CPP and OAS is a retirement strategy question; see the CPP and OAS timing hub in Retirement.",
     ],
-    decisions: ["How much CPP will I get?", "Am I eligible for OAS, and should I defer it?", "Do I qualify for GIS?", "How does my other income affect these benefits?"],
-    startHere: ["how-much-cpp-will-i-get", "oas-eligibility-deferral-canada", "cpp-timing-benefits-stacking-canada", "oas-gis-income-stacking-canada"],
+    decisions: ["How much CPP will I get?", "How and when do I apply for CPP, OAS and GIS?", "Am I eligible for OAS, and should I defer it?", "Do I qualify for GIS?", "How does my other income affect these benefits?"],
+    startHere: ["how-much-cpp-will-i-get", "how-to-apply-for-cpp", "oas-eligibility-deferral-canada", "how-to-apply-for-oas", "how-to-apply-for-gis", "cpp-timing-benefits-stacking-canada", "oas-gis-income-stacking-canada"],
   },
   "government-benefits/disability": {
     intro: [

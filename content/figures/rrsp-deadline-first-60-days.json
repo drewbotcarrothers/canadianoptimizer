@@ -1,0 +1,1547 @@
+{
+  "slug": "rrsp-deadline-first-60-days",
+  "publishDate": "2026-11-23",
+  "figures": [
+    {
+      "id": "920c562069cf",
+      "value": "60",
+      "context": "The rules are more flexible than that, and stricter in one place most people miss: the paperwork for the first 60 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSP or SPP in the year of death or during the first 60 days after the end of that year. Contributions made"
+    },
+    {
+      "id": "37fed4bec994",
+      "value": "March 1, 2027",
+      "context": "The RRSP contribution deadline for the 2026 tax year is March 1, 2027, according to the CRA's Guide T4040.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "f7e27af7a4b9",
+      "value": "January 1",
+      "context": "A contribution made from January 1 to March 1, 2027 can be deducted on your 2026 return, or saved for a later year, but it must be reported on Schedule 7 if you do not deduct it all.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "0c9e6769cdad",
+      "value": "March 1, 2027",
+      "context": "A contribution made from January 1 to March 1, 2027 can be deducted on your 2026 return, or saved for a later year, but it must be reported on Schedule 7 if you do not deduct it all.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "dd19c100c83b",
+      "value": "March 1, 2027",
+      "context": "Deadline for the 2026 tax year: March 1, 2027 , the 60th day of 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "b3de9d827495",
+      "value": "March 3, 2026",
+      "context": "Not deducting everything you put in from March 3, 2026 to March 1, 2027?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "2026 in respect of contributions that you made before March 3, 2026, but had not previously deducted, you should have"
+    },
+    {
+      "id": "45f3f5f68605",
+      "value": "March 1, 2027",
+      "context": "Not deducting everything you put in from March 3, 2026 to March 1, 2027?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "common\u2011law partner's RRSP or SPP from March 3, 2026, to March 1, 2027, and you are not deducting the total contributions"
+    },
+    {
+      "id": "cf5d78eac26b",
+      "value": "71",
+      "context": "The year you turn 71 has no first 60 days for your own RRSP: the last day is December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "7de80ed0377c",
+      "value": "60",
+      "context": "The year you turn 71 has no first 60 days for your own RRSP: the last day is December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSP or SPP in the year of death or during the first 60 days after the end of that year. Contributions made"
+    },
+    {
+      "id": "10b67894bccf",
+      "value": "December 31",
+      "context": "The year you turn 71 has no first 60 days for your own RRSP: the last day is December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "you can contribute to your RRSP, PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have"
+    },
+    {
+      "id": "785da6a24d19",
+      "value": "March 1, 2027",
+      "context": "March 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "1550614acc1b",
+      "value": "March 1, 2027",
+      "context": "Guide T4040 states it directly, and the CRA's RRSP deduction limit page says contributions made up to March 1, 2027 qualify for a deduction on the 2026 return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "6f45ee1dd7bc",
+      "value": "31",
+      "context": "It is the 60th day of 2027: 31 days of January plus 28 of February is 59, so day 60 is March 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "ff8faa8d2a56",
+      "value": "28",
+      "context": "It is the 60th day of 2027: 31 days of January plus 28 of February is 59, so day 60 is March 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "960bc56c5495",
+      "value": "59",
+      "context": "It is the 60th day of 2027: 31 days of January plus 28 of February is 59, so day 60 is March 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "3946f9911d5b",
+      "value": "60",
+      "context": "It is the 60th day of 2027: 31 days of January plus 28 of February is 59, so day 60 is March 1.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "records. In this case, contributions from the first 60 days of the year will be treated as made in January,"
+    },
+    {
+      "id": "7f6783acdb66",
+      "value": "March 1",
+      "context": "It is the 60th day of 2027: 31 days of January plus 28 of February is 59, so day 60 is March 1.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "d8ebc7d58199",
+      "value": "November 23, 2026",
+      "context": "The RRSP calendar around the 2026 tax year (CRA Guide T4040 and RRSP pages, read November 23, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-23)"
+      }
+    },
+    {
+      "id": "9d1af106988e",
+      "value": "March 4, 2025",
+      "context": "March 4, 2025 to March 2, 2026 The Schedule 7 reporting window for the 2025 return",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "unused RRSP, PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed"
+    },
+    {
+      "id": "1ff9781d6be2",
+      "value": "March 2, 2026",
+      "context": "March 4, 2025 to March 2, 2026 The Schedule 7 reporting window for the 2025 return",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed Schedule 7 with"
+    },
+    {
+      "id": "94561120c281",
+      "value": "March 3, 2026",
+      "context": "March 3, 2026 to March 1, 2027 The Schedule 7 reporting window for the 2026 return",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "spouse's or common\u2011law partner's RRSP or SPP from March 3, 2026, to March 1, 2027, and you are not deducting the total"
+    },
+    {
+      "id": "f01031361d0a",
+      "value": "March 1, 2027",
+      "context": "March 3, 2026 to March 1, 2027 The Schedule 7 reporting window for the 2026 return",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "common\u2011law partner's RRSP or SPP from March 3, 2026, to March 1, 2027, and you are not deducting the total contributions"
+    },
+    {
+      "id": "f6e93267cbd1",
+      "value": "January 1, 2026",
+      "context": "January 1, 2026 to March 1, 2027 Contributions to your own RRSP you can designate as 2026 HBP or LLP repayments",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "contributions you made to your own RRSP, PRPP, or SPP from January 1, 2026, to March 1, 2027, as a repayment on line 7 or 8 of"
+    },
+    {
+      "id": "a61ffec15091",
+      "value": "March 1, 2027",
+      "context": "January 1, 2026 to March 1, 2027 Contributions to your own RRSP you can designate as 2026 HBP or LLP repayments",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "your own RRSP, PRPP, or SPP from January 1, 2026, to March 1, 2027, as a repayment on line 7 or 8 of Schedule 7. You"
+    },
+    {
+      "id": "8b8877b76abd",
+      "value": "March 1, 2027",
+      "context": "March 1, 2027 Last day to contribute for a 2026 deduction",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "95fac3aa5ac3",
+      "value": "March 31, 2027",
+      "context": "March 31, 2027 Due date for a T1-OVP return on 2026 excess contributions (90 days after year-end)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "fff963f468a6",
+      "value": "90",
+      "context": "March 31, 2027 Due date for a T1-OVP return on 2026 excess contributions (90 days after year-end)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "return on time. The due date for filing the T1-OVP is 90 days after the end of the calendar year. The penalty"
+    },
+    {
+      "id": "2acbd52bf3d6",
+      "value": "March 1, 2027",
+      "context": "What this page adds: one dated calendar for the 2026 tax year that lines up the March 1, 2027 deadline with the two Schedule 7 reporting windows (March 4, 2025 to March 2, 2026, and March 3, 2026 to March 1, 2027), the HBP and LLP repayment window and the March 31, 2027 T1-OVP date, plus a decision table for the three ways to use a first-60-days contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "all contributions you made from March 3, 2026, to March 1, 2027, even if you are not deducting or designating them"
+    },
+    {
+      "id": "55cc46c836a3",
+      "value": "March 4, 2025",
+      "context": "What this page adds: one dated calendar for the 2026 tax year that lines up the March 1, 2027 deadline with the two Schedule 7 reporting windows (March 4, 2025 to March 2, 2026, and March 3, 2026 to March 1, 2027), the HBP and LLP repayment window and the March 31, 2027 T1-OVP date, plus a decision table for the three ways to use a first-60-days contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "unused RRSP, PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed"
+    },
+    {
+      "id": "c952e52cbbc5",
+      "value": "March 2, 2026",
+      "context": "What this page adds: one dated calendar for the 2026 tax year that lines up the March 1, 2027 deadline with the two Schedule 7 reporting windows (March 4, 2025 to March 2, 2026, and March 3, 2026 to March 1, 2027), the HBP and LLP repayment window and the March 31, 2027 T1-OVP date, plus a decision table for the three ways to use a first-60-days contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed Schedule 7 with"
+    },
+    {
+      "id": "2fe15ac7ac6b",
+      "value": "March 3, 2026",
+      "context": "What this page adds: one dated calendar for the 2026 tax year that lines up the March 1, 2027 deadline with the two Schedule 7 reporting windows (March 4, 2025 to March 2, 2026, and March 3, 2026 to March 1, 2027), the HBP and LLP repayment window and the March 31, 2027 T1-OVP date, plus a decision table for the three ways to use a first-60-days contribution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Include on these lines all contributions you made from March 3, 2026, to March 1, 2027, even if you are not deducting or"
+    },
+    {
+      "id": "cf6a8978ea54",
+      "value": "March 31, 2027",
+      "context": "What this page adds: one dated calendar for the 2026 tax year that lines up the March 1, 2027 deadline with the two Schedule 7 reporting windows (March 4, 2025 to March 2, 2026, and March 3, 2026 to March 1, 2027), the HBP and LLP repayment window and the March 31, 2027 T1-OVP date, plus a decision table for the three ways to use a first-60-days contribution.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "117fe6758676",
+      "value": "January 1",
+      "context": "Three ways to use an RRSP contribution made January 1 to March 1, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "979d07c7360b",
+      "value": "March 1, 2027",
+      "context": "Three ways to use an RRSP contribution made January 1 to March 1, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "af98c361cca6",
+      "value": "$10,000",
+      "context": "Dev (a labelled example) contributes $10,000 on February 12, 2027.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b7888e3d7713",
+      "value": "February 12, 2027",
+      "context": "Dev (a labelled example) contributes $10,000 on February 12, 2027.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "35f4508de53f",
+      "value": "$10,000",
+      "context": "He reports the full $10,000 on Schedule 7 for 2026, deducts $4,000 there and carries $6,000 to his 2027 return.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "1ee48125a4aa",
+      "value": "$4,000",
+      "context": "He reports the full $10,000 on Schedule 7 for 2026, deducts $4,000 there and carries $6,000 to his 2027 return.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ebe1c1235e05",
+      "value": "$6,000",
+      "context": "He reports the full $10,000 on Schedule 7 for 2026, deducts $4,000 there and carries $6,000 to his 2027 return.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "f0c9b4a6c0d1",
+      "value": "March 1",
+      "context": "And because room carries forward indefinitely, missing March 1 does not lose room: you simply deduct the contribution on the next year's return.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "4dac722ef710",
+      "value": "60",
+      "context": "Why does Schedule 7 matter for the first 60 days?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "or disallowed for contributions made in the first 60 days of the year or in an earlier year. If you have"
+    },
+    {
+      "id": "4297ac37cedb",
+      "value": "March 3, 2026",
+      "context": "The CRA's unused contributions page and the T4040 say to list on Schedule 7 every contribution made from March 3, 2026 to March 1, 2027 that you are not deducting on your 2026 return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "spouse's or common\u2011law partner's RRSP or SPP from March 3, 2026, to March 1, 2027, and you are not deducting the total"
+    },
+    {
+      "id": "4338e65f7c39",
+      "value": "March 1, 2027",
+      "context": "The CRA's unused contributions page and the T4040 say to list on Schedule 7 every contribution made from March 3, 2026 to March 1, 2027 that you are not deducting on your 2026 return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "common\u2011law partner's RRSP or SPP from March 3, 2026, to March 1, 2027, and you are not deducting the total contributions"
+    },
+    {
+      "id": "c3c995febf03",
+      "value": "March 4, 2025",
+      "context": "Missed the 2025 Schedule 7 for contributions made March 4, 2025 to March 2, 2026?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "unused RRSP, PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed"
+    },
+    {
+      "id": "7fb87795bbd9",
+      "value": "March 2, 2026",
+      "context": "Missed the 2025 Schedule 7 for contributions made March 4, 2025 to March 2, 2026?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP contributions made from March 4, 2025, to March 2, 2026, you should have sent a completed Schedule 7 with"
+    },
+    {
+      "id": "a15503e5733d",
+      "value": "March 1, 2027",
+      "context": "How much can you contribute by March 1, 2027?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "02b7f3bff7bf",
+      "value": "$2,000",
+      "context": "Up to your 2026 RRSP deduction limit, printed on your latest notice of assessment, plus a $2,000 cushion that only limits the penalty, not the deduction.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "or Form T1028, Your RRSP Information for 2026, plus $2,000. Also, you can only qualify for the additional $2,000"
+    },
+    {
+      "id": "8e9953558bbd",
+      "value": "18%",
+      "context": "The CRA's formula is unused room from earlier years plus the lesser of 18% of your previous year's earned income and the annual limit, minus your pension adjustment, with a few further adjustments.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "8fe9e79c5f58",
+      "value": "November 23, 2026",
+      "context": "Annual RRSP dollar limits (CRA limits table, read November 23, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-23)"
+      }
+    },
+    {
+      "id": "e7a239cbc534",
+      "value": "$33,810",
+      "context": "2026 $33,810 2025",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "$35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810 $17,695 $74,600 $85,000 2025 $33,810 $3,756.67 $32,490"
+    },
+    {
+      "id": "af394288a028",
+      "value": "$35,390",
+      "context": "2027 $35,390 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "770efa31d372",
+      "value": "71",
+      "context": "What changes the year you turn 71?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "SPP until December 31st of the year that they turn 71 years of age. What is the deadline to contribute to"
+    },
+    {
+      "id": "ab776803f457",
+      "value": "71",
+      "context": "The T4040 says the year you turn 71 is the last year you can contribute to your RRSP, and an RRSP must mature by the end of that year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "ca9a0ab434d8",
+      "value": "71",
+      "context": "So if you turn 71 in 2026, your last contribution to your own plan is December 31, 2026, not March 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "efffb5e41937",
+      "value": "December 31, 2026",
+      "context": "So if you turn 71 in 2026, your last contribution to your own plan is December 31, 2026, not March 1, 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "0e83a251867c",
+      "value": "March 1, 2027",
+      "context": "So if you turn 71 in 2026, your last contribution to your own plan is December 31, 2026, not March 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "7c48cce0bc24",
+      "value": "71",
+      "context": "Two ways around it, both from the same guide: you can contribute to a spousal or common-law partner's RRSP until the end of the year they turn 71, and you can still deduct earlier unused contributions up to your deduction limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "SPP until December 31st of the year that they turn 71 years of age. What is the deadline to contribute to"
+    },
+    {
+      "id": "2ad74262b2b2",
+      "value": "71",
+      "context": "Illustration: Anika turns 71 in 2026",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "93a03e6d6ebe",
+      "value": "71",
+      "context": "Anika (a labelled example) turns 71 in June 2026 and her husband is 66.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "fe60f3f6fb76",
+      "value": "66",
+      "context": "Anika (a labelled example) turns 71 in June 2026 and her husband is 66.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6367915619ef",
+      "value": "December 31, 2026",
+      "context": "She must contribute to her own RRSP by December 31, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "fdfb9c5b2f60",
+      "value": "60",
+      "context": "Which other deadlines sit inside the first 60 days?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSP or SPP in the year of death or during the first 60 days after the end of that year. Contributions made"
+    },
+    {
+      "id": "c27c37d78116",
+      "value": "March 1, 2027",
+      "context": "Repayments and transfers use the same March 1, 2027 date, with their own rules from the T4040.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "2027 contributed to your PRPP from March 3, 2026, to March 1, 2027 (do not include your employer's PRPP contributions)"
+    },
+    {
+      "id": "0c41a530c3b0",
+      "value": "January 1, 2026",
+      "context": "Home Buyers' Plan and Lifelong Learning Plan: to make a 2026 repayment, designate contributions to your own RRSP made January 1, 2026 to March 1, 2027 on Schedule 7.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "contributions you made to your own RRSP, PRPP, or SPP from January 1, 2026, to March 1, 2027, as a repayment on line 7 or 8 of"
+    },
+    {
+      "id": "b80c7668c214",
+      "value": "March 1, 2027",
+      "context": "Home Buyers' Plan and Lifelong Learning Plan: to make a 2026 repayment, designate contributions to your own RRSP made January 1, 2026 to March 1, 2027 on Schedule 7.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "your own RRSP, PRPP, or SPP from January 1, 2026, to March 1, 2027, as a repayment on line 7 or 8 of Schedule 7. You"
+    },
+    {
+      "id": "86fc7e77d1e4",
+      "value": "12900",
+      "context": "Transfers of certain income: some amounts reported on lines 11500, 12900 or 13000 of your 2026 return can be transferred to your RRSP on or before March 1, 2027 and deducted on top of your limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Transfers You may have reported income on line 11500, 12900, or 13000 of your income tax and benefit return for"
+    },
+    {
+      "id": "7d8f305624c1",
+      "value": "13000",
+      "context": "Transfers of certain income: some amounts reported on lines 11500, 12900 or 13000 of your 2026 return can be transferred to your RRSP on or before March 1, 2027 and deducted on top of your limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "may have reported income on line 11500, 12900, or 13000 of your income tax and benefit return for 2026. If"
+    },
+    {
+      "id": "7ead7d95de4d",
+      "value": "March 1, 2027",
+      "context": "Transfers of certain income: some amounts reported on lines 11500, 12900 or 13000 of your 2026 return can be transferred to your RRSP on or before March 1, 2027 and deducted on top of your limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "types of this income to your own RRSP on or before March 1, 2027, you could deduct this contribution, called a transfer,"
+    },
+    {
+      "id": "f9c0f81a91c6",
+      "value": "60",
+      "context": "After a death: no one can contribute to a deceased person's RRSP, but the legal representative can contribute to the surviving spouse's RRSP in the year of death or the first 60 days after the end of that year, and claim it on the deceased's final return up to their limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSP or SPP in the year of death or during the first 60 days after the end of that year. Contributions made"
+    },
+    {
+      "id": "e5b7b0525625",
+      "value": "1%",
+      "context": "You pay 1% a month on the part above your deduction limit plus $2,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "time in 2026. Generally, you have to pay a tax of 1% per month on your unused contributions that exceed"
+    },
+    {
+      "id": "dbd66d274b04",
+      "value": "$2,000",
+      "context": "You pay 1% a month on the part above your deduction limit plus $2,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "more than your RRSP deduction limit for the year plus $2,000. If you have RRSP excess contributions, you may have"
+    },
+    {
+      "id": "5d8d1848a52c",
+      "value": "90",
+      "context": "The CRA's excess contributions page says you file a T1-OVP and pay within 90 days of the end of the year, and the $2,000 cushion only applies if you were 18 or older in the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "completed T1-OVP return and pay the tax no later than 90 days after the end of the year in which you had the"
+    },
+    {
+      "id": "17214048441e",
+      "value": "$2,000",
+      "context": "The CRA's excess contributions page says you file a T1-OVP and pay within 90 days of the end of the year, and the $2,000 cushion only applies if you were 18 or older in the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "$2,000. Also, you can only qualify for the additional $2,000 amount if you were 18 or older at any time in 2026."
+    },
+    {
+      "id": "d4cb1e1ade18",
+      "value": "18",
+      "context": "The CRA's excess contributions page says you file a T1-OVP and pay within 90 days of the end of the year, and the $2,000 cushion only applies if you were 18 or older in the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "qualify for the additional $2,000 amount if you were 18 or older at any time in 2025. Generally, you have"
+    },
+    {
+      "id": "37fa9ae6a5d1",
+      "value": "$10,000",
+      "context": "Deduction limit (illustration) $10,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "432abd085bc3",
+      "value": "$15,000",
+      "context": "Contributed by mistake (illustration) $15,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "15d3d104aa1a",
+      "value": "$5,000",
+      "context": "Over the limit $5,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "ea24377eee58",
+      "value": "$2,000",
+      "context": "Over the limit plus the $2,000 cushion (taxable excess) $3,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "or Form T1028, Your RRSP Information for 2026, plus $2,000. Also, you can only qualify for the additional $2,000"
+    },
+    {
+      "id": "3e229e1da072",
+      "value": "$3,000",
+      "context": "Over the limit plus the $2,000 cushion (taxable excess) $3,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a9b5d541c9ae",
+      "value": "1%",
+      "context": "Tax at 1% a month $30 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "time in 2026. Generally, you have to pay a tax of 1% per month on your unused contributions that exceed"
+    },
+    {
+      "id": "895fd971d499",
+      "value": "$30",
+      "context": "Tax at 1% a month $30 a month",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "6b64b35a240e",
+      "value": "$180",
+      "context": "Left for 6 months, that is $180 (our arithmetic).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "0f5c49639717",
+      "value": "5%",
+      "context": "If you do not file the T1-OVP on time, a late-filing penalty of 5% of the balance plus 1% a month applies.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "will charge you a late-filing penalty. The penalty is 5% of your balance owing, plus 1% of your balance owing"
+    },
+    {
+      "id": "4ed5d75755dd",
+      "value": "1%",
+      "context": "If you do not file the T1-OVP on time, a late-filing penalty of 5% of the balance plus 1% a month applies.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "year. The penalty is: 5% of your balance owing plus 1% of your balance owing for each month that your T1-OVP"
+    },
+    {
+      "id": "330d01e9d25c",
+      "value": "March 31",
+      "context": "The CRA's important dates page puts the T1-OVP due date at March 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html",
+      "sourceName": "CRA: Important dates for individuals",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (dates, HTTP 200)"
+      },
+      "needle": "RRSP, PRPP, and SPP excess contributions on or before March 31 Balance owing due date for a deceased person's final"
+    },
+    {
+      "id": "7781f67b24f5",
+      "value": "March 1, 2027",
+      "context": "March 1, 2027, according to the CRA's Guide T4040.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "f277e2db496a",
+      "value": "March 1, 2027",
+      "context": "The contribution deadline is March 1, 2027; the T1-OVP for excess contributions is due March 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "e3a381c69d48",
+      "value": "March 31",
+      "context": "The contribution deadline is March 1, 2027; the T1-OVP for excess contributions is due March 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html",
+      "sourceName": "CRA: Important dates for individuals",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (dates, HTTP 200)"
+      },
+      "needle": "RRSP, PRPP, and SPP excess contributions on or before March 31 Balance owing due date for a deceased person's final"
+    },
+    {
+      "id": "9aeed4676908",
+      "value": "71",
+      "context": "Can I contribute to a spousal RRSP after I turn 71?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    },
+    {
+      "id": "cd07270a95c2",
+      "value": "71",
+      "context": "Yes, until the end of the year your spouse or common-law partner turns 71, using your own deduction limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "PRPP, or SPP: until December 31st of the year you turn 71 years of age when you have an available RRSP deduction"
+    }
+  ]
+}

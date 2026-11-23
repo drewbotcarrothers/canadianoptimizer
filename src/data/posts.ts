@@ -22,6 +22,7 @@ import { batch20261119Posts } from './nov2026/batch-2026-11-19';
 import { batch20261120Posts } from './nov2026/batch-2026-11-20';
 import { batch20261121Posts } from './nov2026/batch-2026-11-21';
 import { batch20261122Posts } from './nov2026/batch-2026-11-22';
+import { batch20261123Posts } from './nov2026/batch-2026-11-23';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -7110,6 +7111,8 @@ const allPosts: BlogPostRecord[] = [
             <p>Download our free RRSP Planning Worksheet — a step-by-step guide to calculating your contribution room, estimating your tax refund, and coordinating with your spouse's retirement savings.</p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Download Free Worksheet →</a>
         </div>
+
+    <p><strong>Related:</strong> <a href="/blog/rrsp-deduction-limit-explained/">RRSP deduction limit explained: how the CRA works out your room</a> &middot; <a href="/blog/rrsp-deadline-first-60-days/">RRSP deadline for the 2026 tax year: how the first 60 days work</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute financial, tax, or legal advice. RRSP rules, contribution limits, and tax rates change periodically. Consult a qualified tax professional or financial advisor before making investment decisions. The examples and calculations shown are illustrative and based on 2026 tax rates and rules.</p>
@@ -15794,6 +15797,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
 
+    <p><strong>Related:</strong> <a href="/blog/rrsp-deduction-limit-explained/">RRSP deduction limit explained: how the CRA works out your room</a> &middot; <a href="/blog/rrsp-deadline-first-60-days/">RRSP deadline for the 2026 tax year: how the first 60 days work</a></p>
+
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
 <a href="/blog/rrsp-playbook/">RRSP Playbook</a> |
@@ -23970,6 +23975,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-to-apply-for-gis/">How to apply for the GIS and keep it coming every July</a> &middot; <a href="/blog/how-to-apply-for-cpp/">How to apply for CPP: steps, documents and when to submit</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Canadian seniors' benefits read household income. It is not tax, legal, or financial advice and not a recommendation to withdraw from any account. OAS recovery thresholds, GIS tables, earnings exemptions, and line numbers change. No current payment amount is stated here. Confirm figures on Canada.ca and in CRA My Account, and have a planner model your marital status before you move income between spouses.</p>
         <div class="footer-note">Published: September 17, 2026 | Category: Government Benefits | Author: Andrew</div>
@@ -26990,6 +26997,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261120Posts,
   ...batch20261121Posts,
   ...batch20261122Posts,
+  ...batch20261123Posts,
 
 ];
 

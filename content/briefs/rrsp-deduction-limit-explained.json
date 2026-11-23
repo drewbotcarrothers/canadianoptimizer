@@ -1,0 +1,39 @@
+{
+  "slug": "rrsp-deduction-limit-explained",
+  "title": "RRSP Deduction Limit Explained: How the CRA Works Out Your Room",
+  "family": "forms",
+  "category": "taxes",
+  "subcategory": "registered-accounts-tax",
+  "targetQuery": "rrsp deduction limit explained",
+  "secondaryQueries": [
+    "how is rrsp room calculated",
+    "rrsp deduction limit vs contribution limit",
+    "pension adjustment rrsp room",
+    "where to find rrsp deduction limit"
+  ],
+  "infoGain": "The CRA's T4040 Chart 3 walked through in six steps with the box numbers that feed it (T4 box 52, T4A box 034, T10 box 2, T215/T1004), the income at which the 2026 and 2027 dollar caps bite ($187,833.33 and $196,611.11), a room-by-income table and a worked example with a pension adjustment and unused room.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-23",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "read rendered preview on 2026-11-23: opening answers with the formula (unused room + lesser of 18% of earned income and the dollar limit - PA - PSPA + PAR); all 14 question headings open with a direct answer (e.g. \"With a six-step formula\", \"It lowers it through the pension adjustment\", \"No. Room accumulated after 1990 carries forward indefinitely\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "no invented quotes or experience; formula, slip boxes, earned-income items, limits and excess rules re-read on CRA pages, the limits table and T4040 Chart 3 on 2026-11-23; the room table and Priya are labelled illustrations / our arithmetic; \"I\" appears only in one reader-voice FAQ question"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}
