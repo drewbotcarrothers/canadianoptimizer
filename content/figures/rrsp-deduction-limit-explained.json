@@ -1,0 +1,1366 @@
+{
+  "slug": "rrsp-deduction-limit-explained",
+  "publishDate": "2026-11-23",
+  "figures": [
+    {
+      "id": "b265764d1452",
+      "value": "18%",
+      "context": "Your RRSP deduction limit is unused room carried forward, plus the lesser of 18% of last year's earned income and the annual dollar limit, minus your pension adjustment, plus any pension adjustment reversal, minus any net past service adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "8c4725189089",
+      "value": "$33,810",
+      "context": "The CRA sets the 2026 dollar limit at $33,810 and the 2027 limit at $35,390.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "$35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810 $17,695 $74,600 $85,000 2025 $33,810 $3,756.67 $32,490"
+    },
+    {
+      "id": "74da285f0140",
+      "value": "$35,390",
+      "context": "The CRA sets the 2026 dollar limit at $33,810 and the 2027 limit at $35,390.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "30cf67e0fce3",
+      "value": "18%",
+      "context": "New room each year is 18% of the previous year's earned income, capped at the dollar limit, less your pension adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "f6c0a4b12ec3",
+      "value": "$187,833.33",
+      "context": "The cap starts to bind at $187,833.33 of 2025 earned income for 2026, and $196,611.11 of 2026 earned income for 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "91ef4c136fd9",
+      "value": "$196,611.11",
+      "context": "The cap starts to bind at $187,833.33 of 2025 earned income for 2026, and $196,611.11 of 2026 earned income for 2027.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "3c273aefa947",
+      "value": "$2,000",
+      "context": "Going more than $2,000 over the limit costs 1% a month on the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "that exceed your RRSP deduction limit by more than $2,000. Your notice of assessment or notice of reassessment"
+    },
+    {
+      "id": "7cc8d8189aca",
+      "value": "1%",
+      "context": "Going more than $2,000 over the limit costs 1% a month on the excess.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "time in 2026. Generally, you have to pay a tax of 1% per month on your unused contributions that exceed"
+    },
+    {
+      "id": "240d758bd160",
+      "value": "18%",
+      "context": "3 18% of it, or $33,810, whichever is less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "30. Enter the amount from line 29 $ ___________ x 18% \u25ba = $ _________ 30 31. RRSP dollar limit for 2026"
+    },
+    {
+      "id": "718d159109ae",
+      "value": "$33,810,",
+      "context": "3 18% of it, or $33,810, whichever is less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "$35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810 $17,695 $74,600 $85,000 2025 $33,810 $3,756.67 $32,490"
+    },
+    {
+      "id": "a86a8e4cd1f0",
+      "value": "52",
+      "context": "From box 52 of your T4 slips and box 034 of your T4A slips.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Chart 3e 33. Enter your 2025 PA (the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A"
+    },
+    {
+      "id": "887d27065aa5",
+      "value": "034",
+      "context": "From box 52 of your T4 slips and box 034 of your T4A slips.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "(the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A slips) Footnote 6 \u2013 $ _________ 33"
+    },
+    {
+      "id": "e1e60aa4ebfa",
+      "value": "$35,390",
+      "context": "The same steps, one year later and with the $35,390 dollar limit, give the 2027 limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "d2a3689cf4a2",
+      "value": "10400",
+      "context": "Chart 3 adds employment income (lines 10100 and 10400), net income from a business you run, net rental income (line 12600), CPP or QPP disability payments, taxable support payments received and a few other items.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "that you received in the course of employment (line 10400) $ _________ 6 7. Net research grants you received"
+    },
+    {
+      "id": "09140e6d2325",
+      "value": "18%",
+      "context": "18% of your 2026 earned income, up to $35,390, minus any pension adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "30. Enter the amount from line 29 $ ___________ x 18% \u25ba = $ _________ 30 31. RRSP dollar limit for 2026"
+    },
+    {
+      "id": "13e3e7f06e3a",
+      "value": "$35,390,",
+      "context": "18% of your 2026 earned income, up to $35,390, minus any pension adjustment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "3764af76e4da",
+      "value": "$35,390",
+      "context": "New 2027 RRSP room by 2026 earned income, no pension adjustment (our arithmetic from the CRA formula and the $35,390 limit)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "d9a9d365121a",
+      "value": "18%",
+      "context": "2026 earned income 18% of earned income New 2027 room",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "50c3a3be7c6f",
+      "value": "$40,000",
+      "context": "$40,000 $7,200 $7,200",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b4e1302f6aa8",
+      "value": "$7,200",
+      "context": "$40,000 $7,200 $7,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "e53c646288fb",
+      "value": "$60,000",
+      "context": "$60,000 $10,800 $10,800",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "67bdec88deac",
+      "value": "$10,800",
+      "context": "$60,000 $10,800 $10,800",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "b8124a96fedf",
+      "value": "$80,000",
+      "context": "$80,000 $14,400 $14,400",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6dfe2d0d0679",
+      "value": "$14,400",
+      "context": "$80,000 $14,400 $14,400",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "7dee44c050e1",
+      "value": "$100,000",
+      "context": "$100,000 $18,000 $18,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2c00235c7368",
+      "value": "$18,000",
+      "context": "$100,000 $18,000 $18,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "8ca4830fe111",
+      "value": "$150,000",
+      "context": "$150,000 $27,000 $27,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a8da445297d7",
+      "value": "$27,000",
+      "context": "$150,000 $27,000 $27,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "5c2544a634af",
+      "value": "$200,000",
+      "context": "$200,000 $36,000 $35,390 (capped)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "5692239c47c9",
+      "value": "$36,000",
+      "context": "$200,000 $36,000 $35,390 (capped)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "8490738618fd",
+      "value": "$35,390",
+      "context": "$200,000 $36,000 $35,390 (capped)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "4167ebaadffd",
+      "value": "18%",
+      "context": "Where the cap starts: dividing each year's dollar limit by 18% gives the earned income at which more income stops adding room: $187,833.33 of 2025 earned income for the 2026 limit of $33,810, and $196,611.11 of 2026 earned income for the 2027 limit of $35,390.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "fb93e7455837",
+      "value": "$187,833.33",
+      "context": "Where the cap starts: dividing each year's dollar limit by 18% gives the earned income at which more income stops adding room: $187,833.33 of 2025 earned income for the 2026 limit of $33,810, and $196,611.11 of 2026 earned income for the 2027 limit of $35,390.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "8bec49b6941f",
+      "value": "$33,810,",
+      "context": "Where the cap starts: dividing each year's dollar limit by 18% gives the earned income at which more income stops adding room: $187,833.33 of 2025 earned income for the 2026 limit of $33,810, and $196,611.11 of 2026 earned income for the 2027 limit of $35,390.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "the annual RRSP limit (for 2026, the annual limit is $33,810) That exceeds one of the following items: your pension"
+    },
+    {
+      "id": "861e3ca3711f",
+      "value": "$196,611.11",
+      "context": "Where the cap starts: dividing each year's dollar limit by 18% gives the earned income at which more income stops adding room: $187,833.33 of 2025 earned income for the 2026 limit of $33,810, and $196,611.11 of 2026 earned income for the 2027 limit of $35,390.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "d7196604470f",
+      "value": "$35,390",
+      "context": "Where the cap starts: dividing each year's dollar limit by 18% gives the earned income at which more income stops adding room: $187,833.33 of 2025 earned income for the 2026 limit of $33,810, and $196,611.11 of 2026 earned income for the 2027 limit of $35,390.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "1e272c444cf3",
+      "value": "$1,000",
+      "context": "Below those incomes, every extra $1,000 earned adds $180 of room, before any pension adjustment.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "eafd3b845a37",
+      "value": "$180",
+      "context": "Below those incomes, every extra $1,000 earned adds $180 of room, before any pension adjustment.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a2fea63b25a1",
+      "value": "52",
+      "context": "Pension adjustment (PA) Reduces next year's new room by the value of this year's pension benefits Box 52 of the T4; box 034 of the T4A; total goes on line 20600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Chart 3e 33. Enter your 2025 PA (the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A"
+    },
+    {
+      "id": "0787c04b6bcd",
+      "value": "034",
+      "context": "Pension adjustment (PA) Reduces next year's new room by the value of this year's pension benefits Box 52 of the T4; box 034 of the T4A; total goes on line 20600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "(the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A slips) Footnote 6 \u2013 $ _________ 33"
+    },
+    {
+      "id": "85fdbe3c4a6e",
+      "value": "18%",
+      "context": "Start from 18% of last year's earned income, cap it at the dollar limit, subtract the pension adjustment, then add unused room.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "a1a23ce25115",
+      "value": "$90,000",
+      "context": "Priya (a labelled example) earns $90,000 in 2026 and belongs to a pension plan at work.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "525f671c8bee",
+      "value": "$6,000",
+      "context": "Her 2026 T4 shows a pension adjustment of $6,000 in box 52.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e23c046052a5",
+      "value": "52",
+      "context": "Her 2026 T4 shows a pension adjustment of $6,000 in box 52.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Chart 3e 33. Enter your 2025 PA (the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A"
+    },
+    {
+      "id": "b4aca68584de",
+      "value": "$12,000",
+      "context": "At the end of 2026 she has $12,000 of unused room.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9c147123a92a",
+      "value": "18%",
+      "context": "18% of $90,000 earned income $16,200",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "30. Enter the amount from line 29 $ ___________ x 18% \u25ba = $ _________ 30 31. RRSP dollar limit for 2026"
+    },
+    {
+      "id": "054b14ba6aaa",
+      "value": "$90,000",
+      "context": "18% of $90,000 earned income $16,200",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c9aea0ce703f",
+      "value": "$16,200",
+      "context": "18% of $90,000 earned income $16,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "8b8712a2a233",
+      "value": "$35,390",
+      "context": "Lesser of that and the 2027 limit of $35,390 $16,200",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "9f66da066697",
+      "value": "$16,200",
+      "context": "Lesser of that and the 2027 limit of $35,390 $16,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "735d9d3767a2",
+      "value": "$6,000",
+      "context": "Minus her 2026 pension adjustment \u2212$6,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "41bdf4668320",
+      "value": "$10,200",
+      "context": "New 2027 room $10,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "896b25a5892e",
+      "value": "$12,000",
+      "context": "Plus unused room at the end of 2026 +$12,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "bbc3ef87bc25",
+      "value": "$22,200",
+      "context": "2027 RRSP deduction limit $22,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "91e843041d41",
+      "value": "$5,000",
+      "context": "If Priya had already put in, but not deducted, $5,000 in the first 60 days of 2027 and reported it on Schedule 7, that amount would still count against the $22,200.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0226745c595a",
+      "value": "60",
+      "context": "If Priya had already put in, but not deducted, $5,000 in the first 60 days of 2027 and reported it on Schedule 7, that amount would still count against the $22,200.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "or disallowed for contributions made in the first 60 days of the year or in an earlier year. If you have"
+    },
+    {
+      "id": "f9cb662a5849",
+      "value": "$22,200",
+      "context": "If Priya had already put in, but not deducted, $5,000 in the first 60 days of 2027 and reported it on Schedule 7, that amount would still count against the $22,200.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a941c1f79e69",
+      "value": "$2,000",
+      "context": "You can contribute up to the limit plus $2,000 without the over-contribution tax, but the extra $2,000 is not deductible until a later year's room covers it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "or Form T1028, Your RRSP Information for 2026, plus $2,000. Also, you can only qualify for the additional $2,000"
+    },
+    {
+      "id": "4a34fc65d739",
+      "value": "December 31",
+      "context": "You can contribute until December 31 of the year you turn 71, and to a spouse's or common-law partner's RRSP until the end of the year they turn 71.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "spouse's or common-law partner's RRSP or SPP until December 31st of the year that they turn 71 years of age. What"
+    },
+    {
+      "id": "3a6feb026a8d",
+      "value": "71",
+      "context": "You can contribute until December 31 of the year you turn 71, and to a spouse's or common-law partner's RRSP until the end of the year they turn 71.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "partner's RRSP or SPP until the end of the year they turn 71. Contributions made after death \u2013 No contributions"
+    },
+    {
+      "id": "34482d737735",
+      "value": "March 1, 2027",
+      "context": "Timing has its own rules: the deadline for the 2026 tax year is March 1, 2027, explained in the RRSP deadline and the first 60 days .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSPs and, unless otherwise stated, SPPs and PRPPs. March 1, 2027, is the deadline for contributing to an RRSP for the"
+    },
+    {
+      "id": "ba3ce03d74b4",
+      "value": "60",
+      "context": "Timing has its own rules: the deadline for the 2026 tax year is March 1, 2027, explained in the RRSP deadline and the first 60 days .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "RRSP or SPP in the year of death or during the first 60 days after the end of that year. Contributions made"
+    },
+    {
+      "id": "8e05220b045e",
+      "value": "$2,000",
+      "context": "Up to $2,000 over costs nothing; beyond that, 1% a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "or Form T1028, Your RRSP Information for 2026, plus $2,000. Also, you can only qualify for the additional $2,000"
+    },
+    {
+      "id": "ba175397afe8",
+      "value": "1%",
+      "context": "Up to $2,000 over costs nothing; beyond that, 1% a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "time in 2026. Generally, you have to pay a tax of 1% per month on your unused contributions that exceed"
+    },
+    {
+      "id": "d69efc8698d1",
+      "value": "$2,000",
+      "context": "The CRA's excess contributions page says the $2,000 allowance applies only if you were 18 or older at some point in the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "$2,000. Also, you can only qualify for the additional $2,000 amount if you were 18 or older at any time in 2026."
+    },
+    {
+      "id": "90ade138fd22",
+      "value": "18",
+      "context": "The CRA's excess contributions page says the $2,000 allowance applies only if you were 18 or older at some point in the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "qualify for the additional $2,000 amount if you were 18 or older at any time in 2025. Generally, you have"
+    },
+    {
+      "id": "90b5f9814d71",
+      "value": "90",
+      "context": "If you owe the tax, file a T1-OVP and pay within 90 days of the end of the year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "in a year and do not file your T1-OVP return within 90 days after the end of that year, the CRA will charge"
+    },
+    {
+      "id": "37fa9ae6a5d1",
+      "value": "$10,000",
+      "context": "Deduction limit (illustration) $10,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a21f1c1d8998",
+      "value": "$15,000",
+      "context": "Unused contributions (illustration) $15,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "027066059639",
+      "value": "$15,000",
+      "context": "Amount taxed: $15,000 \u2212 $10,000 \u2212 $2,000 $3,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b46ebd87d999",
+      "value": "$10,000",
+      "context": "Amount taxed: $15,000 \u2212 $10,000 \u2212 $2,000 $3,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "37bba30f0247",
+      "value": "$2,000",
+      "context": "Amount taxed: $15,000 \u2212 $10,000 \u2212 $2,000 $3,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "or Form T1028, Your RRSP Information for 2026, plus $2,000. Also, you can only qualify for the additional $2,000"
+    },
+    {
+      "id": "dbb306cef539",
+      "value": "$3,000",
+      "context": "Amount taxed: $15,000 \u2212 $10,000 \u2212 $2,000 $3,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "c601db63f998",
+      "value": "1%",
+      "context": "1% a month $30 a month",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: What happens if you go over your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_excess, HTTP 200)"
+      },
+      "needle": "time in 2026. Generally, you have to pay a tax of 1% per month on your unused contributions that exceed"
+    },
+    {
+      "id": "d23f85646a5c",
+      "value": "$30",
+      "context": "1% a month $30 a month",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "e689abebb04e",
+      "value": "$33,810",
+      "context": "The dollar limit is $33,810.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "$35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810 $17,695 $74,600 $85,000 2025 $33,810 $3,756.67 $32,490"
+    },
+    {
+      "id": "140791827bb3",
+      "value": "18%",
+      "context": "Your own deduction limit is 18% of your 2025 earned income up to that amount, minus your pension adjustment, plus unused room from earlier years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "b3dba204a400",
+      "value": "$35,390",
+      "context": "The CRA lists $35,390 as the 2027 dollar limit, based on 2026 earned income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html",
+      "sourceName": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (limits, HTTP 200)"
+      },
+      "needle": "purchase limit $36,390 - - - 2027 $36,390 $4,043.33 $35,390 $18,195 $76,700 $87,400 2026 $35,390 $3,932.22 $33,810"
+    },
+    {
+      "id": "50d9d9e80998",
+      "value": "18%",
+      "context": "Why is my RRSP deduction limit lower than 18% of my salary?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html",
+      "sourceName": "CRA: How contributions affect your RRSP deduction limit",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (rrsp_limit, HTTP 200)"
+      },
+      "needle": "preceding year Plus The lesser of the two following items: 18% of your earned income in the previous year the annual"
+    },
+    {
+      "id": "d374b419c9a9",
+      "value": "52",
+      "context": "Check box 52 of your T4.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html",
+      "sourceName": "CRA: T4040 RRSPs and Other Registered Plans for Retirement",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (t4040, HTTP 200)"
+      },
+      "needle": "Chart 3e 33. Enter your 2025 PA (the total from box 52 of your 2025 T4 slips and box 034 of your 2025 T4A"
+    }
+  ]
+}

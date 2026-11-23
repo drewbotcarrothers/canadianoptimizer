@@ -1,0 +1,1714 @@
+{
+  "slug": "how-to-apply-for-cpp",
+  "publishDate": "2026-11-23",
+  "figures": [
+    {
+      "id": "d2436468d685",
+      "value": "12",
+      "context": "You can apply up to 12 months before your chosen start date, at any age from 60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "pension starts on your chosen date. You can apply up to 12 months before your chosen start date. Gather your"
+    },
+    {
+      "id": "82c582426cd4",
+      "value": "60",
+      "context": "You can apply up to 12 months before your chosen start date, at any age from 60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "to a maximum reduction of 36% if you start at age 60. If you start your CPP pension after age 65 Payments"
+    },
+    {
+      "id": "44511d6e246b",
+      "value": "28",
+      "context": "Canada.ca says online decisions arrive within 28 days and mailed applications within 120 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 28 days from when we receive the application. Other way"
+    },
+    {
+      "id": "ced128f549ed",
+      "value": "120",
+      "context": "Canada.ca says online decisions arrive within 28 days and mailed applications within 120 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 120 days from when we receive the application Contact"
+    },
+    {
+      "id": "94c1b738c565",
+      "value": "65",
+      "context": "Even at 65 you must apply; only a CPP disability benefit switches over to the retirement pension on its own.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "are receiving a CPP disability benefit When you turn 65, your CPP disability benefit will automatically change"
+    },
+    {
+      "id": "f7c6495f5bfe",
+      "value": "65",
+      "context": "The application asks for it, and starting before 65 cuts the pension for life while starting after 65 raises it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retroactive start date If you apply after you reach age 65, you can request a retroactive start date which may"
+    },
+    {
+      "id": "8e59bccb984f",
+      "value": "28",
+      "context": "Apply online if you can: the stated decision time is 28 days, against 120 days for paper.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 28 days from when we receive the application. Other way"
+    },
+    {
+      "id": "dd79f33dd1a8",
+      "value": "120",
+      "context": "Apply online if you can: the stated decision time is 28 days, against 120 days for paper.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/after-apply.html",
+      "sourceName": "Government of Canada: CPP, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 28 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "879c12bf5b48",
+      "value": "65",
+      "context": "If you are already past 65, you can ask for up to 11 months of back payments.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retroactive start date If you apply after you reach age 65, you can request a retroactive start date which may"
+    },
+    {
+      "id": "50aa008ea830",
+      "value": "11",
+      "context": "If you are already past 65, you can ask for up to 11 months of back payments.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "a retroactive start date which may be as early as 11 months before the month we received your application,"
+    },
+    {
+      "id": "760fcb9bb1c5",
+      "value": "65",
+      "context": "Before 65, there is no backdating.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "application, but no earlier than the month after your 65th birthday If you apply the month of your 65th birthday"
+    },
+    {
+      "id": "bea831f95ebd",
+      "value": "60",
+      "context": "Anyone aged at least 60 who has made at least one valid contribution to the CPP.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "Plan (CPP) retirement pension, you must: be at least 60 years old have made at least one valid contribution"
+    },
+    {
+      "id": "7873c7567716",
+      "value": "70",
+      "context": "If you are under 70 and still contributing, each year of contributions adds a post-retirement benefit that is paid automatically the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "a CPP Post-Retirement Benefit if you're: under age 70 working while receiving your CPP pension, and still"
+    },
+    {
+      "id": "24c6bf6ee04f",
+      "value": "65",
+      "context": "The standard age is 65, and you can start as early as 60 or as late as 70, according to Canada.ca's when to start page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retirement pension The standard age to start CPP is at age 65 You can start as early as age 60 or as late as age"
+    },
+    {
+      "id": "607f17b91e2e",
+      "value": "60",
+      "context": "The standard age is 65, and you can start as early as 60 or as late as 70, according to Canada.ca's when to start page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "start CPP is at age 65 You can start as early as age 60 or as late as age 70 Starting earlier means smaller"
+    },
+    {
+      "id": "e88847aa1755",
+      "value": "70",
+      "context": "The standard age is 65, and you can start as early as 60 or as late as 70, according to Canada.ca's when to start page .",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "You can start as early as age 60 or as late as age 70 Starting earlier means smaller monthly payments Starting"
+    },
+    {
+      "id": "46ab10b9840d",
+      "value": "November 23, 2026",
+      "context": "How the start age changes the CPP retirement pension (Canada.ca, read November 23, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "review date = day sources were re-read (2026-11-23)"
+      }
+    },
+    {
+      "id": "7c6b22e270a9",
+      "value": "65",
+      "context": "Before 65 \u22120.6% \u22127.2% \u221236% at age 60",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "your pension If you start your CPP pension before age 65 Payments decrease by 0.6% each month (7.2% per year),"
+    },
+    {
+      "id": "072160d69c48",
+      "value": "0.6%",
+      "context": "Before 65 \u22120.6% \u22127.2% \u221236% at age 60",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "your CPP pension before age 65 Payments decrease by 0.6% each month (7.2% per year), up to a maximum reduction"
+    },
+    {
+      "id": "4f0e52f08367",
+      "value": "7.2%",
+      "context": "Before 65 \u22120.6% \u22127.2% \u221236% at age 60",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "before age 65 Payments decrease by 0.6% each month (7.2% per year), up to a maximum reduction of 36% if you"
+    },
+    {
+      "id": "311e945c8838",
+      "value": "36%",
+      "context": "Before 65 \u22120.6% \u22127.2% \u221236% at age 60",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "month (7.2% per year), up to a maximum reduction of 36% if you start at age 60. If you start your CPP pension"
+    },
+    {
+      "id": "a4483a6328b9",
+      "value": "60",
+      "context": "Before 65 \u22120.6% \u22127.2% \u221236% at age 60",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "to a maximum reduction of 36% if you start at age 60. If you start your CPP pension after age 65 Payments"
+    },
+    {
+      "id": "58f55eed488e",
+      "value": "65",
+      "context": "At 65 None None Standard amount",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retirement pension The standard age to start CPP is at age 65 You can start as early as age 60 or as late as age"
+    },
+    {
+      "id": "05abd7b33737",
+      "value": "65",
+      "context": "After 65 +0.7% +8.4% +42% at age 70",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retirement pension The standard age to start CPP is at age 65 You can start as early as age 60 or as late as age"
+    },
+    {
+      "id": "49c6a0a681ce",
+      "value": "0.7%",
+      "context": "After 65 +0.7% +8.4% +42% at age 70",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "your CPP pension after age 65 Payments increase by 0.7% each month (8.4% per year), up to 42% at age 70. Consider"
+    },
+    {
+      "id": "790ea20226b7",
+      "value": "8.4%",
+      "context": "After 65 +0.7% +8.4% +42% at age 70",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "after age 65 Payments increase by 0.7% each month (8.4% per year), up to 42% at age 70. Consider your personal"
+    },
+    {
+      "id": "866371c6d7bc",
+      "value": "42%",
+      "context": "After 65 +0.7% +8.4% +42% at age 70",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "increase by 0.7% each month (8.4% per year), up to 42% at age 70. Consider your personal circumstances There"
+    },
+    {
+      "id": "c429c9b2d422",
+      "value": "70",
+      "context": "After 65 +0.7% +8.4% +42% at age 70",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "You can start as early as age 60 or as late as age 70 Starting earlier means smaller monthly payments Starting"
+    },
+    {
+      "id": "fa9f5eb20f12",
+      "value": "70",
+      "context": "Waiting past 70 adds nothing, because the maximum monthly amount is reached when you turn 70.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "monthly payments There's no benefit to wait after age 70 - the maximum monthly amount is reached when you turn"
+    },
+    {
+      "id": "9693c16a2df0",
+      "value": "$1,507.65",
+      "context": "For context, Canada.ca's amount page lists a maximum of $1,507.65 a month at 65 (January 2026) and an average of $858.34 a month at 65 (July 2026); your own figure depends on your contribution record.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html",
+      "sourceName": "Government of Canada: CPP retirement pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_amount, HTTP 200)"
+      },
+      "needle": "amounts Maximum CPP pension at age 65 (January 2026) $1,507.65/month Average CPP pension at age 65 (July 2026) $858.34/month"
+    },
+    {
+      "id": "0e93eb059658",
+      "value": "65",
+      "context": "For context, Canada.ca's amount page lists a maximum of $1,507.65 a month at 65 (January 2026) and an average of $858.34 a month at 65 (July 2026); your own figure depends on your contribution record.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html",
+      "sourceName": "Government of Canada: CPP retirement pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_amount, HTTP 200)"
+      },
+      "needle": "(January 2026) $1,507.65/month Average CPP pension at age 65 (July 2026) $858.34/month The maximum and average"
+    },
+    {
+      "id": "e42d3e0cbd2d",
+      "value": "$858.34",
+      "context": "For context, Canada.ca's amount page lists a maximum of $1,507.65 a month at 65 (January 2026) and an average of $858.34 a month at 65 (July 2026); your own figure depends on your contribution record.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/amount.html",
+      "sourceName": "Government of Canada: CPP retirement pension amount",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_amount, HTTP 200)"
+      },
+      "needle": "$1,507.65/month Average CPP pension at age 65 (July 2026) $858.34/month The maximum and average CPP amounts are not"
+    },
+    {
+      "id": "91a1584cb53a",
+      "value": "1000",
+      "context": "Claiming the child-rearing provision Each child's full name, SIN and date of birth; proof of the child's entry to Canada if born abroad (for example IMM 1000 records or a full passport); dates you did not receive Family Allowance or were not eligible for the Canada Child Benefit; dates you were not the primary caregiver",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "outside Canada): Canadian immigration records (IMM 1000) Complete passport Customs declaration Airline ticket"
+    },
+    {
+      "id": "223482e08724",
+      "value": "65",
+      "context": "Already on the CPP disability benefit Nothing: it changes to the retirement pension automatically at 65",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "are receiving a CPP disability benefit When you turn 65, your CPP disability benefit will automatically change"
+    },
+    {
+      "id": "5f4fb2b3ea15",
+      "value": "28",
+      "context": "Canada.ca calls it the fast route and gives a decision time of 28 days from when the application is received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 28 days from when we receive the application. Other way"
+    },
+    {
+      "id": "5ac46ff9356d",
+      "value": "120",
+      "context": "Canada.ca expects a decision within 120 days of receipt, so a paper application needs about four months of lead time.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 120 days from when we receive the application Contact"
+    },
+    {
+      "id": "145c99852e95",
+      "value": "12",
+      "context": "You can apply 12 months ahead, and working back from Canada.ca's 28-day and 120-day decision times gives the latest dates to submit if you want the decision letter before your pension month begins.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "pension starts on your chosen date. You can apply up to 12 months before your chosen start date. Gather your"
+    },
+    {
+      "id": "448ccb5ea707",
+      "value": "28",
+      "context": "You can apply 12 months ahead, and working back from Canada.ca's 28-day and 120-day decision times gives the latest dates to submit if you want the decision letter before your pension month begins.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 28 days from when we receive the application. Other way"
+    },
+    {
+      "id": "c30aaf5339ff",
+      "value": "120",
+      "context": "You can apply 12 months ahead, and working back from Canada.ca's 28-day and 120-day decision times gives the latest dates to submit if you want the decision letter before your pension month begins.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 120 days from when we receive the application Contact"
+    },
+    {
+      "id": "c42a443f6f80",
+      "value": "December 4, 2026",
+      "context": "January 2027 January 2026 December 4, 2026 September 3, 2026 January 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "be812c60b1e7",
+      "value": "September 3, 2026",
+      "context": "January 2027 January 2026 December 4, 2026 September 3, 2026 January 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "8360292a5462",
+      "value": "January 27, 2027",
+      "context": "January 2027 January 2026 December 4, 2026 September 3, 2026 January 27, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "children's and survivor benefits. Canada Pension Plan 2027 January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027 May"
+    },
+    {
+      "id": "6c782b6c3d34",
+      "value": "January 4, 2027",
+      "context": "February 2027 February 2026 January 4, 2027 October 4, 2026 February 24, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "333d979d755a",
+      "value": "October 4, 2026",
+      "context": "February 2027 February 2026 January 4, 2027 October 4, 2026 February 24, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "b1adc7a2dd05",
+      "value": "February 24, 2027",
+      "context": "February 2027 February 2026 January 4, 2027 October 4, 2026 February 24, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "benefits. Canada Pension Plan 2027 January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28,"
+    },
+    {
+      "id": "a88b506de1ad",
+      "value": "February 1, 2027",
+      "context": "March 2027 March 2026 February 1, 2027 November 1, 2026 March 25, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "e99568a66dc6",
+      "value": "November 1, 2026",
+      "context": "March 2027 March 2026 February 1, 2027 November 1, 2026 March 25, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "89f0fb209eae",
+      "value": "March 25, 2027",
+      "context": "March 2027 March 2026 February 1, 2027 November 1, 2026 March 25, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "Pension Plan 2027 January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28,"
+    },
+    {
+      "id": "7aa2e55fd75b",
+      "value": "March 4, 2027",
+      "context": "April 2027 April 2026 March 4, 2027 December 2, 2026 April 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "aed6cecec47b",
+      "value": "December 2, 2026",
+      "context": "April 2027 April 2026 March 4, 2027 December 2, 2026 April 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a62b664ea77c",
+      "value": "April 28, 2027",
+      "context": "April 2027 April 2026 March 4, 2027 December 2, 2026 April 28, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "January 27, 2027 February 24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27,"
+    },
+    {
+      "id": "e51141d274c8",
+      "value": "April 3, 2027",
+      "context": "May 2027 May 2026 April 3, 2027 January 1, 2027 May 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "458547dff15e",
+      "value": "January 1, 2027",
+      "context": "May 2027 May 2026 April 3, 2027 January 1, 2027 May 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "5c64cd7969b2",
+      "value": "May 27, 2027",
+      "context": "May 2027 May 2026 April 3, 2027 January 1, 2027 May 27, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "2027 February 24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27, 2027 September"
+    },
+    {
+      "id": "dc6ee437e18a",
+      "value": "May 4, 2027",
+      "context": "June 2027 June 2026 May 4, 2027 February 1, 2027 June 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "e4fc6e99194b",
+      "value": "February 1, 2027",
+      "context": "June 2027 June 2026 May 4, 2027 February 1, 2027 June 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "1920703ae74f",
+      "value": "June 28, 2027",
+      "context": "June 2027 June 2026 May 4, 2027 February 1, 2027 June 28, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "24, 2027 March 25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27, 2027 September 27, 2027 October"
+    },
+    {
+      "id": "4a9151f4bf86",
+      "value": "June 3, 2027",
+      "context": "July 2027 July 2026 June 3, 2027 March 3, 2027 July 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "182d237e4691",
+      "value": "March 3, 2027",
+      "context": "July 2027 July 2026 June 3, 2027 March 3, 2027 July 28, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "40ba7644edb7",
+      "value": "July 28, 2027",
+      "context": "July 2027 July 2026 June 3, 2027 March 3, 2027 July 28, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "25, 2027 April 28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27, 2027 September 27, 2027 October 27, 2027"
+    },
+    {
+      "id": "db2fb6a33135",
+      "value": "July 4, 2027",
+      "context": "August 2027 August 2026 July 4, 2027 April 3, 2027 August 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "30accc216b67",
+      "value": "April 3, 2027",
+      "context": "August 2027 August 2026 July 4, 2027 April 3, 2027 August 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "9ff77ff4d1b4",
+      "value": "August 27, 2027",
+      "context": "August 2027 August 2026 July 4, 2027 April 3, 2027 August 27, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "28, 2027 May 27, 2027 June 28, 2027 July 28, 2027 August 27, 2027 September 27, 2027 October 27, 2027 November 26, 2027"
+    },
+    {
+      "id": "fa600925f140",
+      "value": "August 4, 2027",
+      "context": "September 2027 September 2026 August 4, 2027 May 4, 2027 September 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "aadcec52fd39",
+      "value": "May 4, 2027",
+      "context": "September 2027 September 2026 August 4, 2027 May 4, 2027 September 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "adc67aebc791",
+      "value": "September 27, 2027",
+      "context": "September 2027 September 2026 August 4, 2027 May 4, 2027 September 27, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "27, 2027 June 28, 2027 July 28, 2027 August 27, 2027 September 27, 2027 October 27, 2027 November 26, 2027 December 22, 2027"
+    },
+    {
+      "id": "9a4f1091c064",
+      "value": "September 3, 2027",
+      "context": "October 2027 October 2026 September 3, 2027 June 3, 2027 October 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "c414e4995d9d",
+      "value": "June 3, 2027",
+      "context": "October 2027 October 2026 September 3, 2027 June 3, 2027 October 27, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a543640a6dce",
+      "value": "October 27, 2027",
+      "context": "October 2027 October 2026 September 3, 2027 June 3, 2027 October 27, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "2027 July 28, 2027 August 27, 2027 September 27, 2027 October 27, 2027 November 26, 2027 December 22, 2027 Canada Pension"
+    },
+    {
+      "id": "ca940c9285f9",
+      "value": "October 4, 2027",
+      "context": "November 2027 November 2026 October 4, 2027 July 4, 2027 November 26, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "c7b4bb3f8ef4",
+      "value": "July 4, 2027",
+      "context": "November 2027 November 2026 October 4, 2027 July 4, 2027 November 26, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "51e9ba81c8a8",
+      "value": "November 26, 2027",
+      "context": "November 2027 November 2026 October 4, 2027 July 4, 2027 November 26, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "August 27, 2027 September 27, 2027 October 27, 2027 November 26, 2027 December 22, 2027 Canada Pension Plan 2026 January"
+    },
+    {
+      "id": "8c763b3f8b91",
+      "value": "November 3, 2027",
+      "context": "December 2027 December 2026 November 3, 2027 August 3, 2027 December 22, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "a7f90b9b23c2",
+      "value": "August 3, 2027",
+      "context": "December 2027 December 2026 November 3, 2027 August 3, 2027 December 22, 2027",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261123-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "recomputed independently in qa/figs/2026-11-23/recheck.py from inputs on pages fetched 2026-11-23"
+      }
+    },
+    {
+      "id": "4a3b3c17a49f",
+      "value": "December 22, 2027",
+      "context": "December 2027 December 2026 November 3, 2027 August 3, 2027 December 22, 2027",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "September 27, 2027 October 27, 2027 November 26, 2027 December 22, 2027 Canada Pension Plan 2026 January 28, 2026 February"
+    },
+    {
+      "id": "ab1c28c2bb62",
+      "value": "12",
+      "context": "What the calendar shows: for every 2027 start month, the earliest month the 12-month window opens, the last day to submit online (28 days before the month) or on paper (120 days before) to have a decision in hand, and the first payment date from Canada.ca's published 2027 calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "pension starts on your chosen date. You can apply up to 12 months before your chosen start date. Gather your"
+    },
+    {
+      "id": "eeed8da4d5af",
+      "value": "28",
+      "context": "What the calendar shows: for every 2027 start month, the earliest month the 12-month window opens, the last day to submit online (28 days before the month) or on paper (120 days before) to have a decision in hand, and the first payment date from Canada.ca's published 2027 calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/after-apply.html",
+      "sourceName": "Government of Canada: CPP, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_after, HTTP 200)"
+      },
+      "needle": "be processed before following up with us. Online: 28 days By mail: 120 days When processing may take longer"
+    },
+    {
+      "id": "0e0ae17f8f6a",
+      "value": "120",
+      "context": "What the calendar shows: for every 2027 start month, the earliest month the 12-month window opens, the last day to submit online (28 days before the month) or on paper (120 days before) to have a decision in hand, and the first payment date from Canada.ca's published 2027 calendar.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/after-apply.html",
+      "sourceName": "Government of Canada: CPP, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_after, HTTP 200)"
+      },
+      "needle": "before following up with us. Online: 28 days By mail: 120 days When processing may take longer You did not submit"
+    },
+    {
+      "id": "9d002d0654a2",
+      "value": "November 26",
+      "context": "The last 2026 payments are on November 26 and December 22, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "August 27, 2026 September 25, 2026 October 28, 2026 November 26, 2026 December 22, 2026 2026 CPP and OAS printable version"
+    },
+    {
+      "id": "1597662610c0",
+      "value": "December 22, 2026",
+      "context": "The last 2026 payments are on November 26 and December 22, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/calendar.html",
+      "sourceName": "Government of Canada: Benefit payment dates",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (calendar, HTTP 200)"
+      },
+      "needle": "September 25, 2026 October 28, 2026 November 26, 2026 December 22, 2026 2026 CPP and OAS printable version PDF - 78.1KB Old"
+    },
+    {
+      "id": "3e5e25104f30",
+      "value": "65",
+      "context": "Only if you are past 65.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retroactive start date If you apply after you reach age 65, you can request a retroactive start date which may"
+    },
+    {
+      "id": "0cf29d9569d1",
+      "value": "65",
+      "context": "Canada.ca says that if you apply after 65 you can ask for a start date up to 11 months before the month your application is received, but no earlier than the month after your 65th birthday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "application, but no earlier than the month after your 65th birthday If you apply the month of your 65th birthday"
+    },
+    {
+      "id": "f71fdeb01c72",
+      "value": "11",
+      "context": "Canada.ca says that if you apply after 65 you can ask for a start date up to 11 months before the month your application is received, but no earlier than the month after your 65th birthday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "a retroactive start date which may be as early as 11 months before the month we received your application,"
+    },
+    {
+      "id": "720523d2f218",
+      "value": "65",
+      "context": "If you apply in the month you turn 65 or earlier, there is no retroactivity.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "application, but no earlier than the month after your 65th birthday If you apply the month of your 65th birthday"
+    },
+    {
+      "id": "b068b8e10aab",
+      "value": "65",
+      "context": "Leila (a labelled example) turned 65 in March 2026 and forgot to apply.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "retroactive start date If you apply after you reach age 65, you can request a retroactive start date which may"
+    },
+    {
+      "id": "c539ec844cc4",
+      "value": "11",
+      "context": "She can ask for a start as early as April 2026, the month after her birthday, which is within 11 months of November.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "a retroactive start date which may be as early as 11 months before the month we received your application,"
+    },
+    {
+      "id": "d1f05dda2690",
+      "value": "70",
+      "context": "Two edge cases from the same page: if someone dies in or before the month they turn 70 without applying, their retirement pension cannot be paid to anyone.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "pension If you die in the month of or before your 70th birthday, and you have not applied for your CPP"
+    },
+    {
+      "id": "0d067f85e5b1",
+      "value": "70",
+      "context": "If they were over 70, the estate can apply within one year of death and may receive the month of death and the 11 months before it, but nothing for the months up to the 70th birthday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "made to your estate for the months of and before your 70th birthday Your family may also qualify for other"
+    },
+    {
+      "id": "c7d4232f552a",
+      "value": "11",
+      "context": "If they were over 70, the estate can apply within one year of death and may receive the month of death and the 11 months before it, but nothing for the months up to the 70th birthday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "may receive payment for the month of death and the 11 months preceding the death There is no payment made"
+    },
+    {
+      "id": "a6d1a7aab480",
+      "value": "90",
+      "context": "You have 90 days from the date you receive the letter to ask for a reconsideration.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/after-apply.html",
+      "sourceName": "Government of Canada: CPP, after you apply",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_after, HTTP 200)"
+      },
+      "needle": "application status. Ask to reconsider the decision You have 90 days from the date you receive your decision letter"
+    },
+    {
+      "id": "6771a4788c46",
+      "value": "60",
+      "context": "Decide your start month (60 to 70) after looking at your estimate in MSCA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "to a maximum reduction of 36% if you start at age 60. If you start your CPP pension after age 65 Payments"
+    },
+    {
+      "id": "79da0f68dc45",
+      "value": "70",
+      "context": "Decide your start month (60 to 70) after looking at your estimate in MSCA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "the maximum monthly amount is reached when you turn 70 How age affects your pension If you start your CPP"
+    },
+    {
+      "id": "0db37b248036",
+      "value": "65",
+      "context": "Is CPP paid automatically at 65?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "are receiving a CPP disability benefit When you turn 65, your CPP disability benefit will automatically change"
+    },
+    {
+      "id": "99d5af6d1a0a",
+      "value": "65",
+      "context": "The one exception is the CPP disability benefit, which changes to a retirement pension automatically at 65.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "are receiving a CPP disability benefit When you turn 65, your CPP disability benefit will automatically change"
+    },
+    {
+      "id": "506d592d4076",
+      "value": "12",
+      "context": "Up to 12 months before the start date you choose, and the earliest start is age 60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "pension starts on your chosen date. You can apply up to 12 months before your chosen start date. Gather your"
+    },
+    {
+      "id": "8ab392ebdc0d",
+      "value": "60",
+      "context": "Up to 12 months before the start date you choose, and the earliest start is age 60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/when-start.html",
+      "sourceName": "Government of Canada: Decide when to start your CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_when, HTTP 200)"
+      },
+      "needle": "to a maximum reduction of 36% if you start at age 60. If you start your CPP pension after age 65 Payments"
+    },
+    {
+      "id": "edae0c16e431",
+      "value": "28",
+      "context": "Canada.ca says to expect a decision within 28 days for an online application and within 120 days for a paper one, counted from when it is received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 28 days from when we receive the application. Other way"
+    },
+    {
+      "id": "651d13966ac9",
+      "value": "120",
+      "context": "Canada.ca says to expect a decision within 28 days for an online application and within 120 days for a paper one, counted from when it is received.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/apply.html",
+      "sourceName": "Government of Canada: Apply for the CPP retirement pension",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_apply, HTTP 200)"
+      },
+      "needle": "your application Expect a decision by mail within 120 days from when we receive the application Contact"
+    },
+    {
+      "id": "9cb18b0503f4",
+      "value": "70",
+      "context": "Working does not reduce the pension, and under 70 your continued contributions earn a post-retirement benefit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/eligibility.html",
+      "sourceName": "Government of Canada: CPP retirement pension eligibility",
+      "asOf": "2026-11-23",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-23",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-23 (qa/figs/2026-11-23/recheck.py); separate from drafting",
+        "note": "needle found on page fetched 2026-11-23 (cpp_elig, HTTP 200)"
+      },
+      "needle": "a CPP Post-Retirement Benefit if you're: under age 70 working while receiving your CPP pension, and still"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "how-to-apply-for-cpp",
+  "title": "How to Apply for CPP: Steps, Documents and When to Submit",
+  "family": "how-to",
+  "category": "government-benefits",
+  "subcategory": "seniors-cpp-oas",
+  "targetQuery": "how to apply for cpp",
+  "secondaryQueries": [
+    "how to apply for cpp online",
+    "when should i apply for cpp",
+    "cpp application form isp-1000",
+    "how long does cpp application take"
+  ],
+  "infoGain": "Apply-by calendar for every 2027 CPP start month (online: 28 days before; paper: 120 days before) worked from Canada.ca's published processing times, matched to the first payment date from the 2027 benefit payment calendar, plus a documents checklist and a retroactive-payment example (11 months maximum, never before the month after the 65th birthday).",
+  "money": false,
+  "offers": [],
+  "ebook": "government-benefits-guide",
+  "publishDate": "2026-11-23",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "read rendered preview on 2026-11-23: opening answers that CPP is not automatic and must be applied for online (MSCA) or on ISP-1000, up to 12 months ahead, with 28-day / 120-day decision times; all 15 question headings open with a direct answer (e.g. \"Anyone aged at least 60 who has made at least one valid contribution\", \"Only if you are past 65\", \"No. You must apply\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "no invented quotes or experience; eligibility, start-age adjustments, documents, retroactivity, estate and processing rules re-read on Canada.ca CPP pages 2026-11-23; apply-by dates are labelled our arithmetic; Leila is a labelled illustration; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

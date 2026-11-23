@@ -1,0 +1,39 @@
+{
+  "slug": "how-to-apply-for-oas",
+  "title": "How to Apply for OAS, or Confirm You Are Signed Up Automatically",
+  "family": "how-to",
+  "category": "government-benefits",
+  "subcategory": "seniors-cpp-oas",
+  "targetQuery": "how to apply for oas",
+  "secondaryQueries": [
+    "am i automatically enrolled in oas",
+    "oas application form isp-3550",
+    "when to apply for oas",
+    "oas deferral how to"
+  ],
+  "infoGain": "A letter-or-no-letter decision table, a dated timeline for one person turning 65 in March 2027 (when the letter should arrive, mail-by and online-by dates, first payment date from the 2027 calendar), and the October\u2013December 2026 deferral table showing the monthly maximum from 65 to 70 and the cost of a late application (11 months retro at $762.50).",
+  "money": false,
+  "offers": [],
+  "ebook": "government-benefits-guide",
+  "publishDate": "2026-11-23",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "read rendered preview on 2026-11-23: opening answers that most people are enrolled automatically by letter around 64 and others apply online or on ISP-3550; all 15 question headings open with a direct answer (e.g. \"Usually not\", \"Apply now and ask for a retroactive start\", \"For most people, yes\")"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - independent source check, 2026-11-23 (separate from drafter)",
+      "on": "2026-11-23",
+      "note": "no invented quotes or experience; letter, eligibility, deferral, retroactivity, processing and recovery-tax rules re-read on Canada.ca OAS pages 2026-11-23; Margaret's timeline and the deferral/retro figures are labelled illustration or our arithmetic; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

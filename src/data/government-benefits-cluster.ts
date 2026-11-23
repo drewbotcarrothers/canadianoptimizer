@@ -1317,6 +1317,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <a href="/ebooks/government-benefits-guide/" class="cta-button">Get the Government Benefits Guide — $29 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-to-apply-for-cpp/">How to apply for CPP: steps, documents and when to submit</a> &middot; <a href="/blog/how-to-apply-for-oas/">How to apply for OAS, or confirm you are signed up automatically</a></p>
+
     ${footer(published, 'November 13, 2026', 'This is general education about the Canada Pension Plan. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. Figures are from Canada.ca, ESDC and CRA pages checked November 13, 2026. Dollar examples marked as illustrations are arithmetic on those figures, not a quote of your file. Confirm My Service Canada Account and your statement of contributions before you choose a start date.')}
 
 </div>`
@@ -1436,6 +1438,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <p>Know the threshold before the July payment changes. The 2026 tax guide is that half of the file.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/how-to-apply-for-oas/">How to apply for OAS, or confirm you are signed up automatically</a> &middot; <a href="/blog/how-to-apply-for-gis/">How to apply for the GIS and keep it coming every July</a></p>
 
     ${footer(published)}
 

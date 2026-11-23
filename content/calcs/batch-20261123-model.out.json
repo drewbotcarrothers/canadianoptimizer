@@ -1,0 +1,130 @@
+{
+ "cpp_apply_by": [
+  {
+   "start": "January 2027",
+   "opens": "January 2026",
+   "online": "December 4, 2026",
+   "mail": "September 3, 2026",
+   "firstpay": "January 27, 2027"
+  },
+  {
+   "start": "February 2027",
+   "opens": "February 2026",
+   "online": "January 4, 2027",
+   "mail": "October 4, 2026",
+   "firstpay": "February 24, 2027"
+  },
+  {
+   "start": "March 2027",
+   "opens": "March 2026",
+   "online": "February 1, 2027",
+   "mail": "November 1, 2026",
+   "firstpay": "March 25, 2027"
+  },
+  {
+   "start": "April 2027",
+   "opens": "April 2026",
+   "online": "March 4, 2027",
+   "mail": "December 2, 2026",
+   "firstpay": "April 28, 2027"
+  },
+  {
+   "start": "May 2027",
+   "opens": "May 2026",
+   "online": "April 3, 2027",
+   "mail": "January 1, 2027",
+   "firstpay": "May 27, 2027"
+  },
+  {
+   "start": "June 2027",
+   "opens": "June 2026",
+   "online": "May 4, 2027",
+   "mail": "February 1, 2027",
+   "firstpay": "June 28, 2027"
+  },
+  {
+   "start": "July 2027",
+   "opens": "July 2026",
+   "online": "June 3, 2027",
+   "mail": "March 3, 2027",
+   "firstpay": "July 28, 2027"
+  },
+  {
+   "start": "August 2027",
+   "opens": "August 2026",
+   "online": "July 4, 2027",
+   "mail": "April 3, 2027",
+   "firstpay": "August 27, 2027"
+  },
+  {
+   "start": "September 2027",
+   "opens": "September 2026",
+   "online": "August 4, 2027",
+   "mail": "May 4, 2027",
+   "firstpay": "September 27, 2027"
+  },
+  {
+   "start": "October 2027",
+   "opens": "October 2026",
+   "online": "September 3, 2027",
+   "mail": "June 3, 2027",
+   "firstpay": "October 27, 2027"
+  },
+  {
+   "start": "November 2027",
+   "opens": "November 2026",
+   "online": "October 4, 2027",
+   "mail": "July 4, 2027",
+   "firstpay": "November 26, 2027"
+  },
+  {
+   "start": "December 2027",
+   "opens": "December 2026",
+   "online": "November 3, 2027",
+   "mail": "August 3, 2027",
+   "firstpay": "December 22, 2027"
+  }
+ ],
+ "oas_timeline": {
+  "letter_check": "April 14, 2026",
+  "first_month": "April 1, 2027",
+  "first_pay": "April 28, 2027",
+  "online_by": "March 18, 2027",
+  "mail_by": "December 2, 2026"
+ },
+ "oas_defer": {
+  "65": 762.5,
+  "66": 817.4,
+  "67": 872.3,
+  "68": 927.2,
+  "69": 982.1,
+  "70": 1037.0
+ },
+ "oas_retro_max_example": 8387.5,
+ "gis_single_annual": 13666.8,
+ "gis_couple_each_annual": 8226.72,
+ "gis_retro_11": 12527.9,
+ "rrsp_day60_2027": "March 1, 2027",
+ "rrsp_day60_2026": "March 1, 2026",
+ "cap_income_2026": 187833.33,
+ "cap_income_2027": 196611.11,
+ "room2027": {
+  "40000": 7200.0,
+  "60000": 10800.0,
+  "80000": 14400.0,
+  "100000": 18000.0,
+  "150000": 27000.0,
+  "200000": 35390
+ },
+ "priya_2027": {
+  "new": 16200.0,
+  "net": 10200.0,
+  "limit": 22200.0
+ },
+ "overcontrib": {
+  "excess": 5000,
+  "taxable": 3000,
+  "per_month": 30.0,
+  "six_months": 180.0
+ }
+}
