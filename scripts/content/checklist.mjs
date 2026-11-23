@@ -315,7 +315,7 @@ export async function runChecklist({ slugs, date, outDir, verifyDate, sisters })
           const m = h.match(/^\/blog\/([a-z0-9-]+)\/$/);
           if (m) return !allSlugs.has(m[1]);
           if (h.startsWith('/category/')) return !validHubs.has(h);
-          return !/^\/(ebooks\/[a-z0-9-]+\/|ebooks\/|about\/|contact\/|disclosure\/|disclaimer\/|privacy\/|terms\/|how-we-use-ai\/|blog\/)$/.test(h);
+          return !/^\/(ebooks\/[a-z0-9-]+\/|ebooks\/|about\/|contact\/|disclosure\/|disclaimer\/|privacy\/|terms\/|how-we-use-ai\/|blog\/|2027-contribution-limits\/|2027-combined-marginal-tax-rates\/|tfsa-rrsp-fhsa-calculator\/)$/.test(h);
         })
         .map((l) => l.href);
       const ins = inbound.get(post.slug)?.size ?? 0;

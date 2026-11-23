@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import HubReferences from '@/components/reference/HubReferences';
 import ArticleCard from '@/components/ui/ArticleCard';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
@@ -84,6 +85,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </nav>
           ) : null}
         </header>
+
+        <HubReferences categorySlug={categoryData.slug} />
 
         {subcategories.length > 0 ? (
           <div className="space-y-16">

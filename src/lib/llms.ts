@@ -112,6 +112,9 @@ ${subcategoryLines.join('\n')}
 ${ALL_PRODUCTS.map((p) => `- [${p.title}](${SITE_URL}/ebooks/${p.slug}/): ${formatPrice(p.slug)}, ${p.kind === 'bundle' ? '3 PDFs' : 'PDF'}`).join('\n')}
 - [Advertising disclosure](${SITE_URL}/disclosure/)
 - [Disclaimer](${SITE_URL}/disclaimer/)
+- [2027 contribution limits](${SITE_URL}/2027-contribution-limits/): TFSA, RRSP, FHSA, and RESP limits with the official source and an as-of date
+- [2027 combined marginal tax rates](${SITE_URL}/2027-combined-marginal-tax-rates/): federal plus provincial brackets for all 13 jurisdictions
+- [TFSA vs RRSP vs FHSA calculator](${SITE_URL}/tfsa-rrsp-fhsa-calculator/): after-tax comparison capped at the official limits
 
 ## Key articles
 
