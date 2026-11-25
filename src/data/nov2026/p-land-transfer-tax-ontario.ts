@@ -26,7 +26,7 @@ const content = `<div class="container">
         <ul>
             <li>The provincial tax on a $400,000 home is $4,475, and the same home in Toronto carries another $4,475 of municipal tax.</li>
             <li>A first-time buyer refund of up to $4,000 applies in all of Ontario, and Toronto adds a rebate of up to $4,475, so a $400,000 Toronto purchase costs a first-time buyer $475 in total.</li>
-            <li>Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.</li>
+            <li>Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.</li>
             <li>Non-residents pay an extra 25% provincially, plus 10% in Toronto.</li>
             <li>Budget the cash for closing day: the tax is paid through your lawyer when the transfer is registered, not later with your mortgage.</li>
         </ul>
@@ -95,7 +95,7 @@ const content = `<div class="container">
             </tbody>
         </table>
     </div>
-    <p>City Council passed the graduated rates for high-value homes on December 17, 2025, and they took effect on April 1, 2026. Other property, such as multi-residential buildings, keeps the older structure with 2% above $400,000. The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $66,475 and the new one gives $83,475, or $17,000 more (our arithmetic from the two rate lists).</p>
+    <p>City Council passed the graduated rates for high-value homes on December 17, 2025, and they took effect on April 1, 2026. Other property, such as multi-residential buildings, keeps the older structure with 2% above $400,000. The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes. The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).</p>
 
     <h2 id="table">How much land transfer tax will you pay at different prices?</h2>
     <p>For a home inside Toronto, roughly twice the provincial amount until the price passes $2,000,000, less any first-time buyer refund. The table applies the published rates to six illustration prices.</p>

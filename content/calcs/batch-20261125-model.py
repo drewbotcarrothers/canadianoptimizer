@@ -25,7 +25,7 @@ for p in (400000,600000,800000,1000000,1500000,2500000,3500000):
                         both=round(on+tor,2), both_ftb=round(on-min(on,4000)+tor-min(tor,4475),2))
 out['on_368k'] = tiered(368000,ON)
 out['on_400k_steps'] = [round(55000*.005,2), round(195000*.01,2), round(150000*.015,2)]
-out['tor_old_3_5m'] = tiered(3500000,[(55000,.005),(250000,.01),(400000,.015),(None,.02)])
+out["tor_old_3_5m"] = tiered(3500000,[(55000,.005),(250000,.01),(400000,.015),(2000000,.02),(None,.025)])  # corrected 2026-11-25 by fresh checker: old Toronto structure had 2.5% above $2M
 out['tor_new_3_5m'] = tiered(3500000,TOR)
 out['tor_3_5m_diff'] = round(out['tor_new_3_5m']-out['tor_old_3_5m'],2)
 out['bc'] = {}

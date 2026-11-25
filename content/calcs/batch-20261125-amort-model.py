@@ -28,7 +28,7 @@ r = 0.045
 a, b = out['insured']['total25'], out['insured']['total30']
 out['insured']['p25'] = R(pay(a, r, 25)); out['insured']['p30'] = R(pay(b, r, 30)); out['insured']['save'] = R(pay(a, r, 25) - pay(b, r, 30))
 out['insured']['int25'] = R(pay(a, r, 25) * 300 - a, 0); out['insured']['int30'] = R(pay(b, r, 30) * 360 - b, 0)
-out['insured']['extra_int'] = R(out['insured']['int30'] - out['insured']['int25'], 0)
+out['insured']['extra_int'] = R((pay(b, r, 30) * 360 - b) - (pay(a, r, 25) * 300 - a), 0)  # fixed by fresh checker: difference of unrounded totals
 # stress test: contract 4.5% -> qualifying = max(contract + 2, 5.25) = 6.5%
 q = max(0.045 + 0.02, 0.0525)
 pq25, pq30 = pay(565000, q, 25), pay(565000, q, 30)

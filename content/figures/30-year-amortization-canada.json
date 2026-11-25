@@ -2387,62 +2387,57 @@
       }
     },
     {
-      "id": "6223288b1b66",
+      "id": "5e26ecd5cc63",
       "value": "30",
-      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
-      "kind": "sourced",
-      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
-      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
-      "asOf": "2026-11-25",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,856 of interest over the full schedule.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
       "derivedFrom": [],
       "verify": {
-        "status": "match",
-        "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
-      },
-      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      }
     },
     {
-      "id": "b07a2644d483",
+      "id": "d079f7d33982",
       "value": "$283.74",
-      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
-      "kind": "derived",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,856 of interest over the full schedule.",
+      "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [
-        "content/calcs/batch-20261125-amort-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "match",
-        "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
       }
     },
     {
-      "id": "7408db960573",
+      "id": "59ff126a1450",
       "value": "$1,130",
-      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
-      "kind": "derived",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,856 of interest over the full schedule.",
+      "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
       "asOf": "",
-      "derivedFrom": [
-        "content/calcs/batch-20261125-amort-model.py"
-      ],
+      "derivedFrom": [],
       "verify": {
-        "status": "match",
-        "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
       }
     },
     {
-      "id": "8cd5f1f819ab",
-      "value": "$91,857",
-      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
+      "id": "8a21fb3c572e",
+      "value": "$91,856",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,856 of interest over the full schedule.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -2453,8 +2448,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed: total interest 479,918.57 (30y on 588,730 at 4.5% s.a.) minus 388,062.12 (25y on 587,600) = 91,856.44; earlier draft showed 91,857 from subtracting rounded totals"
       }
     },
     {

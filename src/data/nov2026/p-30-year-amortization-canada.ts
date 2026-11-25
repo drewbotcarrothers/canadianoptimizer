@@ -115,7 +115,7 @@ const content = `<div class="container">
             <div class="line"><span>Payment at 4.5%, 25 years, on $587,600</span><span>$3,252.21</span></div>
             <div class="line total"><span>Payment at 4.5%, 30 years, on $588,730</span><span>$2,968.47</span></div>
         </div>
-        <p>The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule. The price, rate and a premium added to the loan are illustrations; Ontario, Quebec and Saskatchewan apply provincial sales tax to the premium, and that tax cannot be added to the loan, according to CMHC.</p>
+        <p>The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,856 of interest over the full schedule. The price, rate and a premium added to the loan are illustrations; Ontario, Quebec and Saskatchewan apply provincial sales tax to the premium, and that tax cannot be added to the loan, according to CMHC.</p>
     </div>
 
     <h2 id="stress">How does a longer amortization affect the stress test?</h2>

@@ -327,9 +327,9 @@
       }
     },
     {
-      "id": "7e0c1072a327",
+      "id": "7371c50ef8ac",
       "value": "$3,000,000",
-      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
       "kind": "sourced",
       "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
       "sourceName": "City of Toronto: MLTT rates and fees",
@@ -344,9 +344,9 @@
       "needle": "up to 3,000,000.00 2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000"
     },
     {
-      "id": "9792c6891fa4",
+      "id": "43a70d0788b1",
       "value": "April 1, 2026",
-      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
       "kind": "sourced",
       "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
       "sourceName": "City of Toronto: MLTT rates and fees",
@@ -361,9 +361,9 @@
       "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
     },
     {
-      "id": "d14d2a29c6cb",
+      "id": "dc9ddb0290d3",
       "value": "4.4%",
-      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
       "kind": "sourced",
       "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
       "sourceName": "City of Toronto: MLTT rates and fees",
@@ -378,9 +378,9 @@
       "needle": "as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000"
     },
     {
-      "id": "65cba63afad2",
-      "value": "$17,000",
-      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.",
+      "id": "5d8e5b54f8ff",
+      "value": "$9,500",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -391,14 +391,14 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
       }
     },
     {
-      "id": "f80e115dc625",
+      "id": "e11fecbec9e5",
       "value": "$3,500,000",
-      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $17,000 to a $3,500,000 purchase.",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
@@ -407,8 +407,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "declared illustration input, labelled on the page"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "declared illustration price, labelled on the page"
       }
     },
     {
@@ -1262,9 +1262,60 @@
       "needle": "LTT = (VOC \u00d7 0.01) - $275 exceeding $250,000, and up to $400,000: LTT = (VOC \u00d7 0.015) - $1,525 exceeding $400,000, for property"
     },
     {
-      "id": "01a0f4b92a72",
+      "id": "bdb987dfc41b",
+      "value": "April 1, 2026",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
+    },
+    {
+      "id": "009954e4d456",
+      "value": "2.5%",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "Toronto 2.5% tier above $2,000,000 shown on live page (2,000,000.01-3,000,000 at 2.5%); page snapshot of 2026-01-10 (web.archive.org) labels it \"no change\" in the April 2026 revision"
+      },
+      "needle": "2,000,000.01 and up to 3,000,000.00 2.5%"
+    },
+    {
+      "id": "c8591982034c",
+      "value": "$2,000,000",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "Toronto 2.5% tier above $2,000,000 shown on live page (2,000,000.01-3,000,000 at 2.5%); page snapshot of 2026-01-10 (web.archive.org) labels it \"no change\" in the April 2026 revision"
+      },
+      "needle": "2,000,000.01 and up to 3,000,000.00 2.5%"
+    },
+    {
+      "id": "728e6bca7a90",
       "value": "$3,500,000",
-      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $66,475 and the new one gives $83,475, or $17,000 more (our arithmetic from the two rate lists).",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
       "kind": "example",
       "sourceUrl": "",
       "sourceName": "",
@@ -1273,14 +1324,14 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "declared illustration input, labelled on the page"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "declared illustration price, labelled on the page"
       }
     },
     {
-      "id": "1d357174c4f9",
-      "value": "$66,475",
-      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $66,475 and the new one gives $83,475, or $17,000 more (our arithmetic from the two rate lists).",
+      "id": "3a3ace96ef76",
+      "value": "$73,975",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1291,14 +1342,14 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
       }
     },
     {
-      "id": "5a9526952ce1",
+      "id": "eb3ec5472dc8",
       "value": "$83,475,",
-      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $66,475 and the new one gives $83,475, or $17,000 more (our arithmetic from the two rate lists).",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1309,14 +1360,14 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
       }
     },
     {
-      "id": "143bc77c7f8b",
-      "value": "$17,000",
-      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $66,475 and the new one gives $83,475, or $17,000 more (our arithmetic from the two rate lists).",
+      "id": "d8d551340163",
+      "value": "$9,500",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
       "kind": "derived",
       "sourceUrl": "",
       "sourceName": "",
@@ -1327,8 +1378,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-25",
-        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
-        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
       }
     },
     {
