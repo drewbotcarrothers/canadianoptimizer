@@ -1,0 +1,2441 @@
+{
+  "slug": "welcome-tax-quebec",
+  "publishDate": "2026-11-25",
+  "figures": [
+    {
+      "id": "704e6121429c",
+      "value": "$750,000",
+      "context": "On a $750,000 purchase it is $9,360.50 on the provincial scale and $10,349 on Montr\u00e9al's own scale.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "5ba354fa01de",
+      "value": "$9,360.50",
+      "context": "On a $750,000 purchase it is $9,360.50 on the provincial scale and $10,349 on Montr\u00e9al's own scale.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "71be36fe6f19",
+      "value": "$10,349",
+      "context": "On a $750,000 purchase it is $9,360.50 on the provincial scale and $10,349 on Montr\u00e9al's own scale.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "2eb4e00b506c",
+      "value": "0.5%",
+      "context": "Under the provincial scale for 2026, the duty is 0.5% on the first $62,900 of the tax base, 1% from $62,900 to $315,000 and 1.5% above $315,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "d'imposition est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $"
+    },
+    {
+      "id": "4151da75a97b",
+      "value": "$62,900",
+      "context": "Under the provincial scale for 2026, the duty is 0.5% on the first $62,900 of the tax base, 1% from $62,900 to $315,000 and 1.5% above $315,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "la base d'imposition est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5%"
+    },
+    {
+      "id": "c9b5c69ac088",
+      "value": "1%",
+      "context": "Under the provincial scale for 2026, the duty is 0.5% on the first $62,900 of the tax base, 1% from $62,900 to $315,000 and 1.5% above $315,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de"
+    },
+    {
+      "id": "62aeeb2800b2",
+      "value": "$315,000",
+      "context": "Under the provincial scale for 2026, the duty is 0.5% on the first $62,900 of the tax base, 1% from $62,900 to $315,000 and 1.5% above $315,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "base d'imposition 2025 Taux Jusqu'\u00e0 $62,900 0.5% $62,900 \u00e0 $315,000 1% $315,000 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700"
+    },
+    {
+      "id": "3d7a8f55f909",
+      "value": "1.5%",
+      "context": "Under the provincial scale for 2026, the duty is 0.5% on the first $62,900 of the tax base, 1% from $62,900 to $315,000 and 1.5% above $315,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation correspond donc"
+    },
+    {
+      "id": "4b7f8b7e9241",
+      "value": "$552,300",
+      "context": "Montr\u00e9al uses the same rates up to $552,300 and then adds higher ones, reaching 4% over $3,113,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "51e212e93d9f",
+      "value": "4%",
+      "context": "Montr\u00e9al uses the same rates up to $552,300 and then adds higher ones, reaching 4% over $3,113,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027 Voici un exemple de calcul"
+    },
+    {
+      "id": "409e21859dc9",
+      "value": "$3,113,000",
+      "context": "Montr\u00e9al uses the same rates up to $552,300 and then adds higher ones, reaching 4% over $3,113,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027"
+    },
+    {
+      "id": "ed424faba71d",
+      "value": "$3,361",
+      "context": "The Government of Qu\u00e9bec's own example gives $3,361 of duty on a $350,000 base.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "de mutation correspond donc \u00e0 : 315 $ + $2,521 + 525 $ = $3,361. Une municipalit\u00e9 peut, par r\u00e8glement, fixer un taux sup\u00e9rieur"
+    },
+    {
+      "id": "12210f19a521",
+      "value": "$350,000",
+      "context": "The Government of Qu\u00e9bec's own example gives $3,361 of duty on a $350,000 base.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a909129dc523",
+      "value": "$500,000,",
+      "context": "Municipalities may set a higher rate above $500,000, capped at 3% everywhere except Montr\u00e9al, which has no cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "8dcdf9bbaeaf",
+      "value": "3%",
+      "context": "Municipalities may set a higher rate above $500,000, capped at 3% everywhere except Montr\u00e9al, which has no cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le cas de la Ville de Montr\u00e9al qui peut fixer"
+    },
+    {
+      "id": "ca6d9febd5ae",
+      "value": "January 1, 2027",
+      "context": "Montr\u00e9al's thresholds rise on January 1, 2027, and its 2027 comparative factor is 1.04.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "chaque ann\u00e9e. \u00c0 Montr\u00e9al, les seuils applicables \u00e0 partir du January 1, 2027 sont les suivants : Tranche de la base d'imposition 2027"
+    },
+    {
+      "id": "3e00a4bef840",
+      "value": "1.04",
+      "context": "Montr\u00e9al's thresholds rise on January 1, 2027, and its 2027 comparative factor is 1.04.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Montr\u00e9al sont les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur"
+    },
+    {
+      "id": "5216b144a86c",
+      "value": "$62,900",
+      "context": "First $62,900 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur"
+    },
+    {
+      "id": "4d379908d390",
+      "value": "0.5%",
+      "context": "First $62,900 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "appliquant, pour l'exercice financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01"
+    },
+    {
+      "id": "29b47ff289d1",
+      "value": "$62,900",
+      "context": "$62,900 to $315,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur"
+    },
+    {
+      "id": "217310173eb6",
+      "value": "$315,000",
+      "context": "$62,900 to $315,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes"
+    },
+    {
+      "id": "010140a144b7",
+      "value": "1.0%",
+      "context": "$62,900 to $315,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche"
+    },
+    {
+      "id": "06d4d50c82d9",
+      "value": "$315,000",
+      "context": "Above $315,000 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes"
+    },
+    {
+      "id": "05abd586551c",
+      "value": "1.5%",
+      "context": "Above $315,000 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes tranches"
+    },
+    {
+      "id": "887d4695e1d8",
+      "value": "$350,000",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "le prix de vente de l'immeuble inscrit au contrat est de $350,000. Et que la valeur marchande de l'immeuble est de $325,000,"
+    },
+    {
+      "id": "39ad7ef17950",
+      "value": "$62,900",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "la base d'imposition est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5%"
+    },
+    {
+      "id": "2801f5c45abe",
+      "value": "0.5%",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "d'imposition est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $"
+    },
+    {
+      "id": "7edff5c490a1",
+      "value": "$315,",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "d'imposition est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant"
+    },
+    {
+      "id": "39d2078a72c3",
+      "value": "$252,100",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "est de $350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit"
+    },
+    {
+      "id": "d3ea0222a326",
+      "value": "1%",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$350,000 se calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de"
+    },
+    {
+      "id": "a6c954c60d2d",
+      "value": "$2,521",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "calcule ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation"
+    },
+    {
+      "id": "0f61a6a32de5",
+      "value": "$35,000",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "ainsi : $62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation correspond"
+    },
+    {
+      "id": "78826419b08d",
+      "value": "1.5%",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation correspond donc"
+    },
+    {
+      "id": "ecbb0c12c1af",
+      "value": "$525,",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation correspond donc \u00e0 : 315"
+    },
+    {
+      "id": "39e7e6346d23",
+      "value": "$3,361",
+      "context": "The province's worked example is a $350,000 base: $62,900 at 0.5% is $315, $252,100 at 1% is $2,521 and $35,000 at 1.5% is $525, which totals $3,361.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "de mutation correspond donc \u00e0 : 315 $ + $2,521 + 525 $ = $3,361. Une municipalit\u00e9 peut, par r\u00e8glement, fixer un taux sup\u00e9rieur"
+    },
+    {
+      "id": "f131249dd20c",
+      "value": "$3,360.50",
+      "context": "Our own arithmetic, without rounding each step, gives $3,360.50.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ef67e0ff11f1",
+      "value": "$500,000",
+      "context": "A municipality may set a higher rate by bylaw on any part of the base above $500,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "0cba437b3d61",
+      "value": "3%",
+      "context": "That rate cannot exceed 3%, except in the City of Montr\u00e9al, which can go higher.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le cas de la Ville de Montr\u00e9al qui peut fixer"
+    },
+    {
+      "id": "c8dc1380a155",
+      "value": "$500,000",
+      "context": "Ask the municipality where the property is for its rate above $500,000 before you assume the provincial scale.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "a4fd90242900",
+      "value": "1.10",
+      "context": "It lists Montr\u00e9al's comparative factors as 1.10 for 2024, 1.08 for 2025, 1.00 for 2026 and 1.04 for 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur Les droits sur les mutations"
+    },
+    {
+      "id": "3c943de4dfc8",
+      "value": "1.08",
+      "context": "It lists Montr\u00e9al's comparative factors as 1.10 for 2024, 1.08 for 2025, 1.00 for 2026 and 1.04 for 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur Les droits sur les"
+    },
+    {
+      "id": "122b5f74ac72",
+      "value": "1.00",
+      "context": "It lists Montr\u00e9al's comparative factors as 1.10 for 2024, 1.08 for 2025, 1.00 for 2026 and 1.04 for 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur Les droits"
+    },
+    {
+      "id": "c1255fb2c26e",
+      "value": "1.04",
+      "context": "It lists Montr\u00e9al's comparative factors as 1.10 for 2024, 1.08 for 2025, 1.00 for 2026 and 1.04 for 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Montr\u00e9al sont les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur"
+    },
+    {
+      "id": "29f1264a1391",
+      "value": "$480,000",
+      "context": "Price on the deed (illustration) $480,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "034b22d869ab",
+      "value": "$500,000",
+      "context": "Assessment roll value (illustration) $500,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c7304c09dd36",
+      "value": "1.00",
+      "context": "Montr\u00e9al 2026 comparative factor 1.00",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur Les droits"
+    },
+    {
+      "id": "097f65bb841e",
+      "value": "$500,000",
+      "context": "Market value: $500,000 \u00d7 1.00 $500,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "becd16c9fc76",
+      "value": "1.00",
+      "context": "Market value: $500,000 \u00d7 1.00 $500,000",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur Les droits"
+    },
+    {
+      "id": "1af6944458ae",
+      "value": "$480,000",
+      "context": "Duty on a $480,000 base would be $5,310.50",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f88455dbb8f9",
+      "value": "$5,310.50",
+      "context": "Duty on a $480,000 base would be $5,310.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "a442d1bb943e",
+      "value": "$500,000",
+      "context": "Duty on the $500,000 base actually used $5,610.50",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3da23ea8cc76",
+      "value": "$5,610.50",
+      "context": "Duty on the $500,000 base actually used $5,610.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8e8020e49a45",
+      "value": "$300",
+      "context": "Buying under the assessment saves nothing on the duty, and it adds $300 here.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c848fe2c2799",
+      "value": "$552,300",
+      "context": "Montr\u00e9al follows the provincial scale up to $552,300 and then charges more on the part above it.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "009f6de04c83",
+      "value": "January 1",
+      "context": "The City of Montr\u00e9al's calculation page lists seven brackets for transfers from January 1 to December 31, 2026, and a second list that applies from January 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "immobili\u00e8res est de $9,303.50 \u00c0 Montr\u00e9al, les seuils en vigueur du January 1 au December 31, 2026 \u00e9taient les suivants : Tranche de"
+    },
+    {
+      "id": "161faa5ebe9a",
+      "value": "December 31, 2026",
+      "context": "The City of Montr\u00e9al's calculation page lists seven brackets for transfers from January 1 to December 31, 2026, and a second list that applies from January 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$9,303.50 \u00c0 Montr\u00e9al, les seuils en vigueur du January 1 au December 31, 2026 \u00e9taient les suivants : Tranche de la base d'imposition"
+    },
+    {
+      "id": "ccfa320b5ad2",
+      "value": "January 1, 2027",
+      "context": "The City of Montr\u00e9al's calculation page lists seven brackets for transfers from January 1 to December 31, 2026, and a second list that applies from January 1, 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "chaque ann\u00e9e. \u00c0 Montr\u00e9al, les seuils applicables \u00e0 partir du January 1, 2027 sont les suivants : Tranche de la base d'imposition 2027"
+    },
+    {
+      "id": "87157716893d",
+      "value": "$62,900",
+      "context": "Up to $62,900 Up to $64,400 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur"
+    },
+    {
+      "id": "dd86591f27e9",
+      "value": "$64,400",
+      "context": "Up to $62,900 Up to $64,400 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "suivants : Tranche de la base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300"
+    },
+    {
+      "id": "db1838609464",
+      "value": "0.5%",
+      "context": "Up to $62,900 Up to $64,400 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "appliquant, pour l'exercice financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01"
+    },
+    {
+      "id": "69d4fd88ef88",
+      "value": "$62,900",
+      "context": "$62,900 to $315,000 $64,400 to $322,600 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur"
+    },
+    {
+      "id": "b5d18dbd6c92",
+      "value": "$315,000",
+      "context": "$62,900 to $315,000 $64,400 to $322,600 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes"
+    },
+    {
+      "id": "80f236aa31e8",
+      "value": "$64,400",
+      "context": "$62,900 to $315,000 $64,400 to $322,600 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "suivants : Tranche de la base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300"
+    },
+    {
+      "id": "8f56552a76d8",
+      "value": "$322,600",
+      "context": "$62,900 to $315,000 $64,400 to $322,600 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700"
+    },
+    {
+      "id": "e6433e282266",
+      "value": "1%",
+      "context": "$62,900 to $315,000 $64,400 to $322,600 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche"
+    },
+    {
+      "id": "4bf1bc6e22e8",
+      "value": "$315,000",
+      "context": "$315,000 to $552,300 $322,600 to $552,300 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes"
+    },
+    {
+      "id": "3369f7d91074",
+      "value": "$552,300",
+      "context": "$315,000 to $552,300 $322,600 to $552,300 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "3ff0e7498444",
+      "value": "$322,600",
+      "context": "$315,000 to $552,300 $322,600 to $552,300 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700"
+    },
+    {
+      "id": "e4f0b8f03fe9",
+      "value": "1.5%",
+      "context": "$315,000 to $552,300 $322,600 to $552,300 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes tranches"
+    },
+    {
+      "id": "bd96b8434d45",
+      "value": "$552,300",
+      "context": "$552,300 to $1,104,700 $552,300 to $1,104,700 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "e06fac11e824",
+      "value": "$1,104,700",
+      "context": "$552,300 to $1,104,700 $552,300 to $1,104,700 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000"
+    },
+    {
+      "id": "e7d981d365ce",
+      "value": "2%",
+      "context": "$552,300 to $1,104,700 $552,300 to $1,104,700 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5%"
+    },
+    {
+      "id": "0bfd87b2ad54",
+      "value": "$1,104,700",
+      "context": "$1,104,700 to $2,136,500 $1,104,700 to $2,136,500 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000"
+    },
+    {
+      "id": "60f91b793e50",
+      "value": "$2,136,500",
+      "context": "$1,104,700 to $2,136,500 $1,104,700 to $2,136,500 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000"
+    },
+    {
+      "id": "8f68ae17545d",
+      "value": "2.5%",
+      "context": "$1,104,700 to $2,136,500 $1,104,700 to $2,136,500 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4%"
+    },
+    {
+      "id": "38768fd39f57",
+      "value": "$2,136,500",
+      "context": "$2,136,500 to $3,113,000 $2,136,500 to $3,113,000 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000"
+    },
+    {
+      "id": "37d497d8fcb4",
+      "value": "$3,113,000",
+      "context": "$2,136,500 to $3,113,000 $2,136,500 to $3,113,000 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027"
+    },
+    {
+      "id": "63e164c51df8",
+      "value": "3.5%",
+      "context": "$2,136,500 to $3,113,000 $2,136,500 to $3,113,000 3.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027 Voici"
+    },
+    {
+      "id": "a0d69363c462",
+      "value": "$3,113,000",
+      "context": "Above $3,113,000 Above $3,113,000 4%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027"
+    },
+    {
+      "id": "d9306e902e5a",
+      "value": "4%",
+      "context": "Above $3,113,000 Above $3,113,000 4%",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027 Voici un exemple de calcul"
+    },
+    {
+      "id": "65a6743f5f7f",
+      "value": "$552,300",
+      "context": "The practical gap starts above $552,300 and grows fast.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "dddcdea103f1",
+      "value": "$500,000",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "a6d573e820f8",
+      "value": "$989",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "efb0635bfdb5",
+      "value": "$750,000,",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e28eefe759e2",
+      "value": "2%",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5%"
+    },
+    {
+      "id": "f6a443d79e49",
+      "value": "1.5%",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900 x 0.5% = 315 $ $252,100 x 1.0% = $2,521 $35,000 x 1.5% = 525 $ Le montant du droit de mutation correspond donc"
+    },
+    {
+      "id": "8d889498b38c",
+      "value": "$197,700",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "2bf7fd670e5a",
+      "value": "$552,300",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "7df5465c9adf",
+      "value": "$750,000",
+      "context": "On the same base, the duty is identical at $500,000 and about $989 higher at $750,000, with the whole difference coming from the 2% rate, instead of 1.5%, on the $197,700 between $552,300 and $750,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "479044527dcc",
+      "value": "$552,300",
+      "context": "The same as the provincial scale up to about $552,300 in Montr\u00e9al, then increasingly more.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "84eae89330a0",
+      "value": "$350,000",
+      "context": "$350,000 $3,360.50 $3,360.50 $0 $3,315.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "24bcec9e175e",
+      "value": "$3,360.50",
+      "context": "$350,000 $3,360.50 $3,360.50 $0 $3,315.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "686151109370",
+      "value": "$0",
+      "context": "$350,000 $3,360.50 $3,360.50 $0 $3,315.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ecca1db96962",
+      "value": "$3,315.00",
+      "context": "$350,000 $3,360.50 $3,360.50 $0 $3,315.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f01ee7f4882d",
+      "value": "$500,000",
+      "context": "$500,000 $5,610.50 $5,610.50 $0 $5,565.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "982a50661a41",
+      "value": "$5,610.50",
+      "context": "$500,000 $5,610.50 $5,610.50 $0 $5,565.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "00873f565958",
+      "value": "$0",
+      "context": "$500,000 $5,610.50 $5,610.50 $0 $5,565.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "00bd4c51387a",
+      "value": "$5,565.00",
+      "context": "$500,000 $5,610.50 $5,610.50 $0 $5,565.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "50103439297b",
+      "value": "$750,000",
+      "context": "$750,000 $9,360.50 $10,349.00 $988.50 $10,303.50",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2c452a2e9a01",
+      "value": "$9,360.50",
+      "context": "$750,000 $9,360.50 $10,349.00 $988.50 $10,303.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "a9d5f7f66e7d",
+      "value": "$10,349.00",
+      "context": "$750,000 $9,360.50 $10,349.00 $988.50 $10,303.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4ac6ebc1f189",
+      "value": "$988.50",
+      "context": "$750,000 $9,360.50 $10,349.00 $988.50 $10,303.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d14ee37eca46",
+      "value": "$10,303.50",
+      "context": "$750,000 $9,360.50 $10,349.00 $988.50 $10,303.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c42869a703bb",
+      "value": "$1,200,000",
+      "context": "$1,200,000 $16,110.50 $19,825.50 $3,715.00 $19,780.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a4064ed7bdc4",
+      "value": "$16,110.50",
+      "context": "$1,200,000 $16,110.50 $19,825.50 $3,715.00 $19,780.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ce182f48f952",
+      "value": "$19,825.50",
+      "context": "$1,200,000 $16,110.50 $19,825.50 $3,715.00 $19,780.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "3c9385ccf491",
+      "value": "$3,715.00",
+      "context": "$1,200,000 $16,110.50 $19,825.50 $3,715.00 $19,780.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "eee46ca85fe6",
+      "value": "$19,780.00",
+      "context": "$1,200,000 $16,110.50 $19,825.50 $3,715.00 $19,780.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ca40b09d5814",
+      "value": "$2,500,000",
+      "context": "$2,500,000 $35,610.50 $55,960.50 $20,350.00 $55,915.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "81a3230965ee",
+      "value": "$35,610.50",
+      "context": "$2,500,000 $35,610.50 $55,960.50 $20,350.00 $55,915.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "a35dcae87f69",
+      "value": "$55,960.50",
+      "context": "$2,500,000 $35,610.50 $55,960.50 $20,350.00 $55,915.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "b2a5af59a945",
+      "value": "$20,350.00",
+      "context": "$2,500,000 $35,610.50 $55,960.50 $20,350.00 $55,915.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "60fbd4520289",
+      "value": "$55,915.00",
+      "context": "$2,500,000 $35,610.50 $55,960.50 $20,350.00 $55,915.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "415867775057",
+      "value": "$4,000,000",
+      "context": "$4,000,000 $58,110.50 $112,895.50 $54,785.00 $112,850.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8b0edcc5c268",
+      "value": "$58,110.50",
+      "context": "$4,000,000 $58,110.50 $112,895.50 $54,785.00 $112,850.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0af3a46cc7df",
+      "value": "$112,895.50",
+      "context": "$4,000,000 $58,110.50 $112,895.50 $54,785.00 $112,850.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "3a4b634cf42c",
+      "value": "$54,785.00",
+      "context": "$4,000,000 $58,110.50 $112,895.50 $54,785.00 $112,850.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "cda83b4f37e1",
+      "value": "$112,850.00",
+      "context": "$4,000,000 $58,110.50 $112,895.50 $54,785.00 $112,850.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9ae4d5da3ac2",
+      "value": "$552,300",
+      "context": "Under $552,300 the Montr\u00e9al scale and the provincial scale give the same answer, so a typical condo does not pay more in Montr\u00e9al.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "eaa12aa057b8",
+      "value": "$45.50",
+      "context": "And at every price in the table the 2027 thresholds lower the duty by $45.50, because the first two brackets move up, so waiting for January saves a small amount rather than a large one.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "26f12f831c02",
+      "value": "$500,000,",
+      "context": "A municipality outside Montr\u00e9al may charge more than the provincial column above $500,000, so confirm its rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "fixer un taux sup\u00e9rieur sur toute tranche sup\u00e9rieure \u00e0 $500,000. Un tel taux ne peut toutefois exc\u00e9der 3%, sauf dans le"
+    },
+    {
+      "id": "939b7d9912c9",
+      "value": "12",
+      "context": "Spouses: including couples living together, normally after 12 months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "vivant maritalement depuis une certaine p\u00e9riode, normalement 12 mois); entre belle-m\u00e8re ou beau-p\u00e8re et bru ou gendre;"
+    },
+    {
+      "id": "465bed56dec6",
+      "value": "$5,000",
+      "context": "Small transfers: a tax base under $5,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "enregistr\u00e9e; Lorsque la base d'imposition est inf\u00e9rieure \u00e0 $5,000; Certains transferts impliquant les compagnies ou les soci\u00e9t\u00e9s"
+    },
+    {
+      "id": "94f9b8234b82",
+      "value": "$200",
+      "context": "In an exempt case, a municipality may collect a supplementary duty of up to $200 by resolution.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "r\u00e9solution, pr\u00e9voir qu'un montant ne pouvant pas d\u00e9passer 200 $ lui soit vers\u00e9 en guise de compensation (appel\u00e9 \u00ab droit"
+    },
+    {
+      "id": "7fa64dfe9adb",
+      "value": "30",
+      "context": "The municipality sends an invoice after the transfer is registered, and you pay it separately from the closing cheques, normally within 30 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "immobili\u00e8res? Elle est payable en un seul versement, dans les 30 jours suivant son envoi. Payer sa facture Recherche rapide"
+    },
+    {
+      "id": "bad76cfbd147",
+      "value": "30",
+      "context": "Montr\u00e9al's page says its invoice is payable in a single payment within 30 days of being sent.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "immobili\u00e8res? Elle est payable en un seul versement, dans les 30 jours suivant son envoi. Payer sa facture Recherche rapide"
+    },
+    {
+      "id": "8af4189a0228",
+      "value": "90",
+      "context": "If the deed is not registered in the land register, the buyer must give the municipality a disclosure notice within 90 days.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "foncier, la divulgation doit se faire, au plus tard, le 90e jour suivant la date de transfert; lorsque la condition"
+    },
+    {
+      "id": "6768e92a1c33",
+      "value": "150%",
+      "context": "Missing that deadline can lead to a supplementary duty to Revenu Qu\u00e9bec of up to 150% of the duty, plus interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "Revenu Qu\u00e9bec d'un droit suppl\u00e9tif pouvant aller jusqu'\u00e0 150% du droit de mutation ainsi que des int\u00e9r\u00eats. Les deux tiers"
+    },
+    {
+      "id": "923622d8757c",
+      "value": "0.5%",
+      "context": "For 2026 on the provincial scale that is 0.5% on the first $62,900, 1% to $315,000 and 1.5% above.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "appliquant, pour l'exercice financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01"
+    },
+    {
+      "id": "d952a67a3bc4",
+      "value": "$62,900,",
+      "context": "For 2026 on the provincial scale that is 0.5% on the first $62,900, 1% to $315,000 and 1.5% above.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "financier 2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur"
+    },
+    {
+      "id": "bdc1326d9123",
+      "value": "1%",
+      "context": "For 2026 on the provincial scale that is 0.5% on the first $62,900, 1% to $315,000 and 1.5% above.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "2026, les taux suivants : 0.5% sur les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche"
+    },
+    {
+      "id": "28b3bf0e84e2",
+      "value": "$315,000",
+      "context": "For 2026 on the provincial scale that is 0.5% on the first $62,900, 1% to $315,000 and 1.5% above.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "les premiers $62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes"
+    },
+    {
+      "id": "3b91e8c842a3",
+      "value": "1.5%",
+      "context": "For 2026 on the provincial scale that is 0.5% on the first $62,900, 1% to $315,000 and 1.5% above.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/gestion-municipale/finances-fiscalite-municipales/fiscalite/droits-mutations-immobilieres",
+      "sourceName": "Government of Qu\u00e9bec: Droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (qc_gov, HTTP 200)"
+      },
+      "needle": "$62,900; 1.0% sur la tranche de $62,900.01 \u00e0 $315,000; 1.5% sur la tranche qui exc\u00e8de $315,000. Ces diff\u00e9rentes tranches"
+    },
+    {
+      "id": "61b15f2c316e",
+      "value": "$552,300",
+      "context": "Only above $552,300 of tax base.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5%"
+    },
+    {
+      "id": "67fa2734cba2",
+      "value": "2%",
+      "context": "Below that, Montr\u00e9al's rates match the provincial scale, and above it they rise to 2%, 2.5%, 3.5% and 4%.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "x 1% = $2,582.00 $229,700 x 1.5% = $3,445.50 147 700 x 2% = $2,954.00 Dans cet exemple, pour un transfert d'immeuble"
+    },
+    {
+      "id": "72f81f80e2a9",
+      "value": "2.5%",
+      "context": "Below that, Montr\u00e9al's rates match the provincial scale, and above it they rise to 2%, 2.5%, 3.5% and 4%.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "$552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4%"
+    },
+    {
+      "id": "ad328f20d297",
+      "value": "3.5%",
+      "context": "Below that, Montr\u00e9al's rates match the provincial scale, and above it they rise to 2%, 2.5%, 3.5% and 4%.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "2% $1,104,700 \u00e0 $2,136,500 2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027 Voici"
+    },
+    {
+      "id": "5d4d69ea1d9b",
+      "value": "4%",
+      "context": "Below that, Montr\u00e9al's rates match the provincial scale, and above it they rise to 2%, 2.5%, 3.5% and 4%.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "2.5% $2,136,500 \u00e0 $3,113,000 3.5% \u00c0 partir de $3,113,000 4% Exemple de calcul pour 2027 Voici un exemple de calcul"
+    },
+    {
+      "id": "4ec9089c4732",
+      "value": "January 1",
+      "context": "On January 1 each year.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "chaque ann\u00e9e. \u00c0 Montr\u00e9al, les seuils applicables \u00e0 partir du January 1, 2027 sont les suivants : Tranche de la base d'imposition"
+    },
+    {
+      "id": "4b76c225c539",
+      "value": "$64,400",
+      "context": "The City of Montr\u00e9al lists the 2027 thresholds, which start at $64,400 and $322,600, and a 2027 comparative factor of 1.04.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "suivants : Tranche de la base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300"
+    },
+    {
+      "id": "4fe003e87e1c",
+      "value": "$322,600,",
+      "context": "The City of Montr\u00e9al lists the 2027 thresholds, which start at $64,400 and $322,600, and a 2027 comparative factor of 1.04.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "base d'imposition 2027 Taux Jusqu'\u00e0 $64,400 0.5% $64,400 \u00e0 $322,600 1% $322,600 \u00e0 $552,300 1.5% $552,300 \u00e0 $1,104,700 2% $1,104,700"
+    },
+    {
+      "id": "48c0a1fdec09",
+      "value": "1.04",
+      "context": "The City of Montr\u00e9al lists the 2027 thresholds, which start at $64,400 and $322,600, and a 2027 comparative factor of 1.04.",
+      "kind": "sourced",
+      "sourceUrl": "https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279",
+      "sourceName": "City of Montr\u00e9al: Comment sont calcul\u00e9s les droits sur les mutations immobili\u00e8res",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (mtl, HTTP 200)"
+      },
+      "needle": "Montr\u00e9al sont les suivants : Ann\u00e9e Facteur comparatif 2027 1.04 2026 1.00 2025 1.08 2024 1.10 Taux par tranches de valeur"
+    }
+  ]
+}

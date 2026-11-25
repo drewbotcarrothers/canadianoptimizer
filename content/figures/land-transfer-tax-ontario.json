@@ -1,0 +1,2706 @@
+{
+  "slug": "land-transfer-tax-ontario",
+  "publishDate": "2026-11-25",
+  "figures": [
+    {
+      "id": "7b74c3a93ef0",
+      "value": "$800,000",
+      "context": "On an $800,000 home the province's tax is $12,475, and inside the City of Toronto the city charges another $12,475.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b3bb6a125b66",
+      "value": "$12,475,",
+      "context": "On an $800,000 home the province's tax is $12,475, and inside the City of Toronto the city charges another $12,475.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "b16126f19b56",
+      "value": "$12,475",
+      "context": "On an $800,000 home the province's tax is $12,475, and inside the City of Toronto the city charges another $12,475.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "946318eb1663",
+      "value": "0.5%",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the following rates: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "ff2f7b6f9d3e",
+      "value": "$55,000",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000: 1.0% amounts exceeding $250,000:"
+    },
+    {
+      "id": "aa8b19e05a15",
+      "value": "1%",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "and including $55,000: 0.5% Amounts exceeding $55,000: 1% Amounts exceeding $250,000, where the land contains one"
+    },
+    {
+      "id": "033f9d1c3940",
+      "value": "$250,000,",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$55,000: 0.5% amounts exceeding $55,000, up to and including $250,000: 1.0% amounts exceeding $250,000: 1.5% amounts exceeding"
+    },
+    {
+      "id": "21301e648680",
+      "value": "1.5%",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000,"
+    },
+    {
+      "id": "9865f12d4387",
+      "value": "$400,000",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "0.015) - $1,525 for property with one or two SFRs exceeding $400,000: LTT = (VOC \u00d7 0.02) - $3,525 Historical land transfer tax"
+    },
+    {
+      "id": "3290384f0528",
+      "value": "2%",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.0%. For transfers with agreements of purchase and sale that"
+    },
+    {
+      "id": "9946aff364ca",
+      "value": "2.5%",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.5%. For the definition of single family residence, see Definitions"
+    },
+    {
+      "id": "c448f56c1e3c",
+      "value": "$2,000,000",
+      "context": "Ontario's land transfer tax is 0.5% on the first $55,000 of the price, 1% up to $250,000, 1.5% up to $400,000 and 2% above that, plus 2.5% on any part over $2,000,000 for a home with one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "751667b6f8f0",
+      "value": "$400,000",
+      "context": "The provincial tax on a $400,000 home is $4,475, and the same home in Toronto carries another $4,475 of municipal tax.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "126e84cacb39",
+      "value": "$4,475,",
+      "context": "The provincial tax on a $400,000 home is $4,475, and the same home in Toronto carries another $4,475 of municipal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "(150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation formula Formula for quick calculation"
+    },
+    {
+      "id": "b539f5cd1e50",
+      "value": "$4,475",
+      "context": "The provincial tax on a $400,000 home is $4,475, and the same home in Toronto carries another $4,475 of municipal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "(150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation formula Formula for quick calculation"
+    },
+    {
+      "id": "10209497f5fd",
+      "value": "$4,000",
+      "context": "A first-time buyer refund of up to $4,000 applies in all of Ontario, and Toronto adds a rebate of up to $4,475, so a $400,000 Toronto purchase costs a first-time buyer $475 in total.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "Beginning January 1, 2017, the maximum amount of the refund is $4,000. The increased limit of $4,000 applies only to conveyances"
+    },
+    {
+      "id": "d7e687a3f760",
+      "value": "$4,475,",
+      "context": "A first-time buyer refund of up to $4,000 applies in all of Ontario, and Toronto adds a rebate of up to $4,475, so a $400,000 Toronto purchase costs a first-time buyer $475 in total.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "interest in land of an eligible home and a rebate of up to $4,475.00. The definition of a first-time purchaser is: the purchaser"
+    },
+    {
+      "id": "2c3a3ae99837",
+      "value": "$400,000",
+      "context": "A first-time buyer refund of up to $4,000 applies in all of Ontario, and Toronto adds a rebate of up to $4,475, so a $400,000 Toronto purchase costs a first-time buyer $475 in total.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.0% amounts exceeding $250,000: 1.5% amounts exceeding $400,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "76909b82e001",
+      "value": "$475",
+      "context": "A first-time buyer refund of up to $4,000 applies in all of Ontario, and Toronto adds a rebate of up to $4,475, so a $400,000 Toronto purchase costs a first-time buyer $475 in total.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "7371c50ef8ac",
+      "value": "$3,000,000",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "up to 3,000,000.00 2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000"
+    },
+    {
+      "id": "43a70d0788b1",
+      "value": "April 1, 2026",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
+    },
+    {
+      "id": "dc9ddb0290d3",
+      "value": "4.4%",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000"
+    },
+    {
+      "id": "5d8e5b54f8ff",
+      "value": "$9,500",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
+      }
+    },
+    {
+      "id": "e11fecbec9e5",
+      "value": "$3,500,000",
+      "context": "Toronto's rates above $3,000,000 rose on April 1, 2026, to 4.4% and higher, which adds $9,500 to a $3,500,000 purchase.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "declared illustration price, labelled on the page"
+      }
+    },
+    {
+      "id": "ae9411b8b444",
+      "value": "25%",
+      "context": "Non-residents pay an extra 25% provincially, plus 10% in Toronto.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "cabinetry). In addition, for certain transfers of land, a 25 per cent Non\u2011Resident Speculation Tax (NRST) may apply. Who pays"
+    },
+    {
+      "id": "8ffe2d358d50",
+      "value": "10%",
+      "context": "Non-residents pay an extra 25% provincially, plus 10% in Toronto.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "Value of Consideration MNRST Rate Property purchase amount 10% Fees Description Fee $ MLTT Administration Fee - An administration"
+    },
+    {
+      "id": "e8e1f2319b81",
+      "value": "November 14, 2016",
+      "context": "The Ministry of Finance's calculation page lists five brackets for agreements of purchase and sale after November 14, 2016.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "of purchase and sale that were entered into on or before November 14, 2016, the above rates will apply regardless of the date of registration"
+    },
+    {
+      "id": "94384735b492",
+      "value": "$55,000",
+      "context": "Up to and including $55,000 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "consideration are as follows: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "a3279b67bda2",
+      "value": "0.5%",
+      "context": "Up to and including $55,000 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "consideration are as follows: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "638aacabd90f",
+      "value": "$55,000",
+      "context": "$55,000 to $250,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "consideration are as follows: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "6291732a5954",
+      "value": "$250,000",
+      "context": "$55,000 to $250,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$55,000: 0.5% amounts exceeding $55,000, up to and including $250,000: 1.0% amounts exceeding $250,000, up to and including $400,000:"
+    },
+    {
+      "id": "0c98a6422c61",
+      "value": "1.0%",
+      "context": "$55,000 to $250,000 1.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "amounts exceeding $55,000, up to and including $250,000: 1.0% amounts exceeding $250,000, up to and including $400,000:"
+    },
+    {
+      "id": "15aed8451044",
+      "value": "$250,000",
+      "context": "$250,000 to $400,000 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$55,000: 0.5% amounts exceeding $55,000, up to and including $250,000: 1.0% amounts exceeding $250,000, up to and including $400,000:"
+    },
+    {
+      "id": "9ed42f654859",
+      "value": "$400,000",
+      "context": "$250,000 to $400,000 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$250,000: 1.0% amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding"
+    },
+    {
+      "id": "de73fec71950",
+      "value": "1.5%",
+      "context": "$250,000 to $400,000 1.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000,"
+    },
+    {
+      "id": "c6409ad1c92b",
+      "value": "$400,000",
+      "context": "$400,000 and above 2.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$250,000: 1.0% amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding"
+    },
+    {
+      "id": "b904d5b6fcfe",
+      "value": "2.0%",
+      "context": "$400,000 and above 2.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.0%. For transfers with agreements of purchase and sale that"
+    },
+    {
+      "id": "15ca57d3660e",
+      "value": "$2,000,000,",
+      "context": "Above $2,000,000, one or two single-family residences only 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "666062efe1e3",
+      "value": "2.5%",
+      "context": "Above $2,000,000, one or two single-family residences only 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.5%. For the definition of single family residence, see Definitions"
+    },
+    {
+      "id": "c8e506ccb79b",
+      "value": "$400,000",
+      "context": "The ministry's own example is a $400,000 transfer: $275 on the first slice, $1,950 on the second and $2,250 on the third, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "in land in which the value of the consideration equals $400,000: multiply $55,000 by 0.5% (55,000 \u00d7 0.005) = $275 multiply"
+    },
+    {
+      "id": "f5155e602fcc",
+      "value": "$275",
+      "context": "The ministry's own example is a $400,000 transfer: $275 on the first slice, $1,950 on the second and $2,250 on the third, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "equals $400,000: multiply $55,000 by 0.5% (55,000 \u00d7 0.005) = $275 multiply the amount exceeding $55,000 up to $250,000 by"
+    },
+    {
+      "id": "5212a613859f",
+      "value": "$1,950",
+      "context": "The ministry's own example is a $400,000 transfer: $275 on the first slice, $1,950 on the second and $2,250 on the third, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "exceeding $55,000 up to $250,000 by 1.0% (195,000 \u00d7 0.01) = $1,950 multiply the amount exceeding $250,000 up to $400,000 by"
+    },
+    {
+      "id": "866d9f19944e",
+      "value": "$2,250",
+      "context": "The ministry's own example is a $400,000 transfer: $275 on the first slice, $1,950 on the second and $2,250 on the third, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "exceeding $250,000 up to $400,000 by 1.5% (150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation"
+    },
+    {
+      "id": "7ad2bbf6d552",
+      "value": "$4,475",
+      "context": "The ministry's own example is a $400,000 transfer: $275 on the first slice, $1,950 on the second and $2,250 on the third, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "(150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation formula Formula for quick calculation"
+    },
+    {
+      "id": "21a6e1139e6e",
+      "value": "$400,000",
+      "context": "That is the number to remember, because it is also the tax on the first $400,000 of every more expensive home.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "claimed. Where the value of the consideration is greater than $400,000, the > $400,000 tab of the land transfer tax section of"
+    },
+    {
+      "id": "8781fd3f4f6d",
+      "value": "February 1, 2008",
+      "context": "The City of Toronto's rates page says it has applied since February 1, 2008.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "Toronto in addition to the Provincial Land Transfer Tax as of February 1, 2008. Municipal Non-Resident Speculation Tax (MNRST) - City"
+    },
+    {
+      "id": "5e7df3a06db2",
+      "value": "$2,000,000",
+      "context": "For homes with one or two single-family residences, the city's rates match the province's up to $2,000,000 and then climb.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "b7f46a1407d5",
+      "value": "April 1, 2026",
+      "context": "Toronto municipal land transfer tax, one or two single-family residences (rates as of April 1, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
+    },
+    {
+      "id": "455dad1a380e",
+      "value": "$55,000",
+      "context": "Up to $55,000 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "consideration are as follows: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "041df01eca13",
+      "value": "0.5%",
+      "context": "Up to $55,000 0.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "consideration are as follows: amounts up to and including $55,000: 0.5% amounts exceeding $55,000, up to and including $250,000:"
+    },
+    {
+      "id": "2125c59b8f17",
+      "value": "$400,000",
+      "context": "$400,000 to $2,000,000 2.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$250,000: 1.0% amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding"
+    },
+    {
+      "id": "c55206c51575",
+      "value": "$2,000,000",
+      "context": "$400,000 to $2,000,000 2.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "e2dfaf583735",
+      "value": "2.0%",
+      "context": "$400,000 to $2,000,000 2.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one"
+    },
+    {
+      "id": "c18acbeb09cd",
+      "value": "$2,000,000",
+      "context": "$2,000,000 to $3,000,000 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "0aa64442b00d",
+      "value": "$3,000,000",
+      "context": "$2,000,000 to $3,000,000 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "up to 3,000,000.00 2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000"
+    },
+    {
+      "id": "ee55b92eb62e",
+      "value": "2.5%",
+      "context": "$2,000,000 to $3,000,000 2.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.5%. For the definition of single family residence, see Definitions"
+    },
+    {
+      "id": "a6b8e51bc1fe",
+      "value": "$3,000,000",
+      "context": "$3,000,000 to $4,000,000 4.4%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "up to 3,000,000.00 2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000"
+    },
+    {
+      "id": "c6132052ff7f",
+      "value": "$4,000,000",
+      "context": "$3,000,000 to $4,000,000 4.4%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000"
+    },
+    {
+      "id": "5a6631656d55",
+      "value": "4.4%",
+      "context": "$3,000,000 to $4,000,000 4.4%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000"
+    },
+    {
+      "id": "7f3475549d72",
+      "value": "$4,000,000",
+      "context": "$4,000,000 to $5,000,000 5.45%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "2.5% Rates as of April 1, 2026 Over $3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000"
+    },
+    {
+      "id": "3aa5038193fe",
+      "value": "$5,000,000",
+      "context": "$4,000,000 to $5,000,000 5.45%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over"
+    },
+    {
+      "id": "d2bb1a1147b7",
+      "value": "5.45%",
+      "context": "$4,000,000 to $5,000,000 5.45%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over $10,000,000"
+    },
+    {
+      "id": "a42823cf5b1a",
+      "value": "$5,000,000",
+      "context": "$5,000,000 to $10,000,000 6.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$3,000,000 and up to $4,000,000 4.40% Over $4,000,000 and up to $5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over"
+    },
+    {
+      "id": "68da3d9a13b7",
+      "value": "$10,000,000",
+      "context": "$5,000,000 to $10,000,000 6.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$4,000,000 and up to $5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over"
+    },
+    {
+      "id": "1e141e173f9d",
+      "value": "6.5%",
+      "context": "$5,000,000 to $10,000,000 6.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over $20,000,000"
+    },
+    {
+      "id": "a6da69a94a4d",
+      "value": "$10,000,000",
+      "context": "$10,000,000 to $20,000,000 7.55%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$4,000,000 and up to $5,000,000 5.45% Over $5,000,000 and up to $10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over"
+    },
+    {
+      "id": "fa7e3c23f6de",
+      "value": "$20,000,000",
+      "context": "$10,000,000 to $20,000,000 7.55%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "and up to $10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over $20,000,000 8.60% Continuing for all other non-single"
+    },
+    {
+      "id": "05a5cb449092",
+      "value": "7.55%",
+      "context": "$10,000,000 to $20,000,000 7.55%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over $20,000,000 8.60% Continuing for all other non-single"
+    },
+    {
+      "id": "19d7b046ec05",
+      "value": "$20,000,000",
+      "context": "Over $20,000,000 8.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "and up to $10,000,000 6.50% Over $10,000,000 and up to $20,000,000 7.55% Over $20,000,000 8.60% Continuing for all other non-single"
+    },
+    {
+      "id": "390c24cb9e5f",
+      "value": "8.6%",
+      "context": "Over $20,000,000 8.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "$10,000,000 and up to $20,000,000 7.55% Over $20,000,000 8.60% Continuing for all other non-single family residences with"
+    },
+    {
+      "id": "1703903541a8",
+      "value": "December 17, 2025",
+      "context": "City Council passed the graduated rates for high-value homes on December 17, 2025, and they took effect on April 1, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "Speculation Tax Rates & Fees Share This Page Print Translate On December 17, 2025 City Council passed an amendment to introduce graduated"
+    },
+    {
+      "id": "ed3b2856035d",
+      "value": "April 1, 2026",
+      "context": "City Council passed the graduated rates for high-value homes on December 17, 2025, and they took effect on April 1, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
+    },
+    {
+      "id": "44e65942a1e7",
+      "value": "2%",
+      "context": "Other property, such as multi-residential buildings, keeps the older structure with 2% above $400,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.0%. For transfers with agreements of purchase and sale that"
+    },
+    {
+      "id": "cf4a960c7d88",
+      "value": "$400,000",
+      "context": "Other property, such as multi-residential buildings, keeps the older structure with 2% above $400,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "LTT = (VOC \u00d7 0.01) - $275 exceeding $250,000, and up to $400,000: LTT = (VOC \u00d7 0.015) - $1,525 exceeding $400,000, for property"
+    },
+    {
+      "id": "bdb987dfc41b",
+      "value": "April 1, 2026",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "single-family residences. The new MLTT rates will take effect on April 1, 2026. Get tax estimates instantly to help plan and budget for"
+    },
+    {
+      "id": "009954e4d456",
+      "value": "2.5%",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "Toronto 2.5% tier above $2,000,000 shown on live page (2,000,000.01-3,000,000 at 2.5%); page snapshot of 2026-01-10 (web.archive.org) labels it \"no change\" in the April 2026 revision"
+      },
+      "needle": "2,000,000.01 and up to 3,000,000.00 2.5%"
+    },
+    {
+      "id": "c8591982034c",
+      "value": "$2,000,000",
+      "context": "The old figure uses the structure the city's rates page listed before April 1, 2026, which had the same 2.5% rate above $2,000,000 for these homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "Toronto 2.5% tier above $2,000,000 shown on live page (2,000,000.01-3,000,000 at 2.5%); page snapshot of 2026-01-10 (web.archive.org) labels it \"no change\" in the April 2026 revision"
+      },
+      "needle": "2,000,000.01 and up to 3,000,000.00 2.5%"
+    },
+    {
+      "id": "728e6bca7a90",
+      "value": "$3,500,000",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "declared illustration price, labelled on the page"
+      }
+    },
+    {
+      "id": "3a3ace96ef76",
+      "value": "$73,975",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
+      }
+    },
+    {
+      "id": "eb3ec5472dc8",
+      "value": "$83,475,",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
+      }
+    },
+    {
+      "id": "d8d551340163",
+      "value": "$9,500",
+      "context": "The effect is small for most buyers and large at the top: on a $3,500,000 home the old structure gave $73,975 and the new one gives $83,475, or $9,500 more (our arithmetic from the two rate lists).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - fresh independent source checker (separate agent from drafter), run 2026-11-25",
+        "note": "recomputed by hand by fresh checker: Toronto old = 4,475 + 2% x 1,600,000 + 2.5% x 1,500,000 = 73,975; new = 4,475 + 32,000 + 25,000 + 4.4% x 500,000 = 83,475; diff 9,500"
+      }
+    },
+    {
+      "id": "53c53cfaf9a3",
+      "value": "$2,000,000,",
+      "context": "For a home inside Toronto, roughly twice the provincial amount until the price passes $2,000,000, less any first-time buyer refund.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    },
+    {
+      "id": "69a1c1d48a92",
+      "value": "$400,000",
+      "context": "$400,000 $4,475 $475 $4,475 $0 $8,950 $475",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e7878b3c46f5",
+      "value": "$4,475",
+      "context": "$400,000 $4,475 $475 $4,475 $0 $8,950 $475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8e563fb3b071",
+      "value": "$475",
+      "context": "$400,000 $4,475 $475 $4,475 $0 $8,950 $475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c77fd0ad18cc",
+      "value": "$0",
+      "context": "$400,000 $4,475 $475 $4,475 $0 $8,950 $475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4d059c60a093",
+      "value": "$8,950",
+      "context": "$400,000 $4,475 $475 $4,475 $0 $8,950 $475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f587cdb6f069",
+      "value": "$600,000",
+      "context": "$600,000 $8,475 $4,475 $8,475 $4,000 $16,950 $8,475",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e0b6fd86c699",
+      "value": "$8,475",
+      "context": "$600,000 $8,475 $4,475 $8,475 $4,000 $16,950 $8,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "490541d11590",
+      "value": "$4,475",
+      "context": "$600,000 $8,475 $4,475 $8,475 $4,000 $16,950 $8,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "b39739a0f9b8",
+      "value": "$4,000",
+      "context": "$600,000 $8,475 $4,475 $8,475 $4,000 $16,950 $8,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e50732f3ebc0",
+      "value": "$16,950",
+      "context": "$600,000 $8,475 $4,475 $8,475 $4,000 $16,950 $8,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "719df7b0d8f4",
+      "value": "$800,000",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "5b5f2bd00cf3",
+      "value": "$12,475",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "83dea2217368",
+      "value": "$8,475",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5000ce06f0e2",
+      "value": "$8,000",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ffca05338c92",
+      "value": "$24,950",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4157077e7839",
+      "value": "$16,475",
+      "context": "$800,000 $12,475 $8,475 $12,475 $8,000 $24,950 $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "7f9fab8ec8d1",
+      "value": "$1,000,000",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0e0b73e20afa",
+      "value": "$16,475",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d7373fa84890",
+      "value": "$12,475",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "db621681c5ee",
+      "value": "$12,000",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f5f8e7c8ba84",
+      "value": "$32,950",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4bbc06bc924b",
+      "value": "$24,475",
+      "context": "$1,000,000 $16,475 $12,475 $16,475 $12,000 $32,950 $24,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "86ad876b9d10",
+      "value": "$1,500,000",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "63601143c3d0",
+      "value": "$26,475",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "bd88ff3509e2",
+      "value": "$22,475",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0cb269bada28",
+      "value": "$22,000",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5d137efeda3f",
+      "value": "$52,950",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "febebdad0492",
+      "value": "$44,475",
+      "context": "$1,500,000 $26,475 $22,475 $26,475 $22,000 $52,950 $44,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "00fe6b1e48db",
+      "value": "$3,500,000",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ef11b2e2ac00",
+      "value": "$73,975",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5379d292254f",
+      "value": "$69,975",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "93fa4f52a5ed",
+      "value": "$83,475",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "37203effbc7e",
+      "value": "$79,000",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "bb1abf2aae15",
+      "value": "$157,450",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f528e4998a5b",
+      "value": "$148,975",
+      "context": "$3,500,000 $73,975 $69,975 $83,475 $79,000 $157,450 $148,975",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "1747a9c7ca27",
+      "value": "$600,000",
+      "context": "A $600,000 purchase in Toronto carries $16,950 of tax before refunds, which is more than many buyers expect to find at closing.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b160e2e6a8b2",
+      "value": "$16,950",
+      "context": "A $600,000 purchase in Toronto carries $16,950 of tax before refunds, which is more than many buyers expect to find at closing.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "856e334b2e19",
+      "value": "$400,000,",
+      "context": "And once a price passes about $400,000, the refunds stop growing, so the refund is worth less and less as a share of the tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "in land in which the value of the consideration equals $400,000: multiply $55,000 by 0.5% (55,000 \u00d7 0.005) = $275 multiply"
+    },
+    {
+      "id": "96edfbede678",
+      "value": "$800,000",
+      "context": "Illustration: a first-time buyer at $800,000 in Toronto",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "01e9e89de99c",
+      "value": "$12,475",
+      "context": "Ontario land transfer tax $12,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "74141b343eba",
+      "value": "$4,000",
+      "context": "Less provincial first-time refund (maximum) \u2212$4,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "Beginning January 1, 2017, the maximum amount of the refund is $4,000. The increased limit of $4,000 applies only to conveyances"
+    },
+    {
+      "id": "5b82d4c91929",
+      "value": "$12,475",
+      "context": "Toronto municipal land transfer tax $12,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e35d5749c7d5",
+      "value": "$4,475",
+      "context": "Less Toronto first-time rebate (maximum) \u2212$4,475",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "interest in land of an eligible home and a rebate of up to $4,475.00. The definition of a first-time purchaser is: the purchaser"
+    },
+    {
+      "id": "9509a661de20",
+      "value": "$16,475",
+      "context": "Land transfer tax due $16,475",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "785d61738793",
+      "value": "$24,950",
+      "context": "Without the two refunds the same purchase costs $24,950.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "24b5fddb1996",
+      "value": "18",
+      "context": "A buyer who is at least 18, is a Canadian citizen or permanent resident, has never owned a home or an interest in one anywhere in the world and will live in the home.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "after November 14, 2016, an individual who is at least 18 years of age, who is a Canadian citizen or permanent resident"
+    },
+    {
+      "id": "06d118dc3726",
+      "value": "$4,000,",
+      "context": "Amount: up to $4,000, which means no provincial tax on the first $368,000 for an eligible home.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "greater than $368,000 would receive a maximum refund of $4,000. For information on determining the value of the consideration"
+    },
+    {
+      "id": "d7dbee4ca914",
+      "value": "$368,000",
+      "context": "Amount: up to $4,000, which means no provincial tax on the first $368,000 for an eligible home.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "payable by qualifying first\u2011time purchasers on the first $368,000 of the value of the consideration for eligible homes. First\u2011time"
+    },
+    {
+      "id": "638f9893468d",
+      "value": "$3,995",
+      "context": "Our arithmetic from the brackets gives $3,995 of tax at $368,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "df3a04cb516d",
+      "value": "$368,000",
+      "context": "Our arithmetic from the brackets gives $3,995 of tax at $368,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "payable by qualifying first\u2011time purchasers on the first $368,000 of the value of the consideration for eligible homes. First\u2011time"
+    },
+    {
+      "id": "ad149562338d",
+      "value": "50%",
+      "context": "A parent who is not a first-time buyer holding 50% leaves the child with half of the maximum.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "equal 50/50 interests, the child may claim a refund of 50% of the land transfer tax refund. The child's claim cannot"
+    },
+    {
+      "id": "d543909f491b",
+      "value": "18",
+      "context": "Timing: claim it at registration through your lawyer, or apply to the ministry within 18 months of the transfer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "A qualifying purchaser must apply for the refund within 18 months after the date of registration of the conveyance"
+    },
+    {
+      "id": "e96e13c5c1ef",
+      "value": "$4,475",
+      "context": "Toronto's rebate page has the same definition of a first-time purchaser, a rebate of up to $4,475 and a separate application to the city if it was not claimed at registration.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "interest in land of an eligible home and a rebate of up to $4,475.00. The definition of a first-time purchaser is: the purchaser"
+    },
+    {
+      "id": "f4ffd1af9a95",
+      "value": "$4,000",
+      "context": "Ontario also says false statements in a refund application can be prosecuted, with a maximum fine of $4,000 on conviction.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "fraudulent means. The maximum fine, upon conviction, is $4,000. Procedures to apply for the refund Electronic registration"
+    },
+    {
+      "id": "b134a729eacb",
+      "value": "October 29, 2026",
+      "context": "A bill tabled on October 29, 2026 (Bill 143) proposes raising it to $10,000, but at first reading it was not law as of November 25, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ola.org/sites/default/files/node-files/bill/document/pdf/2026/2026-10/b143_e.pdf",
+      "sourceName": "Legislative Assembly of Ontario: Bill 143",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bill143, HTTP 200)"
+      },
+      "needle": "Bethlenfalvy Minister of Finance Government Bill 1st Reading October 29, 2026 2nd Reading 3rd Reading Royal Assent EXPLANATORY NOTE SCHEDULE"
+    },
+    {
+      "id": "96b0b33ede97",
+      "value": "$10,000,",
+      "context": "A bill tabled on October 29, 2026 (Bill 143) proposes raising it to $10,000, but at first reading it was not law as of November 25, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://budget.ontario.ca/2026/fallstatement/annex.html",
+      "sourceName": "Ontario 2026 Fall Statement, Annex",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_annex, HTTP 200)"
+      },
+      "needle": "statements in applications for the refund from $4,000 to $10,000. Amendments to the Assessment Act to: repeal spent provisions,"
+    },
+    {
+      "id": "8d795166c45a",
+      "value": "November 25, 2026",
+      "context": "A bill tabled on October 29, 2026 (Bill 143) proposes raising it to $10,000, but at first reading it was not law as of November 25, 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "review date = day sources were read (2026-11-25)"
+      }
+    },
+    {
+      "id": "64f95ec05dfc",
+      "value": "25%",
+      "context": "Non-Resident Speculation Tax: 25% on residential property anywhere in Ontario bought by foreign nationals, foreign corporations or taxable trustees, in addition to land transfer tax, effective since October 25, 2022.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "Non-Resident Speculation Tax (NRST) rate was increased to 25 per cent. The NRST applies on the purchase or acquisition of an"
+    },
+    {
+      "id": "12cb92f32afc",
+      "value": "October 25, 2022",
+      "context": "Non-Resident Speculation Tax: 25% on residential property anywhere in Ontario bought by foreign nationals, foreign corporations or taxable trustees, in addition to land transfer tax, effective since October 25, 2022.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "Dispositions of a Beneficial Interest in Land. Effective October 25, 2022, the Non-Resident Speculation Tax (NRST) rate was increased"
+    },
+    {
+      "id": "0ff02bba7eed",
+      "value": "10%",
+      "context": "Toronto's non-resident tax: 10% of the price for foreign buyers of certain residential property, since January 1, 2025, in addition to the municipal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "Tax on Foreign Buyers of Residential Property. A rate of 10 per cent on the purchase price for foreign buyers on certain residential"
+    },
+    {
+      "id": "5fa01c2eeebe",
+      "value": "January 1, 2025",
+      "context": "Toronto's non-resident tax: 10% of the price for foreign buyers of certain residential property, since January 1, 2025, in addition to the municipal tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "residential properties, in addition to the MLTT, effective January 1, 2025. Expand All Municipal Land Transfer Tax & Municipal Non-Resident"
+    },
+    {
+      "id": "1978a00b3843",
+      "value": "$24,000",
+      "context": "Buyers of new homes may receive a rebate of up to $24,000 of the provincial 8% portion; questions about it go to the CRA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "homes. Buyers of new homes may receive a rebate of up to $24,000 of the provincial portion (8 per cent) of the HST. If you"
+    },
+    {
+      "id": "97c0bba0b4f7",
+      "value": "8%",
+      "context": "Buyers of new homes may receive a rebate of up to $24,000 of the provincial 8% portion; questions about it go to the CRA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "receive a rebate of up to $24,000 of the provincial portion (8 per cent) of the HST. If you have any questions about the HST rebate"
+    },
+    {
+      "id": "11057d2c2978",
+      "value": "$102.56",
+      "context": "Toronto administration fee: $102.56 plus HST per municipal tax transaction.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/",
+      "sourceName": "City of Toronto: MLTT rates and fees",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rates, HTTP 200)"
+      },
+      "needle": "excluding HST (HST is payable on the transaction fee). $102.56 + HST MLTT Refund Fee - An administration fee for processing"
+    },
+    {
+      "id": "7d2adc75a020",
+      "value": "$400,000",
+      "context": "On $400,000 that is $275, $1,950 and $2,250, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "$250,000: 1.0% amounts exceeding $250,000, up to and including $400,000: 1.5% amounts exceeding $400,000: 2.0% amounts exceeding"
+    },
+    {
+      "id": "8dc4c8b5fe98",
+      "value": "$275,",
+      "context": "On $400,000 that is $275, $1,950 and $2,250, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "equals $400,000: multiply $55,000 by 0.5% (55,000 \u00d7 0.005) = $275 multiply the amount exceeding $55,000 up to $250,000 by"
+    },
+    {
+      "id": "91e05deb290a",
+      "value": "$1,950",
+      "context": "On $400,000 that is $275, $1,950 and $2,250, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "exceeding $55,000 up to $250,000 by 1.0% (195,000 \u00d7 0.01) = $1,950 multiply the amount exceeding $250,000 up to $400,000 by"
+    },
+    {
+      "id": "2f59ad559a08",
+      "value": "$2,250,",
+      "context": "On $400,000 that is $275, $1,950 and $2,250, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "exceeding $250,000 up to $400,000 by 1.5% (150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation"
+    },
+    {
+      "id": "4955f6465bd6",
+      "value": "$4,475",
+      "context": "On $400,000 that is $275, $1,950 and $2,250, for $4,475.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "(150,000 \u00d7 0.015) = $2,250 Total land transfer tax payable = $4,475. Quick calculation formula Formula for quick calculation"
+    },
+    {
+      "id": "b75c598d9765",
+      "value": "$4,000",
+      "context": "Up to $4,000 from Ontario and, inside Toronto, up to $4,475 more from the city, both for eligible first-time buyers who move in within nine months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/land-transfer-tax-refunds-first-time-homebuyers",
+      "sourceName": "Ontario Ministry of Finance: LTT refunds for first-time homebuyers",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_ftb, HTTP 200)"
+      },
+      "needle": "claims cannot exceed the maximum land transfer tax refund of $4,000. Time limit to apply for refund A qualifying purchaser"
+    },
+    {
+      "id": "2ca52b1ae94a",
+      "value": "$4,475",
+      "context": "Up to $4,000 from Ontario and, inside Toronto, up to $4,475 more from the city, both for eligible first-time buyers who move in within nine months.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/",
+      "sourceName": "City of Toronto: MLTT rebate opportunities",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (tor_rebate, HTTP 200)"
+      },
+      "needle": "interest in land of an eligible home and a rebate of up to $4,475.00. The definition of a first-time purchaser is: the purchaser"
+    },
+    {
+      "id": "3bde168904e2",
+      "value": "30",
+      "context": "If a transfer is not registered within 30 days of closing, a return and the payment are due to the ministry within 30 days after closing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "is registered. If the transfer is not registered within 30 days of closing, you must submit a Return on the Acquisition"
+    },
+    {
+      "id": "0de10b9a0226",
+      "value": "18",
+      "context": "First-time buyer refunds must be claimed within 18 months of the transfer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_main, HTTP 200)"
+      },
+      "needle": "First-time homebuyer refund requests must be made within 18 months after the date of the transfer. All other refund"
+    },
+    {
+      "id": "c4909dda0658",
+      "value": "2.5%",
+      "context": "Does the 2.5% rate apply to every expensive home?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "the land contains one or two single family residences: 2.5% Same rate as for residents of Canada May 7, 1997 Amounts"
+    },
+    {
+      "id": "a797923f33fd",
+      "value": "$2,000,000",
+      "context": "It applies to the part above $2,000,000 when the land contains one or two single-family residences.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.ontario.ca/document/land-transfer-tax/calculating-land-transfer-tax",
+      "sourceName": "Ontario Ministry of Finance: Calculating land transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (ont_calc, HTTP 200)"
+      },
+      "needle": "1.5% amounts exceeding $400,000: 2.0% amounts exceeding $2,000,000, where the land contains one or two single family residences:"
+    }
+  ]
+}

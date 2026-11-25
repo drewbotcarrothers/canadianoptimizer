@@ -23,6 +23,7 @@ import { batch20261120Posts } from './nov2026/batch-2026-11-20';
 import { batch20261121Posts } from './nov2026/batch-2026-11-21';
 import { batch20261122Posts } from './nov2026/batch-2026-11-22';
 import { batch20261123Posts } from './nov2026/batch-2026-11-23';
+import { batch20261125Posts } from './nov2026/batch-2026-11-25';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -21671,6 +21672,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/land-transfer-tax-ontario/">Ontario land transfer tax: rates, Toronto tax and refunds</a> &middot; <a href="/blog/property-transfer-tax-bc/">BC property transfer tax: rates, exemptions and price cliffs</a> &middot; <a href="/blog/welcome-tax-quebec/">Quebec welcome tax: how the transfer duty is calculated</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian land transfer taxes and closing costs. It is not legal, tax, or lending advice. Brackets, municipal rates, rebates, foreign-buyer rules, and GST/HST rebates change, and several figures in this article are described as long-standing so you will recompute them. The $800,000 arithmetic is an illustration of published band structures, not an assessment. Have the closing lawyer confirm cash to close for your property and your buyers.</p>
         <div class="footer-note">Published: September 17, 2026 | Category: Real Estate | Author: Andrew</div>
@@ -22200,6 +22203,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>Deductions, repayments, and the principal residence you just bought all land on a return. The 2026 tax guide is that return.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/land-transfer-tax-ontario/">Ontario land transfer tax: rates, Toronto tax and refunds</a> &middot; <a href="/blog/property-transfer-tax-bc/">BC property transfer tax: rates, exemptions and price cliffs</a> &middot; <a href="/blog/welcome-tax-quebec/">Quebec welcome tax: how the transfer duty is calculated</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the order of FHSA, TFSA, and Home Buyers' Plan withdrawals for a first home in Canada. It is not tax, legal, or mortgage advice. Contribution limits, the HBP maximum, repayment timing, and qualifying-withdrawal conditions change. Figures described as "has been" are there so you will confirm them. The couple in the example is an illustration of sequencing, not a savings target. Confirm RC725 timing with your issuer and cash to close with your lawyer.</p>
@@ -26998,6 +27003,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261121Posts,
   ...batch20261122Posts,
   ...batch20261123Posts,
+  ...batch20261125Posts,
 
 ];
 

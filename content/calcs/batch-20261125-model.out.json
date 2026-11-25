@@ -1,0 +1,216 @@
+{
+ "on": {
+  "400000": {
+   "on": 4475.0,
+   "on_refund": 4000,
+   "on_net": 475.0,
+   "tor": 4475.0,
+   "tor_rebate": 4475.0,
+   "tor_net": 0.0,
+   "both": 8950.0,
+   "both_ftb": 475.0
+  },
+  "600000": {
+   "on": 8475.0,
+   "on_refund": 4000,
+   "on_net": 4475.0,
+   "tor": 8475.0,
+   "tor_rebate": 4475,
+   "tor_net": 4000.0,
+   "both": 16950.0,
+   "both_ftb": 8475.0
+  },
+  "800000": {
+   "on": 12475.0,
+   "on_refund": 4000,
+   "on_net": 8475.0,
+   "tor": 12475.0,
+   "tor_rebate": 4475,
+   "tor_net": 8000.0,
+   "both": 24950.0,
+   "both_ftb": 16475.0
+  },
+  "1000000": {
+   "on": 16475.0,
+   "on_refund": 4000,
+   "on_net": 12475.0,
+   "tor": 16475.0,
+   "tor_rebate": 4475,
+   "tor_net": 12000.0,
+   "both": 32950.0,
+   "both_ftb": 24475.0
+  },
+  "1500000": {
+   "on": 26475.0,
+   "on_refund": 4000,
+   "on_net": 22475.0,
+   "tor": 26475.0,
+   "tor_rebate": 4475,
+   "tor_net": 22000.0,
+   "both": 52950.0,
+   "both_ftb": 44475.0
+  },
+  "2500000": {
+   "on": 48975.0,
+   "on_refund": 4000,
+   "on_net": 44975.0,
+   "tor": 48975.0,
+   "tor_rebate": 4475,
+   "tor_net": 44500.0,
+   "both": 97950.0,
+   "both_ftb": 89475.0
+  },
+  "3500000": {
+   "on": 73975.0,
+   "on_refund": 4000,
+   "on_net": 69975.0,
+   "tor": 83475.0,
+   "tor_rebate": 4475,
+   "tor_net": 79000.0,
+   "both": 157450.0,
+   "both_ftb": 148975.0
+  }
+ },
+ "on_368k": 3995.0,
+ "on_400k_steps": [
+  275.0,
+  1950.0,
+  2250.0
+ ],
+ "tor_old_3_5m": 73975.0,
+ "tor_new_3_5m": 83475.0,
+ "tor_3_5m_diff": 9500.0,
+ "bc": {
+  "400000": {
+   "ptt": 6000.0,
+   "ftb_exempt": 6000.0,
+   "ftb_payable": 0.0,
+   "new_exempt": 6000.0,
+   "new_payable": 0.0
+  },
+  "500000": {
+   "ptt": 8000.0,
+   "ftb_exempt": 8000.0,
+   "ftb_payable": 0.0,
+   "new_exempt": 8000.0,
+   "new_payable": 0.0
+  },
+  "650000": {
+   "ptt": 11000.0,
+   "ftb_exempt": 8000,
+   "ftb_payable": 3000.0,
+   "new_exempt": 11000.0,
+   "new_payable": 0.0
+  },
+  "835000": {
+   "ptt": 14700.0,
+   "ftb_exempt": 8000,
+   "ftb_payable": 6700.0,
+   "new_exempt": 14700.0,
+   "new_payable": 0.0
+  },
+  "900000": {
+   "ptt": 16000.0,
+   "ftb_exempt": 0,
+   "ftb_payable": 16000.0,
+   "new_exempt": 16000.0,
+   "new_payable": 0.0
+  },
+  "1100000": {
+   "ptt": 20000.0,
+   "ftb_exempt": 0,
+   "ftb_payable": 20000.0,
+   "new_exempt": 20000.0,
+   "new_payable": 0.0
+  },
+  "1500000": {
+   "ptt": 28000.0,
+   "ftb_exempt": 0,
+   "ftb_payable": 28000.0,
+   "new_exempt": 0,
+   "new_payable": 28000.0
+  },
+  "2500000": {
+   "ptt": 53000.0,
+   "ftb_exempt": 0,
+   "ftb_payable": 53000.0,
+   "new_exempt": 0,
+   "new_payable": 53000.0
+  },
+  "3500000": {
+   "ptt": 93000.0,
+   "ftb_exempt": 0,
+   "ftb_payable": 93000.0,
+   "new_exempt": 0,
+   "new_payable": 93000.0
+  }
+ },
+ "bc_835k_half": {
+  "ptt": 14700.0,
+  "exempt": 4000,
+  "net": 10700.0
+ },
+ "bc_836k": {
+  "exempt": 7680.0,
+  "payable": 7040.0
+ },
+ "bc_850k": {
+  "exempt": 3200.0,
+  "payable": 11800.0
+ },
+ "bc_cliff_per_1000": 320.0,
+ "bc_foreign_20pct_1m": 200000.0,
+ "qc": {
+  "350000": {
+   "std": 3360.5,
+   "mtl": 3360.5,
+   "mtl27": 3315.0,
+   "diff": 0.0
+  },
+  "500000": {
+   "std": 5610.5,
+   "mtl": 5610.5,
+   "mtl27": 5565.0,
+   "diff": 0.0
+  },
+  "750000": {
+   "std": 9360.5,
+   "mtl": 10349.0,
+   "mtl27": 10303.5,
+   "diff": 988.5
+  },
+  "1200000": {
+   "std": 16110.5,
+   "mtl": 19825.5,
+   "mtl27": 19780.0,
+   "diff": 3715.0
+  },
+  "2500000": {
+   "std": 35610.5,
+   "mtl": 55960.5,
+   "mtl27": 55915.0,
+   "diff": 20350.0
+  },
+  "4000000": {
+   "std": 58110.5,
+   "mtl": 112895.5,
+   "mtl27": 112850.0,
+   "diff": 54785.0
+  }
+ },
+ "qc_350k_steps": [
+  314.5,
+  2521.0,
+  525.0
+ ],
+ "qc_mtl_552300_cum": 6395.0,
+ "qc_base_example": {
+  "price": 480000,
+  "roll": 500000,
+  "factor": 1.0,
+  "base": 500000,
+  "tax_on_price": 5310.5,
+  "tax_on_base": 5610.5,
+  "diff": 300.0
+ }
+}

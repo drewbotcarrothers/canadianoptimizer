@@ -1,0 +1,39 @@
+{
+  "slug": "30-year-amortization-canada",
+  "title": "25 vs 30-Year Mortgage Amortization: The Real Cost",
+  "family": "vs",
+  "category": "real-estate",
+  "subcategory": "mortgages-renewal",
+  "targetQuery": "30 year amortization canada",
+  "secondaryQueries": [
+    "25 vs 30 year amortization canada",
+    "30 year mortgage canada first time buyer",
+    "30 year amortization insured mortgage",
+    "cmhc 0.20% surcharge 30 year amortization"
+  ],
+  "infoGain": "A side-by-side calculation of payment, total interest and balance after five years for a $500,000 mortgage at three scenario rates, plus an insured first-time buyer example showing the 0.20% premium surcharge and how the longer amortization raises the loan that passes the stress test.",
+  "money": false,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-25",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "opening answer states who can get 30 years and the 20% down rule; every question heading opens with a direct answer paragraph (checklist item 2: 0 unopened)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "no invented quotes or experience; eligibility, price cap, premium and 0.20% surcharge, qualifying rate and Interest Act re-read on Canada.ca, CMHC, OSFI and Justice Laws 2026-11-25; rates, loan and price are labelled illustrations; payments recomputed by a month-by-month schedule in the checker"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

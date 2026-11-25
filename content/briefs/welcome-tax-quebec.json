@@ -1,0 +1,39 @@
+{
+  "slug": "welcome-tax-quebec",
+  "title": "Quebec Welcome Tax: How the Transfer Duty Is Calculated",
+  "family": "province",
+  "category": "real-estate",
+  "subcategory": "closing-costs-transfer-tax",
+  "targetQuery": "welcome tax quebec",
+  "secondaryQueries": [
+    "taxe de bienvenue montreal",
+    "quebec transfer duty calculator",
+    "montreal welcome tax rates 2026",
+    "how is welcome tax calculated quebec"
+  ],
+  "infoGain": "A side-by-side calculation at six prices of the provincial scale, Montréal's 2026 scale and Montréal's 2027 thresholds, plus the dollar gap, so a buyer can see exactly where Montréal's own scale starts to cost more and how much the January 2027 indexation moves it.",
+  "money": false,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-25",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "opening answer explains the tax base rule and gives $9,360.50 / $10,349 at $750,000; every question heading opens with a direct answer paragraph (checklist item 2: 0 unopened)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "no invented quotes or experience; scales and Montréal brackets re-read on quebec.ca and montreal.ca (French pages, our own English wording) 2026-11-25; prices labelled illustrations; quebec.ca's inconsistent later example amounts deliberately not quoted"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}
