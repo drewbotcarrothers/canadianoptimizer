@@ -1,0 +1,39 @@
+{
+  "slug": "property-transfer-tax-bc",
+  "title": "BC Property Transfer Tax: Rates, Exemptions and Price Cliffs",
+  "family": "province",
+  "category": "real-estate",
+  "subcategory": "closing-costs-transfer-tax",
+  "targetQuery": "property transfer tax bc",
+  "secondaryQueries": [
+    "bc property transfer tax calculator",
+    "bc first time home buyer exemption",
+    "newly built home exemption bc",
+    "bc property transfer tax rates"
+  ],
+  "infoGain": "A single table showing the tax at seven prices before exemptions, after the first time home buyers' exemption and after the newly built home exemption, plus the dollar cost of each extra $1,000 inside the first-time buyer phase-out between $835,000 and $860,000.",
+  "money": false,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-25",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "opening answer gives the rates and the first-time buyer cliff; every question heading opens with a direct answer paragraph (checklist item 2: 0 unopened)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "no invented quotes or experience; rates, exemption amounts, phase-outs, newly built and foreign additional tax re-read on gov.bc.ca 2026-11-25; prices are labelled illustrations; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

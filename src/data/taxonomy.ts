@@ -664,8 +664,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the mortgage guide, then the decision you face now: the stress test if you're qualifying, fixed versus variable if you're choosing, the renewal guide if your term is ending, or prepayment versus investing if you have extra cash. Rules come from OSFI, CMHC and the Financial Consumer Agency of Canada, and calculators show the math on your own numbers.",
       "Mortgage rates change constantly, so guides show the method and label any rate used as a scenario, not an offer.",
     ],
-    decisions: ["Fixed or variable?", "How much do I qualify for under the stress test?", "Should I prepay or invest extra cash?", "Should I renew or switch lenders?"],
-    startHere: ["mortgage-stress-test-canada", "fixed-vs-variable-mortgage-canada", "mortgage-renewal-strategy-canada", "mortgage-prepayment-calculator"],
+    decisions: ["Fixed or variable?", "Is a 30-year amortization worth it?", "How much do I qualify for under the stress test?", "Should I prepay or invest extra cash?", "Should I renew or switch lenders?"],
+    startHere: ["mortgage-stress-test-canada", "fixed-vs-variable-mortgage-canada", "mortgage-renewal-strategy-canada", "mortgage-prepayment-calculator", "30-year-amortization-canada"],
   },
   "real-estate/heloc-smith-manoeuvre": {
     intro: [
@@ -682,8 +682,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the national guide to land transfer tax and closing costs, which compares the provinces. Province pages are added where each province's own rules and numbers justify a separate page, each with a worked example from the province's own rates.",
       "Budget closing costs before you make an offer; the first-time buyers hub shows where they fit in the order of operations.",
     ],
-    decisions: ["How much land transfer tax will I pay?", "Do I qualify for a first-time buyer rebate?", "Does my city add its own tax?", "What other closing costs should I budget?"],
-    startHere: ["land-transfer-tax-closing-costs-canada"],
+    decisions: ["How much land transfer tax will I pay?", "How much is Ontario and Toronto land transfer tax?", "What does BC's property transfer tax cost, and what exemptions apply?", "How is the welcome tax in Quebec calculated?", "Do I qualify for a first-time buyer rebate?", "Does my city add its own tax?", "What other closing costs should I budget?"],
+    startHere: ["land-transfer-tax-closing-costs-canada", "land-transfer-tax-ontario", "property-transfer-tax-bc", "welcome-tax-quebec"],
   },
   "real-estate/landlords-rental": {
     intro: [

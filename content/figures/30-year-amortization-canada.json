@@ -1,0 +1,3725 @@
+{
+  "slug": "30-year-amortization-canada",
+  "publishDate": "2026-11-25",
+  "figures": [
+    {
+      "id": "bdf59108c9fd",
+      "value": "30",
+      "context": "A 30-year amortization lowers the monthly payment and raises the lifetime interest, and the trade is steeper than most people expect.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "7d95e4898b15",
+      "value": "$500,000",
+      "context": "On a $500,000 mortgage at an illustration rate of 4.5%, the 30-year schedule saves $246.29 a month and costs $77,379 more interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b6c18a322b24",
+      "value": "4.5%",
+      "context": "On a $500,000 mortgage at an illustration rate of 4.5%, the 30-year schedule saves $246.29 a month and costs $77,379 more interest.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "075331e3a33f",
+      "value": "30",
+      "context": "On a $500,000 mortgage at an illustration rate of 4.5%, the 30-year schedule saves $246.29 a month and costs $77,379 more interest.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "f1552f6f6dca",
+      "value": "$246.29",
+      "context": "On a $500,000 mortgage at an illustration rate of 4.5%, the 30-year schedule saves $246.29 a month and costs $77,379 more interest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "b13d28ac4024",
+      "value": "$77,379",
+      "context": "On a $500,000 mortgage at an illustration rate of 4.5%, the 30-year schedule saves $246.29 a month and costs $77,379 more interest.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9c059909ff01",
+      "value": "30",
+      "context": "In Canada, a 30-year amortization is the maximum for an insured mortgage only if you are a first-time buyer or buying a newly built home; otherwise the limit is 25 years when your down payment is under 20%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "a46c16cc6c57",
+      "value": "25",
+      "context": "In Canada, a 30-year amortization is the maximum for an insured mortgage only if you are a first-time buyer or buying a newly built home; otherwise the limit is 25 years when your down payment is under 20%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "021d93eb43d8",
+      "value": "20%",
+      "context": "In Canada, a 30-year amortization is the maximum for an insured mortgage only if you are a first-time buyer or buying a newly built home; otherwise the limit is 25 years when your down payment is under 20%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "1c584e460382",
+      "value": "20%",
+      "context": "With 20% or more down, your lender sets the maximum.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "years in all other cases If your down payment is more than 20% of your home's price, your lender sets your maximum amortization"
+    },
+    {
+      "id": "479c10e99cf9",
+      "value": "20%",
+      "context": "With less than 20% down, 30 years is available to first-time buyers and buyers of new builds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "2971aec3c27f",
+      "value": "30",
+      "context": "With less than 20% down, 30 years is available to first-time buyers and buyers of new builds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "03477afdc491",
+      "value": "25",
+      "context": "Everyone else is limited to 25 years.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7e5f1d73923e",
+      "value": "0.20%",
+      "context": "CMHC adds a 0.20% surcharge to the insurance premium for any amortization beyond 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "3a49708c3729",
+      "value": "25",
+      "context": "CMHC adds a 0.20% surcharge to the insurance premium for any amortization beyond 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "1f1cc91e0f6b",
+      "value": "4.5%",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d63b76f9fd95",
+      "value": "$500,000",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "44bc833fad9c",
+      "value": "$2,767.36",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "6af24f9036f1",
+      "value": "25",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "0626258c69e4",
+      "value": "$2,521.08",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c7e27a308b5d",
+      "value": "30",
+      "context": "At an illustration rate of 4.5%, a $500,000 mortgage costs $2,767.36 a month over 25 years and $2,521.08 over 30 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "2e62d0512960",
+      "value": "$16,520",
+      "context": "After five years you would owe about $16,520 more on the 30-year schedule than on the 25-year one.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "41dbd3ca2b94",
+      "value": "30",
+      "context": "After five years you would owe about $16,520 more on the 30-year schedule than on the 25-year one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "a524cddeb04e",
+      "value": "25",
+      "context": "After five years you would owe about $16,520 more on the 30-year schedule than on the 25-year one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "f62473f66610",
+      "value": "30",
+      "context": "Who can get 30 years",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0f2aedbe2d31",
+      "value": "30",
+      "context": "What 30 years costs",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7a751bf630ab",
+      "value": "30",
+      "context": "Who can get a 30-year amortization in Canada?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "2024, the federal government is expanding eligibility for 30 year amortizations for insured mortgages to all first-time"
+    },
+    {
+      "id": "adba1ac30a1f",
+      "value": "20%",
+      "context": "Anyone, if the lender agrees, with a down payment of 20% or more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "mortgage loan insurance if your down payment is less than 20% or if your lender requires it Learn more about mortgage"
+    },
+    {
+      "id": "5d6cf6b7585b",
+      "value": "20%",
+      "context": "With less than 20% down, only first-time buyers and buyers of newly built homes.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "df4ca320f0b0",
+      "value": "20%",
+      "context": "Down payment under 20%: a maximum of 30 years if you are a first-time buyer and/or buying a new build, and 25 years in all other cases.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "31e16b0140d1",
+      "value": "30",
+      "context": "Down payment under 20%: a maximum of 30 years if you are a first-time buyer and/or buying a new build, and 25 years in all other cases.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "6db4a3751964",
+      "value": "25",
+      "context": "Down payment under 20%: a maximum of 30 years if you are a first-time buyer and/or buying a new build, and 25 years in all other cases.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "35a333af1413",
+      "value": "20%",
+      "context": "Down payment over 20%: your lender sets the maximum amortization.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "years in all other cases If your down payment is more than 20% of your home's price, your lender sets your maximum amortization"
+    },
+    {
+      "id": "b90b5b460f1a",
+      "value": "December 15, 2024",
+      "context": "Since December 15, 2024: Finance Canada's backgrounder says insured 30-year amortizations apply to all first-time buyers and all buyers of new builds, on properties the borrower or a close relative occupies.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "applications that lenders submit to mortgage insurers on or after December 15, 2024. These measures will only apply to high loan to value mortgages"
+    },
+    {
+      "id": "a9c067b57586",
+      "value": "30",
+      "context": "Since December 15, 2024: Finance Canada's backgrounder says insured 30-year amortizations apply to all first-time buyers and all buyers of new builds, on properties the borrower or a close relative occupies.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "starting this December. Parameters Expanding eligibility for 30 year mortgage amortizations for all first-time homebuyers"
+    },
+    {
+      "id": "0e7b8468d881",
+      "value": "$1 million",
+      "context": "The same changes raised the insured price cap from $1 million to $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "homebuyers and all purchasers of new builds, and increasing the $1 million price cap for insured mortgages to $1.5 million, effective"
+    },
+    {
+      "id": "edb88e26ac95",
+      "value": "$1.5 million",
+      "context": "The same changes raised the insured price cap from $1 million to $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "increasing the $1 million price cap for insured mortgages to $1.5 million, effective December 15, 2024. Today, the government is"
+    },
+    {
+      "id": "ebd54f7d3d44",
+      "value": "$1.5 million",
+      "context": "The property must be worth less than $1.5 million, and the down payment is 5% of the first $500,000 of the price and 10% of the part between $500,000 and $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "property against which the loan is secured must be less than $1.5 million; and, The downpayment requirements for the loan are as"
+    },
+    {
+      "id": "ff9ee1016824",
+      "value": "5%",
+      "context": "The property must be worth less than $1.5 million, and the down payment is 5% of the first $500,000 of the price and 10% of the part between $500,000 and $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "The downpayment requirements for the loan are as follows: 5 per cent on the portion of a purchase price up to $500,000. 10 per"
+    },
+    {
+      "id": "7e950e0dd2da",
+      "value": "$500,000",
+      "context": "The property must be worth less than $1.5 million, and the down payment is 5% of the first $500,000 of the price and 10% of the part between $500,000 and $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "follows: 5 per cent on the portion of a purchase price up to $500,000. 10 per cent on the portion of a purchase price between"
+    },
+    {
+      "id": "d4c248555db0",
+      "value": "10%",
+      "context": "The property must be worth less than $1.5 million, and the down payment is 5% of the first $500,000 of the price and 10% of the part between $500,000 and $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "cent on the portion of a purchase price up to $500,000. 10 per cent on the portion of a purchase price between $500,000 and"
+    },
+    {
+      "id": "f33e5da8911a",
+      "value": "30",
+      "context": "CMHC's Home Start page lists a 30-year maximum for these loans, with at least one first-time buyer on the application or a newly built property.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "window CMHC Home Start Opening the door to homeownership 30-year Mortgages for First-Time Homebuyers or Buyers of a"
+    },
+    {
+      "id": "cfd10939bc30",
+      "value": "30",
+      "context": "What does a 30-year amortization cost compared with 25 years?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "f0b0097b6e0a",
+      "value": "25",
+      "context": "What does a 30-year amortization cost compared with 25 years?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "f2e10fdcb465",
+      "value": "$500,000",
+      "context": "The table compares the two schedules on a $500,000 mortgage at three illustration rates, using semi-annual compounding as Canadian fixed-rate mortgages do.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "412f783fee38",
+      "value": "$500,000",
+      "context": "What this page adds: a side-by-side calculation of payment, total interest and the balance after five years for a $500,000 mortgage at three scenario rates, plus an insured first-time buyer example showing the 0.20% premium surcharge and how the longer amortization raises the loan that passes the stress test.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8603fd52eb37",
+      "value": "0.20%",
+      "context": "What this page adds: a side-by-side calculation of payment, total interest and the balance after five years for a $500,000 mortgage at three scenario rates, plus an insured first-time buyer example showing the 0.20% premium surcharge and how the longer amortization raises the loan that passes the stress test.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "5b556c88d1e9",
+      "value": "25",
+      "context": "25 versus 30 years on a $500,000 mortgage (illustration rates; our arithmetic)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "4755bb9dcdc7",
+      "value": "30",
+      "context": "25 versus 30 years on a $500,000 mortgage (illustration rates; our arithmetic)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "0f831f24c783",
+      "value": "$500,000",
+      "context": "25 versus 30 years on a $500,000 mortgage (illustration rates; our arithmetic)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4e153f47ae1e",
+      "value": "25",
+      "context": "Illustration rate Payment, 25 years Payment, 30 years Monthly saving Total interest, 25 years Total interest, 30 years Extra interest",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "f39e4f96bb92",
+      "value": "30",
+      "context": "Illustration rate Payment, 25 years Payment, 30 years Monthly saving Total interest, 25 years Total interest, 30 years Extra interest",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "e58514c8c1e6",
+      "value": "3.5%",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "702f86428459",
+      "value": "$2,496.35",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e98401529110",
+      "value": "$2,238.18",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "21457ae651c1",
+      "value": "$258.17",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "25450e9dee4e",
+      "value": "$248,905",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d2a8ac40a127",
+      "value": "$305,745",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c6f2ed100f0c",
+      "value": "$56,840",
+      "context": "3.5% $2,496.35 $2,238.18 $258.17 $248,905 $305,745 $56,840",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5a6b9f03a349",
+      "value": "4.5%",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2b237961ea26",
+      "value": "$2,767.36",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "51632aa7cb80",
+      "value": "$2,521.08",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "33df7c5ad348",
+      "value": "$246.29",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f99cb9a88b67",
+      "value": "$330,209",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "04878d753c1c",
+      "value": "$407,588",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "07f188f2bf04",
+      "value": "$77,379",
+      "context": "4.5% $2,767.36 $2,521.08 $246.29 $330,209 $407,588 $77,379",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "3698f5cc3607",
+      "value": "5.5%",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0dab894d0093",
+      "value": "$3,051.96",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "2bf06d724bc2",
+      "value": "$2,819.53",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "635ffb016568",
+      "value": "$232.43",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "302fc17824b0",
+      "value": "$415,587",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "83ab25234ccf",
+      "value": "$515,031",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "97f3ec6fcc32",
+      "value": "$99,444",
+      "context": "5.5% $3,051.96 $2,819.53 $232.43 $415,587 $515,031 $99,444",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f457e7a99d2d",
+      "value": "$258.17",
+      "context": "The monthly saving shrinks slightly as rates rise, from $258.17 to $232.43, while the extra interest grows from $56,840 to $99,444.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ceca35e84f88",
+      "value": "$232.43",
+      "context": "The monthly saving shrinks slightly as rates rise, from $258.17 to $232.43, while the extra interest grows from $56,840 to $99,444.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "b39627781707",
+      "value": "$56,840",
+      "context": "The monthly saving shrinks slightly as rates rise, from $258.17 to $232.43, while the extra interest grows from $56,840 to $99,444.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "452dec5a03b0",
+      "value": "$99,444",
+      "context": "The monthly saving shrinks slightly as rates rise, from $258.17 to $232.43, while the extra interest grows from $56,840 to $99,444.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d6205904f811",
+      "value": "$16,000",
+      "context": "About $16,000 to $17,000 more on a $500,000 mortgage, because a longer schedule pays down principal more slowly.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "97fe00c14ee0",
+      "value": "$17,000",
+      "context": "About $16,000 to $17,000 more on a $500,000 mortgage, because a longer schedule pays down principal more slowly.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0e34c321df98",
+      "value": "$500,000",
+      "context": "About $16,000 to $17,000 more on a $500,000 mortgage, because a longer schedule pays down principal more slowly.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9ac63cba11b2",
+      "value": "60",
+      "context": "Balance after 60 payments on a $500,000 mortgage (illustration rates; our arithmetic)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8a6399dc5ad4",
+      "value": "$500,000",
+      "context": "Balance after 60 payments on a $500,000 mortgage (illustration rates; our arithmetic)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0e365e9e2647",
+      "value": "25",
+      "context": "Illustration rate Balance, 25-year schedule Balance, 30-year schedule Difference",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "e9cdf05a807d",
+      "value": "30",
+      "context": "Illustration rate Balance, 25-year schedule Balance, 30-year schedule Difference",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "a9fcf4e75506",
+      "value": "3.5%",
+      "context": "3.5% $431,400 $448,291 $16,891",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "7bfe16205c11",
+      "value": "$431,400",
+      "context": "3.5% $431,400 $448,291 $16,891",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "01836db74ba9",
+      "value": "$448,291",
+      "context": "3.5% $431,400 $448,291 $16,891",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d6fd1669c6c1",
+      "value": "$16,891",
+      "context": "3.5% $431,400 $448,291 $16,891",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "713d6958d1b5",
+      "value": "4.5%",
+      "context": "4.5% $438,982 $455,502 $16,520",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d44035e95136",
+      "value": "$438,982",
+      "context": "4.5% $438,982 $455,502 $16,520",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "017db395c25b",
+      "value": "$455,502",
+      "context": "4.5% $438,982 $455,502 $16,520",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ffa7454b928b",
+      "value": "$16,520",
+      "context": "4.5% $438,982 $455,502 $16,520",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0a543416fa2d",
+      "value": "5.5%",
+      "context": "5.5% $445,938 $461,922 $15,984",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9c4275262cb7",
+      "value": "$445,938",
+      "context": "5.5% $445,938 $461,922 $15,984",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f23ae970cfc8",
+      "value": "$461,922",
+      "context": "5.5% $445,938 $461,922 $15,984",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "edf13b9ef7db",
+      "value": "$15,984",
+      "context": "5.5% $445,938 $461,922 $15,984",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "bb6738b29975",
+      "value": "4.5%",
+      "context": "At the 4.5% illustration, a typical five-year term ends with about $438,982 owing on the 25-year schedule and $455,502 on the 30-year schedule.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "40d839a6908f",
+      "value": "$438,982",
+      "context": "At the 4.5% illustration, a typical five-year term ends with about $438,982 owing on the 25-year schedule and $455,502 on the 30-year schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9ef05447dffa",
+      "value": "25",
+      "context": "At the 4.5% illustration, a typical five-year term ends with about $438,982 owing on the 25-year schedule and $455,502 on the 30-year schedule.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "6777065c812f",
+      "value": "$455,502",
+      "context": "At the 4.5% illustration, a typical five-year term ends with about $438,982 owing on the 25-year schedule and $455,502 on the 30-year schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "2aaeda9874ff",
+      "value": "30",
+      "context": "At the 4.5% illustration, a typical five-year term ends with about $438,982 owing on the 25-year schedule and $455,502 on the 30-year schedule.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9ea4dd2d0d00",
+      "value": "30",
+      "context": "What does the insurance surcharge add on a 30-year amortization?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "window CMHC Home Start Opening the door to homeownership 30-year Mortgages for First-Time Homebuyers or Buyers of a"
+    },
+    {
+      "id": "719a364d03ff",
+      "value": "0.20%",
+      "context": "An extra 0.20% of the loan, as part of a one-time premium that may be added to the insured mortgage.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "276c85f63e53",
+      "value": "25",
+      "context": "CMHC's premium schedule says an amortization period beyond 25 years is subject to a 0.20% surcharge, on top of the premium that depends on your loan-to-value ratio.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "725c4d74deff",
+      "value": "0.20%",
+      "context": "CMHC's premium schedule says an amortization period beyond 25 years is subject to a 0.20% surcharge, on top of the premium that depends on your loan-to-value ratio.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "16a66c9d0ca3",
+      "value": "November 25, 2026",
+      "context": "CMHC premium on the total loan amount, owner-occupied homes (CMHC schedule read November 25, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "review date = day sources were read (2026-11-25)"
+      }
+    },
+    {
+      "id": "89a2ca9c7246",
+      "value": "80.01%",
+      "context": "80.01% to 85% 2.80%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "0.60% 65.01% to 75% 1.70% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to"
+    },
+    {
+      "id": "fe1988e4153c",
+      "value": "85%",
+      "context": "80.01% to 85% 2.80%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to 75% 1.70% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00%"
+    },
+    {
+      "id": "3a9ee514cd57",
+      "value": "2.80%",
+      "context": "80.01% to 85% 2.80%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "75% 1.70% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30%"
+    },
+    {
+      "id": "f1f13d690a99",
+      "value": "85.01%",
+      "context": "85.01% to 90% 3.10%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to"
+    },
+    {
+      "id": "37a6aab10789",
+      "value": "90%",
+      "context": "85.01% to 90% 3.10%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with"
+    },
+    {
+      "id": "8306d25a43cf",
+      "value": "3.10%",
+      "context": "85.01% to 90% 3.10%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional"
+    },
+    {
+      "id": "68a9417c0334",
+      "value": "90.01%",
+      "context": "90.01% to 95% 4.00%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down"
+    },
+    {
+      "id": "0e9cdea49096",
+      "value": "95%",
+      "context": "90.01% to 95% 4.00%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment"
+    },
+    {
+      "id": "e897163c876c",
+      "value": "4.00%",
+      "context": "90.01% to 95% 4.00%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50%"
+    },
+    {
+      "id": "ca2f4c49a1cf",
+      "value": "$600,000",
+      "context": "Illustration: a first-time buyer at $600,000 with the minimum down payment",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "ca6e91980c3d",
+      "value": "$600,000",
+      "context": "Price (illustration) $600,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "fa731ce4a774",
+      "value": "5%",
+      "context": "Minimum down payment: 5% of $500,000 plus 10% of $100,000 $35,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "equity requirements For homeowner loans: 1 to 2 units: 5% of the first $500,000 of lending value and 10% of the remainder"
+    },
+    {
+      "id": "e57ce6df9f17",
+      "value": "$500,000",
+      "context": "Minimum down payment: 5% of $500,000 plus 10% of $100,000 $35,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8044936f9e41",
+      "value": "10%",
+      "context": "Minimum down payment: 5% of $500,000 plus 10% of $100,000 $35,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "2 units: 5% of the first $500,000 of lending value and 10% of the remainder 3 to 4 units: 10% Purchase price / lending"
+    },
+    {
+      "id": "f50df807b454",
+      "value": "$100,000",
+      "context": "Minimum down payment: 5% of $500,000 plus 10% of $100,000 $35,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c4cbe74d1819",
+      "value": "$35,000",
+      "context": "Minimum down payment: 5% of $500,000 plus 10% of $100,000 $35,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4d1ba23aba3d",
+      "value": "94.17%",
+      "context": "Mortgage before insurance (loan-to-value 94.17%) $565,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "a7e2618037a9",
+      "value": "$565,000",
+      "context": "Mortgage before insurance (loan-to-value 94.17%) $565,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "34a57a6744da",
+      "value": "25",
+      "context": "Premium, 25 years: 4.00% $22,600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "d05276b2ecf2",
+      "value": "4.00%",
+      "context": "Premium, 25 years: 4.00% $22,600",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50%"
+    },
+    {
+      "id": "b71fab54dea9",
+      "value": "$22,600",
+      "context": "Premium, 25 years: 4.00% $22,600",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "4f8f9e9aba91",
+      "value": "30",
+      "context": "Premium, 30 years: 4.00% plus 0.20% $23,730",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "100116d9ebdf",
+      "value": "4.00%",
+      "context": "Premium, 30 years: 4.00% plus 0.20% $23,730",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50%"
+    },
+    {
+      "id": "1ce7f0ed1722",
+      "value": "0.20%",
+      "context": "Premium, 30 years: 4.00% plus 0.20% $23,730",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "649528e3ea49",
+      "value": "$23,730",
+      "context": "Premium, 30 years: 4.00% plus 0.20% $23,730",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "80c149b3a442",
+      "value": "4.5%",
+      "context": "Payment at 4.5%, 25 years, on $587,600 $3,252.21",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f75a22df71db",
+      "value": "25",
+      "context": "Payment at 4.5%, 25 years, on $587,600 $3,252.21",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "7d752a0e7440",
+      "value": "$587,600",
+      "context": "Payment at 4.5%, 25 years, on $587,600 $3,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "3bf0fda6d303",
+      "value": "$3,252.21",
+      "context": "Payment at 4.5%, 25 years, on $587,600 $3,252.21",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "2b5497fdbe8b",
+      "value": "4.5%",
+      "context": "Payment at 4.5%, 30 years, on $588,730 $2,968.47",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f9134865ba81",
+      "value": "30",
+      "context": "Payment at 4.5%, 30 years, on $588,730 $2,968.47",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "a1caa48e44d9",
+      "value": "$588,730",
+      "context": "Payment at 4.5%, 30 years, on $588,730 $2,968.47",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9379f6c3be58",
+      "value": "$2,968.47",
+      "context": "Payment at 4.5%, 30 years, on $588,730 $2,968.47",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "6223288b1b66",
+      "value": "30",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "b07a2644d483",
+      "value": "$283.74",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "7408db960573",
+      "value": "$1,130",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8cd5f1f819ab",
+      "value": "$91,857",
+      "context": "The 30-year schedule saves $283.74 a month, costs $1,130 more in premium and adds $91,857 of interest over the full schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e5a326005f3e",
+      "value": "2%",
+      "context": "OSFI's minimum qualifying rate is the greater of your contract rate plus 2% or 5.25% ( OSFI ), so a 4.5% contract rate is tested at 6.5%, and a contract rate below 3.25% is tested at 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages",
+      "sourceName": "OSFI: Minimum qualifying rate for uninsured mortgages",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (osfi_mqr, HTTP 200 (curl))"
+      },
+      "needle": "Current rate: The greater of the mortgage contract rate plus 2% or 5.25%. Why the minimum qualifying rate for uninsured"
+    },
+    {
+      "id": "d161ccefa7e6",
+      "value": "5.25%",
+      "context": "OSFI's minimum qualifying rate is the greater of your contract rate plus 2% or 5.25% ( OSFI ), so a 4.5% contract rate is tested at 6.5%, and a contract rate below 3.25% is tested at 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages",
+      "sourceName": "OSFI: Minimum qualifying rate for uninsured mortgages",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (osfi_mqr, HTTP 200 (curl))"
+      },
+      "needle": "rate: The greater of the mortgage contract rate plus 2% or 5.25%. Why the minimum qualifying rate for uninsured mortgages"
+    },
+    {
+      "id": "46d0d369a47d",
+      "value": "4.5%",
+      "context": "OSFI's minimum qualifying rate is the greater of your contract rate plus 2% or 5.25% ( OSFI ), so a 4.5% contract rate is tested at 6.5%, and a contract rate below 3.25% is tested at 5.25%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4eb8d5d02f52",
+      "value": "6.5%",
+      "context": "OSFI's minimum qualifying rate is the greater of your contract rate plus 2% or 5.25% ( OSFI ), so a 4.5% contract rate is tested at 6.5%, and a contract rate below 3.25% is tested at 5.25%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5e80d3b04806",
+      "value": "3.25%",
+      "context": "OSFI's minimum qualifying rate is the greater of your contract rate plus 2% or 5.25% ( OSFI ), so a 4.5% contract rate is tested at 6.5%, and a contract rate below 3.25% is tested at 5.25%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f6bf28cbaaba",
+      "value": "$565,000",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c36287c63f51",
+      "value": "6.5%",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0cd27fe0405f",
+      "value": "$3,784.50",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "af1118fec467",
+      "value": "25",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "71e79fff5f7d",
+      "value": "$3,539.17",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c0fae98a241c",
+      "value": "30",
+      "context": "On the $565,000 loan above, the qualifying payment at 6.5% is $3,784.50 over 25 years and $3,539.17 over 30 years, which is 6.5% lower.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "99a9b02d2e74",
+      "value": "25",
+      "context": "Put differently, the 25-year qualifying payment would support a loan of about $604,165 on a 30-year schedule, or $39,165 more, a gain of 6.9% (our arithmetic).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "ab1e8fa53226",
+      "value": "$604,165",
+      "context": "Put differently, the 25-year qualifying payment would support a loan of about $604,165 on a 30-year schedule, or $39,165 more, a gain of 6.9% (our arithmetic).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9446e641d648",
+      "value": "30",
+      "context": "Put differently, the 25-year qualifying payment would support a loan of about $604,165 on a 30-year schedule, or $39,165 more, a gain of 6.9% (our arithmetic).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "starting this December. Parameters Expanding eligibility for 30 year mortgage amortizations for all first-time homebuyers"
+    },
+    {
+      "id": "9983f730cb31",
+      "value": "$39,165",
+      "context": "Put differently, the 25-year qualifying payment would support a loan of about $604,165 on a 30-year schedule, or $39,165 more, a gain of 6.9% (our arithmetic).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e7e8fe609583",
+      "value": "6.9%",
+      "context": "Put differently, the 25-year qualifying payment would support a loan of about $604,165 on a 30-year schedule, or $39,165 more, a gain of 6.9% (our arithmetic).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8f735f022c84",
+      "value": "30",
+      "context": "When does a 30-year amortization make sense?",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3129afc61140",
+      "value": "25",
+      "context": "If the 25-year payment passes the stress test and fits your budget, the 30-year option costs $56,840 to $99,444 more interest on $500,000 in our scenarios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "87eb097c2a07",
+      "value": "30",
+      "context": "If the 25-year payment passes the stress test and fits your budget, the 30-year option costs $56,840 to $99,444 more interest on $500,000 in our scenarios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "5ec93dee22e4",
+      "value": "$56,840",
+      "context": "If the 25-year payment passes the stress test and fits your budget, the 30-year option costs $56,840 to $99,444 more interest on $500,000 in our scenarios.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "9dbe9fc82a64",
+      "value": "$99,444",
+      "context": "If the 25-year payment passes the stress test and fits your budget, the 30-year option costs $56,840 to $99,444 more interest on $500,000 in our scenarios.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f1ceca76ff5a",
+      "value": "$500,000",
+      "context": "If the 25-year payment passes the stress test and fits your budget, the 30-year option costs $56,840 to $99,444 more interest on $500,000 in our scenarios.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "82ceac8cd993",
+      "value": "30",
+      "context": "Choosing 30 years and paying the 25-year amount gets the same payoff at the same rate, but your contract's prepayment privileges decide whether that is allowed.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "23e4fccf103a",
+      "value": "25",
+      "context": "Choosing 30 years and paying the 25-year amount gets the same payoff at the same rate, but your contract's prepayment privileges decide whether that is allowed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "46dfbcaa6756",
+      "value": "$565,000",
+      "context": "On our $565,000 loan it is $1,130, which is the price of keeping the option open.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "f0428e9949a0",
+      "value": "$1,130,",
+      "context": "On our $565,000 loan it is $1,130, which is the price of keeping the option open.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c1de0015adaf",
+      "value": "30",
+      "context": "What are the common mistakes when choosing a 30-year amortization?",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "3ee1cfab59da",
+      "value": "4.5%",
+      "context": "In the 4.5% illustration the saving is $246.29 a month, and the price of that relief is $77,379 of extra interest over the full schedule.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "14f0786e3366",
+      "value": "$246.29",
+      "context": "In the 4.5% illustration the saving is $246.29 a month, and the price of that relief is $77,379 of extra interest over the full schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "56b6668ce3e7",
+      "value": "$77,379",
+      "context": "In the 4.5% illustration the saving is $246.29 a month, and the price of that relief is $77,379 of extra interest over the full schedule.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "dec23c9ff154",
+      "value": "0.20%",
+      "context": "The 0.20% premium surcharge was $1,130 on the $565,000 loan above, and it applies only to insured loans.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "14350134fee4",
+      "value": "$1,130",
+      "context": "The 0.20% premium surcharge was $1,130 on the $565,000 loan above, and it applies only to insured loans.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e82141e065d0",
+      "value": "$565,000",
+      "context": "The 0.20% premium surcharge was $1,130 on the $565,000 loan above, and it applies only to insured loans.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "8c58382436ce",
+      "value": "30",
+      "context": "After five years the 30-year schedule left about $16,520 more owing in the 4.5% illustration, and that balance is what you renew.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "dfa76c0798e1",
+      "value": "$16,520",
+      "context": "After five years the 30-year schedule left about $16,520 more owing in the 4.5% illustration, and that balance is what you renew.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "89453b521f0c",
+      "value": "4.5%",
+      "context": "After five years the 30-year schedule left about $16,520 more owing in the 4.5% illustration, and that balance is what you renew.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "303c924e21a6",
+      "value": "30",
+      "context": "Treating the rate as fixed for 30 years.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d9d2568fb528",
+      "value": "20%",
+      "context": "With less than 20% down, the 30-year option is for first-time buyers and buyers of new builds, so check the rule before you build a budget around it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "971153758e04",
+      "value": "30",
+      "context": "With less than 20% down, the 30-year option is for first-time buyers and buyers of new builds, so check the rule before you build a budget around it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "b2db2f6c5cb1",
+      "value": "25",
+      "context": "How do you compare 25 and 30 years on your own mortgage?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "41511567d5fd",
+      "value": "30",
+      "context": "How do you compare 25 and 30 years on your own mortgage?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "a118fb7538c9",
+      "value": "20%",
+      "context": "If your down payment is under 20%, check whether you meet the first-time buyer or new-build rule and whether the property is below the $1.5 million cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "89ff48410e1c",
+      "value": "$1.5 million",
+      "context": "If your down payment is under 20%, check whether you meet the first-time buyer or new-build rule and whether the property is below the $1.5 million cap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "increasing the $1 million price cap for insured mortgages to $1.5 million, effective December 15, 2024. Today, the government is"
+    },
+    {
+      "id": "0475c023c211",
+      "value": "25",
+      "context": "Ask your lender or broker for the payment at 25 years and at 30 years at the same rate, and for the insurance premium on each.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "c41c01c7629b",
+      "value": "30",
+      "context": "Ask your lender or broker for the payment at 25 years and at 30 years at the same rate, and for the insurance premium on each.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "9ea4cc3e83eb",
+      "value": "30",
+      "context": "Subtract the 30-year payment from the 25-year payment, as the tables above do.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d3cf58415b77",
+      "value": "25",
+      "context": "Subtract the 30-year payment from the 25-year payment, as the tables above do.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0660ea557c86",
+      "value": "30",
+      "context": "If you choose 30 years and plan to pay it down faster, confirm how much extra you can pay each year without a penalty.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "d29f06a4f8c9",
+      "value": "25",
+      "context": "If the numbers show you do not need the lower payment, the 25-year schedule is the cheaper route.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "bd4325de850a",
+      "value": "30",
+      "context": "If they show you need 30 years to qualify or to keep a buffer, choose it with the interest cost in front of you, and treat it as a starting schedule you can shorten later when your income grows and your contract allows it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "474b614472ea",
+      "value": "30",
+      "context": "Is a 30-year amortization available in Canada?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "must be below $1,500,000. Maximum amortization period is 30 years. Property must be in Canada, suitable and available"
+    },
+    {
+      "id": "258c668875bf",
+      "value": "20%",
+      "context": "Yes, for insured mortgages when you are a first-time buyer or buying a new build, and from lenders who allow it when you put down 20% or more.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "years in all other cases If your down payment is more than 20% of your home's price, your lender sets your maximum amortization"
+    },
+    {
+      "id": "997d07b396da",
+      "value": "30",
+      "context": "Can you get a 30-year amortization with 20% down?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "2024, the federal government is expanding eligibility for 30 year amortizations for insured mortgages to all first-time"
+    },
+    {
+      "id": "999518e625a1",
+      "value": "20%",
+      "context": "Can you get a 30-year amortization with 20% down?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "more interest you pay. If your down payment is less than 20% of your home's price, your maximum amortization period"
+    },
+    {
+      "id": "31b53b07ad33",
+      "value": "20%",
+      "context": "With a down payment above 20% of the price, your lender sets the maximum amortization period, so ask the lender what it allows.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "years in all other cases If your down payment is more than 20% of your home's price, your lender sets your maximum amortization"
+    },
+    {
+      "id": "6d9809ddd284",
+      "value": "30",
+      "context": "Does a 30-year amortization cost more in mortgage insurance?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "41b6da35b7a3",
+      "value": "0.20%",
+      "context": "CMHC adds a 0.20% surcharge for any amortization period beyond 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may"
+    },
+    {
+      "id": "186c3b90659b",
+      "value": "25",
+      "context": "CMHC adds a 0.20% surcharge for any amortization period beyond 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Premium information for homeowner and small rental loans",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_prem, HTTP 200 (curl))"
+      },
+      "needle": "to the Total Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits"
+    },
+    {
+      "id": "f2f72946898f",
+      "value": "30",
+      "context": "Who counts as a first-time buyer for the 30-year rule?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/home-start",
+      "sourceName": "CMHC: Home Start",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (cmhc_home, HTTP 200 (curl))"
+      },
+      "needle": "window CMHC Home Start Opening the door to homeownership 30-year Mortgages for First-Time Homebuyers or Buyers of a"
+    },
+    {
+      "id": "99af2fe0f8cd",
+      "value": "$1.5 million",
+      "context": "The property must be worth less than $1.5 million, with 5% down on the first $500,000 and 10% on the rest of the price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "property against which the loan is secured must be less than $1.5 million; and, The downpayment requirements for the loan are as"
+    },
+    {
+      "id": "92904ff5b58a",
+      "value": "5%",
+      "context": "The property must be worth less than $1.5 million, with 5% down on the first $500,000 and 10% on the rest of the price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "The downpayment requirements for the loan are as follows: 5 per cent on the portion of a purchase price up to $500,000. 10 per"
+    },
+    {
+      "id": "ce447a9d9c31",
+      "value": "$500,000",
+      "context": "The property must be worth less than $1.5 million, with 5% down on the first $500,000 and 10% on the rest of the price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "follows: 5 per cent on the portion of a purchase price up to $500,000. 10 per cent on the portion of a purchase price between"
+    },
+    {
+      "id": "b270a4b44cf0",
+      "value": "10%",
+      "context": "The property must be worth less than $1.5 million, with 5% down on the first $500,000 and 10% on the rest of the price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: Delivering the boldest mortgage reforms in decades",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fin_sep24, HTTP 200)"
+      },
+      "needle": "cent on the portion of a purchase price up to $500,000. 10 per cent on the portion of a purchase price between $500,000 and"
+    },
+    {
+      "id": "51f3396da3b4",
+      "value": "30",
+      "context": "How much interest does a 30-year amortization add?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "your home's price, your maximum amortization period is: 30 years if you're: a first-time buyer and/or purchasing a"
+    },
+    {
+      "id": "acdf682ff5e2",
+      "value": "$500,000",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b7910384d8d1",
+      "value": "4.5%",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "0fcedda26f41",
+      "value": "$77,379",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "94624db50667",
+      "value": "25",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/choose-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Choosing a mortgage that is right for you",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (fcac_choose, HTTP 200)"
+      },
+      "needle": "you're: a first-time buyer and/or purchasing a new build 25 years in all other cases If your down payment is more than"
+    },
+    {
+      "id": "ae8fdede22e1",
+      "value": "$56,840",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "3c63fd5316aa",
+      "value": "3.5%",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f16293619b4e",
+      "value": "$99,444",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "92e55072641a",
+      "value": "5.5%",
+      "context": "On $500,000 at an illustration rate of 4.5%, $77,379 more than a 25-year schedule, or $56,840 at 3.5% and $99,444 at 5.5%.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d7dce6c0072a",
+      "value": "30",
+      "context": "Does a 30-year amortization help me pass the stress test?",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "c147a4756755",
+      "value": "6.9%",
+      "context": "It lowers the payment tested at the qualifying rate, which in our example raises the supportable loan by about 6.9%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-amort-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    }
+  ]
+}

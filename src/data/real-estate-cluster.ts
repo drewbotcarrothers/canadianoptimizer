@@ -439,6 +439,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/30-year-amortization-canada/">25 vs 30-year mortgage amortization: the real cost</a></p>
+
     ${footer(published)}
 
 </div>`
@@ -1065,6 +1067,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/30-year-amortization-canada/">25 vs 30-year mortgage amortization: the real cost</a> &middot; <a href="/blog/30-year-amortization-canada/">25 vs 30-year mortgage amortization: the real cost</a></p>
+
     ${footer(published)}
 
 </div>`
@@ -1325,6 +1329,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/land-transfer-tax-ontario/">Ontario land transfer tax: rates, Toronto tax and refunds</a> &middot; <a href="/blog/property-transfer-tax-bc/">BC property transfer tax: rates, exemptions and price cliffs</a> &middot; <a href="/blog/welcome-tax-quebec/">Quebec welcome tax: how the transfer duty is calculated</a> &middot; <a href="/blog/30-year-amortization-canada/">25 vs 30-year mortgage amortization: the real cost</a></p>
+
     ${footer(published)}
 
 </div>`
@@ -1451,6 +1457,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <p>Schedule 7 is where that promise is kept or broken. The 2026 tax guide is the filing side of an HBP, an FHSA, and the home buyers' amount.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/land-transfer-tax-ontario/">Ontario land transfer tax: rates, Toronto tax and refunds</a> &middot; <a href="/blog/property-transfer-tax-bc/">BC property transfer tax: rates, exemptions and price cliffs</a> &middot; <a href="/blog/welcome-tax-quebec/">Quebec welcome tax: how the transfer duty is calculated</a></p>
 
     ${footer(published)}
 

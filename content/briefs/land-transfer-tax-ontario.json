@@ -1,0 +1,39 @@
+{
+  "slug": "land-transfer-tax-ontario",
+  "title": "Ontario Land Transfer Tax: Rates, Toronto Tax and Refunds",
+  "family": "province",
+  "category": "real-estate",
+  "subcategory": "closing-costs-transfer-tax",
+  "targetQuery": "ontario land transfer tax",
+  "secondaryQueries": [
+    "toronto land transfer tax",
+    "ontario land transfer tax calculator",
+    "first time home buyer land transfer tax refund ontario",
+    "toronto municipal land transfer tax rates 2026"
+  ],
+  "infoGain": "A table running the Ontario brackets, the Toronto brackets (including the April 2026 high-value rates) and both first-time buyer refunds side by side at six prices, so the all-in cost of a Toronto purchase with and without the refunds is visible in one row.",
+  "money": false,
+  "offers": [],
+  "ebook": null,
+  "publishDate": "2026-11-25",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "opening answer states what the tax is and gives the $800,000 Toronto total; every question heading opens with a direct answer paragraph (checklist item 2: 0 unopened)"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor - source-check pass 2026-11-25 (qa/figs/2026-11-25; separate script and algorithms, same agent as the drafter)",
+      "on": "2026-11-25",
+      "note": "no invented quotes or experience; rates, Toronto April 2026 high-value rates, refunds, NRST/MNRST re-read on ontario.ca / toronto.ca / Bill 143 on 2026-11-25; prices are labelled illustrations; \"I\" appears only in reader-voice FAQ questions"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

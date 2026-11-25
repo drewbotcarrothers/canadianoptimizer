@@ -1,0 +1,2451 @@
+{
+  "slug": "property-transfer-tax-bc",
+  "publishDate": "2026-11-25",
+  "figures": [
+    {
+      "id": "ebdae88e4ac0",
+      "value": "$650,000",
+      "context": "On a $650,000 home the tax is $11,000; a qualifying first-time buyer saves $8,000 of it, and a buyer of a newly built home at that price pays nothing.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "add2cbb612f2",
+      "value": "$11,000",
+      "context": "On a $650,000 home the tax is $11,000; a qualifying first-time buyer saves $8,000 of it, and a buyer of a newly built home at that price pays nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 = $450,000 \u00d7 2% = $9,000) The total tax payable is $11,000 ($2,000 + $9,000 = $11,000). Note: If the property value"
+    },
+    {
+      "id": "05cc7cebe7be",
+      "value": "$8,000",
+      "context": "On a $650,000 home the tax is $11,000; a qualifying first-time buyer saves $8,000 of it, and a buyer of a newly built home at that price pays nothing.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "determine the exemption amount for the first time home buyer: $8,000 maximum exemption amount \u00d7 50% = 4,000 You can then determine"
+    },
+    {
+      "id": "ca577d337d67",
+      "value": "1%",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "citizen. First, calculate the general property transfer tax: 1% of the fair market value up to and including $200,000 ="
+    },
+    {
+      "id": "becc18884a4e",
+      "value": "$200,000",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "including $200,000 2% of the fair market value greater than $200,000 and up to and including $2,000,000 3% of the fair market"
+    },
+    {
+      "id": "c559294f3deb",
+      "value": "2%",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "of the fair market value greater than $2,000,000 Further 2% on residential property over $3,000,000 If the property"
+    },
+    {
+      "id": "aebb4cc7275a",
+      "value": "$2,000,000",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "market value greater than $200,000 and up to and including $2,000,000 3% of the fair market value greater than $2,000,000 Further"
+    },
+    {
+      "id": "a0d6b9006655",
+      "value": "3%",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 3% of the fair market value greater than $2,000,000 Further"
+    },
+    {
+      "id": "8a4c81478271",
+      "value": "$3,000,000",
+      "context": "BC charges 1% on the first $200,000 of a property's fair market value, 2% from $200,000 to $2,000,000 and 3% above that, plus a further 2% on the residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "than $2,000,000 Further 2% on residential property over $3,000,000 If the property has residential property worth over $3,000,000,"
+    },
+    {
+      "id": "607724e1025e",
+      "value": "$650,000",
+      "context": "The tax on $650,000 is $11,000 and on $835,000 it is $14,700, from the province's own rate formula.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "and Person D. The fair market value of the property is $650,000 and legal ownership in the entire (100%) property transfers."
+    },
+    {
+      "id": "e5c8ba1424f9",
+      "value": "$11,000",
+      "context": "The tax on $650,000 is $11,000 and on $835,000 it is $14,700, from the province's own rate formula.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 = $450,000 \u00d7 2% = $9,000) The total tax payable is $11,000 ($2,000 + $9,000 = $11,000). Note: If the property value"
+    },
+    {
+      "id": "aab8aac53694",
+      "value": "$835,000",
+      "context": "The tax on $650,000 is $11,000 and on $835,000 it is $14,700, from the province's own rate formula.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "ownership transfers, fair market value is between $500,000 and $835,000, and not all transferees qualify Person A sells their home"
+    },
+    {
+      "id": "3fa04f811585",
+      "value": "$14,700,",
+      "context": "The tax on $650,000 is $11,000 and on $835,000 it is $14,700, from the province's own rate formula.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption/exemption-amounts",
+      "sourceName": "Province of British Columbia: Newly built home exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newamt, HTTP 200)"
+      },
+      "needle": "calculated as follows: Property transfer tax before exemption = $14,700 (Use the property transfer tax calculator) Exemption amount"
+    },
+    {
+      "id": "4114f5156d01",
+      "value": "$8,000,",
+      "context": "The first time home buyers' exemption removes up to $8,000, and only for homes worth $835,000 or less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "amount is $4,000 and the tax payable after exemption is $8,000. Note: When a property exceeds $835,000 but is less than"
+    },
+    {
+      "id": "2b32993c40a7",
+      "value": "$835,000",
+      "context": "The first time home buyers' exemption removes up to $8,000, and only for homes worth $835,000 or less.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "after exemption is $8,000. Note: When a property exceeds $835,000 but is less than $860,000, only a partial exemption will"
+    },
+    {
+      "id": "2d1b6a8e300f",
+      "value": "$860,000",
+      "context": "It fades to nothing at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify Newly built home exemption"
+    },
+    {
+      "id": "db0fad2c08fc",
+      "value": "$1,100,000",
+      "context": "The newly built home exemption removes the whole tax up to $1,100,000 and fades to nothing at $1,150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "amount is $11,250. Note: When a property value exceeds $1,100,000 but is less than $1,150,000, only a partial exemption will"
+    },
+    {
+      "id": "dc1fb5991158",
+      "value": "$1,150,000",
+      "context": "The newly built home exemption removes the whole tax up to $1,100,000 and fades to nothing at $1,150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "When a property value exceeds $1,100,000 but is less than $1,150,000, only a partial exemption will apply. See Newly Built Home"
+    },
+    {
+      "id": "fdde838981bd",
+      "value": "20%",
+      "context": "Foreign buyers pay an extra 20% in five regional districts, including Metro Vancouver.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax",
+      "sourceName": "Province of British Columbia: Additional property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_addl, HTTP 200)"
+      },
+      "needle": "transfer is within the following areas, the tax rate is 20% on the fair market value of your proportionate share: Capital"
+    },
+    {
+      "id": "4cc63d82bb47",
+      "value": "92",
+      "context": "Both exemptions require you to move in within 92 days and live there for the first year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption",
+      "sourceName": "Province of British Columbia: Newly built home exemption",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newly, HTTP 200)"
+      },
+      "needle": "the tax exemption you must: Move into your home within 92 days of the date the property was registered at the Land"
+    },
+    {
+      "id": "30eb61689787",
+      "value": "$200,000",
+      "context": "Up to and including $200,000 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "rate is: 1% of the fair market value up to and including $200,000 2% of the fair market value greater than $200,000 and up"
+    },
+    {
+      "id": "e6354fe41c0c",
+      "value": "1%",
+      "context": "Up to and including $200,000 1%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "transactions. The general property transfer tax rate is: 1% of the fair market value up to and including $200,000 2%"
+    },
+    {
+      "id": "c3e367063367",
+      "value": "$200,000",
+      "context": "$200,000 to $2,000,000 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "rate is: 1% of the fair market value up to and including $200,000 2% of the fair market value greater than $200,000 and up"
+    },
+    {
+      "id": "c5b5bb523087",
+      "value": "$2,000,000",
+      "context": "$200,000 to $2,000,000 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "market value greater than $200,000 and up to and including $2,000,000 3% of the fair market value greater than $2,000,000 Further"
+    },
+    {
+      "id": "f62074689183",
+      "value": "2%",
+      "context": "$200,000 to $2,000,000 2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "transfer tax amount: General property transfer tax Further 2% on residential property over $3,000,000 Additional property"
+    },
+    {
+      "id": "a5b39afe6584",
+      "value": "$2,000,000",
+      "context": "Above $2,000,000 3%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$9,000 = $11,000). Note: If the property value exceeded $2,000,000, then the 3% general property transfer tax rate would apply"
+    },
+    {
+      "id": "9cbf90c280c7",
+      "value": "3%",
+      "context": "Above $2,000,000 3%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "Note: If the property value exceeded $2,000,000, then the 3% general property transfer tax rate would apply for the"
+    },
+    {
+      "id": "8a1bde81bad6",
+      "value": "$3,000,000",
+      "context": "Residential value above $3,000,000 (a further tax on top of the 3%) +2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "than $2,000,000 Further 2% on residential property over $3,000,000 If the property has residential property worth over $3,000,000,"
+    },
+    {
+      "id": "fc85329e649c",
+      "value": "3%",
+      "context": "Residential value above $3,000,000 (a further tax on top of the 3%) +2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 3% of the fair market value greater than $2,000,000 Further"
+    },
+    {
+      "id": "443a9632cca8",
+      "value": "2%",
+      "context": "Residential value above $3,000,000 (a further tax on top of the 3%) +2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "1% of the fair market value up to and including $200,000 2% of the fair market value greater than $200,000 and up to"
+    },
+    {
+      "id": "6d65cc3e5063",
+      "value": "$650,000",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "first time home buyers' program ($500,000 + $150,000) is $650,000 Use the property transfer tax calculator or refer to the"
+    },
+    {
+      "id": "2648f336811b",
+      "value": "$2,000",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$275,000 \u00d7 2% = $5,500) The total exempt tax amount is $7,500 ($2,000 + $5,500). Scenario 2: Full ownership transfers, fair market"
+    },
+    {
+      "id": "6a5397897012",
+      "value": "$9,000,",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 = $9,000 ($650,000 - $200,000 = $450,000 \u00d7 2% = $9,000) The total"
+    },
+    {
+      "id": "13421045e2c8",
+      "value": "$11,000,",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 = $450,000 \u00d7 2% = $9,000) The total tax payable is $11,000 ($2,000 + $9,000 = $11,000). Note: If the property value"
+    },
+    {
+      "id": "1d18d90728e9",
+      "value": "$4,500,000",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "home to Person B. The fair market value of the property is $4,500,000 and legal ownership in the entire (100%) property transfers."
+    },
+    {
+      "id": "d3cbbe1b1626",
+      "value": "$143,000",
+      "context": "The province's calculation examples show two cases: a $650,000 home pays $2,000 plus $9,000, for $11,000, and a $4,500,000 all-residential home pays $143,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "payable is $143,000 ($2,000 + $36,000 + $75,000 + $30,000 = $143,000). Scenario 2: Partial ownership transfers, the property"
+    },
+    {
+      "id": "d34904fc9e4a",
+      "value": "$200,000",
+      "context": "At the margin, every extra dollar of value between $200,000 and $2,000,000 adds 2 cents of tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "and up to and including $2,000,000 = $5,500 ($475,000 - $200,000 = $275,000 \u00d7 2% = $5,500) The total exempt tax amount is"
+    },
+    {
+      "id": "6c3110bb06b5",
+      "value": "$2,000,000",
+      "context": "At the margin, every extra dollar of value between $200,000 and $2,000,000 adds 2 cents of tax.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "market value greater than $200,000 and up to and including $2,000,000 3% of the fair market value greater than $2,000,000 Further"
+    },
+    {
+      "id": "f4fd1f31e20a",
+      "value": "$1,000",
+      "context": "What this page adds: a single table showing the tax at seven prices before exemptions, after the first time home buyers' exemption and after the newly built home exemption, plus the dollar cost of each extra $1,000 inside the first-time buyer phase-out between $835,000 and $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "exemption - $500,000 $8,000 $8,000 - $550,000 $9,000 $8,000 $1,000 $600,000 $10,000 $8,000 $2,000 $650,000 $11,000 $8,000"
+    },
+    {
+      "id": "e8ca87b51450",
+      "value": "$835,000",
+      "context": "What this page adds: a single table showing the tax at seven prices before exemptions, after the first time home buyers' exemption and after the newly built home exemption, plus the dollar cost of each extra $1,000 inside the first-time buyer phase-out between $835,000 and $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "after exemption is $8,000. Note: When a property exceeds $835,000 but is less than $860,000, only a partial exemption will"
+    },
+    {
+      "id": "2e5a862e347d",
+      "value": "$860,000",
+      "context": "What this page adds: a single table showing the tax at seven prices before exemptions, after the first time home buyers' exemption and after the newly built home exemption, plus the dollar cost of each extra $1,000 inside the first-time buyer phase-out between $835,000 and $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "Note: When a property exceeds $835,000 but is less than $860,000, only a partial exemption will apply. See First Time Home"
+    },
+    {
+      "id": "27da4314aa0e",
+      "value": "$500,000",
+      "context": "$500,000 $8,000 $0 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "db055709819b",
+      "value": "$8,000",
+      "context": "$500,000 $8,000 $0 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "1aa93471c2ef",
+      "value": "$0",
+      "context": "$500,000 $8,000 $0 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e1163b55060e",
+      "value": "$650,000",
+      "context": "$650,000 $11,000 $3,000 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "8e6c0a7f7feb",
+      "value": "$11,000",
+      "context": "$650,000 $11,000 $3,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c43e1fb2a37f",
+      "value": "$3,000",
+      "context": "$650,000 $11,000 $3,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5f8bf2ab4aaa",
+      "value": "$0",
+      "context": "$650,000 $11,000 $3,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5a2ddeb604b1",
+      "value": "$835,000",
+      "context": "$835,000 $14,700 $6,700 $0",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "ownership transfers, fair market value is between $500,000 and $835,000, and not all transferees qualify Expand allCollapse all"
+    },
+    {
+      "id": "b64d56bbe04f",
+      "value": "$14,700",
+      "context": "$835,000 $14,700 $6,700 $0",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$13,000 $8,000 $5,000 $800,000 $14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740"
+    },
+    {
+      "id": "aa1b0bea6e39",
+      "value": "$6,700",
+      "context": "$835,000 $14,700 $6,700 $0",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$800,000 $14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360"
+    },
+    {
+      "id": "4b0a116ec189",
+      "value": "$0",
+      "context": "$835,000 $14,700 $6,700 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "c9a5ba88325a",
+      "value": "$900,000",
+      "context": "$900,000 $16,000 $16,000 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "53b6bdf64de1",
+      "value": "$16,000",
+      "context": "$900,000 $16,000 $16,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "06ea6e85e25d",
+      "value": "$0",
+      "context": "$900,000 $16,000 $16,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "72cad2c292df",
+      "value": "$1,100,000",
+      "context": "$1,100,000 $20,000 $20,000 $0",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "9bb95d937e2f",
+      "value": "$20,000",
+      "context": "$1,100,000 $20,000 $20,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "5e5aec9e3c2e",
+      "value": "$0",
+      "context": "$1,100,000 $20,000 $20,000 $0",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "0a6bc3e5bb2f",
+      "value": "$1,500,000",
+      "context": "$1,500,000 $28,000 $28,000 $28,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "cac01e91059f",
+      "value": "$28,000",
+      "context": "$1,500,000 $28,000 $28,000 $28,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "eb3c4193aef0",
+      "value": "$3,500,000",
+      "context": "$3,500,000 $93,000 $93,000 $93,000",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "f2d4328c2125",
+      "value": "$93,000",
+      "context": "$3,500,000 $93,000 $93,000 $93,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "e9edfb35ed40",
+      "value": "$3,500,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "bdb6fded54c0",
+      "value": "$93,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "40fa587634e5",
+      "value": "$2,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "acdb178e61ee",
+      "value": "$36,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "d8d9da2e57af",
+      "value": "$45,000,",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "ae9b14266381",
+      "value": "$10,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "fb3d84c8a3ba",
+      "value": "2%",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "transfer tax amount: General property transfer tax Further 2% on residential property over $3,000,000 Additional property"
+    },
+    {
+      "id": "db350dddfcea",
+      "value": "$500,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "Full ownership transfers, fair market value is between $500,000 and $835,000, and not all transferees qualify Scenario"
+    },
+    {
+      "id": "078aa1aff133",
+      "value": "$3,000,000",
+      "context": "At $3,500,000 the $93,000 is $2,000 plus $36,000 plus $45,000, plus $10,000 for the further 2% on the $500,000 above $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "property transfer tax Further 2% on residential property over $3,000,000 Additional property transfer tax General property transfer"
+    },
+    {
+      "id": "983ff918fb74",
+      "value": "$835,000",
+      "context": "The property: used only as your principal residence, a fair market value of $835,000 or less (effective April 1, 2024), 0.5 hectares (1.24 acres) or smaller, and only residential improvements.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "as your principal residence Have a fair market value of $835,000 or less (effective April 1, 2024) Be 0.5 hectares (1.24"
+    },
+    {
+      "id": "b8123cbc0601",
+      "value": "April 1, 2024",
+      "context": "The property: used only as your principal residence, a fair market value of $835,000 or less (effective April 1, 2024), 0.5 hectares (1.24 acres) or smaller, and only residential improvements.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "Have a fair market value of $835,000 or less (effective April 1, 2024) Be 0.5 hectares (1.24 acres) or smaller, and Contain only"
+    },
+    {
+      "id": "7c75d55fce2b",
+      "value": "0.5",
+      "context": "The property: used only as your principal residence, a fair market value of $835,000 or less (effective April 1, 2024), 0.5 hectares (1.24 acres) or smaller, and only residential improvements.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "value of $835,000 or less (effective April 1, 2024) Be 0.5 hectares (1.24 acres) or smaller, and Contain only residential"
+    },
+    {
+      "id": "fdfb9b66ec1e",
+      "value": "1.24",
+      "context": "The property: used only as your principal residence, a fair market value of $835,000 or less (effective April 1, 2024), 0.5 hectares (1.24 acres) or smaller, and only residential improvements.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "$835,000 or less (effective April 1, 2024) Be 0.5 hectares (1.24 acres) or smaller, and Contain only residential improvements"
+    },
+    {
+      "id": "6b2c4ad55b50",
+      "value": "$500,000,",
+      "context": "The amount: the exemption covers the tax on the first $500,000, which is up to $8,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "and including $2,000,000 = $10,000 ($700,000 - $200,000 = $500,000 \u00d7 2% = $10,000) The tax payable if not exempt is $12,000."
+    },
+    {
+      "id": "16758cdaba31",
+      "value": "$8,000",
+      "context": "The amount: the exemption covers the tax on the first $500,000, which is up to $8,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "determine the exemption amount for the first time home buyer: $8,000 maximum exemption amount \u00d7 50% = 4,000 You can then determine"
+    },
+    {
+      "id": "9eb5466209c8",
+      "value": "$500,000",
+      "context": "Between $500,000 and $835,000 the exemption stays at $8,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "ownership transfers and fair market value does not exceed $500,000 Scenario 2: Full ownership transfers, fair market value"
+    },
+    {
+      "id": "47c9b9abb8ce",
+      "value": "$835,000",
+      "context": "Between $500,000 and $835,000 the exemption stays at $8,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "3: Full ownership transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify"
+    },
+    {
+      "id": "2a49c6995334",
+      "value": "$8,000",
+      "context": "Between $500,000 and $835,000 the exemption stays at $8,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 = $300,000 \u00d7 2% = $6,000) The exempt amount is $8,000 ($2,000 + $6,000 = $8,000). Scenario 2: Property size less"
+    },
+    {
+      "id": "d77ff4c683ad",
+      "value": "$835,000",
+      "context": "Two spouses buying an $835,000 home as joint tenants with only one qualifying leave $14,700 minus $4,000, so $10,700 payable.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "b440c633f3e1",
+      "value": "$14,700",
+      "context": "Two spouses buying an $835,000 home as joint tenants with only one qualifying leave $14,700 minus $4,000, so $10,700 payable.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption/exemption-amounts",
+      "sourceName": "Province of British Columbia: Newly built home exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newamt, HTTP 200)"
+      },
+      "needle": "calculated as follows: Property transfer tax before exemption = $14,700 (Use the property transfer tax calculator) Exemption amount"
+    },
+    {
+      "id": "0a2f92f7fcda",
+      "value": "$4,000,",
+      "context": "Two spouses buying an $835,000 home as joint tenants with only one qualifying leave $14,700 minus $4,000, so $10,700 payable.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "minus $4,000 exemption amount = $8,000 The exempt amount is $4,000 and the tax payable after exemption is $8,000. Note: When"
+    },
+    {
+      "id": "d3846cf5481e",
+      "value": "$10,700",
+      "context": "Two spouses buying an $835,000 home as joint tenants with only one qualifying leave $14,700 minus $4,000, so $10,700 payable.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$8,000 X 50% Net property transfer tax payable 14,700 $4,000 $10,700 Property size larger than 0.5 hectares If your property"
+    },
+    {
+      "id": "cc970b919af3",
+      "value": "92",
+      "context": "After you register, you must move in within 92 days and live there as your principal residence until the first anniversary of registration.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "tax exemption, you must have: Moved into your home within 92 days of the date the property was registered Continuously"
+    },
+    {
+      "id": "ba3f961a23af",
+      "value": "$835,000",
+      "context": "What happens to the first-time buyer exemption above $835,000?",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$4,000 As the fair market value of the property is above $835,000 and less than $860,000, you can then determine the exempt"
+    },
+    {
+      "id": "baf63e42c0bd",
+      "value": "$320",
+      "context": "It phases out quickly, at $320 for every $1,000 of added value, and it is gone at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$14,180 $858,000 $15,160 $640 $14,520 $859,000 $15,180 $320 $14,860 $860,000 $15,200 - $15,200 Exemption amount when"
+    },
+    {
+      "id": "e878eb63e892",
+      "value": "$1,000",
+      "context": "It phases out quickly, at $320 for every $1,000 of added value, and it is gone at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 = $1,000 ($250,000 - $200,000 = $50,000 \u00d7 2% = $1,000) The total"
+    },
+    {
+      "id": "2ef88fbd7bb8",
+      "value": "$860,000",
+      "context": "It phases out quickly, at $320 for every $1,000 of added value, and it is gone at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify Newly built home exemption"
+    },
+    {
+      "id": "c13839894692",
+      "value": "$835,000",
+      "context": "$835,000 $14,700 $8,000 $6,700",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "ownership transfers, fair market value is between $500,000 and $835,000, and not all transferees qualify Expand allCollapse all"
+    },
+    {
+      "id": "8ce614631dff",
+      "value": "$14,700",
+      "context": "$835,000 $14,700 $8,000 $6,700",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$13,000 $8,000 $5,000 $800,000 $14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740"
+    },
+    {
+      "id": "462e25840a80",
+      "value": "$8,000",
+      "context": "$835,000 $14,700 $8,000 $6,700",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$42,000) Further 2% on residential property over $3,000,000 = $8,000 ($3,400,000 - $3,000,000 = $400,000 \u00d7 2% = $8,000) 20%"
+    },
+    {
+      "id": "7711e5961419",
+      "value": "$6,700",
+      "context": "$835,000 $14,700 $8,000 $6,700",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$800,000 $14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360"
+    },
+    {
+      "id": "754c84d03d0d",
+      "value": "$836,000",
+      "context": "$836,000 $14,720 $7,680 $7,040",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$800,000 $14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360 $7,380 $838,000"
+    },
+    {
+      "id": "c29c6f5e98ff",
+      "value": "$14,720",
+      "context": "$836,000 $14,720 $7,680 $7,040",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$14,000 $8,000 $6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360 $7,380 $838,000 $14,760"
+    },
+    {
+      "id": "1c6a6092e4a5",
+      "value": "$7,680",
+      "context": "$836,000 $14,720 $7,680 $7,040",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$6,000 $835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360 $7,380 $838,000 $14,760"
+    },
+    {
+      "id": "8b69e1f329c5",
+      "value": "$7,040",
+      "context": "$836,000 $14,720 $7,680 $7,040",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$835,000 $14,700 $8,000 $6,700 $836,000 $14,720 $7,680 $7,040 $837,000 $14,740 $7,360 $7,380 $838,000 $14,760 $7,040"
+    },
+    {
+      "id": "1188fa9d56b5",
+      "value": "$850,000",
+      "context": "$850,000 $15,000 $3,200 $11,800",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "the exemption. The fair market value of the Property is $850,000 and the property does not exceed 0.5 hectares. First, calculate"
+    },
+    {
+      "id": "9754fddc0378",
+      "value": "$15,000",
+      "context": "$850,000 $15,000 $3,200 $11,800",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$650,000 \u00d7 2% = $13,000) The tax payable if not exempt is $15,000. Then, determine the exemption amount for the first time"
+    },
+    {
+      "id": "3ec3790c96f8",
+      "value": "$3,200",
+      "context": "$850,000 $15,000 $3,200 $11,800",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 = $3,200 ($360,000 - $200,000 = $160,000 \u00d7 2% = $3,200) The total"
+    },
+    {
+      "id": "a071507d7c30",
+      "value": "$11,800",
+      "context": "$850,000 $15,000 $3,200 $11,800",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$849,000 $14,980 $3,520 $11,460 $850,000 $15,000 $3,200 $11,800 $851,000 $15,020 $2,880 $12,140 $852,000 $15,040 $2,560"
+    },
+    {
+      "id": "b5403714b8a1",
+      "value": "$860,000",
+      "context": "$860,000 $15,200 $0 $15,200",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify Newly built home exemption"
+    },
+    {
+      "id": "dd8c4d081067",
+      "value": "$15,200",
+      "context": "$860,000 $15,200 $0 $15,200",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$15,160 $640 $14,520 $859,000 $15,180 $320 $14,860 $860,000 $15,200 - $15,200 Exemption amount when only part of the property"
+    },
+    {
+      "id": "3fb91cde18bc",
+      "value": "$0",
+      "context": "$860,000 $15,200 $0 $15,200",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "bc9b853b4700",
+      "value": "$1,000",
+      "context": "Adding $1,000 to an $835,000 price costs $340 more in tax, because the tax rises $20 and the exemption falls $320.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "2% = $1,000) The total tax payable is $3,000 ($2,000 + $1,000 = $3,000). Further 2% tax on residential property over"
+    },
+    {
+      "id": "94f3fb0d9921",
+      "value": "$835,000",
+      "context": "Adding $1,000 to an $835,000 price costs $340 more in tax, because the tax rises $20 and the exemption falls $320.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "2ac87d84ae5a",
+      "value": "$340",
+      "context": "Adding $1,000 to an $835,000 price costs $340 more in tax, because the tax rises $20 and the exemption falls $320.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "79c66bf8fea8",
+      "value": "$20",
+      "context": "Adding $1,000 to an $835,000 price costs $340 more in tax, because the tax rises $20 and the exemption falls $320.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "111b630366ef",
+      "value": "$320",
+      "context": "Adding $1,000 to an $835,000 price costs $340 more in tax, because the tax rises $20 and the exemption falls $320.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$14,180 $858,000 $15,160 $640 $14,520 $859,000 $15,180 $320 $14,860 $860,000 $15,200 - $15,200 Exemption amount when"
+    },
+    {
+      "id": "1efa2ba0eada",
+      "value": "$850,000",
+      "context": "A first-time buyer at $850,000 pays $11,800, which is $5,100 more than at $835,000 (our arithmetic from the table).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 and up to and including $2,000,000 = $13,000 ($850,000 - $200,000 = $650,000 \u00d7 2% = $13,000) The tax payable if"
+    },
+    {
+      "id": "0c73ace34903",
+      "value": "$11,800,",
+      "context": "A first-time buyer at $850,000 pays $11,800, which is $5,100 more than at $835,000 (our arithmetic from the table).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/current-amount",
+      "sourceName": "Province of British Columbia: First time home buyers exemption amounts",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_amount, HTTP 200)"
+      },
+      "needle": "$849,000 $14,980 $3,520 $11,460 $850,000 $15,000 $3,200 $11,800 $851,000 $15,020 $2,880 $12,140 $852,000 $15,040 $2,560"
+    },
+    {
+      "id": "ccc227eb27cc",
+      "value": "$5,100",
+      "context": "A first-time buyer at $850,000 pays $11,800, which is $5,100 more than at $835,000 (our arithmetic from the table).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "87b354d2c281",
+      "value": "$835,000",
+      "context": "A first-time buyer at $850,000 pays $11,800, which is $5,100 more than at $835,000 (our arithmetic from the table).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "3: Full ownership transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify"
+    },
+    {
+      "id": "3e8ac871bd09",
+      "value": "$1,100,000",
+      "context": "It removes the entire tax on a qualifying new principal residence worth $1,100,000 or less, and phases out to nothing at $1,150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption",
+      "sourceName": "Province of British Columbia: Newly built home exemption",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newly, HTTP 200)"
+      },
+      "needle": "exemption for newly built homes is increased from $750,000 to $1,100,000. Partial exemption: A partial exemption is also available"
+    },
+    {
+      "id": "85f22cf0ed59",
+      "value": "$1,150,000",
+      "context": "It removes the entire tax on a qualifying new principal residence worth $1,100,000 or less, and phases out to nothing at $1,150,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "When a property value exceeds $1,100,000 but is less than $1,150,000, only a partial exemption will apply. See Newly Built Home"
+    },
+    {
+      "id": "23d52e4dfa75",
+      "value": "0.5",
+      "context": "Property: BC, principal residence only, 0.5 hectares or smaller.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "value of $835,000 or less (effective April 1, 2024) Be 0.5 hectares (1.24 acres) or smaller, and Contain only residential"
+    },
+    {
+      "id": "986f2f7fa2ab",
+      "value": "49",
+      "context": "Apply: your lawyer enters exemption code 49 on the return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption",
+      "sourceName": "Province of British Columbia: Newly built home exemption",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newly, HTTP 200)"
+      },
+      "needle": "you may have paid. Apply Select or enter exemption code 49 on the Property Transfer Tax Return to apply for the newly"
+    },
+    {
+      "id": "bb2792fed693",
+      "value": "92",
+      "context": "Occupancy: move in within 92 days and stay for the rest of the first year, or repay a portion.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption",
+      "sourceName": "Province of British Columbia: Newly built home exemption",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_newly, HTTP 200)"
+      },
+      "needle": "the tax exemption you must: Move into your home within 92 days of the date the property was registered at the Land"
+    },
+    {
+      "id": "cc4afc6dc8ac",
+      "value": "20%",
+      "context": "A foreign national, foreign corporation or taxable trustee pays an additional 20% on the fair market value of the residential portion they acquire, in five regional districts.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "residential property is $500,000. From this, apply the 20% additional property transfer tax rate: 20% on $500,000"
+    },
+    {
+      "id": "b753476dff2c",
+      "value": "70%",
+      "context": "The additional tax applies to your proportionate share, so a 70% interest is taxed on 70% of the value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax",
+      "sourceName": "Province of British Columbia: Additional property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_addl, HTTP 200)"
+      },
+      "needle": "entity (foreign national or foreign corporation) acquiring a 70% interest in a property, you pay the additional property"
+    },
+    {
+      "id": "4b66e0e84443",
+      "value": "$1,000,000",
+      "context": "On a $1,000,000 residential property in Metro Vancouver, 20% is $200,000 (our arithmetic).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "and Person D. The fair market value of the property is $1,000,000 and legal ownership in the entire (100%) property transfers."
+    },
+    {
+      "id": "b32be22a0bb6",
+      "value": "20%",
+      "context": "On a $1,000,000 residential property in Metro Vancouver, 20% is $200,000 (our arithmetic).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax",
+      "sourceName": "Province of British Columbia: Additional property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_addl, HTTP 200)"
+      },
+      "needle": "transfer is within the following areas, the tax rate is 20% on the fair market value of your proportionate share: Capital"
+    },
+    {
+      "id": "9d86e0a5902e",
+      "value": "$200,000",
+      "context": "On a $1,000,000 residential property in Metro Vancouver, 20% is $200,000 (our arithmetic).",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax",
+      "sourceName": "Province of British Columbia: Property transfer tax",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_main, HTTP 200)"
+      },
+      "needle": "rate is: 1% of the fair market value up to and including $200,000 2% of the fair market value greater than $200,000 and up"
+    },
+    {
+      "id": "d18fd80068ef",
+      "value": "1%",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "50% \u00d7 $500,000 = $250,000 Then calculate the tax payable: 1% of the fair market value up to and including $200,000 ="
+    },
+    {
+      "id": "24cc91a92b79",
+      "value": "$200,000,",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "property is $600,000, with residential improvements worth $200,000 and the rest of the value in the land. The property is"
+    },
+    {
+      "id": "a853efb90edf",
+      "value": "2%",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "the property value did not exceed $3,000,000, then the 2% tax on residential property over that value would not apply."
+    },
+    {
+      "id": "94f71ac69a95",
+      "value": "$2,000,000",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$9,000 = $11,000). Note: If the property value exceeded $2,000,000, then the 3% general property transfer tax rate would apply"
+    },
+    {
+      "id": "b2cc17c1161f",
+      "value": "3%",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "Note: If the property value exceeded $2,000,000, then the 3% general property transfer tax rate would apply for the"
+    },
+    {
+      "id": "a3697fa293e2",
+      "value": "$3,000,000",
+      "context": "Apply 1% to the first $200,000, 2% to the part up to $2,000,000 and 3% above that, then add 2% on residential value over $3,000,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "= $768,000). Note: If the property value did not exceed $3,000,000, then the 2% tax on residential property over that value"
+    },
+    {
+      "id": "34ebc466a6d8",
+      "value": "$650,000",
+      "context": "On $650,000 that is $2,000 plus $9,000, for $11,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "and Person D. The fair market value of the property is $650,000 and legal ownership in the entire (100%) property transfers."
+    },
+    {
+      "id": "d8d12bb07b49",
+      "value": "$2,000",
+      "context": "On $650,000 that is $2,000 plus $9,000, for $11,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "of the fair market value up to and including $200,000 = $2,000 2% of the fair market value greater than $200,000 and up"
+    },
+    {
+      "id": "e8e56fe4ffff",
+      "value": "$9,000,",
+      "context": "On $650,000 that is $2,000 plus $9,000, for $11,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "greater than $200,000 and up to and including $2,000,000 = $9,000 ($650,000 - $200,000 = $450,000 \u00d7 2% = $9,000) The total"
+    },
+    {
+      "id": "2baad98bb731",
+      "value": "$11,000",
+      "context": "On $650,000 that is $2,000 plus $9,000, for $11,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "$200,000 = $450,000 \u00d7 2% = $9,000) The total tax payable is $11,000 ($2,000 + $9,000 = $11,000). Note: If the property value"
+    },
+    {
+      "id": "4ea3cefc4bd4",
+      "value": "$900,000",
+      "context": "Can I get the first-time buyer exemption on a $900,000 home?",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4020ddbaf512",
+      "value": "$835,000",
+      "context": "The home's fair market value must be $835,000 or less for the full exemption, and the exemption ends at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "3: Full ownership transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify"
+    },
+    {
+      "id": "7f21ac97317f",
+      "value": "$860,000",
+      "context": "The home's fair market value must be $835,000 or less for the full exemption, and the exemption ends at $860,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "transfers, fair market value is above $835,000 and less than $860,000, and not all transferees qualify Newly built home exemption"
+    },
+    {
+      "id": "7f24df5372ef",
+      "value": "92",
+      "context": "For both exemptions you must move in within 92 days of registration and live there as your principal residence until the first anniversary.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers",
+      "sourceName": "Province of British Columbia: First time home buyers program",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_ftb, HTTP 200)"
+      },
+      "needle": "tax exemption, you must have: Moved into your home within 92 days of the date the property was registered Continuously"
+    },
+    {
+      "id": "9161c9f7bfea",
+      "value": "$500,000",
+      "context": "What is the BC property transfer tax on a $500,000 home?",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "83f5e236b57d",
+      "value": "$8,000",
+      "context": "$8,000 before exemptions: $2,000 on the first $200,000 and $6,000 on the next $300,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "determine the exemption amount for the first time home buyer: $8,000 maximum exemption amount \u00d7 50% = 4,000 You can then determine"
+    },
+    {
+      "id": "685df2145056",
+      "value": "$2,000",
+      "context": "$8,000 before exemptions: $2,000 on the first $200,000 and $6,000 on the next $300,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "335dced187a0",
+      "value": "$200,000",
+      "context": "$8,000 before exemptions: $2,000 on the first $200,000 and $6,000 on the next $300,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples",
+      "sourceName": "Province of British Columbia: Calculation examples",
+      "asOf": "2026-11-25",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "needle found on page fetched 2026-11-25 (bc_examples, HTTP 200)"
+      },
+      "needle": "payable: 1% of the fair market value up to and including $200,000 = $2,000 2% of the fair market value greater than $200,000"
+    },
+    {
+      "id": "4418688e7749",
+      "value": "$6,000",
+      "context": "$8,000 before exemptions: $2,000 on the first $200,000 and $6,000 on the next $300,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    },
+    {
+      "id": "107cc0959a5a",
+      "value": "$300,000",
+      "context": "$8,000 before exemptions: $2,000 on the first $200,000 and $6,000 on the next $300,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261125-model.py"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-25",
+        "verifier": "Grok Bot executor - independent source check, run 2026-11-25 (qa/figs/2026-11-25/recheck.py); separate pass from drafting (same agent, different script and algorithms)",
+        "note": "recomputed independently in qa/figs/2026-11-25/recheck.py (different algorithm, no model import) from rates printed on pages fetched 2026-11-25"
+      }
+    }
+  ]
+}
