@@ -722,7 +722,8 @@ const investingClusterPostsRaw: InvestingPost[] = [
 </div>`
   ),
 
-  investingPost(
+  {
+    ...investingPost(
     'best-etfs-tfsa-canada',
     'Best ETFs for a TFSA in Canada (2026)',
     'The best TFSA ETF in 2026 is a Canadian-listed fund you will hold. US withholding in a TFSA is not creditable, and the TFSA limit is $7,000.',
@@ -906,7 +907,12 @@ const investingClusterPostsRaw: InvestingPost[] = [
     ${footer('September 27, 2026', 'November 2026', 'November 22, 2026')}
 
 </div>`
-  ),
+    ),
+    youtubeId: 'BSXyaS__8m0',
+    youtubeTitle: 'Why Your TFSA Still Pays US Tax',
+    youtubeUploadDate: '2026-11-26T07:56:30-05:00',
+    youtubeDuration: 'PT5M13S',
+  },
 
   investingPost(
     'norberts-gambit-canada-guide',
