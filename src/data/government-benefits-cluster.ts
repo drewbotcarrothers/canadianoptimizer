@@ -242,6 +242,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/canada-workers-benefit-guide/">Canada Workers Benefit: who qualifies and how much you can get</a> &middot; <a href="/blog/why-did-my-ccb-change/">Why did my CCB change? The July reset and other causes</a></p>
+
     ${footer(published)}
 
 </div>`
@@ -752,6 +754,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/canada-workers-benefit-guide/">Canada Workers Benefit: who qualifies and how much you can get</a> &middot; <a href="/blog/why-did-my-ccb-change/">Why did my CCB change? The July reset and other causes</a></p>
+
     ${footer(published, 'October 25, 2026', 'This is general education about Canadian government benefit payment dates. It is not tax, legal, or benefits advice, and it is not a determination of what you will be paid. The dates below are from Canada.ca, CRA and Service Canada pages reviewed October 25, 2026. Payment dates change, and they depend on your return, your residence, and the notice CRA or Service Canada actually issues. The household example is an illustration of dates only, not a quote of your file. Confirm My Account, My Service Canada Account, and the current notice before you spend a payment you have not received.')}
 
 </div>`
@@ -1021,6 +1025,8 @@ export const governmentBenefitsClusterPosts: BenefitsPost[] = [
         <p>If the 2025 return is still open, the benefit is still waiting. The 2026 tax guide is the filing side.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/canada-workers-benefit-guide/">Canada Workers Benefit: who qualifies and how much you can get</a></p>
 
     ${footer(published)}
 

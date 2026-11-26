@@ -1,0 +1,237 @@
+Skip to main content
+Skip to virtual assistant
+Skip to "About this site"
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search Canada.ca
+Search
+Menu
+MAIN
+MENU 
+You are here:
+Canada.ca Canada Revenue Agency (CRA)
+Sign in to your CRA account
+Information alerts
+
+Emails related to multi-factor authentication (MFA)
+
+You may have recently received an email notification from the CRA encouraging you to set up a backup MFA option in your CRA account. A backup method can help you if you forget or lose access to your primary MFA method. The CRA will not send you an email with a link asking you to sign in. Go to the latest scam alerts page for more details and information on scams and fake websites.
+
+Sweet class action
+
+A settlement agreement in the Sweet Class Action has been approved by the Federal Court. Learn more about available compensation in the Notice of Settlement Approval.
+
+Regain access to your CRA account without having to call
+
+Users who have been locked out of their CRA account because they have forgotten their existing credentials can now register again for a new credential and regain access to their account. Learn more, Register for a CRA account
+
+Sign in or register to access My Account, My Business Account, Represent a Client, Registered Plan Administrator Account, and Non-Resident Withholding Tax.
+
+Sign in to your CRA account
+: Option 1
+
+Sign in with your existing credential:
+
+Before you sign in
+Signing in on behalf of someone else
+
+If you are signing in on behalf of someone else (including friends and family members) you must use Represent a Client in your CRA account to access their information.
+
+Do not use autofill on a shared device
+
+Do not use autofill for your online banking information if you are on a shared device. When you are on your Sign-In Partner's website, ensure it is your information that is entered and not that of somebody else.
+
+If you register with someone else's banking credentials by mistake and link your SIN to them, the other person will have access to your tax information.
+
+Participating Sign-In Partners
+
+The following are our current Sign-In Partners:
+
+Access Credit Union
+Affinity Credit Union
+ATB Financial
+BMO Financial Group
+Caisse Alliance
+CIBC Canadian Imperial Bank of Commerce
+Coast Capital Savings
+Conexus Credit Union
+Desjardins Group (Caisses Populaires)
+Digital Commerce Bank
+Libro
+Meridian Credit Union
+National Bank of Canada
+RBC Royal Bank
+Scotiabank
+Servus Credit Union
+Simplii Financial
+Steinbach Credit Union
+Tangerine
+TD Bank Group
+UNI
+Vancity
+Wealthsimple
+
+Sign-In Partner
+: Sign in
+
+CRA user ID and password
+: Sign in
+
+Provincial partner (BC, AB)
+: Sign in
+
+Register for a CRA account
+: Option 2
+
+Register for a CRA account
+
+Help
+Common issues
+You forgot your CRA user ID or password
+Recovering your user ID
+
+To recover your CRA user ID:
+
+Select CRA user ID and password from the sign-in options
+Select Forgot your user ID?
+Provide the following information:
+Your social insurance number (SIN)
+Your date of birth
+Amount you entered on line 15000 of your most recent income tax and benefit return, from one of the previous 2 tax years
+Answer the security questions you set up during registration
+Recovering your password
+
+If you have forgotten your CRA password:
+
+Select CRA user ID and password from the sign-in options
+Select Forgot your password?
+Enter your CRA user ID
+Answer the security questions you set up during registration
+If you can’t access your account
+
+If you lost access to your CRA account, going through the registration process again may help you get your access back.
+
+More help with CRA user ID and password
+
+You did not receive your one-time passcode
+
+Try the following options to receive your one-time passcode:
+
+Ask for the passcode to be sent again, or sent to a different phone number that you have already enrolled with
+Use the Call me option instead of Text me if you are using a VoIP service
+Use the passcode grid if you are already enrolled with that option
+Use the third-party authenticator app if it is already set up
+
+If none of these options are available to you or you still can't receive your one-time passcode, you will need to contact us.
+
+More help with multi-factor authentication
+
+You have not received your CRA security code
+
+If your CRA security code has been lost or has not arrived after 10 business days, you can either:
+
+Use the document verification service instead to verify your identity
+Contact us to get a new one by mail
+
+If your CRA security code has expired, you can either:
+
+Use the document verification service instead to verify your identity
+Sign in to request a new CRA security code to be sent by mail
+Update your information with the CRA
+
+Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.
+
+Update your information with the CRA
+Your account is locked
+
+Your account will become locked if you enter the wrong information too many times for any of the following:
+
+CRA user ID or password
+One-time passcode for multi-factor authentication (MFA)
+You do not need to call if you are only temporarily locked out
+
+If you enter the wrong one-time passcode too many times, you will be temporarily locked out of your CRA account for 30 minutes. After that period, you can try again or use another method you are enrolled with. If this happens 3 times, you will be permanently locked out and will need to contact us.
+
+Security questions
+CRA security code
+The document verification service
+
+To regain access to your CRA account, you can either:
+
+Go through the registration process again
+Contact us to have your account unlocked
+Your CRA user ID and password have been revoked
+
+If your CRA user ID and password have been revoked, you can regain access to your account in either of the following ways:
+
+Use a different sign-in option
+Go through the registration process again to get a new CRA user ID and password
+
+More help with revoked CRA user ID and password
+
+Change the option you sign in with
+
+If you registered with a provincial partner, you can also create a CRA user ID and password or use a Sign-In Partner.
+
+If you registered with a CRA user ID and password, you can sign in with your CRA user ID and password and revoke your credential so you can register with a different sign-in option or create a new CRA user ID and password.
+
+If you registered with a Sign-In Partner, you can sign in to your current Sign-In Partner and switch to a different Sign-In Partner.
+
+Help and about sign-in
+Help with using your CRA account
+
+How to register, manage and update your information, use multi-factor authentication (MFA)
+
+About your CRA account
+
+What’s new and updated, services, privacy commitments
+
+Other CRA and Government of Canada accounts
+Candidate Profile
+
+Sign in to apply for job opportunities, view your career applications with the CRA
+
+Government of Canada accounts
+
+Access accounts for Government of Canada departments and agencies
+
+Page details
+Give feedback about this page
+Did you find what you were looking for?
+Yes No
+Date modified: 2026-10-18
+About this site
+Canada Revenue Agency (CRA)
+Contact the CRA
+Update your information
+About the CRA
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finance
+Science and innovation
+Indigenous peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media Mobile applications About Canada.ca Terms and conditions Privacy
+ 

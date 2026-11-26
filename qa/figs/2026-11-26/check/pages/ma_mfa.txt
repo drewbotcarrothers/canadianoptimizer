@@ -1,0 +1,156 @@
+Skip to main content
+Skip to "About government"
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search CRA
+Search
+Menu
+MAIN
+MENU 
+Sign in
+CRA sign in
+You are here:
+Canada.ca Canada Revenue Agency (CRA) Sign in to your CRA account Help with using your CRA account
+
+CRA account help
+
+CRA account help -
+Multi-factor authentication (MFA)
+
+Emails related to multi-factor authentication (MFA)
+
+You may have recently received an email notification from the CRA encouraging you to set up a backup MFA option in your CRA account. A backup method can help you if you forget or lose access to your primary MFA method. The CRA will not send you an email with a link asking you to sign in. Go to the latest scam alerts page for more details and information on scams and fake websites.
+
+Multi-factor authentication (MFA) increases the security of your CRA account by requiring you to enter a one-time passcode every time you sign in. MFA is mandatory for all CRA account users.
+
+On this page
+MFA options
+Keep your passcode secure
+Change your MFA settings
+If you can't receive your one-time passcode
+MFA options
+
+When you register for a CRA account, we will prompt you to enroll in two MFA options to get your one-time passcodes. However, only one of the following is currently mandatory:
+
+Third-party authenticator app: Use a mobile app that generates passcodes
+Passcode grid: Save or print a passcode grid the CRA generates
+Phone: Get passcodes sent to you by text or phone call
+ Authenticator app
+ Passcode grid
+ Phone
+Get an authenticator app
+Search for and download a free third-party authenticator app from a reputable app store
+
+How to choose a reputable authenticator app
+
+Most reputable, standard authenticator apps should be able to read the QR code we provide. To make sure the app you are downloading is reputable:
+
+Download only from official app stores (such as Google Play, the Microsoft Store, or the Apple App Store)
+Read the privacy agreement before you download to make sure your data is handled securely
+Read recent reviews to check for reported security concerns
+Check the number of reviews or downloads (a low number may be a concern)
+
+You do not need to spend money to get a reputable authenticator app.
+
+Learn how to recognize a scam.
+
+Set up the app to use with your CRA account (one time only)
+When you are setting up this MFA option for your CRA account, either:
+
+Scan the provided QR code with a mobile device when prompted
+Option 1 of 2
+
+Manually enter the setup key the CRA provides to you into the app
+Option 2 of 2
+
+Get your passcode in the authenticator app
+Every time you sign in to your CRA account and are prompted for a passcode, open your authenticator app to get the 6-digit code. For security, the app will generate a new passcode every 30 seconds.
+Why we prompt you to enroll in two or more MFA options
+
+Only one MFA option is mandatory right now. However, enrolling in multiple MFA options ensures that you can still access your CRA account if you:
+
+Change your phone number
+Can't access your text messages
+Misplace your passcode grid
+Delete the third-party authenticator app
+
+If you have already enrolled with one option, you can add a backup MFA option in your CRA account.
+
+Keep your passcode secure
+
+You should never share your one-time passcode with anyone, including anyone calling or texting you and asking for it. The CRA will never call and ask you for your one-time passcode over the phone.
+
+However, if you call us, you can choose to verify your identity during the call by providing your one-time passcode to:
+
+Our Interactive Voice Response (IVR) system
+The CRA service representative
+
+You can also learn about How to recognize a scam.
+
+Change your MFA settings
+
+After you sign in to your CRA account, on the Welcome page you can:
+
+Add or change a phone number for MFA
+Add a new backup MFA option
+Remove or change an MFA option
+Generate a new passcode grid
+Change your language settings
+How to change your MFA options in your CRA account
+Sign in to your CRA account
+On the Welcome page select Security settings
+Choose Multi-factor authentication then Continue
+Choose the MFA option you want to add, remove, or change:
+Telephone: Add, edit or delete phone numbers, and change your preferred language
+Passcode grid: Add, view or delete a passcode grid
+Authenticator app: Add or remove an authenticator app
+If you can't receive your one-time passcode
+
+If your phone number has changed or you can no longer receive your one-time passcode to that number, you can use another MFA option you are already enrolled with.
+
+If you still cannot receive your one-time passcode, contact us.
+
+If you are locked out for entering the wrong passcode too many times
+
+If you enter the wrong one-time passcode too many times, you will be temporarily locked out of your CRA account for 30 minutes. After that period, you can try again or use another method you are enrolled with. If this happens 3 times, you will be permanently locked out and will need to contact us.
+
+Page details
+Give feedback about this page
+Did you find what you were looking for?
+Yes No
+ 2026-11-18
+About this site
+Canada Revenue Agency (CRA)
+Contact the CRA
+Update your information
+About the CRA
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media Mobile applications About Canada.ca Terms and conditions Privacy
+ 

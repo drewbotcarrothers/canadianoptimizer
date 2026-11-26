@@ -1,0 +1,392 @@
+Skip to main content
+Skip to "About government"
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search CRA
+Search
+Menu
+MAIN
+MENU 
+Sign in
+CRA sign in
+You are here:
+Canada.ca Taxes Income tax Personal income tax After filing a tax return
+
+Personal income tax
+
+Notices of assessment - NOA or NOR
+– Personal income tax
+
+You may be looking for:
+
+Get a proof of income statement
+
+A notice of assessment (NOA) is the summary of the calculated amounts for your income tax and benefit return. The Canada Revenue Agency (CRA) sends you these results after receiving your tax return.
+
+The CRA will only send you a notice of reassessment (NOR) if changes are made to your assessed tax return. The NOR is an updated summary of the changes.
+
+On this page
+How you will receive your notice
+Get a copy of a current or previous year notice
+Understand sections of your notice
+If you disagree with your notice
+How you will receive your notice
+
+The results of your notice are the same regardless of how you receive it. Notices are issued in only one language based on your preference when you filed.
+
+The CRA will send your notice (NOA or NOR) in the following ways:
+
+In your online CRA account
+
+Your notice is available in your account once your return is processed. In most situations, this will happen immediately.
+
+To view your notice, sign in to your CRA account.
+
+If you do not have an account, you can register for one to easily access and view your notice.
+
+Delivery by mail
+
+The CRA sends you online mail unless you set your preferences to letter mail, or if you have never provided us with your email address.
+
+Online mail in your CRA account
+
+If you provided us with an email address, you will get an email to notify you when there is mail in your CRA account.
+
+You will not receive your notice (NOA or NOR) by letter mail.
+
+Letter mail
+
+Your notice (NOA or NOR) is sent to the mailing address on file.
+
+You can also view your notice in your CRA account, but you will not be notified by email.
+
+When you will receive your notice
+
+The method you use to file a tax return affects how long it takes to receive your NOA.
+
+Check the status of your return in your CRA account
+
+You can view the status of your return using the progress tracker in your CRA account.
+
+CRA sign in Register for a CRA account
+
+Check general processing times for T1 returns
+Check processing times
+What type of return?
+Make your selection...
+T1 income tax and benefit return
+T1 adjustment request
+Why an NOA may take longer to issue
+
+It may take longer to issue an NOA if:
+
+You filed your return after the due date
+CRA completes a review of your tax return
+You are filing:
+Multiple tax returns
+A bankruptcy return
+A deceased taxpayer return
+The CRA requested more information or documents from you or your authorized representative
+
+Non-resident tax returns may take up to 16 weeks to process.
+
+For details, refer to CRA processing times.
+
+How long it takes to issue an NOR after changes are made to a tax return
+
+Generally, the processing time for issuing an NOR is the same as for an NOA.
+
+If you make changes to your tax return after you have filed it, refer to how long it takes to process your adjustment request.
+
+If the CRA found errors on the tax return you filed, you will receive your NOR right after our reassessment is complete.
+
+Get a copy of a current or previous year notice
+
+You can get a copy of your NOA or NOR either online or by mail.
+
+Online
+
+Sign into your CRA account to view or print your notices. If you do not have an account, you can register for one to easily access current or previous year notices.
+
+CRA sign in Register for a CRA account
+Select your Individual account
+Select Tax returns or Mail
+Select the NOA or NOR you need from the list
+If you want access to someone else’s notice
+
+To access someone else's notice, you must be an authorized representative, and they must have a CRA account.
+
+Once authorized, you can sign in to access their NOA or NOR.
+
+CRA sign in Register for a CRA account
+Select your Representative account
+Select Tax returns or Mail
+Select the NOA or NOR you need from the list
+By mail
+
+If you would like the CRA to mail a paper copy of your notice, you will need to call us to make the request.
+
+You can also order alternate formats such as digital audio, electronic text, braille, or large print.
+
+Call the CRA to request a paper copy or order an alternate format
+Before you call
+
+To verify your identity, the CRA may ask for your:
+
+Social insurance number
+Full name
+Date of birth
+Complete address
+Assessed return, notice of assessment or reassessment, other tax document, or to be signed in to My Account
+
+If you are calling the CRA on behalf of someone else, you must be an authorized representative.
+
+Telephone number
+
+1-800-959-8281
+
+Yukon, Northwest Territories and Nunavut:
+1-866-426-1527
+
+Outside Canada and the United States (Eastern Standard Time):
+613-940-8495
+
+Teletypewriter (TTY) number
+
+If you use a teletypewriter:
+1-800-665-0354
+
+Canada video relay service (VRS)
+
+Register with Canada VRS to download the app and call the VRS line.
+
+Hours
+
+Hours of operation
+
+Mon to Fri
+8 am to 8 pm ET
+Sat and Sun
+Closed
+Public holidays
+Closed
+Understand sections of your notice
+
+Your notice (NOA or NOR) shows your name and address the CRA has on file, along with the tax centre your tax return was processed. The notice outlines your assessment and reassessment, and calculated balance.
+
+Concurrent assessments and reassessments
+
+If you file several consecutive-year returns at the same time, we will do a concurrent assessment. For example, if you file your 2024, 2023, and 2022 returns together, we will assess all your returns at the same time. The result appears in the account summary on the last notice of the series.
+
+If you provide us with new information that changes your returns for several consecutive years, we will do a concurrent reassessment.
+
+Notice details
+
+The notice details show the:
+
+Last 4 digits of your Social Insurance Number (SIN) or your Temporary Taxation Number (TTN)
+Tax year of the assessment or reassessment
+Date the notice was issued
+NETFILE access code
+
+Your access code is used in tax software to electronically file your tax return to the CRA. If you are filing a tax return for the first time, you will not have an access code.
+
+The unique 8-character access code is made up of numbers and letters and is located on the right side of your NOA.
+
+Image of where to find the access code
+
+While the access code is not mandatory to use the NETFILE service, if you do not enter it when filing your tax return:
+
+You will not be able to use any information from your most recent tax return to confirm your identity with the CRA
+The CRA will have to use other information for authentication purposes
+Account summary
+
+The account summary shows the result of your assessed or reassessed tax return. It may also show the result from concurrent assessments or reassessments.
+
+There are 3 possible outcomes:
+
+Refund
+
+Your account summary will show "Refund:" with the amount you will receive from the CRA.
+
+Balance owing
+
+Your account summary will show "Amount due:" with the amount you owe to the CRA.
+
+No refund or balance owing
+
+Your account summary will show "Balance: Nil". You do not get a refund or owe an amount to the CRA on this return.
+
+Tax assessment or reassessment
+
+This section provides a summary of the key line numbers and amounts used to assess or reassess your tax return. If changes were made to your return, an explanation of the changes is provided.
+
+Summary
+
+Shows the line numbers and amounts used to calculate your refund or balance owing on your assessed tax return.
+
+You can use these amounts to compare to the amounts you entered on your return to see if the CRA made any changes.
+
+Access the full details in your CRA account
+
+You can review all the line numbers and amounts from your assessment or reassessment in your CRA account.
+
+Sign in to your CRA account
+Select your Individual account
+Select Tax returns
+Under "Status of return", select the assessed or reassessed tax return you want to review
+
+If you are getting a refund
+
+Your tax assessment or reassessment summary will show:
+
+"Direct deposit" if you are registered to have your payments deposited into your bank account
+"Refund" if you are receiving a cheque by mail
+The cheque will be mailed separately to the address on file
+
+Refer to: Tax refunds
+
+If you have a balance owing
+
+Your tax assessment or reassessment summary will show "Balance due." If you receive a paper notice, it will include a remittance voucher.
+
+If your notice was issued before your payment was received, your notice may still indicate a balance owing, even if you paid it in full.
+
+Any penalties and interest on a balance you owe is indicated. If you have a balance owing from a previous assessment, it will also appear in this section.
+
+You can:
+
+Pay your balance owing in full
+Arrange to pay your debt over time
+Confirm your payment in your CRA account (if you paid when filing your tax return)
+
+Refer to: Payments to the CRA
+
+Explanation of changes and other important information
+
+Provides a detailed explanation of the changes or corrections we made to your tax return.
+
+These changes are based on the information you sent with your return and the information we have on file.
+
+If you contribute to a registered plan
+
+Depending on your situation, your notice may also contain your:
+
+RRSP deduction limit and available contribution room statement
+
+This statement shows your deduction limit and available contribution room for your Registered Retirement Savings Plan (RRSP).
+
+Deduction limit
+
+Your deduction limit is the amount of RRSP contributions you can deduct for the next year.
+
+Your statement also shows how we calculate your deduction limit, which is based on information you sent us with your previous tax return and information we have on file.
+
+Available contribution room
+
+The last line of the statement gives your available contribution room. This is the maximum amount you can contribute for the next year.
+
+It is your deduction limit minus any unused RRSP contributions you reported in past years. Your unused contributions appear on your statement.
+
+If the total RRSP contributions (current and unused) that you claim on your return are less than your deduction limit, you have available contribution room.
+
+Excess contribution
+
+If your RRSP contributions are more than your deduction limit, you have an excess of contributions. You may have to pay tax on this amount.
+
+For more information on RRSP contribution and deduction rules, refer to How contributions affect your RRSP deduction limit.
+
+Home Buyers' Plan (HBP) statement
+
+If you participate in the Home Buyers’ Plan (HBP), you will see your HBP statement.
+
+It shows your remaining balance to repay, and your minimum required repayment for the next year.
+
+Your minimum required repayment is a portion of the balance you have left to repay. If you pay less than the minimum amount, you will have to include the difference as RRSP income on your return.
+
+For more information, refer to Home Buyers' Plan.
+
+Lifelong Learning Plan (LLP) statement
+
+If you participate in the Lifelong Learning Plan (LLP), you will see your LLP statement.
+
+It shows your remaining balance to repay, and your minimum required repayment for the next year.
+
+Your minimum required repayment is a portion of the balance you have left to repay. If you pay less than the minimum amount, you will have to include the difference as RRSP income on your return.
+
+For more information, refer to Lifelong Learning Plan (LLP).
+
+First Home Savings Account (FHSA) participation room statement
+
+If you opened a First Home Savings Account (FHSA), you will see your FHSA participation room statement.
+
+It shows your FHSA participation room for the next year and your unused FHSA contributions that you can claim as a deduction in future years.
+
+For more information, refer to First Home Savings Account (FHSA).
+
+Participation room
+
+Your FHSA participation room for the year is the maximum amount that you may contribute or transfer to your FHSA in the year without creating an excess FHSA amount.
+
+The statement gives you your available FHSA participation room for next year, which is based on information you sent us with your previous tax return and information we have on file.
+
+Unused contributions available to deduct in future years
+
+Your unused FHSA contributions that you can deduct for future years are also shown in your statement. This is based on the information you sent us with your previous tax return and information we have on file.
+
+If you have an excess of FHSA contributions, you may not be able to fully deduct this amount in future years.
+
+Excess amount
+
+If the total of your contributions or transfer to your FHSA in a year is more than your FHSA participation room for that year, you may have an excess contribution. You may have to pay tax on this amount.
+
+Refer to: What happens if you contribute or transfer too much to your FHSAs
+
+If you disagree with your notice
+
+If you forgot to include information, or if information was entered incorrectly, you can make changes to your return.
+
+If the information is complete but you disagree with your assessment or reassessment, you have 90 days from the date of your notice to register a formal dispute.
+
+Refer to: File an income tax objection
+
+Page details
+Give feedback about this page
+Did you find what you were looking for?
+Yes No
+ 2025-07-09
+About this site
+Canada Revenue Agency (CRA)
+Contact the CRA
+Update your information
+About the CRA
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media Mobile applications About Canada.ca Terms and conditions Privacy
+ 

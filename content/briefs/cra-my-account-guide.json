@@ -1,0 +1,39 @@
+{
+  "slug": "cra-my-account-guide",
+  "title": "CRA My Account: How to Register, Sign In and What to Check",
+  "family": "how-to",
+  "category": "taxes",
+  "subcategory": "filing-cra",
+  "targetQuery": "cra my account",
+  "secondaryQueries": [
+    "cra account login",
+    "how to register for cra my account",
+    "cra my account multi-factor authentication",
+    "cra security code"
+  ],
+  "infoGain": "A yearly CRA account checklist that follows the tax calendar, plus a table of which My Account services work before identity verification and which only unlock afterwards.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-26",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor (drafter, self-check; separate checker must re-run)",
+      "on": "2026-11-26",
+      "note": "each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor (drafter, self-check; separate checker must re-run)",
+      "on": "2026-11-26",
+      "note": "no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "cra-my-account-guide",
+  "publishDate": "2026-11-26",
+  "figures": [
+    {
+      "id": "04c7071e680e",
+      "value": "10",
+      "context": "Verify your identity with the document verification service for immediate full access, or wait up to 10 business days for a mailed security code.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "mail your CRA security code within 10 business days"
+    },
+    {
+      "id": "1d6bb8507e20",
+      "value": "18",
+      "context": "In five steps, and the first one is the one people skip: gather what you need before you start, because the session expires after 18 minutes of inactivity and nothing is saved.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html",
+      "sourceName": "Canada Revenue Agency: Register for CRA sign-in services",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_reg)"
+      },
+      "needle": "session will expire after 18 minutes of inactivity"
+    },
+    {
+      "id": "ef1705fac4cf",
+      "value": "November 26, 2026",
+      "context": "The three CRA account sign-in options (CRA, read November 26, 2026; the last column is our own view)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "636e8db9c3d3",
+      "value": "10",
+      "context": "The CRA security code is mailed to the address the CRA has on file within 10 business days, and it expires, so use it as soon as it arrives.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "mail your CRA security code within 10 business days"
+    },
+    {
+      "id": "2956e0727ab9",
+      "value": "16",
+      "context": "Document verification service: you must be at least 16 years old, have an accepted government-issued photo ID and a mobile device with a working camera.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "Be 16 years of age or older"
+    },
+    {
+      "id": "eab716ddd2af",
+      "value": "10",
+      "context": "If the code has not arrived after 10 business days, use the document verification service or contact the CRA for a new one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "mail your CRA security code within 10 business days"
+    },
+    {
+      "id": "8758b8948b51",
+      "value": "November 26, 2026",
+      "context": "What My Account lets you do before and after identity verification (CRA verify-your-identity page, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "069a7db3bf5a",
+      "value": "30",
+      "context": "Third-party authenticator app: a free app that makes a 6-digit code, renewed every 30 seconds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html",
+      "sourceName": "Canada Revenue Agency: Multi-factor authentication",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_mfa)"
+      },
+      "needle": "new passcode every 30 seconds"
+    },
+    {
+      "id": "8a39ca35a58d",
+      "value": "October 29, 2026",
+      "context": "The CRA's October 29, 2026 tax tip tells taxpayers to register or confirm they can sign in before tax season, and says a working account helps you use pre-filled returns, Auto-fill My Return in tax software and secure NETFILE or EFILE authentication when you file a 2026 return.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/do-not-wait-until-tax-time-to-take-action-in-your-cra-account.html",
+      "sourceName": "Canada Revenue Agency tax tip, October 29, 2026",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_tip)"
+      },
+      "needle": "October 29, 2026"
+    },
+    {
+      "id": "dd311757e29f",
+      "value": "October 29, 2026",
+      "context": "A yearly CRA account checklist (our schedule, built from the CRA's October 29, 2026 tax tip and account help pages)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/do-not-wait-until-tax-time-to-take-action-in-your-cra-account.html",
+      "sourceName": "Canada Revenue Agency tax tip, October 29, 2026",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_tip)"
+      },
+      "needle": "October 29, 2026"
+    },
+    {
+      "id": "ec85c920e691",
+      "value": "10",
+      "context": "November to January Sign in, and add a backup passcode method A lockout in March costs days; the identity steps can take up to 10 business days by mail",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "mail your CRA security code within 10 business days"
+    },
+    {
+      "id": "150f19f3d417",
+      "value": "10",
+      "context": "By mail, the CRA security code arrives within 10 business days, and you get limited access to My Account until you enter it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html",
+      "sourceName": "Canada Revenue Agency: Verify your identity",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ma_verify)"
+      },
+      "needle": "mail your CRA security code within 10 business days"
+    }
+  ]
+}

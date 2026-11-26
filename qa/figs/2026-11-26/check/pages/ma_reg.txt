@@ -1,0 +1,291 @@
+Skip to main content
+Skip to "About government"
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search CRA
+Search
+Menu
+MAIN
+MENU 
+You are here:
+Canada.ca Canada Revenue Agency (CRA) Sign in to your CRA account
+Register for a CRA account
+
+Registering for a CRA account allows you to access and change your tax information with the CRA. You only need to register one time to access your personal, business, and other accounts.
+
+If you have a CRA account
+
+If you have already registered for My Account, My Business Account or Represent a Client using a CRA user ID and password or a Sign-In Partner, you should sign in with your existing credential.
+
+If you don't see your business, representative, or other accounts when you sign in, find out how to add your other accounts.
+
+Change the option you sign in with
+
+If you registered with a provincial partner, you can also create a CRA user ID and password or use a Sign-In Partner by going through the registration process and choosing a second sign-in option. If you used an Alberta.ca Account, you will need to access your existing multi-factor authentication (MFA).
+
+If you can still sign in
+
+If you registered with a CRA user ID and password, you can sign in and change your existing CRA user ID and password. If you want to register with a Sign-In Partner instead, you will have to go through the registration process again using your existing MFA.
+
+If you registered with a Sign-In Partner, you can sign in with your current Sign-In Partner and switch to a different Sign-In Partner. If you want to register with a CRA user ID and password instead, you will have to go through the registration process again using your existing MFA.
+
+If you cannot sign in
+
+You may be able to go through the registration process again to change your sign-in method or regain access to your CRA account.
+
+If you can't access your account
+
+If you lost access to your CRA account, going through the registration process again may help you get your access back.
+
+If your multi-factor authentication (MFA) is unavailable
+
+You must have access to your existing MFA information to regain access to your account. If you don't, contact us.
+
+Regain access to your CRA account
+
+You may be able to regain access to your CRA account with new sign-in information (a new credential) if:
+
+You forgot your CRA user ID or password
+You forgot the answers to your security questions
+Your online banking information changed
+Your credential was revoked
+
+You will need to be able to:
+
+Use any existing MFA option you previously chose
+Complete the registration process, including identity verification
+
+Any previous CRA user IDs and passwords or Sign-In Partners linked to your CRA account will be removed. Provincial partner credentials will not be removed by this process.
+
+If you have forgotten your CRA user ID or password and do not want to register with a new credential, refer to Lost or forgotten CRA user ID or password.
+
+You cannot go through the registration process to get back into your account if your account has been locked by the CRA for security or other reasons.
+
+If you have tried to register again and still cannot access your account, contact us.
+
+Start your registration
+
+Register now
+
+How the registration process works
+
+To understand the process, read the details of each step of the registration process:
+
+Gather your documents
+
+During registration, your session will expire after 18 minutes of inactivity, and your progress will not be saved. Gather what you need before you begin.
+
+What you need to have ready
+
+If you are registering using a CRA user ID and password or a Sign-In Partner, you will need:
+
+Your date of birth
+Your social insurance number (SIN)
+
+If you do not have a SIN
+
+If you don't have a SIN, we will also accept:
+
+A temporary tax number (TTN)
+An individual tax number (ITN)
+A non-resident representative number (NRRN), if you are registering for a CRA account to access Represent a Client
+
+How to apply for a non-resident representative number (NRRN)
+
+If you are a non-resident representative living in the United States, you can register for a CRA account to access Represent a Client with a NRRN to access information and services on behalf of individuals and businesses.
+
+Submit Form RC391, Application for a Canada Revenue Agency Non-Resident Representative Number (NRRN) and provide supporting documentation to prove your identity
+Wait until you receive a letter in the mail with your NRRN
+Register for a CRA account to access Represent a Client with your NRRN instead of a SIN
+Amounts you reported on your most recent tax return that is both:
+Your most recent, assessed income tax and benefit return
+Your return from within the last 2 years
+
+Use the amounts that you initially reported on your return, even if your return was reassessed and the amounts have changed.
+
+If you have not filed your taxes in the last 2 years or more
+
+At least 1 multi-factor authentication (MFA) option to provide a passcode each time you sign in
+For immediate access (optional):
+A mobile device with a camera and an accepted piece of ID to verify your identity
+What government-issued photo ID you can use
+
+You can use any of the following to get immediate access to your CRA account:
+
+Canadian driver's licence
+Canadian permanent resident card
+Secure Certificate of Indian Status (only those issued as of February 2019 are accepted)
+Provincial or territorial photo ID card
+Canadian passport
+Australian passport
+British passport
+New Zealand passport
+
+The term “Indian” is sometimes used because it has legal meaning in the Indian Act.
+
+If you register using a provincial partner (Alberta or British Columbia), you only need your SIN.
+
+Choose a registration option
+
+The option you register with will be the option you use each time you sign in to your CRA account.
+
+Learn more about your registration options
+
+Learn more about the sign-in options you can choose from:
+
+ Sign-In Partner
+This option lets you use the same banking sign-in information you use with other online financial accounts. You must already have an online account with one of our Sign-In Partners.
+
+Learn more: About Sign-In Partners
+
+ CRA user ID and password
+This option lets you create a username and password that you use with your CRA account.
+
+Learn more: About your CRA user ID and password
+
+ Provincial partner
+If you already have an Alberta.ca Account or a BC Services Card, you can use them to immediately access your CRA account.
+
+Learn more: About provincial partners
+
+ GC Key
+You cannot use GC Key to sign in to your CRA account.
+You can use GC Key with other Government of Canada departments and agencies.
+Your sign-in information is anonymous
+
+The Government of Canada uses anonymous credentials to allow users to communicate securely with online Government of Canada services. An anonymous credential is one that does not contain any personally identifiable information.
+
+Enroll in multi-factor authentication (MFA)
+
+Every time you sign in, you must enter a one-time passcode in addition to your password. You will be prompted to add a backup MFA option if you do not already have one. Users will have the option to skip this step.
+
+If you have registered before, you must use your existing MFA.
+
+If you are registering for the first time, you will be prompted to enroll in 2 MFA options to get your one-time passcode, choosing from the following:
+
+Third-party authentication app
+Passcode grid
+Phone
+
+Learn more about MFA options
+
+Verify your identity
+
+You will need to verify your identity using one of the following methods:
+
+Document verification service
+: Option 1 of 2
+
+Use a mobile device to get immediate access to your CRA account
+
+CRA security code
+: Option 2 of 2
+
+We will mail your CRA security code to the address we have on file within 10 business days
+Make sure your address is up to date
+
+If you choose to get a CRA security code, you must sign in to your CRA account and enter the code before it expires.
+
+Learn more about how to verify your identity
+
+Add business, representative, and other accounts
+
+Once you have registered for your CRA account, you can sign in to add business, representative, or certain other accounts you have to your Welcome page. You will access all of them using the same sign-in.
+
+Learn about accessing your accounts for the first time:
+
+My Business Account
+How to add a business account
+Represent a Client
+How to add a representative account
+
+
+If you want to represent a client, friend, or family member, you will also need to get authorized to access someone else's information.
+
+Non-Resident Withholding Tax
+How to add a non-resident withholding tax account
+Registered Plan Administrator Account
+How to add a registered plan account you administer
+
+If you are ready, you can register now.
+
+Help with registration
+Common issues
+If you have not filed your taxes
+
+To register for a CRA account with a Sign-In Partner or a CRA user ID and password, you must have filed your taxes for either:
+
+The current tax year
+The previous tax year
+
+If you have never filed your taxes, or have not filed your taxes in the last 2 years, you cannot register for a CRA account until you do.
+
+Learn how to file: Get ready to do your taxes
+
+Exception: If you live in Alberta or British Columbia, you can register for a CRA account using a provincial partner, even if you have never filed your taxes.
+
+If you have not received your CRA security code
+
+If your CRA security code has been lost or has not arrived after 10 business days, you can either:
+
+Use the document verification service instead to verify your identity
+Contact us to get a new one by mail
+
+If your CRA security code has expired, you can either:
+
+Use the document verification service instead to verify your identity
+Sign in to request a new CRA security code to be sent by mail
+Help and about sign-in
+Help with using your CRA account
+
+Information you can access and update, learn about MFA
+
+About your CRA account
+
+Sign-in options, availability, privacy commitments
+
+Find another government account
+Government of Canada accounts
+
+Access accounts for Government of Canada departments and agencies
+
+Page details
+Give feedback about this page
+Did you find what you were looking for?
+Yes No
+ 2026-10-18
+About this site
+Canada Revenue Agency (CRA)
+Contact the CRA
+Update your information
+About the CRA
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media Mobile applications About Canada.ca Terms and conditions Privacy
+ 
