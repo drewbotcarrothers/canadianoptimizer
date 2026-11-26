@@ -1,0 +1,58 @@
+ma_about,ma	social insurance number
+ma_about,ma	filed and assessed
+ma_about,ma	current or previous tax year
+ma_reg	temporary tax number
+ma_reg	individual tax number
+ma_reg,ma	My Business Account
+ma_reg	Represent a Client
+ma_reg	18 minutes
+ma_reg	(first|date) of birth
+ma_reg	last 2 years
+ma_reg	initially reported on your return
+ma_reg,ma	cannot use GC Key|can't use GC Key|not .{0,40}GC Key
+ma_reg,ma_mfa	enrol+ in 2|2 options|two options
+ma_reg	same.{0,60}(sign.in|credentials)|use .{0,40}every time
+ma_reg	autofill
+ma_reg	Alberta.ca Account
+ma_reg	BC Services Card
+ma_reg	RBC Royal Bank
+ma	Tangerine
+ma	Wealthsimple
+ma	Simplii
+ma	Desjardins
+ma	National Bank
+ma	BMO
+ma_verify	10 business days
+ma_verify	16 years
+ma_verify	driver
+ma_verify	passport
+ma_verify	permanent resident card
+ma_verify	health card
+ma_verify	RRSP deduction limit
+ma_verify	remittance voucher
+ma_verify	pre-authorized debit
+ma_verify	applying for benefits
+ma_verify	updating your personal information
+ma_verify	postal code
+ma_verify	expire
+ma_mfa	30 seconds
+ma_mfa	6.digit
+ma_mfa	grid
+ma_mfa	VoIP
+ma_mfa	Call me
+ma_mfa	never call
+ma_mfa	Welcome page
+ma_mfa	(change your phone number|misplace|delete)
+ma	forgot
+ma	line 15000
+ma	security questions
+ma	scam
+ma	will not send you an email|not send.{0,40}email
+ma_about	deceased
+ma_about	Represent a Client
+ma_tip	October 29, 2026
+ma_tip	Auto-fill My Return
+ma_tip	NETFILE
+ma_tip	pre-filled|prefilled
+ma_about	(progress tracker|track)
+ma_about,ma_tip	electronic mail|online mail

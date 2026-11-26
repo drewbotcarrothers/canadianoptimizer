@@ -1,0 +1,39 @@
+{
+  "slug": "why-did-my-ccb-change",
+  "title": "Why Did My CCB Change? The July Reset and Other Causes",
+  "family": "qa",
+  "category": "government-benefits",
+  "subcategory": "family-child",
+  "targetQuery": "why did my ccb change",
+  "secondaryQueries": [
+    "why did my canada child benefit go down",
+    "ccb payment decreased",
+    "ccb stopped",
+    "ccb july reset"
+  ],
+  "infoGain": "A diagnostic table matching what you see in the CCB deposit to the CRA listed causes, plus calculated tables for July 2026 to June 2027 showing what each $10,000 of family income and each sixth birthday costs.",
+  "money": false,
+  "offers": [],
+  "ebook": "government-benefits-guide",
+  "publishDate": "2026-11-26",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
+      "on": "2026-11-26",
+      "note": "read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
+      "on": "2026-11-26",
+      "note": "no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

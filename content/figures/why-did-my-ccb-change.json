@@ -1,0 +1,1932 @@
+{
+  "slug": "why-did-my-ccb-change",
+  "publishDate": "2026-11-26",
+  "figures": [
+    {
+      "id": "13641b5de346",
+      "value": "$8,157",
+      "context": "For July 2026 to June 2027 the maximums are $8,157 per child under 6 and $6,883 per child aged 6 to 17 (CRA).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "under 6 years of age: $8,157 per year"
+    },
+    {
+      "id": "45f3e90eef69",
+      "value": "$6,883",
+      "context": "For July 2026 to June 2027 the maximums are $8,157 per child under 6 and $6,883 per child aged 6 to 17 (CRA).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "8e90ea09c780",
+      "value": "17",
+      "context": "For July 2026 to June 2027 the maximums are $8,157 per child under 6 and $6,883 per child aged 6 to 17 (CRA).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "93c77ae13843",
+      "value": "$1,274",
+      "context": "A child turning 6 cuts the maximum for that child by $1,274 a year, about $106 a month, with no change in income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 8157-6883"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "under-6 maximum minus 6-to-17 maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "8157-6883"
+    },
+    {
+      "id": "d58d7f6d44c7",
+      "value": "$106",
+      "context": "A child turning 6 cuts the maximum for that child by $1,274 a year, about $106 a month, with no change in income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: (8157-6883)/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "annual difference over 12 months, rounded to the dollar; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "(8157-6883)/12"
+    },
+    {
+      "id": "5d37e4364560",
+      "value": "$10,000",
+      "context": "A $10,000 rise in family income cuts the annual payment by $700 with one child and $1,350 with two, inside the main reduction range.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "16141eeafd7f",
+      "value": "$700",
+      "context": "A $10,000 rise in family income cuts the annual payment by $700 with one child and $1,350 with two, inside the main reduction range.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.07"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "7% of a $10,000 rise; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.07"
+    },
+    {
+      "id": "748dffacffe1",
+      "value": "$1,350",
+      "context": "A $10,000 rise in family income cuts the annual payment by $700 with one child and $1,350 with two, inside the main reduction range.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.135"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "13.5% of a $10,000 rise; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.135"
+    },
+    {
+      "id": "d1727d01ea06",
+      "value": "July 20, 2026",
+      "context": "The July 20, 2026 Employment and Social Development Canada announcement gives the year-over-year increase as up to $160 for each child under 6 and up to $135 for each child aged 6 to 17.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/employment-social-development/news/2026/07/canada-child-benefit-payments-increasing-in-2026-2027.html",
+      "sourceName": "Employment and Social Development Canada: CCB payments increasing in 2026-2027",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (esdc)"
+      },
+      "needle": "July 20, 2026"
+    },
+    {
+      "id": "2e7e85f72115",
+      "value": "$160",
+      "context": "The July 20, 2026 Employment and Social Development Canada announcement gives the year-over-year increase as up to $160 for each child under 6 and up to $135 for each child aged 6 to 17.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/employment-social-development/news/2026/07/canada-child-benefit-payments-increasing-in-2026-2027.html",
+      "sourceName": "Employment and Social Development Canada: CCB payments increasing in 2026-2027",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (esdc)"
+      },
+      "needle": "increase of up to $160 per child under age 6"
+    },
+    {
+      "id": "94de9538954f",
+      "value": "$135",
+      "context": "The July 20, 2026 Employment and Social Development Canada announcement gives the year-over-year increase as up to $160 for each child under 6 and up to $135 for each child aged 6 to 17.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/employment-social-development/news/2026/07/canada-child-benefit-payments-increasing-in-2026-2027.html",
+      "sourceName": "Employment and Social Development Canada: CCB payments increasing in 2026-2027",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (esdc)"
+      },
+      "needle": "up to $135 per child aged 6 to 17"
+    },
+    {
+      "id": "a122f15ea98a",
+      "value": "17",
+      "context": "The July 20, 2026 Employment and Social Development Canada announcement gives the year-over-year increase as up to $160 for each child under 6 and up to $135 for each child aged 6 to 17.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "1f74497da347",
+      "value": "$7,997",
+      "context": "Taking those increases off this year's maximums puts last year's at $7,997 and $6,748 (our subtraction), so the same family at the same income got a small increase this July, and a raise in income can cancel it out.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 8157-160"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "this year's under-6 maximum less the ESDC increase; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "8157-160"
+    },
+    {
+      "id": "559624881d44",
+      "value": "$6,748",
+      "context": "Taking those increases off this year's maximums puts last year's at $7,997 and $6,748 (our subtraction), so the same family at the same income got a small increase this July, and a raise in income can cancel it out.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 6883-135"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "this year's 6-to-17 maximum less the ESDC increase; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "6883-135"
+    },
+    {
+      "id": "4730761e8f4c",
+      "value": "November 26, 2026",
+      "context": "What you see, the likely cause and what to do (our grouping of the CRA's keep-getting-your-payments page, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "ba32d4ab35ed",
+      "value": "18",
+      "context": "Smaller after a child turned 18, or the child left The child no longer counts, or is no longer in your care Tell the CRA right away if the child no longer lives with you",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, keep getting your payments",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_get)"
+      },
+      "needle": "Your child turned 18"
+    },
+    {
+      "id": "5ddc6a33be4c",
+      "value": "$10,000",
+      "context": "What this page adds: a diagnostic table that matches what you see in the deposit to the CRA's listed causes, plus calculated tables for July 2026 to June 2027 showing what each $10,000 of family income and each child's sixth birthday costs, so you can check a changed amount against the CRA's own formula rather than guess.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "885e2eaa3aca",
+      "value": "$38,237,",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "fcd2146a9142",
+      "value": "7%",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 7% of your income greater than $38,237"
+    },
+    {
+      "id": "d900133339f4",
+      "value": "13.5%",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 13.5% of your income greater than $38,237"
+    },
+    {
+      "id": "4e5c894d02a0",
+      "value": "19%",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 19% of your income greater than $38,237"
+    },
+    {
+      "id": "3f866d41f4f4",
+      "value": "23%",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 23% of your income greater than $38,237"
+    },
+    {
+      "id": "182cabe7677b",
+      "value": "$82,847",
+      "context": "For July 2026 to June 2027, the reduction starts when adjusted family net income is over $38,237, and it takes 7% of the excess with one child, 13.5% with two, 19% with three and 23% with four or more, up to $82,847.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "cf1bd30656bf",
+      "value": "$82,847",
+      "context": "Above $82,847 the CRA uses a fixed amount plus a smaller percentage.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "22055afb9b3d",
+      "value": "November 26, 2026",
+      "context": "The CRA's reduction formula for July 2026 to June 2027, based on 2025 adjusted family net income (Canada Revenue Agency, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "a406e915bda5",
+      "value": "$38,237",
+      "context": "Children Income $38,237 to $82,847: reduction on the excess over $38,237 Income over $82,847: reduction",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "8f3da2eec37f",
+      "value": "$82,847",
+      "context": "Children Income $38,237 to $82,847: reduction on the excess over $38,237 Income over $82,847: reduction",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "28e10f857d7b",
+      "value": "7%",
+      "context": "One 7% $3,123 plus 3.2% of the excess over $82,847",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 7% of your income greater than $38,237"
+    },
+    {
+      "id": "684d94bbc1bc",
+      "value": "$3,123",
+      "context": "One 7% $3,123 plus 3.2% of the excess over $82,847",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $3,123 + 3.2% of your income greater than $82,847"
+    },
+    {
+      "id": "ccc7948be8d9",
+      "value": "3.2%",
+      "context": "One 7% $3,123 plus 3.2% of the excess over $82,847",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $3,123 + 3.2% of your income greater than $82,847"
+    },
+    {
+      "id": "da0a3b89353b",
+      "value": "$82,847",
+      "context": "One 7% $3,123 plus 3.2% of the excess over $82,847",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "884fa6e03fef",
+      "value": "13.5%",
+      "context": "Two 13.5% $6,022 plus 5.7%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 13.5% of your income greater than $38,237"
+    },
+    {
+      "id": "fab3e8bbe3e7",
+      "value": "$6,022",
+      "context": "Two 13.5% $6,022 plus 5.7%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $6,022 + 5.7% of your income greater than $82,847"
+    },
+    {
+      "id": "075270394fc4",
+      "value": "5.7%",
+      "context": "Two 13.5% $6,022 plus 5.7%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $6,022 + 5.7% of your income greater than $82,847"
+    },
+    {
+      "id": "ef393b730d87",
+      "value": "19%",
+      "context": "Three 19% $8,476 plus 8%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 19% of your income greater than $38,237"
+    },
+    {
+      "id": "309c5ecbae12",
+      "value": "$8,476",
+      "context": "Three 19% $8,476 plus 8%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $8,476 + 8% of your income greater than $82,847"
+    },
+    {
+      "id": "4029cb6b4fe3",
+      "value": "8%",
+      "context": "Three 19% $8,476 plus 8%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $8,476 + 8% of your income greater than $82,847"
+    },
+    {
+      "id": "a98b23cf902e",
+      "value": "23%",
+      "context": "Four or more 23% $10,260 plus 9.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by 23% of your income greater than $38,237"
+    },
+    {
+      "id": "e461fb769b2b",
+      "value": "$10,260",
+      "context": "Four or more 23% $10,260 plus 9.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $10,260 + 9.5% of your income greater than $82,847"
+    },
+    {
+      "id": "a49621ed1ac1",
+      "value": "9.5%",
+      "context": "Four or more 23% $10,260 plus 9.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "reduced by $10,260 + 9.5% of your income greater than $82,847"
+    },
+    {
+      "id": "8788e29c016a",
+      "value": "10",
+      "context": "Adjusted family net income One child under 6 Two children, aged 3 and 8 Two children, aged 8 and 10",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "child age used in the table heading"
+      }
+    },
+    {
+      "id": "cf2f9ff706ca",
+      "value": "$45,000",
+      "context": "$45,000 $7,684 $14,127 $12,853",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "6483a4c1709d",
+      "value": "$7,684",
+      "context": "$45,000 $7,684 $14,127 $12,853",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(45000,(1, 0))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(45000,(1, 0))"
+    },
+    {
+      "id": "b72174607483",
+      "value": "$14,127",
+      "context": "$45,000 $7,684 $14,127 $12,853",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(45000,(1, 1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(45000,(1, 1))"
+    },
+    {
+      "id": "fddaad54f061",
+      "value": "$12,853",
+      "context": "$45,000 $7,684 $14,127 $12,853",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(45000,(0, 2))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(45000,(0, 2))"
+    },
+    {
+      "id": "7b5be0f7cb40",
+      "value": "$60,000",
+      "context": "$60,000 $6,634 $12,102 $10,828",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "22e881abbca2",
+      "value": "$6,634",
+      "context": "$60,000 $6,634 $12,102 $10,828",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(1, 0))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(1, 0))"
+    },
+    {
+      "id": "344f966b24d4",
+      "value": "$12,102",
+      "context": "$60,000 $6,634 $12,102 $10,828",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(1, 1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(1, 1))"
+    },
+    {
+      "id": "7485fc74a047",
+      "value": "$10,828",
+      "context": "$60,000 $6,634 $12,102 $10,828",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(0, 2))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(0, 2))"
+    },
+    {
+      "id": "cc40e538718c",
+      "value": "$82,847",
+      "context": "$82,847 $5,034 $9,018 $7,744",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "2ad1a734003c",
+      "value": "$5,034",
+      "context": "$82,847 $5,034 $9,018 $7,744",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(82847,(1, 0))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(82847,(1, 0))"
+    },
+    {
+      "id": "bfe4047db5cb",
+      "value": "$9,018",
+      "context": "$82,847 $5,034 $9,018 $7,744",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(82847,(1, 1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(82847,(1, 1))"
+    },
+    {
+      "id": "8d6f46a1f34f",
+      "value": "$7,744",
+      "context": "$82,847 $5,034 $9,018 $7,744",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(82847,(0, 2))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(82847,(0, 2))"
+    },
+    {
+      "id": "5527de97fd78",
+      "value": "$100,000",
+      "context": "$100,000 $4,485 $8,040 $6,766",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "cc29fcc54c4f",
+      "value": "$4,485",
+      "context": "$100,000 $4,485 $8,040 $6,766",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(100000,(1, 0))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(100000,(1, 0))"
+    },
+    {
+      "id": "66c12ce9e0bc",
+      "value": "$8,040",
+      "context": "$100,000 $4,485 $8,040 $6,766",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(100000,(1, 1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(100000,(1, 1))"
+    },
+    {
+      "id": "ee077cd5d3d2",
+      "value": "$6,766",
+      "context": "$100,000 $4,485 $8,040 $6,766",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(100000,(0, 2))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "maximum for the children minus the CRA reduction formula; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(100000,(0, 2))"
+    },
+    {
+      "id": "c67a5b6c2fff",
+      "value": "$45,000",
+      "context": "The CRA's example for a family with one child under 6 and income of $45,000 gives $7,683.59 a year, which matches the first cell.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "96dd632d588f",
+      "value": "$7,683.59",
+      "context": "The CRA's example for a family with one child under 6 and income of $45,000 gives $7,683.59 a year, which matches the first cell.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "= $7,683.59 (annual payment)"
+    },
+    {
+      "id": "a490ee3713e1",
+      "value": "$1,000",
+      "context": "Inside the main range, each extra $1,000 of income costs $70 a year for a one-child family; with two children it is $135, with three $190, and from four children $230.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "unit of income used to illustrate the rates"
+      }
+    },
+    {
+      "id": "a5600938251b",
+      "value": "$70",
+      "context": "Inside the main range, each extra $1,000 of income costs $70 a year for a one-child family; with two children it is $135, with three $190, and from four children $230.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1000*0.07"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "7% of $1,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1000*0.07"
+    },
+    {
+      "id": "dc4d4f20aae8",
+      "value": "$135,",
+      "context": "Inside the main range, each extra $1,000 of income costs $70 a year for a one-child family; with two children it is $135, with three $190, and from four children $230.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1000*0.135"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "13.5% of $1,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1000*0.135"
+    },
+    {
+      "id": "d7b278409f86",
+      "value": "$190,",
+      "context": "Inside the main range, each extra $1,000 of income costs $70 a year for a one-child family; with two children it is $135, with three $190, and from four children $230.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1000*0.19"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "19% of $1,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1000*0.19"
+    },
+    {
+      "id": "2734ffcc2c5a",
+      "value": "$230",
+      "context": "Inside the main range, each extra $1,000 of income costs $70 a year for a one-child family; with two children it is $135, with three $190, and from four children $230.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1000*0.23"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "23% of $1,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1000*0.23"
+    },
+    {
+      "id": "e14ba35ba07e",
+      "value": "$10,000",
+      "context": "A $10,000 raise therefore costs a two-child family $1,350 a year, or $112.50 a month, from the next July.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "fcf1d4780369",
+      "value": "$1,350",
+      "context": "A $10,000 raise therefore costs a two-child family $1,350 a year, or $112.50 a month, from the next July.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.135"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "13.5% of a $10,000 rise; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.135"
+    },
+    {
+      "id": "61f48fcd560b",
+      "value": "$112.50",
+      "context": "A $10,000 raise therefore costs a two-child family $1,350 a year, or $112.50 a month, from the next July.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.135/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "annual cost over 12 months; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.135/12"
+    },
+    {
+      "id": "298982fedc6a",
+      "value": "$70,000",
+      "context": "Their 2025 family income was $70,000 instead of the $60,000 it was in 2024, after Tom changed jobs.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "641cf1ea748a",
+      "value": "$60,000",
+      "context": "Their 2025 family income was $70,000 instead of the $60,000 it was in 2024, after Tom changed jobs.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "a0c7f239a121",
+      "value": "$60,000",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "82ebdeffb6d4",
+      "value": "$12,102,",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(1,1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "children aged 3 and 8 at $60,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(1,1))"
+    },
+    {
+      "id": "13f2e0a00a14",
+      "value": "$70,000",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "0f3fed18b720",
+      "value": "$10,752,",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(70000,(1,1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "children aged 3 and 8 at $70,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(70000,(1,1))"
+    },
+    {
+      "id": "c5650057a553",
+      "value": "$1,350",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.135"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "13.5% of a $10,000 rise; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.135"
+    },
+    {
+      "id": "cf210d31e1a7",
+      "value": "$112.50",
+      "context": "Under the July 2026 to June 2027 formula, their annual payment at $60,000 would be $12,102, and at $70,000 it is $10,752, which is $1,350 less, or $112.50 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 10000*0.135/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "annual cost over 12 months; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "10000*0.135/12"
+    },
+    {
+      "id": "9f95147d0071",
+      "value": "17",
+      "context": "Because the maximum is lower for children aged 6 to 17.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "463b860eee3d",
+      "value": "$8,157",
+      "context": "The under-6 maximum is $8,157 a year ($679.75 a month) and the 6 to 17 maximum is $6,883 a year ($573.58 a month).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "under 6 years of age: $8,157 per year"
+    },
+    {
+      "id": "60cf16bc5b76",
+      "value": "$679.75",
+      "context": "The under-6 maximum is $8,157 a year ($679.75 a month) and the 6 to 17 maximum is $6,883 a year ($573.58 a month).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "$679.75 per month"
+    },
+    {
+      "id": "7b38ad9bb96e",
+      "value": "17",
+      "context": "The under-6 maximum is $8,157 a year ($679.75 a month) and the 6 to 17 maximum is $6,883 a year ($573.58 a month).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "eed592719df2",
+      "value": "$6,883",
+      "context": "The under-6 maximum is $8,157 a year ($679.75 a month) and the 6 to 17 maximum is $6,883 a year ($573.58 a month).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "0fcd7a914be1",
+      "value": "$573.58",
+      "context": "The under-6 maximum is $8,157 a year ($679.75 a month) and the 6 to 17 maximum is $6,883 a year ($573.58 a month).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "$573.58 per month"
+    },
+    {
+      "id": "3a0f794b5fc9",
+      "value": "$1,274",
+      "context": "The difference is $1,274 a year, or about $106 a month, for each child who crosses the line.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 8157-6883"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "under-6 maximum minus 6-to-17 maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "8157-6883"
+    },
+    {
+      "id": "a37ae2409a1d",
+      "value": "$106",
+      "context": "The difference is $1,274 a year, or about $106 a month, for each child who crosses the line.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: (8157-6883)/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "annual difference over 12 months, rounded to the dollar; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "(8157-6883)/12"
+    },
+    {
+      "id": "1aa5a3fee216",
+      "value": "17",
+      "context": "For a child turning 6 in March 2027, the payment is calculated at the under-6 rate for March and at the 6 to 17 rate from April 2027.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "d9503609da7c",
+      "value": "18",
+      "context": "For a child turning 18 in December 2026, the last payment is in December 2026 at the 6 to 17 rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, keep getting your payments",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_get)"
+      },
+      "needle": "Your child turned 18"
+    },
+    {
+      "id": "1d5b1280bf07",
+      "value": "17",
+      "context": "For a child turning 18 in December 2026, the last payment is in December 2026 at the 6 to 17 rate.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "443feb5e52a7",
+      "value": "$60,000",
+      "context": "Here is how that looks for a family at $60,000: with children aged 3 and 8 the annual payment is $12,102 on the July 2026 to June 2027 formula, and once both are over 6 the same formula gives $10,828, a difference of $1,274.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "e0a4ea71d181",
+      "value": "$12,102",
+      "context": "Here is how that looks for a family at $60,000: with children aged 3 and 8 the annual payment is $12,102 on the July 2026 to June 2027 formula, and once both are over 6 the same formula gives $10,828, a difference of $1,274.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(1,1))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "children aged 3 and 8 at $60,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(1,1))"
+    },
+    {
+      "id": "2abc648b09e6",
+      "value": "$10,828,",
+      "context": "Here is how that looks for a family at $60,000: with children aged 3 and 8 the annual payment is $12,102 on the July 2026 to June 2027 formula, and once both are over 6 the same formula gives $10,828, a difference of $1,274.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: ccb(60000,(0,2))"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "children aged 8 and 10 at $60,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "ccb(60000,(0,2))"
+    },
+    {
+      "id": "1029cac33a1d",
+      "value": "$1,274",
+      "context": "Here is how that looks for a family at $60,000: with children aged 3 and 8 the annual payment is $12,102 on the July 2026 to June 2027 formula, and once both are over 6 the same formula gives $10,828, a difference of $1,274.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 8157-6883"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "under-6 maximum minus 6-to-17 maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "8157-6883"
+    },
+    {
+      "id": "4a72569cf7c5",
+      "value": "18",
+      "context": "The CRA's keep-getting-your-payments page lists these reasons for a stopped payment: you did not file your return, you did not respond to a letter, you did not tell the CRA about a change of address, bank account or marital status, your adjusted family net income is now too high, your child turned 18, you no longer have a child in your care, you stopped meeting an eligibility criterion such as res…",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, keep getting your payments",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_get)"
+      },
+      "needle": "Your child turned 18"
+    },
+    {
+      "id": "2a63cc44318c",
+      "value": "April 30",
+      "context": "File by April 30 to avoid a gap.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, keep getting your payments",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_get)"
+      },
+      "needle": "by April 30 each year"
+    },
+    {
+      "id": "84ebda55e448",
+      "value": "50%",
+      "context": "With shared custody, each parent gets 50% of what they would get with full custody, and each amount is calculated on that parent's own adjusted family net income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Checker2 (fresh source checker, 2026-11-26) re-pointed source from stale legacy page to current page; writer-stage verifier text superseded",
+        "note": "needle found on current how-much page fetched 2026-11-26 (ccb_much); legacy how-we-calculate page replaced because it still shows July 2025-June 2026 figures"
+      },
+      "needle": "will get 50% of what they would have gotten"
+    },
+    {
+      "id": "1f85e9760171",
+      "value": "18",
+      "context": "Check the children's ages and whether anyone turned 6 or 18.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, keep getting your payments",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_get)"
+      },
+      "needle": "Your child turned 18"
+    },
+    {
+      "id": "afd9bf571dba",
+      "value": "$240",
+      "context": "You will not receive a monthly payment if your total benefit for the year is less than $240.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, payment dates",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_pay)"
+      },
+      "needle": "is less than $240"
+    },
+    {
+      "id": "a2401487fa06",
+      "value": "December 11, 2026",
+      "context": "The next payment date after today is December 11, 2026, according to the CRA's payment dates page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, payment dates",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_pay)"
+      },
+      "needle": "November 20, 2026 December 11, 2026"
+    },
+    {
+      "id": "1f7f7bc9eca7",
+      "value": "17",
+      "context": "The maximum for a child aged 6 to 17 is $6,883 a year, against $8,157 for a child under 6, a difference of $1,274 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "50ef04a57543",
+      "value": "$6,883",
+      "context": "The maximum for a child aged 6 to 17 is $6,883 a year, against $8,157 for a child under 6, a difference of $1,274 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "3b3d31f0fc93",
+      "value": "$8,157",
+      "context": "The maximum for a child aged 6 to 17 is $6,883 a year, against $8,157 for a child under 6, a difference of $1,274 a year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "under 6 years of age: $8,157 per year"
+    },
+    {
+      "id": "48d8a67202d7",
+      "value": "$1,274",
+      "context": "The maximum for a child aged 6 to 17 is $6,883 a year, against $8,157 for a child under 6, a difference of $1,274 a year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 8157-6883"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "under-6 maximum minus 6-to-17 maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "8157-6883"
+    },
+    {
+      "id": "f0b915e8fcd6",
+      "value": "$8,157",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "under 6 years of age: $8,157 per year"
+    },
+    {
+      "id": "eb12e674c114",
+      "value": "$679.75",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "$679.75 per month"
+    },
+    {
+      "id": "36df02cbf630",
+      "value": "$6,883",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "de448fa5bd77",
+      "value": "17",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "6 to 17 years of age: $6,883 per year"
+    },
+    {
+      "id": "90818235ab3b",
+      "value": "$573.58",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "$573.58 per month"
+    },
+    {
+      "id": "4420fdad07bf",
+      "value": "$38,237",
+      "context": "For July 2026 to June 2027, up to $8,157 a year per child under 6 ($679.75 a month) and $6,883 per child aged 6 to 17 ($573.58 a month), with no reduction when adjusted family net income is under $38,237.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "Greater than $38,237 up to $82,847"
+    },
+    {
+      "id": "73aeb9148def",
+      "value": "$3,480",
+      "context": "If your child is eligible for the disability tax credit you may also get the child disability benefit, up to $3,480 a year ($290 a month) for July 2026 to June 2027, added to your CCB payment automatically.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "up to $3,480 ($290 per month)"
+    },
+    {
+      "id": "89272ec774f8",
+      "value": "$290",
+      "context": "If your child is eligible for the disability tax credit you may also get the child disability benefit, up to $3,480 a year ($290 a month) for July 2026 to June 2027, added to your CCB payment automatically.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (ccb_much)"
+      },
+      "needle": "up to $3,480 ($290 per month)"
+    }
+  ]
+}

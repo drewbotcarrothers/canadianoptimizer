@@ -1,0 +1,306 @@
+import { batchFooter, batchPost } from './types';
+
+const D = '2026-11-26';
+const HUB = '/category/taxes/filing-cra/';
+const CHG = 'https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html';
+const TIP = 'https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/making-changes-to-your-tax-return-here-what-new-and-how-to-save-time.html';
+const FORM = 'https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1-adj.html';
+const NOA = 'https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html';
+const OBJ = 'https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax-decision-tree.html';
+const TIMES = 'https://www.canada.ca/en/revenue-agency/corporate/contact-information/check-cra-processing-times.html';
+
+const disclaimer = `General education, not tax advice. Which changes you can request, how to send them and the processing times come from the Canada Revenue Agency's Changing a tax return page, its T1-ADJ form page, its notice of assessment page, its objections decision tree and its May 12, 2026 tax tip, all read on November 26, 2026. The CRA publishes different processing times on different pages and updates them often, so check its Check CRA processing times tool for the number that applies today. Marcus and his refund are a labelled illustration. Talk to a tax professional about your own file.`;
+
+const content = `
+
+
+    
+
+        You filed, the notice of assessment arrived, and then the missing T4 slip or the RRSP receipt turned up in a drawer. You do not file a second return: you ask the CRA to adjust the one on file, and the route you choose can change the wait from about two weeks to about twenty. This guide, part of our filing and CRA hub, compares the three ways to do it and tells you which fits your situation.
+    
+
+    
+To change a tax return the CRA has already assessed, use Change my return in your CRA account or ReFILE in certified tax software. Both are online and the CRA page lists a 2 week processing time. Mailing Form T1-ADJ is the slow option, listed at 20 weeks. You must wait for your notice of assessment first.
+
+    
+
+        Key takeaways:
+        
+
+            
+Wait for the notice of assessment before asking for a change, and do not send a second request until the CRA answers the first.
+            
+You can add income or a slip, or claim a deduction, credit or expense you missed. You cannot use this route to apply for benefits, change an election or update your address, bank details or marital status.
+            
+Change my return (CRA account) and ReFILE (tax software) are the fast, online routes. Form T1-ADJ on paper is the slow one.
+            
+Online, you send supporting documents only if the CRA asks, after it gives you a case number. By mail you send them all up front.
+            
+If you simply disagree with an assessment, that is an objection, with its own 90-day limit.
+        
+    
+
+    
+
+        
+
+            
+When you can ask
+            
+What you can and cannot change
+            
+The three routes compared
+            
+How each route works
+            
+Supporting documents
+            
+How long it takes
+            
+Which route fits your situation
+            
+Change request or objection?
+            
+FAQ
+        
+    
+
+    
+When can you ask the CRA to change your return?
+    
+Only after you receive your notice of assessment. The CRA's Changing a tax return page says the return must have been filed by you or your tax preparer, and that if you already submitted a change request you must wait for the CRA's response before you ask for more changes.
+    
+The second rule matters more than it looks. If you find one error today and a second one next week, you cannot just send another request while the first is open. Collect everything first. The CRA's own tip is to include all changes in a single request and double-check the amounts.
+
+    
+What can you change, and what can you not?
+    
+You can correct amounts and add missing information. The CRA lists three examples: reporting income such as a T4 slip or tips, claiming a deduction, credit or expense such as childcare or medical costs, and adding a missing tax slip such as an RRSP contribution receipt.
+    
+
+        
+
+            What a change request can and cannot do (Canada Revenue Agency, read November 26, 2026)
+            
+You can use it to | You cannot use it to | 
+            
+                
+Report income you left out, such as a T4 slip or tips | Apply for benefits or credits | 
+                
+Claim a deduction, credit or expense, such as childcare or medical costs | Make or revise an election | 
+                
+Add a missing slip, such as an RRSP contribution receipt | Allocate a refund to other CRA accounts | 
+                
+ | Update your mailing or email address, direct deposit information, marital status or name | 
+            
+        
+    
+    
+Those personal details are changed separately in your CRA account; our CRA My Account guide shows where. Missing a slip you will need again next year is a good reason to read the record-keeping guide too.
+
+    
+How do Change my return, ReFILE and T1-ADJ compare?
+    
+The two online routes are the same speed and the paper route is much slower. The choice between the online two comes down to where you filed and whether you can sign in to your CRA account.
+    
+
+        
+
+            Three ways to change an assessed return (Canada Revenue Agency Changing a tax return page and T1-ADJ form page, read November 26, 2026)
+            
+Route | Where | Listed processing time | You need | 
+            
+                
+Change my return | Your CRA account | 2 weeks | Access to your CRA account | 
+                
+ReFILE | Certified tax software | 2 weeks | The return was sent with certified tax software; any certified product's ReFILE works | 
+                
+Form T1-ADJ | Paper or printed webform, by mail | 20 weeks | The form plus supporting documents for the entire amount | 
+            
+        
+    
+    
+What this page adds: the three routes in one table with the situations that push you to each, a worked comparison showing the online route lands a refund about 18 weeks sooner on the CRA's own listed times, and a note on how to read the processing-time numbers, because the CRA publishes different ones on different pages.
+    
+The ReFILE service is available daily except 3 am to 6 am ET for maintenance, with a closure from February 2 to 23, 2026 for tax year updates, according to the CRA's page. You do not have to use the same software you filed with, though it may be easier.
+
+    
+How does each route work step by step?
+    
+Online in your CRA account is the simplest, and the CRA gives the steps. If you changed someone else's return, you must be an authorized representative with at least level 2 access.
+    
+
+        
+1Sign in to your CRA account. Select Individual to change your own return, or Representative for someone else's.
+        
+2Open Tax returns. Find and select Change my return.
+        
+3Choose the tax year. Follow the steps to enter the new amounts.
+        
+4Save your confirmation. Keep the confirmation number and the summary of changes for your records.
+    
+    
+ReFILE sits inside certified tax software as the option to change a return. For your own return, the return you are changing must have been filed with certified tax software. For a family member's or friend's return it must have been NETFILE certified software, and you must be an authorized representative with at least level 2 access. Professional preparers must have used EFILE certified software.
+    
+T1-ADJ by mail is the fallback. Send it separately from your current-year return. The form asks for your SIN, the tax year, your name and address, authorization details if applicable, the adjustment details including revised amounts, and a daytime phone number. Attach supporting documents for the entire amount, including amounts you claimed before but never documented, and mail it all to your tax centre. The CRA's T1-ADJ page offers a webform you fill in online and then print, which it says may reduce errors.
+
+    
+Do you have to send supporting documents?
+    
+Online, only if the CRA asks. The CRA's May 12, 2026 tax tip says that for online requests you provide documents only if the CRA contacts you after you submit, and that it will give you a case number first. You cannot attach anything until you have a case number, and then you submit the documents online through your CRA account using it.
+    
+The same tip says that more than half of online change requests are processed without any supporting documents. By mail, every document goes in the envelope with the form. Keep receipts either way, as the CRA audit guide explains.
+
+    
+How long does a change take, really?
+    
+Listed times are 2 weeks online and 20 weeks by mail, but read them as a range and not a promise. The CRA's tip says requests needing additional review may take up to 49 weeks, and requests involving international or non-resident returns, including emigrant returns, may also take longer. Processing times assume all required information is provided upfront.
+    
+The CRA publishes different numbers on different pages. The change-your-return page and the T1-ADJ form page both list 20 weeks for mail, while the May 12 tip describes mailed requests as being handled within an eight-week service standard. Use the CRA's Check CRA processing times tool and the progress tracker in your CRA account for the current figure, and do not call: the CRA says the status in your account is the most current and its agents have no more information.
+    
+
+        
+Illustration: Marcus finds a receipt
+        
+Marcus (a labelled example) filed in the spring and received his notice of assessment. In November he finds a missing RRSP contribution receipt that would add a refund of $600. That $600 is an assumed round figure for the illustration, not a calculation. On the CRA's listed times, an online request takes 2 weeks and a mailed T1-ADJ takes 20 weeks, a difference of 18 weeks. If the CRA asked for documents online, the receipt would be sent through his CRA account with the case number. By mail it would have gone in the envelope on day one.
+    
+    
+While you wait, the CRA says you continue to receive the benefits and credits you are eligible for, and any adjustment is applied retroactively once the request is processed.
+
+    
+Which route fits your situation?
+    
+For most people the answer is Change my return, because it needs no software and no paper. The table maps common situations to a route.
+    
+
+        
+
+            Which route to choose (our reading of the CRA's Changing a tax return page)
+            
+Your situation | Route | 
+            
+                
+You forgot a T4 or other slip, you can sign in to your CRA account | Change my return | 
+                
+You prepared your own return in software and want to stay inside it | ReFILE | 
+                
+You cannot access your CRA account and did not use certified software | T1-ADJ by mail | 
+                
+You want to apply for a benefit or revise an election | Not a change request; use the specific benefit or election process | 
+                
+You changed address, bank account or marital status | Update your CRA account, not your return | 
+                
+You never filed a past year, or left out income in a past year | The CRA's Voluntary Disclosures Program | 
+            
+        
+    
+    
+The CRA's page also has a decision tool that asks whether the return you are changing is for 2016 to 2025 or for 2015 or earlier, and shows the options for each. The Voluntary Disclosures Program grants relief case by case to taxpayers who come forward to fix errors or omissions in their tax affairs, and the CRA says you can apply any time of year as long as the mistake is at least one year past the filing due date.
+    
+
+        
+Confirm you have your notice of assessment for the year.
+        
+Make sure no earlier change request for the same return is still open.
+        
+List every correction and put them in one request.
+        
+Choose Change my return, ReFILE or T1-ADJ using the table above.
+        
+Keep supporting documents ready in case the CRA gives you a case number.
+        
+Check your progress tracker instead of calling.
+    
+
+    
+Is this a change request or an objection?
+    
+If information was missing or entered wrongly, ask for a change. If the information is complete but you disagree with the CRA's assessment or reassessment, that is an objection, a formal dispute. The CRA's notice of assessment page gives you 90 days from the date of your notice to register one.
+    
+The CRA's income tax objections decision tree adds that an individual's deadline is whichever is later: one year after the filing deadline for the return (April 30 or June 15), or 90 days after the date on the notice. It also says that if you filed a request to change your return and have not heard back, it may be faster to wait for the CRA to finish the adjustment. If you missed the objection deadline because you were trying to have your return adjusted, you may apply for an extension of up to a year after the objection deadline.
+
+    
+Frequently asked questions
+    
+Can I file a second tax return to fix a mistake?
+    
+No. Ask the CRA to change the assessed return through Change my return, ReFILE or Form T1-ADJ. You must wait for your notice of assessment first.
+    
+What is the difference between ReFILE and T1-ADJ?
+    
+ReFILE is the online change service inside certified tax software, listed at 2 weeks. T1-ADJ is the paper form, listed at 20 weeks.
+    
+Do I need to attach receipts to an online change request?
+    
+Not at first. The CRA says it will contact you if it needs documents, and give you a case number for submitting them online.
+    
+Can I change my address or direct deposit on my tax return?
+    
+No. The CRA says a change request cannot update your address, direct deposit information, marital status or name. Make those changes in your CRA account.
+    
+Can I ask for a second change while the first is pending?
+    
+No. The CRA says to wait for its response to the first request before asking for more changes, which is why you should put every correction in one request.
+    
+What if I left out income years ago?
+    
+Consider the Voluntary Disclosures Program, which can reduce penalties in many cases. The CRA's page says you can apply at any time of year if the mistake is at least one year past the filing due date.
+
+    
+Sources
+    
+
+        
+Government of Canada: Changing a tax return, reviewed November 26, 2026
+        
+Canada Revenue Agency: Making changes to your tax return? Here's what's new and how to save time, May 12, 2026, reviewed November 26, 2026
+        
+Canada Revenue Agency: T1-ADJ T1 Adjustment Request, reviewed November 26, 2026
+        
+Government of Canada: Notices of assessment (NOA or NOR), reviewed November 26, 2026
+        
+Canada Revenue Agency: Income tax objections decision tree, reviewed November 26, 2026
+        
+Canada Revenue Agency: Check CRA processing times, reviewed November 26, 2026
+    
+
+    
+Related reading
+    
+
+        
+CRA My Account: register, sign in and what to check
+        
+CRA deadlines: every key date
+        
+CRA audit guide
+        
+Tax record-keeping guide
+        
+Your RRSP deduction limit explained
+    
+
+    
+
+        
+Most changes happen because a credit or slip was missed the first time.
+        
+The Canadian Optimizer Tax Guide covers the deductions and credits most Canadians leave unclaimed, with the lines to put them on, so the first return is right and the second request is never needed.
+        See the Tax Guide
+    
+
+    ${batchFooter(D, 'Taxes', disclaimer)}
+
+`;
+
+export const changeTaxReturnRefileT1AdjPost = batchPost({
+  date: D,
+  category: 'Taxes',
+  categorySlug: 'taxes',
+  subcategory: 'filing-cra',
+  slug: 'change-tax-return-refile-t1-adj',
+  title: 'How to Change Your Tax Return: Change My Return, ReFILE or T1-ADJ',
+  excerpt:
+    'How to change a tax return the CRA has already assessed: Change my return, ReFILE or Form T1-ADJ compared, what you can and cannot change, supporting documents and listed processing times.',
+  content,
+});

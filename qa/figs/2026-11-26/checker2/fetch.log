@@ -1,0 +1,79 @@
+acwb 404 https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/payments-credits/line-41500-advanced-canada-workers-benefit-acwb.html 1154
+ccb 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html 2522
+ccb_calc 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-we-calculate-your-ccb.html 15077
+ccb_dates 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-payment-dates.html 4850
+ccb_get 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/get-payments.html 13416
+ccb_keep 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-after-you-apply.html 13200
+ccb_much 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html 16027
+ccb_pay 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/payment-dates.html 4946
+ccb_who 200 https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/who-apply.html 7450
+chg 200 https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html 7978
+chg_tip 200 https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/making-changes-to-your-tax-return-here-what-new-and-how-to-save-time.html 6280
+  nav-changed https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb.html
+cwb 200 https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb.html 1820
+cwb_claim 200 https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-to-claim.html 3135
+cwb_elig 200 https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html 7395
+cwb_much 200 https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html 6850
+esdc 200 https://www.canada.ca/en/employment-social-development/news/2026/07/canada-child-benefit-payments-increasing-in-2026-2027.html 5806
+  nav-changed https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html
+ma 200 https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html 7783
+ma_about 200 https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/about-account.html 5264
+ma_mfa 200 https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html 5800
+ma_reg 200 https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html 10927
+ma_tip 200 https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/do-not-wait-until-tax-time-to-take-action-in-your-cra-account.html 4217
+ma_verify 200 https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html 5984
+noanor 200 https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html 14171
+objtree 200 https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax-decision-tree.html 2431
+proctimes 200 https://www.canada.ca/en/revenue-agency/corporate/contact-information/check-cra-processing-times.html 2074
+refile 404 https://www.canada.ca/en/revenue-agency/services/e-services/refile.html 1154
+t1adj 200 https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1-adj.html 2385
+Traceback (most recent call last):
+  File "/workspace/canadianoptimizer/wt-batch-2026-11-26/qa/figs/2026-11-26/checker2/../check/pdf.py", line 6, in <module>
+    r=ctx.request.get(sys.argv[2],timeout=60000)
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/sync_api/_generated.py", line 21313, in get
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.get(
+        ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        )
+        ^
+    )
+    ^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_fetch.py", line 211, in get
+    return await self.fetch(
+           ^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+    )
+    ^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_fetch.py", line 337, in fetch
+    return await self._inner_fetch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_fetch.py", line 443, in _inner_fetch
+    response = await self._channel.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<18 lines>...
+    )
+    ^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/box/.local/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: APIRequestContext.get: Timeout 60000ms exceeded.
+Call log:
+  - → GET https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf
+    - user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+
+done

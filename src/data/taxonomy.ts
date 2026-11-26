@@ -637,8 +637,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the deadlines and the tax calendar, then pick filing software. The record-keeping and audit guides explain what the CRA can ask for and how long to keep it, and the year-end checklist lists the moves that must happen by December 31. Each date is tied to the CRA page for the year named.",
       "If something on a filed return was wrong, the guides on changing a return and working with a tax professional explain your options before interest builds.",
     ],
-    decisions: ["When is my return due, and when is the balance due?", "Which tax software fits my return?", "What records do I keep, and for how long?", "What should I do if the CRA reviews or audits me?"],
-    startHere: ["cra-deadlines", "tax-planning-calendar", "best-tax-software", "tax-record-keeping", "cra-audit-guide"],
+    decisions: ["When is my return due, and when is the balance due?", "Which tax software fits my return?", "What records do I keep, and for how long?", "What should I do if the CRA reviews or audits me?", "How do I register for and use my CRA account?", "How do I fix a return the CRA has already assessed?"],
+    startHere: ["cra-deadlines", "tax-planning-calendar", "best-tax-software", "cra-my-account-guide", "change-tax-return-refile-t1-adj", "tax-record-keeping", "cra-audit-guide"],
   },
   "taxes/forms-slips": {
     intro: [
@@ -970,8 +970,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the Canada Child Benefit guide, which explains adjusted family net income and the July payment-period reset. Every amount and threshold links to the CRA page for the benefit year named, and examples use labelled illustration incomes.",
       "Both parents need to file a return every year to keep benefits flowing, even with little or no income.",
     ],
-    decisions: ["How much Canada Child Benefit will I get?", "Why did my payment change in July?", "What income counts toward the test?", "What do I need to file to keep it?"],
-    startHere: ["canada-child-benefit-optimization-canada"],
+    decisions: ["How much Canada Child Benefit will I get?", "Why did my payment change in July?", "Why did my payment go down or stop?", "What income counts toward the test?", "What do I need to file to keep it?"],
+    startHere: ["canada-child-benefit-optimization-canada", "why-did-my-ccb-change"],
   },
   "government-benefits/seniors-cpp-oas": {
     intro: [
@@ -1006,8 +1006,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the benefits stacking map, then the guides to individual programs and the benefit payment dates. Amounts, income thresholds and dates link to the CRA or Canada.ca for the benefit year named, and the stacking map shows the order in which household income affects each program.",
       "Filing on time every year, even with no income, is the step that unlocks most of these benefits.",
     ],
-    decisions: ["Which benefits do I qualify for?", "When are payments made?", "How does my income change each benefit?", "Do I qualify for the dental care plan?"],
-    startHere: ["government-benefits-stacking-map-canada", "canada-benefit-payment-dates", "gst-hst-credit-groceries-essentials-benefit", "canadian-dental-care-plan-eligibility"],
+    decisions: ["Which benefits do I qualify for?", "Do I qualify for the Canada Workers Benefit, and how much is it?", "When are payments made?", "How does my income change each benefit?", "Do I qualify for the dental care plan?"],
+    startHere: ["government-benefits-stacking-map-canada", "canada-workers-benefit-guide", "canada-benefit-payment-dates", "gst-hst-credit-groceries-essentials-benefit", "canadian-dental-care-plan-eligibility"],
   },
   "government-benefits/provincial-programs": {
     intro: [

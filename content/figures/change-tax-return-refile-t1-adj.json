@@ -1,0 +1,386 @@
+{
+  "slug": "change-tax-return-refile-t1-adj",
+  "publishDate": "2026-11-26",
+  "figures": [
+    {
+      "id": "308b5212cc3c",
+      "value": "20",
+      "context": "Mailing Form T1-ADJ is the slow option, listed at 20 weeks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "Request by mail Processing time: Within 20 weeks"
+    },
+    {
+      "id": "ee54eec7b88d",
+      "value": "90",
+      "context": "If you simply disagree with an assessment, that is an objection, with its own 90-day limit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html",
+      "sourceName": "Canada Revenue Agency: Notice of assessment",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (noanor)"
+      },
+      "needle": "you have 90 days from the date of your notice"
+    },
+    {
+      "id": "cfcd223411cd",
+      "value": "November 26, 2026",
+      "context": "What a change request can and cannot do (Canada Revenue Agency, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "f6251a045c09",
+      "value": "November 26, 2026",
+      "context": "Three ways to change an assessed return (Canada Revenue Agency Changing a tax return page and T1-ADJ form page, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "e9742efdbddd",
+      "value": "20",
+      "context": "Form T1-ADJ Paper or printed webform, by mail 20 weeks The form plus supporting documents for the entire amount",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "Request by mail Processing time: Within 20 weeks"
+    },
+    {
+      "id": "54a6df61144d",
+      "value": "18",
+      "context": "What this page adds: the three routes in one table with the situations that push you to each, a worked comparison showing the online route lands a refund about 18 weeks sooner on the CRA's own listed times, and a note on how to read the processing-time numbers, because the CRA publishes different ones on different pages.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 20-2"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "20 weeks by mail minus 2 weeks online, both listed on the change-your-return page; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "20-2"
+    },
+    {
+      "id": "fb37b379c08a",
+      "value": "February 2",
+      "context": "The ReFILE service is available daily except 3 am to 6 am ET for maintenance, with a closure from February 2 to 23, 2026 for tax year updates, according to the CRA's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "February 2 to 23, 2026 for tax year updates"
+    },
+    {
+      "id": "63265831040e",
+      "value": "23",
+      "context": "The ReFILE service is available daily except 3 am to 6 am ET for maintenance, with a closure from February 2 to 23, 2026 for tax year updates, according to the CRA's page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "February 2 to 23, 2026 for tax year updates"
+    },
+    {
+      "id": "394627cfd9f3",
+      "value": "May 12, 2026",
+      "context": "The CRA's May 12, 2026 tax tip says that for online requests you provide documents only if the CRA contacts you after you submit, and that it will give you a case number first.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/making-changes-to-your-tax-return-here-what-new-and-how-to-save-time.html",
+      "sourceName": "Canada Revenue Agency tax tip, May 12, 2026",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg_tip)"
+      },
+      "needle": "May 12, 2026"
+    },
+    {
+      "id": "0993bcc2899e",
+      "value": "20",
+      "context": "Listed times are 2 weeks online and 20 weeks by mail, but read them as a range and not a promise.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "Request by mail Processing time: Within 20 weeks"
+    },
+    {
+      "id": "a1b5adfeb9c5",
+      "value": "49",
+      "context": "The CRA's tip says requests needing additional review may take up to 49 weeks, and requests involving international or non-resident returns, including emigrant returns, may also take longer.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/making-changes-to-your-tax-return-here-what-new-and-how-to-save-time.html",
+      "sourceName": "Canada Revenue Agency tax tip, May 12, 2026",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg_tip)"
+      },
+      "needle": "may take up to 49 weeks to process"
+    },
+    {
+      "id": "64317153c033",
+      "value": "20",
+      "context": "The change-your-return page and the T1-ADJ form page both list 20 weeks for mail, while the May 12 tip describes mailed requests as being handled within an eight-week service standard.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "Request by mail Processing time: Within 20 weeks"
+    },
+    {
+      "id": "9f80b490bc53",
+      "value": "May 12",
+      "context": "The change-your-return page and the T1-ADJ form page both list 20 weeks for mail, while the May 12 tip describes mailed requests as being handled within an eight-week service standard.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/making-changes-to-your-tax-return-here-what-new-and-how-to-save-time.html",
+      "sourceName": "Canada Revenue Agency tax tip, May 12, 2026",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg_tip)"
+      },
+      "needle": "May 12, 2026"
+    },
+    {
+      "id": "4b1d18f06073",
+      "value": "$600",
+      "context": "In November he finds a missing RRSP contribution receipt that would add a refund of $600.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "4acbcf7f2a7e",
+      "value": "$600",
+      "context": "That $600 is an assumed round figure for the illustration, not a calculation.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input, labelled on the page"
+      }
+    },
+    {
+      "id": "d5279f293648",
+      "value": "20",
+      "context": "On the CRA's listed times, an online request takes 2 weeks and a mailed T1-ADJ takes 20 weeks, a difference of 18 weeks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html",
+      "sourceName": "Canada Revenue Agency: Changing a tax return",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (chg)"
+      },
+      "needle": "Request by mail Processing time: Within 20 weeks"
+    },
+    {
+      "id": "dbbe024dd1d4",
+      "value": "18",
+      "context": "On the CRA's listed times, an online request takes 2 weeks and a mailed T1-ADJ takes 20 weeks, a difference of 18 weeks.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 20-2"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "20 weeks by mail minus 2 weeks online, both listed on the change-your-return page; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "20-2"
+    },
+    {
+      "id": "88011e7a1863",
+      "value": "90",
+      "context": "The CRA's notice of assessment page gives you 90 days from the date of your notice to register one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html",
+      "sourceName": "Canada Revenue Agency: Notice of assessment",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (noanor)"
+      },
+      "needle": "you have 90 days from the date of your notice"
+    },
+    {
+      "id": "8bdd0044451c",
+      "value": "April 30",
+      "context": "The CRA's income tax objections decision tree adds that an individual's deadline is whichever is later: one year after the filing deadline for the return (April 30 or June 15), or 90 days after the date on the notice.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax-decision-tree.html",
+      "sourceName": "Canada Revenue Agency: Income tax objections decision tree",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (objtree)"
+      },
+      "needle": "(April 30 or June 15)"
+    },
+    {
+      "id": "31beb62d2321",
+      "value": "June 15",
+      "context": "The CRA's income tax objections decision tree adds that an individual's deadline is whichever is later: one year after the filing deadline for the return (April 30 or June 15), or 90 days after the date on the notice.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax-decision-tree.html",
+      "sourceName": "Canada Revenue Agency: Income tax objections decision tree",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (objtree)"
+      },
+      "needle": "(April 30 or June 15)"
+    },
+    {
+      "id": "22072cc77865",
+      "value": "90",
+      "context": "The CRA's income tax objections decision tree adds that an individual's deadline is whichever is later: one year after the filing deadline for the return (April 30 or June 15), or 90 days after the date on the notice.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax-decision-tree.html",
+      "sourceName": "Canada Revenue Agency: Income tax objections decision tree",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (objtree)"
+      },
+      "needle": "90 days after the date on your notice"
+    },
+    {
+      "id": "dfeb0fefb786",
+      "value": "20",
+      "context": "T1-ADJ is the paper form, listed at 20 weeks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1-adj.html",
+      "sourceName": "Canada Revenue Agency: Form T1-ADJ",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (t1adj)"
+      },
+      "needle": "may take 20 weeks to process"
+    }
+  ]
+}

@@ -23,6 +23,7 @@ import { batch20261120Posts } from './nov2026/batch-2026-11-20';
 import { batch20261121Posts } from './nov2026/batch-2026-11-21';
 import { batch20261122Posts } from './nov2026/batch-2026-11-22';
 import { batch20261123Posts } from './nov2026/batch-2026-11-23';
+import { batch20261126Posts } from './nov2026/batch-2026-11-26';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -13574,6 +13575,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Tax-Filing Guide →</a>
         </div>
 
+    <p><strong>Related:</strong> <a href="/blog/cra-my-account-guide/">CRA My Account: how to register, sign in and what to check</a> &middot; <a href="/blog/change-tax-return-refile-t1-adj/">How to change your tax return: Change my return, ReFILE or T1-ADJ</a></p>
+
     <div class="article-footer">
         <p class="article-meta">
 <strong>Published by Canadian Optimizer</strong> | canadianoptimizer.com<br/>
@@ -13927,6 +13930,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Our Ebooks</a>
         </div>
 
+    <p><strong>Related:</strong> <a href="/blog/change-tax-return-refile-t1-adj/">How to change your tax return: Change my return, ReFILE or T1-ADJ</a></p>
+
     <div class="article-footer">
         <div class="container">
 <p>© 2026 Canadian Optimizer. All rights reserved. This article is for informational purposes and does not constitute tax advice. Consult a qualified tax professional for guidance on your specific situation.</p>
@@ -14250,6 +14255,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <p>Chapter 20 of our complete tax guide covers the full record-keeping system with monthly checklists, digital organization templates, and CRA correspondence templates.</p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Explore Our Tax Guides</a>
         </div>
+
+    <p><strong>Related:</strong> <a href="/blog/cra-my-account-guide/">CRA My Account: how to register, sign in and what to check</a> &middot; <a href="/blog/change-tax-return-refile-t1-adj/">How to change your tax return: Change my return, ReFILE or T1-ADJ</a></p>
 
     <div class="article-footer">
         <p><strong>About the Author:</strong> Andrew is a Canadian tax optimization specialist and author of "The Canadian Optimizer's Guide to Tax Planning." With over 15 years of experience helping Canadians reduce their tax burden legally, Andrew provides practical, research-backed strategies for maximizing deductions and building wealth.</p>
@@ -15515,6 +15522,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <p><em>This deadline reference is adapted from <strong>How To Reduce Your Taxes & Maximize Your Tax Refund — 2026 Edition</strong>. The full guide includes a detailed 12-month tax planning calendar with action items for employed, self-employed, and retired Canadians.</em></p>
             <a href="https://canadianoptimizer.com/ebooks/" class="cta-button">Get the Full Playbook →</a>
         </div>
+
+    <p><strong>Related:</strong> <a href="/blog/cra-my-account-guide/">CRA My Account: how to register, sign in and what to check</a> &middot; <a href="/blog/change-tax-return-refile-t1-adj/">How to change your tax return: Change my return, ReFILE or T1-ADJ</a></p>
 
     <div class="article-footer">
         <p><strong>Related Articles:</strong>
@@ -24133,6 +24142,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/why-did-my-ccb-change/">Why did my CCB change? The July reset and other causes</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the Canada Child Benefit and the income it reads. It is not tax, family-law, or financial advice. Benefit maximums, thresholds, reduction rates, and provincial top-ups change and are not stated as current figures here. Shared-custody outcomes depend on facts. Confirm amounts in CRA My Account and on the official CCB page, and get advice before you structure custody or support around a payment.</p>
         <div class="footer-note">Published: September 18, 2026 | Category: Government Benefits | Author: Andrew</div>
@@ -24887,6 +24898,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>Brackets, deductions, and credits are how the binding test gets its number. The 2026 tax guide is that half of the stack.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/canada-workers-benefit-guide/">Canada Workers Benefit: who qualifies and how much you can get</a> &middot; <a href="/blog/why-did-my-ccb-change/">Why did my CCB change? The July reset and other causes</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about the order in which Canadian household benefits interact. It is not tax, legal, or financial advice, and it is not a complete list of programs or rates. Thresholds, exemptions, and eligibility rules change and are deliberately not quoted as current figures. Confirm amounts with CRA, Service Canada, and your provincial ministry, and get advice before you move income or assets to affect a benefit.</p>
@@ -26998,6 +27011,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261121Posts,
   ...batch20261122Posts,
   ...batch20261123Posts,
+  ...batch20261126Posts,
 
 ];
 

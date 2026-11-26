@@ -1,0 +1,39 @@
+{
+  "slug": "change-tax-return-refile-t1-adj",
+  "title": "How to Change Your Tax Return: Change My Return, ReFILE or T1-ADJ",
+  "family": "how-to",
+  "category": "taxes",
+  "subcategory": "filing-cra",
+  "targetQuery": "change tax return",
+  "secondaryQueries": [
+    "refile cra",
+    "t1-adj",
+    "how to amend tax return canada",
+    "change my return cra"
+  ],
+  "infoGain": "The three routes to change an assessed return in one table with the situations that push you to each, a worked 2-week vs 20-week refund timing comparison on the CRA listed times, and a note on how the CRA publishes different processing times on different pages.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-26",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
+      "on": "2026-11-26",
+      "note": "read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
+      "on": "2026-11-26",
+      "note": "no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed"
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

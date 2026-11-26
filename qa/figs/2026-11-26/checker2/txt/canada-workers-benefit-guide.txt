@@ -1,0 +1,365 @@
+import { batchFooter, batchPost } from './types';
+
+const D = '2026-11-26';
+const HUB = '/category/government-benefits/credits-low-income/';
+const CWB = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb';
+const S6 = 'https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf';
+
+const disclaimer = `General education, not tax or benefit advice. Eligibility rules, income limits and maximum amounts come from the Canada Revenue Agency's Canada workers benefit pages for the 2025 tax year and the 2025 Schedule 6, read on November 26, 2026. Amounts shown are for residents of Canada outside Quebec, Alberta and Nunavut unless stated, because the CRA sets different amounts for those three. The worked tables are our own calculations from the CRA's published formula, using labelled example incomes; your CRA notice is the authority for your own figure. Talk to a tax professional about your own file.`;
+
+const content = `
+
+
+    
+
+        The Canada Workers Benefit is a refundable tax credit for people who work and earn a low income, and many eligible workers never claim it because it looks like someone else's benefit. A single worker can get up to $1,633 and a family up to $2,813 for the 2025 tax year, and the credit shrinks by only 15 cents for each extra dollar of income. This guide, part of our credits and low-income benefits hub, shows who qualifies, how the amount is worked out and how to claim it.
+    
+
+    
+The Canada Workers Benefit (CWB) is a refundable tax credit for working Canadians with low income, claimed on line 45300 of the return. For the 2025 tax year the basic amount is up to $1,633 for a single person and up to $2,813 for a family, plus a disability supplement of up to $843 (Canada Revenue Agency).
+
+    
+
+        Key takeaways:
+        
+
+            
+You must earn working income of more than $3,000, be a resident of Canada all year, and be 19 or older on December 31 unless you live with a spouse, partner or child.
+            
+The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).
+            
+The credit stops at $37,742 of income for a single person and $49,393 for a family outside Quebec, Alberta and Nunavut.
+            
+You claim it by filing a return. The CRA then pays up to half as advance payments in July, October and January with no separate application.
+            
+Because the test uses net income, an RRSP deduction can raise your credit by 15 cents for each dollar deducted while you are in the phase-out range.
+        
+    
+
+    
+
+        
+
+            
+Who qualifies
+            
+Income limits by province
+            
+How the credit is calculated
+            
+Worked amounts by income
+            
+The disability supplement
+            
+Advance payments
+            
+How to claim it
+            
+RRSPs and the CWB
+            
+Common mistakes
+            
+FAQ
+        
+    
+
+    
+Who qualifies for the Canada Workers Benefit?
+    
+Someone who earns working income, lives in Canada, is old enough or has a household reason, and whose income is below the cut-off for their province and family situation. The CRA's eligibility page lists the conditions for the basic amount. You must meet all of these:
+    
+
+        
+You earn working income and your net income is below the level set for your province or territory of residence.
+        
+You are a resident of Canada throughout the year.
+        
+You are 19 or older on December 31, or you live with your spouse or common-law partner or your child.
+    
+    
+You are not eligible if you were a full-time student at a designated educational institution for more than 13 weeks in the year, unless you had an eligible dependant on December 31. The same exclusion applies if you were confined to a prison or similar institution for at least 90 days, or do not pay tax in Canada because you are a diplomat or a family member or employee of one.
+    
+On the 2025 Schedule 6, working income is employment income, taxable scholarships, fellowships, bursaries and artists' project grants, and net self-employment income (profits only, not losses). A single person or family needs working income above $3,000 to claim the basic amount. For the disability supplement, your own working income must be above $1,150.
+    
+Who counts as an eligible spouse or dependant?
+    
+An eligible spouse lived with you as your spouse or common-law partner on December 31 and was a resident of Canada all year, and does not fall under the same student, prison or diplomat exclusions. An eligible dependant is your or your partner's child who is under 19, lives with you on December 31 and is not eligible for the CWB themselves. The CRA's definition of child includes a person in your custody and control who is wholly dependent on you for support. If you have a spouse, only one of you can claim the basic amount.
+
+    
+What are the CWB income limits in each province?
+    
+They are the same for most of the country and different in Alberta, Nunavut and Quebec. These are the net income levels at which the basic amount reaches zero for the 2025 tax year, from the CRA's eligibility page.
+    
+
+        
+
+            2025 net income level where the basic CWB reaches zero (Canada Revenue Agency, read November 26, 2026)
+            
+                
+Your situation | Canada (excluding Alberta, Quebec, Nunavut) | Alberta | Nunavut | 
+            
+            
+                
+Family (single parent or couple, with or without children) | $49,393 | $50,232 | $67,365 | 
+                
+Single, no eligible dependants | $37,742 | $37,826 | $67,367 | 
+            
+        
+    
+    
+Quebec has its own scale, and the CRA says the maximum basic amount also varies for residents of Quebec, Nunavut and Alberta. For Quebec the CRA distinguishes four household types, with a different cut-off for each, so look up the Quebec row on the CRA page rather than using the table above. The rest of this guide uses the figures for the rest of the country.
+
+    
+How is the Canada Workers Benefit calculated?
+    
+In two steps, and both are printed on Schedule 6. First the credit builds as you earn: 27% of your working income over $3,000, up to a maximum of $1,633 for a single person or $2,813 if you had an eligible spouse or dependant. Second, it shrinks: 15% of the amount your adjusted net income is over $26,855 (single) or $30,639 (family) is subtracted.
+    
+
+        
+
+            The basic CWB formula, 2025 tax year, outside Quebec, Alberta and Nunavut (CRA 2025 Schedule 6 and CWB pages)
+            
+Step | Single | Family (spouse or dependant) | 
+            
+                
+Builds at 27% of working income over | $3,000 | $3,000 | 
+                
+Maximum basic amount | $1,633 | $2,813 | 
+                
+Reduced by 15% of adjusted net income over | $26,855 | $30,639 | 
+                
+No basic amount if adjusted net income is more than | $37,742 | $49,393 | 
+            
+        
+    
+    
+Adjusted net income is your net income from line 23600, adjusted for a few items such as repayments of universal child care benefit and registered disability savings plan income. For a couple, the family figure is both partners' adjusted net income, less a secondary earner exemption of up to $16,386 on the lower earner's income.
+    
+Two numbers fall out of the formula. The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000). And in the phase-out, every $1,000 of extra income costs $150 of credit. That is a real cost on top of tax, and it is the reason the CWB matters when you decide on a raise, overtime or an RRSP contribution.
+
+    
+How much will you actually get at your income?
+    
+Less than the maximum unless your income sits in the flat middle of the range. These two tables apply the formula to labelled example incomes.
+    
+
+        
+
+            Basic CWB for a single person with no dependants at example incomes (2025 tax year; our calculation from the CRA formula, assuming all income is working income and no other income)
+            
+Working and net income | 27% build-up | 15% reduction | Basic CWB | 
+            
+                
+$5,000 | $540 | $0 | $540 | 
+                
+$9,000 | $1,620 | $0 | $1,620 | 
+                
+$15,000 | $3,240 (capped at $1,633) | $0 | $1,633 | 
+                
+$30,000 | capped at $1,633 | $472 | $1,161 | 
+                
+$35,000 | capped at $1,633 | $1,222 | $411 | 
+                
+$37,000 | capped at $1,633 | $1,522 | $111 | 
+            
+        
+    
+    
+
+        
+
+            Basic CWB for a family at example incomes (2025 tax year; our calculation from the CRA formula, assuming family working income equals adjusted family net income and ignoring the secondary earner exemption)
+            
+Family working and net income | 27% build-up | 15% reduction | Basic CWB | 
+            
+                
+$10,000 | $1,890 | $0 | $1,890 | 
+                
+$20,000 | $4,590 (capped at $2,813) | $0 | $2,813 | 
+                
+$40,000 | capped at $2,813 | $1,404 | $1,409 | 
+                
+$45,000 | capped at $2,813 | $2,154 | $659 | 
+                
+$49,000 | capped at $2,813 | $2,754 | $59 | 
+            
+        
+    
+    
+What this page adds: a worked table of the basic credit at income steps for a single person and a family, a calculation showing where the maximum is reached (about $9,048 and $13,419 of working income), and an RRSP example showing a $2,000 deduction raises the credit by $300 inside the phase-out. Each figure is our calculation from the CRA's published formula and labelled as such.
+    
+
+        
+Illustration: Dana and a part-year raise
+        
+Dana (a labelled example) is single, with no dependants, and lives outside Quebec, Alberta and Nunavut. She earned $30,000 in 2025 and expects $35,000 in 2026. On the 2025 formula, the extra $5,000 would cut her basic credit from $1,161 to $411, a loss of $750. That is 15% of the extra income, and it is on top of the income tax and payroll deductions on the raise. It does not make the raise a bad idea, because she still keeps $4,250 of the $5,000 before income tax, but her net gain is smaller than the pay stub suggests.
+    
+    
+These tables use the figures for the rest of Canada. Quebec, Alberta and Nunavut use different maximums and limits.
+
+    
+What is the CWB disability supplement?
+    
+An extra credit for working people who are eligible for the disability tax credit. For the 2025 tax year it is up to $843 for a single person and up to $843 for a family, according to the CRA's how much you can get page. You must be eligible for the disability tax credit with an approved Form T2201 on file, and your net income must be below the level for your province.
+    
+
+        
+Single: the supplement is reduced when adjusted net income is more than $37,740, and none is paid above $43,360.
+        
+Family: it is reduced above $49,389. None is paid if one spouse is eligible for the disability tax credit and family income is more than $55,009, or if both are eligible and it is more than $60,629.
+        
+Reduction rate: 15% for a single person or a family with one eligible spouse, and 7.5% if both spouses are eligible for the credit, according to Schedule 6.
+    
+    
+For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504. That figure is our calculation, and it is on top of any basic CWB, which at that income would be zero. Our disability tax credit guide covers how to get T2201 approved, which is the gate to the supplement.
+    
+If you and your spouse are both eligible for the DTC, only one of you can claim the basic amount, but each of you claims your own disability supplement on a separate Schedule 6. If only one is eligible, that person claims both the basic amount and the supplement.
+
+    
+How do the advance payments work?
+    
+Automatically, once you file. If you are entitled to the CWB, you get up to 50% of it in advance payments, called the Advanced Canada Workers Benefit. If you are entitled to the disability supplement, you also get 50% of that. You do not apply for them: the CRA works out your eligibility when you file your return.
+    
+
+        
+Dates: three payments, on July 12, October 11 and January 10. If the date falls on a weekend or federal holiday, payment is made on the last business day before it.
+        
+Filing deadline for the advance payments: the CRA must receive your return before November 1 of the benefit period, which starts in July and ends in June of the following year.
+        
+Maximum advance: half of $1,633 is $816.50 for a single person, and half of $2,813 is $1,406.50 for a family (our arithmetic on the CRA's maximums).
+        
+Couples: only one spouse receives the family's advance payments. It is the one with the higher working income, or the first filer if the working incomes are equal.
+        
+Missing payment: wait 10 working days after the expected date before you contact the CRA.
+    
+    
+The CRA says only death, incarceration and emigration change your advance payments mid-year. A change in marital status, dependants or address does not change them unless you request a reassessment and your CWB amount changes. The rest is settled when your return is assessed.
+
+    
+How do you claim the Canada Workers Benefit?
+    
+By filing a return and answering the CWB questions in your tax software, or by completing Schedule 6 on a paper return. If you file electronically, certified software walks you through the questions. On paper, you attach Schedule 6 and enter the result from Step 2 (basic) or Step 3 (disability supplement) on line 45300.
+    
+If you received advance payments, the CRA sends an RC210 slip, and Schedule 6 has a step to report them. Keep it with your records; our record-keeping guide says how long to hold on to slips. If you cannot sign in to see your slips, our CRA My Account guide covers registration.
+    
+The CWB sits alongside the other income-tested benefits that the same return unlocks. The benefits stacking map shows how household income affects each one, and the Canada Groceries and Essentials Benefit guide covers the quarterly payment that many CWB recipients also get. Payment dates for all of them are on the benefit payment dates page.
+
+    
+Can an RRSP contribution increase your Canada Workers Benefit?
+    
+Yes, if your income is in the phase-out range. Schedule 6 starts adjusted net income from line 23600, which is after the RRSP deduction. A deduction therefore lowers the income the 15% reduction is applied to, and each dollar deducted adds 15 cents back to the credit.
+    
+
+        
+Illustration: Dana puts $2,000 into an RRSP
+        
+Dana earned $35,000. Without a contribution, her basic CWB on the 2025 formula is $411. If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922. Her credit rises to $711, an increase of $300. Working income is unchanged because the RRSP deduction does not lower employment income. That $300 is a bonus on top of the income tax refund from the deduction itself.
+    
+    
+Whether an RRSP is the right account for someone at this income is a separate question; at low incomes a TFSA is often the better fit, and our RRSP or TFSA by income table works through the trade-off.
+
+    
+What mistakes cost people the CWB?
+    
+Most lost credit comes from a handful of avoidable slips, and they are easy to check before you file.
+    
+
+        
+Not filing. There is no application. If you do not file a return, you do not get the credit, and even a very small return can unlock it.
+        
+Assuming students never qualify. The full-time student exclusion has an exception if you had an eligible dependant on December 31.
+        
+Using the wrong income. The build-up uses working income. The reduction uses adjusted net income. They are not the same number if you have investment income, pension income or deductions.
+        
+Both partners claiming the basic amount. Only one spouse can claim it. If you cannot decide, the CRA decides for you.
+        
+Forgetting the DTC link. The disability supplement requires an approved T2201; a diagnosis alone is not enough.
+        
+Ignoring Quebec, Alberta and Nunavut differences. The federal figures in this guide apply to the rest of Canada. Look up your own region on the CRA page.
+    
+
+    
+Frequently asked questions
+    
+How much is the Canada Workers Benefit?
+    
+For the 2025 tax year, up to $1,633 for a single person and up to $2,813 for a family, plus up to $843 for the disability supplement. The amount depends on your working income, adjusted net income and where you live.
+    
+Do I have to apply for the Canada Workers Benefit?
+    
+You claim it by filing your tax return. There is no separate application, and the advance payments are sent automatically if the CRA finds you eligible when you file.
+    
+What income do I need to qualify?
+    
+Working income of more than $3,000 for the basic amount, and more than $1,150 of your own for the disability supplement, according to Schedule 6.
+    
+Can students get the Canada Workers Benefit?
+    
+Only if they studied full-time for 13 weeks or less in the year, or they had an eligible dependant on December 31.
+    
+Is the Canada Workers Benefit taxable?
+    
+The CRA describes it as a refundable tax credit claimed on line 45300, not as taxable income. Check your own return, and ask a tax professional if you have a complex situation.
+    
+When are the advance payments made?
+    
+On July 12, October 11 and January 10, or the last business day before if one falls on a weekend or federal holiday.
+    
+What if I live in Quebec, Alberta or Nunavut?
+    
+The CRA sets different income limits and maximums for each. The limits for Alberta and Nunavut are in the table above, and Quebec's are on the CRA's eligibility page.
+
+    
+Sources
+    
+
+        
+Canada Revenue Agency: Canada workers benefit, who is eligible, reviewed November 26, 2026
+        
+Canada Revenue Agency: Canada workers benefit, how much you can get, reviewed November 26, 2026
+        
+Canada Revenue Agency: Canada workers benefit, how to claim, reviewed November 26, 2026
+        
+Canada Revenue Agency: Schedule 6, Canada Workers Benefit (T1-2025), reviewed November 26, 2026
+    
+
+    
+Related reading
+    
+
+        
+Government benefits stacking map
+        
+Canada Groceries and Essentials Benefit
+        
+Canada benefit payment dates
+        
+Disability tax credit guide
+        
+Canada Child Benefit: the July reset
+    
+
+    
+
+        
+The CWB is one of several benefits that the same tax return unlocks.
+        
+The Canadian Government Benefits Guide covers who qualifies, how much and how to apply for each major federal benefit, so none of them is left unclaimed.
+        See the Government Benefits Guide
+    
+
+    ${batchFooter(D, 'Government Benefits', disclaimer)}
+
+`;
+
+export const canadaWorkersBenefitGuidePost = batchPost({
+  date: D,
+  category: 'Government Benefits',
+  categorySlug: 'government-benefits',
+  subcategory: 'credits-low-income',
+  slug: 'canada-workers-benefit-guide',
+  title: 'Canada Workers Benefit: Who Qualifies and How Much You Can Get',
+  excerpt:
+    'Who qualifies for the Canada Workers Benefit, the 2025 income limits, how the 27% build-up and 15% reduction work, worked amounts by income, the disability supplement and the advance payments.',
+  content,
+});

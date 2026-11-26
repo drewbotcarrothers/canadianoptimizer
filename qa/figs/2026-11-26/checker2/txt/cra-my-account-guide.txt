@@ -1,0 +1,333 @@
+import { batchFooter, batchPost } from './types';
+
+const D = '2026-11-26';
+const HUB = '/category/taxes/filing-cra/';
+const CRA = 'https://www.canada.ca/en/revenue-agency';
+const ES = `${CRA}/services/e-services`;
+const HELP = `${ES}/cra-login-services/help-cra-sign-in-services`;
+
+const disclaimer = `General education, not tax advice. How to register, which sign-in options exist, what you can see before and after identity verification and the multi-factor authentication rules all come from the Canada Revenue Agency's CRA account pages and its October 29, 2026 tax tip, read on November 26, 2026. The CRA changes these services often, so confirm the current steps on Canada.ca before you register, and talk to a tax professional about your own file. Priya is a labelled illustration, not a real person.`;
+
+const content = `
+
+
+    
+
+        Most people meet their CRA account for the first time in the middle of filing season, when a slip is missing or a refund is late, and then discover that signing up takes days. Register or confirm your sign-in in November and the account does most of the filing work for you in February. This guide, part of our filing and CRA hub, covers how to register, which sign-in option to pick, and what to check each year.
+    
+
+    
+My Account is the part of your CRA account where you view and manage your personal income tax and benefit information. You can use it with a social insurance number and a filed and assessed return from the current or previous tax year. Register with a sign-in option, add multi-factor authentication, then verify your identity (CRA, November 2026).
+
+    
+
+        Key takeaways:
+        
+
+            
+You need a SIN and an assessed return from this or last tax year, so a first-time filer cannot register until the notice of assessment arrives.
+            
+The option you register with is the one you use at every sign-in: CRA user ID and password, a Sign-In Partner (online banking) or a provincial partner (BC Services Card or Alberta.ca Account).
+            
+Verify your identity with the document verification service for immediate full access, or wait up to 10 business days for a mailed security code.
+            
+Only one multi-factor authentication method is mandatory, but the CRA asks you to add a backup, and so should you.
+            
+Check the account once a year before you file, then again after your notice of assessment arrives.
+        
+    
+
+    
+
+        
+
+            
+Who can use My Account
+            
+How to register
+            
+Which sign-in option to choose
+            
+Verifying your identity
+            
+Multi-factor authentication
+            
+If you are locked out
+            
+What to check each year
+            
+Someone else's account
+            
+FAQ
+        
+    
+
+    
+Who can use CRA My Account?
+    
+Anyone with a social insurance number (SIN) and a filed and assessed income tax and benefit return from the current or previous tax year. That is the test on the CRA's About My Account page. If you have no SIN, the registration page also accepts a temporary tax number or an individual tax number.
+    
+The practical effect is timing. If you filed your first return this spring, the account was out of reach until the notice of assessment came back. If you skipped filing for the last two years, you will have to file first.
+    
+My Account is one door into a CRA account that also holds My Business Account, Represent a Client and other accounts. You register once and use the same sign-in for all of them, according to the CRA's registration page.
+
+    
+How do you register for a CRA account?
+    
+In five steps, and the first one is the one people skip: gather what you need before you start, because the session expires after 18 minutes of inactivity and nothing is saved. The CRA's registration page lists the steps.
+    
+
+        
+1Gather your details. Your date of birth and SIN, plus amounts you reported on your most recent assessed return from the last 2 years. Use the amounts you first reported, even if a reassessment later changed them.
+        
+2Choose a registration option. CRA user ID and password, a Sign-In Partner, or a provincial partner. The next section compares them.
+        
+3Enroll in multi-factor authentication. A one-time passcode is required at every sign-in. First-time registrants are prompted to enrol in 2 options.
+        
+4Verify your identity. With the document verification service on a mobile device, or with a security code mailed to you.
+        
+5Add other accounts. Business, representative and other accounts can be added after you sign in.
+    
+    
+For immediate access you also need a mobile device with a camera and an accepted piece of ID. Without one, plan around the mail.
+
+    
+Which sign-in option should you choose?
+    
+The one you will actually remember, because the CRA says the option you register with is the one you use every time you sign in. There are three, and GC Key is not one of them: the CRA states you cannot use GC Key to sign in to your CRA account.
+    
+
+        
+
+            The three CRA account sign-in options (CRA, read November 26, 2026; the last column is our own view)
+            
+Option | How it works | Best for | 
+            
+                
+CRA user ID and password | You create a username and password just for the CRA | People who want the CRA login separate from their bank, and who use a password manager | 
+                
+Sign-In Partner | You use your online banking sign-in at a participating bank or credit union | People who already sign in to a participating institution every week | 
+                
+Provincial partner | You use a BC Services Card or an Alberta.ca Account | British Columbia and Alberta residents who already have one | 
+            
+        
+    
+    
+The CRA's sign-in page lists the current Sign-In Partners, and the list includes RBC Royal Bank, TD Bank Group, Scotiabank, BMO Financial Group, CIBC, National Bank of Canada, Desjardins, Tangerine, Simplii Financial and Wealthsimple, among others. Check that your institution is on it before choosing this route.
+    
+What this page adds: a yearly CRA account checklist that follows the tax calendar, from a November sign-in test through the notice of assessment, and a table of exactly which services work before you verify your identity and which only unlock afterwards, so you know what to expect while the mailed code is in transit.
+    
+A warning about banking credentials. The CRA tells you not to use autofill on a shared device. If you register with someone else's banking credentials by mistake and link your SIN to them, the other person gets access to your tax information.
+
+    
+How do you verify your identity?
+    
+Choose between two methods. The document verification service gives full, immediate access. The CRA security code is mailed to the address the CRA has on file within 10 business days, and it expires, so use it as soon as it arrives. The CRA's verify your identity page sets out both.
+    
+
+        
+Document verification service: you must be at least 16 years old, have an accepted government-issued photo ID and a mobile device with a working camera. Accepted documents include a Canadian driver's licence, a Canadian passport, a permanent resident card and a provincial or territorial photo ID card. Provincial health cards are not accepted.
+        
+CRA security code: you enter your postal code, and if it does not match the CRA's record you have to update your address first. If the code has not arrived after 10 business days, use the document verification service or contact the CRA for a new one.
+    
+    
+
+        
+
+            What My Account lets you do before and after identity verification (CRA verify-your-identity page, read November 26, 2026)
+            
+Before verification (limited access) | After verification (full access) | 
+            
+                
+View the status of your tax return | Apply for benefits | 
+                
+View your RRSP deduction limit and TFSA contribution room | Update your personal information | 
+                
+View your notice of assessment or reassessment | Everything in the limited list | 
+                
+Request a remittance voucher, set up pre-authorized debit, change notification preferences |  | 
+            
+        
+    
+    
+Limited access is enough to find your RRSP room before a contribution deadline; our guide to reading your RRSP deduction limit shows where it sits on the notice. It is not enough to change your address or direct deposit, so do not wait for a mailed code in the week before a payment is due.
+
+    
+What is multi-factor authentication and which method should you pick?
+    
+It is a one-time passcode you enter in addition to your password at every sign-in, and it is mandatory for all CRA account users. The CRA offers three methods, and you should enrol in at least two, even though only one is required.
+    
+
+        
+Third-party authenticator app: a free app that makes a 6-digit code, renewed every 30 seconds. You do not need to pay for one.
+        
+Passcode grid: a grid the CRA generates for you to save or print.
+        
+Phone: a code sent by text or phone call. If you use a VoIP service, choose the Call me option instead of Text me.
+    
+    
+The CRA says a backup protects you if you change your phone number, cannot reach your text messages, misplace the grid or delete the app. After you sign in, the Welcome page lets you add or change a method. Never read a passcode to anyone: the CRA says it will never call and ask for your one-time passcode.
+
+    
+What if you are locked out or forgot your sign-in?
+    
+You may be able to regain access without calling. The CRA's sign-in page says users locked out because they forgot their credentials can register again for a new credential. If you forgot your user ID, the recovery steps need your SIN, your date of birth, the amount you entered on line 15000 of your most recent return from one of the previous 2 tax years, and the answers to your security questions.
+    
+
+        
+Forgot your password: choose CRA user ID and password, select Forgot your password, enter your user ID and answer your security questions.
+        
+No passcode arrived: ask for it again, send it to another number you registered, or fall back to your grid or app.
+        
+Account locked: it locks after too many wrong entries, and the CRA's help page lists the steps.
+    
+    
+Be sceptical of any message that says your account is suspended. The CRA states it will not send you an email with a link asking you to sign in, and it keeps a scam alerts page for fake websites and messages. Type the address yourself or use the Canada.ca link instead.
+
+    
+What should you check in your CRA account each year?
+    
+Six things, in this order. The CRA's October 29, 2026 tax tip tells taxpayers to register or confirm they can sign in before tax season, and says a working account helps you use pre-filled returns, Auto-fill My Return in tax software and secure NETFILE or EFILE authentication when you file a 2026 return.
+    
+
+        
+
+            A yearly CRA account checklist (our schedule, built from the CRA's October 29, 2026 tax tip and account help pages)
+            
+When | What to check | Why it matters | 
+            
+                
+November to January | Sign in, and add a backup passcode method | A lockout in March costs days; the identity steps can take up to 10 business days by mail | 
+                
+November to January | Confirm your address, marital status and phone number, and set correspondence to electronic mail | Wrong details stop letters and benefit payments | 
+                
+Before you file | Look at your RRSP deduction limit and TFSA room | Contribution deadlines are not flexible; see the RRSP deadline guide | 
+                
+When you file | Use Auto-fill My Return or a pre-filled return if you qualify | It pulls slips straight from the CRA and cuts typing errors | 
+                
+After you file | Track the return in the progress tracker and read your notice of assessment | The notice shows your refund or balance and your new limits | 
+                
+Each month | Watch your benefit and credit payments and any new mail | A missing payment is easiest to explain from the account | 
+            
+        
+    
+    
+
+        
+Illustration: Priya checks in November
+        
+Priya (a labelled example) filed last spring and has never signed in. In November she signs in with her bank's Sign-In Partner option, finds that she has no backup passcode method and adds an authenticator app, then updates her phone number. In February her tax software offers Auto-fill My Return, and she uses it. If her slips had been missing, her account would have shown why. The work took one sitting instead of a rushed week in April.
+    
+    
+If something on a return turns out to be wrong after it is assessed, the account is also where you change it; see how to change your tax return with ReFILE or T1-ADJ.
+
+    
+Can you use My Account for someone else?
+    
+Not with your own sign-in. To see a friend's or family member's information you must be their authorized representative and use Represent a Client in your own CRA account. The CRA also says My Account cannot be used to access a deceased person's information: an executor uses Represent a Client for that. Our guide to the final return for a deceased person covers what the executor files.
+
+    
+Your CRA account setup checklist
+    
+
+        
+Confirm you have a SIN and an assessed return from this or last tax year.
+        
+Pick the sign-in option you will remember in a year.
+        
+Choose the document verification service if you have a photo ID and a camera.
+        
+Enrol in two passcode methods, not one.
+        
+Update your address, phone number and marital status, and set electronic mail.
+        
+Save the CRA's scam alert page and ignore sign-in links in emails.
+    
+    
+For the dates this all feeds into, see the CRA deadlines guide.
+
+    
+Frequently asked questions
+    
+Is CRA My Account the same as a CRA account?
+    
+No. Your CRA account is the sign-in that opens several services. My Account is the personal one, for your own income tax and benefits.
+    
+How long does it take to get access to My Account?
+    
+Immediately with the document verification service. By mail, the CRA security code arrives within 10 business days, and you get limited access to My Account until you enter it.
+    
+Can I register if I have never filed a tax return?
+    
+Not for My Account. You need an assessed return from the current or previous tax year, so file first and register after the notice of assessment arrives.
+    
+Can I use GC Key to sign in to My Account?
+    
+No. The CRA says GC Key can be used with other federal departments but not to sign in to your CRA account.
+    
+What if my security code expired?
+    
+Use the document verification service instead, or sign in to request a new code by mail.
+    
+Can I see my RRSP limit before my identity is verified?
+    
+Yes. The CRA lists your RRSP deduction limit and TFSA contribution room among the limited-access services.
+
+    
+Sources
+    
+
+        
+Canada Revenue Agency: About My Account, reviewed November 26, 2026
+        
+Canada Revenue Agency: Register for a CRA account, reviewed November 26, 2026
+        
+Canada Revenue Agency: Verify your identity, reviewed November 26, 2026
+        
+Canada Revenue Agency: Multi-factor authentication, reviewed November 26, 2026
+        
+Canada Revenue Agency: Sign in to your CRA account, reviewed November 26, 2026
+        
+Canada Revenue Agency: Don't wait until tax time to take action in your CRA account, October 29, 2026, reviewed November 26, 2026
+    
+
+    
+Related reading
+    
+
+        
+CRA deadlines: every key date
+        
+Tax record-keeping guide
+        
+Best Canadian tax software
+        
+Your RRSP deduction limit explained
+        
+How to change your tax return: ReFILE vs T1-ADJ
+    
+
+    
+
+        
+A working CRA account makes the return itself faster. The return still has dozens of lines that cost money.
+        
+The Canadian Optimizer Tax Guide walks through the T1 line by line, including the credits and deductions people miss when they let software fill in the blanks.
+        See the Tax Guide
+    
+
+    ${batchFooter(D, 'Taxes', disclaimer)}
+
+`;
+
+export const craMyAccountGuidePost = batchPost({
+  date: D,
+  category: 'Taxes',
+  categorySlug: 'taxes',
+  subcategory: 'filing-cra',
+  slug: 'cra-my-account-guide',
+  title: 'CRA My Account: How to Register, Sign In and What to Check',
+  excerpt:
+    'Who can use CRA My Account, how to register and verify your identity, which sign-in option to pick, how multi-factor authentication works, and a yearly checklist of what to review.',
+  content,
+});

@@ -1,0 +1,151 @@
+Skip to main content
+Skip to "About government"
+Switch to basic HTML version
+Language selection
+Français
+/ Gouvernement du Canada
+Search
+Search CRA
+Search
+Menu
+MAIN
+MENU 
+Sign in
+CRA sign in
+You are here:
+Canada.ca Canada Revenue Agency (CRA) Sign in to your CRA account Help with using your CRA account
+
+CRA account help
+
+CRA account help –
+About My Account
+
+My Account is an online portal in your CRA account that lets you view and manage your personal income tax and benefit information.
+
+On this page
+Who can use My Account
+Registration and sign-in options
+Services in My Account
+What's new
+Resources
+Who can use My Account
+
+You can use My Account if you have:
+
+A social insurance number (SIN)
+A filed and assessed income tax and benefit return from the current or previous tax year
+
+For details: Who can register for a CRA account
+
+Signing in on behalf of someone else
+
+If you want to access My Account on behalf of someone else (including friends and family members), you must be their authorized representative and use Represent a Client from your CRA account.
+
+Accessing a deceased person’s information
+
+You cannot use My Account to access a deceased person’s information. If you are a representative (for example, an executor), you can access My Account on behalf of a deceased person using Represent a Client in your CRA account.
+
+For more details, go to Represent someone who died
+
+Registration and sign-in options
+
+There are 3 options for registering for and signing in to your CRA account:
+
+CRA user ID and password
+This option lets you register and sign in with a CRA user ID and password.
+Learn more: About CRA user ID and password
+Sign-In Partner
+This option lets you register and sign in with your online banking information.
+Learn more: About Sign-In Partners
+Provincial partner
+This option lets you register and sign in with a BC Services Card or an Alberta.ca Account.
+Learn more: About provincial partners
+
+Sign in to your CRA account
+
+Services in My Account
+
+The services available to you in My Account will depend on whether you have limited or full access:
+
+If you choose to use the document verification service, you will have immediate and full access to the services in My Account
+If you choose to receive a CRA security code in the mail, you will have limited access to the services in My Account until you complete your registration
+If you registered with a provincial partner, you will not need to validate your identity with one of the options above and will have full access to the services in My Account
+
+Services in My Account with limited and full access
+
+For details about our hours of service and browser requirements, go to CRA account availability.
+
+What's new
+Backup multi-factor authentication option
+
+If you don’t already have one, you will be asked to enroll in a backup multi-factor authentication (MFA) option the next time you sign in to your CRA account. Although only one MFA option is mandatory, enrolling in multiple options ensures you can still access your CRA account if you no longer have access to your primary option.
+
+Document verification service expansion
+
+The document verification service has been expanded to accept additional government-issued photo IDs.
+
+Email notifications
+
+You will now receive an email notification when:
+
+an online payment you made has been applied to your account
+your ownership or SIN-related information is updated on a business account
+your automatic tax filing notice becomes available
+supporting documentation requested by the CRA has not been received
+there is a Progress tracker status change to a clearance certificate request (optional notification for legal representatives)
+Progress tracker updates
+
+The following updates have been made to the Progress tracker service:
+
+a clearance certificate tracker has been added
+the T1 Initial assessment tracker has been updated to include returns that are processed through the automatic tax filing program
+the T1 Initial assessment tracker has been updated so that calendar days are used instead of business days for target completion date calculations
+Uncashed cheques enhancements
+
+You can now request the reissuance of eligible uncashed cheques through a single online attestation.
+
+Virtual assistant
+
+The virtual assistant has been added in My Account, allowing you to ask general, non-account-specific questions and to seamlessly transition to an online chat with a live CRA agent for account-specific issues.
+
+Resources
+
+Help with using My Account
+
+Page details
+Give feedback about this page
+Did you find what you were looking for?
+Yes No
+ 2026-10-19
+About this site
+Canada Revenue Agency (CRA)
+Contact the CRA
+Update your information
+About the CRA
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media Mobile applications About Canada.ca Terms and conditions Privacy
+ 

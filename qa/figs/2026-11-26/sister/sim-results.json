@@ -1,0 +1,115 @@
+{
+ "cra-my-account-guide vs so_cramyacct": {
+  "pct5": 0.5,
+  "shared5": 13,
+  "shared8": 4,
+  "sample8": [
+   "cra user id and password a sign in",
+   "user id and password a sign in partner",
+   "cra user id and password a sign in",
+   "user id and password a sign in partner"
+  ]
+ },
+ "cra-my-account-guide vs so_marital": {
+  "pct5": 0.0,
+  "shared5": 0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "change-tax-return-refile-t1-adj vs so_cramyacct": {
+  "pct5": 0.2,
+  "shared5": 4,
+  "shared8": 0,
+  "sample8": []
+ },
+ "change-tax-return-refile-t1-adj vs so_marital": {
+  "pct5": 0.0,
+  "shared5": 1,
+  "shared8": 0,
+  "sample8": []
+ },
+ "canada-workers-benefit-guide vs so_taxcredmid": {
+  "pct5": 0.0,
+  "shared5": 1,
+  "shared8": 0,
+  "sample8": []
+ },
+ "canada-workers-benefit-guide vs so_gstcredit": {
+  "pct5": 0.2,
+  "shared5": 6,
+  "shared8": 0,
+  "sample8": []
+ },
+ "canada-workers-benefit-guide vs so_elig": {
+  "pct5": 0.1,
+  "shared5": 3,
+  "shared8": 0,
+  "sample8": []
+ },
+ "why-did-my-ccb-change vs so_ccb": {
+  "pct5": 5.0,
+  "shared5": 141,
+  "shared8": 43,
+  "sample8": [
+   "the cra's how much you can get page",
+   "when adjusted family net income is over $38",
+   "july 2026 to june 2027 based on 2025",
+   "2026 to june 2027 based on 2025 adjusted",
+   "to june 2027 based on 2025 adjusted family",
+   "june 2027 based on 2025 adjusted family net"
+  ]
+ },
+ "why-did-my-ccb-change vs so_shared": {
+  "pct5": 1.8,
+  "shared5": 51,
+  "shared8": 12,
+  "sample8": [
+   "per child under 6 and $6 883 per",
+   "child under 6 and $6 883 per child",
+   "under 6 and $6 883 per child aged",
+   "6 and $6 883 per child aged 6",
+   "and $6 883 per child aged 6 to",
+   "of what they would get with full custody"
+  ]
+ },
+ "why-did-my-ccb-change vs so_rrspccb": {
+  "pct5": 2.9,
+  "shared5": 82,
+  "shared8": 25,
+  "sample8": [
+   "says payments from july 2026 to june 2027",
+   "for july 2026 to june 2027 based on",
+   "july 2026 to june 2027 based on 2025",
+   "a family with one child under 6 and",
+   "maximum is $8 157 a year $679.75 a",
+   "is $8 157 a year $679.75 a month"
+  ]
+ },
+ "why-did-my-ccb-change vs so_prov": {
+  "pct5": 0.1,
+  "shared5": 3,
+  "shared8": 0,
+  "sample8": []
+ },
+ "why-did-my-ccb-change vs so_cdb": {
+  "pct5": 0.5,
+  "shared5": 14,
+  "shared8": 3,
+  "sample8": [
+   "up to $3 480 a year $290 a",
+   "to $3 480 a year $290 a month",
+   "canada child benefit how much you can get"
+  ]
+ },
+ "why-did-my-ccb-change vs mm_ccb": {
+  "pct5": 1.1,
+  "shared5": 32,
+  "shared8": 4,
+  "sample8": [
+   "july 2026 to june 2027 based on 2025",
+   "may earn a commission at no extra cost",
+   "earn a commission at no extra cost to",
+   "a commission at no extra cost to you."
+  ]
+ }
+}

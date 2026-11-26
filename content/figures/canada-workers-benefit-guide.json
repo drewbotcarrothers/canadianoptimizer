@@ -1,0 +1,2957 @@
+{
+  "slug": "canada-workers-benefit-guide",
+  "publishDate": "2026-11-26",
+  "figures": [
+    {
+      "id": "c51c6361ddaf",
+      "value": "$1,633",
+      "context": "A single worker can get up to $1,633 and a family up to $2,813 for the 2025 tax year, and the credit shrinks by only 15 cents for each extra dollar of income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "5e3b2c89e4e7",
+      "value": "$2,813",
+      "context": "A single worker can get up to $1,633 and a family up to $2,813 for the 2025 tax year, and the credit shrinks by only 15 cents for each extra dollar of income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "3f8587a24b9a",
+      "value": "15",
+      "context": "A single worker can get up to $1,633 and a family up to $2,813 for the 2025 tax year, and the credit shrinks by only 15 cents for each extra dollar of income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "43fa589d03bf",
+      "value": "$1,633",
+      "context": "For the 2025 tax year the basic amount is up to $1,633 for a single person and up to $2,813 for a family, plus a disability supplement of up to $843 (Canada Revenue Agency).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "e755c97b57bc",
+      "value": "$2,813",
+      "context": "For the 2025 tax year the basic amount is up to $1,633 for a single person and up to $2,813 for a family, plus a disability supplement of up to $843 (Canada Revenue Agency).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "8b5c3f7d57b3",
+      "value": "$843",
+      "context": "For the 2025 tax year the basic amount is up to $1,633 for a single person and up to $2,813 for a family, plus a disability supplement of up to $843 (Canada Revenue Agency).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$843 for single individuals"
+    },
+    {
+      "id": "1956c232416d",
+      "value": "$3,000,",
+      "context": "You must earn working income of more than $3,000, be a resident of Canada all year, and be 19 or older on December 31 unless you live with a spouse, partner or child.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "6286d9d622bd",
+      "value": "19",
+      "context": "You must earn working income of more than $3,000, be a resident of Canada all year, and be 19 or older on December 31 unless you live with a spouse, partner or child.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "d6eb4d06d4cb",
+      "value": "December 31",
+      "context": "You must earn working income of more than $3,000, be a resident of Canada all year, and be 19 or older on December 31 unless you live with a spouse, partner or child.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "d48a6cfcf8f7",
+      "value": "27",
+      "context": "The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "82ee1a54c37f",
+      "value": "$3,000",
+      "context": "The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "f06e9da320d7",
+      "value": "15",
+      "context": "The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "d186ac047387",
+      "value": "$26,855",
+      "context": "The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted net income is more than $26,855"
+    },
+    {
+      "id": "606d8d0ac052",
+      "value": "$30,639",
+      "context": "The basic credit builds at 27 cents per dollar of working income over $3,000 until it reaches the maximum, then falls 15 cents per dollar once net income passes $26,855 (single) or $30,639 (family).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $30,639"
+    },
+    {
+      "id": "7ce182e2d5a2",
+      "value": "$37,742",
+      "context": "The credit stops at $37,742 of income for a single person and $49,393 for a family outside Quebec, Alberta and Nunavut.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted net income is more than $37,742"
+    },
+    {
+      "id": "7127a57aa930",
+      "value": "$49,393",
+      "context": "The credit stops at $37,742 of income for a single person and $49,393 for a family outside Quebec, Alberta and Nunavut.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted family net income is more than $49,393"
+    },
+    {
+      "id": "30f66d361444",
+      "value": "15",
+      "context": "Because the test uses net income, an RRSP deduction can raise your credit by 15 cents for each dollar deducted while you are in the phase-out range.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "555d65bb5a41",
+      "value": "19",
+      "context": "You are 19 or older on December 31, or you live with your spouse or common-law partner or your child.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "245efc103be0",
+      "value": "December 31",
+      "context": "You are 19 or older on December 31, or you live with your spouse or common-law partner or your child.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "40ab5fb80384",
+      "value": "13",
+      "context": "You are not eligible if you were a full-time student at a designated educational institution for more than 13 weeks in the year, unless you had an eligible dependant on December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "for more than 13 weeks in the year"
+    },
+    {
+      "id": "f051e5f1b6b3",
+      "value": "December 31",
+      "context": "You are not eligible if you were a full-time student at a designated educational institution for more than 13 weeks in the year, unless you had an eligible dependant on December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "30c4d8a128dd",
+      "value": "90",
+      "context": "The same exclusion applies if you were confined to a prison or similar institution for at least 90 days, or do not pay tax in Canada because you are a diplomat or a family member or employee of one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "for a period of at least 90 days during the year"
+    },
+    {
+      "id": "298452af1286",
+      "value": "$3,000",
+      "context": "A single person or family needs working income above $3,000 to claim the basic amount.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "9d17eebe8f2c",
+      "value": "$1,150",
+      "context": "For the disability supplement, your own working income must be above $1,150.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "on line 5 (column 1) must be more than $1,150"
+    },
+    {
+      "id": "404dbbe22fa3",
+      "value": "December 31",
+      "context": "An eligible spouse lived with you as your spouse or common-law partner on December 31 and was a resident of Canada all year, and does not fall under the same student, prison or diplomat exclusions.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "68b6be24da0d",
+      "value": "19",
+      "context": "An eligible dependant is your or your partner's child who is under 19, lives with you on December 31 and is not eligible for the CWB themselves.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Is under 19 years of age and lives with you on December 31"
+    },
+    {
+      "id": "e30641fb741c",
+      "value": "December 31",
+      "context": "An eligible dependant is your or your partner's child who is under 19, lives with you on December 31 and is not eligible for the CWB themselves.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "60eb5da1127a",
+      "value": "November 26, 2026",
+      "context": "2025 net income level where the basic CWB reaches zero (Canada Revenue Agency, read November 26, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "review date = day sources were read (2026-11-26)"
+      }
+    },
+    {
+      "id": "8f75ca4d0483",
+      "value": "$49,393",
+      "context": "Family (single parent or couple, with or without children) $49,393 $50,232 $67,365",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted family net income is more than $49,393"
+    },
+    {
+      "id": "2bde04fb1de5",
+      "value": "$50,232",
+      "context": "Family (single parent or couple, with or without children) $49,393 $50,232 $67,365",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Family with children $49,393 $41,048.90 $67,365 $50,232"
+    },
+    {
+      "id": "49dd72063db8",
+      "value": "$67,365",
+      "context": "Family (single parent or couple, with or without children) $49,393 $50,232 $67,365",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Family with children $49,393 $41,048.90 $67,365 $50,232"
+    },
+    {
+      "id": "cb62cc11db54",
+      "value": "$37,742",
+      "context": "Single, no eligible dependants $37,742 $37,826 $67,367",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted net income is more than $37,742"
+    },
+    {
+      "id": "b20b17294cf1",
+      "value": "$37,826",
+      "context": "Single, no eligible dependants $37,742 $37,826 $67,367",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Single without children $37,742 $33,230.35 $67,367 $37,826"
+    },
+    {
+      "id": "4cdc7635bf8e",
+      "value": "$67,367",
+      "context": "Single, no eligible dependants $37,742 $37,826 $67,367",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Single without children $37,742 $33,230.35 $67,367 $37,826"
+    },
+    {
+      "id": "47806407e237",
+      "value": "27%",
+      "context": "First the credit builds as you earn: 27% of your working income over $3,000, up to a maximum of $1,633 for a single person or $2,813 if you had an eligible spouse or dependant.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "e33fa722a92a",
+      "value": "$3,000,",
+      "context": "First the credit builds as you earn: 27% of your working income over $3,000, up to a maximum of $1,633 for a single person or $2,813 if you had an eligible spouse or dependant.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "63a81c38fe65",
+      "value": "$1,633",
+      "context": "First the credit builds as you earn: 27% of your working income over $3,000, up to a maximum of $1,633 for a single person or $2,813 if you had an eligible spouse or dependant.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "7d877de72026",
+      "value": "$2,813",
+      "context": "First the credit builds as you earn: 27% of your working income over $3,000, up to a maximum of $1,633 for a single person or $2,813 if you had an eligible spouse or dependant.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "3a16b387a483",
+      "value": "15%",
+      "context": "Second, it shrinks: 15% of the amount your adjusted net income is over $26,855 (single) or $30,639 (family) is subtracted.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "1c0d1afe2d7f",
+      "value": "$26,855",
+      "context": "Second, it shrinks: 15% of the amount your adjusted net income is over $26,855 (single) or $30,639 (family) is subtracted.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted net income is more than $26,855"
+    },
+    {
+      "id": "c128b688ef6e",
+      "value": "$30,639",
+      "context": "Second, it shrinks: 15% of the amount your adjusted net income is over $26,855 (single) or $30,639 (family) is subtracted.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $30,639"
+    },
+    {
+      "id": "87b0e2731de9",
+      "value": "27%",
+      "context": "Builds at 27% of working income over $3,000 $3,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "34acdf1cb972",
+      "value": "$3,000",
+      "context": "Builds at 27% of working income over $3,000 $3,000",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "8318b681c73b",
+      "value": "$1,633",
+      "context": "Maximum basic amount $1,633 $2,813",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "433e4c5b52fc",
+      "value": "$2,813",
+      "context": "Maximum basic amount $1,633 $2,813",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "c238d0cb9140",
+      "value": "15%",
+      "context": "Reduced by 15% of adjusted net income over $26,855 $30,639",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "c79a9e0f4f0b",
+      "value": "$26,855",
+      "context": "Reduced by 15% of adjusted net income over $26,855 $30,639",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted net income is more than $26,855"
+    },
+    {
+      "id": "58105383e575",
+      "value": "$30,639",
+      "context": "Reduced by 15% of adjusted net income over $26,855 $30,639",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $30,639"
+    },
+    {
+      "id": "f59b28d69fe2",
+      "value": "$37,742",
+      "context": "No basic amount if adjusted net income is more than $37,742 $49,393",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted net income is more than $37,742"
+    },
+    {
+      "id": "429d89a102d8",
+      "value": "$49,393",
+      "context": "No basic amount if adjusted net income is more than $37,742 $49,393",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No basic amount is paid if your adjusted family net income is more than $49,393"
+    },
+    {
+      "id": "3904a21ea01a",
+      "value": "$16,386",
+      "context": "For a couple, the family figure is both partners' adjusted net income, less a secondary earner exemption of up to $16,386 on the lower earner's income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "(maximum $16,386)"
+    },
+    {
+      "id": "80736e519f40",
+      "value": "$9,048",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 3000+1633/0.27"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income at which 27% build-up reaches the single maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "3000+1633/0.27"
+    },
+    {
+      "id": "1a2a7eaf21cc",
+      "value": "$1,633",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "232076c7c57d",
+      "value": "27%",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "8f12a14059b8",
+      "value": "$3,000",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "1dd80b560412",
+      "value": "$13,419",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 3000+2813/0.27"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income at which 27% build-up reaches the family maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "3000+2813/0.27"
+    },
+    {
+      "id": "5993b05cec54",
+      "value": "$2,813",
+      "context": "The credit reaches its maximum when working income hits about $9,048 for a single person ($1,633 divided by 27%, plus $3,000) and about $13,419 for a family ($2,813 divided by 27%, plus $3,000).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "d8cdb60d4e9e",
+      "value": "$1,000",
+      "context": "And in the phase-out, every $1,000 of extra income costs $150 of credit.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "unit of income used to illustrate the 15% rate"
+      }
+    },
+    {
+      "id": "9ad0ed4fb43f",
+      "value": "$150",
+      "context": "And in the phase-out, every $1,000 of extra income costs $150 of credit.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1000*0.15"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% reduction on $1,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1000*0.15"
+    },
+    {
+      "id": "6061f2ef96d7",
+      "value": "27%",
+      "context": "Working and net income 27% build-up 15% reduction Basic CWB",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "46a359ca182e",
+      "value": "15%",
+      "context": "Working and net income 27% build-up 15% reduction Basic CWB",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "5fe11e60b6c9",
+      "value": "$5,000",
+      "context": "$5,000 $540 $0 $540",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "a84b5ddad2cf",
+      "value": "$540",
+      "context": "$5,000 $540 $0 $540",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(5000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(5000,'s')"
+    },
+    {
+      "id": "a338d765b00d",
+      "value": "$0",
+      "context": "$5,000 $540 $0 $540",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(5000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(5000,'s')"
+    },
+    {
+      "id": "4d14b0105ac1",
+      "value": "$9,000",
+      "context": "$9,000 $1,620 $0 $1,620",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "a167b19313d9",
+      "value": "$1,620",
+      "context": "$9,000 $1,620 $0 $1,620",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(9000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(9000,'s')"
+    },
+    {
+      "id": "1bbe3409b53e",
+      "value": "$0",
+      "context": "$9,000 $1,620 $0 $1,620",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(9000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(9000,'s')"
+    },
+    {
+      "id": "082e815d0d7e",
+      "value": "$15,000",
+      "context": "$15,000 $3,240 (capped at $1,633) $0 $1,633",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "1b65b23ab081",
+      "value": "$3,240",
+      "context": "$15,000 $3,240 (capped at $1,633) $0 $1,633",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_build_raw(15000)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "27% of working income over $3,000, before the cap; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_build_raw(15000)"
+    },
+    {
+      "id": "c3b76ce319f7",
+      "value": "$1,633",
+      "context": "$15,000 $3,240 (capped at $1,633) $0 $1,633",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "a683de7a2bc6",
+      "value": "$0",
+      "context": "$15,000 $3,240 (capped at $1,633) $0 $1,633",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(15000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(15000,'s')"
+    },
+    {
+      "id": "ce6b5765ecf0",
+      "value": "$30,000",
+      "context": "$30,000 capped at $1,633 $472 $1,161",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "9788aff2e675",
+      "value": "$1,633",
+      "context": "$30,000 capped at $1,633 $472 $1,161",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "ae25851900f8",
+      "value": "$472",
+      "context": "$30,000 capped at $1,633 $472 $1,161",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(30000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(30000,'s')"
+    },
+    {
+      "id": "6e485573cce0",
+      "value": "$1,161",
+      "context": "$30,000 capped at $1,633 $472 $1,161",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(30000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(30000,'s')"
+    },
+    {
+      "id": "e9f8f0f5189c",
+      "value": "$35,000",
+      "context": "$35,000 capped at $1,633 $1,222 $411",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "babfd9c38c6f",
+      "value": "$1,633",
+      "context": "$35,000 capped at $1,633 $1,222 $411",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "912838ab3291",
+      "value": "$1,222",
+      "context": "$35,000 capped at $1,633 $1,222 $411",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(35000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(35000,'s')"
+    },
+    {
+      "id": "b01ee6e9eae8",
+      "value": "$411",
+      "context": "$35,000 capped at $1,633 $1,222 $411",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(35000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(35000,'s')"
+    },
+    {
+      "id": "18e12278aaee",
+      "value": "$37,000",
+      "context": "$37,000 capped at $1,633 $1,522 $111",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "d2c520283a0c",
+      "value": "$1,633",
+      "context": "$37,000 capped at $1,633 $1,522 $111",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "4ed52462030f",
+      "value": "$1,522",
+      "context": "$37,000 capped at $1,633 $1,522 $111",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(37000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(37000,'s')"
+    },
+    {
+      "id": "0afacbbe925a",
+      "value": "$111",
+      "context": "$37,000 capped at $1,633 $1,522 $111",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(37000,'s')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(37000,'s')"
+    },
+    {
+      "id": "a78f6e054efe",
+      "value": "27%",
+      "context": "Family working and net income 27% build-up 15% reduction Basic CWB",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Family working income from line 6 16 3,000.00 27%"
+    },
+    {
+      "id": "731840d75c56",
+      "value": "15%",
+      "context": "Family working and net income 27% build-up 15% reduction Basic CWB",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "beafe00863e4",
+      "value": "$10,000",
+      "context": "$10,000 $1,890 $0 $1,890",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "bb81be6e53cf",
+      "value": "$1,890",
+      "context": "$10,000 $1,890 $0 $1,890",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(10000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(10000,'f')"
+    },
+    {
+      "id": "47b13df64caf",
+      "value": "$0",
+      "context": "$10,000 $1,890 $0 $1,890",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(10000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(10000,'f')"
+    },
+    {
+      "id": "a6a9f0be89a3",
+      "value": "$20,000",
+      "context": "$20,000 $4,590 (capped at $2,813) $0 $2,813",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "3a5c146cf3da",
+      "value": "$4,590",
+      "context": "$20,000 $4,590 (capped at $2,813) $0 $2,813",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_build_raw(20000)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "27% of working income over $3,000, before the cap; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_build_raw(20000)"
+    },
+    {
+      "id": "2ec1f5cdb466",
+      "value": "$2,813",
+      "context": "$20,000 $4,590 (capped at $2,813) $0 $2,813",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "718ad5129721",
+      "value": "$0",
+      "context": "$20,000 $4,590 (capped at $2,813) $0 $2,813",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(20000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(20000,'f')"
+    },
+    {
+      "id": "1bb5437714ed",
+      "value": "$40,000",
+      "context": "$40,000 capped at $2,813 $1,404 $1,409",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "0c9edbcdff18",
+      "value": "$2,813",
+      "context": "$40,000 capped at $2,813 $1,404 $1,409",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "1a3f912be9d8",
+      "value": "$1,404",
+      "context": "$40,000 capped at $2,813 $1,404 $1,409",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(40000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(40000,'f')"
+    },
+    {
+      "id": "1edcc27ccab3",
+      "value": "$1,409",
+      "context": "$40,000 capped at $2,813 $1,404 $1,409",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(40000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(40000,'f')"
+    },
+    {
+      "id": "2162dfa7114e",
+      "value": "$45,000",
+      "context": "$45,000 capped at $2,813 $2,154 $659",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "4ea68ce95889",
+      "value": "$2,813",
+      "context": "$45,000 capped at $2,813 $2,154 $659",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "bbc6ea8d8b42",
+      "value": "$2,154",
+      "context": "$45,000 capped at $2,813 $2,154 $659",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(45000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(45000,'f')"
+    },
+    {
+      "id": "24d71ee4103b",
+      "value": "$659",
+      "context": "$45,000 capped at $2,813 $2,154 $659",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(45000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(45000,'f')"
+    },
+    {
+      "id": "114e3cb00c6d",
+      "value": "$49,000",
+      "context": "$49,000 capped at $2,813 $2,754 $59",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income step chosen for the table"
+      }
+    },
+    {
+      "id": "315e0ccd3de0",
+      "value": "$2,813",
+      "context": "$49,000 capped at $2,813 $2,754 $59",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "fbac529c2b4f",
+      "value": "$2,754",
+      "context": "$49,000 capped at $2,813 $2,754 $59",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_red(49000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of net income above the start of the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_red(49000,'f')"
+    },
+    {
+      "id": "d3dba34ec6f7",
+      "value": "$59",
+      "context": "$49,000 capped at $2,813 $2,754 $59",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(49000,'f')"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit = 27% build-up capped, minus 15% reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(49000,'f')"
+    },
+    {
+      "id": "2d9c703bc086",
+      "value": "$9,048",
+      "context": "What this page adds: a worked table of the basic credit at income steps for a single person and a family, a calculation showing where the maximum is reached (about $9,048 and $13,419 of working income), and an RRSP example showing a $2,000 deduction raises the credit by $300 inside the phase-out.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 3000+1633/0.27"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income at which 27% build-up reaches the single maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "3000+1633/0.27"
+    },
+    {
+      "id": "962a4c11206e",
+      "value": "$13,419",
+      "context": "What this page adds: a worked table of the basic credit at income steps for a single person and a family, a calculation showing where the maximum is reached (about $9,048 and $13,419 of working income), and an RRSP example showing a $2,000 deduction raises the credit by $300 inside the phase-out.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 3000+2813/0.27"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "income at which 27% build-up reaches the family maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "3000+2813/0.27"
+    },
+    {
+      "id": "d27de64af493",
+      "value": "$2,000",
+      "context": "What this page adds: a worked table of the basic credit at income steps for a single person and a family, a calculation showing where the maximum is reached (about $9,048 and $13,419 of working income), and an RRSP example showing a $2,000 deduction raises the credit by $300 inside the phase-out.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "5c6447d11c07",
+      "value": "$300",
+      "context": "What this page adds: a worked table of the basic credit at income steps for a single person and a family, a calculation showing where the maximum is reached (about $9,048 and $13,419 of working income), and an RRSP example showing a $2,000 deduction raises the credit by $300 inside the phase-out.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit with the deduction minus credit without; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+    },
+    {
+      "id": "351bf6cc87e2",
+      "value": "$30,000",
+      "context": "She earned $30,000 in 2025 and expects $35,000 in 2026.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "c01c6362a43e",
+      "value": "$35,000",
+      "context": "She earned $30,000 in 2025 and expects $35,000 in 2026.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "2ca320d4ce2d",
+      "value": "$5,000",
+      "context": "On the 2025 formula, the extra $5,000 would cut her basic credit from $1,161 to $411, a loss of $750.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "illustration figure"
+      }
+    },
+    {
+      "id": "6cc211cec5dc",
+      "value": "$1,161",
+      "context": "On the 2025 formula, the extra $5,000 would cut her basic credit from $1,161 to $411, a loss of $750.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(30000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "single, $30,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(30000,\"s\")"
+    },
+    {
+      "id": "ae2f76c5c80d",
+      "value": "$411,",
+      "context": "On the 2025 formula, the extra $5,000 would cut her basic credit from $1,161 to $411, a loss of $750.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(35000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "single, $35,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(35000,\"s\")"
+    },
+    {
+      "id": "9ab47b6ef0f4",
+      "value": "$750",
+      "context": "On the 2025 formula, the extra $5,000 would cut her basic credit from $1,161 to $411, a loss of $750.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 5000*0.15"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of the extra $5,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "5000*0.15"
+    },
+    {
+      "id": "b93856c08c8e",
+      "value": "15%",
+      "context": "That is 15% of the extra income, and it is on top of the income tax and payroll deductions on the raise.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "d1771323cd35",
+      "value": "$4,250",
+      "context": "It does not make the raise a bad idea, because she still keeps $4,250 of the $5,000 before income tax, but her net gain is smaller than the pay stub suggests.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 5000-5000*0.15"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "extra $5,000 less the $750 credit loss; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "5000-5000*0.15"
+    },
+    {
+      "id": "79d012455f99",
+      "value": "$5,000",
+      "context": "It does not make the raise a bad idea, because she still keeps $4,250 of the $5,000 before income tax, but her net gain is smaller than the pay stub suggests.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "illustration figure"
+      }
+    },
+    {
+      "id": "f881cd33ce42",
+      "value": "$843",
+      "context": "For the 2025 tax year it is up to $843 for a single person and up to $843 for a family, according to the CRA's how much you can get page.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$843 for single individuals"
+    },
+    {
+      "id": "99597e8d9c87",
+      "value": "$37,740,",
+      "context": "Single: the supplement is reduced when adjusted net income is more than $37,740, and none is paid above $43,360.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "is gradually reduced if your adjusted net income is more than $37,740"
+    },
+    {
+      "id": "bb22946a0d17",
+      "value": "$43,360",
+      "context": "Single: the supplement is reduced when adjusted net income is more than $37,740, and none is paid above $43,360.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "No disability supplement is paid if your adjusted net income is more than $43,360"
+    },
+    {
+      "id": "f15bff0150d9",
+      "value": "$49,389",
+      "context": "Family: it is reduced above $49,389.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $49,389"
+    },
+    {
+      "id": "a223d5118700",
+      "value": "$55,009,",
+      "context": "None is paid if one spouse is eligible for the disability tax credit and family income is more than $55,009, or if both are eligible and it is more than $60,629.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $55,009"
+    },
+    {
+      "id": "d5b64af2bcfb",
+      "value": "$60,629",
+      "context": "None is paid if one spouse is eligible for the disability tax credit and family income is more than $55,009, or if both are eligible and it is more than $60,629.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "adjusted family net income is more than $60,629"
+    },
+    {
+      "id": "831b9154feb4",
+      "value": "15%",
+      "context": "Reduction rate: 15% for a single person or a family with one eligible spouse, and 7.5% if both spouses are eligible for the credit, according to Schedule 6.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "enter 7.5%. If not, enter 15%"
+    },
+    {
+      "id": "b1d93746a333",
+      "value": "7.5%",
+      "context": "Reduction rate: 15% for a single person or a family with one eligible spouse, and 7.5% if both spouses are eligible for the credit, according to Schedule 6.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "enter 7.5%. If not, enter 15%"
+    },
+    {
+      "id": "c7659416b6d2",
+      "value": "$40,000",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "9677a9cb07c5",
+      "value": "$843",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$843 for single individuals"
+    },
+    {
+      "id": "6d8e6536a90f",
+      "value": "15%",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "enter 7.5%. If not, enter 15%"
+    },
+    {
+      "id": "0a3d78817ce3",
+      "value": "$2,260",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 40000-37740"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "net income above the start of the supplement reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "40000-37740"
+    },
+    {
+      "id": "1a591903b870",
+      "value": "$37,740,",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "is gradually reduced if your adjusted net income is more than $37,740"
+    },
+    {
+      "id": "346f801acba3",
+      "value": "$339,",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 0.15*(40000-37740)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of $2,260; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "0.15*(40000-37740)"
+    },
+    {
+      "id": "07ea8236c256",
+      "value": "$504",
+      "context": "For example, a single person with DTC approval and an adjusted net income of $40,000 would have the $843 supplement cut by 15% of the $2,260 over $37,740, which is $339, leaving $504.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 843-0.15*(40000-37740)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "supplement less the reduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "843-0.15*(40000-37740)"
+    },
+    {
+      "id": "07bb2fa46d6a",
+      "value": "50%",
+      "context": "If you are entitled to the CWB, you get up to 50% of it in advance payments, called the Advanced Canada Workers Benefit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "up to 50% of your CWB in advanced payments"
+    },
+    {
+      "id": "626e8ba99435",
+      "value": "50%",
+      "context": "If you are entitled to the disability supplement, you also get 50% of that.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "up to 50% of your CWB in advanced payments"
+    },
+    {
+      "id": "f57d5c03f462",
+      "value": "July 12",
+      "context": "Dates: three payments, on July 12, October 11 and January 10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    },
+    {
+      "id": "5fd0f0f5e18f",
+      "value": "October 11",
+      "context": "Dates: three payments, on July 12, October 11 and January 10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    },
+    {
+      "id": "74d842428c22",
+      "value": "January 10",
+      "context": "Dates: three payments, on July 12, October 11 and January 10.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    },
+    {
+      "id": "b3ef52289d31",
+      "value": "November 1",
+      "context": "Filing deadline for the advance payments: the CRA must receive your return before November 1 of the benefit period, which starts in July and ends in June of the following year.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-to-claim.html",
+      "sourceName": "Canada Revenue Agency: CWB, how to claim",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_claim)"
+      },
+      "needle": "must receive your income tax and benefit return before November 1"
+    },
+    {
+      "id": "f105efe62d27",
+      "value": "$1,633",
+      "context": "Maximum advance: half of $1,633 is $816.50 for a single person, and half of $2,813 is $1,406.50 for a family (our arithmetic on the CRA's maximums).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "dadd36674116",
+      "value": "$816.50",
+      "context": "Maximum advance: half of $1,633 is $816.50 for a single person, and half of $2,813 is $1,406.50 for a family (our arithmetic on the CRA's maximums).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 1633/2"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "half of the single maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "1633/2"
+    },
+    {
+      "id": "9f38d9dcab1e",
+      "value": "$2,813",
+      "context": "Maximum advance: half of $1,633 is $816.50 for a single person, and half of $2,813 is $1,406.50 for a family (our arithmetic on the CRA's maximums).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "5be3fcf36562",
+      "value": "$1,406.50",
+      "context": "Maximum advance: half of $1,633 is $816.50 for a single person, and half of $2,813 is $1,406.50 for a family (our arithmetic on the CRA's maximums).",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 2813/2"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "half of the family maximum; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "2813/2"
+    },
+    {
+      "id": "afc59cb8f308",
+      "value": "10",
+      "context": "Missing payment: wait 10 working days after the expected date before you contact the CRA.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "please wait 10 working days before contacting the CRA"
+    },
+    {
+      "id": "cb62d09e5bfe",
+      "value": "15%",
+      "context": "A deduction therefore lowers the income the 15% reduction is applied to, and each dollar deducted adds 15 cents back to the credit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "5fbf28fb1667",
+      "value": "15",
+      "context": "A deduction therefore lowers the income the 15% reduction is applied to, and each dollar deducted adds 15 cents back to the credit.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "6736b4b7735f",
+      "value": "$2,000",
+      "context": "Illustration: Dana puts $2,000 into an RRSP",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "63799d207315",
+      "value": "$35,000",
+      "context": "Dana earned $35,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "59b40273bb60",
+      "value": "$411",
+      "context": "Without a contribution, her basic CWB on the 2025 formula is $411.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(35000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "single, $35,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(35000,\"s\")"
+    },
+    {
+      "id": "39701f006ba6",
+      "value": "$2,000",
+      "context": "If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "declared illustration input"
+      }
+    },
+    {
+      "id": "899a2137caa8",
+      "value": "$33,000",
+      "context": "If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 35000-2000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "net income after the $2,000 RRSP deduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "35000-2000"
+    },
+    {
+      "id": "2e404ad18fcd",
+      "value": "15%",
+      "context": "If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "Rate | 15% ×"
+    },
+    {
+      "id": "d6b269301e73",
+      "value": "$6,145,",
+      "context": "If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 33000-26855"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "net income above the start of the reduction after the deduction; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "33000-26855"
+    },
+    {
+      "id": "3560b2c283f7",
+      "value": "$922",
+      "context": "If she contributes $2,000 and deducts it, her net income falls to $33,000 and the reduction becomes 15% of $6,145, or $922.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: 0.15*(33000-26855)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "15% of $6,145; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "0.15*(33000-26855)"
+    },
+    {
+      "id": "9e1213fc6b9d",
+      "value": "$711,",
+      "context": "Her credit rises to $711, an increase of $300.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(33000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "single, $33,000; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(33000,\"s\")"
+    },
+    {
+      "id": "0d2b32ca9d0b",
+      "value": "$300",
+      "context": "Her credit rises to $711, an increase of $300.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit with the deduction minus credit without; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+    },
+    {
+      "id": "6f801860b622",
+      "value": "$300",
+      "context": "That $300 is a bonus on top of the income tax refund from the deduction itself.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261126-model.py",
+        "expr: cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "credit with the deduction minus credit without; recomputed in qa/figs/2026-11-26/recheck.py"
+      },
+      "expr": "cwb_credit(33000,\"s\")-cwb_credit(35000,\"s\")"
+    },
+    {
+      "id": "044939ab022d",
+      "value": "December 31",
+      "context": "The full-time student exclusion has an exception if you had an eligible dependant on December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "04bce8c752c7",
+      "value": "$1,633",
+      "context": "For the 2025 tax year, up to $1,633 for a single person and up to $2,813 for a family, plus up to $843 for the disability supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$1,633 for single individuals"
+    },
+    {
+      "id": "a886e65c0d9d",
+      "value": "$2,813",
+      "context": "For the 2025 tax year, up to $1,633 for a single person and up to $2,813 for a family, plus up to $843 for the disability supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$2,813 for families"
+    },
+    {
+      "id": "5f88d9b5e144",
+      "value": "$843",
+      "context": "For the 2025 tax year, up to $1,633 for a single person and up to $2,813 for a family, plus up to $843 for the disability supplement.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "$843 for single individuals"
+    },
+    {
+      "id": "6060f7639923",
+      "value": "$3,000",
+      "context": "Working income of more than $3,000 for the basic amount, and more than $1,150 of your own for the disability supplement, according to Schedule 6.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "working income on line 6 is more than $3,000"
+    },
+    {
+      "id": "742aa41dbe2c",
+      "value": "$1,150",
+      "context": "Working income of more than $3,000 for the basic amount, and more than $1,150 of your own for the disability supplement, according to Schedule 6.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/5000-s6/5000-s6-25e.pdf",
+      "sourceName": "Canada Revenue Agency: Schedule 6",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_s6)"
+      },
+      "needle": "on line 5 (column 1) must be more than $1,150"
+    },
+    {
+      "id": "231769780744",
+      "value": "13",
+      "context": "Only if they studied full-time for 13 weeks or less in the year, or they had an eligible dependant on December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "for more than 13 weeks in the year"
+    },
+    {
+      "id": "244b33ba1f8c",
+      "value": "December 31",
+      "context": "Only if they studied full-time for 13 weeks or less in the year, or they had an eligible dependant on December 31.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html",
+      "sourceName": "Canada Revenue Agency: CWB, who is eligible",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_elig)"
+      },
+      "needle": "Are 19 years of age or older on December 31"
+    },
+    {
+      "id": "dfa574525def",
+      "value": "July 12",
+      "context": "On July 12, October 11 and January 10, or the last business day before if one falls on a weekend or federal holiday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    },
+    {
+      "id": "68ca214374df",
+      "value": "October 11",
+      "context": "On July 12, October 11 and January 10, or the last business day before if one falls on a weekend or federal holiday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    },
+    {
+      "id": "94e736470e82",
+      "value": "January 10",
+      "context": "On July 12, October 11 and January 10, or the last business day before if one falls on a weekend or federal holiday.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html",
+      "sourceName": "Canada Revenue Agency: CWB, how much you can get",
+      "asOf": "2026-11-26",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-26",
+        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
+        "note": "needle found on page fetched 2026-11-26 (cwb_much)"
+      },
+      "needle": "3 payments, on: July 12 October 11 January 10"
+    }
+  ]
+}

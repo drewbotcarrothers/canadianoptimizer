@@ -1,0 +1,269 @@
+{
+ "cwb_single": {
+  "5000": {
+   "credit": 540.0,
+   "phase_in": 540.0,
+   "reduction": 0.0
+  },
+  "9000": {
+   "credit": 1620.0,
+   "phase_in": 1620.0,
+   "reduction": 0.0
+  },
+  "15000": {
+   "credit": 1633.0,
+   "phase_in": 3240.0,
+   "reduction": 0.0
+  },
+  "26855": {
+   "credit": 1633.0,
+   "phase_in": 6440.85,
+   "reduction": 0.0
+  },
+  "30000": {
+   "credit": 1161.25,
+   "phase_in": 7290.0,
+   "reduction": 471.75
+  },
+  "35000": {
+   "credit": 411.25,
+   "phase_in": 8640.0,
+   "reduction": 1221.75
+  },
+  "37000": {
+   "credit": 111.25,
+   "phase_in": 9180.0,
+   "reduction": 1521.75
+  },
+  "37742": {
+   "credit": 0.0,
+   "phase_in": 9380.34,
+   "reduction": 1633.05
+  }
+ },
+ "cwb_family": {
+  "10000": {
+   "credit": 1890.0,
+   "phase_in": 1890.0,
+   "reduction": 0.0
+  },
+  "20000": {
+   "credit": 2813.0,
+   "phase_in": 4590.0,
+   "reduction": 0.0
+  },
+  "30639": {
+   "credit": 2813.0,
+   "phase_in": 7462.53,
+   "reduction": 0.0
+  },
+  "40000": {
+   "credit": 1408.85,
+   "phase_in": 9990.0,
+   "reduction": 1404.15
+  },
+  "45000": {
+   "credit": 658.85,
+   "phase_in": 11340.0,
+   "reduction": 2154.15
+  },
+  "49000": {
+   "credit": 58.85,
+   "phase_in": 12420.0,
+   "reduction": 2754.15
+  }
+ },
+ "cwb_full_at": {
+  "single": 9048.15,
+  "family": 13418.52
+ },
+ "cwb_adv_half_single_max": 816.5,
+ "cwb_adv_half_family_max": 1406.5,
+ "cwb_per_1000_loss": 150,
+ "cwb_family_example_42000": {
+  "credit": 1108.85,
+  "phase_in": 10530.0,
+  "reduction": 1704.15
+ },
+ "cwb_single_dtc_35000": null,
+ "cwb_dis_single_40000": 504.0,
+ "cwb_dis_check": 0.15,
+ "ccb_checks": {
+  "martha_45000": {
+   "afni": 45000,
+   "max": 8157,
+   "reduction": 473.41,
+   "annual": 7683.59,
+   "monthly": 640.3
+  },
+  "martha_100000": {
+   "afni": 100000,
+   "max": 8157,
+   "reduction": 3671.9,
+   "annual": 4485.1,
+   "monthly": 373.76
+  },
+  "fatima_60000": {
+   "afni": 60000,
+   "max": 16314,
+   "reduction": 2938.01,
+   "annual": 13375.99,
+   "monthly": 1114.67
+  },
+  "fatima_125000": {
+   "afni": 125000,
+   "max": 16314,
+   "reduction": 8424.72,
+   "annual": 7889.28,
+   "monthly": 657.44
+  },
+  "julie_50000": {
+   "afni": 50000,
+   "max": 20649,
+   "reduction": 2234.97,
+   "annual": 18414.03,
+   "monthly": 1534.5
+  },
+  "julie_150000": {
+   "afni": 150000,
+   "max": 20649,
+   "reduction": 13848.24,
+   "annual": 6800.76,
+   "monthly": 566.73
+  },
+  "kira_45000": {
+   "afni": 45000,
+   "max": 27532,
+   "reduction": 1555.49,
+   "annual": 25976.51,
+   "monthly": 2164.71
+  },
+  "kira_200000": {
+   "afni": 200000,
+   "max": 27532,
+   "reduction": 21389.54,
+   "annual": 6142.47,
+   "monthly": 511.87
+  }
+ },
+ "ccb_continuity": {
+  "band1_at_T2_1": 3122.7,
+  "fixed1": 3123,
+  "band2_at_T2": 6022.35,
+  "fixed2": 6022,
+  "band3": 8475.9,
+  "fixed3": 8476,
+  "band4": 10260.3,
+  "fixed4": 10260
+ },
+ "ccb_two_kids": {
+  "50000": {
+   "afni": 50000,
+   "max": 15040,
+   "reduction": 1588.01,
+   "annual": 13451.99,
+   "monthly": 1121.0
+  },
+  "55000": {
+   "afni": 55000,
+   "max": 15040,
+   "reduction": 2263.01,
+   "annual": 12776.99,
+   "monthly": 1064.75
+  },
+  "60000": {
+   "afni": 60000,
+   "max": 15040,
+   "reduction": 2938.01,
+   "annual": 12101.99,
+   "monthly": 1008.5
+  },
+  "65000": {
+   "afni": 65000,
+   "max": 15040,
+   "reduction": 3613.01,
+   "annual": 11426.99,
+   "monthly": 952.25
+  },
+  "70000": {
+   "afni": 70000,
+   "max": 15040,
+   "reduction": 4288.01,
+   "annual": 10751.99,
+   "monthly": 896.0
+  },
+  "82847": {
+   "afni": 82847,
+   "max": 15040,
+   "reduction": 6022.35,
+   "annual": 9017.65,
+   "monthly": 751.47
+  },
+  "90000": {
+   "afni": 90000,
+   "max": 15040,
+   "reduction": 6429.72,
+   "annual": 8610.28,
+   "monthly": 717.52
+  }
+ },
+ "ccb_one_under6": {
+  "38237": {
+   "afni": 38237,
+   "max": 8157,
+   "reduction": 0.0,
+   "annual": 8157.0,
+   "monthly": 679.75
+  },
+  "45000": {
+   "afni": 45000,
+   "max": 8157,
+   "reduction": 473.41,
+   "annual": 7683.59,
+   "monthly": 640.3
+  },
+  "60000": {
+   "afni": 60000,
+   "max": 8157,
+   "reduction": 1523.41,
+   "annual": 6633.59,
+   "monthly": 552.8
+  },
+  "82847": {
+   "afni": 82847,
+   "max": 8157,
+   "reduction": 3122.7,
+   "annual": 5034.3,
+   "monthly": 419.52
+  },
+  "100000": {
+   "afni": 100000,
+   "max": 8157,
+   "reduction": 3671.9,
+   "annual": 4485.1,
+   "monthly": 373.76
+  }
+ },
+ "ccb_turn6_drop": {
+  "annual": 1274,
+  "monthly": 106.17
+ },
+ "ccb_per_1000": {
+  "1": 70,
+  "2": 135,
+  "3": 190,
+  "4": 230
+ },
+ "ccb_per_1000_over": {
+  "1": 32.0,
+  "2": 57.0,
+  "3": 80.0,
+  "4": 95.0
+ },
+ "ccb_increase": {
+  "under6": 160,
+  "over6": 135
+ },
+ "ccb_half_custody_under6": 4078.5,
+ "ccb_240_lump": 240
+}
