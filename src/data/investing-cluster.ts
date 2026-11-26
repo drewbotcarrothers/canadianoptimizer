@@ -729,7 +729,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     `<div class="container">
 
     <div class="hook">
-        The best ETF for a TFSA in 2026 is the <span class="highlight">Canadian-listed fund that matches a mix you will still hold</span>, bought with room you have confirmed. The TFSA dollar limit is $7,000 (CRA). US dividend withholding inside a TFSA is not recoverable. A high-yield US payer is the expensive version of that mistake. A broad equity ETF with a small dividend is usually fine.
+        The best ETF for a TFSA in Canada in 2026 is the <span class="highlight">Canadian-listed fund that matches a mix you will still hold</span>, bought with room you have confirmed. The 2026 TFSA dollar limit is $7,000 (CRA). US dividend withholding inside a TFSA is never recoverable, and on an S&amp;P 500 fund it can cost more each year than the fund's own fee. A broad equity ETF with a small dividend is still usually fine. A high-yield US payer is the expensive version of the mistake.
     </div>
 
     <p>This page sits under the <a href="/blog/how-to-invest-canada-guide/">how to invest in Canada</a> hub. The January funding rules, including the in-kind loss trap, are the <a href="/blog/tfsa-contribution-optimization/">TFSA contribution guide</a>. The account, as distinct from the product, is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. Nothing here is a ranked buy list or a referral.</p>
@@ -740,7 +740,8 @@ const investingClusterPostsRaw: InvestingPost[] = [
             <li>Confirm room before you contribute. The 2026 dollar limit is $7,000. Unused room and last year's withdrawals add to it. This year's contributions subtract.</li>
             <li>If you will not rebalance, one asset-allocation ETF is the whole TFSA. XEQT and VEQT are the all-equity examples. XGRO and VGRO are the versions with bonds.</li>
             <li>The treaty exemption for US dividends does not apply to a TFSA. Article XXI covers pension arrangements. A TFSA is not one.</li>
-            <li>VFV's published 12-month yield was 0.84% as of 31 August 2026. Fifteen percent of a small dividend is a small leak. It is still gone.</li>
+            <li>VFV's 12-month trailing yield was 0.86% as of 31 October 2026. In 2025, for every $1 VFV paid out, about 19 cents had already gone to US withholding tax (Vanguard's 2025 distribution history). In a TFSA that tax is gone.</li>
+            <li>Example: on $50,000 of VFV, the 0.08% MER is about $40 a year. The US tax a TFSA cannot recover is roughly $80 a year at today's yield. The withholding, not the fee, is the bigger cost.</li>
             <li>Do not park a near-term house down payment in an equity ETF. Horizon first, ticker second.</li>
         </ul>
     </div>
@@ -767,7 +768,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
             <tr>
                 <td>US large-cap, in Canadian dollars</td>
                 <td><a href="/blog/vfv-vs-voo-canadians/">VFV</a>, not VOO, unless you already hold USD and accept the withholding.</td>
-                <td>Vanguard says VFV invests in the US-domiciled S&amp;P 500 ETF. You avoid a 1.5% broker conversion. The MER is 0.08%.</td>
+                <td>Vanguard says VFV invests in the US-domiciled S&amp;P 500 ETF. You avoid a 1.5% broker conversion (Wealthsimple, CAD account). The MER is 0.08%.</td>
                 <td>Withholding happens inside that US fund. The RRSP trick does not apply in a TFSA anyway.</td>
             </tr>
             <tr>
@@ -785,7 +786,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026. MERs and yields are from the issuer pages linked in Sources. Welcome-bonus thinking does not belong on an ETF you will hold for years.</p>
+    <p>Table reviewed November 22, 2026. MERs and yields are from the issuer pages linked in Sources: XEQT MER 0.19% (12-month trailing yield 1.67% as of November 19, 2026), VEQT MER 0.22% (management fee 0.17%, 12-month trailing yield 1.25% as of October 31, 2026), VFV MER 0.08%. Welcome-bonus thinking does not belong on an ETF you will hold for years.</p>
 
     <h2>Why is US withholding the TFSA-specific problem?</h2>
 
@@ -793,8 +794,24 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <div class="example-box">
         <strong>Illustration: $50,000 of VFV inside a TFSA</strong>
-        <p>Vanguard lists VFV's 12-month yield at 0.84% as of 31 August 2026. On $50,000, that yield is $420 of distributions if the published yield described the year and the balance did not change. Fifteen percent of $420 is $63. That is the scale of the leak on a broad S&amp;P 500 fund, not a bill from Vanguard and not a forecast. VFV's 2025 tax table shows foreign tax paid of $0.28441 per unit on foreign income of $1.81097, about 15.7 cents per dollar of that foreign income. A US dividend stock yielding several times 0.84% multiplies the same rate. Put that payer in the RRSP if you want the treaty, or do not own it. Do not put it in the TFSA because the word "dividend" sounds like income.</p>
+        <p>Vanguard lists VFV's 12-month trailing yield at 0.86% as of 31 October 2026. On $50,000, that yield is $430 of distributions if the published yield described the year and the balance did not change. That $430 is what is left after US withholding. VFV's 2025 distribution history shows foreign withholding tax of $0.28441 per unit against foreign income of $1.81097 (about 15.7%) and a total distribution of $1.52767, so roughly 19 cents was withheld for every $1 paid out. Applied to $430, that is about $80 a year. That is the scale of the leak on a broad S&amp;P 500 fund, not a bill from Vanguard and not a forecast. A US dividend stock yielding several times 0.86% multiplies the same rate. Put that payer in the RRSP if you want the treaty, or do not own it. Do not put it in the TFSA because the word "dividend" sounds like income.</p>
     </div>
+
+    <h2 id="withholding-vs-fee">Can US withholding cost a TFSA more than the ETF fee?</h2>
+
+    <p>Yes, on a US equity fund it can. The MER is the fee you see. The US withholding tax is taken inside the fund before the distribution reaches your TFSA, so it never shows up as a line on your statement. Vanguard's 2025 distribution history for VFV lists foreign income of $1.81097 per unit and foreign withholding tax of $0.28441 per unit, against a total distribution of $1.52767. That is about 15.7% of the foreign income, or roughly 19 cents withheld for every $1 that was paid out.</p>
+
+    <div class="table-wrapper"><table>
+        <caption>Example: what $50,000 of an S&amp;P 500 ETF costs a TFSA each year (reviewed November 22, 2026)</caption>
+        <thead><tr><th>Cost</th><th>How it is worked out</th><th>About per year</th></tr></thead>
+        <tbody>
+            <tr><td>VFV management expense ratio</td><td>0.08% x $50,000</td><td>$40</td></tr>
+            <tr class="highlight-row"><td>US withholding a TFSA cannot recover (estimate)</td><td>0.86% trailing yield x $50,000 = $430 paid out; x 0.186 withheld per $1 paid (2025 ratio)</td><td>$80</td></tr>
+            <tr><td>Buying US-listed VOO with Canadian dollars instead</td><td>1.5% conversion on a $7,000 contribution (Wealthsimple CAD account)</td><td>$105 each time you convert</td></tr>
+        </tbody>
+    </table></div>
+
+    <p>This is an illustration, not a forecast. The withholding line is an estimate: it applies the 2025 withholding-to-payout ratio to the yield Vanguard published for the 12 months to October 31, 2026, and actual dividends change. The decision rule does not change with the decimals. In a TFSA, the lost US tax on an S&amp;P 500 fund is roughly double VFV's fee, so switching tickers to save a few basis points of MER does not fix it. What moves the number is which account holds the US dividends. An RRSP can hold a US-listed fund directly and use the treaty's pension exemption. A TFSA cannot. If you hold US-listed ETFs in a USD account, Wealthsimple's published conversion fee steps down with size: 1.5% under $10,000, 1.0% from $10,000 to $24,999.99, 0.5% from $25,000 to $99,999.99 and 0% at $100,000 or more. Questrade lets you hold US dollars directly in registered accounts.</p>
 
     <h2>What does the $7,000 actually cost in fees?</h2>
 
@@ -807,7 +824,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <ul>
         <li><strong>A second global ETF on top of an all-in-one.</strong> That is the same companies twice. The <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one versus DIY</a> page is the stop rule.</li>
-        <li><strong>US-listed VOO, unless the USD is already there.</strong> Wealthsimple and Questrade both list a 1.5% conversion. On $7,000 that is $105, which swamps a year of MER. The broker comparison is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>.</li>
+        <li><strong>US-listed VOO, unless the USD is already there.</strong> Wealthsimple lists a 1.5% conversion each time you trade a US-listed ETF from a Canadian-dollar account. On $7,000 that is $105, which swamps a year of MER. The broker comparison is <a href="/blog/wealthsimple-vs-questrade/">Wealthsimple versus Questrade</a>.</li>
         <li><strong>A covered-call ETF bought for the yield.</strong> The cash can be return of capital. The cap can cut the recovery. Read the facts sheet. This page will not quote a covered-call yield as income.</li>
         <li><strong>Anything you will need for a house on a dated timeline.</strong> The <a href="/blog/fhsa-guide/">FHSA guide</a> is about that date. An equity TFSA is the wrong parking spot.</li>
     </ul>
@@ -816,6 +833,12 @@ const investingClusterPostsRaw: InvestingPost[] = [
 
     <h3>What is the best ETF for a TFSA in 2026?</h3>
     <p>One Canadian-listed asset-allocation ETF that matches your mix, if you will not rebalance. Use an all-equity fund only if you can hold it through a large decline. Use a growth or balanced fund if the sentence you wrote down includes bonds. There is no single ticker that is best for every horizon. Confirm the MER on the facts sheet the day you buy.</p>
+
+    <h3>What is the 2027 TFSA limit?</h3>
+    <p>The CRA had not announced the 2027 TFSA dollar limit as of November 22, 2026. Its limits table ends at $7,000 for 2026. The limit is the original $5,000 indexed to inflation and rounded to the nearest $500, so do not plan a January deposit on a projected number. Someone who was 18 or older and resident in Canada every year since 2009 has $109,000 of cumulative dollar limits through 2026. Your own room also depends on past contributions and withdrawals. Check CRA My Account.</p>
+
+    <h3>Does US withholding cost more than the MER in a TFSA?</h3>
+    <p>For an S&amp;P 500 fund like VFV, it can. In the example above, the 0.08% MER on $50,000 is about $40 a year, while the US tax a TFSA cannot recover is roughly $80 at the October 2026 yield. Higher-yield US funds widen that gap.</p>
 
     <h3>Should VOO go in a TFSA?</h3>
     <p>Usually no. You pay the broker to convert currency, and US withholding on the dividend is not creditable in a TFSA. VFV is the Canadian-listed version. It still holds the US fund, so withholding still happens, but you skip the 1.5% conversion. If the RRSP has room and you want the treaty exemption, the US-listed fund belongs there, held directly, not in the TFSA.</p>
@@ -851,7 +874,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <h2 id="household-checklist-refresh">Household checklist after this refresh</h2>
     <ul class="checklist">
         <li>Written mix or fund choice still matches your sentence</li>
-        <li>Fee or fact sheet PDF saved with October 24, 2026 in the filename</li>
+        <li>Fee or fact sheet PDF saved with November 22, 2026 in the filename</li>
         <li>Next contribution date on the calendar</li>
         <li>Spouse or partner can explain the plan in one minute</li>
         <li>No duplicate global equity ETFs stacked on an all-in-one</li>
@@ -864,7 +887,13 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html">CRA: 2026 TFSA dollar limit</a></li>
         <li><a href="https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/united-states-america-convention-consolidated-1980-1983-1984-1995-1997-2007.html">Canada-US tax convention, Articles X and XXI</a></li>
         <li><a href="https://www.irs.gov/instructions/iw8ben">IRS: Form W-8BEN instructions (30% statutory rate)</a></li>
-        <li><a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf">Vanguard VFV</a></li>
+        <li><a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf">Vanguard VFV</a> (MER and 12-month trailing yield, reviewed November 22, 2026)</li>
+        <li><a href="https://www.vanguard.ca/content/dam/intl/americas/canada/en/documents/Distribution-history-en-2025.pdf">Vanguard: 2025 distribution history for Canada-domiciled ETFs (VFV foreign withholding tax per unit)</a></li>
+        <li><a href="https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio">Vanguard VEQT</a></li>
+        <li><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio">iShares XEQT product page</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: TFSA dollar limits table, 2009 to 2026</a></li>
+        <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing (foreign exchange fees)</a></li>
+        <li><a href="https://www.questrade.com/pricing/self-directed-investing/fees">Questrade fees (USD in registered accounts)</a></li>
         <li><a href="https://www.blackrock.com/ca/investors/en/literature/fact-sheet/xeqt-ishares-core-equity-etf-portfolio-fund-fact-sheet-en-ca.pdf">iShares XEQT fact sheet</a></li>
     </ul>
 
@@ -874,7 +903,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer('September 27, 2026')}
+    ${footer('September 27, 2026', 'November 2026', 'November 22, 2026')}
 
 </div>`
   ),
@@ -2240,7 +2269,7 @@ export const INVESTING_SUBCATEGORY: Record<string, string> = {
 
 const REFRESHED_UPDATED: Record<string, string> = {
   'xeqt-vs-veqt-canada': '2026-10-24',
-  'best-etfs-tfsa-canada': '2026-10-24',
+  'best-etfs-tfsa-canada': '2026-11-22',
   'best-robo-advisors-canada': '2026-11-01',
 };
 
