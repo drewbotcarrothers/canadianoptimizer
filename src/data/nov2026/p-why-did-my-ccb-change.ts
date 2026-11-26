@@ -147,7 +147,6 @@ const content = `<div class="container">
         <li><a href="${CCB}/how-much.html">Canada Revenue Agency: Canada child benefit, how much you can get</a>, reviewed November 26, 2026</li>
         <li><a href="${CCB}/get-payments.html">Canada Revenue Agency: Canada child benefit, keep getting your payments</a>, reviewed November 26, 2026</li>
         <li><a href="${CCB}/payment-dates.html">Canada Revenue Agency: Canada child benefit, payment dates</a>, reviewed November 26, 2026</li>
-        <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-we-calculate-your-ccb.html">Canada Revenue Agency: Canada child benefit, how we calculate your CCB</a>, reviewed November 26, 2026</li>
         <li><a href="${ESDC}">Employment and Social Development Canada: Canada Child Benefit payments increasing in 2026-2027</a>, July 20, 2026, reviewed November 26, 2026</li>
     </ul>
 

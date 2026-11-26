@@ -1,7 +1,7 @@
 | Post | Family | Words | Verdict | Fails |
 |---|---|---|---|---|
-| `cra-my-account-guide` | how-to | 2285 | PASS (manual items open) | — |
-| `change-tax-return-refile-t1-adj` | how-to | 2136 | PASS (manual items open) | — |
+| `cra-my-account-guide` | how-to | 2287 | PASS (manual items open) | — |
+| `change-tax-return-refile-t1-adj` | how-to | 2139 | PASS (manual items open) | — |
 | `canada-workers-benefit-guide` | core | 2741 | PASS (manual items open) | — |
 | `why-did-my-ccb-change` | qa | 2492 | PASS (manual items open) | — |
 
@@ -26,11 +26,11 @@
 | 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
 | 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 26, 2026 \| Category: Taxes \| Author: Andrew" |
 | 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
-| 18 | Length ≥ 1500 words (how-to) | PASS | 2285 words before Sources |
+| 18 | Length ≥ 1500 words (how-to) | PASS | 2287 words before Sources |
 | 19 | en-CA, date guard, live ebook | PASS | end CTA: tax-guide |
 | 20 | Pilot gate | N/A | family how-to |
-| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26 |
-| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed |
 
 ### How to Change Your Tax Return: Change My Return, ReFILE or T1-ADJ (`change-tax-return-refile-t1-adj`, 2026-11-26)
 
@@ -53,11 +53,11 @@
 | 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
 | 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 26, 2026 \| Category: Taxes \| Author: Andrew" |
 | 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
-| 18 | Length ≥ 1500 words (how-to) | PASS | 2136 words before Sources |
+| 18 | Length ≥ 1500 words (how-to) | PASS | 2139 words before Sources |
 | 19 | en-CA, date guard, live ebook | PASS | end CTA: tax-guide |
 | 20 | Pilot gate | N/A | family how-to |
-| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26 |
-| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed |
 
 ### Canada Workers Benefit: Who Qualifies and How Much You Can Get (`canada-workers-benefit-guide`, 2026-11-26)
 
@@ -83,8 +83,8 @@
 | 18 | Length ≥ 2000 words (core) | PASS | 2741 words before Sources |
 | 19 | en-CA, date guard, live ebook | PASS | end CTA: government-benefits-guide |
 | 20 | Pilot gate | N/A | family core |
-| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26 |
-| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed |
 
 ### Why Did My CCB Change? The July Reset and Other Causes (`why-did-my-ccb-change`, 2026-11-26)
 
@@ -92,7 +92,7 @@
 |---|---|---|---|
 | 1 | Information gain visible | PASS | "What this page adds: a diagnostic table that matches what you see in the deposit to the CR…" |
 | 2 | Answer first | PASS | answer 53 words; 0 question H2s not opened by a paragraph |
-| 3 | Figures sourced and re-verified | PASS | {"numbers":110,"rows":108,"missing":0,"sourced":58,"example":14,"derived":36,"unclassified":0,"sources":5};  |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":110,"rows":108,"missing":0,"sourced":58,"example":14,"derived":36,"unclassified":0,"sources":4};  |
 | 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
 | 5 | Not a clone (5-gram overlap < 30%) | PASS | closest canada-government-benefits-guide 1.7% |
 | 6 | Evidence-first money page | N/A | family qa |
@@ -110,5 +110,5 @@
 | 18 | Length ≥ 1200 words (qa) | PASS | 2492 words before Sources |
 | 19 | en-CA, date guard, live ebook | PASS | end CTA: government-benefits-guide |
 | 20 | Pilot gate | N/A | family qa |
-| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26 |
-| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor (drafter, self-check; separate checker must re-run) 2026-11-26 no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post) 2026-11-26 no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed |

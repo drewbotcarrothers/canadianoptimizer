@@ -1,0 +1,47 @@
+chg,chg_tip,t1adj,noanor	2 weeks
+chg,chg_tip,t1adj,noanor	20 weeks
+chg,chg_tip,t1adj	49 weeks
+chg_tip	eight.week|8.week
+chg_tip	more than half
+chg_tip	case number
+chg_tip	May 12, 2026
+chg_tip	single request|all changes in one|all of your changes
+chg	notice of assessment
+chg	already submitted a request for changes, wait until
+chg	T4 slip
+chg	tips
+chg	childcare
+chg	medical
+chg	RRSP contribution receipt
+chg	election
+chg	allocate
+chg	direct deposit
+chg	marital status
+chg	level 2
+chg	NETFILE
+chg	EFILE
+chg	3 am to 6 am
+chg	February 2
+chg	2016 to 2025|2016 to 2024
+chg	2015 or earlier
+chg	Voluntary Disclosures
+chg	one year past|at least one year
+chg,chg_tip	status displayed in your CRA account
+chg,chg_tip	applied retroactively
+chg	Change my return
+chg	Representative
+chg	confirmation number|confirmation
+chg	international|non-resident
+chg,chg_tip	information in your account is the most current
+t1adj	webform|web form
+chg,t1adj	supporting documents
+t1adj	daytime|telephone
+t1adj	20 weeks
+noanor	90 days
+objtree	one year after
+objtree	90 days
+objtree	April 30
+objtree	June 15
+objtree	extension
+objtree	wait for|faster
+proctimes	processing times

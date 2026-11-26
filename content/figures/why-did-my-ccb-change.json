@@ -1658,15 +1658,15 @@
       "value": "50%",
       "context": "With shared custody, each parent gets 50% of what they would get with full custody, and each amount is calculated on that parent's own adjusted family net income.",
       "kind": "sourced",
-      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview/canada-child-benefit-we-calculate-your-ccb.html",
-      "sourceName": "Canada Revenue Agency: Canada child benefit, how we calculate your CCB",
+      "sourceUrl": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html",
+      "sourceName": "Canada Revenue Agency: Canada child benefit, how much you can get",
       "asOf": "2026-11-26",
       "derivedFrom": [],
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-26",
-        "verifier": "Grok Bot executor, WRITER-stage check run 2026-11-26 (qa/figs/2026-11-26/sourced.py and recheck.py); same agent as the drafter, so the separate checker must re-verify",
-        "note": "needle found on page fetched 2026-11-26 (ccb_calc)"
+        "verifier": "Checker2 (fresh source checker, 2026-11-26) re-pointed source from stale legacy page to current page; writer-stage verifier text superseded",
+        "note": "needle found on current how-much page fetched 2026-11-26 (ccb_much); legacy how-we-calculate page replaced because it still shows July 2025-June 2026 figures"
       },
       "needle": "will get 50% of what they would have gotten"
     },

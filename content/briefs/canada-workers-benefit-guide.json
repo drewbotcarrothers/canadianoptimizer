@@ -19,15 +19,15 @@
   "agentChecks": {
     "2a": {
       "pass": true,
-      "by": "Grok Bot executor (drafter, self-check; separate checker must re-run)",
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
       "on": "2026-11-26",
-      "note": "each question H2/H3 opens with the answer in its first sentence; read in full 2026-11-26"
+      "note": "read in full 2026-11-26; each question H2/H3 and FAQ opens with the answer in its first sentence"
     },
     "4a": {
       "pass": true,
-      "by": "Grok Bot executor (drafter, self-check; separate checker must re-run)",
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-26 (qa/figs/2026-11-26/checker2; did not draft this post)",
       "on": "2026-11-26",
-      "note": "no quotes, no experience claims; first-person 'I' occurs only in reader-voice FAQ questions; illustrations labelled as examples"
+      "note": "no quotes or experience claims; first-person I only in reader-voice FAQ questions; named people (Dana, Priya, Marcus, Nina and Tom) are labelled examples; every number traced to a fetched official page or recomputed"
     },
     "6a": {
       "pass": null,

@@ -1,0 +1,11 @@
+mm_ccb=https://makemoneyoptimizer.com/side-hustles/side-hustle-income-ccb-canada/
+so_ccb=https://savingoptimizer.com/guides/articles/canada-child-benefit-2026-27-amounts.html
+so_cdb=https://savingoptimizer.com/guides/articles/child-disability-benefit-dtc-kids-canada.html
+so_cramyacct=https://savingoptimizer.com/guides/articles/setup-cra-my-account-canada.html
+so_elig=https://savingoptimizer.com/guides/articles/eligible-dependant-credit-single-parent-canada.html
+so_gstcredit=https://savingoptimizer.com/guides/articles/gst-hst-credit-2026-27-payment-dates-amounts.html
+so_marital=https://savingoptimizer.com/guides/articles/cra-marital-status-after-wedding-benefits-canada.html
+so_prov=https://savingoptimizer.com/guides/articles/provincial-child-benefits-paid-with-ccb.html
+so_rrspccb=https://savingoptimizer.com/guides/articles/rrsp-raise-canada-child-benefit-afni.html
+so_shared=https://savingoptimizer.com/guides/articles/shared-custody-canada-child-benefit-split.html
+so_taxcredmid=https://savingoptimizer.com/guides/articles/tax-credits-middle-aged-households-canada.html

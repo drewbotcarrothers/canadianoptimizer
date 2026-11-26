@@ -97,7 +97,7 @@ const content = `<div class="container">
 
     <h2 id="wait">How long does a change take, really?</h2>
     <p>Listed times are 2 weeks online and 20 weeks by mail, but read them as a range and not a promise. The CRA's tip says requests needing additional review may take up to 49 weeks, and requests involving international or non-resident returns, including emigrant returns, may also take longer. Processing times assume all required information is provided upfront.</p>
-    <p>The CRA publishes different numbers on different pages. The change-your-return page and the T1-ADJ form page both list 20 weeks for mail, while the May 12 tip describes mailed requests as being handled within an eight-week service standard. Use the CRA's <a href="${TIMES}">Check CRA processing times</a> tool and the progress tracker in your CRA account for the current figure, and do not call: the CRA says the status in your account is the most current and its agents have no more information.</p>
+    <p>The CRA publishes different numbers on different pages. The change-your-return page and the T1-ADJ form page both list 20 weeks for mail, while the May 12 tip describes mailed requests as being handled within an eight-week service standard. Use the CRA's <a href="${TIMES}">Check CRA processing times</a> tool and the status shown in your CRA account for the current figure, and do not call: the CRA says the status in your account is the most current and its agents have no more information.</p>
     <div class="example-box">
         <div class="example-title">Illustration: Marcus finds a receipt</div>
         <p>Marcus (a labelled example) filed in the spring and received his notice of assessment. In November he finds a missing RRSP contribution receipt that would add a refund of $600. That $600 is an assumed round figure for the illustration, not a calculation. On the CRA's listed times, an online request takes 2 weeks and a mailed T1-ADJ takes 20 weeks, a difference of 18 weeks. If the CRA asked for documents online, the receipt would be sent through his CRA account with the case number. By mail it would have gone in the envelope on day one.</p>
@@ -127,7 +127,7 @@ const content = `<div class="container">
         <li>List every correction and put them in one request.</li>
         <li>Choose Change my return, ReFILE or T1-ADJ using the table above.</li>
         <li>Keep supporting documents ready in case the CRA gives you a case number.</li>
-        <li>Check your progress tracker instead of calling.</li>
+        <li>Check the status in your CRA account instead of calling.</li>
     </ul>
 
     <h2 id="objection">Is this a change request or an objection?</h2>

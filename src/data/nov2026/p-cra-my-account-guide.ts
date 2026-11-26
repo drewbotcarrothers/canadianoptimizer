@@ -123,7 +123,7 @@ const content = `<div class="container">
                 <tr><td>November to January</td><td>Confirm your address, marital status and phone number, and set correspondence to electronic mail</td><td>Wrong details stop letters and benefit payments</td></tr>
                 <tr class="highlight-row"><td>Before you file</td><td>Look at your RRSP deduction limit and TFSA room</td><td>Contribution deadlines are not flexible; see <a href="/blog/rrsp-deadline-first-60-days/">the RRSP deadline guide</a></td></tr>
                 <tr><td>When you file</td><td>Use Auto-fill My Return or a pre-filled return if you qualify</td><td>It pulls slips straight from the CRA and cuts typing errors</td></tr>
-                <tr><td>After you file</td><td>Track the return in the progress tracker and read your notice of assessment</td><td>The notice shows your refund or balance and your new limits</td></tr>
+                <tr><td>After you file</td><td>Check the status of the return in your account and read your notice of assessment</td><td>The notice shows your refund or balance and your new limits</td></tr>
                 <tr><td>Each month</td><td>Watch your benefit and credit payments and any new mail</td><td>A missing payment is easiest to explain from the account</td></tr>
             </tbody>
         </table>

@@ -1,0 +1,18 @@
+cwb_s6	Rate\s+.\s+27%\s+19
+cwb_s6	Rate\s+.\s+15%\s+26
+cwb_s6	3,000\.00\s+17
+cwb_s6	working income on line 5 \(column 1\) must be more than \$1,150
+cwb_s6	family working income on line 6 is more than \$3,000
+cwb_s6	\(maximum \$16,386\)
+cwb_s6	enter 7\.5%\. If not, enter 15%
+cwb_s6	Rate\s+.\s+27%\s+32
+cwb_s6	1,150\.00\s+30
+cwb_s6	enter \$2,813
+cwb_s6	enter \$1,633
+cwb_s6	enter \$30,639
+cwb_s6	enter \$26,855
+cwb_s6	enter \$49,389
+cwb_s6	enter \$37,740
+cwb_s6	\$843
+cwb_s6	\$37,742\s+\$43,360
+cwb_s6	\$49,393\s+\$55,009\s+\$60,629
