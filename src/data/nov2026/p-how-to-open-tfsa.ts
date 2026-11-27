@@ -1,6 +1,8 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-22';
+const UPDATED = '2026-11-27';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const LIMITS = 'https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html';
 const WS_ELIG = 'https://help.wealthsimple.com/hc/en-ca/articles/4404721755287-Eligibility-requirements-to-open-an-account-with-Wealthsimple';
@@ -166,7 +168,7 @@ const content = `<div class="container">
         </table>
     </div>
     <p>Two cases need care. A newcomer counts from the year they became a resident, and the CRA's own example is a 40-year-old who arrived in 2024, assumed room back to 2009, and created an $88,000 excess. And anyone who was a non-resident for a whole year gets no limit for that year. If either applies, rebuild your room year by year rather than reading the table.</p>
-    <p>The 2027 limit was not yet on the CRA's <a href="${LIMITS}">limits table</a> on November 22, 2026. When it is published it is added to everyone's room on January 1, 2027.</p>
+    <p>On January 1, 2027 the CRA's <a href="${INDEXATION}">indexation adjustment page</a> adds a $7,500 dollar limit. The page, reviewed November 27, 2026, lists $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. The 2027 indexation increase is 2.6%. Footnote 5 says the annual limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Add $7,500 to any total in the table above for room on January 1, 2027 if you are still eligible and still have not contributed. The 2009 row becomes $116,500. The 2026 row becomes $14,500. A person who first becomes eligible in 2027 has $7,500.</p>
 
     <div class="warning-box">
         <strong>Do not trust the first number you see.</strong> The CRA account shows TFSA room as of its last annual update. If you contributed anywhere last year, the January figure can be too high, and the 1%-a-month tax applies to any excess from the first dollar. Our <a href="/blog/tfsa-overcontribution-penalty/">over-contribution penalty</a> guide shows the cost.
@@ -202,6 +204,7 @@ const content = `<div class="container">
         <li><a href="${TFSA}/opening.html">CRA: Opening a TFSA</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/what.html">CRA: What is a TFSA (types of TFSAs)</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits, new residents)</a>, reviewed November 22, 2026</li>
+        <li><a href="${INDEXATION}">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500. Footnote 5.</li>
         <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/death-of-holder/what-happens.html">CRA: What happens when a TFSA holder is deceased (successor holders, beneficiaries)</a>, reviewed November 22, 2026</li>
@@ -230,11 +233,12 @@ const content = `<div class="container">
         <a href="/ebooks/investing-guide/" class="cta-button">See the Canadian Investing Guide</a>
     </div>
 
-    ${batchFooter(D, 'Investing', disclaimer)}
+    ${batchFooter(D, 'Investing', disclaimer, UPDATED)}
 
 </div>`;
 
-export const howToOpenTfsaPost = batchPost({
+export const howToOpenTfsaPost = {
+  ...batchPost({
   date: D,
   category: 'Investing',
   categorySlug: 'investing',
@@ -244,4 +248,6 @@ export const howToOpenTfsaPost = batchPost({
   excerpt:
     'Who can open a TFSA, what Questrade, Wealthsimple, EQ Bank and TD ask for, the steps to apply, and how much room you already have by the year you turned 18.',
   content,
-});
+}),
+  updated: UPDATED,
+};

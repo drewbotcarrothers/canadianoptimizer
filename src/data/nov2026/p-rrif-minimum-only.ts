@@ -1,6 +1,7 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-17';
+const UPDATED = '2026-11-27';
 
 const disclaimer = `General education, not tax, legal or financial advice. Rules, rates and thresholds were checked against the CRA and Canada.ca pages listed under Sources on November 14, 2026. The $500,000 RRIF, the 3% and 1% real returns, the $12,000, $52,000 and $70,000 other-income levels, the death ages and the single-person household are illustrations, not forecasts or your assessment. The model uses federal tax only, constant 2026 dollars and a single taxpayer, and leaves out provincial tax and indexation. Confirm the current CRA pages and talk to a financial planner or tax professional about your own RRIF.`;
 
@@ -80,7 +81,7 @@ const content = `<div class="container">
         </table>
     </div>
 
-    <p>To compare fairly, both paths must support the same lifestyle. We fix spending at what the minimum-only path leaves after tax each year. Any extra after-tax cash from the level path goes into a Tax-Free Savings Account (TFSA) that earns the same 3% real return, and a shortfall comes out of it. The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table</a>. TFSA room already used elsewhere would change that.</p>
+    <p>To compare fairly, both paths must support the same lifestyle. We fix spending at what the minimum-only path leaves after tax each year. Any extra after-tax cash from the level path goes into a Tax-Free Savings Account (TFSA) that earns the same 3% real return, and a shortfall comes out of it. The largest yearly top-up in any of the 3% runs is $3,652, which fits within the $7,000 2026 annual TFSA dollar limit and within the $7,500 2027 limit on the <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA indexation table</a>. TFSA room already used elsewhere would change that.</p>
 
     <h2 id="year-by-year">What does each path look like year by year?</h2>
     <p>With $12,000 of other income, the minimum-only path draws about $26,400 at 71 and about $24,837 at 90, while the level path draws $28,714 every year. Federal income tax stays between $2,704 and $3,328 a year on both paths, because the income never leaves the 14% bracket.</p>
@@ -239,11 +240,12 @@ const content = `<div class="container">
         <a href="/ebooks/retirement-guide/" class="cta-button">See the Retirement Guide</a>
     </div>
 
-    ${batchFooter(D, 'Retirement', disclaimer)}
+    ${batchFooter(D, 'Retirement', disclaimer, UPDATED)}
 
 </div>`;
 
-export const rrifMinimumOnlyPost = batchPost({
+export const rrifMinimumOnlyPost = {
+  ...batchPost({
   date: D,
   category: 'Retirement',
   categorySlug: 'retirement',
@@ -253,4 +255,6 @@ export const rrifMinimumOnlyPost = batchPost({
   excerpt:
     "Taking only the RRIF minimum is not always a mistake. On $500,000 from age 71, level withdrawals beat it by $3,596 to $7,460 at 90 unless other income is high.",
   content,
-});
+}),
+  updated: UPDATED,
+};

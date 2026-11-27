@@ -34,9 +34,10 @@ export function longDate(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 }
 
-export function batchFooter(iso: string, category: string, disclaimer: string): string {
+export function batchFooter(iso: string, category: string, disclaimer: string, updatedIso?: string): string {
+  const updated = updatedIso && updatedIso !== iso ? ` | Updated: ${longDate(updatedIso)}` : '';
   return `<div class="article-footer">
         <p><strong>Disclaimer:</strong> ${disclaimer}</p>
-        <div class="footer-note">Published: ${longDate(iso)} | Category: ${category} | Author: Andrew</div>
+        <div class="footer-note">Published: ${longDate(iso)}${updated} | Category: ${category} | Author: Andrew</div>
     </div>`;
 }

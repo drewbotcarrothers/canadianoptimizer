@@ -332,7 +332,7 @@ export const retirementClusterPosts: RetirementPost[] = [
         <li><strong>Pension income amount.</strong> RRIF income at 65 or older, on line 11500, can qualify for the federal pension income amount on <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html">line 31400</a>, up to <strong>$2,000</strong>.</li>
         <li><strong>Pension income splitting.</strong> At 65 or older, up to half of eligible pension income, including RRIF payments, can be allocated to a spouse with Form <span class="form-ref">T1032</span>. See <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html">CRA’s pension income splitting page</a> and the <a href="/blog/pension-income-splitting-canada/">splitting guide</a>.</li>
         <li><strong>OAS recovery tax.</strong> For 2026 income it is <strong>15%</strong> of net income above <strong>$95,323</strong>, recovered from July 2027 to June 2028. See the <a href="https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/recovery-tax.html">OAS recovery tax</a> page and the <a href="/blog/oas-gis-clawback-canada/">OAS and GIS clawback guide</a>.</li>
-        <li><strong>TFSA.</strong> The 2026 TFSA dollar limit is <strong>$7,000</strong> on CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">limits table</a>. An after-tax minimum you do not need can go into a TFSA if you have room.</li>
+        <li><strong>TFSA.</strong> The 2026 TFSA dollar limit is <strong>$7,000</strong>. The 2027 dollar limit is <strong>$7,500</strong>, effective January 1, 2027, on the CRA <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation page</a>. An after-tax minimum you do not need can go into a TFSA if you have room.</li>
     </ul>
 
     <p>CRA says mutual-fund redemption fees are expenses of the RRIF and are not part of the minimum.</p>
@@ -413,12 +413,12 @@ export const retirementClusterPosts: RetirementPost[] = [
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian retirement accounts, pensions, and estates as of October 2026. It is not tax, pension, annuity, or legal advice. RRIF factors, benefit amounts, unlocking rules, and probate fees change, and they depend on the contract and the province that governs it. Figures below are tied to CRA, Canada.ca, OSFI, FSRA, or a provincial page reviewed on October 17, 2026. Dollar examples are arithmetic on those figures, not a quote of your minimum, your pension, or your estate bill. Confirm the current page, your carrier’s calculation, and your plan statement before you convert, unlock, or file.</p>
-        <div class="footer-note">Published: October 3, 2026 | Updated: October 17, 2026 | Category: Retirement | Author: Andrew</div>
+        <div class="footer-note">Published: October 3, 2026 | Updated: November 27, 2026 | Category: Retirement | Author: Andrew</div>
     </div>
 
 </div>`
     ),
-    updated: '2026-10-17',
+    updated: '2026-11-27',
     youtubeId: 'Sd5DytCG9mM',
     youtubeTitle: 'RRIF Minimum Withdrawal Table 2026: I Ran the Numbers to 95',
     youtubeUploadDate: '2026-10-19T02:23:16-04:00',

@@ -12,6 +12,7 @@ import {
   CESG_LIFETIME_MAXIMUM,
   CRA_CESG_URL,
   CRA_FHSA_PARTICIPATION_URL,
+  CRA_INDEXATION_URL,
   CRA_LIMITS_URL,
   CRA_RESP_CONTRIBUTIONS_URL,
   CRA_RRSP_DEDUCTION_URL,
@@ -25,14 +26,16 @@ import {
   RRSP_DOLLAR_LIMIT_2027,
   RRSP_DOLLAR_LIMITS,
   RRSP_EARNED_INCOME_FRACTION,
-  SOURCE_REVIEWED_ISO,
   SOURCE_REVIEWED_LABEL,
   TFSA_ANNUAL_LIMITS,
   TFSA_CUMULATIVE_SINCE_2009,
-  TFSA_LATEST_ANNUAL_LIMIT,
-  TFSA_LATEST_PUBLISHED_YEAR,
+  TFSA_CUMULATIVE_THROUGH_2026,
+  TFSA_INDEXATION_INCREASE_2027,
+  TFSA_LIMIT_2026,
+  TFSA_LIMIT_2027,
+  TFSA_LIMITS_REVIEWED_ISO,
+  TFSA_LIMITS_REVIEWED_LABEL,
 } from '@/data/registered-account-limits';
-import { NOT_YET_ANNOUNCED_CRA } from '@/data/source-review';
 import { formatDollars, formatRate } from '@/lib/money';
 import { absoluteUrl, AUTHOR_URL, breadcrumbSchema, buildPageMetadata, SITE_NAME } from '@/lib/site';
 
@@ -42,7 +45,7 @@ const TITLE = '2027 contribution limits: TFSA, RRSP, FHSA and RESP';
 export const metadata: Metadata = buildPageMetadata({
   title: TITLE,
   description:
-    '2027 TFSA, RRSP, FHSA and RESP limits from CRA and ESDC pages, with an as-of date. Unpublished 2027 figures stay blank.',
+    `The 2027 TFSA dollar limit is ${formatDollars(TFSA_LIMIT_2027)}, effective January 1, 2027. Cumulative room since 2009 is ${formatDollars(TFSA_CUMULATIVE_SINCE_2009)}. RRSP, FHSA and RESP limits from official pages.`,
   path: PATH,
 });
 
@@ -55,7 +58,7 @@ export default function ContributionLimitsPage() {
       '@type': 'WebPage',
       name: TITLE,
       url: absoluteUrl(PATH),
-      dateModified: SOURCE_REVIEWED_ISO,
+      dateModified: TFSA_LIMITS_REVIEWED_ISO,
       author: { '@type': 'Person', name: 'Andrew', url: AUTHOR_URL },
       publisher: { '@type': 'Organization', name: SITE_NAME },
     },
@@ -78,31 +81,33 @@ export default function ContributionLimitsPage() {
         />
         <p className="text-sm font-semibold uppercase tracking-wide text-canadian-red mb-3">Reference</p>
         <h1 className="text-4xl font-bold text-charcoal mb-4">{TITLE}</h1>
-        <ReferenceByline />
+        <ReferenceByline asOf={TFSA_LIMITS_REVIEWED_LABEL} />
         <p className="text-lg leading-relaxed mb-4">
-          The 2027 RRSP dollar limit is {formatDollars(RRSP_DOLLAR_LIMIT_2027)}. New RRSP room is still the lesser of that ceiling and {formatRate(RRSP_EARNED_INCOME_FRACTION)} of the previous year&apos;s earned income. The 2027 TFSA dollar limit is not on the CRA table. FHSA and RESP amounts below are the standing limits on the official pages, which are not re-announced each November. This page sits with the other tax references on the{' '}
+          The 2027 TFSA dollar limit is {formatDollars(TFSA_LIMIT_2027)}, effective January 1, 2027. The 2027 RRSP dollar limit is {formatDollars(RRSP_DOLLAR_LIMIT_2027)}. New RRSP room is still the lesser of that ceiling and {formatRate(RRSP_EARNED_INCOME_FRACTION)} of the previous year&apos;s earned income. FHSA and RESP amounts below are the standing limits on the official pages, which are not re-announced each November. This page sits with the other tax references on the{' '}
           <Link href="/category/taxes/" className="text-canadian-red font-semibold hover:underline">taxes</Link> hub.
         </p>
         <EducationNote />
 
         <h2 className="text-2xl font-bold text-charcoal mt-10 mb-3">TFSA</h2>
         <p className="bg-light-slate border-l-4 border-canadian-red px-4 py-3 font-semibold text-charcoal mb-4">
-          2027 annual dollar limit: {NOT_YET_ANNOUNCED_CRA}.
+          2027 annual dollar limit: {formatDollars(TFSA_LIMIT_2027)}, effective January 1, 2027.
         </p>
         <p className="mb-4">
-          The latest official figure is the {TFSA_LATEST_PUBLISHED_YEAR} dollar limit of {formatDollars(TFSA_LATEST_ANNUAL_LIMIT)}, on the CRA{' '}
+          The CRA{' '}
+          <a href={CRA_INDEXATION_URL} className="text-canadian-red font-semibold hover:underline">indexation adjustment for personal income tax and benefit amounts</a>{' '}
+          page, reviewed {TFSA_LIMITS_REVIEWED_LABEL}, sets the 2027 indexation increase at {TFSA_INDEXATION_INCREASE_2027} and the annual TFSA dollar limit at {formatDollars(TFSA_LIMIT_2027)}. The same row lists {formatDollars(TFSA_LIMIT_2026)} for 2026, 2025, and 2024. Footnote 5 says that for 2016 and each subsequent year the annual TFSA dollar limit is fixed at $5,000, indexed to inflation for each year after 2009, and rounded to the nearest $500. The 2009–2026 amounts in the table below are the CRA{' '}
           <a href={CRA_LIMITS_URL} className="text-canadian-red font-semibold hover:underline">MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>{' '}
-          table and on the{' '}
+          table, also described on the{' '}
           <a href={CRA_TFSA_BEFORE_URL} className="text-canadian-red font-semibold hover:underline">before you contribute</a>{' '}
-          page. Both were reviewed {SOURCE_REVIEWED_LABEL}. The limits table&apos;s TFSA column stops at {TFSA_LATEST_PUBLISHED_YEAR}.
+          page. Those two pages were reviewed {SOURCE_REVIEWED_LABEL}.
         </p>
         <p className="mb-4">
-          Cumulative room since 2009, for someone eligible in every year from 2009 through {TFSA_LATEST_PUBLISHED_YEAR} who has never contributed or withdrawn, is {formatDollars(TFSA_CUMULATIVE_SINCE_2009)}. That figure is the sum of the annual limits in the table below. It is not a balance the CRA prints as one number, and it is not your room if you were younger than 18, not a resident, or you have already contributed or withdrawn. Cumulative room that includes 2027: {NOT_YET_ANNOUNCED_CRA}.
+          Cumulative room since 2009, for someone eligible in every year from 2009 through 2027 who has never contributed or withdrawn, is {formatDollars(TFSA_CUMULATIVE_SINCE_2009)} from January 1, 2027. That figure is the sum of the annual limits in the table below ({formatDollars(TFSA_CUMULATIVE_THROUGH_2026)} through 2026, plus the {formatDollars(TFSA_LIMIT_2027)} for 2027). It is not a balance the CRA prints as one number, and it is not your room if you were younger than 18, not a resident, or you have already contributed or withdrawn.
         </p>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm border-collapse">
             <caption className="text-left font-semibold text-charcoal mb-2">
-              TFSA dollar limit by year, from the CRA limits table
+              TFSA dollar limit by year. 2009–2026: CRA limits table. 2027: CRA indexation page.
             </caption>
             <thead>
               <tr className="border-b border-gray-200 text-left">
@@ -115,7 +120,7 @@ export default function ContributionLimitsPage() {
                 <tr key={row.year} className="border-b border-gray-100">
                   <th scope="row" className="py-2 pr-3 text-left font-medium">{row.year}</th>
                   <td className="py-2">
-                    {row.limit == null ? NOT_YET_ANNOUNCED_CRA : formatDollars(row.limit)}
+                    {row.limit == null ? '—' : formatDollars(row.limit)}
                   </td>
                 </tr>
               ))}
@@ -138,7 +143,7 @@ export default function ContributionLimitsPage() {
               </span>
             );
           })}
-          . Total through {TFSA_LATEST_PUBLISHED_YEAR}: {formatDollars(TFSA_CUMULATIVE_SINCE_2009)}.
+          . Total through 2026: {formatDollars(TFSA_CUMULATIVE_THROUGH_2026)}. Total through 2027: {formatDollars(TFSA_CUMULATIVE_SINCE_2009)}.
         </p>
 
         <h2 className="text-2xl font-bold text-charcoal mt-10 mb-3">RRSP</h2>
@@ -195,6 +200,9 @@ export default function ContributionLimitsPage() {
         <h2 className="text-2xl font-bold text-charcoal mt-10 mb-3">Sources</h2>
         <ul className="list-disc pl-5 space-y-2 mb-8">
           <li>
+            <a href={CRA_INDEXATION_URL} className="text-canadian-red hover:underline">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed {TFSA_LIMITS_REVIEWED_LABEL}. 2027 indexation increase {TFSA_INDEXATION_INCREASE_2027}. Annual TFSA dollar limit {formatDollars(TFSA_LIMIT_2027)} for 2027 and {formatDollars(TFSA_LIMIT_2026)} for 2026, 2025, and 2024. Footnote 5.
+          </li>
+          <li>
             <a href={CRA_LIMITS_URL} className="text-canadian-red hover:underline">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed {SOURCE_REVIEWED_LABEL}
           </li>
           <li>
@@ -213,7 +221,7 @@ export default function ContributionLimitsPage() {
             <a href={CRA_CESG_URL} className="text-canadian-red hover:underline">Canada.ca: Canada Education Savings Grant (ESDC pays the grant)</a>, reviewed {SOURCE_REVIEWED_LABEL}
           </li>
         </ul>
-        <p className="text-sm text-gray-500">Author: Andrew. As of {SOURCE_REVIEWED_LABEL}.</p>
+        <p className="text-sm text-gray-500">Author: Andrew. As of {TFSA_LIMITS_REVIEWED_LABEL}.</p>
       </article>
     </div>
   );

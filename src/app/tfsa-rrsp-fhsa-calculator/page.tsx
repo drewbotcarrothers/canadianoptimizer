@@ -9,6 +9,7 @@ import {
   CESG_ANNUAL_BASIC_MAXIMUM,
   CRA_FHSA_PARTICIPATION_URL,
   CRA_FHSA_WITHDRAWAL_URL,
+  CRA_INDEXATION_URL,
   CRA_LIMITS_URL,
   CRA_RRSP_DEDUCTION_URL,
   FHSA_ANNUAL_LIMIT,
@@ -17,12 +18,12 @@ import {
   RESP_LIFETIME_LIMIT,
   RRSP_DOLLAR_LIMIT_2027,
   RRSP_EARNED_INCOME_FRACTION,
-  SOURCE_REVIEWED_ISO,
   SOURCE_REVIEWED_LABEL,
-  TFSA_LATEST_ANNUAL_LIMIT,
-  TFSA_LATEST_PUBLISHED_YEAR,
+  TFSA_LIMIT_2026,
+  TFSA_LIMIT_2027,
+  TFSA_LIMITS_REVIEWED_ISO,
+  TFSA_LIMITS_REVIEWED_LABEL,
 } from '@/data/registered-account-limits';
-import { NOT_YET_ANNOUNCED_CRA } from '@/data/source-review';
 import { formatDollars, formatRate } from '@/lib/money';
 import { absoluteUrl, AUTHOR_URL, breadcrumbSchema, buildPageMetadata, SITE_NAME } from '@/lib/site';
 
@@ -43,7 +44,7 @@ export default function AccountCalculatorPage() {
       '@type': 'WebPage',
       name: TITLE,
       url: absoluteUrl(PATH),
-      dateModified: SOURCE_REVIEWED_ISO,
+      dateModified: TFSA_LIMITS_REVIEWED_ISO,
       author: { '@type': 'Person', name: 'Andrew', url: AUTHOR_URL },
       publisher: { '@type': 'Organization', name: SITE_NAME },
     },
@@ -66,7 +67,7 @@ export default function AccountCalculatorPage() {
         />
         <p className="text-sm font-semibold uppercase tracking-wide text-canadian-red mb-3">Reference</p>
         <h1 className="text-4xl font-bold text-charcoal mb-4">{TITLE}</h1>
-        <ReferenceByline />
+        <ReferenceByline asOf={TFSA_LIMITS_REVIEWED_LABEL} />
         <p className="text-lg leading-relaxed mb-4">
           A pre-tax dollar in an RRSP is taxed on the way out. The same dollar in a TFSA is taxed on the way in. An FHSA qualifying withdrawal can be deductible on the way in and untaxed on the way out, inside the official limits. Type your own rates. This calculator does not look up a bracket for you. The caps are the figures on the{' '}
           <Link href="/2027-contribution-limits/" className="text-canadian-red font-semibold hover:underline">2027 contribution limits</Link> page, which is linked from the{' '}
@@ -78,7 +79,7 @@ export default function AccountCalculatorPage() {
         <div className="overflow-x-auto mb-6">
           <table className="w-full text-sm border-collapse">
             <caption className="text-left font-semibold text-charcoal mb-2">
-              Caps applied to each year of the comparison, as of {SOURCE_REVIEWED_LABEL}
+              Caps applied to each year of the comparison, as of {TFSA_LIMITS_REVIEWED_LABEL}
             </caption>
             <thead>
               <tr className="border-b border-gray-200 text-left">
@@ -91,10 +92,10 @@ export default function AccountCalculatorPage() {
               <tr className="border-b border-gray-100">
                 <th scope="row" className="py-2 pr-3 text-left">TFSA</th>
                 <td className="py-2 pr-3">
-                  {formatDollars(TFSA_LATEST_ANNUAL_LIMIT)} a year, the {TFSA_LATEST_PUBLISHED_YEAR} dollar limit. {NOT_YET_ANNOUNCED_CRA}.
+                  {formatDollars(TFSA_LIMIT_2027)} a year, the 2027 dollar limit, effective January 1, 2027. The 2026 dollar limit stays {formatDollars(TFSA_LIMIT_2026)}.
                 </td>
                 <td className="py-2">
-                  <a href={CRA_LIMITS_URL} className="text-canadian-red hover:underline">CRA limits table</a>
+                  <a href={CRA_INDEXATION_URL} className="text-canadian-red hover:underline">CRA indexation page</a>
                 </td>
               </tr>
               <tr className="border-b border-gray-100">
@@ -149,6 +150,9 @@ export default function AccountCalculatorPage() {
         <h2 className="text-2xl font-bold text-charcoal mb-3">Sources</h2>
         <ul className="list-disc pl-5 space-y-2 mb-8">
           <li>
+            <a href={CRA_INDEXATION_URL} className="text-canadian-red hover:underline">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed {TFSA_LIMITS_REVIEWED_LABEL}. 2027 TFSA dollar limit {formatDollars(TFSA_LIMIT_2027)}.
+          </li>
+          <li>
             <a href={CRA_LIMITS_URL} className="text-canadian-red hover:underline">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed {SOURCE_REVIEWED_LABEL}
           </li>
           <li>
@@ -161,7 +165,7 @@ export default function AccountCalculatorPage() {
             <a href={CRA_FHSA_WITHDRAWAL_URL} className="text-canadian-red hover:underline">CRA: Withdrawing from your FHSAs</a>, reviewed {SOURCE_REVIEWED_LABEL}
           </li>
         </ul>
-        <p className="text-sm text-gray-500">Author: Andrew. As of {SOURCE_REVIEWED_LABEL}. The rates and the return in the fields are an illustration until you replace them.</p>
+        <p className="text-sm text-gray-500">Author: Andrew. As of {TFSA_LIMITS_REVIEWED_LABEL}. The rates and the return in the fields are an illustration until you replace them.</p>
       </article>
     </div>
   );

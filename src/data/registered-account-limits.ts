@@ -23,13 +23,31 @@ export const CRA_RESP_CONTRIBUTIONS_URL =
 export const CRA_CESG_URL =
   'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-education-savings-plans-resps/canada-education-savings-programs-cesp/canada-education-savings-grant-cesg.html';
 
+/**
+ * CRA indexation adjustment page. The 2027 TFSA dollar limit is the
+ * "Annual TFSA dollar limit" row, footnote 5. Reviewed November 27, 2026.
+ */
+export const CRA_INDEXATION_URL =
+  'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
+
+/** Date the 2027 TFSA dollar limit was read on the CRA indexation page. */
+export const TFSA_LIMITS_REVIEWED_ISO = '2026-11-27';
+export const TFSA_LIMITS_REVIEWED_LABEL = 'November 27, 2026';
+
+/** Indexation increase printed for 2027 on the CRA indexation page. */
+export const TFSA_INDEXATION_INCREASE_2027 = '2.6%';
+
 export type AnnualLimit = {
   year: number;
   /** Dollar limit printed for that year. Null when the year is not on the page. */
   limit: number | null;
 };
 
-/** TFSA dollar limits printed on the CRA limits table. 2027 is absent. */
+/**
+ * TFSA dollar limits. 2009–2026 are the CRA limits table.
+ * 2027 is the annual TFSA dollar limit on the CRA indexation page
+ * (footnote 5: $5,000 indexed to inflation after 2009, rounded to the nearest $500).
+ */
 export const TFSA_ANNUAL_LIMITS: AnnualLimit[] = [
   { year: 2009, limit: 5_000 },
   { year: 2010, limit: 5_000 },
@@ -49,21 +67,33 @@ export const TFSA_ANNUAL_LIMITS: AnnualLimit[] = [
   { year: 2024, limit: 7_000 },
   { year: 2025, limit: 7_000 },
   { year: 2026, limit: 7_000 },
-  { year: 2027, limit: null },
+  { year: 2027, limit: 7_500 },
 ];
 
-export const TFSA_LATEST_PUBLISHED_YEAR = 2026;
-export const TFSA_LATEST_ANNUAL_LIMIT = 7_000;
+export const TFSA_LIMIT_2026 = 7_000;
+export const TFSA_LIMIT_2027 = 7_500;
+export const TFSA_LATEST_PUBLISHED_YEAR = 2027;
+export const TFSA_LATEST_ANNUAL_LIMIT = TFSA_LIMIT_2027;
+
+function sumLimitsThrough(year: number): number {
+  return TFSA_ANNUAL_LIMITS.reduce((sum, row) => sum + (row.year <= year && row.limit != null ? row.limit : 0), 0);
+}
 
 /** Sum of every published annual limit from 2009 through 2026. */
-export const TFSA_CUMULATIVE_SINCE_2009 = TFSA_ANNUAL_LIMITS.reduce(
-  (sum, row) => sum + (row.limit ?? 0),
-  0
-);
+export const TFSA_CUMULATIVE_THROUGH_2026 = sumLimitsThrough(2026);
 
-if (TFSA_CUMULATIVE_SINCE_2009 !== 109_000) {
+/** Sum of every published annual limit from 2009 through 2027. */
+export const TFSA_CUMULATIVE_SINCE_2009 = sumLimitsThrough(2027);
+
+if (TFSA_CUMULATIVE_THROUGH_2026 !== 109_000) {
   throw new Error(
-    `TFSA cumulative ${TFSA_CUMULATIVE_SINCE_2009} is not the sum of the published annual limits`
+    `TFSA cumulative through 2026 (${TFSA_CUMULATIVE_THROUGH_2026}) is not the sum of the published annual limits`
+  );
+}
+
+if (TFSA_CUMULATIVE_SINCE_2009 !== 116_500) {
+  throw new Error(
+    `TFSA cumulative through 2027 (${TFSA_CUMULATIVE_SINCE_2009}) is not the sum of the published annual limits`
   );
 }
 

@@ -10,10 +10,8 @@ import {
   FHSA_ANNUAL_LIMIT,
   FHSA_CARRYFORWARD_CAP,
   FHSA_LIFETIME_LIMIT,
-  TFSA_LATEST_ANNUAL_LIMIT,
-  TFSA_LATEST_PUBLISHED_YEAR,
+  TFSA_LIMIT_2027,
 } from '@/data/registered-account-limits';
-import { NOT_YET_ANNOUNCED_CRA } from '@/data/source-review';
 import { formatDollars } from '@/lib/money';
 
 type Row = {
@@ -216,7 +214,7 @@ export default function TfsaRrspFhsaCalculator() {
           </div>
           <ul className="text-sm text-gray-700 mt-4 space-y-2 list-disc pl-5">
             <li>
-              TFSA deposits are capped at the latest official annual limit, {formatDollars(TFSA_LATEST_ANNUAL_LIMIT)} for {TFSA_LATEST_PUBLISHED_YEAR}. {NOT_YET_ANNOUNCED_CRA}. This tool does not assume a 2027 figure, so every year uses that {TFSA_LATEST_PUBLISHED_YEAR} cap. That is a ceiling from the last official limit, not a prediction that the limit stays there.
+              TFSA deposits are capped at the 2027 annual dollar limit of {formatDollars(TFSA_LIMIT_2027)}, effective January 1, 2027. Every year of this comparison uses that official limit. CRA has not published a TFSA dollar limit for 2028 or later, so those later years are not a forecast that the limit stays at {formatDollars(TFSA_LIMIT_2027)}.
             </li>
             <li>{ceilingSentence(result, priorYearEarnedIncome)}</li>
             <li>

@@ -1,8 +1,10 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-22';
+const UPDATED = '2026-11-27';
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const LIMITS = 'https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 
 const disclaimer = `General education, not tax or financial advice. Rules come from the Canada Revenue Agency TFSA pages listed under Sources, read on November 22, 2026. Priya, the $5,000 re-contribution, the $7,000 account that grows to $9,000 or falls to $6,000, and the other dollar amounts in examples are illustrations, not your numbers. Your own room depends on your full transaction history with every TFSA issuer, so check your records, confirm the current CRA pages, and ask a tax professional about your own file.`;
 
@@ -17,7 +19,7 @@ const content = `<div class="container">
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>A withdrawal in 2026 becomes new room on January 1, 2027, on top of the 2027 dollar limit.</li>
+            <li>A withdrawal in 2026 becomes new room on January 1, 2027, on top of the 2027 dollar limit of $7,500.</li>
             <li>Re-contributing in the same year is only safe up to the unused room you already had before the withdrawal.</li>
             <li>The tax on an excess is 1% of the highest excess in each month, with no grace amount, and it counts the month you fix it.</li>
             <li>Moving a TFSA to another institution should be a direct transfer, never a withdrawal and a new deposit.</li>
@@ -56,7 +58,7 @@ const content = `<div class="container">
         </table>
     </div>
     <p>The asymmetry is the whole rule. A contribution reduces your room the day you make it; a withdrawal restores room only at the next January. The CRA lists three things that have no effect on your room in either direction: qualifying transfers, exempt contributions and specified distributions.</p>
-    <p>For scale: the dollar limit is $7,000 for 2026, the same as 2024 and 2025, per the CRA's <a href="${LIMITS}">limits table</a>. Someone who has been an adult resident since 2009 and never contributed has $109,000 of room in 2026, which is the sum of every annual limit from 2009 to 2026. The 2027 dollar limit was not on that table when this guide was checked on November 22, 2026, so this guide does not print a number for it.</p>
+    <p>For scale: the dollar limit is $7,000 for 2026, the same as 2024 and 2025, per the CRA's <a href="${LIMITS}">limits table</a>. Someone who has been an adult resident since 2009 and never contributed has $109,000 of room in 2026, which is the sum of every annual limit from 2009 to 2026. The 2027 dollar limit is $7,500, effective January 1, 2027, on the CRA's <a href="${INDEXATION}">indexation adjustment page</a>, reviewed November 27, 2026. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Adding that $7,500 to the 2009–2026 total gives $116,500 of cumulative room from January 1, 2027 for the same person. That sum is not a balance the CRA prints as one number, and it is not your room if your history is different.</p>
 
     <h2 id="timeline">How does one withdrawal move through the calendar?</h2>
     <p>A withdrawal touches three dates: the day you take the money, the January it returns as room, and the spring the CRA's records catch up. The gap between the second and third is where most over-contributions start.</p>
@@ -69,7 +71,7 @@ const content = `<div class="container">
             <div class="line"><span>Contribution in January 2026</span><span>−$7,000</span></div>
             <div class="line"><span>Withdrawal on March 3, 2026 (no effect on 2026 room)</span><span>$12,000 out</span></div>
             <div class="line"><span>Room left for the rest of 2026</span><span>$0</span></div>
-            <div class="line total"><span>Room on January 1, 2027</span><span>$12,000 + the 2027 limit</span></div>
+            <div class="line total"><span>Room on January 1, 2027</span><span>$12,000 + $7,500</span></div>
         </div>
         <p>Priya and her amounts are made up. The rule that the $12,000 returns only in January comes from the CRA withdrawal page.</p>
     </div>
@@ -82,7 +84,7 @@ const content = `<div class="container">
             </thead>
             <tbody>
                 <tr><td>March 3, 2026</td><td>$12,000 leaves her TFSA, tax-free</td><td>Nothing goes back in during 2026 unless she has unused room (she has none)</td></tr>
-                <tr class="highlight-row"><td>January 1, 2027</td><td>$12,000 is added back as room, plus the 2027 dollar limit</td><td>She can re-contribute from this date</td></tr>
+                <tr class="highlight-row"><td>January 1, 2027</td><td>$12,000 is added back as room, plus the $7,500 2027 dollar limit</td><td>She can re-contribute from this date</td></tr>
                 <tr><td>By the end of February 2027</td><td>Her issuer reports her 2026 transactions to the CRA</td><td>Keep her own statement of the March withdrawal</td></tr>
                 <tr><td>Spring 2027</td><td>The CRA updates the TFSA figure in her CRA account</td><td>Treat any figure shown before then as out of date</td></tr>
             </tbody>
@@ -211,13 +213,14 @@ const content = `<div class="container">
     <h3>What is the deadline to report a TFSA excess?</h3>
     <p>File Form RC243 and Schedule A, and pay, by June 30 of the year after the year the tax applies.</p>
     <h3>What is the 2027 TFSA limit?</h3>
-    <p>It had not been published on the CRA's limits table when this guide was checked on November 22, 2026. The 2026 limit is $7,000, and the limit is indexed to inflation and rounded to the nearest $500.</p>
+    <p>$7,500, effective January 1, 2027. The CRA's indexation adjustment page, reviewed November 27, 2026, lists $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Cumulative room from 2009 through 2027 is $116,500 for someone eligible every year who has never contributed. Through 2026 it is $109,000.</p>
 
     <h2>Sources</h2>
     <ul>
         <li><a href="${TFSA}/withdraw.html">CRA: Withdrawing from a TFSA</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/contributing/calculate-room.html">CRA: Calculate your TFSA contribution room</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/contributing/before.html">CRA: Before you contribute to a TFSA (dollar limits by year)</a>, reviewed November 22, 2026</li>
+        <li><a href="${INDEXATION}">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500. Footnote 5.</li>
         <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/contributing/how.html">CRA: How to contribute to a TFSA (investment losses)</a>, reviewed November 22, 2026</li>
         <li><a href="${TFSA}/owing-tax/excess.html">CRA: Tax on excess TFSA amounts</a>, reviewed November 22, 2026</li>
@@ -244,11 +247,12 @@ const content = `<div class="container">
         <a href="/ebooks/investing-guide/" class="cta-button">See the Canadian Investing Guide</a>
     </div>
 
-    ${batchFooter(D, 'Investing', disclaimer)}
+    ${batchFooter(D, 'Investing', disclaimer, UPDATED)}
 
 </div>`;
 
-export const tfsaWithdrawalRulesPost = batchPost({
+export const tfsaWithdrawalRulesPost = {
+  ...batchPost({
   date: D,
   category: 'Investing',
   categorySlug: 'investing',
@@ -258,4 +262,6 @@ export const tfsaWithdrawalRulesPost = batchPost({
   excerpt:
     'TFSA room from a withdrawal returns on January 1 of the next year. See the dates, what an early re-contribution costs month by month, and how to fix an excess.',
   content,
-});
+}),
+  updated: UPDATED,
+};

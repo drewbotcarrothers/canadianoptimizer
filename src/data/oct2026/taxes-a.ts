@@ -1,7 +1,7 @@
 import { articleFooter, octPost } from './types';
 
 const taxDisclaimer =
-  'This is general education about Canadian income tax as of October 29, 2026. It is not tax, legal, or investment advice, and it is not a filing position. Limits, brackets, credits, and proposed measures change. Confirmed figures are tied to CRA, the Department of Finance, ESDC, or Revenu Québec pages reviewed on October 29, 2026. Items described as proposals are not law until enacted. Dollar examples are illustrations of arithmetic on those sources, or on stated assumptions, not your assessment. Confirm the current page and consult a tax professional for your file.';
+  'This is general education about Canadian income tax. It is not tax, legal, or investment advice, and it is not a filing position. The 2027 TFSA dollar limit, the 2027 indexation increase, the 2027 federal bracket thresholds, and the 2027 ALDA dollar limit are from the CRA indexation adjustment page reviewed on November 27, 2026. Other confirmed figures are tied to CRA, the Department of Finance, ESDC, or Revenu Québec pages reviewed on October 29, 2026, unless a sentence names a later date. Items described as proposals are not law until enacted. Dollar examples are illustrations of arithmetic on those sources, or on stated assumptions, not your assessment. Confirm the current page and consult a tax professional for your file.';
 
 const footer = articleFooter('Taxes', taxDisclaimer);
 
@@ -12,33 +12,33 @@ export const oct2026TaxPostsA = [
     'taxes',
     'canada-tax-money-changes',
     "Canada's 2027 Tax and Money Changes: TFSA, RRSP, Brackets, CPP, and Budget 2026",
-    'CRA has confirmed the 2027 RRSP limit ($35,390), YMPE ($76,700) and YAMPE ($87,400). The 2027 TFSA limit and brackets are not announced, and Budget 2026 lands November 5.',
+    'CRA has confirmed the 2027 TFSA dollar limit at $7,500, effective January 1, 2027. Cumulative room since 2009 is $116,500. The 2027 RRSP limit is $35,390.',
     `<div class="container">
 
     <div class="hook">
-        Three 2027 numbers are now on the CRA table. The RRSP dollar limit is <span class="highlight">$35,390</span>, the year's maximum pensionable earnings (YMPE) is $76,700, and the second CPP ceiling (YAMPE) is $87,400. The 2027 TFSA dollar limit and the 2027 tax brackets are still not on any CRA page. Budget 2026 is set for November 5, 2026. If a headline gives you a TFSA figure for 2027, it is a projection until CRA posts it.
+        The 2027 TFSA dollar limit is <span class="highlight">$7,500</span>, effective January 1, 2027. CRA's indexation page sets the 2027 indexation increase at 2.6%. The RRSP dollar limit is $35,390, the year's maximum pensionable earnings (YMPE) is $76,700, and the second CPP ceiling (YAMPE) is $87,400. Someone eligible every year since 2009 who has never contributed has $116,500 of TFSA room from that date.
     </div>
 
     <div class="callout">
-        <strong>Key takeaways, as of October 29, 2026:</strong>
+        <strong>Key takeaways, TFSA confirmed November 27, 2026:</strong>
         <ul>
+            <li>The 2027 TFSA dollar limit is $7,500, effective January 1, 2027, on CRA's indexation adjustment page. The 2026, 2025, and 2024 limits stay $7,000. The 2027 indexation increase is 2.6%. Footnote 5: the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Cumulative room from 2009 through 2027, for someone eligible every year who has never contributed, is $116,500. Through 2026 that sum is $109,000.</li>
             <li>CRA's limits table shows a 2027 RRSP dollar limit of $35,390. The 2026 RRSP dollar limit stays $33,810. The 2026 money-purchase limit is $35,390, which is why the next year's RRSP limit is already known.</li>
-            <li>The 2026 TFSA dollar limit is $7,000, announced by CRA on December 1, 2025. There is no 2027 TFSA row.</li>
             <li>On October 28, 2026, CRA announced the 2027 YMPE of $76,700 and YAMPE of $87,400 (2026: $74,600 and $85,000), plus a 2028 RRSP dollar limit of $36,390. In 2026, base CPP employee contributions max at $4,230.45 and CPP2 (4 percent between the two ceilings) maxes at $416.</li>
             <li>Parliament has legislated a cut to the base CPP rate for 2027, from 4.95 percent to 4.75 percent each for employees and employers (Bill C-30, the Spring Economic Update 2026 Implementation Act). CRA has not yet posted its 2027 payroll maximums.</li>
-            <li>Federal and provincial brackets for 2027 have not been released. CRA's usual indexation notice comes in November. Until it does, the 2026 brackets are the law you can plan on.</li>
-            <li>The Spring Economic Update of April 28, 2026 proposed a longer Home Buyers' Plan grace period and Disability Tax Credit certification changes. Those are proposals. Finance Canada announced on October 20, 2026 that Budget 2026 will be tabled on November 5, 2026.</li>
+            <li>The same indexation page sets the 2027 federal bracket thresholds and the 2027 lifetime ALDA dollar limit at $190,000 (2026: $180,000). Provincial brackets are not on that page.</li>
+            <li>The Spring Economic Update of April 28, 2026 proposed a longer Home Buyers' Plan grace period and Disability Tax Credit certification changes. Those are proposals. Finance Canada announced on October 20, 2026 that Budget 2026 would be tabled on November 5, 2026. This article does not describe the budget's contents.</li>
         </ul>
     </div>
 
-    <p>This is a change log, not the standing reference. The <a href="/blog/contribution-limits/">contribution limits</a> page is the 2026 table you use to contribute. The <a href="/blog/federal-tax-brackets/">federal brackets</a> and <a href="/blog/provincial-tax-rates/">provincial rates</a> are the 2026 law. Come back here when CRA posts indexation, and again when Budget 2026 is tabled. Do not treat a bank's "expected TFSA limit" as room.</p>
+    <p>This is a change log, not the standing reference. The <a href="/blog/contribution-limits/">contribution limits</a> page and the <a href="/2027-contribution-limits/">2027 contribution limits</a> page are the tables you use to contribute. The <a href="/blog/federal-tax-brackets/">federal brackets</a> and <a href="/blog/provincial-tax-rates/">provincial rates</a> pages are the 2026 law. The November 27, 2026 indexation page is the source for the 2027 TFSA limit and the 2027 federal thresholds. Do not treat a bank's round number as room.</p>
 
     <h2>What is already confirmed for 2027?</h2>
 
     <p>Registered-plan limits are set on a lag. The RRSP dollar limit for a year is tied to the money-purchase limit of the year before. CRA's page "MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE" now prints a full 2027 row and a 2028 RRSP figure. Two "What's new" notes are behind it. The October 30, 2025 note set the 2027 RRSP limit at $35,390. The October 28, 2026 note set the 2027 money-purchase limit at $36,390, the 2027 defined-benefit limit at $4,043.33, the 2027 DPSP limit at $18,195, the 2027 YMPE at $76,700, the 2027 YAMPE at $87,400, and the 2028 RRSP limit at $36,390.</p>
 
     <table>
-        <caption>Dollar limits on CRA's table, reviewed October 29, 2026</caption>
+        <caption>Dollar limits reviewed October 29, 2026, except the 2027 TFSA and ALDA limits, which are from the CRA indexation page reviewed November 27, 2026</caption>
         <thead>
             <tr>
                 <th>Item</th>
@@ -87,14 +87,14 @@ export const oct2026TaxPostsA = [
             <tr>
                 <td>TFSA dollar limit</td>
                 <td>$7,000</td>
-                <td>Not announced</td>
-                <td>CRA's latest TFSA note is dated December 1, 2025</td>
+                <td>$7,500</td>
+                <td>Confirmed on the CRA indexation page, November 27, 2026. Effective January 1, 2027</td>
             </tr>
             <tr>
                 <td>ALDA dollar limit</td>
                 <td>$180,000</td>
-                <td>Not announced</td>
-                <td>2026 figure only</td>
+                <td>$190,000</td>
+                <td>Confirmed on the same indexation page</td>
             </tr>
         </tbody>
     </table>
@@ -103,15 +103,17 @@ export const oct2026TaxPostsA = [
 
     <p>FHSA participation room is a different statute. In the year you open a first FHSA, CRA says participation room is $8,000. The lifetime deduction cap CRA describes is $40,000. Transfers from an RRSP use that lifetime cap and are not deductible again. Nothing in the CRA pages reviewed on October 29, 2026 announces a 2027 FHSA increase. Treat $8,000 and $40,000 as the standing rules until a page says otherwise. The account guide is the <a href="/blog/fhsa-guide/">FHSA guide</a>.</p>
 
-    <h2>What is still not a number?</h2>
+    <h2>What did the November 2026 indexation release set?</h2>
 
-    <p>The TFSA dollar limit is indexed to inflation and rounded to the nearest $500. CRA says that in the "before you contribute" page, and the same page lists 2024, 2025, and 2026 at $7,000. Rounding to $500 is why the limit can sit still for several years and then jump. A forecast that the 2027 limit will be $7,500 is a guess about the inflation factor and the rounding. CRA had not published that factor or a 2027 TFSA limit on October 29, 2026, even though Statistics Canada's September CPI is out. This article will not print the projection as a limit. When the November indexation release lands, the limit will be a sentence on canada.ca, the way the December 1, 2025 sentence set 2026 at $7,000.</p>
+    <p>The TFSA dollar limit is indexed to inflation and rounded to the nearest $500. CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation adjustment page</a>, reviewed November 27, 2026, prints a 2027 indexation increase of 2.6% and an annual TFSA dollar limit of $7,500. The same row is $7,000 for 2024, 2025, and 2026. Footnote 5 says that for 2016 and each later year the limit is fixed at $5,000, indexed to inflation for each year after 2009, and rounded to the nearest $500. That is why the limit sat at $7,000 for three years and then rose by $500. The $7,500 is the published limit. It takes effect on January 1, 2027.</p>
 
-    <p>The same release is what normally sets the 2027 federal brackets and the basic personal amount. For 2026, the brackets this site's calculator uses, sourced to CRA, are 14 percent to $58,523, 20.5 percent to $117,045, 26 percent to $181,440, 29 percent to $258,482, and 33 percent above that. The 2026 basic personal amount is $16,452, phasing down to $14,829 between $181,440 and $258,482. Those are 2026 figures. They are not a preview of 2027. Provincial brackets are provincial statutes. They are also not republished here as 2027 law.</p>
+    <p>Adding the annual limits from 2009 through 2026 gives $109,000. Adding the 2027 limit gives $116,500. Those totals are the sum of the annual limits for someone who was 18 or older and resident in Canada every year and who has never contributed or withdrawn. They are not a balance CRA prints as one number, and they are not your room.</p>
+
+    <p>The same page sets the 2027 federal bracket thresholds: the 20.5% bracket begins at $60,044, the 26% bracket at $120,088, the 29% bracket at $186,157, and the 33% bracket at $265,203. The maximum basic personal amount for 2027 is $16,879. For 2026, the brackets this site's calculator uses, sourced to CRA, are 14 percent to $58,523, 20.5 percent to $117,045, 26 percent to $181,440, 29 percent to $258,482, and 33 percent above that. The 2026 basic personal amount is $16,452, phasing down to $14,829 between $181,440 and $258,482. Provincial brackets are provincial statutes. They are not on the federal indexation page and are not republished here as 2027 law. The lifetime ALDA dollar limit on the same page is $190,000 for 2027, up from $180,000 for 2026.</p>
 
     <div class="warning-box">
-        <strong>Do not contribute 2027 TFSA room in January on a rumour:</strong>
-        <p>New TFSA room arrives on January 1 only in the amount the government has set. A contribution above your room is an excess. The tax on excess TFSA amounts is the subject of the <a href="/blog/tfsa-overcontribution-penalty/">overcontribution penalty</a> page. If CRA has not announced the 2027 dollar limit, the safe January deposit is unused room you can already document, not a round number from a headline.</p>
+        <strong>January 1, 2027 room is $7,500 plus the room you already have:</strong>
+        <p>New TFSA room arrives on January 1 in the amount the government has set. For 2027 that amount is $7,500, on top of unused room and withdrawals from 2026. A contribution above your own room is an excess. The tax on excess TFSA amounts is the subject of the <a href="/blog/tfsa-overcontribution-penalty/">overcontribution penalty</a> page. Confirm the room in your own records before you deposit.</p>
     </div>
 
     <h2>What did the April 2026 update propose?</h2>
@@ -130,7 +132,7 @@ export const oct2026TaxPostsA = [
 
     <div class="tip-box">
         <strong>Confirmed versus proposed, on one card:</strong>
-        <p>Put the RRSP ceiling of $35,390, the YMPE of $76,700 and the YAMPE of $87,400 in the confirmed column for 2027. Put the TFSA and the brackets in the blank column. Put the Home Buyers' Plan grace extension and the Disability Tax Credit certification changes in the proposal column, with the April 28, 2026 annex as the source. When a CRA or Finance page moves an item, move the card. Do not move it because a newsletter did.</p>
+        <p>Put the TFSA dollar limit of $7,500, the RRSP ceiling of $35,390, the YMPE of $76,700, the YAMPE of $87,400, and the federal bracket thresholds from the indexation page in the confirmed column for 2027. Provincial brackets stay off this card until the province publishes them. Put the Home Buyers' Plan grace extension and the Disability Tax Credit certification changes in the proposal column, with the April 28, 2026 annex as the source. When a CRA or Finance page moves an item, move the card. Do not move it because a newsletter did.</p>
     </div>
 
     <h2>I ran the numbers on the RRSP ceiling</h2>
@@ -154,17 +156,17 @@ export const oct2026TaxPostsA = [
 
     <ol>
         <li>Read your notice of assessment for RRSP room. The $35,390 ceiling is not your room.</li>
-        <li>For a TFSA deposit in the first week of January, use room you can tie to CRA's record plus your own 2026 transactions. Do not add a 2027 limit that CRA has not announced.</li>
+        <li>For a TFSA deposit in the first week of January 2027, add the $7,500 dollar limit to unused room and to withdrawals made in 2026. Tie the deposit to CRA's record plus your own 2026 transactions.</li>
         <li>If you are in a Home Buyers' Plan repayment year, follow the schedule on your current paperwork. The five-year extension past 2025 is a proposal.</li>
         <li>If a Disability Tax Credit application is in progress, use the form CRA is actually issuing. Certification relief that is still a proposal is not a reason to file a blank medical section.</li>
-        <li>Put a reminder on the week CRA usually posts indexation. Update the TFSA and bracket numbers from that page, not from this one, if this one is older.</li>
+        <li>The November indexation release is on the CRA indexation page linked below. If this article is older than that page, use the page for the TFSA limit and the federal thresholds.</li>
         <li>Ignore any "Budget 2026 will raise the inclusion rate" line until Finance publishes the budget and, if needed, Parliament passes it. The <a href="/blog/cra-deadlines/">CRA deadlines</a> page is the filing calendar. A budget is not a deadline.</li>
     </ol>
 
     <h2>Frequently asked questions</h2>
 
     <h3>Is the 2027 TFSA limit $7,500?</h3>
-    <p>Not on any CRA page reviewed on October 29, 2026. The announced limit is $7,000 for 2026. The dollar limit is indexed and rounded to the nearest $500, which is why commentators project a jump. A projection is not contribution room. Wait for the CRA announcement.</p>
+    <p>Yes. CRA's indexation adjustment page, reviewed November 27, 2026, lists the annual TFSA dollar limit at $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. It is effective January 1, 2027. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Cumulative room from 2009 through 2027 is $116,500 for someone eligible every year who has never contributed. Through 2026 it is $109,000. Your own room also depends on contributions and withdrawals. Check CRA My Account.</p>
 
     <h3>Why is the 2027 RRSP limit already published?</h3>
     <p>The RRSP dollar limit follows the prior year's money-purchase limit. CRA announced the 2026 money-purchase limit of $35,390 and, with it, the 2027 RRSP dollar limit of $35,390. Your own room still depends on 2026 earned income, unused room, and any pension adjustment.</p>
@@ -173,19 +175,20 @@ export const oct2026TaxPostsA = [
     <p>It proposed to. The annex would extend the temporary five-year grace period to first withdrawals through the end of 2028. Budget 2024's version covered first withdrawals through the end of 2025. A proposal is not a cancelled repayment. Use the schedule that matches the law in force for your withdrawal year.</p>
 
     <h3>When is Budget 2026?</h3>
-    <p>November 5, 2026. Finance Canada announced the date on October 20, 2026. Pre-budget consultations closed September 8, 2026. There is no measure in this article that depends on the untabled budget.</p>
+    <p>Finance Canada announced on October 20, 2026 that Budget 2026 would be tabled on November 5, 2026. Pre-budget consultations closed September 8, 2026. This article does not describe the budget's contents.</p>
 
     <h3>What is the 2027 YMPE?</h3>
     <p>$76,700, announced by CRA on October 28, 2026, up from $74,600. The 2027 YAMPE is $87,400, up from $85,000. CPP2 at 4 percent applies to earnings between the two.</p>
 
     <h3>Will federal tax brackets rise for 2027?</h3>
-    <p>They are indexed, and CRA announces the factor. As of October 29, 2026 that factor for 2027 was not in the pages reviewed. Plan contributions and payroll on the 2026 brackets until the indexation release replaces them. The <a href="/blog/canada-income-tax-calculator/">income tax calculator</a> is built on those 2026 brackets.</p>
+    <p>The federal thresholds on the CRA indexation page, reviewed November 27, 2026, are higher than the 2026 thresholds. The 2027 indexation increase is 2.6%. The 20.5% bracket begins at $60,044, the 26% bracket at $120,088, the 29% bracket at $186,157, and the 33% bracket at $265,203. Provincial brackets are not on that page. The <a href="/blog/canada-income-tax-calculator/">income tax calculator</a> is built on the 2026 brackets.</p>
 
     <h3>Does a higher RRSP limit change the TFSA versus RRSP decision?</h3>
     <p>Only at the margin, and only if you have the earned income. A larger deduction is more valuable in a higher bracket and less valuable if the withdrawal will be taxed at a similar rate. Room you will not use is not a strategy. Fill the account that matches the bracket and the timeline you already wrote down.</p>
 
     <h2>Sources</h2>
     <ul>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 indexation increase 2.6%. Annual TFSA dollar limit $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. Footnote 5. 2027 lifetime ALDA dollar limit $190,000. 2027 federal bracket thresholds as cited above.</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and YAMPE</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/whats-new.html">CRA: what's new for savings and pension plans, including the October 30, 2025 limits note and the December 1, 2025 TFSA note</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html">CRA: before you contribute to a TFSA</a></li>
@@ -209,7 +212,7 @@ export const oct2026TaxPostsA = [
 
 </div>`
   ),
-  updated: '2026-10-29',
+  updated: '2026-11-27',
   youtubeId: '-_ZGxW5o33M',
   youtubeTitle: 'Which 2027 Tax Changes Are Official in Canada?',
   youtubeUploadDate: '2026-10-30T05:38:00-04:00',
