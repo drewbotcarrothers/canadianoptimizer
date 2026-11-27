@@ -42,3 +42,17 @@ EXPL = {  # (slug, value) -> ('D', expr, note) | ('E', note) | ('S', page, regex
 }
 def explicit(slug, v):
     return EXPL.get((slug, v))
+
+H = 'how-much-house-can-i-afford-canada'
+EXPL.update({
+ (H, '6.5%'): ('D', "F(45,1000)+F(2,100)", 'contract rate 4.5% plus 2 percentage points'),
+ (H, '7.5%'): ('D', "F(55,1000)+F(2,100)", 'contract rate 5.5% plus 2 percentage points'),
+ (H, '8.5%'): ('D', "F(65,1000)+F(2,100)", 'contract rate 6.5% plus 2 percentage points'),
+ (H, '5.25%'): ('S', 'cmhc_purchase', r'5\.25\s?%'),
+ (H, '39%'): ('S', 'cmhc_purchase', r'39\s?%'),
+ (H, '12'): ('E', 'months in a year, the divisor in the formula'),
+ (H, '4.5%'): ('E', 'declared example contract rate'),
+ (H, '4.50%'): ('E', 'declared example contract rate'),
+ (H, '5.50%'): ('E', 'declared example contract rate for the rate table'),
+ (H, '3.25%'): ('E', 'declared example contract rate for the rate table'),
+})

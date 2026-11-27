@@ -5,14 +5,14 @@
 ▲ Next.js 16.1.7 (Turbopack)
 
   Creating an optimized production build ...
-✓ Compiled successfully in 2.9s
+✓ Compiled successfully in 4.2s
   Running TypeScript ...
   Collecting page data using 7 workers ...
-  Generating static pages using 7 workers (0/406) ...
-  Generating static pages using 7 workers (101/406) 
-  Generating static pages using 7 workers (202/406) 
-  Generating static pages using 7 workers (304/406) 
-✓ Generating static pages using 7 workers (406/406) in 1658.7ms
+  Generating static pages using 7 workers (0/407) ...
+  Generating static pages using 7 workers (101/407) 
+  Generating static pages using 7 workers (203/407) 
+  Generating static pages using 7 workers (305/407) 
+✓ Generating static pages using 7 workers (407/407) in 1946.8ms
   Finalizing page optimization ...
 
 Route (app)
@@ -26,7 +26,7 @@ Route (app)
 │ ├ /blog/diy-etf-portfolio-asset-location-canada
 │ ├ /blog/best-online-brokerages-canada
 │ ├ /blog/mer-drag-index-funds-canada
-│ └ [+295 more paths]
+│ └ [+296 more paths]
 ├ ● /category/[slug]
 │ ├ /category/investing
 │ ├ /category/taxes
@@ -67,3 +67,4 @@ Route (app)
 ○  (Static)  prerendered as static content
 ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
 
+done 0

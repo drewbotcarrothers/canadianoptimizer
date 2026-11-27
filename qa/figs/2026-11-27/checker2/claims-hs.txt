@@ -1,0 +1,26 @@
+preparing-mortgage.html	monthly housing costs shouldn.t be more than 39% of your gross household income
+preparing-mortgage.html	shouldn.t be more than 44% of your gross income
+preparing-mortgage.html	50% of your condo fees
+preparing-mortgage.html	even if your GDS ratio is slightly higher
+preparing-mortgage.html	increasing the risk of taking on more debt
+calculating-gds-tds	Principal \+ Interest \+ Taxes \+ Heat
+calculating-gds-tds	Other Debt Obligations
+calculating-gds-tds	50% of the condominium fees must be included in the GDS and TDS
+calculating-gds-tds	greater of the contract interest rate plus 2 per cent, or 5\.25 per cent
+calculating-gds-tds	including the CMHC premium
+/purchase	GDS.{0,40}39
+/purchase	TDS.{0,40}44
+/purchase	greater of the contract interest rate plus 2%, or 5\.25%
+/purchase	below \$1,500,000
+/purchase	5% of \$500,000 \+ 10% of \$260,000
+delivering-the-boldest-mortgage-reforms-in-decades.html	30 year amortizations for insured mortgages to all first-time homebuyers and all purchasers of new builds
+delivering-the-boldest-mortgage-reforms-in-decades.html	\$1 million price cap for insured mortgages to \$1\.5 million, effective December 15, 2024
+delivering-the-boldest-mortgage-reforms-in-decades.html	5 per cent on the portion of a purchase price up to \$500,000
+premium-information-for-homeowner-and-small-rental-loans	80\.01% to 85% 2\.80%
+premium-information-for-homeowner-and-small-rental-loans	85\.01% to 90% 3\.10%
+premium-information-for-homeowner-and-small-rental-loans	90\.01% to 95% 4\.00%
+premium-information-for-homeowner-and-small-rental-loans	beyond 25 years is subject to a 0\.20% surcharge
+minimum-qualifying-rate-uninsured-mortgages	greater of the mortgage contract rate plus 2% or 5\.25%
+minimum-qualifying-rate-uninsured-mortgages	OSFI obliges federally.regulated lenders
+calculating-gds-tds	actual heat cost records
+calculating-gds-tds	no history is readily available, the heat costs used must be a reasonable estimate

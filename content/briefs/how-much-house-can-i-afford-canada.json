@@ -1,0 +1,39 @@
+{
+  "slug": "how-much-house-can-i-afford-canada",
+  "title": "How Much House Can I Afford in Canada? Income, Down Payment and Rate",
+  "family": "core",
+  "category": "real-estate",
+  "subcategory": "first-time-buyers",
+  "targetQuery": "how much house can i afford canada",
+  "secondaryQueries": [
+    "how much mortgage can i afford canada",
+    "gds tds ratio canada",
+    "mortgage affordability calculator canada",
+    "income needed for a 500000 house canada"
+  ],
+  "infoGain": "Three tables built from CMHC's published GDS and TDS formulas showing the maximum price by household income, by contract rate and by other debts, with the CMHC premium bands and minimum down payment rules applied, plus the income needed for a $500,000 home.",
+  "money": false,
+  "offers": [],
+  "ebook": "tax-guide",
+  "publishDate": "2026-11-27",
+  "agentChecks": {
+    "2a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+      "on": "2026-11-27",
+      "note": "read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence"
+    },
+    "4a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+      "on": "2026-11-27",
+      "note": "no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently"
+    },
+    "6a": {
+      "pass": true,
+      "by": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+      "on": "2026-11-27",
+      "note": "not a money page: no affiliate offers or picks, ebook CTA only"
+    }
+  }
+}

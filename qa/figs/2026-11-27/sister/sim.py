@@ -7,7 +7,7 @@ def text(h):
 def words(t): return re.findall(r"[a-z0-9$%.']+",t.lower())
 def grams(w,n=5): return {' '.join(w[i:i+n]) for i in range(len(w)-n+1)}
 sis=sorted(glob.glob(str(HERE/'s_*.html')))
-slugs=["critical-illness-vs-disability-insurance-canada"]
+slugs=["critical-illness-vs-disability-insurance-canada","how-much-house-can-i-afford-canada"]
 res={}
 for slug in slugs:
     h=open(OUT/slug/'index.html').read(); m=re.search(r'<article.*?</article>',h,re.S); a=text(m.group(0) if m else h)

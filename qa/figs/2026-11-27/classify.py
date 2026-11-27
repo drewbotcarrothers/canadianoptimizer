@@ -10,6 +10,7 @@ def norm(s):
     return re.sub(r'\s+', ' ', s).strip()
 SRC = {
  'critical-illness-vs-disability-insurance-canada': {'ei_sick':'Service Canada: EI sickness benefits','ei_sick_amt':'Service Canada: EI sickness benefits, how much you could receive','cppd_amt':'Government of Canada: CPP disability benefit, how much you could receive','cppd_elig2':'Government of Canada: CPP disability benefit, do you qualify','fcac_dis':'Financial Consumer Agency of Canada: Disability insurance','fcac_health':'Financial Consumer Agency of Canada: Health insurance (critical illness)'},
+ 'how-much-house-can-i-afford-canada': {'prep_mtg':'Financial Consumer Agency of Canada: Preparing for a mortgage','calc_gds':'CMHC: Calculating GDS and TDS','cmhc_purchase':'CMHC: Mortgage loan insurance for home purchase','osfi_mqr':'OSFI: Minimum qualifying rate','fin_sep24':'Department of Finance Canada: mortgage rule changes (Sept 2024)','cmhc_prem':'CMHC: Mortgage loan insurance premiums'},
 }
 _c = {}
 def page(k):

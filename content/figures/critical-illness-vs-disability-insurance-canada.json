@@ -14,8 +14,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
     },
@@ -31,8 +31,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
     },
@@ -48,8 +48,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "ekly earnings, up to a maximum amount. In 2026, the maximum amount is $729 a week. Benefit calculation This is how we calculate your weekly bene"
     },
@@ -65,8 +65,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
     },
@@ -85,8 +85,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $1,741.20"
     },
@@ -102,8 +102,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
     },
@@ -119,8 +119,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
     },
@@ -136,8 +136,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
     },
@@ -153,8 +153,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
     },
@@ -173,8 +173,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12/(F(70000)/12)"
     },
@@ -193,8 +193,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -213,8 +213,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12/(F(100000)/12)"
     },
@@ -246,8 +246,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
     },
@@ -263,8 +263,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
     },
@@ -283,8 +283,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -303,8 +303,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $40,599"
     },
@@ -322,8 +322,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "review date = day sources were read (2026-11-27)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
       }
     },
     {
@@ -338,8 +338,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
     },
@@ -355,8 +355,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
     },
@@ -375,8 +375,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $40,000"
     },
@@ -395,8 +395,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -428,8 +428,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
     },
@@ -445,8 +445,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
     },
@@ -465,8 +465,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay at the 55% rate; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
     },
@@ -482,8 +482,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "al reasons. You could receive 55% of your earnings up to a maximum of $729 a week. You must get a medical certificate showing that you're unable"
     },
@@ -499,8 +499,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
     },
@@ -516,8 +516,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "isability payment is made up of 2 parts: Basic monthly amount (2026): $610.46 Additional amount: based on how much you've contributed to the CPP du"
     },
@@ -533,8 +533,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
     },
@@ -550,8 +550,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
     },
@@ -567,8 +567,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_elig2)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "equirements: Age Disability CPP contributions Age You must be between 18 and 65 years old. If you recently turned 65 We encourage you to apply"
     },
@@ -584,8 +584,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_elig2)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "ents: Age Disability CPP contributions Age You must be between 18 and 65 years old. If you recently turned 65 We encourage you to apply. You m"
     },
@@ -601,8 +601,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_elig2)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "contributed in 3 out of those 6 years, and you made contributions for 25 years or more in total If you don't meet either requirement, you may "
     },
@@ -620,8 +620,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "review date = day sources were read (2026-11-27)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
       }
     },
     {
@@ -636,8 +636,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
     },
@@ -653,8 +653,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "lity insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans reduce"
     },
@@ -689,8 +689,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $3,333"
     },
@@ -709,8 +709,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "55% of weekly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/52*F(55,100)"
     },
@@ -729,8 +729,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "55% of monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)*F(55,100)/12"
     },
@@ -749,8 +749,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay at the 55% rate; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
     },
@@ -785,8 +785,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "85% of monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/12*F(85,100)"
     },
@@ -821,8 +821,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $5,833"
     },
@@ -841,8 +841,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $729.00"
     },
@@ -861,8 +861,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "weekly maximum times 52 over 12; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12"
     },
@@ -881,8 +881,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12/(F(70000)/12)"
     },
@@ -901,8 +901,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $3,500"
     },
@@ -921,8 +921,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $4,958"
     },
@@ -957,8 +957,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "annual over 12; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(100000)/12"
     },
@@ -977,8 +977,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $729.00"
     },
@@ -997,8 +997,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "weekly maximum times 52 over 12; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12"
     },
@@ -1017,8 +1017,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)*52/12/(F(100000)/12)"
     },
@@ -1037,8 +1037,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $5,000"
     },
@@ -1057,8 +1057,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $7,083"
     },
@@ -1077,8 +1077,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay at the 55% rate; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
     },
@@ -1094,8 +1094,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "al reasons. You could receive 55% of your earnings up to a maximum of $729 a week. You must get a medical certificate showing that you're unable"
     },
@@ -1114,8 +1114,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "weekly maximum over the 55% rate, annualised; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(729)/F(55,100)*52"
     },
@@ -1131,8 +1131,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
     },
@@ -1148,8 +1148,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
     },
@@ -1168,8 +1168,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -1185,8 +1185,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "After you apply EI sickness benefits How much you could receive Up to 26 weeks of sickness benefits are available. The number of weeks of bene"
     },
@@ -1221,8 +1221,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -1240,8 +1240,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "review date = day sources were read (2026-11-27)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
       }
     },
     {
@@ -1256,8 +1256,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
     },
@@ -1273,8 +1273,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
     },
@@ -1293,8 +1293,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $18,954"
     },
@@ -1326,8 +1326,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " receive depends on your insurable earnings* before taxes in the past 52 weeks or since the start of your last claim, whichever is shorter. So"
     },
@@ -1343,8 +1343,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
     },
@@ -1363,8 +1363,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $10,447.20"
     },
@@ -1396,8 +1396,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " receive depends on your insurable earnings* before taxes in the past 52 weeks or since the start of your last claim, whichever is shorter. So"
     },
@@ -1413,8 +1413,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
     },
@@ -1433,8 +1433,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $7,417.92"
     },
@@ -1453,8 +1453,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $29,401.20"
     },
@@ -1473,8 +1473,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $40,599"
     },
@@ -1493,8 +1493,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -1513,8 +1513,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $26,371.92"
     },
@@ -1533,8 +1533,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $43,628"
     },
@@ -1553,8 +1553,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $20,894.40"
     },
@@ -1573,8 +1573,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "independent grid in recheck.py; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "value reproducible: $70,000"
     },
@@ -1606,8 +1606,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " disability insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans"
     },
@@ -1623,8 +1623,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "lity insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans reduce"
     },
@@ -1640,8 +1640,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
     },
@@ -1657,8 +1657,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (fcac_dis)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some may pr"
     },
@@ -1674,8 +1674,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
     },
@@ -1694,8 +1694,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "EI per month over monthly pay at the 55% rate; recomputed in qa/figs/2026-11-27/recheck.py"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
       },
       "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
     },
@@ -1711,8 +1711,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (ei_sick_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
     },
@@ -1728,8 +1728,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
     },
@@ -1745,8 +1745,8 @@
       "verify": {
         "status": "match",
         "checkedOn": "2026-11-27",
-        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
-        "note": "needle found on page fetched 2026-11-27 (cppd_amt)"
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
       },
       "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
     }

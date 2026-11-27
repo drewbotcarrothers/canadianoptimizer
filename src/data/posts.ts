@@ -21357,6 +21357,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-much-house-can-i-afford-canada/">How much house can I afford in Canada? Income, down payment and rate</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing a principal-residence prepayment with investing in Canada. It is not mortgage, investment, or tax advice. Contract rates, prepayment privileges, and penalties are specific to your commitment. Examples that use rates, brackets, and dollar amounts are illustrations of a comparison, not quotes and not forecasts. Confirm the payout figure with your lender and the tax result with a professional before you break a term.</p>
         <div class="footer-note">Published: September 15, 2026 | Category: Real Estate | Author: Andrew</div>
@@ -24731,6 +24733,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>HBP repayments, the home buyers' amount, and an FHSA deduction are return entries with a closing date attached. The 2026 tax guide is the return.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/how-much-house-can-i-afford-canada/">How much house can I afford in Canada? Income, down payment and rate</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian first-home programs other than the FHSA rules themselves. It is not tax, legal, or mortgage advice, and it is not a list of current grant amounts. Ceilings, phase-outs, repayment terms, and program status change. No live rebate figure is stated here. Confirm the HBP, the home buyers' amount, and the new housing rebate with CRA, land-transfer relief with the province, and any shared-equity program with CMHC, before you waive a condition.</p>

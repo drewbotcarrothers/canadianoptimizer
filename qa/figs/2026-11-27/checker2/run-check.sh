@@ -4,9 +4,9 @@
 set -e
 D=${1:-2026-11-27}
 cd "$(dirname "$0")"
-S="critical-illness-vs-disability-insurance-canada"
+S="critical-illness-vs-disability-insurance-canada how-much-house-can-i-afford-canada"
 python3 sourced.py $S | tail -1
-for c in ci; do python3 textcheck.py claims-$c.txt | tail -1; done
+for c in ci hs; do python3 textcheck.py claims-$c.txt | tail -1; done
 python3 recompute.py | tail -1
 cd ../../../..
 for s in $S; do node scripts/content/figures.mjs check $s --date $D | tail -1; done

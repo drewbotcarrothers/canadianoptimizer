@@ -1,0 +1,3718 @@
+{
+  "slug": "how-much-house-can-i-afford-canada",
+  "publishDate": "2026-11-27",
+  "figures": [
+    {
+      "id": "d262a60ccd7c",
+      "value": "39%",
+      "context": "Lenders test two ratios at the qualifying rate: your housing costs can be at most 39% of gross income (GDS) and all your debt payments at most 44% (TDS).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "f63faf6c07fb",
+      "value": "44%",
+      "context": "Lenders test two ratios at the qualifying rate: your housing costs can be at most 39% of gross income (GDS) and all your debt payments at most 44% (TDS).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/preparing-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Preparing for a mortgage",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "plicable) Total debt load Your total debt load shouldn't be more than 44% of your gross income. This includes your total monthly housing costs "
+    },
+    {
+      "id": "f4f98225efab",
+      "value": "$100,000",
+      "context": "With a $100,000 household income, no other debts, a 4.50% contract rate and $50,000 down, that works out to a price of about $451,000 in our example.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "074385431dcc",
+      "value": "4.50%",
+      "context": "With a $100,000 household income, no other debts, a 4.50% contract rate and $50,000 down, that works out to a price of about $451,000 in our example.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "a84e3283c69a",
+      "value": "$50,000",
+      "context": "With a $100,000 household income, no other debts, a 4.50% contract rate and $50,000 down, that works out to a price of about $451,000 in our example.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "8329104bae3a",
+      "value": "$451,000",
+      "context": "With a $100,000 household income, no other debts, a 4.50% contract rate and $50,000 down, that works out to a price of about $451,000 in our example.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "4fe06457f2f8",
+      "value": "39%",
+      "context": "CMHC caps gross debt service at 39% and total debt service at 44%, and the ratios use a qualifying rate that is the greater of your contract rate plus 2 percentage points or 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "071e63befc10",
+      "value": "44%",
+      "context": "CMHC caps gross debt service at 39% and total debt service at 44%, and the ratios use a qualifying rate that is the greater of your contract rate plus 2 percentage points or 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ": Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Interest Rates GDS & TDS Ratios must be calculated using an interest "
+    },
+    {
+      "id": "6a7bebe413be",
+      "value": "5.25%",
+      "context": "CMHC caps gross debt service at 39% and total debt service at 44%, and the ratios use a qualifying rate that is the greater of your contract rate plus 2 percentage points or 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "2832906693b7",
+      "value": "4.50%",
+      "context": "On our example at a 4.50% contract rate, the qualifying rate is 6.5%, so the test uses a payment $481.03 a month higher than the one you would pay on a $413,431 loan.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "eb25e6e24f95",
+      "value": "6.5%",
+      "context": "On our example at a 4.50% contract rate, the qualifying rate is 6.5%, so the test uses a payment $481.03 a month higher than the one you would pay on a $413,431 loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(45,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(45,1000)+F(2,100)"
+    },
+    {
+      "id": "5ce85f638a9e",
+      "value": "$481.03",
+      "context": "On our example at a 4.50% contract rate, the qualifying rate is 6.5%, so the test uses a payment $481.03 a month higher than the one you would pay on a $413,431 loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $481.03"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $481.03"
+    },
+    {
+      "id": "13e576146587",
+      "value": "$413,431",
+      "context": "On our example at a 4.50% contract rate, the qualifying rate is 6.5%, so the test uses a payment $481.03 a month higher than the one you would pay on a $413,431 loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $413,431"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $413,431"
+    },
+    {
+      "id": "cbbf229c1ad0",
+      "value": "$100,000",
+      "context": "At $100,000 of income with $50,000 down, the maximum price is about $451,000 (GDS is the limit); the same household needs about $110,235 of income for a $500,000 home.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "180f41f3c5e7",
+      "value": "$50,000",
+      "context": "At $100,000 of income with $50,000 down, the maximum price is about $451,000 (GDS is the limit); the same household needs about $110,235 of income for a $500,000 home.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "0378d53f0013",
+      "value": "$451,000",
+      "context": "At $100,000 of income with $50,000 down, the maximum price is about $451,000 (GDS is the limit); the same household needs about $110,235 of income for a $500,000 home.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "2cc9834bb398",
+      "value": "$110,235",
+      "context": "At $100,000 of income with $50,000 down, the maximum price is about $451,000 (GDS is the limit); the same household needs about $110,235 of income for a $500,000 home.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $110,235"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $110,235"
+    },
+    {
+      "id": "cbc22b71ce76",
+      "value": "$500,000",
+      "context": "At $100,000 of income with $50,000 down, the maximum price is about $451,000 (GDS is the limit); the same household needs about $110,235 of income for a $500,000 home.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "e89d879d9a7c",
+      "value": "$500",
+      "context": "Other monthly debts can switch the limit from GDS to TDS: $500 a month of other debt lowers the example price from $451,000 to $439,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $500"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $500"
+    },
+    {
+      "id": "ec5e01b8948d",
+      "value": "$451,000",
+      "context": "Other monthly debts can switch the limit from GDS to TDS: $500 a month of other debt lowers the example price from $451,000 to $439,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "e5f637b2a73e",
+      "value": "$439,000",
+      "context": "Other monthly debts can switch the limit from GDS to TDS: $500 a month of other debt lowers the example price from $451,000 to $439,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $439,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $439,000"
+    },
+    {
+      "id": "6c2218317a47",
+      "value": "39%",
+      "context": "The Financial Consumer Agency of Canada says your total monthly housing costs shouldn't be more than 39% of your gross household income, which is the GDS ratio, and that your total debt load, which adds all your other debts to the housing costs, shouldn't be more than 44% of gross income, which is the TDS ratio.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "4a0c0dda299b",
+      "value": "44%",
+      "context": "The Financial Consumer Agency of Canada says your total monthly housing costs shouldn't be more than 39% of your gross household income, which is the GDS ratio, and that your total debt load, which adds all your other debts to the housing costs, shouldn't be more than 44% of gross income, which is the TDS ratio.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/preparing-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Preparing for a mortgage",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "plicable) Total debt load Your total debt load shouldn't be more than 44% of your gross income. This includes your total monthly housing costs "
+    },
+    {
+      "id": "0faebccbae06",
+      "value": "50%",
+      "context": "If the property is a condominium, 50% of the condominium fees are included in both ratios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/calculating-gds-tds",
+      "sourceName": "CMHC: Calculating GDS and TDS",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "operty tax amount. Condo Fees and Site or Ground Rent: If applicable, 50% of the condominium fees must be included in the GDS and TDS calculati"
+    },
+    {
+      "id": "c4424ffd268c",
+      "value": "2%",
+      "context": "CMHC says the ratios must be calculated at the greater of your contract rate plus 2%, or 5.25%, and OSFI sets the same minimum qualifying rate for uninsured mortgages at federally regulated lenders.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages",
+      "sourceName": "OSFI: Minimum qualifying rate",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "ortgages Current rate: The greater of the mortgage contract rate plus 2% or 5.25%. Why the minimum qualifying rate for uninsured mortgages is "
+    },
+    {
+      "id": "ccefaa6db6b1",
+      "value": "5.25%",
+      "context": "CMHC says the ratios must be calculated at the greater of your contract rate plus 2%, or 5.25%, and OSFI sets the same minimum qualifying rate for uninsured mortgages at federally regulated lenders.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "7669d5938fa3",
+      "value": "$500,000",
+      "context": "What this page adds: three tables built from CMHC's published formulas, showing the maximum price by income, by contract rate and by other debts, with the premium and minimum down payment rules applied, plus the income needed for a $500,000 home, so you can find your own situation instead of reading a generic range.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "fe2d672c3843",
+      "value": "12",
+      "context": "Divide gross household income by 12.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "months in a year, the divisor in the formula"
+      }
+    },
+    {
+      "id": "89b01c9e6e29",
+      "value": "39%",
+      "context": "The GDS limit is 39% of that figure and the TDS limit is 44%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "6cc05653abe3",
+      "value": "44%",
+      "context": "The GDS limit is 39% of that figure and the TDS limit is 44%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ": Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Interest Rates GDS & TDS Ratios must be calculated using an interest "
+    },
+    {
+      "id": "d5e91be30f18",
+      "value": "50%",
+      "context": "Subtract monthly property tax and heat (and 50% of any condo fees) from both limits, and subtract your other monthly debt payments from the TDS limit only.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/preparing-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Preparing for a mortgage",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "nclude: your mortgage payments your property taxes your heating costs 50% of your condo fees (if applicable) Total debt load Your total debt lo"
+    },
+    {
+      "id": "cc7c50acac9a",
+      "value": "6.5%",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(45,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(45,1000)+F(2,100)"
+    },
+    {
+      "id": "dab6b027b055",
+      "value": "25",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/calculating-gds-tds",
+      "sourceName": "CMHC: Calculating GDS and TDS",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " at least a monthly payment on the outstanding balance amortized over 25 years using the contract rate (or the benchmark rate if contract rate"
+    },
+    {
+      "id": "a96b06a1894f",
+      "value": "$6.70",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $6.70"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $6.70"
+    },
+    {
+      "id": "36a5e1491240",
+      "value": "$1,000",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $1,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $1,000"
+    },
+    {
+      "id": "12cb180effc7",
+      "value": "$100",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100"
+    },
+    {
+      "id": "57b9bb0765f4",
+      "value": "$14,929",
+      "context": "At 6.5% over 25 years our calculation gives $6.70 a month per $1,000 borrowed, so each $100 a month of room supports about $14,929 of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $14,929"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $14,929"
+    },
+    {
+      "id": "0dc2b14207fd",
+      "value": "20%",
+      "context": "If you have less than 20% down the loan includes the CMHC premium, so the amount you actually borrow against the home is smaller than the maximum loan.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "h a CMHC Purchase down payment. Conventional down payment: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of"
+    },
+    {
+      "id": "3cf18e733189",
+      "value": "$350",
+      "context": "Our tables assume $350 a month of property tax and $125 a month of heat, labelled assumptions for a typical home, because CMHC says to use actual heating costs where they are available and otherwise a reasonable estimate.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $350"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $350"
+    },
+    {
+      "id": "a865e2496fda",
+      "value": "$125",
+      "context": "Our tables assume $350 a month of property tax and $125 a month of heat, labelled assumptions for a typical home, because CMHC says to use actual heating costs where they are available and otherwise a reasonable estimate.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $125"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $125"
+    },
+    {
+      "id": "f4f2624023b2",
+      "value": "$100,000",
+      "context": "At a $100,000 household income, $50,000 down and a 4.50% contract rate, the example maximum is about $451,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "cc990ac6c4d0",
+      "value": "$50,000",
+      "context": "At a $100,000 household income, $50,000 down and a 4.50% contract rate, the example maximum is about $451,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "eb3b3c5ac231",
+      "value": "4.50%",
+      "context": "At a $100,000 household income, $50,000 down and a 4.50% contract rate, the example maximum is about $451,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "e8ed8ab9a268",
+      "value": "$451,000",
+      "context": "At a $100,000 household income, $50,000 down and a 4.50% contract rate, the example maximum is about $451,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "2d287e44eeac",
+      "value": "4.5%",
+      "context": "The table shows four incomes with the same assumptions: a 4.5% contract rate, a 6.5% qualifying rate, a 25-year amortization, no other debts and a $50,000 down payment.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "0b068d03f0c2",
+      "value": "6.5%",
+      "context": "The table shows four incomes with the same assumptions: a 4.5% contract rate, a 6.5% qualifying rate, a 25-year amortization, no other debts and a $50,000 down payment.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(45,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(45,1000)+F(2,100)"
+    },
+    {
+      "id": "858942ebfe45",
+      "value": "25",
+      "context": "The table shows four incomes with the same assumptions: a 4.5% contract rate, a 6.5% qualifying rate, a 25-year amortization, no other debts and a $50,000 down payment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/calculating-gds-tds",
+      "sourceName": "CMHC: Calculating GDS and TDS",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " at least a monthly payment on the outstanding balance amortized over 25 years using the contract rate (or the benchmark rate if contract rate"
+    },
+    {
+      "id": "abbc4797347d",
+      "value": "$50,000",
+      "context": "The table shows four incomes with the same assumptions: a 4.5% contract rate, a 6.5% qualifying rate, a 25-year amortization, no other debts and a $50,000 down payment.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "d1d62733aeaa",
+      "value": "4.50%",
+      "context": "Maximum price by household income (our calculation, 4.50% contract rate, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "d9a7978a7c77",
+      "value": "$50,000",
+      "context": "Maximum price by household income (our calculation, 4.50% contract rate, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "91aa88c2f562",
+      "value": "25",
+      "context": "Maximum price by household income (our calculation, 4.50% contract rate, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " below $1,500,000 for homeowner loans. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Ho"
+    },
+    {
+      "id": "8609eed15672",
+      "value": "November 27, 2026",
+      "context": "Maximum price by household income (our calculation, 4.50% contract rate, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "5baaf6694a48",
+      "value": "39%",
+      "context": "Gross household income 39% of monthly income Largest payment counted after tax and heat Largest loan including premium Maximum price Limit that binds",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "0a37a0369308",
+      "value": "$80,000",
+      "context": "$80,000 $2,600 $2,125 $317,248 $357,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $80,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $80,000"
+    },
+    {
+      "id": "90644a36c988",
+      "value": "$2,600",
+      "context": "$80,000 $2,600 $2,125 $317,248 $357,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,600"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,600"
+    },
+    {
+      "id": "b3abe284310a",
+      "value": "$2,125",
+      "context": "$80,000 $2,600 $2,125 $317,248 $357,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,125"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,125"
+    },
+    {
+      "id": "ffe1d20a7088",
+      "value": "$317,248",
+      "context": "$80,000 $2,600 $2,125 $317,248 $357,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $317,248"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $317,248"
+    },
+    {
+      "id": "14b994300174",
+      "value": "$357,000",
+      "context": "$80,000 $2,600 $2,125 $317,248 $357,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $357,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $357,000"
+    },
+    {
+      "id": "8f48122bfbeb",
+      "value": "$100,000",
+      "context": "$100,000 $3,250 $2,775 $414,288 $451,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "b224f3c3076e",
+      "value": "$3,250",
+      "context": "$100,000 $3,250 $2,775 $414,288 $451,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $3,250"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $3,250"
+    },
+    {
+      "id": "8a4e05009048",
+      "value": "$2,775",
+      "context": "$100,000 $3,250 $2,775 $414,288 $451,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,775"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,775"
+    },
+    {
+      "id": "2b30eef2f970",
+      "value": "$414,288",
+      "context": "$100,000 $3,250 $2,775 $414,288 $451,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $414,288"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $414,288"
+    },
+    {
+      "id": "e536913c1907",
+      "value": "$451,000",
+      "context": "$100,000 $3,250 $2,775 $414,288 $451,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "95a521f9768c",
+      "value": "$125,000",
+      "context": "$125,000 $4,063 $3,588 $535,589 $564,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $125,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $125,000"
+    },
+    {
+      "id": "cf2612e23e81",
+      "value": "$4,063",
+      "context": "$125,000 $4,063 $3,588 $535,589 $564,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $4,063"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $4,063"
+    },
+    {
+      "id": "d0a468dd64ad",
+      "value": "$3,588",
+      "context": "$125,000 $4,063 $3,588 $535,589 $564,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $3,588"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $3,588"
+    },
+    {
+      "id": "47d7d8fae6e5",
+      "value": "$535,589",
+      "context": "$125,000 $4,063 $3,588 $535,589 $564,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $535,589"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $535,589"
+    },
+    {
+      "id": "4a6623245d94",
+      "value": "$564,000",
+      "context": "$125,000 $4,063 $3,588 $535,589 $564,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $564,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $564,000"
+    },
+    {
+      "id": "f6189d02d5df",
+      "value": "$150,000",
+      "context": "$150,000 $4,875 $4,400 $656,889 $681,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $150,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $150,000"
+    },
+    {
+      "id": "31d0131c6f06",
+      "value": "$4,875",
+      "context": "$150,000 $4,875 $4,400 $656,889 $681,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $4,875"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $4,875"
+    },
+    {
+      "id": "016f7c43b740",
+      "value": "$4,400",
+      "context": "$150,000 $4,875 $4,400 $656,889 $681,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $4,400"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $4,400"
+    },
+    {
+      "id": "074a26d13223",
+      "value": "$656,889",
+      "context": "$150,000 $4,875 $4,400 $656,889 $681,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $656,889"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $656,889"
+    },
+    {
+      "id": "842f1fc9d8d2",
+      "value": "$681,000",
+      "context": "$150,000 $4,875 $4,400 $656,889 $681,000 GDS",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $681,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $681,000"
+    },
+    {
+      "id": "43fc22f77e62",
+      "value": "$100,000",
+      "context": "Going from $100,000 to $125,000 of income adds $113,000 of price, and from $125,000 to $150,000 adds $117,000, because each extra dollar of monthly room supports the same amount of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "f7c27bd376aa",
+      "value": "$125,000",
+      "context": "Going from $100,000 to $125,000 of income adds $113,000 of price, and from $125,000 to $150,000 adds $117,000, because each extra dollar of monthly room supports the same amount of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $125,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $125,000"
+    },
+    {
+      "id": "2294f2246c46",
+      "value": "$113,000",
+      "context": "Going from $100,000 to $125,000 of income adds $113,000 of price, and from $125,000 to $150,000 adds $117,000, because each extra dollar of monthly room supports the same amount of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $113,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $113,000"
+    },
+    {
+      "id": "7c86fb9fb6ee",
+      "value": "$150,000",
+      "context": "Going from $100,000 to $125,000 of income adds $113,000 of price, and from $125,000 to $150,000 adds $117,000, because each extra dollar of monthly room supports the same amount of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $150,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $150,000"
+    },
+    {
+      "id": "b8374a31cd34",
+      "value": "$117,000,",
+      "context": "Going from $100,000 to $125,000 of income adds $113,000 of price, and from $125,000 to $150,000 adds $117,000, because each extra dollar of monthly room supports the same amount of loan.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $117,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $117,000"
+    },
+    {
+      "id": "d5a290b111c8",
+      "value": "$50,000",
+      "context": "The $50,000 down payment also stays above the minimum for each price, which the next section explains.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "291da4208cbc",
+      "value": "December 15, 2024",
+      "context": "The Department of Finance Canada says that, for mortgage insurance applications submitted on or after December 15, 2024, the minimum down payment is 5% on the part of the price up to $500,000 and 10% on the part from $500,000 to $1.5 million, and that the value of the property must be less than $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: mortgage rule changes (Sept 2024)",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "nce applications that lenders submit to mortgage insurers on or after December 15, 2024. These measures will only apply to high loan to value mortgages on pr"
+    },
+    {
+      "id": "34708e65d94e",
+      "value": "5%",
+      "context": "The Department of Finance Canada says that, for mortgage insurance applications submitted on or after December 15, 2024, the minimum down payment is 5% on the part of the price up to $500,000 and 10% on the part from $500,000 to $1.5 million, and that the value of the property must be less than $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: mortgage rule changes (Sept 2024)",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "llion; and, The downpayment requirements for the loan are as follows: 5 per cent on the portion of a purchase price up to $500,000. 10 per cent on the"
+    },
+    {
+      "id": "6eea003a37af",
+      "value": "$500,000",
+      "context": "The Department of Finance Canada says that, for mortgage insurance applications submitted on or after December 15, 2024, the minimum down payment is 5% on the part of the price up to $500,000 and 10% on the part from $500,000 to $1.5 million, and that the value of the property must be less than $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: mortgage rule changes (Sept 2024)",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "p to $500,000. 10 per cent on the portion of a purchase price between $500,000 and $1.5 million. Other Parameters Effective date: These measures wil"
+    },
+    {
+      "id": "8ddee8648a3b",
+      "value": "10%",
+      "context": "The Department of Finance Canada says that, for mortgage insurance applications submitted on or after December 15, 2024, the minimum down payment is 5% on the part of the price up to $500,000 and 10% on the part from $500,000 to $1.5 million, and that the value of the property must be less than $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this example"
+    },
+    {
+      "id": "5bc7f9c80071",
+      "value": "$1.5 million",
+      "context": "The Department of Finance Canada says that, for mortgage insurance applications submitted on or after December 15, 2024, the minimum down payment is 5% on the part of the price up to $500,000 and 10% on the part from $500,000 to $1.5 million, and that the value of the property must be less than $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: mortgage rule changes (Sept 2024)",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " period. Increasing the $1 million price cap for insured mortgages to $1.5 million This measure would apply to all borrowers requiring high loan to valu"
+    },
+    {
+      "id": "ea7712300dc0",
+      "value": "$751,000",
+      "context": "At a price of $751,000 the minimum is $50,100, which is why a $50,000 down payment cannot support a price much above $750,000 even if your income could.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "cb09367f5b49",
+      "value": "$50,100,",
+      "context": "At a price of $751,000 the minimum is $50,100, which is why a $50,000 down payment cannot support a price much above $750,000 even if your income could.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,100"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,100"
+    },
+    {
+      "id": "2b73c07cfe3e",
+      "value": "$50,000",
+      "context": "At a price of $751,000 the minimum is $50,100, which is why a $50,000 down payment cannot support a price much above $750,000 even if your income could.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "546aea405a58",
+      "value": "$750,000",
+      "context": "At a price of $751,000 the minimum is $50,100, which is why a $50,000 down payment cannot support a price much above $750,000 even if your income could.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $750,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $750,000"
+    },
+    {
+      "id": "31e193e356c5",
+      "value": "20%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "h a CMHC Purchase down payment. Conventional down payment: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of"
+    },
+    {
+      "id": "8d42114d8c89",
+      "value": "2.80%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "uding 65% 0.60% 65.01% to 75% 1.70% 75.01% to 80% 2.40% 80.01% to 85% 2.80% 85.01% to 90% 3.10% 90.01% to 95% 4.00% 90.01% to 95% with non-tradit"
+    },
+    {
+      "id": "4956e6fd5af2",
+      "value": "80.01%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "Up to and including 65% 0.60% 65.01% to 75% 1.70% 75.01% to 80% 2.40% 80.01% to 85% 2.80% 85.01% to 90% 3.10% 90.01% to 95% 4.00% 90.01% to 95% wi"
+    },
+    {
+      "id": "416ae2d3749d",
+      "value": "85%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "including 65% 0.60% 65.01% to 75% 1.70% 75.01% to 80% 2.40% 80.01% to 85% 2.80% 85.01% to 90% 3.10% 90.01% to 95% 4.00% 90.01% to 95% with non-"
+    },
+    {
+      "id": "ffcf17c3abe2",
+      "value": "3.10%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional do"
+    },
+    {
+      "id": "13b1aee9cd51",
+      "value": "85.01%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "65% 0.60% 65.01% to 75% 1.70% 75.01% to 80% 2.40% 80.01% to 85% 2.80% 85.01% to 90% 3.10% 90.01% to 95% 4.00% 90.01% to 95% with non-traditional d"
+    },
+    {
+      "id": "01ad58fd1c06",
+      "value": "90%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditio"
+    },
+    {
+      "id": "b6b8e3dc474c",
+      "value": "4.00%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50% 6.60% Pre"
+    },
+    {
+      "id": "5df3a2ab91ab",
+      "value": "90.01%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "o 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4."
+    },
+    {
+      "id": "e2bf0904440f",
+      "value": "95%",
+      "context": "With less than 20% down the loan is insured, and CMHC's premium rises in bands as the loan-to-value rises: 2.80% for 80.01% to 85%, 3.10% for 85.01% to 90% and 4.00% for 90.01% to 95%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50% 6.6"
+    },
+    {
+      "id": "8dab0539be05",
+      "value": "$500,000",
+      "context": "At a $500,000 price with $50,000 down the loan-to-value is 90% and the premium is 3.10%, a loan of $463,950.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "7aa85479b143",
+      "value": "$50,000",
+      "context": "At a $500,000 price with $50,000 down the loan-to-value is 90% and the premium is 3.10%, a loan of $463,950.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "b7c33dced503",
+      "value": "90%",
+      "context": "At a $500,000 price with $50,000 down the loan-to-value is 90% and the premium is 3.10%, a loan of $463,950.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditio"
+    },
+    {
+      "id": "8905a5518b39",
+      "value": "3.10%",
+      "context": "At a $500,000 price with $50,000 down the loan-to-value is 90% and the premium is 3.10%, a loan of $463,950.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional do"
+    },
+    {
+      "id": "44a433980040",
+      "value": "$463,950",
+      "context": "At a $500,000 price with $50,000 down the loan-to-value is 90% and the premium is 3.10%, a loan of $463,950.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $463,950"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $463,950"
+    },
+    {
+      "id": "addfc0f7aec1",
+      "value": "$501,000",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "8c1a6a79535b",
+      "value": "90%",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% Note: The premium is the lesser of: The rate applied to t"
+    },
+    {
+      "id": "e620a30e7454",
+      "value": "4.00%",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% 90.01% to 95% 4.00% 6.30% 90.01% to 95% with non-traditional down payment 4.50% 6.60% Pre"
+    },
+    {
+      "id": "0cfffdadac0a",
+      "value": "$469,040,",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $469,040"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $469,040"
+    },
+    {
+      "id": "88bef4b18026",
+      "value": "$5,090",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $5,090"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $5,090"
+    },
+    {
+      "id": "040ab542ccdd",
+      "value": "$1,000",
+      "context": "At $501,000 the loan-to-value passes 90%, the premium becomes 4.00% and the loan is $469,040, $5,090 more for a $1,000 higher price.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $1,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $1,000"
+    },
+    {
+      "id": "29038265ab58",
+      "value": "3.25%",
+      "context": "That is why the maximum at a 3.25% contract rate in the rate table below stops at $500,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate for the rate table"
+      }
+    },
+    {
+      "id": "b3798050d8cd",
+      "value": "$500,000",
+      "context": "That is why the maximum at a 3.25% contract rate in the rate table below stops at $500,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "0795f7b867c7",
+      "value": "30",
+      "context": "First-time buyers and buyers of a new build can get 30 years on an insured mortgage, and CMHC adds a 0.20% surcharge to the premium when the amortization is longer than 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "s. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Home Start.) Property must be in Canad"
+    },
+    {
+      "id": "6661b2f287d7",
+      "value": "0.20%",
+      "context": "First-time buyers and buyers of a new build can get 30 years on an insured mortgage, and CMHC adds a 0.20% surcharge to the premium when the amortization is longer than 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "l Loan Amount. An amortization period beyond 25 years is subject to a 0.20% surcharge. Premium credits The portability feature may allow for a pr"
+    },
+    {
+      "id": "8711d6ed7ad9",
+      "value": "25",
+      "context": "First-time buyers and buyers of a new build can get 30 years on an insured mortgage, and CMHC adds a 0.20% surcharge to the premium when the amortization is longer than 25 years.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " below $1,500,000 for homeowner loans. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Ho"
+    },
+    {
+      "id": "0bd105d0d55c",
+      "value": "$100,000",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "7de2f5351687",
+      "value": "30",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "s. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Home Start.) Property must be in Canad"
+    },
+    {
+      "id": "f83e27710612",
+      "value": "$478,000",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $478,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $478,000"
+    },
+    {
+      "id": "f07e97c71818",
+      "value": "$451,000",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "273fafe10576",
+      "value": "25",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " below $1,500,000 for homeowner loans. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Ho"
+    },
+    {
+      "id": "d452eb8c73e6",
+      "value": "$27,000,",
+      "context": "On the $100,000 example the 30-year maximum price is about $478,000 against $451,000 at 25 years, a difference of $27,000, and a longer amortization also costs more interest over the life of the loan, so check the total cost before choosing it.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $27,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $27,000"
+    },
+    {
+      "id": "5eb7cdfedc19",
+      "value": "$100,000",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "3ccefb7e5d89",
+      "value": "$451,000",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "eb59b809a420",
+      "value": "4.50%",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "fd48dcaf3ac7",
+      "value": "$417,000",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $417,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $417,000"
+    },
+    {
+      "id": "de677f498902",
+      "value": "5.50%",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate for the rate table"
+      }
+    },
+    {
+      "id": "247c82e61689",
+      "value": "$34,000",
+      "context": "At a $100,000 income the example maximum falls from $451,000 at a 4.50% contract rate to $417,000 at 5.50%, which is $34,000 of buying power for one percentage point.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $34,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $34,000"
+    },
+    {
+      "id": "e08b591fe23a",
+      "value": "$100,000",
+      "context": "Maximum price by contract rate at $100,000 of income (our calculation, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "5b92732542dd",
+      "value": "$50,000",
+      "context": "Maximum price by contract rate at $100,000 of income (our calculation, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "83c4ca5222d4",
+      "value": "25",
+      "context": "Maximum price by contract rate at $100,000 of income (our calculation, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " below $1,500,000 for homeowner loans. Maximum amortization period is 25 years. (Buyers may qualify for a 30-year amortization through CMHC Ho"
+    },
+    {
+      "id": "a265ce32e2ea",
+      "value": "November 27, 2026",
+      "context": "Maximum price by contract rate at $100,000 of income (our calculation, $50,000 down, 25-year amortization, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "0c4c3ca314d8",
+      "value": "3.25%",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "6e554705c2ab",
+      "value": "5.25%",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "7a02c50220f8",
+      "value": "$500,000",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "488131853787",
+      "value": "$463,950",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $463,950"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $463,950"
+    },
+    {
+      "id": "302dc63ac85e",
+      "value": "$2,255.57",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,255.57"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,255.57"
+    },
+    {
+      "id": "598fc37af8ea",
+      "value": "$2,764.76",
+      "context": "3.25% 5.25% $500,000 $463,950 $2,255.57 $2,764.76",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,764.76"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,764.76"
+    },
+    {
+      "id": "f687902f329c",
+      "value": "4.5%",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "1b87177e7014",
+      "value": "6.5%",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(45,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(45,1000)+F(2,100)"
+    },
+    {
+      "id": "7da23b6323f3",
+      "value": "$451,000",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "877232c87394",
+      "value": "$413,431",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $413,431"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $413,431"
+    },
+    {
+      "id": "c6c81559b1e3",
+      "value": "$2,288.23",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,288.23"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,288.23"
+    },
+    {
+      "id": "417c677a8f3b",
+      "value": "$2,769.26",
+      "context": "4.5% 6.5% $451,000 $413,431 $2,288.23 $2,769.26",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,769.26"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,769.26"
+    },
+    {
+      "id": "a07ea5ff1cf2",
+      "value": "5.5%",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "2edb237dba6d",
+      "value": "7.5%",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(55,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(55,1000)+F(2,100)"
+    },
+    {
+      "id": "aaeb41bfd311",
+      "value": "$417,000",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $417,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $417,000"
+    },
+    {
+      "id": "bba2e9f5e6cd",
+      "value": "$378,377",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $378,377"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $378,377"
+    },
+    {
+      "id": "c2a3a266fe8b",
+      "value": "$2,309.58",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,309.58"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,309.58"
+    },
+    {
+      "id": "166be097c566",
+      "value": "$2,768.04",
+      "context": "5.5% 7.5% $417,000 $378,377 $2,309.58 $2,768.04",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,768.04"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,768.04"
+    },
+    {
+      "id": "1ab3b06d7bcc",
+      "value": "6.5%",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "2e03f353aa42",
+      "value": "8.5%",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(65,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(65,1000)+F(2,100)"
+    },
+    {
+      "id": "9080f01825d6",
+      "value": "$388,000",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $388,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $388,000"
+    },
+    {
+      "id": "0c995e9add70",
+      "value": "$348,478",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $348,478"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $348,478"
+    },
+    {
+      "id": "87df5f21aa7d",
+      "value": "$2,334.19",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,334.19"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,334.19"
+    },
+    {
+      "id": "e19973c0c747",
+      "value": "$2,771.67",
+      "context": "6.5% 8.5% $388,000 $348,478 $2,334.19 $2,771.67",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,771.67"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,771.67"
+    },
+    {
+      "id": "66316d7c6842",
+      "value": "5.25%",
+      "context": "The 5.25% floor matters only for low rates: any contract rate under 3.25% is tested at 5.25%, so the maximum price stops rising as rates fall.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "45b556649bd4",
+      "value": "3.25%",
+      "context": "The 5.25% floor matters only for low rates: any contract rate under 3.25% is tested at 5.25%, so the maximum price stops rising as rates fall.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate for the rate table"
+      }
+    },
+    {
+      "id": "cdd3f3b3e9b9",
+      "value": "3.25%",
+      "context": "In the table, the 3.25% row is tested at 5.25%, and its $500,000 maximum is set by the premium cliff at a 90% loan-to-value rather than by the ratios.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate for the rate table"
+      }
+    },
+    {
+      "id": "1ab2159fb549",
+      "value": "5.25%",
+      "context": "In the table, the 3.25% row is tested at 5.25%, and its $500,000 maximum is set by the premium cliff at a 90% loan-to-value rather than by the ratios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "42de0af872d9",
+      "value": "$500,000",
+      "context": "In the table, the 3.25% row is tested at 5.25%, and its $500,000 maximum is set by the premium cliff at a 90% loan-to-value rather than by the ratios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "e7cd1c3e75bd",
+      "value": "90%",
+      "context": "In the table, the 3.25% row is tested at 5.25%, and its $500,000 maximum is set by the premium cliff at a 90% loan-to-value rather than by the ratios.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans",
+      "sourceName": "CMHC: Mortgage loan insurance premiums",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "% 5.90% 75.01% to 80% 2.40% 6.05% 80.01% to 85% 2.80% 6.20% 85.01% to 90% 3.10% 6.25% Note: The premium is the lesser of: The rate applied to t"
+    },
+    {
+      "id": "ed23365b8b59",
+      "value": "$100,000",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "c09d188052ed",
+      "value": "$500",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $500"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $500"
+    },
+    {
+      "id": "783fef3169d3",
+      "value": "$451,000",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "929573009fdf",
+      "value": "$439,000,",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $439,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $439,000"
+    },
+    {
+      "id": "54676e35dc3e",
+      "value": "$1,000",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $1,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $1,000"
+    },
+    {
+      "id": "6068151bf2bd",
+      "value": "$367,000",
+      "context": "At $100,000 of income, $500 a month of other debt payments (a car loan, for example) lowers the example maximum from $451,000 to $439,000, and $1,000 a month lowers it to $367,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $367,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $367,000"
+    },
+    {
+      "id": "71bc59a82b4a",
+      "value": "$100,000",
+      "context": "Maximum price by other monthly debt payments at $100,000 of income (our calculation, 4.50% contract rate, $50,000 down, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $100,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $100,000"
+    },
+    {
+      "id": "501e7facff4c",
+      "value": "4.50%",
+      "context": "Maximum price by other monthly debt payments at $100,000 of income (our calculation, 4.50% contract rate, $50,000 down, November 27, 2026)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "3584facf448b",
+      "value": "$50,000",
+      "context": "Maximum price by other monthly debt payments at $100,000 of income (our calculation, 4.50% contract rate, $50,000 down, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "2e0e3ba060f8",
+      "value": "November 27, 2026",
+      "context": "Maximum price by other monthly debt payments at $100,000 of income (our calculation, 4.50% contract rate, $50,000 down, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "9bb96c3010f0",
+      "value": "$0",
+      "context": "$0 GDS $2,775 $451,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $0"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $0"
+    },
+    {
+      "id": "794059cb0b21",
+      "value": "$2,775",
+      "context": "$0 GDS $2,775 $451,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,775"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,775"
+    },
+    {
+      "id": "4803d52e489a",
+      "value": "$451,000",
+      "context": "$0 GDS $2,775 $451,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $451,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $451,000"
+    },
+    {
+      "id": "74e612756970",
+      "value": "$500",
+      "context": "$500 TDS $2,692 $439,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $500"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $500"
+    },
+    {
+      "id": "f2605d03873f",
+      "value": "$2,692",
+      "context": "$500 TDS $2,692 $439,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,692"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,692"
+    },
+    {
+      "id": "eac83c5c6126",
+      "value": "$439,000",
+      "context": "$500 TDS $2,692 $439,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $439,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $439,000"
+    },
+    {
+      "id": "75bdd23e8081",
+      "value": "$1,000",
+      "context": "$1,000 TDS $2,192 $367,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $1,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $1,000"
+    },
+    {
+      "id": "4a657fd2a86c",
+      "value": "$2,192",
+      "context": "$1,000 TDS $2,192 $367,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $2,192"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $2,192"
+    },
+    {
+      "id": "9450e8117ac6",
+      "value": "$367,000",
+      "context": "$1,000 TDS $2,192 $367,000",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $367,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $367,000"
+    },
+    {
+      "id": "21ab02e31a24",
+      "value": "$400",
+      "context": "A $400 monthly fee adds $200 to the housing costs in both ratios, which at 6.5% lowers the maximum loan by about $29,859, so a condo with high fees needs a lower price than a house at the same income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $400"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $400"
+    },
+    {
+      "id": "44b817ca4df0",
+      "value": "$200",
+      "context": "A $400 monthly fee adds $200 to the housing costs in both ratios, which at 6.5% lowers the maximum loan by about $29,859, so a condo with high fees needs a lower price than a house at the same income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $200"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $200"
+    },
+    {
+      "id": "b3338431bf27",
+      "value": "6.5%",
+      "context": "A $400 monthly fee adds $200 to the housing costs in both ratios, which at 6.5% lowers the maximum loan by about $29,859, so a condo with high fees needs a lower price than a house at the same income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(45,1000)+F(2,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(45,1000)+F(2,100)"
+    },
+    {
+      "id": "cd507f0c212c",
+      "value": "$29,859,",
+      "context": "A $400 monthly fee adds $200 to the housing costs in both ratios, which at 6.5% lowers the maximum loan by about $29,859, so a condo with high fees needs a lower price than a house at the same income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $29,859"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $29,859"
+    },
+    {
+      "id": "06ea41b7da5f",
+      "value": "$500,000",
+      "context": "How much income do I need for a $500,000 house in Canada?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "t: $760,000 x 20% = $152,000 Down payment with CMHC Purchase: = 5% of $500,000 + 10% of $260,000 = $25,000 + $26,000 = $51,000 Comparison: In this e"
+    },
+    {
+      "id": "305fb7eea3f5",
+      "value": "$110,235",
+      "context": "About $110,235 of gross household income on our example: a $50,000 down payment, a 4.50% contract rate, no other debts, and $350 a month of property tax and $125 of heat.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $110,235"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $110,235"
+    },
+    {
+      "id": "a3720c6fb461",
+      "value": "$50,000",
+      "context": "About $110,235 of gross household income on our example: a $50,000 down payment, a 4.50% contract rate, no other debts, and $350 a month of property tax and $125 of heat.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $50,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $50,000"
+    },
+    {
+      "id": "10d677ebf69d",
+      "value": "4.50%",
+      "context": "About $110,235 of gross household income on our example: a $50,000 down payment, a 4.50% contract rate, no other debts, and $350 a month of property tax and $125 of heat.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared example contract rate"
+      }
+    },
+    {
+      "id": "458b354e3034",
+      "value": "$350",
+      "context": "About $110,235 of gross household income on our example: a $50,000 down payment, a 4.50% contract rate, no other debts, and $350 a month of property tax and $125 of heat.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $350"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $350"
+    },
+    {
+      "id": "48250dcdb638",
+      "value": "$125",
+      "context": "About $110,235 of gross household income on our example: a $50,000 down payment, a 4.50% contract rate, no other debts, and $350 a month of property tax and $125 of heat.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $125"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $125"
+    },
+    {
+      "id": "7d6ffe44c5e3",
+      "value": "$463,950,",
+      "context": "The loan including the CMHC premium is $463,950, and the qualifying payment plus tax and heat must be no more than 39% of income.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $463,950"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $463,950"
+    },
+    {
+      "id": "51d5b3cdd1f7",
+      "value": "39%",
+      "context": "The loan including the CMHC premium is $463,950, and the qualifying payment plus tax and heat must be no more than 39% of income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "a569e0e21980",
+      "value": "39%",
+      "context": "CMHC caps them at 39% and 44% of gross income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " ratios Maximum thresholds: Gross Debt Service (GDS) Ratio: 39% Total Debt Service (TDS) Ratio: 44% Int"
+    },
+    {
+      "id": "a94a6b7770c9",
+      "value": "44%",
+      "context": "CMHC caps them at 39% and 44% of gross income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/preparing-mortgage.html",
+      "sourceName": "Financial Consumer Agency of Canada: Preparing for a mortgage",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "plicable) Total debt load Your total debt load shouldn't be more than 44% of your gross income. This includes your total monthly housing costs "
+    },
+    {
+      "id": "cd45a2253725",
+      "value": "5.25%",
+      "context": "It is the rate the lender uses to test your payment: the greater of your contract rate plus 2 percentage points or 5.25%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "at is the greater of the contract interest rate plus 2%, or 5.25%. Advancing options Single advances: Imp"
+    },
+    {
+      "id": "4f7b721c9c1a",
+      "value": "5%",
+      "context": "At least 5% of the first $500,000 of the price and 10% of the part from $500,000 to $1.5 million for an insured mortgage, and the property value must be under $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "0% LTV Minimum equity requirements For homeowner loans: 1 to 2 units: 5% of the first $500,000 of lending value and 10% of the remainder 3 to "
+    },
+    {
+      "id": "7751fd50adcf",
+      "value": "$500,000",
+      "context": "At least 5% of the first $500,000 of the price and 10% of the part from $500,000 to $1.5 million for an insured mortgage, and the property value must be under $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "quity requirements For homeowner loans: 1 to 2 units: 5% of the first $500,000 of lending value and 10% of the remainder 3 to 4 units: 10% Purchase "
+    },
+    {
+      "id": "0eaca8a68b07",
+      "value": "10%",
+      "context": "At least 5% of the first $500,000 of the price and 10% of the part from $500,000 to $1.5 million for an insured mortgage, and the property value must be under $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/purchase",
+      "sourceName": "CMHC: Mortgage loan insurance for home purchase",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "er loans: 1 to 2 units: 5% of the first $500,000 of lending value and 10% of the remainder 3 to 4 units: 10% Purchase price / lending value, am"
+    },
+    {
+      "id": "3e331f324a0d",
+      "value": "$1.5 million",
+      "context": "At least 5% of the first $500,000 of the price and 10% of the part from $500,000 to $1.5 million for an insured mortgage, and the property value must be under $1.5 million.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/department-finance/news/2024/09/delivering-the-boldest-mortgage-reforms-in-decades.html",
+      "sourceName": "Department of Finance Canada: mortgage rule changes (Sept 2024)",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " period. Increasing the $1 million price cap for insured mortgages to $1.5 million This measure would apply to all borrowers requiring high loan to valu"
+    },
+    {
+      "id": "dfaaf89c0715",
+      "value": "$10,000",
+      "context": "Each $10,000 of extra down payment adds at least $10,000 to the price.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $10,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $10,000"
+    }
+  ]
+}

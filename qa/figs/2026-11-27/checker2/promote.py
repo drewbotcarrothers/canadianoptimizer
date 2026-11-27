@@ -4,7 +4,7 @@ import json, sys
 from pathlib import Path
 WT = Path(__file__).resolve().parents[4]
 V = 'Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch'
-SL = ["critical-illness-vs-disability-insurance-canada"]
+SL = ["critical-illness-vs-disability-insurance-canada", "how-much-house-can-i-afford-canada"]
 for s in SL:
     fp = WT/'content/figures'/f'{s}.json'; d = json.loads(fp.read_text()); c = {'sourced': 0, 'derived': 0}
     for f in d['figures']:
