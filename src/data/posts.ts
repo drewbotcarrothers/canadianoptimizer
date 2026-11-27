@@ -15552,6 +15552,10 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     author: "Andrew",
     date: "2026-03-30",
     updated: "2026-11-27",
+    youtubeId: "yY51z6QmEdk",
+    youtubeTitle: "The 2027 TFSA Limit Is $7,500",
+    youtubeUploadDate: "2026-11-27T17:07:27-05:00",
+    youtubeDuration: "PT6M37S",
     excerpt: "The 2027 TFSA dollar limit is $7,500 from January 1, 2027. Cumulative room since 2009 is $116,500 if you have never contributed. The 2026 limit stays $7,000.",
     image: "/images/blog/contribution-limits.png",
     content: `<div class="container">
