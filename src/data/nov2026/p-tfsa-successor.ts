@@ -1,6 +1,8 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-16';
+const UPDATED = '2026-11-27';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const DEATH = `${TFSA}/death-of-holder`;
 
@@ -79,7 +81,7 @@ const content = `<div class="container">
 
     <p data-info-gain>Tracing one $120,000 TFSA through three designations shows the real gap: a spouse can keep the full $120,000 sheltered either way, as long as a beneficiary spouse files Form RC240 on time, but an adult child who has used their room can re-shelter only what their own room allows, which may be just the $7,000 the 2026 limit added, or nothing.</p>
 
-    <p>For the child, the rest goes into a taxable account, where its future income is taxed every year. That is not a reason to skip naming children, since naming them still avoids the estate. It is a reason to know the money leaves the TFSA system unless they have room. The CRA's <a href="${TFSA}/contributing/calculate-room.html">2026 TFSA dollar limit</a> is $7,000.</p>
+    <p>For the child, the rest goes into a taxable account, where its future income is taxed every year. That is not a reason to skip naming children, since naming them still avoids the estate. It is a reason to know the money leaves the TFSA system unless they have room. The CRA's 2026 TFSA dollar limit is $7,000. The <a href="${INDEXATION}">2027 dollar limit</a> is $7,500, effective January 1, 2027.</p>
 
     <h2 id="successor">How does a successor holder work?</h2>
     <p>The spouse becomes the holder the moment you die. The CRA's <a href="${DEATH}/successor-holder.html">successor holder page</a> says the value on the date of death and any income earned after that date stay sheltered from tax, and because the TFSA continues, the deceased is not considered to receive anything.</p>
@@ -187,11 +189,12 @@ const content = `<div class="container">
         <a href="/ebooks/retirement-guide/" class="cta-button">See the Retirement Guide</a>
     </div>
 
-    ${batchFooter(D, 'Retirement', disclaimer)}
+    ${batchFooter(D, 'Retirement', disclaimer, UPDATED)}
 
 </div>`;
 
-export const tfsaSuccessorPost = batchPost({
+export const tfsaSuccessorPost = {
+  ...batchPost({
   date: D,
   category: 'Retirement',
   categorySlug: 'retirement',
@@ -201,4 +204,6 @@ export const tfsaSuccessorPost = batchPost({
   excerpt:
     'A successor holder keeps your TFSA tax-free; a beneficiary gets a payout. How each works for a spouse, a child and the estate, with the CRA deadlines that apply.',
   content,
-});
+}),
+  updated: UPDATED,
+};

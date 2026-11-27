@@ -1,6 +1,8 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-16';
+const UPDATED = '2026-11-27';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 const CRA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals';
 const T4037 = 'https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4037/capital-gains.html';
 const IT510 =
@@ -94,7 +96,7 @@ const content = `<div class="container">
     <p>Accounts that shelter the income remove the attribution question. The right one depends on the child's age and goal.</p>
     <ul>
         <li><strong>RESP, for a child of any age.</strong> The <a href="${CESG}">Canada Education Savings Grant</a> adds up to 20% of the first $2,500 contributed each year, a maximum of $500 a year and $7,200 per child over their lifetime. Our <a href="/blog/resp-investing-age-glide-path-canada/">RESP investing guide</a> covers how to invest it.</li>
-        <li><strong>TFSA, for a child 18 or older.</strong> The CRA's <a href="${CRA}/topics/tax-free-savings-account/opening.html">TFSA opening rules</a> require the holder to be 18; in provinces where the age of majority is 19, they open it at 19 and keep the room from the year they turned 18. The <a href="${CRA}/topics/tax-free-savings-account/contributing/calculate-room.html">2026 TFSA dollar limit</a> is $7,000. Give the cash; your child makes the contribution.</li>
+        <li><strong>TFSA, for a child 18 or older.</strong> The CRA's <a href="${CRA}/topics/tax-free-savings-account/opening.html">TFSA opening rules</a> require the holder to be 18; in provinces where the age of majority is 19, they open it at 19 and keep the room from the year they turned 18. The 2026 TFSA dollar limit is $7,000. The <a href="${INDEXATION}">2027 dollar limit</a> is $7,500, effective January 1, 2027. Give the cash; your child makes the contribution.</li>
         <li><strong>FHSA, for an adult first-time buyer.</strong> The CRA's <a href="${CRA}/topics/first-home-savings-account/contributing-your-fhsa.html">FHSA contribution page</a> gives $8,000 of participation room in the year the first FHSA is opened, and the CRA's <a href="${CRA}/topics/first-home-savings-account/definitions.html">FHSA definitions</a> set the lifetime limit at $40,000. Contributions are deductible by your child, not by you. Our <a href="/blog/fhsa-guide/">FHSA guide</a> covers the rest.</li>
     </ul>
 
@@ -170,11 +172,12 @@ const content = `<div class="container">
         <a href="/ebooks/tax-guide/" class="cta-button">See the Tax Guide</a>
     </div>
 
-    ${batchFooter(D, 'Taxes', disclaimer)}
+    ${batchFooter(D, 'Taxes', disclaimer, UPDATED)}
 
 </div>`;
 
-export const giftingChildrenPost = batchPost({
+export const giftingChildrenPost = {
+  ...batchPost({
   date: D,
   category: 'Taxes',
   categorySlug: 'taxes',
@@ -184,4 +187,6 @@ export const giftingChildrenPost = batchPost({
   excerpt:
     'Canada has no gift tax, but the attribution rules decide who pays tax on what a gift earns. What to know before you give cash, shares, a TFSA top-up or a down payment.',
   content,
-});
+}),
+  updated: UPDATED,
+};

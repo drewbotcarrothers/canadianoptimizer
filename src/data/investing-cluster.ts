@@ -726,7 +726,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     ...investingPost(
     'best-etfs-tfsa-canada',
     'Best ETFs for a TFSA in Canada (2026)',
-    'The best TFSA ETF in 2026 is a Canadian-listed fund you will hold. US withholding in a TFSA is not creditable, and the TFSA limit is $7,000.',
+    'The best TFSA ETF in 2026 is a Canadian-listed fund you will hold. US withholding in a TFSA is not creditable. The 2026 TFSA limit is $7,000 and the 2027 limit is $7,500.',
     `<div class="container">
 
     <div class="hook">
@@ -738,7 +738,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Confirm room before you contribute. The 2026 dollar limit is $7,000. Unused room and last year's withdrawals add to it. This year's contributions subtract.</li>
+            <li>Confirm room before you contribute. The 2026 dollar limit is $7,000. The 2027 dollar limit is $7,500, effective January 1, 2027. Unused room and last year's withdrawals add to it. This year's contributions subtract.</li>
             <li>If you will not rebalance, one asset-allocation ETF is the whole TFSA. XEQT and VEQT are the all-equity examples. XGRO and VGRO are the versions with bonds.</li>
             <li>The treaty exemption for US dividends does not apply to a TFSA. Article XXI covers pension arrangements. A TFSA is not one.</li>
             <li>VFV's 12-month trailing yield was 0.86% as of 31 October 2026. In 2025, for every $1 VFV paid out, about 19 cents had already gone to US withholding tax (Vanguard's 2025 distribution history). In a TFSA that tax is gone.</li>
@@ -836,7 +836,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
     <p>One Canadian-listed asset-allocation ETF that matches your mix, if you will not rebalance. Use an all-equity fund only if you can hold it through a large decline. Use a growth or balanced fund if the sentence you wrote down includes bonds. There is no single ticker that is best for every horizon. Confirm the MER on the facts sheet the day you buy.</p>
 
     <h3>What is the 2027 TFSA limit?</h3>
-    <p>The CRA had not announced the 2027 TFSA dollar limit as of November 22, 2026. Its limits table ends at $7,000 for 2026. The limit is the original $5,000 indexed to inflation and rounded to the nearest $500, so do not plan a January deposit on a projected number. Someone who was 18 or older and resident in Canada every year since 2009 has $109,000 of cumulative dollar limits through 2026. Your own room also depends on past contributions and withdrawals. Check CRA My Account.</p>
+    <p>The 2027 TFSA dollar limit is $7,500, effective January 1, 2027. The CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation adjustment page</a>, reviewed November 27, 2026, lists $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is the original $5,000 indexed to inflation after 2009 and rounded to the nearest $500. Someone who was 18 or older and resident in Canada every year since 2009 and has never contributed has $109,000 of cumulative dollar limits through 2026, and $116,500 from January 1, 2027. Your own room also depends on past contributions and withdrawals. Check CRA My Account.</p>
 
     <h3>Does US withholding cost more than the MER in a TFSA?</h3>
     <p>For an S&amp;P 500 fund like VFV, it can. In the example above, the 0.08% MER on $50,000 is about $40 a year, while the US tax a TFSA cannot recover is roughly $80 at the October 2026 yield. Higher-yield US funds widen that gap.</p>
@@ -892,6 +892,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <li><a href="https://www.vanguard.ca/content/dam/intl/americas/canada/en/documents/Distribution-history-en-2025.pdf">Vanguard: 2025 distribution history for Canada-domiciled ETFs (VFV foreign withholding tax per unit)</a></li>
         <li><a href="https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio">Vanguard VEQT</a></li>
         <li><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio">iShares XEQT product page</a></li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500. Footnote 5.</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: TFSA dollar limits table, 2009 to 2026</a></li>
         <li><a href="https://www.wealthsimple.com/en-ca/pricing">Wealthsimple pricing (foreign exchange fees)</a></li>
         <li><a href="https://www.questrade.com/pricing/self-directed-investing/fees">Questrade fees (USD in registered accounts)</a></li>
@@ -904,7 +905,7 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
-    ${footer('September 27, 2026', 'November 2026', 'November 22, 2026')}
+    ${footer('September 27, 2026', 'November 2026', 'November 27, 2026')}
 
 </div>`
     ),
@@ -2275,7 +2276,7 @@ export const INVESTING_SUBCATEGORY: Record<string, string> = {
 
 const REFRESHED_UPDATED: Record<string, string> = {
   'xeqt-vs-veqt-canada': '2026-10-24',
-  'best-etfs-tfsa-canada': '2026-11-22',
+  'best-etfs-tfsa-canada': '2026-11-27',
   'best-robo-advisors-canada': '2026-11-01',
 };
 

@@ -36,9 +36,9 @@ function taxPost(slug: string, title: string, excerpt: string, content: string):
   };
 }
 
-const footer = (published: string) => `<div class="article-footer">
+const footer = (published: string, updated?: string) => `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian income tax as of September 2026. It is not tax, legal, or investment advice, and it is not a filing position. Brackets, credits, penalties, and inclusion rates change, and they depend on your return. Figures below are tied to CRA, the Department of Finance, Revenu Québec, or a provincial finance page reviewed in September 2026. Dollar examples are illustrations of arithmetic, not a projection of your assessment. Confirm the current form and consult a tax professional for your file.</p>
-        <div class="footer-note">Published: ${published} | Category: Taxes | Author: Andrew</div>
+        <div class="footer-note">Published: ${published}${updated ? ` | Updated: ${updated}` : ''} | Category: Taxes | Author: Andrew</div>
     </div>`;
 
 const published = 'September 27, 2026';
@@ -626,14 +626,15 @@ export const taxesClusterPosts: TaxPost[] = [
 </div>`
   ),
 
-  taxPost(
+  {
+    ...taxPost(
     'tfsa-overcontribution-penalty',
     "TFSA Over-Contribution Penalty: How It's Calculated and How to Fix It",
-    'A TFSA excess is taxed at 1% a month on the highest excess that month. The 2026 limit is $7,000. Withdraw it; that month still counts.',
+    'A TFSA excess is taxed at 1% a month on the highest excess that month. The 2026 limit is $7,000 and the 2027 limit is $7,500. Withdraw it; that month still counts.',
     `<div class="container">
 
     <div class="hook">
-        A TFSA over-contribution is taxed at <span class="highlight">1 percent per month</span> on the highest excess in the account for each month the excess exists. The tax applies even if you withdraw later in the same month. The 2026 TFSA dollar limit is $7,000. The account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. How the wider return is assembled is <a href="/blog/how-canadian-taxes-work/">how Canadian taxes work</a>.
+        A TFSA over-contribution is taxed at <span class="highlight">1 percent per month</span> on the highest excess in the account for each month the excess exists. The tax applies even if you withdraw later in the same month. The 2026 TFSA dollar limit is $7,000. The 2027 dollar limit is $7,500, effective January 1, 2027, on the CRA <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation page</a>. The account itself is <a href="/blog/tfsa-strategies/">TFSA strategies</a>. How the wider return is assembled is <a href="/blog/how-canadian-taxes-work/">how Canadian taxes work</a>.
     </div>
 
     <div class="callout">
@@ -675,7 +676,7 @@ export const taxesClusterPosts: TaxPost[] = [
         </tbody>
     </table>
 
-    <p>Table as of September 2026. Source: CRA, "If you owe tax on excess TFSA amounts." The dollar limit for 2026 is $7,000, added on January 1. The schedule of limits is the <a href="/blog/contribution-limits/">2026 contribution limits</a> page. The January funding habit, which is where most excesses start, is <a href="/blog/tfsa-contribution-optimization/">TFSA contribution optimization</a>.</p>
+    <p>Table as of September 2026. Source: CRA, "If you owe tax on excess TFSA amounts." The dollar limit for 2026 is $7,000, added on January 1. The 2027 dollar limit is $7,500, effective January 1, 2027. The schedule of limits is the <a href="/blog/contribution-limits/">contribution limits</a> page. The January funding habit, which is where most excesses start, is <a href="/blog/tfsa-contribution-optimization/">TFSA contribution optimization</a>.</p>
 
     <div class="example-box">
         <strong>Illustration: a stale CRA balance</strong>
@@ -743,10 +744,12 @@ export const taxesClusterPosts: TaxPost[] = [
 
     <p><strong>Related:</strong> <a href="/blog/tfsa-withdrawal-rules/">TFSA withdrawal rules: when your room comes back</a> &middot; <a href="/blog/investing-when-leaving-canada-tfsa-rrsp/">Leaving Canada? What happens to your TFSA, RRSP and investments</a></p>
 
-    ${footer(published)}
+    ${footer(published, 'November 27, 2026')}
 
 </div>`
-  ),
+    ),
+    updated: '2026-11-27',
+  },
 
   taxPost(
     'charitable-donation-tax-credit-canada',

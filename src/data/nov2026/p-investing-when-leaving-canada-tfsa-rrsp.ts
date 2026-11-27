@@ -1,6 +1,8 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-22';
+const UPDATED = '2026-11-27';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 const EMIG = 'https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents';
 const TFSA = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account';
 const RRSP = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans';
@@ -100,7 +102,7 @@ const content = `<div class="container">
         </table>
     </div>
     <p data-info-gain="true"><strong>Our worked example:</strong> of Sam's $310,000 across four accounts, only the $80,000 brokerage account triggers departure tax, on a $30,000 deemed gain. His $150,000 RRSP, the account most people worry about, is untouched on departure, and if he later collapses it as a non-resident without a treaty reduction, $37,500 is withheld at 25%, compared with a 30% prepayment of $45,000 and full marginal tax if he cashed it in before leaving.</p>
-    <p>Three things follow from his numbers. First, he must file T1161, because his reportable property ($80,000) is over $25,000; the TFSA, RRSP and cash do not count toward it. Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security. Third, his TFSA must not get any more deposits. If an automatic $7,000 contribution went in during January 2027 and stayed for five months, the non-resident tax alone would be $350 (1% a month), and up to another $350 if it also exceeded his room.</p>
+    <p>Three things follow from his numbers. First, he must file T1161, because his reportable property ($80,000) is over $25,000; the TFSA, RRSP and cash do not count toward it. Second, even if the whole $30,000 gain were taxed at the top 2026 federal rate of 33%, the federal tax would be $9,900, below the $16,500 level at which the CRA asks for security, so a T1244 deferral would not need security. Third, his TFSA must not get any more deposits. The 2027 dollar limit is $7,500, effective January 1, 2027, on the CRA's <a href="${INDEXATION}">indexation adjustment page</a>. If an automatic contribution of that $7,500 went in during January 2027 and stayed for five months, the non-resident tax alone would be $375 (1% a month), and up to another $375 if it also exceeded his room. The 2026 limit of $7,000 still applies to a year he was resident for part of 2026.</p>
 
     <h2 id="hbp">Home Buyers' Plan balances when you become a non-resident</h2>
     <p>If you owe an HBP balance, leaving brings it due. The CRA's <a href="${RRSP}/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html">HBP repayment page</a> says that if you become a non-resident after you buy or build a qualifying home, you must either repay the remaining balance to your RRSPs by the earlier of the time you file your return for the year you become a non-resident and 60 days after you become a non-resident, or include the balance as RRSP income on line 12900 of that return.</p>
@@ -150,6 +152,7 @@ const content = `<div class="container">
         <li><a href="${RRSP}/what-home-buyers-plan/repay-funds-withdrawn-rrsp-s-under-home-buyers-plan.html">CRA: Repay funds withdrawn under the Home Buyers' Plan</a>, reviewed November 22, 2026</li>
         <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 22, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 22, 2026</li>
+        <li><a href="${INDEXATION}">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500.</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
     </ul>
 
@@ -168,11 +171,12 @@ const content = `<div class="container">
         <a href="/ebooks/investing-guide/" class="cta-button">See the Canadian Investing Guide</a>
     </div>
 
-    ${batchFooter(D, 'Investing', disclaimer)}
+    ${batchFooter(D, 'Investing', disclaimer, UPDATED)}
 
 </div>`;
 
-export const investingWhenLeavingCanadaPost = batchPost({
+export const investingWhenLeavingCanadaPost = {
+  ...batchPost({
   date: D,
   category: 'Investing',
   categorySlug: 'investing',
@@ -182,4 +186,6 @@ export const investingWhenLeavingCanadaPost = batchPost({
   excerpt:
     'Leaving Canada? Your TFSA and RRSP escape departure tax, but not the rules after. See each account, Form T1161, Part XIII withholding and a worked example.',
   content,
-});
+}),
+  updated: UPDATED,
+};

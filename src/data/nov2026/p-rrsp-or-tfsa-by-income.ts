@@ -1,6 +1,8 @@
 import { batchFooter, batchPost } from './types';
 
 const D = '2026-11-22';
+const UPDATED = '2026-11-27';
+const INDEXATION = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html';
 const BRACKETS = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html';
 const LIMITS = 'https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html';
 const RRSP = 'https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans';
@@ -118,7 +120,7 @@ const content = `<div class="container">
 
     <h2 id="high">High incomes: the RRSP room cap and OAS recovery tax</h2>
     <p>At high incomes the RRSP looks unbeatable in the table, but two limits change the picture.</p>
-    <p><strong>The room cap.</strong> The CRA's <a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">deduction limit page</a> sets new RRSP room at 18% of the previous year's earned income, up to the annual limit of $33,810 for 2026, minus any pension adjustment. That cap is reached at $187,833 of earned income ($33,810 divided by 18%). The 2027 limit is $35,390, per the CRA's <a href="${LIMITS}">limits table</a>. Above the cap, extra savings have to go to a TFSA or a non-registered account anyway, so the question becomes order, not choice.</p>
+    <p><strong>The room cap.</strong> The CRA's <a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">deduction limit page</a> sets new RRSP room at 18% of the previous year's earned income, up to the annual limit of $33,810 for 2026, minus any pension adjustment. That cap is reached at $187,833 of earned income ($33,810 divided by 18%). The 2027 limit is $35,390, per the CRA's <a href="${LIMITS}">limits table</a>. Above the cap, extra savings have to go to a TFSA or a non-registered account anyway, so the question becomes order, not choice. The 2027 TFSA dollar limit is $7,500, effective January 1, 2027, on the CRA's <a href="${INDEXATION}">indexation adjustment page</a>. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. The 2026 TFSA limit stays $7,000. Cumulative room for someone eligible every year since 2009 who has never contributed is $116,500 from January 1, 2027, and $109,000 through 2026.</p>
     <p><strong>OAS recovery tax.</strong> RRSP and RRIF withdrawals are taxable income, and in retirement that income counts toward the OAS recovery tax. The Government of Canada's <a href="${OAS}">recovery tax page</a> sets the threshold at $95,323 of net income for the 2026 income year, which applies to OAS paid from July 2027 to June 2028, and the repayment is 15% of income above it. A retiree with $100,000 of net income would repay $701.55 (15% of $4,677). On the next $1,000 they withdraw, the effective rate in Ontario is 46.48%: 31.48% income tax plus 15% recovery. At that point an RRSP built at a 43.41% rate loses to a TFSA.</p>
     <p>TFSA withdrawals are not income. The CRA's <a href="${TFSA}/what.html">TFSA overview</a> says income earned in a TFSA and withdrawals from it do not affect eligibility for federal income-tested benefits and credits, including OAS, the Guaranteed Income Supplement, Employment Insurance, the Canada child benefit, the Canada workers benefit and the GST/HST credit. That is the strongest reason a high earner with a big RRSP should still fill a TFSA every year. Our <a href="/blog/oas-gis-clawback-canada/">OAS and GIS clawback guide</a> and <a href="/blog/rrsp-meltdown-strategy/">RRSP meltdown guide</a> go further.</p>
 
@@ -143,6 +145,8 @@ const content = `<div class="container">
     <p>Usually. At low incomes the RRSP refund is small, and RRIF withdrawals in retirement can reduce the GIS. TFSA withdrawals do not affect the GIS or other income-tested benefits.</p>
     <h3>Should I put my RRSP refund in my TFSA?</h3>
     <p>That is a strong default. The RRSP only beats the TFSA by the amounts in our table if the refund is saved or invested, and a TFSA keeps it tax-free.</p>
+    <h3>What is the 2027 TFSA limit?</h3>
+    <p>$7,500, effective January 1, 2027, on the CRA indexation adjustment page reviewed November 27, 2026. The 2026 limit is $7,000. Cumulative room since 2009 is $116,500 from that date for someone eligible every year who has never contributed, and $109,000 through 2026.</p>
     <h3>How much RRSP room do I get in 2026?</h3>
     <p>18% of your 2025 earned income, up to $33,810, minus any pension adjustment, plus unused room carried forward. Your exact figure is on your notice of assessment.</p>
     <h3>Does the answer change if I live in Quebec?</h3>
@@ -156,6 +160,7 @@ const content = `<div class="container">
     <ul>
         <li><a href="${BRACKETS}">CRA: Tax rates and income brackets for individuals, current year (2026)</a>, reviewed November 22, 2026</li>
         <li><a href="${RRSP}/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html">CRA: How contributions affect your RRSP deduction limit</a>, reviewed November 22, 2026</li>
+        <li><a href="${INDEXATION}">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500. Footnote 5.</li>
         <li><a href="${LIMITS}">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, reviewed November 22, 2026</li>
         <li><a href="${RRSP}/making-withdrawals/tax-rates-on-withdrawals.html">CRA: Tax rates on RRSP withdrawals</a>, reviewed November 22, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1213.html">CRA: Form T1213, Request to Reduce Tax Deductions at Source</a>, reviewed November 22, 2026</li>
@@ -179,11 +184,12 @@ const content = `<div class="container">
         <a href="/ebooks/investing-guide/" class="cta-button">See the Canadian Investing Guide</a>
     </div>
 
-    ${batchFooter(D, 'Investing', disclaimer)}
+    ${batchFooter(D, 'Investing', disclaimer, UPDATED)}
 
 </div>`;
 
-export const rrspOrTfsaByIncomePost = batchPost({
+export const rrspOrTfsaByIncomePost = {
+  ...batchPost({
   date: D,
   category: 'Investing',
   categorySlug: 'investing',
@@ -193,4 +199,6 @@ export const rrspOrTfsaByIncomePost = batchPost({
   excerpt:
     'RRSP or TFSA? We ran 2026 tax brackets at 12 incomes from $40,000 to $250,000 to show how many dollars each account wins by, plus BC and Alberta rates.',
   content,
-});
+}),
+  updated: UPDATED,
+};

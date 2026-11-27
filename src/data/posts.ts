@@ -4172,8 +4172,8 @@ const allPosts: BlogPostRecord[] = [
     categorySlug: "investing",
     author: "Andrew",
     date: "2026-09-15",
-    updated: "2026-09-15",
-    excerpt: "When to fund 2026 TFSA room, which assets belong inside, and the overcontribution and in-kind mistakes that quietly cost more than the contribution.",
+    updated: "2026-11-27",
+    excerpt: "When to fund TFSA room, which assets belong inside, and the overcontribution and in-kind mistakes that quietly cost more than the contribution. The 2027 limit is $7,500.",
     image: "/images/blog/tfsa-contribution-optimization.png",
     content: `<div class="container">
 
@@ -4185,7 +4185,7 @@ const allPosts: BlogPostRecord[] = [
 
     <div class="callout">
         <strong>Confirm your room before you move money:</strong>
-        <p>TFSA room is personal. It is not “the limit you saw in an article.” Log into CRA My Account and read your available room. CRA’s figure can lag contributions and withdrawals you made this year, so add those yourself. This site’s 2026 planning figures, consistent with our deduction checklist, are <span class="highlight">$7,000 of new room</span> and about <span class="highlight">$109,000 of cumulative room</span> for someone who was 18 or older and resident in Canada every year since 2009 and has never contributed. If that is not you, those numbers are not your numbers.</p>
+        <p>TFSA room is personal. It is not “the limit you saw in an article.” Log into CRA My Account and read your available room. CRA’s figure can lag contributions and withdrawals you made this year, so add those yourself. For 2026 the dollar limit is <span class="highlight">$7,000</span> and cumulative room through 2026 is <span class="highlight">$109,000</span> for someone who was 18 or older and resident in Canada every year since 2009 and has never contributed. From January 1, 2027 the dollar limit is <span class="highlight">$7,500</span> and that same person’s cumulative room is <span class="highlight">$116,500</span>. The CRA’s <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation adjustment page</a>, reviewed November 27, 2026, sets the 2027 indexation increase at 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. If that history is not yours, those numbers are not your numbers.</p>
     </div>
 
     <h2>How 2026 room is actually built</h2>
@@ -4303,7 +4303,7 @@ const allPosts: BlogPostRecord[] = [
     <h2>Key takeaways</h2>
 
     <ul>
-        <li><strong>Room is personal.</strong> Use CRA My Account. The $7,000 and $109,000 figures are planning totals for a full-history resident, not a promise about your file.</li>
+        <li><strong>Room is personal.</strong> Use CRA My Account. The 2026 figures are $7,000 and $109,000. From January 1, 2027 they are $7,500 and $116,500. Those are planning totals for a full-history resident, not a promise about your file.</li>
         <li><strong>Withdrawals return as room the next January 1,</strong> not sooner. Recontributing the same year is how the 1 percent monthly tax starts.</li>
         <li><strong>January 1 wins</strong> when the cash can stay. It loses when you will need the money back.</li>
         <li><strong>Do not hold US dividend stocks in the TFSA</strong> if the RRSP can hold them instead. Withholding tax is not recoverable.</li>
@@ -7129,7 +7129,7 @@ const allPosts: BlogPostRecord[] = [
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-02-10",
-    updated: "2026-09-26",
+    updated: "2026-11-27",
     excerpt: "TFSA strategies past the annual deposit: how withdrawals restore room, what belongs in the account, and transfers that waste the tax-free space.",
     image: "/images/blog/tfsa-strategies.png",
     content: `<div class="container">
@@ -7153,8 +7153,9 @@ const allPosts: BlogPostRecord[] = [
         <div class="key-facts-box">
 <h3>2026 TFSA Quick Reference</h3>
 <ul>
-<li>Annual contribution limit: $7,000 (2026)</li>
-<li>Cumulative room since 2009 (if 18+ in Canada): $109,000</li>
+<li>2026 annual contribution limit: $7,000</li>
+<li>2027 annual contribution limit: $7,500, effective January 1, 2027</li>
+<li>Cumulative room since 2009 (if 18+ in Canada and never contributed): $109,000 through 2026, $116,500 from January 1, 2027</li>
 <li>Withdrawn amounts return January 1 of the FOLLOWING year</li>
 <li>Investment growth is 100% tax-free forever</li>
 <li>Withdrawals don't trigger OAS clawback or affect income-tested benefits</li>
@@ -7166,11 +7167,11 @@ const allPosts: BlogPostRecord[] = [
         <h2>TFSA Basics: The 2026 Numbers</h2>
 
         <p>
-                Before we dive into strategies, let's nail down the fundamentals. The TFSA contribution limit for 2026 is $7,000 — up from $6,500 in 2023. The annual limit has changed several times over the account's history, which is why many Canadians don't realize how much total room they may have accumulated.
+                Before we dive into strategies, let's nail down the fundamentals. The TFSA contribution limit for 2026 is $7,000, and the 2027 limit is $7,500, effective January 1, 2027, up from $6,500 in 2023. The CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation page</a>, reviewed November 27, 2026, sets the 2027 indexation increase at 2.6% and rounds the indexed $5,000 base to the nearest $500. The annual limit has changed several times over the account's history, which is why many Canadians don't realize how much total room they may have accumulated.
             </p>
 
         <p>
-                If you've been a Canadian resident age 18 or older since 2009 (when the TFSA launched), and you've never contributed, your current cumulative room is $109,000. That's a substantial amount of tax shelter, and it's far more than the average Canadian has in unused TFSA room.
+                If you've been a Canadian resident age 18 or older since 2009 (when the TFSA launched), and you've never contributed, your cumulative room is $109,000 through 2026 and $116,500 from January 1, 2027. That's a substantial amount of tax shelter, and it's far more than the average Canadian has in unused TFSA room.
             </p>
 
         <table>
@@ -7215,7 +7216,12 @@ const allPosts: BlogPostRecord[] = [
 <tr>
 <td>2024–2026</td>
 <td>$7,000</td>
-<td>$102,000–$109,000</td>
+<td>$95,000–$109,000</td>
+</tr>
+<tr>
+<td>2027</td>
+<td>$7,500</td>
+<td>$116,500</td>
 </tr>
 </tbody>
 </table>
@@ -7251,7 +7257,7 @@ const allPosts: BlogPostRecord[] = [
 <li>June 2026: You withdraw $5,000 for a car repair.</li>
 <li>Your 2026 contribution room is now $0 (you still "used up" that $7,000).</li>
 <li>January 1, 2027: The $5,000 you withdrew RETURNS to your room on January 1.</li>
-<li>January 2027: You can now contribute $5,000 (plus the new $7,000 2027 limit) = $12,000 available.</li>
+<li>January 2027: You can now contribute $5,000 (plus the new $7,500 2027 limit) = $12,500 available.</li>
 </ul>
 </div>
 
@@ -7391,7 +7397,7 @@ const allPosts: BlogPostRecord[] = [
 <li>January 2026: You contribute $7,000 to your TFSA for your emergency fund. It's invested in a GIC ladder or high-interest savings holding within the TFSA.</li>
 <li>July 2026: Your car breaks down. You withdraw $4,000 from your TFSA emergency fund.</li>
 <li>December 2026: You still have your $3,000 emergency cushion in the TFSA, and your contribution room for the year is exhausted.</li>
-<li>January 1, 2027: The $4,000 you withdrew RETURNS to your contribution room. You now have $4,000 + $7,000 (2027 limit) = $11,000 to contribute.</li>
+<li>January 1, 2027: The $4,000 you withdrew RETURNS to your contribution room. You now have $4,000 + $7,500 (2027 limit) = $11,500 to contribute.</li>
 <li>You can re-build the emergency fund while continuing to invest.</li>
 </ul>
 </div>
@@ -8156,7 +8162,7 @@ const allPosts: BlogPostRecord[] = [
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-02-13",
-    updated: "2026-09-26",
+    updated: "2026-11-27",
     excerpt: "How to choose between an RRSP, a TFSA, and an FHSA based on your income, a first home, and which account should get the next dollar.",
     image: "/images/blog/rrsp-vs-tfsa-vs-fhsa.png",
     content: `<div class="container">
@@ -8197,13 +8203,13 @@ const allPosts: BlogPostRecord[] = [
 <tr>
 <td class="table-label">2026 Annual Limit</td>
 <td>$33,810 (or 18% of prior year earned income)</td>
-<td>$7,000</td>
+<td>$7,000. The 2027 TFSA limit is $7,500 from January 1, 2027</td>
 <td>$8,000</td>
 </tr>
 <tr>
 <td class="table-label">Lifetime Limit</td>
 <td>No limit (but capped by earned income)</td>
-<td>$109,000 (cumulative since 2009)</td>
+<td>$109,000 through 2026; $116,500 from January 1, 2027 (cumulative since 2009, if never contributed)</td>
 <td>$40,000 (lifetime)</td>
 </tr>
 <tr>
@@ -8275,7 +8281,7 @@ const allPosts: BlogPostRecord[] = [
         <h3>TFSA: The Flexible Account</h3>
 
         <p>
-                You contribute after-tax dollars. Your money grows tax-free. When you withdraw, it's completely tax-free—and next year, that contribution room comes back. <strong>The magic:</strong> Complete flexibility and zero impact on income-tested benefits. <strong>The catch:</strong> Your $7,000 annual limit is much smaller than the RRSP's.
+                You contribute after-tax dollars. Your money grows tax-free. When you withdraw, it's completely tax-free—and next year, that contribution room comes back. <strong>The magic:</strong> Complete flexibility and zero impact on income-tested benefits. <strong>The catch:</strong> The annual limit ($7,000 in 2026, $7,500 in 2027) is much smaller than the RRSP's.
             </p>
 
         <h3>FHSA: The Home Buyer's Accelerator</h3>
@@ -14273,7 +14279,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-03-16",
-    updated: "2026-03-16",
+    updated: "2026-11-27",
     excerpt: "Canadians leave an average of $1,200 on the table each year by missing tax planning windows. This calendar tracks the deadlines.",
     image: "/images/blog/tax-planning-calendar.png",
     content: `<div class="container">
@@ -14409,7 +14415,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <ul>
 <li>Execute tax-loss harvesting strategy</li>
 <li>Finalize charitable donation timing</li>
-<li>Confirm TFSA contribution room (limit: $7,000)</li>
+<li>Confirm TFSA contribution room (2026 limit: $7,000; 2027 limit: $7,500 from January 1)</li>
 <li>Plan Q4 instalment if needed</li>
 </ul>
 </div>
@@ -14584,7 +14590,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
         <p>Both accounts have December 31 deadlines:</p>
 
         <ul>
-<li><strong>TFSA 2026 limit: $7,000</strong> (cumulative lifetime room: $95,000 for most Canadians)</li>
+<li><strong>TFSA 2026 limit: $7,000</strong> (cumulative room since 2009: $109,000 through 2026). <strong>2027 limit: $7,500</strong> from January 1, 2027 (cumulative room $116,500 if eligible every year and never contributed).</li>
 <li><strong>FHSA 2026 limit: $8,000</strong> (lifetime limit: $40,000 for first-time home buyers)</li>
 </ul>
 
@@ -15068,7 +15074,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-03-28",
-    updated: "2026-03-28",
+    updated: "2026-11-27",
     excerpt: "A checklist to open every tax season, covering deductions, credits, and other tax-saving opportunities for Canadians.",
     image: "/images/blog/tax-deduction-checklist.png",
     content: `<div class="container">
@@ -15089,7 +15095,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <li><strong>RRSP Contributions</strong> — Deduct contributions up to your limit ($33,810 for 2026 or 18% of prior-year earned income, whichever is less). Check your Notice of Assessment for your exact room. Deadline: March 1, 2027 for the 2026 tax year. <span class="form-ref">Schedule 7</span> <a href="/blog/rrsp-playbook/">[RRSP Guide]</a></li>
 <li><strong>Spousal RRSP Contributions</strong> — Contribute to your spouse's RRSP using your own contribution room. The contributor claims the deduction, but the funds belong to the spouse. Powerful for income splitting in retirement. Be aware of the 3-year attribution rule. <span class="form-ref">Schedule 7</span></li>
 <li><strong>FHSA Contributions</strong> — First Home Savings Account contributions are deductible up to $8,000 per year ($40,000 lifetime). There is no first-year catch-up provision. Carry-forward of unused room is capped at $8,000. If you're a first-time home buyer, this should be your top priority. <span class="form-ref">Schedule 15</span> <a href="/blog/fhsa-guide/">[FHSA Guide]</a></li>
-<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your $7,000 annual room ($109,000 cumulative since 2009) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="/blog/tfsa-strategies/">[TFSA Guide]</a></li>
+<li><strong>TFSA Contributions</strong> — While TFSA contributions aren't tax-deductible, maximizing your annual room ($7,000 in 2026, $7,500 from January 1, 2027; $109,000 cumulative through 2026 and $116,500 from that date if you were eligible every year and have never contributed) shelters all future growth from tax permanently. Ensure you haven't over-contributed. <a href="/blog/tfsa-strategies/">[TFSA Guide]</a></li>
 <li><strong>RESP Contributions</strong> — Not deductible, but the government matches 20% of your contribution through the Canada Education Savings Grant (CESG) up to $500/year per child ($7,200 lifetime per child). <a href="/blog/tax-tips-families/">[Family Tax Guide]</a></li>
 </ul>
 
@@ -15263,11 +15269,11 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td>TFSA Annual Limit</td>
-<td>$7,000</td>
+<td>$7,000 in 2026; $7,500 in 2027</td>
 </tr>
 <tr>
 <td>TFSA Cumulative Room (since 2009)</td>
-<td>$109,000</td>
+<td>$109,000 through 2026; $116,500 from January 1, 2027</td>
 </tr>
 <tr>
 <td>FHSA Annual Limit</td>
@@ -15539,20 +15545,22 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </div>`
   },
   {
-    title: "2026 Canadian Contribution Limits | RRSP TFSA FHSA CPP",
+    title: "2027 TFSA Limit and Canadian Contribution Limits",
     slug: "contribution-limits",
     category: "Taxes",
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-03-30",
-    updated: "2026-03-30",
-    excerpt: "FHSA unused room carries forward, but only up to $8,000. That cap limits what you can contribute in a single year.",
+    updated: "2026-11-27",
+    excerpt: "The 2027 TFSA dollar limit is $7,500 from January 1, 2027. Cumulative room since 2009 is $116,500 if you have never contributed. The 2026 limit stays $7,000.",
     image: "/images/blog/contribution-limits.png",
     content: `<div class="container">
 
     <div class="hook">
-        Between your RRSP, TFSA, FHSA, and RESP, you could shelter over <strong>$58,000</strong> in contributions in a single year — generating thousands in tax savings and government grants. Here's every number you need for 2026.
+        The 2027 TFSA dollar limit is <strong>$7,500</strong>, effective January 1, 2027. That is $500 more than the $7,000 limit for 2024, 2025, and 2026. Someone eligible every year since 2009 who has never contributed has <strong>$116,500</strong> of room from that date.
     </div>
+
+    <p>The Canada Revenue Agency's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026, sets the 2027 indexation increase at 2.6% and the annual TFSA dollar limit at $7,500. The same row is $7,000 for 2026, 2025, and 2024. Footnote 5 says that for 2016 and each later year the limit is fixed at $5,000, indexed to inflation for each year after 2009, and rounded to the nearest $500. The $116,500 figure is the sum of every annual limit from 2009 through 2027. Through 2026 that sum is $109,000. It is not a balance the CRA prints as one number, and it is not your room if you were under 18, not a resident, or you have already contributed or withdrawn. The year-by-year reference is the <a href="/2027-contribution-limits/">2027 contribution limits</a> page.</p>
 
     <h2>Registered Account Limits</h2>
 
@@ -15574,9 +15582,9 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 </tr>
 <tr>
 <td><strong>TFSA</strong></td>
+<td>$7,000 for 2026. $7,500 for 2027, effective January 1, 2027</td>
 <td>$7,000</td>
-<td>$7,000</td>
-<td>Cumulative room since 2009: $109,000 (if 18+ in 2009). Withdrawals restore room Jan 1 of following year.</td>
+<td>Cumulative room since 2009: $109,000 through 2026, and $116,500 from January 1, 2027, if you were eligible every year and have never contributed. Withdrawals restore room on January 1 of the following year.</td>
 </tr>
 <tr>
 <td><strong>FHSA</strong></td>
@@ -15606,44 +15614,62 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <h2>TFSA Cumulative Room by Year of Eligibility</h2>
 
-        <p>Your TFSA contribution room depends on the year you turned 18 and became a Canadian resident. The following table shows cumulative room for someone who has been eligible since each year:</p>
+        <p>Your TFSA contribution room depends on the year you turned 18 and became a Canadian resident. The totals below are the sum of the CRA annual limits for someone who has never contributed or withdrawn. The 2009–2026 limits are on the CRA limits table. The 2027 limit of $7,500 is on the indexation page. The 2015 formula on an earlier version of this table overstated the 2026 total by $500; the amounts here match the annual limits.</p>
 
         <table>
 <thead>
 <tr>
 <th>Year Turned 18</th>
-<th>Annual Limits Since Then</th>
-<th>Total Room by 2026</th>
+<th>Annual Limits Since Then, through 2026</th>
+<th>Total Room through 2026</th>
+<th>Total Room from January 1, 2027</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>2009 or earlier</td>
-<td>$5K×4 + $5.5K×2 + $10K + $5.5K×4 + $6K×3 + $6.5K + $7K×3</td>
+<td>$5,000×4 + $5,500×2 + $10,000 + $5,500×3 + $6,000×4 + $6,500 + $7,000×3</td>
 <td><strong>$109,000</strong></td>
+<td><strong>$116,500</strong></td>
 </tr>
 <tr>
 <td>2015</td>
-<td>$10K + $5.5K×4 + $6K×3 + $6.5K + $7K×3</td>
-<td><strong>$78,500</strong></td>
+<td>$10,000 + $5,500×3 + $6,000×4 + $6,500 + $7,000×3</td>
+<td><strong>$78,000</strong></td>
+<td><strong>$85,500</strong></td>
 </tr>
 <tr>
 <td>2020</td>
-<td>$6K×3 + $6.5K + $7K×3</td>
+<td>$6,000×3 + $6,500 + $7,000×3</td>
 <td><strong>$45,500</strong></td>
+<td><strong>$53,000</strong></td>
 </tr>
 <tr>
 <td>2024</td>
-<td>$7K×3</td>
+<td>$7,000×3</td>
 <td><strong>$21,000</strong></td>
+<td><strong>$28,500</strong></td>
 </tr>
 <tr>
 <td>2026</td>
-<td>$7K</td>
+<td>$7,000</td>
 <td><strong>$7,000</strong></td>
+<td><strong>$14,500</strong></td>
+</tr>
+<tr>
+<td>2027</td>
+<td>Not yet eligible in 2026</td>
+<td><strong>$0</strong></td>
+<td><strong>$7,500</strong></td>
 </tr>
 </tbody>
 </table>
+
+        <h2>Sources for the 2027 TFSA limit</h2>
+        <ul>
+<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 indexation increase 2.6%. Annual TFSA dollar limit $7,500 for 2027 and $7,000 for 2026, 2025, and 2024. Footnote 5.</li>
+<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE</a>, for the 2009–2026 TFSA dollar limits and the 2026 and 2027 RRSP dollar limits.</li>
+        </ul>
 
         <h2>Payroll Contribution Limits</h2>
 
@@ -15817,8 +15843,8 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
             <a href="/blog/federal-tax-brackets/">Federal Brackets 2026</a> |
             <a href="/blog/cra-deadlines/">CRA Deadlines 2026</a>
 </p>
-<p style="margin-top: 15px;"><em>Last updated: April 2026. Extremely high search volume in January. Bookmark this page for quick reference.</em></p>
-        <p style="margin-top: 15px;"><em>Last updated: April 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
+<p style="margin-top: 15px;"><em>Last updated: November 27, 2026. The 2027 TFSA dollar limit is from the CRA indexation page. Bookmark this page for the January room.</em></p>
+        <p style="margin-top: 15px;"><em>Last updated: November 27, 2026. This article is for informational purposes only and does not constitute professional tax advice. Consult a qualified tax professional for advice specific to your situation.</em></p>
     </div>
 
 </div>`
@@ -15830,7 +15856,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "taxes",
     author: "Andrew",
     date: "2026-04-03",
-    updated: "2026-04-03",
+    updated: "2026-11-27",
     excerpt: "A glossary of Canadian tax terms from the 2026 tax guide, with plain-language definitions you can use while you file.",
     image: "/images/blog/tax-glossary.png",
     content: `<div class="container">
@@ -16256,7 +16282,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 
         <div class="term">
 <span class="term-name">Tax-Free Savings Account (TFSA)</span>
-<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. Cumulative room since 2009: $109,000. Withdrawals restore contribution room on January 1 of the following year. <a href="/blog/tfsa-strategies/">[TFSA Strategies]</a></p>
+<p class="term-def">A registered account where contributions aren't deductible, but all growth and withdrawals are completely tax-free. 2026 annual limit: $7,000. 2027 annual limit: $7,500, effective January 1, 2027, on the CRA indexation page. Cumulative room since 2009: $109,000 through 2026 and $116,500 from January 1, 2027, for someone eligible every year who has never contributed. Withdrawals restore contribution room on January 1 of the following year. <a href="/blog/tfsa-strategies/">[TFSA Strategies]</a></p>
 </div>
 
         <div class="term">
@@ -16549,7 +16575,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew",
     date: "2026-03-04",
-    updated: "2026-09-26",
+    updated: "2026-11-27",
     excerpt: "A 30-year-old saving $400/month retires with $714,000.",
     image: "/images/blog/retirement-planning-by-age.png",
     content: `<div class="container"><h1>Retirement Planning by Age: What to Do in Your 30s, 40s, 50s &amp; 60s</h1>
@@ -16565,7 +16591,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <h3>Priority 3: Start Contributing to RRSP and TFSA</h3>
 <p>You have two tax-sheltered accounts in Canada: the **Registered Retirement Savings Plan (RRSP)** and the **Tax-Free Savings Account (TFSA)**.</p>
 <p><strong>RRSP:</strong> Contributions reduce your taxable income (you get a tax deduction), and all growth is tax-deferred. At age 30 earning $60,000/year, you're likely in the 20–25% tax bracket. Every $1,000 you contribute saves you $200–$250 in taxes. That's free money. By 2026, the annual RRSP contribution limit is **18% of prior-year income**, capped at $31,560. At $60,000 income, you can contribute ~$10,800/year or $900/month. You won't use your full room, and that's okay—unused room carries forward forever.</p>
-<p><strong>TFSA:</strong> Contributions don't reduce your taxable income, but all growth is completely tax-free and withdrawals are tax-free. There's no Required Minimum Distribution—your money grows untouched. By 2026, cumulative TFSA room for someone 30 years old is approximately **$95,000** (the annual limit is $7,000, with $1,000 more added annually). Most 30-year-olds haven't used all their room, so you have a backlog to catch up on.</p>
+<p><strong>TFSA:</strong> Contributions don't reduce your taxable income, but all growth is completely tax-free and withdrawals are tax-free. There's no Required Minimum Distribution—your money grows untouched. The 2026 annual limit is $7,000. The 2027 annual limit is $7,500, effective January 1, 2027. Cumulative room depends on the year you turned 18. Someone eligible every year since 2009 who has never contributed has $109,000 through 2026 and $116,500 from January 1, 2027.</p>
 <p><strong>Contribution strategy for your 30s:</strong> Start with at least **$200–$400/month** split between RRSP and TFSA. If your employer offers an RRSP match, prioritize getting that first—it's free money. Contribute enough to get the full match, then split the rest between RRSP and TFSA. A basic example: earn $60,000, employer matches 5% of RRSP contributions (up to $3,000/year). Contribute $250/month to RRSP to capture the full match ($3,000), then contribute $250/month to TFSA. Total: $500/month. This is aggressive relative to your income, but compound growth over 35 years will dwarf these early contributions.</p>
 <h3>Priority 4: Capture Employer Matching</h3>
 <p>If your employer offers an RRSP or pension match, take it. It's a guaranteed immediate return on your money. If your employer matches **5% of contributions**, and you don't contribute 5%, you're leaving free money on the table. Prioritize this over extra TFSA contributions.</p>
@@ -17796,13 +17822,13 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     categorySlug: "retirement",
     author: "Andrew",
     date: "2026-03-16",
-    updated: "2026-09-26",
+    updated: "2026-11-27",
     excerpt: "How a TFSA works as retirement income in Canada: tax-free withdrawals, income-tested benefits, and when it belongs beside an RRSP.",
     image: "/images/blog/tfsa-retirement-strategy.png",
     content: `<div class="container">
 <h1>TFSA for Retirement: Why It Might Be More Powerful Than Your RRSP</h1>
 <div class="hook">
-<strong>Your TFSA room has quietly grown to $109,000 since 2009. At a conservative 7% average return, that's over $380,000 completely tax-free, invisible to OAS clawback, and untouched by income-tested benefits.</strong> While everyone obsesses over maximizing RRSPs, most Canadians are leaving a more powerful retirement tool on the table. Here's what you need to know about using TFSAs strategically for retirement.
+<strong>From January 1, 2027, TFSA room for someone eligible every year since 2009 who has never contributed is $116,500. Through 2026 that total is $109,000.</strong> Withdrawals are tax-free and do not count as income for OAS or GIS. While everyone obsesses over maximizing RRSPs, most Canadians are leaving a more powerful retirement tool on the table. Here's what you need to know about using TFSAs strategically for retirement.
   </div>
 <p>The TFSA isn't just a tax shelter. It's a benefit-protection vehicle that can be more valuable than an RRSP in the right situation. Let's look at why.</p>
 <!-- Pro Tip Box -->
@@ -17871,30 +17897,35 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <tr>
 <td>2016–2018</td>
 <td>$5,500</td>
-<td>$55,500</td>
+<td>$57,500</td>
 </tr>
 <tr>
 <td>2019–2022</td>
 <td>$6,000</td>
-<td>$79,500</td>
+<td>$81,500</td>
 </tr>
 <tr>
 <td>2023</td>
 <td>$6,500</td>
-<td>$86,000</td>
+<td>$88,000</td>
 </tr>
 <tr>
 <td>2024–2026</td>
 <td>$7,000</td>
 <td>$109,000</td>
 </tr>
+<tr>
+<td>2027</td>
+<td>$7,500</td>
+<td>$116,500</td>
+</tr>
 </tbody>
 </table>
 <p>
-    If you opened a TFSA in 2009 and contributed the maximum every year, your cumulative room is <strong>$109,000 as of 2026</strong>. The CRA adjusts the annual limit every five years based on inflation, rounded to the nearest $500.
+    If you opened a TFSA in 2009 and contributed the maximum every year, your cumulative room is <strong>$109,000 through 2026</strong> and <strong>$116,500 from January 1, 2027</strong>. The CRA's <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">indexation page</a>, reviewed November 27, 2026, sets the 2027 dollar limit at $7,500. The 2027 indexation increase is 2.6%. Footnote 5 says the limit is $5,000 indexed to inflation after 2009 and rounded to the nearest $500. It is not adjusted only once every five years.
   </p>
 <p>
-    Find your exact contribution room on CRA My Account or your Notice of Assessment. The CRA tracks every dollar. Overcontribute by more than $200, and you'll face a 1% per month penalty until you correct it.
+    Find your exact contribution room on CRA My Account. The CRA tracks every dollar. The 1% per month tax on a TFSA excess applies from the first dollar. There is no $2,000 cushion of the kind an RRSP has.
   </p>
 <h3>Contribution Room Carries Forward</h3>
 <p>
@@ -18185,7 +18216,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
     The TFSA's real power isn't the tax-free growth (RRSPs do that too). It's the ability to withdraw in retirement without triggering tax, OAS clawback, or GIS reduction. For Canadians with modest incomes who might qualify for benefits, the TFSA is often more valuable than an RRSP.
   </p>
 <p>
-    And here's the kicker: most Canadians are nowhere near maxing their TFSAs. Your $109,000 in available room is waiting. At 7% growth, it becomes $380,000+. That's retirement income with zero tax and zero benefit impact.
+    And here's the kicker: most Canadians are nowhere near maxing their TFSAs. Cumulative room since 2009 is $109,000 through 2026 and $116,500 from January 1, 2027, if you were eligible every year and have never contributed. That's retirement income with zero tax and zero benefit impact.
   </p>
 <p>
 <strong>Don't leave this power on the table.</strong>
@@ -18281,7 +18312,7 @@ Deductible vehicle expenses: $7,300 × 72% = $5,256
 <div class="warning-box"><strong>Two limits on this idea.</strong> You need cash or TFSA money to live on while the RRSP draws are taxed, and pulling money out early gives up years of tax-deferred growth. The RRSP meltdown is a trade, not a free lunch. Read <a href="/blog/rrsp-meltdown-strategy/">the RRSP meltdown guide</a> before you act on it.</div>
 
 <h2>Why does the TFSA belong in the high-income years?</h2>
-<p>A TFSA withdrawal is not taxable income. The CRA's TFSA guide says income earned in a TFSA, and withdrawals from it, do not reduce federal income-tested benefits such as OAS and GIS. So the TFSA is the account to use in a year when an RRSP or RRIF withdrawal would land on a 22.6% or 37.1% dollar, and for one-off costs such as a roof or a car. The 2026 annual TFSA limit is $7,000. See <a href="/blog/tfsa-retirement-strategy/">the TFSA retirement strategy guide</a> for how to build room.</p>
+<p>A TFSA withdrawal is not taxable income. The CRA's TFSA guide says income earned in a TFSA, and withdrawals from it, do not reduce federal income-tested benefits such as OAS and GIS. So the TFSA is the account to use in a year when an RRSP or RRIF withdrawal would land on a 22.6% or 37.1% dollar, and for one-off costs such as a roof or a car. The 2026 annual TFSA limit is $7,000. The 2027 limit is $7,500, effective January 1, 2027. See <a href="/blog/tfsa-retirement-strategy/">the TFSA retirement strategy guide</a> for how to build room.</p>
 
 <h2>What does the RRIF minimum force you to take?</h2>
 <p>The RRSP must be closed, converted to a RRIF or used to buy an annuity by the end of the year you turn 71, according to the CRA. A RRIF then has to pay a minimum each year: your January 1 balance times a factor. The factor is 1 divided by (90 minus your age) up to age 70, then 5.28% at 71 and 5.40% at 72.</p>

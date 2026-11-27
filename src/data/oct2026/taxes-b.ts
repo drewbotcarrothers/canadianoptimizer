@@ -2,7 +2,7 @@ import { octPost } from './types';
 
 const footer = `<div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian income tax as of October 19, 2026. It is not tax, legal, or investment advice, and it is not a filing position. Deadlines, withholding rates, and the prescribed interest rate change. Figures are tied to CRA, ESDC, TMX, Revenu Québec, or Department of Finance pages reviewed on October 19, 2026, or are labelled as arithmetic on stated assumptions. Confirm the form and consult a tax professional for your file.</p>
-        <div class="footer-note">Published: October 4, 2026 | Updated: October 19, 2026 | Category: Taxes | Author: Andrew</div>
+        <div class="footer-note">Published: October 4, 2026 | Updated: November 27, 2026 | Category: Taxes | Author: Andrew</div>
     </div>`;
 
 export const oct2026TaxPostsB = [
@@ -73,7 +73,7 @@ export const oct2026TaxPostsB = [
                 </tr>
                 <tr>
                     <td>TFSA withdrawal you want back as 2027 room</td>
-                    <td>The withdrawal has to occur in 2026. Room returns January 1, 2027, plus the 2027 dollar limit once CRA announces it</td>
+                    <td>The withdrawal has to occur in 2026. Room returns January 1, 2027, plus the 2027 dollar limit of $7,500</td>
                     <td>Recontributing in December and creating an excess. See the <a href="/blog/tfsa-overcontribution-penalty/">penalty page</a></td>
                 </tr>
                 <tr>
@@ -150,7 +150,7 @@ export const oct2026TaxPostsB = [
         </div>
         <div class="timeline-item">
             <div class="timeline-year">January 1, 2027</div>
-            <p>A 2026 TFSA withdrawal returns as room. The 2027 dollar limit is added only once CRA announces it.</p>
+            <p>A 2026 TFSA withdrawal returns as room, and the 2027 dollar limit of $7,500 is added the same day. CRA's indexation page, reviewed November 27, 2026, sets that limit. The 2026 limit stays $7,000.</p>
         </div>
         <div class="timeline-item">
             <div class="timeline-year">January 30, 2027</div>
@@ -357,6 +357,7 @@ export const oct2026TaxPostsB = [
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html">CRA: Participating in your FHSAs</a>, reviewed October 19, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/important-dates-rrsp-rrif-rdsp.html">CRA: Important dates for RRSPs, FHSAs and more</a>, reviewed October 19, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html">CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits</a>, reviewed October 19, 2026</li>
+        <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html">CRA: Indexation adjustment for personal income tax and benefit amounts</a>, reviewed November 27, 2026. 2027 TFSA dollar limit $7,500. 2026 limit $7,000.</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/owing-tax/excess.html">CRA: If you owe tax on excess TFSA amounts</a>, reviewed October 19, 2026</li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html">CRA: Capital losses, including superficial loss</a>, reviewed October 19, 2026</li>
         <li><a href="https://tsx.com/en/resource/3407/">TMX: 2026 settlement schedule</a>, reviewed October 19, 2026</li>
@@ -394,7 +395,7 @@ export const oct2026TaxPostsB = [
 
 </div>`
     ),
-    updated: '2026-10-19',
+    updated: '2026-11-27',
     youtubeId: 'uauASJQGZA4',
     youtubeTitle: 'Year-End Tax Deadlines in Canada 2026: What Really Ends Dec 31',
     youtubeUploadDate: '2026-10-21T02:20:45-04:00',
