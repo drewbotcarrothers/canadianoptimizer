@@ -1,0 +1,142 @@
+| Post | Family | Words | Verdict | Fails |
+|---|---|---|---|---|
+| `land-transfer-tax-ontario` | province | 2188 | PASS (manual items open) | — |
+| `property-transfer-tax-bc` | province | 1864 | PASS (manual items open) | — |
+| `welcome-tax-quebec` | province | 1594 | PASS (manual items open) | — |
+| `30-year-amortization-canada` | vs | 1856 | PASS (manual items open) | — |
+| `critical-illness-vs-disability-insurance-canada` | vs | 1943 | PASS (manual items open) | — |
+
+### Ontario Land Transfer Tax, Including Toronto's Municipal Tax (`land-transfer-tax-ontario`, 2026-11-27)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: one table that puts Ontario's tax and Toronto's April 2026 municipal …" |
+| 2 | Answer first | PASS | answer 60 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":239,"rows":221,"missing":0,"sourced":120,"example":20,"derived":81,"unclassified":0,"sources":5};  |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest property-transfer-tax-bc 1.5% |
+| 6 | Evidence-first money page | N/A | family province |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 60 chars; query words matched 3/3 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/real-estate/closing-costs-transfer-tax/ in first 150 words: yes; 3 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 27, 2026 \| Category: Real Estate \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1500 words (province) | PASS | 2188 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: none (category has no book) |
+| 20 | Pilot gate | PASS | pilot list: 3/5 |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently |
+
+### BC Property Transfer Tax: Rates, Exemptions and First-Time Buyers (`property-transfer-tax-bc`, 2026-11-27)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: the full first time home buyers' exemption schedule recalculated from…" |
+| 2 | Answer first | PASS | answer 56 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":218,"rows":196,"missing":0,"sourced":160,"example":20,"derived":16,"unclassified":0,"sources":6};  |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest land-transfer-tax-ontario 1.7% |
+| 6 | Evidence-first money page | N/A | family province |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 65 chars; query words matched 2/2 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/real-estate/closing-costs-transfer-tax/ in first 150 words: yes; 3 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 27, 2026 \| Category: Real Estate \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1500 words (province) | PASS | 1864 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: none (category has no book) |
+| 20 | Pilot gate | PASS | pilot list: 3/5 |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently |
+
+### Quebec Welcome Tax: How the Transfer Duty Is Calculated (`welcome-tax-quebec`, 2026-11-27)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: the same five example prices calculated under the provincial base rat…" |
+| 2 | Answer first | PASS | answer 57 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":152,"rows":136,"missing":0,"sourced":80,"example":13,"derived":43,"unclassified":0,"sources":4};  |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest land-transfer-tax-ontario 1.0% |
+| 6 | Evidence-first money page | N/A | family province |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 55 chars; query words matched 2/2 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/real-estate/closing-costs-transfer-tax/ in first 150 words: yes; 3 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 27, 2026 \| Category: Real Estate \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1500 words (province) | PASS | 1594 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: none (category has no book) |
+| 20 | Pilot gate | PASS | pilot list: 3/5 |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently |
+
+### 25 vs 30-Year Mortgage Amortization: The Real Cost (`30-year-amortization-canada`, 2026-11-27)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: a worked $700,000 purchase at three scenario rates comparing 25 and 3…" |
+| 2 | Answer first | PASS | answer 64 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":208,"rows":200,"missing":0,"sourced":93,"example":23,"derived":84,"unclassified":0,"sources":3};  |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest cmhc-mortgage-insurance-canada 1.6% |
+| 6 | Evidence-first money page | N/A | family vs |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 50 chars; query words matched 2/2 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/real-estate/mortgages-renewal/ in first 150 words: yes; 4 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | topic overlap allowed (Andrew 2026-11-20), text similarity checked separately: latestmortgagerates.ca/30-year-amortization-canada |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 27, 2026 \| Category: Real Estate \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1800 words (vs) | PASS | 1856 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: none (category has no book) |
+| 20 | Pilot gate | N/A | family vs |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently |
+
+### Critical Illness vs Disability Insurance: Which Gap Is Bigger? (`critical-illness-vs-disability-insurance-canada`, 2026-11-27)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disa…" |
+| 2 | Answer first | PASS | answer 66 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | PASS | {"numbers":97,"rows":96,"missing":0,"sourced":42,"example":10,"derived":44,"unclassified":0,"sources":6};  |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest canadian-insurance-planning-guide 0.7% |
+| 6 | Evidence-first money page | N/A | family vs |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 62 chars; query words matched 4/4 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/insurance/income-protection/ in first 150 words: yes; 4 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 27, 2026 \| Category: Insurance \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1800 words (vs) | PASS | 1943 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: insurance-guide |
+| 20 | Pilot gate | N/A | family vs |
+| 2a | Agent: answers read as answers | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 read in full 2026-11-27; the answer paragraph follows the hook and each question H2/H3 and FAQ opens with the answer in its first sentence |
+| 4a | Agent: no invented quotes or experience | PASS | agent: Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch 2026-11-27 no quotes or experience claims; named people are labelled examples; unsourced generalisations removed during review; every number traced to a fetched official page or recomputed independently |

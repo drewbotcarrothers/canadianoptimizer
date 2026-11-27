@@ -1,0 +1,26 @@
+/ei-sickness/benefit-amount.html	\$729
+/ei-sickness/benefit-amount.html	26 weeks
+/ei-sickness/benefit-amount.html	55%
+/cpp-disability-benefit/benefit-amount.html	\$1,741\.20
+/cpp-disability-benefit/benefit-amount.html	\$1,236\.32
+/cpp-disability-benefit/benefit-amount.html	\$610\.46
+/cpp-disability-benefit/eligibility.html	between 18 and 65
+/cpp-disability-benefit/eligibility.html	4 out of those 6 years
+/cpp-disability-benefit/eligibility.html	25 years
+/services/insurance/disability.html	60% to 85%|60% and 85%
+/services/insurance/health.html	critical illness
+/ei/ei-sickness.html	short-term disability
+/services/insurance/disability.html	multiple
+/services/insurance/disability.html	tax-free
+/services/insurance/disability.html	subject to income taxes
+/services/insurance/disability.html	up to 6 months
+/services/insurance/disability.html	60% to 70%
+/services/insurance/disability.html	increase your coverage without a medical exam
+/services/insurance/disability.html	inflation
+/services/insurance/health.html	daycare or renovations
+/services/insurance/health.html	Alzheimer
+/services/insurance/health.html	lump-sum
+/services/insurance/health.html	Stroke
+/ei-sickness/benefit-amount.html	medical certificate|medical reasons
+/cpp-disability-benefit/eligibility.html	18
+/cpp-disability-benefit/eligibility.html	regular basis

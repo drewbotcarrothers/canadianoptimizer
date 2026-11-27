@@ -1,0 +1,24 @@
+{
+ "critical-illness-vs-disability-insurance-canada vs s_critical-illness-insurance-canada-worth-it_html.html": {
+  "pct5": 0.4,
+  "shared8": 2,
+  "sample8": [
+   "lump sum if you are diagnosed with a",
+   "lump sum if you are diagnosed with a"
+  ]
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_disability-insurance-canada-workplace-ltd-gaps_html.html": {
+  "pct5": 0.2,
+  "shared8": 0,
+  "sample8": []
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_long-term-disability-claim-canada_html.html": {
+  "pct5": 0.7,
+  "shared8": 11,
+  "sample8": [
+   "insurable earnings up to a maximum of $729",
+   "earnings up to a maximum of $729 a",
+   "up to a maximum of $729 a week"
+  ]
+ }
+}

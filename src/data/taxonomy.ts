@@ -925,8 +925,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the disability insurance guide, which explains own-occupation definitions, waiting periods and group plan traps, then critical illness insurance and the self-employed guide. Policy terms come from insurers' own documents with the date checked.",
       "Government disability programs are covered in the Government Benefits disability hub.",
     ],
-    decisions: ["How would I pay the bills if I couldn't work?", "Is my group disability plan enough?", "Do I need critical illness insurance?", "What can I get if I'm self-employed?"],
-    startHere: ["disability-insurance-canada-guide", "critical-illness-insurance-canada", "disability-insurance-self-employed-canada"],
+    decisions: ["How would I pay the bills if I couldn't work?", "Is my group disability plan enough?", "Do I need critical illness insurance?", "Which is the bigger gap, lost income or a lump-sum need?", "What can I get if I'm self-employed?"],
+    startHere: ["disability-insurance-canada-guide", "critical-illness-insurance-canada", "critical-illness-vs-disability-insurance-canada", "disability-insurance-self-employed-canada"],
   },
   "insurance/health-dental": {
     intro: [

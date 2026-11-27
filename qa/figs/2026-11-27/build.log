@@ -1,0 +1,71 @@
+
+> site@0.1.0 build
+> next build && node scripts/copy-htaccess.mjs
+
+▲ Next.js 16.1.7 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.5s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/410) ...
+  Generating static pages using 7 workers (102/410) 
+  Generating static pages using 7 workers (204/410) 
+  Generating static pages using 7 workers (307/410) 
+✓ Generating static pages using 7 workers (410/410) in 2.1s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /2027-combined-marginal-tax-rates
+├ ○ /2027-contribution-limits
+├ ○ /about
+├ ○ /blog
+├ ● /blog/[slug]
+│ ├ /blog/diy-etf-portfolio-asset-location-canada
+│ ├ /blog/best-online-brokerages-canada
+│ ├ /blog/mer-drag-index-funds-canada
+│ └ [+299 more paths]
+├ ● /category/[slug]
+│ ├ /category/investing
+│ ├ /category/taxes
+│ ├ /category/real-estate
+│ └ [+6 more paths]
+├ ● /category/[slug]/[sub]
+│ ├ /category/investing/passive-etf
+│ ├ /category/investing/dividend-investing
+│ ├ /category/investing/stock-picking
+│ └ [+54 more paths]
+├ ○ /contact
+├ ○ /disclaimer
+├ ○ /disclosure
+├ ○ /ebooks
+├ ● /ebooks/[slug]
+│ ├ /ebooks/tax-guide
+│ ├ /ebooks/retirement-guide
+│ ├ /ebooks/government-benefits-guide
+│ └ [+7 more paths]
+├ ● /ebooks/[slug]/thank-you
+│ ├ /ebooks/tax-guide/thank-you
+│ ├ /ebooks/retirement-guide/thank-you
+│ ├ /ebooks/government-benefits-guide/thank-you
+│ └ [+7 more paths]
+├ ○ /embed/combined-marginal-tax-rates
+├ ○ /feed.xml
+├ ○ /how-we-use-ai
+├ ○ /icon.png
+├ ○ /llms.txt
+├ ○ /privacy
+├ ○ /robots.txt
+├ ○ /rss.xml
+├ ○ /sitemap.xml
+├ ○ /terms
+└ ○ /tfsa-rrsp-fhsa-calculator
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Copied public/.htaccess to out/.htaccess
+exit 0

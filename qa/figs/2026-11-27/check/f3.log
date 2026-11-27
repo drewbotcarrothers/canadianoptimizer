@@ -1,0 +1,4 @@
+bc_new 200 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/newly-built-home-exemption 7904
+bc_addl 200 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/additional-property-transfer-tax 8776
+bc_fthb_amt 404 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/exemption-amount 1474
+bc_ex 200 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/calculation-examples 4828
