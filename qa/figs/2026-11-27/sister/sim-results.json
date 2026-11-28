@@ -1,0 +1,91 @@
+{
+ "critical-illness-vs-disability-insurance-canada vs s_critical-illness-insurance-canada-worth-it_html.html": {
+  "pct5": 0.4,
+  "shared8": 2,
+  "sample8": [
+   "lump sum if you are diagnosed with a",
+   "lump sum if you are diagnosed with a"
+  ]
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_disability-insurance-canada-workplace-ltd-gaps_html.html": {
+  "pct5": 0.2,
+  "shared8": 0,
+  "sample8": []
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_latestmortgagerates_ca_guides_mortgage-stress-test_.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_latestmortgagerates_ca_tools_affordability-calculator_.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_latestmortgagerates_ca_tools_stress-test-qualifier_.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_long-term-disability-claim-canada_html.html": {
+  "pct5": 0.7,
+  "shared8": 11,
+  "sample8": [
+   "insurable earnings up to a maximum of $729",
+   "earnings up to a maximum of $729 a",
+   "up to a maximum of $729 a week"
+  ]
+ },
+ "critical-illness-vs-disability-insurance-canada vs s_savingoptimizer_com_guides_articles_mortgage-stress-test-canada-buyers_html.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "how-much-house-can-i-afford-canada vs s_critical-illness-insurance-canada-worth-it_html.html": {
+  "pct5": 0.1,
+  "shared8": 0,
+  "sample8": []
+ },
+ "how-much-house-can-i-afford-canada vs s_disability-insurance-canada-workplace-ltd-gaps_html.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "how-much-house-can-i-afford-canada vs s_latestmortgagerates_ca_guides_mortgage-stress-test_.html": {
+  "pct5": 0.7,
+  "shared8": 5,
+  "sample8": [
+   "the minimum down payment is 5% on the",
+   "to the premium when the amortization is longer",
+   "the premium when the amortization is longer than"
+  ]
+ },
+ "how-much-house-can-i-afford-canada vs s_latestmortgagerates_ca_tools_affordability-calculator_.html": {
+  "pct5": 0.7,
+  "shared8": 5,
+  "sample8": [
+   "your gross debt service gds and total debt",
+   "gross debt service gds and total debt service",
+   "debt service gds and total debt service tds"
+  ]
+ },
+ "how-much-house-can-i-afford-canada vs s_latestmortgagerates_ca_tools_stress-test-qualifier_.html": {
+  "pct5": 1.0,
+  "shared8": 16,
+  "sample8": [
+   "is the greater of your contract rate plus",
+   "the greater of your contract rate plus 2",
+   "greater of your contract rate plus 2 percentage"
+  ]
+ },
+ "how-much-house-can-i-afford-canada vs s_long-term-disability-claim-canada_html.html": {
+  "pct5": 0.0,
+  "shared8": 0,
+  "sample8": []
+ },
+ "how-much-house-can-i-afford-canada vs s_savingoptimizer_com_guides_articles_mortgage-stress-test-canada-buyers_html.html": {
+  "pct5": 0.4,
+  "shared8": 0,
+  "sample8": []
+ }
+}

@@ -1,0 +1,11 @@
+toronto_rates 200 https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rates-and-fees/ 4385
+toronto_rebates 200 https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-land-transfer-tax-mltt/municipal-land-transfer-tax-mltt-rebate-opportunities/ 6815
+bc_ptt 200 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax 7854
+bc_exempt 200 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions 4129
+bc_exemption_amt 404 https://www2.gov.bc.ca/gov/content/taxes/property-taxes/property-transfer-tax/exemptions/first-time-home-buyers/exemption-amount 1474
+mtl 200 https://montreal.ca/articles/comment-sont-calcules-les-droits-sur-les-mutations-immobilieres-9279 4823
+qc_news 200 https://www.quebec.ca/nouvelles/actualites/details/montants-permettant-detablir-les-tranches-de-la-base-dimposition-des-droits-sur-les-mutations-immobilieres-exercice-2027-72131 1962
+legis 200 https://www.legisquebec.gouv.qc.ca/fr/document/lc/D-15.1/ 61781
+vq 200 https://www.ville.quebec.qc.ca/citoyens/taxes_evaluation/droits_mutation_immobiliere.aspx 6595
+  nav-changed https://www.ontario.ca/document/non-resident-speculation-tax?redirect_id=document%2Fland-transfer-tax%2Fnon-resident-speculation-tax&redirect_year=2023
+on_nrst 200 https://www.ontario.ca/document/non-resident-speculation-tax?redirect_id=document%2Fland-transfer-tax%2Fnon-resident-speculation-tax&redirect_year=2023 16481

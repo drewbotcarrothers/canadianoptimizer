@@ -655,8 +655,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the first-time buyer guide, then the FHSA sequencing and HBP guides. The rent versus buy calculator and decision guide help you test whether buying makes sense at all at today's prices. Each program is linked to the CRA, CMHC or provincial page that sets it, with the year named.",
       "Closing costs and land transfer tax have their own hub, and mortgages have theirs.",
     ],
-    decisions: ["Should I use the FHSA, the HBP or both?", "What order do I save, qualify and buy in?", "Which first-time buyer rebates apply to me?", "Does buying beat renting for me?"],
-    startHere: ["first-time-home-buyer-guide-canada", "fhsa-home-purchase-sequencing-canada", "home-buyers-plan-hbp-guide", "rent-vs-buy-decision-canada", "first-time-home-buyers-gst-rebate"],
+    decisions: ["Should I use the FHSA, the HBP or both?", "What order do I save, qualify and buy in?", "Which first-time buyer rebates apply to me?", "Does buying beat renting for me?", "How much house can I afford on my income?"],
+    startHere: ["first-time-home-buyer-guide-canada", "how-much-house-can-i-afford-canada", "fhsa-home-purchase-sequencing-canada", "home-buyers-plan-hbp-guide", "rent-vs-buy-decision-canada", "first-time-home-buyers-gst-rebate"],
   },
   "real-estate/mortgages-renewal": {
     intro: [
@@ -925,8 +925,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the disability insurance guide, which explains own-occupation definitions, waiting periods and group plan traps, then critical illness insurance and the self-employed guide. Policy terms come from insurers' own documents with the date checked.",
       "Government disability programs are covered in the Government Benefits disability hub.",
     ],
-    decisions: ["How would I pay the bills if I couldn't work?", "Is my group disability plan enough?", "Do I need critical illness insurance?", "What can I get if I'm self-employed?"],
-    startHere: ["disability-insurance-canada-guide", "critical-illness-insurance-canada", "disability-insurance-self-employed-canada"],
+    decisions: ["How would I pay the bills if I couldn't work?", "Is my group disability plan enough?", "Do I need critical illness insurance?", "Which is the bigger gap, lost income or a lump-sum need?", "What can I get if I'm self-employed?"],
+    startHere: ["disability-insurance-canada-guide", "critical-illness-insurance-canada", "critical-illness-vs-disability-insurance-canada", "disability-insurance-self-employed-canada"],
   },
   "insurance/health-dental": {
     intro: [

@@ -1735,6 +1735,8 @@ export const realEstateClusterPosts: EstatePost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-much-house-can-i-afford-canada/">How much house can I afford in Canada? Income, down payment and rate</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about CMHC mortgage loan insurance as of October 2026. It is not a mortgage offer, a premium quote, or lending, tax, or insurance advice. Schedules, the price cap, and sales tax change. The $600,000 example is arithmetic on CMHC's published equity rule and premium bands, not a payment and not a house. Confirm the commitment and the premium on the lender's disclosure before you waive a condition.</p>
         <div class="footer-note">Published: October 3, 2026 | Category: Real Estate | Author: Andrew</div>

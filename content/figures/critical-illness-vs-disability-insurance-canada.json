@@ -1,0 +1,1754 @@
+{
+  "slug": "critical-illness-vs-disability-insurance-canada",
+  "publishDate": "2026-11-27",
+  "figures": [
+    {
+      "id": "07d25cf8bbc5",
+      "value": "60%",
+      "context": "Disability insurance replaces a share of your income, typically 60% to 85%, while you cannot work, and critical illness insurance pays a one-time lump sum if you are diagnosed with a covered illness.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
+    },
+    {
+      "id": "629beb0a9117",
+      "value": "85%",
+      "context": "Disability insurance replaces a share of your income, typically 60% to 85%, while you cannot work, and critical illness insurance pays a one-time lump sum if you are diagnosed with a covered illness.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
+    },
+    {
+      "id": "f8dc1d29e261",
+      "value": "$729",
+      "context": "The public safety net is capped: in 2026, EI sickness benefits pay at most $729 a week for up to 26 weeks, and the CPP disability benefit tops out at $1,741.20 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "ekly earnings, up to a maximum amount. In 2026, the maximum amount is $729 a week. Benefit calculation This is how we calculate your weekly bene"
+    },
+    {
+      "id": "b3221942e584",
+      "value": "26",
+      "context": "The public safety net is capped: in 2026, EI sickness benefits pay at most $729 a week for up to 26 weeks, and the CPP disability benefit tops out at $1,741.20 a month.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
+    },
+    {
+      "id": "3d9c3cbc3e9d",
+      "value": "$1,741.20",
+      "context": "The public safety net is capped: in 2026, EI sickness benefits pay at most $729 a week for up to 26 weeks, and the CPP disability benefit tops out at $1,741.20 a month.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $1,741.20"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $1,741.20"
+    },
+    {
+      "id": "70a6c8efc01d",
+      "value": "60%",
+      "context": "Disability insurance pays monthly income, usually 60% to 85% of your pay, for a set period when you cannot work; critical illness insurance pays a lump sum only for covered diagnoses.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
+    },
+    {
+      "id": "51de24875705",
+      "value": "85%",
+      "context": "Disability insurance pays monthly income, usually 60% to 85% of your pay, for a set period when you cannot work; critical illness insurance pays a lump sum only for covered diagnoses.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
+    },
+    {
+      "id": "1e86b05a6bad",
+      "value": "26",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
+    },
+    {
+      "id": "350212edcff7",
+      "value": "$729",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
+    },
+    {
+      "id": "49d463f9794d",
+      "value": "54%",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12/(F(70000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12/(F(70000)/12)"
+    },
+    {
+      "id": "37bc2759780a",
+      "value": "$70,000",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "4a99fed7f019",
+      "value": "38%",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12/(F(100000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12/(F(100000)/12)"
+    },
+    {
+      "id": "79f24fbef9a4",
+      "value": "$100,000",
+      "context": "EI sickness benefits are capped at 26 weeks and $729 a week in 2026, which replaces only 54% of a $70,000 salary and 38% of a $100,000 one.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "dc112e2bacf9",
+      "value": "$1,741.20",
+      "context": "The CPP disability benefit is long-term and has a maximum of $1,741.20 a month in 2026, with an average of $1,236.32 for new beneficiaries as of October 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
+    },
+    {
+      "id": "72973e465ba4",
+      "value": "$1,236.32",
+      "context": "The CPP disability benefit is long-term and has a maximum of $1,741.20 a month in 2026, with an average of $1,236.32 for new beneficiaries as of October 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
+    },
+    {
+      "id": "8a98832322e0",
+      "value": "$70,000",
+      "context": "On our $70,000 example, a year off work with only EI and the maximum CPP disability benefit leaves a gap of about $40,599 before tax.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "500a641b1d24",
+      "value": "$40,599",
+      "context": "On our $70,000 example, a year off work with only EI and the maximum CPP disability benefit leaves a gap of about $40,599 before tax.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $40,599"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $40,599"
+    },
+    {
+      "id": "8ee331067f0f",
+      "value": "November 27, 2026",
+      "context": "The two products side by side (Financial Consumer Agency of Canada, read November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "5b94bbb226e5",
+      "value": "60%",
+      "context": "How it pays Monthly income, generally 60% to 85% of your income up to a maximum, for a specified time A one-time lump sum, in the amount of coverage you chose",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " and earn an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amoun"
+    },
+    {
+      "id": "1261ab5ee57b",
+      "value": "85%",
+      "context": "How it pays Monthly income, generally 60% to 85% of your income up to a maximum, for a specified time A one-time lump sum, in the amount of coverage you chose",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
+    },
+    {
+      "id": "7ce6ba9043d0",
+      "value": "$40,000,",
+      "context": "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disability benefit pay at $40,000, $70,000 and $100,000 salaries against the 60% to 85% a private disability plan replaces, and a first-year income gap on a $70,000 salary, so you can see which gap each product is meant to fill before choosing between them.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $40,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $40,000"
+    },
+    {
+      "id": "8424f1209259",
+      "value": "$70,000",
+      "context": "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disability benefit pay at $40,000, $70,000 and $100,000 salaries against the 60% to 85% a private disability plan replaces, and a first-year income gap on a $70,000 salary, so you can see which gap each product is meant to fill before choosing between them.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "2dbf1b9c8fe3",
+      "value": "$100,000",
+      "context": "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disability benefit pay at $40,000, $70,000 and $100,000 salaries against the 60% to 85% a private disability plan replaces, and a first-year income gap on a $70,000 salary, so you can see which gap each product is meant to fill before choosing between them.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "afbd38ed68ee",
+      "value": "60%",
+      "context": "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disability benefit pay at $40,000, $70,000 and $100,000 salaries against the 60% to 85% a private disability plan replaces, and a first-year income gap on a $70,000 salary, so you can see which gap each product is meant to fill before choosing between them.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
+    },
+    {
+      "id": "07ffa29ed276",
+      "value": "85%",
+      "context": "What this page adds: a calculated comparison of what EI sickness benefits and the CPP disability benefit pay at $40,000, $70,000 and $100,000 salaries against the 60% to 85% a private disability plan replaces, and a first-year income gap on a $70,000 salary, so you can see which gap each product is meant to fill before choosing between them.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
+    },
+    {
+      "id": "4e5f7fbcec1e",
+      "value": "55%",
+      "context": "EI sickness benefits pay 55% of your insurable earnings up to a maximum of $729 a week in 2026, for up to 26 weeks, and you need a medical certificate showing you cannot work for medical reasons.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+    },
+    {
+      "id": "03c5c3784fc8",
+      "value": "$729",
+      "context": "EI sickness benefits pay 55% of your insurable earnings up to a maximum of $729 a week in 2026, for up to 26 weeks, and you need a medical certificate showing you cannot work for medical reasons.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "al reasons. You could receive 55% of your earnings up to a maximum of $729 a week. You must get a medical certificate showing that you're unable"
+    },
+    {
+      "id": "39e7593e9e5b",
+      "value": "26",
+      "context": "EI sickness benefits pay 55% of your insurable earnings up to a maximum of $729 a week in 2026, for up to 26 weeks, and you need a medical certificate showing you cannot work for medical reasons.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
+    },
+    {
+      "id": "0561f2e5e4d4",
+      "value": "$610.46",
+      "context": "The CPP disability benefit is a monthly payment with a basic monthly amount of $610.46 in 2026 plus an additional amount based on your contributions.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "isability payment is made up of 2 parts: Basic monthly amount (2026): $610.46 Additional amount: based on how much you've contributed to the CPP du"
+    },
+    {
+      "id": "ea2140fc5406",
+      "value": "$1,741.20",
+      "context": "The maximum monthly payment in 2026 is $1,741.20, and the average for new beneficiaries as of October 2025 was $1,236.32.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
+    },
+    {
+      "id": "d88a2839fed0",
+      "value": "$1,236.32",
+      "context": "The maximum monthly payment in 2026 is $1,741.20, and the average for new beneficiaries as of October 2025 was $1,236.32.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
+    },
+    {
+      "id": "d3f654ebc1db",
+      "value": "18",
+      "context": "To qualify you must be between 18 and 65, have a disability that stops you from working at any job on a regular basis and is long-term, and have contributed in 4 of the last 6 years (or 3 of 6 with 25 years or more in total).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/eligibility.html",
+      "sourceName": "Government of Canada: CPP disability benefit, do you qualify",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "equirements: Age Disability CPP contributions Age You must be between 18 and 65 years old. If you recently turned 65 We encourage you to apply"
+    },
+    {
+      "id": "b38995b96615",
+      "value": "65",
+      "context": "To qualify you must be between 18 and 65, have a disability that stops you from working at any job on a regular basis and is long-term, and have contributed in 4 of the last 6 years (or 3 of 6 with 25 years or more in total).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/eligibility.html",
+      "sourceName": "Government of Canada: CPP disability benefit, do you qualify",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "ents: Age Disability CPP contributions Age You must be between 18 and 65 years old. If you recently turned 65 We encourage you to apply. You m"
+    },
+    {
+      "id": "1018461e5363",
+      "value": "25",
+      "context": "To qualify you must be between 18 and 65, have a disability that stops you from working at any job on a regular basis and is long-term, and have contributed in 4 of the last 6 years (or 3 of 6 with 25 years or more in total).",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/eligibility.html",
+      "sourceName": "Government of Canada: CPP disability benefit, do you qualify",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "contributed in 3 out of those 6 years, and you made contributions for 25 years or more in total If you don't meet either requirement, you may "
+    },
+    {
+      "id": "c9c8ea7b8ae2",
+      "value": "November 27, 2026",
+      "context": "Example salaries: EI sickness benefit against a private disability plan, per month (our calculation, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "1e4a0a591869",
+      "value": "60%",
+      "context": "Example salary Monthly pay before tax EI weekly benefit EI per month Share of pay replaced by EI 60% private plan 85% private plan",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
+    },
+    {
+      "id": "39c28a25a9ae",
+      "value": "85%",
+      "context": "Example salary Monthly pay before tax EI weekly benefit EI per month Share of pay replaced by EI 60% private plan 85% private plan",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "lity insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans reduce"
+    },
+    {
+      "id": "68e7a9ced7a8",
+      "value": "$40,000",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "0eb9642e8960",
+      "value": "$3,333",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $3,333"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $3,333"
+    },
+    {
+      "id": "8ada2476a862",
+      "value": "$423.08",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/52*F(55,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/52*F(55,100)"
+    },
+    {
+      "id": "16031463213f",
+      "value": "$1,833",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)*F(55,100)/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)*F(55,100)/12"
+    },
+    {
+      "id": "886ecce422c2",
+      "value": "55%",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+    },
+    {
+      "id": "c6087e4d73ea",
+      "value": "$2,000",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "371819ada956",
+      "value": "$2,833",
+      "context": "$40,000 $3,333 $423.08 $1,833 55% $2,000 $2,833",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/12*F(85,100)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/12*F(85,100)"
+    },
+    {
+      "id": "9f8ad813b091",
+      "value": "$70,000",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "7be0670c96be",
+      "value": "$5,833",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $5,833"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $5,833"
+    },
+    {
+      "id": "42d7b3d35c40",
+      "value": "$729.00",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $729.00"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $729.00"
+    },
+    {
+      "id": "e2237877783f",
+      "value": "$3,159",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12"
+    },
+    {
+      "id": "a319b7724c4f",
+      "value": "54%",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12/(F(70000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12/(F(70000)/12)"
+    },
+    {
+      "id": "772de954e463",
+      "value": "$3,500",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $3,500"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $3,500"
+    },
+    {
+      "id": "399e2a1a12c5",
+      "value": "$4,958",
+      "context": "$70,000 $5,833 $729.00 $3,159 54% $3,500 $4,958",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $4,958"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $4,958"
+    },
+    {
+      "id": "95bbece6269a",
+      "value": "$100,000",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "table row input (price or band edge) used for the recomputed row"
+      }
+    },
+    {
+      "id": "7b7c0baaa9c0",
+      "value": "$8,333",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(100000)/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(100000)/12"
+    },
+    {
+      "id": "3a3ab1f09d79",
+      "value": "$729.00",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $729.00"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $729.00"
+    },
+    {
+      "id": "769be67ceac0",
+      "value": "$3,159",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12"
+    },
+    {
+      "id": "91a4305b2857",
+      "value": "38%",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)*52/12/(F(100000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)*52/12/(F(100000)/12)"
+    },
+    {
+      "id": "3cdbfd792bba",
+      "value": "$5,000",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $5,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $5,000"
+    },
+    {
+      "id": "e91e70736ec5",
+      "value": "$7,083",
+      "context": "$100,000 $8,333 $729.00 $3,159 38% $5,000 $7,083",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $7,083"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $7,083"
+    },
+    {
+      "id": "761004f7dbd4",
+      "value": "55%",
+      "context": "EI replaces 55% of pay at lower incomes and a shrinking share above the cap, because the $729 cap binds from about $68,924 a year in earnings.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+    },
+    {
+      "id": "e99406aec3a0",
+      "value": "$729",
+      "context": "EI replaces 55% of pay at lower incomes and a shrinking share above the cap, because the $729 cap binds from about $68,924 a year in earnings.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "al reasons. You could receive 55% of your earnings up to a maximum of $729 a week. You must get a medical certificate showing that you're unable"
+    },
+    {
+      "id": "224bbacf802a",
+      "value": "$68,924",
+      "context": "EI replaces 55% of pay at lower incomes and a shrinking share above the cap, because the $729 cap binds from about $68,924 a year in earnings.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(729)/F(55,100)*52"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(729)/F(55,100)*52"
+    },
+    {
+      "id": "208a2ace7a13",
+      "value": "60%",
+      "context": "A private plan replaces a share of your pay instead, which the FCAC puts at 60% to 85% for disability plans, so it matters most to people who earn more than the point where the EI cap binds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
+    },
+    {
+      "id": "cd5f08462648",
+      "value": "85%",
+      "context": "A private plan replaces a share of your pay instead, which the FCAC puts at 60% to 85% for disability plans, so it matters most to people who earn more than the point where the EI cap binds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "n an income. Generally, disability insurance replaces between 60% and 85% of your income. It replaces your income up to a maximum amount, for a"
+    },
+    {
+      "id": "64c1ac79ffe5",
+      "value": "$70,000",
+      "context": "Example, a labelled illustration: Sam earns $70,000 and has no employer plan or private insurance.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "67a704e003cc",
+      "value": "26",
+      "context": "EI sickness benefits pay up to the maximum for 26 weeks and, if Sam's condition is long-term and the CPP disability benefit is approved, that benefit pays from week 27.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "After you apply EI sickness benefits How much you could receive Up to 26 weeks of sickness benefits are available. The number of weeks of bene"
+    },
+    {
+      "id": "6b14bcb6d276",
+      "value": "27",
+      "context": "EI sickness benefits pay up to the maximum for 26 weeks and, if Sam's condition is long-term and the CPP disability benefit is approved, that benefit pays from week 27.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "week number in a label (weeks 27 to 52)"
+      }
+    },
+    {
+      "id": "941029b59cd8",
+      "value": "$70,000",
+      "context": "Example: one year off work on a $70,000 salary with only public programs (our calculation, before tax, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "fae765d59b00",
+      "value": "November 27, 2026",
+      "context": "Example: one year off work on a $70,000 salary with only public programs (our calculation, before tax, November 27, 2026)",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "review"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "review date = day the sources were read (2026-11-27)"
+      }
+    },
+    {
+      "id": "b4099ed56137",
+      "value": "26",
+      "context": "Weeks 1 to 26 EI sickness benefit $729 a week, the 2026 maximum $18,954",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
+    },
+    {
+      "id": "f1d895230428",
+      "value": "$729",
+      "context": "Weeks 1 to 26 EI sickness benefit $729 a week, the 2026 maximum $18,954",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
+    },
+    {
+      "id": "e56d1d597c98",
+      "value": "$18,954",
+      "context": "Weeks 1 to 26 EI sickness benefit $729 a week, the 2026 maximum $18,954",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $18,954"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $18,954"
+    },
+    {
+      "id": "ae3d5e1a4a3c",
+      "value": "27",
+      "context": "Weeks 27 to 52 CPP disability benefit, if approved and paid at the maximum $1,741.20 a month $10,447.20",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "week number in a label (weeks 27 to 52)"
+      }
+    },
+    {
+      "id": "8efde0b424b0",
+      "value": "52",
+      "context": "Weeks 27 to 52 CPP disability benefit, if approved and paid at the maximum $1,741.20 a month $10,447.20",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " receive depends on your insurable earnings* before taxes in the past 52 weeks or since the start of your last claim, whichever is shorter. So"
+    },
+    {
+      "id": "5d17adec482d",
+      "value": "$1,741.20",
+      "context": "Weeks 27 to 52 CPP disability benefit, if approved and paid at the maximum $1,741.20 a month $10,447.20",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
+    },
+    {
+      "id": "514975f1b5b7",
+      "value": "$10,447.20",
+      "context": "Weeks 27 to 52 CPP disability benefit, if approved and paid at the maximum $1,741.20 a month $10,447.20",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $10,447.20"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $10,447.20"
+    },
+    {
+      "id": "35d3c2e2f01a",
+      "value": "27",
+      "context": "Weeks 27 to 52 CPP disability benefit at the average for new beneficiaries $1,236.32 a month $7,417.92",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "week number in a label (weeks 27 to 52)"
+      }
+    },
+    {
+      "id": "184acce68d15",
+      "value": "52",
+      "context": "Weeks 27 to 52 CPP disability benefit at the average for new beneficiaries $1,236.32 a month $7,417.92",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " receive depends on your insurable earnings* before taxes in the past 52 weeks or since the start of your last claim, whichever is shorter. So"
+    },
+    {
+      "id": "8c8155bc0c7e",
+      "value": "$1,236.32",
+      "context": "Weeks 27 to 52 CPP disability benefit at the average for new beneficiaries $1,236.32 a month $7,417.92",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
+    },
+    {
+      "id": "208c51dcc576",
+      "value": "$7,417.92",
+      "context": "Weeks 27 to 52 CPP disability benefit at the average for new beneficiaries $1,236.32 a month $7,417.92",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $7,417.92"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $7,417.92"
+    },
+    {
+      "id": "12c560653121",
+      "value": "$29,401.20",
+      "context": "Over the year, EI and the maximum CPP disability benefit pay $29,401.20, which leaves a gap of $40,599 against a $70,000 salary.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $29,401.20"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $29,401.20"
+    },
+    {
+      "id": "69c2f30b414a",
+      "value": "$40,599",
+      "context": "Over the year, EI and the maximum CPP disability benefit pay $29,401.20, which leaves a gap of $40,599 against a $70,000 salary.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $40,599"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $40,599"
+    },
+    {
+      "id": "d6aa9b1898b7",
+      "value": "$70,000",
+      "context": "Over the year, EI and the maximum CPP disability benefit pay $29,401.20, which leaves a gap of $40,599 against a $70,000 salary.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "84afb10b4570",
+      "value": "$26,371.92",
+      "context": "At the average CPP disability amount for new beneficiaries the total is $26,371.92 and the gap is $43,628.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $26,371.92"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $26,371.92"
+    },
+    {
+      "id": "7df90b527bcc",
+      "value": "$43,628",
+      "context": "At the average CPP disability amount for new beneficiaries the total is $26,371.92 and the gap is $43,628.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $43,628"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $43,628"
+    },
+    {
+      "id": "85af46a802f3",
+      "value": "$20,894.40",
+      "context": "The gap keeps growing in the second year, when EI is gone and only the CPP disability benefit remains, at most $20,894.40 over twelve months against $70,000 of pay.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $20,894.40"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $20,894.40"
+    },
+    {
+      "id": "a4cb8bb00acf",
+      "value": "$70,000",
+      "context": "The gap keeps growing in the second year, when EI is gone and only the CPP disability benefit remains, at most $20,894.40 over twelve months against $70,000 of pay.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: value reproducible: $70,000"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "value reproducible: $70,000"
+    },
+    {
+      "id": "c14981daad42",
+      "value": "$50,000",
+      "context": "A lump sum could cover that, but only for a limited time: a $50,000 critical illness payout, as an example, covers about the first year's gap, and only if the illness is on the policy's list and meets its definition.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, WRITER-stage check 2026-11-27 (qa/figs/2026-11-27/classify.py, recheck.py); same agent as the drafter, so the separate checker pass (checker2/) must re-verify",
+        "note": "declared illustration input or band edge, labelled on the page"
+      }
+    },
+    {
+      "id": "3a4289598907",
+      "value": "60%",
+      "context": "Note that the FCAC says that if you have more than one disability plan your income usually will not be higher than 60% to 85% of your regular pay, and that many long-term plans reduce your benefit when you receive other disability income, so CPP disability payments may reduce a private plan's payment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " disability insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans"
+    },
+    {
+      "id": "b968f004a139",
+      "value": "85%",
+      "context": "Note that the FCAC says that if you have more than one disability plan your income usually will not be higher than 60% to 85% of your regular pay, and that many long-term plans reduce your benefit when you receive other disability income, so CPP disability payments may reduce a private plan's payment.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "lity insurance plans, your income usually won't be higher than 60% to 85% of your regular pay. Many long-term disability insurance plans reduce"
+    },
+    {
+      "id": "f69d6bbc1590",
+      "value": "60%",
+      "context": "Short-term plans typically provide benefits for up to 6 months, and most long-term plans replace 60% to 70% of your normal income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "yer EI sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some"
+    },
+    {
+      "id": "a6f26817b970",
+      "value": "70%",
+      "context": "Short-term plans typically provide benefits for up to 6 months, and most long-term plans replace 60% to 70% of your normal income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html",
+      "sourceName": "Financial Consumer Agency of Canada: Disability insurance",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "sickness benefits Most long-term disability plans will replace 60% to 70% of your normal income. Each disability plan is different. Some may pr"
+    },
+    {
+      "id": "8ab50beb25f6",
+      "value": "26",
+      "context": "Up to 26 weeks, at 55% of insurable earnings up to a maximum of $729 a week in 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness.html",
+      "sourceName": "Service Canada: EI sickness benefits",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " these benefits offer EI sickness benefits can provide you with up to 26 weeks of financial assistance if you can't work for medical reasons. "
+    },
+    {
+      "id": "d6a85bbc82f6",
+      "value": "55%",
+      "context": "Up to 26 weeks, at 55% of insurable earnings up to a maximum of $729 a week in 2026.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "",
+      "derivedFrom": [
+        "content/calcs/batch-20261127-model.py",
+        "expr: F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+      ],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "recomputed independently (checker2/recompute.py from the built tables, simulation / cumulative-constant methods; qa/figs/2026-11-27/recheck.py grid)"
+      },
+      "expr": "F(40000)/52*F(55,100)*52/12/(F(40000)/12)"
+    },
+    {
+      "id": "fd22cade6dcf",
+      "value": "$729",
+      "context": "Up to 26 weeks, at 55% of insurable earnings up to a maximum of $729 a week in 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html",
+      "sourceName": "Service Canada: EI sickness benefits, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": " You could receive 55% of your insurable earnings* up to a maximum of $729 a week. The amount you receive depends on your insurable earnings* be"
+    },
+    {
+      "id": "6cf0ac4b9937",
+      "value": "$1,741.20",
+      "context": "$1,741.20 a month in 2026, with an average of $1,236.32 for new beneficiaries as of October 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": "mum and average payment amounts Maximum monthly payment amount (2026) $1,741.20 Average monthly amount for new beneficiaries (as of October 2025) $1,"
+    },
+    {
+      "id": "9aab75ee2d72",
+      "value": "$1,236.32",
+      "context": "$1,741.20 a month in 2026, with an average of $1,236.32 for new beneficiaries as of October 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html",
+      "sourceName": "Government of Canada: CPP disability benefit, how much you could receive",
+      "asOf": "2026-11-27",
+      "derivedFrom": [],
+      "verify": {
+        "status": "match",
+        "checkedOn": "2026-11-27",
+        "verifier": "Grok Bot executor, fresh source-checker pass 2026-11-27 (qa/figs/2026-11-27/checker2); same executor session as the drafter but separate code and a fresh fetch",
+        "note": "needle re-found on a page fetched fresh 2026-11-27 (checker2/sourced.py); key rule and date claims re-read in textcheck.py"
+      },
+      "needle": ".20 Average monthly amount for new beneficiaries (as of October 2025) $1,236.32 The maximum and average amounts are not guaranteed. Your actual benef"
+    }
+  ]
+}

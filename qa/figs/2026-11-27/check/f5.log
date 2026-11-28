@@ -1,0 +1,12 @@
+ei_sick 200 https://www.canada.ca/en/services/benefits/ei/ei-sickness.html 2390
+ei_sick_amt 200 https://www.canada.ca/en/services/benefits/ei/ei-sickness/benefit-amount.html 3795
+cppd_amt 404 https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-disability-benefit/amount.html 1154
+  nav-changed https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/eligibility.html
+cppd_elig 200 https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/eligibility.html 5804
+fcac_ci 404 https://www.canada.ca/en/financial-consumer-agency/services/insurance/critical-illness-insurance.html 1154
+fcac_di 404 https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability-insurance.html 1154
+fcac_health 200 https://www.canada.ca/en/financial-consumer-agency/services/insurance/health.html 4472
+fcac_dis 200 https://www.canada.ca/en/financial-consumer-agency/services/insurance/disability.html 5812
+cppd_amt 404 https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/amount.html 1154
+cppd_amt 200 https://www.canada.ca/en/services/benefits/publicpensions/cpp-disability-benefit/benefit-amount.html 3947
+cpp_pay 200 https://www.canada.ca/en/services/benefits/publicpensions/cpp/payment-amounts.html 3028

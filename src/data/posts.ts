@@ -24,6 +24,7 @@ import { batch20261121Posts } from './nov2026/batch-2026-11-21';
 import { batch20261122Posts } from './nov2026/batch-2026-11-22';
 import { batch20261123Posts } from './nov2026/batch-2026-11-23';
 import { batch20261126Posts } from './nov2026/batch-2026-11-26';
+import { batch20261127Posts } from './nov2026/batch-2026-11-27';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -21391,6 +21392,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/how-much-house-can-i-afford-canada/">How much house can I afford in Canada? Income, down payment and rate</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing a principal-residence prepayment with investing in Canada. It is not mortgage, investment, or tax advice. Contract rates, prepayment privileges, and penalties are specific to your commitment. Examples that use rates, brackets, and dollar amounts are illustrations of a comparison, not quotes and not forecasts. Confirm the payout figure with your lender and the tax result with a professional before you break a term.</p>
         <div class="footer-note">Published: September 15, 2026 | Category: Real Estate | Author: Andrew</div>
@@ -22864,6 +22867,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/critical-illness-vs-disability-insurance-canada/">Critical illness vs disability insurance: which gap is bigger?</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about disability insurance in Canada. It is not insurance, tax, medical, or employment advice, and it is not a recommendation to buy a policy or to change who pays a group premium. Definitions, tax treatment, EI and CPP rules, and issue limits change and depend on the contract and your facts. Dollar examples are illustrative. They are not your spending, not a benefit quote, and not a premium. Read the specimen contract and have a licensed advisor and a tax professional confirm the taxable-benefit treatment before you rely on it.</p>
         <div class="footer-note">Published: September 18, 2026 | Category: Insurance | Author: Andrew</div>
@@ -22983,6 +22988,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>How you fund the emergency reserve, and what an employer benefit does to your T1, is tax. The 2026 tax guide covers that personal file.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/critical-illness-vs-disability-insurance-canada/">Critical illness vs disability insurance: which gap is bigger?</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about critical illness insurance in Canada. It is not insurance, tax, or medical advice, and it is not a recommendation to buy or skip a policy. Definitions, survival periods, partial benefits, and tax treatment depend on the contract and on who pays the premium. Every dollar figure is illustrative. It is not a face amount, a premium, or a typical claim. Read the specimen contract and the list of covered conditions before you apply.</p>
@@ -23695,6 +23702,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/critical-illness-vs-disability-insurance-canada/">Critical illness vs disability insurance: which gap is bigger?</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how to sequence Canadian insurance and avoid duplicate coverage. It is not insurance, tax, or legal advice, and it is not a recommendation to buy, cancel, or replace a policy. Public benefits, group booklets, and contracts change. Carrier names are examples, not endorsements, and this page has no affiliate links. Dollar references elsewhere in this series are illustrative. Have a licensed advisor review your booklet and your policies before you drop coverage you might not be able to replace.</p>
         <div class="footer-note">Published: September 23, 2026 | Category: Insurance | Author: Andrew</div>
@@ -24328,6 +24337,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/critical-illness-vs-disability-insurance-canada/">Critical illness vs disability insurance: which gap is bigger?</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about how Employment Insurance and, in Quebec, parental insurance interact with other income. It is not legal, tax, or employment advice, and it is not a prediction of entitlement. Hour requirements, week maximums, premium rates, and working-while-on-claim formulas change. No weekly payment is stated here. Apply through Service Canada or Retraite Québec's parental plan as applicable, and get advice before you quit, opt in, or report a week you are unsure about.</p>
         <div class="footer-note">Published: September 19, 2026 | Category: Government Benefits | Author: Andrew</div>
@@ -24757,6 +24768,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <p>HBP repayments, the home buyers' amount, and an FHSA deduction are return entries with a closing date attached. The 2026 tax guide is the return.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/how-much-house-can-i-afford-canada/">How much house can I afford in Canada? Income, down payment and rate</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian first-home programs other than the FHSA rules themselves. It is not tax, legal, or mortgage advice, and it is not a list of current grant amounts. Ceilings, phase-outs, repayment terms, and program status change. No live rebate figure is stated here. Confirm the HBP, the home buyers' amount, and the new housing rebate with CRA, land-transfer relief with the province, and any shared-equity program with CMHC, before you waive a condition.</p>
@@ -27047,6 +27060,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261122Posts,
   ...batch20261123Posts,
   ...batch20261126Posts,
+  ...batch20261127Posts,
 
 ];
 
