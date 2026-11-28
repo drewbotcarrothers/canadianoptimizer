@@ -288,3 +288,36 @@ No derived row differs from the displayed string at the precision the post print
 - Derived rows recomputed: 110. Matching the displayed string at the displayed precision: 110. Additional difference: VGRO all-stocks 81.09% versus the page's Stock 81.08%.
 - Post problems that are not only a wrong `sourceUrl`: the rounding sentence on the country weights, "adds nothing," two question openings that do not answer, "approximate targets" applied to VEQT, the 2007 start dates without the 2018 change, "three steps" over a five-item list, "only each issuer's own fund page for every number," "most popular pairing," the rebalancing "Yes," the FCAC total-cost figures presented without saying the principal is included, and "usual triggers, per the FCAC."
 - Three figures-log values are truncated net-asset fragments. The posts show the full figures, and the pages state the full figures.
+
+## Second pass
+
+Re-read commit `ff4725d` on `batch-2026-11-28`. Row verdicts for all 459 figures-log ids are in `ROWS.json` next to this file: 360 match, 5 mismatch, 89 example-ok, 5 example-bad. The truncated log values `272,287,718` and `571,121,567` are marked match because the posts print CAD 5,272,287,718 and CAD 3,571,121,567, which the XGRO and XBAL pages state as of November 27, 2026.
+
+### The 13 prose items
+
+1. **Fixed.** The mix section now says the 81.09% is the sum of the rounded holding weights and that Vanguard's asset-allocation line shows 81.08% for stocks. That 81.08% is a sourced row and the VGRO page says "Stock 81.08%".
+2. **Fixed.** The country-table sentence now says 45.30% and 30.59% are close to the calculated 45.2% and 30.5% but not identical, and that Vanguard's figures are the official ones.
+3. **Fixed.** The takeaway now says holding both "doubles up on mostly the same markets and adds little."
+4. **Fixed.** "How different are the stock and bond mixes?" now opens with "The two funds hold the same kinds of assets in somewhat different proportions," and the next sentence gives the 30.5% and 25.0% figures.
+5. **Fixed.** The TFSA/RRSP answer now opens "Generally yes, but confirm with your broker."
+6. **Fixed.** The mixes section now says Vanguard publishes VGRO, VBAL and VCNS as approximate targets and states VEQT's target as 100% equity. That matches the four fund pages.
+7. **Fixed.** A new sentence says the XGRO and XBAL pages date the objective and fee-structure change to December 11, 2018, so 2007 is not the age of the current design. Both pages say that.
+8. **Partly.** The sentence now says "Choose in five short steps," and the list under it has five items. The same sentence still names only three actions: the stock share, the family, and the payout schedule and broker costs.
+9. **Fixed.** The method sentence now says the fund figures come from each fund's issuer page, and that the VGRO ETF Facts and the fee-cut press release supply the 2025 fee cuts and the March 2026 expense date.
+10. **Fixed.** "Most popular pairing" is gone. The sentence now says "This is the 80/20 pair."
+11. **Partly.** The rebalancing FAQ still opens "Yes," then "though the issuers word it differently." The following sentences now quote BlackRock's automatic rebalancing, the fund pages' "may … at its discretion," and the Built for investors line that the portfolios are automatically rebalanced. The first sentence is still a yes.
+12. **Fixed.** Both the takeaway and the risks bullet now say the FCAC figures are the total cost of the loan, including the $2,000 borrowed.
+13. **Fixed.** The early-end bullet now separates OBSI ("most offers allow the card company to revoke the promotional rate if you miss payments or exceed your limit") from the FCAC ("in some cases the introductory rate ends as soon as you go over your limit or pay late"). Both pages say that.
+
+### New problems in the revised text
+
+- **VGRO vs XGRO, new switching paragraph.** "Selling a fund to buy its near-twin … leaves you out of the market for however long the trade takes to settle" treats settlement as time out of the market. A same-day sell and buy fills during the trading day; settlement is when cash and units move, and the ETF Facts do not say a switch leaves you uninvested until settlement. The same paragraph's "can trigger a taxable gain" and "trading commissions at some brokers" fit the ETF Facts (tax on money you make, and a commission when you buy and sell).
+- **All-in-one, "What is an all-in-one ETF?"** The first sentence still says the fund "rebalances automatically," with no discretion caveat. The rebalancing FAQ in the same post now says Vanguard's fund pages say the sub-advisor may rebalance at its discretion.
+- **All-in-one figures log, five combo rows do not state the same thing on every listed page.** `8ac9719d7a95` and `8daad0d734c2` use 0.18% as the XBAL and XCNS MER and also require XGRO, whose MER is 0.19% and whose 0.18% is the pre-cut management fee. `ff37301e7545` is the age in "the right one at 60," not a 60/40 target. `4fbc5e7f6000` and `611b7f062465` are the 60 and the 40 in "the 60/40 mix," but the combo also requires VCNS and XCNS, which are 40% equity and 60% bonds.
+- **Balance-transfer figures log, five example rows are presented as FCAC statements.** `850c73fca694` is "usually 6 to 12 months" (the choosing-a-credit-card page does say that). `503853b228d0` and `a84189c1028a` are the 12-month term in the FCAC $2,000 table. `fec574a2aec1` and `96c5705afdc7` state a lower or 0% introductory rate as how a balance transfer works; the debt-consolidation page says "a lower or 0% introductory rate," and the comparison table is captioned FCAC and OBSI.
+
+### Verdict
+
+- **VGRO vs XGRO: not ready.** Items 1 through 5 are fixed. The new switching paragraph overstates settlement as time out of the market.
+- **Best all-in-one ETFs: not ready.** Items 6, 7, 9 and 10 are fixed, and 8 and 11 are only partly fixed: "five short steps" still names three actions, and the definition FAQ still says the fund rebalances automatically. The log also has the five combo mismatches above.
+- **Balance transfer vs consolidation loan: ready.** Items 12 and 13 are fixed, and the question headings and FAQ items still open with a direct answer. The five example-bad rows are a figures-log classification problem; the sentences themselves match the FCAC pages.

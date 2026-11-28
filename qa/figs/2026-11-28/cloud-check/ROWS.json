@@ -1,0 +1,1838 @@
+{
+  "797419ddfb9e": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "76b4a5530321": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "cdb64759e228": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "32864afb88cd": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "045e7e17c57f": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "236e1005ee51": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "9a162aa70e55": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "4e59e540b9b0": {
+    "verdict": "match",
+    "note": "VGRO and XGRO pages: Management Fee 0.17%. ETF Facts: reduced from 0.22% to 0.17%."
+  },
+  "22659de2ebf9": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%"
+  },
+  "2d337dd0e16a": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "229717298af5": {
+    "verdict": "match",
+    "note": "0.03%*100000"
+  },
+  "f2e1904d7c96": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "1f44a94da3b1": {
+    "verdict": "match",
+    "note": "24.76/81.09=30.53%"
+  },
+  "ce1a8c4f69b8": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "08190f378d43": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "5861f59ac12f": {
+    "verdict": "match",
+    "note": "page states December 11, 2018"
+  },
+  "f815a2134af5": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "644a0d0d14f4": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "8dd06cedf719": {
+    "verdict": "example-ok",
+    "note": "review date (date of this check)"
+  },
+  "2906427948a8": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "a3538c7df564": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "95ecefde37ec": {
+    "verdict": "match",
+    "note": "Press release lists VGRO (and VEQT, VBAL, VCNS) from 0.22% to 0.17%. XGRO page: reduced from 0.18% to 0.17% on December 18, 2025."
+  },
+  "8abde499619f": {
+    "verdict": "match",
+    "note": "Press release table: current management fee 0.22%, new 0.17%"
+  },
+  "14c654cc57fb": {
+    "verdict": "match",
+    "note": "Press release dated November 18, 2025; fees effective that day"
+  },
+  "efb7756e7ae7": {
+    "verdict": "match",
+    "note": "XGRO page: reduced from 0.18% to 0.17%"
+  },
+  "a6d4cd7f254f": {
+    "verdict": "match",
+    "note": "page states December 18, 2025"
+  },
+  "ef38d0f29011": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%. ETF Facts: MER 0.22% and expenses were 0.22% as of March 31, 2026."
+  },
+  "a5f9d4115dd1": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "a9f22f9e0cab": {
+    "verdict": "match",
+    "note": "page states $10.88 billion"
+  },
+  "1a7b24b31d4d": {
+    "verdict": "match",
+    "note": "XGRO page: CAD 5,272,287,718 net assets as of Nov 27, 2026"
+  },
+  "9f7f0f4976b4": {
+    "verdict": "match",
+    "note": "page states November 27, 2026"
+  },
+  "52ba6a3e3709": {
+    "verdict": "match",
+    "note": "page states January 25, 2018"
+  },
+  "90ec4f8c5141": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "c47d7d07b918": {
+    "verdict": "match",
+    "note": "page states December 11, 2018"
+  },
+  "6fa883bc7af6": {
+    "verdict": "match",
+    "note": "24.76/81.09=30.53%"
+  },
+  "7fe374023a12": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "e19909aa1801": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "8b3de77720af": {
+    "verdict": "match",
+    "note": "page states October 31, 2026"
+  },
+  "c915298f2dc2": {
+    "verdict": "match",
+    "note": "page states November 25, 2026"
+  },
+  "926761b2accf": {
+    "verdict": "match",
+    "note": "page states 36.62%"
+  },
+  "54d9410fb5f6": {
+    "verdict": "match",
+    "note": "page states 36.23%"
+  },
+  "06bbf437d09d": {
+    "verdict": "match",
+    "note": "page states 24.76%"
+  },
+  "4959863b86f3": {
+    "verdict": "match",
+    "note": "page states 19.92%"
+  },
+  "f609b0c64dc1": {
+    "verdict": "match",
+    "note": "page states 14.36%"
+  },
+  "6e902895f32c": {
+    "verdict": "match",
+    "note": "page states 19.70%"
+  },
+  "20b6c7106c08": {
+    "verdict": "match",
+    "note": "page states 11.54%"
+  },
+  "120d211d6b32": {
+    "verdict": "match",
+    "note": "page states 13.12%"
+  },
+  "22066aa54849": {
+    "verdict": "match",
+    "note": "page states 5.35%"
+  },
+  "462a1b8c7406": {
+    "verdict": "match",
+    "note": "page states 3.85%"
+  },
+  "722d44423a6e": {
+    "verdict": "match",
+    "note": "page states 3.77%"
+  },
+  "74b3088d448e": {
+    "verdict": "match",
+    "note": "page states 3.06%"
+  },
+  "13f5212efcbe": {
+    "verdict": "match",
+    "note": "page states 3.59%"
+  },
+  "1aad289898ba": {
+    "verdict": "match",
+    "note": "page states 1.99%"
+  },
+  "3a1c695f5ac8": {
+    "verdict": "match",
+    "note": "page states 1.97%"
+  },
+  "0cb8a127e3e2": {
+    "verdict": "match",
+    "note": "page states 0.02%"
+  },
+  "dcc846ec8f8c": {
+    "verdict": "match",
+    "note": "displayed cash 0.14+0.10=0.24"
+  },
+  "5e793e4f20fc": {
+    "verdict": "match",
+    "note": "24.76/81.09=30.53%"
+  },
+  "8269de32e969": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "8b61272b08f7": {
+    "verdict": "match",
+    "note": "19.70/79.70=24.72%"
+  },
+  "73c200c582fb": {
+    "verdict": "match",
+    "note": "14.36/81.09=17.71%"
+  },
+  "e8bf118a6a8a": {
+    "verdict": "match",
+    "note": "page states 36.62%"
+  },
+  "55bb043cedcf": {
+    "verdict": "match",
+    "note": "page states 36.23%"
+  },
+  "136c1dc74305": {
+    "verdict": "match",
+    "note": "36.62/81.09=45.16%"
+  },
+  "68080bc8d2f3": {
+    "verdict": "match",
+    "note": "36.23/79.70=45.46%"
+  },
+  "a4327266fdb2": {
+    "verdict": "match",
+    "note": "page states 24.76%"
+  },
+  "e1516515b03a": {
+    "verdict": "match",
+    "note": "page states 19.92%"
+  },
+  "8667c2c3383a": {
+    "verdict": "match",
+    "note": "24.76/81.09=30.53%"
+  },
+  "82ec6437c224": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "5214973e4f16": {
+    "verdict": "match",
+    "note": "page states 14.36%"
+  },
+  "0ee03ca765a3": {
+    "verdict": "match",
+    "note": "page states 19.70%"
+  },
+  "c640b5b74994": {
+    "verdict": "match",
+    "note": "14.36/81.09=17.71%"
+  },
+  "a8768de3026f": {
+    "verdict": "match",
+    "note": "19.70/79.70=24.72%"
+  },
+  "ce9cc1a18cd3": {
+    "verdict": "match",
+    "note": "page states 5.35%"
+  },
+  "bb4634108341": {
+    "verdict": "match",
+    "note": "page states 3.85%"
+  },
+  "409b0ce00d59": {
+    "verdict": "match",
+    "note": "5.35/81.09=6.60%"
+  },
+  "d91daa64a39f": {
+    "verdict": "match",
+    "note": "3.85/79.70=4.83%"
+  },
+  "dfc368279cbf": {
+    "verdict": "match",
+    "note": "36.62+24.76+14.36+5.35=81.09"
+  },
+  "490188430137": {
+    "verdict": "match",
+    "note": "36.23+19.92+19.70+3.85=79.70"
+  },
+  "6fe2d15eab29": {
+    "verdict": "example-ok",
+    "note": "by construction: shares of stocks sum to 100%"
+  },
+  "20292b1b6a47": {
+    "verdict": "match",
+    "note": "page states 11.54%"
+  },
+  "a9a34d13797b": {
+    "verdict": "match",
+    "note": "13.12+3.06=16.18"
+  },
+  "fb454f00b99c": {
+    "verdict": "match",
+    "note": "3.77+3.59=7.36"
+  },
+  "d6c1c7f4df63": {
+    "verdict": "match",
+    "note": "1.99+1.97=3.96"
+  },
+  "c90322de41d1": {
+    "verdict": "match",
+    "note": "page states 18.90%"
+  },
+  "55ac93e041d7": {
+    "verdict": "match",
+    "note": "16.18+3.96=20.14"
+  },
+  "8648edc19746": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "3c8019075448": {
+    "verdict": "match",
+    "note": "24.76% of 100000"
+  },
+  "508d269f25ff": {
+    "verdict": "match",
+    "note": "19.92% of 100000"
+  },
+  "c30d26396298": {
+    "verdict": "match",
+    "note": "19.70% of 100000"
+  },
+  "176bbf560e5d": {
+    "verdict": "match",
+    "note": "14.36% of 100000"
+  },
+  "7e53e6fc315b": {
+    "verdict": "match",
+    "note": "page states 45.30%"
+  },
+  "186be51ef15d": {
+    "verdict": "match",
+    "note": "page states 30.59%"
+  },
+  "33959d1727b2": {
+    "verdict": "match",
+    "note": "page states October 31, 2026"
+  },
+  "6ab84390f61f": {
+    "verdict": "match",
+    "note": "36.62/81.09=45.16%"
+  },
+  "0489982bcc71": {
+    "verdict": "match",
+    "note": "24.76/81.09=30.53%"
+  },
+  "541342ba98a2": {
+    "verdict": "match",
+    "note": "36.62+24.76+14.36+5.35=81.09"
+  },
+  "c4b3254ef45c": {
+    "verdict": "match",
+    "note": "page states 81.08%"
+  },
+  "ff306339f89b": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "ef672e036323": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%. ETF Facts: MER 0.22%."
+  },
+  "db952e97727a": {
+    "verdict": "match",
+    "note": "0.22-0.19=0.03"
+  },
+  "e1be60852549": {
+    "verdict": "match",
+    "note": "Press release new fee 0.17% for the Vanguard asset-allocation ETFs. XGRO page: management fee 0.17%."
+  },
+  "12cada394fea": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%"
+  },
+  "6516aa7639fc": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "901f15cd27fa": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "1f27e33f3618": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "b0827d2729dc": {
+    "verdict": "match",
+    "note": "0.22%*25000"
+  },
+  "89aac241a9fb": {
+    "verdict": "match",
+    "note": "0.19%*25000"
+  },
+  "65a5ea2cfb38": {
+    "verdict": "match",
+    "note": "55-47.50"
+  },
+  "5c3ff1635fa1": {
+    "verdict": "match",
+    "note": "0.17%*25000"
+  },
+  "9e1f006691b1": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "7f7fab835c9b": {
+    "verdict": "match",
+    "note": "0.22%*100000"
+  },
+  "a2ea094dc522": {
+    "verdict": "match",
+    "note": "0.19%*100000"
+  },
+  "12505bb4f882": {
+    "verdict": "match",
+    "note": "220-190"
+  },
+  "9587ecd3bb4c": {
+    "verdict": "match",
+    "note": "0.17%*100000"
+  },
+  "270a953787fc": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "bd3188f3f2de": {
+    "verdict": "match",
+    "note": "0.22%*250000"
+  },
+  "c49b8f5952a2": {
+    "verdict": "match",
+    "note": "0.19%*250000"
+  },
+  "ef13bf501ab5": {
+    "verdict": "match",
+    "note": "550-475"
+  },
+  "83445536b833": {
+    "verdict": "match",
+    "note": "0.17%*250000"
+  },
+  "68d016013062": {
+    "verdict": "match",
+    "note": "Press release table: current management fee 0.22%, new 0.17%"
+  },
+  "d91994ab9991": {
+    "verdict": "match",
+    "note": "ETF Facts: As of March 31, 2026, the ETF's expenses were 0.22% of its value"
+  },
+  "3092691b134e": {
+    "verdict": "match",
+    "note": "Press release: new management fee 0.17% effective November 18, 2025"
+  },
+  "42a54409f62d": {
+    "verdict": "match",
+    "note": "Press release dated November 18, 2025; fees effective that day"
+  },
+  "a3cea4407c7c": {
+    "verdict": "match",
+    "note": "XGRO page: Management Fee 0.17%"
+  },
+  "157dc244100d": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "bdbd11837880": {
+    "verdict": "match",
+    "note": "0.22-0.19=0.03"
+  },
+  "81d213ba24f4": {
+    "verdict": "match",
+    "note": "0.22-0.19=0.03 points"
+  },
+  "45be551f2f2a": {
+    "verdict": "match",
+    "note": "page states January 25, 2018"
+  },
+  "bc8ccaad6206": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "82dc48014306": {
+    "verdict": "match",
+    "note": "page states December 11, 2018"
+  },
+  "012465530724": {
+    "verdict": "match",
+    "note": "page states December 18, 2025"
+  },
+  "c51b97760307": {
+    "verdict": "match",
+    "note": "VGRO: approximately 80% equity and approximately 20% fixed income"
+  },
+  "f6f39392947c": {
+    "verdict": "match",
+    "note": "VGRO: approximately 80% equity and approximately 20% fixed income"
+  },
+  "4bbf535d7fea": {
+    "verdict": "match",
+    "note": "VGRO: approximately 80% equity and approximately 20% fixed income"
+  },
+  "7e4c103499b6": {
+    "verdict": "match",
+    "note": "VGRO: approximately 80% equity and approximately 20% fixed income"
+  },
+  "4fcf760103e2": {
+    "verdict": "match",
+    "note": "VGRO and XGRO pages: Management Fee 0.17%. ETF Facts: fee reduced to 0.17%."
+  },
+  "9bf5c2cd5f61": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%. ETF Facts: MER 0.22%."
+  },
+  "9eac35d2fa76": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "14a4b53c90b6": {
+    "verdict": "match",
+    "note": "Press release table: current management fee 0.22%, new 0.17%"
+  },
+  "3ef630462cdf": {
+    "verdict": "match",
+    "note": "ETF Facts: As of March 31, 2026, the ETF's expenses were 0.22% of its value"
+  },
+  "d7277d9a687f": {
+    "verdict": "match",
+    "note": "Press release: new management fee 0.17% effective November 18, 2025"
+  },
+  "efa898845963": {
+    "verdict": "match",
+    "note": "Press release dated November 18, 2025; fees effective that day"
+  },
+  "955ffc724010": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "1c259a6b6d77": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "aa8c1243bfb2": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "994427d042c6": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "b3f43e3a4696": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "6b2743592943": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "0c68be191000": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "1dfd4abbf33e": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "d78a80104d66": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "fc0ef8920989": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "a04b9595cee4": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "70b4e771ddea": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "ad69ff293b42": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns"
+  },
+  "29e814361da8": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro"
+  },
+  "8ac9719d7a95": {
+    "verdict": "mismatch",
+    "note": "XGRO's published MER is 0.19%; its page uses 0.18% only as the management fee before the December 18, 2025 cut, which is not this MER claim"
+  },
+  "680cf47ee4f4": {
+    "verdict": "match",
+    "note": "VBAL Canada 30.64% rounds to 30.6; holdings 18.51/60.53=30.58%"
+  },
+  "f0bac2b1a045": {
+    "verdict": "match",
+    "note": "VCNS Canada 30.82% rounds to 30.8"
+  },
+  "1a3272c551e2": {
+    "verdict": "match",
+    "note": "XCNS 9.59/39.00=24.59%"
+  },
+  "1099c56de119": {
+    "verdict": "match",
+    "note": "XEQT 25.58/99.74=25.65%"
+  },
+  "8c6d8798df07": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "a71efeb3e198": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "db348b1d134a": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "68a461aac04f": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "c21b083bb7af": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "f87b63e49e1c": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "189b3c465913": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "e3d5e8231526": {
+    "verdict": "match",
+    "note": "VEQT: 100% equity securities"
+  },
+  "b168e380e984": {
+    "verdict": "example-ok",
+    "note": "review date (date of this check)"
+  },
+  "2b028b1e4bdf": {
+    "verdict": "match",
+    "note": "stated on veqt, xeqt"
+  },
+  "555949f965ac": {
+    "verdict": "match",
+    "note": "stated on veqt, xeqt"
+  },
+  "ef686b1d2a73": {
+    "verdict": "match",
+    "note": "VEQT page: MER 0.22%"
+  },
+  "4b4e80210bb3": {
+    "verdict": "match",
+    "note": "XEQT page: MER 0.19%"
+  },
+  "a9f31bbe661f": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "a1a25c60dee6": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "9f867e96af8e": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "bdb2adae6530": {
+    "verdict": "match",
+    "note": "VGRO page: MER 0.22%"
+  },
+  "5dd63f52ee9f": {
+    "verdict": "match",
+    "note": "XGRO page: MER 0.19%"
+  },
+  "e6dd2c561df8": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "81bf6f042edb": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "4c9a0067d548": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "3e851c2fcb56": {
+    "verdict": "match",
+    "note": "VBAL page: MER 0.22%"
+  },
+  "abcce291b218": {
+    "verdict": "match",
+    "note": "XBAL page: MER 0.18%"
+  },
+  "19530e6f3690": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "0842ed280c8d": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "aac433298641": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "6cc65f559e0a": {
+    "verdict": "match",
+    "note": "VCNS page: MER 0.22%"
+  },
+  "67f3870fe129": {
+    "verdict": "match",
+    "note": "XCNS page: MER 0.18%"
+  },
+  "cb771da9d557": {
+    "verdict": "match",
+    "note": "page states $17.64 billion"
+  },
+  "a18b5fae8d01": {
+    "verdict": "match",
+    "note": "page states January 29, 2019"
+  },
+  "ce1b03493d2f": {
+    "verdict": "match",
+    "note": "page states 30.79%"
+  },
+  "1c95e5dd6507": {
+    "verdict": "match",
+    "note": "page states 24,169,949,662"
+  },
+  "ef3a064c80ca": {
+    "verdict": "match",
+    "note": "page states August 7, 2019"
+  },
+  "d4c50304e808": {
+    "verdict": "match",
+    "note": "XEQT 25.58/99.74=25.65%"
+  },
+  "a45a5da682a1": {
+    "verdict": "match",
+    "note": "page states $10.88 billion"
+  },
+  "554360f13267": {
+    "verdict": "match",
+    "note": "page states January 25, 2018"
+  },
+  "d88277c60fd6": {
+    "verdict": "match",
+    "note": "page states 30.59%"
+  },
+  "69eb2f9a98f6": {
+    "verdict": "match",
+    "note": "XGRO page: CAD 5,272,287,718 net assets as of Nov 27, 2026"
+  },
+  "d84e70649ca4": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "5f93e5205f18": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "7a3ee9539c80": {
+    "verdict": "match",
+    "note": "page states $5.98 billion"
+  },
+  "9cf443f66632": {
+    "verdict": "match",
+    "note": "page states January 25, 2018"
+  },
+  "54b3470c4440": {
+    "verdict": "match",
+    "note": "page states 30.64%"
+  },
+  "08b77514f2f6": {
+    "verdict": "match",
+    "note": "XBAL page: CAD 3,571,121,567"
+  },
+  "bfc4394ea5b4": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "3259705decfd": {
+    "verdict": "match",
+    "note": "XBAL 14.82/58.87=25.17%"
+  },
+  "273bae7a3c6f": {
+    "verdict": "match",
+    "note": "page states $977.26 million"
+  },
+  "26f446baeb2a": {
+    "verdict": "match",
+    "note": "page states January 25, 2018"
+  },
+  "0965356004b8": {
+    "verdict": "match",
+    "note": "page states 30.82%"
+  },
+  "5b86eb6249c1": {
+    "verdict": "match",
+    "note": "page states 451,152,137"
+  },
+  "7aa047aa6217": {
+    "verdict": "match",
+    "note": "page states August 7, 2019"
+  },
+  "6a1fb8981092": {
+    "verdict": "match",
+    "note": "XCNS 9.59/39.00=24.59%"
+  },
+  "24a8e559f515": {
+    "verdict": "match",
+    "note": "page states June 21, 2007"
+  },
+  "017571f0e4b7": {
+    "verdict": "match",
+    "note": "stated on xgro, xbal"
+  },
+  "286e75d1dcf4": {
+    "verdict": "match",
+    "note": "page states 30.79%"
+  },
+  "c318f20aa1fc": {
+    "verdict": "match",
+    "note": "page states 45.40%"
+  },
+  "5af6479d8830": {
+    "verdict": "match",
+    "note": "XEQT 25.58/99.74=25.65%"
+  },
+  "035df3e0951a": {
+    "verdict": "match",
+    "note": "XEQT page: MER 0.19%"
+  },
+  "b93a610df77f": {
+    "verdict": "match",
+    "note": "VEQT page: MER 0.22%"
+  },
+  "708fc7767020": {
+    "verdict": "match",
+    "note": "stated on veqt, xeqt"
+  },
+  "532d1fe92558": {
+    "verdict": "match",
+    "note": "page states 9.55%"
+  },
+  "9a1d01905455": {
+    "verdict": "match",
+    "note": "page states October 31, 2026"
+  },
+  "952df553ef35": {
+    "verdict": "match",
+    "note": "page states 8.27%"
+  },
+  "316f3ff80225": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "a760b332b217": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "f1843b0b04e8": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "6e6427d134cd": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "b899e705afec": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "587e6a7e3d50": {
+    "verdict": "match",
+    "note": "page states 30.59%"
+  },
+  "368a0f58bfb9": {
+    "verdict": "match",
+    "note": "19.92/79.70=24.99%"
+  },
+  "d3785a3a29be": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "cf84c48237f2": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "62b7c3646b4e": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns"
+  },
+  "47d525f03a5f": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro"
+  },
+  "dff24b9f6616": {
+    "verdict": "example-ok",
+    "note": "derived from declared $100,000 example (see D)"
+  },
+  "018772aa170f": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "29627170b5b3": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "4a00229db5a5": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal"
+  },
+  "fa4d4ba1ac82": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "285e7e3b2a4d": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "8d227bfd0444": {
+    "verdict": "match",
+    "note": "page states 60.53%"
+  },
+  "7aba7b35bd37": {
+    "verdict": "match",
+    "note": "page states 39.45%"
+  },
+  "7528d457f246": {
+    "verdict": "match",
+    "note": "page states October 31, 2026"
+  },
+  "3b0f3c439310": {
+    "verdict": "match",
+    "note": "page states 17,362"
+  },
+  "f044c5e205e7": {
+    "verdict": "match",
+    "note": "page states 4.2%"
+  },
+  "c5538b4f7489": {
+    "verdict": "match",
+    "note": "XBAL XBB displays 26.78"
+  },
+  "917c9bba06fd": {
+    "verdict": "match",
+    "note": "XBAL page: MER 0.18%"
+  },
+  "4c0a20782b98": {
+    "verdict": "match",
+    "note": "0.22-0.18=0.04"
+  },
+  "f8d6608329f0": {
+    "verdict": "match",
+    "note": "VBAL page: MER 0.22%"
+  },
+  "649daf6865bd": {
+    "verdict": "example-ok",
+    "note": "derived from declared $100,000 example (see D)"
+  },
+  "a62db0e4b63a": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "0df6c1d62412": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "04d1ee0ebb75": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "49fa25c15174": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "683c49a55968": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "5fd72b07e845": {
+    "verdict": "match",
+    "note": "page states $977.26 million"
+  },
+  "2dbf2f38571b": {
+    "verdict": "match",
+    "note": "page states 451,152,137"
+  },
+  "328853968fce": {
+    "verdict": "match",
+    "note": "page states 59.47%"
+  },
+  "3e3c53e08766": {
+    "verdict": "match",
+    "note": "page states 40.51%"
+  },
+  "b244ce2875d6": {
+    "verdict": "match",
+    "note": "page states 30.82%"
+  },
+  "8d8dcec010d6": {
+    "verdict": "match",
+    "note": "page states 38.66%"
+  },
+  "dba14baeea74": {
+    "verdict": "match",
+    "note": "XCNS 9.59/39.00=24.59%"
+  },
+  "e531322761a8": {
+    "verdict": "match",
+    "note": "XCNS page: MER 0.18%"
+  },
+  "52142cd62de6": {
+    "verdict": "match",
+    "note": "VCNS page: MER 0.22%"
+  },
+  "4ab185d3dd77": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "bd06a470782c": {
+    "verdict": "match",
+    "note": "0.22%*100000"
+  },
+  "4b19fc92cfd0": {
+    "verdict": "match",
+    "note": "0.19%*100000"
+  },
+  "53ea0f7acc9d": {
+    "verdict": "match",
+    "note": "0.18%*100000"
+  },
+  "f4e7d91839f3": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "88b34a42aaba": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "2d40a290afad": {
+    "verdict": "match",
+    "note": "0.17%*100000"
+  },
+  "95bcdb761e14": {
+    "verdict": "example-ok",
+    "note": "declared example portfolio size"
+  },
+  "b4b4c91114b9": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "f3b4e21b3bac": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "899ecfce90a8": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns"
+  },
+  "7ab50f19e216": {
+    "verdict": "match",
+    "note": "0.22%*100000"
+  },
+  "9bfb9ebe9ac5": {
+    "verdict": "match",
+    "note": "0.17%*100000"
+  },
+  "75372e1176c2": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro"
+  },
+  "200d28a4a060": {
+    "verdict": "match",
+    "note": "0.19%*100000"
+  },
+  "a8d025d169ee": {
+    "verdict": "match",
+    "note": "0.17%*100000"
+  },
+  "302dcd97c4bf": {
+    "verdict": "match",
+    "note": "stated on xbal, xcns"
+  },
+  "e17cd7af82ff": {
+    "verdict": "match",
+    "note": "0.18%*100000"
+  },
+  "e3b51836752c": {
+    "verdict": "match",
+    "note": "0.17%*100000"
+  },
+  "af26363fe492": {
+    "verdict": "match",
+    "note": "Press release dated November 18, 2025; fees effective that day"
+  },
+  "3a94ee00ea53": {
+    "verdict": "match",
+    "note": "Press release table: current management fee 0.22%, new 0.17%"
+  },
+  "188d4f1d1eba": {
+    "verdict": "match",
+    "note": "Press release: new management fee 0.17% effective November 18, 2025"
+  },
+  "a31acc1f76d5": {
+    "verdict": "match",
+    "note": "ETF Facts: As of March 31, 2026, the ETF's expenses were 0.22% of its value"
+  },
+  "e9670763a691": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro, xbal, xcns"
+  },
+  "1b08d4934695": {
+    "verdict": "example-ok",
+    "note": "declared example age"
+  },
+  "ff37301e7545": {
+    "verdict": "mismatch",
+    "note": "60 here is an age in 'at 60', not the 60/40 fund target; those pages do not state age 60"
+  },
+  "91ea3603c57f": {
+    "verdict": "match",
+    "note": "Press release table: current management fee 0.22%, new 0.17%"
+  },
+  "064303c65129": {
+    "verdict": "match",
+    "note": "Press release: four Vanguard funds' new fee 0.17%. XEQT, XGRO, XBAL and XCNS pages each say the fee was reduced to 0.17%."
+  },
+  "2ebfa1124d32": {
+    "verdict": "match",
+    "note": "Press release dated November 18, 2025; fees effective that day"
+  },
+  "f58a394485e8": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro, xbal, xcns"
+  },
+  "8c1dbfacc480": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro, xbal, xcns"
+  },
+  "8dc66aeebcc7": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns"
+  },
+  "7d626186305a": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "f483575d445c": {
+    "verdict": "match",
+    "note": "stated on veqt, xeqt"
+  },
+  "3a941679dd33": {
+    "verdict": "match",
+    "note": "stated on vbal, xbal, vcns, xcns"
+  },
+  "98315835fa07": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "53fb94633566": {
+    "verdict": "match",
+    "note": "stated on vgro, xgro"
+  },
+  "4fbc5e7f6000": {
+    "verdict": "mismatch",
+    "note": "the 60 in this sentence is the 60/40 stock share; VCNS and XCNS are 40% equity and 60% bonds, not a 60/40 fund"
+  },
+  "611b7f062465": {
+    "verdict": "mismatch",
+    "note": "the 40 in this sentence is the bond share of the 60/40 mix; on VCNS and XCNS the 40% is the equity share"
+  },
+  "4d41a05f3827": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns, xeqt, xgro, xbal, xcns"
+  },
+  "8daad0d734c2": {
+    "verdict": "mismatch",
+    "note": "XGRO's published MER is 0.19%; its page uses 0.18% only as the management fee before the December 18, 2025 cut, which is not this MER claim"
+  },
+  "90c29c361d25": {
+    "verdict": "match",
+    "note": "stated on xeqt, xgro"
+  },
+  "c8c83f28f4d9": {
+    "verdict": "match",
+    "note": "stated on veqt, vgro, vbal, vcns"
+  },
+  "48ff17e02d27": {
+    "verdict": "match",
+    "note": "stated on vcns, xcns"
+  },
+  "2f0ef0248d3f": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "10c103988bba": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "48c7173377e8": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "e2dd9347af29": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "bf616d0186af": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "c804326d0087": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "9f725fb02965": {
+    "verdict": "match",
+    "note": "model 784.82 rounds to 785"
+  },
+  "829e31a5789d": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "c35eb773abbb": {
+    "verdict": "match",
+    "note": "loan interest 1127.13 rounds to 1127"
+  },
+  "ce721a08ac26": {
+    "verdict": "match",
+    "note": "model 1931.64 rounds to 1932"
+  },
+  "0609c1971761": {
+    "verdict": "match",
+    "note": "FCAC debt consolidation: usually 6 to 18 months"
+  },
+  "21daf058ae0f": {
+    "verdict": "match",
+    "note": "FCAC: Most personal loans range from $100 to $50,000"
+  },
+  "a77bafb2b94b": {
+    "verdict": "match",
+    "note": "FCAC: $100 to $50,000"
+  },
+  "524e39c56292": {
+    "verdict": "match",
+    "note": "FCAC: term between 6 and 60 months"
+  },
+  "1e29c9dc6d09": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "aaae59db5442": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "584fecba4a65": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "50bdbb3cc858": {
+    "verdict": "match",
+    "note": "8240/10"
+  },
+  "30b7d7ae5f4c": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "41730fd3703f": {
+    "verdict": "match",
+    "note": "8240/12=686.666..."
+  },
+  "bf7fef0c98a2": {
+    "verdict": "match",
+    "note": "model 784.82 rounds to 785"
+  },
+  "442128c754a4": {
+    "verdict": "match",
+    "note": "model 1668.51 rounds to 1669"
+  },
+  "b7075af0081a": {
+    "verdict": "match",
+    "note": "FCAC example: a personal loan for $2,000"
+  },
+  "a8c7fc1f1c5d": {
+    "verdict": "match",
+    "note": "FCAC example: interest rate is 19.99%"
+  },
+  "9da5e8d8d94c": {
+    "verdict": "match",
+    "note": "FCAC table: total cost of the loan $2,220"
+  },
+  "503853b228d0": {
+    "verdict": "example-bad",
+    "note": "The 12-month term is the FCAC table's own term, presented as the FCAC example, not this post's input."
+  },
+  "db533daebe78": {
+    "verdict": "match",
+    "note": "FCAC table: total cost $3,180"
+  },
+  "420fd4ccca20": {
+    "verdict": "match",
+    "note": "FCAC: term between 6 and 60 months"
+  },
+  "e901c16150f9": {
+    "verdict": "match",
+    "note": "FCAC: may not charge more than 35% interest annually"
+  },
+  "5d6a64b4795e": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "fec574a2aec1": {
+    "verdict": "example-bad",
+    "note": "States 0% as how a balance transfer works. FCAC says 'a lower or 0% introductory rate'; the row is classified as the post's example."
+  },
+  "727ab5857e4b": {
+    "verdict": "example-ok",
+    "note": "review date (date of this check)"
+  },
+  "96c5705afdc7": {
+    "verdict": "example-bad",
+    "note": "The side-by-side table is captioned FCAC and OBSI, and the cell states a lower or 0% introductory rate. FCAC says that; the row is kind example."
+  },
+  "05fdc1e98586": {
+    "verdict": "match",
+    "note": "FCAC debt consolidation: usually 6 to 18 months"
+  },
+  "0a1f5438a202": {
+    "verdict": "match",
+    "note": "FCAC: term between 6 and 60 months"
+  },
+  "79469de7db29": {
+    "verdict": "match",
+    "note": "OBSI: fee often ranges from 2% to 5%"
+  },
+  "1fc4f9c6733b": {
+    "verdict": "match",
+    "note": "OBSI: fee often ranges from 2% to 5%"
+  },
+  "291cd07c9d6f": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "782415d0007e": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "e2fa59dba5e3": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "000b0bff5282": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "403b9e39eaff": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "d35e38ca68d0": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "c4376cfce28c": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "eb3797d0f701": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "d1daaefc5108": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "47fe641be122": {
+    "verdict": "match",
+    "note": "model 595.79 rounds to 596"
+  },
+  "c6c5238328cc": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "d9962e9272e5": {
+    "verdict": "match",
+    "note": "model 784.82 rounds to 785"
+  },
+  "4899798bd66d": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "719cf7594be7": {
+    "verdict": "match",
+    "note": "loan interest 1127.13 rounds to 1127"
+  },
+  "91ca5ba190a7": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "2dab695a6589": {
+    "verdict": "match",
+    "note": "model 1931.64 rounds to 1932"
+  },
+  "3b124c5b62a4": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "644442721a73": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "e6a2843314dc": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "0274cdd3e431": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "fdbafa7ba0ec": {
+    "verdict": "match",
+    "note": "model months stay and lost-promo"
+  },
+  "8982cdc09c8b": {
+    "verdict": "match",
+    "note": "model 1931.64 rounds to 1932"
+  },
+  "8602b5d7ab7b": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "c5d6629ca3e4": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "c28c79b50f5f": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "c0234198d5dc": {
+    "verdict": "match",
+    "note": "3%*8000"
+  },
+  "5b0ebeec39d2": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "4cec858005ff": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "3478182d9397": {
+    "verdict": "match",
+    "note": "model months"
+  },
+  "94e62e90f079": {
+    "verdict": "match",
+    "note": "model 595.79 rounds to 596"
+  },
+  "55567ca0bcfe": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "b02970db3449": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "d35fd0ef9a8f": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "fd1e3db30e45": {
+    "verdict": "match",
+    "note": "3%*8000"
+  },
+  "13862d59a742": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "2b007b1cb190": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "af1ff5fc1813": {
+    "verdict": "match",
+    "note": "model months"
+  },
+  "5ab7675f30e4": {
+    "verdict": "match",
+    "note": "model 784.82 rounds to 785"
+  },
+  "d6fe13204a9a": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "7555d56b59d2": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "a6a84f6378ca": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "f39981ee5049": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "7f3b5be40379": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "0d10819ce782": {
+    "verdict": "match",
+    "note": "model months for 5% fee"
+  },
+  "9551da892aeb": {
+    "verdict": "match",
+    "note": "model 989.30 rounds to 989"
+  },
+  "81bd6649f440": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "1ab9a80c3567": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "eb4bee93ad74": {
+    "verdict": "match",
+    "note": "model months stay and lost-promo"
+  },
+  "2c23bed6763f": {
+    "verdict": "match",
+    "note": "model 1668.51 rounds to 1669"
+  },
+  "862584b3227a": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "1d6c306537f0": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "cef6212549e8": {
+    "verdict": "match",
+    "note": "12.99% amortised payment rounds to 380.30"
+  },
+  "bd798f6c6d9f": {
+    "verdict": "match",
+    "note": "loan interest 1127.13 rounds to 1127"
+  },
+  "6e84a9604d17": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "a98fe04f512d": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "106e74ae33ba": {
+    "verdict": "match",
+    "note": "19.99% amortised payment rounds to 407.13"
+  },
+  "f1e4df253fdd": {
+    "verdict": "match",
+    "note": "loan interest 1771.06 rounds to 1771"
+  },
+  "6541acb8b539": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "fce90aeec996": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "f39e866ab8b0": {
+    "verdict": "match",
+    "note": "989-785 displayed; unrounded gap 204.48"
+  },
+  "19e52243e3fa": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "d9796b56a367": {
+    "verdict": "match",
+    "note": "1669-785; unrounded 883.69"
+  },
+  "bf3e4cc4ceb3": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "dc4c265438de": {
+    "verdict": "match",
+    "note": "1932-1771; unrounded 160.58"
+  },
+  "d28b888a5b17": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "91bd84b2329a": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "563247dfabb6": {
+    "verdict": "match",
+    "note": "8000+240"
+  },
+  "17e02dfd6845": {
+    "verdict": "match",
+    "note": "scenario length used in 8240/10"
+  },
+  "d28e565e6f98": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "2659c3441548": {
+    "verdict": "example-ok",
+    "note": "declared example interest rate"
+  },
+  "97fc5bbb1a94": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "9463e75b6e58": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "6814e2ed9ffd": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "de2c4335f70d": {
+    "verdict": "match",
+    "note": "3%*8000"
+  },
+  "578cf9dc9693": {
+    "verdict": "match",
+    "note": "8000+240"
+  },
+  "93d419bad65b": {
+    "verdict": "match",
+    "note": "8240/10"
+  },
+  "cac2bcf32f48": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "1f6eee5fe863": {
+    "verdict": "match",
+    "note": "8240/12=686.666..."
+  },
+  "8ba91a55f2bf": {
+    "verdict": "match",
+    "note": "scenario length used in 8240/12"
+  },
+  "7c6e5308ad21": {
+    "verdict": "example-ok",
+    "note": "declared example balance"
+  },
+  "b11f062c7ec2": {
+    "verdict": "example-ok",
+    "note": "declared example transfer fee"
+  },
+  "a6391717b949": {
+    "verdict": "example-ok",
+    "note": "declared example promo rate"
+  },
+  "a41eff5932d3": {
+    "verdict": "match",
+    "note": "8240/6=1373.333..."
+  },
+  "91e12b2d42af": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "2e463e7887d9": {
+    "verdict": "match",
+    "note": "8240/10"
+  },
+  "51b5615eedf4": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "f4718526979d": {
+    "verdict": "match",
+    "note": "8240/12=686.666..."
+  },
+  "0472158264f1": {
+    "verdict": "example-ok",
+    "note": "declared example payoff length (our own scenario)"
+  },
+  "e3262b56f8ef": {
+    "verdict": "match",
+    "note": "8240/18=457.777..."
+  },
+  "036af1398aa5": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "eac7cde19713": {
+    "verdict": "example-ok",
+    "note": "declared example monthly payment"
+  },
+  "5fb0ebb290b4": {
+    "verdict": "example-ok",
+    "note": "declared example input (rate / term / months)"
+  },
+  "2531446f6fcd": {
+    "verdict": "match",
+    "note": "model months at $300"
+  },
+  "4b0f0482d17a": {
+    "verdict": "match",
+    "note": "model 1441.34 rounds to 1441"
+  },
+  "f84f0d33279b": {
+    "verdict": "match",
+    "note": "stay at $300 is 2868.55 rounds to 2869"
+  },
+  "06b80091c0ba": {
+    "verdict": "match",
+    "note": "FCAC example: a personal loan for $2,000"
+  },
+  "8822fc2d7d48": {
+    "verdict": "match",
+    "note": "FCAC example: interest rate is 19.99%"
+  },
+  "e4efe6b397b9": {
+    "verdict": "match",
+    "note": "FCAC table: total cost of the loan $2,220"
+  },
+  "a84189c1028a": {
+    "verdict": "example-bad",
+    "note": "The 12-month term is the FCAC table's own term, presented as the FCAC example, not this post's input."
+  },
+  "7c679809a98e": {
+    "verdict": "match",
+    "note": "FCAC table: total cost $2,700"
+  },
+  "8f0fa98fa97c": {
+    "verdict": "match",
+    "note": "FCAC table: 36-month term"
+  },
+  "09bb922cd9fc": {
+    "verdict": "match",
+    "note": "FCAC table: total cost $3,180"
+  },
+  "82cfe0889230": {
+    "verdict": "match",
+    "note": "FCAC: term between 6 and 60 months"
+  },
+  "b37ee0ac6d29": {
+    "verdict": "match",
+    "note": "FCAC table: total cost $2,304 at 8.99%"
+  },
+  "3f7273c247df": {
+    "verdict": "match",
+    "note": "FCAC table: 8.99%"
+  },
+  "cf351df7c6b4": {
+    "verdict": "match",
+    "note": "FCAC table: total cost $3,312 at 34.99%"
+  },
+  "9a67f6f098e4": {
+    "verdict": "match",
+    "note": "FCAC table: 34.99%"
+  },
+  "741d1a5a1f16": {
+    "verdict": "example-ok",
+    "note": "declared example payoff length (our own scenario)"
+  },
+  "850c73fca694": {
+    "verdict": "example-bad",
+    "note": "Sentence states an FCAC fact (usually 6 to 12 months). The choosing-a-credit-card page does say that; this row is classified example."
+  },
+  "e8dc9a85a16c": {
+    "verdict": "match",
+    "note": "FCAC debt consolidation: usually 6 to 18 months"
+  },
+  "48d31ea38438": {
+    "verdict": "match",
+    "note": "OBSI: fee often ranges from 2% to 5%"
+  },
+  "0c722cc4aaa5": {
+    "verdict": "match",
+    "note": "OBSI: fee often ranges from 2% to 5%"
+  },
+  "0612d3c55273": {
+    "verdict": "match",
+    "note": "FCAC: may not charge more than 35% interest annually"
+  }
+}
