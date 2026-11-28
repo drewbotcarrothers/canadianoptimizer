@@ -987,132 +987,197 @@ export const budgetingClusterPosts: BudgetPost[] = [
 </div>`
   ),
 
-  budgetPost(
+  {
+    ...budgetPost(
     'best-budgeting-apps-canada',
     'Best Budgeting Apps in Canada (2026)',
-    'YNAB is US$14.99 a month or US$109 a year. Neontra Premium is $12 a month or $99 a year. A spreadsheet still does the job the cash-flow system describes.',
+    'YNAB is US$109 a year and Monarch US$99.99, about $155 and $142 in CAD. Neontra is $99. Each app must close an $8 to $13 monthly leak to pay for itself.',
     `<div class="container">
 
     <div class="hook">
-        A budgeting app is worth the fee only if it changes a transfer you were not making. As of the pricing pages reviewed on <span class="highlight">27 September 2026</span>, YNAB charges US$14.99 a month or US$109 a year, and Neontra charges $12 a month or $99 a year for Premium. Both numbers are the vendors’ prices. Neither app holds your savings, and neither one knows your TFSA room.
+        The best budgeting app in Canada is the one whose yearly fee is smaller than the leak it helps you find. As of the pricing pages checked on <span class="highlight">25 November 2026</span>, YNAB is US$109 a year and Monarch Core is US$99.99 a year. At the Bank of Canada rate that day, that is about $155 and $142 in Canadian dollars. Neontra Premium is listed at $99 a year. So each paid app has to find roughly $8 to $13 a month you were not saving before. If it cannot, a free plan, a spreadsheet or the government’s own budget planner does the same job.
     </div>
 
-    <p>The system the app is supposed to enforce is the <a href="/blog/canadian-cash-management-guide/">cash management guide</a> and the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. The payday transfer itself is the <a href="/blog/money-automation-stack-canada/">automation stack</a>. What “enough” means as a share of income is <a href="/blog/saving-rate-targets-canada/">saving-rate targets</a>. Two people sharing one plan is <a href="/blog/couples-money-system-canada/">the couples system</a>.</p>
+    <p>The system any app is supposed to enforce is the <a href="/blog/canadian-cash-management-guide/">cash management guide</a> and the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>. The payday transfer itself is the <a href="/blog/money-automation-stack-canada/">automation stack</a>. What “enough” means as a share of income is <a href="/blog/saving-rate-targets-canada/">saving-rate targets</a>. Two people sharing one plan is <a href="/blog/couples-money-system-canada/">the couples system</a>. Every other budgeting and saving guide is in the <a href="/category/budgeting-saving/">Budgeting &amp; Saving hub</a>.</p>
 
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>YNAB is priced in US dollars. The pricing page says exchange rates are not included. A 34-day trial does not require a card if you sign up on YNAB’s site. A third-party app store may still ask for one.</li>
-            <li>Neontra’s free plan is manual tracking at $0. Premium is $99 a year, or $12 a month, and the page says the annual plan saves 30% versus monthly. Premium includes unlimited institution connections. The free plan does not include auto-sync.</li>
-            <li>YNAB says one subscription can be shared with up to six people. Neontra’s pricing page does not describe a household share.</li>
-            <li>Bank sync in Canada is uneven. YNAB says direct import supports select Canadian banks. This article does not list which ones, because the pricing page did not.</li>
-            <li>A notebook or a spreadsheet at $0 still works if the transfer runs. The app is not the saving rate.</li>
+            <li>YNAB and Monarch are priced in US dollars. YNAB says exchange rates are not reflected in the price. Monarch says it charges and refunds only in USD and that your bank sets the exchange rate.</li>
+            <li>At the Bank of Canada rate of 1.4219 on 25 November 2026, YNAB’s US$109 year is about $154.99 and Monarch Core’s US$99.99 year is about $142.18, before tax and any card foreign-transaction fee.</li>
+            <li>Paying monthly costs more. YNAB’s US$14.99 a month is about $255.77 over twelve months. Neontra’s $12 a month is $144 a year against $99 for the annual plan.</li>
+            <li>Divide the yearly fee by twelve. That is the monthly leak the app must help you close to pay for itself: about $12.92 for YNAB, $11.85 for Monarch Core and $8.25 for Neontra Premium.</li>
+            <li>Bank sync is the weak link in Canada. Finance Canada says about nine million Canadians share financial data through screen scraping. The federal consumer-driven banking framework that replaces it is legislated, but its rules are still coming into force in stages.</li>
+            <li>A $0 option still works if the transfer runs: Neontra’s free manual plan, a spreadsheet, or the Financial Consumer Agency of Canada’s free Budget Planner.</li>
         </ul>
     </div>
 
     <div class="callout">
-        <p><strong>Choose YNAB if…</strong> you want a zero-based method, you will pay in US dollars, and more than one person should sit on the same subscription. <strong>Choose Neontra if…</strong> you want a Canadian-dollar price and automatic connections, and you have confirmed your institutions actually connect. <strong>Choose neither if…</strong> you will not open the app. Use the cash-flow system and a calendar reminder. The fee you skip is the point.</p>
+        <p><strong>Choose YNAB if…</strong> you want a strict zero-based method, more than one person should share one subscription (up to six), and you accept a US-dollar bill. <strong>Choose Monarch if…</strong> you want a dashboard of every account and your accounts are all in Canadian dollars, because Monarch does not convert currencies. <strong>Choose Neontra if…</strong> you want a listed $99 annual price from an app powered by a Toronto-based technology firm and your institutions connect during the 14-day trial. <strong>Choose a $0 tool if…</strong> you will not open an app every week. Use the cash-flow system and a calendar reminder. The fee you skip is the point.</p>
     </div>
 
-    <h2>What do the pricing pages actually charge?</h2>
+    <h2>What do the budgeting apps actually charge in 2026?</h2>
 
     <table>
-        <caption>App prices from the vendor pricing pages reviewed on 27 September 2026. YNAB’s figures are US dollars. Neontra’s figures are the dollar sign on its Canadian pricing page.</caption>
+        <caption>Prices from the vendor pricing pages checked on 25 November 2026. YNAB and Monarch figures are US dollars. Neontra’s figures are the dollar amounts on its pricing page.</caption>
         <thead>
             <tr>
                 <th></th>
                 <th>YNAB</th>
-                <th>Neontra</th>
-                <th>Your own spreadsheet</th>
+                <th>Monarch Core</th>
+                <th>Neontra Premium</th>
+                <th>FCAC Budget Planner or a spreadsheet</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Price</td>
-                <td>US$14.99 a month, or US$109 a year (the page shows that as US$9.08 a month). Plus tax where it applies.</td>
-                <td>Free plan $0. Premium $12 a month or $99 a year. The page says annual saves 30% versus the monthly price.</td>
+                <td>US$14.99 a month, or US$109 a year. Plus tax where it applies.</td>
+                <td>US$14.99 a month, or US$99.99 a year. Plus is US$199.99 a year.</td>
+                <td>$12 a month or $99 a year. The free plan is $0.</td>
                 <td>$0</td>
             </tr>
             <tr>
                 <td>Trial</td>
                 <td>34 days, no card if you start on YNAB’s own site. College students can get a 365-day trial with proof of enrolment.</td>
-                <td>The page says the first two weeks are on them</td>
+                <td>First week free, plus a money-back guarantee</td>
+                <td>14 days of Premium, no credit card required</td>
                 <td>None needed</td>
             </tr>
             <tr>
-                <td>What the paid plan adds</td>
-                <td>The subscription is the product. Direct import is part of it. One currency per plan. Share with up to six people.</td>
-                <td>Unlimited institution connections, premium support, no ads. The free plan is manual tracking only.</td>
-                <td>Nothing automatic. The <a href="/blog/cash-flow-system-canada/">categories</a> are yours.</td>
+                <td>Bank sync</td>
+                <td>Direct import supports select Canadian banks. File import when it does not.</td>
+                <td>Plaid, MX and Finicity. Monarch says certain Canadian banks may be hard to connect or keep synced.</td>
+                <td>Unlimited connections on Premium. The free plan is manual tracking only.</td>
+                <td>You type it or paste it</td>
             </tr>
             <tr>
                 <td>Currency of the bill</td>
-                <td>US dollars. YNAB says the exchange rate is not built into the price.</td>
-                <td>Shown as dollars on the Canadian site. Confirm the checkout currency before you subscribe.</td>
-                <td>Canadian dollars, because you are not billed</td>
+                <td>US dollars. Exchange rate not built into the price.</td>
+                <td>US dollars. Charged and refunded only in USD.</td>
+                <td>Shown as dollars on its pricing page. Confirm the checkout currency before you subscribe.</td>
+                <td>Nothing billed</td>
             </tr>
             <tr>
-                <td>Holds your money?</td>
-                <td>No. It reads accounts you connect.</td>
-                <td>No, on the pricing page’s privacy lines. It is not a bank.</td>
-                <td>No</td>
+                <td>Sharing</td>
+                <td>One subscription for up to six people</td>
+                <td>Not described in the pricing FAQ</td>
+                <td>Not described on the pricing page</td>
+                <td>Share the file</td>
             </tr>
         </tbody>
     </table>
 
-    <p>Table as of 27 September 2026. YNAB’s pricing page also publishes the company’s own averages for what new users save. Those figures are the vendor’s marketing. They are not used here as evidence. Your result is the transfer you added, which you can see in the account.</p>
+    <p>Table as of 25 November 2026. YNAB’s pricing page also publishes the company’s own averages for what new users save. Those figures are the vendor’s marketing and are not used here as evidence. Your result is the transfer you added, which you can see in the account.</p>
 
-    <h2>What should the app do, and what should it refuse to do?</h2>
+    <h2>What does each app cost in Canadian dollars?</h2>
+
+    <p>A US price is not a Canadian price. The Bank of Canada’s daily USD/CAD rate on 25 November 2026 was 1.4219. Multiplying the posted US prices by that rate gives the table below. Your card issuer sets the real rate on the day you are charged, and sales tax and any foreign-transaction fee come on top.</p>
+
+    <table>
+        <caption>Posted price × Bank of Canada rate of 1.4219 (25 November 2026). Rounded to the cent. Before tax and card fees.</caption>
+        <thead>
+            <tr>
+                <th>Plan</th>
+                <th>Posted price</th>
+                <th>About in CAD per year</th>
+                <th>Monthly leak it must close</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>YNAB, annual</td><td>US$109 a year</td><td>$154.99</td><td>$12.92</td></tr>
+            <tr><td>YNAB, monthly</td><td>US$14.99 a month</td><td>$255.77</td><td>$21.31</td></tr>
+            <tr><td>Monarch Core, annual</td><td>US$99.99 a year</td><td>$142.18</td><td>$11.85</td></tr>
+            <tr><td>Monarch Plus, annual</td><td>US$199.99 a year</td><td>$284.37</td><td>$23.70</td></tr>
+            <tr><td>Neontra Premium, annual</td><td>$99 a year</td><td>$99.00</td><td>$8.25</td></tr>
+            <tr><td>Neontra Premium, monthly</td><td>$12 a month</td><td>$144.00</td><td>$12.00</td></tr>
+            <tr><td>FCAC Budget Planner or spreadsheet</td><td>$0</td><td>$0</td><td>$0</td></tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Example: the break-even rule</strong>
+        <p>Take YNAB on the annual plan at about $154.99 a year. Divided by twelve, that is $12.92 a month. If the app makes you cancel one $15 monthly subscription, it has paid for itself with about $2 a month left over. If you cancel nothing and move no new money into savings, the app was another fixed cost. The same rule gives $11.85 a month for Monarch Core and $8.25 for Neontra’s annual plan. The $15 is a round number you have to find on your own statement. It is not a promise that you will find one. The leak hunt is the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>.</p>
+    </div>
+
+    <h2>Why does bank sync break in Canada?</h2>
+
+    <p>Most Canadian budgeting apps still reach your bank the old way. In its 20 November 2026 news release, the Department of Finance Canada said about nine million Canadians share financial data through screen scraping, which means giving an app or its data provider your banking login so it can read your accounts. Finance Canada says that practice carries security, liability and privacy risks. It is also why a connection can break when a bank changes its sign-in page.</p>
+
+    <ul>
+        <li><strong>The fix is legislated, not live.</strong> The Consumer-Driven Banking Act received royal assent in March 2026. Proposed regulations were pre-published on 26 June 2026. Phase one is read-only data sharing through secure APIs, with large banks required to participate first.</li>
+        <li><strong>The pieces are being named.</strong> On 20 November 2026, Finance Canada designated Financial Data Exchange (FDX) as the technical standards body and the Ombudsman for Banking Services and Investments (OBSI) as the complaints body. The Bank of Canada will supervise the framework and keep a public registry of accredited providers.</li>
+        <li><strong>No start date yet.</strong> Finance Canada says the regulations will come into force in a staggered way, with details when the final regulations are published. Until then, test your own bank during a free trial before you pay.</li>
+        <li><strong>Watch your currencies.</strong> Monarch says it shows every balance with a $ sign and does not convert currencies, so a 10,000 CAD account and a 10,000 USD account show as $20,000. YNAB allows one currency per plan. Keep a US-dollar account out of a Canadian-dollar budget, or track it separately.</li>
+    </ul>
+
+    <h2>What should a budgeting app do, and what should it refuse to do?</h2>
 
     <p>The job is small. On payday, assign the dollars before they are spent. One piece is the bill account. One piece is the emergency or savings transfer. One piece is the irregular annual bills, which are easier to see when they have a name. Anything left is spending. That is zero-based budgeting, and it is also the cash-flow system written in software. If the app will not show you those three transfers, the extra charts are entertainment.</p>
 
     <ul>
         <li><strong>It should not pick your savings rate.</strong> A target you did not write down is the app’s default, not your plan. The framework is <a href="/blog/saving-rate-targets-canada/">saving-rate targets</a>.</li>
         <li><strong>It should not replace the registered-account order.</strong> An app that categorizes a TFSA contribution as “savings” has not checked your room. Room is the <a href="/blog/contribution-limits/">limits table</a> and the <a href="/blog/tfsa-contribution-optimization/">January TFSA guide</a>.</li>
-        <li><strong>It should not be your only copy.</strong> Export or screenshot the categories once a quarter. If the sync breaks, the plan should still exist. Canadian bank connections are the usual break point. YNAB says select Canadian banks work for direct import and that a file import exists when they do not. Test your institution during the trial, before the US-dollar charge starts.</li>
-        <li><strong>It should not hide a fixed cost.</strong> A subscription inside the app is itself a fixed cost. US$109 a year is worth it if it surfaces a larger leak. It is not worth it if you already know the leak and will not cancel it. The leak hunt is the <a href="/blog/fixed-cost-audit-canada/">fixed-cost audit</a>.</li>
+        <li><strong>It should not be your only copy.</strong> Export the categories once a quarter. If the sync breaks, the plan should still exist. Test your institution during the trial, before the first charge.</li>
+        <li><strong>It should not hide a fixed cost.</strong> A subscription inside the app is itself a fixed cost. It is worth it if it surfaces a larger leak. It is not worth it if you already know the leak and will not cancel it.</li>
     </ul>
 
-    <div class="example-box">
-        <strong>Illustration: the fee against one cancelled monthly charge</strong>
-        <p>Neontra Premium at $99 a year is $8.25 a month if you divide the annual bill by twelve. The page’s monthly price is $12, which is why the annual option is cheaper if you stay the year. YNAB at US$109 a year is the US-dollar amount. Your card converts it. This article does not invent the conversion or a foreign-transaction markup. If your card charges one, the no-foreign-fee comparison is <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">that card guide</a>. A single $15 monthly subscription you cancel because the app made you look covers a Neontra annual plan with room left over. If you cancel nothing, the app was an expense. The arithmetic uses the posted prices and a round $15 you have to find on your own statement. It is not a promise that you will find one.</p>
-    </div>
+    <h2>Is there a free budgeting tool from the Government of Canada?</h2>
+
+    <p>Yes. The Financial Consumer Agency of Canada (FCAC) runs a free Budget Planner on Canada.ca. It builds a customized budget in three steps from your income and expenses, and you can save and continue later. It does not connect to your bank, which is the trade-off: you type the numbers, and nobody gets your login. For a household that already runs the <a href="/blog/cash-flow-system-canada/">cash-flow system</a>, that is often enough.</p>
 
     <h2>How should couples and card spenders use one?</h2>
 
-    <p>YNAB’s page says one subscription covers up to six people. That is a price feature, not a relationship feature. You still need a rule for joint bills and personal spending. The rule is the <a href="/blog/couples-money-system-canada/">couples system</a>. Neontra’s pricing page does not offer that share. Two Neontra Premium plans would be two bills. Confirm before you assume a household login exists.</p>
+    <p>YNAB’s page says one subscription covers up to six people. That is a price feature, not a relationship feature. You still need a rule for joint bills and personal spending. The rule is the <a href="/blog/couples-money-system-canada/">couples system</a>. Neontra’s pricing page does not describe a household share, so two Premium plans would be two bills. Confirm before you assume a household login exists.</p>
 
-    <p>Credit-card spending belongs in the plan on the day it happens, not on the day the bank account pays the statement. Otherwise the month looks fine and the statement does not. Which card earns the spending is <a href="/blog/best-credit-cards-canada/">the card hub</a>, and only if the statement is paid in full. A budgeting app that helps you carry a balance has failed at the only job that matters. The interest comparison is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>.</p>
+    <p>Credit-card spending belongs in the plan on the day it happens, not on the day the bank account pays the statement. Otherwise the month looks fine and the statement does not. Which card earns the spending is <a href="/blog/best-credit-cards-canada/">the card hub</a>, and only if the statement is paid in full. If a US-dollar app subscription sits on a card that charges a foreign-transaction fee, the comparison is <a href="/blog/best-no-foreign-transaction-fee-credit-cards-canada/">no-foreign-fee cards</a>. A budgeting app that helps you carry a balance has failed at the only job that matters. The interest comparison is <a href="/blog/debt-payoff-vs-investing-canada/">debt payoff versus investing</a>.</p>
 
     <div class="tip-box">
         <strong>Start the trial against a real payday:</strong>
-        <p>Connect, or type, one paycheque. Assign the rent, the savings transfer, and the card payment before you assign restaurants. If the app is still empty when the trial ends, do not subscribe. The <a href="/blog/money-automation-stack-canada/">automation stack</a> can move the savings without a subscription. The app is for people who will not look at the bank page unless something else opens it for them.</p>
+        <p>Connect, or type, one paycheque. Assign the rent, the savings transfer and the card payment before you assign restaurants. Write down the one leak you will close and its monthly amount. If it is smaller than the app’s break-even number, or the app is still empty when the trial ends, do not subscribe. The <a href="/blog/money-automation-stack-canada/">automation stack</a> can move the savings without a subscription.</p>
     </div>
 
     <h2>Frequently asked questions</h2>
 
     <h3>What is the best budgeting app in Canada in 2026?</h3>
-    <p>For a strict zero-based plan priced in US dollars, YNAB is the method with a published price: US$14.99 a month or US$109 a year. For a Canadian-dollar subscription with bank sync on the paid tier, Neontra Premium is $12 a month or $99 a year, and the free tier is manual. For someone who already runs the cash-flow system, the best app is no app. This page did not re-price every other product on the market. If a vendor is not in the table, its price was not on a page fetched for this article.</p>
+    <p>The one whose yearly fee is smaller than the leak it helps you close. For a strict zero-based method, YNAB is US$109 a year, about $154.99 at the Bank of Canada rate on 25 November 2026. For an all-accounts dashboard, Monarch Core is US$99.99 a year, about $142.18. For a listed $99 annual price with bank connections on the paid tier, Neontra Premium. For someone who already runs the cash-flow system, the best app may be no app: the FCAC Budget Planner and a spreadsheet are $0. This page did not price every product on the market.</p>
+
+    <h3>Is Monarch available in Canada, and is it billed in Canadian dollars?</h3>
+    <p>Monarch says it is available in the US and Canada. All subscriptions are billed in US dollars, and Monarch charges and refunds only in USD. Your bank or card sets the exchange rate. Monarch also says it does not convert currencies inside the app, so keep CAD and USD accounts apart.</p>
 
     <h3>Why is YNAB billed in US dollars?</h3>
-    <p>Because YNAB’s pricing page says it is. The page also says exchange rates are not reflected in the price. You pay your card’s conversion. A no-foreign-transaction-fee card removes one markup and does not remove the exchange rate. Confirm both on the card and on the checkout screen. Do not annualize a US price into a Canadian price in your head and then forget the conversion.</p>
+    <p>Because YNAB’s pricing page says it is priced in US dollars and that exchange rates are not reflected in the price. You pay your card’s conversion. A no-foreign-transaction-fee card removes one markup and does not remove the exchange rate. Confirm both on the card and on the checkout screen.</p>
 
     <h3>Does Neontra’s free plan connect to my bank?</h3>
-    <p>No. The pricing page says manual tracking on the free plan, and unlimited connections on Premium. The two-week period the page mentions is the time to test whether your institutions connect before you pay $12 or $99. If they do not connect, you are back to typing, and the spreadsheet is honest about that.</p>
+    <p>No. The pricing page says the free plan is manual tracking and that auto-sync needs Premium. The 14-day Premium trial, which the page says needs no credit card, is the time to test whether your institutions connect before you pay $12 a month or $99 a year.</p>
+
+    <h3>Why won’t my Canadian bank connect to my budgeting app?</h3>
+    <p>Most connections in Canada still rely on screen scraping through a data provider. Monarch’s help centre says certain Canadian banks may be difficult to connect or keep synced and suggests manual accounts in that case. YNAB says direct import supports select Canadian banks and offers file import when it does not. Test your bank during the trial.</p>
+
+    <h3>When is open banking coming to Canada?</h3>
+    <p>The Consumer-Driven Banking Act received royal assent in March 2026, and proposed regulations were pre-published on 26 June 2026. On 20 November 2026, Finance Canada named FDX as the technical standards body and OBSI as the complaints body. The regulations will come into force in stages, and Finance Canada has not yet published the dates. Phase one is read-only access.</p>
 
     <h3>Can an app see my TFSA and RRSP?</h3>
-    <p>Only if the connection supports those accounts, which you test rather than assume. Even then, the app does not know your remaining room. CRA My Account does. A net-worth chart that double-counts a transfer from chequing into a TFSA is a chart, not a contribution. Keep the room count in the contribution guide, not in the app’s “savings” category.</p>
+    <p>Only if the connection supports those accounts, which you test rather than assume. Even then, the app does not know your remaining room. CRA My Account does. Keep the room count in the contribution guide, not in the app’s “savings” category.</p>
 
     <h3>Is a budgeting app safe?</h3>
-    <p>You are giving a company read access to your transactions if you connect a bank. YNAB’s pricing page says it makes money from the subscription rather than from selling data. That is the company’s statement. Read the current privacy policy before you connect, use the trial, and disconnect if you do not subscribe. A spreadsheet never gets the password. Safety here is a choice about access, not a star rating.</p>
+    <p>If you connect a bank, you are giving a company read access to your transactions, and today that usually happens through screen scraping. YNAB and Monarch both say they earn money from subscriptions rather than from selling data, and Neontra says your data is never shared. Those are the companies’ statements. Read the current privacy policy before you connect, use the trial, and disconnect if you do not subscribe. A spreadsheet or the FCAC planner never gets the password.</p>
 
     <h3>Will an app get me out of debt?</h3>
-    <p>It will show the payment if you enter it. The interest you are paying is still the interest in the contract. If the debts are larger than a budget can clear, an app is the wrong tool and a Licensed Insolvency Trustee is the right conversation. The legal comparison is <a href="/blog/consumer-proposal-vs-bankruptcy-canada/">consumer proposal versus bankruptcy</a>. Do not pay US$109 to categorize a problem that needs a trustee.</p>
+    <p>It will show the payment if you enter it. The interest you are paying is still the interest in the contract. If the debts are larger than a budget can clear, an app is the wrong tool and a Licensed Insolvency Trustee is the right conversation. The legal comparison is <a href="/blog/consumer-proposal-vs-bankruptcy-canada/">consumer proposal versus bankruptcy</a>.</p>
 
     <h2>Sources</h2>
     <ul>
-        <li><a href="https://www.ynab.com/pricing">YNAB: pricing</a></li>
+        <li><a href="https://www.ynab.com/pricing">YNAB: pricing</a> (checked 25 November 2026)</li>
+        <li><a href="https://www.monarch.com/pricing">Monarch: pricing</a> and <a href="https://www.monarch.com/canada">Monarch in Canada</a></li>
+        <li><a href="https://help.monarch.com/hc/en-us/articles/9136169422996-Pricing">Monarch help: pricing (billed in USD)</a></li>
+        <li><a href="https://help.monarch.com/hc/en-us/articles/360048393552-International-Accounts-and-Currency">Monarch help: international accounts and currency</a></li>
+        <li><a href="https://help.monarch.com/hc/en-us/articles/360048393352-Guide-to-Connecting-Your-Accounts">Monarch help: connecting your accounts</a></li>
         <li><a href="https://www.neontra.com/pricing">Neontra: pricing</a></li>
+        <li><a href="https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/">Bank of Canada: daily exchange rates</a> (USD/CAD 1.4219 on 25 November 2026)</li>
+        <li><a href="https://www.canada.ca/en/department-finance/news/2026/11/canada-takes-next-steps-in-implementing-the-consumer-driven-banking-framework.html">Department of Finance Canada: next steps in implementing the Consumer-Driven Banking Framework (20 November 2026)</a></li>
+        <li><a href="https://gazette.gc.ca/rp-pr/p1/2026/2026-06-27/html/reg3-eng.html">Canada Gazette, Part I: proposed Consumer-Driven Banking Regulations (27 June 2026)</a></li>
+        <li><a href="https://itools-ioutils.fcac-acfc.gc.ca/BP-PB/budget-planner">Financial Consumer Agency of Canada: Budget Planner</a></li>
     </ul>
 
     <div class="cta-section">
@@ -1125,6 +1190,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
 
 </div>`
   ),
+    updated: '2026-11-25',
+  },
 
   budgetPost(
     'consumer-proposal-vs-bankruptcy-canada',
