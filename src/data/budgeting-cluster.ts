@@ -1191,6 +1191,10 @@ export const budgetingClusterPosts: BudgetPost[] = [
 </div>`
   ),
     updated: '2026-11-25',
+    youtubeId: '9PjywgJ7wxM',
+    youtubeTitle: 'I Compared 3 Money Trackers: Worth the Fee?',
+    youtubeUploadDate: '2026-11-28T17:00:00-05:00',
+    youtubeDuration: 'PT5M10S',
   },
 
   budgetPost(
