@@ -50,8 +50,8 @@ const content = `<div class="container">
         </ul>
     </div>
 
-    <h2 id="method">How did we compare the all-in-one ETFs?</h2>
-    <p>We compared the Vanguard and iShares families because both offer four risk levels from all-equity down to 40% stocks, and we used only each issuer's own fund page for every number. Nothing here is ranked by past returns, because a fund's recent return says little about its next ten years and the funds started in different years.</p>
+    <h2 id="method">How we compared the all-in-one ETFs</h2>
+    <p>We compared the Vanguard and iShares families because both offer four risk levels from all-equity down to 40% stocks, and we took each fund's figures from its own issuer page, adding the VGRO ETF Facts and Vanguard's fee-cut press release for the 2025 fee cuts and the March 2026 expense date. Nothing here is ranked by past returns, because a fund's recent return says little about its next ten years and the funds started in different years.</p>
     <p>For each of the eight funds we recorded the same six facts, and where an issuer does not publish a figure we say so instead of estimating it:</p>
     <ul>
         <li><strong>Target mix.</strong> The stock and bond split the issuer says the fund aims for.</li>
@@ -65,7 +65,7 @@ const content = `<div class="container">
     <p class="did-you-know" data-info-gain><strong>What this page adds:</strong> one table that puts all eight funds on the same footing, with the target mix, fees, distribution schedule and size, plus our calculation of each fund's Canadian share of stocks, which shows Vanguard's four funds hold roughly 5 to 6 percentage points more Canada than iShares'.</p>
 
     <h2 id="table">What do the four mixes look like side by side?</h2>
-    <p>Each family offers the same four risk levels, and at every level the targets are identical, while the fees, MERs and Canadian weights differ slightly. Vanguard publishes its mixes as approximate targets and BlackRock publishes strategic targets.</p>
+    <p>Each family offers the same four risk levels, and at every level the targets are identical, while the fees, MERs and Canadian weights differ slightly. Vanguard publishes VGRO, VBAL and VCNS as approximate targets, states VEQT's target as 100% equity, and BlackRock publishes strategic targets.</p>
     <div class="table-wrapper">
         <table>
             <caption>Vanguard and iShares asset-allocation ETFs (issuer pages, read November 28, 2026)</caption>
@@ -94,7 +94,7 @@ const content = `<div class="container">
             </tbody>
         </table>
     </div>
-    <p>Two patterns repeat all the way down. Vanguard's Canadian share barely moves between funds, while iShares' is a little lower and also steady, so the home-country tilt is a family trait and not something that changes with your risk level. And the size ranking is not what you might guess: XEQT's net assets are larger than VEQT's total assets, while Vanguard's growth, balanced and conservative funds are larger than their iShares counterparts.</p>
+    <p>Two patterns repeat all the way down. Vanguard's Canadian share barely moves between funds, while iShares' is a little lower and also steady, so the home-country tilt is a family trait and not something that changes with your risk level. The June 21, 2007 start shown for XGRO and XBAL needs a caveat: their pages say the fundamental investment objective, management fee and fee structure changed effective December 11, 2018, so 2007 is not the age of the current design. And the size ranking is not what you might guess: XEQT's net assets are larger than VEQT's total assets, while Vanguard's growth, balanced and conservative funds are larger than their iShares counterparts.</p>
 
     <h2 id="equity">VEQT or XEQT: which all-equity fund?</h2>
     <p>Both hold only stocks, so the choice is the mix of countries, the fee and the payout schedule. VEQT's stocks are 30.79% Canadian and 45.40% American by Vanguard's country table, while XEQT's holdings put about 25.6% in Canada and the rest across US, developed-market and emerging-market ETFs.</p>
@@ -103,7 +103,7 @@ const content = `<div class="container">
 
     <h2 id="growth">VGRO or XGRO: which 80/20 fund?</h2>
     <p>Both aim for 80% stocks and 20% bonds at a 0.17% management fee, and the real difference is the mix inside. VGRO's stocks are 30.59% Canadian by Vanguard's country table and XGRO's are about 25.0% by our arithmetic, and XGRO puts more into developed markets outside North America.</p>
-    <p>This is the most popular pairing for investors who want growth with a little ballast, and we compare the two fund by fund, bucket by bucket, in <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO</a>. The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.</p>
+    <p>This is the 80/20 pair for investors who want growth with a little ballast, and we compare the two fund by fund, bucket by bucket, in <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO</a>. The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.</p>
 
     <h2 id="balanced">VBAL or XBAL: which 60/40 fund?</h2>
     <p>Both target 60% stocks and 40% bonds. VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.</p>
@@ -140,7 +140,7 @@ const content = `<div class="container">
     <p>For you, the practical point is to read two numbers and not one. The management fee tells you what the issuer charges now; the MER tells you what the fund actually paid over its last reported period. Right now the two differ most for the Vanguard funds, whose 0.22% MER sits next to a 0.17% fee. When you read an older article quoting a fee for these funds, check the date, because it may predate the cuts.</p>
 
     <h2 id="choose">How do you choose between them?</h2>
-    <p>Choose in three steps: pick your stock share, then pick the family whose holdings you prefer, then check the payout schedule and your broker's costs. Most people can stop after the first step, because the difference between the families is small next to the difference between 100% stocks and 60% stocks.</p>
+    <p>Choose in five short steps: pick your stock share, then pick the family whose holdings you prefer, then check the payout schedule and your broker's costs. Most people can stop after the first step, because the difference between the families is small next to the difference between 100% stocks and 60% stocks.</p>
     <ol>
         <li><strong>Pick the mix.</strong> Decide how large a fall you could live through without selling, and match it to one of the four mixes. A written mix you can hold in a bad year beats an optimal one you abandon.</li>
         <li><strong>Pick the family.</strong> If you want a bigger Canadian tilt, Vanguard's funds hold roughly 5 to 6 points more of it. If you want more developed markets outside North America, the iShares funds hold more.</li>
@@ -148,6 +148,8 @@ const content = `<div class="container">
         <li><strong>Hold one fund.</strong> Do not combine two all-in-ones. The <a href="/blog/too-many-etfs-overlap-mistakes-canada/">ETF overlap guide</a> explains why a second fund mostly repeats the first.</li>
         <li><strong>Place it in the right account.</strong> The <a href="/blog/diy-etf-portfolio-asset-location-canada/">asset-location guide</a> covers the TFSA, RRSP, FHSA and taxable choices.</li>
     </ol>
+    <p>One way to keep the decision small is to treat the stock share as the real choice and the family as the tie-breaker. Two investors who both pick the 80/20 mix will end up with nearly the same portfolio whether they choose VGRO or XGRO, while an investor who moves from the 80/20 mix to the 60/40 mix changes the portfolio far more than any difference between the families. Spend your time on the first decision, write down why you made it, and revisit it only when your plans change.</p>
+    <p>It also helps to decide in advance what you will do in a bad year. If a sharp fall in an all-equity fund would make you sell, the mix is too aggressive for you, however good its long-run record looks. An all-in-one ETF only works when you hold it through the downturns, so the best fund is the one whose worst year you can sit through.</p>
     <p>If you would rather build the mix yourself, compare <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one ETFs versus a DIY portfolio</a> first, and our <a href="/blog/model-etf-portfolios-canada/">model ETF portfolios</a> show what a DIY version looks like.</p>
 
     <h2 id="faq">Frequently asked questions</h2>
@@ -158,7 +160,7 @@ const content = `<div class="container">
     <h3>Which all-in-one ETF is the safest?</h3>
     <p>The ones with the most bonds, VCNS and XCNS, target 60% bonds, but none of these funds is guaranteed and each can fall in value. Match the mix to how much loss you could tolerate.</p>
     <h3>Do all-in-one ETFs rebalance on their own?</h3>
-    <p>Yes. BlackRock says its funds are continuously monitored and automatically rebalanced as needed, and Vanguard says its sub-advisor may rebalance the asset mix from time to time at its discretion.</p>
+    <p>Yes, though the issuers word it differently. BlackRock says its funds are continuously monitored and automatically rebalanced as needed. Vanguard's fund pages say the sub-advisor may reconstitute and rebalance the asset mix from time to time at its discretion, and its Built for investors page says the portfolios are automatically rebalanced to help maintain the intended mix over time.</p>
     <h3>Are distributions taxable?</h3>
     <p>Outside a registered plan, yes. The Vanguard ETF Facts say that if you hold the ETF in a non-registered account, distributions are included in your taxable income whether you get them in cash or reinvest them.</p>
     <h3>Can I hold two all-in-one ETFs?</h3>

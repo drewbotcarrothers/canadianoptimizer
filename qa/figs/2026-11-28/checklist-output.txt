@@ -1,0 +1,87 @@
+| Post | Family | Words | Verdict | Fails |
+|---|---|---|---|---|
+| `best-all-in-one-etfs-canada` | best-of | 2642 | HOLD | 3 |
+| `vgro-vs-xgro-canada` | vs | 1880 | HOLD | 3 |
+| `balance-transfer-vs-consolidation-loan-canada` | vs | 2087 | HOLD | 3 |
+
+### Best All-in-One ETFs in Canada: Vanguard and iShares Compared (`best-all-in-one-etfs-canada`, 2026-11-28)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: one table that puts all eight funds on the same footing, with the tar…" |
+| 2 | Answer first | PASS | answer 60 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | FAIL | {"numbers":172,"rows":160,"missing":0,"sourced":128,"example":9,"derived":23,"unclassified":0,"sources":11}; [aa8c1243bfb2] 80: verification status is "unverified" \| [994427d042c6] 20: verification status is "unverified" \| [b3f43e3a4696] 60: verification status is "unverified" |
+| 4 | No invented claims | WARN | 1 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest vgro-vs-xgro-canada 2.7% |
+| 6 | Evidence-first money page | PASS | method block yes; 0 offer markers, 0 picks |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 61 chars; query words matched 3/3 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/investing/passive-etf/ in first 150 words: yes; 9 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 28, 2026 \| Category: Investing \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 2500 words (best-of) | PASS | 2642 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: index-investing-guide |
+| 20 | Pilot gate | N/A | family best-of |
+| 2a | Agent: answers read as answers | MANUAL | needs the agent pass recorded in the brief |
+| 4a | Agent: no invented quotes or experience | MANUAL | needs the agent pass recorded in the brief |
+| 6a | Agent: picks by buyer type, one CTA each | MANUAL | needs the agent pass recorded in the brief |
+
+### VGRO vs XGRO: What Each 80/20 All-in-One ETF Holds (`vgro-vs-xgro-canada`, 2026-11-28)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: a side-by-side table that sorts both funds' published underlying hold…" |
+| 2 | Answer first | PASS | answer 50 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | FAIL | {"numbers":149,"rows":140,"missing":0,"sourced":89,"example":8,"derived":43,"unclassified":0,"sources":4}; [797419ddfb9e] 80%: verification status is "unverified" \| [76b4a5530321] 20%: verification status is "unverified" \| [cdb64759e228] 80%: verification status is "unverified" |
+| 4 | No invented claims | WARN | 2 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest best-all-in-one-etfs-canada 3.8% |
+| 6 | Evidence-first money page | N/A | family vs |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 50 chars; query words matched 2/2 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/investing/passive-etf/ in first 150 words: yes; 5 posts linked; 5 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 28, 2026 \| Category: Investing \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1800 words (vs) | PASS | 1880 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: index-investing-guide |
+| 20 | Pilot gate | N/A | family vs |
+| 2a | Agent: answers read as answers | MANUAL | needs the agent pass recorded in the brief |
+| 4a | Agent: no invented quotes or experience | MANUAL | needs the agent pass recorded in the brief |
+
+### Balance Transfer vs Consolidation Loan: Which Costs Less? (`balance-transfer-vs-consolidation-loan-canada`, 2026-11-28)
+
+| # | Check | Result | Detail |
+|---|---|---|---|
+| 1 | Information gain visible | PASS | "What this page adds: a month-by-month calculation of the same $8,000 balance and the same …" |
+| 2 | Answer first | PASS | answer 63 words; 0 question H2s not opened by a paragraph |
+| 3 | Figures sourced and re-verified | FAIL | {"numbers":154,"rows":150,"missing":0,"sourced":31,"example":75,"derived":44,"unclassified":0,"sources":5}; [9f725fb02965] $785: arithmetic not re-checked \| [c35eb773abbb] $1,127,: arithmetic not re-checked \| [ce721a08ac26] $1,932: arithmetic not re-checked |
+| 4 | No invented claims | PASS | 0 first-person "I", 0 blockquotes (check each is Andrew's own words or an official quote) |
+| 5 | Not a clone (5-gram overlap < 30%) | PASS | closest best-balance-transfer-credit-cards-canada 0.3% |
+| 6 | Evidence-first money page | N/A | family vs |
+| 7 | Affiliate disclosure and rel=sponsored | PASS | 0 offer markers (0 live; renderer adds the disclosure above the first), 0 hand-written affiliate links |
+| 8 | Advice and tax-year lines | PASS |  |
+| 9 | Natural title and slug | PASS | 57 chars; query words matched 4/4 |
+| 10 | Article schema | PASS | BlogPosting ok; BreadcrumbList 4 items; HowTo none |
+| 11 | Canonical, sitemap, indexable | PASS | canonical self; sitemap yes; noindex false |
+| 12 | Internal links (hub early, 3 out, 3 in) | PASS | hub /category/credit-cards/balance-transfer-low-interest/ in first 150 words: yes; 4 posts linked; 4 posts link here; broken: none |
+| 13 | Images | PASS |  |
+| 14 | Core Web Vitals budget | MANUAL | Lighthouse is not run by this script; the post adds no scripts or embeds beyond the template |
+| 15 | No duplicate here or on sister sites | PASS | checked against 1967 sister-site URLs |
+| 16 | Byline "Andrew" only | PASS | author "Andrew"; footer "Published: November 28, 2026 \| Category: Credit Cards \| Author: Andrew" |
+| 17 | /how-we-use-ai/ live and linked | PASS | page true, footer true, about true |
+| 18 | Length ≥ 1800 words (vs) | PASS | 2087 words before Sources |
+| 19 | en-CA, date guard, live ebook | PASS | end CTA: none (category has no book) |
+| 20 | Pilot gate | N/A | family vs |
+| 2a | Agent: answers read as answers | MANUAL | needs the agent pass recorded in the brief |
+| 4a | Agent: no invented quotes or experience | MANUAL | needs the agent pass recorded in the brief |

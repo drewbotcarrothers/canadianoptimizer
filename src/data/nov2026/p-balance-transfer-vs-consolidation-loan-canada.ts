@@ -23,7 +23,7 @@ const content = `<div class="container">
             <li>The Financial Consumer Agency of Canada says promotional balance transfer rates usually last 6 to 18 months and usually come with a fee, while most personal loans run from $100 to $50,000 over 6 to 60 months.</li>
             <li>To clear $8,000 on a 3% transfer fee in 10 months you would need to pay $824 a month, and in 12 months $686.67.</li>
             <li>If a payment is missed, the promotional rate can be lost; in our example losing it after four payments raises the cost from about $785 to about $1,669.</li>
-            <li>A loan costs more the longer you take: the FCAC's own $2,000 example costs $2,220 over 12 months and $3,180 over 60 months at 19.99%.</li>
+            <li>A loan costs more the longer you take: in the FCAC's own $2,000 example at 19.99%, the total cost of the loan, including the $2,000 borrowed, is $2,220 over 12 months and $3,180 over 60 months.</li>
             <li>By law, lenders cannot charge more than 35% interest a year on a personal loan, including all fees and costs.</li>
         </ul>
     </div>
@@ -101,7 +101,7 @@ const content = `<div class="container">
         <li><strong>New purchases cost more.</strong> OBSI says new purchases are charged the standard rate and that payments are usually applied to the transferred balance first, which leaves new purchases accruing at the higher rate. Avoid using the new card for anything else during the promotion.</li>
         <li><strong>There is no grace period on a transfer.</strong> OBSI says interest is charged from the day the balance is moved until it is repaid, at the promotional rate for that balance.</li>
         <li><strong>You may need a new account and a credit check.</strong> OBSI says offers generally require applying for a new card, which usually involves a credit check, and the FCAC says that applying with different lenders in a short time may lower your credit score.</li>
-        <li><strong>A loan costs more the longer it runs.</strong> In the FCAC's example a $2,000 loan at 19.99% costs $2,220 over 12 months, $2,700 over 36 months and $3,180 over 60 months, and at 36 months the cost rises from $2,304 at 8.99% to $3,312 at 34.99%.</li>
+        <li><strong>A loan costs more the longer it runs.</strong> In the FCAC's example a $2,000 loan at 19.99% has a total cost, including the $2,000 borrowed, of $2,220 over 12 months, $2,700 over 36 months and $3,180 over 60 months, and at 36 months the total cost rises from $2,304 at 8.99% to $3,312 at 34.99%.</li>
         <li><strong>The rate you are offered may not be lower.</strong> The FCAC says a poor credit history may lead to higher interest rates, and you may only qualify for a product with a higher rate than your current ones.</li>
     </ul>
     <p>OBSI also notes that lines of credit and personal loans typically charge less interest than a credit card and have more predictable rates, with a balance that declines as you pay. If the transfer's fee, new-account and promo-loss risks outweigh the savings for you, a loan is the more predictable path.</p>
@@ -120,7 +120,7 @@ const content = `<div class="container">
     <h2 id="ask">What should you ask before you accept an offer?</h2>
     <p>Ask for the number of months at the promotional rate, the transfer fee in dollars, the standard rate afterwards, what ends the promotion and how your payments are applied. Federally regulated issuers must give you the date the low rate ends, the types of transactions it covers and the standard rate after it ends, according to the FCAC.</p>
     <ol>
-        <li><strong>When does the low rate end, and what ends it early?</strong> A late payment or going over your limit are the usual triggers, per the FCAC and OBSI.</li>
+        <li><strong>When does the low rate end, and what ends it early?</strong> A late payment or going over your limit can end it: OBSI says most offers allow the card company to revoke the promotional rate if you miss payments or exceed your limit, and the FCAC says that in some cases the introductory rate ends as soon as you go over your limit or pay late.</li>
         <li><strong>What is the fee in dollars?</strong> Multiply it out on your balance, as in the table above.</li>
         <li><strong>What is the standard rate afterwards?</strong> That is the rate on whatever is left when the clock runs out.</li>
         <li><strong>How are payments applied?</strong> OBSI says agreements explain how payments are allocated among purchases, balance transfers and cash advances, and that it changes your interest.</li>

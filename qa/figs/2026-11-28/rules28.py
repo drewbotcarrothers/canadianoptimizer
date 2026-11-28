@@ -40,6 +40,7 @@ def S_vgro():
  '45.30%':[(None,[('vgro',r'United States of America\s*North America\s*45\.30%')])],
  '30.59%':[(None,[('vgro',r'Canada\s*North America\s*30\.59%')])],
  '18.90%':[(None,[('vgro',r'Bond\s*18\.90%')])],
+ '81.08%':[(None,[('vgro',r'Stock\s*81\.08%')])],
  '36.62%':[(None,[('vgro',r'Morningstar US Total Market Index ETF\s*36\.62%')])],
  '24.76%':[(None,[('vgro',r'FTSE Canada All Cap Index ETF\s*24\.76%')])],
  '14.36%':[(None,[('vgro',r'FTSE Developed All Cap ex-North America Index ETF\s*14\.36%')])],
@@ -102,9 +103,8 @@ def S_best():
  '59.47%':[(None,[('vcns',r'Bond\s*59\.47%')])],
  '40.51%':[(None,[('vcns',r'Stock\s*40\.51%')])],
  '38.66%':[(None,[('xcns',r'XBB ISHS CORE CAD UNIV BND IDX ETF.{0,70}? 38\.66 ')])],
- 'November 18, 2025':[(None,[('vgro_etffacts_raw',r'Effective November 18, 2025, Vanguard reduced the management fee')])],
+ 'December 11, 2018':[(None,[('xgro',r'Effective December 11, 2018, the fundamental investment objective'),('xbal',r'Effective December 11, 2018, the fundamental investment objective')])],
  'March 31, 2026':[(None,[('vgro_etffacts_raw',r"As of March 31, 2026, the ETF's expenses were 0\.22% of its value")])],
- 'December 18, 2025':[(None,[('xgro',r'Effective December 18, 2025, the management fee of the ETF was reduced from 0\.18% to 0\.17%')])],
     }
 def S_bt():
     pl=r'Personal loans'
@@ -127,6 +127,7 @@ def S_bt():
  '19.99%':[(r"FCAC's own|FCAC's example",[('fcac_pl',r'19\.99%')])],
  '36':[(r"FCAC|at 36 months",[('fcac_pl',r'36')])],
     }
+SRC_KEYS={'vgro-vs-xgro-canada':{'vgro','vgro_etffacts_raw','vfeepress','xgro'},'best-all-in-one-etfs-canada':set(V4+X4),'balance-transfer-vs-consolidation-loan-canada':set()}
 SRCT={'vgro-vs-xgro-canada':S_vgro,'best-all-in-one-etfs-canada':S_best,'balance-transfer-vs-consolidation-loan-canada':S_bt}
 _cache={}
 def stable(slug):
@@ -206,13 +207,39 @@ def fmt_match(shown,x):
     except Exception: return False
     nd=-sv.as_tuple().exponent
     return rnd(x,nd)==sv
+TICK={k:k.upper() for k in V4+X4}
+CUT=r'\bcut\b|reduc|announced|previous|\bfrom 0\.\d\d%|was 0\.|before'
+IS_NEEDLE=r'Effective December 18, 2025, the management fee of the ETF was reduced from 0\.18% to 0\.17%'
+def _ish(slug): return [k for k in X4 if k in SRC_KEYS[slug]]
+def _pick(needles,ctx):
+    """one needle -> sourced; several: if the context names exactly one fund use that page, else a combination row"""
+    if len(needles)==1: return ('S',needles[0][0],needles[0][1],[])
+    named=[(k,rx) for k,rx in needles if k in TICK and re.search(r'\b'+TICK[k]+r'\b',ctx)]
+    if len(named)==1: return ('S',named[0][0],named[0][1],[])
+    return ('C',named if len(named)>1 else needles)
 def resolve(slug,vs,ctx):
     v=vs.rstrip(',')
-    # sourced
+    if re.search(CUT,ctx,re.I) and v in ('0.22%','0.17%','0.18%','November 18, 2025','December 18, 2025'):
+        van=[('vfeepress',r'Vanguard All-Equity ETF\s+VEQT\s+0\.22%\s+0\.17%'),('vfeepress',r'Vanguard Growth ETF\s+VGRO\s+0\.22%\s+0\.17%'),('vfeepress',r'Vanguard Balanced ETF\s+VBAL\s+0\.22%\s+0\.17%'),('vfeepress',r'Vanguard Conservative ETF\s+VCNS\s+0\.22%\s+0\.17%')]
+        van=[need(k,rx) for k,rx in van]
+        isn=[need(k,IS_NEEDLE) for k in _ish(slug)]
+        if v in ('0.22%',): return ('S','vfeepress',van[0][1],van[1:])
+        if v=='November 18, 2025': need('vfeepress',r'TORONTO \(November 18, 2025\)'); return ('S','vfeepress',r'TORONTO \(November 18, 2025\)',[])
+        if v in ('0.18%','December 18, 2025'):
+            return _pick(isn,ctx)
+        if v=='0.17%':
+            if re.search(r'BlackRock|iShares|December 18',ctx) and not re.search(r'Vanguard|November 18',ctx): return _pick(isn,ctx)
+            if re.search(r'Vanguard|November 18',ctx) and not re.search(r'BlackRock|iShares|December 18',ctx): return ('S','vfeepress',van[0][1],van[1:])
+            return ('C',van[:1]+isn)
+    if v=='0.17%' and re.search(r"includes all|underlying ETF fees",ctx,re.I):
+        return _pick([need(k,r'0\.17% includes all underlying ETF management fees') for k in _ish(slug)],ctx)
+    if v=='0.22%' and re.search(r"expenses were",ctx,re.I):
+        return ('S','vgro_etffacts_raw',need('vgro_etffacts_raw',r"As of March 31, 2026, the ETF's expenses were 0\.22% of its value")[1],[])
+    if v=='18' and re.search(r'457\.78|Need 18 months|18 months or more',ctx): return ('E','declared example payoff length (our own scenario)')
     for cre,needles in stable(slug).get(v,[]):
         if cre and not re.search(cre,ctx,re.I): continue
         chk=[need(k,rx) for k,rx in needles]
-        return ('S',chk[0][0],chk[0][1],chk[1:])
+        return _pick(chk,ctx)
     # examples (context-sensitive for bt)
     for vre,note in EX.get(slug,[]):
         if re.search(vre,v): return ('E',note)

@@ -1,0 +1,3 @@
+best-all-in-one-etfs-canada max 5-gram overlap 0.0% vs s_canadiancreditcardfinder_com_guides_balance-transfers-explained-canada_.html (8-gram runs: 0)
+vgro-vs-xgro-canada max 5-gram overlap 0.0% vs s_canadiancreditcardfinder_com_guides_balance-transfers-explained-canada_.html (8-gram runs: 0)
+balance-transfer-vs-consolidation-loan-canada max 5-gram overlap 0.9% vs s_savingoptimizer_com_guides_articles_debt-payoff-plan-canada-households_html.html (8-gram runs: 5)

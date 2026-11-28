@@ -103,6 +103,13 @@ def apply(slug):
             url,name=SRC[slug][r[1]]
             f.update(kind='sourced',sourceUrl=url,sourceName=name,asOf=TODAY,derivedFrom=[],needle=r[2],needleSource=r[1],extraNeedles=[[a,b] for a,b in (r[3] if len(r)>3 else [])])
             f['verify']={'status':'unverified','checkedOn':'','verifier':'','note':''}
+        elif r[0]=='C':
+            urls=[]; 
+            for k,_ in r[1]:
+                u=SRC[slug][k][0]
+                if u not in urls: urls.append(u)
+            f.update(kind='derived',sourceUrl='',sourceName='',asOf=TODAY,derivedFrom=urls,formula='same value stated on each cited page (checked page by page)',combo=[[k,rx] for k,rx in r[1]])
+            f['verify']={'status':'unverified','checkedOn':'','verifier':'','note':'formula: same value stated on each of the cited fund pages; each page checked separately'}
         elif r[0]=='D':
             f.update(kind='derived',sourceUrl='',sourceName='',asOf=TODAY,derivedFrom=[],formula=r[1])
             f['verify']={'status':'unverified','checkedOn':'','verifier':'','note':'formula: '+r[1]}

@@ -19,11 +19,11 @@ const content = `<div class="container">
     <div class="callout">
         <strong>Key takeaways:</strong>
         <ul>
-            <li>Both funds target 80% stocks and 20% bonds, hold other ETFs rather than individual securities, pay quarterly and rebalance automatically.</li>
+            <li>Both funds target 80% stocks and 20% bonds, hold other ETFs rather than individual securities, pay quarterly and are rebalanced for you, although the issuers word it differently.</li>
             <li>The management fee is 0.17% on both. The published MER is 0.22% for VGRO and 0.19% for XGRO, which is $30 a year apart on $100,000.</li>
             <li>About 30.5% of VGRO's stock holdings are Canadian against about 25.0% for XGRO, because XGRO puts more into developed markets outside North America.</li>
             <li>XGRO's name is older than its current design: its page shows a June 21, 2007 inception, and its objective and fee structure changed on December 11, 2018.</li>
-            <li>Pick one. Holding both doubles up on the same markets and adds nothing.</li>
+            <li>Pick one. Holding both doubles up on mostly the same markets and adds little.</li>
         </ul>
     </div>
 
@@ -80,7 +80,7 @@ const content = `<div class="container">
     <p>Two details stand out. First, VGRO's three bond funds are described on Vanguard's page as a Canadian aggregate bond ETF plus a CAD-hedged global ex-U.S. and a CAD-hedged U.S. aggregate bond ETF, while XGRO's list shows two Canadian-dollar bond ETFs and two US-dollar bond ETFs, and BlackRock's page does not say whether those two are hedged. Second, VGRO holds only a single short-term reserve line, while XGRO has cash in two currencies.</p>
 
     <h2 id="mix">How different are the stock and bond mixes?</h2>
-    <p>The funds are not identical twins. Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.</p>
+    <p>The two funds hold the same kinds of assets in somewhat different proportions. Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.</p>
     <div class="table-wrapper">
         <table>
             <caption>The same weights sorted into common buckets (our arithmetic on the published weights; rounding applies)</caption>
@@ -97,7 +97,7 @@ const content = `<div class="container">
             </tbody>
         </table>
     </div>
-    <p>On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO. Vanguard's own country table, which covers stocks only, shows 45.30% in the United States and 30.59% in Canada as at October 31, 2026, which matches the arithmetic above to within rounding and the different rounding of the underlying weights.</p>
+    <p>On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO. Vanguard's own country table, which covers stocks only, shows 45.30% in the United States and 30.59% in Canada as at October 31, 2026. Those are close to the 45.2% and 30.5% we calculate but not identical, and the page does not say how it assigns each security, so treat Vanguard's published figures as the official ones. The 81.09% in the table is the sum of the rounded holding weights; Vanguard's own asset-allocation line shows 81.08% for stocks.</p>
     <p>Neither mix is the "right" one. A larger Canadian share means more exposure to the banks, energy and materials companies that dominate the Canadian market and a smaller share of everything else, while a larger international share does the opposite. The difference between the two is about 5 percentage points of the whole portfolio.</p>
 
     <h2 id="cost">Which costs less, VGRO or XGRO?</h2>
@@ -128,6 +128,7 @@ const content = `<div class="container">
         <li><strong>Decide whether 80/20 is your mix.</strong> If you want all stocks, compare <a href="/blog/xeqt-vs-veqt-canada/">XEQT and VEQT</a>. If you want a more balanced split, <a href="/blog/all-in-one-etfs-vs-diy-canada/">all-in-one ETFs versus a DIY portfolio</a> is the wider comparison.</li>
         <li><strong>Re-read the fees in a year.</strong> Both issuers changed their management fees in late 2025, so the MERs should be re-checked when each fund reports its next full year.</li>
     </ul>
+    <p>If you already own one of them, the comparison above is rarely a reason to switch. Selling a fund to buy its near-twin can trigger a taxable gain in a non-registered account, costs you trading commissions at some brokers, and leaves you out of the market for however long the trade takes to settle, all to chase a difference that is small next to the choice of stock share. Switching is easier to justify when you are starting fresh, or when you are inside a TFSA or RRSP where a sale does not create a tax bill. Either way, the decision is about which holdings you want, not about which fund will win.</p>
 
     <h2 id="faq">Frequently asked questions</h2>
     <h3>Is VGRO or XGRO better?</h3>
@@ -137,7 +138,7 @@ const content = `<div class="container">
     <h3>Why is the VGRO MER higher than its management fee?</h3>
     <p>Because the MER is a historical figure and the management fee is the current one. Vanguard's ETF Facts report expenses of 0.22% as of March 31, 2026, and say the management fee was reduced from 0.22% to 0.17% on November 18, 2025.</p>
     <h3>Can I hold VGRO or XGRO in a TFSA or RRSP?</h3>
-    <p>Both are Canadian-listed ETFs priced in Canadian dollars, and the Vanguard ETF Facts say how much tax you pay depends on whether you hold the ETF in a registered plan such as a Registered Retirement Savings Plan or a Tax-Free Savings Account. Confirm eligibility with your broker.</p>
+    <p>Generally yes, but confirm with your broker. Both are Canadian-listed ETFs priced in Canadian dollars, and the Vanguard ETF Facts say how much tax you pay depends on whether you hold the ETF in a registered plan such as a Registered Retirement Savings Plan or a Tax-Free Savings Account. Confirm eligibility with your broker.</p>
     <h3>Should I hold both VGRO and XGRO?</h3>
     <p>No. Both aim for the same 80% stocks and 20% bonds, so holding both mainly duplicates the same markets across two tickers.</p>
 
