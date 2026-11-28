@@ -1,0 +1,4053 @@
+{
+  "slug": "best-all-in-one-etfs-canada",
+  "publishDate": "2026-11-28",
+  "figures": [
+    {
+      "id": "aa8c1243bfb2",
+      "value": "80",
+      "context": "The best all-in-one ETF is the one that matches your stock-and-bond mix: VEQT or XEQT for all stocks, VGRO or XGRO for 80/20, VBAL or XBAL for 60/40 and VCNS or XCNS for 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "994427d042c6",
+      "value": "20",
+      "context": "The best all-in-one ETF is the one that matches your stock-and-bond mix: VEQT or XEQT for all stocks, VGRO or XGRO for 80/20, VBAL or XBAL for 60/40 and VCNS or XCNS for 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "b3f43e3a4696",
+      "value": "60",
+      "context": "The best all-in-one ETF is the one that matches your stock-and-bond mix: VEQT or XEQT for all stocks, VGRO or XGRO for 80/20, VBAL or XBAL for 60/40 and VCNS or XCNS for 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "6b2743592943",
+      "value": "40",
+      "context": "The best all-in-one ETF is the one that matches your stock-and-bond mix: VEQT or XEQT for all stocks, VGRO or XGRO for 80/20, VBAL or XBAL for 60/40 and VCNS or XCNS for 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "0c68be191000",
+      "value": "0.17%",
+      "context": "Within each pair the management fee is a tie at 0.17%, so the choice comes down to MER, holdings and how you want to be paid.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "1dfd4abbf33e",
+      "value": "80",
+      "context": "Each issuer offers four mixes: all-equity, 80/20, 60/40 and 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "d78a80104d66",
+      "value": "20",
+      "context": "Each issuer offers four mixes: all-equity, 80/20, 60/40 and 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "fc0ef8920989",
+      "value": "60",
+      "context": "Each issuer offers four mixes: all-equity, 80/20, 60/40 and 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "a04b9595cee4",
+      "value": "40",
+      "context": "Each issuer offers four mixes: all-equity, 80/20, 60/40 and 40/60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "70b4e771ddea",
+      "value": "0.17%",
+      "context": "All eight funds charge a 0.17% management fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "ad69ff293b42",
+      "value": "0.22%",
+      "context": "The published MER is 0.22% for every Vanguard fund, 0.19% for XEQT and XGRO and 0.18% for XBAL and XCNS.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "29e814361da8",
+      "value": "0.19%",
+      "context": "The published MER is 0.22% for every Vanguard fund, 0.19% for XEQT and XGRO and 0.18% for XBAL and XCNS.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "8ac9719d7a95",
+      "value": "0.18%",
+      "context": "The published MER is 0.22% for every Vanguard fund, 0.19% for XEQT and XGRO and 0.18% for XBAL and XCNS.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "680cf47ee4f4",
+      "value": "30.6%",
+      "context": "Vanguard's funds hold about 30.6% to 30.8% of their stocks in Canada; the iShares funds work out to about 24.6% to 25.6%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vbal.CA/stocks*100"
+      },
+      "needle": "ixed(2)),formattedX: \"Jun 24, 2024\"},{x:Date.UTC(2024,5,25),y:Number((30.6).toFixed(2)),formattedX: \"Jun 25, 2024\"},{x:Date.UTC(2024,5,26),y:Num",
+      "formula": "recomputed from page numbers: vbal.CA/stocks*100"
+    },
+    {
+      "id": "f0bac2b1a045",
+      "value": "30.8%",
+      "context": "Vanguard's funds hold about 30.6% to 30.8% of their stocks in Canada; the iShares funds work out to about 24.6% to 25.6%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vcns.CA/stocks*100"
+      },
+      "needle": "ixed(2)),formattedX: \"May 16, 2024\"},{x:Date.UTC(2024,4,17),y:Number((30.8).toFixed(2)),formattedX: \"May 17, 2024\"},{x:Date.UTC(2024,4,21),y:Num",
+      "formula": "recomputed from page numbers: vcns.CA/stocks*100"
+    },
+    {
+      "id": "1a3272c551e2",
+      "value": "24.6%",
+      "context": "Vanguard's funds hold about 30.6% to 30.8% of their stocks in Canada; the iShares funds work out to about 24.6% to 25.6%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+      },
+      "needle": "Fixed(2)),formattedX: \"Mar 9, 2021\"},{x:Date.UTC(2021,2,10),y:Number((24.6).toFixed(2)),formattedX: \"Mar 10, 2021\"},{x:Date.UTC(2021,2,11),y:Num",
+      "formula": "recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+    },
+    {
+      "id": "1099c56de119",
+      "value": "25.6%",
+      "context": "Vanguard's funds hold about 30.6% to 30.8% of their stocks in Canada; the iShares funds work out to about 24.6% to 25.6%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt.XIC/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Mar 6, 2023\"},{x:Date.UTC(2023,2,7),y:Number((25.6).toFixed(2)),formattedX: \"Mar 7, 2023\"},{x:Date.UTC(2023,2,8),y:Numbe",
+      "formula": "recomputed from page numbers: xeqt.XIC/stocks*100"
+    },
+    {
+      "id": "8c6d8798df07",
+      "value": "80",
+      "context": "Growth, 80/20: VGRO vs XGRO",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "a71efeb3e198",
+      "value": "20",
+      "context": "Growth, 80/20: VGRO vs XGRO",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "db348b1d134a",
+      "value": "60",
+      "context": "Balanced, 60/40: VBAL vs XBAL",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "68a461aac04f",
+      "value": "40",
+      "context": "Balanced, 60/40: VBAL vs XBAL",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "c21b083bb7af",
+      "value": "40",
+      "context": "Conservative, 40/60: VCNS vs XCNS",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "f87b63e49e1c",
+      "value": "60",
+      "context": "Conservative, 40/60: VCNS vs XCNS",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "cc73c7f1c61a",
+      "value": "40%",
+      "context": "We compared the Vanguard and iShares families because both offer four risk levels from all-equity down to 40% stocks, and we used only each issuer's own fund page for every number.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "b168e380e984",
+      "value": "November 28, 2026",
+      "context": "Vanguard and iShares asset-allocation ETFs (issuer pages, read November 28, 2026)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: review date (date of this check)"
+      },
+      "needle": " CADChange+$0.771.31% As at Nov 27 2026 NAV 52-week high $63.02 As at Nov 28 2026 NAV 52-week low $52.27 As at Nov 28 2026 NAV 52-week difference $10.7",
+      "note": "review date (date of this check)"
+    },
+    {
+      "id": "2b028b1e4bdf",
+      "value": "100",
+      "context": "100 / 0 VEQT XEQT 0.17% / 0.17% 0.22% / 0.19% Annually / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 100%|100% equity",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "xeqt",
+          "100% equity"
+        ]
+      ]
+    },
+    {
+      "id": "555949f965ac",
+      "value": "0.17%",
+      "context": "100 / 0 VEQT XEQT 0.17% / 0.17% 0.22% / 0.19% Annually / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "ef686b1d2a73",
+      "value": "0.22%",
+      "context": "100 / 0 VEQT XEQT 0.17% / 0.17% 0.22% / 0.19% Annually / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "4b4e80210bb3",
+      "value": "0.19%",
+      "context": "100 / 0 VEQT XEQT 0.17% / 0.17% 0.22% / 0.19% Annually / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "a9f31bbe661f",
+      "value": "80",
+      "context": "80 / 20 VGRO XGRO 0.17% / 0.17% 0.22% / 0.19% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "a1a25c60dee6",
+      "value": "20",
+      "context": "80 / 20 VGRO XGRO 0.17% / 0.17% 0.22% / 0.19% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "9f867e96af8e",
+      "value": "0.17%",
+      "context": "80 / 20 VGRO XGRO 0.17% / 0.17% 0.22% / 0.19% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "bdb2adae6530",
+      "value": "0.22%",
+      "context": "80 / 20 VGRO XGRO 0.17% / 0.17% 0.22% / 0.19% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "5dd63f52ee9f",
+      "value": "0.19%",
+      "context": "80 / 20 VGRO XGRO 0.17% / 0.17% 0.22% / 0.19% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "e6dd2c561df8",
+      "value": "60",
+      "context": "60 / 40 VBAL XBAL 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "81bf6f042edb",
+      "value": "40",
+      "context": "60 / 40 VBAL XBAL 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "4c9a0067d548",
+      "value": "0.17%",
+      "context": "60 / 40 VBAL XBAL 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "3e851c2fcb56",
+      "value": "0.22%",
+      "context": "60 / 40 VBAL XBAL 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "abcce291b218",
+      "value": "0.18%",
+      "context": "60 / 40 VBAL XBAL 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "19530e6f3690",
+      "value": "40",
+      "context": "40 / 60 VCNS XCNS 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "0842ed280c8d",
+      "value": "60",
+      "context": "40 / 60 VCNS XCNS 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "aac433298641",
+      "value": "0.17%",
+      "context": "40 / 60 VCNS XCNS 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "6cc65f559e0a",
+      "value": "0.22%",
+      "context": "40 / 60 VCNS XCNS 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "67f3870fe129",
+      "value": "0.18%",
+      "context": "40 / 60 VCNS XCNS 0.17% / 0.17% 0.22% / 0.18% Quarterly / quarterly",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "cb771da9d557",
+      "value": "$17.64 billion",
+      "context": "VEQT $17.64 billion total assets January 29, 2019 30.79%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$17\\.64 B",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "a18b5fae8d01",
+      "value": "January 29, 2019",
+      "context": "VEQT $17.64 billion total assets January 29, 2019 30.79%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 29 2019",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "ce1b03493d2f",
+      "value": "30.79%",
+      "context": "VEQT $17.64 billion total assets January 29, 2019 30.79%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.79%",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "1c95e5dd6507",
+      "value": "24,169,949,662",
+      "context": "XEQT CAD 24,169,949,662 net assets August 7, 2019 about 25.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "24,169,949,662",
+      "needleSource": "xeqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "ef3a064c80ca",
+      "value": "August 7, 2019",
+      "context": "XEQT CAD 24,169,949,662 net assets August 7, 2019 about 25.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Aug 7, 2019",
+      "needleSource": "xeqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "d4c50304e808",
+      "value": "25.6%",
+      "context": "XEQT CAD 24,169,949,662 net assets August 7, 2019 about 25.6%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt.XIC/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Mar 6, 2023\"},{x:Date.UTC(2023,2,7),y:Number((25.6).toFixed(2)),formattedX: \"Mar 7, 2023\"},{x:Date.UTC(2023,2,8),y:Numbe",
+      "formula": "recomputed from page numbers: xeqt.XIC/stocks*100"
+    },
+    {
+      "id": "a45a5da682a1",
+      "value": "$10.88 billion",
+      "context": "VGRO $10.88 billion total assets January 25, 2018 30.59%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$10\\.88 B",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "554360f13267",
+      "value": "January 25, 2018",
+      "context": "VGRO $10.88 billion total assets January 25, 2018 30.59%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 25 2018",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "d88277c60fd6",
+      "value": "30.59%",
+      "context": "VGRO $10.88 billion total assets January 25, 2018 30.59%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.59%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "69eb2f9a98f6",
+      "value": "272,287,718",
+      "context": "XGRO CAD 5,272,287,718 net assets June 21, 2007 about 25.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "CAD 5,272,287,718",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "d84e70649ca4",
+      "value": "June 21, 2007",
+      "context": "XGRO CAD 5,272,287,718 net assets June 21, 2007 about 25.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Jun 21, 2007",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "5f93e5205f18",
+      "value": "25.0%",
+      "context": "XGRO CAD 5,272,287,718 net assets June 21, 2007 about 25.0%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "7a3ee9539c80",
+      "value": "$5.98 billion",
+      "context": "VBAL $5.98 billion total assets January 25, 2018 30.64%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$5\\.98 B",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "9cf443f66632",
+      "value": "January 25, 2018",
+      "context": "VBAL $5.98 billion total assets January 25, 2018 30.64%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 25 2018",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "54b3470c4440",
+      "value": "30.64%",
+      "context": "VBAL $5.98 billion total assets January 25, 2018 30.64%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.64%",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "08b77514f2f6",
+      "value": "571,121,567",
+      "context": "XBAL CAD 3,571,121,567 net assets June 21, 2007 about 25.2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "CAD 3,571,121,567",
+      "needleSource": "xbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "bfc4394ea5b4",
+      "value": "June 21, 2007",
+      "context": "XBAL CAD 3,571,121,567 net assets June 21, 2007 about 25.2%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Jun 21, 2007",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "3259705decfd",
+      "value": "25.2%",
+      "context": "XBAL CAD 3,571,121,567 net assets June 21, 2007 about 25.2%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xbal.XIC/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Jul 2, 2021\"},{x:Date.UTC(2021,6,5),y:Number((25.2).toFixed(2)),formattedX: \"Jul 5, 2021\"},{x:Date.UTC(2021,6,6),y:Numbe",
+      "formula": "recomputed from page numbers: xbal.XIC/stocks*100"
+    },
+    {
+      "id": "273bae7a3c6f",
+      "value": "$977.26 million",
+      "context": "VCNS $977.26 million total assets January 25, 2018 30.82%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$977\\.26 M",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "26f446baeb2a",
+      "value": "January 25, 2018",
+      "context": "VCNS $977.26 million total assets January 25, 2018 30.82%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 25 2018",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "0965356004b8",
+      "value": "30.82%",
+      "context": "VCNS $977.26 million total assets January 25, 2018 30.82%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.82%",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "5b86eb6249c1",
+      "value": "451,152,137",
+      "context": "XCNS CAD 451,152,137 net assets August 7, 2019 about 24.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309484/ishares-core-conservative-balanced-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Conservative Balanced ETF Portfolio (XCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "451,152,137",
+      "needleSource": "xcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "7aa047aa6217",
+      "value": "August 7, 2019",
+      "context": "XCNS CAD 451,152,137 net assets August 7, 2019 about 24.6%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Aug 7, 2019",
+      "needleSource": "xeqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "6a1fb8981092",
+      "value": "24.6%",
+      "context": "XCNS CAD 451,152,137 net assets August 7, 2019 about 24.6%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+      },
+      "needle": "Fixed(2)),formattedX: \"Mar 9, 2021\"},{x:Date.UTC(2021,2,10),y:Number((24.6).toFixed(2)),formattedX: \"Mar 10, 2021\"},{x:Date.UTC(2021,2,11),y:Num",
+      "formula": "recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+    },
+    {
+      "id": "286e75d1dcf4",
+      "value": "30.79%",
+      "context": "VEQT's stocks are 30.79% Canadian and 45.40% American by Vanguard's country table, while XEQT's holdings put about 25.6% in Canada and the rest across US, developed-market and emerging-market ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.79%",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "c318f20aa1fc",
+      "value": "45.40%",
+      "context": "VEQT's stocks are 30.79% Canadian and 45.40% American by Vanguard's country table, while XEQT's holdings put about 25.6% in Canada and the rest across US, developed-market and emerging-market ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "United States of America\\s*North America\\s*45\\.40%",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "5af6479d8830",
+      "value": "25.6%",
+      "context": "VEQT's stocks are 30.79% Canadian and 45.40% American by Vanguard's country table, while XEQT's holdings put about 25.6% in Canada and the rest across US, developed-market and emerging-market ETFs.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt.XIC/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Mar 6, 2023\"},{x:Date.UTC(2023,2,7),y:Number((25.6).toFixed(2)),formattedX: \"Mar 7, 2023\"},{x:Date.UTC(2023,2,8),y:Numbe",
+      "formula": "recomputed from page numbers: xeqt.XIC/stocks*100"
+    },
+    {
+      "id": "035df3e0951a",
+      "value": "0.19%",
+      "context": "On cost, XEQT's 0.19% MER is below VEQT's 0.22%, and both management fees are 0.17%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "b93a610df77f",
+      "value": "0.22%",
+      "context": "On cost, XEQT's 0.19% MER is below VEQT's 0.22%, and both management fees are 0.17%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "708fc7767020",
+      "value": "0.17%",
+      "context": "On cost, XEQT's 0.19% MER is below VEQT's 0.22%, and both management fees are 0.17%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "532d1fe92558",
+      "value": "9.55%",
+      "context": "Vanguard's page reports a standard deviation of 9.55% for VEQT as at October 31, 2026, against 8.27% for VGRO, which gives a sense of how much more it moves.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Standard Deviation\\s*9\\.55%",
+      "needleSource": "veqt",
+      "extraNeedles": []
+    },
+    {
+      "id": "9a1d01905455",
+      "value": "October 31, 2026",
+      "context": "Vanguard's page reports a standard deviation of 9.55% for VEQT as at October 31, 2026, against 8.27% for VGRO, which gives a sense of how much more it moves.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "AS AT OCT 31 2026",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "952df553ef35",
+      "value": "8.27%",
+      "context": "Vanguard's page reports a standard deviation of 9.55% for VEQT as at October 31, 2026, against 8.27% for VGRO, which gives a sense of how much more it moves.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Standard Deviation\\s*8\\.27%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "316f3ff80225",
+      "value": "80",
+      "context": "VGRO or XGRO: which 80/20 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "a760b332b217",
+      "value": "20",
+      "context": "VGRO or XGRO: which 80/20 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "f1843b0b04e8",
+      "value": "80%",
+      "context": "Both aim for 80% stocks and 20% bonds at a 0.17% management fee, and the real difference is the mix inside.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 80%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "6e6427d134cd",
+      "value": "20%",
+      "context": "Both aim for 80% stocks and 20% bonds at a 0.17% management fee, and the real difference is the mix inside.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 20%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "b899e705afec",
+      "value": "0.17%",
+      "context": "Both aim for 80% stocks and 20% bonds at a 0.17% management fee, and the real difference is the mix inside.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "587e6a7e3d50",
+      "value": "30.59%",
+      "context": "VGRO's stocks are 30.59% Canadian by Vanguard's country table and XGRO's are about 25.0% by our arithmetic, and XGRO puts more into developed markets outside North America.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.59%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "368a0f58bfb9",
+      "value": "25.0%",
+      "context": "VGRO's stocks are 30.59% Canadian by Vanguard's country table and XGRO's are about 25.0% by our arithmetic, and XGRO puts more into developed markets outside North America.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "62b7c3646b4e",
+      "value": "0.22%",
+      "context": "The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "47d525f03a5f",
+      "value": "0.19%",
+      "context": "The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "dff24b9f6616",
+      "value": "$30",
+      "context": "The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: derived from declared $100,000 example (see D)"
+      },
+      "note": "derived from declared $100,000 example (see D)"
+    },
+    {
+      "id": "018772aa170f",
+      "value": "$100,000,",
+      "context": "The short version is that the MER gap of 0.22% against 0.19% is $30 a year on $100,000, so the mix, not the fee, should decide.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "29627170b5b3",
+      "value": "60",
+      "context": "VBAL or XBAL: which 60/40 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "4a00229db5a5",
+      "value": "40",
+      "context": "VBAL or XBAL: which 60/40 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "fa4d4ba1ac82",
+      "value": "60%",
+      "context": "Both target 60% stocks and 40% bonds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "285e7e3b2a4d",
+      "value": "40%",
+      "context": "Both target 60% stocks and 40% bonds.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "8d227bfd0444",
+      "value": "60.53%",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Stock\\s*60\\.53%",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "7aba7b35bd37",
+      "value": "39.45%",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Bond\\s*39\\.45%",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "7528d457f246",
+      "value": "October 31, 2026",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "AS AT OCT 31 2026",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "3b0f3c439310",
+      "value": "17,362",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Number of bonds\\s*17,362",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "f044c5e205e7",
+      "value": "4.2%",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "YTM \\(Yield to Maturity\\) effective\\s*4\\.2%",
+      "needleSource": "vbal",
+      "extraNeedles": []
+    },
+    {
+      "id": "c5538b4f7489",
+      "value": "26.8%",
+      "context": "VBAL's page shows 60.53% in stocks and 39.45% in bonds as at October 31, 2026, with 17,362 bonds held and an effective yield to maturity of 4.2% on the bond side, while XBAL's holdings put about 26.8% in a Canadian universe bond ETF and the rest of its bonds in short-term corporate, US Treasury and US investment-grade ETFs.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xbal.XBB rounded"
+      },
+      "needle": "ixed(2)),formattedX: \"Aug 18, 2021\"},{x:Date.UTC(2021,7,19),y:Number((26.8).toFixed(2)),formattedX: \"Aug 19, 2021\"},{x:Date.UTC(2021,7,20),y:Num",
+      "formula": "recomputed from page numbers: xbal.XBB rounded"
+    },
+    {
+      "id": "917c9bba06fd",
+      "value": "0.18%",
+      "context": "XBAL's MER of 0.18% is the lowest in the table, 0.04 points below VBAL's 0.22%, which is $40 a year on $100,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "4c0a20782b98",
+      "value": "0.04",
+      "context": "XBAL's MER of 0.18% is the lowest in the table, 0.04 points below VBAL's 0.22%, which is $40 a year on $100,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap veqt-xbal; MER gap veqt-xcns; MER gap vgro-xbal"
+      },
+      "formula": "recomputed from page numbers: MER gap veqt-xbal; MER gap veqt-xcns; MER gap vgro-xbal"
+    },
+    {
+      "id": "f8d6608329f0",
+      "value": "0.22%",
+      "context": "XBAL's MER of 0.18% is the lowest in the table, 0.04 points below VBAL's 0.22%, which is $40 a year on $100,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "649daf6865bd",
+      "value": "$40",
+      "context": "XBAL's MER of 0.18% is the lowest in the table, 0.04 points below VBAL's 0.22%, which is $40 a year on $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: derived from declared $100,000 example (see D)"
+      },
+      "note": "derived from declared $100,000 example (see D)"
+    },
+    {
+      "id": "a62db0e4b63a",
+      "value": "$100,000",
+      "context": "XBAL's MER of 0.18% is the lowest in the table, 0.04 points below VBAL's 0.22%, which is $40 a year on $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "0df6c1d62412",
+      "value": "40",
+      "context": "VCNS or XCNS: which 40/60 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "04d1ee0ebb75",
+      "value": "60",
+      "context": "VCNS or XCNS: which 40/60 fund?",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "49fa25c15174",
+      "value": "40%",
+      "context": "Both target 40% stocks and 60% bonds, and both are far smaller than their siblings.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "683c49a55968",
+      "value": "60%",
+      "context": "Both target 40% stocks and 60% bonds, and both are far smaller than their siblings.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "5fd72b07e845",
+      "value": "$977.26 million",
+      "context": "VCNS has $977.26 million in total assets and XCNS has net assets of CAD 451,152,137, against billions for the growth funds, so check that your broker shows a normal bid and ask before you place a large order.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$977\\.26 M",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "2dbf2f38571b",
+      "value": "451,152,137",
+      "context": "VCNS has $977.26 million in total assets and XCNS has net assets of CAD 451,152,137, against billions for the growth funds, so check that your broker shows a normal bid and ask before you place a large order.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309484/ishares-core-conservative-balanced-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Conservative Balanced ETF Portfolio (XCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "451,152,137",
+      "needleSource": "xcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "328853968fce",
+      "value": "59.47%",
+      "context": "VCNS's page shows 59.47% bonds and 40.51% stocks, with 30.82% of the stocks in Canada.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Bond\\s*59\\.47%",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "3e3c53e08766",
+      "value": "40.51%",
+      "context": "VCNS's page shows 59.47% bonds and 40.51% stocks, with 30.82% of the stocks in Canada.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Stock\\s*40\\.51%",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "b244ce2875d6",
+      "value": "30.82%",
+      "context": "VCNS's page shows 59.47% bonds and 40.51% stocks, with 30.82% of the stocks in Canada.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9577/vanguard-conservative-etf-portfolio",
+      "sourceName": "Vanguard Canada: Conservative ETF Portfolio (VCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.82%",
+      "needleSource": "vcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "8d8dcec010d6",
+      "value": "38.66%",
+      "context": "XCNS's largest holding is a Canadian universe bond ETF at 38.66%, and about 24.6% of its stocks are Canadian by our arithmetic.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309484/ishares-core-conservative-balanced-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Conservative Balanced ETF Portfolio (XCNS)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XBB ISHS CORE CAD UNIV BND IDX ETF.{0,70}? 38\\.66 ",
+      "needleSource": "xcns",
+      "extraNeedles": []
+    },
+    {
+      "id": "dba14baeea74",
+      "value": "24.6%",
+      "context": "XCNS's largest holding is a Canadian universe bond ETF at 38.66%, and about 24.6% of its stocks are Canadian by our arithmetic.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+      },
+      "needle": "Fixed(2)),formattedX: \"Mar 9, 2021\"},{x:Date.UTC(2021,2,10),y:Number((24.6).toFixed(2)),formattedX: \"Mar 10, 2021\"},{x:Date.UTC(2021,2,11),y:Num",
+      "formula": "recomputed from page numbers: xcns.XIC/stocks*100; xcns.XEF/stocks*100"
+    },
+    {
+      "id": "e531322761a8",
+      "value": "0.18%",
+      "context": "XCNS's MER is 0.18% against VCNS's 0.22%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "52142cd62de6",
+      "value": "0.22%",
+      "context": "XCNS's MER is 0.18% against VCNS's 0.22%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "4ab185d3dd77",
+      "value": "$100,000,",
+      "context": "On $100,000, the published MER costs $220 a year for any Vanguard fund, $190 for XEQT or XGRO and $180 for XBAL or XCNS.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "bd06a470782c",
+      "value": "$220",
+      "context": "On $100,000, the published MER costs $220 a year for any Vanguard fund, $190 for XEQT or XGRO and $180 for XBAL or XCNS.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+    },
+    {
+      "id": "4b19fc92cfd0",
+      "value": "$190",
+      "context": "On $100,000, the published MER costs $220 a year for any Vanguard fund, $190 for XEQT or XGRO and $180 for XBAL or XCNS.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+      },
+      "formula": "recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+    },
+    {
+      "id": "53ea0f7acc9d",
+      "value": "$180",
+      "context": "On $100,000, the published MER costs $220 a year for any Vanguard fund, $190 for XEQT or XGRO and $180 for XBAL or XCNS.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xbal MER $ per 100k; xcns MER $ per 100k; xbal MER $100k"
+      },
+      "formula": "recomputed from page numbers: xbal MER $ per 100k; xcns MER $ per 100k; xbal MER $100k"
+    },
+    {
+      "id": "f4e7d91839f3",
+      "value": "0.17%",
+      "context": "If the funds charge only their 0.17% management fee, the same $100,000 costs $170, which is the floor if the MERs fall to the management fee; the gaps in the table reflect what each fund last reported.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "88b34a42aaba",
+      "value": "$100,000",
+      "context": "If the funds charge only their 0.17% management fee, the same $100,000 costs $170, which is the floor if the MERs fall to the management fee; the gaps in the table reflect what each fund last reported.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "2d40a290afad",
+      "value": "$170,",
+      "context": "If the funds charge only their 0.17% management fee, the same $100,000 costs $170, which is the floor if the MERs fall to the management fee; the gaps in the table reflect what each fund last reported.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+    },
+    {
+      "id": "95bcdb761e14",
+      "value": "$100,000",
+      "context": "Yearly cost on $100,000 at the published MER and at the 0.17% management fee (our arithmetic, not a forecast)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "b4b4c91114b9",
+      "value": "0.17%",
+      "context": "Yearly cost on $100,000 at the published MER and at the 0.17% management fee (our arithmetic, not a forecast)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "f3b4e21b3bac",
+      "value": "0.17%",
+      "context": "Fund family MER Yearly cost at the MER Yearly cost at 0.17%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "899ecfce90a8",
+      "value": "0.22%",
+      "context": "Vanguard (all four) 0.22% $220 $170",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "7ab50f19e216",
+      "value": "$220",
+      "context": "Vanguard (all four) 0.22% $220 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+    },
+    {
+      "id": "9bfb9ebe9ac5",
+      "value": "$170",
+      "context": "Vanguard (all four) 0.22% $220 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+    },
+    {
+      "id": "75372e1176c2",
+      "value": "0.19%",
+      "context": "XEQT and XGRO 0.19% $190 $170",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "200d28a4a060",
+      "value": "$190",
+      "context": "XEQT and XGRO 0.19% $190 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+      },
+      "formula": "recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+    },
+    {
+      "id": "a8d025d169ee",
+      "value": "$170",
+      "context": "XEQT and XGRO 0.19% $190 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+    },
+    {
+      "id": "302dcd97c4bf",
+      "value": "0.18%",
+      "context": "XBAL and XCNS 0.18% $180 $170",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "e17cd7af82ff",
+      "value": "$180",
+      "context": "XBAL and XCNS 0.18% $180 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xbal MER $ per 100k; xcns MER $ per 100k; xbal MER $100k"
+      },
+      "formula": "recomputed from page numbers: xbal MER $ per 100k; xcns MER $ per 100k; xbal MER $100k"
+    },
+    {
+      "id": "e3b51836752c",
+      "value": "$170",
+      "context": "XBAL and XCNS 0.18% $180 $170",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+    },
+    {
+      "id": "af26363fe492",
+      "value": "November 18, 2025",
+      "context": "Vanguard announced on November 18, 2025 that it cut the management fee on VEQT, VGRO, VBAL and VCNS from 0.22% to 0.17%, and VGRO's ETF Facts show expenses of 0.22% as of March 31, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective November 18, 2025, Vanguard reduced the management fee",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "3a94ee00ea53",
+      "value": "0.22%",
+      "context": "Vanguard announced on November 18, 2025 that it cut the management fee on VEQT, VGRO, VBAL and VCNS from 0.22% to 0.17%, and VGRO's ETF Facts show expenses of 0.22% as of March 31, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "188d4f1d1eba",
+      "value": "0.17%",
+      "context": "Vanguard announced on November 18, 2025 that it cut the management fee on VEQT, VGRO, VBAL and VCNS from 0.22% to 0.17%, and VGRO's ETF Facts show expenses of 0.22% as of March 31, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "a31acc1f76d5",
+      "value": "March 31, 2026",
+      "context": "Vanguard announced on November 18, 2025 that it cut the management fee on VEQT, VGRO, VBAL and VCNS from 0.22% to 0.17%, and VGRO's ETF Facts show expenses of 0.22% as of March 31, 2026.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "As of March 31, 2026, the ETF's expenses were 0\\.22% of its value",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "e9670763a691",
+      "value": "0.17%",
+      "context": "BlackRock says XEQT, XGRO, XBAL and XCNS's 0.17% management fee includes all the underlying ETF fees.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "1b08d4934695",
+      "value": "35",
+      "context": "That is the point for most people, but it means the fund keeps its mix whether or not your plans change, so the fund you chose at 35 is not automatically the right one at 60.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example age"
+      },
+      "needle": "res Core Balanced ETF Portfolio How to buy NAV as of Nov 27, 2026 CAD 35.17 52 WK: 32.66 - 36.45 1 Day NAV Change as of Nov 27, 2026 CAD 0.21 ",
+      "note": "declared example age"
+    },
+    {
+      "id": "ff37301e7545",
+      "value": "60",
+      "context": "That is the point for most people, but it means the fund keeps its mix whether or not your plans change, so the fund you chose at 35 is not automatically the right one at 60.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "91ea3603c57f",
+      "value": "0.22%",
+      "context": "Vanguard cut the management fee on its four funds from 0.22% to 0.17%, effective November 18, 2025, and BlackRock cut it on its four from 0.18% to 0.17%, effective December 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "064303c65129",
+      "value": "0.17%",
+      "context": "Vanguard cut the management fee on its four funds from 0.22% to 0.17%, effective November 18, 2025, and BlackRock cut it on its four from 0.18% to 0.17%, effective December 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "2ebfa1124d32",
+      "value": "November 18, 2025",
+      "context": "Vanguard cut the management fee on its four funds from 0.22% to 0.17%, effective November 18, 2025, and BlackRock cut it on its four from 0.18% to 0.17%, effective December 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective November 18, 2025, Vanguard reduced the management fee",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "f58a394485e8",
+      "value": "0.18%",
+      "context": "Vanguard cut the management fee on its four funds from 0.22% to 0.17%, effective November 18, 2025, and BlackRock cut it on its four from 0.18% to 0.17%, effective December 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "8c1dbfacc480",
+      "value": "December 18, 2025",
+      "context": "Vanguard cut the management fee on its four funds from 0.22% to 0.17%, effective November 18, 2025, and BlackRock cut it on its four from 0.18% to 0.17%, effective December 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 18, 2025, the management fee of the ETF was reduced from 0\\.18% to 0\\.17%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "8dc66aeebcc7",
+      "value": "0.22%",
+      "context": "Right now the two differ most for the Vanguard funds, whose 0.22% MER sits next to a 0.17% fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "7d626186305a",
+      "value": "0.17%",
+      "context": "Right now the two differ most for the Vanguard funds, whose 0.22% MER sits next to a 0.17% fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "f483575d445c",
+      "value": "100%",
+      "context": "Most people can stop after the first step, because the difference between the families is small next to the difference between 100% stocks and 60% stocks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "approximately 100%|100% equity",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "xeqt",
+          "100% equity"
+        ]
+      ]
+    },
+    {
+      "id": "3a941679dd33",
+      "value": "60%",
+      "context": "Most people can stop after the first step, because the difference between the families is small next to the difference between 100% stocks and 60% stocks.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "4d41a05f3827",
+      "value": "0.17%",
+      "context": "All eight compared here charge a 0.17% management fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vcns",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xeqt",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xbal",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "xcns",
+          "Management Fee\\s*0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "8daad0d734c2",
+      "value": "0.18%",
+      "context": "On the published MER, XBAL and XCNS are lowest at 0.18%, followed by XEQT and XGRO at 0.19%, with every Vanguard fund at 0.22%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239449/ishares-balanced-income-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Balanced ETF Portfolio (XBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.18%",
+      "needleSource": "xbal",
+      "extraNeedles": [
+        [
+          "xcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.18%"
+        ],
+        [
+          "xgro",
+          "reduced from 0\\.18% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "90c29c361d25",
+      "value": "0.19%",
+      "context": "On the published MER, XBAL and XCNS are lowest at 0.18%, followed by XEQT and XGRO at 0.19%, with every Vanguard fund at 0.22%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio",
+      "sourceName": "BlackRock Canada: iShares Core Equity ETF Portfolio (XEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xeqt",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.19%"
+        ]
+      ]
+    },
+    {
+      "id": "c8c83f28f4d9",
+      "value": "0.22%",
+      "context": "On the published MER, XBAL and XCNS are lowest at 0.18%, followed by XEQT and XGRO at 0.19%, with every Vanguard fund at 0.22%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "sourceName": "Vanguard Canada: All-Equity ETF Portfolio (VEQT)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "veqt",
+      "extraNeedles": [
+        [
+          "vgro",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vbal",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ],
+        [
+          "vcns",
+          "Management Expense Ratio \\(MER\\)\\s*0\\.22%"
+        ]
+      ]
+    },
+    {
+      "id": "48ff17e02d27",
+      "value": "60%",
+      "context": "The ones with the most bonds, VCNS and XCNS, target 60% bonds, but none of these funds is guaranteed and each can fall in value.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+      "sourceName": "Vanguard Canada: Balanced ETF Portfolio (VBAL)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 60%\\) and fixed income \\(approximately 40%\\)",
+      "needleSource": "vbal",
+      "extraNeedles": [
+        [
+          "xbal",
+          "60% equity and 40% fixed income"
+        ],
+        [
+          "vcns",
+          "equity \\(approximately 40%\\) and fixed income \\(approximately 60%\\)"
+        ],
+        [
+          "xcns",
+          "40% equity and 60% fixed income"
+        ]
+      ]
+    }
+  ]
+}

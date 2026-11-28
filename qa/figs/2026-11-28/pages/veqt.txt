@@ -1,0 +1,672 @@
+Skip to main content
+ENFR
+FAQs
+Contact us
+How to buy
+Advisor login 🔑
+Products
+
+Product list by product type
+
+All products
+ETFs
+Mutual funds
+Model Portfolios
+
+Product list by asset class
+
+Equity
+Fixed income
+Asset Allocation
+
+Product list by management style
+
+Active
+Passive
+Introducing VCOR
+
+About our products
+
+Active
+Asset Allocation
+Dividend Investing
+Factor ETFs
+Index ETFs
+Model Portfolios
+
+How to buy
+
+Overview
+Through a financial advisor
+Through an online brokerage
+Tools & Resources
+Total Cost Reporting under CRM3
+
+Advisor resources
+
+Advisor's Alpha
+Client relationships
+Model portfolios
+CRM3 Advisor Hub
+
+Advisor tools
+
+Portfolio analytics
+Fund compare tool
+
+Education
+
+Events and webinars
+Fixed income support centre
+FAQs
+ETF Fundamentals
+Total Cost Reporting under CRM3
+Fund compare tool
+
+Investor resources
+
+Tax centre
+Benchmarks
+Distribution reinvestment plan
+Proxy voting
+
+Investor tools
+
+Compare funds
+Investor Personality Quiz
+Insights
+
+Insights
+
+View all insights
+Latest updates
+Vanguard Economic and Market Outlook for 2026
+About Vanguard
+
+Vanguard Canada
+
+About us
+Vanguard in the news
+Pressroom
+Events and webinars
+Our Biggest Fee Cut Yet
+Vanguard All-Equity ETF Portfolio
+(VEQT) Vanguard All-Equity ETF Portfolio
+Related documents
+Factsheet
+ETF facts
+Prospectus
+Prospectus Amendment 1
+Annual financial statement
+Annual MRFP
+DRIP document
+Interim financial statement
+Interim MRFP
+IRC annual report to unit holders
+Quarterly portfolio disclosure
+About this fund
+Performance
+Portfolio data
+Prices and distribution
+Purchase information
+NAV PRICE (CAD)
+$59.89
+CAD
+CHANGE
++$0.771.31%
+AS AT NOV 27 2026
+FER
+0.22%
+12 MONTH YIELD
+1.25%
+AS AT OCT 31 2026
+About this fund
+Fund objectives
+
+Vanguard All-Equity ETF Portfolio seeks to provide long-term capital growth by investing primarily in equity securities.
+
+Why this fund
+Seeks to achieve its investment objective by primarily investing in equity securities. The Vanguard ETF may do so either directly or indirectly through investment in one or more exchange-traded funds managed by the manager or an affiliate or certain other investment funds (Underlying Funds).
+In seeking to achieve the Vanguard ETF’s investment objective (under normal market conditions), the sub-advisor will strive to maintain a long-term strategic asset allocation of 100% equity securities. The portfolio asset mix may be reconstituted and rebalanced from time to time at the discretion of the sub-advisor.
+The portfolios of the Underlying Funds are expected to consist of index funds that provide exposure to broad based equity markets.
+Fund facts
+Inception date
+Jan 29 2019
+Total assets
+$17.64 B
+Management Fee
+0.17%
+Asset class
+Multi-Asset
+Investment manager
+Vanguard Global Equity Index Management
+Management Expense Ratio (MER)
+0.22%
+Distribution Per Unit
+$0.24
+Distribution frequency
+Annually
+Trading Expense Ratio (TER)
+0.00%
+Benchmark
+Internal Composite
+Total Holdings
+14,148
+Fund Expense Ratio (FER)
+0.22%
+
+Performance
+Total Returns (net of fees)
+
+AS AT OCT 31 2026
+
+View:
+View Total Returns (net of fees)
+Graph
+Table
+View:
+View Total Returns (net of fees)
+Overview
+Monthly
+Quarterly
+Annual
+Cumulative
+View:
+Monthly
+Quarterly
+SELECT STARTING DATE
+Oct 31 2026
+Bar chart showing summary returns over standard periods for the fund and its benchmark. The same data is available in the table view.
+10
+-15
+-10
+-5
+0
+5
+10
+15
+20
+25
+30
+*Since Inception
+1 Month
+3 Months
+YTD
+1 Year
+3 Years
+5 Years
+10 Years
+*Since Inception
+NAV (CAD)
+Benchmark
+Market price
+Download
+
+*Since inception Jan 29 2019
+
+Benchmark: Internal Composite
+
+The performance of an index is not an exact representation of any particular investment as you cannot invest directly in an index. The performance of the index does not reflect the deduction of any expenses which would have reduced total returns. Performance information of the Vanguard ETF reflect waivers of certain expenses and/or fees. If the Vanguard ETF had incurred all expenses, investment returns would have been reduced. The indicated rates of return are the historical annual compounded total returns including changes in unit value and reinvestment of all dividends or distributions and do not take into account sales, redemption, distribution or optional charges or income taxes payable by any unitholder that would have reduced returns. The performance of the index and Vanguard ETF is for illustrative purposes only.
+
+Growth of 10,000
+
+VIEWING OCT 31 2025 - OCT 31 2026
+
+View:
+View Growth of 10,000
+1 Year
+3 Years
+5 Years
+Since Inception
+Line chart showing the growth of a 10,000 CAD investment in Vanguard All-Equity ETF Portfolio - from Oct 25 to Oct 26. The most recent value is $11,391.81.
+10,000
+9,400
+9,600
+9,800
+10,000
+10,200
+10,400
+12,500
+12,000
+11,000
+11,500
+10,500
+9,500
+9,000
+8,500
+L
+Oct 25
+Dec 25
+Feb 26
+Apr 26
+Jun 26
+Aug 26
+Oct 26
+Vanguard All-Equity ETF Portfolio - (CAD)
+Search
+Type to search. Use the up and down arrow keys to review results, then press Enter to select.
+Risk and Volatility
+
+AS AT OCT 31 2026
+
+Beta
+—
+R²
+—
+Alpha
+—
+Standard Deviation
+9.55%
+Sharpe Ratio
+1.95
+
+Please note Beta and R2 data will only display for funds with 3 full years of history.
+
+ 
+
+Portfolio data
+Allocation to underlying Vanguard funds
+
+AS AT OCT 31 2026
+
+Content loaded
+Allocation to underlying Vanguard funds
+Fund	Percentage
+Morningstar US Total Market Index ETF
+	45.26%
+
+FTSE Canada All Cap Index ETF
+	30.73%
+
+FTSE Developed All Cap ex-North America Index ETF
+	17.27%
+
+FTSE Emerging Markets All Cap Index ETF
+	6.73%
+
+Total allocation percentages shown may not equal 100% due to rounding
+
+Allocation percentages reflect the breakdown of security type.
+
+Asset allocation
+
+AS AT OCT 31 2026
+
+Asset allocation
+Asset class	Percentage
+Short-term reserves	0.02%
+Stock	99.98%
+
+Weighted equity exposures exclude any temporary cash investments and equity index futures. Some short-term fixed income securities are classified as cash and are excluded from the weighted bond exposures.
+
+
+Characteristics
+Stocks	Fund	As at
+Number of stocks	13,900	Oct 31 2026
+Median market capital	147.9 B	Oct 31 2026
+Price earning / ratio (P/E)	19.1 x	Oct 31 2026
+Price / book ratio (P/B)	3.0 x	Oct 31 2026
+Return on equity (ROE)	14.9%	Oct 31 2026
+Earnings growth rate	16.9%	Oct 31 2026
+Fundamentals	Fund	As at
+Number of bonds	0	Oct 31 2026
+YTM (Yield to Maturity) effective	—	—
+Average Duration	—	—
+Average maturity	—	—
+Average quality	—	—
+Cash Investment	0.0%	Oct 31 2026
+Market capitalization
+
+AS AT OCT 31 2026
+
+View:
+View Market capitalization
+Graph
+Table
+Bar chart showing the market capitalization breakdown by size for the fund and its benchmark. The same data is available in the table view.
+10
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+80
+50
+70
+60
+-10
+-20
+Small
+Large
+Medium/Large
+Medium
+Medium/Small
+Small
+Funds
+Benchmark
+Market allocation
+
+AS AT OCT 31 2026
+
+Country	Region	Fund	Benchmark	Variance +/-
+United States of America	North America	45.40%	—	—
+Canada	North America	30.79%	—	—
+Japan	Pacific	4.18%	—	—
+United Kingdom	Europe	2.27%	—	—
+Taiwan	Emerging Markets	2.19%	—	—
+China	Emerging Markets	1.67%	—	—
+Republic Of Korea	Pacific	1.55%	—	—
+Switzerland	Europe	1.41%	—	—
+France	Europe	1.29%	—	—
+Germany	Europe	1.24%	—	—
+Australia	Pacific	1.15%	—	—
+India	Emerging Markets	1.11%	—	—
+Netherlands	Europe	0.73%	—	—
+Spain	Europe	0.54%	—	—
+Sweden	Europe	0.53%	—	—
+Download
+Region exposure
+
+AS AT OCT 31 2026
+
+View:
+View Region exposure
+Graph
+Table
+View:
+View Region exposure
+Equities
+Fixed Income
+Bar chart showing the geographic region exposure breakdown for the fund and its benchmark. The same data is available in the table view.
+10
+-20
+-10
+0
+10
+20
+30
+40
+50
+60
+100
+80
+-40
+Other
+North America
+Europe
+Pacific
+Emerging Markets
+Middle East
+Other
+Funds
+Benchmark
+Weighted exposure
+
+AS AT OCT 31 2026
+
+View:
+View Weighted exposure
+Graph
+Table
+Bar chart showing the weighted sector exposure breakdown for the fund and its benchmark. The same data is available in the table view.
+10
+-10
+-5
+0
+5
+10
+15
+20
+25
+30
+35
+Other
+Technology
+Financials
+Industrials
+Consumer Discretionary
+Energy
+Basic Materials
+Health Care
+Consumer Staples
+Utilities
+Telecommunications
+Real Estate
+Other
+Funds
+Benchmark
+
+Beginning March 2023, the structure of various GICS Sectors, Industry Groups, Industries and Sub-Industries are being revised. Please note that there may be differences in certain GICS names, classifications, and portfolio weights relative to the benchmark as these changes are implemented across the industry, with MSCI expecting to complete their changes by May 2023.
+
+Sector categories are based on the Industry Classification Benchmark system ("ICB"), except for the "Other" category (if applicable), which includes securities that have not been provided an ICB classification as of the effective reporting period.
+
+Top 10 Holdings
+
+AS AT OCT 31 2026
+
+View:
+Equity
+Bond
+Holding name	% of market value	Sector	Region	Market value	Shares
+Apple Inc	3.12409%	Technology	US	$551,768,944.23	1,147,004.723
+NVIDIA Corp	2.91018%	Technology	US	$513,988,928.09	1,799,385.721
+Royal Bank of Canada	2.42414%	Financials	CA	$428,146,281.08	1,507,929
+Microsoft Corp	2.40725%	Technology	US	$425,161,850.75	583,605.94
+Toronto-Dominion Bank/The	1.74804%	Financials	CA	$308,734,058.04	1,773,925.868
+Shopify Inc	1.64762%	Technology	CA	$290,999,067.38	1,320,502.189
+Amazon.com Inc	1.44930%	Consumer Discretionary	US	$255,971,576.06	762,972.086
+Bank of Montreal	1.03185%	Financials	CA	$182,243,041.01	761,821.925
+Taiwan Semiconductor Manufacturing Co Ltd	1.02916%	Technology	TW	$181,768,264.02	1,823,754.924
+Alphabet Inc	1.02161%	Technology	US	$180,434,551.02	461,924.443
+Download
+
+Total allocation percentages shown in the holdings details or the spreadsheet may not equal 100%, due to rounding or omission of cash and/or futures contracts.
+
+Weighted equity exposures exclude any temporary cash investments and equity index futures. Some short-term fixed income securities are classified as cash and are excluded from the weighted bond exposures.
+
+
+Prices and distribution
+Prices
+NAV PRICE (CAD)
+$59.89
+CAD
+CHANGE
++$0.771.31%
+AS AT NOV 27 2026
+NAV 52-WEEK HIGH
+$63.02
+AS AT NOV 28 2026
+NAV 52-WEEK LOW
+$52.27
+AS AT NOV 28 2026
+NAV 52-WEEK DIFFERENCE
+$10.75
+CHANGE
++17.06%
+AS AT NOV 28 2026
+Price analysis
+
+-
+
+View:
+View Price analysis
+Current
+1 Month
+3 Months
+6 Months
+1 Year
+18 Months
+3 Years
+5 Years
+Since Inception
+Line chart showing the CAD price history from Nov 23 2026 to Nov 27 2026. The most recent price is $59.89.
+58.4
+58.0
+58.2
+58.4
+58.6
+58.8
+59.0
+60.5
+60.0
+59.5
+58.5
+57.5
+57.0
+L
+Nov 23 2026
+Nov 24 2026
+Nov 25 2026
+Nov 26 2026
+Nov 27 2026
+NAV (CAD)
+Historical Prices
+
+-
+
+Inception date
+
+Jan 29 2019
+
+Listing date
+
+Feb 05 2019
+
+Date	NAV (CAD)	Market price (CAD)
+Nov 27 2026	$59.8876	$59.8500
+Nov 26 2026	$59.1132	$59.1800
+Nov 25 2026	$58.5664	$58.5700
+Nov 24 2026	$58.6405	$58.6700
+Nov 23 2026	$59.2349	$59.2100
+Nov 20 2026	$56.9594	$57.0000
+Nov 19 2026	$58.8176	$58.8200
+Nov 18 2026	$59.8177	$59.8300
+Nov 17 2026	$60.2865	$60.3100
+Nov 16 2026	$60.9955	$61.0300
+Download 1967 prices
+
+With an online brokerage | With a financial advisor
+
+There are two ways to buy Vanguard's funds in Canada
+How to buy
+Distribution history
+
+Distribution frequency
+
+Annually
+
+12 month trailing yield
+
+1.25%
+
+(Oct 31 2026)
+
+Distribution yield
+
+1.25%
+
+(Oct 31 2026)
+
+Type	Ex-dividend date	Record date	Payment date	Cash distribution per unit	Reinvestment distribution per unit	Total distribution per unit
+CGCA	Dec 30 2025	Dec 30 2025	Jan 07 2026	—	$0.24252	$0.24252
+Income	Dec 30 2025	Dec 30 2025	Jan 07 2026	$0.76018	—	$0.76018
+CGCA	Dec 30 2024	Dec 30 2024	Jan 07 2025	—	$0.08192	$0.08192
+Income	Dec 30 2024	Dec 30 2024	Jan 07 2025	$0.71334	—	$0.71334
+CGCA	Dec 28 2023	Dec 29 2023	Jan 08 2024	—	$0.05348	$0.05348
+Income	Dec 28 2023	Dec 29 2023	Jan 08 2024	$0.69229	—	$0.69229
+CGCA	Dec 29 2022	Dec 30 2022	Jan 09 2023	—	$0.24503	$0.24503
+Income	Dec 29 2022	Dec 30 2022	Jan 09 2023	$0.67249	—	$0.67249
+CGCA	Dec 30 2021	Dec 31 2021	Jan 10 2022	—	$0.12775	$0.12775
+Income	Dec 30 2021	Dec 31 2021	Jan 10 2022	$0.51415	—	$0.51415
+Download
+Annual distributions
+
+-
+
+Year	Eligible dividends	Non eligible dividends	Other income	Capital gains	Return of capital	Foreign income	Foreign tax paid	Total distribution per unit
+2019	$0.15290	$0.00000	$0.00000	$0.00000	$0.00549	$0.28433	$0.03897	$0.40375
+2020	$0.19727	$0.00000	$0.00000	$0.00000	$0.00764	$0.29710	$0.04039	$0.46162
+2021	$0.21471	$0.00000	$0.00000	$0.12775	$0.00818	$0.33958	$0.04832	$0.64190
+2022	$0.26750	$0.00000	$0.00000	$0.24503	$0.00237	$0.46523	$0.06261	$0.91752
+2023	$0.30472	$0.00000	$0.00000	$0.05348	$0.00455	$0.44826	$0.06524	$0.74577
+2024	$0.32059	$0.00000	$0.00000	$0.08192	$0.00641	$0.45464	$0.06830	$0.79526
+2025	$0.31986	$0.00000	$0.00000	$0.24252	$0.00707	$0.50620	$0.07295	$1.00270
+Download
+
+Return of Capital represents the distribution amount that is paid back to investors. Each January, Vanguard Investments Canada Inc. will report the actual return of capital for the investment funds. The total payout will remain the same, but the percentage of the payout that equals return of capital (the principal value) and the amount that equals earnings (capital gains and dividends) may differ slightly.
+
+Vanguard ETFs trade at market price not NAV. Investors must buy or sell Vanguard ETFs in the secondary market with the assistance of a brokerage firm. In doing so, investors may incur brokerage commissions and may pay more than NAV when buying and receive less than NAV when selling.
+
+Purchase information
+Currencies and stock exchanges
+
+Listed currencies: CAD
+
+Base currency:CAD
+
+Exchanges: Toronto Stock Exchange
+
+Fund codes
+Trading Symbols
+CUSIP:92201C107
+ISIN:CA92201C1077
+Reuters:VEQT.TO
+SEDOL:BJ11554
+CAD - Toronto Stock Exchange
+ISIN:CA92201C1077
+Reuters:VEQT.TO
+SEDOL:BJ11554
+
+The management expense ratio (MER) is the MER as of the most recent fund year end, including waivers and absorptions, and is expressed as an annualized percentage of the daily average net asset value. Vanguard Investments Canada Inc. expects to continue absorbing or waiving certain fees indefinitely but may, in its discretion, discontinue this practice at any time. For recently launched funds, MER information is not yet available.
+
+ 
+
+Commissions, management fees, and expenses all may be associated with investment funds. Investment objectives, risks, fees, expenses, and other important information are contained in the prospectus; please read it before investing. Investment funds are not guaranteed, their values change frequently, and past performance may not be repeated. Vanguard funds are managed by Vanguard Investments Canada Inc. and are available across Canada through registered dealers.
+
+This material is for informational purposes only. This material is not intended to be relied upon as research, investment, or tax advice and is not an implied or express recommendation, offer or solicitation to buy or sell any security or to adopt any particular investment or portfolio strategy. Any views and opinions expressed do not take into account the particular investment objectives, needs, restrictions and circumstances of a specific investor and, thus, should not be used as the basis of any specific investment recommendation. Investors should consult a financial and/or tax advisor for financial and/or tax information applicable to their specific situation.
+
+
+All investment funds, including those that seek to track an index are subject to risk, including the possible loss of principal. Diversification does not ensure a profit or protect against a loss in a declining market. While the Vanguard ETFs are designed to be as diversified as the original indices they seek to track and can provide greater diversification than an individual investor may achieve independently, any given ETF may not be a diversified investment.
+
+
+All monetary figures are expressed in Canadian dollars unless otherwise noted.
+
+Products
+
+All products
+Tax Centre
+Proxy voting
+
+Company
+
+About us
+Careers
+Investment stewardship
+FAQs
+
+Vanguard Canada
+
+Contact us
+Pressroom
+Events and webinars
+Vanguard in the news
+
+© 2026 Vanguard Investments Canada Inc. All rights reserved. Your use of this site signifies that you accept our website terms of use and privacy policy.
+
+Vanguard Investments Canada Inc. Bay Adelaide Centre 22 Adelaide Street West Suite 2500 Toronto, ON M5H 4E3
+
+Terms and conditionsPrivacy policyAdChoicesAccessibilityManage cookies
+Back To Top
+Our use of cookies
+We use cookies to personalize content and ads, to provide social media features, and to analyze our website traffic. We also share information about your use of our site with our advertising and analytics partners.
+
+By choosing "Accept all", you agree to the use of all cookies on our website. You can always change your preferences by clicking “Manage cookies” at the bottom of any page.
+
+You can learn more about our use of your data by reading our privacy policy and website terms of use.
+Manage cookies
+Accept all

@@ -1,0 +1,2759 @@
+{
+  "slug": "vgro-vs-xgro-canada",
+  "publishDate": "2026-11-28",
+  "figures": [
+    {
+      "id": "797419ddfb9e",
+      "value": "80%",
+      "context": "VGRO and XGRO both promise the same thing: a diversified portfolio of about 80% stocks and 20% bonds in a single ticker, with the rebalancing done for you.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "76b4a5530321",
+      "value": "20%",
+      "context": "VGRO and XGRO both promise the same thing: a diversified portfolio of about 80% stocks and 20% bonds in a single ticker, with the rebalancing done for you.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "cdb64759e228",
+      "value": "80%",
+      "context": "VGRO (Vanguard Growth ETF Portfolio) and XGRO (iShares Core Growth ETF Portfolio) both target 80% equity and 20% fixed income and both charge a 0.17% management fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "32864afb88cd",
+      "value": "20%",
+      "context": "VGRO (Vanguard Growth ETF Portfolio) and XGRO (iShares Core Growth ETF Portfolio) both target 80% equity and 20% fixed income and both charge a 0.17% management fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "045e7e17c57f",
+      "value": "0.17%",
+      "context": "VGRO (Vanguard Growth ETF Portfolio) and XGRO (iShares Core Growth ETF Portfolio) both target 80% equity and 20% fixed income and both charge a 0.17% management fee.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "f1605248bba5",
+      "value": "80%",
+      "context": "Both funds target 80% stocks and 20% bonds, hold other ETFs rather than individual securities, pay quarterly and rebalance automatically.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "cae36671a8e2",
+      "value": "20%",
+      "context": "Both funds target 80% stocks and 20% bonds, hold other ETFs rather than individual securities, pay quarterly and rebalance automatically.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "4e59e540b9b0",
+      "value": "0.17%",
+      "context": "The management fee is 0.17% on both.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "22659de2ebf9",
+      "value": "0.22%",
+      "context": "The published MER is 0.22% for VGRO and 0.19% for XGRO, which is $30 a year apart on $100,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "2d337dd0e16a",
+      "value": "0.19%",
+      "context": "The published MER is 0.22% for VGRO and 0.19% for XGRO, which is $30 a year apart on $100,000.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "229717298af5",
+      "value": "$30",
+      "context": "The published MER is 0.22% for VGRO and 0.19% for XGRO, which is $30 a year apart on $100,000.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap $100k veqt-xeqt; MER gap $100k veqt-xgro; MER gap $100k vgro-xeqt"
+      },
+      "formula": "recomputed from page numbers: MER gap $100k veqt-xeqt; MER gap $100k veqt-xgro; MER gap $100k vgro-xeqt"
+    },
+    {
+      "id": "f2e1904d7c96",
+      "value": "$100,000",
+      "context": "The published MER is 0.22% for VGRO and 0.19% for XGRO, which is $30 a year apart on $100,000.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "1f44a94da3b1",
+      "value": "30.5%",
+      "context": "About 30.5% of VGRO's stock holdings are Canadian against about 25.0% for XGRO, because XGRO puts more into developed markets outside North America.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.CA/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Jan 6, 2025\"},{x:Date.UTC(2025,0,7),y:Number((30.5).toFixed(2)),formattedX: \"Jan 7, 2025\"},{x:Date.UTC(2025,0,8),y:Numbe",
+      "formula": "recomputed from page numbers: vgro.CA/stocks*100"
+    },
+    {
+      "id": "ce1a8c4f69b8",
+      "value": "25.0%",
+      "context": "About 30.5% of VGRO's stock holdings are Canadian against about 25.0% for XGRO, because XGRO puts more into developed markets outside North America.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "08190f378d43",
+      "value": "June 21, 2007",
+      "context": "XGRO's name is older than its current design: its page shows a June 21, 2007 inception, and its objective and fee structure changed on December 11, 2018.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Jun 21, 2007",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "5861f59ac12f",
+      "value": "December 11, 2018",
+      "context": "XGRO's name is older than its current design: its page shows a June 21, 2007 inception, and its objective and fee structure changed on December 11, 2018.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 11, 2018, the fundamental investment objective",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "f815a2134af5",
+      "value": "80%",
+      "context": "Vanguard says VGRO's sub-advisor will strive to maintain a long-term mix of approximately 80% equity and 20% fixed income, and BlackRock says XGRO targets a strategic asset allocation of 80% equity and 20% fixed income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "644a0d0d14f4",
+      "value": "20%",
+      "context": "Vanguard says VGRO's sub-advisor will strive to maintain a long-term mix of approximately 80% equity and 20% fixed income, and BlackRock says XGRO targets a strategic asset allocation of 80% equity and 20% fixed income.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "8dd06cedf719",
+      "value": "November 28, 2026",
+      "context": "VGRO and XGRO side by side (issuer pages, read November 28, 2026)",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: review date (date of this check)"
+      },
+      "needle": " CADChange+$0.461.01% As at Nov 27 2026 NAV 52-week high $48.47 As at Nov 28 2026 NAV 52-week low $41.91 As at Nov 28 2026 NAV 52-week difference $6.56",
+      "note": "review date (date of this check)"
+    },
+    {
+      "id": "2906427948a8",
+      "value": "80%",
+      "context": "Target mix Approximately 80% equity, 20% fixed income 80% equity, 20% fixed income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "a3538c7df564",
+      "value": "20%",
+      "context": "Target mix Approximately 80% equity, 20% fixed income 80% equity, 20% fixed income",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "95ecefde37ec",
+      "value": "0.17%",
+      "context": "Management fee 0.17% (cut from 0.22% on November 18, 2025) 0.17% (cut from 0.18% on December 18, 2025)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "8abde499619f",
+      "value": "0.22%",
+      "context": "Management fee 0.17% (cut from 0.22% on November 18, 2025) 0.17% (cut from 0.18% on December 18, 2025)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "14c654cc57fb",
+      "value": "November 18, 2025",
+      "context": "Management fee 0.17% (cut from 0.22% on November 18, 2025) 0.17% (cut from 0.18% on December 18, 2025)",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective November 18, 2025, Vanguard reduced the management fee",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "efb7756e7ae7",
+      "value": "0.18%",
+      "context": "Management fee 0.17% (cut from 0.22% on November 18, 2025) 0.17% (cut from 0.18% on December 18, 2025)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "reduced from 0\\.18% to 0\\.17%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "a6d4cd7f254f",
+      "value": "December 18, 2025",
+      "context": "Management fee 0.17% (cut from 0.22% on November 18, 2025) 0.17% (cut from 0.18% on December 18, 2025)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 18, 2025, the management fee of the ETF was reduced from 0\\.18% to 0\\.17%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "ef38d0f29011",
+      "value": "0.22%",
+      "context": "Management expense ratio (MER) 0.22% 0.19%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "a5f9d4115dd1",
+      "value": "0.19%",
+      "context": "Management expense ratio (MER) 0.22% 0.19%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "a9f22f9e0cab",
+      "value": "$10.88 billion",
+      "context": "Fund size $10.88 billion in total assets CAD 5,272,287,718 in net assets (November 27, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Total assets\\s*\\$10\\.88 B",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "1a7b24b31d4d",
+      "value": "272,287,718",
+      "context": "Fund size $10.88 billion in total assets CAD 5,272,287,718 in net assets (November 27, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "CAD 5,272,287,718",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "9f7f0f4976b4",
+      "value": "November 27, 2026",
+      "context": "Fund size $10.88 billion in total assets CAD 5,272,287,718 in net assets (November 27, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Net Assets\\s*AS AT NOV 27 2026|as of Nov 27, 2026",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "52ba6a3e3709",
+      "value": "January 25, 2018",
+      "context": "Started January 25, 2018 June 21, 2007 (structure changed December 11, 2018)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 25 2018",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "90ec4f8c5141",
+      "value": "June 21, 2007",
+      "context": "Started January 25, 2018 June 21, 2007 (structure changed December 11, 2018)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Jun 21, 2007",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "c47d7d07b918",
+      "value": "December 11, 2018",
+      "context": "Started January 25, 2018 June 21, 2007 (structure changed December 11, 2018)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 11, 2018, the fundamental investment objective",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "6fa883bc7af6",
+      "value": "30.5%",
+      "context": "What this page adds: a side-by-side table that sorts both funds' published underlying holdings into the same seven buckets, so you can see that VGRO holds about 30.5% of its stocks in Canada against about 25.0% for XGRO, and what $100,000 in each actually owns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.CA/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Jan 6, 2025\"},{x:Date.UTC(2025,0,7),y:Number((30.5).toFixed(2)),formattedX: \"Jan 7, 2025\"},{x:Date.UTC(2025,0,8),y:Numbe",
+      "formula": "recomputed from page numbers: vgro.CA/stocks*100"
+    },
+    {
+      "id": "7fe374023a12",
+      "value": "25.0%",
+      "context": "What this page adds: a side-by-side table that sorts both funds' published underlying holdings into the same seven buckets, so you can see that VGRO holds about 30.5% of its stocks in Canada against about 25.0% for XGRO, and what $100,000 in each actually owns.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "e19909aa1801",
+      "value": "$100,000",
+      "context": "What this page adds: a side-by-side table that sorts both funds' published underlying holdings into the same seven buckets, so you can see that VGRO holds about 30.5% of its stocks in Canada against about 25.0% for XGRO, and what $100,000 in each actually owns.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "8b3de77720af",
+      "value": "October 31, 2026",
+      "context": "Underlying holdings as published (VGRO as at October 31, 2026; XGRO as at November 25, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "AS AT OCT 31 2026",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "c915298f2dc2",
+      "value": "November 25, 2026",
+      "context": "Underlying holdings as published (VGRO as at October 31, 2026; XGRO as at November 25, 2026)",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Aggregate Underlying Holdings\\s*as of Nov 25, 2026",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "926761b2accf",
+      "value": "36.62%",
+      "context": "Morningstar US Total Market Index ETF 36.62% iShares Core S&P Total U.S.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Morningstar US Total Market Index ETF\\s*36\\.62%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "54d9410fb5f6",
+      "value": "36.23%",
+      "context": "Stock (ITOT) 36.23%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "ITOT ISHARES CORE S&P TOTAL U\\.S\\. STOCK.{0,70}? 36\\.23 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "06bbf437d09d",
+      "value": "24.76%",
+      "context": "FTSE Canada All Cap Index ETF 24.76% iShares S&P/TSX Capped Composite (XIC) 19.92%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Canada All Cap Index ETF\\s*24\\.76%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "4959863b86f3",
+      "value": "19.92%",
+      "context": "FTSE Canada All Cap Index ETF 24.76% iShares S&P/TSX Capped Composite (XIC) 19.92%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XIC ISHARES S&P/TSX CAPPED COMPOSITE.{0,70}? 19\\.92 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "f609b0c64dc1",
+      "value": "14.36%",
+      "context": "FTSE Developed All Cap ex-North America Index ETF 14.36% iShares MSCI EAFE IMI Index (XEF) 19.70%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Developed All Cap ex-North America Index ETF\\s*14\\.36%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "6e902895f32c",
+      "value": "19.70%",
+      "context": "FTSE Developed All Cap ex-North America Index ETF 14.36% iShares MSCI EAFE IMI Index (XEF) 19.70%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XEF ISHARES MSCI EAFE IMI INDEX.{0,70}? 19\\.70 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "20b6c7106c08",
+      "value": "11.54%",
+      "context": "Canadian Aggregate Bond Index ETF 11.54% iShares Core CAD Universe Bond Index ETF (XBB) 13.12%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canadian Aggregate Bond Index ETF\\s*11\\.54%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "120d211d6b32",
+      "value": "13.12%",
+      "context": "Canadian Aggregate Bond Index ETF 11.54% iShares Core CAD Universe Bond Index ETF (XBB) 13.12%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XBB ISHS CORE CAD UNIV BND IDX ETF.{0,70}? 13\\.12 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "22066aa54849",
+      "value": "5.35%",
+      "context": "FTSE Emerging Markets All Cap Index ETF 5.35% iShares MSCI Emerging Market (XEC) 3.85%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Emerging Markets All Cap Index ETF\\s*5\\.35%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "462a1b8c7406",
+      "value": "3.85%",
+      "context": "FTSE Emerging Markets All Cap Index ETF 5.35% iShares MSCI Emerging Market (XEC) 3.85%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XEC ISHARES MSCI EMERGING MARKET.{0,70}? 3\\.85 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "722d44423a6e",
+      "value": "3.77%",
+      "context": "Aggregate Bond Index ETF, CAD-hedged 3.77% iShares Core CAD ST Corporate Bond Index (XSH) 3.06%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Global ex-U\\.S\\. Aggregate Bond Index ETF CAD- hedged\\s*3\\.77%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "74b3088d448e",
+      "value": "3.06%",
+      "context": "Aggregate Bond Index ETF, CAD-hedged 3.77% iShares Core CAD ST Corporate Bond Index (XSH) 3.06%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XSH iShares Core CAD ST Cor Bd Index.{0,70}? 3\\.06 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "13f5212efcbe",
+      "value": "3.59%",
+      "context": "US Aggregate Bond Index ETF, CAD-hedged 3.59% iShares US Treasury Bond ETF (GOVT) 1.99%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "US Aggregate Bond Index ETF Cad Hedged\\s*3\\.59%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "1aad289898ba",
+      "value": "1.99%",
+      "context": "US Aggregate Bond Index ETF, CAD-hedged 3.59% iShares US Treasury Bond ETF (GOVT) 1.99%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "GOVT ISHARES US TREASURY BOND ETF.{0,70}? 1\\.99 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "3a1c695f5ac8",
+      "value": "1.97%",
+      "context": "(none) iShares Broad USD Investment Grade (USIG) 1.97%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "USIG ISHARES BROAD USD INVESTMENT G.{0,70}? 1\\.97 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "0cb8a127e3e2",
+      "value": "0.02%",
+      "context": "Short-term reserves 0.02% CAD and USD cash 0.24%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Short-term reserves\\s*0\\.02%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "dcc846ec8f8c",
+      "value": "0.24%",
+      "context": "Short-term reserves 0.02% CAD and USD cash 0.24%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro cash"
+      },
+      "needle": "displaying values. Range: 0 to 0.36. Sep 24, 2026 Jun 25, 2024 0 0.12 0.24 0.36 End of interactive chart. View full chart DRIP/PACC View full ch",
+      "formula": "recomputed from page numbers: xgro cash"
+    },
+    {
+      "id": "5e793e4f20fc",
+      "value": "30.5%",
+      "context": "Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.CA/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Jan 6, 2025\"},{x:Date.UTC(2025,0,7),y:Number((30.5).toFixed(2)),formattedX: \"Jan 7, 2025\"},{x:Date.UTC(2025,0,8),y:Numbe",
+      "formula": "recomputed from page numbers: vgro.CA/stocks*100"
+    },
+    {
+      "id": "8269de32e969",
+      "value": "25.0%",
+      "context": "Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "8b61272b08f7",
+      "value": "24.7%",
+      "context": "Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XEF/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XEF/stocks*100"
+    },
+    {
+      "id": "73c200c582fb",
+      "value": "17.7%",
+      "context": "Dividing each stock holding by the fund's total stock weight shows VGRO at about 30.5% Canadian against about 25.0% for XGRO, and XGRO putting about 24.7% of its stocks into developed markets outside North America against about 17.7% for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.DEV/stocks*100"
+      },
+      "needle": "st. It does not tell you how the ETF will perform in the future. 2019 17.7% 2020 10.8% 2021 15.0% 2022 -11.2% 2023 14.9% 2024 20.2% 2025 16.9% Be",
+      "formula": "recomputed from page numbers: vgro.DEV/stocks*100"
+    },
+    {
+      "id": "e8bf118a6a8a",
+      "value": "36.62%",
+      "context": "US stocks 36.62% 36.23% 45.2% 45.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Morningstar US Total Market Index ETF\\s*36\\.62%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "55bb043cedcf",
+      "value": "36.23%",
+      "context": "US stocks 36.62% 36.23% 45.2% 45.5%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "ITOT ISHARES CORE S&P TOTAL U\\.S\\. STOCK.{0,70}? 36\\.23 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "136c1dc74305",
+      "value": "45.2%",
+      "context": "US stocks 36.62% 36.23% 45.2% 45.5%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.US/stocks*100"
+      },
+      "needle": "rom Nov 23 2026 to Nov 27 2026. The most recent price is $46.32. 45.5 45.2 45.3 45.4 45.5 45.6 45.7 45.8 45.9 46.0 46.6 46.2 46.4 45.0 44.8 L No",
+      "formula": "recomputed from page numbers: vgro.US/stocks*100"
+    },
+    {
+      "id": "68080bc8d2f3",
+      "value": "45.5%",
+      "context": "US stocks 36.62% 36.23% 45.2% 45.5%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.ITOT/stocks*100"
+      },
+      "needle": "ory from Nov 23 2026 to Nov 27 2026. The most recent price is $46.32. 45.5 45.2 45.3 45.4 45.5 45.6 45.7 45.8 45.9 46.0 46.6 46.2 46.4 45.0 44.8",
+      "formula": "recomputed from page numbers: xgro.ITOT/stocks*100"
+    },
+    {
+      "id": "a4327266fdb2",
+      "value": "24.76%",
+      "context": "Canadian stocks 24.76% 19.92% 30.5% 25.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Canada All Cap Index ETF\\s*24\\.76%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "e1516515b03a",
+      "value": "19.92%",
+      "context": "Canadian stocks 24.76% 19.92% 30.5% 25.0%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XIC ISHARES S&P/TSX CAPPED COMPOSITE.{0,70}? 19\\.92 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "8667c2c3383a",
+      "value": "30.5%",
+      "context": "Canadian stocks 24.76% 19.92% 30.5% 25.0%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.CA/stocks*100"
+      },
+      "needle": "oFixed(2)),formattedX: \"Jan 6, 2025\"},{x:Date.UTC(2025,0,7),y:Number((30.5).toFixed(2)),formattedX: \"Jan 7, 2025\"},{x:Date.UTC(2025,0,8),y:Numbe",
+      "formula": "recomputed from page numbers: vgro.CA/stocks*100"
+    },
+    {
+      "id": "82ec6437c224",
+      "value": "25.0%",
+      "context": "Canadian stocks 24.76% 19.92% 30.5% 25.0%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC/stocks*100"
+    },
+    {
+      "id": "5214973e4f16",
+      "value": "14.36%",
+      "context": "Developed markets outside North America 14.36% 19.70% 17.7% 24.7%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Developed All Cap ex-North America Index ETF\\s*14\\.36%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "0ee03ca765a3",
+      "value": "19.70%",
+      "context": "Developed markets outside North America 14.36% 19.70% 17.7% 24.7%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XEF ISHARES MSCI EAFE IMI INDEX.{0,70}? 19\\.70 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "c640b5b74994",
+      "value": "17.7%",
+      "context": "Developed markets outside North America 14.36% 19.70% 17.7% 24.7%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.DEV/stocks*100"
+      },
+      "needle": "st. It does not tell you how the ETF will perform in the future. 2019 17.7% 2020 10.8% 2021 15.0% 2022 -11.2% 2023 14.9% 2024 20.2% 2025 16.9% Be",
+      "formula": "recomputed from page numbers: vgro.DEV/stocks*100"
+    },
+    {
+      "id": "a8768de3026f",
+      "value": "24.7%",
+      "context": "Developed markets outside North America 14.36% 19.70% 17.7% 24.7%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XEF/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XEF/stocks*100"
+    },
+    {
+      "id": "ce9cc1a18cd3",
+      "value": "5.35%",
+      "context": "Emerging markets 5.35% 3.85% 6.6% 4.8%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "FTSE Emerging Markets All Cap Index ETF\\s*5\\.35%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "bb4634108341",
+      "value": "3.85%",
+      "context": "Emerging markets 5.35% 3.85% 6.6% 4.8%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "XEC ISHARES MSCI EMERGING MARKET.{0,70}? 3\\.85 ",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "409b0ce00d59",
+      "value": "6.6%",
+      "context": "Emerging markets 5.35% 3.85% 6.6% 4.8%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.EM/stocks*100"
+      },
+      "formula": "recomputed from page numbers: vgro.EM/stocks*100"
+    },
+    {
+      "id": "d91daa64a39f",
+      "value": "4.8%",
+      "context": "Emerging markets 5.35% 3.85% 6.6% 4.8%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XEC/stocks*100"
+      },
+      "formula": "recomputed from page numbers: xgro.XEC/stocks*100"
+    },
+    {
+      "id": "dfc368279cbf",
+      "value": "81.09%",
+      "context": "All stocks 81.09% 79.70% 100% 100%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro stocks sum"
+      },
+      "formula": "recomputed from page numbers: vgro stocks sum"
+    },
+    {
+      "id": "490188430137",
+      "value": "79.70%",
+      "context": "All stocks 81.09% 79.70% 100% 100%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro stocks sum"
+      },
+      "formula": "recomputed from page numbers: xgro stocks sum"
+    },
+    {
+      "id": "6fe2d15eab29",
+      "value": "100%",
+      "context": "All stocks 81.09% 79.70% 100% 100%",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: by construction: shares of stocks sum to 100%"
+      },
+      "note": "by construction: shares of stocks sum to 100%"
+    },
+    {
+      "id": "20292b1b6a47",
+      "value": "11.54%",
+      "context": "Canadian-dollar bonds 11.54% 16.18%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canadian Aggregate Bond Index ETF\\s*11\\.54%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "a9a34d13797b",
+      "value": "16.18%",
+      "context": "Canadian-dollar bonds 11.54% 16.18%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro CAD bonds XBB+XSH"
+      },
+      "needle": "ixed(2)),formattedX: \"Apr 12, 2013\"},{x:Date.UTC(2013,3,15),y:Number((16.18).toFixed(2)),formattedX: \"Apr 15, 2013\"},{x:Date.UTC(2013,3,16),y:Num",
+      "formula": "recomputed from page numbers: xgro CAD bonds XBB+XSH"
+    },
+    {
+      "id": "fb454f00b99c",
+      "value": "7.36%",
+      "context": "Foreign bonds 7.36% 3.96%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro foreign bonds"
+      },
+      "formula": "recomputed from page numbers: vgro foreign bonds"
+    },
+    {
+      "id": "d6c1c7f4df63",
+      "value": "3.96%",
+      "context": "Foreign bonds 7.36% 3.96%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro foreign bonds GOVT+USIG"
+      },
+      "formula": "recomputed from page numbers: xgro foreign bonds GOVT+USIG"
+    },
+    {
+      "id": "c90322de41d1",
+      "value": "18.90%",
+      "context": "All bonds 18.90% 20.14%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Bond\\s*18\\.90%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "55ac93e041d7",
+      "value": "20.14%",
+      "context": "All bonds 18.90% 20.14%",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro bonds sum"
+      },
+      "needle": "Fixed(2)),formattedX: \"Jun 30, 2017\"},{x:Date.UTC(2017,6,4),y:Number((20.14).toFixed(2)),formattedX: \"Jul 4, 2017\"},{x:Date.UTC(2017,6,5),y:Numbe",
+      "formula": "recomputed from page numbers: xgro bonds sum"
+    },
+    {
+      "id": "8648edc19746",
+      "value": "$100,000,",
+      "context": "On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO.",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "3c8019075448",
+      "value": "$24,760",
+      "context": "On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.CA $ in 100k"
+      },
+      "formula": "recomputed from page numbers: vgro.CA $ in 100k"
+    },
+    {
+      "id": "508d269f25ff",
+      "value": "$19,920,",
+      "context": "On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XIC $ in 100k"
+      },
+      "formula": "recomputed from page numbers: xgro.XIC $ in 100k"
+    },
+    {
+      "id": "c30d26396298",
+      "value": "$19,700",
+      "context": "On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xgro.XEF $ in 100k"
+      },
+      "formula": "recomputed from page numbers: xgro.XEF $ in 100k"
+    },
+    {
+      "id": "176bbf560e5d",
+      "value": "$14,360",
+      "context": "On $100,000, that means VGRO holds about $24,760 in Canadian stocks and XGRO about $19,920, while XGRO holds about $19,700 in developed markets outside North America against $14,360 for VGRO.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: vgro.DEV $ in 100k"
+      },
+      "formula": "recomputed from page numbers: vgro.DEV $ in 100k"
+    },
+    {
+      "id": "310264f83725",
+      "value": "45.30%",
+      "context": "Vanguard's own country table, which covers stocks only, shows 45.30% in the United States and 30.59% in Canada as at October 31, 2026, which matches the arithmetic above to within rounding and the different rounding of the underlying weights.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "United States of America\\s*North America\\s*45\\.30%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "575fe71f4bc2",
+      "value": "30.59%",
+      "context": "Vanguard's own country table, which covers stocks only, shows 45.30% in the United States and 30.59% in Canada as at October 31, 2026, which matches the arithmetic above to within rounding and the different rounding of the underlying weights.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Canada\\s*North America\\s*30\\.59%",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "ab17f96983fe",
+      "value": "October 31, 2026",
+      "context": "Vanguard's own country table, which covers stocks only, shows 45.30% in the United States and 30.59% in Canada as at October 31, 2026, which matches the arithmetic above to within rounding and the different rounding of the underlying weights.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "AS AT OCT 31 2026",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "ff306339f89b",
+      "value": "0.19%",
+      "context": "On the published MER, XGRO costs less: 0.19% against 0.22%, a gap of 0.03 percentage points.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "ef672e036323",
+      "value": "0.22%",
+      "context": "On the published MER, XGRO costs less: 0.19% against 0.22%, a gap of 0.03 percentage points.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "db952e97727a",
+      "value": "0.03",
+      "context": "On the published MER, XGRO costs less: 0.19% against 0.22%, a gap of 0.03 percentage points.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+      },
+      "formula": "recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+    },
+    {
+      "id": "e1be60852549",
+      "value": "0.17%",
+      "context": "On the management fee, the two are tied at 0.17%, and that is the number to watch because both issuers cut it in late 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "12cada394fea",
+      "value": "0.22%",
+      "context": "Balance VGRO MER 0.22% XGRO MER 0.19% Gap Both at 0.17%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "6516aa7639fc",
+      "value": "0.19%",
+      "context": "Balance VGRO MER 0.22% XGRO MER 0.19% Gap Both at 0.17%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "901f15cd27fa",
+      "value": "0.17%",
+      "context": "Balance VGRO MER 0.22% XGRO MER 0.19% Gap Both at 0.17%",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "1f27e33f3618",
+      "value": "$25,000",
+      "context": "$25,000 $55.00 $47.50 $7.50 $42.50",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "b0827d2729dc",
+      "value": "$55.00",
+      "context": "$25,000 $55.00 $47.50 $7.50 $42.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt MER $25k; vgro MER $25k; vbal MER $25k"
+      },
+      "formula": "recomputed from page numbers: veqt MER $25k; vgro MER $25k; vbal MER $25k"
+    },
+    {
+      "id": "89aac241a9fb",
+      "value": "$47.50",
+      "context": "$25,000 $55.00 $47.50 $7.50 $42.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt MER $25k; xgro MER $25k"
+      },
+      "formula": "recomputed from page numbers: xeqt MER $25k; xgro MER $25k"
+    },
+    {
+      "id": "65a5ea2cfb38",
+      "value": "$7.50",
+      "context": "$25,000 $55.00 $47.50 $7.50 $42.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap $25k vgro-xgro"
+      },
+      "formula": "recomputed from page numbers: MER gap $25k vgro-xgro"
+    },
+    {
+      "id": "5c3ff1635fa1",
+      "value": "$42.50",
+      "context": "$25,000 $55.00 $47.50 $7.50 $42.50",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $25k; vgro FEE $25k; vbal FEE $25k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $25k; vgro FEE $25k; vbal FEE $25k"
+    },
+    {
+      "id": "9e1f006691b1",
+      "value": "$100,000",
+      "context": "$100,000 $220.00 $190.00 $30.00 $170.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "7f7fab835c9b",
+      "value": "$220.00",
+      "context": "$100,000 $220.00 $190.00 $30.00 $170.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt MER $ per 100k; vgro MER $ per 100k; vbal MER $ per 100k"
+    },
+    {
+      "id": "a2ea094dc522",
+      "value": "$190.00",
+      "context": "$100,000 $220.00 $190.00 $30.00 $170.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+      },
+      "formula": "recomputed from page numbers: xeqt MER $ per 100k; xgro MER $ per 100k; xeqt MER $100k"
+    },
+    {
+      "id": "12505bb4f882",
+      "value": "$30.00",
+      "context": "$100,000 $220.00 $190.00 $30.00 $170.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap $100k veqt-xeqt; MER gap $100k veqt-xgro; MER gap $100k vgro-xeqt"
+      },
+      "formula": "recomputed from page numbers: MER gap $100k veqt-xeqt; MER gap $100k veqt-xgro; MER gap $100k vgro-xeqt"
+    },
+    {
+      "id": "9587ecd3bb4c",
+      "value": "$170.00",
+      "context": "$100,000 $220.00 $190.00 $30.00 $170.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $ per 100k; vgro FEE $ per 100k; vbal FEE $ per 100k"
+    },
+    {
+      "id": "270a953787fc",
+      "value": "$250,000",
+      "context": "$250,000 $550.00 $475.00 $75.00 $425.00",
+      "kind": "example",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "declared example input: declared example portfolio size"
+      },
+      "note": "declared example portfolio size"
+    },
+    {
+      "id": "bd3188f3f2de",
+      "value": "$550.00",
+      "context": "$250,000 $550.00 $475.00 $75.00 $425.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt MER $250k; vgro MER $250k; vbal MER $250k"
+      },
+      "formula": "recomputed from page numbers: veqt MER $250k; vgro MER $250k; vbal MER $250k"
+    },
+    {
+      "id": "c49b8f5952a2",
+      "value": "$475.00",
+      "context": "$250,000 $550.00 $475.00 $75.00 $425.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: xeqt MER $250k; xgro MER $250k"
+      },
+      "formula": "recomputed from page numbers: xeqt MER $250k; xgro MER $250k"
+    },
+    {
+      "id": "ef13bf501ab5",
+      "value": "$75.00",
+      "context": "$250,000 $550.00 $475.00 $75.00 $425.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap $250k vgro-xgro"
+      },
+      "formula": "recomputed from page numbers: MER gap $250k vgro-xgro"
+    },
+    {
+      "id": "83445536b833",
+      "value": "$425.00",
+      "context": "$250,000 $550.00 $475.00 $75.00 $425.00",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: veqt FEE $250k; vgro FEE $250k; vbal FEE $250k"
+      },
+      "formula": "recomputed from page numbers: veqt FEE $250k; vgro FEE $250k; vbal FEE $250k"
+    },
+    {
+      "id": "68d016013062",
+      "value": "0.22%",
+      "context": "Vanguard's ETF Facts say the ETF's expenses were 0.22% of its value as of March 31, 2026, and add that the manager reduced the management fee from 0.22% to 0.17% effective November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "d91994ab9991",
+      "value": "March 31, 2026",
+      "context": "Vanguard's ETF Facts say the ETF's expenses were 0.22% of its value as of March 31, 2026, and add that the manager reduced the management fee from 0.22% to 0.17% effective November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "As of March 31, 2026, the ETF's expenses were 0\\.22% of its value",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "3092691b134e",
+      "value": "0.17%",
+      "context": "Vanguard's ETF Facts say the ETF's expenses were 0.22% of its value as of March 31, 2026, and add that the manager reduced the management fee from 0.22% to 0.17% effective November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "42a54409f62d",
+      "value": "November 18, 2025",
+      "context": "Vanguard's ETF Facts say the ETF's expenses were 0.22% of its value as of March 31, 2026, and add that the manager reduced the management fee from 0.22% to 0.17% effective November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective November 18, 2025, Vanguard reduced the management fee",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "a3cea4407c7c",
+      "value": "0.17%",
+      "context": "BlackRock's page shows a 0.17% management fee and a 0.19% MER, and says the 0.17% includes all underlying ETF management fees.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "157dc244100d",
+      "value": "0.19%",
+      "context": "BlackRock's page shows a 0.17% management fee and a 0.19% MER, and says the 0.17% includes all underlying ETF management fees.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "bdbd11837880",
+      "value": "0.03",
+      "context": "So the 0.03-point gap in the table is what each fund last reported, not a promise about next year.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+      },
+      "needle": ".17-$47.02 Net asset value (NAV) $38.15-$47.06 Average bid-ask spread 0.031% What does the ETF invest in? The fund seeks to provide long-term ca",
+      "formula": "recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+    },
+    {
+      "id": "81d213ba24f4",
+      "value": "0.03%",
+      "context": "Our MER drag guide shows how a fee compounds, and your broker's trading costs and any currency conversion matter as much as 0.03%.",
+      "kind": "derived",
+      "sourceUrl": "",
+      "sourceName": "",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": "formula: recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+      },
+      "needle": "10.51%10.96%19.38%10.17%-9.65% Benchmark -------- Market price -1.43%-0.03%10.52%10.93%19.37%10.18%-9.65%Download*Since inception Jan 25 2018Benc",
+      "formula": "recomputed from page numbers: MER gap veqt-xeqt; MER gap veqt-xgro; MER gap vgro-xeqt"
+    },
+    {
+      "id": "45be551f2f2a",
+      "value": "January 25, 2018",
+      "context": "VGRO began on January 25, 2018.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception date\\s*Jan 25 2018",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "bc8ccaad6206",
+      "value": "June 21, 2007",
+      "context": "XGRO's page lists an inception date of June 21, 2007 and notes that on December 11, 2018 the fundamental investment objective, management fee and fee structure of the ETF changed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Inception Date\\s*Jun 21, 2007",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "82dc48014306",
+      "value": "December 11, 2018",
+      "context": "XGRO's page lists an inception date of June 21, 2007 and notes that on December 11, 2018 the fundamental investment objective, management fee and fee structure of the ETF changed.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 11, 2018, the fundamental investment objective",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "012465530724",
+      "value": "December 18, 2025",
+      "context": "A return quoted for XGRO before December 2018 belongs to a differently designed fund, and BlackRock's page also says its performance data does not reflect the December 18, 2025 fee reduction.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective December 18, 2025, the management fee of the ETF was reduced from 0\\.18% to 0\\.17%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "c51b97760307",
+      "value": "80",
+      "context": "Decide whether 80/20 is your mix.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "f6f39392947c",
+      "value": "20",
+      "context": "Decide whether 80/20 is your mix.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "4bbf535d7fea",
+      "value": "80",
+      "context": "They target the same 80/20 mix at the same 0.17% management fee, so the choice comes down to the stock and bond mix inside each fund and to the small MER gap of 0.22% against 0.19%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "7e4c103499b6",
+      "value": "20",
+      "context": "They target the same 80/20 mix at the same 0.17% management fee, so the choice comes down to the stock and bond mix inside each fund and to the small MER gap of 0.22% against 0.19%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "4fcf760103e2",
+      "value": "0.17%",
+      "context": "They target the same 80/20 mix at the same 0.17% management fee, so the choice comes down to the stock and bond mix inside each fund and to the small MER gap of 0.22% against 0.19%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "9bf5c2cd5f61",
+      "value": "0.22%",
+      "context": "They target the same 80/20 mix at the same 0.17% management fee, so the choice comes down to the stock and bond mix inside each fund and to the small MER gap of 0.22% against 0.19%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "9eac35d2fa76",
+      "value": "0.19%",
+      "context": "They target the same 80/20 mix at the same 0.17% management fee, so the choice comes down to the stock and bond mix inside each fund and to the small MER gap of 0.22% against 0.19%.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.blackrock.com/ca/investors/en/products/239447/ishares-balanced-growth-coreportfoliotm-fund",
+      "sourceName": "BlackRock Canada: iShares Core Growth ETF Portfolio (XGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.19%",
+      "needleSource": "xgro",
+      "extraNeedles": []
+    },
+    {
+      "id": "14a4b53c90b6",
+      "value": "0.22%",
+      "context": "Vanguard's ETF Facts report expenses of 0.22% as of March 31, 2026, and say the management fee was reduced from 0.22% to 0.17% on November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Expense Ratio \\(MER\\)\\s*0\\.22%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "3ef630462cdf",
+      "value": "March 31, 2026",
+      "context": "Vanguard's ETF Facts report expenses of 0.22% as of March 31, 2026, and say the management fee was reduced from 0.22% to 0.17% on November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "As of March 31, 2026, the ETF's expenses were 0\\.22% of its value",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "d7277d9a687f",
+      "value": "0.17%",
+      "context": "Vanguard's ETF Facts report expenses of 0.22% as of March 31, 2026, and say the management fee was reduced from 0.22% to 0.17% on November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Management Fee\\s*0\\.17%",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "Management Fee\\s*0\\.17%"
+        ],
+        [
+          "vgro_etffacts_raw",
+          "from 0\\.22% to 0\\.17%"
+        ]
+      ]
+    },
+    {
+      "id": "efa898845963",
+      "value": "November 18, 2025",
+      "context": "Vanguard's ETF Facts report expenses of 0.22% as of March 31, 2026, and say the management fee was reduced from 0.22% to 0.17% on November 18, 2025.",
+      "kind": "sourced",
+      "sourceUrl": "https://fund-docs.vanguard.com/VGRO_Growth_ETF_Portfolio_ETF_9579_EN_FACTS.pdf",
+      "sourceName": "Vanguard Investments Canada: VGRO ETF Facts",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "Effective November 18, 2025, Vanguard reduced the management fee",
+      "needleSource": "vgro_etffacts_raw",
+      "extraNeedles": []
+    },
+    {
+      "id": "955ffc724010",
+      "value": "80%",
+      "context": "Both aim for the same 80% stocks and 20% bonds, so holding both mainly duplicates the same markets across two tickers.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    },
+    {
+      "id": "1c259a6b6d77",
+      "value": "20%",
+      "context": "Both aim for the same 80% stocks and 20% bonds, so holding both mainly duplicates the same markets across two tickers.",
+      "kind": "sourced",
+      "sourceUrl": "https://www.vanguard.ca/en/product/etf/asset-allocation/9579/vanguard-growth-etf-portfolio",
+      "sourceName": "Vanguard Canada: Growth ETF Portfolio (VGRO)",
+      "asOf": "2026-11-28",
+      "derivedFrom": [],
+      "verify": {
+        "status": "unverified",
+        "checkedOn": "",
+        "verifier": "",
+        "note": ""
+      },
+      "needle": "equity \\(approximately 80%\\) and fixed income \\(approximately 20%\\)",
+      "needleSource": "vgro",
+      "extraNeedles": [
+        [
+          "xgro",
+          "80% equity and 20% fixed income"
+        ]
+      ]
+    }
+  ]
+}

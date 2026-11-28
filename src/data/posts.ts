@@ -24,6 +24,7 @@ import { batch20261121Posts } from './nov2026/batch-2026-11-21';
 import { batch20261122Posts } from './nov2026/batch-2026-11-22';
 import { batch20261123Posts } from './nov2026/batch-2026-11-23';
 import { batch20261126Posts } from './nov2026/batch-2026-11-26';
+import { batch20261128Posts } from './nov2026/batch-2026-11-28';
 
 const allPosts: BlogPostRecord[] = [
   {
@@ -1901,6 +1902,8 @@ const allPosts: BlogPostRecord[] = [
     <p>If a salesperson pitches a switch for a few basis points, ask for the primary fact sheet and a one-page comparison you can keep. Most households should not pay tax or FX costs to chase a tiny MER gap.</p>
     <p>Link the refreshed page from your household one-pager so the next annual review starts from the current URL, not a bookmark to an old PDF.</p>
 
+    <p><strong>Related:</strong> <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO: what each 80/20 all-in-one ETF holds</a>; <a href="/blog/best-all-in-one-etfs-canada/">Best all-in-one ETFs in Canada: Vanguard and iShares compared</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education comparing one-ticket asset-allocation ETFs with a multi-ETF portfolio for Canadian accounts. It is not investment, tax, or legal advice, and it is not a recommendation to buy VEQT, XEQT, or any other fund. MER gaps cited as a way to picture scale are not quotes. Holdings, fees, and tax rules change. Confirm the current ETF facts and consult a registered adviser for a plan that fits your file.</p>
         <div class="footer-note">Published: September 24, 2026 | Category: Investing | Author: Andrew</div>
@@ -3194,6 +3197,8 @@ const allPosts: BlogPostRecord[] = [
         <p>Keep the score boring and put the optimization hours into the return you file. The 2026 tax guide covers the brackets and registered-account moves that dwarf a utilization tweak.</p>
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
+
+    <p><strong>Related:</strong> <a href="/blog/balance-transfer-vs-consolidation-loan-canada/">Balance transfer vs consolidation loan: which costs less?</a></p>
 
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about Canadian credit reports and card-application behaviour. It is not credit advice, not a guarantee of approval or score outcomes, and not a recommendation of any card. Scoring models, bureau contents, and issuer underwriting change. Confirm details with Equifax, TransUnion, the issuer, and the Financial Consumer Agency of Canada as appropriate.</p>
@@ -25476,6 +25481,8 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/balance-transfer-vs-consolidation-loan-canada/">Balance transfer vs consolidation loan: which costs less?</a></p>
+
     <div class="article-footer">
         <p><strong>Disclaimer:</strong> This is general education about comparing debt repayment with investing for Canadian residents. It is not tax, credit, or investment advice, and it is not a recommendation to borrow or to invest. Interest rates, deductibility, and brackets are specific to your contracts and your return. Every rate and percentage in the examples is illustrative. Confirm the APR on your statement, the coupon on your mortgage, and the use of any borrowed money with a CPA before you rely on a deduction.</p>
         <div class="footer-note">Published: September 19, 2026 | Category: Budgeting &amp; Saving | Author: Andrew</div>
@@ -27047,6 +27054,7 @@ Ready to Build Your Complete Retirement Plan? Download <em>The Canadian Retireme
   ...batch20261122Posts,
   ...batch20261123Posts,
   ...batch20261126Posts,
+  ...batch20261128Posts,
 
 ];
 

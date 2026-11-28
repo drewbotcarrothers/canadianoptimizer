@@ -213,6 +213,8 @@ export const stayTheCourseBalancedPortfoliosCanada = invPost(
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO: what each 80/20 all-in-one ETF holds</a></p>
+
     ${invFooter("General education about historical fund returns as of October 24, 2026. Past performance is not a guarantee of future results. The Patel example is illustrative. This is not investment advice.", "October 24, 2026")}
 
 </div>`,

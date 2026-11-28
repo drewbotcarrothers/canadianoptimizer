@@ -1,0 +1,39 @@
+{
+  "slug": "best-all-in-one-etfs-canada",
+  "title": "Best All-in-One ETFs in Canada: Vanguard and iShares Compared",
+  "family": "best-of",
+  "category": "investing",
+  "subcategory": "passive-etf",
+  "targetQuery": "best all-in-one etfs canada",
+  "secondaryQueries": [
+    "vgro vs xgro",
+    "veqt vs xeqt",
+    "best asset allocation etf canada",
+    "all in one etf canada"
+  ],
+  "infoGain": "One table that puts all eight funds on the same footing, with the target mix, fees, distribution schedule and size, plus our calculation of each fund's Canadian share of stocks, which shows Vanguard's four funds hold roughly 5 to 6 percentage points more Canada than iShares'.",
+  "money": true,
+  "offers": [],
+  "ebook": "index-investing-guide",
+  "publishDate": "2026-11-28",
+  "agentChecks": {
+    "2a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": ""
+    },
+    "4a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": ""
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

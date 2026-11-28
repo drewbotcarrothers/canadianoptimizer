@@ -229,6 +229,8 @@ export const modelEtfPortfoliosCanada = invPost(
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO: what each 80/20 all-in-one ETF holds</a>; <a href="/blog/best-all-in-one-etfs-canada/">Best all-in-one ETFs in Canada: Vanguard and iShares compared</a></p>
+
     ${invFooter("General education about all-in-one ETF portfolios as of October 23, 2026. It is not a recommendation to buy any fund and not investment advice. Returns are historical, from the provider pages listed in Sources, and are not a forecast. Households and DIY mixes are labelled illustrations. Check the current fund facts before you invest.")}
 
 </div>`

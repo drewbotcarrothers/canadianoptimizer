@@ -301,6 +301,8 @@ export const couchPotatoPortfolioCanada = invPost(
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/best-all-in-one-etfs-canada/">Best all-in-one ETFs in Canada: Vanguard and iShares compared</a></p>
+
     ${invFooter('General education about passive investing in Canada as of October 23, 2026. It is not a recommendation to buy, sell, or hold any security, and not investment or tax advice. Fund fees and returns are from BlackRock pages on the date shown in Sources; past returns are not a forecast. Dollar examples are labelled illustrations of arithmetic. Confirm the current fund page and your CRA room before you act, and consult a registered adviser or tax professional for your own situation.')}
 
 </div>`

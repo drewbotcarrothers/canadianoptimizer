@@ -717,6 +717,8 @@ const investingClusterPostsRaw: InvestingPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/vgro-vs-xgro-canada/">VGRO vs XGRO: what each 80/20 all-in-one ETF holds</a>; <a href="/blog/best-all-in-one-etfs-canada/">Best all-in-one ETFs in Canada: Vanguard and iShares compared</a></p>
+
     ${footer('September 27, 2026')}
 
 </div>`

@@ -1,0 +1,39 @@
+{
+  "slug": "vgro-vs-xgro-canada",
+  "title": "VGRO vs XGRO: What Each 80/20 All-in-One ETF Holds",
+  "family": "vs",
+  "category": "investing",
+  "subcategory": "passive-etf",
+  "targetQuery": "vgro vs xgro",
+  "secondaryQueries": [
+    "vgro or xgro",
+    "xgro vs vgro",
+    "vgro vs xgro fees",
+    "vgro xgro holdings"
+  ],
+  "infoGain": "A side-by-side table that sorts both funds' published underlying holdings into the same seven buckets, so you can see that VGRO holds about 30.5% of its stocks in Canada against about 25.0% for XGRO, and what $100,000 in each actually owns.",
+  "money": false,
+  "offers": [],
+  "ebook": "index-investing-guide",
+  "publishDate": "2026-11-28",
+  "agentChecks": {
+    "2a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": ""
+    },
+    "4a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": ""
+    },
+    "6a": {
+      "pass": null,
+      "by": "",
+      "on": "",
+      "note": "money pages only: picks by buyer type, one CTA per pick, non-affiliate option shown"
+    }
+  }
+}

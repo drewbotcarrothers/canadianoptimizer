@@ -511,8 +511,8 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "Start with the DIY ETF portfolio guide, then compare all-in-one ETFs against building your own. The guides cover asset location across the TFSA, RRSP, FHSA and taxable accounts, rebalancing, and how to stay invested when markets fall. Fund facts come from the providers' own pages with the date they were checked.",
       "Choosing a brokerage and the accounts themselves are covered in their own hubs; read them alongside this one.",
     ],
-    decisions: ["Which all-in-one ETF matches my risk level?", "Should I hold one fund or build my own mix?", "Which ETF goes in which account?", "How and when should I rebalance?"],
-    startHere: [],
+    decisions: ["Which all-in-one ETF matches my risk level?", "VGRO or XGRO for an 80/20 mix?", "Should I hold one fund or build my own mix?", "Which ETF goes in which account?", "How and when should I rebalance?"],
+    startHere: ["best-all-in-one-etfs-canada", "vgro-vs-xgro-canada"],
   },
   "investing/dividend-investing": {
     intro: [
@@ -755,7 +755,7 @@ export const HUB_CONTENT: Record<string, HubContent> = {
       "For a full payoff plan, including consolidation loans and consumer proposals, see the debt payoff hub in Budgeting & Saving.",
     ],
     decisions: ["Will a balance transfer actually save me money?", "What does the transfer fee cost?", "What happens when the promotional rate ends?", "Is a low-interest card or a loan cheaper?"],
-    startHere: ["best-balance-transfer-credit-cards-canada"],
+    startHere: ["best-balance-transfer-credit-cards-canada", "balance-transfer-vs-consolidation-loan-canada"],
   },
   "credit-cards/card-strategy": {
     intro: [

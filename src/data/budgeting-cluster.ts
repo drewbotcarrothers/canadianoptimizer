@@ -1380,6 +1380,8 @@ export const budgetingClusterPosts: BudgetPost[] = [
         <a href="/ebooks/tax-guide/" class="cta-button">Get the 2026 Tax Guide — $49 CAD</a>
     </div>
 
+    <p><strong>Related:</strong> <a href="/blog/balance-transfer-vs-consolidation-loan-canada/">Balance transfer vs consolidation loan: which costs less?</a></p>
+
     ${footer}
 
 </div>`
